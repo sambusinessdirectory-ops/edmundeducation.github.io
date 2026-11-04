@@ -1,0 +1,1327 @@
+{
+  "id": "p2-020-stress-of-workplace",
+  "catalogueId": "p2-020",
+  "catalogueIds": [
+    "p2-020",
+    "p2-050"
+  ],
+  "passage": 2,
+  "title": "Stress of Workplace",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "A",
+    "D",
+    "B*",
+    "D",
+    "C",
+    "B",
+    "D",
+    "A",
+    "lost time",
+    "16.6 weeks",
+    "7 per cent",
+    "golf",
+    "massage"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "A — Jan Eisner",
+      "answerKey": "A — Jan Eisner",
+      "type": "Matching Features",
+      "prompt": "“Workplace stress is usually associated with senior levels of business.”",
+      "translation": "職場壓力通常和商業機構較高層級的人員相關。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。題目要求把 statement 配到正確人物。人物配對題要先找人名，再看該人物附近的 reporting verb，例如 says、suggests、shows，再分清這是人物觀點，還是作者評論。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Identify the causes. Jan Eisner, a Melbourne psychologist who specialises in executive coaching, says that thriving on a demanding workload is typical of senior executives and other high-potential businesspeople.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要先找出原因。Melbourne 心理學家 Jan Eisner 專門做行政人員 coaching，她說能在高要求工作量下仍然活躍運作，是 senior executives 和其他高潛力商業人士的典型特徵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘But that would not tell us how that person experiences stress or what its emotional and cognitive effects will be.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「但那不能告訴我們那個人如何感受壓力，也不能告訴我們壓力會有甚麼情緒和認知影響。」只看首尾句，Paragraph D 的功能是引入 Jan Eisner 對 executive stress 的看法。首句直接把demanding workload 和 senior executives 連在一起；尾句提醒我們，壓力不能只靠生理指標判斷，也要看主觀經驗。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “senior levels of business”。原文沒有逐字寫 senior levels，但有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“senior executives and other high-potential businesspeople”。這是非常接近的同義範圍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Jan Eisner … says that thriving on a demanding workload is typical of senior executives and other high-potential businesspeople.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jan Eisner 說，在高要求工作量下仍能活躍運作，是高層行政人員和其他高潛力商業人士的典型特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 workplace stress is usually associated with senior levels of business。原文說 demanding workload 典型地出現在 senior executives 和 high-potential businesspeople 身上。這裡的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“associated with” 是對 “typical of” 的概括；“senior levels of business” 對應 “senior executives”。中伏位在於 Paragraph F 也提到 high-achieving executives 和 type-A personalities，但那段的重點是推翻「壓力只屬於高層」的傳統想法，人物也不在選項中。Question 14 要配到選項中的人物，所以最穩的是 Jan Eisner。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "D — Neil Plumridge",
+      "answerKey": "D — Neil Plumridge",
+      "type": "Matching Features",
+      "prompt": "“Adding people or other resources can help relieve stress.”",
+      "translation": "增加人手或其他資源，可以幫助減輕壓力。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three warning signs alert Plumridge to an excessive workload: sleep, scheduling and family.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有三個警號會提醒 Plumridge 工作量過高：睡眠、日程安排和家庭。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Just a fresh pair of eyes over an issue can help,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「只要有另一雙新鮮的眼睛看看問題，就可以有幫助。」只看首尾句，Paragraph B 主要講 Plumridge 如何辨認過量工作，並如何處理壓力。這段後半正是解決 workload pressure 的方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “adding people or other resources”。原文最接近的是 “allocating more resources”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“resources” 可以包括人手、時間、工具或其他支援，所以題目用 “people or other resources” 作較具體的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Plumridge makes it a priority to identify what must change; this may mean allocating more resources, allowing more time or altering expectations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Plumridge 會優先找出必須改變的地方；這可能代表分配更多資源、給予更多時間，或調整期望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Plumridge。核心方法有三項：allocating more resources、allowing more time、altering expectations。題目中的 “Adding people or other resources” 對應 “allocating more resources”。如果 resources 是人手，就等於 adding people；如果 resources 是其他支援，也符合"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“other resources”。這題容易和 Vanessa Stoykov 混淆，因為 Paragraph C 也提到 hiring more people。不過Vanessa 說 hiring 會在初期製造更多培訓工作；Plumridge 才是把 allocating more resources 作為可行調整之一的人物。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B — Vanessa Stoykov",
+      "answerKey": "B — Vanessa Stoykov",
+      "type": "Matching Features",
+      "prompt": "“A short break can sometimes create more work rather than less.”",
+      "translation": "短暫休息有時可能會帶來更多工作，而非減少工作。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Executive stress is not confined to large organisations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "行政人員壓力不限於大型機構。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We’re hiring more people, but you need to train them and teach them about the culture and the clients, so it’s actually more work rather than less,’ she explains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她解釋說：「我們正在聘請更多人，但你需要培訓他們，也要教他們公司文化和客戶資料，所以實際上工作量增加，沒有減少。」只看首尾句，Paragraph C 用 Vanessa Stoykov 說明小型快速增長企業同樣有壓力。尾句直接出現 “more work rather than less”，所以這段是 Question 16 的最可能位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “short break” 和 “more work rather than less”。Paragraph C 有 “short-term stress relief—weekends in the mountains and the occasional ‘mental-health’ day”，也有 “more work rather than less”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because the business is growing, Stoykov must rely on short-term stress relief—weekends in the mountains and the occasional ‘mental-health’ day—rather than delegating more work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為公司正在增長，Stoykov 必須依靠短期減壓方式，例如到山區過週末、偶爾放一日「心理健康日」，而不是把更多工作委派出去。"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We’re hiring more people, but you need to train them and teach them about the culture and the clients, so it’s actually more work rather than less,’ she explains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「我們正在聘請更多人，但你要培訓他們，也要教他們公司文化和客戶資料，所以實際上工作量增加，沒有減少。」嚴格看，造成 “more work rather than less” 的主體是 hiring more people / training new staff，不是 short break 本身。題目中的 “short break” 可能把前一句的 short-term relief 和後一句的 more work 壓在一起。若只按原文精準度，題目措辭有瑕疵；但四個人物中，只有 Vanessa 的段落同時講短期休息和「更多工作，沒有減少」。因此配對答案最合理是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "D — Neil Plumridge",
+      "answerKey": "D — Neil Plumridge",
+      "type": "Matching Features",
+      "prompt": "“Trying to satisfy clients by overpromising can create stress.”",
+      "translation": "為了滿足客戶而過度承諾，可能會製造壓力。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neil Plumridge, A.T. Kearney’s Australian vice-president, says, ‘Stress is often caused by the unrealistic expectations we set ourselves.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "A.T. Kearney 的澳洲副總裁 Neil Plumridge 說：「壓力常常由我們為自己設定的不切實際期望造成。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New research suggests that people may be hard-wired to behave this way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新研究顯示，人們可能天生就容易以這種方式行事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 的功能是解釋 self-imposed stress，即人如何因不切實際期望和過度承諾把壓力加到自己身上。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中 “clients” 和 “overpromising” 很有定位力。Paragraph G 直接有 “promise one client” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“promise another client”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“I’ll promise one client that I’ll do something tomorrow and then promise another client the same thing, even though I know it isn’t going to happen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我會向一位客戶承諾明天做某件事，然後又向另一位客戶作同樣承諾，即使我知道這不會做到。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“I’ve put stress on myself when I could have said, ‘Why don’t I give that to you in 48 hours?’ The client doesn’t care.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我本來可以說：「不如我 48 小時內給你？」客戶其實不介意，但我已經把壓力加到自己身上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “overpromising” 對應 “promise one client … promise another client the same thing”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“create stress” 對應 “put stress on myself”。所以答案是 Neil Plumridge，即 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "C — Gal Zauberman",
+      "answerKey": "C — Gal Zauberman",
+      "type": "Matching Features",
+      "prompt": "“People generally believe that they are busier now than they will be in the future.”",
+      "translation": "人們一般相信自己現在比未來更忙。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A study in the February issue of the Journal of Experimental Psychology shows that people consistently believe they will be less busy in the future than they are now.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Journal of Experimental Psychology》二月號的一項研究顯示，人們持續相信未來會比現在少忙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers suggest that people underestimate how long future tasks will take and are poor at imagining future demands on their time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者指出，人們低估未來任務所需時間，也不善於想像未來對自己時間的需求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句幾乎直接重現題目意思，並且下一句點名 Gal Zauberman 和 John Lynch。選項中只有 Gal Zauberman，所以答案可立即鎖定 C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “busier now” 和 “future”。原文有 “less busy in the future than they are now”。這是直接反向表達同一意思：未來較少忙 = 現在較忙。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the report’s authors, Professor Gal Zauberman of the University of North Carolina and Professor John Lynch of Duke University, this is a misconception.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據報告作者 University of North Carolina 的 Gal Zauberman 教授和 Duke University 的 John Lynch 教授，這是一種誤解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 people generally believe they are busier now than in the future；原文說 people consistently believe they will be less busy in the future than they are now。兩者意思相同。雖然原文也說這是一種 misconception，但題目只問「人們相信甚麼」，不是問這信念是否正確。答案是C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "B — inability to concentrate on work",
+      "answerKey": "B — inability to concentrate on work",
+      "type": "Multiple Choice",
+      "prompt": "“Which of the following warning signs of workplace stress is NOT mentioned by Plumridge?”",
+      "translation": "以下哪一項不是 Plumridge 提到的職場壓力警號？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three warning signs alert Plumridge to an excessive workload: sleep, scheduling and family.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有三個警號會提醒 Plumridge 工作量過高：睡眠、日程安排和家庭。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Just a fresh pair of eyes over an issue can help,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「只要有另一雙新鮮的眼睛看看問題，就可以有幫助。」Question 19 問 warning signs，所以 Paragraph B 首句已經提供三大方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “warning signs” 和 “Plumridge”。掃描 Paragraph B，可以找到 sleep、scheduling、family 這三項。接著逐一比對選項。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He knows he has too much to do when he sleeps for fewer than six hours on three consecutive nights, constantly reschedules appointments or neglects his family.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當他連續三晚睡少於六小時、不斷重新安排約會，或忽略家庭時，他就知道自己工作太多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A “insufficient time with family” 對應 “neglects his family”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C “insufficient sleep” 對應 “sleeps for fewer than six hours”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D “repeatedly rescheduling appointments” 對應 “constantly reschedules appointments”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B “inability to concentrate on work” 在原文沒有出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。這題最重要的技巧是：題目問 NOT mentioned，所以看到三個原文提及的項目後，要選剩下那項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "D — taking exercise or having a massage",
+      "answerKey": "D — taking exercise or having a massage",
+      "type": "Multiple Choice",
+      "prompt": "“Which of the following methods of reducing workload pressure is NOT mentioned by Plumridge?”",
+      "translation": "以下哪一項減輕工作壓力的方法不是 Plumridge 提到的？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three warning signs alert Plumridge to an excessive workload: sleep, scheduling and family.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有三個警號會提醒 Plumridge 工作量過高：睡眠、日程安排和家庭。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Just a fresh pair of eyes over an issue can help,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「只要有另一雙新鮮的眼睛看看問題，就可以有幫助。」Paragraph B 後半由 warning signs 轉向壓力處理方法。題目問 Plumridge 提到甚麼方法，所以要看他如何 reassess workloads。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “methods”、“reducing workload pressure” 和 “Plumridge”。原文有 “identify what must change”，後面列出三個方法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Plumridge makes it a priority to identify what must change; this may mean allocating more resources, allowing more time or altering expectations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Plumridge 會優先找出必須改變的地方；這可能代表分配更多資源、給予更多時間，或調整期望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “allocating more personnel or resources” 對應 “allocating more resources”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “allowing more time” 原文直接出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “lowering expectations” 對應 “altering expectations”。雖然 altering 未必一定是 lowering，但在減壓語境中，調整不切實際期望可包括降低或放寬要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “taking exercise or having a massage” 不屬於 Plumridge 的方法。原文只說 experts 提到temporary relief，例如 “a game of golf or a massage”，然後說真正關鍵是 reassessment of workloads。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。這裡要看清楚題幹中的 “mentioned by Plumridge”。Golf / massage 在文章出現過，但不是 Plumridge 建議的 workload reassessment 方法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "A — Medical tests reveal only part of the information needed to understand stress.",
+      "answerKey": "A — Medical tests reveal only part of the information needed to understand stress.",
+      "type": "Multiple Choice",
+      "prompt": "“What is Jan Eisner’s view of workplace stress?”",
+      "translation": "Jan Eisner 對職場壓力有甚麼看法？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Identify the causes. Jan Eisner, a Melbourne psychologist who specialises in executive coaching, says that thriving on a demanding workload is typical of senior executives and other high-potential businesspeople.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要先找出原因。Melbourne 心理學家 Jan Eisner 專門做行政人員 coaching，她說能在高要求工作量下仍然活躍運作，是 senior executives 和 other high-potential businesspeople 的典型特徵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘But that would not tell us how that person experiences stress or what its emotional and cognitive effects will be.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「但那不能告訴我們那個人如何感受壓力，也不能告訴我們壓力會有甚麼情緒和認知影響。」首尾句顯示，Eisner 的觀點不是單純說壓力大或小；她重點提醒我們，生理測試有用但不完整。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Jan Eisner” 和 “view of workplace stress”。原文有她直接說的 quote，也有 “hormonal measurements from urine and blood”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We could take hormonal measurements from urine and blood and judge whether someone is physiologically stressed,’ she says. ‘But that would not tell us how that person experiences stress or what its emotional and cognitive effects will be.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「我們可以從尿液和血液取得荷爾蒙測量數據，判斷某人是否在生理上受壓。但那不能告訴我們那個人如何感受壓力，也不能告訴我們壓力會有甚麼情緒和認知影響。」A 說 medical tests reveal only part of the information needed to understand stress。這正好概括原文：urine and blood measurements 可以判斷 physiological stress，但仍無法顯示個人經驗、情緒影響和認知影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 bodily samples play the decisive role，語氣過強，和原文 “would not tell us…” 不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 emotional effects are more important than physical effects，原文沒有比較哪一個更重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 single solution can eliminate all stress，文章沒有這種說法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "lost time",
+      "answerKey": "lost time",
+      "type": "Summary Completion",
+      "prompt": "Question 22",
+      "translation": "全國 workers’ compensation 統計顯示，壓力是造成 ______ 的主要原因。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“National workers’ compensation statistics indicate that stress is the leading cause of 22______.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three warning signs alert Plumridge to an excessive workload: sleep, scheduling and family.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有三個警號會提醒 Plumridge 工作量過高：睡眠、日程安排和家庭。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Just a fresh pair of eyes over an issue can help,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「只要有另一雙新鮮的眼睛看看問題，就可以有幫助。」這段中間有 compensation figures，所以 summary 的 “National workers’ compensation statistics”明顯定位到 Paragraph B。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “National workers’ compensation figures” 和 “leading cause”。原文用 “causes more …than any other”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“National workers’ compensation figures show that stress causes more lost time than any other workplace injury.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全國 workers’ compensation 數字顯示，與任何其他職場傷害相比，壓力造成更多工作時間損失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “leading cause of” 對應原文 “causes more … than any other”。空格需要名詞短語。原文答案是 lost time，兩個 words，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "16.6 weeks",
+      "answerKey": "16.6 weeks",
+      "type": "Summary Completion",
+      "prompt": "Question 23",
+      "translation": "員工因壓力平均缺勤 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Employees are absent for an average of 23 ______ because of stress.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B這段不只講 warning signs，也提供壓力造成的缺勤數字和保險成本。題目中的 “absent for an average of” 是非常明顯的數字定位訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “absent”、“average” 和 “stress”。原文有幾乎相同句式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Employees suffering from stress are absent for an average of 16.6 weeks, and the effects are expensive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "受壓力困擾的員工平均缺勤 16.6 週，而且影響成本高昂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 把 “Employees suffering from stress” 改寫成 “Employees … because of stress”。答案必須保留數字和單位，所以填 16.6 weeks。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "7 per cent",
+      "answerKey": "7 per cent",
+      "type": "Summary Completion",
+      "prompt": "Question 24",
+      "translation": "在 2003–04 年，psychological injuries 佔索償宗數的 ______，但佔索償成本接近 27%。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2003–04, psychological injuries accounted for 24 ______ of claims but almost 27 per cent of claim costs.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B這段的中間位置有 Comcare 的 2003–04 claims 數字，所以題目中的年份可直接定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “2003–04”、“psychological injuries”、“claims” 和 “27 per cent”。原文中這些字幾乎全部重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Comcare, the Australian federal government’s insurer, reported that in 2003–04 claims for psychological injuries accounted for 7 per cent of claims but almost 27 per cent of claim costs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲聯邦政府保險機構 Comcare 報告，在 2003–04 年，心理傷害索償佔索償宗數的 7%，但佔索償成本接近 27%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格位於 “accounted for ___ of claims”，答案是 7 per cent。這包含數字和單位，符合 “NO MORE THAN TWO WORDS AND/OR A NUMBER”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "golf",
+      "answerKey": "golf",
+      "type": "Summary Completion",
+      "prompt": "Question 25",
+      "translation": "例如 ______ 和 ______ 這類活動，可能提供短暫舒緩。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Activities such as 25 ______ and 26 ______ may provide temporary relief…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B這題接在前面補償數字之後，仍然在同一段。題目中的 “temporary relief” 在原文直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “temporary relief” 和 “Activities such as”。原文有 “such as a game of golf or a massage”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts say the key is not temporary relief, such as a game of golf or a massage, but a reassessment of workloads.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "專家說，重點不是短暫舒緩，例如打一場高爾夫或按摩一次；真正需要的是重新評估工作量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格 25 和 26 要分別填兩個 temporary relief activities。原文第一項是 “a game of golf”。因字數限制是 NO MORE THAN TWO WORDS，最安全填 golf。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Question 25 答 golf。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "massage",
+      "answerKey": "massage",
+      "type": "Summary Completion",
+      "prompt": "Question 26",
+      "translation": "例如 golf 和 ______ 這類活動可能提供短暫舒緩，但專家建議重新評估工作量。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Activities such as 25 ______ and 26 ______ may provide temporary relief, but specialists recommend reassessing workloads instead.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B同 Question 25，答案仍在 experts 談 temporary relief 的句子中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “temporary relief” 和 “reassessing workloads”。原文有 “a game of golf or a massage”以及 “reassessment of workloads”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts say the key is not temporary relief, such as a game of golf or a massage, but a reassessment of workloads.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "專家說，短暫舒緩如高爾夫或按摩不是關鍵；應該重新評估工作量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個活動是 “a massage”。填入 summary 時，用單字 massage 最自然，也符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “reassessment of workloads” 改成 “reassessing workloads”，這是名詞轉動名詞的改寫。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Stress of Workplace.pdf",
+    "sha256": "d2b278e790339b80d73386c2ff6cab623a53a5f0461fbd19b01278c151091f85",
+    "pageCount": 17
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句用 “How busy is too busy?” 開場，先把「忙」分成不同程度：有人只是少吃一頓長午餐，有人連午飯也沒有時間。尾句用 Neil Plumridge 的工時作具體例子，說他的工作週由 45 小時到 80 小時不等，平均 60 小時。只看首尾句，可以估計這段在建立 workplace stress 的背景：高層行政人員的工作量經常在 extremely busy 和 frenzied 之間擺動。"
+      },
+      {
+        "number": "B",
+        "summary": "首句直接列出 Plumridge 判斷工作量過高的三個 warning signs：sleep、scheduling 和 family。尾句引用他說 “a fresh pair of eyes” 可以幫助解決問題。首尾句顯示這段同時處理三個層面：個人壓力訊號、壓力造成的健康和成本問題，以及重新評估工作量的方法。Questions 15、19、20 和22–26 都主要在這段定位，因為這裡有睡眠、家庭、補償數字、golf / massage、resources / time /expectations。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 executive stress 不限於大型機構，隨即引入 Vanessa Stoykov 的小型公關廣告公司。尾句說公司雖然正在招聘更多人，但培訓新員工、教公司文化和客戶資料，實際上會令工作量增加，沒有減少。只看首尾句，可以估計這段用 Vanessa 的例子說明：創業或快速成長的小公司也會有高壓，而且短期休息有時比 delegating 更可行，因為擴充人手初期會製造額外工作。"
+      },
+      {
+        "number": "D",
+        "summary": "首句用 “Identify the causes” 開始，然後引入 Melbourne psychologist Jan Eisner。尾句說生理測量不能告訴我們一個人如何 experience stress，也不能完全說明 emotional and cognitive effects。只看首尾句，可以判斷這段重點是 stress 不可只靠外在工作量或生理樣本判斷。Eisner 認為高層或高潛力商業人士常常能在 demanding workload 下運作，但要理解 stress，仍要看個人主觀感受和心理影響。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Eisner 的 practice 受 positive psychology 影響，這個學派重視 positive experiences，例如 feeling engaged、challenged 和 able to contribute。尾句說 meditation 和 yoga 能讓人 shift the way your brain reacts，熟練後可更有控制感。只看首尾句，可以估計這段從壓力成因轉入壓力調節：正面挑戰可累積 resilience，meditation 和 yoga 則可幫助重新訓練大腦和身體對壓力的反應。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說近期研究，包括 Michael Marmot 對 public servants 的研究，顯示 stress 最重要的predictor 是 job control。尾句說歐洲公司開始重新設計 organisational practices，以增加autonomy、減少 absenteeism、提升 productivity。只看首尾句，可以看到段落主題很明確：壓力不只屬於長工時高成就行政人員；真正高風險工作是 high demands 加 low control。job control /autonomy 是本段核心。"
+      },
+      {
+        "number": "G",
+        "summary": "首句引用 Neil Plumridge，說 stress 常由我們為自己設定 unrealistic expectations 造成。尾句說新研究顯示人們可能天生容易這樣行事。只看首尾句，可以估計這段集中處理 overcommitment：人為了滿足客戶，承諾太多太快，結果把壓力加到自己身上。這段也提到 procrastination 和Parkinson’s law，但 Question 17 的核心是 overpromising to clients。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Journal of Experimental Psychology 的研究顯示，人們持續相信未來會比現在少忙。尾句說研究者認為，人們低估 future tasks 所需時間，也不善於想像未來對時間的需求。只看首尾句，這段主題是 future time bias：人現在覺得自己很忙，卻以為兩星期或一個月後會較有空，所以提前答應未來的承諾。Question 18 明顯定位到這段。"
+      }
+    ]
+  }
+}

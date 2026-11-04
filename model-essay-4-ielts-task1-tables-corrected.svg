@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1170 650" role="img" aria-labelledby="title desc">
+  <title id="title">Overnight stays in Germany, 2016–2022</title>
+  <desc id="desc">A table of domestic and international overnight stays in millions for each year from 2016 to 2022.</desc>
+  <rect width="1170" height="650" fill="#fafafa"/>
+  <rect x="52" y="16" width="1066" height="616" fill="#fff" stroke="#c8c8c8" stroke-width="2"/>
+  <path d="M390 16V632M755 16V632M52 104H1118M52 180H1118M52 256H1118M52 332H1118M52 408H1118M52 484H1118M52 560H1118" fill="none" stroke="#d4d4d4" stroke-width="2"/>
+  <g fill="#111" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="30">
+    <text x="72" y="70">Year</text>
+    <text x="414" y="55">Domestic overnight</text>
+    <text x="414" y="91">stays (millions)</text>
+    <text x="779" y="55">International overnight</text>
+    <text x="779" y="91">stays (millions)</text>
+  </g>
+  <g fill="#151515" font-family="Arial, Helvetica, sans-serif" font-size="31">
+    <text x="72" y="150" font-weight="700">2016</text><text x="414" y="150">366.4</text><text x="779" y="150">80.8</text>
+    <text x="72" y="226" font-weight="700">2017</text><text x="414" y="226">375.6</text><text x="779" y="226">83.9</text>
+    <text x="72" y="302" font-weight="700">2018</text><text x="414" y="302">390.3</text><text x="779" y="302">87.7</text>
+    <text x="72" y="378" font-weight="700">2019</text><text x="414" y="378">405.7</text><text x="779" y="378">89.9</text>
+    <text x="72" y="454" font-weight="700">2020</text><text x="414" y="454">270.3</text><text x="779" y="454">32</text>
+    <text x="72" y="530" font-weight="700">2021</text><text x="414" y="530">279.23</text><text x="779" y="530">31.01</text>
+    <text x="72" y="606" font-weight="700">2022</text><text x="414" y="606">382.62</text><text x="779" y="606">68.09</text>
+  </g>
+</svg>

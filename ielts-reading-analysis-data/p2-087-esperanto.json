@@ -1,0 +1,1722 @@
+{
+  "id": "p2-087-esperanto",
+  "catalogueId": "p2-087",
+  "catalogueIds": [
+    "p2-087"
+  ],
+  "passage": 2,
+  "title": "Esperanto",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "hostile",
+    "idealism",
+    "international communication",
+    "state funds",
+    "I",
+    "I",
+    "E",
+    "I",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The number of Esperanto speakers is quite large.”",
+      "translation": "Esperanto 使用者數量相當龐大。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目核心在 quite large，即「數量是否真的大」。判斷時不能只看 Paragraph 1 的 “between 10,000 and two million”，還要看作者如何評價這個數量。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Widely spoken’ is a relative term here.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這裡，“widely spoken” 是一個相對說法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It would be a universal second language, and his first book detailing this idea was published in 1887.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它會是一種 universal second language，而他第一本詳細說明這個構想的書在 1887 年出版。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 2 會修正 Paragraph 1 對 “widely spoken” 的理解。第一句已經提醒讀者：所謂「廣泛使用」要看比較對象，不能直接理解成使用者真的很多。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “number of Esperanto speakers” 和 “quite large”。原文對應的詞有 “number of Esperanto speakers”、“pitiably small”、“Compared to any natural language”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Compared to any natural language, the number of Esperanto speakers remains pitiably small— a far cry from the high hopes of its inventor, Dr Ludwig Zamenhof…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與任何自然語言相比，Esperanto 使用者數量仍然少得可憐，遠遠未達到其發明者 Dr Ludwig Zamenhof 當初的厚望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的判斷力很強。主語是 “the number of Esperanto speakers”，核心描述是 “remains pitiably small”。“pitiably” 表示「可憐地、少得令人失望」。題目說 quite large，原文說 pitiably small，方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：quite large"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：pitiably small"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 的 “between 10,000 and two million” 容易令人覺得數字不少。但 Paragraph 2 立即用 “Compared to any natural language” 設定比較標準，並說這數量 “pitiably small”。判斷要看作者評價，不可只看數字表面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Zamenhof spoke many languages.”",
+      "translation": "Zamenhof 會說很多種語言。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問的是 Zamenhof 個人的語言能力。文章若只說他的 hometown 有很多語言，或居民分別說不同語言，仍不足以證明他本人 spoke many languages。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Widely spoken’ is a relative term here.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這裡，“widely spoken” 是一個相對說法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It would be a universal second language, and his first book detailing this idea was published in 1887.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它會是一種 universal second language，而他第一本詳細說明這個構想的書在 1887 年出版。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 2 會介紹 Zamenhof 的理想和創作背景。題目出現 Zamenhof，因此應定位到這段。不過題目問的是「他本人會說多少語言」，這需要明確證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Zamenhof” 和 “spoke many languages”。掃描 Paragraph 2，可以找到 Zamenhof、Bialystok、Poles、Jews、Russians、Germans、each speaking their own language。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "quote",
+              "text": "“…Dr Ludwig Zamenhof, who was an eye doctor and had grown up in the racially divided Eastern European town of Bialystok.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr Ludwig Zamenhof 是一名眼科醫生，並在東歐種族分裂的 Bialystok 小鎮長大。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In this complex and uneasy mixture of Poles, Jews, Russians, and Germans, each speaking their own language…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個由 Poles、Jews、Russians 和 Germans 組成、複雜且不安的混合社會中，每個群體都說自己的語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡說的是不同 ethnic groups 各自說自己的語言。它能解釋 Zamenhof 為何意識到語言分裂問題，但沒有說 Zamenhof 本人能說所有或很多這些語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料狀態：原文有：Zamenhof 在多語言、多族群環境中長大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有：不同群體 each speaking their own language。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文缺少：Zamenhof spoke many languages。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易把 “each speaking their own language” 套到 Zamenhof 身上。但該句的主體是 Poles、Jews、Russians、Germans 這些 groups，不是 Zamenhof 個人。多語環境不等於個人多語能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Esperanto is easier to learn than other languages.”",
+      "translation": "Esperanto 比其他語言更容易學。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章是否支持 Esperanto 較易學。需要留意原文是否只說支持者這樣認為，還是作者接著接受了這點。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4，並參考 Paragraph 5 開首。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What actually keeps Esperanto going is the motivation of those who become interested.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正讓 Esperanto 延續下去的是對它感興趣者的動機。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Proponents explain that, by being so simple and internally consistent, Esperanto is easy to learn and can be mastered in a fraction of the time needed for any conventional language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "支持者解釋說，由於 Esperanto 簡單且內部一致，它很容易學，而且掌握它所需時間只是任何傳統語言的一小部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph 4 首尾句，可以估計這段會討論 Esperanto 是否值得學，以及它被支持者認為有何優勢。題目中的 “easier to learn” 直接對應最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “easier to learn” 和 “other languages”。原文對應 “easy to learn” 以及 “a fraction of the time needed for any conventional language”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Proponents explain that, by being so simple and internally consistent, Esperanto is easy to learn and can be mastered in a fraction of the time needed for any conventional language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "支持者解釋說，由於 Esperanto 簡單且內部一致，它容易學，而且掌握它所需時間只是任何傳統語言的一小部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句清楚比較 Esperanto 和 conventional language。核心比較是 “a fraction of the time”，即只需一小部分時間。這支援 “easier to learn than other languages”。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 開首補強："
+            },
+            {
+              "kind": "quote",
+              "text": "“While we may accept that, the second question is far more problematic…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使我們可以接受這一點，第二個問題仍更加棘手。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“that” 指上一句的 Esperanto easy to learn / mastered quickly。作者接著說可以接受這點，再把問題轉向「是否必要」。所以文章沒有否定 Esperanto 易學這一點。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "easier to learn than other languages= easy to learn= mastered in a fraction of the time needed for any conventional language"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “Proponents explain” 時，學生可能擔心這只是支持者觀點。但下一段 “While we may accept that” 顯示作者至少暫時接受這個前提，然後轉去討論必要性。因此題目說 Esperanto easier to learn，是有原文支援的。所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Esperanto World Congresses have been held every year since 1905.”",
+      "translation": "Esperanto World Congresses 自 1905 年以來每年都舉行。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 every year since 1905。只要原文提供例外，題目就和原文衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surprisingly perhaps, the concept quickly gained acceptance and a loyal following.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許令人驚訝的是，這個概念很快獲得接受，並有一批忠實支持者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although it has not achieved official-language status in any state or governing body, it is occasionally taught at schools and educational institutions on an informal or experimental basis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Esperanto 沒有在任何國家或 governing body 取得官方語言地位，但它偶爾會在學校和教育機構以非正式或實驗方式教授。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 講 Esperanto 的傳播、社群發展和今日地位。題目提到World Congresses，因此應在這段尋找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “World Congresses” 和 “every year since 1905”。原文對應 “the first world congress … in France, in 1905” 以及 “held every year since then”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Esperanto journals, magazines and clubs were formed, ultimately leading to the first world congress of Esperanto speakers in France, in 1905.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Esperanto journals、magazines 和 clubs 相繼成立，最終促成 1905 年在法國舉行的第一屆Esperanto speakers 世界大會。"
+            },
+            {
+              "kind": "quote",
+              "text": "“These congresses have been held every year since then, apart from when world wars delayed proceedings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自那時以來，這些大會每年舉行；但在 world wars 延誤會議時例外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正定案的是 “apart from”。它表示「除了……之外」。題目說 every year since 1905，沒有保留例外。原文說 world wars 曾延誤 proceedings，因此「每年都舉行」這個絕對說法被推翻。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：held every year since 1905"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：held every year since then, apart from when world wars delayed proceedings"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易只看到 “held every year since then” 就選 TRUE。這題要讀完整句，因為後半的 “apart from…” 才控制答案。IELTS 很常把答案放在同一句的例外條件中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "hostile",
+      "answerKey": "hostile",
+      "type": "Sentence Completion",
+      "prompt": "“The different ethnic groups in Zamenhof’s hometown were frequently 18 ______.”",
+      "translation": "Zamenhof 家鄉的不同族群經常是 ______ 的。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Widely spoken’ is a relative term here.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這裡，“widely spoken” 是一個相對說法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It would be a universal second language, and his first book detailing this idea was published in 1887.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它會是一種 universal second language，而他第一本詳細說明這個構想的書在 1887 年出版。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會講 Zamenhof 為何想創造一種 universal second language。題目提到 “Zamenhof’s hometown” 和 “different ethnic groups”，明顯應看 Paragraph 2 的 Bialystok 背景。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “ethnic groups”、“hometown”、“frequently”。原文對應 “Poles, Jews, Russians, and Germans” 以及 “often hostile”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“In this complex and uneasy mixture of Poles, Jews, Russians, and Germans, each speaking their own language, the idealistic Zamenhof lamented how these languages so obviously categorised the city’s residents into different, and often hostile, groups.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這個由 Poles、Jews、Russians 和 Germans 組成、複雜且不安的混合社會中，各群體說自己的語言。理想主義的 Zamenhof 為此感到痛心，因為這些語言明顯把城市居民分成不同且經常敵對的群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “were frequently ______”，空格需要形容詞。原文是 “often hostile”。題目用 “frequently”改寫 “often”，答案保留 hostile。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "frequently = often different ethnic groups = different groups of Poles, Jews, Russians, and Germans所以答案是 hostile。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "idealism",
+      "answerKey": "idealism",
+      "type": "Sentence Completion",
+      "prompt": "“The first Esperanto speakers shared Zamenhof’s 19 ______.”",
+      "translation": "最早的 Esperanto 使用者與 Zamenhof 共享他的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surprisingly perhaps, the concept quickly gained acceptance and a loyal following.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許令人驚訝的是，這個概念很快獲得接受，並有一批忠實支持者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although it has not achieved official-language status in any state or governing body, it is occasionally taught at schools and educational institutions on an informal or experimental basis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Esperanto 沒有在任何國家或 governing body 取得官方語言地位，但它偶爾會在學校和教育機構以非正式或實驗方式教授。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 會講 Esperanto 早期如何吸引支持者，以及它如何從Eastern Europe 擴散。題目中的 “first Esperanto speakers” 對應 “loyal following” 和早期支持者。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “first Esperanto speakers” 和 “shared Zamenhof’s”。原文對應 “many people possessed the same idealism which drove Zamenhof”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“It seems that in a linguistically divided Eastern Europe, many people possessed the same idealism which drove Zamenhof.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在語言分裂的 Eastern Europe，似乎許多人都擁有推動 Zamenhof 的同一份 idealism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “shared Zamenhof’s ______”。空格需要名詞。原文 “the same idealism which drove Zamenhof” 中的 idealism 正好符合。shared = possessed the same。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "shared Zamenhof’s idealism= possessed the same idealism which drove Zamenhof所以答案是 idealism。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "international communication",
+      "answerKey": "international communication",
+      "type": "Sentence Completion",
+      "prompt": "“English now essentially provides the means of 20 ______.”",
+      "translation": "English 現在基本上提供了 ______ 的方式。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While we may accept that, the second question is far more problematic and raises further issues, the main one being whether the language is even necessary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使我們可以接受那一點，第二個問題仍更加棘手，並帶出更多問題；其中主要問題是這種語言是否有必要存在。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The answers are emotional, complex, and confusing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些問題的答案是情緒化、複雜且令人困惑的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 5 在質疑 Esperanto 的必要性。題目問 English 現在扮演甚麼角色，應在本段關於 “why cannot the English language take that role” 的位置找答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “English” 和 “provides the means of”。原文沒有 “provides the means”，但有 “take that role (which it virtually has)”。需要回看前一句，確認 “that role” 指甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Would international communication indeed be better if we all spoke Esperanto?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我們全都說 Esperanto，international communication 是否真的會更好？"
+            },
+            {
+              "kind": "quote",
+              "text": "“And why cannot the English language take that role (which it virtually has)?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼 English 不能承擔那個角色呢？事實上，它幾乎已經承擔了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “that role” 指上一句的 international communication role，即作為國際交流工具。題目把"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“take that role (which it virtually has)” 改寫成 “now essentially provides the means of”。文法檢查：空格在 “the means of” 後面，需要名詞短語。原文 “international communication” 是兩個字，符合NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "now essentially = virtually has provides the means of = take that role that role = international communication所以答案是 international communication。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "state funds",
+      "answerKey": "state funds",
+      "type": "Sentence Completion",
+      "prompt": "“Official support of Esperanto could be considered a waste of 21 ______.”",
+      "translation": "官方支持 Esperanto 可能被視為浪費 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While we may accept that, the second question is far more problematic and raises further issues, the main one being whether the language is even necessary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使我們可以接受那一點，第二個問題仍更加棘手，並帶出更多問題；其中主要問題是這種語言是否有必要存在。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The answers are emotional, complex, and confusing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些問題的答案是情緒化、複雜且令人困惑的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段集中質疑 Esperanto 的必要性和實際價值。題目中的 “Official support” 對應原文 “Why divert state funds to support…”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Official support”、“waste”。原文沒有直接說 waste，但有 “Why divert state funds to support…” 以及 “marginalised speech community”。“divert” 帶有把資源轉去某用途的意思，語境中暗示是否值得。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Why divert state funds to support what may always remain a marginalised speech community, especially when there exist so many other languages spoken by far more people and offering far greater utility?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼要把 state funds 轉去支持一個可能永遠只會保持邊緣地位的 speech community，尤其是世界上已有很多其他語言，使用者多得多，而且實用價值也大得多？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “a waste of ______”。空格需要名詞短語。原文的 “state funds” 是兩個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "official support = divert state funds to support could be considered a waste = Why divert… especially when… far greater utility所以答案是 state funds。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "I — Ido",
+      "answerKey": "I — Ido",
+      "type": "Matching Languages",
+      "prompt": "“Which language had many stages in its development?”",
+      "translation": "哪一種語言在發展中經歷了很多階段？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the meantime, another artificial language had emerged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在此期間，另一種 artificial language 出現了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the war, its most vocal proponent published his own constructed language, ‘Novial’, making the schism all too confusing, such that the original Esperanto quickly became the predominant language of its type.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "戰後，它最活躍的支持者又發表了自己的 constructed language “Novial”，令分裂變得更加混亂，結果原本的 Esperanto 很快成為同類語言中的主導。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 7 是 Ido 的發展史：它出現、分裂 Esperanto 支持群，後來又出現更多改動和新語言。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “many stages in its development” 可對應 changes、committee、formation、academy、Novial 等發展過程詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“A large number defected to Ido, which then underwent further changes through committee after committee, eventually leading to the formation of an independent academy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大量支持者轉投 Ido；Ido 隨後經過一個又一個委員會作進一步改動，最終導致一個獨立academy 的成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“committee after committee” 很清楚表示多次階段式修改。題目把這種過程概括成 “many stages in its development”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "many stages in development= underwent further changes through committee after committee所以答案是 I。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "I — Ido",
+      "answerKey": "I — Ido",
+      "type": "Matching Languages",
+      "prompt": "“Which language had its development affected by World War One?”",
+      "translation": "哪一種語言的發展受到 World War One 影響？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the meantime, another artificial language had emerged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在此期間，另一種 artificial language 出現了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the war, its most vocal proponent published his own constructed language, ‘Novial’, making the schism all too confusing, such that the original Esperanto quickly became the predominant language of its type.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "戰後，它最活躍的支持者又發表自己的 constructed language “Novial”，令分裂更加混亂，結果原本的 Esperanto 很快成為同類語言中的主導。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 由 Ido 的出現講到衰退和戰後分裂，因此 World War One 相關題應定位此段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最強定位詞是 “World War One”。原文直接出現 “the advent of World War One”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“However, Ido suffered a substantial decline following the death of its best-known advocate in a car accident and the advent of World War One.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Ido 在其最知名支持者死於車禍，以及 World War One 到來之後，經歷了大幅衰退。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Ido，核心動詞是 “suffered a substantial decline”。World War One 是 decline 的原因之一。題目說 development affected by World War One，原文說它因 World War One 到來而substantial decline，意思一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "development affected= suffered a substantial decline World War One= the advent of World War One所以答案是 I。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "E — Esperanto",
+      "answerKey": "E — Esperanto",
+      "type": "Matching Languages",
+      "prompt": "“Which language has some strange words?”",
+      "translation": "哪一種語言有一些奇怪的詞？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One problem with Esperanto is that it is culturally European.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Esperanto 的一個問題是它在文化上屬於 European。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1894, he suggested a ‘reformed Esperanto’; however, the Esperanto speakers of that day were loath to alter a language which they had already mastered, rejecting Zamenhof’s proposals, and also those of a special French committee formed 13 years later to discuss the adoption of a standard international language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1894 年，他提出 “reformed Esperanto”；可是當時的 Esperanto speakers 不願改變一種他們已經掌握的語言，因此拒絕了 Zamenhof 的提議，也拒絕了 13 年後一個法國特別委員會關於採用標準國際語的建議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 6 講 Esperanto 的設計缺點和改革失敗。題目說 strange words，應在中間找 vocabulary / nouns 相關資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “strange words” 可對應 “idiosyncratically chosen nouns”。idiosyncratically 表示古怪、特殊、帶個人偏好的方式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“There is also a large and imposing vocabulary, with many nouns rather idiosyncratically chosen, and a certain unnecessary complexity which Zamenhof (who was not a professional linguist) had not recognised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也有龐大且令人有壓力的 vocabulary，其中許多 nouns 選得相當特殊古怪，並且有某種不必要的 complexity；Zamenhof 不是專業語言學家，因此沒有意識到這些問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “some strange words” 是對 “many nouns rather idiosyncratically chosen” 的簡化改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為整段主體是 Esperanto，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "some strange words= many nouns rather idiosyncratically chosen所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "I — Ido",
+      "answerKey": "I — Ido",
+      "type": "Matching Languages",
+      "prompt": "“Which language was designed by many people?”",
+      "translation": "哪一種語言由很多人設計？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the meantime, another artificial language had emerged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在此期間，另一種 artificial language 出現了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the war, its most vocal proponent published his own constructed language, ‘Novial’, making the schism all too confusing, such that the original Esperanto quickly became the predominant language of its type.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "戰後，它最活躍的支持者又發表自己的 constructed language “Novial”，令分裂更加混亂，結果原本的 Esperanto 很快成為同類語言中的主導。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 介紹 Ido 的來源，題目問 “designed by many people”，因此要找 academics /product / committee 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “designed by many people” 對應原文 “a product of various academics”。various academics 表示多位學者。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Called ‘Ido’, it was a product of various academics who embedded the changes that Esperanto was thought to need.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種語言叫 “Ido”，它是多位 academics 的產物；這些 academics 把人們認為 Esperanto 需要的改動加入其中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句主語是 Ido，描述它的來源是 “a product of various academics”。題目中的 “designed by many people” 是較口語的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "designed by many people= a product of various academics所以答案是 I。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "B — Both",
+      "answerKey": "B — Both",
+      "type": "Matching Languages",
+      "prompt": "“Which language has never achieved its aim?”",
+      "translation": "哪一種語言從未達成其目標？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7 + Paragraph 8"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 第一、最後一句顯示 Ido 出現後經歷分裂、改動、衰退和 Novial 的再分裂，最後Esperanto 重新成為主導。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 第一、最後一句顯示 Esperanto 雖然在同類語言中領先，但仍遠遠未達全球第二語言的原本目標，作者也認為未來幾乎不可能達成。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “aim” 和 “never achieved”。Esperanto 段落中對應 “falls far short of the aim”。Ido段落中對應 “sharing the same lofty goals”，再由 “substantial decline” 和 Esperanto regained predominance 判斷其目標也沒有達成。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句一：Esperanto"
+            },
+            {
+              "kind": "quote",
+              "text": "“Esperanto may lead the field, but it falls far short of the aim of both its creator and many of its speakers — that of a truly global second language uniting all in mutual understanding.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Esperanto 也許在同類語言中領先，但它遠遠未達其創造者和許多使用者的目標：成為一種真正全球性的第二語言，讓所有人能彼此理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接說 Esperanto 未達目標。“falls far short of the aim” 就是 “has never achieved its aim” 的核心證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句二：Ido"
+            },
+            {
+              "kind": "quote",
+              "text": "“This new language, sharing the same lofty goals, divided the support base of Esperanto.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種新語言懷有同樣崇高的目標，並分裂了 Esperanto 的支持基礎。"
+            },
+            {
+              "kind": "quote",
+              "text": "“However, Ido suffered a substantial decline following the death of its best-known advocate in a car accident and the advent of World War One.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Ido 在其最知名支持者死於車禍，以及 World War One 到來之後，經歷了大幅衰退。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ido “sharing the same lofty goals” 表示它也有類似 Esperanto 的宏大目標；但後文說它substantial decline，之後又因 Novial 令 schism all too confusing，結果 Esperanto became predominant。這組句子顯示 Ido 也沒有達成那種國際輔助語的宏大目標。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "has never achieved its aim= falls far short of the aim= shared the same lofty goals, but suffered substantial decline答案判斷： Esperanto 有直接證據；Ido 有明確來源鏈：同樣目標 → 大幅衰退 → 被 Esperanto 重新壓過。因此答案是 B，Both。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Esperanto.pdf",
+    "sha256": "8b6a432ca0bc137fea5c0b5743ed4f1e50f78218d90b8427d9d457536c051514",
+    "pageCount": 21
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句可見甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句用 Esperanto 句子開場，問讀者能否理解，立即帶出這種語言的存在感。最後一句說，在現代歷史中多次創造 artificial languages 的嘗試裡，Esperanto 仍是最廣泛使用的一種。只看首尾句，可以先估計本段主要介紹 Esperanto 的基本身份：它不是自然演化的語言，而是 constructed auxiliary language。題目若問使用者數量、人工語言、最廣泛使用，Paragraph 1 是重要定位段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句提醒 “‘Widely spoken’ is a relative term”，說 Esperanto speakers 相比自然語言仍然很少。最後一句說 Zamenhof 的第一本書在 1887 年出版。只看首尾句，可以判斷本段會交代Zamenhof 的背景和創造 Esperanto 的原因：他在族群和語言分裂的 Bialystok 成長，看到不同語言把人分成敵對群體，因此想創造一種容易學、政治中立、跨越民族與宗教的 universal second language。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Esperanto 這個概念出乎意料地很快獲得接受和忠實支持者。最後一句說它至今沒有在任何國家或 governing body 取得官方語言地位，但有時會在學校或教育機構以非正式或實驗方式教授。只看首尾句，可以看出本段處理 Esperanto 的早期擴散、世界大會、社群建立，以及今日仍存在但未成為官方語言的狀態。World Congress、official-language status 相關題多數在這段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說真正讓 Esperanto 延續下去的是學習者本身的 motivation。最後一句說支持者認為Esperanto 簡單、內部一致，因此容易學，掌握時間只需 conventional language 的一小部分。只看首尾句，可以估計本段會處理 Esperanto 能否值得學習：社群、教材和自學工具存在，但最核心問題是它是否有實際價值或內在優勢。題目若問 easier to learn、motivation、useful skill，應先看這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句承接上一段，說即使接受 Esperanto 容易學，第二個問題仍更棘手：這種語言是否有必要存在。最後一句說答案 emotional、complex、confusing。只看首尾句，可以判斷本段轉向質疑Esperanto 的必要性和實用性。中間問：若大家都說 Esperanto，國際交流是否真的更好？English是否已經基本扮演這角色？為何要用 state funds 支持一個 marginalised speech community？"
+      },
+      {
+        "number": "6",
+        "summary": "首句指出 Esperanto 的一個問題是 culturally European。最後一句說 Zamenhof 的 reform proposal 和 13 年後法國委員會的建議都被拒絕。只看首尾句，可以估計本段集中講 Esperanto的語言設計問題：詞彙和構詞規則來自 European languages，令 Asian learners 較難學；也有大量 vocabulary、idiosyncratically chosen nouns 和不必要的 complexity。題目若問 strange words或 reform rejection，答案多在這裡。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說在這段期間，另一種 artificial language 出現了。最後一句說戰後，最活躍的支持者又發表自己的 constructed language “Novial”，令分裂更混亂，結果原本的 Esperanto 很快重新成為同類語言中的主導。只看首尾句，可以判斷本段主要講 Ido：它由多位 academics 設計，吸收Esperanto 被認為需要的改動；後來經歷多次 committee changes、分裂、衰退、World War One影響和 Novial 出現。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 Esperanto 雖然領先同類語言，卻遠遠未達到創造者和許多使用者的目標。最後一句用Esperanto 表達作者態度：那樣想很好，但幾乎肯定不會發生。只看首尾句，可以看出本段是總結段：Esperanto 未能成為 truly global second language，很多追隨者已轉向享受 special linguistic culture and community；雖然有人仍堅持 original goal，但作者認為成功機會極低。"
+      }
+    ]
+  }
+}

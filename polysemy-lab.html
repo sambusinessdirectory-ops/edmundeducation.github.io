@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Explore every meaning, then practise in context. 一詞多義詞義總覽與六選一練習。">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; script-src 'self' https://cdn.jsdelivr.net https://edmund-site-assets.edmundeducation.workers.dev; style-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; img-src 'self' data: https://edmund-site-assets.edmundeducation.workers.dev; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co wss://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-neural-audio.edmundeducation.workers.dev https://edmund-site-assets.edmundeducation.workers.dev; media-src 'self' blob: https://edmund-neural-audio.edmundeducation.workers.dev https://edmund-site-assets.edmundeducation.workers.dev; object-src 'none'; base-uri 'self'; form-action 'self'">
+<meta name="theme-color" content="#173e48"><title>Polysemy Lab · 一詞多義學習室 | EdmundEducation</title>
+<meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Edmund 一詞多義"><meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="/pwa-manifests/polysemy-lab.webmanifest"><link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="48x48" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/favicon-48x48.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="apple-touch-icon" sizes="167x167" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-167x167.png"><link rel="apple-touch-icon" sizes="152x152" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-152x152.png"><link rel="stylesheet" href="/pwa-ui.css"><script defer src="/pwa-register.js"></script>
+<link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1"><link rel="stylesheet" href="polysemy-lab/style.css?v=20261028-feedback1-20261023-option-wrap1"><link rel="stylesheet" href="polysemy-noir/noir-header.css?v=20261022-2"><link rel="preload" as="image" type="image/webp" href="polysemy-wolf-profile-login-frame-v1.webp">
+  <link rel="stylesheet" href="eddy-first-question-dialogue.css?v=20261028-blank-recovery1">
+  <link rel="stylesheet" href="eddy-five-streak-dialogue.css?v=20261101-30-35">
+  <link rel="stylesheet" href="eddy-mc-wrong-streak-dialogue.css?v=20261101-1">
+<link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
+</head>
+<body>
+<header class="edmund-system-header"><div class="edmund-system-header__inner">
+<div class="edmund-system-switcher" data-edmund-system-switcher data-system="polysemy-lab"><button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="切換學習系統"><img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt=""><span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Polysemy Lab · 一詞多義</small></span><span aria-hidden="true">⌄</span></button></div>
+<button class="noir-polysemy-mascot" type="button" data-noir-polysemy-toggle aria-label="暫停 Noir 一詞多義動畫" aria-pressed="true"><img src="polysemy-noir/noir-polysemy.gif?v=20261022-2" width="68" height="68" alt="Noir 低頭在桌面螢幕選擇不同詞義，選項變綠並得到勾號提示，並眨眼思考"></button>
+<nav class="header-actions" aria-label="帳戶與首頁"><a href="index.html">主頁 · Home</a><button data-recordings hidden>我的錄音 · My Recordings</button><span data-student></span><button data-logout hidden>登出</button></nav>
+</div></header>
+<main>
+<section data-login class="login-layout">
+<div class="welcome"><h1>一詞多義學習室</h1><p>先看見一個字的不同用法，<br>再從句子中找出真正的意思。</p></div>
+<form data-login-form class="panel login-form"><p class="eyebrow">YOUR LEARNING SPACE</p><h2>學生登入<small>Student sign in</small></h2><label>用戶名稱 · Username<input name="username" autocomplete="username" required maxlength="120"></label><label>密碼 · Password<input type="password" name="password" autocomplete="current-password" required></label><button class="primary" type="submit">登入學習室</button><p role="status" data-login-status></p></form>
+</section>
+<div data-app hidden>
+<div class="account-line"><p class="eyebrow">65 / POLYSEMY LAB</p><p data-sync role="status" aria-live="polite"></p><button data-sync-retry hidden>重試儲存</button></div>
+<details class="panel dashboard-panel" data-dashboards><summary><span>我的學習進展<small>Questions completed & study time</small></span><span class="expand-label">展開 / 收起</span></summary><div class="dashboard-controls"><p>瀏覽詞義不計入完成題數。每次練習中，同一題答對只計一次。</p><label>時段 <select data-range><option value="7">最近 7 天</option><option value="30">最近 30 天</option><option value="all">全部時間</option></select></label></div><div class="dashboard-grid" data-charts></div><section data-day-detail hidden class="day-detail" aria-live="polite"></section></details>
+<section class="module-library" data-catalog aria-labelledby="module-library-title"><div class="module-search"><label for="polysemy-module-search">搜尋學習單元 <small>Search module names</small></label><div class="module-search-control"><span aria-hidden="true">⌕</span><input id="polysemy-module-search" data-module-search type="search" placeholder="例如 safe、present" autocomplete="off" spellcheck="false"><button type="button" data-module-search-clear hidden>清除</button></div><p data-module-search-results role="status" aria-live="polite" hidden></p></div><div class="module-library-heading"><div><p class="eyebrow">CHOOSE A MODULE</p><h2 id="module-library-title">選擇學習單元</h2><p>選擇一個單元，進入該單元的詞義和練習。</p></div></div><div class="module-card-grid" data-modules></div></section>
+<section class="module-page" data-module-page hidden aria-label="單元詞義與練習"><div class="module-page-nav"><button type="button" data-back-modules>← 返回所有單元</button><a data-manual hidden target="_blank" rel="noopener">閱讀本單元完整教材 PDF</a></div><section class="module-heading"><div><p class="eyebrow">MODULE 01 / 詞義與用法</p><h1>show</h1></div><div class="module-numbers"><span><strong>16</strong>詞義與用法</span><span><strong>33</strong>語境練習</span><span><strong>6</strong>每題選項</span></div></section>
+<nav class="module-tabs" aria-label="學習模式"><button data-mode="directory" aria-pressed="true">詞義總覽 <small>Explore meanings</small></button><button data-mode="practice" aria-pressed="false">開始練習 <small>Practise in context</small></button></nav>
+<section data-directory><div class="directory-heading"><div><h2>把每一種用法，看清楚。</h2><p>點開任何一格查看解釋。可同時展開多格，方便比較。</p></div><button data-collapse>全部收起</button></div><div class="progress-wrap"><label for="directory-progress" data-view-count></label><progress id="directory-progress" max="16" value="0"></progress><small>✓ 已瀏覽只代表打開閱讀，不代表已掌握。</small></div><div class="meaning-grid" data-meanings></div><section class="panel comparison-panel"><p class="eyebrow">LOOK A LITTLE CLOSER</p><h2>相似詞語，怎樣分辨？</h2><div data-comparisons></div><p class="note">以上包括獨立詞義、相近用法、名詞形式及固定片語。部分意思重疊；練習已避開同時合理的競爭選項。</p></section><button class="primary" data-start>開始 / 繼續練習</button></section>
+<section data-practice hidden aria-label="六選一語境練習"></section></section><section data-library hidden aria-label="我的錄音"></section>
+</div>
+</main>
+<footer>EdmundEducation</footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.50.3/dist/umd/supabase.min.js" integrity="sha384-hIOJ3C3LfQJBpaQVNahkcvi607jdU2k3LB0MLyIuyXNDsS5aI2xfaQiX+oSmHvTD" crossorigin="anonymous"></script>
+<script src="supabase-config.js"></script><script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261101-coin-dialogue1"></script><script type="module" src="polysemy-lab/app.mjs?v=20261103-readalong"></script>
+<script defer src="polysemy-noir/noir-header.js?v=20261022-2"></script>
+  <script defer src="eddy-first-question-dialogue.js?v=20261025-tea1"></script>
+  <script defer src="eddy-five-streak-dialogue.js?v=20261101-30-35-allmc"></script>
+  <script defer src="eddy-mc-wrong-streak-dialogue.js?v=20261101-4-recovery"></script>
+<script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
+<link rel="stylesheet" href="course-pronunciation.css"><script src="pronunciation-checker.js"></script><script src="course-pronunciation.js"></script></body></html>

@@ -1,0 +1,1462 @@
+{
+  "id": "p3-111-space-the-final-archaeological-frontier",
+  "catalogueId": "p3-111",
+  "catalogueIds": [
+    "p3-111"
+  ],
+  "passage": 3,
+  "title": "Space: The Final Archaeological Frontier",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "E",
+    "B",
+    "H",
+    "A",
+    "F",
+    "D",
+    "sneezed",
+    "two",
+    "remove d",
+    "analysis",
+    "life",
+    "C",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "E — past explorers used technology in order to find new places to live.",
+      "answerKey": "E — past explorers used technology in order to find new places to live.",
+      "type": "Sentence Endings",
+      "prompt": "“Ben Finney’s main academic work investigates the way that…”",
+      "translation": "Ben Finney 的主要學術研究探討的是……的方式。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Space travel may still have a long way to go, but the notion of archaeological research and heritage management in space is already concerning scientists and environmentalists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太空旅行可能仍有很長的路要走，但在太空中進行考古研究和遺產管理這個概念，已經令科學家和環保人士關注。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He realized that it was unlikely anyone would be able to conduct fieldwork in the near future, but he was convinced that one day such work would be done.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他明白短期內未必有人能進行實地工作，但他相信有一天這類工作會完成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 會介紹 space archaeology 的概念和 Ben Finney 的長遠想法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Ben Finney、main academic work。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1993, University of Hawaii anthropologist Ben Finney, who for much of his career has studied the technology once used by Polynesians to colonize islands in the Pacific…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1993 年，夏威夷大學人類學家 Ben Finney 提出這個看法；他職業生涯中大部分時間都研究Polynesians 曾用來殖民太平洋島嶼的技術。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問的是 Finney 的主要學術研究。原文說他研究的是 Polynesians once used 的 technology，用途是 colonize islands in the Pacific。"
+            },
+            {
+              "kind": "label",
+              "text": "對應選項 E："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“past explorers” = Polynesians“used technology” = technology once used“find new places to live” = colonize islands“colonize islands” 不只是路過或參觀，而是到新島嶼定居、建立生活空間。因此 E 最完整。 A 講 tourists and scientists 對環境的影響，屬於 Paragraph 2 的 polar regions。 B 講 space sites 的歷史重要性，比較接近 Question 29。 E 才回答 Finney 長期研究的 Polynesian technology。所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B — some sites in space could be important in the history of space exploration.",
+      "answerKey": "B — some sites in space could be important in the history of space exploration.",
+      "type": "Sentence Endings",
+      "prompt": "“Ben Finney thought that in the long term…”",
+      "translation": "Ben Finney 認為，從長遠來看……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 1。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句講 space archaeology 和 space heritage management 已經受到關注；最後一句說 Finney相信將來有人會做 off-Earth fieldwork。這段很明顯包含 Finney 的 long-term view。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Ben Finney 和 in the long term。原文沒有直接寫 long term，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“archaeologists will someday study off-Earth sites to trace the development of humans in space”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考古學家有一天會研究地球以外的遺址，以追溯人類在太空中的發展。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文把 Polynesian exploration 和 future space archaeology 作類比。今天學者用 archaeological records 研究 Polynesians 如何在太平洋探索時出現文化分化；將來考古學家也會研究 off-Earth sites，了解 humans in space 的發展。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“some sites in space could be important in the history of space exploration.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太空中的某些遺址可能在人類太空探索史中很重要。"
+            },
+            {
+              "kind": "quote",
+              "text": "“off-Earth sites” 對應 “sites in space”；“trace the development of humans in space” 對應 “important in the history of space exploration”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於 B 沒有逐字重複 “development of humans in space”，但它把這個概念概括成 “history of space exploration”。這是合理概括。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "H — important sites on the Moon may be under threat.",
+      "answerKey": "H — important sites on the Moon may be under threat.",
+      "type": "Sentence Endings",
+      "prompt": "“Commercial pressures mean that in the immediate future…”",
+      "translation": "商業壓力意味著，在不久的將來……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a growing awareness, however, that it won’t be long before both corporate adventurers and space tourists reach the Moon and Mars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們越來越意識到，企業冒險者和太空旅客不久後便會到達月球和火星。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mission, which would leave vehicle tyre marks all over some of the most famous sites on the Moon, was promoted as a form of theme-park entertainment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項任務會在月球上一些最著名的地點留下車輪痕跡，卻被宣傳成一種主題公園式娛樂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段主要講 commercial / tourist activity 對 Moon sites 的破壞風險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Commercial pressures、immediate future。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“corporate adventurers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“space tourists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“profit-seeking corporations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“won’t be long”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a wealth of important archaeological sites from the history of space exploration on the Moon and Mars and measures need to be taken to protect these sites.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "月球和火星上有大量與太空探索史相關的重要考古遺址，需要採取措施保護它們。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to the threat from profit-seeking corporations…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了追求利潤的企業帶來的威脅之外……這兩句合起來表示：商業和旅遊活動很快會進入月球和火星，重要遺址因此受威脅。選項 H"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“important sites on the Moon may be under threat” 最貼近。 C 說 vehicles used for tourism have polluted the environment，問題在於文章說的是一項proposed mission，且重點是 tyre marks damaging famous sites，不是已經污染環境。所以答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "A — activities of tourists and scientists have harmed the environment.",
+      "answerKey": "A — activities of tourists and scientists have harmed the environment.",
+      "type": "Sentence Endings",
+      "prompt": "“Academics are concerned by the fact that in isolated regions on Earth…”",
+      "translation": "學者關注的是，在地球上一些偏遠地區……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說企業和太空旅客很快會到月球和火星；尾句說商業化月球 rover 任務會在重要遺址留下車痕。這段除太空威脅外，也會用地球上的偏遠地區作類比。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 isolated regions on Earth。原文沒有用 isolated regions，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“remote polar regions”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "偏遠的極地地區。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to the threat from profit-seeking corporations, scholars cite other potentially destructive forces such as souvenir hunting and unmonitored scientific sampling, as has already occurred in explorations of remote polar regions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了追求利潤的企業帶來的威脅之外，學者還指出其他可能具破壞性的力量，例如獵取紀念品和未受監管的科學採樣；這些情況已經在偏遠極地地區的探索中發生過。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 說 tourists and scientists 的活動已經 harmed the environment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“souvenir hunting” 對應旅客或探險者取走物品；“unmonitored scientific sampling” 對應科學採樣；“potentially destructive forces” 對應 harmed the environment。這裡選 A 是因為題目問 isolated regions on Earth，而原文用 remote polar regions 作地球上的警示例子。C 的 “vehicles used for tourism” 看似和後文 rover 有關，但那是月球任務，不是地球偏遠地區。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "F — man-made objects left in space are regarded as rubbish.",
+      "answerKey": "F — man-made objects left in space are regarded as rubbish.",
+      "type": "Sentence Endings",
+      "prompt": "“One problem with the 1967 UN treaty is that…”",
+      "translation": "1967 年聯合國條約的一個問題是……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the vaguely worded United Nations Outer Space Treaty of 1967, what it terms‘space junk’ remains the property of the country that sent the craft or probe into space.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據措辭模糊的 1967 年《聯合國外太空條約》，它稱為 “space junk” 的物件，仍屬於把太空船或探測器送上太空的國家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To deal with problems like these, it may be time to look to innovative international administrative structures for the preservation of historic remains on the new frontier.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了處理這類問題，也許是時候尋找創新的國際行政結構，以保存這個新前線上的歷史遺留物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經提示：問題在於法律用語和保存歷史遺物之間有落差。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 1967 UN treaty。原文直接有 “United Nations Outer Space Treaty of 1967”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the treaty doesn’t explicitly address protection of sites like Tranquility Base, and equating the remains of human exploration of the heavens with ‘space junk’ leaves them vulnerable to scavengers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但該條約沒有明確處理像 Tranquility Base 這類地點的保護問題；把人類探索太空留下的遺跡等同於 “space junk”，會令它們容易受到拾荒者或掠奪者破壞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 F 說 man-made objects left in space are regarded as rubbish。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“remains of human exploration” = man-made objects left in space“space junk” = rubbish所以答案是 F。中伏位是 treaty 也說這些物件 “remain the property of the country”，但 Question 32 問的是problem。真正問題不是 property 這一點本身，重點在 “space junk” 這個措辭令保護不足。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "D — it may be unclear who has responsibility for historic human footprints.",
+      "answerKey": "D — it may be unclear who has responsibility for historic human footprints.",
+      "type": "Sentence Endings",
+      "prompt": "“The wording of legal agreements over ownership of land in space means that…”",
+      "translation": "關於太空土地所有權的法律協議措辭意味著……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 3。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句提到 1967 年條約和 space junk；最後一句呼籲建立新的國際行政結構。段落中間必然會展開法律所有權和管理責任的困境。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 ownership of land in space。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“land in space cannot be owned by any country or individual”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "太空中的土地不能被任何國家或個人擁有。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Does the US own Neil Armstrong’s famous first footprints on the Moon but not the lunar dust in which they were recorded?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國是否擁有 Neil Armstrong 在月球上的著名第一個腳印，卻不擁有留下腳印的月球塵土？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個法律困境：如果物件或痕跡有歷史價值，但土地不能被擁有，那麼腳印、塵土、管理責任和保護權限都變得模糊。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“it may be unclear who has responsibility for historic human footprints.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "誰對具歷史意義的人類腳印負責，可能並不清楚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括 Armstrong footprints 的例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "sneezed",
+      "answerKey": "sneezed",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 34",
+      "translation": "在 Surveyor 3 探測器組裝期間，有人在 TV camera 上 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目流程句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the assembly of the Surveyor 3 probe, someone 34 ______ on a TV camera.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One result of the analysis astonished them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一項分析結果令他們震驚。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The resulting bacteria had travelled to the Moon, remained in an alternating freezing/boiling vacuum for more than two years, and returned promptly to life upon reaching the safety of a laboratory back on Earth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由此產生的細菌曾到過月球，在冷熱交替的真空中停留超過兩年，回到地球實驗室的安全環境後迅速恢復生命力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講的是 bacteria 的來源和存活過程，所以與 Question 34 的 TV camera contamination 直接相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 TV camera、assembly。原文沒有 assembly，但有 “being installed in the probe prior to the launch”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the camera was being installed in the probe prior to the launch, someone sneezed on it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在發射前，當這部 camera 正被安裝進探測器時，有人在它上面打了噴嚏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “During the assembly” 對應 “being installed in the probe prior to the launch”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格後面是 “on a TV camera”，所以需要一個動詞。原文動詞是 sneezed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 sneezed。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "two",
+      "answerKey": "two",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 35",
+      "translation": "這部 TV camera 在月球上停留了超過 ______ 年。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目流程句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The TV camera remained on the Moon for over 35 ______ years.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 8。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說分析結果令人震驚；尾句說 bacteria 在月球的極端環境中停留超過某段時間。這段會給出停留時間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 remained on the Moon、years。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“remained in an alternating freezing/boiling vacuum for more than two years”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The resulting bacteria had travelled to the Moon, remained in an alternating freezing/boiling vacuum for more than two years…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由此產生的細菌曾到過月球，在冷熱交替的真空中停留超過兩年……題目問的是 TV camera 停留在月球多久。細菌是在 camera 上被帶到月球的，所以 camera 和bacteria 經歷同一段月球停留時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“for over ___ years” 對應 “for more than two years”。空格只能填一個字，所以答案是 two。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "removed",
+      "answerKey": "removed",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 36",
+      "translation": "Apollo 12 太空人 ______ 這部 TV camera。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目流程句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Apollo 12 astronauts 36 ______ the TV camera.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The astronaut-archaeologists carefully removed the probe’s television camera, remote sampling arm, and pieces of tubing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些太空人兼考古學家小心移除了探測器的 television camera、remote sampling arm 和一些管件。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There, scientists analyzed the changes in these aerospace artefacts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那裡，科學家分析這些航空航天人工物件的變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段正好說明太空人如何處理 camera，之後 camera 如何被送去分析。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Apollo 12 astronauts 和 TV camera。原文用 “astronaut-archaeologists” 指 Conrad和 Bean。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The astronaut-archaeologists carefully removed the probe’s television camera…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些太空人兼考古學家小心移除了探測器的 television camera。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子需要動詞：Apollo 12 astronauts ______ the TV camera。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接提供動詞 removed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 removed。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "analysis",
+      "answerKey": "analysis",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 37",
+      "translation": "這部 TV camera 被帶回地球作 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目流程句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The TV camera was returned to Earth for 37 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 7。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句講 astronauts removed the television camera；最後一句講 scientists analyzed the changes。這段首尾句已經形成完整流程：取下 → 帶回 → 分析。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 returned to Earth 和 for。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“On their return to Earth…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“There, scientists analyzed the changes…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“On their return to Earth, they passed them on to the Johnson Space Center in Houston, Texas, and the Hughes Air and Space Corporation in El Segundo, California.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "回到地球後，他們把這些物件交給 Houston, Texas 的 Johnson Space Center，以及 California El Segundo 的 Hughes Air and Space Corporation。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“There, scientists analyzed the changes in these aerospace artefacts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那裡，科學家分析這些航空航天人工物件的變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目是 “was returned to Earth for ______”，空格需要名詞。原文動詞是 “analyzed”，名詞形式在下一段也出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“One result of the analysis astonished them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一項分析結果令他們震驚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案填 analysis。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡不能填 analyzed，因為 “for analyzed” 文法不通；“for analysis” 才自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "life",
+      "answerKey": "life",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 38",
+      "translation": "這似乎顯示月球上有 ______ 的理論後來被否定。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目流程句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The theory that this suggested there was 38 ______ on the Moon was rejected.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說分析結果令人震驚；尾句說細菌在月球環境中存活超過兩年並回到實驗室復活。這段會處理一個先被提出、後被修正的解釋。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 theory、Moon、rejected。原文沒有 rejected，但有 “for a moment it was thought…” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“after further research the real explanation became apparent”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“For a moment it was thought Conrad and Bean had discovered evidence for life on the Moon, but after further research the real explanation became apparent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一刻，人們以為 Conrad 和 Bean 發現了月球上有生命的證據，但進一步研究後，真正解釋變得清楚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “the theory … was rejected” 對應原文 “For a moment it was thought…” 之後被 further research 修正。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“there was ______ on the Moon” 對應 “life on the Moon”。所以答案是 life。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "C and D",
+      "answerKey": "C and D",
+      "type": "Choose TWO",
+      "prompt": "Questions 39–40",
+      "translation": "作者寫這篇文章的兩個主要目的，是要解釋……正確選項： C — the need to set up careful controls over space tourism.需要為太空旅遊建立謹慎控制。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“The TWO main purposes of the writer of this text are to explain…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D — the need to preserve historic sites and objects in space.需要保存太空中的歷史遺址和物件。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看全文功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "全文前半集中講 future space tourists、corporate adventurers、Moon / Mars archaeological sites、legal protection 和 ownership dilemmas。後半用 Apollo 12 和 Surveyor 3 證明太空物件不只是垃圾，也有考古與學科史意義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以文章主線有兩層：第一，太空歷史遺址需要保護；第二，未來旅遊和商業活動需要規管，否則會損害這些遺址。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位選項 D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 的定位詞是 preserve historic sites and objects in space。原文 Paragraph 2 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a wealth of important archaeological sites from the history of space exploration on the Moon and Mars and measures need to be taken to protect these sites.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "月球和火星上有大量與太空探索史有關的重要考古遺址，需要採取措施保護這些地點。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“To deal with problems like these, it may be time to look to innovative international administrative structures for the preservation of historic remains on the new frontier.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了處理這類問題，也許是時候尋找創新的國際行政結構，以保存新前線上的歷史遺留物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接支持 D。文章反覆談 protect、preservation、historic remains、archaeological sites，所以 D是全文主旨之一。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位選項 C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的定位詞是 space tourism / controls。Paragraph 2 開頭說："
+            },
+            {
+              "kind": "quote",
+              "text": "“it won’t be long before both corporate adventurers and space tourists reach the Moon and Mars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "企業冒險者和太空旅客不久後便會到達月球和火星。"
+            },
+            {
+              "kind": "label",
+              "text": "同段又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mission, which would leave vehicle tyre marks all over some of the most famous sites on the Moon, was promoted as a form of theme-park entertainment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項任務會在月球上一些最著名的遺址上留下車輪痕跡，卻被宣傳成一種主題公園式娛樂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 也用 Neil Armstrong’s footprints 說明風險："
+            },
+            {
+              "kind": "quote",
+              "text": "“those at Tranquility Base could be swept away with a casual brush of a space tourist’s hand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tranquility Base 的那些腳印，可能被太空旅客隨手一掃便抹去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子共同支持 C：太空旅遊和商業娛樂活動如果沒有規管，會破壞重要歷史痕跡。雖然原文沒有逐字寫 “set up careful controls”，但 “measures need to be taken”、 “innovative international administrative structures” 就是建立控制和管理制度的意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析A — the reasons why space archaeology is not possible.錯。文章沒有說 space archaeology 不可能。Finney 只說短期內 fieldwork unlikely，但後文馬上指出 Apollo 12 已經構成第一個 extraterrestrial archaeology 例子。A 與全文方向不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B — the dangers that could follow from contamination of objects from space.錯。Surveyor 3 camera 上的 bacteria 是一個 unexpected spin-off，用來展示 artefacts 的formational archaeology 意義。文章沒有把污染危險列為主要警告。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E — the possible cultural effects of space travel.錯。Paragraph 1 提到 archaeologists may trace the development of humans in space，這與文化發展有關，但它只是引入 space archaeology 的理由之一。全文主力落在 protection、management、tourism threat 和 historic remains preservation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以第 39–40 題答案是 C and D。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        39,
+        40
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Space_ The Final Archaeological Frontier.pdf",
+    "sha256": "b0655497df0c365b8ff317ba67cbc3eb5bd4db80c37ad793312374c611ea6945",
+    "pageCount": 17
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說太空旅行仍有很長路要走，但 space archaeology 和 space heritage management 已經令科學家和環保人士關注。尾句說 Ben Finney 雖知道短期內難以實地考古，但相信有一天會做到。只看首尾句，可以估計這段是全文引入：它把地球考古方法延伸到月球、火星和人類太空活動遺址。"
+      },
+      {
+        "number": "2",
+        "summary": "首句用 “however” 轉入新的憂慮：企業冒險者和太空旅客很快會到達月球和火星。尾句說一項月球 rover 任務會在著名月球遺址上留下車輪痕跡，且被包裝成 theme-park entertainment。這段功能是指出太空遺址正面臨即將到來的商業、旅遊和科學採樣威脅。"
+      },
+      {
+        "number": "3",
+        "summary": "首句介紹 1967 年 United Nations Outer Space Treaty，並說所謂 “space junk” 仍屬發射國所有。尾句呼籲用新的國際行政結構保存新前線上的歷史遺留物。只看首尾句，可以估計這段集中處理法律和管理難題：太空物件、土地、腳印和文化資源的所有權與保護責任並不清楚。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說月球有大量遺址，將會是受過太空工作訓練的考古學家的第一個目的地。尾句說「第一位月球考古學家」這個榮譽已經有人拿走。這段是過渡段，功能是把前半的保護討論轉到後半的歷史案例：Apollo 12 任務其實已經進行過某種月球考古工作。"
+      },
+      {
+        "number": "5",
+        "summary": "首句交代 1969 年 11 月 19 日，Charles Conrad 和 Alan Bean 在 Moon’s Ocean of Storms 進行艱難手動登月，靠近 Surveyor 3。尾句說兩人即將進行月球上的第一次考古研究。這段會提供Apollo 12 與 Surveyor 3 的時間、地點和重要性，並為 flow chart 題建立背景。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說完成插國旗和地質採樣後，Conrad 和 Bean 前往 Surveyor 3。尾句說整艘太空船被 dust覆蓋，可能是登陸時揚起的。這段大概描述兩位太空人如何觀察 Surveyor 3：它曾在著陸後彈跳， footpads 留下印痕，太空人細心拍照，呈現出考古式觀察和記錄。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 astronaut-archaeologists 小心移除 Surveyor 3 的 television camera、remote sampling arm 和 tubing。尾句說科學家分析這些 aerospace artefacts 的變化。這段是 flow chart 的核心之一：它描述物件如何被取下、裝袋、標籤、帶回地球，再交給科研機構作 analysis。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說其中一項分析結果令科學家震驚。尾句說細菌去過月球、在冷熱交替的真空中停留超過兩年，回到地球實驗室後重新活過來。這段會解釋 Streptococcus mitis 的發現：起初似乎是月球生命證據，後來發現來源只是發射前有人在 camera 上打噴嚏。"
+      },
+      {
+        "number": "9",
+        "summary": "首句用帶幽默感的方式總結：連太空浩瀚也阻止不了人類傳播 sore throat。尾句說這些 artefacts是 extraterrestrial archaeology 和 formational archaeology 的第一個例子。這段是結論段，意義不只在細菌發現，更在於太空物件如何受環境和人類文化力量影響。"
+      }
+    ]
+  }
+}

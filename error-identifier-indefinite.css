@@ -1,0 +1,9 @@
+.error-id-mode-card--indefinite { grid-column: 1; background: linear-gradient(145deg,#eef8f5,#f9fdfa); border-color:#b9ded1; }
+.error-id-mode-card--indefinite .error-id-mode-card__icon { background:#d6eee5; color:#236757; }
+.error-id-mode-card--indefinite > span:not([class]) { margin-top: 12px; line-height: 1.6; }
+.error-indefinite-context { display: grid; gap: 5px; padding: 14px 18px; border-left: 4px solid #3d8d77; background: #f2faf7; color: #2a5e50; }
+.error-indefinite-context span { color: #576f67; }
+.error-indefinite-sentence { margin: 28px 0; color: #203e51; font: 700 clamp(21px,2.2vw,27px)/1.6 Georgia,serif; }
+.error-indefinite-note { color:#607b73; font-size: 14px; }
+.error-indefinite-workspace [hidden] { display: none !important; }
+@media (max-width:760px) { .error-id-mode-card--indefinite { grid-column: 1; } }

@@ -1,0 +1,1953 @@
+{
+  "id": "p1-153-the-beginning-of-football",
+  "catalogueId": "p1-153",
+  "catalogueIds": [
+    "p1-153"
+  ],
+  "passage": 1,
+  "title": "The Beginning of Football",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "ix",
+    "x",
+    "i",
+    "vii",
+    "iii",
+    "viii",
+    "vi",
+    "I",
+    "D",
+    "B",
+    "H",
+    "E",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "ix — Probably not an early version of football",
+      "answerKey": "ix — Probably not an early version of football",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "很可能並非足球的早期版本目標段落：Paragraph D",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Romans had a much livelier game, ‘harpastum’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "羅馬人有一種活躍得多的遊戲，叫作 “harpastum”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The game remained popular for 700 or 800 years, but, although it was taken to England, it is doubtful whether it can be considered a forerunner of contemporary football.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種遊戲流行了七八百年，但雖然它被帶到英格蘭，它是否可算作現代足球的前身，仍然成疑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 的方向很清楚：開頭介紹 Roman game，看似是一種重要古代球類運動；結尾卻把重點收回到「它和現代足球的關係成疑」。所以這段的 heading 應概括「可能不屬於足球早期版本」這個判斷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading ix 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Probably not”"
+            },
+            {
+              "kind": "quote",
+              "text": "“early version of football”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“it is doubtful whether it can be considered a forerunner of contemporary football”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“doubtful” 對應 “probably not”；“forerunner of contemporary football” 對應 “early version of football”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文還說：“The role of the feet was so small as scarcely to be of consequence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "腳在這個遊戲中的作用小到幾乎不重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句進一步解釋為何 harpastum 很難被看成現代 football 的前身。現代 football 的核心特徵之一是用腳踢球，但 harpastum 中 feet 的角色非常小。因此，即使它 was taken to England，也不能直接把它放入 modern football 的祖先線。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading ix："
+            },
+            {
+              "kind": "quote",
+              "text": "“Probably not an early version of football”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“it is doubtful whether it can be considered a forerunner of contemporary football”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： probably not = doubtful early version = forerunner football = contemporary football"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段有 “popular for 700 or 800 years”，看似可選 v “A game that has survived”。但 v 已是Paragraph C 的例子，而且 D 的最後一句並沒有強調今日仍存在，只說曾流行很久。真正控制heading 的訊號是 “doubtful” 和 “forerunner”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "x — A rough and disorganised form of football",
+      "answerKey": "x — A rough and disorganised form of football",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "一種粗暴而混亂的足球形式目標段落：Paragraph E",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The game that flourished in Britain from the 8th to the 19th centuries was substantially different from all the previously known forms—more disorganised, more violent, more spontaneous and usually played by an indefinite number of players.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "八至十九世紀在英國盛行的遊戲，和所有之前已知形式大不相同：它更混亂、更暴力、更自發，而且通常由不固定數量的玩家參與。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kicking opponents was allowed, as was almost everything else.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "踢對手是容許的，幾乎其他任何行為也都容許。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經直接交代段落功能：這段要描述英國早期足球粗野、暴力、無固定規則的狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading x 中的 “rough” 對應 violent / kicking opponents；“disorganised” 直接在原文第一句出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading x 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“rough”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disorganised”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有非常直接的對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“more disorganised, more violent, more spontaneous”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Kicking opponents was allowed”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "中間句也支援 heading x："
+            },
+            {
+              "kind": "quote",
+              "text": "“Frequently, the games took the form of a heated contest between whole villages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些比賽經常變成整個村莊之間的激烈對抗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“heated contest” 顯示比賽情緒激烈；“whole villages” 顯示參與規模鬆散，不像固定人數的正式運動。再加上 “Kicking opponents was allowed”，整段共同描寫一種極粗暴、缺乏正式規範的民間足球。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading x：“A rough and disorganised form of football”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“more disorganised, more violent, more spontaneous”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Kicking opponents was allowed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： rough = violent / kicking opponents allowed disorganised = more disorganised / indefinite number of players form of football = the game that flourished in Britain"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段也提到 “whole villages”，所以之後 Question 11 會用到 H “was often played by one community against another”。但 Heading 題要概括整段，不能只抓 whole villages 這一個細節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的總功能是描述英國民間足球的混亂和粗暴。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "i — Limited success in suppressing the game",
+      "answerKey": "i — Limited success in suppressing the game",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "壓制這項遊戲的成效有限目標段落：Paragraph F",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was tremendous enthusiasm for football, even though the authorities repeatedly intervened to restrict it as a public nuisance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們對足球有極大熱情，雖然官方多次介入，試圖把它作為公共滋擾加以限制。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“None of these efforts had much effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些努力都沒有產生多大效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經形成完整答案鏈：authorities repeatedly intervened = 官方嘗試壓制；None of these efforts had much effect = 成效有限。所以 heading i 是最貼合全段的概括。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading i 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Limited success”"
+            },
+            {
+              "kind": "quote",
+              "text": "“suppressing the game”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“authorities repeatedly intervened to restrict it”"
+            },
+            {
+              "kind": "quote",
+              "text": "“made football punishable by law”"
+            },
+            {
+              "kind": "quote",
+              "text": "“None of these efforts had much effect”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 14th and 15th centuries, England, Scotland and France all made football punishable by law, because of the disorder that commonly accompanied it, or because the well-loved recreation prevented subjects from practising more useful military disciplines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十四、十五世紀，英格蘭、蘇格蘭和法國都把足球列為可受法律懲罰的行為，原因是它常伴隨混亂，或因為這項受歡迎的娛樂妨礙臣民練習更有用的軍事訓練。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句解釋了 suppressing 的原因和方式：足球造成 disorder，也令人不練 military disciplines，所以官方用 law 處理。可是段末的 “None of these efforts had much effect” 告訴我們，限制成效不大。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading i："
+            },
+            {
+              "kind": "quote",
+              "text": "“Limited success in suppressing the game”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“repeatedly intervened to restrict it”"
+            },
+            {
+              "kind": "quote",
+              "text": "“made football punishable by law”"
+            },
+            {
+              "kind": "quote",
+              "text": "“None of these efforts had much effect”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： suppressing = restrict / made punishable by law limited success = none had much effect"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ii “Opposition to the role of football in schools” 不適合，因為 Paragraph F 沒有 schools。它談的是 authorities 和 public nuisance。iv “Football matches between countries” 也不合適；England, Scotland and France 是三個國家都立法限制足球，不是國際比賽。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "vii — Proposals for minor improvements",
+      "answerKey": "vii — Proposals for minor improvements",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "提出小幅改良建議目標段落：Paragraph G",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The English passion for football was particularly strong in the 16th century, influenced by the popularity of the rather better organised Italian game of ‘calcio’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十六世紀英格蘭人對足球的熱情特別強，並受到較有組織的意大利遊戲 “calcio” 的流行所影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mulcaster claimed that all that was needed was to refine it a little, limit the number of participants in each team and, more importantly, have a referee to oversee the game.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mulcaster 聲稱，只需要稍微改良它、限制每隊參與人數，更重要的是設一名裁判監管比賽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段從「足球熱情與外國影響」轉向「改良建議」。段落最終落點在 Mulcaster 的proposals：refine it a little、limit participants、have a referee。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading vii 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Proposals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“minor improvements”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“all that was needed was to refine it a little”"
+            },
+            {
+              "kind": "quote",
+              "text": "“limit the number of participants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“have a referee”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“refine it a little” 是判斷 heading 的核心。a little 顯示 Mulcaster 沒有要求徹底重造足球。他承認English football 仍然 rough，但認為只需作幾項制度化修正：人數限制和裁判監管。這些都屬於minor improvements，而非完全改變遊戲本質。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading vii：“Proposals for minor improvements”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“all that was needed was to refine it a little”"
+            },
+            {
+              "kind": "quote",
+              "text": "“limit the number of participants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“have a referee”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： proposals = Mulcaster claimed minor improvements = refine it a little / limit / referee"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段第一句有 “influenced by … Italian game of calcio”，很容易令人想起句尾配對中的 C “was influenced by a game from another country”。但這裡是 Heading 題，答案要概括整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 的最終功能不只講 calcio 影響，更重點呈現 Mulcaster 的改革建議。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "iii — A way of developing moral values",
+      "answerKey": "iii — A way of developing moral values",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "培養品德價值的方法目標段落：Paragraph H",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The game persisted in a disorganised form until the early 19th century, when a number of influential English schools developed their own adaptations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項遊戲一直以混亂形式存在，直到十九世紀初，一些有影響力的英格蘭學校發展出自己的改編版本。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A ‘games cult’ developed in schools and some form of football became an obligatory part of the curriculum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學校中出現一種「運動崇拜」，某種形式的足球成為課程中的必修部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句說明 football 進入 school context。中間關鍵句解釋學校為何接受它：足球作為 team game，可以培養 loyalty、selflessness、co-operation 等品質。因此 heading iii 最準確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading iii 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“developing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“moral values”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有逐字使用 moral values，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“helped to develop such fine qualities as loyalty, selflessness, co-operation, subordination and deference to the team spirit.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was recognised in educational circles that, as a team game, football helped to develop such fine qualities as loyalty, selflessness, co-operation, subordination and deference to the team spirit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "教育界認為，作為一項團隊運動，足球有助培養忠誠、無私、合作、服從和尊重團隊精神等優良品質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“fine qualities” 就是 heading 中 “moral values” 的實際內容。這些都不是純粹技術能力，而是品格、紀律和群體精神。因此 Paragraph H 的主功能是說明 football 在學校中被視為一種品格教育工具。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iii：“A way of developing moral values”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“helped to develop such fine qualities as loyalty, selflessness, co-operation…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： developing = helped to develop moral values = fine qualities way = as a team game / obligatory part of curriculum"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "viii “Attempts to standardise the game” 有一定誘惑，因為 schools developed their own adaptations。但 own adaptations 指各校版本不同，尚未進入統一規則階段。真正的standardisation 在 Paragraph I。ii “Opposition to the role of football in schools” 方向相反， Paragraph H 是 acceptance in schools。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "viii — Attempts to standardise the game",
+      "answerKey": "viii — Attempts to standardise the game",
+      "type": "Matching Headings",
+      "prompt": "Question 6",
+      "translation": "嘗試使比賽標準化目標段落：Paragraph I",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1863, developments reached a climax.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到了 1863 年，相關發展達到高潮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This meeting marked the birth of the Football Association.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這次會議標誌着 Football Association 的誕生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph I 是制度化轉折點。中間出現 “uniform standards and rules”、“accepted by everyone”、“fundamental rules”，全部指向 standardisation。這段處理如何由不同版本走向共同規則。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading viii 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“standardise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rules”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accepted by everyone”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“establish some uniform standards and rules”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a set of fundamental rules to govern the matches”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“At Cambridge University, an initiative began to establish some uniform standards and rules that would be accepted by everyone…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在劍橋大學，有人開始推動建立一些統一標準和規則，讓所有人接受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接對應 heading viii。後文提到 eleven London clubs and schools sent representatives，目的是 establish a set of fundamental rules。這不是某一間學校的內部規則，而是多個球會和學校共同制定基本規則。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading viii："
+            },
+            {
+              "kind": "quote",
+              "text": "“Attempts to standardise the game”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“an initiative began to establish some uniform standards and rules”"
+            },
+            {
+              "kind": "quote",
+              "text": "“establish a set of fundamental rules”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： attempts = initiative began / sent representatives standardise = establish uniform standards and rules game = matches played amongst them"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "vi “Separation into two sports” 看似也有關，因為段中提到 two camps，其中 Rugby School 想保留 carrying the ball。但 Paragraph I 的主結果是 birth of the Football Association 和 fundamental rules。真正的 final split 出現在 Paragraph J。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "vi — Separation into two sports",
+      "answerKey": "vi — Separation into two sports",
+      "type": "Matching Headings",
+      "prompt": "Question 7",
+      "translation": "分裂成兩種運動目標段落：Paragraph J",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The dispute concerning kicking and tripping opponents and carrying the ball was discussed thoroughly at this and subsequent meetings…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於踢人、絆倒對手和持球的爭議，在這次及之後的會議中被徹底討論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Within eight years, the Football Association already had 50 member clubs, and the first football competition in the world was started—the FA Cup.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "八年內，Football Association 已有五十個會員球會，世界上第一個足球比賽也開始了——FA Cup。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段處理規則爭議後的組織發展。中間最關鍵句直接說明 rugby style supporters withdrew，並標誌 rugby 和 football 的 final split。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading vi 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Separation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“two sports”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“marking a final split between rugby and football”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…until eventually, on 8 December, the die-hard exponents of the Rugby style withdrew, marking a final split between rugby and football.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到最後，在 12 月 8 日，堅持 Rugby 風格的人退出，標誌着 rugby 和 football 最終分裂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“final split” 是最強答案訊號。Paragraph I 仍在討論統一規則；Paragraph J 則說明規則爭議導致兩個運動分道發展。後文 FA Cup 的出現，顯示 football 作為獨立制度化運動開始快速發展。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading vi：“Separation into two sports”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a final split between rugby and football”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： separation = final split two sports = rugby and football"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "viii “Attempts to standardise the game” 仍有一定吸引力，因為 Paragraph J 也提到 meetings 和rules dispute。可是標準化的建立已在 Paragraph I 完成；Paragraph J 的新信息是 rugby supporters withdrew，兩項運動正式分開。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "I — formed part of a celebration.",
+      "answerKey": "I — formed part of a celebration.",
+      "type": "Sentence Endings",
+      "prompt": "“Tsu’chu formed part of a celebration.”",
+      "translation": "Tsu’chu 是慶祝活動的一部分。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The very earliest form of football for which we have evidence is the ‘tsu’chu’, which was played in China and may date back 3,000 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前有證據可追溯的最早足球形式是 “tsu’chu”，它在中國進行，可能已有三千年歷史。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It involved kicking a leather ball through a 30–40 cm opening into a small net fixed onto long bamboo canes—a feat that demanded great skill and excellent technique.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "玩法包括把皮球踢過一個三十至四十厘米的開口，進入固定在長竹竿上的小網；這需要很高技巧和出色技術。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目主體是 “Tsu’chu”，非常容易定位到 Paragraph B。再掃描句尾選項，I “formed part of a celebration” 會令我們尋找 celebration / festivities / birthday 一類字眼。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was played in front of the Emperor during festivities to mark his birthday.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項遊戲是在皇帝面前進行的，屬於慶祝他生日的節慶活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支援 I。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“during festivities” = 在慶祝活動期間“to mark his birthday” = 為了紀念／慶祝皇帝生日所以 Tsu’chu formed part of a celebration。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "formed part of a celebration= was played … during festivities to mark his birthday"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也強調 skill and technique，但選項中沒有「需要技巧」這個句尾。考生不能只因最後一句很突出，就忽略中間句的 celebration evidence。這題真正定案的是 “during festivities”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "D — was a cooperative effort by all the players.",
+      "answerKey": "D — was a cooperative effort by all the players.",
+      "type": "Sentence Endings",
+      "prompt": "“Kemari was a cooperative effort by all the players.”",
+      "translation": "Kemari 是所有玩家共同合作完成的活動。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another form of the game, also originating from the Far East, was the Japanese ‘kemari’, which dates from about the fifth century and is still played today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種同樣源自遠東的遊戲，是日本的 “kemari”，它可追溯至約五世紀，而且今天仍有人玩。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The players pass the ball to one another in a relatively small space, trying not to let it touch the ground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "玩家在相對較小的空間中互相傳球，盡量不讓球落地。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目主體是 “Kemari”，直接定位 Paragraph C。選項 D 的 “cooperative effort” 對應原文中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“pass the ball to one another”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：“It is a circular, dignified and ceremonial game requiring certain skills, but it is not competitive in the way the Chinese game was, nor is there any struggle for possession of the ball.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它是一種圓形隊形、莊重且帶儀式感的遊戲，需要一定技巧；但它不像中國遊戲那樣具競爭性，也沒有爭奪控球權。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再加上最後一句 “pass the ball to one another”，可見 kemari 的重點是共同保持球不落地，而不是對抗取勝。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cooperative effort= pass the ball to one another= not competitive= no struggle for possession"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Example 已把 Paragraph C heading 選為 v “A game that has survived”，因為它 still played today。但 Question 9 要配句尾，不是選 heading。這裡要回答 kemari 的玩法特徵，所以 D 最準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "B — involved individual players having different responsibilities.",
+      "answerKey": "B — involved individual players having different responsibilities.",
+      "type": "Sentence Endings",
+      "prompt": "“Harpastum involved individual players having different responsibilities.”",
+      "translation": "Harpastum 涉及不同球員各自承擔不同職責。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Romans had a much livelier game, ‘harpastum’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "羅馬人有一種活躍得多的遊戲，叫作 “harpastum”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The game remained popular for 700 or 800 years, but, although it was taken to England, it is doubtful whether it can be considered a forerunner of contemporary football.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種遊戲流行了七八百年，但雖然它被帶到英格蘭，它是否可算作現代足球的前身，仍然成疑。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目主體 “Harpastum” 明確定位 Paragraph D。選項 B 的定位詞是 “individual players” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“different responsibilities”。原文對應是 “Each team member had his own specific tactical assignment”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：“Each team member had his own specific tactical assignment, and the spectators took a noisy interest in the proceedings and the score.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每名隊員都有自己特定的戰術任務，觀眾也熱烈而嘈雜地關注比賽進程和比分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“specific tactical assignment” 就是不同職責。每個 team member 都有自己的戰術任務，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "individual players= each team member different responsibilities= his own specific tactical assignment"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 的 heading 是 ix，因為整段結尾質疑它是否現代足球前身。但 Question 10 問harpastum 的其中一個特徵，答案要回到 “specific tactical assignment”，不能被 heading 的主旨帶走。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "H — was often played by one community against another.",
+      "answerKey": "H — was often played by one community against another.",
+      "type": "Sentence Endings",
+      "prompt": "“From the eighth century onwards, football in the British Isles was often played by one community against another.”",
+      "translation": "從八世紀起，英倫群島的足球經常是一個社群對抗另一個社群。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The game that flourished in Britain from the 8th to the 19th centuries was substantially different from all the previously known forms—more disorganised, more violent, more spontaneous and usually played by an indefinite number of players.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "八至十九世紀在英國盛行的遊戲，和之前所有已知形式大不相同：更混亂、更暴力、更自發，而且通常由不固定數量的玩家參與。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kicking opponents was allowed, as was almost everything else.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "踢對手是容許的，幾乎其他任何行為也都容許。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有 “From the eighth century onwards” 和 “British Isles”，對應 Paragraph E 的 “from the 8th to the 19th centuries” 和 “Britain”。選項 H 的 “one community against another” 對應原文 “whole villages”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Frequently, the games took the form of a heated contest between whole villages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些比賽經常變成整個村莊之間的激烈對抗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“whole villages” 就是 communities；“between” 表示一方對另一方；“Frequently” 對應 “often”。所以 H 完整配合題幹。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "often= frequently one community against another= between whole villages"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F “was played by teams of a fixed size” 明顯不合。原文說 “usually played by an indefinite number of players”，意思是參與人數不固定。這與 fixed size 方向相反。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "E — distracted people from more important activities.",
+      "answerKey": "E — distracted people from more important activities.",
+      "type": "Sentence Endings",
+      "prompt": "“In the past, the authorities opposed football because they believed it distracted people from more important activities.”",
+      "translation": "過去官方反對足球，因為他們認為足球使人分心，無法從事更重要的活動。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was tremendous enthusiasm for football, even though the authorities repeatedly intervened to restrict it as a public nuisance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們對足球有極大熱情，雖然官方多次介入，試圖把它作為公共滋擾加以限制。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“None of these efforts had much effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些努力都沒有產生多大效果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “authorities opposed football” 和 “because”。Paragraph F 直接提到 “authorities”和 restrict，又用 “because” 解釋原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 14th and 15th centuries, England, Scotland and France all made football punishable by law, because of the disorder that commonly accompanied it, or because the well-loved recreation prevented subjects from practising more useful military disciplines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十四、十五世紀，英格蘭、蘇格蘭和法國都把足球列為可受法律懲罰的行為，原因是它常伴隨混亂，或因為這項受歡迎的娛樂妨礙臣民練習更有用的軍事訓練。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“prevented subjects from practising more useful military disciplines” 是關鍵。官方認為軍事訓練更有用，但足球妨礙人們練習，所以 E 正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "distracted people from more important activities= prevented subjects from practising more useful military disciplines more important activities= more useful military disciplines"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文也提到 disorder，所以有些學生會只記住 public nuisance。但選項 E 對應的是另一個原因：足球使人無法練習軍事技能。題目只需選一個正確句尾，而 E 正好概括原文提供的理由。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "A — was seen as something to be encouraged in the young.",
+      "answerKey": "A — was seen as something to be encouraged in the young.",
+      "type": "Sentence Endings",
+      "prompt": "“Once football was accepted in educational settings, it was seen as something to be encouraged in the young.”",
+      "translation": "一旦足球在教育環境中被接受，它就被視為值得在年輕人中鼓勵的事物。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The game persisted in a disorganised form until the early 19th century, when a number of influential English schools developed their own adaptations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項遊戲一直以混亂形式存在，直到十九世紀初，一些有影響力的英格蘭學校發展出自己的改編版本。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A ‘games cult’ developed in schools and some form of football became an obligatory part of the curriculum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學校中出現一種「運動崇拜」，某種形式的足球成為課程中的必修部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “accepted in educational settings” 對應原文 “recognised in educational circles” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“developed in schools”。選項 A 的 “encouraged in the young” 對應 “became an obligatory part of the curriculum”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：“It was recognised in educational circles that, as a team game, football helped to develop such fine qualities as loyalty, selflessness, co-operation, subordination and deference to the team spirit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "教育界認為，作為團隊運動，足球有助培養忠誠、無私、合作、服從和尊重團隊精神等優良品質。"
+            },
+            {
+              "kind": "label",
+              "text": "再看段末："
+            },
+            {
+              "kind": "quote",
+              "text": "“A ‘games cult’ developed in schools and some form of football became an obligatory part of the curriculum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學校中出現「運動崇拜」，某種形式的足球成為課程中的必修部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來說明：教育界認為足球有教育價值，所以學校把它納入課程。這正好對應 A。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "accepted in educational settings= recognised in educational circles / developed in schools something to be encouraged in the young= obligatory part of the curriculum / helped to develop fine qualities"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "iii “A way of developing moral values” 是 Paragraph H 的 heading，但 Question 13 要選句尾。A才能接成完整句，並且同時包含教育場景和鼓勵年輕人參與的意思。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Beginning of Football.pdf",
+    "sha256": "1e5f3c6185cb35f34e1bc441c53071c348c758b5a9bb332d197b514cb745a548",
+    "pageCount": 20
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看第一句，讀者會先知道現代足球在十九世紀英國發展出來，但文章立即提醒我們，足球的歷史遠早於現代英式足球。最後一句提到十七世紀末蘇格蘭曾有已婚女性和單身女性比賽，而且已婚女性經常勝出。首尾句合起來看，這段的功能是打開歷史範圍：football 這個詞以前很廣，不一定等於今日的踢球運動，也不只屬於男性。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句直接指出最早有證據的足球形式是中國的 “tsu’chu”，可能已有三千年歷史。最後一句說，將皮球踢進竹竿上的小網，需要很高技巧和技術。只看首尾句，可以先估計這段會介紹一個早期、具技術性的中國球類運動。中間細節很可能會補充它的玩法、場合和歷史背景。這段最容易對應題目中 “Tsu’chu” 以及 celebration / skill 類答案。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句介紹另一種源自遠東的遊戲：日本 “kemari”，約可追溯至五世紀，而且今天仍有人玩。最後一句說，玩家在較小空間中互相傳球，盡量不讓球落地。首尾句顯示這段重點是 kemari 的延續性和玩法。它不像競爭激烈的比賽，更偏向禮儀性、合作性和技巧性活動。因此例題 Paragraph C配 heading v “A game that has survived” 很合理。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說羅馬人的 “harpastum” 是一種更活躍的遊戲。最後一句卻指出，雖然它被帶到英格蘭，但很難確定它是否可算作現代足球的前身。首尾句形成明顯轉向：開頭好像要介紹一個重要古代球類運動，結尾卻收窄成「它可能未必是 contemporary football 的早期版本」。因此這段的主功能不在 popularity，也不在 tactics，而在質疑它和現代足球的承接關係。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句說，八至十九世紀在英國盛行的遊戲，和之前已知形式大不相同：更混亂、更暴力、更自發，參與人數也不固定。最後一句說，踢對手是允許的，其他大部分行為也可接受。只看首尾句，讀者已能看出這段聚焦於英國早期足球的粗野與無規則狀態。中間提到 whole villages 只是其中一種表現，整段核心是 rough、violent、disorganised。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說人們對足球有巨大熱情，但官方多次介入，試圖限制它作為公共滋擾的影響。最後一句說，這些努力都沒有太大效果。首尾句已經清楚顯示這段功能：官方想壓制足球，但成效有限。中間的法律處罰、秩序混亂、妨礙軍事訓練等細節，都是解釋 authorities 為何反對足球。這段很適合 heading “Limited success in suppressing the game”。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說十六世紀英格蘭人對足球的熱情特別強，並受到意大利較有組織的 “calcio” 影響。最後一句說 Richard Mulcaster 認為只需稍作改良：限制每隊人數，並設裁判監管比賽。首尾句顯示這段先交代足球受外國遊戲影響，再轉到具體改革建議。真正控制段落功能的是最後部分： Mulcaster 沒有要求完全改造足球，只提出 refine、limit、referee 這類小幅制度化建議。"
+      },
+      {
+        "number": "H",
+        "summary": "第一句說，足球一直以混亂形式存在，直到十九世紀初一些有影響力的英格蘭學校發展出各自版本。最後一句說，學校出現 “games cult”，某種足球成為課程中的必修部分。首尾句說明這段焦點轉入教育場景。中間提到 football 可培養 loyalty、selflessness、co-operation 等品質，顯示學校逐漸把足球視為品格訓練工具。這段與 moral values、school curriculum、young people 相關。"
+      },
+      {
+        "number": "I",
+        "summary": "第一句說，1863 年相關發展達到高潮。最後一句說，十一个倫敦球會和學校代表的會議標誌着Football Association 的誕生。首尾句清楚顯示這段處理制度化轉折點。中間的 Cambridge initiative、uniform standards、rules、two camps、fundamental rules 都指向一個功能：人們嘗試建立大家都能接受的統一規則。這段尚未完成 rugby 和 football 的分裂，焦點在 standardisation。"
+      },
+      {
+        "number": "J",
+        "summary": "第一句說，關於踢人、絆倒對手和持球的爭議，在多次會議中被徹底討論。最後一句說，八年內Football Association 已有五十個會員球會，世界首個足球競賽 FA Cup 也開始。首尾句顯示這段先處理規則爭議，然後展示分裂後足球組織快速發展。中間最關鍵的是 Rugby style supporters withdrew，標誌 rugby 和 football 最終分開。因此主功能是 separation into two sports。 Answer Key 1. ix 2. x 3. i 4. vii 5. iii 6. viii 7. vi 8. I 9. D 10. B 11. H 12. E 13. A"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1726 @@
+{
+  "id": "p2-085-single-gender-education-a-case-made",
+  "catalogueId": "p2-085",
+  "catalogueIds": [
+    "p2-085"
+  ],
+  "passage": 2,
+  "title": "Single-Gender Education: A Case Made?",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "viii",
+    "ii",
+    "x",
+    "vii",
+    "vi",
+    "iii",
+    "B",
+    "A",
+    "E",
+    "D",
+    "C",
+    "D",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "viii — It’s happening anyway",
+      "answerKey": "viii — It’s happening anyway",
+      "type": "Matching Headings",
+      "prompt": "Paragraph B 的最佳 heading。",
+      "translation": "「這件事其實一直都在發生。」",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given that the word ‘segregation’ has such negative connotations, the current interest in single-gender schooling is somewhat surprising.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 “segregation” 這個詞有很負面的含義，現時人們對 single-gender schooling 的興趣令人有點意外。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, it may simply be an idealistic illusion to condemn single-gender settings on that basis alone, as do many co-educational advocates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，像許多男女同校支持者那樣，只憑這個理由譴責 single-gender settings，可能只是理想化的幻覺。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading “It’s happening anyway” 的核心是：某種 separation / grouping 即使被批評，在現實生活中仍然存在。掃描 Paragraph B，中間句子最重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet in the real world and the society in which we live, segregation of some sort happens all the time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在真實世界和我們生活的社會中，某種形式的分隔一直都在發生。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文之後舉例："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clubs inevitably form—for example, among clerical workers, lawyers, the academically gifted and those skilled in music or the arts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "各種群體無可避免會形成，例如文員、律師、學業優秀者，以及擅長音樂或藝術的人之間都會形成群體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 heading “It’s happening anyway” 正好概括這段：作者說雖然 segregation 一詞令人反感，但生活中按職業、能力、興趣形成 groups 是常態。Paragraph B 的重點不在證明single-gender education 一定有效，重點在說「用 segregation 本身作為唯一反對理由，可能太理想化」。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading viii 沒有出現原字 “segregation”，但 “happens all the time” 幾乎直接支援 “It’s happening anyway”。學生做 headings 題時，要找段落反覆強調的功能，不要只找 heading 原字。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "ii — Conflicting evidence",
+      "answerKey": "ii — Conflicting evidence",
+      "type": "Matching Headings",
+      "prompt": "Paragraph C 的最佳 heading。",
+      "translation": "互相衝突的證據。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This suggests that single-gender education must necessarily be condemned on other grounds, yet the issue is complicated, and research often sinks into a morass of conflicting data and, occasionally, emotional argument.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示 single-gender education 若要被否定，就必須從其他理由入手；然而問題很複雜，研究常陷入互相衝突的資料泥沼，有時也牽涉情緒化論證。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What then can parents do?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼，父母到底可以怎樣做？"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading “Conflicting evidence” 對應原文 “conflicting data”。這是非常直接的同義配對。掃描時還會看到 “one study” 和後來的 “harshly titled article”，顯示證據方向互相拉扯。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, one study comes out with strong proof of the efficacy of single-gender schooling, causing a resurgence of interest and positive public sentiment, only to be met later by a harshly titled article, ‘Single-Sex Schooling: The Myth and the Pseudoscience’, published and endorsed by several respected magazines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，有研究提出 single-gender schooling 有效的有力證明，引起興趣和正面公眾情緒復興；但後來又出現一篇題目尖銳的文章《Single-Sex Schooling: The Myth and the Pseudoscience》，並獲多本受尊重雜誌出版和背書。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Conflicting evidence= strong proof of efficacy● later article calling it myth and pseudoscience● conflicting data Paragraph C 一邊有研究支持 single-gender schooling，另一邊有文章猛烈質疑，最後連父母也不知如何判斷。因此 ii 是最佳 heading。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "iv “An emotional argument” 也有吸引力，因為第一句出現 “emotional argument”。但整段主要不是只講情緒，它同時講研究、文章、雜誌、兩邊都有表面合理性。能覆蓋全段的 heading 是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "x — An argument in favour",
+      "answerKey": "x — An argument in favour",
+      "type": "Matching Headings",
+      "prompt": "Paragraph D 的最佳 heading。",
+      "translation": "一個支持 single-gender education 的理據。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Proponents of separating the genders often argue that it promotes better educational results, not only in raw academic scores but also in behaviour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "支持分開男女教育的人常主張，這能促進較好的教育結果，不只體現在原始學業分數，也體現在行為上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such claims demand hard evidence, but this is difficult to come by, since statistics are notoriously unreliable and subject to varying interpretations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類主張需要硬證據，但證據很難取得，因為統計資料出名不可靠，也容易出現不同解讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading “An argument in favour” 對應 “Proponents … argue”。Proponents 指支持者；argue 指提出論點。這段第一句已經把立場方向講清楚。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The standard support for this is the claim of innate gender differences in the manner in which boys and girls learn and behave in educational settings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種說法的標準支持理由，是聲稱男孩和女孩在教育環境中的學習和行為方式有先天性別差異。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Separation allows males to be taught in a ‘male way’ and in accordance with the ‘male’ developmental path, which is said to be very different from the female one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "分開教育讓男孩可以用「男性方式」接受教學，並按所謂「男性」發展路徑學習；據稱這條路徑和女性發展路徑非常不同。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "An argument in favour= proponents argue= separation promotes better educational results= boys and girls learn differently這段雖然結尾提醒證據不足，但段落主體仍在呈現支持者的第一個核心理據：男女有先天差異，分開教學可配合不同發展路徑。因此 x 最準。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "vii “A counter-argument” 不適合 Paragraph D，因為作者還未正式反駁。最後一句只是提出證據要求，真正反駁和削弱支持理據的是 Paragraph E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "vii — A counter-argument",
+      "answerKey": "vii — A counter-argument",
+      "type": "Matching Headings",
+      "prompt": "Paragraph E 的最佳 heading。",
+      "translation": "一個反駁論點。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, the key factors that lead to superior performance at single-gender schools are often the higher quality of the teachers, the better resources at hand and the more motivated students, who often come from wealthier or more privileged backgrounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，single-gender schools 表現較佳的關鍵因素，常常是教師質素較高、手上資源較好，以及學生更有動機；這些學生往往來自較富裕或更有特權的背景。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those who make such claims are accused of emphasising favourable data and drawing conclusions based more on anecdotal evidence and gender stereotyping.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "提出這類主張的人被批評只強調有利資料，並更多根據軼事證據和性別刻板印象下結論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 先說支持者認為分開教學有效。Paragraph E 開始改變方向，用 “Of course” 引出更現實的解釋：成績好可能源自 teachers、resources、motivated students、privileged background。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是 counter-argument 的功能。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When these factors are taken into account, large-scale studies do not support claims of superior results, while the latest findings of neuroscientists do not support claims of persistent gender differences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當這些因素被納入考慮後，大型研究並不支持 single-gender schools 成績較佳的說法；同時，神經科學家的最新發現也不支持持久性別差異的說法。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A counter-argument= when background factors are considered, claims are not supported= neuroscience does not support persistent gender differences= favourable data / anecdotal evidence / gender stereotyping Paragraph E 的作用是拆解 Paragraph D 的支持理據。它說表現較好可能由資源和背景造成，並指出研究和 neuroscience 不支持核心聲稱。因此 vii 最貼近。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ii “Conflicting evidence” 看似也可用，因為這段提到 studies 和 findings。但 Paragraph C 已經整段處理 conflicting data；Paragraph E 的重點更精準：它回擊前段的 pro-single-gender argument。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "vi — Looking at the other side",
+      "answerKey": "vi — Looking at the other side",
+      "type": "Matching Headings",
+      "prompt": "Paragraph G 的最佳 heading。",
+      "translation": "看看另一邊的觀點。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among this welter of conflicting arguments, one can, at least, fall back on one certainty – that the real world is co-gendered, and each side often misunderstands the other.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這堆互相衝突的論點中，至少有一件確定的事可以依靠：真實世界是男女共同存在的，而且雙方常互相誤解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, these statements are just glib and unreal assertions, rather than a reflection of what actually happens in the co-educational classroom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，這些說法只是空泛且不真實的斷言，未能反映 co-educational classroom 中實際發生的情況。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 和 F 已經呈現 single-sex education 的支持理據。Paragraph G 轉向 “Supporters of co-education argue…”，這就是 “the other side”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Supporters of co-education argue that positive and co-operative interaction between the genders at school reduces such divisions by de-emphasising gender as a factor of concern.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "co-education 的支持者主張，男女在學校中正面且合作的互動，能透過淡化性別作為關注因素，減少這些分歧。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In theory, stereotypes are broken down, and inclusion is emphasised, providing benefits for society as a whole.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "理論上，刻板印象會被打破，包容會被強調，並為整個社會帶來好處。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Looking at the other side= after single-sex advocates, the passage now presents supporters of co-education這段既呈現 co-education 支持者的論點，又由作者指出這些說法可能太空泛。因此 heading vi 最能概括全段。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "x “An argument in favour” 也似乎合適，因為本段有 co-education 的支持理據。不過題目整篇的主要爭議起點是 single-gender education；Paragraph G 的功能是轉看 co-education 一方，所以vi 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "iii — Negatives are positives",
+      "answerKey": "iii — Negatives are positives",
+      "type": "Matching Headings",
+      "prompt": "Paragraph H 的最佳 heading。",
+      "translation": "負面互動也可以有正面教育價值。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The key point is whether the interaction in co-educational settings is indeed positive and co-operative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵在於 co-educational settings 中的互動是否真的正面和合作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is the most important point, and it would determine which educational setting I would choose for my children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是最重要的一點，也會決定我會為自己的孩子選擇哪種教育環境。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading “Negatives are positives” 對應本段的核心轉折：即使互動不好，它仍然是一種重要教育。掃描時要找 “whether good or bad” 和 “still constitutes education”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But I would say such interaction, whether good or bad, whether academically enhancing or retarding, still constitutes education of a vital nature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但我會說，這種互動不論好壞，不論會促進還是阻礙學業，仍然構成一種非常重要的教育。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It presents exactly the same set of challenges that students, male or female, will ultimately have to deal with in the real world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它呈現的正是學生，不論男女，最終都要在真實世界中處理的同一組挑戰。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Negatives are positives= bad / academically retarding interaction still constitutes vital education= real-world challenges are educational Paragraph H 的重點不在聲稱 co-education 永遠和諧。作者承認互動可能不好，卻認為這種不好本身仍有教育價值，因為它訓練學生面對真實世界。heading iii 正好覆蓋這種「把負面經驗重新理解為正面教育」的邏輯。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "B — think boys and girls are similar",
+      "answerKey": "B — think boys and girls are similar",
+      "type": "Sentence Endings",
+      "prompt": "“Neuroscientists think boys and girls are similar.”",
+      "translation": "神經科學家認為男孩和女孩相似。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, the key factors that lead to superior performance at single-gender schools are often the higher quality of the teachers, the better resources at hand and the more motivated students, who often come from wealthier or more privileged backgrounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "single-gender schools 表現較佳的關鍵因素，常是教師質素較高、資源較好，以及學生更有動機，且學生常來自較富裕或更有特權的背景。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those who make such claims are accused of emphasising favourable data and drawing conclusions based more on anecdotal evidence and gender stereotyping.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "提出這類說法的人被批評只強調有利資料，並更多根據軼事證據和性別刻板印象下結論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Neuroscientists”。原文直接出現 “the latest findings of neuroscientists”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“... the latest findings of neuroscientists do not support claims of persistent gender differences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "神經科學家的最新發現並不支持持久性別差異的說法。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "do not support claims of persistent gender differences= do not think boys and girls are deeply or permanently different= think boys and girls are similar選項 B 是最合適句尾。這裡的 similar 不是說男女完全一樣，而是指原文沒有支持那種持久、固定的性別差異論。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不能把 Paragraph D 中支持者聲稱的 “innate gender differences” 配給 neuroscientists。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 明確說 neuroscientists 不支持 persistent gender differences。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "A — have some strong views",
+      "answerKey": "A — have some strong views",
+      "type": "Sentence Endings",
+      "prompt": "“The magazines have some strong views.”",
+      "translation": "那些雜誌持有相當強烈的看法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This suggests that single-gender education must necessarily be condemned on other grounds, yet the issue is complicated, and research often sinks into a morass of conflicting data and, occasionally, emotional argument.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示 single-gender education 若要被否定，就要從其他理由入手；然而問題很複雜，研究常陷入互相衝突的資料，也偶爾牽涉情緒化論證。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What then can parents do?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼父母到底可以怎樣做？"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “magazines”。原文只有 Paragraph C 提到 “several respected magazines”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“... only to be met later by a harshly titled article, ‘Single-Sex Schooling: The Myth and the Pseudoscience’, published and endorsed by several respected magazines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但後來又出現一篇題目尖銳的文章《Single-Sex Schooling: The Myth and the Pseudoscience》，並獲多本受尊重雜誌出版和背書。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "harshly titled article● “The Myth and the Pseudoscience”● published and endorsed by respected magazines= the magazines have some strong views"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“myth” 和 “pseudoscience” 都是非常強烈的否定字眼。雜誌不只是提到這篇文章，還 published and endorsed it，所以 A 是合理配對。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 沒有逐字出現 “strong views”。Sentence endings 題常把語氣改寫成普通說法；這裡真正控制答案的是 harshly titled 和 endorsed。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "E — often receive much respect",
+      "answerKey": "E — often receive much respect",
+      "type": "Sentence Endings",
+      "prompt": "“Students from single-gender schools often receive much respect.”",
+      "translation": "來自 single-gender schools 的學生常獲得很多尊重。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, the key factors that lead to superior performance at single-gender schools are often the higher quality of the teachers, the better resources at hand and the more motivated students, who often come from wealthier or more privileged backgrounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "single-gender schools 表現較佳的關鍵因素，常是教師質素較高、資源較好，以及學生更有動機，且學生常來自較富裕或更有特權的背景。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those who make such claims are accused of emphasising favourable data and drawing conclusions based more on anecdotal evidence and gender stereotyping.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "提出這類主張的人被批評只強調有利資料，並更多根據軼事證據和性別刻板印象下結論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Students from single-gender schools”。原文中對應 “their new students”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Single-gender schools are often the most prestigious in society, demanding the highest entry marks from their new students, who, in turn, receive more deference and respect from society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "single-gender schools 常是社會中最有聲望的學校，要求新生取得最高入學分數；這些學生反過來從社會獲得更多敬重和尊重。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "receive more deference and respect from society= often receive much respect答案是 E。句尾 “often receive much respect” 精準概括 “receive more deference and respect”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 students，不是 schools。學校有 prestige，學生 receive respect。Sentence ending要檢查主體和動作是否配合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "D — are surprising in some ways",
+      "answerKey": "D — are surprising in some ways",
+      "type": "Sentence Endings",
+      "prompt": "“People in society are surprising in some ways.”",
+      "translation": "社會上的人或社會取態在某些方面令人意外。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given that the word ‘segregation’ has such negative connotations, the current interest in single-gender schooling is somewhat surprising.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 “segregation” 這個詞有很負面的含義，現時人們對 single-gender schooling 的興趣令人有點意外。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, it may simply be an idealistic illusion to condemn single-gender settings on that basis alone, as do many co-educational advocates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，只憑這個理由譴責 single-gender settings，可能只是理想化的幻覺。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “People in society”。Paragraph B 不直接用這個題目短語，但有 “progressive society”、“the real world and the society in which we live”、“Clubs inevitably form”。這些都在講社會中的人如何實際形成 groups。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“... the current interest in single-gender schooling is somewhat surprising.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現時人們對 single-gender schooling 的興趣令人有點意外。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet in the real world and the society in which we live, segregation of some sort happens all the time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在真實世界和我們生活的社會中，某種形式的分隔一直都在發生。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "current interest ... somewhat surprising= society’s attitude / people’s interest is surprising in some ways這題的句尾 D 較概括。原文真正說「令人意外」的是社會現在對 single-gender schooling 的興趣；題目把它壓縮成 “People in society are surprising in some ways”。在五個句尾中，D 是唯一能接回 Paragraph B “somewhat surprising” 的答案。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C “often have idealistic views” 也和 Paragraph B 有關，但題目 24 的 “Supporters of co-education” 更直接對應 idealistic / glib / unreal。Question 23 的 strongest signal 是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“somewhat surprising”，所以配 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "C — often have idealistic views",
+      "answerKey": "C — often have idealistic views",
+      "type": "Sentence Endings",
+      "prompt": "“Supporters of co-education often have idealistic views.”",
+      "translation": "co-education 的支持者常有理想化看法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G；可回看 Paragraph B Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among this welter of conflicting arguments, one can, at least, fall back on one certainty – that the real world is co-gendered, and each side often misunderstands the other.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這堆互相衝突的論點中，至少有一件確定的事：真實世界是男女共同存在的，而且雙方常互相誤解。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In other words, these statements are just glib and unreal assertions, rather than a reflection of what actually happens in the co-educational classroom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "換句話說，這些說法只是空泛且不真實的斷言，未能反映 co-educational classroom 中實際發生的情況。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Supporters of co-education”。Paragraph G 直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Supporters of co-education argue that...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In theory, stereotypes are broken down, and inclusion is emphasised, providing benefits for society as a whole.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "理論上，刻板印象會被打破，包容會被強調，並為整個社會帶來好處。"
+            },
+            {
+              "kind": "label",
+              "text": "作者接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“But such sentiments, admittedly, do sound as if we are retreating into self-promotional propaganda.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這類情緒性說法確實聽起來像是在退回自我宣傳式的說辭。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Paragraph B："
+            },
+            {
+              "kind": "quote",
+              "text": "“... it may simply be an idealistic illusion to condemn single-gender settings on that basis alone, as do many co-educational advocates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只憑 segregation 這個理由譴責 single-gender settings，可能只是理想化幻覺；許多co-educational advocates 正是這樣做。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "idealistic illusion / glib and unreal assertions= often have idealistic views答案是 C。作者認為 co-education 支持者把 classroom interaction 描寫得過於理想，未必反映真實課室狀況。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 開頭說 “real world is co-gendered”，這句支持 co-education 的現實背景。但作者後面立刻質疑支持者的漂亮說法，真正控制答案的是 “glib and unreal assertions”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "D — generally lower-quality teaching (compared to single-gender schools)",
+      "answerKey": "D — generally lower-quality teaching (compared to single-gender schools)",
+      "type": "Multiple Choice",
+      "prompt": "“The author believes co-education has…”",
+      "translation": "作者認為 co-education 具有以下哪一項特點？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E；也要回看 Paragraph G–H 排除其他選項。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, the key factors that lead to superior performance at single-gender schools are often the higher quality of the teachers, the better resources at hand and the more motivated students, who often come from wealthier or more privileged backgrounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "single-gender schools 表現較佳的關鍵因素，常是教師質素較高、資源較好，以及學生更有動機，且學生常來自較富裕或更有特權的背景。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those who make such claims are accused of emphasising favourable data and drawing conclusions based more on anecdotal evidence and gender stereotyping.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "提出這類主張的人被批評只強調有利資料，並更多根據軼事證據和性別刻板印象下結論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “clear statistical support” 要找 statistics / studies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “less stereotyping” 要找 stereotypes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “positive interaction” 要找 positive and co-operative interaction。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “lower-quality teaching compared to single-gender schools” 要找 teacher quality comparison。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“... the key factors that lead to superior performance at single-gender schools are often the higher quality of the teachers, the better resources at hand and the more motivated students...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "single-gender schools 表現較佳的關鍵因素，常是教師質素較高、資源較好，以及學生更有動機。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句不是在稱讚 gender separation 本身。作者說 single-gender schools 的優勢常來自外在條件，包括 better teachers、better resources、motivated and privileged students。若和 single-gender schools 比較，co-education 便缺少這些常見優勢，所以 D 是四個選項中最有原文支援的一項。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A clear statistical support錯。Paragraph D 說 statistics are notoriously unreliable；Paragraph E 又說 large-scale studies do not support claims of superior results。作者沒有說 co-education 有清楚統計支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B less stereotyping不穩。Paragraph G 只是說 co-education 支持者在理論上認為 stereotypes are broken down。作者隨即評價這些說法是 “glib and unreal assertions”。所以 B 是支持者的理想說法，不能當成作者相信的事實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C much positive interaction錯。Paragraph H 第一段就質疑互動是否真的 positive and co-operative，並說它也可能是opposite。作者不主張 co-education 一定有大量正面互動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D generally lower-quality teaching compared to single-gender schools正確。Paragraph E 以作者語氣指出 single-gender schools 常有 higher quality of teachers。選項D 是相對說法，在四個選項中最能對應這句。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 和 C 很吸引，因為 Paragraph G 確實出現 stereotypes、positive and co-operative interaction。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但那些是 co-education 支持者的說法，作者緊接著質疑它們太空泛。MCQ 要分清「某一方主張」和「作者相信」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "B — co-educational schooling is preferable.",
+      "answerKey": "B — co-educational schooling is preferable.",
+      "type": "Multiple Choice",
+      "prompt": "“The author believes…”",
+      "translation": "作者相信以下哪一項？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The key point is whether the interaction in co-educational settings is indeed positive and co-operative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關鍵在於 co-educational settings 中的互動是否真的正面和合作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is the most important point, and it would determine which educational setting I would choose for my children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是最重要的一點，也會決定我會為自己的孩子選擇哪種教育環境。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 author believes，應看最後立場句。Paragraph H 中 “I would say” 和 “I would choose” 是作者親自表態的強訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But I would say such interaction, whether good or bad, whether academically enhancing or retarding, still constitutes education of a vital nature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但我會說，這種互動不論好壞，不論會促進還是阻礙學業，仍然構成一種非常重要的教育。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It presents exactly the same set of challenges that students, male or female, will ultimately have to deal with in the real world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它呈現的正是學生，不論男女，最終都要在真實世界中處理的同一組挑戰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is the most important point, and it would determine which educational setting I would choose for my children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是最重要的一點，也會決定我會為自己的孩子選擇哪種教育環境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者的邏輯是：真實世界是 co-gendered，學生終究要面對男女互動的挑戰；即使課室互動有時不好，這仍是一種 vital education。因此，作者會偏向選擇 co-educational schooling。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A single-gender schooling is better錯。作者最後的教育價值落在 co-educational interaction 上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B co-educational schooling is preferable正確。作者最後用 “I would choose for my children” 表示個人取向，而前文所指的教育價值來自co-educational settings。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C we cannot say which sort of schooling is better不夠貼近最後立場。Paragraph C 確實說 evidence conflicting，但 Paragraph H 已經給出作者自己的判斷原則。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D more evidence is needed Paragraph D 提過 hard evidence difficult to come by，但最後題問作者 belief。作者最後沒有停在「需要更多證據」，而是說 co-gendered interaction 本身有 vital educational value。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很容易令人誤選，因為文章多次說 research conflicting、statistics unreliable。可是最後一段作者已經從純學業證據轉向 real-world education 角度，並清楚說這會決定他給孩子的選擇。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Single-Gender Education_ A Case Made_.pdf",
+    "sha256": "cd73a3bf1270f041f048586c7b35a5f12a9be251475f97a68f46ebd8f60813bf",
+    "pageCount": 20
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：Paragraph A–H",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句指出現代民主社會雖然重視自由和平等，仍然提供 single-sex education 的選項。末句提出核心問題：這種教育制度究竟推動女性平權，還是阻礙女性平權？只看首尾句，可判斷本段是全文總引，功能是介紹 single-gender education 的爭議背景。段落把問題框在 sex equality、women’s opportunities 和 supporters on both sides 之間，所以 example heading “Does it help or not?” 合理。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 “segregation” 帶有強烈負面含義，所以社會現在重新關注 single-gender schooling 令人有點意外。末句說，只因 segregation 這個理由便譴責 single-gender settings，可能只是理想化幻覺。只看首尾句，可估計本段主要處理一個現實觀察：社會表面排斥分隔，實際生活中各種grouping、cliques、classes 卻一直存在。這段最貼近 “It’s happening anyway”。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說如果不能單靠 segregation 這個理由否定 single-gender education，便要用其他理由審視，但問題十分複雜。末句問父母到底可以怎樣做。只看首尾句，可見本段聚焦在不確定和矛盾：研究結果互相衝突，文章和公眾情緒也拉扯不清。這段提供 headings 題的重要導航：conflicting data、emotional argument、both sides appear valid 都指向 “Conflicting evidence”。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說支持分開男女教育的人常主張，這能提升學業成績和行為表現。末句提醒，這類主張需要硬證據，但統計資料常不可靠，亦會有不同解讀。只看首尾句，可判斷本段先提出 single-gender education 的主要支持理據：男女有先天學習和發展差異，因此應用不同方式教導。雖然結尾保留疑問，段落主功能仍是呈現 “An argument in favour”。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 single-gender schools 表現較佳的關鍵因素，常是教師質素較高、資源較好、學生較有動機。末句說提出性別差異論的人，被批評只強調有利資料，並依靠 anecdotal evidence 和 gender stereotyping。只看首尾句，可見本段功能是回應前段支持理據：表現好未必由 gender separation本身造成，研究和神經科學也削弱先天差異論。這段最像 “A counter-argument”。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 single-sex education 的支持者還提出其他理由。末句說這些 stereotyping 也可能在single-gender settings 發生，因為校外社會期待影響更大。只看首尾句，可判斷本段是另一個支持理據：女孩可避開男生帶來的 harassment，並更有信心讀工程和數學；男孩也可較自在地接觸藝術。題目已把 Paragraph F 作 example，heading 是 “Another argument in favour”。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說在混亂爭論中，至少有一件事可以確定：現實世界是男女共同存在的，而且雙方常互相誤解。末句說 co-education 支持者的說法可能只是空泛、脫離實況的宣傳。只看首尾句，可估計本段轉向 co-education 的立場：它呈現支持者說法，再由作者質疑其過度理想化。這段最貼近“Looking at the other side”。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說真正關鍵在於 co-educational settings 中的男女互動是否真的正面和合作。末句說，這一點會決定作者為自己孩子選擇哪種教育環境。只看首尾句，可判斷本段是作者最後立場：即使互動有好有壞，它仍是一種重要教育，因為學生將來在真實世界也要面對相同挑戰。這段把可能的負面互動重新理解成教育價值，最貼近 “Negatives are positives”。"
+      }
+    ]
+  }
+}

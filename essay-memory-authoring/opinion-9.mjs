@@ -1,0 +1,367 @@
+// Model Essay 9 · Opinion: prioritising local enterprise over overseas corporations.
+const simple=[
+  "Because government decisions shape how a country's economy develops over many years, governments must choose where their help will do the most good.",
+  'Although many countries try to bring in foreign companies, I fully agree that governments should mainly help local businesses because they keep money in the country and offer a more stable base for future growth.',
+  "First, local businesses deserve more help because they keep money moving around the country's economy much better.",
+  'When a company from the country grows, it is more likely to spend its profits locally, it pays taxes to the same government that helped it, and it usually works with other companies in the country.',
+  'This makes each amount of money help many other businesses and workers.',
+  'A growing local business buys supplies from other businesses in the country, pays local workers and buys delivery, advertising and accounting help from nearby companies.',
+  'So money reaches many kinds of work instead of going abroad, which helps people find jobs and brings in more tax money.',
+  'For example, if the government helps a food maker owned by local people, its growth may also help farmers, delivery firms and packaging businesses in the same country.',
+  'Governments should also put local businesses first because depending too much on foreign companies can make the country less able to compete later.',
+  'Big companies with offices in many countries often enter new markets with lots of money, brands people already know, and the power to charge less than smaller businesses.',
+  'If they also get lower taxes or special help, local businesses may find it hard to stay open even when they could grow later.',
+  'When local competitors close, important industries may come to rely on companies owned in other countries that make their decisions there.',
+  'This is risky: if wages rise or profits drop, those companies may move away, leaving lost jobs and economic problems.',
+  'For example, foreign shop chains may take over a market and push smaller local stores to close, then spend less there when conditions become worse for them.',
+  'In short, I fully agree that governments should help local businesses before foreign companies.',
+  'Helping local businesses keeps money in the country, makes connected industries stronger and makes the economy less dependent on others; relying too much on foreign companies can weaken the country over time.',
+];
+const vocabulary=[
+  [['public policy','government decisions','公共政策'],['national economy',"a country's economy",'國家經濟'],['support','help','支持'],['greatest benefit','most good','最大效益']],
+  [['attract overseas corporations','bring in foreign companies','吸引海外企業'],['completely agree','fully agree','完全同意'],['focus primarily on encouraging local businesses','mainly help local businesses','優先扶持本地企業'],['economic value','money','經濟價值'],['within the country','in the country','留在國內'],['a more stable basis','a more stable base','更穩定的基礎']],
+  [['The first reason','First','第一個原因'],['local enterprises','local businesses','本地企業'],['deserve greater support','deserve more help','更值得支持'],['circulate wealth','keep money moving around','讓財富流動'],['domestic economy',"country's economy",'國內經濟'],['far more effectively','much better','更有效']],
+  [['home-grown company','company from the country','本土企業'],['expands','grows','擴張'],['reinvested locally','spend its profits locally','重新投資本地'],['assisted it','helped it','曾幫助它'],['operations usually depend on other national firms','usually works with other companies in the country','營運依賴其他本國公司']],
+  [['creates','makes','造成'],['a powerful multiplier effect','each amount of money help many other businesses and workers','強大的乘數效應']],
+  [['materials','supplies','材料'],['domestic suppliers','other businesses in the country','國內供應商'],['pays wages to local employees','pays local workers','支付本地員工工資'],['transport','delivery','運輸'],['marketing','advertising','行銷']],
+  [['As a result','So','因此'],['income spreads across several sectors','money reaches many kinds of work','收入擴散多個產業'],['transferred abroad','going abroad','轉移國外'],['strengthens employment','helps people find jobs','強化就業'],['increases tax revenue','brings in more tax money','增加稅收']],
+  [['locally owned','owned by local people','本地人擁有'],['food manufacturer','food maker','食品製造商'],['government assistance','the government helps','政府援助'],['delivery companies','delivery firms','配送公司'],['packaging providers','packaging businesses','包裝供應商']],
+  [['prioritise local firms','put local businesses first','優先扶持本地企業'],['excessive reliance on foreign companies','depending too much on foreign companies','過度依賴外國企業'],['weaken national competitiveness','make the country less able to compete','削弱國家競爭力'],['over time','later','長遠而言']],
+  [['multinational corporations','companies with offices in many countries','跨國企業'],['vast financial resources','lots of money','雄厚財力'],['established global brands','brands people already know','成熟全球品牌'],['undercut smaller rivals','charge less than smaller businesses','以低價壓過小對手']],
+  [['tax breaks','lower taxes','減稅'],['special incentives','special help','特殊優惠'],['domestic businesses','local businesses','本國企業'],['struggle to survive','find it hard to stay open','難以生存'],['long-term potential','could grow later','長期潛力']],
+  [['Once local competitors disappear','When local competitors close','一旦本地競爭者消失'],['key industries','important industries','關鍵產業'],['become dependent on','come to rely on','變得依賴'],['foreign-owned firms','companies owned in other countries','外資企業'],['whose decisions are made overseas','that make their decisions there','決策在海外作出']],
+  [['creates a serious risk','is risky','造成嚴重風險'],['labour costs','wages','勞工成本'],['profits fall','profits drop','利潤下跌'],['relocate','move away','遷走'],['job losses','lost jobs','失業'],['economic disruption','economic problems','經濟動盪']],
+  [['A clear example can be seen when','For example','明顯例子'],['foreign retail chains','foreign shop chains','外國零售連鎖'],['dominate a market','take over a market','主導市場'],['forcing smaller local shops to close','push smaller local stores to close','迫使本地小店關門'],['reducing investment','spend less there','減少投資'],['less favourable','worse for them','較不利']],
+  [['In conclusion','In short','總而言之'],['wholly agree','fully agree','完全同意'],['prioritise local businesses over foreign ones','help local businesses before foreign companies','優先支持本地企業']],
+  [['Supporting domestic enterprise','Helping local businesses','支持本國企業'],['keeps wealth at home','keeps money in the country','財富留在國內'],['strengthens related industries','makes connected industries stronger','強化相關產業'],['a more self-reliant economy','the economy less dependent on others','較自立的經濟'],['overdependence on overseas corporations','relying too much on foreign companies','過度依賴海外企業'],['undermine long-term national resilience','weaken the country over time','削弱長期國家韌性']],
+];
+const chunkOverrides=[
+  ['Because public policy shapes the long-term direction of a national economy,','governments must decide where their support','will produce the greatest benefit.'],
+  ['Although many countries try to attract overseas corporations,','I completely agree that governments should focus primarily on encouraging local businesses','because domestic firms keep economic value within the country','and provide a more stable basis for future growth.'],
+  ['The first reason local enterprises deserve greater support','is that they circulate wealth through the domestic economy','far more effectively.'],
+  ['When a home-grown company expands,','its profits are more likely to be reinvested locally,','its taxes are paid to the same government that assisted it,','and its operations usually depend on other national firms.'],
+  ['This creates','a powerful multiplier effect.'],
+  ['A growing local business buys materials from domestic suppliers,','pays wages to local employees,','and purchases services such as transport, marketing and accounting','from nearby companies.'],
+  ['As a result, income spreads across several sectors','rather than being transferred abroad,','which strengthens employment','and increases tax revenue.'],
+  ['For example, if a locally owned food manufacturer receives government assistance,','its growth may also benefit farmers, delivery companies','and packaging providers within the same country.'],
+  ['Governments should also prioritise local firms','because excessive reliance on foreign companies','can weaken national competitiveness over time.'],
+  ['Large multinational corporations often enter new markets','with vast financial resources, established global brands','and the ability to undercut smaller rivals.'],
+  ['If they are also offered tax breaks or special incentives,','domestic businesses can struggle to survive,','even when they have long-term potential.'],
+  ['Once local competitors disappear,','key industries may become dependent on foreign-owned firms','whose decisions are made overseas.'],
+  ['This creates a serious risk:','if labour costs rise or profits fall,','those companies can relocate,','leaving job losses and economic disruption behind.'],
+  ['A clear example can be seen when foreign retail chains dominate a market,','forcing smaller local shops to close','before later reducing investment','when conditions become less favourable.'],
+  ['In conclusion, I wholly agree','that governments should prioritise local businesses over foreign ones.'],
+  ['Supporting domestic enterprise keeps wealth at home,','strengthens related industries and builds a more self-reliant economy,','whereas overdependence on overseas corporations','can undermine long-term national resilience.'],
+];
+const simpleChunkOverrides=[
+  ["Because government decisions shape how a country's economy develops over many years,",'governments must choose where their help','will do the most good.'],
+  ['Although many countries try to bring in foreign companies,','I fully agree that governments should mainly help local businesses','because they keep money in the country','and offer a more stable base for future growth.'],
+  ['First, local businesses deserve more help','because they keep money moving around the country\'s economy','much better.'],
+  ['When a company from the country grows,','it is more likely to spend its profits locally,','it pays taxes to the same government that helped it,','and it usually works with other companies in the country.'],
+  ['This makes each amount of money','help many other businesses and workers.'],
+  ['A growing local business buys supplies from other businesses in the country,','pays local workers','and buys delivery, advertising and accounting help','from nearby companies.'],
+  ['So money reaches many kinds of work','instead of going abroad,','which helps people find jobs','and brings in more tax money.'],
+  ['For example, if the government helps a food maker owned by local people,','its growth may also help farmers, delivery firms','and packaging businesses in the same country.'],
+  ['Governments should also put local businesses first','because depending too much on foreign companies','can make the country less able to compete later.'],
+  ['Big companies with offices in many countries often enter new markets','with lots of money, brands people already know,','and the power to charge less than smaller businesses.'],
+  ['If they also get lower taxes or special help,','local businesses may find it hard to stay open','even when they could grow later.'],
+  ['When local competitors close,','important industries may come to rely on companies owned in other countries','that make their decisions there.'],
+  ['This is risky:','if wages rise or profits drop,','those companies may move away,','leaving lost jobs and economic problems.'],
+  ['For example, foreign shop chains may take over a market','and push smaller local stores to close,','then spend less there','when conditions become worse for them.'],
+  ['In short, I fully agree','that governments should help local businesses before foreign companies.'],
+  ['Helping local businesses keeps money in the country,','makes connected industries stronger and makes the economy less dependent on others;','relying too much on foreign companies','can weaken the country over time.'],
+];
+const F=(formula,meaning,usage,parts)=>({formula,meaning,usage,parts});
+const S=(example,answerReason,distractorReason,distractors,frame)=>({
+  example,answerReason,distractorReason,distractors,frame,
+});
+const structures=[
+  S('Because transport policy affects a city for many years, officials must decide where their support will produce the greatest benefit.','Because 先交代政策的長期影響，主句再指出決策者必須作取捨。','這句以長遠影響作原因，解釋為何需要比較不同投資方向。',[3,8,14],
+    F('Because [政策影響長遠方向], [決策者] must decide where [支持] will produce [最大利益]','先說政策影響長期結果，再解釋決策者為何必須選擇資源投向。','公共資源有限，須為選擇哪項支持先建立決策理由時。',[['Because','link','引出政策影響'],[' public policy shapes the long-term direction of a national economy','slot','政策影響長遠方向'],[',','link','接上決策需要'],[' governments ','slot','決策者'],['must decide where','link','必須選擇投向'],[' their support ','slot','支持'],['will produce','link','比較可得結果'],[' the greatest benefit.','slot','最大利益']])),
+  S('Although several towns invite large hotel chains, I completely agree that councils should support family guesthouses because they keep spending nearby and offer steadier local jobs.','Although 先承認另一做法，再表態；because 交代本方的兩項理由。','這句將讓步、立場與兩項支持理由完整串起來。',[0,5,10],
+    F('Although [另一做法存在], I completely agree that [應優先支持的做法] because [理由一] and [理由二]','先承認有人採用另一做法，再明確表態；because 後列出兩條可分段發展的理由。','引言要承認另一政策方向，同時清楚提出自己的優先選擇及理由時。',[['Although','link','承認另一做法'],[' many countries try to attract overseas corporations','slot','另一做法存在'],[', I completely agree that','link','提出作者立場'],[' governments should focus primarily on encouraging local businesses ','slot','應優先支持的做法'],['because','link','引出支持理由'],[' domestic firms keep economic value within the country ','slot','理由一'],['and','link','並列第二理由'],[' provide a more stable basis for future growth.','slot','理由二']])),
+  S('The first reason local farmers deserve greater support is that they buy and hire within their region.','The first reason...is that 把應獲支持的判斷與首項具體原因連起來。','這句直接標示第一條支持某群體的理由。',[1,4,14],
+    F('The first reason [某類本地事業] deserve greater support is that [可解釋的實際作用]','先指出支持誰，再說其一項值得支持的作用；後文須展開這作用。','開始第一段論證，要清楚說出自己偏向某選擇的首項理由時。',[['The first reason','link','引出首項理由'],[' local enterprises ','slot','某類本地事業'],['deserve greater support is that','link','交代支持原因'],[' they circulate wealth through the domestic economy far more effectively.','slot','可解釋的實際作用']])),
+  S('When a community bank grows, its savings may be lent nearby, its fees support local services, and its work depends on nearby firms.','When 設定本地機構成長，再列資金、收入與合作三條不同連結。','這句以一個條件引出三項平行的本地經濟作用。',[0,5,11],
+    F('When [本地機構成長], [資金用途], [公共收入] and [其他本地企業關係]','一個本地機構成長時，資金、稅款及供應鏈可以在同一地方形成多條連結。','要解釋一項資源投入如何經不同途徑惠及同一群體或地方時。',[['When','link','設定本地成長'],[' a home-grown company expands','slot','本地機構成長'],[',','link','接第一渠道'],[' its profits are more likely to be reinvested locally','slot','資金用途'],[',','link','接第二渠道'],[' its taxes are paid to the same government that assisted it','slot','公共收入'],[', and','link','接第三渠道'],[' its operations usually depend on other national firms.','slot','其他本地企業關係']])),
+  S('This creates a chain of benefits across nearby shops and workers.','This 指回前述多項本地交易，概括它們帶動更多單位的效果。','這句用 This creates 收束前文，結果須能由前面多個作用推出。',[2,6,12],
+    F('This creates [由前述多條渠道共同產生的連鎖效果]','This 指回前句的資金、稅款與合作關係；結果不是憑空出現，而是多次本地交易彼此帶動。','已列出數個具體途徑，接着要概括它們累積形成的效果時。',[['This creates','link','概括前述渠道'],[' a powerful multiplier effect.','slot','連鎖效果']])),
+  S('A growing local farm buys seeds from nearby suppliers, pays local workers, and purchases services such as transport and repairs from other firms.','三個並列動作顯示企業支出如何流到供應商、員工與服務業。','這句用 such as 將較大的服務類別具體化。',[3,7,9],
+    F('[成長中的本地企業] buys [本地材料], pays [本地員工] and purchases services such as [服務例子] from [附近公司]','列出採購材料、支付工資與購買服務三種支出渠道；such as 提供服務的具體例子。','概括一種資源循環後，要展示資源會經哪些途徑流出時。',[['A growing local business ','slot','成長中的本地企業'],['buys','link','第一類支出'],[' materials from domestic suppliers','slot','本地材料'],[', pays','link','第二類支出'],[' wages to local employees','slot','本地員工'],[', and purchases services such as','link','第三類支出及例子'],[' transport, marketing and accounting ','slot','服務例子'],['from','link','指出供應者'],[' nearby companies.','slot','附近公司']])),
+  S('As a result, income stays in several local trades rather than moving away, which supports jobs and public revenue.','rather than 對照留下與外流；which 指回資金流動的整體後果。','這句由地方支出推到就業及稅收的兩項結果。',[3,5,12],
+    F('As a result, [收入流向] rather than [資金外流], which [就業及公共收入效果]','先概括收入去哪裏，再與外流對照；which 指向前面整個資金流向，接出兩項後果。','已列出投入與聘用的途徑，要追蹤它們如何影響就業和公共收入時。',[['As a result,','link','承接前文支出'],[' income spreads across several sectors ','slot','收入流向'],['rather than','link','對照外流'],[' being transferred abroad','slot','資金外流'],[', which','link','補充後果'],[' strengthens employment and increases tax revenue.','slot','就業及公共收入效果']])),
+  S('For example, if a local bakery receives a grant, its growth may also help farmers and delivery workers nearby.','例子以 if 設定受助企業，再用 may 指出其他供應者可能同時受益。','這句把抽象循環落到一家企業與其供應鏈。',[3,4,10],
+    F('For example, if [本地企業得到支援], its growth may also benefit [其他本地供應者]','例子先說誰得到支援，再審慎指出其成長可能惠及哪些其他本地單位。','要以具體受助者說明好處如何傳到其他人或機構時。',[['For example, if','link','引入具體條件'],[' a locally owned food manufacturer receives government assistance','slot','本地企業得到支援'],[', its growth may also benefit','link','指出可能外溢'],[' farmers, delivery companies and packaging providers within the same country.','slot','其他本地供應者']])),
+  S('Councils should also prioritise local transport firms because relying too much on outside operators can weaken local control over time.','also 轉入另一理由；because 解釋過度依賴外來機構的長期風險。','這句由第一段的利益轉向第二段的依賴風險。',[1,2,11],
+    F('[決策者] should also prioritise [本地對象] because [過度依賴外部對象] can weaken [長期能力]','先提出同一立場的另一理據：不是即時收入，而是過度依賴可能削弱的長期能力。','完成一項正面理由後，要轉入另一選擇可能帶來的依賴風險時。',[['Governments ','slot','決策者'],['should also prioritise','link','引出另一支持方向'],[' local firms ','slot','本地對象'],['because','link','解釋長期風險'],[' excessive reliance on foreign companies ','slot','過度依賴外部對象'],['can weaken','link','審慎指出影響'],[' national competitiveness over time.','slot','長期能力']])),
+  S('Large global retailers often enter new towns with deep funds, familiar names and the ability to charge less than small stores.','with 並列財力、品牌與低價能力三項既有優勢。','這句具體解釋大型外來競爭者可能在哪些方面佔優。',[3,5,10],
+    F('[大型外來企業] often enter [新市場] with [資金], [既有品牌] and the ability to [價格競爭]','列出入市時已擁有的三項優勢，為後面本地對手難以生存的條件鋪路。','要解釋較強競爭者如何在同一政策下取得早期優勢時。',[['Large multinational corporations ','slot','大型外來企業'],['often enter','link','進入'],[' new markets ','slot','新市場'],['with','link','列出所帶資源'],[' vast financial resources','slot','資金'],[',','link','並列品牌'],[' established global brands ','slot','既有品牌'],['and the ability to','link','並列競爭能力'],[' undercut smaller rivals.','slot','價格競爭']])),
+  S('If those chains also get tax relief, family stores may struggle to stay open, even when they could grow over time.','If 設定外來企業再獲優惠，even when 承認本地對手仍有長期潛力。','這句區分眼前生存困難與長期可能性。',[3,8,13],
+    F('If [強勢對手另獲優惠], [本地對手] can struggle to survive, even when [仍有長期潛力]','先說額外優惠如何改變競爭條件，再承認受壓者即使有潛力仍可能撐不下去。','要指出政策優惠可能使較小但有潛力的競爭者受壓時。',[['If','link','設定額外優惠'],[' they are also offered tax breaks or special incentives','slot','強勢對手另獲優惠'],[',','link','接本地後果'],[' domestic businesses ','slot','本地對手'],['can struggle to survive','link','可能難以生存'],[', even when','link','承認潛力'],[' they have long-term potential.','slot','仍有長期潛力']])),
+  S('Once local clinics disappear, patients may depend on an outside chain whose key decisions are made elsewhere.','Once 標示本地對手退出後，whose 說明被依賴者的決策所在地。','這句由本地對手消失推到對外部決策的依賴。',[3,9,12],
+    F('Once [本地對手消失], [關鍵領域] may become dependent on [外來機構] whose [重要決策] are made [外地]','先指出本地替代消失，後面說依賴外來機構的結果；whose 補充其決策不在本地。','要分析競爭者消失後，一項服務如何失去自主決策能力時。',[['Once','link','設定本地對手退出'],[' local competitors disappear','slot','本地對手消失'],[',','link','接依賴結果'],[' key industries ','slot','關鍵領域'],['may become dependent on','link','可能轉為依賴'],[' foreign-owned firms ','slot','外來機構'],['whose','link','補充其決策'],[' decisions ','slot','重要決策'],['are made','link','說明決策地點'],[' overseas.','slot','外地']])),
+  S('This creates a serious risk: if transport costs rise, the outside operator can leave, leaving lost jobs and disrupted services behind.','冒號展開具體風險；if 設條件，leaving 說明遷走後留下的後果。','這句把抽象依賴具體化為成本變化、撤離與本地損失。',[4,10,13],
+    F('This creates a serious risk: if [經營條件變差], [外來公司] can [撤離], leaving [地方損失] behind','先標示風險，再用 if 說明哪種變化可能觸發撤離，最後交代留下的損失。','指出對外部行動者的依賴後，要具體解釋何時及如何變成損失時。',[['This creates a serious risk: if','link','引出風險條件'],[' labour costs rise or profits fall','slot','經營條件變差'],[',','link','接上可能行動'],[' those companies ','slot','外來公司'],['can','link','可作出的行動'],[' relocate','slot','撤離'],[', leaving','link','交代留下後果'],[' job losses and economic disruption ','slot','地方損失'],['behind.','link','結果持續留在本地']])),
+  S('A clear example can be seen when an outside bus chain dominates a town, forcing local operators to close before later reducing routes when demand falls.','when 設定主導市場；forcing 與 before 交代本地退出和後來減投資的順序。','這句用一個時間順序具體展示外來依賴風險。',[7,10,12],
+    F('A clear example can be seen when [外來者主導], forcing [本地對手退出] before later [減少投入] when [條件轉差]','先說外來者佔主導，接着以 forcing 指出本地對手退出，再以 before later 交代其後減少投入。','要用時間順序展示替代選擇消失後，外部行動者撤回投入的風險時。',[['A clear example can be seen when','link','引入例子的條件'],[' foreign retail chains dominate a market','slot','外來者主導'],[', forcing','link','指出本地退出'],[' smaller local shops to close ','slot','本地對手退出'],['before later','link','標示其後轉變'],[' reducing investment ','slot','減少投入'],['when','link','指出減投條件'],[' conditions become less favourable.','slot','條件轉差']])),
+  S('In conclusion, I wholly agree that councils should prioritise local bus operators over outside ones.','In conclusion 收束並重申本地優先的立場。','這句直接回扣問題中的兩類對象及優先次序。',[1,2,8],
+    F('In conclusion, I wholly agree that [決策者] should prioritise [本地對象] over [外來對象]','結尾清楚重申誰應優先支持誰；內容須與前文兩條理由一致。','全文比較兩種支持方向後，要直接回答優先次序時。',[['In conclusion, I wholly agree that','link','收束並重申立場'],[' governments ','slot','決策者'],['should prioritise','link','指出優先次序'],[' local businesses ','slot','本地對象'],['over','link','指出被比較的一方'],[' foreign ones.','slot','外來對象']])),
+  S('Supporting local clinics keeps care at home, strengthens related services and builds a more reliable network, whereas overdependence on distant providers can undermine resilience.','前半句概括三項好處；whereas 對照過度依賴外部的長期風險。','這句用 whereas 把兩種政策方向的長期後果並排收束。',[1,6,13],
+    F('Supporting [本地對象] keeps [資源] at home, strengthens [相關活動] and builds [較自立的體系], whereas overdependence on [外部對象] can undermine [長期韌性]','概括本地支持的三種收益，再以 whereas 對照外部依賴可能削弱的長期能力。','結論要在同一句重申兩種選擇的整體利弊時。',[['Supporting','link','提出支持本地'],[' domestic enterprise ','slot','本地對象'],['keeps','link','保留'],[' wealth ','slot','資源'],['at home, strengthens','link','補上相關效益'],[' related industries ','slot','相關活動'],['and builds','link','補上體系效益'],[' a more self-reliant economy','slot','較自立的體系'],[', whereas','link','對照外部依賴'],[' overdependence on overseas corporations ','slot','外部對象'],['can undermine','link','審慎指出風險'],[' long-term national resilience.','slot','長期韌性']])),
+];
+const Q=(prompt,options,why)=>({type:'quiz',prompt,options,correct:0,why});
+const sequence=(prompt,rows,why)=>({
+  type:'sequence',prompt,detail:'依照原文的推進次序，逐一點選下一步。',
+  items:rows.map(([title,body])=>({title,body})),why,
+});
+const intro=[
+  Q('作者認為政府應優先支持哪類企業？',[
+    '本地企業：較能把財富留在國內，也能建立較穩定的長期發展基礎',
+    '外國企業：作者完全反對向任何本地企業提供援助',
+    '兩者必須永遠得到相同款額，不考慮實際影響',
+    '沒有立場：全文只列舉不同公司的名稱',
+  ],'引言說 completely agree，結論說 wholly agree；優先支持本地企業，理由是國內循環與長期韌性。'),
+  {type:'multi',prompt:'選出兩條不同的主要論證',detail:'選兩項，再按「確認」。',options:[
+    '本地企業的利潤、稅款、採購和工資更可能流回國內其他企業及居民',
+    '過度依賴外資可能擠走本地對手，令關鍵產業受海外決策與撤資影響',
+    '所有外資企業必定沒有僱用任何本地員工',
+    '所有本地企業一經資助，便保證永遠不會倒閉',
+  ],correct:[0,1],why:'第一主體段談資金乘數效應；第二主體段談本地對手消失後的依賴風險。'},
+];
+const route=[sequence('先排好四段論證路線',[
+  ['引言 · 政策取向','承認許多國家吸引外資，但完全同意政府應優先扶持本地企業。'],
+  ['主體段一 · 國內循環','本地企業擴張後，利潤、稅款、採購與工資流向國內供應鏈，帶動就業及稅收。'],
+  ['主體段二 · 依賴風險','外資巨頭的規模及優惠可能壓垮本地對手；本地替代消失後，海外決策與撤資形成風險。'],
+  ['結論 · 長期韌性','重申本地優先；概括資金留國內、產業更強與較自立的經濟。'],
+],'優先本地 → 資金在國內流動 → 避免外部依賴 → 建立長期韌性。')];
+const evidence=[
+  Q('本地企業擴張後，作者指出哪三條資源仍留在國內的渠道？',[
+    '利潤較可能再投放本地、稅款交回同一政府，營運也依賴其他本國企業',
+    '利潤、稅款與訂單全部自動轉往海外',
+    '只要企業擴張，便毋須任何供應商或員工',
+    '所有本地企業都必然把每一元利潤捐給政府',
+  ],'原文用 more likely 和 usually，列出利潤、稅款與其他本國企業三條連結。'),
+  Q('所謂 multiplier effect 在段中是如何具體發生的？',[
+    '本地企業向國內供應商買材料、聘用本地員工，並向附近公司買服務',
+    '政府把同一筆錢只留在企業帳戶，從未產生交易',
+    '公司規模變大便自動令每個行業收入一樣',
+    '企業只要獲資助，便停止支付工資與稅款',
+  ],'下一句把乘數效應拆成採購材料、工資及服務三種具體支出。'),
+  Q('食品製造商的例子說明哪一類外溢？',[
+    '受助企業成長，可能同時讓國內農民、配送和包裝業受惠',
+    '只有食品公司本身能得益，其他供應者必定沒有生意',
+    '所有農民都會立即轉為食品公司員工',
+    '食品公司獲援助後，便不再需要運送或包裝',
+  ],'may also benefit 保留可能性，並指出三類同一國家的相關供應者。'),
+  Q('大型跨國企業可能藉哪些既有條件壓過本地對手？',[
+    '雄厚財力、全球知名品牌，以及以低價競爭的能力',
+    '只有較小規模與較少資金，沒有任何品牌',
+    '因為跨國企業必然只在總部國家營運',
+    '因為本地企業必然不會生產有用的產品',
+  ],'原文把三項優勢並列，為本地對手若再遇額外優惠的處境鋪路。'),
+  Q('本地競爭者消失後，第二主體段指出甚麼風險？',[
+    '關鍵產業依賴海外決策的企業；若成本或利潤變化，企業可遷走留下失業',
+    '外資企業必定永久留在同一地區，不會更改投資',
+    '本地競爭者消失後，國家便自動取得更大決策權',
+    '外資企業只能在本地採購，不能作任何海外決定',
+  ],'原文從 Once local competitors disappear 推到 overseas decisions，再以 if 說明遷走風險。'),
+  Q('外國零售連鎖的例子，按甚麼先後次序發展？',[
+    '主導市場、迫使本地小店關閉，之後在條件變差時減少投資',
+    '先減投資，然後才第一次進入市場並支持所有本地小店',
+    '只要進入市場，本地小店就必然永遠獲利',
+    '只比較店面顏色，與投資次序無關',
+  ],'forcing...before later...when 清楚標出本地替代退出與其後減少投資的順序。'),
+];
+const logic=[
+  sequence('第一主體段：本地企業如何帶動國內循環？',[
+    ['首項理由','本地企業更有效把財富留在國內經濟中流動。'],
+    ['三條連結','擴張後的利潤、稅款與營運合作更可能連到本地。'],
+    ['具體支出','企業向國內供應商買材料，支付本地工資，向附近企業買服務。'],
+    ['較廣後果','收入流向多個產業，而非轉出海外；就業和稅收可能增加。'],
+    ['食品例子','受助食品製造商成長，農民、配送及包裝供應商也可能受惠。'],
+  ],'本地企業受助 → 本地採購與聘人 → 供應鏈收入 → 就業及稅收。'),
+  sequence('第二主體段：過度依賴外資如何變成長期風險？',[
+    ['另一理由','過度依賴外國企業可能削弱長期競爭力。'],
+    ['外資既有優勢','跨國企業有資金、成熟品牌和低價競爭能力。'],
+    ['額外優惠','若再獲減稅或特殊優惠，本地對手即使有潛力也可能難以生存。'],
+    ['依賴形成','本地替代消失，關鍵產業依賴海外作決策的公司。'],
+    ['撤離風險','成本上升或利潤下降時，外來公司可遷走，留下失業與動盪。'],
+    ['零售例子','外資連鎖先令本地小店關閉，其後在條件變差時減少投資。'],
+  ],'強勢入市 → 本地對手受壓 → 本地替代消失 → 海外撤資可能造成損失。'),
+];
+const T=(context,question,options,explanations,sourceSentenceIndices,modelLink)=>({
+  type:'quiz',prompt:question,context,question,options,correct:0,explanations,why:explanations[0],sourceSentenceIndices,modelLink,
+});
+const transfer=[
+  T('市政府考慮資助一間本地電動巴士廠，廠方會向附近供應商買零件並聘請居民。','哪項最能轉用「本地資金循環」？',[
+    '追蹤零件採購、工資與本地服務訂單如何把資助帶到更多行業',
+    '只看巴士廠獲得多少錢，不問後續採購與聘人',
+    '斷言每個供應商都會立即成為巴士廠員工',
+    '只比較車身顏色，便估計整個地方經濟的收益',
+  ],[
+    '這保留投入、具體交易與其他行業受惠的原文機制。',
+    '資助額本身不等於其後資金流向。',
+    '供應商受惠不等於轉為同一企業員工。',
+    '車身顏色不能測量本地循環。',
+  ],[2,3,4,5,6],'範文以採購材料、支付工資與向附近公司購買服務，具體說明乘數效應。'),
+  T('地方醫療器材公司獲援助，隨後向本地塑膠廠、運輸公司與維修店下訂單。','哪項例證最貼近食品製造商的作用？',[
+    '說明一家受助企業的成長可能讓同一地區的不同供應者一起受益',
+    '只談醫療器材售價，不記錄其他企業所接訂單',
+    '認為援助一家公司便保證本地所有企業都獲同額收入',
+    '因公司需要運輸便斷言它一定會搬到海外',
+  ],[
+    '這把抽象的利益外溢落到一組具名供應者。',
+    '售價不能代替供應鏈的受惠情況。',
+    '原文使用 may，沒有保證每家都同額受益。',
+    '使用運輸服務與遷走沒有必然關係。',
+  ],[5,7],'範文的食品製造商例子指出農民、配送和包裝供應商也可能因其成長受惠。'),
+  T('某區的本地銀行擴張後，利潤再借給附近小店，稅款也留在本地。','哪項最符合範文的三渠道分析？',[
+    '把利潤再投放、稅款與對其他本地企業的支持分別列出',
+    '只稱銀行擴張便必然使所有人富有',
+    '只看銀行的商標，不分析利潤和稅款去向',
+    '把每筆貸款視為已經轉移到國外',
+  ],[
+    '這保留原文利潤、稅款與本地企業合作三條不同渠道。',
+    '擴張不是所有人必然富有的證據。',
+    '商標無法顯示資金或公共收入流向。',
+    '本地貸款不等於資金外流。',
+  ],[3,4,5],'範文把利潤再投放、稅款回到同一政府及對本國企業的依賴並列。'),
+  T('跨國網店帶着巨額資金和熟悉品牌進入小城市，並以低價搶客。','哪項最能轉用第二主體段的起點？',[
+    '指出資金、既有品牌與低價能力如何一起令較小對手受壓',
+    '因網店價格低便證明每家本地小店都沒有長期潛力',
+    '只看網站版面，忽略資源和品牌差異',
+    '認為跨國網店必然無法在小城市營運',
+  ],[
+    '這逐一對應原文列出的三項既有競爭優勢。',
+    '價格競爭不等於本地對手缺乏發展能力。',
+    '版面不能取代資金與品牌優勢分析。',
+    '原文正討論跨國企業可以進入新市場。',
+  ],[8,9,10],'範文以財力、全球品牌和壓低價格的能力，解釋跨國企業如何壓過較小競爭者。'),
+  T('市政府打算給外來物流集團減稅；幾家本地運輸公司仍有擴張計劃。','哪項最能運用「即使有潛力也可能難以生存」？',[
+    '評估外來集團已有的優勢與新優惠，會否使本地公司無法撐過成長期',
+    '本地公司有計劃，便保證任何減稅都不會影響它們',
+    '只比較車輛顏色，便知道哪家公司最有長期潛力',
+    '因外來集團獲優惠，便斷言它從未提供任何服務',
+  ],[
+    '這把額外政策優惠與仍有潛力的本地對手所受壓力連起來。',
+    '有潛力不保證能渡過不利競爭條件。',
+    '車色不足以判斷長期能力。',
+    '優惠爭議與是否提供服務是不同問題。',
+  ],[9,10],'範文說若外來巨頭再獲減稅或特殊優惠，本地企業即使有長期潛力也可能難以生存。'),
+  T('一個地區只剩外資經營的供水企業，維修與投資決定均由海外總部作出。','哪項最貼近範文對「本地替代消失」的擔心？',[
+    '分析關鍵服務對海外決策的依賴，以及總部改變投入時本地缺少替代者',
+    '只要仍有供水，便認定決策所在地完全不重要',
+    '供水企業屬外資，便推論它必然明天停止供水',
+    '只比較水費顏色標示，不問誰決定維修投資',
+  ],[
+    '這把本地替代消失與外部決策風險連起來。',
+    '服務仍在不代表地方可控制未來投入。',
+    '原文指出風險而非必然立即停運。',
+    '帳單設計無法代替決策權分析。',
+  ],[11,12],'範文說本地對手消失後，關鍵產業可能依賴由海外作決策的企業。'),
+  T('外國連鎖餐廳先令本地餐館關門，之後因利潤下降而撤走。','哪項最準確保留範文例子的先後次序？',[
+    '先記錄本地替代退出，再分析撤走後留下的職位與服務缺口',
+    '只看撤走當日，完全忽略早前本地餐館關門',
+    '認為連鎖餐廳進場時便已撤走，沒有中間階段',
+    '把本地餐館關閉當作外資撤走後必然出現的唯一結果',
+  ],[
+    '這對應先主導、再擠走本地對手、後減投資或離開的鏈條。',
+    '沒有前段歷史便難看出替代者已消失。',
+    '進場與撤走有先後，不是同一時點。',
+    '原文的本地關店發生在外資後來撤資之前。',
+  ],[11,12,13],'範文零售連鎖例子依次寫主導市場、迫使小店關閉，之後才在條件不利時減少投資。'),
+  T('政府比較資助本地軟件公司與海外平台；本地公司會聘人和向國內設計公司採購。','哪項結論能結合範文兩條主線？',[
+    '同時看本地採購帶來的收入循環，以及保留本地替代所減少的依賴風險',
+    '只看軟件介面是否漂亮，不問採購與長期控制',
+    '只因公司本地註冊，便保證它不可能失敗',
+    '只計海外平台的下載量，便決定公共資助方向',
+  ],[
+    '這同時運用資金循環與長期自主性兩條獨立理由。',
+    '外觀不能回答經濟流向或依賴風險。',
+    '本地身分不等於無風險，原文並無保證。',
+    '下載量不是判斷地方收益的全部資料。',
+  ],[2,5,6,8,11,15],'範文一段談本地企業帶動國內相關產業，另一段談本地對手消失後的外資依賴。'),
+  T('一間外資工廠在當地聘人，但關鍵投資決定仍由海外作出。','哪項最能保持論證的分寸？',[
+    '承認本地職位存在，再檢查海外決策與條件轉差時撤資的可能風險',
+    '外資聘了本地人，便代表所有決策都在本地',
+    '因投資決定在海外，便否認工廠曾提供任何職位',
+    '只看工廠建築高度，便斷定撤資必然發生',
+  ],[
+    '這承認實際受益，同時分析範文指出的決策與撤離風險。',
+    '聘人與決策地點是不同事實。',
+    '風險分析不需要抹去已存在的職位。',
+    '原文說 may/can，沒有保證一定撤資。',
+  ],[8,11,12],'範文批評過度依賴與海外決策，並沒有說外資不可能帶來任何本地職位。'),
+  T('地方食品加工廠獲補助後只向海外供應商採購，並把大部分利潤匯出。','哪項最能測試範文第一條理由在此是否成立？',[
+    '查利潤、材料與服務支出是否真的流向本國，再判斷乘數效果有多大',
+    '廠房位於本地便保證每筆支出留在國內',
+    '只看補助公告，不查後續交易',
+    '因企業獲援助，便推論其稅款必然等於全部利潤',
+  ],[
+    '原文的本地循環需由實際資金流向支撐，不能只憑企業地址。',
+    '地點不能單獨證明採購和利潤去向。',
+    '公告不能代替交易證據。',
+    '稅款與利潤不是同一數額。',
+  ],[2,3,4,5,6],'範文的乘數效應建立在本地再投放、採購與支付工資等具體渠道上。'),
+  T('城市投資本地文化工作室，工作室向附近印刷、運輸及會計公司付費。','哪項最貼近「收入擴散多個產業」？',[
+    '列出各項實際採購，說明資金如何由工作室流到不同附近服務業',
+    '只計工作室的員工人數，不看其他企業所得訂單',
+    '只因工作室屬文化產業，便認為沒有經濟活動',
+    '假定所有服務費都自動匯出海外，無須查證',
+  ],[
+    '這把原文的採購服務與多產業收入連起來。',
+    '員工數不能代表整條供應鏈。',
+    '文化工作室同樣可向其他行業購買服務。',
+    '資金去向須調查，不能憑空假定。',
+  ],[5,6,7],'範文列 transport、marketing、accounting，指出本地企業支出可帶動多個產業。'),
+  T('有人主張：只要外國企業今天帶來工作，政府就應永遠把所有資助給它。','哪項回應最完整？',[
+    '比較眼前職位與本地供應鏈、替代者及海外撤資的長期風險，再決定優先次序',
+    '只看今日工作數目，不理會任何資金流向與決策權',
+    '因企業來自海外，便否認它今天提供的所有工作',
+    '以企業標誌大小決定多年後的國家經濟韌性',
+  ],[
+    '這同時檢查當前利益及原文的長期循環與韌性兩項標準。',
+    '即時職位是資料之一，不能代表全部長期後果。',
+    '承認職位不妨礙分析依賴風險。',
+    '標誌大小與長期經濟韌性沒有直接關係。',
+  ],[0,1,6,8,11,12,15],'範文以長期政策取向起筆，並用資金循環與避免過度依賴支持本地優先。'),
+];
+const reviewedTransferOptions=[
+  ['追蹤採購與工資如何惠及本地行業','只看巴士廠得到多少資助，不查採購與聘人去向','斷言每個供應商都會立即變成巴士廠正式員工','只比較車身顏色，便估計整個地方經濟的收益'],
+  ['說明受助食品企業成長，也使附近供應者受益','只談醫療器材售價，不記錄供應者所接新訂單','認為援助一家企業便保證所有公司獲同額收入','因公司需要運輸，便斷言它必然搬到海外'],
+  ['分別追蹤利潤再投放、稅款與本地貸款','只稱銀行擴張，便認為所有居民一定因此富有','只看銀行商標，不分析利潤、稅款及採購去向','把每筆本地貸款都當作已經轉到海外市場'],
+  ['資金、品牌與低價如何令小對手受壓','因網店價格低，便斷言每家小店都沒有長期潛力','只看網站版面，不比較資源、品牌與定價能力','認為跨國網店在小城市必然無法正常營運'],
+  ['評估外資優惠會否擠壓本地公司成長','本地公司有長遠計劃，便保證減稅不會影響競爭','只比較車輛顏色，便知道哪家公司更有發展潛力','因外來集團獲優惠，便斷言它過去從未提供服務'],
+  ['檢查海外決策與撤資後缺乏本地替代的風險','只要供水暫時正常，便斷言海外決策地點毫不重要','企業屬外資，便預言它明天必然停止本地公共供水','只比較水費標示顏色，不查誰實際決定本地維修投資'],
+  ['先記本地替代退出，再分析撤資後的服務缺口','只看撤走當日，完全忽略本地餐館早前關門','認為連鎖餐廳一進場便已撤走，沒有中間階段','把本地餐館關閉視為外資撤走後唯一結果'],
+  ['兼看本地採購收入及保留替代者的作用','只看軟件介面漂亮與否，不查採購或長期控制','只因公司在本地註冊，便保證它永遠不會失敗','只計海外平台下載量，便決定本地公共資助方向'],
+  ['承認本地職位，再檢查海外決策與撤資風險','外資聘用本地員工，便認為全部決策都在本地','因投資決定在海外，便否認工廠提供任何職位','只看工廠建築高度，便斷言撤資必定會發生'],
+  ['查利潤及採購是否流向本國，再判斷乘數效果','廠房位於本地，便保證每項支出都留在國內','只看補助公告數額，不查往後的實際交易','企業獲援助，便推論稅款必然等於全部利潤'],
+  ['列出實際採購，說明資金流到附近服務業','只計工作室員工人數，不看其他企業所得訂單','工作室屬文化產業，便認為它沒有經濟活動','假定所有服務費自動匯出海外，完全無須查證'],
+  ['衡量眼前職位、供應鏈及海外撤資的長期風險','只看今天工作數目，不理資金流向與決策權','企業來自海外，便否認它目前提供的所有工作','以企業標誌大小決定國家經濟的長期韌性'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[7].example='For example, if a local bakery receives a grant, its growth may also benefit farmers and delivery workers nearby.';
+structures[10].example='If those chains also get tax relief, family stores can struggle to survive, even when they could grow over time.';
+structures[11].example='Once local clinics disappear, patients may become dependent on an outside chain whose key decisions are made overseas.';
+const plausibleAlternatives=[
+  [['追蹤資助額，採購與工資可留待報表再看','只記錄居民受聘，供應商收入可視作次要','採購在本地，便可不再追問工資流向'],['投入金額不等於本地擴散效果。','供應鏈也是資金循環的一部分。','工資同樣可能流入地方經濟。']],
+  [['追蹤受助公司成長，供應者訂單可稍後再統計','醫療器材公司擴張，附近服務業便可自行受益','只列公司營業額，供應鏈流向仍由品牌推測'],['範文例子正要看附近供應者受益。','應以實際訂單說明而非假定擴散。','品牌不能代替採購證據。']],
+  [['追蹤利潤再投放，稅款影響可留待日後','銀行在本地，便可推測貸款也留在本區','稅款可支持公共服務，附近小店則較難受益'],['原文列出多條本地循環渠道。','地址不能證明貸款去向。','附近企業也可能獲得資金支援。']],
+  [['指出低價能吸客，小店資源差異可另議','比較品牌知名度，優惠價格則較少重要','跨國店有資金，小店便應先退出競爭'],['競爭壓力來自多項優勢的結合。','低價能力也是影響小對手的機制。','有壓力不等於本地企業必須退出。']],
+  [['評估外資優惠，忽略本地公司的成長階段','本地公司有計劃，減稅影響可由市場自行吸收','先衡量外資職位，本地競爭可留待之後'],['潛力未實現時仍可能受壓而難生存。','優惠會改變競爭條件，須評估。','資助決策也要看本地替代的長期存續。']],
+  [['供水正常時，海外決策風險可稍後評估','外資可維持服務，本地替代可由鄰區提供','先看現行水費，再把撤資可能性留到政策後'],['現時正常不代表長期依賴沒有風險。','鄰區未必能補上本地供水替代。','撤資後缺口需在決策時納入。']],
+  [['分析撤資缺口，本地餐館何時關閉可略去','先記錄餐館退出，撤資風險可留待發生後','外資撤走後再扶持本地餐館，先後關係不重要'],['先前替代者消失才使撤資影響加深。','預先評估依賴比事後才處理更完整。','事件順序正是例子的因果重點。']],
+  [['兼看本地採購與短期職位，海外決策可另議','保留本地替代有益，採購收入較少值得看','只比較兩方產品價格，地方資金流向稍後再查'],['還須看長期依賴與撤資風險。','範文第一條理由就是本地資金擴散。','價格不足以涵蓋兩條主線。']],
+  [['承認本地職位，海外決策可由企業內部處理','撤資風險存在，現有本地職位可暫時不算','先估算未來風險，再推定外資沒有地方貢獻'],['公共政策仍應檢查控制與依賴風險。','現時就業也是應承認的實際好處。','外資的當前聘用不能因此否認。']],
+  [['廠房在本地，乘數效果可按所在地推算','檢查利潤去向，海外採購影響則可另議','採購流向海外，工資及稅款便可暫時忽略'],['所在地不能證明資金留在國內。','採購也是第一條理由的關鍵渠道。','仍須分別核查多項流向。']],
+  [['列出本地訂單，實際付款時間可暫不查','工作室付費給附近公司，供應鏈作用可略去','只記印刷支出，運輸與會計服務留待日後'],['實際交易也需核對才能支持擴散說法。','付費給其他公司正是供應鏈作用。','多個行業受益才符合題目焦點。']],
+  [['衡量眼前職位，撤資風險由企業日後處理','強調本地供應鏈，外資現有職位可先排除','比較今天就業數，長期資助效益可暫不看'],['政府資助須評估長期依賴風險。','外資也可能提供值得承認的職位。','單看當下數目不足以評估韌性。']],
+];
+plausibleAlternatives.forEach(([options,reasons],i)=>{transfer[i].options.splice(1,3,...options);transfer[i].explanations.splice(1,3,...reasons);});
+export default {
+  key:'opinion:9',
+  meta:{topic:'優先扶持本地企業與經濟韌性',summary:'作者完全同意政府優先支持本地企業：資金較可能在國內循環並帶動相關產業；過度依賴外資則可能使關鍵決策和撤資風險留在海外。'},
+  simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer,
+  mediumExtras:[],
+};

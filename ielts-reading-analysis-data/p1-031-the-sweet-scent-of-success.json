@@ -1,0 +1,1925 @@
+{
+  "id": "p1-031-the-sweet-scent-of-success",
+  "catalogueId": "p1-031",
+  "catalogueIds": [
+    "p1-031"
+  ],
+  "passage": 1,
+  "title": "The Sweet Scent of Success",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "F",
+    "E",
+    "C",
+    "B",
+    "G",
+    "D",
+    "A",
+    "C",
+    "A",
+    "D",
+    "B",
+    "B",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "Description of one family member persuading another to sell a cleaning product",
+      "translation": "描述一位家庭成員說服另一位家庭成員銷售清潔產品。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要求找出「一位家庭成員說服另一位家庭成員」這個事件。最有定位力的字是 family member、persuading another、sell a cleaning product。原文未必用persuading，可能用 convinced。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“OzKleen’s next big break came when the daughter of a Coles Myer executive used the product while on holidays in Queensland and convinced her father that Shower Power should be in Coles supermarkets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OzKleen 的下一個重大突破出現於一位 Coles Myer 高層的女兒在 Queensland 度假時使用了該產品，並說服父親 Shower Power 應該進入 Coles supermarkets。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The machine is being patented.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這部機器正在申請專利。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，Paragraph F 已經直接出現 daughter、father、convinced、Shower Power、Coles supermarkets，與題目高度吻合。最後一句則顯示本段後半會轉到生產設備和新機器研發。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “one family member persuading another”。掃描時要留意 family member的具體形式，如 daughter、father；persuading 可能改寫成 convinced。Paragraph F 第一句正好同時出現這些訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“OzKleen’s next big break came when the daughter of a Coles Myer executive used the product while on holidays in Queensland and convinced her father that Shower Power should be in Coles supermarkets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OzKleen 的下一次重大突破，是一位 Coles Myer 高層的女兒在 Queensland 度假時用了這款產品，並說服父親 Shower Power 應在 Coles supermarkets 上架。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 the daughter of a Coles Myer executive；核心動作是 convinced her father；說服內容是 Shower Power should be in Coles supermarkets。題目中的 “sell a cleaning product” 概括了 “in Coles supermarkets” 這個上架銷售結果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：one family member persuading another"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：the daughter … convinced her father"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：to sell a cleaning product"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：Shower Power should be in Coles supermarkets答案判斷Paragraph F 包含完整資訊功能，所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也講 Woolworths buyer 接受產品，容易令人聯想到 chain store sales。不過Question 1 的控制點是 family member persuading another。只有 Paragraph F 出現 daughter 和father 的家庭關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "An account of the cooperation of all factory staff to cope with an increase in sales",
+      "translation": "描述所有工廠員工合作，以應付銷售增加。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 factory staff、cooperation、increase in sales。原文可能用習語 all hands on deck，意思是所有人都要出動幫忙。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shower Power was released in Australian supermarkets in 1997 and became the top-selling product in its category within six months.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shower Power 於 1997 年在澳洲超市推出，六個月內成為其類別中的最暢銷產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“OzKleen had to pay new-line fees to supermarket chains, which also squeezed margins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OzKleen 必須向超市連鎖店支付新品上架費，這也壓縮了利潤空間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段功能很清楚：產品進入超市後銷售大增，但公司同時面對生產和現金流壓力。這和題目中的 increase in sales、factory staff cooperation 相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “cooperation of all factory staff” 可能在原文以 “all hands on deck” 出現。掃描Paragraph E 可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was all hands on deck at the factory, labeling and bottling Shower Power to keep up with demand.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 factory、all hands、keep up with demand，值得細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was all hands on deck at the factory, labeling and bottling Shower Power to keep up with demand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工廠裡所有人都要全力投入，為 Shower Power 貼標籤和入樽，以追上需求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“all hands on deck” 原本是航海用語，意思是所有人都要出動幫忙。這裡用在 factory，表示所有工廠人員都投入 label 和 bottle 的工作。 “keep up with demand” 對應題目的 cope with an increase in sales。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：cooperation of all factory staff"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：all hands on deck at the factory"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：cope with an increase in sales"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：keep up with demand答案判斷Paragraph E 明確描述銷售增長後，全體工廠人員一起應付生產需求，所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "An account of the creation of the formula of Shower Power",
+      "translation": "描述 Shower Power 配方的創造過程。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 formula、creation、Shower Power。原文可能用 formula、recipe、chemist、ingredients這些詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“OzKleen’s turnaround began when Quinn and Heron hired an industrial chemist to revitalize the product line.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OzKleen 的轉機始於 Quinn 和 Heron 聘請一位工業化學家，為產品線注入新生命。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The company is the sole owner of the intellectual property; the written recipe is kept in a vault.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司是該知識產權的唯一擁有者；書面配方被存放在保險庫中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句出現 chemist，末句出現 recipe 和 intellectual property。只看首尾句，已可估計本段會講產品配方研發和保密。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最強定位詞是 formula of Shower Power。Paragraph C 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Peter looked at citrus ingredients…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“He is credited with finding the Shower Power formula.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The recipe is in my head…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "formula 和 recipe 都是答案相關詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Peter looked at citrus ingredients, such as orange peel, to replace the petroleum by-products in cleaners. He is credited with finding the Shower Power formula.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Peter 研究柑橘類成分，例如橙皮，用來取代清潔劑中的石油副產品。他被認為是找出 Shower Power 配方的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這組句子交代了配方創造方向：用 citrus ingredients 取代 petroleum by-products，避開chlorine-based products，最終找出 Shower Power formula。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：creation of the formula"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：finding the Shower Power formula / The recipe is in my head"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：Shower Power"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：Shower Power formula答案判斷Paragraph C 提供配方研發背景、參與者和結果，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也提到 Shower Power 是 lemon-scented bathroom cleaner，但那段主要交代商業背景和銷售成績。真正講 formula 如何產生的是 Paragraph C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "An account of buying the original OzKleen company",
+      "translation": "描述買下原本 OzKleen 公司的經過。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找買公司這個事件。最強定位詞是 buying、original OzKleen company。原文可能用bought、business、$250,000。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of Australia’s latest innovation successes stems from a lemon-scented bathroom cleaner called Shower Power, the formula for which was concocted in a factory in Yatala, Queensland.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "澳洲最新創新成功之一，來自一款名為 Shower Power 的檸檬香浴室清潔劑，其配方是在Queensland 的 Yatala 一間工廠調製出來的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In particular, Shower Power is making big inroads on the British market.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "尤其是 Shower Power 正在英國市場取得重大進展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 會介紹 Shower Power 的成功故事和市場表現。買下 OzKleen 的背景事件藏在中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “buying” 和 “OzKleen company”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1995, Tom Quinn and John Heron bought a struggling cleaning products business, OzKleen, for $250,000.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1995, Tom Quinn and John Heron bought a struggling cleaning products business, OzKleen, for $250,000.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1995 年，Tom Quinn 和 John Heron 以 250,000 美元買下一間經營困難的清潔產品公司OzKleen。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句交代時間、人物、動作、公司狀態和價格。題目中的 “original OzKleen company” 對應 “a struggling cleaning products business, OzKleen”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：buying the original OzKleen company"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：bought a struggling cleaning products business, OzKleen答案判斷Paragraph B 清楚包含買下 OzKleen 的資料，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "Description of Shower Power’s international expansion",
+      "translation": "描述 Shower Power 的國際擴張。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 overseas / international / Britain / France / worldwide。雖然 Paragraph B 末句提到British market，但更完整的國際擴張描述在 Paragraph G。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Peter Quinn says OzKleen’s approach to research and development is open slather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Peter Quinn 說 OzKleen 對研究和開發的方式非常開放。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We’re having too much fun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們現在玩得太開心了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 起初似乎講 R&D，最後以 Tom Quinn 對公司現狀滿意作結。中間則有overseas、worldwide、Britain、France 等市場擴張資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “international expansion”。原文可用 overseas、worldwide、British market、France定位："
+            },
+            {
+              "kind": "quote",
+              "text": "“With a tried and tested product, OzKleen is expanding overseas…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“We wanted to do it straight away because we realised we had the same opportunities worldwide.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“OzKleen is already number three in the British market, and the next stop is France.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With a tried and tested product, OzKleen is expanding overseas and developing more Power-brand household products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有了一款經過驗證的產品後，OzKleen 正在向海外擴張，並開發更多 Power 品牌家居產品。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shower Power, known as Bath Power in Britain, was launched four years ago with the help of an export development grant from the Federal Government.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shower Power 在英國名為 Bath Power，四年前在聯邦政府出口發展資助的幫助下推出。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“OzKleen is already number three in the British market, and the next stop is France.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OzKleen 已經成為英國市場第三名，下一站是法國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "三句合起來，完整描述海外擴張：進入英國、得到出口資助、下一步去法國。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：international expansion"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：expanding overseas / opportunities worldwide / British market / France答案判斷Paragraph G 最完整地描述 Shower Power 的國際市場發展，所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "The reason for changing the packaging size of Shower Power",
+      "translation": "改變 Shower Power 包裝容量的原因。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找 reason for changing packaging size。定位詞是 packaging size、750 ml bottles、reason。原文會說原本只賣 commercial quantities，後來因顧客好評轉成 750 ml bottles。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To begin with, Shower Power was sold only in commercial quantities but Tom Quinn decided to sell it in 750 ml bottles after the constant ‘raves’ from customers at their retail store at Beenleigh, near Brisbane.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初，Shower Power 只以商業用量出售；但在 Brisbane 附近 Beenleigh 的零售店，顧客不斷熱烈稱讚這產品後，Tom Quinn 決定改以 750 ml 瓶裝出售。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“We were over the moon,” says OzKleen’s financial controller, Belinda McDonnell."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OzKleen 的財務主管 Belinda McDonnell 說：「我們高興極了。」第一句已經直接回答 packaging size 和 reason。最後一句顯示本段會走到第一張超市訂單的興奮結果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “packaging size”。原文未必說 packaging size，但 “750 ml bottles” 是具體容量。 reason 對應 “after the constant ‘raves’ from customers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“To begin with, Shower Power was sold only in commercial quantities but Tom Quinn decided to sell it in 750 ml bottles after the constant ‘raves’ from customers at their retail store at Beenleigh, near Brisbane.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初 Shower Power 只以商業用量出售；後來因為 Beenleigh 零售店的顧客不斷熱烈稱讚，Tom Quinn 決定改為 750 ml 瓶裝出售。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“after” 是因果和時間訊號，說明改變包裝容量的原因。顧客好評和長途購買行為使 Quinn 意識到個人顧客市場存在。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：reason for changing the packaging size"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：decided to sell it in 750 ml bottles after the constant “raves” from customers答案判斷Paragraph D 包含原因和具體容量，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "An example of some innovative ideas",
+      "translation": "一些創新構想的例子。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 examples of innovative ideas。這通常會出現在背景段，尤其是文章開首講 innovation 時列舉例子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Innovation and entrepreneurship, in the right mix, can bring spectacular results and propel a business ahead of the pack.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "創新和企業家精神若配合得宜，可以帶來驚人成果，推動企業領先同業。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An idea only becomes innovation when it is connected to the right resources and capabilities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個 idea 只有在連接到合適資源和能力時，才會成為 innovation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 是創新概念背景段，適合尋找 innovative ideas 的例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “innovative ideas”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some ideas that innovators are spruiking to potential investors include…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句後面列出一串例子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some ideas that innovators are spruiking to potential investors include new water-saving showerheads, a keyless locking system, ping-pong balls that keep pollution out of rainwater tanks, making teeth grow from stem cells inserted in the gum, and technology to stop LPG tanks from exploding.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些創新者正在向潛在投資者推銷的構想包括：新的節水花灑頭、無鑰匙鎖系統、防止污染物進入雨水箱的乒乓球、把幹細胞植入牙齦讓牙齒生長，以及防止 LPG 氣罐爆炸的技術。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是明確列舉 innovative ideas 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：some innovative ideas"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：Some ideas that innovators are spruiking…答案判斷Paragraph A 有完整例子清單，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "C — Believes innovation needs support to succeed",
+      "answerKey": "C — Believes innovation needs support to succeed",
+      "type": "Matching Features",
+      "prompt": "Question 8",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "人物：Grant Kearney"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是人物配對題。先找 Grant Kearney，再讀他的直接觀點。不要只看 innovation 這個詞，還要看他說 innovation 需要甚麼條件。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Innovation and entrepreneurship, in the right mix, can bring spectacular results and propel a business ahead of the pack.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "創新和企業家精神若配合得宜，可以帶來驚人成果，使企業領先同業。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An idea only becomes innovation when it is connected to the right resources and capabilities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個 idea 只有在連接到合適資源和能力時，才會成為 innovation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經指出本段核心：創新本身需要配合條件。Grant Kearney 出現在這段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目人名 Grant Kearney 是最強定位詞。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Grant Kearney, chief executive of the Innovation Xchange, which connects businesses to innovation networks, says…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Ideas by themselves are absolutely useless,’ he says. ‘An idea only becomes innovation when it is connected to the right resources and capabilities.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「Ideas 本身完全沒有用。一個 idea 只有在連接到合適資源和能力時，才會成為 innovation。」Grant Kearney 的觀點是 idea 本身不足夠，必須接上 resources 和 capabilities。選項 C 說innovation needs support to succeed，正好概括 “connected to the right resources and capabilities”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項配對C “Believes innovation needs support to succeed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：認為創新需要支援才可成功。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "support = right resources and capabilities needs support to succeed = only becomes innovation when connected to resources and capabilities答案判斷Grant Kearney 對應 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 E “Says a business will not succeed through innovation alone” 也有點吸引人，但 Kearney的原話集中在 idea 到 innovation 的轉化條件，重點在 resources and capabilities。C 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "A — Described his story of selling his product to a chain store",
+      "answerKey": "A — Described his story of selling his product to a chain store",
+      "type": "Matching Features",
+      "prompt": "Question 9",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "人物：Tom Quinn"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Tom Quinn 的說話內容。他可能在文中多次出現，所以要找到他描述「向連鎖店推銷產品」的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To begin with, Shower Power was sold only in commercial quantities but Tom Quinn decided to sell it in 750 ml bottles after the constant ‘raves’ from customers at their retail store at Beenleigh, near Brisbane.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初 Shower Power 只以商業用量出售；但在 Beenleigh 零售店顧客不斷熱烈稱讚後，Tom Quinn 決定以 750 ml 瓶裝出售。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“We were over the moon,” says OzKleen’s financial controller, Belinda McDonnell."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OzKleen 的財務主管 Belinda McDonnell 說：「我們高興極了。」本段處理 Shower Power 進入零售和超市的過程。Tom Quinn 在第一句和中段都有直接發言。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名和 chain store 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目人名是 Tom Quinn；選項 A 的 chain store 可對應 Woolworths。原文中 Tom Quinn 說：“‘We did a dummy label and went to see Woolworths,’ Tom Quinn says.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We did a dummy label and went to see Woolworths,’ Tom Quinn says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tom Quinn 說：「我們做了一個樣本標籤，然後去見 Woolworths。」後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Woolworths buyer took a bottle home and was able to remove a stain from her basin that had been impossible to shift.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Woolworths 的買手把一瓶帶回家，並成功去除洗手盆上一個原本怎樣也除不掉的污漬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這組句子描述 Tom Quinn 如何把產品帶到 Woolworths，然後買手試用成功，最後 OzKleen 得到第一張超市訂單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項配對A “Described his story of selling his product to a chain store”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：描述他把產品賣給連鎖店的經過。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "chain store = Woolworths selling his product = went to see Woolworths / first supermarket order described his story = Tom Quinn says答案判斷Tom Quinn 對應 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "D — Believes new products like Shower Power may involve risks",
+      "answerKey": "D — Believes new products like Shower Power may involve risks",
+      "type": "Matching Features",
+      "prompt": "Question 10",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "人物：Peter Quinn"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Peter Quinn 的觀點。題目選項 D 中的 risks 未必原字出現，可能以 wary、hesitated、how long sales would last 這類表達呈現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“OzKleen’s next big break came when the daughter of a Coles Myer executive used the product while on holidays in Queensland and convinced her father that Shower Power should be in Coles supermarkets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OzKleen 的下一次重大突破，是一位 Coles Myer 高層的女兒在 Queensland 度假時使用產品，並說服父親 Shower Power 應進入 Coles supermarkets。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The machine is being patented.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這部機器正在申請專利。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 前半講 Coles 機會，後半講生產壓力和新機器。Peter Quinn 在本段中明確談到公司對銷售持續性的戒心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Peter Quinn，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the product’s success, Peter Quinn says the company was wary of how long the sales would last and hesitated to spend money on upgrading the manufacturing process.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite the product’s success, Peter Quinn says the company was wary of how long the sales would last and hesitated to spend money on upgrading the manufacturing process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管產品成功，Peter Quinn 說公司仍對銷售能持續多久有所戒心，因此遲疑是否花錢升級製造流程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “wary” 表示小心、戒備、擔心風險。公司不敢馬上投資升級設備，因為不知道 Shower Power 的銷售熱潮會維持多久。選項 D 把這點概括成 new products may involve risks。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項配對D “Believes new products like Shower Power may involve risks”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：認為像 Shower Power 這類新產品可能伴隨風險。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "may involve risks = was wary of how long the sales would last new products like Shower Power = the product’s success / sales would last hesitated to spend money = company saw investment risk答案判斷Peter Quinn 對應 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Peter Quinn 也在 Paragraph C 談 formula，在 Paragraph G 談 open slather R&D。人物多次出現時，要用選項的核心概念定位。本題核心是 risk / uncertainty，所以 Paragraph F 最準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B — Explained that there was a shortage of money when sales suddenly increased",
+      "answerKey": "B — Explained that there was a shortage of money when sales suddenly increased",
+      "type": "Matching Features",
+      "prompt": "Question 11",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "人物：Belinda McDonnell"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Belinda McDonnell 說了甚麼。選項 B 的 shortage of money 可對應 cash flow was very difficult；sales suddenly increased 可對應 demand、top-selling、all hands on deck。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shower Power was released in Australian supermarkets in 1997 and became the top-selling product in its category within six months.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shower Power 於 1997 年在澳洲超市推出，六個月內成為同類產品最暢銷產品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“OzKleen had to pay new-line fees to supermarket chains, which also squeezed margins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OzKleen 必須向超市連鎖店支付新品上架費，利潤空間也受到壓縮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段一開始講銷售急升，後面講現金流與利潤壓力。Belinda McDonnell 的說話正處於這個背景中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Belinda McDonnell，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“This stage, recalls McDonnell, was very tough. ‘It was hand-to-mouth, cash flow was very difficult,’ she says.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This stage, recalls McDonnell, was very tough. ‘It was hand-to-mouth, cash flow was very difficult,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "McDonnell 回憶說，這個階段非常艱難。她說：「當時幾乎是勉強維持，現金流非常困難。」"
+            },
+            {
+              "kind": "quote",
+              "text": "“hand-to-mouth” 指收入剛好勉強應付支出，沒有多餘資金。 “cash flow was very difficult” 清楚表示資金不足或周轉困難。這發生在 Shower Power 成為 top-selling product 並需要工廠全力追上需求之後。選項配對B “Explained that there was a shortage of money when sales suddenly increased”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：解釋銷售突然增加時，公司資金短缺。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "shortage of money = hand-to-mouth / cash flow was very difficult sales suddenly increased = top-selling within six months / keep up with demand答案判斷Belinda McDonnell 對應 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "B — more appealing to individual customers",
+      "answerKey": "B — more appealing to individual customers",
+      "type": "Multiple Choice",
+      "prompt": "“Tom Quinn changed the bottle size to 750 ml to make Shower Power…”",
+      "translation": "Tom Quinn 把瓶裝容量改成 750 ml，是為了令 Shower Power……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問改變瓶裝容量的目的或原因。定位詞是 Tom Quinn、750 ml、changed bottle size。要找原文中 “decided to sell it in 750 ml bottles after…” 後面的原因。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To begin with, Shower Power was sold only in commercial quantities but Tom Quinn decided to sell it in 750 ml bottles after the constant ‘raves’ from customers at their retail store at Beenleigh, near Brisbane.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初 Shower Power 只以商業用量出售；但在 Brisbane 附近 Beenleigh 零售店的顧客不斷熱烈稱讚後，Tom Quinn 決定改以 750 ml 瓶裝出售。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“We were over the moon,” says OzKleen’s financial controller, Belinda McDonnell."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "OzKleen 的財務主管 Belinda McDonnell 說：「我們高興極了。」第一句直接提供答案方向。商業用量轉成 750 ml bottles，原因是零售店顧客反應很好。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “750 ml”。原文只有 Paragraph D 直接出現 “750 ml bottles”。同句的 “commercial quantities” 和 “customers at their retail store” 顯示由商業市場轉向個人零售顧客。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“To begin with, Shower Power was sold only in commercial quantities but Tom Quinn decided to sell it in 750 ml bottles after the constant ‘raves’ from customers at their retail store at Beenleigh, near Brisbane.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初 Shower Power 只以商業用量出售；但 Beenleigh 零售店的顧客不斷熱烈稱讚後，Tom Quinn 決定改以 750 ml 瓶裝出售。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Customers were travelling long distances to buy supplies. Others began writing to OzKleen to say how good Shower Power was.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顧客會長途跋涉來購買存貨；其他人開始寫信給 OzKleen，說 Shower Power 有多好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子說明個人顧客已經有強烈需求。750 ml bottles 比 commercial quantities 更適合個人顧客購買和使用。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A easier to package.原文沒有說 750 ml 是為了更容易包裝。包裝和入樽困難主要出現在 Paragraph F 的生產設備問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B more appealing to individual customers.正確。原文說改瓶裝容量的原因是 retail store customers 的熱烈稱讚和購買需求。這是個人顧客市場的訊號。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C more popular in foreign markets.海外市場在 Paragraph G 出現，時間和原因都不配合。750 ml bottle 的決定發生在澳洲零售顧客好評之後。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D more attractive to supermarkets. Paragraph D 後面確實講 Woolworths，但第一句已交代改成 750 ml bottles 的原因是零售顧客好評。超市訂單是後續結果，並非最初改容量的直接原因。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "individual customers = customers at their retail store / customers travelling long distances more appealing = customers gave constant “raves” and wanted to buy supplies答案判斷答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "D — He wanted to keep things unchanged.",
+      "answerKey": "D — He wanted to keep things unchanged.",
+      "type": "Multiple Choice",
+      "prompt": "“Why did Tom Quinn decide not to sell OzKleen?”",
+      "translation": "Tom Quinn 為甚麼決定不出售 OzKleen？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問原因。定位詞是 Tom Quinn、sell OzKleen。要找原文中有人提出收購，但 Tom Quinn 回應的句子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Peter Quinn says OzKleen’s approach to research and development is open slather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Peter Quinn 說 OzKleen 對研究和開發的方式非常開放。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We’re having too much fun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們現在玩得太開心了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 前半講 R&D 和海外擴張，結尾講有人出價收購公司，以及 Tom Quinn 的態度。題目問不出售 OzKleen 的原因，應看本段末尾。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “sell OzKleen”。原文沒有直接說 sell，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“OzKleen has been approached with offers to buy the company…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "buy the company 對應 sell OzKleen。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“OzKleen has been approached with offers to buy the company, but Tom Quinn says he is happy with things as they are. ‘We’re having too much fun.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人曾接觸 OzKleen，提出收購公司的邀請；但 Tom Quinn 說他對目前狀況很滿意。「我們現在玩得太開心了。」"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“happy with things as they are” 表示他滿意現狀，不急於改變公司所有權或出售公司。 “We’re having too much fun” 進一步說明他享受現在的經營狀態。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A No one wanted to buy OzKleen.錯。原文說 “has been approached with offers to buy the company”，即有人提出收購。 B New products were being developed in OzKleen.原文確實提到 developing more Power-brand household products，但這不是 Tom Quinn 拒絕出售的直接理由。題目問 why did Tom Quinn decide not to sell，答案要回到他的直接說法。 C He couldn’t agree on a price with the buyer.原文沒有提到價格談不攏，也沒有 bargain / price negotiation。 D He wanted to keep things unchanged.正確。這概括 “he is happy with things as they are”。他滿意公司目前狀況，所以不想出售。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "wanted to keep things unchanged = happy with things as they are decide not to sell OzKleen = rejected / did not accept offers to buy the company答案判斷答案是 D。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Sweet Scent of Success.pdf",
+    "sha256": "e53a5145e3e1a23394b52ea1d1b13a59d00e438f57d53129c5a17a151d0d4e2d",
+    "pageCount": 20
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "SECTION 0：Skim Roadmap 全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 innovation 和 entrepreneurship 配合得宜，可以帶來驚人成果，使企業領先同業；末句引用 Grant Kearney，指出 idea 只有連接到合適資源和能力時才會變成 innovation。只看首尾句，可以先判斷本段是全文背景段：它先提出創新成功的條件，再用一串新產品構想說明「有 idea」和「能上市成功」之間仍有很大距離。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說澳洲最新創新成功之一來自 lemon-scented bathroom cleaner Shower Power；末句說Shower Power 正在大舉進入英國市場。只看首尾句，本段明顯介紹 OzKleen 和 Shower Power的商業成功。中間會交代 Tom Quinn 和 John Heron 買下原本經營困難的 OzKleen，以及公司從低迷狀態轉成高銷售產品企業。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 OzKleen 的轉機始於 Quinn 和 Heron 聘請 industrial chemist 更新產品線；末句說written recipe 被存放在 vault。只看首尾句，這段大概會處理 Shower Power 配方的研發過程。中間會講市場調查、浴室最難清潔、環保配方、Peter Quinn 和化學家合作、citrus-based ingredients，以及如何避開 chlorine-based products。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Shower Power 起初只以 commercial quantities 出售，但 Tom Quinn 後來決定改用 750 ml bottles；末句說 OzKleen 收到第一張 supermarket order，價值 $3,000，令團隊非常興奮。只看首尾句，本段功能是講 Shower Power 從商業大包裝走向零售市場的過程，包括顧客好評、dummy label、Woolworths 買手試用成功。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Shower Power 於 1997 年進入澳洲超市，六個月內成為同類產品銷量第一；末句說OzKleen 要向超市連鎖店支付 new-line fees，利潤也受壓。只看首尾句，這段集中講銷售突然暴升後的生產和現金流壓力。中間的 all hands on deck、labeling、bottling、keep up with demand 是定位重點。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 OzKleen 下一個重大突破，來自一位 Coles Myer 高層的女兒在 Queensland 度假時使用產品，並說服父親讓 Shower Power 進入 Coles supermarkets；末句說 Peter Quinn 正在研發新的自動入樽機，並準備申請專利。只看首尾句，本段會講 Coles 機會、生產設備不足、公司對銷售持續性有戒心，以及自動化機器研發。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Peter Quinn 形容 OzKleen 的 research and development 方式非常開放，需要甚麼便取得甚麼；末句引用 Tom Quinn 說他們玩得太開心。只看首尾句，這段偏向公司未來發展和海外擴張。中間會處理 Power-brand household products、Britain 的 Bath Power、export development grant、France，以及有人提出收購 OzKleen 但 Quinn 不願出售。"
+      }
+    ]
+  }
+}

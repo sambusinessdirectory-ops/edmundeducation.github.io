@@ -1,0 +1,1622 @@
+{
+  "id": "p2-039-wealth-in-a-cold-climate",
+  "catalogueId": "p2-039",
+  "catalogueIds": [
+    "p2-039"
+  ],
+  "passage": 2,
+  "title": "Wealth in A Cold Climate",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "iii",
+    "vi",
+    "i",
+    "ii",
+    "ix",
+    "v",
+    "iv",
+    "yellow fever",
+    "Finland",
+    "governing institutions",
+    "Eurasia",
+    "einkorn wheat",
+    "Singapore"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "iii — Inspiration from reading a book",
+      "answerKey": "iii — Inspiration from reading a book",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "從讀書中得到靈感。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph A 要配最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr William Masters was reading a book about mosquitoes when inspiration struck.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr William Masters 正在讀一本關於 mosquitoes 的書時，突然得到靈感。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The inclement weather froze out the insects, allowing Philadelphia to recover.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "惡劣寒冷天氣凍死了昆蟲，讓 Philadelphia 得以恢復。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 A 段是研究想法的起點：Masters 從書中一段 yellow fever epidemic 的anecdote，想到 weather / frost 可能改變城市命運。heading iii 幾乎直接取自第一句 “reading a book” 和 “inspiration struck”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading iii 的定位詞是 “Inspiration” 和 “reading a book”。原文第一句已有 “was reading a book”和 “inspiration struck”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“There was this anecdote about the great yellow fever epidemic that hit Philadelphia in 1793.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "書中有一則 anecdote，講 1793 年襲擊 Philadelphia 的嚴重 yellow fever epidemic。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句補充了靈感內容：Masters 讀到疫情因 first frost 結束，從而開始思考天氣和經濟命運的關係。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Inspiration from reading a book= was reading a book when inspiration struck所以答案是 iii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "vi — How low temperatures benefit people and crops",
+      "answerKey": "vi — How low temperatures benefit people and crops",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "低溫如何有利於人和作物。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph B 要配最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If weather could be the key to a city’s fortunes, Masters thought, then why not to the historical fortunes of nations?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Masters 想，如果 weather 可以是城市命運的關鍵，那為何不能也是國家歷史命運的關鍵？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The result is agricultural abundance and a big workforce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果是農業豐富和龐大的勞動力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 段由 Masters 的問題開始，最後落在 cold snaps 的具體好處：農業更有產出，人也較少受疾病削弱，因此 workforce 較大。這比單純「緯度和財富相關」更具體，重點在低溫帶來的機制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading vi 的定位詞是 “low temperatures”、“benefit”、“people and crops”。原文對應 “cold snaps”、“freeze pests”、“freeze organisms … that carry disease”、“agricultural abundance” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“big workforce”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The pair speculate that cold snaps have two main benefits – they freeze pests that would otherwise destroy crops, and also freeze organisms, such as mosquitoes, that carry disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩位研究者推測，短暫寒冷有兩大好處：它會凍死原本會破壞作物的害蟲，也會凍死帶病生物，例如 mosquitoes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時覆蓋 crops 和 people。害蟲被凍死，crop damage 減少；帶病昆蟲被凍死，human disease 減少。段末 “agricultural abundance and a big workforce” 正是結果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "low temperatures= cold snaps / frosts benefit crops= freeze pests that would otherwise destroy crops benefit people= freeze organisms that carry disease / big workforce所以答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "i — A positive correlation between climate and wealth",
+      "answerKey": "i — A positive correlation between climate and wealth",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "氣候和財富之間的正相關。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph C 要配最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The academics took two sets of information.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩位學者取了兩組資料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Likewise, not all European countries are wealthy; in the former communist countries, economic potential was crushed by politics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，並非所有 European countries 都富裕；在前共產國家，經濟潛力被政治壓垮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 C 段會先呈現 data comparison，再承認有例外。heading i 最能概括段落主軸，因為整段的核心資料是 income data 和 climate data 之間出現 “curious tally”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading i 的定位詞是 “correlation”、“climate” 和 “wealth”。原文有 “average income”、“climate data”、“tally”、“uniformly rich”、“impoverished”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“They found a curious tally between the sets. Countries having five or more frosty days a month are uniformly rich; those with fewer than five are impoverished.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們發現兩組資料之間有一個奇特吻合：每月有五天或以上霜凍日的國家一律富裕；少於五天的國家則貧窮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句最直接建立 climate 和 wealth 的關係。frosty days 屬於 climate，rich / impoverished 屬於wealth level。後文列出 Finland 和 Bolivia，也是在用例子說明這種關係。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "positive correlation= curious tally between average income and climate data climate= five or more frosty days a month wealth= uniformly rich / impoverished中伏位是 heading x “Complications and exceptions”。C 段確實提到 Hong Kong、Singapore 和前共產國家的例外；但這些例外用來修正 “cold equals rich” 這個主論點，整段最主要的資訊仍是climate 和 wealth 的對應關係。所以答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "ii — Factors other than climate that influence wealth",
+      "answerKey": "ii — Factors other than climate that influence wealth",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "除了氣候以外，影響財富的因素。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph D 要配最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Masters stresses that climate will never be the overriding factor – the wealth of nations is too complicated to be attributable to just one factor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Masters 強調，climate 永遠不會是壓倒性因素；國家財富太複雜，不能歸因於單一因素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the accumulation of wealth and improvement in governing institutions are both helped by a favourable environment, including climate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "財富累積和 governing institutions 的改善，都受到 favourable environment，包括 climate 的幫助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句清楚顯示 D 段在補充複雜性：climate 重要，但國家財富還涉及 institutions、governments和 trading routes。heading ii 能覆蓋整段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ii 的定位詞是 “Factors other than climate”。原文對應 “other factors such as the presence of institutions, including governments, and access to trading routes”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Climate, he feels, somehow combines with other factors such as the presence of institutions, including governments, and access to trading routes to determine whether a country will do well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為，climate 會以某種方式和其他因素結合，例如 institutions，包括 governments，以及trading routes 的可及性，從而決定一個國家是否發展良好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心在 “combines with other factors”。文章沒有把財富全放在 climate 上，D 段正是提醒讀者還要看制度、政府、貿易路線等因素。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "factors other than climate= institutions / governments / access to trading routes influence wealth= determine whether a country will do well heading vii “The traditional view of the importance of institutions” 只覆蓋中間一部分。D 段開頭和結尾都把 institutions 放進更大的多因素框架，所以 ii 更適合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "ix — The best way to use foreign aid",
+      "answerKey": "ix — The best way to use foreign aid",
+      "type": "Matching Headings",
+      "prompt": "Question 18",
+      "translation": "使用 foreign aid 的最佳方式。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph E 要配最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This does not mean, he insists, that tropical countries are beyond economic help and destined to remain penniless.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他堅持說，這並不代表 tropical countries 無法得到經濟幫助，也不代表它們注定一直貧窮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Supplying vaccines against tropical diseases and developing crop varieties that can grow in the tropics would break the poverty cycle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "提供針對 tropical diseases 的疫苗，以及培育能在熱帶生長的 crop varieties，可以打破 poverty cycle。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 E 段是政策建議段。它討論 rich countries 應該如何幫助 tropical countries，焦點落在 aid 應支持 technology、agriculture 和 disease control。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ix 的定位詞是 “foreign aid”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, richer countries should change the way in which foreign aid is given.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead of aid being geared towards improving governance, it should be spent on technology to improve agriculture and to combat disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "援助的方向不應只放在 improving governance；更適合用在 technology 上，以改善 agriculture和 combat disease。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確說明 aid 應怎樣用。後面的 India irrigation、vaccines 和 tropical crop varieties 都是具體例子。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "the best way to use foreign aid= change the way in which foreign aid is given= spent on technology to improve agriculture and combat disease所以答案是 ix。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "v — Differences between Eurasia and Africa",
+      "answerKey": "v — Differences between Eurasia and Africa",
+      "type": "Matching Headings",
+      "prompt": "Question 19",
+      "translation": "Eurasia 和 Africa 之間的差異。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph F 要配最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other minds have applied themselves to the split between poor and rich nations, citing anthropological, climatic and zoological reasons for why temperate nations are the most affluent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他學者也研究過窮國與富國之間的分裂，提出 anthropological、climatic 和 zoological reasons，解釋為何 temperate nations 最富裕。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Blessed with such natural advantages, Eurasia was bound to take off economically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eurasia 具備這些自然優勢，因此經濟上必然起飛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 F 段集中講 Jared Diamond 的自然地理解釋，最後結論落在 Eurasia 的優勢。段中把 Eurasia 的東西向排列，和 Africa / Americas 的南北向排列作比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading v 的定位詞是 “Eurasia” 和 “Africa”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eurasia is broadly aligned east-west, while Africa and the Americas are aligned north-south.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“So, in Europe, crops can spread quickly across latitudes because climates are similar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此在 Europe，crops 可以沿緯度快速傳播，因為氣候相似。"
+            },
+            {
+              "kind": "quote",
+              "text": "“This easy movement along similar latitudes in Eurasia would also have meant a faster dissemination of other technologies such as the wheel and writing, Diamond speculates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Diamond 推測，這種沿 Eurasia 相似緯度的容易移動，也意味著 wheel 和 writing 等其他technologies 可以更快傳播。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 段重點是 Eurasia 的地理方向帶來 crop、technology、livestock 的傳播優勢。Africa 和Americas 的 north-south alignment 作為比較背景出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading viii “The spread of crops across Europe, Asia and the Americas” 只抓到 crop 例子。F段還包括 technology 和 livestock，因此 heading v 更能概括段落框架。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "iv — Other researchers’ findings and exceptional cases",
+      "answerKey": "iv — Other researchers’ findings and exceptional cases",
+      "type": "Matching Headings",
+      "prompt": "Question 20",
+      "translation": "其他研究者的發現和例外案例。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Paragraph G 要配最合適 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“John Gallup and Jeffrey Sachs, two US economists, have also pointed out striking correlations between the geographical location of countries and their wealth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "John Gallup 和 Jeffrey Sachs 兩位美國經濟學家，也指出國家地理位置和財富之間有顯著correlation。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Take Singapore: without air conditioning, it wouldn’t be rich.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以 Singapore 為例：如果沒有 air conditioning，它不會富裕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 G 段有兩個功能：先引用其他 researchers 的 findings，再用 Singapore 作exceptional case，說明 tropical country 仍可藉 technology 變富。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading iv 的定位詞是 “Other researchers’ findings” 和 “exceptional cases”。原文有 Gallup、Sachs、Harvard International Review，以及 Singapore。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“They note that tropical countries between 23.45 degrees north and south of the equator are nearly all poor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們指出，在赤道南北 23.45 度之間的 tropical countries 幾乎全都貧窮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 other researchers’ finding。然後 Masters 提醒："
+            },
+            {
+              "kind": "quote",
+              "text": "“Human health and agriculture can be made better through scientific and technological research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Human health 和 agriculture 可以透過 scientific and technological research 改善。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後 Singapore 的例子展示例外：熱帶地方也可依靠科技突破限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "other researchers= John Gallup and Jeffrey Sachs findings= correlations between geographical location and wealth exceptional cases= Singapore without air conditioning would not be rich所以答案是 iv。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "yellow fever",
+      "answerKey": "yellow fever",
+      "type": "Summary Completion",
+      "prompt": "“Dr William Masters read that a 21 ______ epidemic which struck an American city hundreds of years ago ended with the first frost.”",
+      "translation": "Dr William Masters 讀到，數百年前襲擊一座美國城市的一場 ______ epidemic，在第一場霜凍後結束。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr William Masters was reading a book about mosquitoes when inspiration struck.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr William Masters 正在讀一本關於 mosquitoes 的書時得到靈感。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The inclement weather froze out the insects, allowing Philadelphia to recover.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "寒冷惡劣天氣凍死昆蟲，讓 Philadelphia 得以恢復。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 Masters 的靈感來源；題目也提到他 read 的內容，所以定位 Paragraph A。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “epidemic”、“American city”、“first frost”。原文有 “great yellow fever epidemic”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Philadelphia in 1793”、“first frost came”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“There was this anecdote about the great yellow fever epidemic that hit Philadelphia in 1793.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "書中有一則 anecdote，講 1793 年襲擊 Philadelphia 的嚴重 yellow fever epidemic。"
+            },
+            {
+              "kind": "quote",
+              "text": "“This epidemic decimated the city until the first frost came.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這場疫情重創城市，直到第一場霜凍來臨才結束。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “a ______ epidemic”。原文是 “yellow fever epidemic”。空格填 yellow fever，兩個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 yellow fever。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "Finland",
+      "answerKey": "Finland",
+      "type": "Summary Completion",
+      "prompt": "“Researchers found a connection between climate and national wealth, illustrated by the small but prosperous country of 22 ______.”",
+      "translation": "研究者發現 climate 和 national wealth 之間有關聯，並以一個小而繁榮的國家 ______ 作例子。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The academics took two sets of information.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩位學者取了兩組資料。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Likewise, not all European countries are wealthy; in the former communist countries, economic potential was crushed by politics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，並非所有歐洲國家都富裕；在前共產國家，經濟潛力被政治壓垮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 是 climate data 和 income data 的比較段，並用國家例子說明。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中 “small but prosperous country” 對應原文 “Finland is a small country that is growing quickly”。“prosperous” 是題目概括，原文用 “growing quickly”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Masters says: ‘For example, Finland is a small country that is growing quickly, but Bolivia is a small country that isn’t growing at all. Perhaps climate has something to do with that.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Masters 說：「例如，Finland 是一個正在快速增長的小國，但 Bolivia 是一個完全沒有增長的小國。也許 climate 和這點有關。」題目把 “small country that is growing quickly” 概括為 small but prosperous country。這裡要填國名，所以答案是 Finland。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "small but prosperous= small country that is growing quickly connection between climate and national wealth= Perhaps climate has something to do with that答案是 Finland。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "governing institutions",
+      "answerKey": "governing institutions",
+      "type": "Summary Completion",
+      "prompt": "“Besides favourable surroundings and climate, a country needs to improve its 23 ______ to achieve long-term prosperity.”",
+      "translation": "除了 favourable surroundings 和 climate，一個國家若要達到長期繁榮，也需要改善其 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Masters stresses that climate will never be the overriding factor – the wealth of nations is too complicated to be attributable to just one factor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Masters 強調，climate 永遠不會是壓倒性因素；國家財富太複雜，不能歸因於單一因素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the accumulation of wealth and improvement in governing institutions are both helped by a favourable environment, including climate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "財富累積和 governing institutions 的改善，都受到 favourable environment，包括 climate 的幫助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “favourable surroundings and climate” 幾乎直接對應最後一句，所以答案也在最後一句附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “favourable surroundings”、“climate”、“improve”。原文有 “favourable environment, including climate” 和 “improvement in governing institutions”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“And the accumulation of wealth and improvement in governing institutions are both helped by a favourable environment, including climate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "財富累積和 governing institutions 的改善，都會受到 favourable environment，包括 climate 的幫助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “improve its ______”。原文是 “improvement in governing institutions”。空格可填governing institutions，兩個字，符合字數限制。若只填 institutions，意思也接近，但 “governing institutions” 更貼原文，也更能對應 long-term prosperity 中的政府與制度能力。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "favourable surroundings= favourable environment improve its governing institutions= improvement in governing institutions答案是 governing institutions。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "Eurasia",
+      "answerKey": "Eurasia",
+      "type": "Summary Completion",
+      "prompt": "“Similar climatic conditions across the latitudes of 24 ______ allowed crops such as 25 ______to spread faster than maize spread from Mexico to the eastern United States.”",
+      "translation": "______ 的緯度之間氣候相似，讓 25 這類作物比 maize 從 Mexico 傳到美國東部更快傳播。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other minds have applied themselves to the split between poor and rich nations, citing anthropological, climatic and zoological reasons for why temperate nations are the most affluent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他學者也研究窮國與富國分裂，提出人類學、氣候和動物學原因，解釋 temperate nations 為何最富裕。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Blessed with such natural advantages, Eurasia was bound to take off economically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eurasia 擁有這些自然優勢，因此經濟上必然起飛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段重點是 Jared Diamond 的 Eurasia 優勢論。題目中的 “latitudes” 和 crop spread 是明顯定位訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “similar climatic conditions”、“latitudes”、“crops”。原文有 “Eurasia is broadly aligned east-west”、“crops can spread quickly across latitudes because climates are similar”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Jared Diamond… pointed out in his book Guns, Germs and Steel that Eurasia is broadly aligned east-west, while Africa and the Americas are aligned north-south.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jared Diamond 在 Guns, Germs and Steel 中指出，Eurasia 大致呈東西向排列，而 Africa 和 the Americas 呈南北向排列。"
+            },
+            {
+              "kind": "quote",
+              "text": "“So, in Europe, crops can spread quickly across latitudes because climates are similar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此在 Europe，crops 可以沿緯度快速傳播，因為氣候相似。"
+            },
+            {
+              "kind": "quote",
+              "text": "“This easy movement along similar latitudes in Eurasia would also have meant a faster dissemination of other technologies such as the wheel and writing…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種沿 Eurasia 相似緯度的容易移動，也意味著 wheel 和 writing 等技術更快傳播。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “across the latitudes of ______”，最完整對應是 “similar latitudes in Eurasia”。所以答案是Eurasia。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 Eurasia。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "einkorn wheat",
+      "answerKey": "einkorn wheat",
+      "type": "Summary Completion",
+      "prompt": "“Similar climatic conditions across the latitudes of 24 ______ allowed crops such as 25 ______to spread faster than maize spread from Mexico to the eastern United States.”",
+      "translation": "相似的緯度氣候讓 25 這類作物，比 maize 從 Mexico 傳到美國東部更快傳播。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的首尾句已顯示，它主要講 Eurasia 的自然優勢，以及這些優勢如何帶動 crops 和technologies 傳播。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “crops such as” 和 “Mexico to the eastern United States”。原文同一句比較einkorn wheat 和 corn。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the first domesticated crops, einkorn wheat, spread quickly from the Middle East into Europe; it took twice as long for corn to spread from Mexico to what is now the eastern United States.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最早被馴化的作物之一 einkorn wheat，很快從 Middle East 傳入 Europe；corn 從 Mexico 傳到今天的美國東部則花了兩倍時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “maize” 對應原文 “corn”。要填的是前半句的 crop example，即 einkorn wheat。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：空格前是 “crops such as”，需要作物名稱。einkorn wheat 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 einkorn wheat。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "Singapore",
+      "answerKey": "Singapore",
+      "type": "Summary Completion",
+      "prompt": "“Other researchers likewise note that, although geography matters, a tropical country such as 26 ______ can become rich through technological advances.”",
+      "translation": "其他研究者同樣指出，雖然 geography 重要，但像 ______ 這樣的 tropical country 可以透過technological advances 變富。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“John Gallup and Jeffrey Sachs, two US economists, have also pointed out striking correlations between the geographical location of countries and their wealth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "John Gallup 和 Jeffrey Sachs 也指出，國家 geographical location 和 wealth 之間有顯著correlation。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Take Singapore: without air conditioning, it wouldn’t be rich.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以 Singapore 為例：如果沒有 air conditioning，它不會富裕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 G 段先講 geography matters，再用 Singapore 說明 technology 可改變熱帶地區的經濟前景。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “tropical country”、“technological advances”。原文對應 “scientific and technological research” 和 “Take Singapore”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Human health and agriculture can be made better through scientific and technological research,” he says, “so we shouldn’t be writing off these countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，human health 和 agriculture 可以透過 scientific and technological research 改善，所以我們不應放棄這些國家。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Take Singapore: without air conditioning, it wouldn’t be rich.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以 Singapore 為例：如果沒有 air conditioning，它不會富裕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "air conditioning 是 technological advance 的具體例子。題目把這個例子概括為 tropical country can become rich through technology。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "technological advances= scientific and technological research / air conditioning tropical country example= Singapore答案是 Singapore。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Wealth in A Cold Climate.pdf",
+    "sha256": "7ad82f9258ee31015e9f0d8eb00f28916a89e98de221d128cf73a7cce456134c",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句可見甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 Dr William Masters 讀一本關於 mosquitoes 的書時得到靈感；最後一句說寒冷天氣凍死昆蟲，讓 Philadelphia 得以恢復。只看首尾句，可以先估計 A 段功能是「研究靈感來源」。這段沒有正式建立經濟理論，重點在一個 yellow fever epidemic 的 anecdote：疫情因第一場霜凍而結束，令 Masters 思考天氣是否也能影響城市或國家命運。"
+      },
+      {
+        "number": "B",
+        "summary": "首句把問題由城市推到國家：如果 weather 可以影響城市命運，是否也能解釋國家歷史命運？最後一句說 cold snaps 有兩大好處：凍死害蟲，也凍死帶病生物，結果是農業豐收和大量勞動力。只看首尾句，可以估計 B 段主要解釋低溫為何可能帶來經濟優勢。題目若問 frost 如何有利於crops 和 people，B 段很重要。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說研究者取了兩組資料：各國 average income 和 University of East Anglia 的 climate data。最後一句指出也有例外，例如 Hong Kong、Singapore，以及受政治壓制的前共產國家。只看首尾句，可以判斷 C 段主要展示 climate 和 wealth 的統計關聯，同時補充例外。若 heading 提到positive correlation 或 exceptional cases，本段需要細分主旨和細節。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Masters 強調 climate 永遠不會是唯一壓倒性因素，國家財富太複雜，不能只歸因於一項因素。最後一句說財富累積和 governing institutions 的改善，都受到 favourable environment，包括 climate 的幫助。只看首尾句，可以估計 D 段討論 climate 以外的因素，例如 institutions、governments、trading routes，以及這些因素和氣候如何共同影響繁榮。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說這不代表 tropical countries 沒有經濟援助希望，也不代表它們注定貧窮。最後一句說提供熱帶疾病疫苗、培育可在熱帶生長的作物品種，可以打破 poverty cycle。只看首尾句，可以估計 E段集中講 foreign aid 應如何使用。重點由治理改革轉向 technology：改善農業、對抗疾病、irrigation、vaccines 和 tropical crop varieties。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說其他學者也研究過窮國與富國之間的分裂，提出 anthropological、climatic 和 zoological reasons。最後一句說 Eurasia 具備自然優勢，因此經濟上必然起飛。只看首尾句，可以估計 F 段介紹 Jared Diamond 等人的解釋：Eurasia 東西向延展，有利 crops、technology、wheel、writing和 livestock 傳播；Africa 和 Americas 的南北向排列則較不利。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 John Gallup 和 Jeffrey Sachs 也指出國家地理位置和財富之間有顯著 correlation。最後一句以 Singapore 作例，說若沒有 air conditioning，它不會富裕。只看首尾句，可以估計 G 段回到其他研究者的發現，同時提醒不要走向 geographical determinism。Tropical countries 雖然多數貧窮，但 technological research 仍可改善 human health 和 agriculture。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,808 @@
+/* Levels 61–90: the four native lesson pages become a Japanese garden journal.
+   Scenic art is decorative; all teaching copy, questions and controls remain HTML. */
+.sentence-zen-lesson {
+  --zen-ink: #213b38;
+  --zen-pine: #244f3d;
+  --zen-pine-dark: #163a2d;
+  --zen-paper: #fff9e9;
+  --zen-border: #c8a977;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 0 0 clamp(28px,4vw,58px);
+  color: var(--zen-ink);
+  background: #6b472c;
+  box-shadow: 0 22px 62px #231b1540;
+}
+.sentence-zen-lesson::before {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  inset: 0 0 auto;
+  height: 490px;
+  background:
+    linear-gradient(0deg,#6b472c 0%,#6b472c00 24%),
+    linear-gradient(90deg,#1c281524 0%,transparent 18%,transparent 82%,#23160c38),
+    url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/zen/lesson-garden-v1.webp") center 66%/cover no-repeat;
+}
+.sentence-zen-lesson::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 420px 0 0;
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(0deg,#3d251853 0 3px,transparent 4px 178px,#26190f6b 180px 185px,transparent 189px 192px),
+    repeating-linear-gradient(90deg,#5d3c294a 0 2px,transparent 3px 190px),
+    linear-gradient(90deg,#573821,#8e6541 14%,#a27850 50%,#795334 87%,#4b2c1b);
+}
+.sentence-zen-lesson .lesson-topbar,
+.sentence-zen-lesson .lesson-title-row,
+.sentence-zen-lesson .lesson-stepper,
+.sentence-zen-lesson .lesson-content {
+  position: relative;
+  z-index: 1;
+  margin-left: clamp(18px,3.6vw,57px);
+  margin-right: clamp(18px,3.6vw,57px);
+}
+.sentence-zen-lesson .lesson-topbar {padding-top:22px}
+.sentence-zen-lesson .lesson-topbar .text-button,
+.sentence-zen-lesson .bookmark-library-button {
+  min-height: 43px;
+  border: 1px solid #d9cca8;
+  border-radius: 9px;
+  padding: 8px 16px;
+  color: #17382e;
+  background: #fffae9f2;
+  box-shadow: 0 4px 0 #42291466,0 9px 20px #291d1630;
+  font-weight: 800;
+  backdrop-filter: blur(5px);
+}
+.sentence-zen-lesson .lesson-topbar .text-button:hover,
+.sentence-zen-lesson .bookmark-library-button:hover {color:#123428;background:#fffef3}
+.sentence-zen-lesson .lesson-round:not([hidden]) {color:#173a2b;background:#fff2cd;border:1px solid #c4a670}
+.sentence-zen-lesson .lesson-title-row {
+  max-width: min(850px,calc(100% - 2*clamp(18px,3.6vw,57px)));
+  min-height: 188px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 2px solid #e5d4ac;
+  border-radius: 5px 22px 14px 6px;
+  padding: 23px clamp(20px,3vw,40px);
+  align-items: center;
+  background:
+    radial-gradient(circle at 95% 10%,#bd916835,transparent 36%),
+    repeating-linear-gradient(0deg,#8a67360a 0 1px,transparent 2px 17px),
+    #fff8eaf4;
+  box-shadow: 0 0 0 5px #65422566,0 12px 28px #26190f50,inset 0 0 25px #a67c3930;
+}
+.sentence-zen-lesson .lesson-title-row::before {
+  content:"";
+  position:absolute;
+  left:-20px;
+  top:-20px;
+  width:55px;
+  height:55px;
+  pointer-events:none;
+  background:url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/autumn/lesson-leaf.svg") center/contain no-repeat;
+  transform:rotate(-18deg);
+}
+.sentence-zen-lesson .lesson-title-row > div {min-width:0}
+.sentence-zen-lesson .lesson-title-row h1 {
+  color:#1b312d;
+  font:700 clamp(29px,3.2vw,48px)/1.18 Georgia,"Noto Serif CJK TC",serif;
+  letter-spacing:.015em;
+  text-wrap:balance;
+  overflow-wrap:anywhere;
+}
+.sentence-zen-lesson [data-lesson-kicker] {
+  color:#855033;
+  font:700 12px/1.4 Georgia,serif;
+  letter-spacing:.12em;
+}
+.sentence-zen-lesson .seaside-level-badge:not([hidden]) {
+  display:inline-flex;
+  margin-top:12px;
+  border:1px solid #a9a875;
+  border-radius:999px;
+  padding:6px 13px;
+  color:#254a39;
+  background:#ecf0d8;
+  font:700 12px Georgia,serif;
+  letter-spacing:.08em;
+}
+.sentence-zen-lesson .lesson-stepper {gap:10px}
+.sentence-zen-lesson .lesson-stepper button {
+  min-height:80px;
+  border:1px solid #d4bd96;
+  border-radius:11px;
+  padding:10px 13px;
+  color:#35423a;
+  background:linear-gradient(135deg,#fffbefef,#f0e6d2f0);
+  box-shadow:0 4px 0 #5a3b2799,0 10px 18px #2b201a36,inset 0 1px #fff;
+  transition:transform .18s ease,box-shadow .18s ease,background .18s ease;
+}
+.sentence-zen-lesson .lesson-stepper button:hover {transform:translateY(-2px);box-shadow:0 6px 0 #5a3b2799,0 12px 20px #2b201a42}
+.sentence-zen-lesson .lesson-stepper button[aria-current="step"] {
+  border-color:#264f3d;
+  color:#fff;
+  background:linear-gradient(145deg,#466f51,#1d4935);
+  box-shadow:0 4px 0 #153428,0 10px 23px #0d2d2566,inset 0 1px #9bb99a;
+}
+.sentence-zen-lesson .lesson-stepper button>span {
+  width:39px;height:39px;
+  border:1px solid #6b9175;
+  border-radius:50%;
+  color:#fff;
+  background:#315b45;
+  box-shadow:inset 0 2px 4px #0f312c58,0 2px 2px #fff8e5;
+  font:700 18px Georgia,serif;
+}
+.sentence-zen-lesson .lesson-stepper button[aria-current="step"]>span {color:#214735;background:#fffae8;border-color:#f0dfa7}
+.sentence-zen-lesson .lesson-stepper button.is-complete>span {background:#618c60}
+.sentence-zen-lesson .lesson-stepper strong {font-size:clamp(12px,1.15vw,16px)}
+.sentence-zen-lesson .lesson-stepper small {font-size:11px}
+.sentence-zen-lesson .lesson-content {margin-top:20px}
+.sentence-zen-lesson .info-page,
+.sentence-zen-lesson .exercise-page {
+  position:relative;
+  overflow:visible;
+  border:8px solid #8a5d35;
+  border-radius:15px;
+  padding:clamp(26px,4vw,54px) clamp(24px,5vw,70px) clamp(28px,4vw,52px);
+  background:
+    radial-gradient(circle at 93% 5%,#bd9e5928,transparent 29%),
+    repeating-linear-gradient(0deg,#875c2308 0 1px,transparent 2px 25px),
+    var(--zen-paper);
+  box-shadow:0 0 0 3px #d7b27b,0 0 0 7px #4b2b1e,0 20px 37px #23170d6b,inset 0 0 0 3px #f7e8c6,inset 0 0 32px #a77a3830;
+}
+.sentence-zen-lesson .info-page::before,
+.sentence-zen-lesson .exercise-page::before {
+  content:"";
+  position:absolute;
+  top:16px;right:18px;
+  width:94px;height:94px;
+  pointer-events:none;
+  background:url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/autumn/lesson-leaf.svg") center/contain no-repeat;
+  opacity:.15;
+  transform:rotate(25deg);
+}
+.sentence-zen-lesson .info-page-header {
+  max-width:100%;
+  border-bottom:1px solid #c7ae84;
+  padding:0 0 24px;
+}
+.sentence-zen-lesson .info-page-header .page-label,
+.sentence-zen-lesson .exercise-header .eyebrow {
+  color:#8c5133;
+  font:700 12px Georgia,serif;
+  letter-spacing:.16em;
+}
+.sentence-zen-lesson .info-page-header h2,
+.sentence-zen-lesson .exercise-header h2 {
+  margin:8px 0;
+  color:#163b2d;
+  font:700 clamp(30px,3.5vw,45px)/1.2 Georgia,"Noto Serif CJK TC",serif;
+}
+.sentence-zen-lesson .info-page-header p,
+.sentence-zen-lesson .exercise-header p {color:#514c3d}
+
+/* Page 1: ink-brush formula, then individual example slips. */
+.sentence-zen-lesson .formula-card {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:17px;
+  margin-top:25px;
+  border:0;
+  padding:0;
+  background:none;
+  box-shadow:none;
+}
+.sentence-zen-lesson .formula-label {
+  grid-column:1/-1;
+  width:max-content;
+  border-radius:3px 17px 4px 3px;
+  padding:8px 25px 8px 15px;
+  color:#fffdf0;
+  background:linear-gradient(90deg,#153e30,#315943 76%,transparent);
+  font:700 13px Georgia,serif;
+  letter-spacing:.09em;
+}
+.sentence-zen-lesson .formula-display {
+  grid-column:1/-1;
+  margin:0;
+  border:1px solid #c5b58d;
+  border-radius:13px;
+  padding:clamp(18px,2.7vw,31px);
+  color:#203c32;
+  background:linear-gradient(130deg,#edf0df,#fffdf2 62%);
+  box-shadow:inset 0 0 0 4px #ffffff8c,0 7px 18px #47361e20;
+  font:700 clamp(19px,2vw,28px)/1.45 Georgia,"Noto Serif CJK TC",serif;
+}
+.sentence-zen-lesson .formula-display p+p {border-top:1px solid #cfd6b9;padding-top:15px}
+.sentence-zen-lesson .formula-display small {color:#5c765c}
+.sentence-zen-lesson .example-block {
+  min-width:0;
+  margin:0;
+  border:1px solid #d3bf9d;
+  border-radius:12px;
+  padding:21px 23px;
+  background:#fffdf6;
+  box-shadow:0 5px 13px #40321e1c;
+}
+.sentence-zen-lesson .formula-card.single-example>.example-block {grid-column:1/-1}
+.sentence-zen-lesson .example-block strong {color:#95532d;font:700 12px Georgia,serif}
+.sentence-zen-lesson .example-block p {color:#203f35;font-family:Georgia,"Noto Serif CJK TC",serif}
+.sentence-zen-lesson .example-block p:first-of-type {font-size:clamp(18px,1.7vw,24px);line-height:1.5}
+.sentence-zen-lesson .example-block p:last-of-type {color:#576351}
+.sentence-zen-lesson .meaning-block {
+  grid-column:1/-1;
+  margin:0;
+  border-color:#c6d2ad;
+  background:#e8eedb;
+}
+.sentence-zen-lesson .meaning-block strong {color:#365f3e}
+
+/* Page 2: stone markers and wide explanatory parchment strips. */
+.sentence-zen-lesson .benefit-list {gap:13px;margin-top:24px}
+.sentence-zen-lesson .benefit-card {
+  grid-template-columns:66px minmax(0,1fr);
+  min-height:97px;
+  align-items:center;
+  gap:19px;
+  border:1px solid #d0bd9b;
+  border-radius:13px;
+  padding:15px 24px;
+  background:linear-gradient(110deg,#fffdf5,#f5f0df);
+  box-shadow:0 5px 10px #453b2817,inset 0 1px #fff;
+}
+.sentence-zen-lesson .benefit-card:nth-child(even) {background:linear-gradient(110deg,#f1f2e5,#fffaf0)}
+.sentence-zen-lesson .benefit-card>span,
+.sentence-zen-lesson .rule-card>span {
+  display:grid;place-items:center;
+  width:58px;height:58px;
+  border:2px solid #aaa895;
+  border-radius:50%;
+  color:#294d3b;
+  background:radial-gradient(circle at 30% 24%,#fffef6,#dadacf 72%,#b0b0a5);
+  box-shadow:0 4px 4px #493e2f3d,inset 0 2px #fff;
+  font:700 23px Georgia,serif;
+}
+.sentence-zen-lesson .benefit-card .chinese {color:#214e37;font:700 clamp(17px,1.65vw,23px)/1.4 Georgia,"Noto Serif CJK TC",serif}
+.sentence-zen-lesson .benefit-card .english {color:#575d4c;font:16px/1.5 Georgia,serif}
+
+/* Page 3: each source rule stays intact, with examples as a separate callout. */
+.sentence-zen-lesson .rule-list {gap:14px;margin-top:24px}
+.sentence-zen-lesson .rule-card {
+  grid-template-columns:66px minmax(0,1fr);
+  align-items:start;
+  gap:20px;
+  border:1px solid #cdb995;
+  border-radius:11px;
+  padding:17px 22px;
+  background:linear-gradient(105deg,#fffdf6,#f8f2e4);
+  box-shadow:0 6px 12px #4c3b251c;
+}
+.sentence-zen-lesson .rule-card>div:has(.examples) {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(170px,32%);
+  gap:4px 18px;
+}
+.sentence-zen-lesson .rule-card .chinese {color:#173b2d;font:700 clamp(17px,1.55vw,21px)/1.5 Georgia,"Noto Serif CJK TC",serif}
+.sentence-zen-lesson .rule-card .english {color:#566252;font:15px/1.55 Georgia,serif}
+.sentence-zen-lesson .rule-card .examples {
+  grid-column:2;
+  grid-row:1 / span 2;
+  align-content:start;
+  margin:0;
+  border:1px solid #d3d6b5;
+  border-radius:10px;
+  padding:11px 13px;
+  background:#edf0d9;
+}
+.sentence-zen-lesson .rule-card .examples::before {
+  content:"例句 · EXAMPLES";
+  width:100%;
+  color:#2f5e42;
+  font:700 11px Georgia,serif;
+  letter-spacing:.08em;
+}
+.sentence-zen-lesson .rule-card .examples code {
+  display:block;
+  width:100%;
+  padding:2px 0;
+  color:#294736;
+  background:none;
+  font:14px/1.4 Georgia,serif;
+  overflow-wrap:anywhere;
+}
+
+/* Page 4: numbered practice slips, still using the existing answer engine. */
+.sentence-zen-lesson .exercise-header {
+  border:0;
+  border-bottom:2px solid #bda77f;
+  border-radius:0;
+  padding:0 0 22px;
+  background:none;
+}
+.sentence-zen-lesson .exercise-progress {
+  height:12px;
+  border:1px solid #c6c7af;
+  background:#dce9e6;
+}
+.sentence-zen-lesson .exercise-progress>span {background:linear-gradient(90deg,#458466,#204e3d)}
+.sentence-zen-lesson .exercise-progress-label {color:#405347;font-size:13px}
+.sentence-zen-lesson .question-list {gap:17px;margin-top:23px}
+.sentence-zen-lesson .question-card {
+  position:relative;
+  overflow:visible;
+  border:1px solid #c9aa7a;
+  border-radius:9px 17px 17px 9px;
+  padding:22px 24px 21px 38px;
+  background:radial-gradient(circle at 95% 3%,#b1b89629,transparent 26%),#fffdf6;
+  box-shadow:0 7px 14px #46321e2b,inset 0 0 0 4px #ffffff9c;
+}
+.sentence-zen-lesson .question-card::before {
+  content:"";
+  position:absolute;
+  left:14px;
+  top:17px;
+  bottom:17px;
+  width:4px;
+  border-radius:3px;
+  background:#d0a66c;
+}
+.sentence-zen-lesson .question-card.is-correct {border-color:#70a581;background:#f1f9ed}
+.sentence-zen-lesson .question-card.is-wrong {border-color:#bd8167;background:#fff2e9}
+.sentence-zen-lesson .question-number {
+  border:1px solid #c6a777;
+  border-radius:50%;
+  padding:6px 11px;
+  color:#244838;
+  background:#ede5cf;
+  font:700 13px Georgia,serif;
+  letter-spacing:.04em;
+}
+.sentence-zen-lesson .question-prompt .english {color:#1f3a32;font:700 clamp(18px,1.7vw,23px)/1.45 Georgia,serif}
+.sentence-zen-lesson .question-prompt .chinese {color:#556a61;font-size:15px}
+.sentence-zen-lesson .question-cue,
+.sentence-zen-lesson .starter-hint {color:#2c6a86}
+.sentence-zen-lesson .answer-input {
+  border-color:#9db5b0;
+  border-radius:9px;
+  color:#203e35;
+  background:#f8fbfa;
+}
+.sentence-zen-lesson .answer-input:focus-visible,
+.sentence-zen-lesson button:focus-visible {
+  outline:3px solid #3d8f83;
+  outline-offset:3px;
+}
+.sentence-zen-lesson .lesson-navigation .primary-button,
+body.has-sentence-zen-lesson>.exercise-actions .primary-button {
+  color:#fffef3;
+  background:linear-gradient(145deg,#3c795e,#164734);
+  border-color:#23513c;
+  box-shadow:0 5px 0 #173b2a,0 10px 17px #192d2145;
+}
+.sentence-zen-lesson .lesson-navigation .secondary-button {
+  color:#264c3b;
+  background:#fffbef;
+  border-color:#c7ad82;
+}
+.sentence-zen-lesson .lesson-navigation .primary-button,
+.sentence-zen-lesson .lesson-navigation .secondary-button {min-height:52px;border-radius:9px;font-weight:800}
+body.has-sentence-zen-lesson>.exercise-actions[data-floating-exercise-actions] {
+  border-color:#c4a575;
+  color:#2d4d3b;
+  background:#fff9e9f2;
+  box-shadow:0 10px 30px #2820164a;
+}
+body.has-sentence-zen-lesson>.exercise-actions .exercise-action-copy {color:#536556}
+
+@media(max-width:920px) {
+  .sentence-zen-lesson .lesson-title-row {max-width:calc(100% - 2*clamp(18px,3.6vw,57px));margin-right:clamp(18px,3.6vw,57px)}
+  .sentence-zen-lesson .rule-card>div:has(.examples) {grid-template-columns:1fr}
+  .sentence-zen-lesson .rule-card .examples {grid-column:1;grid-row:auto;margin-top:8px}
+}
+@media(max-width:640px) {
+  .sentence-zen-lesson::before {height:420px;background-position:center,center,64% 59%}
+  .sentence-zen-lesson::after {inset:355px 0 0}
+  .sentence-zen-lesson .lesson-title-row {min-height:170px;margin-top:15px;padding:19px 18px}
+  .sentence-zen-lesson .lesson-title-row h1 {font-size:clamp(26px,7vw,36px)}
+  .sentence-zen-lesson .lesson-title-row .bookmark-library-button {align-self:flex-start;min-height:35px;padding:6px 9px;font-size:11px}
+  .sentence-zen-lesson .lesson-stepper {grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .sentence-zen-lesson .lesson-stepper button {min-height:62px;padding:7px}
+  .sentence-zen-lesson .lesson-stepper button>span {width:31px;height:31px;font-size:15px}
+  .sentence-zen-lesson .lesson-stepper strong {font-size:12px}
+  .sentence-zen-lesson .lesson-stepper small {font-size:10px}
+  .sentence-zen-lesson .info-page,.sentence-zen-lesson .exercise-page {border-width:5px;padding:25px 17px 30px}
+  .sentence-zen-lesson .info-page::before,.sentence-zen-lesson .exercise-page::before {width:55px;height:55px;opacity:.11}
+  .sentence-zen-lesson .formula-card {grid-template-columns:1fr}
+  .sentence-zen-lesson .formula-card>.example-block {grid-column:1}
+  .sentence-zen-lesson .benefit-card {grid-template-columns:43px 1fr;gap:10px;min-height:0;padding:12px}
+  .sentence-zen-lesson .benefit-card>span,.sentence-zen-lesson .rule-card>span {width:39px;height:39px;font-size:17px}
+  .sentence-zen-lesson .benefit-card .chinese {font-size:16px}
+  .sentence-zen-lesson .benefit-card .english {font-size:13px}
+  .sentence-zen-lesson .rule-card {grid-template-columns:42px 1fr;gap:10px;padding:13px}
+  .sentence-zen-lesson .rule-card .chinese {font-size:16px}
+  .sentence-zen-lesson .question-card {padding:17px 13px 18px 25px}
+  .sentence-zen-lesson .question-card::before {left:9px;width:3px}
+  .sentence-zen-lesson .question-prompt .english {font-size:18px}
+}
+@media(prefers-reduced-motion:reduce) {
+  .sentence-zen-lesson .lesson-stepper button {transition:none}
+  .sentence-zen-lesson .lesson-stepper button:hover {transform:none}
+}
+
+/* Garden interiors: ImageGen scenery frames live HTML rather than containing copy. */
+@media (min-width: 961px) {
+  .sentence-zen-lesson .lesson-content {
+    padding-left:clamp(132px,13vw,188px);
+    background:url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/zen/garden-side-v2.webp") left top/auto 1080px no-repeat;
+  }
+}
+
+.sentence-zen-lesson .info-page,
+.sentence-zen-lesson .exercise-page {
+  background:
+    linear-gradient(90deg,#f3e8d250 0 18px,transparent 19px),
+    radial-gradient(circle at 92% 6%,#c4b47c1c,transparent 28%),
+    #fff9ea;
+}
+.sentence-zen-lesson .info-page::before,
+.sentence-zen-lesson .exercise-page::before {
+  top:0;
+  right:0;
+  width:195px;
+  height:178px;
+  opacity:.3;
+  transform:none;
+  background:url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/zen/botanical-corner-v1.webp") right top/contain no-repeat;
+}
+.sentence-zen-lesson .info-page-header,
+.sentence-zen-lesson .exercise-header {
+  position:relative;
+  z-index:1;
+}
+.sentence-zen-lesson .info-page-header .page-label {display:block}
+.sentence-zen-lesson .seaside-benefits-page .info-page-header h2,
+.sentence-zen-lesson .seaside-rules-page .info-page-header h2 {
+  display:inline-block;
+  min-width:min(100%,350px);
+  margin:7px 0 2px;
+  padding:14px 52px 14px 23px;
+  color:#fffef2;
+  background:url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/zen/brushstroke-v1.webp") center/100% 100% no-repeat;
+  text-shadow:0 1px 3px #0a2117a8;
+}
+.sentence-zen-lesson .formula-label {
+  min-width:250px;
+  padding:14px 42px 14px 18px;
+  border-radius:0;
+  background:url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/zen/brushstroke-v1.webp") center/100% 100% no-repeat;
+}
+.sentence-zen-lesson .example-block {position:relative;padding-right:clamp(25px,11vw,145px)}
+.sentence-zen-lesson .example-block::after {
+  content:"";
+  position:absolute;
+  right:0;
+  bottom:0;
+  width:135px;
+  height:120px;
+  opacity:.27;
+  pointer-events:none;
+  background:url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/zen/botanical-corner-v1.webp") right bottom/contain no-repeat;
+}
+.sentence-zen-lesson .benefit-card,
+.sentence-zen-lesson .rule-card {
+  position:relative;
+  grid-template-columns:78px minmax(0,1fr);
+  gap:18px;
+  min-height:126px;
+  border-color:#d1b995;
+  padding:18px 24px;
+  background:linear-gradient(125deg,#fffdf5,#f5eedf);
+  box-shadow:0 5px 0 #bca27a5e,0 11px 20px #43301a22,inset 0 0 0 3px #fff9eacc;
+}
+.sentence-zen-lesson .benefit-card::after,
+.sentence-zen-lesson .rule-card::after {
+  content:"";
+  position:absolute;
+  right:0;
+  bottom:0;
+  width:138px;
+  height:116px;
+  opacity:.25;
+  pointer-events:none;
+  background:url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/zen/botanical-corner-v1.webp") right bottom/contain no-repeat;
+}
+.sentence-zen-lesson .benefit-card:nth-child(even)::after,
+.sentence-zen-lesson .rule-card:nth-child(even)::after {transform:scaleX(-1);right:auto;left:0;opacity:.18}
+.sentence-zen-lesson .benefit-card:nth-child(3n)::after,
+.sentence-zen-lesson .rule-card:nth-child(3n)::after {display:none}
+.sentence-zen-lesson .benefit-card>span,
+.sentence-zen-lesson .rule-card>span {
+  position:relative;
+  z-index:1;
+  width:72px;
+  height:72px;
+  border:0;
+  border-radius:0;
+  color:#244c39;
+  background:url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/zen/stone-marker-v1.webp") center/contain no-repeat;
+  box-shadow:none;
+  font:700 29px Georgia,serif;
+}
+.sentence-zen-lesson .benefit-card>div,
+.sentence-zen-lesson .rule-card>div {position:relative;z-index:1;min-width:0}
+.sentence-zen-lesson .rule-card .examples {
+  border-color:#cdd0ac;
+  background:linear-gradient(130deg,#f2f2dd,#e9edd4);
+  box-shadow:inset 0 1px #fff9ed;
+}
+
+/* The answer engine stays intact; the 50 cards become hanging garden slips. */
+.sentence-zen-lesson .question-list {
+  position:relative;
+  padding-left:46px;
+  gap:22px;
+}
+.sentence-zen-lesson .question-list::before {
+  content:"";
+  position:absolute;
+  top:12px;
+  bottom:12px;
+  left:7px;
+  width:27px;
+  border:1px solid #805735;
+  border-radius:12px;
+  background:linear-gradient(90deg,#4e301e,#9c704a 35%,#755034 70%,#432817);
+  box-shadow:inset 2px 0 #e4c4956e,4px 5px 10px #3423163b;
+  pointer-events:none;
+}
+.sentence-zen-lesson .question-card {
+  min-height:172px;
+  margin:0;
+  border-radius:8px 17px 17px 8px;
+  padding:23px 27px 22px 48px;
+  background:linear-gradient(100deg,#fffaf0,#fffdf7 74%,#f7efdc);
+  box-shadow:0 6px 0 #a67d4d70,0 13px 25px #3b281c30,inset 0 0 0 4px #fffef6;
+}
+.sentence-zen-lesson .question-card::before {
+  left:15px;
+  top:19px;
+  bottom:19px;
+  width:3px;
+  background:#c39a64;
+}
+.sentence-zen-lesson .question-card::after {
+  content:"";
+  position:absolute;
+  right:2px;
+  bottom:0;
+  width:128px;
+  height:115px;
+  opacity:.2;
+  pointer-events:none;
+  background:url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/zen/botanical-corner-v1.webp") right bottom/contain no-repeat;
+}
+.sentence-zen-lesson .question-card:nth-child(3n+2)::after {right:auto;left:6px;opacity:.12;transform:scaleX(-1)}
+.sentence-zen-lesson .question-card:nth-child(3n)::after {display:none}
+.sentence-zen-lesson .question-card-top,
+.sentence-zen-lesson .question-card-content {position:relative;z-index:1}
+.sentence-zen-lesson .question-number {
+  position:absolute;
+  top:-13px;
+  left:-106px;
+  display:grid;
+  place-items:center;
+  width:82px;
+  height:82px;
+  margin:0;
+  border:0;
+  border-radius:0;
+  padding:0 5px 7px 0;
+  color:#243e31;
+  background:url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/zen/stone-marker-v1.webp") center/contain no-repeat;
+  box-shadow:none;
+  font:700 31px Georgia,serif;
+}
+.sentence-zen-lesson .answer-input {background:#f4f9f8}
+
+/* A real garden deck below each teaching page, with live navigation above it. */
+.sentence-zen-lesson .lesson-navigation {
+  position:relative;
+  isolation:isolate;
+  min-height:213px;
+  align-items:flex-end;
+  margin-top:34px;
+  border:1px solid #a78355;
+  border-radius:13px;
+  padding:95px clamp(18px,3vw,36px) 23px;
+  background:#fff9ea;
+  box-shadow:0 6px 0 #5d3a22,0 15px 25px #35221746;
+}
+.sentence-zen-lesson .lesson-navigation::before {
+  content:"";
+  position:absolute;
+  z-index:-1;
+  inset:0;
+  border-radius:inherit;
+  background:linear-gradient(180deg,#fff9e600 0 43%,#1e2d1e22 100%);
+  pointer-events:none;
+}
+.sentence-zen-lesson .lesson-navigation .primary-button,
+.sentence-zen-lesson .lesson-navigation .secondary-button {
+  min-width:160px;
+  border:1px solid #d1c29a;
+  padding:12px 21px;
+  box-shadow:0 4px 0 #4d3221,0 7px 13px #251c1740;
+}
+.sentence-zen-lesson .exercise-actions,
+body.has-sentence-zen-lesson>.exercise-actions[data-floating-exercise-actions] {
+  border:1px solid #b99b71;
+  background:#fff9eaf2;
+}
+
+@media(max-width:960px) {
+  .sentence-zen-lesson .lesson-content {padding-left:0}
+}
+@media(max-width:640px) {
+  .sentence-zen-lesson .info-page::before,.sentence-zen-lesson .exercise-page::before {width:95px;height:95px;opacity:.19}
+  .sentence-zen-lesson .seaside-benefits-page .info-page-header h2,
+  .sentence-zen-lesson .seaside-rules-page .info-page-header h2 {min-width:0;max-width:100%;padding:10px 32px 10px 15px}
+  .sentence-zen-lesson .example-block {padding-right:25px}
+  .sentence-zen-lesson .example-block::after {width:75px;height:70px;opacity:.16}
+  .sentence-zen-lesson .benefit-card,.sentence-zen-lesson .rule-card {grid-template-columns:52px minmax(0,1fr);gap:8px;min-height:0;padding:14px 12px}
+  .sentence-zen-lesson .benefit-card>span,.sentence-zen-lesson .rule-card>span {width:49px;height:49px;font-size:19px}
+  .sentence-zen-lesson .benefit-card::after,.sentence-zen-lesson .rule-card::after {width:75px;height:70px;opacity:.13}
+  .sentence-zen-lesson .question-list {padding-left:24px;gap:18px}
+  .sentence-zen-lesson .question-list::before {left:0;width:16px}
+  .sentence-zen-lesson .question-card {padding:18px 13px 19px 24px}
+  .sentence-zen-lesson .question-number {top:-10px;left:-61px;width:48px;height:48px;padding:0 2px 4px 0;font-size:18px}
+  .sentence-zen-lesson .question-card::after {width:65px;height:62px;opacity:.12}
+  .sentence-zen-lesson .lesson-navigation {min-height:215px;padding:82px 13px 14px}
+  .sentence-zen-lesson .lesson-navigation .primary-button,
+  .sentence-zen-lesson .lesson-navigation .secondary-button {width:100%;min-height:46px}
+}
+
+/* Revision 3: one continuous lesson sheet, with the garden objects as accents. */
+.sentence-zen-lesson .info-page,
+.sentence-zen-lesson .exercise-page {
+  border:2px solid #a77d50;
+  border-radius:11px;
+  box-shadow:0 0 0 4px #dbc29a,0 14px 30px #24190d55,inset 0 0 0 3px #f5e7c8;
+}
+.sentence-zen-lesson .formula-card {gap:0;margin-top:25px}
+.sentence-zen-lesson .formula-display {
+  margin-top:13px;
+  border:0;
+  border-radius:0;
+  padding:8px 4px 19px;
+  background:none;
+  box-shadow:none;
+}
+.sentence-zen-lesson .formula-display p+p {margin-top:12px;border-top:1px solid #d2c2a5;padding-top:12px}
+.sentence-zen-lesson .example-block {
+  margin-top:15px;
+  border:0;
+  border-left:3px solid #b28751;
+  border-radius:0;
+  padding:4px 23px;
+  background:none;
+  box-shadow:none;
+}
+.sentence-zen-lesson .example-block::after {opacity:.16}
+.sentence-zen-lesson .meaning-block {
+  margin-top:22px;
+  border:0;
+  border-top:1px solid #cdbb98;
+  border-radius:0;
+  padding:20px 4px 0;
+  background:none;
+}
+.sentence-zen-lesson .benefit-list,
+.sentence-zen-lesson .rule-list {gap:0}
+.sentence-zen-lesson .benefit-card,
+.sentence-zen-lesson .rule-card {
+  min-height:116px;
+  border:0;
+  border-bottom:1px solid #cfbe9c;
+  border-radius:0;
+  padding:20px 8px;
+  background:none;
+  box-shadow:none;
+}
+.sentence-zen-lesson .benefit-card:nth-child(even) {background:#e9ecd624}
+.sentence-zen-lesson .benefit-card:last-child,
+.sentence-zen-lesson .rule-card:last-child {border-bottom:0}
+.sentence-zen-lesson .benefit-card>span,
+.sentence-zen-lesson .rule-card>span {display:grid;place-items:center;padding:0}
+.sentence-zen-lesson .benefit-card>span b,
+.sentence-zen-lesson .rule-card>span b {
+  display:block;
+  transform:translate(5px,0);
+  font:700 29px/1 Georgia,serif;
+}
+.sentence-zen-lesson .rule-card .examples {
+  border:0;
+  border-left:3px solid #6d8b62;
+  border-radius:0;
+  background:#edf0d96b;
+  box-shadow:none;
+}
+.sentence-zen-lesson .question-list {padding-left:95px}
+.sentence-zen-lesson .question-list::before {display:none}
+.sentence-zen-lesson .question-card {border-radius:7px;padding-left:30px}
+.sentence-zen-lesson .question-card::before {left:11px}
+.sentence-zen-lesson .question-number {
+  top:-21px;
+  left:-115px;
+  width:86px;
+  height:119px;
+  padding:0;
+  background:url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/zen/hanging-scroll-v1.webp") center/contain no-repeat;
+  font-size:30px;
+}
+.sentence-zen-lesson .question-number b {
+  display:block;
+  transform:translateY(8px);
+  font:700 30px/1 Georgia,serif;
+}
+.sentence-zen-lesson .lesson-navigation {
+  min-height:92px;
+  margin-top:28px;
+  border:0;
+  border-top:1px solid #cbb58d;
+  border-radius:0;
+  padding:22px 0 0 91px;
+  background:none;
+  box-shadow:none;
+}
+.sentence-zen-lesson .lesson-navigation::before {
+  z-index:auto;
+  inset:5px auto auto 0;
+  width:81px;
+  height:80px;
+  border:0;
+  background:url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/zen/stone-lantern-v1.webp") center/contain no-repeat;
+}
+body.has-sentence-zen-lesson>.exercise-actions[data-floating-exercise-actions] {
+  border:1px solid #b89b72;
+  border-radius:8px;
+  padding:13px 17px 13px 96px;
+  background:#fff9eaf5;
+  box-shadow:0 7px 0 #8a603aa3,0 14px 25px #261a1245;
+}
+body.has-sentence-zen-lesson>.exercise-actions[data-floating-exercise-actions]::before {
+  content:"";
+  position:absolute;
+  left:10px;
+  top:50%;
+  width:78px;
+  height:78px;
+  transform:translateY(-50%);
+  background:url("https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/sentence-structure/zen/stone-lantern-v1.webp") center/contain no-repeat;
+  pointer-events:none;
+}
+@media(max-width:960px) {
+  .sentence-zen-lesson .question-list {padding-left:60px}
+  .sentence-zen-lesson .question-number {left:-78px;width:63px;height:88px;top:-16px}
+  .sentence-zen-lesson .question-number b {font-size:23px;transform:translateY(6px)}
+}
+@media(max-width:640px) {
+  .sentence-zen-lesson .benefit-card,
+  .sentence-zen-lesson .rule-card {padding:16px 4px;min-height:90px}
+  .sentence-zen-lesson .benefit-card>span b,
+  .sentence-zen-lesson .rule-card>span b {font-size:20px;transform:translate(3px,0)}
+  .sentence-zen-lesson .question-list {padding-left:42px}
+  .sentence-zen-lesson .question-card {padding:18px 13px 19px 21px}
+  .sentence-zen-lesson .question-number {left:-57px;width:49px;height:69px;top:-10px}
+  .sentence-zen-lesson .question-number b {font-size:18px;transform:translateY(4px)}
+  .sentence-zen-lesson .lesson-navigation {min-height:148px;padding:67px 0 0}
+  .sentence-zen-lesson .lesson-navigation::before {top:0;width:65px;height:65px}
+  body.has-sentence-zen-lesson>.exercise-actions[data-floating-exercise-actions] {padding:10px 12px 10px 55px}
+  body.has-sentence-zen-lesson>.exercise-actions[data-floating-exercise-actions]::before {left:0;width:55px;height:59px}
+  body.has-sentence-zen-lesson>.exercise-actions .exercise-action-copy {display:block;font-size:11px;line-height:1.35}
+}

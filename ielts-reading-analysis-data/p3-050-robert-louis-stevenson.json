@@ -1,0 +1,2095 @@
+{
+  "id": "p3-050-robert-louis-stevenson",
+  "catalogueId": "p3-050",
+  "catalogueIds": [
+    "p3-050"
+  ],
+  "passage": 3,
+  "title": "Robert Louis Stevenson",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "D",
+    "D",
+    "B",
+    "A",
+    "C",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "FALSE",
+    "F",
+    "A",
+    "H",
+    "G",
+    "I"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "D — enhanced Stevenson’s reputation as a writer",
+      "answerKey": "D — enhanced Stevenson’s reputation as a writer",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "Stevenson 的兩位傳記作者 KF 和 CP 做了甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Stevenson’s biographers KF and CP"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Robert Louis Stevenson, a Scottish novelist, poet, essayist and travel writer, was born at 8 Howard Place, Edinburgh, Scotland, on 13 November 1850.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Robert Louis Stevenson 是一位蘇格蘭小說家、詩人、散文家和旅遊作家，1850 年 11 月 13 日出生於蘇格蘭愛丁堡 Howard Place 8 號。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, they focused on his writing and gave high praise to his writing style and skill.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反方向來看，他們把焦點放在他的寫作上，並高度稱讚他的寫作風格和技巧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 是人物介紹加上文學評價背景。最後一句直接提到兩位 biographers的做法，所以 Question 27 應定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“biographers KF and CP”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two biographers, KF and CP, wrote a biography of Stevenson with a clear focus: they chose not to criticise aspects of his personal life. Instead, they focused on his writing and gave high praise to his writing style and skill.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩位傳記作者 KF 和 CP 寫了一本 Stevenson 傳記，焦點很清楚：他們選擇不批評他私生活的某些方面。相反方向來看，他們集中討論他的寫作，並高度稱讚他的寫作風格和技巧。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“gave high praise to his writing style and skill”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高度稱讚他的寫作風格和技巧。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“enhanced Stevenson’s reputation as a writer”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "提升 Stevenson 作為作家的聲譽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“gave high praise” 和 “enhanced reputation” 不是逐字相同，但意思方向一致。傳記作者集中讚揚他的 writing style and skill，自然是在改善、提升、加強他作為 writer 的形象。錯項分析A 說他們低估家庭在 Stevenson 人生中的角色。原文沒有 family 這個重點。 B 說他們高估 Stevenson 作品在文學史上的重要性。原文只說他們 praise his writing style and skill，沒有說他們對 literary history 的判斷過度。 C 說他們誇大 Stevenson 作品中的 religious beliefs。原文有 religious themes 的批評背景，但KF 和 CP 的焦點是 writing style and skill。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "D — Stevenson’s work lacks moral value",
+      "answerKey": "D — Stevenson’s work lacks moral value",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "第二段的主要重點是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： The main point of the second paragraph is"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The literary pendulum has since swung.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此後，文學評價的擺錘已經轉向。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These debates remain, and many critics still assert that despite his skill, his literary works still lack moral value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些爭論仍然存在，而且許多評論家仍然主張，儘管他有技巧，他的文學作品仍然缺乏道德價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯在講 Stevenson 文學評價的轉變，最後落點是 critics still assert his works lack moral value。題目問 main point，所以要找能概括整段的選項。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "這題不是找單一人名或年份，而是找段落主旨。要掃描段內反覆出現的評價方向："
+            },
+            {
+              "kind": "quote",
+              "text": "“negative criticism”"
+            },
+            {
+              "kind": "quote",
+              "text": "“corrupt ethics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lack of morality”"
+            },
+            {
+              "kind": "quote",
+              "text": "“little social value”"
+            },
+            {
+              "kind": "quote",
+              "text": "“excluded from literature curricula”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lack moral value”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些字詞都指向同一個核心：Stevenson 的作品受到道德層面的批評。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many literary critics dismissed his works as children’s stories or horror stories and thought they had little social value in an educational setting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多文學評論家把他的作品貶低為兒童故事或恐怖故事，並認為它們在教育環境中幾乎沒有社會價值。"
+            },
+            {
+              "kind": "label",
+              "text": "原文又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“These debates remain, and many critics still assert that despite his skill, his literary works still lack moral value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些爭論仍然存在，而且許多評論家仍主張，儘管他有技巧，他的作品仍然缺乏道德價值。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stevenson’s work lacks moral value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stevenson 的作品缺乏道德價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是段落最後一句的直接概括。要留意，這是段落整理出的批評焦點，不等於作者本人完全認同這項批評。題目問的是 second paragraph 的 main point，因此 D 最貼近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析A 說 public now gives fairer assessments。原文說 debates remain，仍有批評，沒有說大眾現在更公平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 recent criticism has been justified。原文列出批評存在，沒有說作者判定這些批評合理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 writing style outweighs flaws in personal life。這比較接近 Paragraph 1 的 KF and CP，不是Paragraph 2 主旨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B — cannot be used to convey moral values",
+      "answerKey": "B — cannot be used to convey moral values",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "根據文章，冒險故事有甚麼特點？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： According to the author, adventure stories"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the main reasons Stevenson’s literary works attracted so much criticism was the genre of his writing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stevenson 的文學作品受到大量批評，其中一個主要原因是他的寫作類型。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other authors came to Stevenson’s defence, including Galsworthy, who claimed that Stevenson was a greater writer than Thomas Hardy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他作家則為 Stevenson 辯護，包括 Galsworthy；他聲稱 Stevenson 是比 Thomas Hardy 更偉大的作家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經說明這段會解釋 genre 如何導致批評。題目問 adventure stories，所以必然定位到這段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“adventure stories”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stevenson mainly wrote adventure stories, a popular and entertaining genre at the time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stevenson 主要寫冒險故事，這在當時是一種受歡迎、有娛樂性的類型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著文章開始解釋很多人如何看待 adventure stories。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many people believe adventure stories are exciting and offer engaging characters, action and mystery, but ultimately cannot teach moral principles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多人認為冒險故事令人興奮，並提供吸引人的角色、動作場面和神秘感，但最終不能教授道德原則。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot be used to convey moral values”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不能用來傳達道德價值。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“teach moral principles” 對應 “convey moral values”。兩者意思非常接近。文章將這個觀點歸於“Many people believe”，即常見批評觀點；在四個選項中，B 是最直接受原文支持的一項。錯項分析A 說 adventure stories do not use plot twists effectively。原文說它們 focus on exciting and shocking plot twists，沒有說 plot twists 用得差。 C 說 adventure stories are a more fashionable art form。原文只是說 popular and entertaining genre at the time，沒有比較 “more fashionable”。 D 說其他作家有 adventure stories，但 Stevenson 沒有。原文方向相反，Stevenson mainly wrote adventure stories。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — They describe the life of people in Scotland",
+      "answerKey": "A — They describe the life of people in Scotland",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "作者對 Stevenson 的作品有甚麼說法？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What does the author say about Stevenson’s works?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite Wilde’s criticism, Stevenson’s Scottish identity was an integral part of his work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 Wilde 有批評，Stevenson 的蘇格蘭身份是他作品不可分割的一部分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To this day, Stevenson’s works provide valuable insight into life in Scotland during the 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到今天，Stevenson 的作品仍然為我們理解十九世紀蘇格蘭生活提供有價值的洞察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都提到 Scotland 和 Stevenson’s works，所以 Question 30 應定位到 Paragraph 4。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目較寬，但選項 A 有 “life of people in Scotland”，原文中相應內容是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stevenson’s works, unlike other British authors, captured the distinctive day-to-day life of ordinary Scottish people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stevenson 的作品有別於其他英國作家，捕捉了普通蘇格蘭人的獨特日常生活。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“captured the distinctive day-to-day life of ordinary Scottish people”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "捕捉普通蘇格蘭人的獨特日常生活。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“They describe the life of people in Scotland.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們描寫蘇格蘭人的生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“captured” 在這裡可理解成「捕捉、呈現、描寫」。ordinary Scottish people 對應 people in Scotland。day-to-day life 對應 life。所以 A 正確。錯項分析B 說 Stevenson 的作品通常被視為真正文學。原文提到 many critics point to this as a flaw，也說作品有爭議，不能說 commonly regarded。 C 說他的作品在他生前很受歡迎。原文說 “Stevenson’s works were not popular in Scotland when he was alive”，與此相反。 D 說他的作品 transcend local culture and stories。原文說 critics 認為真正重要文學應該transcend local culture and stories，但 Stevenson 的作品被描述為有 local taste，提供 Scotland的 insight。D 把評論者的標準套到 Stevenson 作品上，方向錯了。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C — gained more attention from the public than his works",
+      "answerKey": "C — gained more attention from the public than his works",
+      "type": "Multiple Choice",
+      "prompt": "Question 31",
+      "translation": "Stevenson 的生活方式怎樣？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： The lifestyle of Stevenson"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite much debate about Stevenson’s choice of subject matter, his writing was not the only source of attention for critics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 Stevenson 的題材選擇引起很多爭論，他的寫作並不是評論家唯一關注的來源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, he remains a controversial yet widely popular figure in Western literature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到今天，他仍然是西方文學中一位有爭議但廣受歡迎的人物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經提示：除了 writing，critics 也關注其他方面。Question 31 問 lifestyle，所以目標自然是Paragraph 5。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“lifestyle”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中相關概念是："
+            },
+            {
+              "kind": "quote",
+              "text": "“personal life”"
+            },
+            {
+              "kind": "quote",
+              "text": "“eccentric lifestyle of travel and adventure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“outshone his writing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“interest in Stevenson’s life had taken the place of interest in his works”"
+            },
+            {
+              "kind": "label",
+              "text": "最關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some even argue that his personal life eventually outshone his writing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人甚至認為，他的私生活最終蓋過了他的寫作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文後面又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was as a result of this biographical attention that the feeling grew that interest in Stevenson’s life had taken the place of interest in his works.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正因這種傳記式關注越來越多，於是人們逐漸產生一種感覺：大家對 Stevenson 人生的興趣取代了對他作品的興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“gained more attention from the public than his works”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "比他的作品更受到公眾注意。"
+            },
+            {
+              "kind": "label",
+              "text": "這對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“personal life eventually outshone his writing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“interest in Stevenson’s life had taken the place of interest in his works”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析A 說他的生活方式令家人非常羨慕。原文沒有 family envy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說他的生活方式應對他的死亡負責。原文有 health problems 和 warm climates，但沒有說lifestyle caused death。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說他的生活方式沒有讓他準備好 Samoa 生活。原文說他搬到 Samoa 是 controversial decision，但也說 sea air and thrill of adventure restored his health for a time，沒有說他不適應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Although Oscar Wilde admired Robert Louis Stevenson very much, he believed Stevenson could have written greater works.”",
+      "translation": "雖然 Oscar Wilde 非常欣賞 Stevenson，但他認為 Stevenson 本來可以寫出更好的作品。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the main reasons Stevenson’s literary works attracted so much criticism was the genre of his writing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stevenson 的作品受到很多批評，其中一個主要原因是他的寫作類型。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other authors came to Stevenson’s defence, including Galsworthy, who claimed that Stevenson was a greater writer than Thomas Hardy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他作家為 Stevenson 辯護，包括 Galsworthy；他聲稱 Stevenson 是比 Thomas Hardy 更偉大的作家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半正好提到 Oscar Wilde 和 Galsworthy，所以 Q32–34 都在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Oscar Wilde”"
+            },
+            {
+              "kind": "quote",
+              "text": "“admired”"
+            },
+            {
+              "kind": "quote",
+              "text": "“could have written greater works”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although Oscar Wilde deeply admired Stevenson’s work, he often joked that Stevenson would have written better works if he had not been born in Scotland.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Oscar Wilde 深深欣賞 Stevenson 的作品，但他經常開玩笑說，如果 Stevenson 不是出生在蘇格蘭，他本可以寫出更好的作品。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“admired Robert Louis Stevenson very much”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“deeply admired Stevenson’s work”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者一致。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“could have written greater works”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“would have written better works”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者也是同方向改寫。better works 對應 greater works；would have written 對應 could have written 的反事實語氣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "唯一要留意的是原文說 “joked”。這顯示 Wilde 可能帶有玩笑語氣，但內容仍然是：他認為Stevenson 如果不是出生在 Scotland，本可以寫得更好。題目沒有加入和原文衝突的細節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Robert Louis Stevenson initially encouraged Oscar Wilde to write.”",
+      "translation": "Robert Louis Stevenson 最初鼓勵 Oscar Wilde 寫作。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the main reasons Stevenson’s literary works attracted so much criticism was the genre of his writing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stevenson 的作品受到很多批評，其中一個主要原因是他的寫作類型。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other authors came to Stevenson’s defence, including Galsworthy, who claimed that Stevenson was a greater writer than Thomas Hardy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他作家為 Stevenson 辯護，包括 Galsworthy；他聲稱 Stevenson 是比 Thomas Hardy 更偉大的作家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段確實出現 Oscar Wilde，所以可以定位到這裡。但題目問的是 Stevenson 是否曾鼓勵 Wilde寫作，這要看原文是否提供二人之間的互動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stevenson”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Oscar Wilde”"
+            },
+            {
+              "kind": "quote",
+              "text": "“encouraged”"
+            },
+            {
+              "kind": "quote",
+              "text": "“initially”"
+            },
+            {
+              "kind": "label",
+              "text": "原文只說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although Oscar Wilde deeply admired Stevenson’s work, he often joked that Stevenson would have written better works if he had not been born in Scotland.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Oscar Wilde 深深欣賞 Stevenson 的作品，但他經常開玩笑說，如果 Stevenson 不是出生在蘇格蘭，他本可以寫出更好的作品。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的是 Oscar Wilde 對 Stevenson 的看法： Oscar Wilde admired Stevenson’s work. Oscar Wilde joked about Stevenson’s Scottish birth.題目需要的是另一種關係： Stevenson encouraged Oscar Wilde to write.而且還有時間詞 initially，即最初。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有說 Stevenson 鼓勵 Wilde，也沒有說 Wilde 的寫作生涯由 Stevenson 啟發，更沒有說initially 這個時間關係。原文只是把 Wilde 放在 fellow authors 的評論之中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 Oscar Wilde 和 Stevenson 同一句出現，便以為原文支援二人有直接私人互動。其實原文只交代 Wilde 對 Stevenson 作品的 admiration 和 joke，沒有提供 Stevenson 對 Wilde 做過甚麼。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Galsworthy thought Hardy was a greater writer than Stevenson.”",
+      "translation": "Galsworthy 認為 Hardy 是比 Stevenson 更偉大的作家。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the main reasons Stevenson’s literary works attracted so much criticism was the genre of his writing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stevenson 的作品受到很多批評，其中一個主要原因是他的寫作類型。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other authors came to Stevenson’s defence, including Galsworthy, who claimed that Stevenson was a greater writer than Thomas Hardy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他作家為 Stevenson 辯護，包括 Galsworthy；他聲稱 Stevenson 是比 Thomas Hardy 更偉大的作家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題直接由最後一句判斷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Galsworthy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Hardy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“greater writer”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Galsworthy, who claimed that Stevenson was a greater writer than Thomas Hardy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Galsworthy 聲稱 Stevenson 是比 Thomas Hardy 更偉大的作家。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說： Hardy was a greater writer than Stevenson.原文說： Stevenson was a greater writer than Thomas Hardy.比較方向完全相反。題目把比較兩端倒轉了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN 題中，只要原文明確提供相反資訊，答案就是 FALSE。這題不是缺資料，因為原文清楚說出 Galsworthy 的比較立場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Critics paid attention only to the subjects of Robert Louis Stevenson’s writing.”",
+      "translation": "評論家只關注 Stevenson 寫作的題材。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite much debate about Stevenson’s choice of subject matter, his writing was not the only source of attention for critics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 Stevenson 的題材選擇引起很多爭論，他的寫作並非評論家唯一關注的來源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, he remains a controversial yet widely popular figure in Western literature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到今天，他仍然是西方文學中一位有爭議但廣受歡迎的人物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接處理 “subject matter” 和 “not the only source of attention”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Critics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only”"
+            },
+            {
+              "kind": "quote",
+              "text": "“subjects of writing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最關鍵是："
+            },
+            {
+              "kind": "quote",
+              "text": "“his writing was not the only source of attention for critics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的寫作並非評論家唯一關注的來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目有一個很強的控制詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“only”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要文章顯示 critics 也關注其他方面，題目便被推翻。"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stevenson’s personal life often attracted a lot of attention from his fans and critics alike.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stevenson 的私生活也經常吸引他的粉絲和評論家的大量注意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接反駁 “only to the subjects of writing”。評論家不只看 writing subjects，也看 personal life、religious beliefs、eccentric lifestyle of travel and adventure。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "F — technical control",
+      "answerKey": "F — technical control",
+      "type": "Notes Completion",
+      "prompt": "“Sir Walter Scott is more proficient in 36 ______”",
+      "translation": "Sir Walter Scott 在 ______ 方面更熟練。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite Wilde’s criticism, Stevenson’s Scottish identity was an integral part of his work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 Wilde 有批評，Stevenson 的蘇格蘭身份是他作品不可分割的一部分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To this day, Stevenson’s works provide valuable insight into life in Scotland during the 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到今天，Stevenson 的作品仍然為理解十九世紀蘇格蘭生活提供有價值的洞察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中間比較 Scott 和 Stevenson，所以 36–40 都在這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sir Walter Scott”"
+            },
+            {
+              "kind": "quote",
+              "text": "“proficient”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“many critics exalt Sir Walter Scott as a literary genius because of his technical ability”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多評論家因 Sir Walter Scott 的技術能力而推崇他為文學天才。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “technical ability” 對應選項 F “technical control”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 ability 和 control 不完全逐字相同，但這裡的 “proficient in” 要填一種技能領域。technical control 表示技術掌控力，正好概括 technical ability。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "A — natural ability",
+      "answerKey": "A — natural ability",
+      "type": "Notes Completion",
+      "prompt": "“while Stevenson has better 37 ______”",
+      "translation": "而 Stevenson 有更好的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite Wilde’s criticism, Stevenson’s Scottish identity was an integral part of his work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 Wilde 有批評，Stevenson 的蘇格蘭身份是他作品不可分割的一部分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To this day, Stevenson’s works provide valuable insight into life in Scotland during the 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到今天，Stevenson 的作品仍然為理解十九世紀蘇格蘭生活提供有價值的洞察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段比較兩位蘇格蘭作家的優勢。Scott 對應 technical ability，Stevenson 對應 natural ability。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stevenson”"
+            },
+            {
+              "kind": "quote",
+              "text": "“better”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“others argue that Stevenson deserves the same recognition for his natural ability to capture stories and characters in words.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一些人則認為 Stevenson 憑藉自然地用文字捕捉故事和人物的能力，也應得到同等認可。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“natural ability”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文完全相同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “has better”，接上 “natural ability” 文法自然： Stevenson has better natural ability.意思是 Stevenson 在自然敘事天分方面更突出。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "H — depth",
+      "answerKey": "H — depth",
+      "type": "Notes Completion",
+      "prompt": "“Scott’s books illustrate 38 ______ especially in terms of tragedy”",
+      "translation": "Scott 的書呈現 ______，尤其在悲劇方面。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite Wilde’s criticism, Stevenson’s Scottish identity was an integral part of his work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 Wilde 有批評，Stevenson 的蘇格蘭身份是他作品不可分割的一部分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To this day, Stevenson’s works provide valuable insight into life in Scotland during the 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到今天，Stevenson 的作品仍然為理解十九世紀蘇格蘭生活提供有價值的洞察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中段有 “tragic themes”，所以 Q38 很容易定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scott’s books”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tragedy”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many of Scott’s works were taken more seriously as literature because of the depth of their tragic themes”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scott 的許多作品因其悲劇主題的深度而被更嚴肅地視為文學。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“especially in terms of tragedy”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“tragic themes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者對應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要填 Scott’s books illustrate what，原文答案是："
+            },
+            {
+              "kind": "quote",
+              "text": "“depth”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 H = depth。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "G — storytelling",
+      "answerKey": "G — storytelling",
+      "type": "Notes Completion",
+      "prompt": "“but a lot of readers prefer Stevenson’s 39 ______”",
+      "translation": "但很多讀者更喜歡 Stevenson 的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite Wilde’s criticism, Stevenson’s Scottish identity was an integral part of his work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 Wilde 有批評，Stevenson 的蘇格蘭身份是他作品不可分割的一部分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To this day, Stevenson’s works provide valuable insight into life in Scotland during the 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到今天，Stevenson 的作品仍然為理解十九世紀蘇格蘭生活提供有價值的洞察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段比較 Scott 和 Stevenson 的不同優勢。前一句已經處理 Scott 的 tragic depth；下一個空格應該轉到 Stevenson 的特色。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“readers prefer Stevenson’s”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“fans of Stevenson praise his unique style of storytelling and depiction of human nature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stevenson 的支持者稱讚他獨特的敘事風格和對人性的描繪。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目空格前是："
+            },
+            {
+              "kind": "quote",
+              "text": "“prefer Stevenson’s ______”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中最能接在 possessive “Stevenson’s” 後面的，是： storytelling原文中也直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“unique style of storytelling”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “prefer” 概括 “fans praise”。fans praise something，即讀者欣賞、偏好這種特點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "I — human nature",
+      "answerKey": "I — human nature",
+      "type": "Notes Completion",
+      "prompt": "“Furthermore, Stevenson’s understanding of 40 ______ gave his work a uniquely expressive portrayal of Scottish people.”",
+      "translation": "此外，Stevenson 對 ______ 的理解，使他的作品能獨特而有表現力地描繪蘇格蘭人。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite Wilde’s criticism, Stevenson’s Scottish identity was an integral part of his work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 Wilde 有批評，Stevenson 的蘇格蘭身份是他作品不可分割的一部分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To this day, Stevenson’s works provide valuable insight into life in Scotland during the 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到今天，Stevenson 的作品仍然為理解十九世紀蘇格蘭生活提供有價值的洞察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段最後幾句講 Stevenson 如何描寫 ordinary Scottish people，所以 Q40 要看 “human nature”和 “Scottish people” 的連接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“understanding”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Scottish people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“portrayal”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句有兩句："
+            },
+            {
+              "kind": "quote",
+              "text": "“fans of Stevenson praise his unique style of storytelling and depiction of human nature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stevenson 的支持者稱讚他獨特的敘事風格和對人性的描繪。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Stevenson’s works, unlike other British authors, captured the distinctive day-to-day life of ordinary Scottish people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Stevenson 的作品有別於其他英國作家，捕捉了普通蘇格蘭人的獨特日常生活。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的："
+            },
+            {
+              "kind": "quote",
+              "text": "“understanding of 40 ______”"
+            },
+            {
+              "kind": "label",
+              "text": "對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“depiction of human nature”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也就是說，Stevenson 的作品能描繪 human nature，並進一步捕捉 ordinary Scottish people 的day-to-day life。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 I 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“human nature”"
+            },
+            {
+              "kind": "label",
+              "text": "填入後："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stevenson’s understanding of human nature…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法和意思都自然，也符合原文 “depiction of human nature”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 I。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Robert Louis Stevenson.pdf",
+    "sha256": "010ed48eac1adb7c7304379628bc98cec9067aa84dfba1183d02f99ad35a4fc6",
+    "pageCount": 26
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "功能：介紹 Stevenson 的身份、生平起點，以及他死後文學評價一直有爭議。這段提到他是 Scottish novelist, poet, essayist and travel writer，也提到他的作品一方面因 prose and style 受到稱讚，另一方面因 religious themes 被批評。最後聚焦到 KF 和 CP 兩位傳記作者，他們選擇避開對私生活的批評，集中稱讚他的 writing style and skill。Question 27 主要來自這段。"
+      },
+      {
+        "number": "2",
+        "summary": "功能：說明 Stevenson 文學名聲的轉變，以及作品被批評缺乏道德價值。這段的核心是 “literary pendulum has since swung”，即文學評價擺盪很大。文章說他一度被高度讚揚，後來又被批評為 ethics corrupt、lack of morality。他的作品被 dismiss as children’s stories or horror stories，也被認為在教育上 little social value。Question 28 主要來自這段。"
+      },
+      {
+        "number": "3",
+        "summary": "功能：解釋 Stevenson 被批評的重要原因之一：他主要寫 adventure stories。這段指出 adventure stories 是 popular and entertaining genre，但很多人認為這類故事 exciting、有 action and mystery，卻不能 teach moral principles。後半加入 Oscar Wilde 和 Galsworthy 的不同看法。Questions 29、32、34 主要來自這段。"
+      },
+      {
+        "number": "4",
+        "summary": "功能：討論 Stevenson 的 Scottish identity，並比較 Sir Walter Scott 和 Stevenson 的文學價值。這段說 Stevenson 的 Scottish identity 是作品不可分割的一部分。現代 Scottish literary critics 認為 Sir Walter Scott 和 Robert Louis Stevenson 都是蘇格蘭歷史上最 influential writers。Scott 被稱讚 technical ability；Stevenson 被稱讚 natural ability、storytelling、depiction of human nature，以及捕捉 ordinary Scottish people 的 day-to-day life。Questions 30、36–40 主要來自這段。"
+      },
+      {
+        "number": "5",
+        "summary": "功能：說明 Stevenson 的 personal life、health、travel 和 Samoa 生活如何吸引評論者注意，甚至蓋過作品本身。這段指出 Stevenson 的私生活受到 fans and critics 注意，有人甚至認為他的 personal life eventually outshone his writing。他因健康問題搬到較暖的地方，後來到 Samoa，又在 Pacific islands 旅行。Question 31 和 Question 35 主要來自這段。"
+      }
+    ]
+  }
+}

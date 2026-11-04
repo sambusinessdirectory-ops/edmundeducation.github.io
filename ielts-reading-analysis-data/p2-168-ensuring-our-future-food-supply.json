@@ -1,0 +1,1026 @@
+{
+  "id": "p2-168-ensuring-our-future-food-supply",
+  "catalogueId": "p2-168",
+  "catalogueIds": [
+    "p2-168"
+  ],
+  "passage": 2,
+  "title": "Ensuring our future food supply",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "TRUE",
+    "appearance",
+    "rainforests",
+    "apple",
+    "50 percent",
+    "famine",
+    "population"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Heritage Farm is different from most other nearby farms.”",
+      "translation": "Heritage Farm 與附近大多數其他農場不同。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 1。首句介紹 Heritage Farm 的地點；末句說它是 Seed Savers"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Exchange 的所在地。只看首尾句，已可估計這段會介紹 Heritage Farm 的特殊身份。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Heritage Farm”、 “different”、 “nearby farms”。原文沒有用 different，但出現強烈"
+            },
+            {
+              "kind": "label",
+              "text": "近義詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Everything about Heritage Farm is in stark contrast to the surrounding acres of intensively farmed fields of corn and soybeans that are typical of modern agriculture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heritage Farm 的一切，都和周圍那些密集耕作的玉米和大豆田形成鮮明對比；那些田地正是現代農業的典型。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“in stark contrast to” = 與……形成鮮明對比。“surrounding acres” = 周圍土地 / 附近農田。“typical of modern agriculture” = 代表現代農業的常見模式。題目的 “different from most other nearby farms” 對應原文的 “in stark contrast to the surrounding acres”。原文清楚說 Heritage Farm 和附近典型農田形成鮮明對比，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只看 Heritage Farm 也是 farm。真正控制答案的是 “stark contrast”。文章重點在功能和農業模式不同：周圍農田密集種植 corn and soybeans，Heritage Farm 則 devoted to collecting rather than growing seeds。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most non-government-owned seed banks are bigger than the Seed Savers Exchange.”",
+      "translation": "大多數非政府擁有的種子銀行都比 Seed Savers Exchange 大。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 1。末句直接介紹 Seed Savers Exchange 的規模和身份。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “non-government-owned seed banks” 和 “bigger”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is home to the Seed Savers Exchange, one of the largest non-government-owned seed banks in the United States.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡是 Seed Savers Exchange 的所在地；它是美國最大型的非政府擁有種子銀行之一。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Most ... are bigger”，即多數同類機構比它大。原文說 “one of the largest”，即它屬於最大型的一批。兩者方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：most seed banks are bigger than it"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：it is one of the largest seed banks判斷：規模方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有逐字重複 “in the United States”，但本段語境正在介紹美國 Iowa 的 Heritage Farm 和美國的 Seed Savers Exchange。依文章語境判斷，題目把 “one of the largest” 改成 “most are bigger”，這是明確反向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Diane Ott Whealy’s grandfather taught her a great deal about seed varieties.”",
+      "translation": "Diane Ott Whealy 的祖父教了她很多關於種子品種的知識。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。首句提到 Diane 在 1975 年獲得兩種植物幼苗；末句描寫農場內"
+            },
+            {
+              "kind": "paragraph",
+              "text": "種植的蔬菜、香草和花。這段會講 Diane 的起點和保存 heirloom plants 的動機。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Diane Ott Whealy”、 “grandfather”、 “taught”、 “seed varieties”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1975 Diane Ott Whealy was given the seedlings of two plant varieties that her great-grandfather had brought to America from Bavaria in 1870: Grandpa Ott’s morning glory and his German Pink tomato.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1975 年，Diane Ott Whealy 得到兩種植物的幼苗；這兩種植物是她的曾祖父在 1870 年從Bavaria 帶到美國的：Grandpa Ott 的牽牛花和 German Pink 番茄。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有 family link，也有 two plant varieties，但沒有說 grandfather taught her。更精確地說，原文提到的是 great-grandfather brought seeds to America，並沒有提到他教 Diane 種子知識，也沒有說教了 “a great deal”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要兩項證據： 1. grandfather taught her； 2. taught her a great deal about seed varieties。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只提供： 1. great-grandfather had brought two plant varieties； 2. Diane later wanted to preserve traditional varieties。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少 “taught” 這個核心動作，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 Grandpa Ott 和 family history，學生容易推測 Diane 可能從長輩那裡學到很多。但 IELTS Reading 不接受合理想像。原文只有家族品種來源，沒有教學關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Seeds donated to the Seed Savers Exchange are stored outdoors.”",
+      "translation": "捐給 Seed Savers Exchange 的種子存放在戶外。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。首句講 Diane 獲得家族植物幼苗；中段講 heirloom varieties 被"
+            },
+            {
+              "kind": "paragraph",
+              "text": "donated；末句講農場裡有種植不同植物。這段很可能有儲存方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “donated”、 “stored”、 “outdoors”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The exchange now has more than 13,000 members, and the many thousands of heirloom varieties they have donated are kept in its walk-in coolers, freezers and root cellars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個交換組織現在有超過 13,000 名會員，而他們捐出的成千上萬種 heirloom varieties，被保存在步入式冷藏室、冷凍庫和根窖中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“are kept in” 是儲存方式。“walk-in coolers, freezers and root cellars” 全部都是室內或封閉式儲存空間。題目說 stored outdoors，原文說 kept in coolers, freezers and root cellars，兩者衝突。答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段最後一句有 “they have planted there”，容易令人想到戶外種植。但題目問 seeds donated的儲存方式。答案句清楚說 donated varieties are kept in coolers, freezers and root cellars。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Diane and her husband choose which heirloom seeds to grow at Heritage Farm.”",
+      "translation": "Diane 和她丈夫決定在 Heritage Farm 種植哪些 heirloom seeds。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。首句介紹 Diane 獲得家族植物幼苗；末句說農場裡種了不同蔬"
+            },
+            {
+              "kind": "paragraph",
+              "text": "菜、香草和花。這段有 “planted there”，所以值得定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Diane and her husband”、 “choose”、 “which heirloom seeds”、 “grow”。原文相"
+            },
+            {
+              "kind": "label",
+              "text": "關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Diane and her husband, Kent, decided to establish a place where the seeds of the past could be kept and traded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Diane 和丈夫 Kent 決定建立一個地方，讓過去的種子可以被保存和交換。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As you walk around an old red barn ... you come across the different vegetables, herbs, and flowers they have planted there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你走過一座覆滿 Grandpa Ott 牽牛花的舊紅色穀倉時，會看到他們在那裡種下的不同蔬菜、香草和花。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 Diane 和 Kent established a place，並說 there are plants grown there。但題目問的是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“choose which heirloom seeds to grow”，即誰負責選種、如何選擇。原文沒有交代選擇程序，也沒有說 Diane and Kent personally choose which seeds to grow。答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“they have planted there” 只證明農場裡有種植活動；它沒有證明 Diane 和 Kent 負責挑選品種。題目加入 “choose which” 這個決策細節，原文沒有提供。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The seeds are listed alphabetically in the Seed Savers Exchange Yearbook.”",
+      "translation": "Seed Savers Exchange Yearbook 中的種子按字母順序排列。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。首句直接提到 members list their seeds in the Yearbook；末句繼"
+            },
+            {
+              "kind": "paragraph",
+              "text": "續舉例說有一種豆由考古學家捐出。這段功能是介紹 Yearbook 內容。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “listed”、 “alphabetically”、 “Yearbook”。原文關鍵句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Each year our members list their seeds in this,” Diane Ott Whealy says, handing over a copy of the Seed Savers Exchange 2010 Yearbook."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Diane Ott Whealy 遞過一本 2010 年 Seed Savers Exchange Yearbook，說：「每年我們的會員都在這裡列出他們的種子。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有 “list their seeds”，但沒有 “alphabetically”。後文只說：“It is as thick as a big-city telephone directory, with page after page of exotic beans, garlic, potatoes, peppers, apples, pears, and plums—each with its own name and personal history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它像大城市電話簿一樣厚，一頁又一頁列著異國豆類、大蒜、馬鈴薯、辣椒、蘋果、梨和李子——每種都有自己的名字和個人歷史。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這只說內容豐富和有 personal history，沒有說按 alphabet 排列。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“telephone directory” 可能令人聯想到電話簿通常按字母排序。但原文只是用 thickness 作比喻，說 Yearbook 很厚。排序方式沒有交代。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Seed Savers Exchange Yearbook describes how each seed was obtained.”",
+      "translation": "Seed Savers Exchange Yearbook 描述每種種子是如何取得的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。首句說會員每年在 Yearbook 中列出種子；末句舉出一種由考古"
+            },
+            {
+              "kind": "paragraph",
+              "text": "學家捐出的豆。首尾句已提示，本段會講 Yearbook 中種子的來源故事。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Yearbook”、 “describes”、 “how each seed was obtained”。原文沒有直接用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "obtained，但有 “personal history” 和多個來源例子。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is as thick as a big-city telephone directory, with page after page of exotic beans, garlic, potatoes, peppers, apples, pears, and plums—each with its own name and personal history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它像大城市電話簿一樣厚，一頁又一頁列著異國豆類、大蒜、馬鈴薯、辣椒、蘋果、梨和李子——每種都有自己的名字和個人歷史。"
+            },
+            {
+              "kind": "label",
+              "text": "後文例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“brought to the seed bank by ‘an elderly Russian lady’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由一位年長俄羅斯女士帶到種子銀行。"
+            },
+            {
+              "kind": "quote",
+              "text": "“from ‘a bazaar in Samarkand’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自 Samarkand 的一個市集。"
+            },
+            {
+              "kind": "quote",
+              "text": "“donated by archaeologists”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "由考古學家捐出。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“personal history” 在這裡包括種子的來源、捐贈者或取得路徑。題目的 “how each seed was obtained” 是對 personal history 和例子的概括改寫。答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有逐字寫 “how each seed was obtained”，但例子全部都在說 seed came from where /who donated it。IELTS Reading 接受這種明確同義概括。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "appearance",
+      "answerKey": "appearance",
+      "type": "Note Completion",
+      "prompt": "“Sell fruit and vegetables that travel well and want them to be uniform in their 21 ______.”",
+      "translation": "超市出售方便運輸的水果和蔬菜，並希望它們在 ______ 上一致。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。首句講 heirloom vegetables 流行；末句講食物多樣性下降很少"
+            },
+            {
+              "kind": "paragraph",
+              "text": "被注意。這段會由飲食潮流轉向現代食物供應問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “supermarkets”、 “travel well”、 “uniform”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“heirloom varieties have been squeezed out of supermarkets in favor of modern single-variety fruits and vegetables bred to ship well and have a uniform appearance, not to enhance flavor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "heirloom varieties 已被超市排擠，取而代之的是現代單一品種水果和蔬菜；它們被培育成適合運輸、外觀一致，而非提升味道。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “uniform in their”，後面需要名詞。原文是 “have a uniform appearance”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ship well = travel well。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "uniform appearance = uniform in their appearance。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 appearance。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "rainforests",
+      "answerKey": "rainforests",
+      "type": "Note Completion",
+      "prompt": "“Although people know that plants are disappearing from 22 ______, very few know about the decline in fruit and vegetable varieties.”",
+      "translation": "雖然人們知道植物正從 ______ 消失，但很少人知道水果和蔬菜品種正在下降。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。末句提到 food diversity 的 parallel decline，正好對應題目的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“decline in fruit and vegetable varieties”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “plants disappearing”、 “very few know”、 “decline”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We’ve been hearing for some time about the loss of flora and fauna in our rainforests. Very little, by contrast, is being said or done about the parallel decline in the diversity of the foods we eat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們已經聽了一段時間關於雨林中植物和動物消失的消息。相對地，關於我們所吃食物多樣性的平行下降，卻很少有人談論或採取行動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "plants = flora。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "disappearing = loss。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "from = in our。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 rainforests。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 flora。題目已經把 plants 寫出來，空格問 plants disappearing from where，地點是rainforests。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "apple",
+      "answerKey": "apple",
+      "type": "Note Completion",
+      "prompt": "“Fewer than 100 types of 23 ______ once available in the United States are still grown.”",
+      "translation": "美國過去曾有的 ______ 品種中，現在仍種植的少於 100 種。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。首句說食物品種滅絕正在全球發生；末句總結世界食物品種已失"
+            },
+            {
+              "kind": "paragraph",
+              "text": "去超過一半。中間一定有數字例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Fewer than 100”、 “United States”、 “types of”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of the 7,000 different apple varieties that were grown in the 1800s, fewer than a hundred remain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1800 年代曾種植的 7,000 種不同蘋果品種中，現在剩下不到 100 種。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Fewer than 100 types of ______” 對應原文 “fewer than a hundred remain”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“types of apple” = apple varieties。因為空格前已有 “types of”，答案填單數名詞 apple 最自然。所以答案是 apple。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "50 percent",
+      "answerKey": "50 percent",
+      "type": "Note Completion",
+      "prompt": "“More than 24 ______ of the world’s food varieties have disappeared in the past century.”",
+      "translation": "過去一世紀，世界食物品種中超過 ______ 已經消失。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。末句直接總結全球食物品種的消失比例。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “More than”、 “world’s food varieties”、 “past century”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts estimate that in total we have lost more than 50 percent of the world’s food varieties over the past century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "專家估計，總計來說，過去一世紀我們已經失去世界食物品種超過 50%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目幾乎照抄原文，只把 “we have lost” 改成 “have disappeared”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "lost = disappeared。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "over the past century = in the past century。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 50 percent。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "famine",
+      "answerKey": "famine",
+      "type": "Note Completion",
+      "prompt": "“Rick Ward believes the threat to Asian and African food supplies could lead to a 25 ______.”",
+      "translation": "Rick Ward 認為，亞洲和非洲食物供應面臨的威脅可能導致一場 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。首句說全球約 90% 小麥沒有防禦 Ug99 的能力；末句引用 Rick"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ward，直接談可能後果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Rick Ward”、 “Asian and African food supplies”、 “lead to”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists believe that in Asia and Africa alone, the portion currently in danger could leave one billion people without their primary food source. A famine with significant humanitarian consequences could follow, according to Rick Ward of Cornell University.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家認為，僅在亞洲和非洲，目前處於危險中的部分就可能令十億人失去主要食物來源。康奈爾大學的 Rick Ward 表示，一場具有重大人道後果的饑荒可能隨之而來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "could lead to = could follow。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "threat to food supplies = leave one billion people without their primary food source。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a”，所以需要可數單數名詞。原文是 “A famine”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 famine。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "population",
+      "answerKey": "population",
+      "type": "Note Completion",
+      "prompt": "“Twice as much food may be required because of growth in the 26 ______.”",
+      "translation": "由於 ______ 增長，可能需要兩倍食物。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。首句提到世界人口到 2045 年會達到九十億；末句提出保存本地"
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統食物可能是未來食物安全希望。這段是未來壓力和解決方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “twice as much food”、 “growth”、 “required”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The population of the world is expected to reach nine billion by 2045. Some experts say we’ll need to double our food production to keep up with this growth.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界人口預計到 2045 年會達到九十億。有些專家說，我們需要把食物產量提高一倍，才能跟上這種增長。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Twice as much food = double our food production。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "because of growth = to keep up with this growth。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "this growth 指前一句的 “The population of the world ... reach nine billion”。代名詞 this 必須回看前句，指 population growth。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 population。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Ensuring our future food supply.pdf",
+    "sha256": "24271ae5faf373d4b9cd88a01dcb4ea0861ce9e06084cb10952d7e1996f153b4",
+    "pageCount": 12
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Opening 首句已交代全文問題：climate change 和 new diseases 威脅人類依賴的有限種子note 品種；幸好過去使用過的許多種子仍然存在，但需要保存。只看這句已可預測，文章會由「種子保存」連到「未來食物安全」，重點不只在農業歷史，也在全球風險。 Paragraph 首句把讀者帶到 Iowa 的 Heritage Farm，顯示文章會從一個具體地方開始。末句1 說這裡是 Seed Savers Exchange 的所在地，而且它是美國最大型非政府種子銀行之一。首尾句合起來可見，本段功能是介紹 Heritage Farm 的位置、特殊性和組織身份。Questions 14–15 很可能在此。 Paragraph 首句引入 Diane Ott Whealy 在 1975 年獲得兩種家族傳下來的植物幼苗，故事開2 始轉向 Seed Savers Exchange 的起源。末句描寫農場內種植的蔬菜、香草和花。首尾句顯示，本段會講保存 heirloom plants 的動機、創辦背景、種子儲存方式和農場現場。Questions 16–18 很可能在此。 Paragraph 首句直接提到 members 每年在 Yearbook 中列出 seeds，因此本段明顯圍繞3 Seed Savers Exchange Yearbook。末句舉出一種由考古學家捐出的豆。首尾句可",
+        "label": "段落 Rough roadmap"
+      },
+      {
+        "number": "2",
+        "summary": "personal history。Questions 19–20 很可能在此。 Paragraph 首句說 heirloom vegetables 近十年在美國和歐洲變得流行，表面上像飲食潮流。 4 末句指出人們很少談到食物多樣性的平行下降。首尾句形成轉折：本段從本地食物和風味，轉到超市標準化、外觀一致、全球食物多樣性流失。Questions 21–22很可能在此。 Paragraph 首句直接宣布 food varieties 正在全球迅速滅絕。末句用專家估計總結：過去一世5 紀世界食物品種已失去超過一半。首尾句顯示，本段功能是用多國數據證明問題嚴重，包括美國蘋果、菲律賓稻米、中國小麥。Questions 23–24 很可能在此。 Paragraph 首句用問句 “Why is this a problem?” 明確轉入原因分析。末句預測 Ug99 真菌會6 傳到印度、巴基斯坦、俄羅斯、中國和美國。首尾句顯示，本段功能是解釋食物品種單一化的風險：一旦疾病或氣候變化攻擊主要作物，已消失的品種可能正是人類需要的防線。 Paragraph 首句說全球約九成小麥無法防禦 Ug99 這種真菌。末句引用 Rick Ward，說嚴重人7 道後果的 famine 可能隨之而來。首尾句顯示，本段集中處理 wheat vulnerability：不只是作物價值受損，也牽涉亞洲和非洲十億人的主食安全。Question 25 很可能在此。 Paragraph 首句預測世界人口到 2045 年會達到九十億。末句提出結論：保障未來食物的最佳8 希望，可能取決於保存過去在本地培育的食物。首尾句顯示，本段是全文總結：人口增長、氣候變化和疾病使糧食產量承壓，保存傳統品種成為未來供應策略。 Question 26 很可能在此。",
+        "label": "見，本段功能是說明年鑑如何列出大量種子，並用來源故事展示每種種子的"
+      }
+    ]
+  }
+}

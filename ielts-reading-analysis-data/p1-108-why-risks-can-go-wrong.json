@@ -1,0 +1,1387 @@
+{
+  "id": "p1-108-why-risks-can-go-wrong",
+  "catalogueId": "p1-108",
+  "catalogueIds": [
+    "p1-108"
+  ],
+  "passage": 1,
+  "title": "Why Risks Can Go Wrong",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "vi",
+    "ix",
+    "iii",
+    "viii",
+    "i",
+    "iv",
+    "D",
+    "B",
+    "D",
+    "A",
+    "managers or sportsmen",
+    "driving",
+    "Pharmaceutical companies"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "vi — A successful approach to the study of decision-making",
+      "answerKey": "vi — A successful approach to the study of decision-making",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph B 的 heading。這題要找整段主旨，而不是某一個細節。Paragraph B 的核心是 Kahneman 如何把心理學應用到經濟、商業和決策研究，並成功建立影響力。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph B。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1960s, a young American research psychologist, Daniel Kahneman, became interested in people’s inability to make logical decisions.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 1960 年代，年輕的美國研究心理學家 Daniel Kahneman 對人們不能作出合乎邏輯"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的決定產生興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“He claims that, far from being random, these mistakes are systematic and predictable.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他聲稱，這些錯誤絕非隨機；它們有系統，也可以預測。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段介紹 Kahneman 的研究路線：從人類非理性決策開始，發展到能預測決策錯誤的研究方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading vi 的定位概念是 successful approach 和 study of decision-making。Paragraph B"
+            },
+            {
+              "kind": "label",
+              "text": "中間有幾個強證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Kahneman and his colleagues first started work, the idea of applying psychological insights to economics and business decisions was seen as rather bizarre.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當 Kahneman 和同事剛開始研究時，把心理學洞見應用到經濟和商業決策的想法被視"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為相當怪異。"
+            },
+            {
+              "kind": "quote",
+              "text": "“But in the past decade the fields of behavioural finance and behavioural economics have blossomed, and in 2002 Kahneman shared a Nobel prize in economics for his work.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但在過去十年，行為金融和行為經濟學已蓬勃發展；2002 年，Kahneman 因其研究共"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同獲得諾貝爾經濟學獎。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading vi 中的 “successful approach” 對應 behavioural finance / behavioural economics"
+            },
+            {
+              "kind": "paragraph",
+              "text": "have blossomed 和 Nobel prize。 “study of decision-making” 對應 people’s inability to make logical decisions、economics and business decisions，以及 systematic and predictable mistakes。整段焦點是研究方法的成功發展，所以選 vi。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "xi “Underestimating the difficulties ahead” 比較像 Paragraph C 的 over-optimism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 沒有集中講人低估困難，而是講 Kahneman 的研究如何由怪異變成主流。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "ix — The power of the first number",
+      "answerKey": "ix — The power of the first number",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph D 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another source of wrong decisions is related to the decisive effect of the initial meeting, particularly in negotiations over money.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：另一個錯誤決策來源，和初次會面產生的決定性影響有關，尤其是在金錢談判中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“If nobody has much information to go on, a figure can provide comfort—even though it may lead to a terrible mistake.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：如果沒有人有太多資料可依靠，一個數字可以提供安全感，即使它可能導致嚴重錯誤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段圍繞 initial figure / first number 的心理力量。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading ix 的核心是 first number。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is referred to as the ‘anchor effect’. Once a figure has been mentioned, it takes a strange hold over the human mind.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這被稱為 “anchor effect”。一旦某個數字被提及，它就會奇怪地抓住人的心智。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "first number 對應 once a figure has been mentioned。power 對應 it takes a strange hold"
+            },
+            {
+              "kind": "paragraph",
+              "text": "over the human mind。房屋叫價、薪金談判、合併收購都是例子，用來說明第一個數字成為anchor，之後的談判會圍繞它展開。因此 heading ix 最能覆蓋全段。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "x “The need for more effective risk assessment” 太廣，只像全文總方向。Paragraph D 講"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的是一個具體偏誤：第一個數字的錨定效果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "iii — The difficulty of changing your mind",
+      "answerKey": "iii — The difficulty of changing your mind",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, mistakes may arise due to stubbornness.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：此外，錯誤可能來自固執。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A fresh eye always helps.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：新的眼光總是有幫助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經提示本段講固執、既有看法和需要外部新視角。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iii 的核心是 changing your mind。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“No one likes to abandon a cherished belief, and the earlier a decision is made, the harder it is to abandon it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：沒有人喜歡放棄自己珍視的信念；一個決定愈早作出，就愈難放棄。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iii “The difficulty of changing your mind” 正好概括 “harder it is to abandon it”。後"
+            },
+            {
+              "kind": "paragraph",
+              "text": "面的 drug companies 和 analysts 是例子：藥廠不願承認研究項目失敗，分析師太早愛上一個解釋，使感知被染色。全段主旨是人很難放棄早期判斷或心愛信念，所以答案是 iii。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "i “Not identifying the correct priorities” 也涉及錯誤決策，但它問的是時間和精力分配，屬"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G。Paragraph E 控制詞是 stubbornness、abandon、cherished belief。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "viii — Reluctance to go beyond the familiar",
+      "answerKey": "viii — Reluctance to go beyond the familiar",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“People also tend to put a lot of emphasis on things they have seen and experienced themselves, which may not be the best guide to decision-making.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：人們也往往非常重視自己親眼見過和親身經歷過的事情，而這未必是決策的最佳指"
+            },
+            {
+              "kind": "paragraph",
+              "text": "引。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“They would be much better off spreading their risks more widely.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：如果他們把風險更廣泛地分散，情況會好得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段講 familiar experience 和 broader risk spreading 之間的問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading viii 的核心是 familiar。原文中最強對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In finance, too much emphasis on information close at hand helps to explain the tendency of most investors to invest only within the country they live in.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在金融方面，過度重視手邊近處的資訊，有助解釋為何大多數投資者只投資自己居住"
+            },
+            {
+              "kind": "paragraph",
+              "text": "國家的股票。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Reluctance to go beyond the familiar 對應 invest only within the country they live in，以及"
+            },
+            {
+              "kind": "paragraph",
+              "text": "too much emphasis on information close at hand。後文說美國和歐洲投資者即使知道diversification 有益，仍然在本國股票上投資過重。這表示他們傾向留在熟悉環境，不願擴大投資範圍。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "vii “The danger of trusting a global market” 方向不準。Paragraph F 的問題不是過度相信"
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球市場；相反，投資者太集中於本國和熟悉資訊，沒有全球分散風險。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "i — Not identifying the correct priorities",
+      "answerKey": "i — Not identifying the correct priorities",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“More information is helpful in making any decision, but, says Kahneman, people spend proportionally too much time on small decisions and not enough on big ones.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：更多資訊對任何決策都有幫助；但 Kahneman 說，人們按比例來看，在小決定上花太多"
+            },
+            {
+              "kind": "paragraph",
+              "text": "時間，在大決定上花太少時間。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the boom years, some companies put as much effort into planning their office party as into considering strategic mergers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在繁榮年份，有些公司花在計劃辦公室派對上的努力，和考慮策略性合併幾乎一樣多。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading i 的核心是 correct priorities。原文 “too much time on small decisions and not"
+            },
+            {
+              "kind": "paragraph",
+              "text": "enough on big ones” 已經直接說出優先次序錯誤。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading i “Not identifying the correct priorities” 對應人們未能把足夠精力投放於重大決"
+            },
+            {
+              "kind": "paragraph",
+              "text": "策。office party 與 strategic mergers 的對比尤其清楚：一個是小型內部活動，一個是重大商業策略，但公司投入的 effort 卻相近。這正是 priority 錯配。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "x “The need for more effective risk assessment” 仍然太廣。Paragraph G 不只說風險評"
+            },
+            {
+              "kind": "paragraph",
+              "text": "估要更好，它具體指出時間與精力分配失衡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "iv — Why looking back is unhelpful",
+      "answerKey": "iv — Why looking back is unhelpful",
+      "type": "Matching Headings",
+      "prompt": "Question 6",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph H 第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, crying over spilt milk is not just a waste of time; it also often colours people’s perceptions of the future.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：最後，為打翻的牛奶哭泣不只浪費時間；它也常常影響人們對未來的看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some stock market investors trade far too frequently because they are chasing the returns on shares they wish they had bought earlier.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一些股票市場投資者交易過於頻繁，因為他們追逐那些自己希望早前買入的股票回"
+            },
+            {
+              "kind": "paragraph",
+              "text": "報。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading iv 的核心是 looking back 和 unhelpful。原文的 crying over spilt milk 是英文習語，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是為已發生、不能改變的事後悔。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 說回望過去的錯失會扭曲對未來的判斷。投資者因為後悔沒有早點買某些股"
+            },
+            {
+              "kind": "paragraph",
+              "text": "票，便頻繁交易追逐回報。這種行為不是冷靜評估未來風險，而是由 regret 帶動。heading iv 完整概括本段。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "i priorities 也可能吸引人，因為 “waste of time” 出現了。但本段重點轉向 regret and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "future perception，不是大事小事的優先次序。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "D — applied psychology to finance and economics",
+      "answerKey": "D — applied psychology to finance and economics",
+      "type": "Multiple Choice",
+      "prompt": "People initially found Kahneman’s work unusual because he...",
+      "translation": "人們起初覺得 Kahneman 的研究不尋常，是因為他……目標段落：Paragraph B",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 第一、最後一句顯示本段介紹 Kahneman 對 irrational decision-making 的研"
+            },
+            {
+              "kind": "paragraph",
+              "text": "究，以及他認為錯誤有系統、可預測。這段會說明他的研究如何從怪異變成主流。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 initially、unusual、Kahneman’s work。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Kahneman and his colleagues first started work, the idea of applying psychological insights to economics and business decisions was seen as rather bizarre.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當 Kahneman 和同事剛開始研究時，把心理學洞見應用到經濟和商業決策的想法被視"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為相當怪異。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 initially 對應 when ... first started work。unusual 對應 rather bizarre。Kahneman"
+            },
+            {
+              "kind": "paragraph",
+              "text": "做的事是 applying psychological insights to economics and business decisions。選項 D 的finance and economics 雖然用 finance 替代 business decisions，但整段後面也出現 behavioural finance and behavioural economics，所以 D 最貼近原文。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A saw mistakes as following predictable patterns.這是 Kahneman 後來的 claim，原文放在段末，沒有說這是人們起初覺得怪異的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B was unaware of behavioural approaches.原文沒有說他不知道 behavioural approaches；相反，他正是推動此方向的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C dealt with irrational types of practice.原文確實說 he showed how irrationally people behave in practice，但起初被視為 bizarre 的具體原因，是心理學被應用到 economics and business decisions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D applied psychology to finance and economics.正確。它概括 “applying psychological insights to economics and business decisions” 以及behavioural finance / behavioural economics 的發展。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "B — people tend to exaggerate their chances of success",
+      "answerKey": "B — people tend to exaggerate their chances of success",
+      "type": "Multiple Choice",
+      "prompt": "The writer mentions homeowners’ attitudes towards the value of their homes to illustrate that...",
+      "translation": "作者提到 homeowners 對自己房屋價值的看法，是為了說明……目標段落：Paragraph C",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 第一、最後一句顯示本段主題是 over-optimism 和 overconfidence。它會說人"
+            },
+            {
+              "kind": "paragraph",
+              "text": "們看未來時太樂觀，低估困難，也高估自身能力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 homeowners、value of their homes。原文沒有用 homeowners，但說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same goes for their hopes of ever-rising prices for their homes or doing well in games of chance.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他們希望自己的房屋價格永遠上升，或希望在機會遊戲中表現良好，情況也是一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "前文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surveys have shown that people’s forecasts of future stock market movements are far more optimistic than past long-term returns would justify.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：調查顯示，人們對未來股市走勢的預測，比過去長期回報能支持的程度樂觀得多。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "homeowners 的例子放在 over-optimism 段落中，用來說明人們對未來結果過度樂觀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "hopes of ever-rising prices 表示期待房屋價格一直上升，這是誇大成功機會或正面結果的例子。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A past failures may destroy an optimistic attitude.原文沒有說過去失敗會摧毀樂觀。它說即使 past experience suggests otherwise，人仍然 see too much blue sky ahead。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B people tend to exaggerate their chances of success.正確。房價永遠上升、機會遊戲成功和股市過度樂觀都屬於 over-optimism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C optimism may be justified in certain circumstances.原文有說 optimism can be useful for managers or sportsmen，但 homeowners 例子用於展示過度樂觀，不是合理樂觀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D people are influenced by the success of others.這較接近 Paragraph F 的 relative has made thousands on a share，不是 homeowners 例子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "D — are unwilling to give up unsuccessful activities or beliefs",
+      "answerKey": "D — are unwilling to give up unsuccessful activities or beliefs",
+      "type": "Multiple Choice",
+      "prompt": "Stubbornness and inflexibility can cause problems when people...",
+      "translation": "當人們……時，固執和不靈活會導致問題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 第一、最後一句顯示本段講 stubbornness 和 fresh eye。這表示人容易卡在早"
+            },
+            {
+              "kind": "paragraph",
+              "text": "期判斷裡，需要新視角幫助。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 stubbornness、inflexibility。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“No one likes to abandon a cherished belief, and the earlier a decision is made, the harder it is to abandon it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：沒有人喜歡放棄自己珍視的信念；決定愈早作出，就愈難放棄。"
+            },
+            {
+              "kind": "label",
+              "text": "再看例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Drug companies must decide early to cancel a failing research project to avoid wasting money, but may find it difficult to admit they have made a mistake.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：藥廠必須及早決定取消失敗的研究項目，以免浪費金錢，但它們可能很難承認自己犯"
+            },
+            {
+              "kind": "paragraph",
+              "text": "了錯。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 stubbornness and inflexibility 對應 no one likes to abandon、harder to abandon、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "wedded early to a single explanation。選項 D 的 unsuccessful activities or beliefs 對應 failing research project 和 cherished belief / single explanation。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A think their financial difficulties are just due to bad luck.這像 Paragraph C 中 forgetting about luck 的概念，但不是 stubbornness 段落的主旨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B avoid seeking advice from experts and analysts.原文提到 analysts，但不是說人避免向 analysts 求助，而是 analysts themselves may become wedded early to a single explanation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C refuse to invest in the early stages of a project.原文談 cancel a failing research project，不是拒絕早期投資。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D are unwilling to give up unsuccessful activities or beliefs.正確。它概括 abandon a cherished belief、cancel a failing project、fresh eye helps。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "A — They feel safer dealing in a context which is close to home.",
+      "answerKey": "A — They feel safer dealing in a context which is close to home.",
+      "type": "Multiple Choice",
+      "prompt": "Why do many Americans and Europeans fail to spread their financial risks when investing?",
+      "translation": "為何很多美國人和歐洲人投資時未能分散財務風險？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 首尾句顯示本段講 familiar experience 和 broader risk spreading。這和題目"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的 spread financial risks 直接相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Americans and Europeans、spread financial risks、investing。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In finance, too much emphasis on information close at hand helps to explain the tendency of most investors to invest only within the country they live in.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在金融方面，過度重視手邊近處的資訊，有助解釋為何大多數投資者只投資自己居住"
+            },
+            {
+              "kind": "paragraph",
+              "text": "國家的股票。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even though they know that diversification is good for their portfolio, a large majority of both Americans and Europeans invest far too heavily in the shares of their home countries.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：即使他們知道分散投資對投資組合有益，大多數美國人和歐洲人仍然在本國股票上投"
+            },
+            {
+              "kind": "paragraph",
+              "text": "資過重。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 fail to spread their financial risks，原文說 they know diversification is good，但仍"
+            },
+            {
+              "kind": "paragraph",
+              "text": "invest far too heavily in home countries。原因是 too much emphasis on information close at hand，即他們更相信熟悉、近身、本國的資訊。選項 A 的 close to home 正好概括這點。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A They feel safer dealing in a context which is close to home.正確。close to home 對應 information close at hand 和 shares of their home countries。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B They do not understand the benefits of diversification.錯在方向相反。原文說 Even though they know diversification is good。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C They are over-influenced by the successes of their relatives.原文有 relative made thousands 的例子，但那只是說明 personal experience 偏誤，未專門解釋Americans and Europeans 投資集中於本國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D They do not have sufficient knowledge of one another’s countries.原文沒有說他們缺乏其他國家的知識；它說他們過度依賴近身資訊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "managers or sportsmen",
+      "answerKey": "managers or sportsmen",
+      "type": "Short-answer Questions",
+      "prompt": "Which two occupations may benefit from being over-optimistic?",
+      "translation": "哪兩種職業可能會受益於過度樂觀？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS。題目問 two occupations，所以要找兩個職業名詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph C 首句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“One common cause of problems in decision-making is over-optimism.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：決策問題的一個常見原因是過度樂觀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句談競爭性活動中人們忘記要和對手比較技能。只看首尾句，可以估計本段會講over-optimism / overconfidence 的例子和類型。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 over-optimistic、benefit、occupations。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such optimism can be useful for managers or sportsmen, and sometimes turns into a self-fulfilling prophecy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這種樂觀對經理或運動員可能有用，有時還會變成自我實現的預言。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 may benefit from being over-optimistic，原文用 can be useful。occupations 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "managers 和 sportsmen。答案最好保留原文形式 “managers or sportsmen”，剛好三個 words，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "may benefit from= can be useful for being over-optimistic= such optimism答案形式：managers or sportsmen"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “managers and sportsmen” 也可以理解，但原文用 or。考試答案通常接受兩者；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "保守做法是抄原文短語 “managers or sportsmen”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "driving",
+      "answerKey": "driving",
+      "type": "Short-answer Questions",
+      "prompt": "Which practical skill are many people over-confident about?",
+      "translation": "很多人對哪一項實用技能過度自信？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS。題目問 skill，答案多數是一個名詞或動名詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一段首句講 over-optimism，後半轉入 Kahneman 的三種 overconfidence。題目有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "over-confident，所以應在 Paragraph C 後半找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 practical skill、over-confident。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, people tend to exaggerate their own skill and prowess; in polls, far fewer than half the respondents admit to having below-average skills in, say, driving.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：第一，人們傾向誇大自己的技能和能力；在民意調查中，遠少於一半的受訪者承認自己"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在例如駕駛方面低於平均水平。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問哪項 practical skill。原文例子是 driving。句中 far fewer than half admit"
+            },
+            {
+              "kind": "paragraph",
+              "text": "below-average skills 表示大多數人不願承認自己低於平均，即高估自己的駕駛能力。答案是一個字，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "over-confident about= exaggerate their own skill and prowess practical skill= driving答案形式：driving"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “skill and prowess”。那是概括詞，不是題目問的具體 practical skill。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "Pharmaceutical companies",
+      "answerKey": "Pharmaceutical companies",
+      "type": "Short-answer Questions",
+      "prompt": "Which type of business has a generally good attitude to dealing with uncertainty?",
+      "translation": "哪一類企業在處理不確定性方面通常態度較好？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "字數限制：NO MORE THAN THREE WORDS。題目問 type of business，要找行業或公司類別。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph I 首句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kahneman reckons that some types of businesses are much better than others at dealing with risk.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Kahneman 認為，有些類型的企業比其他企業更善於處理風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句說 governments 因面對政治壓力，更容易作出 irrational decisions。只看首尾句，可以估計本段比較不同組織處理 risk 的能力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 type of business、good attitude、uncertainty。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pharmaceutical companies, which are accustomed to many failures and a few big successes in their drug-discovery programmes, are fairly rational about their risk-taking.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：製藥公司習慣於藥物發現計劃中有許多失敗和少數重大成功，因此在承擔風險方面相"
+            },
+            {
+              "kind": "paragraph",
+              "text": "當理性。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 dealing with uncertainty 對應 dealing with risk / risk-taking。generally good"
+            },
+            {
+              "kind": "paragraph",
+              "text": "attitude 對應 fairly rational。type of business 對應 Pharmaceutical companies。答案兩個 words，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "good attitude to dealing with uncertainty= fairly rational about their risk-taking type of business= Pharmaceutical companies答案形式：Pharmaceutical companies"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "banks 也在同段出現，但 Kahneman 說 banks have a long way to go，代表仍需改善；它"
+            },
+            {
+              "kind": "paragraph",
+              "text": "們不是 good attitude 的例子。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Why Risks Can Go Wrong.pdf",
+    "sha256": "2cee40ae0d6f0f6694553ebac3f4617a8e22a04d282061110319d4028e982fd7",
+    "pageCount": 15
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可合理看到的全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句直接說人們對未來作出 terrible decisions，先把全文定位在「風險判斷錯誤」。末句用問句“Surely there must be a better way than using intuition?” 收結，暗示文章會批評 intuition，並尋找較科學的決策方法。只看首尾句，可以估計 Paragraph A 是總引入段：人類處理 uncertainty 時經常低估或高估風險，全文接下來會說明直覺為何不可靠，以及哪些心理偏誤導致錯判。"
+      },
+      {
+        "number": "B",
+        "summary": "首句介紹 Daniel Kahneman 在 1960s 開始研究人們不能作出 logical decisions 的問題。末句說他認為這些 mistakes 並非 random，而是 systematic and predictable。只看首尾句，可以估計Paragraph B 會介紹 Kahneman 的研究背景和貢獻：他把心理學洞見帶入 economics、business decisions、behavioural finance，後來獲 Nobel prize。這段不是一個具體偏誤，而是講研究方法如何成功建立一門解釋決策錯誤的學問。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說決策問題的一個常見來源是 over-optimism。末句說在競爭性活動如 dealing on shares 中，人們忘記自己要和競爭者比較技能。只看首尾句，可以估計 Paragraph C 講過度樂觀和過度自信：人們預期股市、樓價或機會遊戲時太樂觀，也會高估自己的能力、控制力和競爭優勢。題目若問 homeowners、over-confidence、driving、managers 或 sportsmen，多數在此段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說另一個錯誤決策來源和 initial meeting 的 decisive effect 有關，尤其在 money negotiations 中。末句說如果沒有人有足夠資料，一個數字會令人安心，雖然它可能導致 terrible mistake。只看首尾句，可以估計 Paragraph D 講 anchor effect：第一次提出的數字會抓住人心，影響房屋價格、薪金談判、公司合併與收購。題目若問 first number 或 initial figure，答案應在 D。"
+      },
+      {
+        "number": "E",
+        "summary": "首句用 In addition 開始，指出錯誤也可能來自 stubbornness。末句說 “A fresh eye always helps.”只看首尾句，可以估計 Paragraph E 講人很難改變既有想法或放棄早期決定。中間應該會有failing research project、drug companies、analysts 之類例子，說明人會持續投入失敗項目，或太早愛上一個解釋。題目若問 changing your mind、inflexibility、give up unsuccessful activities，應看 E。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說人們往往過度重視自己親眼看過和親身經歷過的事情。末句說他們若把風險更廣泛分散，情況會好得多。只看首尾句，可以估計 Paragraph F 講 familiar information 的偏誤：人會信任身邊例子，例如親戚買股票賺錢，也會把投資集中在本國股票。段落方向應是批評投資者不願離開熟悉市場，因此沒有做好 diversification。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說更多資訊有助決策，但 Kahneman 認為人們花太多時間在 small decisions，太少時間在big ones。末句用 office party 和 strategic mergers 對比，說有些公司把計劃辦公室派對和考慮策略性合併放在近乎同等努力。只看首尾句，可以估計 Paragraph G 講 priority 錯配：資源、時間和注意力沒有放在真正重要的大決策上。題目若問 priorities，應看 G。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 crying over spilt milk 不只浪費時間，也常常影響人們對未來的看法。末句說一些股票投資者交易過於頻繁，因為他們追逐自己早前希望買入的股票回報。只看首尾句，可以估計Paragraph H 講後悔和回望如何扭曲未來決策。段落重點是 past regrets 令投資者追趕錯過的機會，形成不理性的交易行為。題目若問 looking back unhelpful，應看 H。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 Kahneman 認為某些 business 比其他 business 更善於處理 risk。末句說 governments也受到研究啟發，因為它們面對互相衝突的 political pressures，更容易作出 irrational decisions。只看首尾句，可以估計 Paragraph I 是應用與總結段：不同組織處理風險的能力不同； pharmaceutical companies 因熟悉大量失敗和少數成功，較理性；banks 和 governments 仍有改進空間。"
+      }
+    ]
+  }
+}

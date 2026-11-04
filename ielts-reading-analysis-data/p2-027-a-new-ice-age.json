@@ -1,0 +1,1825 @@
+{
+  "id": "p2-027-a-new-ice-age",
+  "catalogueId": "p2-027",
+  "catalogueIds": [
+    "p2-027"
+  ],
+  "passage": 2,
+  "title": "A New Ice Age",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "A",
+    "A",
+    "D",
+    "A",
+    "B",
+    "D",
+    "A",
+    "B",
+    "C",
+    "heat",
+    "denser",
+    "Great Ocean Conveyor",
+    "fresh water"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "A — possible future climate change.",
+      "answerKey": "A — possible future climate change.",
+      "type": "Multiple Choice",
+      "prompt": "“The writer uses paintings in the opening paragraphs to illustrate…”",
+      "translation": "作者在開首幾段使用畫作，是為了說明甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 “paintings in the opening paragraphs”，所以不能只看第一幅 Washington Crossing the Delaware，也要連同第二段 Brueghel 的冰雪畫面一起讀。真正要判斷的是：作者引用畫作，是純粹講歷史，還是用歷史畫面引出將來可能重現的氣候狀態。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1–2 Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“William Curry is a serious, sober climate scientist, not an art critic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "William Curry 是一位嚴肅、冷靜的氣候科學家，並非藝術評論家。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I can tell you, this kind of thing just doesn’t happen anymore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我可以告訴你，這種事情如今已經不再發生。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But it may again soon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這種情況可能很快再次發生。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the next cooling trend could drop average temperatures 5 degrees Fahrenheit over much of the United States and 10 degrees in the Northeast, northern Europe, and northern Asia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一輪降溫趨勢可能令美國大部分地區平均氣溫下降 5°F，並令美國東北、北歐和北亞下降10°F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以見到文章先用畫作展示過去曾有冰封河流和冰雪歐洲，再用 “But it may again soon” 轉入未來冷卻風險。因此開首畫作的功能不只在描述舊時寒冷，更是在幫讀者想像可能再次出現的 climate change。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的是 “paintings” 和 “opening paragraphs”。原文對應兩組畫作："
+            },
+            {
+              "kind": "quote",
+              "text": "“George Washington Crossing the Delaware”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pieter Brueghel the Elder… ‘Hunters in the Snow’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時要特別停在第二段開頭 “But it may again soon”，因為它把過去畫面轉接到未來可能性。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“But it may again soon. And ice-choked scenes, similar to those immortalised by the 16th-century Flemish painter Pieter Brueghel the Elder, may also return to Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這種情況可能很快再次發生。而那些被 16 世紀 Flemish 畫家 Pieter Brueghel the Elder 永久保存下來的冰封場景，也可能再次回到 Europe。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句是答案核心。句中的 “may again soon” 和 “may also return” 都是未來可能性。作者不是只欣賞畫作，也不是只講 Washington 的軍事行動；畫作讓讀者看見過去的冰封氣候，然後文章說這種場景可能回歸。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。possible future climate change 對應 “may again soon” 和 “may also return”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 有迷惑性，因為第一幅畫確實顯示過去比現在冷；但題目說 opening paragraphs，第二段已把重點推到 future cooling。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 只符合第一段局部，即 Delaware River 現在不再常有這種冰封場面，概括範圍太窄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 只是畫作內容背景，並非作者引用它的主要目的。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "possible future climate change= it may again soon= ice-choked scenes may also return= conditions are ripe for another prolonged cooldown所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "A — The temperature may drop over much of the Northern Hemisphere.",
+      "answerKey": "A — The temperature may drop over much of the Northern Hemisphere.",
+      "type": "Multiple Choice",
+      "prompt": "“Which of the following do scientists believe to be possible?”",
+      "translation": "科學家認為以下哪一項是有可能發生的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But it may again soon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這種情況可能很快再次發生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the next cooling trend could drop average temperatures 5 degrees Fahrenheit over much of the United States and 10 degrees in the Northeast, northern Europe, and northern Asia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一輪降溫趨勢可能令美國大部分地區平均氣溫下降 5°F，並令美國東北、北歐和北亞下降10°F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 已經顯示它會處理未來冷卻的可能性和範圍。題目問 scientists believe possible，段中 “A growing number of scientists believe…” 是最直接定位句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “scientists believe” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“A growing number of scientists believe conditions are ripe for another prolonged cooldown, or small ice age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "愈來愈多科學家相信，條件已經成熟，可能出現另一段長期冷卻，或小冰期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著要找冷卻範圍和程度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“While no one is predicting a brutal ice sheet like the one that covered the Northern Hemisphere with glaciers about 12,000 years ago, the next cooling trend could drop average temperatures 5 degrees Fahrenheit over much of the United States and 10 degrees in the Northeast, northern Europe, and northern Asia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然沒有人預測會出現像約 12,000 年前覆蓋 Northern Hemisphere 的巨大冰蓋，但下一輪冷卻趨勢可能令美國大部分地區平均氣溫下降 5°F，並令美國東北、北歐和北亞下降 10°F。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。原文列出 much of the United States、Northeast、northern Europe、northern Asia。這些都在 Northern Hemisphere 之內，選項把它概括為 much of the Northern Hemisphere，是合理概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯。原文說沒有人預測會出現 12,000 年前那種 brutal ice sheet，更沒有說會比當時更冷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。原文明確排除整個 Northern Hemisphere 被 glaciers 覆蓋的情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 有畫面感，但原文說 Brueghel 的畫面可能回到 Europe，科學預測的精確內容是 temperature drop，而非 Europe 一定會全面像 Lapland。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "temperature may drop= cooling trend could drop average temperatures over much of the Northern Hemisphere= much of the United States + Northeast + northern Europe + northern Asia所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "D — Migration has become impossible because borders are closed.",
+      "answerKey": "D — Migration has become impossible because borders are closed.",
+      "type": "Multiple Choice",
+      "prompt": "“Why might the world’s poor find it difficult to survive another ice age?”",
+      "translation": "為甚麼世界上的貧困人口可能難以在另一個冰期中生存？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Political changes since the last ice age could make survival far more difficult for the world’s poor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自上一次冰期以來的政治變化，可能令世界貧困人口的生存變得困難得多。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘...the inability to migrate may remove one of the major safety nets for distressed people,’ says the report.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "報告說，不能遷徙可能會拿走困苦人口其中一個主要安全網。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經直接指出答案方向：困難不只來自寒冷本身，更來自現代政治邊界令 migration 變得困難。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “world’s poor” 對應原文 “the world’s poor” 和 “distressed people”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“difficult to survive” 對應 “make survival far more difficult”。真正控制答案的是 “migrate / closed borders”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“During previous cooling periods, whole tribes simply picked up and moved south, but that option doesn’t work in the modern, tense world of closed borders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在以往的冷卻時期，整個部族可以直接收拾東西向南遷移，但在現代這個緊張且國界封閉的世界，這個選項已行不通。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把過去和現在作比較。以前能 move south；如今 closed borders 令這個 safety net 消失。後面的 quote 進一步說 “inability to migrate” 會移除 distressed people 的主要保護。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 只提到 people don’t live in tribes anymore，但原文重點在 tribes could move south；難處在現代 border system。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Politics are changing too fast” 原文沒有。原文說 political changes since last ice age，但具體問題是 closed borders。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 因果方向不準。原文說 abrupt climate change may change fortunes for those who live off the land，並非氣候變化令他們開始靠土地生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確。migration 不再可行，因為 modern world has closed borders。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "migration has become impossible= that option doesn’t work= inability to migrate because borders are closed= modern, tense world of closed borders所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A — Prevailing winds carry much of the heat released by tropical currents towards",
+      "answerKey": "A — Prevailing winds carry much of the heat released by tropical currents towards",
+      "type": "Multiple Choice",
+      "prompt": "“Why is continental Europe much warmer in winter than North America at the same latitude?”",
+      "translation": "為甚麼同一緯度下，歐洲大陸冬天比北美暖得多？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Europe."
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trend could cause a little ice age by subverting the northern penetration of Gulf Stream waters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個趨勢可能透過破壞 Gulf Stream waters 向北流入，造成一個小冰期。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It’s a real mistake to think of this solely as a European phenomenon,’ says Joyce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Joyce 說，把這件事只視為歐洲現象，是一個真正的錯誤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 9 會解釋 Gulf Stream 如何影響 Europe 和 North America 的溫度。題目問 Europe warmer at same latitude，應找 Gulf Stream、heat、winds、Europe。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Europe warmer”、“North America”、“same latitude”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“winter temperatures on the Continent are as much as 36 degrees Fahrenheit warmer than those in North America at the same latitude.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句前面必定有原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Normally, the Gulf Stream, laden with heat soaked up in the tropics, meanders up the east coasts of the United States and Canada. As it flows northward, the stream surrenders heat to the air. Because the prevailing North Atlantic winds blow eastward, a lot of the heat wafts to Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正常情況下，Gulf Stream 帶著在熱帶吸收的熱量，沿美國和加拿大東岸向北蜿蜒流動。當它向北流時，海流把熱量釋放到空氣中。由於 North Atlantic prevailing winds 向東吹，大量熱量便飄向 Europe。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句建立完整原因鏈： Gulf Stream 從 tropics 帶熱量 → 向北流時放熱 → prevailing winds 向東吹 → heat reaches Europe → Europe warmer。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確，完整包含 heat released by tropical currents 和 winds carry it to Europe。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯，題目已說 same latitude，原文也用 Boston and Rome 說明同緯度比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯，原文說 Gulf Stream normally surrenders heat to the air，沒有說已停止。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 只是部分事實。Gulf Stream 確實向北沿北美東岸流，但若沒有 heat release 和 eastward winds，就不能解釋 Europe 為何更暖。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "prevailing winds carry heat towards Europe= prevailing North Atlantic winds blow eastward, a lot of the heat wafts to Europe tropical currents= Gulf Stream, laden with heat soaked up in the tropics所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "B — Terrence Joyce",
+      "answerKey": "B — Terrence Joyce",
+      "type": "Matching Features",
+      "prompt": "“Most Americans are not prepared for the next ice age.”",
+      "translation": "大多數美國人尚未準備好面對下一次冰期。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It could happen in 10 years,’ says Terrence Joyce, who chairs the Woods Hole Physical Oceanography Department.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Woods Hole Physical Oceanography Department 主席 Terrence Joyce 說：「它可能在 10 年內發生。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And he is alarmed that Americans have yet to take the threat seriously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而他擔心 Americans 尚未認真看待這個威脅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 3 明確是 Joyce 的警告段。題目中的 Americans not prepared 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“have yet to take the threat seriously”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Americans” 和 “prepared”。原文沒有 prepared，但 “have yet to take the threat seriously” 表示尚未以嚴肅態度面對威脅，與未準備好意思接近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“And he is alarmed that Americans have yet to take the threat seriously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他感到擔心，因為美國人尚未認真看待這個威脅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “he” 指前一句 Terrence Joyce。核心是 “have yet to”，即「到目前為止仍未」。如果人們仍未認真看待威脅，就自然未進入充分準備狀態。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not prepared= have yet to take the threat seriously next ice age= the threat / prolonged cooldown / small ice age所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "D — National Academy of Sciences",
+      "answerKey": "D — National Academy of Sciences",
+      "type": "Matching Features",
+      "prompt": "“The result of abrupt climate change is catastrophic.”",
+      "translation": "abrupt climate change 的結果是災難性的。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4–5"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A drop of 5 to 10 degrees entails much more than simply bumping up the thermostat and carrying on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "氣溫下降 5 至 10°F，意味著遠遠不只是調高暖氣然後照常生活。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A grim sampler: disappearing forests, increased housing expenses, dwindling fresh water, lower crop yields, and accelerated species extinctions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一組嚴峻例子包括：森林消失、住房開支增加、淡水減少、作物產量下降，以及物種滅絕加快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 第一和最後一句則解釋 abrupt change 為何比 slow change 更具破壞性。這兩段反覆引用 “the report”，而報告來源在 Paragraph 4 是 National Academy of Sciences。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “abrupt climate change” 和 “catastrophic”。原文有報告標題："
+            },
+            {
+              "kind": "quote",
+              "text": "“Abrupt Climate Change: Inevitable Surprises”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“devastating consequences”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“A 2002 report titled ‘Abrupt Climate Change: Inevitable Surprises’, produced by the National Academy of Sciences, pegged the cost from agricultural losses alone at $100 billion to $250 billion while also predicting that damage to ecosystems could be vast and incalculable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一份 2002 年由 National Academy of Sciences 製作、題為《Abrupt Climate Change: Inevitable Surprises》的報告估計，單是農業損失就可能達 1,000 億至 2,500 億美元，同時預測 ecosystem damage 可能巨大到難以計算。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 National Academy of Sciences 的報告。它沒有用 “catastrophic” 一字，但"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“devastating consequences”、“vast and incalculable” 已充分表達災難性後果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "catastrophic= devastating consequences= vast and incalculable damage= $100 billion to $250 billion agricultural losses所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "A — William Curry",
+      "answerKey": "A — William Curry",
+      "type": "Matching Features",
+      "prompt": "“The world is not as cold as it once was.”",
+      "translation": "世界不像以前那麼寒冷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“William Curry is a serious, sober climate scientist, not an art critic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "William Curry 是一位嚴肅、冷靜的氣候科學家，並非藝術評論家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I can tell you, this kind of thing just doesn’t happen anymore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我可以告訴你，這種事情如今已經不再發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 是 William Curry 用畫作指出過去河流結冰、現代很少再見的段落。題目說 world not as cold as it once was，正好對應這段的今昔對比。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “not as cold as it once was” 不會逐字出現。應找 frozen river、ice、doesn’t happen anymore。人物則是 William Curry。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Sure enough, the lead oarsman is bashing the frozen river with his boot.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "果然，最前面的划槳手正用靴子敲打結冰的河面。"
+            },
+            {
+              "kind": "label",
+              "text": "接著 Curry 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“I grew up in Philadelphia. The place in this painting is 30 minutes away by car. I can tell you, this kind of thing just doesn’t happen anymore.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我在 Philadelphia 長大。畫中的地方開車 30 分鐘就到。我可以告訴你，這種事情如今已經不再發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “this kind of thing” 指 frozen river / people pushing ice away。Curry 的意思是：過去能見到這種冰封河面，如今當地已不再出現相同情況。這支援 “not as cold as it once was”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "not as cold as it once was= frozen river scene used to happen= this kind of thing just doesn’t happen anymore所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "B — Terrence Joyce",
+      "answerKey": "B — Terrence Joyce",
+      "type": "Matching Features",
+      "prompt": "“Global warming is closely connected to the ice age.”",
+      "translation": "global warming 和 ice age 有密切關係。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But first things first. Isn’t the Earth actually warming?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但先處理最基本的問題：地球不是正在變暖嗎？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No one is certain where the fresh torrents are coming from, but a prime suspect is melting Arctic ice, caused by a build-up of carbon dioxide in the atmosphere that traps solar energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有人確定這些大量淡水來自哪裡，但主要嫌疑是融化中的 Arctic ice，而這是由大氣中 carbon dioxide 增加、困住太陽能造成的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 7 在解釋 warming 如何可能觸發 cooling。題目中的 global warming connected to ice age，就是本段 paradox。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “global warming” 和 “ice age”。原文用 “Earth actually warming” 以及 “next mini-ice age”。人物是 Joyce。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed it is, says Joyce. In his cluttered office, full of soft light from the foggy Cape Cod morning, he explains how such warming could actually be the surprising culprit of the next mini-ice age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Joyce 說，的確如此。地球確實正在變暖。在他凌亂的辦公室裡，他解釋這種 warming 如何可能成為下一次 mini-ice age 的意外元兇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句非常直接。主語是 Joyce；核心動詞是 “explains”；核心內容是 “warming could… be the surprising culprit of the next mini-ice age”。culprit 指造成問題的原因，因此 warming 和 mini-ice age 在原文中有因果連結。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "global warming is closely connected to the ice age= such warming could be the surprising culprit of the next mini-ice age所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "C — Bob Dickson",
+      "answerKey": "C — Bob Dickson",
+      "type": "Matching Features",
+      "prompt": "“Warned a conference about changes in ocean water.”",
+      "translation": "在會議上警告 ocean water 出現變化。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The freshwater trend is major news in ocean-science circles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "freshwater trend 在 ocean-science circles 是重大消息。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bob Dickson, a British oceanographer who sounded an alarm at a February conference in Honolulu, has termed the drop in salinity and temperature in the Labrador Sea... ‘arguably the largest full-depth changes observed in the modern instrumental oceanographic record’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "British oceanographer Bob Dickson 曾在 Honolulu 二月的一次 conference 上發出警報。他把Labrador Sea 中 salinity 和 temperature 的下降稱為 modern instrumental oceanographic record中可能最大的 full-depth changes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，人物、conference、ocean water changes 三個元素都出現了。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “conference”、“ocean water”、“changes”。原文對應 “February conference in Honolulu”、“drop in salinity and temperature”、“Labrador Sea”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Bob Dickson, a British oceanographer who sounded an alarm at a February conference in Honolulu…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bob Dickson 是一位英國 oceanographer，他曾在 Honolulu 二月的一次 conference 上發出警報。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這已經對應 “warned a conference”。警告內容則在後半："
+            },
+            {
+              "kind": "quote",
+              "text": "“the drop in salinity and temperature in the Labrador Sea…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Labrador Sea 的 salinity 和 temperature 下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "salinity 和 temperature 都是 ocean water 的性質。題目把它概括成 “changes in ocean water”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "warned= sounded an alarm changes in ocean water= drop in salinity and temperature in the Labrador Sea所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "heat",
+      "answerKey": "heat",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 23",
+      "translation": "來自熱帶的暖水向北流動後，會失去較多 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： Tropical warm water → less 23 ______"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trend could cause a little ice age by subverting the northern penetration of Gulf Stream waters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個趨勢可能透過破壞 Gulf Stream waters 向北流入，造成小冰期。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘It’s a real mistake to think of this solely as a European phenomenon,’ says Joyce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Joyce 說，把這件事只視為歐洲現象，是一個真正的錯誤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 9 會解釋 Gulf Stream 向北輸送熱量的功能。Flow chart 開頭的 “Tropical warm water” 正對應 Gulf Stream 帶著 tropics 的熱量。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Tropical warm water”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the Gulf Stream, laden with heat soaked up in the tropics”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“the stream surrenders heat to the air.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Normally, the Gulf Stream, laden with heat soaked up in the tropics, meanders up the east coasts of the United States and Canada. As it flows northward, the stream surrenders heat to the air.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正常情況下，Gulf Stream 帶著在熱帶吸收的熱量，沿美國和加拿大東岸向北流動。當它向北流時，海流把熱量釋放到空氣中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “less 23” 對應 “surrenders heat”，即水把熱量交給空氣後，水中的 heat 減少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：空格前是 “less”，後面需要不可數名詞。heat 是一個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "less heat= surrenders heat to the air答案是 heat。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "denser",
+      "answerKey": "denser",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 24",
+      "translation": "水變得更 ______，然後下沉。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： Water becomes 24 ______ and sinks."
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 10"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having given up its heat to the air, the now-cooler water becomes denser and sinks into the North Atlantic by a mile or more in a process oceanographers call thermohaline circulation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把熱量釋放到空氣後，現在較冷的水變得更 dense，並在 North Atlantic 下沉一英里或更多； oceanographers 稱這個過程為 thermohaline circulation。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There is increasing evidence that we are getting closer to a transition point, from which we can jump to a new state.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "愈來愈多證據顯示，我們正接近一個 transition point，從那裡可能跳到一種新狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，答案其實已經出現：cooler water becomes denser and sinks。Flow chart 的 wording幾乎直接改寫這句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “becomes” 和 “sinks”。原文第一句有完全相同的動詞組合："
+            },
+            {
+              "kind": "quote",
+              "text": "“becomes denser and sinks”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Having given up its heat to the air, the now-cooler water becomes denser and sinks into the North Atlantic by a mile or more…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把熱量釋放到空氣後，現在較冷的水變得更 dense，並在 North Atlantic 下沉一英里或更多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“denser” 指密度較高。海水冷卻後密度增加，所以會下沉，這是 thermohaline circulation 的重要部分。文法檢查：題目是 “Water becomes ______ and sinks.” 空格需要形容詞。原文形容詞是 denser，一個字，符合字數限制。答案是 denser。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "Great Ocean Conveyor",
+      "answerKey": "Great Ocean Conveyor",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 25",
+      "translation": "這條 deep ocean current 被稱為 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： Deep ocean current called 25 ______"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 10"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having given up its heat to the air, the now-cooler water becomes denser and sinks into the North Atlantic by a mile or more in a process oceanographers call thermohaline circulation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把熱量釋放到空氣後，較冷的水變得更 dense，並在 North Atlantic 下沉一英里或更多； oceanographers 稱這個過程為 thermohaline circulation。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There is increasing evidence that we are getting closer to a transition point, from which we can jump to a new state.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "愈來愈多證據顯示，我們正接近 transition point，可能從那裡跳到新狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 10 的功能是講海洋循環機制。題目中的 “deep ocean current called…” 要找 “called”或 “deep-water current”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Deep ocean current” 和 “called”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“a deep-water current called the Great Ocean Conveyor”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“This massive column of cascading cold is the main engine powering a deep-water current called the Great Ocean Conveyor that snakes through all the world’s oceans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個巨大的冷水下沉柱，是推動一條深水洋流的主要引擎；這條深水洋流叫做 Great Ocean Conveyor，蜿蜒穿過全球所有海洋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Deep ocean current called” 對應原文 “a deep-water current called”。答案要保留專有名詞完整形式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查： Great Ocean Conveyor 是三個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 Great Ocean Conveyor。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "fresh water",
+      "answerKey": "fresh water",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 26",
+      "translation": "______ 增加，令海水變得較不 dense，較難下沉。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置： Increase in 26 ______ → water becomes less dense / hard to sink"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 10，並可回看 Paragraph 7"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 10 第一句講冷水變 dense 後下沉；最後一句講系統可能接近 transition point。這段中間會解釋甚麼因素正在威脅這個下沉過程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “less dense”、“hard to sink” 和 “increase”。原文用："
+            },
+            {
+              "kind": "quote",
+              "text": "“as the North Atlantic fills with fresh water, it grows less dense”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“But as the North Atlantic fills with fresh water, it grows less dense, making the waters carried northward by the Gulf Stream less able to sink.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但當 North Atlantic 充滿 fresh water，它會變得較不 dense，使 Gulf Stream 向北帶來的海水較難下沉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接解釋 flow chart 後半。fresh water 增加會降低海水密度；密度不足，水便不能正常下沉； thermohaline circulation 受到威脅；Gulf Stream 可能減慢或偏南，甚至整個系統關閉。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 也補充來源："
+            },
+            {
+              "kind": "quote",
+              "text": "“The paradox is a result of the appearance over the past 30 years in the North Atlantic of huge rivers of fresh water…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 paradox 源於過去 30 年 North Atlantic 出現大量 fresh water。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “Increase in ______”。空格需要名詞短語。fresh water 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "increase in fresh water= North Atlantic fills with fresh water= huge rivers of fresh water答案是 fresh water。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - A New Ice Age.pdf",
+    "sha256": "85946cb5510b74b4f0d3e538bff88141590b88b5d41718d5cac3dddcffd94504",
+    "pageCount": 21
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句可見甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句介紹 William Curry 是嚴肅的 climate scientist，卻花很多時間研究 Washington Crossing the Delaware 這幅畫。最後一句說 Curry 在 Philadelphia 長大，畫中那種結冰河面景象如今已不再發生。只看首尾句，可以先估計本段用藝術作品作氣候證據：過去 Delaware River 會結冰到士兵要推開冰塊，今天同一地區已難見此景。題目若問 paintings、past climate、river freezes，應看這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句 “But it may again soon” 直接把第一段的冰封場景推向未來可能性。最後一句說下一輪cooling trend 可能令美國大部分地區平均氣溫下降 5°F，並令美國東北、北歐、北亞下降 10°F。只看首尾句，可見本段把 Washington 和 Brueghel 的冰雪畫面連到 possible future climate change：小冰期可能回歸，但並非 12,000 年前那種巨大冰蓋。"
+      },
+      {
+        "number": "3",
+        "summary": "首句引用 Terrence Joyce，說這件事可能在 10 年內發生。最後一句說他擔心 Americans 尚未認真看待這個威脅。只看首尾句，可以判斷本段功能是提供 Joyce 的警告：冷卻可能來得快，而且一旦開始，可能要幾百年才逆轉。人物配對題若問 Americans are not prepared 或 threat not taken seriously，應定位 Joyce。"
+      },
+      {
+        "number": "4",
+        "summary": "首句指出 5 至 10°F 的降溫不只是把 thermostat 調高那麼簡單。最後一句列出嚴重後果，包括森林消失、住房開支增加、淡水減少、作物產量下降，以及物種滅絕加快。只看首尾句，可以估計本段集中講 abrupt cooling 的經濟和生態代價。National Academy of Sciences report、agricultural losses、ecosystem damage 和 catastrophic consequences 都在這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說巨大影響的原因很簡單。最後一句說許多 biological processes 會在特定 temperature 和precipitation threshold 發生轉變。只看首尾句，可以判斷本段在解釋為何 abrupt climate change特別破壞性：慢變化較易適應，快速跨過臨界點則會引發大規模 disruption。這段用 river flooding比喻 climate thresholds，幫學生理解災難如何突然爆發。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 since the last ice age 以來的政治變化，可能令世界貧困人口更難生存。最後一句引用報告，說 abrupt climate change 若令靠土地生活的人命運急變，不能 migration 會拿走重要 safety net。只看首尾句，可以估計本段講現代 closed borders 的問題：過去部族可南遷避寒，如今國界封閉，貧困群體少了一條求生路。"
+      },
+      {
+        "number": "7",
+        "summary": "首句用 “But first things first” 提出疑問：地球不是正在 warming 嗎？最後一句說 freshwater 的主要嫌疑來源是 melting Arctic ice，而這又與 carbon dioxide build-up trapping solar energy 有關。只看首尾句，可見本段處理核心 paradox：global warming 可能反過來成為 mini-ice age 的觸發因素。Joyce、warming、fresh water、melting Arctic ice 都是定位訊號。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說 freshwater trend 在 ocean-science circles 是重大消息。最後一句引用 Bob Dickson，說Labrador Sea 的 salinity 和 temperature 下降，可能是 modern instrumental oceanographic record 中最大規模的 full-depth changes。只看首尾句，可以判斷本段集中講 ocean water 的實測變化，以及 Bob Dickson 在會議上發出警報。題目若問 conference warning 或 ocean water changes，應看這段。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 freshwater trend 可能透過破壞 Gulf Stream waters 向北滲透，造成 little ice age。最後一句引用 Joyce，提醒這不應只被視為 European phenomenon。只看首尾句，可以估計本段講 Gulf Stream 的暖化功能：熱帶海水向北流，向空氣釋放熱量，再由 North Atlantic winds 把熱送往Europe，解釋同緯度下 Europe 比 North America 暖得多。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說 Gulf Stream 放出熱量後，較冷的水會變得更 dense，並在 North Atlantic 下沉，這個過程叫 thermohaline circulation。最後一句說證據愈來愈多，系統正接近 transition point，可能跳到新狀態。只看首尾句，可以判斷本段講 mechanism：fresh water 令海水較不 dense，阻礙下沉，威脅thermohaline circulation，最後可能令 Gulf Stream 減速、偏南或停頓。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "本文沒有 A、B、C 段落標記，所以以下按自然段編為 Paragraph 1–10。這也符合手冊對無段落標記文章的處理：若文章沒有段落字母，分析前要按自然段順序編號，並全篇使用同一套編號。"
+  ]
+}

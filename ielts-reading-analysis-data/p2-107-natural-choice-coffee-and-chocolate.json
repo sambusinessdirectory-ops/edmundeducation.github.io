@@ -1,0 +1,1121 @@
+{
+  "id": "p2-107-natural-choice-coffee-and-chocolate",
+  "catalogueId": "p2-107",
+  "catalogueIds": [
+    "p2-107"
+  ],
+  "passage": 2,
+  "title": "NATURAL CHOICE Coffee and chocolate",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "D",
+    "E",
+    "C",
+    "A",
+    "C",
+    "B",
+    "A",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“More species survive on the farms studied by the researchers than in the natural El Salvador forests.”",
+      "translation": "研究人員研究的農場，比 El Salvador 的天然森林有更多物種存活。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 1。首句說科學家到 El Salvador coffee farms 後，驚訝地發現昆蟲"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和植物種類很多。尾句說他們在 24 個農場找到近 300 種樹，原先只預期約 100 種。只看首尾句，可以估計這段會提供 farms studied by researchers 的物種數據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “farms studied by the researchers”、 “more species”、 “natural El Salvador"
+            },
+            {
+              "kind": "label",
+              "text": "forests”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When scientists from London’s Natural History Museum descended on the coffee farms of the tiny Central American republic of El Salvador, they were astonished to find such diversity of insect and plant species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 London’s Natural History Museum 的科學家來到中美洲小國 El Salvador 的咖啡農場時，他們驚訝地發現昆蟲和植物種類如此多樣。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On 24 farms, they found nearly 300 species of tree when they had expected to find about 100.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 24 個農場中，他們找到近 300 種樹；原本他們只預期找到約 100 種。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文確實說 studied farms 的物種多樣性很高，也給出樹種數量。然而題目要求比較兩邊："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1. farms studied by the researchers 2. natural El Salvador forests 3. farms 的 species 數量更多原文只有第一邊的資料，沒有提供 natural El Salvador forests 的物種數量，也沒有建立 “farms >natural forests” 的比較。Paragraph 5 雖然說 shade-grown coffee plantations 的 bird diversity 可媲美同區 natural forests，但那是鳥類，而且是一般 shade-grown coffee plantations，不是Paragraph 1 的 El Salvador farms 物種總量比較。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要 “more than natural El Salvador forests”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只支援 “farms had high diversity”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少 natural forest comparison。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“astonished to find such diversity” 和 “nearly 300 species of tree” 會令人覺得農場一定非常接近或超過天然森林。但 IELTS Reading 要看比較是否真的出現。這題真正缺少的是 “natural El Salvador forests” 的對照數據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Nearly three-quarters of the Earth’s wildlife species can be found in shade-coffee plantations.”",
+      "translation": "地球上接近四分之三的野生物種，可以在 shade-coffee plantations 中找到。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。首句說 shade conditions 下種咖啡，species diversity 較高。尾"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句說 cocoa 和 coffee 的 production methods 可以對 biodiversity 造成重大影響。這段會同時談shade-grown、tropical rainforest 和全球 biodiversity。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “nearly three-quarters”、 “Earth’s wildlife species”、 “shade-coffee plantations”。"
+            },
+            {
+              "kind": "label",
+              "text": "原文有一個接近三分之二至四分之三的數字："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, coffee (and chocolate) is usually grown in tropical rainforest – regions that are biodiversity hotspots.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，咖啡和巧克力通常種植於熱帶雨林；這些地區是生物多樣性熱點。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“These habitats support up to 70% of the planet’s plant and animal species…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些棲息地支撐著地球上多達 70% 的植物和動物物種。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “up to 70% of the planet’s plant and animal species” 改成 “nearly three-quarters of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "the Earth’s wildlife species”，數字大致對應；問題出在地點。原文的 “These habitats” 指前一句的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“tropical rainforest – regions that are biodiversity hotspots”。題目卻改成 “shade-coffee plantations”。原文的主體：tropical rainforest habitats / biodiversity hotspots。題目的主體：shade-coffee plantations。這個替換改變了原文所指的 habitat。原文說 70% 物種由 tropical rainforest habitats 支撐；題目把同一數字放到 shade-coffee plantations 上，和原文指向不一致。所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 一開始的確說 shade-grown coffee 有較高 species diversity，所以學生容易把後面的 70% 也套到 shade-coffee plantations。細讀代名詞 “These habitats” 時要回看前一句，它指tropical rainforest regions。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Farmers in El Salvador who have tried both methods prefer shade-grown plantations.”",
+      "translation": "曾經試過兩種方法的 El Salvador 農民較喜歡 shade-grown plantations。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。首句說 Alex Munro 認為 El Salvador shade-coffee farms 有文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "化和生態意義，而且 people are not happy to see them go。尾句說一個合作農場收入很低。只看首尾句，這段會談 El Salvador 當地態度和金錢壓力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Farmers in El Salvador”、 “tried both methods”、 “prefer shade-grown”。原文相"
+            },
+            {
+              "kind": "label",
+              "text": "關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In El Salvador, Alex Munro says shade-coffee farms have a cultural as well as ecological significance and people are not happy to see them go.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 El Salvador，Alex Munro 說 shade-coffee farms 兼具文化和生態意義，人們不樂見它們消失。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the financial pressures are great, and few of these coffee farms make much money.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是經濟壓力很大，而且這些咖啡農場很少能賺很多錢。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文支援兩點：第一，El Salvador 有人不想 shade-coffee farms 消失；第二，shade-coffee"
+            },
+            {
+              "kind": "paragraph",
+              "text": "farms 面對很大財政壓力。不過題目加入了兩項更具體的資料： 1. farmers have tried both methods 2. they prefer shade-grown plantations原文沒有說這些 farmers 曾經試過 shade-grown 和 full-sun 兩種方法，也沒有直接說 farmers"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“prefer” shade-grown。原文的 “people are not happy to see them go” 比較像地方社會或群眾態度，範圍也不一定限於 farmers。所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“people are not happy to see them go” 很像 “prefer shade-grown”。但 IELTS 要分清態度來源和經驗條件。題目多了 “farmers who have tried both methods”，這一層原文沒有提供。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Shade plantations are important for migrating birds in both Africa and the Americas.”",
+      "translation": "shade plantations 對非洲和美洲的候鳥都很重要。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。首句說 shade-grown coffee plantations 的 bird diversity 可媲美"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同區 natural forests。尾句說 Central and South America 的 coffee forests 是 wintering North American migrants 的 refuge。這段明顯集中於 shade plantations 和 migratory birds。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “migrating birds”、 “Africa”、 “Americas”。原文有兩組地區："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Ghana, West Africa – one of the world’s biggest producers of cocoa – 90% of the cocoa is grown under shade, and these forest plantations are a vital habitat for wintering European migrant birds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在西非 Ghana，世界最大可可生產國之一，90% cocoa 在樹蔭下種植，而這些森林式種植園是歐洲候鳥過冬的重要棲息地。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the same way, the coffee forests of Central and South America are a refuge for wintering North American migrants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，中美洲和南美洲的 coffee forests 是北美候鳥過冬的避難所。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 both Africa and the Americas。原文第一句給 Africa：Ghana, West Africa；第二句給"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Americas：Central and South America。題目說 migrating birds；原文有 “wintering European migrant birds” 和 “wintering North American migrants”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "important = vital habitat / refuge migrating birds = migrant birds / migrants Africa and the Americas = Ghana, West Africa + Central and South America所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個例子是 cocoa plantations，第二個例子是 coffee forests。題目用 “shade plantations” 概括兩者，這是可以接受的，因為同段討論的是 shade-grown cocoa / coffee 對候鳥的棲息地價值。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Full-sun cultivation can increase the costs of farming.”",
+      "translation": "full-sun cultivation 可能增加農業成本。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。首句說市場崩潰和追求增產令大片 shade-grown coffee and"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cocoa 被清除，改為 full-sun。尾句說 Côte d’Ivoire 超過三分之一 cocoa 已在 full-sun conditions下種植。這段會講 full-sun method 的原因和後果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Full-sun cultivation”、 “increase costs”。原文沒有直接寫 costs，但有 farming"
+            },
+            {
+              "kind": "label",
+              "text": "inputs："
+            },
+            {
+              "kind": "quote",
+              "text": "“But this system not only reduces the diversity of flora and fauna but also requires huge amounts of pesticides and fertilisers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個系統不但降低植物和動物多樣性，還需要大量農藥和肥料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目使用 “can increase”，語氣保守，表示可能增加成本。原文說 full-sun system “requires"
+            },
+            {
+              "kind": "paragraph",
+              "text": "huge amounts of pesticides and fertilisers”。pesticides and fertilisers 是農業投入，使用量大，會增加種植所需資源和支出。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 推論關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "requires huge amounts of pesticides and fertilisers→ needs more farming inputs→ can increase costs of farming這是短距離推論，沒有越過原文。答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接出現 “costs” 這個字，所以不能用單字配對。Completion 或 T/F 題常把 money 改寫成 inputs、resources、pesticides、fertilisers。這題真正支援答案的是 “requires huge amounts”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "D — John Rappole",
+      "answerKey": "D — John Rappole",
+      "type": "Matching Features",
+      "prompt": "“Encouraging shade growing may lead to farmers using the natural forest for their plantations.”",
+      "translation": "鼓勵 shade growing 可能導致農民把天然森林改成種植園。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 10。首句說部分 conservationists 不同意 certification。尾句引用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "John Rappole，指出 shade-grown marketing 可能鼓勵人把 existing areas of primary forest 改成shade-coffee plantations。這段明顯是反方意見。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “natural forest”、 “plantations”、 “may lead to”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“John Rappole of the Smithsonian Conservation and Research Center, for example, argues that shade-grown marketing provides ‘an incentive to convert existing areas of primary forest that are too remote or steep to be converted profitably to other forms of cultivation into shade-coffee plantations’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如 Smithsonian Conservation and Research Center 的 John Rappole 認為，shade-grown marketing 會提供一種誘因，使人把現有的 primary forest，即原始森林中太偏遠或太陡、無法有利可圖地改成其他農業形式的地區，轉為 shade-coffee plantations。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “Encouraging shade growing” 對應原文 “shade-grown marketing provides an"
+            },
+            {
+              "kind": "paragraph",
+              "text": "incentive”。題目的 “using the natural forest for their plantations” 對應 “convert existing areas of primary forest ... into shade-coffee plantations”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "E — Stacey Philpott",
+      "answerKey": "E — Stacey Philpott",
+      "type": "Matching Features",
+      "prompt": "“If shade-coffee farms match the right criteria, they can be good for wildlife.”",
+      "translation": "如果 shade-coffee farms 符合正確標準，它們可以對野生生物有利。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 11。首句說 Stacey Philpott and colleagues argue the case for"
+            },
+            {
+              "kind": "paragraph",
+              "text": "shade coffee。尾句說只要 certification rigorous 並帶來 financial gains，shade growing does benefit the environment。這段就是條件式支持。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “right criteria”、 “good for wildlife”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Certification procedures need to distinguish between the two, and Ms Philpott argues that as long as the process is rigorous and offers financial gains to the producers, shade growing does benefit the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "認證程序需要區分這兩種 shade growing；Philpott 女士認為，只要過程嚴格，並能為生產者帶來經濟收益，shade growing 確實有利環境。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “match the right criteria” 對應原文 “as long as the process is rigorous”。題目的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“good for wildlife” 是 “benefit the environment” 的具體化，因為全文一直圍繞 wildlife /biodiversity。人物是 Ms Philpott。所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "C — Robert Rice",
+      "answerKey": "C — Robert Rice",
+      "type": "Matching Features",
+      "prompt": "“There may be as many species of bird found on shade farms in a particular area as in natural habitats there.”",
+      "translation": "某個地區的 shade farms 可能有和當地天然棲息地一樣多的鳥類品種。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。首句直接引用 Robert Rice，說 shade-grown coffee plantations"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的 bird diversity rivals natural forests in the same region。這句幾乎完整對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “species of bird”、 “shade farms”、 “natural habitats”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Bird diversity in shade-grown coffee plantations rivals that found in natural forests in the same region,’ says Robert Rice from the Smithsonian Migratory Bird Center.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Smithsonian Migratory Bird Center 的 Robert Rice 說：「shade-grown coffee plantations 中的鳥類多樣性，可媲美同一地區天然森林中的鳥類多樣性。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "as many species of bird = bird diversity rivals shade farms = shade-grown coffee plantations natural habitats there = natural forests in the same region"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“rivals” 在這裡表示相當、可媲美。題目用 “may be as many” 把語氣放得較保守，與原文相符。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "A — Alex Munro",
+      "answerKey": "A — Alex Munro",
+      "type": "Matching Features",
+      "prompt": "“Currently, many shade-coffee farmers earn very little.”",
+      "translation": "目前很多 shade-coffee farmers 收入很少。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。首句出現 Alex Munro，講 El Salvador shade-coffee farms 有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cultural 和 ecological significance。尾句提供非常具體的低收入例子：100 個家庭一年共 $10,000，每戶 $100，還未計 labour costs。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “earn very little”、 “shade-coffee farmers”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In El Salvador, Alex Munro says shade-coffee farms have a cultural as well as ecological significance and people are not happy to see them go.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 El Salvador，Alex Munro 說 shade-coffee farms 兼具文化和生態意義，人們不樂見它們消失。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the financial pressures are great, and few of these coffee farms make much money.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是財政壓力很大，而且這些咖啡農場很少能賺很多錢。"
+            },
+            {
+              "kind": "label",
+              "text": "再看例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“One farm we studied, a cooperative of 100 families, made just $10,000 a year, or $100 per family, and that’s not taking labour costs into account.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們研究的一個農場，是由 100 個家庭組成的合作社，一年只賺 10,000 美元，即每戶 100 美元，而且這還未計算勞動成本。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “many shade-coffee farmers earn very little” 對應原文 “few of these coffee"
+            },
+            {
+              "kind": "paragraph",
+              "text": "farms make much money” 和 “$100 per family”。這些話由 Alex Munro 所在段落提出，因此答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問人物觀點，不只是找低收入句。低收入句前面已經由 Alex Munro 引入整段 El Salvador shade-coffee farms 的情況，所以要配 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "C — both shade-grown and full-sun methods",
+      "answerKey": "C — both shade-grown and full-sun methods",
+      "type": "Classification",
+      "prompt": "“can be used on either coffee or cocoa plantations”",
+      "translation": "可用於 coffee 或 cocoa plantations。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落要跨 Paragraph 4 和 Paragraph 6。Paragraph 4 解釋 shade-grown method，明"
+            },
+            {
+              "kind": "paragraph",
+              "text": "確說 coffee and cocoa 傳統上在雨林樹蔭下種植。Paragraph 6 則說 shade-grown coffee and cocoa 被清除，改為 full-sun production。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “coffee or cocoa plantations”。原文證據一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Traditionally they have grown coffee (and cocoa) under the shade of selectively thinned tracts of rain forest…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統上，他們在經選擇性稀疏處理的雨林樹蔭下種植 coffee 和 cocoa。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據二："
+            },
+            {
+              "kind": "quote",
+              "text": "“...huge swathes of shade-grown coffee and cocoa being cleared to make way for a highly intensive, monoculture pattern of production known as ‘full sun’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大片 shade-grown coffee and cocoa 被清除，為一種高度密集、單一作物的生產模式讓路，這種模式稱為 full sun。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一句證明 shade-grown method 可用於 coffee 和 cocoa。第二句證明 full-sun method 也"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可取代 shade-grown coffee and cocoa。題目說 “either coffee or cocoa plantations”，所以兩種方法都適用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "B — the full-sun method",
+      "answerKey": "B — the full-sun method",
+      "type": "Classification",
+      "prompt": "“is expected to produce bigger crops”",
+      "translation": "預期可以提高產量。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6。首句說 coffee/cocoa world market collapse，加上 producer"
+            },
+            {
+              "kind": "paragraph",
+              "text": "countries 追求 higher yields，導致 shade-grown coffee and cocoa 被清除，改為 full sun。這段很適合回答產量目的題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “bigger crops”。原文對應詞是 “increase yields”："
+            },
+            {
+              "kind": "quote",
+              "text": "“More recently, a combination of the collapse in the world market for coffee and cocoa and a drive to increase yields by producer countries has led to huge swathes of shade-grown coffee and cocoa being cleared to make way for a highly intensive, monoculture pattern of production known as ‘full sun’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近年來，咖啡和可可世界市場崩潰，加上生產國推動提高產量，導致大片 shade-grown coffee and cocoa 被清除，改為一種高度密集、單一作物的 full-sun 生產模式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “produce bigger crops” 對應原文 “increase yields”。這個 drive 導向 full sun，因此"
+            },
+            {
+              "kind": "paragraph",
+              "text": "此 feature 屬於 full-sun method。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A — the shade-grown method",
+      "answerKey": "A — the shade-grown method",
+      "type": "Classification",
+      "prompt": "“documentation may be used to encourage sales”",
+      "translation": "可用文件或認證來鼓勵銷售。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 9。首句說 North American wildlife organisations 用 consumer"
+            },
+            {
+              "kind": "paragraph",
+              "text": "power 拯救 threatened habitats。尾句說小額額外成本會轉給 farmers，作為維持 shade-coffee farms 的 financial incentive。這段集中於 certification 和 market promotion。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “documentation”、 “encourage sales”。原文沒有 documentation，但有"
+            },
+            {
+              "kind": "label",
+              "text": "certification system："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are promoting a ‘certification’ system that can indicate to consumers that the beans have been grown on shade plantations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們正在推廣一套「認證」系統，讓消費者知道這些咖啡豆是在 shade plantations 上種植的。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bird-friendly coffee, for instance, is marketed by the Smithsonian Migratory Bird Center.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Smithsonian Migratory Bird Center 推廣 bird-friendly coffee。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “documentation” 對應 “certification system”。題目的 “encourage sales” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“indicate to consumers” 和 “marketed”。認證文件或標籤的作用，是讓消費者識別 shade-grown /bird-friendly coffee，從而支持購買。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "B — the full-sun method",
+      "answerKey": "B — the full-sun method",
+      "type": "Classification",
+      "prompt": "“can reduce wildlife diversity”",
+      "translation": "可能降低野生生物多樣性。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 6 和 Paragraph 7。Paragraph 6 說 full-sun system reduces"
+            },
+            {
+              "kind": "paragraph",
+              "text": "diversity of flora and fauna。Paragraph 7 用 birds 數據補充 full-sun plantations 比 shade coffee少 95% bird species。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “reduce wildlife diversity”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But this system not only reduces the diversity of flora and fauna but also requires huge amounts of pesticides and fertilisers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個系統降低植物和動物多樣性，並且需要大量農藥和肥料。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 再補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“One study carried out in Colombia and Mexico found that, compared with shade coffee, full-sun plantations have 95% fewer species of birds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一項在 Colombia 和 Mexico 進行的研究發現，與 shade coffee 相比，full-sun plantations 的鳥類物種少 95%。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “wildlife diversity” 對應原文的 “diversity of flora and fauna” 以及 “species of birds”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。“this system” 回指上一句的 full-sun method。因此 feature 屬於 full-sun method。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "總結方法：這篇的定位重點有三組：第一，shade-grown 通常連到 biodiversity、birds、certification 和farmers’ incentive；第二，full-sun 連到 increase yields、monoculture、pesticides/fertilisers 和fewer birds；第三，人物配對題要先找人名，再讀該人名附近的完整觀點，避免把同段其他人的立場混在一起。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - NATURAL CHOICE Coffee and chocolate.pdf",
+    "sha256": "8ee6d2d38c7b99385ee90fcba8d3cd61f750269632c2526b7fb9b7ee1775ba34",
+    "pageCount": 15
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Paragraph 首句寫 Natural History Museum 的科學家到 El Salvador 咖啡農場後，驚訝地發1 現昆蟲和植物種類非常多。尾句說他們在 24 個農場找到近 300 種樹，遠高於原本預期的 100 種。只看首尾句可見，本段用研究數據建立主題：shade-coffee farms 的 biodiversity 可能比想像中豐富。 Paragraph 首句交代 El Salvador 失去大量天然森林，咖啡農場覆蓋近 10% 國土，並多用2 shade-grown 方法。尾句說 wasps 可能依賴特定樹種。首尾句顯示，本段把咖啡農場和半自然森林生態系統連起來，說明 shade-grown farms 內部有複雜 food web，並具有重要生態價值。 Paragraph 首句說全世界情況相同：shade conditions 下種咖啡，species diversity 較高。尾句3 引用 Paul Donald，指出 cocoa 和 coffee 的生產方式可以對生物多樣性造成重大影響。首尾句顯示，本段把 El Salvador 的例子擴展到全球，重點在 tropical rainforest、biodiversity hotspots 和生產方法的環境影響。 Paragraph 首句直接問 shade-grown 是甚麼，以及為何對 wildlife 有益。尾句說樹木還可為農4 民提供水果和燃料木材。首尾句顯示，本段會解釋 shade-grown farming 的操作和好處：在稀疏處理過的雨林下種 coffee / cocoa，樹冠落葉、昆蟲、樹木本身都能支援可持續農業。 Paragraph 首句說 shade-grown coffee plantations 的鳥類多樣性可媲美同區天然森林。尾句5 說中南美洲 coffee forests 是北美候鳥過冬的避難所。首尾句顯示，本段集中在birds，尤其 migratory birds：Ghana 的 shade cocoa plantations 支援歐洲候鳥，美洲 shade coffee forests 支援北美候鳥。 Paragraph 首句說世界咖啡和可可市場崩潰，加上生產國追求增產，導致大片 shade-grown 6 coffee and cocoa 被清除，改為 full sun。尾句說 Côte d’Ivoire 超過三分之一cocoa 已用 full-sun 種植。首尾句顯示，本段轉入威脅：full-sun intensive monoculture 取代 shade-grown，帶來 biodiversity 下降和農藥肥料需求。 Paragraph 首句說美洲的 loggers 也很忙，Colombia 近 70% coffee 已用 full-sun 方法。尾句7 說 Colombia 和 Mexico 的研究發現 full-sun plantations 的鳥類種類比 shade coffee 少 95%。首尾句顯示，本段用美洲數據強化上一段論點：full-sun method 對鳥類多樣性影響極大。 Paragraph 首句說 Alex Munro 認為 El Salvador 的 shade-coffee farms 有文化和生態意義， 8 人們不樂見它們消失。尾句說一個 100 個家庭的合作農場一年只賺 $10,000，即每戶 $100，還未計人工。首尾句顯示，本段重點在 El Salvador 農民困境：大家重視 shade farms，但經濟壓力非常大。 Paragraph 首句說 shade-coffee forests 的流失令北美 wildlife organisations 非常警覺，於是9 它們利用 consumer power 保護 habitat。尾句說小額額外成本會轉給咖啡農民，作為維持 shade-coffee farms 的 financial incentive。首尾句顯示，本段介紹certification：讓消費者識別 shade-grown beans，透過市場付款鼓勵農民保留shade farms。 Paragraph 首句說並非所有 conservationists 都同意 certification 等措施。尾句引用 John 10 Rappole，指 shade-grown marketing 可能鼓勵人把原本太偏遠或太陡、不值得開墾的 primary forest 改成 shade-coffee plantations。首尾句顯示，本段提出反方： certification 可能意外鼓勵砍伐天然森林。 Paragraph 首句說 Stacey Philpott 等 conservationists 支持 shade coffee。尾句說只要11 certification 嚴格，並能為生產者帶來收益，shade growing 確實有利環境。首尾句顯示，本段作平衡結論：shade growing 有不同質素；類似天然森林的系統有高多樣性，但較簡化的 shade system 可能效果很弱。",
+        "label": "段落 Rough roadmap"
+      }
+    ]
+  }
+}

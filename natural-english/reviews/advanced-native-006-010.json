@@ -1,0 +1,251 @@
+{
+  "batch": "advanced-native-006-010",
+  "date": "2026-10-15",
+  "source": "Expression list and source sentences supplied directly by the course owner on 15 October 2026. PDF page and question locators were not supplied for this batch.",
+  "status": "pilot-for-owner-review",
+  "editorialReview": "Author reviewed English meaning, Chinese prompts, MC alternatives, golden replies and glossary source spans. Course-owner review remains pending; no independent human sign-off is claimed.",
+  "contentContract": {
+    "stepsPerLesson": 7,
+    "assessedQuestionsPerLesson": 6,
+    "speaking": "optional, listen first, British male bm_fable",
+    "glossary": "Every English row is a contiguous span in a suggested answer, with target variants excluded."
+  },
+  "items": [
+    {
+      "number": 6,
+      "sourceSentence": "For example, a young person who has to give a public presentation may feel nervous at first and may even want to back out.",
+      "boundary": "Withdraw from an existing plan or commitment, rather than decline an initial invitation.",
+      "pattern": "back out; back out of + noun or -ing form",
+      "reference": "https://dictionary.cambridge.org/us/dictionary/english/back-out",
+      "lessonId": "advanced-native-006",
+      "target": "back out",
+      "category": "動詞片語 · Phrasal verb",
+      "glossary": [
+        {
+          "english": "painting the room this weekend",
+          "chinese": "這個週末粉刷房間",
+          "answerNumbers": [
+            1
+          ]
+        },
+        {
+          "english": "because I am ill",
+          "chinese": "因為我生病了",
+          "answerNumbers": [
+            1
+          ]
+        },
+        {
+          "english": "find a replacement",
+          "chinese": "找替代人選",
+          "answerNumbers": [
+            1
+          ]
+        },
+        {
+          "english": "agreed to help paint the room",
+          "chinese": "答應幫忙粉刷房間",
+          "answerNumbers": [
+            2
+          ]
+        },
+        {
+          "english": "take over",
+          "chinese": "接手",
+          "answerNumbers": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "sourceSentence": "However, once they prepare properly and get through it, they often come out stronger, more confident, and more articulate.",
+      "boundary": "Endure or complete a difficult period; completion does not establish ease or later growth.",
+      "pattern": "get/got through it; it refers to the difficult task or period",
+      "reference": "https://dictionaryblog.cambridge.org/2020/04/01/making-the-best-of-it-dealing-with-life-during-the-coronavirus-pandemic/",
+      "lessonId": "advanced-native-007",
+      "target": "get through it",
+      "category": "動詞片語 · Phrasal verb",
+      "glossary": [
+        {
+          "english": "a stressful week",
+          "chinese": "充滿壓力的一週",
+          "answerNumbers": [
+            1
+          ]
+        },
+        {
+          "english": "moving and exams",
+          "chinese": "搬家和考試",
+          "answerNumbers": [
+            1
+          ]
+        },
+        {
+          "english": "help from her friends",
+          "chinese": "朋友的幫助",
+          "answerNumbers": [
+            1
+          ]
+        },
+        {
+          "english": "a hard week",
+          "chinese": "艱難的一週",
+          "answerNumbers": [
+            2
+          ]
+        },
+        {
+          "english": "making a simple plan",
+          "chinese": "訂立簡單計劃",
+          "answerNumbers": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "sourceSentence": "However, once they prepare properly and get through it, they often come out stronger, more confident, and more articulate.",
+      "boundary": "A figurative outcome supported by evidence of greater capability or resilience; do not promise that all setbacks cause growth.",
+      "pattern": "come/came out stronger; after + experience",
+      "reference": "User-supplied definition and transparent figurative construction; not presented as a fixed dictionary idiom.",
+      "lessonId": "advanced-native-008",
+      "target": "come out stronger",
+      "category": "比喻用法 · Figurative use",
+      "glossary": [
+        {
+          "english": "losing the final",
+          "chinese": "在決賽落敗",
+          "answerNumbers": [
+            1
+          ]
+        },
+        {
+          "english": "changed how they prepared",
+          "chinese": "改變了準備方式",
+          "answerNumbers": [
+            1
+          ]
+        },
+        {
+          "english": "the judges’ feedback",
+          "chinese": "評判的評語",
+          "answerNumbers": [
+            2
+          ]
+        },
+        {
+          "english": "seriously",
+          "chinese": "認真地",
+          "answerNumbers": [
+            2
+          ]
+        },
+        {
+          "english": "the following term",
+          "chinese": "下一學期",
+          "answerNumbers": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "sourceSentence": "In that sense, the challenge becomes a stepping stone rather than a stumbling block.",
+      "boundary": "An intermediate experience helps progress towards a further goal; no guaranteed job or final outcome.",
+      "pattern": "a stepping stone to/towards + goal",
+      "reference": "https://dictionary.cambridge.org/us/dictionary/english/stepping-stone",
+      "lessonId": "advanced-native-009",
+      "target": "stepping stone",
+      "category": "慣用語 · Idiom or set phrase",
+      "glossary": [
+        {
+          "english": "Volunteering at the community paper",
+          "chinese": "在社區報紙做義工",
+          "answerNumbers": [
+            1
+          ]
+        },
+        {
+          "english": "a journalism career",
+          "chinese": "新聞事業",
+          "answerNumbers": [
+            1
+          ]
+        },
+        {
+          "english": "The newspaper role",
+          "chinese": "在報紙的工作",
+          "answerNumbers": [
+            2
+          ]
+        },
+        {
+          "english": "practise interviewing people",
+          "chinese": "練習採訪別人",
+          "answerNumbers": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "sourceSentence": "In that sense, the challenge becomes a stepping stone rather than a stumbling block.",
+      "boundary": "A problem hinders progress; the obstacle may be overcome and need not be permanent.",
+      "pattern": "a stumbling block; a stumbling block for/to + goal or project",
+      "reference": "https://www.collinsdictionary.com/us/dictionary/english/stumbling-block",
+      "lessonId": "advanced-native-010",
+      "target": "stumbling block",
+      "category": "慣用語 · Idiom or set phrase",
+      "glossary": [
+        {
+          "english": "The late delivery",
+          "chinese": "延遲送貨",
+          "answerNumbers": [
+            1
+          ]
+        },
+        {
+          "english": "borrow tools for now",
+          "chinese": "暫時借用工具",
+          "answerNumbers": [
+            1
+          ]
+        },
+        {
+          "english": "The missing soil",
+          "chinese": "缺少的泥土",
+          "answerNumbers": [
+            2
+          ]
+        },
+        {
+          "english": "a local garden centre",
+          "chinese": "附近的園藝中心",
+          "answerNumbers": [
+            2
+          ]
+        },
+        {
+          "english": "for help",
+          "chinese": "尋求協助",
+          "answerNumbers": [
+            2
+          ]
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "structural": "Passed 10-module/60-question/40-clip checks.",
+    "progress": "PGlite test accepted all new MC choices and self-reviewed writing; golden reselection counted once.",
+    "browser": "All 35 new steps checked for horizontal overflow at 1280, 768, 390 and 320 px; glossary reveal, cloze, golden reselection and 0.75x playback passed.",
+    "audio": "20 new MP3 files generated with pinned Kokoro model; speaking clips use bm_fable; all 20 decoded successfully in Chromium.",
+    "liveCatalogue": "All five new modules exactly match the released question records in the private server catalogue.",
+    "ownerReview": "Pending user review of this five-lesson pilot."
+  }
+}

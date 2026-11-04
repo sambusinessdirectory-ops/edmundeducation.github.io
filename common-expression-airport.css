@@ -1,0 +1,32 @@
+.expression-map[data-theme=airport]{--forest:#183e3f;--cream:#fbf5e7;border-color:#d9c39a}
+[data-theme=airport] .expression-map-viewport{height:clamp(510px,74dvh,850px);background:#e4d1af;scrollbar-color:#7f8e87 #e9dec9}
+.airport-scenery,.airport-background,.airport-motion,.airport-route{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+.airport-background{object-fit:fill}.airport-motion{z-index:1}.airport-route{z-index:2}
+.airport-departures{position:absolute;left:1205px;top:37px;width:290px;height:123px;padding:6px 9px;color:#edf2ec;z-index:3;pointer-events:none;font:12px/21px ui-monospace,SFMono-Regular,Consolas,monospace;white-space:pre;overflow:hidden}
+.airport-departures strong{display:block;font:700 18px/24px system-ui;color:#f5e6bf;border-bottom:1px solid #d3c09855;margin-bottom:3px}.airport-departures div{height:21px}
+[data-theme=airport] .expression-map-stone{width:152px;margin-left:-76px;color:#fff7df;height:124px}
+[data-theme=airport] .expression-map-stone::before{left:31px;width:90px;height:62px;border:4px solid #f4d99d;background:linear-gradient(160deg,#45615e,#253b3e);box-shadow:0 5px 0 #a37e44,0 9px 0 #80643a,0 12px 13px #57452d40,inset 0 2px 2px #f4edcd44}
+[data-theme=airport] .expression-map-stone-number{top:12px;font-size:29px;text-shadow:none}
+[data-theme=airport] .expression-map-stone-caption{left:0;top:77px;width:152px;padding:3px 3px;font:600 15px/1.2 system-ui;color:#173e3c;background:#fff9e5d9;border:0;box-shadow:0 2px 4px #4a493b18;border-radius:7px;text-wrap:pretty}
+[data-theme=airport] .expression-map-stone-status{top:47px;right:12px;color:#173e3c;background:#fff3d6}
+[data-theme=airport] .expression-map-stone[data-complete=true]::before{background:linear-gradient(150deg,#99bc7a,#4e805b)}
+[data-theme=airport] .expression-map-stone[aria-pressed=true]::before{outline-color:#fff3ba;outline-width:3px;outline-offset:4px}
+[data-theme=airport] .airport-reserved{position:absolute;z-index:2;opacity:.7;pointer-events:none}
+.airport-reserved::before{filter:saturate(.3)}.airport-reserved small{display:block;font:11px/1.4 system-ui}
+[data-theme=airport] .expression-map-lesson-card{border-color:#bfad82;box-shadow:0 8px 22px #2c3b3330}
+[data-theme=airport] .expression-map-horse{z-index:5}
+[data-theme=airport][data-overview=true] .expression-map-lesson-card{top:auto!important;bottom:8px;left:50%!important;transform:translateX(-50%);width:min(490px,calc(100% - 20px));animation:none}
+[data-theme=airport][data-overview=true] .expression-map-lesson-card::before{display:none}
+@media(max-width:680px){[data-theme=airport] .expression-map-viewport{height:61dvh;min-height:400px}[data-theme=airport] .expression-map-heading h2 small{display:block;margin-left:0}}
+@media(prefers-reduced-motion:reduce){[data-theme=airport] *{animation:none!important}}
+/* Keep lesson entry below the lounge, leaving every platform unobscured. */
+[data-theme=airport] .expression-map-lesson-card,[data-theme=airport][data-overview=true] .expression-map-lesson-card{position:relative;top:auto!important;bottom:auto;left:auto!important;transform:none;width:100%;border:0;border-top:1px solid #c6b68f;border-radius:0;box-shadow:none;animation:none}
+[data-theme=airport] .expression-map-lesson-card::before{display:none}
+[data-theme=airport] .expression-map-selected{display:flex;align-items:center;gap:14px;padding:15px 25px}
+[data-theme=airport] .expression-map-selected-number{width:44px;height:44px;font-size:23px}
+[data-theme=airport] .expression-map-selected-copy{flex:1}
+[data-theme=airport] .expression-map-selected-copy h3{font-size:20px;margin:0 0 4px}
+[data-theme=airport] .expression-map-open{width:auto;min-width:175px}
+[data-theme=airport] .expression-map-stone[data-arrived=true] .expression-map-stone-caption{opacity:1}
+@media(max-width:680px){[data-theme=airport] .expression-map-selected{flex-wrap:wrap;padding:12px}[data-theme=airport] .expression-map-selected-copy h3{font-size:17px}[data-theme=airport] .expression-map-open{width:100%}}
+[data-theme=airport] .airport-reserved{text-align:center}

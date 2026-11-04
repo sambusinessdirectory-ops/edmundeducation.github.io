@@ -1,0 +1,2156 @@
+{
+  "id": "p3-095-the-biggest-impact",
+  "catalogueId": "p3-095",
+  "catalogueIds": [
+    "p3-095"
+  ],
+  "passage": 3,
+  "title": "The Biggest Impact",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "viii — An unexpected element",
+    "ii — The first piece of evidence",
+    "ix — A final decision",
+    "vii — A first-hand view",
+    "iv — Preservation strategies",
+    "iii — A fortunate consequence",
+    "arc-shaped feature",
+    "company policy",
+    "iridium",
+    "widespread scepticism",
+    "mass extinction",
+    "B",
+    "C",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "viii — An unexpected element",
+      "answerKey": "viii — An unexpected element",
+      "type": "Matching Headings",
+      "prompt": "Question 27",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph B 選 heading。Matching Headings 的核心不只在找一個出現過的細節字；更重要的是判斷整段圍繞甚麼中心發展。Paragraph B 的中心是：研究人員在 KT boundary 發現一種異常的化學元素，這個元素把他們帶向 asteroid / comet impact hypothesis。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers discovered that sedimentary layers at the KT boundary contained a concentration of iridium many times higher than normal — up to 120 times.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員發現，KT boundary 的沉積層含有比正常高很多倍的 iridium 濃度，最高可達 120 倍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Or were there?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "又或者，其實有跡象呢？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句和最後一句，可以先猜 Paragraph B 的功能：這段先提出一個異常發現，即 iridium 濃度極高；最後用問題句把讀者帶到下一段，暗示「撞擊痕跡」其實可能存在。中間部分自然會解釋這個 unexpected iridium 為何重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading viii 是 “An unexpected element”。這裡最有定位力的是 element。掃描 Paragraph B，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, this element is abundant in asteroids and comets…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這種元素在小行星和彗星中含量豐富。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “this element” 指前文的 iridium。所以 heading 中的 “element” 不是普通地說「一項因素」，它直接對應化學元素 iridium。再加上 “many times higher than normal — up to 120 times”，這就構成 unexpected 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers discovered that sedimentary layers at the KT boundary contained a concentration of iridium many times higher than normal — up to 120 times.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員發現，KT boundary 的沉積層中 iridium 的濃度比正常高很多倍，最高達 120 倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句已經包含 heading 的核心：iridium 是一種 chemical element，而它的濃度高得異常。後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most iridium disappeared when the Earth was molten, sinking into its metallic core.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球仍處於熔融狀態時，大部分 iridium 已經下沉到金屬核心之中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這解釋了為甚麼高濃度 iridium 出現在沉積層中令人意外：正常情況下，地殼附近不應有這麼多iridium。於是研究人員推測它來自 asteroids 或 comets。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“An unexpected element”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“iridium many times higher than normal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“this element is abundant in asteroids and comets”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： unexpected = many times higher than normal element = iridium unexpected element = 異常高濃度的 iridium"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading ii “The first piece of evidence” 很吸引，因為 Paragraph B 的 iridium 確實是證據之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過 Paragraph B 更精準的全段焦點是 iridium 這種異常元素。而且在後面的 summary 中， iridium 被寫成 “added further evidence”，所以它不是該篇敘述中最早出現的物理線索。因此 viii的 “unexpected element” 更貼近 Paragraph B 的整體設計。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "ii — The first piece of evidence",
+      "answerKey": "ii — The first piece of evidence",
+      "type": "Matching Headings",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph C 選 heading。Paragraph C 表面上有 oil company、gravity map、magnetic surveys、company policy 等資料，但全段真正中心是：Baltosser 早在 1960s 就看到一個不自然的 arc-shaped feature，後來 Camargo 和 Penfield 再次發現 matching arc，最終形成Chicxulub Crater 的證據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In actual fact, in the 1960s, a contractor named Baltosser, working for a Mexican state-owned oil company, had looked at a gravity map of the Yucatán Peninsula, near the Gulf of Mexico.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，在 1960 年代，一名名叫 Baltosser 的承包商為墨西哥一間國有石油公司工作時，曾查看墨西哥灣附近 Yucatán Peninsula 的重力圖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two arcs, sea-based and land-based, matched perfectly, showing a circle 180 kilometres wide, centred on the coastal village of Chicxulub, and so it became known as the Chicxulub Crater.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩條弧線，一條在海中，一條在陸上，完全吻合，顯示出一個直徑 180 公里的圓形結構，中心位於沿海村莊 Chicxulub，因此它後來被稱為 Chicxulub Crater。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph C 的功能：它從 Baltosser 早期看地圖開始，到兩條弧線吻合並形成 Chicxulub Crater 的證據結束。這段是發現 crater evidence 的故事。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii 是 “The first piece of evidence”。掃描 Paragraph C，要找 first / early / noticed /discovered / feature / evidence 這類概念。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“He noticed a large arc-shaped feature, showing a symmetry that could not have occurred naturally.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他注意到一個大型弧形特徵，呈現出不可能自然形成的對稱性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“could not have occurred naturally” 很重要，因為它說明這個 feature 不是普通地形，可能是巨大撞擊留下的痕跡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“He noticed a large arc-shaped feature, showing a symmetry that could not have occurred naturally.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他注意到一個大型弧形特徵，這個特徵顯示出一種不可能自然形成的對稱性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 crater evidence 的最早線索。後來 Camargo 和 Penfield 發現 underwater arc，兩條 arcs 完全吻合，顯示出一個 180 公里寬的圓形結構。這才把 Baltosser 早年的觀察連成 Chicxulub Crater。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first piece of evidence”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“in the 1960s”"
+            },
+            {
+              "kind": "quote",
+              "text": "“He noticed a large arc-shaped feature”"
+            },
+            {
+              "kind": "quote",
+              "text": "“could not have occurred naturally”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： first = in the 1960s, before Camargo and Penfield released the findings piece of evidence = arc-shaped feature with unnatural symmetry"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading v “Company procedures” 是最容易誤選的 heading，因為原文確實有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Company policy forbade him from releasing his findings…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司政策禁止他公開自己的發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是這只是解釋為甚麼發現被隱藏。Paragraph C 的主線是發現 arc-shaped feature，然後把land-based arc 和 sea-based arc 連成 Chicxulub Crater。用 “Company procedures” 做 heading會把一個原因細節放大成全段主旨。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "ix — A final decision",
+      "answerKey": "ix — A final decision",
+      "type": "Matching Headings",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph D 選 heading。Paragraph D 的內容包括發現被忽視、十多年證據累積、學界懷疑、其他解釋，以及最後 2010 年國際科學小組作出結論。整段最後落點是 conclusion。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1981, Camargo and Penfield released their findings, but the world was not listening.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1981 年，Camargo 和 Penfield 公開了他們的發現，但當時世界並沒有理會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They concluded that an asteroid impact, as evidenced by the Chicxulub Crater, was indeed the cause of the mass extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們得出結論：由 Chicxulub Crater 所證明的小行星撞擊，確實是那次大滅絕的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph D 的功能：它由「發現起初不受重視」開始，最後以「國際科學小組得出結論」作結。這正好對應 A final decision。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix 的定位核心是 final decision。原文沒有逐字使用 decision，但有很接近的動詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“They concluded…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“concluded” 就是科學小組在評估證據後得出最後判斷。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“It was perhaps this that led, in 2010, to an international panel of over 40 scientists being convened in order to specifically address the evidence. They concluded that an asteroid impact, as evidenced by the Chicxulub Crater, was indeed the cause of the mass extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許正是這些爭議，導致 2010 年一個由超過 40 名科學家組成的國際小組召開會議，專門處理相關證據。他們得出結論：由 Chicxulub Crater 所證明的小行星撞擊，確實是那次大滅絕的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “international panel” 和 “concluded” 令 heading ix 成立。文章不只說有人相信撞擊說；更準確地說，它寫到一個大型國際科學小組在審視證據後作出正式結論。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“A final decision”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“an international panel of over 40 scientists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“address the evidence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“They concluded…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： decision = concluded final = after years of evidence, scepticism and alternative explanations"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading x “Heated debate” 有一定吸引力，因為段內提到 “widespread scepticism” 和不同解釋，例如 volcanism、climate change、sea-level change。不過這些爭議是鋪墊，段落最後的主要落點是 2010 年小組的 conclusion。Matching Headings 要看全段最終功能，不要被中間的爭議句牽走。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "vii — A first-hand view",
+      "answerKey": "vii — A first-hand view",
+      "type": "Matching Headings",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph E 選 heading。Paragraph E 用連續時間順序描述撞擊現場：rock appears、vaporising、dust cloud、fires、shock waves、earthquakes、mega-tsunami、warming、winter。它像把讀者放在現場觀看整個災難過程。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Trying to picture that event, the most powerful ever in the Earth’s history, strains the imagination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要想像那次事件——地球歷史上最強大的事件——幾乎超出人的想像力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then, in the next few weeks, the huge amounts of carbon dioxide from the vaporisation of carbonate rock heat the Earth, but with the atmosphere choked with dust for years, sunlight is blocked, killing off plants, ultimately plunging the Earth into winter and the entire biosphere into absolute chaos.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著，在之後幾星期，碳酸鹽岩石汽化釋放出的大量二氧化碳令地球升溫；但大氣層多年被塵埃堵塞，陽光被遮蔽，植物死亡，最終令地球陷入寒冬，整個生物圈進入徹底混亂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句直接提示：這段要幫讀者 picture that event。最後一句展示災難的後續發展。因此 heading"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“A first-hand view” 雖然不是指真的有人親眼目睹；這裡的意思是文章用現場式敘述讓讀者像親歷一樣看見事件。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii 的定位概念是 view / picture / event sequence。Paragraph E 有非常清晰的sequence markers：“It begins…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The most immediate effect…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“A series of shock waves follows…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Next…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Then…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞把撞擊過程拍成一條時間線。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵組合："
+            },
+            {
+              "kind": "quote",
+              "text": "“It begins with a 10–15-kilometre-wide rock appearing from nowhere…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The most immediate effect is a cloud of superheated dust, ash, and steam…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“A series of shock waves follows…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Next there is a ‘mega-tsunami’…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Then, in the next few weeks…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事件由一塊 10 至 15 公里寬的岩石突然出現開始；最即時的影響是一團過熱的塵埃、灰燼和蒸汽；接著是一連串衝擊波；然後出現超大型海嘯；再之後幾星期，地球先升溫，之後因陽光被塵埃阻擋而陷入寒冬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種寫法的重點在視覺化和現場化。它沒有討論證據，也沒有處理哪些物種存活；這段的功能是帶讀者想像撞擊的具體場面。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“A first-hand view”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Trying to picture that event…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“It begins…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The most immediate effect…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Next…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Then…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： first-hand view = vivid, step-by-step imagined reconstruction picture that event = make the reader visualise the event"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading i “The situation in the sea” 可能令人誤選，因為 Paragraph E 有 mega-tsunami 和oceans。但 sea 只是災難鏈的一部分，整段還有 fires、shock waves、earthquakes、volcanic eruptions、atmospheric dust、global winter。Heading i 範圍太窄，不能覆蓋全段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "iv — Preservation strategies",
+      "answerKey": "iv — Preservation strategies",
+      "type": "Matching Headings",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph F 選 heading。這段的核心是：那麼多生物滅絕後，為甚麼仍有不少生物能留下來？答案包括 shelter in water、scavenge on land、feed on dead matter、insectivorous /scavenging / omnivorous habits。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The surprising fact is not that so many creatures became extinct, but that so many survived!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人驚訝的並非有這麼多生物滅絕；真正令人驚訝的是竟然有這麼多生物存活下來！"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consequently, insectivores, scavengers, or those with omnivorous eating habits, including mammals and smaller bird-like reptiles, were preserved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，食蟲動物、食腐動物，或有雜食習性的動物，包括哺乳類和較小的鳥形爬行動物，都被保存下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句提出 survived，最後一句說 were preserved。首尾句合起來，已經清楚指向 preservation /survival。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv 是 “Preservation strategies”。掃描 Paragraph F，要找 survived、shelter、scavenge、feed、were preserved 這類字。原文反覆提供生存方式："
+            },
+            {
+              "kind": "quote",
+              "text": "“shelter in the water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“scavenge on land”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feed on dead plant and animal matter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“were preserved”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都指向 survival / preservation。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is theorised that, like modern crocodiles, they were semi-aquatic and thus were able to shelter in the water from fires and blast damage, and yet could scavenge on land among the abundant dead animals for years afterwards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有理論認為，牠們像現代鱷魚一樣是半水棲動物，因此能躲在水中避開火災和爆炸傷害，同時在之後多年仍可在陸地上大量死亡動物之中覓食腐肉。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Similarly, insects, worms, and molluscs could all feed on dead plant and animal matter, allowing those that fed on these creatures to survive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，昆蟲、蠕蟲和軟體動物都可以吃死亡的植物和動物物質，這使得以牠們為食的生物能夠存活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩組句子都在講生存方法：避難位置和食物來源。Heading iv 的 “strategies” 不一定指動物有意識地制定策略；在這裡可理解為「使物種得以保存的方式」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Preservation strategies”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“shelter in the water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“scavenge on land”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feed on dead plant and animal matter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“were preserved”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： preservation = survived / were preserved strategies = sheltering, scavenging, feeding habits"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading i “The situation in the sea” 看似有道理，因為 Paragraph F 提到 “Sea-based life suffered disastrously”。不過這只是其中一句背景。全段真正焦點是哪些生物靠甚麼方式留下來，因此 iv 比 i 覆蓋得更完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "iii — A fortunate consequence",
+      "answerKey": "iii — A fortunate consequence",
+      "type": "Matching Headings",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求為 Paragraph G 選 heading。Paragraph G 的核心是：恐龍衰落後，哺乳類得到發展機會，最終導向人類出現。從人類角度看，這是災難中的幸運後果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, the dinosaurs as we know them, after 135 million years as the dominant land animal, were all but gone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，我們所認識的恐龍，在作為主要陸地動物 1.35 億年後，幾乎全部消失。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, were it not for that disastrous extinction 65 million years ago, we would not be here today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，如果沒有 6500 萬年前那場災難性滅絕，我們今天就不會在這裡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講恐龍消失，末句講人類因此才有今天。這一段已經不再講撞擊證據；它轉向一個後果： mammals 的興起和 human beings 的出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii 是 “A fortunate consequence”。掃描 Paragraph G，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“This allowed mammals… to emerge from the undergrowth, diversify and eventually rule the land.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這使哺乳類得以從灌木叢中出現，分化發展，最後統治陸地。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In an ironic consequence…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一個帶有諷刺意味的後果中……"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“consequence” 原字直接出現，並且後果是人類出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“In an ironic consequence, that class of animal ultimately led to the species Homo sapiens, or human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一個帶有諷刺意味的後果中，這一類動物最終導向 Homo sapiens，也就是人類這個物種。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, were it not for that disastrous extinction 65 million years ago, we would not be here today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，如果沒有 6500 萬年前那場災難性滅絕，我們今天就不會存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 fortunate consequence：mass extinction 本身是 disastrous，但它打開了 mammals 的發展空間，最終導致人類出現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“A fortunate consequence”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“This allowed mammals…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“In an ironic consequence…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“we would not be here today”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： consequence = allowed mammals to diversify and eventually led to humans fortunate = from human perspective, the disaster made our existence possible"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading iv “Preservation strategies” 在 Paragraph G 也有一點吸引力，因為文中提到 mammals是 small burrowing cat-like creatures，這些 attributes helped ensure survival。不過那只是補充mammal survival 的原因。全段焦點已轉向後果：mammals diversify、rule the land、ultimately led to human beings。所以 iii 更貼近主旨。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "arc-shaped feature",
+      "answerKey": "arc-shaped feature",
+      "type": "Summary Completion",
+      "prompt": "Question 33",
+      "translation": "承包商 Baltosser 是第一個辨認出 ______ 的人，但他不能公開這項資料。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Baltosser, a contractor, was the first to identify the 33 ______, but could not reveal this information…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先找人物位置"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In actual fact, in the 1960s, a contractor named Baltosser, working for a Mexican state-owned oil company, had looked at a gravity map of the Yucatán Peninsula, near the Gulf of Mexico.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，在 1960 年代，一名名叫 Baltosser 的承包商為墨西哥一間國有石油公司工作時，曾查看墨西哥灣附近 Yucatán Peninsula 的重力圖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two arcs, sea-based and land-based, matched perfectly, showing a circle 180 kilometres wide, centred on the coastal village of Chicxulub, and so it became known as the Chicxulub Crater.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海中和陸上的兩條弧線完全吻合，顯示出一個直徑 180 公里的圓形結構，中心位於 Chicxulub，因此它被稱為 Chicxulub Crater。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落首尾都和 crater evidence 有關，所以 Question 33 應在 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 Baltosser 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最強定位詞是 Baltosser 和 first to identify。原文沒有 directly say “identify”，但有"
+            },
+            {
+              "kind": "quote",
+              "text": "“noticed”：“He noticed a large arc-shaped feature, showing a symmetry that could not have occurred naturally.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他注意到一個大型弧形特徵，呈現出一種不可能自然形成的對稱性。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "檢查答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “the”，後面需要一個名詞短語。原文的 “a large arc-shaped feature” 太長，因為 large arc-shaped feature 有三個詞；題目限制最多兩個詞。保留核心名詞短語 arc-shaped feature，剛好兩個詞，符合要求。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Chicxulub Crater” 也在同段出現，而且是後來形成的名稱。但 Baltosser 當時直接看到的是arc-shaped feature；Chicxulub Crater 這個完整名稱是兩條 arcs 匹配後才出現。這題以Baltosser 的 first identification 為核心，所以 arc-shaped feature 最貼原句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "company policy",
+      "answerKey": "company policy",
+      "type": "Summary Completion",
+      "prompt": "Question 34",
+      "translation": "但他不能公開這項資料，原因是 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“...but could not reveal this information because of 34 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph C，因為這一句仍在講 Baltosser 為甚麼不能公開發現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 reveal 定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 reveal this information。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Company policy forbade him from releasing his findings…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司政策禁止他公開自己的發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“releasing his findings” 對應題目 “reveal this information”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "檢查答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “because of”，後面需要名詞或名詞短語。原文中的 Company policy 是兩個詞，完全符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“could not reveal this information because of…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Company policy forbade him from releasing his findings…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： could not = forbade reveal this information = releasing his findings because of = company policy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "iridium",
+      "answerKey": "iridium",
+      "type": "Summary Completion",
+      "prompt": "Question 35",
+      "translation": "多年後，在 KT boundary 發現 ______，加入了進一步證據。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Years later, the discovery of 35 ______ at the KT boundary added further evidence…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看證據段落"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers discovered that sedimentary layers at the KT boundary contained a concentration of iridium many times higher than normal — up to 120 times.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員發現，KT boundary 的沉積層含有比正常高很多倍的 iridium 濃度，最高可達 120 倍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Or were there?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "又或者，其實有跡象呢？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段整體就是 iridium evidence 和 impact hypothesis。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 KT boundary 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有 KT boundary，原文第一句直接重現。空格前是 “the discovery of”，所以答案應是被發現的東西。原文被發現的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a concentration of iridium”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "檢查答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若填 a concentration of iridium，超過兩個詞，而且空格只需要核心物質。答案應填 iridium。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the discovery of iridium at the KT boundary”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“sedimentary layers at the KT boundary contained a concentration of iridium”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： discovery of X = discovered that layers contained X X = iridium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "widespread scepticism",
+      "answerKey": "widespread scepticism",
+      "type": "Summary Completion",
+      "prompt": "Question 36",
+      "translation": "然而，在一個國際委員會確認這件事之前，他們仍要克服 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, they had to overcome 36 ______ until an international commission confirmed this event…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找爭議和確認"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1981, Camargo and Penfield released their findings, but the world was not listening.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1981 年，Camargo 和 Penfield 公開了他們的發現，但當時世界並沒有理會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They concluded that an asteroid impact, as evidenced by the Chicxulub Crater, was indeed the cause of the mass extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們得出結論：由 Chicxulub Crater 所證明的小行星撞擊，確實是那次大滅絕的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段從不被理會，到被國際小組確認，中間正好有他們要 overcome 的阻力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 overcome 定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 “overcome”，但有阻力詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“...although widespread scepticism existed and, to some extent, remains today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然當時存在廣泛懷疑，而且某程度上至今仍然存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“widespread scepticism” 就是他們要克服的東西。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "檢查答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “overcome”，後面需要障礙或困難。widespread scepticism 是兩個詞，符合字數限制，也能自然接在 overcome 後面。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“had to overcome…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“widespread scepticism existed…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： overcome = deal with / move past scepticism = doubt from the scientific world widespread scepticism = 廣泛懷疑"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "mass extinction",
+      "answerKey": "mass extinction",
+      "type": "Summary Completion",
+      "prompt": "Question 37",
+      "translation": "確認這次事件是隨後 ______ 的真正原因。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“...confirmed this event as the real reason for the 37 ______ which followed.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph D，因為這題承接上一題的 international panel / conclusion。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 real reason 定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 real reason 對應原文中的 cause。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They concluded that an asteroid impact, as evidenced by the Chicxulub Crater, was indeed the cause of the mass extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們得出結論：由 Chicxulub Crater 所證明的小行星撞擊，確實是那次大滅絕的原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "檢查答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “the”，後面需要一個名詞短語。mass extinction 兩個詞，完全符合要求。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the real reason for the mass extinction”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“was indeed the cause of the mass extinction”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： real reason = indeed the cause mass extinction = mass extinction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — the Earth warmed before going cold",
+      "answerKey": "B — the Earth warmed before going cold",
+      "type": "Multiple Choice",
+      "prompt": "After the asteroid struck the Earth:",
+      "translation": "小行星撞擊地球之後，發生了甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看災難順序"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Trying to picture that event, the most powerful ever in the Earth’s history, strains the imagination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要想像那次事件——地球歷史上最強大的事件——幾乎超出人的想像力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then, in the next few weeks, the huge amounts of carbon dioxide from the vaporisation of carbonate rock heat the Earth, but with the atmosphere choked with dust for years, sunlight is blocked, killing off plants, ultimately plunging the Earth into winter and the entire biosphere into absolute chaos.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著，在之後幾星期，碳酸鹽岩石汽化釋放出的大量二氧化碳令地球升溫；但大氣層多年被塵埃堵塞，陽光被遮蔽，植物死亡，最終令地球陷入寒冬，整個生物圈徹底混亂。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項關鍵詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "四個選項都在考事件順序，所以要掃描 vaporisation、shock waves、tsunami、earthquakes、volcanic eruptions、heat、winter。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最重要的原文句是最後一句，因為它同時提供 heat the Earth 和 plunging the Earth into winter。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀正確選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the huge amounts of carbon dioxide from the vaporisation of carbonate rock heat the Earth, but with the atmosphere choked with dust for years, sunlight is blocked... ultimately plunging the Earth into winter…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "碳酸鹽岩石汽化所釋放的大量二氧化碳令地球升溫；但由於大氣層多年被塵埃堵塞，陽光被遮蔽，最終令地球陷入寒冬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有清楚時間順序：先：carbon dioxide heat the Earth後：sunlight is blocked → Earth into winter因此答案是 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析A the shock wave was followed by the object’s vaporisation.錯在順序。原文說 rock “almost instantaneously vaporising”，之後才 “A series of shock waves follows”。選項把先後倒轉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C the tsunami caused earthquakes and volcanic eruptions.錯在因果。原文說 “shock waves… triggering earthquakes and volcanic eruptions”，然後才"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Next there is a mega-tsunami”。地震和火山爆發由 shock waves 觸發，不是由 tsunami 造成。 D the eruptions plunged the atmosphere into chaos.錯在主體。原文說 atmosphere choked with dust、sunlight blocked，最後 biosphere 進入 chaos。選項把 chaos 歸因到 eruptions，原文沒有這樣建立因果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "C — the dead animals were important",
+      "answerKey": "C — the dead animals were important",
+      "type": "Multiple Choice",
+      "prompt": "In the aftermath of the asteroid strike",
+      "translation": "在小行星撞擊後的時期，發生了甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看存活原因"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The surprising fact is not that so many creatures became extinct, but that so many survived!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人驚訝的並非有這麼多生物滅絕；真正令人驚訝的是竟然有這麼多生物存活下來！"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consequently, insectivores, scavengers, or those with omnivorous eating habits, including mammals and smaller bird-like reptiles, were preserved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，食蟲動物、食腐動物，或有雜食習性的動物，包括哺乳類和較小的鳥形爬行動物，都被保存下來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的中心是 survival。Question 39 問 aftermath，即撞擊後的情況，所以要看這段如何解釋生物靠甚麼活下來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 有 dead animals。掃描 Paragraph F，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“...could scavenge on land among the abundant dead animals for years afterwards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們之後多年仍可在陸地上大量死亡動物之中覓食腐肉。"
+            },
+            {
+              "kind": "label",
+              "text": "另外："
+            },
+            {
+              "kind": "quote",
+              "text": "“...feed on dead plant and animal matter…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以死亡植物和動物物質為食。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句都顯示 dead animals / dead matter 對存活非常重要。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀正確選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is theorised that, like modern crocodiles, they were semi-aquatic and thus were able to shelter in the water from fires and blast damage, and yet could scavenge on land among the abundant dead animals for years afterwards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有理論認為，牠們像現代鱷魚一樣是半水棲動物，因此能在水中避開火災和爆炸傷害，同時在之後多年仍可在陸地上大量死亡動物之中覓食腐肉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 dead animals 成為長期食物來源。後文又說 insects、worms、molluscs 能吃 dead plant and animal matter，進一步支撐 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析A all the dinosaurs died.範圍太絕對。Paragraph A 已說更嚴格來說是 all non-avian dinosaurs；Paragraph F 也提到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“smaller bird-like reptiles” survived。選項用 all，過度概括。 B all reptiles died.明顯和原文相反。Paragraph F 說 crocodiles 的祖先 survived，較小的 bird-like reptiles 也 were preserved。 D the water allowed shelter for mammals.水中避難對應的是 crocodiles 的祖先，不是 mammals。mammals 的存活另有 eating habits 和burrowing attributes 支撐。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "A — consumed dead animals and plants",
+      "answerKey": "A — consumed dead animals and plants",
+      "type": "Multiple Choice",
+      "prompt": "Mammals of that time survived because they",
+      "translation": "當時的哺乳類能存活，是因為牠們……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找 mammals 的存活原因"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要目標段落：Paragraph F補充段落：Paragraph G Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The surprising fact is not that so many creatures became extinct, but that so many survived!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人驚訝的並非有這麼多生物滅絕；真正令人驚訝的是竟然有這麼多生物存活下來！"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consequently, insectivores, scavengers, or those with omnivorous eating habits, including mammals and smaller bird-like reptiles, were preserved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，食蟲動物、食腐動物，或有雜食習性的動物，包括哺乳類和較小的鳥形爬行動物，都被保存下來。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 也補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“This allowed mammals, then only small burrowing cat-like creatures (attributes which had also helped ensure their survival throughout the disaster), to emerge from the undergrowth…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這使當時仍只是細小、會挖洞、像貓一樣的哺乳類能從灌木叢中冒起；這些特徵也曾幫助牠們在災難中存活。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 mammals 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中 mammals 直接出現在 Paragraph F 最後一句。題目問 survived because they，所以要往前看原因鏈："
+            },
+            {
+              "kind": "quote",
+              "text": "“insects, worms, and molluscs could all feed on dead plant and animal matter, allowing those that fed on these creatures to survive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "昆蟲、蠕蟲和軟體動物都可以吃死亡的植物和動物物質，這使得以牠們為食的生物能夠存活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著原文說 insectivores、scavengers、omnivores，包括 mammals，都 were preserved。這建立了 food source → survival 的鏈條。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀正確選項"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“consumed dead animals and plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "吃死亡的動物和植物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是四個選項中最有原文支援的一項。原文直接提到 dead plant and animal matter，並接著說insectivores、scavengers、omnivores，包括 mammals，被保存下來。嚴格來說，部分 mammals可能直接吃腐肉或雜食，部分可能吃那些以 dead matter 維生的小生物；但在四個選項中，A 最能概括 Paragraph F 的 survival food chain。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析B were large and strong.原文方向相反。Paragraph G 說當時 mammals 是 “small burrowing cat-like creatures”，不是large and strong。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C lived in the shadows of trees.這錯用了 “undergrowth”。原文說 mammals later emerged from the undergrowth，意思是後來從低矮植被或灌木叢中冒起、開始發展，不是說牠們因為住在樹蔭下而存活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D were a special class of animals.原文的確說 “that class of animal ultimately led to Homo sapiens”，但這是在講 mammals 後來導向人類，不是存活原因。Question 40 問 survived because they，所以要找災難期間的食物或生存方式。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Biggest Impact.pdf",
+    "sha256": "77e500989ba599d65bfff70d304da2983d30f3bccf7bd452dbee225eaa511544",
+    "pageCount": 25
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "A 介紹 KT boundary、6500 萬年前的 mass extinction，並提出「原因是甚麼」這個問題。 B 發現異常高濃度的 iridium，提出 asteroid / comet impact hypothesis。 C 交代 Baltosser 最早發現 arc-shaped feature，後來 Camargo 和 Penfield 找到 matching arcs，形成 Chicxulub Crater 的證據。 D 說明發現起初不受重視，經過十多年證據累積和爭議後，2010 年國際科學小組作出結論。 E 以想像式、現場式的方式描述撞擊發生後的一連串災難。 F 解釋部分生物如何存活，包括 crocodiles、insects、worms、molluscs、insectivores、scavengers、omnivores、mammals。 G 說明恐龍衰落後，哺乳類得以興起，最終出現人類。",
+        "label": "落"
+      }
+    ]
+  }
+}

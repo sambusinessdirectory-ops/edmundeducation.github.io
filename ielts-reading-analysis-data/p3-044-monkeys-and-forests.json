@@ -1,0 +1,1951 @@
+{
+  "id": "p3-044-monkeys-and-forests",
+  "catalogueId": "p3-044",
+  "catalogueIds": [
+    "p3-044"
+  ],
+  "passage": 3,
+  "title": "Monkeys and Forests",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "G",
+    "A",
+    "C",
+    "B",
+    "H",
+    "D",
+    "C",
+    "A",
+    "B",
+    "fruit",
+    "plant toxins",
+    "birth",
+    "water",
+    "drought"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "A reference to the rate of reduction in forest habitats",
+      "translation": "哪一段提到森林棲息地減少的速度？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Growing human population pressures in Central and South America have led to persistent destruction of forests.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中南美洲不斷增加的人口壓力，導致森林持續被破壞。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The howlers eat the leaves and fruit of the shade trees, leaving the valuable cacao pods alone, so the farmers tolerate them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Howlers 吃遮蔭樹的葉和果，卻不碰有價值的 cacao pods，所以農民容忍牠們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph G 會處理兩個方向：一是森林被人類活動破壞，二是 howlers如何在人類改造的農業地景中生存。題目問 “rate of reduction”，即森林減少速度，第一句的persistent destruction 已經把目標段落縮小到 G。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“rate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reduction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“forest habitats”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph G 時，要留意數字和時間單位，因為 “rate” 通常會用 “per year / yearly /annually” 表示。原文中找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the 1990s, about 1.1 million acres of Central American forest were felled yearly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1990 年代，每年約有 110 萬英畝中美洲森林被砍伐。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這句的主語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“about 1.1 million acres of Central American forest”"
+            },
+            {
+              "kind": "label",
+              "text": "核心動詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“were felled”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是被砍伐。"
+            },
+            {
+              "kind": "label",
+              "text": "時間和速度訊號是："
+            },
+            {
+              "kind": "quote",
+              "text": "“yearly”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即每年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “rate of reduction in forest habitats”。原文沒有逐字使用 “reduction”，但 “were felled yearly” 就是森林面積每年減少的速度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係如下：● rate = yearly● reduction = were felled● forest habitats = Central American forest所以答案是 G。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 Paragraph A。A 也說 “Most of the surrounding land was clear-cut for pasture”，確實有森林被砍伐，但它沒有提供速度或每年數字。Question 27 要找 rate，所以真正控制答案的是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“yearly”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "An area where only one species of monkey survived while the other two species vanished",
+      "translation": "哪一段提到某個地區只剩一種猴子生存，另外兩種猴子消失？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ken Glander, a primatologist from Duke University, gazes into the canopy, tracking the female’s movements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Duke University 的靈長類學家 Ken Glander 望向樹冠層，追蹤那隻雌猴的動作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of the surrounding land was clear-cut for pasture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "周圍大部分土地都被砍伐，改成牧場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph A 會交代研究場景，以及森林被清除後猴子棲息地受影響。題目問某地只剩一種猴子，這種資訊通常會在研究場地介紹中出現，所以 A 很值得掃描。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“only one species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other two species vanished”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接說 “only one species survived”，但有三種猴子的對比："
+            },
+            {
+              "kind": "quote",
+              "text": "“This howler belongs to a population that has lived for decades at Hacienda La Pacifica, a working cattle ranch in Guanacaste province. Other native primates—white-faced capuchin monkeys and spider monkeys—were once common in this area, too, but vanished after the Pan-American Highway was built nearby in the 1950s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這隻 howler 屬於一個已在 Hacienda La Pacifica 生活了數十年的族群；這裡是 Guanacaste 省一個仍在運作的牧牛場。其他本地靈長類，例如 white-faced capuchin monkeys 和 spider monkeys，也曾經在這一帶很常見，但在 1950 年代附近建成 Pan-American Highway 後便消失了。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有一個清楚的三方比較：● howler monkeys：has lived for decades表示仍在當地存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● white-faced capuchin monkeys：were once common, but vanished曾經常見，但已消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● spider monkeys：were once common, but vanished曾經常見，但已消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “only one species of monkey survived while the other two species vanished”。這是對原文的概括：● only one species survived = howlers lived for decades at La Pacifica● other two species vanished = capuchins and spider monkeys vanished所以答案是 A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 Paragraph D。D 說 Santa Rosa National Park 現在有三種猴子，所以和題目「只剩一種」不合。看到三種猴名重現時，要比較動詞：A 的動詞是 lived / vanished，D 的動詞是 hosts。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "A reason why howler monkeys choose new leaves as food over old ones",
+      "translation": "哪一段解釋 howler monkeys 為何選新葉作食物，而較不選老葉？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All primates, including humans, have some ability to handle plant toxins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有靈長類，包括人類，都有一定能力處理植物毒素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In younger forests, trees put most of their limited energy into growing wood, leaves and fruit, so they produce much lower levels of toxin than do well-established, old-growth trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在較年輕的森林中，樹木把有限能量多用於長木材、葉子和果實，因此比成熟穩定的 old-growth trees 產生低得多的毒素水平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段核心是 plant toxins 和 younger forests。題目問 new leaves vs old ones，應該找新舊森林、毒素高低、葉子是否適合 howlers 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“new leaves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“old ones”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reason”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文不一定用 “new leaves”，但會用 “regenerating forests / younger forests / old-growth trees”表示新舊差異。掃描 Paragraph C，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The leaves that grow in regenerating forests, like those at La Pacifica, are actually more howler-friendly than those produced by the undisturbed, centuries-old trees that survive farther south, in the Amazon Basin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 La Pacifica 這類再生森林中生長的葉子，實際上比更南方 Amazon Basin 中未受干擾、數百年老樹所產生的葉子更適合 howlers。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "真正原因在下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In younger forests, trees put most of their limited energy into growing wood, leaves and fruit, so they produce much lower levels of toxin than do well-established, old-growth trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年輕森林中的樹把有限能量多用於生長木材、葉子和果實，所以它們產生的毒素水平遠低於成熟的 old-growth trees。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “choose new leaves as food over old ones”。原文的邏輯是：● regenerating / younger forests 的葉子較 howler-friendly；● old-growth trees 的葉子毒素水平較高；● 年輕樹木毒素較低，因此較適合 leaf-eating howlers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● new leaves = leaves in regenerating / younger forests● old ones = leaves produced by centuries-old / old-growth trees● reason = much lower levels of toxin所以答案是 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 Paragraph B。B 說 howlers 是 leaf-eaters，也談植物 chemical defences，但「新葉比老葉更適合」這個比較要到 Paragraph C 才完整出現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "A reference to howler monkeys’ diet and eating habits",
+      "translation": "哪一段提到 howler monkeys 的飲食和進食習慣？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Howlers persist at La Pacifica, Glander explains, because they are leaf-eaters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Glander 解釋，howlers 能在 La Pacifica 持續生存，因為牠們是吃葉動物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Plants have evolved a variety of chemical defences, ranging from bad-tasting tannins, which bind with plant-produced nutrients, rendering them indigestible, to deadly poisons, such as alkaloids and cyanide.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "植物已演化出多種化學防禦，從難吃的 tannins 到致命毒素都有；tannins 會和植物產生的養分結合，使其難以消化，而毒素例子包括 alkaloids 和 cyanide。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph B 一開始直接說 howlers 是 leaf-eaters，後面再接到植物防禦。題目問 diet and eating habits，第一句已經非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“diet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“eating habits”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“They eat fruit when it’s available but, unlike capuchin and spider monkeys, do not depend on large areas of fruiting trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有水果時，牠們會吃水果；但與 capuchin 和 spider monkeys 不同，牠們不依賴大片結果樹。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Howlers can survive anywhere you have half a dozen trees, because their eating habits are so flexible,” he says."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，只要有大約六棵樹，howlers 就能在任何地方生存，因為牠們的進食習慣非常靈活。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本題的 “diet and eating habits” 在 Paragraph B 中直接由三層資料建立： 1. “they are leaf-eaters”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們吃葉子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. “They eat fruit when it’s available”有水果時也吃水果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. “their eating habits are so flexible”牠們飲食習慣靈活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這比其他段落更完整地描述 diet。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 主要解釋植物毒素，Paragraph F 講葉中水分，兩者都和食物有關，但題目要找的是一般飲食和 eating habits 的參照。Paragraph B 同時有 “leaf-eaters”、“eat fruit” 和 “eating habits”，所以最準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Information",
+      "prompt": "A reference to changing farmers’ attitudes toward wildlife",
+      "translation": "哪一段提到農民對野生動物態度的改變？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Estrada believes the monkeys bring underappreciated benefits to such farms, dispersing the seeds of fig and other shade trees and fertilising the soil with faeces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Estrada 認為猴子為這類農場帶來被低估的好處，例如散播 fig 和其他遮蔭樹的種子，並用糞便肥沃土壤。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We’re moving away from that vision and beginning to consider ways in which agricultural activities may become a tool for the conservation of primates in human-modified landscapes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們正逐漸離開那種看法，開始思考農業活動如何能在人類改造的地景中成為保育靈長類的工具。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已清楚顯示 Paragraph H 談 agriculture 和 conservation 的新關係。題目有 farmers’ attitudes 和 wildlife，這段中的 coexistence、benefits、tool for conservation 都很貼近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“farmers’ attitudes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wildlife”"
+            },
+            {
+              "kind": "quote",
+              "text": "“changing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“He hopes that farmers will begin to see the advantages of coexisting with wild monkeys, which include potential ecotourism projects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他希望農民會開始看見與野生猴子共存的好處，這些好處包括潛在的生態旅遊項目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“will begin to see” 是態度轉變的核心。它表示農民以前可能主要把猴子視作麻煩，現在有機會開始看到共存優勢。“coexisting with wild monkeys” 對應題目中的 wildlife。“advantages” 對應態度改善的原因。題目說 “changing farmers’ attitudes toward wildlife”。原文說 “farmers will begin to see the advantages of coexisting with wild monkeys”。改寫關係如下：● farmers’ attitudes changing = will begin to see the advantages● wildlife = wild monkeys● toward wildlife = coexisting with wild monkeys所以答案是 H。中伏位在 Paragraph G。G 說 “the farmers tolerate them”，這已經是農民接受猴子的例子；但題目問 changing attitudes，更直接的語言在 H 的 “will begin to see the advantages”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "The advantage of howler monkeys’ ability to live in a fragmented habitat",
+      "translation": "哪一段提到 howler monkeys 能在破碎棲息地生活的優勢？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The importance of maturing forests to primates is a subject of study at Santa Rosa National Park, about 35 miles northwest of Hacienda La Pacifica.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hacienda La Pacifica 西北約 35 英里的 Santa Rosa National Park，正在研究成熟森林對靈長類的重要性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spider monkeys, on the other hand, occupy a huge home range, so they can’t make it in fragmented habitat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，spider monkeys 佔用很大的活動範圍，因此無法在破碎棲息地中生存。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 很明顯在比較不同猴種對森林成熟程度和棲息地破碎化的適應能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目直接出現 fragmented habitat，最後一句也逐字出現，定位非常穩。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“fragmented habitat”"
+            },
+            {
+              "kind": "quote",
+              "text": "“advantage”"
+            },
+            {
+              "kind": "quote",
+              "text": "“howler monkeys’ ability”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中相關證據是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Howlers are more resilient than capuchins and spider monkeys for several reasons,” Fedigan explains. “They can live within a small home range, as long as the trees have the right food for them. Spider monkeys, on the other hand, occupy a huge home range, so they can’t make it in fragmented habitat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Fedigan 解釋，howlers 比 capuchins 和 spider monkeys 更有韌性，有幾個原因。只要樹上有牠們需要的食物，牠們就能在很小的活動範圍內生活。相反，spider monkeys 需要很大的活動範圍，所以無法在破碎棲息地中生存。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本題的答案鏈是：● howlers can live within a small home range howlers 能在小活動範圍中生存；● as long as the trees have the right food條件是樹上有合適食物；● spider monkeys occupy a huge home range spider monkeys 需要大範圍；● so they can’t make it in fragmented habitat因此牠們無法在破碎棲息地生存。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “advantage of howler monkeys’ ability to live in a fragmented habitat”。原文用比較方式表達優勢：howlers 的 small home range 需求使牠們比 spider monkeys 更能應對 fragmented habitat。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "C — A cacao plantation in Tabasco, Mexico",
+      "answerKey": "C — A cacao plantation in Tabasco, Mexico",
+      "type": "Matching Places",
+      "prompt": "A place where howler monkeys benefit the local region’s agriculture",
+      "translation": "哪個地方的 howler monkeys 對當地農業有好處？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G + Paragraph H Paragraph G 第一和最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Growing human population pressures in Central and South America have led to persistent destruction of forests.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中南美洲人口壓力增加，導致森林持續被破壞。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The howlers eat the leaves and fruit of the shade trees, leaving the valuable cacao pods alone, so the farmers tolerate them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Howlers 吃遮蔭樹的葉和果，卻不碰有價值的 cacao pods，因此農民容忍牠們。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 第一和最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Estrada believes the monkeys bring underappreciated benefits to such farms, dispersing the seeds of fig and other shade trees and fertilising the soil with faeces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Estrada 認為猴子為這類農場帶來被低估的好處，包括散播種子和用糞便肥沃土壤。"
+            },
+            {
+              "kind": "quote",
+              "text": "“We’re moving away from that vision and beginning to consider ways in which agricultural activities may become a tool for the conservation of primates in human-modified landscapes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們正逐漸從農業與保育衝突的想法轉向另一種思路：農業活動可以成為人類改造地景中保育靈長類的工具。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“benefit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“agriculture”"
+            },
+            {
+              "kind": "quote",
+              "text": "“place”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 說 benefits to farms，但 “such farms” 要回看 Paragraph G 的具體地方："
+            },
+            {
+              "kind": "quote",
+              "text": "“He and his colleagues recently studied the ecology of a group of mantled howler monkeys that thrive in a habitat completely altered by humans: a cacao plantation in Tabasco, Mexico.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他和同事最近研究了一群 mantled howler monkeys 的生態；牠們在一個完全由人類改造的棲息地中繁盛生活：墨西哥 Tabasco 的一個 cacao plantation。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 的好處包括：● dispersing seeds散播種子；● fertilising the soil with faeces以糞便肥沃土壤。"
+            },
+            {
+              "kind": "label",
+              "text": "這些都屬於對農業地景的好處。地點來源要回到 Paragraph G："
+            },
+            {
+              "kind": "quote",
+              "text": "“a cacao plantation in Tabasco, Mexico”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 D “Estación de Biología Los Tuxtlas”。那是 Estrada 所屬研究機構，不是猴子為農業帶來好處的農場地點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "A — Hacienda La Pacifica",
+      "answerKey": "A — Hacienda La Pacifica",
+      "type": "Matching Places",
+      "prompt": "A place that was the original home of all three native monkey species",
+      "translation": "哪個地方曾經是三種本地猴子的共同棲息地？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ken Glander, a primatologist from Duke University, gazes into the canopy, tracking the female’s movements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Duke University 的靈長類學家 Ken Glander 望向樹冠層，追蹤那隻雌猴的活動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of the surrounding land was clear-cut for pasture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "周圍大部分土地都被砍伐改成牧場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 是研究場地背景，並帶出土地用途改變。題目問原本有三種本地猴子的地方，很可能出現在這種場地介紹中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“all three native monkey species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“original home”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This howler belongs to a population that has lived for decades at Hacienda La Pacifica, a working cattle ranch in Guanacaste province. Other native primates—white-faced capuchin monkeys and spider monkeys—were once common in this area, too, but vanished after the Pan-American Highway was built nearby in the 1950s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這隻 howler 屬於一個在 Hacienda La Pacifica 生活了數十年的族群；其他本地靈長類，包括white-faced capuchin monkeys 和 spider monkeys，也曾經在這一帶常見，但在 1950 年代附近建成 Pan-American Highway 後便消失。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的 “all three” 指： 1. mantled howler monkeys 2. white-faced capuchin monkeys 3. spider monkeys原文說 howlers 已在 Hacienda La Pacifica 生活數十年，而其他兩種 “were once common in this area, too”。“once common” 表示以前常見，所以這個地方曾經同時有三種本地猴子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● original home = once common in this area● all three native monkey species = howlers + capuchins + spider monkeys● place = Hacienda La Pacifica所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "B — Santa Rosa National Park",
+      "answerKey": "B — Santa Rosa National Park",
+      "type": "Matching Places",
+      "prompt": "A place where capuchin monkeys find a better habitat",
+      "translation": "哪個地方為 capuchin monkeys 提供較好的棲息環境？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The importance of maturing forests to primates is a subject of study at Santa Rosa National Park, about 35 miles northwest of Hacienda La Pacifica.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hacienda La Pacifica 西北約 35 英里的 Santa Rosa National Park，正在研究成熟森林對靈長類的重要性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spider monkeys, on the other hand, occupy a huge home range, so they can’t make it in fragmented habitat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，spider monkeys 需要很大的活動範圍，因此無法在破碎棲息地中生存。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Santa Rosa National Park 是本段研究地點，並且段落會比較不同猴種對森林環境的需要。題目問 capuchin monkeys find a better habitat，應該看本段中 capuchins 如何使用 reborn forests。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“capuchin monkeys”"
+            },
+            {
+              "kind": "quote",
+              "text": "“better habitat”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The park hosts populations not only of mantled howlers but also of white-faced capuchins and spider monkeys. Yet the forests there are young, most of them less than 50 years old. Capuchins were the first to begin using the reborn forests, when the trees were as young as 14 years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個公園不只擁有 mantled howlers，也有 white-faced capuchins 和 spider monkeys。可是那裡的森林很年輕，大部分少於 50 年。Capuchins 是最早開始使用這些再生森林的猴子，當時樹木只有 14 年左右。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "地點 “the park” 指 Paragraph D 開頭的 Santa Rosa National Park。Capuchins 能很早使用reborn forests，表示這種年輕再生森林能成為牠們可用的棲息地。與 La Pacifica 相比， Paragraph A 說 capuchins 在那一帶 vanished；Paragraph D 說 Santa Rosa hosts capuchins and they were first to use reborn forests。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，題目中的 “find a better habitat” 對應：● park hosts capuchins● capuchins were first to begin using the reborn forests答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "fruit",
+      "answerKey": "fruit",
+      "type": "Sentence Completion",
+      "prompt": "Howlers survive at La Pacifica because they can feed on leaves when 36 ______ is not easily found",
+      "translation": "Howlers 能在 La Pacifica 生存，因為當 ______ 不容易找到時，牠們仍能吃葉子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Howlers persist at La Pacifica, Glander explains, because they are leaf-eaters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Glander 解釋，howlers 能在 La Pacifica 持續生存，因為牠們是吃葉動物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Plants have evolved a variety of chemical defences, ranging from bad-tasting tannins, which bind with plant-produced nutrients, rendering them indigestible, to deadly poisons, such as alkaloids and cyanide.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "植物已演化出多種化學防禦，從難吃的 tannins 到致命毒素都有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接說明 howlers 在 La Pacifica 生存的原因：牠們可以吃葉子。題目問當某種食物難找時，牠們可改吃葉子，應看本段中 fruit 和 fruiting trees 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“La Pacifica”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feed on leaves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not easily found”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“They eat fruit when it’s available but, unlike capuchin and spider monkeys, do not depend on large areas of fruiting trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有水果時，牠們會吃水果；但與 capuchin 和 spider monkeys 不同，牠們不依賴大片結果樹。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子把原文改成條件句：● 原文：They eat fruit when it’s available有水果時吃水果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● 題目：when fruit is not easily found當水果不容易找到時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文還說 howlers “do not depend on large areas of fruiting trees”，所以即使水果資源不足，牠們仍能靠葉子生存。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要名詞，且最多兩個字。原文最直接答案是 fruit。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 是 fruit。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "plant toxins",
+      "answerKey": "plant toxins",
+      "type": "Sentence Completion",
+      "prompt": "Howlers have a better ability to tolerate the 37 ______, which old and young trees use to protect themselves",
+      "translation": "Howlers 對 ______ 有較好的忍受能力，而老樹和年輕樹都會用這些東西保護自己。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All primates, including humans, have some ability to handle plant toxins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有靈長類，包括人類，都有一定能力處理植物毒素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In younger forests, trees put most of their limited energy into growing wood, leaves and fruit, so they produce much lower levels of toxin than do well-established, old-growth trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在年輕森林中，樹木把有限能量多用於生長木材、葉子和果實，因此產生的毒素水平比成熟老樹低很多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段處理 plant toxins、tree age 和 howlers 吃葉能力。題目中的 tolerate對應 handle / detoxify / neutralise。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“tolerate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“old and young trees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“protect themselves”"
+            },
+            {
+              "kind": "label",
+              "text": "原文先在 Paragraph B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Plants have evolved a variety of chemical defences…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "植物已演化出多種化學防禦。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“All primates, including humans, have some ability to handle plant toxins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有靈長類都有一定能力處理植物毒素。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“For leaf-eaters, long-term exposure to a specific plant toxin can increase their ability to neutralise the poison and absorb the leaf nutrients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對吃葉動物來說，長期接觸某種特定植物毒素，能提高牠們中和毒素並吸收葉子養分的能力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “tolerate” 是對 “handle / neutralise” 的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文最適合填入空格的短語是 plant toxins，因為：● “handle plant toxins” = 處理植物毒素；● “specific plant toxin” = 特定植物毒素；● “neutralise the poison” = 中和毒素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Paragraph B 的 “chemical defences” 也指植物保護自己的方式，但題目說 “tolerate the____”，最自然的搭配是 tolerate / handle plant toxins。空格要求最多兩個字，plant toxins 正好兩字，來自原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 37 是 plant toxins。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “chemical defences”。它能解釋植物防禦概念，但題目中的 tolerate 更直接連到Paragraph C 的 “handle plant toxins”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "birth",
+      "answerKey": "birth",
+      "type": "Sentence Completion",
+      "prompt": "Compared with spider monkeys and capuchins, howlers have a faster 38 ______ rate (about once every two years).",
+      "translation": "與 spider monkeys 和 capuchins 相比，howlers 有較快的 ______ rate，大約每兩年一次。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Howlers also reproduce faster than do other monkey species in the area.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Howlers 的繁殖速度也比當地其他猴種更快。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also, while a female spider monkey will have a baby about once every four years, well-fed howlers can produce an infant every two years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，雌性 spider monkey 大約四年生一胎，而食物充足的 howlers 可以每兩年生一隻幼猴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 功能非常清楚：比較 howlers、capuchins 和 spider monkeys 的繁殖速度。題目有 “once every two years”，直接對應最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“once every two years”"
+            },
+            {
+              "kind": "quote",
+              "text": "“faster”"
+            },
+            {
+              "kind": "quote",
+              "text": "“spider monkeys and capuchins”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Capuchins don’t bear their first young until about seven years old, and spider monkeys do so even later, but howlers give birth for the first time at about 3.5 years of age.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Capuchins 到大約七歲才生第一胎，spider monkeys 更晚，但 howlers 大約 3.5 歲便首次生育。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“well-fed howlers can produce an infant every two years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "食物充足的 howlers 可以每兩年生一隻幼猴。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目空格前後是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a faster ______ rate”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "需要一個名詞，組成自然短語。原文沒有 “reproductive rate” 這個完整短語，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“give birth”"
+            },
+            {
+              "kind": "quote",
+              "text": "“produce an infant every two years”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此最合文法、且來自原文的答案是 birth，組成 “birth rate”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● reproduce faster = have a faster birth rate● give birth / produce an infant = birth● every two years = about once every two years所以 38 是 birth。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “reproduce”。它是核心意思，但題目空格後已有 “rate”，填 “reproduce” 會不合文法。做sentence completion 要同時看意思和空格前後語法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "water",
+      "answerKey": "water",
+      "type": "Sentence Completion",
+      "prompt": "The monkeys can survive away from open streams and waterholes as the leaves howlers eat contain plenty of 39 ______",
+      "translation": "這些猴子能遠離露天溪流和水洞生存，因為牠們吃的葉子含有大量 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The leaves howlers eat hold plenty of water, so the monkeys can survive away from open streams and waterholes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Howlers 吃的葉子含有大量水分，因此牠們能遠離露天溪流和水洞生存。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This ability gives them a real advantage over capuchin and spider monkeys, which have suffered during the long, ongoing drought in Guanacaste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種能力給了牠們相對 capuchin 和 spider monkeys 的真正優勢，因為後兩者在 Guanacaste 長期持續的旱災中受苦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句已經能看到本題兩個答案都在 Paragraph F：water 和 drought。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“open streams and waterholes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“contain plenty of”"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句幾乎逐字對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The leaves howlers eat hold plenty of water…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Howlers 吃的葉子含有大量水分……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“the leaves howlers eat contain plenty of 39 ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The leaves howlers eat hold plenty of water…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● contain = hold● plenty of = plenty of● leaves howlers eat = leaves howlers eat● answer = water答案是 water，一個字，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 water。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "drought",
+      "answerKey": "drought",
+      "type": "Sentence Completion",
+      "prompt": "which helps them to resist the continuous 40 ______ in Guanacaste.",
+      "translation": "這幫助牠們抵抗 Guanacaste 持續的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The leaves howlers eat hold plenty of water, so the monkeys can survive away from open streams and waterholes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Howlers 吃的葉子含有大量水分，因此牠們能遠離露天溪流和水洞生存。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This ability gives them a real advantage over capuchin and spider monkeys, which have suffered during the long, ongoing drought in Guanacaste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種能力讓牠們相對 capuchin 和 spider monkeys 有真正優勢，因為後兩者在 Guanacaste 長期持續的旱災中受苦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題和 Question 39 連在一起。既然 39 來自第一句的 water，40 就要看最後一句中這種能力帶來的 survival advantage。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“continuous”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Guanacaste”"
+            },
+            {
+              "kind": "quote",
+              "text": "“resist”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“the long, ongoing drought in Guanacaste”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Guanacaste 長期持續的旱災。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “continuous” 改寫原文的 “long, ongoing”。"
+            },
+            {
+              "kind": "quote",
+              "text": "“resist” 概括原文的 survival advantage：howlers 因為葉子含水量高，不需要依賴露天水源，因此比其他猴子更能面對 drought。原文：“which have suffered during the long, ongoing drought in Guanacaste”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“helps them to resist the continuous ______ in Guanacaste”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係：● continuous = long, ongoing● resist = have an advantage / survive better● answer = drought所以 40 是 drought。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 27. G 28. A 29. C 30. B 31. H 32. D 33. C 34. A 35. B 36. fruit 37. plant toxins 38. birth 39. water 40. drought"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Monkeys and Forests.pdf",
+    "sha256": "4dc697b68dafee0e6e6e0c8de4e6683e3cf773166d44ddb88aa9cdc1bcaba341",
+    "pageCount": 27
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句介紹 Duke University 的 primatologist Ken Glander 正在樹冠層觀察並追蹤一隻雌性mantled howler monkey；尾句說周邊大部分土地都被砍伐改成牧場。只看首尾句，可以先估計本段會交代研究場景、La Pacifica 的猴子族群，以及森林被清除後某些猴種消失的背景。這段很可能回答「哪裡只剩一種猴子」或「棲息地破壞」相關題。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 howlers 能在 La Pacifica 持續生存，因為牠們是 leaf-eaters；尾句說植物已演化出多種chemical defences，包括難吃的 tannins 和致命毒素。只看首尾句，可以估計本段會解釋 howler monkeys 的飲食彈性，以及牠們為何能在樹木不多、果樹不足的地方生存。這段也開始帶出植物毒素與吃葉動物之間的關係。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說所有靈長類，包括人類，都有一定能力處理植物毒素；尾句說年輕森林的樹把有限能量多用於生長木材、葉子和果實，因此毒素水平比老樹低很多。只看首尾句，可以先看到本段重點是plant toxins 和 forest age。它會解釋為何再生森林中的新葉對 howlers 更友善，也能回答「新葉比老葉更適合作食物」的原因。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Santa Rosa National Park 正在研究成熟森林對靈長類的重要性；尾句說 spider monkeys需要很大的 home range，因此無法在 fragmented habitat 中生存。只看首尾句，可以估計本段比較三種猴子對再生森林、樹齡、活動範圍和棲息地破碎化的適應能力。這段特別適合回答howlers 為何能在破碎棲息地有優勢。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 howlers 的繁殖速度也比當地其他猴種更快；尾句說雌性 spider monkey 大約四年才生一胎，但食物充足的 howlers 可以每兩年生一隻幼猴。只看首尾句，可以看到本段專門處理繁殖差異。這段通常對應 sentence completion 中的 reproduction / birth rate 類題目，尤其是「每兩年一次」這個明顯數字。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 howlers 吃的葉子含有大量水分，因此牠們能遠離露天溪流和水洞生存；尾句說這項能力讓牠們比 capuchin 和 spider monkeys 更有優勢，因為後兩者在 Guanacaste 長期旱災中受苦。只看首尾句，本段功能非常清楚：解釋 water in leaves 如何幫助 howlers 抵抗 drought，並建立與其他兩種猴子的比較。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說中南美洲人口壓力上升，導致森林持續被破壞；尾句說 howlers 吃遮蔭樹的葉和果，卻不碰有價值的 cacao pods，所以農民容忍牠們。只看首尾句，可以估計本段一方面交代森林砍伐速度，另一方面介紹 Tabasco cacao plantation 這種人類改造過的棲息地。這段可回答森林減少速度和 cacao plantation 地點題。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Estrada 認為猴子為農場帶來被低估的好處，例如散播種子和用糞便肥沃土壤；尾句引用他說 conservation 正逐漸從「農業與保育衝突」的想法，轉向把農業活動看成靈長類保育工具。只看首尾句，可以看出本段主題是人類農業與猴子共存，也會回答 farmers’ attitudes、agriculture benefits 和 conservation vision 相關題。"
+      }
+    ]
+  }
+}

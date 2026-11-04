@@ -1,0 +1,376 @@
+// Model Essay 17 · Opinion: nostalgia, protection, choice and happiness.
+const simple=[
+  'Some people say people long ago were happier than people now.',
+  'I fully disagree because, although life today has problems, people have more safety, more choices and more say over their lives.',
+  'First, people today face fewer of the basic dangers that made life hard in the past.',
+  'People may remember the past in a warm way, but daily life was often harder on the body and less certain.',
+  'Getting sick, dangerous work, few public services and not having enough money could turn one problem into a crisis for a family.',
+  'On the other hand, better healthcare, safer work rules, clean water, cleaner streets and help from others mean people have to live with less suffering.',
+  'For example, a worker who gets very sick today is more likely to get care, time off work or help from the community, while the same problem in the past could have taken away a family’s income.',
+  'Happiness is not only about living simply; it also depends on being safe from suffering that can be prevented.',
+  'Another point is that people today have more freedom to make their own choices.',
+  'In the past, many people had to follow strict rules about being a man or woman, social position, marriage, religion and work.',
+  'They might have seemed happy, but looking happy is not the same as feeling happy inside.',
+  'Today, people have more chance to choose where and what to study, their job, partner, way of life and beliefs.',
+  'Having these choices can be stressful, but it also lets people shape a life that suits them.',
+  'For example, a young woman who wants to study in another country, start her own business or marry later probably has much more freedom now than her grandmother had.',
+  'Being able to choose is not a small extra comfort; it is one of the things people need to feel truly satisfied with life.',
+  'In short, I fully reject the idea that people in the past were happier.',
+  'The past may seem calm when we look back, but life today gives people more safety, freedom and respect as people, which can make real happiness easier to reach.',
+];
+const vocabulary=[
+  [['It is sometimes claimed','Some people say','有時有人聲稱'],['earlier generations','people long ago','以往世代'],['people are today','people now','今天的人']],
+  [['completely disagree','fully disagree','完全不同意'],['despite its pressures','although life today has problems','雖然有壓力'],['better protection','more safety','更好的保障'],['wider choices','more choices','更廣泛選擇'],['more control over their lives','more say over their lives','對人生有更大掌控權']],
+  [['less exposed','face fewer','較少暴露於'],['basic fears','basic dangers','基本恐懼'],['shaped life in the past','made life hard in the past','塑造過去生活']],
+  [['Earlier generations','the past','以往世代'],['warm light of nostalgia','remember the past in a warm way','懷舊的溫暖光影'],['physically harsher','harder on the body','物質上較艱苦'],['more uncertain','less certain','更不穩定']],
+  [['Illness','Getting sick','疾病'],['unsafe work','dangerous work','不安全工作'],['limited public services','few public services','有限公共服務'],['financial insecurity','not having enough money','經濟不穩'],['one setback','one problem','一次挫折']],
+  [['By contrast','On the other hand','相比之下'],['labour protection','safer work rules','勞工保障'],['sanitation','clean water, cleaner streets','衛生設施'],['social support','help from others','社會支援'],['reduce the amount of suffering','live with less suffering','減少痛苦']],
+  [['seriously ill','very sick','嚴重患病'],['medical treatment','care','醫療治療'],['sick leave','time off work','病假'],['community support','help from the community','社區支援'],['whereas','while','然而／而'],['destroy a household’s income','taken away a family’s income','摧毀家庭收入']],
+  [['simple life','living simply','簡單生活'],['being safe from preventable misery','being safe from suffering that can be prevented','免於可避免的痛苦']],
+  [['Another important point','Another point','另一個重要觀點'],['modern society allows more personal freedom','people today have more freedom to make their own choices','現代社會容許更多個人自由']],
+  [['previous generations','the past','以往世代'],['trapped by rigid expectations','had to follow strict rules','受僵化期望束縛'],['gender','being a man or woman','性別'],['class','social position','階級']],
+  [['appeared content','seemed happy','看似滿足'],['appearance','looking happy','外表'],['inner happiness','feeling happy inside','內在快樂']],
+  [['more able to choose','more chance to choose','更有能力選擇'],['education','where and what to study','教育'],['career','job','職業'],['lifestyle','way of life','生活方式']],
+  [['This freedom','Having these choices','這種自由'],['create pressure','be stressful','帶來壓力'],['gives individuals room','lets people','給予個人空間'],['actually fits them','suits them','真正適合自己']],
+  [['For instance','For example','例如'],['study abroad','study in another country','出國讀書'],['delay marriage','marry later','推遲婚姻'],['far more freedom','much more freedom','更多自由']],
+  [['That kind of choice','Being able to choose','那種選擇'],['not a small luxury','not a small extra comfort','不是微不足道的奢侈'],['foundations','things people need','基礎'],['genuine fulfilment','feel truly satisfied with life','真正滿足感']],
+  [['In conclusion','In short','總結來說'],['completely reject','fully reject','完全否定'],['earlier generations','people in the past','以往世代']],
+  [['look peaceful from a distance','seem calm when we look back','遠看顯得平靜'],['greater security','more safety','更大安全感'],['human dignity','respect as people','人的尊嚴'],['more attainable today','easier to reach','今天較易達到']],
+];
+const chunkOverrides=[
+  ['It is sometimes claimed','that people in earlier generations were happier than people are today.'],
+  ['I completely disagree with this view','because modern life, despite its pressures,','gives people better protection, wider choices, and more control over their lives.'],
+  ['The first reason is that people today are less exposed','to many of the basic fears that shaped life in the past.'],
+  ['Earlier generations may be remembered through the warm light of nostalgia,','but daily life was often physically harsher and more uncertain.'],
+  ['Illness, unsafe work, limited public services, and financial insecurity','could turn one setback into a family crisis.'],
+  ['By contrast, modern healthcare, labour protection, sanitation, and social support','reduce the amount of suffering','that people have to accept as normal.'],
+  ['For example, a worker who becomes seriously ill today','is more likely to receive medical treatment, sick leave, or community support,','whereas a similar problem in the past could easily destroy a household’s income.'],
+  ['Happiness is not only about having a simple life;','it also depends on being safe from preventable misery.'],
+  ['Another important point is that','modern society allows more personal freedom.'],
+  ['In previous generations, many people were trapped','by rigid expectations about gender, class, marriage, religion, and work.'],
+  ['They might have appeared content,','but appearance is not the same as inner happiness.'],
+  ['Today, people are more able to choose','their education, career, partner, lifestyle, and beliefs.'],
+  ['This freedom can create pressure,','but it also gives individuals room to build a life','that actually fits them.'],
+  ['For instance, a young woman who wants to study abroad,','start a business, or delay marriage','has far more freedom now than her grandmother probably had.'],
+  ['That kind of choice is not a small luxury;','it is one of the foundations of genuine fulfilment.'],
+  ['In conclusion, I completely reject the idea','that earlier generations were happier.'],
+  ['The past may look peaceful from a distance,','but modern life offers greater security, freedom, and human dignity,','which make true happiness more attainable today.'],
+];
+const simpleChunkOverrides=[
+  ['Some people say','people long ago were happier than people now.'],
+  ['I fully disagree because, although life today has problems,','people have more safety, more choices and more say over their lives.'],
+  ['First, people today face fewer of the basic dangers','that made life hard in the past.'],
+  ['People may remember the past in a warm way,','but daily life was often harder on the body and less certain.'],
+  ['Getting sick, dangerous work, few public services and not having enough money','could turn one problem into a crisis for a family.'],
+  ['On the other hand, better healthcare, safer work rules, clean water, cleaner streets and help from others','mean people have to live with less suffering.'],
+  ['For example, a worker who gets very sick today','is more likely to get care, time off work or help from the community,','while the same problem in the past could have taken away a family’s income.'],
+  ['Happiness is not only about living simply;','it also depends on being safe from suffering that can be prevented.'],
+  ['Another point is that','people today have more freedom to make their own choices.'],
+  ['In the past, many people had to follow strict rules','about being a man or woman, social position, marriage, religion and work.'],
+  ['They might have seemed happy,','but looking happy is not the same as feeling happy inside.'],
+  ['Today, people have more chance to choose','where and what to study, their job, partner, way of life and beliefs.'],
+  ['Having these choices can be stressful,','but it also lets people shape a life that suits them.'],
+  ['For example, a young woman who wants to study in another country,','start her own business or marry later','probably has much more freedom now than her grandmother had.'],
+  ['Being able to choose is not a small extra comfort;','it is one of the things people need to feel truly satisfied with life.'],
+  ['In short, I fully reject the idea','that people in the past were happier.'],
+  ['The past may seem calm when we look back,','but life today gives people more safety, freedom and respect as people,','which can make real happiness easier to reach.'],
+];
+const F=(formula,meaning,usage,parts)=>({formula,meaning,usage,parts});
+const S=(example,answerReason,distractorReason,distractors,frame)=>({example,answerReason,distractorReason,distractors,frame});
+const structures=[
+  S('It is sometimes claimed that village life was calmer than life in a large city.','It is sometimes claimed that 標明這是被轉述的觀點，並非作者已證實的事實。','這句只引出他人主張，尚未表明反對理由。',[1,2,8],
+    F('It is sometimes claimed that [被比較的兩個群體與某種結果]','以被動句轉述常見看法，為作者立場預留位置。','引言要公平呈現題目對兩個時期的比較時。',[['It is sometimes claimed that ','link','轉述他人主張'],['people in earlier generations were happier than people are today.','slot','被比較的兩個群體與某種結果']])),
+  S('I completely disagree because city life, despite its noise, offers many residents better access to work and services.','despite 承認壓力；because 後仍提出反對的實質理由。','這句先亮立場，再讓步並說出真正的比較依據。',[0,3,5],
+    F('I completely disagree with [看法] because [今天的生活], despite [其壓力], gives people [多項改善]','先表明反對，承認現代壓力存在，再列保障、選擇和掌控三項改善。','反對一種過於正面的歷史印象時，仍要承認今天有真實問題。',[['I completely disagree with ','link','表明反對'],['this view','slot','看法'],[' because ','link','引出原因'],['modern life','slot','今天的生活'],[', despite ','link','承認反面因素'],['its pressures','slot','其壓力'],[', gives people ','link','指出相對好處'],['better protection, wider choices, and more control over their lives.','slot','多項改善']])),
+  S('The first reason is that children now face fewer of the dangers that shaped school life decades ago.','is that 提出第一條原因，聚焦基本風險的減少。','這句引出安全和保障主線，不是自由選擇主線。',[1,4,8],
+    F('The first reason is that [今天的人] are less exposed to [過去常見的基本恐懼]','第一主體段先指出相對安全程度，再用實例說明具體風險。','面對抽象的好壞比較，要先選一項可觀察的判斷標準時。',[['The first reason is that ','link','引出首項理由'],['people today','slot','今天的人'],[' are less exposed to ','link','比較風險程度'],['many of the basic fears that shaped life in the past.','slot','過去常見的基本恐懼']])),
+  S('Older towns may be remembered with affection, but daily travel was often slower and less safe.','may 承認記憶可能美好；but 對照實際日常條件。','這句把懷舊印象與過去的現實生活分開。',[2,4,10],
+    F('[過去] may be remembered through [懷舊視角], but [當時日常] was often [較艱苦且不穩]','承認人會溫暖地回憶過去，再提醒這種記憶不等於當時日常處境。','要指出人們對過去的正面印象可能漏看某些基本風險時。',[['Earlier generations','slot','過去'],[' may be remembered through ','link','提示記憶視角'],['the warm light of nostalgia','slot','懷舊視角'],[', but ','link','轉向實際條件'],['daily life','slot','當時日常'],[' was often ','link','審慎比較'],['physically harsher and more uncertain.','slot','較艱苦且不穩']])),
+  S('Poor housing, unsafe roads and little savings could turn one illness into a family emergency.','could 表示可能，列多項脆弱條件如何放大一次挫折。','這句把抽象的生活不穩轉成家庭風險機制。',[2,3,5],
+    F('[多項生活風險] could turn [一次挫折] into [家庭危機]','列出醫療、工作、服務與財務風險，說明一次挫折在缺少保障時可能放大。','提出某時期較不穩定後，要具體說明它如何影響個人生活時。',[['Illness, unsafe work, limited public services, and financial insecurity','slot','多項生活風險'],[' could turn ','link','指出可能放大'],['one setback','slot','一次挫折'],[' into ','link','變成'],['a family crisis.','slot','家庭危機']])),
+  S('By contrast, safer roads, better water and public assistance reduce the hardships that residents once had to accept.','By contrast 對照保障增加後，某些曾被迫承受的痛苦可減少。','這句從風險轉向具體保護措施及其效果。',[3,4,6],
+    F('By contrast, [現代保障措施] reduce [人過去須視為正常的痛苦]','不是泛稱現代更好，而是列醫療、勞工、衛生與支援如何減少可避免的苦難。','列出某時期的風險後，要說明另一時期有哪些保障改變了結果時。',[['By contrast, ','link','與過去對照'],['modern healthcare, labour protection, sanitation, and social support','slot','現代保障措施'],[' reduce ','link','指出緩減作用'],['the amount of suffering that people have to accept as normal.','slot','人過去須視為正常的痛苦']])),
+  S('A worker injured today is more likely to receive treatment and time off, whereas the same injury in the past could have ended the family’s income.','whereas 把同類意外放在不同時代比較，保留 more likely/could 的審慎程度。','這句用對照例子說明保障如何改變家庭後果。',[4,5,7],
+    F('For example, [今天遇困境者] is more likely to receive [多種支援], whereas [過去同類問題] could [造成嚴重後果]','用同一種患病情況對比有無保障，避免只以印象判斷快樂。','要用同一類情況在兩個時期或條件下的不同結果作對照，並用 more likely／could 保留可能性時。',[['For example, ','link','引出具體對照'],['a worker who becomes seriously ill today','slot','今天遇困境者'],[' is more likely to receive ','link','審慎指出支援'],['medical treatment, sick leave, or community support','slot','多種支援'],[', whereas ','link','對照過去'],['a similar problem in the past','slot','過去同類問題'],[' could easily ','link','表示可能風險'],['destroy a household’s income.','slot','造成嚴重後果']])),
+  S('Wellbeing is not only about a quiet routine; it also depends on protection from avoidable harm.','not only...; it also... 擴展快樂標準：簡單生活之外還有安全。','這句收束第一段的衡量標準，不是提出新年代例子。',[3,6,8],
+    F('[要評估的概念] is not only about [第一項條件]; it also depends on [另一項條件]','把安全從補充好處提升成評估快樂時不可忽略的條件。','要說明某種結果不能只靠一項條件，還取決於另一項條件時。',[['Happiness','slot','快樂'],[' is not only about ','link','排除單一標準'],['having a simple life','slot','簡單生活'],['; it also depends on ','link','加入另一條件'],['being safe from preventable misery.','slot','免於可避免苦難']])),
+  S('Another important point is that young adults now have more freedom to choose their education.','Another important point 轉入第二條理由：個人可作出的選擇。','這句明確切換主線，不重複前段安全論證。',[2,7,9],
+    F('Another important point is that [今天的社會] allows more [個人自由]','第二段從保障轉向自由，說明快樂還關乎能否選擇合適的人生。','完成一條安全理由後，要引入另一條關於自主選擇的理由時。',[['Another important point is that ','link','引出新理由'],['modern society','slot','今天的社會'],[' allows more ','link','指出增加'],['personal freedom.','slot','個人自由']])),
+  S('In earlier decades, many people were restricted by strict rules about family roles, schooling and work.','In... 設定過去時代，were trapped by 指出僵化期望如何限制選擇。','這句列過去選擇受限的領域，未談外表與內心快樂的差別。',[8,10,11],
+    F('In [過去世代], many people were trapped by [多個領域的僵化期望]','具體列出性別、階級、婚姻、宗教和工作的規範，解釋自由為何受限。','指出某時期選擇較多後，要說明另一時期有哪些實際限制時。',[['In ','link','設定過去時代'],['previous generations','slot','過去世代'],[', many people were trapped by ','link','指出束縛'],['rigid expectations about gender, class, marriage, religion, and work.','slot','多個領域的僵化期望']])),
+  S('They might have seemed satisfied, but seeming satisfied is not the same as feeling free inside.','might have...but... 區分外表上的滿足與真正感受，避免用表象作證據。','這句提醒外部觀察不能直接證明內心快樂。',[3,9,12],
+    F('[過去的人] might have appeared [外表滿足], but [外表] is not the same as [內心快樂]','外在順從或看似滿足，不能單獨證明一個人真的快樂。','提出舊有規範後，要反駁表面安穩等於實際幸福的推斷時。',[['They','slot','過去的人'],[' might have appeared ','link','承認外表可能'],['content','slot','外表滿足'],[', but ','link','指出不等同'],['appearance','slot','外表'],[' is not the same as ','link','清楚區分'],['inner happiness.','slot','內心快樂']])),
+  S('Today, more pupils can choose subjects, courses and future work that match their interests.','列舉可選範圍，讓「自由」不是空泛口號。','這句以多項具體生活決定顯示自主空間。',[8,9,10],
+    F('Today, people are more able to choose [教育、職業、伴侶、生活方式與信念]','逐項列出現代人較能決定的生活領域，不把自由縮成單一選項。','列出一方的限制後，要具體呈現另一方的選擇空間時。',[['Today, people are more able to choose ','link','提出當代選擇空間'],['their education, career, partner, lifestyle, and beliefs.','slot','教育、職業、伴侶、生活方式與信念']])),
+  S('This choice can create uncertainty, but it also lets people build a life that fits their values.','can 承認自由帶來壓力；but it also 指出能建立更合適生活的好處。','這句是有條件的讓步，不把自由說成只有好處。',[8,10,11],
+    F('[這項選擇] can create [代價], but it also gives individuals room to build [正面結果]','承認選擇可能令人有壓力，同時指出可依個人需要規劃生活。','要承認某項選擇可能帶來代價，同時指出它也提供正面空間時。',[['This freedom','slot','自由'],[' can create ','link','承認可能代價'],['pressure','slot','壓力'],[', but it also gives individuals room to build ','link','轉向選擇帶來的空間'],['a life that actually fits them.','slot','真正合適的生活']])),
+  S('For instance, a young man who wants to change careers or study overseas may have more options now than his grandfather probably had.','For instance 將抽象自由落到具體人生選擇，並以 probably 保留比較的不確定。','這句用跨世代人物例子，不保證每人或每地都一樣。',[9,11,12],
+    F('For instance, [想作多種個人選擇的年輕人] has far more freedom now than [上一代親人] probably had','用學業、創業與婚姻的可能選擇具體呈現自由增加；probably 避免絕對斷言。','提出某種選擇有價值後，要用一個具體人物的決定示範時。',[['For instance, ','link','引出人物例子'],['a young woman who wants to study abroad, start a business, or delay marriage','slot','想作多種個人選擇的年輕人'],[' has far more freedom now than ','link','跨世代比較'],['her grandmother','slot','上一代親人'],[' probably had.','link','保留不確定性']])),
+  S('That kind of freedom is not a minor extra; it is one of the foundations of a satisfying life.','not...; it is... 否定「小奢侈」，改判為滿足感的基礎。','這句將例子的選擇提升成幸福條件，不再增加新例。',[7,12,13],
+    F('That kind of [選擇] is not [微不足道的奢侈]; it is one of the foundations of [真正滿足]','重估自由的分量：不是可有可無的附加品，而是滿足感的重要基礎之一。','具體比較後，要收束第二條理由的價值判斷時。',[['That kind of ','link','指回前文例子'],['choice','slot','選擇'],[' is not ','link','否定輕視'],['a small luxury','slot','微不足道的奢侈'],['; it is one of the foundations of ','link','重新定義重要性'],['genuine fulfilment.','slot','真正滿足']])),
+  S('In conclusion, I completely reject the claim that life in earlier decades was happier.','結論直接重申反對過去較快樂的判斷。','這句只收束立場，下一句才歸納安全、自由與尊嚴。',[0,8,16],
+    F('In conclusion, I completely reject the idea that [過去的人] were happier','結論清楚回答題目中的跨世代比較，不加入新理由。','兩條理由已解釋，需直接重申是否同意時。',[['In conclusion, I completely reject the idea that ','link','重申完全反對'],['earlier generations','slot','過去的人'],[' were happier.','link','被否定的比較']])),
+  S('The old town may seem peaceful in memory, but modern services offer more safety and choice, which can make daily life less frightening.','may 承認過去的觀感；but 對照當代實際保障；which 指向可能改善的結果。','這句綜合前兩段，避免把外在平靜與真正幸福混為一談。',[1,7,15],
+    F('[過去] may look [平靜], but [今天] offers [安全、自由及尊嚴], which make [真正快樂] more attainable','讓步承認過去遠看可能平靜，再用保障與選擇回收正文理由；which 指回改善條件。','結尾要合併兩條判斷標準，而不只依賴一種籠統印象時。',[['The past','slot','過去'],[' may look ','link','承認遠觀印象'],['peaceful from a distance','slot','平靜'],[', but ','link','轉向今天的條件'],['modern life','slot','今天'],[' offers ','link','提供'],['greater security, freedom, and human dignity','slot','安全、自由及尊嚴'],[', which make ','link','指出相應結果'],['true happiness','slot','真正快樂'],[' more attainable today.','link','今天較易達到']])),
+];
+const Q=(prompt,options,why)=>({type:'quiz',prompt,options,correct:0,why});
+const sequence=(prompt,rows,why)=>({type:'sequence',prompt,detail:'依照原文的推進次序，逐一點選下一步。',items:rows.map(([title,body])=>({title,body})),why});
+const intro=[
+  Q('作者是否同意「過去世代的人比較快樂」？',[
+    '完全不同意：現代生活雖有壓力，卻提供更多基本保障和個人選擇',
+    '完全同意：懷舊回憶已能證明所有過去的人較快樂',
+    '認為現代自由沒有壓力，也不會帶來任何選擇困難',
+    '沒有立場：文章只列出兩代人的姓名',
+  ],'引言明說 completely disagree；兩段分別談安全保障與自主選擇；結論完全否定過去較快樂的說法。'),
+  {type:'multi',prompt:'選出作者的兩條反對理由',detail:'選兩項，再按「確認」。',options:[
+    '現代醫療、勞工及社會支援可減少一次挫折變成家庭危機的風險',
+    '更多教育、職業及生活選擇，讓人較可能建立適合自己的生活',
+    '過去每個人都絕對沒有任何快樂或親密關係',
+    '現代生活完全沒有壓力，因此所有人必定同樣快樂',
+  ],correct:[0,1],why:'第一段比較基本風險及保障；第二段比較過去僵化期望與今天較多的個人自由。'},
+];
+const route=[sequence('先排好全文四段',[
+  ['引言 · 反對懷舊結論','完全不同意過去世代更快樂；現代生活雖有壓力，也有更多保障與選擇。'],
+  ['主體段一 · 免於可避免苦難','過去一次疾病或財務挫折可變家庭危機；現代醫療、保障與支援可減少痛苦。'],
+  ['主體段二 · 自主選擇','過去的僵化期望限制人生；今天更多選擇可讓人建立較適合自己的生活。'],
+  ['結論 · 衡量真正幸福','過去遠看或許平靜，但安全、自由和尊嚴使真正快樂較易實現。'],
+],'懷舊印象不等於日常處境 → 基本保障 → 自主選擇 → 更完整的幸福衡量。')];
+const evidence=[
+  Q('作者如何看待對過去的懷舊回憶？',[
+    '回憶可能溫暖，但不能遮蓋當時日常生活可能更艱苦、不穩的情況',
+    '只要回憶溫暖，就能證明每個過去的人內心都快樂',
+    '作者說所有回憶都不真實，因此完全無須比較生活條件',
+    '懷舊可以直接取代疾病、工作與收入的資料',
+  ],'may be remembered...but daily life... 對照記憶視角與當時實際條件。'),
+  Q('哪些因素可能讓過去的一次挫折變成家庭危機？',[
+    '疾病、不安全工作、有限公共服務與經濟不穩',
+    '更完整醫療、更安全工作及充足支援',
+    '只有娛樂選擇變多，與家庭風險無關',
+    '只因人們會懷舊，收入便自動消失',
+  ],'原文列四項脆弱條件，然後用 could 指出一次挫折可能放大。'),
+  Q('嚴重患病工人的例子如何保持審慎？',[
+    '說今天較可能得到治療、病假或支援，過去同類問題則可能摧毀家庭收入',
+    '保證今天每名病人都會得到相同支援',
+    '聲稱過去每名病人一定失去所有收入',
+    '不比較同類問題，只比較兩個不同職業',
+  ],'more likely 與 could 都保留可能性；whereas 對照相似患病情況在不同保障下的後果。'),
+  Q('為何文章說過去的人「看似滿足」不能證明真正快樂？',[
+    '外在表現與內在感受不同，尤其在選擇受僵化期望限制時',
+    '只要一個人沒有公開抱怨，就保證他內心快樂',
+    '外在滿足與內心快樂必然完全相同',
+    '文章認為任何人都無法感到滿足',
+  ],'They might have appeared content, but appearance is not the same as inner happiness。'),
+  Q('作者有否否認更多自由可能帶來壓力？',[
+    '沒有；文章承認自由可帶來壓力，也指出它給人空間建立合適生活',
+    '有；文章說選擇只會帶來好處，絕不會令人為難',
+    '有；文章認為沒有選擇才最容易找到適合的生活',
+    '沒有；但文章因此判定所有選擇都毫無價值',
+  ],'This freedom can create pressure, but it also... 同時呈現代價與自主的益處。'),
+  Q('年輕女性與祖母的例子列出哪些可能選擇？',[
+    '出國讀書、創業和推遲婚姻；作者以 probably 保留跨世代比較的不確定',
+    '只列今天女性必須立即結婚這一條規則',
+    '保證所有祖母在過去都完全沒有任何選擇',
+    '只比較兩人的收入，沒有談學業或婚姻',
+  ],'例子具體列三種人生選擇，並用 probably 避免絕對化。'),
+];
+const logic=[
+  sequence('第一主體段：為何基本保障也關乎快樂？',[
+    ['首項理由','今天的人較少面對過去某些基本恐懼。'],
+    ['懷舊限制','溫暖回憶可能忽略當時日常的艱苦與不穩。'],
+    ['過去風險','疾病、不安全工作、有限服務和經濟不穩可放大家庭危機。'],
+    ['現代保障','醫療、勞工、衛生與社會支援可減少須接受的痛苦。'],
+    ['患病例子','今天工人較可能得到治療、病假或支援；過去同類問題可摧毀收入。'],
+    ['段落結論','快樂不只關乎簡單生活，也關乎免於可避免苦難。'],
+  ],'懷舊印象 → 檢視實際風險 → 比較保障 → 把安全列入快樂條件。'),
+  sequence('第二主體段：自主選擇如何影響幸福？',[
+    ['新理由','現代社會容許較多個人自由。'],
+    ['過去限制','性別、階級、婚姻等僵化期望可能束縛人。'],
+    ['表象疑問','看似滿足不等於內心快樂。'],
+    ['今天選擇','人較能選教育、職業、伴侶、生活方式與信念。'],
+    ['公平讓步','自由可能帶來壓力，也能讓人建立適合自己的生活。'],
+    ['具體例子與原則','年輕女性可能比祖母較能出國讀書、創業或推遲婚姻；選擇是滿足感基礎之一。'],
+  ],'僵化期望減少 → 選擇增加 → 雖有壓力仍可建立較合適的人生。'),
+];
+const T=(context,question,options,explanations,sourceSentenceIndices,modelLink)=>({type:'quiz',prompt:question,context,question,options,correct:0,explanations,why:explanations[0],sourceSentenceIndices,modelLink});
+const transfer=[
+  T('一位校友說「以前學校安靜，所以學生一定比現在快樂」；舊校舍卻缺少基本安全設備。','哪項最能檢驗這種懷舊判斷？',[
+    '同時查看學生的安全條件、可求助途徑和真實感受，不只看校園外表是否安靜',
+    '只因舊校舍看起來平靜，便推定每位學生內心都快樂',
+    '只問校友是否喜歡舊照片，不檢查當時安全情況',
+    '把今日有安全設備當成學生必定沒有任何壓力的證據',
+  ],[
+    '這把表面印象與實際保障及內心感受分開。',
+    '安靜外表不能直接證明快樂。',
+    '懷舊感不足以代替生活條件。',
+    '保障改善也不表示壓力完全消失。',
+  ],[3,5,7,10],'範文區分懷舊回憶與過去生活風險，也區分外表滿足與內心快樂。'),
+  T('某舊工場被描述為「大家像一家人」，但當時一名工人受傷便可能失去收入。','哪項最能套用「一次挫折變成家庭危機」？',[
+    '比較工傷後的醫療、休假及收入支援，判斷家庭是否需獨自承擔全部風險',
+    '只看昔日同事合照，便認定受傷沒有經濟後果',
+    '只問工場外牆顏色，不看工傷保障',
+    '因同事關係好，便保證每個家庭收入永不受影響',
+  ],[
+    '這抓住一次身體挫折在缺少保障下如何放大成家庭危機。',
+    '合照不能顯示實際支援。',
+    '外牆與醫療及收入風險無關。',
+    '人際親密不保證收入安全。',
+  ],[4,5,6],'範文用患病工人說明現代治療、休假或支援較可能減少家庭收入危機。'),
+  T('一座小城保留舊式街道，同時新建乾淨水源、公共診所及安全工作規則。','哪項最符合文章對「現代保障」的評估？',[
+    '看這些措施能否減少居民原本須接受的疾病與工作風險',
+    '只因街道保持舊貌，便認定新服務無任何作用',
+    '只看建築風格，不問居民是否得到醫療或工作保障',
+    '因有新措施，便保證所有居民從此完全沒有痛苦',
+  ],[
+    '這用可觀察的風險變化，而非外觀或絕對保證，評價保障。',
+    '舊貌與服務效用可分別判斷。',
+    '風格不能代表健康與工作條件。',
+    '措施能減少苦難，不會消除全部苦難。',
+  ],[4,5,7],'範文列醫療、勞工、衛生和社會支援，指出它們可減少視為正常的痛苦。'),
+  T('一家人比較過去與今天的職業選擇：祖父曾被要求承接家業，孫女現在可選另一行業。','哪項最能說明自由的作用？',[
+    '評估孫女能否按興趣與能力選路，同時承認選擇也可能令人有壓力',
+    '只因選項較多，便保證孫女每次決定都輕鬆',
+    '只因祖父照家人期望工作，便確定他內心一定快樂',
+    '認為選職業是否合適與長期生活完全無關',
+  ],[
+    '這保留自主空間的價值與選擇可能有壓力的讓步。',
+    '原文承認自由可增加壓力。',
+    '外在順從不能證明內心感受。',
+    '是否符合個人需要是第二段重點。',
+  ],[9,10,11,12],'範文對照僵化期望與現代較多職業選擇，也承認自由可帶來壓力。'),
+  T('學生可在多個科目組合中選擇，有人說「要作選擇很累，所以自由毫無價值」。','哪項最貼近文章的讓步與回應？',[
+    '承認決定可能帶來壓力，也看能否選到更符合能力與目標的組合',
+    '否認作選擇會使任何學生感到壓力',
+    '只因有人感到壓力，便取消所有科目選項',
+    '把選項多寡直接當成每位學生的快樂分數',
+  ],[
+    '這同時考慮自由的代價與按自己需要建立生活的好處。',
+    '文章沒有否定壓力。',
+    '壓力存在不等於選擇沒有價值。',
+    '選項與內心感受不能簡單畫等號。',
+  ],[8,11,12,14],'範文說自由 can create pressure，但也提供建立合適生活的空間。'),
+  T('一個社區展覽展示上世紀居民整齊的家庭照，策展人想以此證明所有人當年都很滿足。','哪項最能避免推論過度？',[
+    '把照片視為外在紀錄，再查訪當時可作的教育、婚姻與工作選擇',
+    '只憑照片笑容，便證明所有人的內心感受',
+    '因照片整齊，便推定當時不存在任何僵化期望',
+    '只看衣著款式，不問居民對生活的感受',
+  ],[
+    '這分開外表與內心，並檢視限制選擇的背景。',
+    '笑容不能直接代表每人真正快樂。',
+    '照片無法獨自證明社會規範不存在。',
+    '衣著不是幸福感的完整證據。',
+  ],[9,10],'範文指出過去的人可能看似滿足，但表象不等於內心幸福。'),
+  T('城市改良計畫讓居民較容易獲得診所與安全公共交通，但有人只問「新設施好不好看」。','哪項最能轉用文章的安全主線？',[
+    '評估患病或出行受阻時居民是否較易得到協助，並記錄風險有否下降',
+    '只看設施照片是否吸引，不問能否提供支援',
+    '因設施外觀好看，便判定所有家庭再無危機',
+    '忽略安全和服務資料，只比較標誌顏色',
+  ],[
+    '這以實際保障檢驗是否減少可避免的痛苦。',
+    '外觀不能代替服務效果。',
+    '新設施不保證每一風險消失。',
+    '標誌顏色不能代表協助是否可得。',
+  ],[4,5,6,7],'範文把現代醫療、保障與支援連到減少家庭危機及可避免苦難。'),
+  T('一名青年可選擇先工作、先讀書或學手藝，家人希望他走其中一條固定道路。','哪項最能運用第二主體段？',[
+    '比較各路徑是否適合他的目標，也聆聽家人期望，但不只按傳統規則決定',
+    '只按家人既有期望，便認定他內心一定滿足',
+    '因有三種選擇，便保證不需面對任何困難',
+    '只統計選項數目，不問哪條路徑真正適合',
+  ],[
+    '這強調按自身情況選擇，同時不否認選擇有壓力。',
+    '外在服從不能證明內在滿足。',
+    '更多選擇不會消除困難。',
+    '是否適合本人比單純數目更關鍵。',
+  ],[9,10,11,12,14],'範文說自由提供建立合適生活的空間，不應只由僵化期望決定。'),
+  T('一名女士今天可考慮出國升學和延遲結婚，卻擔心朋友會批評；她想了解祖母當年是否也有相同選項。','哪項比較最審慎？',[
+    '查看兩代人實際可用的教育和婚姻選項，避免斷定所有祖母都完全沒有自由',
+    '只因今天仍有人批評，便認定兩代人的選擇完全一樣',
+    '未查家庭背景，就斷定祖母必定不能讀書',
+    '只看兩人的年齡，不問有哪些可行路徑',
+  ],[
+    '這保留跨世代可能有差異的主張，也保留資料不足時的謹慎。',
+    '社會批評存在不表示可用選項相同。',
+    '範文以 probably 表明並非絕對。',
+    '年齡不能替代具體選擇資料。',
+  ],[11,12,13],'範文以年輕女性例子說明可選升學、創業或延遲婚姻，並用 probably 限定比較。'),
+  T('一個舊村落的生活節奏慢，現代住宅區則有社區支援及更多工作選擇；兩地居民都說各有壓力。','哪項最符合全文的比較方式？',[
+    '同時比較基本保障、選擇空間與居民實際感受，不只憑生活節奏判斷快樂',
+    '只因舊村落節奏慢，便推定每位居民更快樂',
+    '只因現代住宅區選項多，便保證沒有任何壓力',
+    '只看房屋建造年份，不看保障或生活選擇',
+  ],[
+    '這把兩段理由與有限讓步整合成較完整的幸福比較。',
+    '簡單生活不是幸福的唯一條件。',
+    '現代壓力在範文中被明確承認。',
+    '建造年份不能代表生活品質。',
+  ],[1,5,7,8,11,12,16],'範文以保障與自由反對單憑懷舊判斷，同時承認現代壓力。'),
+  T('某長者說「以前沒有人公開說不快樂，所以大家一定更滿足」；當時換工作也較困難。','哪項最能檢驗說法？',[
+    '區分是否公開表達與內心感受，並查當時是否能自由改變工作',
+    '把公開沉默直接當作內心快樂的完整證據',
+    '只因換工作難，便認定當時每人都完全不快樂',
+    '不查工作與感受，改看舊照片的色彩',
+  ],[
+    '這避免由外在順從直接推斷內心，並加入實際自主程度。',
+    '沉默不等於內心快樂。',
+    '限制存在也不能證明每人感受相同。',
+    '照片色彩與幸福感缺少直接關係。',
+  ],[9,10,11,12],'範文區分表面滿足與內心快樂，並列過去僵化期望對選擇的限制。'),
+  T('學生要寫一段比較兩個時代生活品質的結論，前文已討論疾病保障與個人選擇。','哪項結論最貼近範文的完整邏輯？',[
+    '承認舊時光可能顯得平靜，再以安全、選擇與尊嚴說明今天快樂為何較易達到',
+    '只用懷舊感概括全文，完全不回收疾病保障或自由',
+    '只說今天必然人人快樂，不承認任何壓力',
+    '只列三項新科技名稱，不連到生活品質',
+  ],[
+    '這依原文結論回收兩條主線，並保留 may 的審慎語氣。',
+    '懷舊不足以代替前文論證。',
+    '範文沒有保證人人快樂。',
+    '名稱本身不能解釋幸福條件。',
+  ],[1,5,7,8,12,14,16],'範文結論承認過去遠看可能平靜，仍以更大安全、自由與尊嚴支持立場。'),
+];
+const reviewedTransferOptions=[
+  ['查安全、求助途徑及真實感受，不只看舊校舍外表','舊校舍看似平靜，便斷定所有學生內心快樂','只問校友喜不喜歡照片，不查當時安全情況','今日有安全設備，便保證學生完全沒有壓力'],
+  ['比較工傷後醫療、休假及收入支援的實際作用','只看昔日同事合照，便認為工傷沒有經濟後果','只問工場外牆顏色，不查任何工傷保障','同事關係好，便保證家庭收入永遠不受影響'],
+  ['查措施有否減少疾病與工作風險，不憑外觀','街道維持舊貌，便認定新服務完全沒有作用','只看建築風格，不問醫療或工作保障','有新措施，便保證所有居民從此不會受苦'],
+  ['查孫女能否選合適路徑，也承認選擇或帶壓力','選項較多，便保證每次決定都輕鬆容易','祖父按家人期望工作，便斷定他內心快樂','選職業是否合適，與長期生活毫無關係'],
+  ['承認選擇有壓力，再看能否找到較合適組合','否認作出選擇會使任何學生感到壓力','有人感到壓力，便主張取消所有科目選項','把選項數目直接當成每位學生的快樂分數'],
+  ['先把照片當外在紀錄，再查當時生活選擇','只憑照片笑容，便斷言所有人內心快樂','照片很整齊，便認為當時沒有僵化期望','只看衣著款式，不問居民對生活的感受'],
+  ['查患病或出行受阻時可否求助，記錄風險變化','只看設施照片吸引與否，不問能否提供支援','設施外觀好看，便斷定所有家庭再無危機','忽略安全服務資料，只比較設施標誌顏色'],
+  ['比較路徑與個人目標，也聽家人期望而不盲從','只按家人舊有期望，便認定自己一定滿足','因有三種選擇，便保證不用面對任何困難','只統計選項數目，不查哪條路徑真正適合'],
+  ['查兩代人的選項，不斷言所有祖母都失去自由','今天仍有人批評，便認為兩代選擇完全一樣','未查家庭背景，便斷定祖母一定不能讀書','只看兩人年齡，不問當時有哪些可行路徑'],
+  ['比較保障、選擇與感受，不只憑生活節奏判斷','舊村落節奏較慢，便斷定每個人都更快樂','現代住宅區選項多，便保證居民沒有壓力','只看房屋年份，不查保障或生活選擇'],
+  ['分開看公開表達與內心感受，再查轉職自由','把公開沉默當作內心快樂的完整證據','換工作困難，便認為當時每人都不快樂','不查工作與感受，只看舊照片的色彩'],
+  ['承認舊時或顯平靜，再以安全與自由解釋今天','只用懷舊感概括全文，不談保障或選擇','斷言今天所有人快樂，不承認任何壓力','只列新科技名稱，不連到實際生活品質'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[1].example='I completely disagree with this view because city life, despite its noise, gives people better access to work and services.';
+structures[2].example='The first reason is that children today are less exposed to many dangers that shaped school life decades ago.';
+structures[3].example='Older towns may be remembered through the warm light of nostalgia, but daily travel was often slower and less safe.';
+structures[6].example='For example, a worker injured today is more likely to receive treatment and time off, whereas the same injury in the past could easily end the family’s income.';
+structures[8].example='Another important point is that modern schooling allows more personal freedom.';
+structures[9].example='In earlier decades, many people were trapped by strict rules about family roles, schooling and work.';
+structures[10].example='They might have appeared satisfied, but appearance is not the same as inner happiness.';
+structures[11].example='Today, people are more able to choose subjects, courses and future work that match their interests.';
+structures[12].example='This choice can create uncertainty, but it also gives individuals room to build a life that fits their values.';
+structures[13].example='For instance, a young man who wants to change careers or study overseas has far more freedom now than his grandfather probably had.';
+structures[15].example='In conclusion, I completely reject the idea that people in earlier decades were happier.';
+structures[16].example='The past may look peaceful in memory, but modern life offers more safety and choice, which make daily happiness more attainable today.';
+const plausibleAlternatives=[
+  [['查舊校舍安全，學生感受可由校友照片推測','安靜環境有價值，因此安全設備可稍後比較','先比較兩代校舍外觀，再問學生是否感到快樂'],['外觀與校友記憶不能代替學生真實感受。','安全與求助途徑也是生活品質的一部分。','外觀不足以推論內心狀態。']],
+  [['同事關係好，可緩解工傷後的收入中斷','舊工場有家庭氣氛，醫療支援便較次要','先查工傷醫療，休假與收入可留給家庭'],['友好關係未必提供實際財務保障。','情感支持不能取代醫療與收入保障。','工傷後的收入風險是比喻核心。']],
+  [['檢查新設施是否易用，疾病風險可留待後說','街道保留舊貌，現代水源效益便較難判斷','安全規則已頒布，實際風險可不再追蹤'],['措施價值應看疾病與工作風險的變化。','外觀不影響是否能評估供水效果。','規則存在不等於風險已降低。']],
+  [['比較兩代選項，孫女壓力便可視作較小','選擇變多，祖父的職業滿意度由家人決定','自由有價值，職涯是否合適可待退休再看'],['選項增加仍可能帶來決策壓力。','家庭期待不能證明內心滿意。','選職業能否配合目標影響長期生活。']],
+  [['承認選擇有壓力，因此先減少可選科目','自由增加選項，但壓力只需靠考試分數評估','先按科目數量評價自由，再問是否合適'],['壓力存在不等於自由沒有價值。','選擇是否適合學生也應評估。','數量不能替代個人路徑的適配。']],
+  [['照片可顯示生活外貌，內心感受可先假定','先查當年工作規則，個人選擇可略去','家庭照整齊，表示當年社會期望較穩定'],['外在紀錄不足以推斷所有人的感受。','選擇空間是文章另一條比較線。','期望穩定與個人滿足不是同一回事。']],
+  [['查設施外觀與新穎程度，再推測居民安全','先比較新舊設備數量，求助時能否用可稍後查','公共交通更方便，疾病保障便不需評估'],['安全主線重視實際風險與支援。','設備數量不能代替可用性。','醫療與交通都是基本保障。']],
+  [['選擇三條路徑，便可先不用聽家人說法','家人期望值得尊重，個人目標可稍後再談','先看選項數量，再決定哪條路最為適合'],['自主選擇仍可參考家人意見。','文章強調配合個人價值與興趣。','選項數目不能代替實際適配。']],
+  [['查兩代人的選項，再推定祖母限制較多','今天有批評，便可認為兩代人的自由相近','先問祖母有否升學，家庭背景可稍後看'],['須核實具體處境，不能概括整代人。','社會壓力存在不代表可行路徑相同。','家庭與時代背景都影響選項。']],
+  [['比較兩地生活節奏，保障差異可稍後說','現代工作選項多，舊村落壓力可忽略','兩地都有壓力，便只需比較房屋價格'],['生活節奏只是因素之一。','兩地壓力都要承認並比較。','保障與自主選擇不能只由價格概括。']],
+  [['把公開沉默視為滿足，再查轉職是否容易','換工作較難，便可推斷每人都較不快樂','先統計表達不滿者，工作選項可留待後文'],['公開沉默未必代表內心滿足。','機會受限不等於所有人感受一致。','轉職自由也是衡量生活的線索。']],
+  [['承認舊時較平靜，現代生活壓力則可略過','總結現代選擇，疾病保障可在另段處理','比較安全與自由，再斷言每人都更快樂'],['結尾仍須承認現代也有壓力。','前文兩條主線都應回收。','更多可能性不是對每個人的保證。']],
+];
+plausibleAlternatives.forEach(([options,reasons],i)=>{transfer[i].options.splice(1,3,...options);transfer[i].explanations.splice(1,3,...reasons);});
+export default {
+  key:'opinion:17',
+  meta:{topic:'懷舊、基本保障與自主選擇',summary:'作者完全反對過去世代一定較快樂的說法：現代保障可減少可避免的苦難，更多自主選擇則讓人較可能建立適合自己的生活；現代壓力仍然存在。'},
+  simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer,
+  mediumExtras:[],
+};

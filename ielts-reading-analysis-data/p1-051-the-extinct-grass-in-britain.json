@@ -1,0 +1,2291 @@
+{
+  "id": "p1-051-the-extinct-grass-in-britain",
+  "catalogueId": "p1-051",
+  "catalogueIds": [
+    "p1-051"
+  ],
+  "passage": 1,
+  "title": "The “Extinct” Grass in Britain",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "E",
+    "C",
+    "D",
+    "F",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The name ‘interrupted brome’ comes from the fact that this unprepossessing grass disappeared for a time.”",
+      "translation": "“interrupted brome” 這個名稱來自這種不起眼的草曾經消失過一段時間這件事。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷名稱來源。題目把 “interrupted” 解釋成「中斷、消失一段時間」，我們要看原文是否真的這樣說。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A第一句：“The British grass interrupted brome was once declared extinct, like the dodo.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國草種 interrupted brome 曾被宣布已經滅絕，就像渡渡鳥一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Admirers of the grass were devastated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "喜愛這種草的人非常震驚和難過。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph A 主要介紹 interrupted brome 被宣布 extinct 的背景。這和題目中的 “disappeared for a time” 有關，所以 Paragraph A 是合理目標段。不過名稱來源要看中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“name”"
+            },
+            {
+              "kind": "quote",
+              "text": "“interrupted brome”"
+            },
+            {
+              "kind": "quote",
+              "text": "“comes from”"
+            },
+            {
+              "kind": "quote",
+              "text": "“disappeared”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中對名稱來源最直接的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Named for its gappy seed head…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句值得停下，因為 “Named for” 直接回答名稱由來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Named for its gappy seed head, this unprepossessing grass was found nowhere else in the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種不起眼的草以其有間隔、缺口狀的 seed head 命名，而且世界上其他地方都找不到它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Named for” 是命名原因訊號。原文說它的名稱來自 “gappy seed head”，即種子穗呈現斷續、有缺口的樣子。題目說名稱來自它曾經消失一段時間，這和原文命名原因不相容。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與相反關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“comes from the fact that … disappeared for a time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Named for its gappy seed head”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：題目把名稱來源連到 disappearance；原文把名稱來源連到 seed head 形態。兩者方向不同，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤判的位置是 Paragraph A 第一、三、四句反覆講 extinct、vanished、could no longer be found。這些確實說明草曾消失，但只證明它的歷史命運，沒有證明名稱來源。題目真正控制答案的詞是 “name comes from”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Stored interrupted brome seeds could not germinate because they were accidentally kept at an unsuitable temperature.”",
+      "translation": "儲存的 interrupted brome 種子無法發芽，因為它們被意外地保存在不合適的溫度下。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查三件事：種子是否被儲存、是否無法存活或發芽、原因是否為錯誤溫度。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The British grass interrupted brome was once declared extinct, like the dodo.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國草種 interrupted brome 曾被宣布已經滅絕，就像渡渡鳥一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Admirers of the grass were devastated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "喜愛這種草的人非常震驚和難過。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句提示 Paragraph A 講 interrupted brome 的消失和保存失敗。題目提 “stored seeds”，應在這段中後部掃描 Cambridge University Botanic Garden。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stored”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seeds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accidentally”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unsuitable temperature”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even seeds stored at Cambridge University Botanic Garden…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“were dead”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mistakenly”"
+            },
+            {
+              "kind": "quote",
+              "text": "“kept at room temperature”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even seeds stored at Cambridge University Botanic Garden as an insurance policy were dead because they had mistakenly been kept at room temperature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使那些作為保險措施、儲存在 Cambridge University Botanic Garden 的種子也已經死亡，因為它們被錯誤地保存在室溫下。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “seeds stored at Cambridge University Botanic Garden”。核心結果是 “were dead”。原因由 because 引出：它們 “mistakenly been kept at room temperature”。題目說 “could not germinate” 雖然不是原文原字，但如果種子 dead，就不能發芽；這是很直接的推論。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "stored interrupted brome seeds= seeds stored at Cambridge University Botanic Garden could not germinate= were dead accidentally= mistakenly unsuitable temperature= room temperature in this storage context判斷題目和原文方向一致。原文清楚說儲存種子因錯誤室溫保存而死亡，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“room temperature” 字面上不一定在所有情況都不合適，但這裡原文用 because 直接把死亡原因連到 room temperature。題目用 “unsuitable temperature” 是合理概括。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Philip Smith works at the University of Manchester.”",
+      "translation": "Philip Smith 在 University of Manchester 工作。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要查 Philip Smith 的工作地點。文章有 Manchester，但要看它是否是 Smith 的工作單位。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, Philip Smith did not realise that this highly unusual grass was growing at his home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初，Philip Smith 並沒有意識到這種非常不尋常的草正在他家中生長。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After lamenting the demise of interrupted brome and saying, ‘What a pity we did not study it further!’, he suddenly displayed his pots of the supposedly ‘extinct’ grass for everyone to see.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在感嘆 interrupted brome 的消亡，並說「真可惜我們沒有進一步研究它！」之後，他突然展示那幾盆據稱已經 “extinct” 的草給所有人看。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 明確引入 Philip Smith，並講他在會議上展示這種草。題目有 Philip Smith 和Manchester，這段是最可能定位位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Philip Smith”"
+            },
+            {
+              "kind": "quote",
+              "text": "“University of Manchester”"
+            },
+            {
+              "kind": "quote",
+              "text": "“works at”"
+            },
+            {
+              "kind": "label",
+              "text": "原文出現 Manchester 的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“At a meeting of the British Botanical Society in Manchester in 1979, he seized his opportunity.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 Manchester，但沒有 University，也沒有 works at。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At a meeting of the British Botanical Society in Manchester in 1979, he seized his opportunity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1979 年 Manchester 的 British Botanical Society 會議上，他抓住了機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說 British Botanical Society 的 meeting 在 Manchester 舉行。它沒有說 Philip Smith 在Manchester 工作，也沒有提 University of Manchester。前一句說 grass was growing at his home，也只提供住家背景，不提供職位或工作地點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的資料： Philip Smith + works at + University of Manchester原文提供的資料： Philip Smith + at his home British Botanical Society meeting + in Manchester he displayed pots of grass比較結果：原文提到 Manchester，但只作會議地點。缺少 “University of Manchester” 和 “works at” 兩個核心資料。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Manchester 是最強干擾。很多學生看到 Manchester 就會把會議地點誤讀成工作地點。IELTS 常考「同一地名出現，但關係不同」。這裡 Manchester 的角色是 meeting location，題目要求的是employer / workplace。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“English Nature plans to restore interrupted brome using seeds from Kew Botanic Gardens.”",
+      "translation": "English Nature 計劃使用來自 Kew Botanic Gardens 的種子來恢復 interrupted brome。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩部分：English Nature 是否有 restoration plan；使用的 seeds 是否來自 Kew Botanic Gardens。兩部分都要有證據才可選 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E 和 Paragraph F Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For now, the future of interrupted brome is secure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前來看，interrupted brome 的未來是安全的。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seeds have also been saved at sites across the country, and the grass now flourishes in several public gardens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "種子也已在全國多處保存，這種草現在也在幾個公共花園中茂盛生長。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The grass will now be reintroduced to the British countryside.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種草現在將被重新引入英國鄉郊。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a crop, it leaves much to be desired by agriculturalists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為作物，它讓農業人士覺得很不理想。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 後可以估計，Paragraph E 講保存地點，Paragraph F 講復育計劃。這題需要跨段檢查。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“English Nature”"
+            },
+            {
+              "kind": "quote",
+              "text": "“restore / reintroduce”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Kew Botanic Gardens”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seeds”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seeds from Smith’s plants have been safely stored in the cutting-edge facilities of the Millennium Seed Bank at Wakehurst Place in Sussex, while living plants thrive in the botanic gardens at Kew, Edinburgh and Cambridge.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“As part of the Species Recovery Project, English Nature plans to return interrupted brome to the agricultural landscape, provided willing farmers can be found.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seeds from Smith’s plants have been safely stored in the cutting-edge facilities of the Millennium Seed Bank at Wakehurst Place in Sussex, while living plants thrive in the botanic gardens at Kew, Edinburgh and Cambridge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自 Smith 植株的種子已安全存放在 Sussex 的 Wakehurst Place 的 Millennium Seed Bank 先進設施中，同時活體植物也在 Kew、Edinburgh 和 Cambridge 的植物園中生長良好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說 Kew 有 living plants，不是說 Kew 有 English Nature 將使用的 seeds。種子的明確儲存地是 Millennium Seed Bank at Wakehurst Place，另有全國其他 sites。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“As part of the Species Recovery Project, English Nature plans to return interrupted brome to the agricultural landscape, provided willing farmers can be found.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為 Species Recovery Project 的一部分，English Nature 計劃把 interrupted brome 帶回agricultural landscape，前提是能找到願意參與的農民。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支援 restoration plan，但沒有說使用哪裡的種子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文支援 “English Nature plans to return interrupted brome”，但沒有支援 “using seeds from Kew Botanic Gardens”。Kew 出現了，卻只和 living plants thrive 連在一起。題目把保存地點、活體植物地點和復育材料來源連在一起，文章沒有這樣說。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Kew、seeds、reintroduction 都在相鄰段落出現，很容易被拼接成 TRUE。細讀時要追問：哪一句說 “seeds from Kew”？答案是沒有。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Interrupted brome grew as an unwanted weed alongside sainfoin.”",
+      "translation": "Interrupted brome 曾作為不受歡迎的雜草，與 sainfoin 一起生長。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要確認 interrupted brome 是否和 sainfoin 一類作物同田生長，並且身份是 weed。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The origin of the grass may be clear, but the timing of its emergence is harder to determine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種草的起源可能已經清楚，但它出現的時間較難確定。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, however, only a few enthusiastic gentlemen used the new crops for their prized horses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過一開始，只有少數熱心的 gentlemen 使用這些新作物來餵他們珍貴的馬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph H 會用農作物引入時間來推測 interrupted brome 的出現時間。題目提 sainfoin，這段直接有相關內容。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“weed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sainfoin”"
+            },
+            {
+              "kind": "quote",
+              "text": "“alongside”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“grow as a weed in fields containing fodder crops, particularly nitrogen-fixing legumes such as sainfoin…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One clue lies in its tendency to grow as a weed in fields containing fodder crops, particularly nitrogen-fixing legumes such as sainfoin, lucerne and clover.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一條線索在於它常常作為 weed 生長在含有 fodder crops 的田中，特別是 sainfoin、lucerne 和clover 這類 nitrogen-fixing legumes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語 “its” 指 interrupted brome。核心動詞是 “grow”。身份是 “as a weed”。地點是 “fields containing fodder crops”，其中包括 “sainfoin”。題目 “alongside sainfoin” 概括了它和 sainfoin 在同類田地中一起出現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "grew as an unwanted weed= grow as a weed alongside sainfoin= in fields containing fodder crops, particularly … sainfoin判斷原文清楚說 interrupted brome 有在含 sainfoin 等 legumes 的田中作 weed 生長的傾向，題目方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“weed” 本身已帶 unwanted 意味，所以題目中的 “unwanted” 不需要原文再逐字寫 disliked。文章後面 Paragraph F 也說它 is unquestionably a weed that few people value today，進一步支援它不受重視。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Legumes were used for feeding livestock and enriching the soil.”",
+      "translation": "Legumes 曾被用來餵牲畜，也用來改善或肥沃土壤。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩個功能：feeding livestock 和 enriching soil。兩個都要在原文找到。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H 和 Paragraph I Paragraph H 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The origin of the grass may be clear, but the timing of its emergence is harder to determine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種草的起源可能已清楚，但它出現的時間較難確定。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, however, only a few enthusiastic gentlemen used the new crops for their prized horses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過一開始，只有少數熱心的 gentlemen 用這些新作物餵他們珍貴的馬。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before long, the need to feed parliamentary armies in Scotland, England and Ireland became more pressing than ever, and farmers had to produce more bread, cheese and beer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不久之後，供養 Scotland、England 和 Ireland 的 parliamentary armies 的需要變得前所未有地迫切，農民必須生產更多麵包、芝士和啤酒。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the arrival of sainfoin, clover and lucerne, Britain’s own rogue grass had suddenly appeared.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著 sainfoin、clover 和 lucerne 到來，英國自己的 rogue grass 突然出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 顯示 H 講 fodder crops 餵馬，I 講 agriculture rotations 和 crop yields。題目需要兩段合併。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Legumes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feeding livestock”"
+            },
+            {
+              "kind": "quote",
+              "text": "“enriching the soil”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seeds imported from the Continent were sown in pastures to feed horses and other livestock.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“legumes were increasingly incorporated into arable rotations as green manure to boost grain yields.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seeds imported from the Continent were sown in pastures to feed horses and other livestock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從歐洲大陸進口的種子被播種在牧場中，用來餵馬和其他牲畜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支援 feeding livestock。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1650, legumes were increasingly incorporated into arable rotations as green manure to boost grain yields.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1650 年，legumes 越來越多被納入可耕作輪作中，作為 green manure 以提高穀物產量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“green manure” 是把植物作為肥料或土壤改良來源，用來提升土壤肥力和 grain yields。這支援enriching the soil。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "feeding livestock= to feed horses and other livestock enriching the soil= as green manure to boost grain yields判斷原文分別在 Paragraph H 和 I 給出兩個用途。兩部分都獲支援，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “legumes” 總稱，原文列出 sainfoin、lucerne、clover。這是上位詞和下位例子關係。只要這些 crop 在原文中被明確稱為 nitrogen-fixing legumes，概括就成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The spread of interrupted brome depended on farmers resowing its seeds.”",
+      "translation": "Interrupted brome 的擴散依賴農民重新播種它的種子。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 spread / survival 是否依靠 farmers resowing seeds。關鍵詞是 depended。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph K第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This close association with unfashionable crops creates problems for anyone seeking to re-establish interrupted brome in the modern countryside.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它與過時作物之間的密切關聯，為任何想在現代鄉郊重新建立 interrupted brome 的人帶來問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Smith, the grass will struggle even under optimal conditions and cannot easily compete with the more resilient plants of today’s improved agricultural landscape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Smith 認為，即使在最佳條件下，這種草也會艱難生存，並且難以與今日改良農業景觀中更有韌性的植物競爭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道 Paragraph K 講復育困難，以及這種草在現代環境中競爭力弱。題目說depended on farmers resowing its seeds，應在中間找種子和農民。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“depended”"
+            },
+            {
+              "kind": "quote",
+              "text": "“farmers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“resowing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seeds”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each spring, the brome depended on farmers resowing its seeds…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each spring, the brome depended on farmers resowing its seeds; before weedkillers and sophisticated seed sieves, plentiful brome seed would have contaminated stocks of crop seed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每年春天，這種 brome 都依賴農民重新播種它的種子；在 weedkillers 和 sophisticated seed sieves 出現以前，大量 brome seed 會混入作物種子庫存中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “the brome”。核心動詞是 “depended on”。對象是 “farmers resowing its seeds”。它還解釋為何 farmers 會無意中重播它：brome seed 會 contaminate crop seed stocks。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "spread of interrupted brome= brome seed contaminated stocks and was resown each spring depended on farmers resowing its seeds= depended on farmers resowing its seeds判斷題目幾乎直接重現原文關鍵結構，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “spread”，原文說 “depended”。雖然原文沒有直接說 spread，但種子混入 crop seed stocks，再被 farmers 每年重新播種，就是它延續和擴散的機制。這是嚴格短距離推論。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Only weedkillers can prevent interrupted brome from becoming an invasive pest.”",
+      "translation": "只有 weedkillers 能防止 interrupted brome 變成 invasive pest。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要特別看 only。若原文說它本身不易獨立生長，且農民可以放心它永不成為 invasive pest，題目就和原文方向衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph K 和 Paragraph L Paragraph K 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This close association with unfashionable crops creates problems for anyone seeking to re-establish interrupted brome in the modern countryside.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它與過時作物的密切關聯，為想在現代鄉郊重新建立 interrupted brome 的人帶來問題。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph K 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Smith, the grass will struggle even under optimal conditions and cannot easily compete with the more resilient plants of today’s improved agricultural landscape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Smith 認為，即使在最佳條件下，這種草也會艱難生存，並且難以與今日改良農業景觀中更有韌性的植物競爭。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph L 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, interrupted brome’s inability to thrive independently may offer some benefits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管如此，interrupted brome 無法獨立繁盛生長這一點，可能帶來一些好處。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph L 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Conservationists hope to see it growing again in its natural habitat and perhaps one day becoming a badge of honour for a new generation of environmentally conscious farmers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "保育人士希望看到它再次在自然棲息地生長，並且或許有一天成為新一代環保農民的榮譽標誌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 顯示 K 講它弱、難競爭，L 講這個弱點的好處。題目中的 invasive pest 應在 L 找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“weedkillers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“invasive pest”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有兩處相關資料： Paragraph K: “before weedkillers and sophisticated seed sieves…” Paragraph L: “it will never become an invasive pest”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fragile seeds are not its only problem: the species is also reluctant to release them as they ripen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "脆弱的種子不是它唯一的問題：這個 species 在種子成熟時也不太願意釋放它們。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Smith, the grass will struggle even under optimal conditions and cannot easily compete with the more resilient plants of today’s improved agricultural landscape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Smith 認為，這種草即使在最佳條件下也會艱難生存，並且不容易與今日改良農業景觀中更有韌性的植物競爭。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“Any farmer willing to foster this unique part of the world’s flora can be confident that it will never become an invasive pest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何願意培育這種世界獨特植物的農民都可以放心，它永遠不會成為 invasive pest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子說明 interrupted brome 自身競爭力很弱，難以獨立繁盛，農民可以放心它不會入侵式擴散。weedkillers 在 Paragraph K 出現，只是說以前沒有 weedkillers 和 sophisticated seed sieves時，brome seeds 會混入 crop seed stocks。原文沒有說只有 weedkillers 能防止它變成 pest。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與相反關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only weedkillers can prevent…”"
+            },
+            {
+              "kind": "label",
+              "text": "= 防止它成為害草只靠 weedkillers原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“inability to thrive independently”"
+            },
+            {
+              "kind": "quote",
+              "text": "“will struggle even under optimal conditions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“will never become an invasive pest”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：原文把不成為 invasive pest 的原因連到它自身弱勢和低競爭力。題目說只有 weedkillers 可防止，和原文不相容，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "weedkillers 是真實干擾詞，因為它確實在 Paragraph K 出現。不過那句在講以前 brome seed 如何混入 crop seed stocks，並非說 weedkillers 是唯一防止 invasive pest 的方法。only 是這題最危險的限制詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "E — Professor Hackel",
+      "answerKey": "E — Professor Hackel",
+      "type": "Matching Features",
+      "prompt": "“classified interrupted brome as a variety of another brome”",
+      "translation": "把 interrupted brome 分類為另一種 brome 的一個 variety。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問人物行動：誰做了 classified 這個動作。定位詞是 classified、variety、another brome。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Smith’s research has sought to discover where the grass came from and points to mutations in other weedy grasses as the most likely source.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Smith 的研究試圖發現這種草從哪裡來，並指向其他 weedy grasses 的 mutations 作為最可能來源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite growing up in poverty and being self-taught, Druce became the leading botanist of his time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Druce 出身貧困並靠自學成才，他仍成為當時首屈一指的 botanist。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph G 講這種草的起源、分類、相關 botanists。題目問分類為variety，這段是最合適位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“classified”"
+            },
+            {
+              "kind": "quote",
+              "text": "“variety”"
+            },
+            {
+              "kind": "quote",
+              "text": "“another brome”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Professor Hackel initially classified interrupted brome as merely a variety of that species.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its relationship to soft brome is so close that the great Victorian taxonomist Professor Hackel initially classified interrupted brome as merely a variety of that species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它與 soft brome 的關係非常接近，以至於偉大的 Victorian taxonomist Professor Hackel 起初只把 interrupted brome 分類為那個 species 的一個 variety。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Professor Hackel。核心動詞是 “classified”。分類結果是 “as merely a variety of that species”。that species 指前一句中的 soft brome。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "another brome= soft brome classified … as a variety= initially classified … as merely a variety判斷人物和行動完全配合，所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一段還有 Druce，他也與 species recognition 有關。要分清兩個動作：Hackel 把它降為 soft brome 的 variety；Druce 說服同行承認它是 separate species。兩人方向相反。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "C — George Claridge Druce",
+      "answerKey": "C — George Claridge Druce",
+      "type": "Matching Features",
+      "prompt": "“convinced others of interrupted brome’s status as a separate species”",
+      "translation": "說服其他人相信 interrupted brome 是一個獨立 species。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問誰 convinced others。定位時要找 convinced、peers、recognition、species in its own right。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Smith’s research has sought to discover where the grass came from and points to mutations in other weedy grasses as the most likely source.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Smith 的研究試圖發現這種草從哪裡來，並指向其他 weedy grasses 的 mutations 作為最可能來源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite growing up in poverty and being self-taught, Druce became the leading botanist of his time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Druce 出身貧困並靠自學成才，他仍成為當時首屈一指的 botanist。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 顯示 Paragraph G 是分類來源段，且最後一句直接提 Druce。因此題目關於 separate species 的行動很可能在這段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“convinced others”"
+            },
+            {
+              "kind": "quote",
+              "text": "“separate species”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“convinced his peers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recognition as a species in its own right”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“George Claridge Druce, a nineteenth-century botanist, recorded the grass and convinced his peers that it deserved recognition as a species in its own right.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀 botanist George Claridge Druce 記錄了這種草，並說服同行相信它值得被承認為一個獨立 species。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 George Claridge Druce。核心動詞有兩個：recorded 和 convinced。題目問convinced others，對應 “convinced his peers”。separate species 對應 “species in its own right”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "others= his peers status as a separate species= recognition as a species in its own right判斷Druce 完整符合題目行動，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Professor Hackel 和 Druce 在同一段相鄰出現，容易混淆。Hackel 的分類把 interrupted brome放入 soft brome 之下；Druce 的行動提升它的獨立 species 身份。題目問 separate species，所以選 Druce。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "D — Joan Thirsk",
+      "answerKey": "D — Joan Thirsk",
+      "type": "Matching Features",
+      "prompt": "“said that sainfoin was first found more than 300 years ago.”",
+      "translation": "指出 sainfoin 在三百多年前已首次被發現或記錄。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問誰說 sainfoin 的首次記錄時間。定位詞是 sainfoin、first recorded、early 17th century。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The origin of the grass may be clear, but the timing of its emergence is harder to determine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種草的起源可能已清楚，但它出現的時間較難決定。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, however, only a few enthusiastic gentlemen used the new crops for their prized horses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過一開始，只有少數熱心的 gentlemen 使用這些新作物來餵他們珍貴的馬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 顯示 Paragraph H 處理 timing，並提到 sainfoin 等作物進入 Britain 的早期情況。題目問first found more than 300 years ago，很可能在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“sainfoin”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first found”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more than 300 years ago”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to agricultural historian Joan Thirsk…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“were first recorded in Britain in the early 17th century”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to agricultural historian Joan Thirsk, humble sainfoin and its companions were first recorded in Britain in the early 17th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 agricultural historian Joan Thirsk，普通的 sainfoin 及其同伴作物在 17 世紀初首次被記錄於 Britain。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 reporting phrase 是 “According to Joan Thirsk”，所以意見或資料來源是 Joan Thirsk。題目說 “said that” 可以對應 “According to”。“more than 300 years ago” 是 early 17th century 的時間概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "said that= According to first found= first recorded more than 300 years ago= in the early 17th century判斷人物是 Joan Thirsk，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “first found”，原文用 “first recorded”。first recorded 不一定等於自然界第一次出現；它表示文獻記錄上首次出現。題目用較普通的 “found” 概括，但在此題人物定位仍然明確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "F — Nathaniel Fiennes",
+      "answerKey": "F — Nathaniel Fiennes",
+      "type": "Matching Features",
+      "prompt": "“helped farmers know that sainfoin is useful for enriching the soil.”",
+      "translation": "幫助農民知道 sainfoin 對改善土壤有用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找誰 helped spread the word，以及內容和 sainfoin / green manure / boost grain yields有關。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Before long, the need to feed parliamentary armies in Scotland, England and Ireland became more pressing than ever, and farmers had to produce more bread, cheese and beer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不久之後，供養 Scotland、England 和 Ireland 的 parliamentary armies 的需要變得更迫切，農民必須生產更多麵包、芝士和啤酒。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the arrival of sainfoin, clover and lucerne, Britain’s own rogue grass had suddenly appeared.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著 sainfoin、clover 和 lucerne 到來，英國自己的 rogue grass 突然出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 顯示 Paragraph I 講 sainfoin 等 legumes 的農業用途和擴散。題目問幫助農民知道用途的人，應在這段中間找書名和人名。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“sainfoin”"
+            },
+            {
+              "kind": "quote",
+              "text": "“useful for enriching the soil”"
+            },
+            {
+              "kind": "quote",
+              "text": "“helped farmers know”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“legumes were increasingly incorporated into arable rotations as green manure to boost grain yields”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Nathaniel Fiennes’s Sainfoin Improved… helped spread the word”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1650, legumes were increasingly incorporated into arable rotations as green manure to boost grain yields.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1650 年，legumes 越來越多被納入可耕作輪作中，作為 green manure 以提高穀物產量。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nathaniel Fiennes’s Sainfoin Improved, a bestseller published in 1671, helped spread the word.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nathaniel Fiennes 的《Sainfoin Improved》於 1671 年出版，並成為暢銷書，幫助把這個消息傳開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the word” 回指前面關於 legumes 作為 green manure、boost grain yields 的農業用途。題目把這個用途概括成 “useful for enriching the soil”。幫助傳播這個訊息的人或作品是 Nathaniel Fiennes/ his book。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "helped farmers know= helped spread the word sainfoin useful for enriching the soil= legumes … as green manure to boost grain yields判斷答案是 F — Nathaniel Fiennes。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Joan Thirsk 也在前一段談 sainfoin 的時間，因此容易被誤選。不過 Q12 的關鍵動作是 “helped spread the word”，這明確屬於 Nathaniel Fiennes 的書。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "A — A. M. Barnard",
+      "answerKey": "A — A. M. Barnard",
+      "type": "Matching Features",
+      "prompt": "“collected the first sample of interrupted brome.”",
+      "translation": "收集了 interrupted brome 的第一個樣本。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問誰 collected the first sample。定位詞是 collected、first specimens / sample。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although credit for discovering interrupted brome belongs to Miss A. M. Barnard, who collected the first specimens at Odsey, Bedfordshire, in 1849, the grass had probably lurked undetected in the English countryside for at least a century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然發現 interrupted brome 的功勞屬於 Miss A. M. Barnard，她於 1849 年在 Bedfordshire 的Odsey 收集了第一批標本，但這種草很可能已在英格蘭鄉郊未被發現地潛伏了至少一個世紀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More recently, artificial fertilisers have made legume rotations unnecessary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "較近期，人工肥料令 legume rotations 變得沒有必要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Skim 顯示 Paragraph J 開頭就是 discovery / first specimens，題目可直接定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“collected”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first sample”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“collected the first specimens”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although credit for discovering interrupted brome belongs to Miss A. M. Barnard, who collected the first specimens at Odsey, Bedfordshire, in 1849…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然發現 interrupted brome 的功勞屬於 Miss A. M. Barnard，她於 1849 年在 Bedfordshire 的Odsey 收集了第一批標本……這句的主語是 Miss A. M. Barnard。關係從句 “who collected the first specimens” 直接說明她的行動。specimens 可對應題目中的 sample。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "first sample= first specimens collected= collected判斷人物是 A. M. Barnard，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Philip Smith 也 collected seeds in 1963? 更準確地說，Paragraph D 說 Smith preserved seeds collected in 1963 from Pampisford，容易令人想到收集樣本。不過 Q13 問 first sample，原文把first specimens 明確連到 A. M. Barnard 和 1849。Smith 只保存 1963 年種子，時間晚很多。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The “Extinct” Grass in Britain.pdf",
+    "sha256": "d45f58bb0183aa1d65d7708c070c3397d84a83e4765459353c0b1695fce61f45",
+    "pageCount": 26
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看第一句，讀者會先知道 interrupted brome 曾被宣布 extinct，像 dodo 一樣。最後一句說，喜愛這種草的人十分 devastated。首尾句顯示這段功能是介紹 interrupted brome 的消失史：它是英國特有草種，曾在英格蘭南部廣泛生長，後來快速消失，到 1972 年再也找不到。中間還交代名稱來源和 Cambridge 儲存種子失敗，是 Q1、Q2 的重要段落。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句用 however 轉折，指出它消失的報道並不完全正確。最後一句說，將這種幾乎 extinct 的英國草重新引入野外，令 conservationists 很興奮。首尾句顯示這段的功能是由「消失」轉向「復活」。它把故事從官方或科學保存失敗，帶到一位 gardening enthusiast 的意外保存。這段不太處理細節題，主要幫助理解文章主線：extinct 其實只是部分真相。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句說，Philip Smith 起初沒有意識到這種非常 unusual 的草正長在自己家中。最後一句說，他突然展示那幾盆 supposedly “extinct” grass 給所有人看。首尾句顯示這段是戲劇性揭示：Smith得知它被視為 extinct 後，故意在 1979 年 Manchester 的 British Botanical Society 會議上給同行驚喜。這段容易造成 Q3 的地點陷阱：Manchester 是會議地點，不等於他的工作地點。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說，Smith 保存了 1963 年在 Pampisford 收集的種子，那裡是 interrupted brome 最後的stronghold。最後一句說，最終拯救這種植物的是他的 curiosity，而非 scientific or technological project。首尾句顯示這段解釋復活的真正原因：Smith 長年栽培種子，把草保存下來。這段與 Q4有間接關係，因為它說明種子來源是 Smith 的植物，而非某個官方復育計劃一開始成功保存。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句說，目前 interrupted brome 的 future is secure。最後一句說，種子也已在全國多處保存，這種草如今在 several public gardens 生長良好。首尾句顯示這段處理保存現況：Smith 的 plants產生的種子被安全存入 Millennium Seed Bank，活體植物也在 Kew、Edinburgh、Cambridge 等botanic gardens 生長。這段有很多保存地點，會吸引 Q4，但它沒有說 English Nature 會用 Kew的種子復育。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說，這種草現在將被重新引入 British countryside。最後一句說，作為 crop，它令agriculturalists 很不滿意。首尾句顯示這段是復育計劃與農業價值的矛盾：English Nature 計劃在Species Recovery Project 下把它帶回 agricultural landscape，但需要願意合作的 farmers。中間反覆強調它 unattractive、impractical、weed、few people value today，說明復育面對現實接受度問題。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說，Smith 的研究試圖發現這種草從哪裡來，並指向其他 weedy grasses 的 mutations。最後一句說，Druce 雖出身貧困且自學，仍成為當時 leading botanist。首尾句顯示這段聚焦分類與起源：interrupted brome 可能源自其他雜草突變，與 soft brome 關係很近；Professor Hackel 曾把它歸為 soft brome 的一個 variety，Druce 則說服同行承認它是獨立 species。Q9、Q10 直接來自這段。"
+      },
+      {
+        "number": "H",
+        "summary": "第一句說，草的 origin 可能清楚，但 emergence timing 較難決定。最後一句說，起初只有少數enthusiastic gentlemen 用這些新作物餵 prized horses。首尾句顯示這段由草的出現時間轉入fodder crops，特別是 sainfoin、lucerne、clover。它說 interrupted brome 常作為 weed 出現在含有 nitrogen-fixing legumes 的田中，又引用 Joan Thirsk 指 sainfoin 等早在 17 世紀初有記錄。Q5、Q6、Q11 都會用到。"
+      },
+      {
+        "number": "I",
+        "summary": "第一句說，不久後，為 Scotland、England、Ireland 的 parliamentary armies 提供糧食變得更迫切。最後一句說，隨著 sainfoin、clover、lucerne 到來，Britain’s own rogue grass 突然出現。首尾句顯示這段處理農業擴張與 interrupted brome 出現的關係。中間說 by 1650，legumes 被納入arable rotations，作為 green manure 增加 grain yields；Nathaniel Fiennes 的書也 helped spread the word。Q6 和 Q12 要在這段細讀。"
+      },
+      {
+        "number": "J",
+        "summary": "第一句說，A. M. Barnard 收集第一批 interrupted brome 標本，應得到 discovery credit。最後一句說，近期 artificial fertilisers 令 legume rotations 不再必要。首尾句顯示這段把草的發現、演化時間和衰落原因連起來。中間提到它可能在 17 世紀末或 18 世紀初演化，sainfoin 建立後才出現；motor car 令馬匹 fodder crops 衰落，fertilisers 又取代 legume rotations。Q13 直接來自開頭。"
+      },
+      {
+        "number": "K",
+        "summary": "第一句說，與 unfashionable crops 的 close association，令想把 interrupted brome 帶回 modern countryside 的人遇到問題。最後一句說，即使在 optimal conditions 下，這種草也會 struggle，難以與 modern agricultural landscape 中更 resilient plants 競爭。首尾句顯示這段是復育困難：它的種子在 soil 中不能久存，每年依賴 farmers resowing seeds；以前 weedkillers 和 seed sieves 未普及，brome seed 會混入 crop seed。Q7、Q8 的關鍵在這段和下一段。"
+      },
+      {
+        "number": "L",
+        "summary": "第一句說，儘管如此，interrupted brome 不能獨立 thrive 的弱點，可能也帶來好處。最後一句說， conservationists 希望它重回 natural habitat，甚至成為新一代環保 farmers 的 badge of honour。首尾句顯示這段是結尾展望：它不易成為 invasive pest，所以願意協助的農民不用太擔心。文章把它從無用 weed 轉化為 national treasure 和 environmental honour。Q8 的反駁證據主要來自這裡。 Answer Key 1. FALSE 2. TRUE 3. NOT GIVEN 4. NOT GIVEN 5. TRUE 6. TRUE 7. TRUE 8. FALSE 9. E 10. C 11. D 12. F 13. A"
+      }
+    ]
+  }
+}

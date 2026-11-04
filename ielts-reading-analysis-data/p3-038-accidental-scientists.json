@@ -1,0 +1,823 @@
+{
+  "id": "p3-038-accidental-scientists",
+  "catalogueId": "p3-038",
+  "catalogueIds": [
+    "p3-038"
+  ],
+  "passage": 3,
+  "title": "Accidental Scientists",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "v",
+    "ix",
+    "iv",
+    "vi",
+    "x",
+    "viii",
+    "C",
+    "B",
+    "D",
+    "D",
+    "A",
+    "Horace Walpole",
+    "fairy tale",
+    "Sri Lanka"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "v — The contradiction of views on scientific discovery",
+      "answerKey": "v — The contradiction of views on scientific discovery",
+      "type": "Matching Headings",
+      "prompt": "Question 27",
+      "translation": "一個悖論位於科學發現的核心附近。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A題目要求為 Paragraph A 選 heading。Heading 題要看整段主旨，不要只看某一個例子。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A paradox lies close to the heart of scientific discovery.”"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the philosophy of science, these extremes map onto the purist forms of deductivism and inductivism…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在科學哲學中，這兩個極端對應到純粹形式的演繹主義和歸納主義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的主軸是 paradox。作者說，完全知道自己在找甚麼，發現就變得不意外；完全不知道自己在找甚麼，又無法知道自己何時找到。這就是科學發現的矛盾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v 的 “contradiction of views on scientific discovery” 正好概括這段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 v。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 iii，因為 iii 是 “Resolving the contradiction”，已經用於 Paragraph B。Paragraph A 只是提出 contradiction；Paragraph B 才提出中間位置作為解法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "ix — How the word came into being",
+      "answerKey": "ix — How the word came into being",
+      "type": "Matching Headings",
+      "prompt": "Question 28",
+      "translation": "這個詞直到十九世紀初才出現在出版文獻中。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The word did not appear in the published literature until the early 19th century…”"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He explained that it came from the fairy tale, called The Three Princes of Serendip…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他解釋這個詞來自一個名為《Serendip 三王子》的童話。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段一直圍繞 serendipity 這個詞：何時出現、何時開始不用解釋也能被理解、意思是甚麼、誰第一次使用、來自哪個故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix “How the word came into being” 最能概括全段，意思是「這個詞如何形成／如何出現」。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading ii “Horace Walpole’s fairy tale” 有一定吸引力，因為原文提到 Horace Walpole 和 fairy tale。不過 fairy tale 並非 Walpole 自己寫的故事；段落焦點也不只是 fairy tale，而是 serendipity這個詞的來源。因此 ix 更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "iv — What is the Scientific Method?",
+      "answerKey": "iv — What is the Scientific Method?",
+      "type": "Matching Headings",
+      "prompt": "Question 29",
+      "translation": "古物研究者跟隨 Walpole 的用法，覺得這個詞很有用。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Antiquarians, following Walpole, found it useful…”"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Maybe some scientists, like some book collectors, had a happy knack; maybe serendipity described the situation rather than a personal skill or capacity.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許某些科學家像某些藏書家一樣有一種幸運本領；也許 serendipity 描述的是情境，而非個人的技能或能力。"
+            },
+            {
+              "kind": "label",
+              "text": "段落中間真正控制 heading 的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, as Medawar insisted, ‘There is no such thing as The Scientific Method,’ no way at all of systematising the process of discovery.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如 Medawar 堅持指出的，根本不存在所謂「唯一的科學方法」；也沒有任何方法可以把發現過程完全系統化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段不是單純列舉科學發現例子。Ørsted 發現 electromagnetism 只是用來支持一個更大的觀點：科學發現很多時候沒有完全按照固定方法出現。Medawar 的話直接把段落推向 “Scientific Method” 這個問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 iv。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Heading i “Examples of some scientific discoveries” 容易令人誤選，因為段落確實提到 Ørsted發現 electromagnetism。不過這只是其中一個例子，無法概括整段。Heading 題要選全段功能，不要被局部例子拉走。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "vi — Some misunderstandings of serendipity",
+      "answerKey": "vi — Some misunderstandings of serendipity",
+      "type": "Matching Headings",
+      "prompt": "Question 30",
+      "translation": "有些使用這個詞的科學家想強調情境中的偶然；有些把 serendipity 看成個人能力；還有很多人利用這個概念的模糊性。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some scientists using the word meant to stress those accidents belonging to the situation; some treated serendipity as a personal capacity; many others exploited the ambiguity of the notion.”"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On closer inspection, it is insisted, accident dissolves into sagacity.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "經仔細檢視，有人堅持認為，所謂偶然其實會化為洞察力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的焦點是 serendipity 的含義被不同人用不同方式理解：有人把它看成情境偶然，有人看成個人能力，有人覺得它會削弱專家權威。接著作者用 Pasteur 的名言："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chance favors the prepared mind.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "機會偏愛準備好的頭腦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 chance 和 prepared mind 連起來，說明看似偶然的發現，其實也需要專業準備和判斷力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 Heading vi “Some misunderstandings of serendipity” 最貼近這段：它處理 serendipity 的歧義、爭議，以及人們如何誤解「偶然」和「專業能力」之間的關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "x — Illustration of serendipity in the business sector",
+      "answerKey": "x — Illustration of serendipity in the business sector",
+      "type": "Matching Headings",
+      "prompt": "Question 31",
+      "translation": "科學 serendipity 最具爭議、也最有迴響的語境，是和「有計劃的科學」這個概念相關的語境。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The context in which scientific serendipity was most contested and had its greatest resonance was that connected with the idea of planned science.”"
+            },
+            {
+              "kind": "label",
+              "text": "段落中間提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“two of the great early-20th-century American pioneers of industrial research—Willis Whitney and Irving Langmuir, both of General Electric…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "二十世紀初美國工業研究的兩位先驅 Willis Whitney 和 Irving Langmuir，兩人都來自 General Electric。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The notion that industry was invariably committed to the regimentation of scientific research just doesn’t wash.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "認為工業界必然致力於把科學研究制度化、規訓化，這種說法站不住腳。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明顯把 serendipity 放進 industrial research / corporate capitalism / General Electric 的語境中討論，所以是 business sector 的例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 x。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "viii — Reality doesn’t always match expectation",
+      "answerKey": "viii — Reality doesn’t always match expectation",
+      "type": "Matching Headings",
+      "prompt": "Question 32",
+      "translation": "對 Merton 本人來說，serendipity 是其社會科學工作的核心支柱。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For Merton himself… serendipity represented the keystone in the arch of his social scientific work.”"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All social action, including that undertaken with the best evidence and formulated according to the most rational criteria, is uncertain in its consequences.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有社會行動，即使是根據最佳證據並按最理性標準制定的行動，其結果仍然是不確定的。"
+            },
+            {
+              "kind": "label",
+              "text": "段落中的 Yosemite 例子很關鍵："
+            },
+            {
+              "kind": "quote",
+              "text": "“people wanting to be alone with nature in Yosemite Valley wind up crowding one another.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們本來想在 Yosemite Valley 獨自親近自然，結果卻變成彼此擁擠在一起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是 expectation 和 reality 不一致。人們有目的、有計劃地行動，但結果常常不是原先想要的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 viii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "C — accept chance discoveries",
+      "answerKey": "C — accept chance discoveries",
+      "type": "Multiple Choice",
+      "prompt": "“In paragraph A, the word ‘inductivism’ means…”",
+      "translation": "Paragraph A 中 inductivism 的意思是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph A 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“in the latter, you are recommended to start with no expectations whatsoever and see what turns up.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在後者，即 inductivism 中，你被建議一開始完全不帶任何期待，看看會出現甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說 inductivism 的做法是：先不要預設結果，讓資料或現象自己出現。選項 C “accept chance discoveries” 最接近這個意思。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “anticipate results from the beginning”這是預先期待結果，和 “start with no expectations whatsoever” 相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “work from prepared premises”這比較接近 deductivism，因為 deductivism 是從 premises 推出 outcomes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “accept chance discoveries”正確。沒有預設結果，看看會出現甚麼，意思上接近接受偶然出現的發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “look for what you want”這是有明確目標地尋找，和 inductivism 的 no expectations 不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "B — discoveries tend to happen unplanned",
+      "answerKey": "B — discoveries tend to happen unplanned",
+      "type": "Multiple Choice",
+      "prompt": "“Medawar says ‘there is no such thing as The Scientific Method’ because…”",
+      "translation": "Medawar 說不存在所謂「唯一的科學方法」，原因是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, as Medawar insisted, ‘There is no such thing as The Scientific Method,’ no way at all of systematising the process of discovery.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如 Medawar 堅持指出的，根本不存在所謂「唯一的科學方法」；也沒有任何方法可以把發現過程完全系統化。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Really important discoveries had a way of showing up when they had a mind to do so and not when you were looking for them.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正重要的發現往往會在它們想出現時出現，而不是在你正在尋找它們時出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來就是：發現不能完全被程序化，因為重要發現常常沒有按照計劃出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B “discoveries tend to happen unplanned” 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 錯在 “determined mind”。原文不是說靠堅定意志。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯在 “unpleasant”。原文沒有說 discovery process 令人不愉快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “serendipity is not a skill” 是段落後面的開放討論，並非 Medawar 這句話的主要原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "D — it devalues their scientific expertise",
+      "answerKey": "D — it devalues their scientific expertise",
+      "type": "Multiple Choice",
+      "prompt": "“Many scientists dislike the idea of serendipity because…”",
+      "translation": "很多科學家不喜歡 serendipity 這個概念，原因是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To say that science had a significant serendipitous aspect was taken by some as dangerous denigration.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "說科學有重要的偶然發現成分，被一些人視為危險的貶低。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If scientific discovery were really accidental, then what was the special basis of expert authority?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果科學發現真的是偶然的，那麼專家權威的特殊基礎又在哪裡？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句非常清楚：有些科學家擔心，如果發現被說成偶然，專家能力和權威就會被削弱。因此選項D 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “it devalues their scientific expertise”= 它貶低科學專家的專業能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項： A “easily misunderstood and abused”段落確實提到 ambiguity，但科學家 dislike 的核心原因是 dangerous denigration 和 expert authority。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “too unpredictable” uncertainty 是文章主題之一，但這題問科學家不喜歡 serendipity 的原因，原文明確落在authority / expertise。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “beyond their comprehension”原文沒有說科學家理解不了 serendipity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "D — accepting uncertainty can help produce positive results",
+      "answerKey": "D — accepting uncertainty can help produce positive results",
+      "type": "Multiple Choice",
+      "prompt": "“The writer mentions Irving Langmuir to illustrate…”",
+      "translation": "作者提到 Irving Langmuir，是為了說明甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Langmuir thought that misconceptions about the certainty and rationality of the research process did much harm and that a mature acceptance of uncertainty was far more likely to result in productive research policies.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Langmuir 認為，對研究過程的確定性和理性抱有錯誤理解會造成很大傷害；成熟地接受不確定性，更可能帶來有成效的研究政策。"
+            },
+            {
+              "kind": "label",
+              "text": "這句直接對應選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“accepting uncertainty can help produce positive results.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接受不確定性可以幫助產生正面成果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “planned science should be avoided”太絕對。Langmuir 反對 overly rigid research planning，不等於所有 planning 都要避免。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “industrial development needs uncertainty”原文講的是 research policies，不是整體 industrial development。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “people tend to misunderstand the relationship between cause and effect”原文有 “no very determinate relationship between cause and effect in research”，但作者提Langmuir 的重點是反對過度僵化規劃，並支持接受 uncertainty。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "A — the conflict between reality and expectation",
+      "answerKey": "A — the conflict between reality and expectation",
+      "type": "Multiple Choice",
+      "prompt": "“The example of Yosemite is to show…”",
+      "translation": "Yosemite 的例子用來說明甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is, he argued, the nature of social action that what one intends is rarely what one gets…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他認為，社會行動的本質就是：人們原本打算得到的，往往不是最後得到的。"
+            },
+            {
+              "kind": "label",
+              "text": "Yosemite 例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“people wanting to be alone with nature in Yosemite Valley wind up crowding one another.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們想在 Yosemite Valley 獨自親近自然，最後卻變成彼此擠在一起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好是 intention 和 outcome 不一致，即 expectation 和 reality 的衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “the conflict between reality and expectation”正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “the importance of systematic planning”原文不是在讚揚 systematic planning，反而強調即使計劃理性，結果仍不確定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “the intention of social action”只講到一半。Yosemite 例子不只講 intention，也講 intention 和 actual result 的落差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “the power of anticipation”原文強調的是 anticipation 的限制，不是其力量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "Horace Walpole",
+      "answerKey": "Horace Walpole",
+      "type": "Short Answer Questions",
+      "prompt": "“Who is the person who first used the word ‘serendipity’?”",
+      "translation": "誰最先使用 serendipity 這個詞？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first noted use of ‘serendipity’ in the English language was by Horace Walpole.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "英語中第一次被記錄下來的 serendipity 用法，是由 Horace Walpole 使用的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案要填人名，所以是： Horace Walpole字數檢查：Horace = 1 word，Walpole = 1 word，合共兩個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "fairy tale",
+      "answerKey": "fairy tale",
+      "type": "Short Answer Questions",
+      "prompt": "“What kind of story does the word come from?”",
+      "translation": "這個詞來自哪一類故事？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He explained that it came from the fairy tale, called The Three Princes of Serendip…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他解釋這個詞來自一個童話，名為《Serendip 三王子》。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 kind of story，不是問故事書名。因此答案是類別： fairy tale字數檢查：fairy = 1 word，tale = 1 word，符合要求。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "Sri Lanka",
+      "answerKey": "Sri Lanka",
+      "type": "Short Answer Questions",
+      "prompt": "“What is the present name of Serendip?”",
+      "translation": "Serendip 現在的名稱是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Three Princes of Serendip (the ancient name for Ceylon, or present-day Sri Lanka)…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Serendip 三王子》；Serendip 是 Ceylon 的古名，也就是現今的 Sri Lanka。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是： Sri Lanka字數檢查：Sri = 1 word，Lanka = 1 word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Accidental Scientists.pdf",
+    "sha256": "363ee3ab563498a69c2964dc1b30b94f99698654cf4f880e24d161cbfec19674",
+    "pageCount": 15
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "功能：提出科學發現中的核心矛盾。這段說，如果你完全知道自己在找甚麼，找到它就很難稱為 discovery；可是如果你完全不知道自己在找甚麼，你也無法知道自己何時找到答案。這形成 discovery 的 paradox。段落後半把這個矛盾連到 deductivism 和 inductivism 兩種極端科學觀。"
+      },
+      {
+        "number": "B",
+        "summary": "功能：嘗試解決 Paragraph A 的矛盾。題目已給例子：Paragraph B = iii。這段說理想位置應在兩個極端之間：你要有足夠方向，才能在發現意外價值時感到驚訝；也要保留足夠未知，才能接受 alternative outcomes。這正是 “Resolving the contradiction”。"
+      },
+      {
+        "number": "C",
+        "summary": "功能：解釋 serendipity 這個字的來源和早期意思。這段交代 serendipity 何時進入文獻、何時變得廣為人知、意思是甚麼，以及 Horace Walpole 如何從 The Three Princes of Serendip 這個 fairy tale 中借來這個詞。"
+      },
+      {
+        "number": "D",
+        "summary": "功能：討論科學界如何用 serendipity 挑戰單一固定的 Scientific Method。這段先說 antiquarians 喜歡用 serendipity，再轉到 scientists。Cannon 和 Medawar 強調科學發現很多時候沒有計劃，甚至帶有偶然性。Ørsted 發現 electromagnetism 是例子。Medawar 說“There is no such thing as The Scientific Method”，重點是發現過程不能被完全系統化。"
+      },
+      {
+        "number": "E",
+        "summary": "功能：指出 serendipity 這個概念容易引起不同理解和爭議。這段說有些科學家把 serendipity 理解為情境中的偶然，有些理解為個人能力，還有很多人利用它的模糊性。另一批科學家覺得這會削弱專家權威。Pasteur 的 “Chance favors the prepared mind”則把偶然和準備好的頭腦連起來。"
+      },
+      {
+        "number": "F",
+        "summary": "功能：用工業研究界例子說明 serendipity 如何支持較自由的研究政策。這段講 General Electric 的 Willis Whitney 和 Irving Langmuir。Langmuir 反對過度僵化的研究規劃，認為接受 uncertainty 更可能帶來 productive research policies。這是 serendipity 在 business/ industrial research sector 的例子。"
+      },
+      {
+        "number": "G",
+        "summary": "功能：說明現實結果常常和原本意圖不同。這段講 Merton 的社會科學觀點：人類有目的的社會行動經常帶來 unanticipated consequences。例子包括自然哲學家本想支持基督教，結果為 secularism 鋪路；人們想在 Yosemite Valley 親近自然，結果互相擠在一起。核心是：計劃和結果常常不一致。"
+      }
+    ]
+  }
+}

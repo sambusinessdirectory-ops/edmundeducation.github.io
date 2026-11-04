@@ -1,0 +1,1097 @@
+{
+  "id": "p3-106-saving-language",
+  "catalogueId": "p3-106",
+  "catalogueIds": [
+    "p3-106"
+  ],
+  "passage": 3,
+  "title": "SAVING LANGUAGE",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "YES",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "NO",
+    "B",
+    "D",
+    "F",
+    "C",
+    "E",
+    "B",
+    "D",
+    "F"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The rate at which languages are becoming extinct has increased.”",
+      "translation": "語言滅絕的速度已經增加。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN 題，問的是作者觀點或文章說法是否支持題目命題。題目核心有兩點：第一，語言正在消失；第二，消失速度比過去更快。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is nothing unusual about a single language dying.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單一語言死亡本身並不罕見。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On average, there is a language dying out somewhere in the world every two weeks or so.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "平均而言，世界上某處大約每兩星期就有一種語言消失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段會比較「過去語言死亡的正常現象」和「今天語言死亡的異常速度」。首句說單一語言死亡很平常，尾句給出每兩星期一種語言的速度，兩句之間自然會解釋為何今天的情況特別嚴重。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “rate” 和 “becoming extinct”。原文沒有直接用 increased rate，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“But what is happening today is extraordinary, judged by the standards of the past. It is language extinction on a massive scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是按照過去標準來看，今天正在發生的事情非常不尋常。這是大規模的語言滅絕。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “judged by the standards of the past”，即用過去標準衡量。這已經建立了今昔比較。接著說 “extraordinary” 和 “massive scale”，再用數字說明：6,000 種語言中約一半會在下一世紀消失，也就是 1,200 個月內消失 3,000 種語言。最後用 “every two weeks or so” 把速度具體化。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “rate … has increased” 對應原文 “what is happening today is extraordinary, judged by the standards of the past”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “languages are becoming extinct” 對應原文 “language extinction on a massive scale” 和 “a language dying out … every two weeks”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文用今昔比較和具體速度說明今天滅絕情況異常嚴重，因此題目方向和原文一致。答案是YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Research on the subject of language extinction began in the 1990s.”",
+      "translation": "關於語言滅絕的研究始於 1990 年代。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的核心是時間。題目說 research began in the 1990s，所以我們要找原文是否有研究開始時間。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How do we know?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們怎樣知道？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A 1999 survey shows that 97 per cent of the world’s languages are spoken by just four per cent of the people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1999 年一項調查顯示，世界 97% 的語言只由 4% 的人口使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 3 是證據來源段。它應該會說語言學家如何收集資料、如何判斷語言有沒有生命力，以及有甚麼調查數據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Research” 和 “1990s”。原文中最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the course of the past two or three decades, linguists all over the world have been gathering comparative data.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在過去二三十年間，世界各地的語言學家一直在收集比較資料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是 “past two or three decades”，即過去二十至三十年。段末提到 1999 survey，但 1999是一項調查的年份，不是整個研究領域開始的年份。題目把 “1999 survey” 附近的年份，說成research began in the 1990s，這和原文時間線不合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與衝突",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：research began in the 1990s"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：linguists have been gathering comparative data over the past two or three decades原文說的是一個持續二三十年的資料收集過程，不支持「研究始於 1990 年代」這個較晚的起點。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 “A 1999 survey”。學生看到 1999，很容易把它理解成研究開始時間。可是 survey是一項調查成果，不等於整個研究主題的起點。真正控制答案的是 “past two or three decades”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“In order to survive, a language needs to be spoken by more than 100 people.”",
+      "translation": "一種語言若要存續，需要有超過 100 人使用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的核心是 100 speakers 這個數字，以及它和 survival / lasting 的關係。題目沒有說超過 100人就一定安全，只說少於或等於這個規模很難存續。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How do we know?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們怎樣知道？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A 1999 survey shows that 97 per cent of the world’s languages are spoken by just four per cent of the people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1999 年一項調查顯示，世界 97% 的語言只由 4% 的人口使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段會講語言滅絕的判斷依據，尤其是說話者數量和人口分布，所以很適合定位 “100 people”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “100 people” 和 “survive”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“And we have to draw the same conclusion if a language has fewer than 100 speakers. It is not likely to last very long.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果一種語言少於 100 位說話者，我們也必須作出同樣結論。它不太可能維持很久。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the same conclusion” 指前面提到的 “that language is bound to die out soon”。也就是說，若語言只剩很少說話者，並且沒有傳給孩子，語言很快會消失。原文再補充，如果少於 100 speakers，也要作同樣判斷，因為它 “not likely to last very long”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “in order to survive” 對應原文 “last very long”。題目 “needs to be spoken by more than 100 people” 是從原文 “fewer than 100 speakers … not likely to last very long” 反推出的必要條件。判斷：原文沒有說超過 100 人就絕對安全，但它明確指出少於 100 人時語言不太可能長久存續。題目說要存續就需要超過 100 人，方向和原文一致。答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Certain parts of the world are more vulnerable than others to language extinction.”",
+      "translation": "世界某些地區比其他地區更容易面對語言滅絕。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是地區比較。要選 YES，原文需要指出某些地理區域較脆弱；要選 NO，原文需要說各地風險相同或沒有地區差異。只提到不同國家例子，仍不足以回答這個比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "可能相關段落"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A 1999 survey shows that 97 per cent of the world’s languages are spoken by just four per cent of the people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1999 年調查顯示，世界 97% 的語言只由 4% 的人口使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8、9、10、11 也分別提到 New Zealand、Faroe Islands、Switzerland、Japan、South Australia。只看首尾句，可以知道後半篇會列舉不同地區的復興案例。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “parts of the world” 和 “more vulnerable than others”。掃描文章時，我們會看到"
+            },
+            {
+              "kind": "quote",
+              "text": "“all over the world”、“On the other side of the world”、“In Switzerland”、“Japan”、“South Australia”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "等地名。但這些只是例子或案例，不是地區風險排名。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 97% 的語言由 4% 的人口使用，這是全球語言與人口分布不平均的資料。它沒有說哪一洲、哪一國、哪一地區最危險。後文提到 Welsh、Maori、Faroese、Romansch、Ainu、Kaurna，也只是展示不同復興方法，不是在比較各地滅絕風險高低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目需要 “某些地區比其他地區更脆弱” 這個比較。文章有全球統計和世界各地例子，但沒有建立地區脆弱程度比較。相關背景存在，核心比較缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Saving language should be the major concern of any small community whose language is under threat.”",
+      "translation": "任何語言受威脅的小社群，都應該把保存語言視為首要關注。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要留意 “should”、“major concern” 和 “any small community”。題目說法很強，表示所有這類社群都應把語言保存放在最重要位置。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is too late to do anything to help many languages, where the speakers are too few or too old, and where the community is too busy just trying to survive to care about their language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對很多語言來說，現在已經太遲，無法再做甚麼來幫助它們；這些情況下，說話者太少或太老，社群也忙於求生，無暇關心自己的語言。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is called revitalisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這稱為語言復興。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷本段會先說哪些語言太遲拯救，再說哪些語言仍可透過 revitalisation 得到新生命。題目中的 small community 和 under threat 很容易定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “major concern”、“any small community” 和 “under threat”。原文最直接的對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the community is too busy just trying to survive to care about their language.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明，有些社群忙於基本生存，連照顧語言的能力或心力都沒有。題目卻說任何語言受威脅的小社群都 should 把保存語言作為 major concern。原文的立場較現實：有些情況下，社群正在努力生存，語言保存已經無法成為主要關注。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與衝突",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “major concern” 對應「首要關注」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “too busy just trying to survive to care about their language” 表示連關心語言都難以做到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “any” 範圍過大，原文已提供例外情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文沒有支持「任何受威脅小社群都應以語言保存為首要任務」。相反，它明確說有些社群忙於求生，無法照顧語言。因此答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "B, D, F",
+      "answerKey": "B, D, F",
+      "type": "Three Necessary",
+      "prompt": "Questions 33–35",
+      "translation": "一旦社群意識到自己的語言有危險，就可以開始採取真正能復興語言的措施。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Factors題目問：哪些因素被作者提到為 community 內部語言復興所需條件。目標段落主要是 Paragraph 5，輔助段落是 Paragraph 6。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once a community realises that its language is in danger, it can start to introduce measures which can genuinely revitalise it.”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People must be able to read and write if they and their language are to have a future in an increasingly computer-literate civilisation.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果人們和他們的語言要在日益電腦化、重視文字能力的文明中有未來，他們必須能讀寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的功能非常清楚：列出語言復興的必要條件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Correct Factor B — support from the indigenous population原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The community itself must want to save its language.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "社群本身必須想保存自己的語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目選項 B 是 “support from the indigenous population”。這裡的 indigenous population 可理解為該語言所屬社群的人。原文的 “community itself must want” 正好對應 support from the population。語言復興不能只靠外來專家或政策，社群本身必須願意保留和使用語言。所以 B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Correct Factor D — on-the-spot help from language experts原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“And there need to be linguists to get on with the basic task of putting the language down on paper.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也需要語言學家繼續進行基本工作，把語言記錄到紙上。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is not cheap, getting linguists into the field…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "把語言學家派到實地並不便宜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 是 “on-the-spot help from language experts”。language experts 對應 linguists； on-the-spot 對應 “into the field”，也就是到當地實地工作。語言學家負責記錄、分析、寫下語言，因此 D 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Correct Factor F — formal education procedures原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“There needs to be funding to support courses, materials, and teachers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "需要資金來支持課程、教材和教師。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“writing materials for use in schools.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "編寫可在學校使用的材料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 F 是 “formal education procedures”。courses、materials、teachers、schools 都屬於正式教育程序或教育配套，所以 F 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為何其他選項不選A “the existence of related languages”原文沒有說要有相關語言才能復興。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “books tracing the historical development of the language”原文說要 documenting、grammars、dictionaries，但沒有特別說需要追溯語言歷史發展的書。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E “a range of speakers of different ages” Maori 例子有 children under five 和 staff，但必要條件段沒有把不同年齡層列為通用條件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G “a common purpose for which the language is required”原文說語言要有 future、能讀寫，也說語言可作 identity marker，但沒有列出共同用途作為復興必要條件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Questions 33–35 答案是 B, D, F。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "C — Faroese",
+      "answerKey": "C — Faroese",
+      "type": "Matching Languages",
+      "prompt": "“The region in which the language was spoken gained increased independence.”",
+      "translation": "使用該語言的地區取得了更高程度的獨立或自治。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句講 Maori language nests；最後一句說 Faroese 在 Faroe Islands 的自治後，語言增長尤其明顯。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And when the reviving language is associated with a degree of political autonomy, the growth can be especially striking, as shown by Faroese, spoken in the Faroe Islands, after the islanders received a measure of autonomy from Denmark.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當復興中的語言與一定程度的政治自治相關時，增長可以特別明顯；Faroese 就顯示了這點，它在 Faroe Islands 使用，而當地居民從 Denmark 得到一定自治後，語言增長尤其突出。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "gained increased independence = received a measure of autonomy the region = Faroe Islands language = Faroese所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "E — Ainu",
+      "answerKey": "E — Ainu",
+      "type": "Matching Languages",
+      "prompt": "“People were encouraged to view the language with less prejudice.”",
+      "translation": "人們受到鼓勵，以較少偏見的態度看待該語言。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 10。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說語言可以從滅絕邊緣被帶回來；最後一句說 Ainu 現在比多年來更公開可見。這段明顯講 Ainu 從負面態度走向重新受重視。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, new government policies brought fresh attitudes and a positive interest in survival.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新政府政策帶來了新的態度，以及對語言存續的正面興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several ‘semi-speakers’ – people who had become unwilling to speak Ainu because of the negative attitudes of Japanese speakers – were prompted to become active speakers again.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些「半說話者」曾因日語使用者的負面態度而不願說 Ainu；後來他們受到推動，再次成為活躍說話者。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "less prejudice = fresh attitudes / positive interest / reduced negative attitudes were encouraged = were prompted language = Ainu所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — Maori",
+      "answerKey": "B — Maori",
+      "type": "Matching Languages",
+      "prompt": "“Language immersion programmes were set up for sectors of the population.”",
+      "translation": "為特定人口群體設立了語言沉浸式課程或環境。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接提到 Maori in New Zealand 和 language nests。這是本題最強定位。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Maori in New Zealand has been maintained by a system of so-called ‘language nests’, first introduced in 1982.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "New Zealand 的 Maori 透過所謂 “language nests” 系統得到維持，這個系統於 1982 年首次引入。"
+            },
+            {
+              "kind": "label",
+              "text": "接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are organisations which provide children under five with a domestic setting in which they are intensively exposed to the language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些組織為五歲以下兒童提供家庭式環境，讓他們密集接觸該語言。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "language immersion programmes = language nests / intensively exposed to the language sectors of the population = children under five language = Maori所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "D — Romansch",
+      "answerKey": "D — Romansch",
+      "type": "Matching Languages",
+      "prompt": "“A merger of different varieties of the language took place.”",
+      "translation": "該語言的不同變體被合併起來。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 9。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 Romansch 有五種很不同的方言；最後一句說 Romansch Grischun 取得官方地位並用於媒體。首尾句已經提示：問題是方言分散，解決方案可能是統一形式。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The solution here was the creation in the 1980s of a unified written language for all these dialects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的解決方法是在 1980 年代創造一種適用於所有這些方言的統一書面語。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "merger = creation of a unified written language different varieties = five very different dialects language = Romansch所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "F — Kaurna",
+      "answerKey": "F — Kaurna",
+      "type": "Matching Languages",
+      "prompt": "“Written samples of the language permitted its revitalisation.”",
+      "translation": "該語言的文字樣本令它得以復興。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 11。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說如果有良好描述和材料，即使已滅絕語言也可以復活；最後一句說只要人們持續使用，它會發展新功能和新詞彙。這段明顯講記錄材料如何支援語言重建。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kaurna, from South Australia, is an example. This language had been extinct for about a century, but had been quite well documented. So, when a strong movement grew for its revival, it was possible to reconstruct it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "South Australia 的 Kaurna 就是一個例子。這種語言已經滅絕約一個世紀，但記錄相當完整。因此，當強烈的復興運動出現時，人們便能重建它。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "written samples = good descriptions and materials / well documented permitted its revitalisation = made it possible to reconstruct it language = Kaurna所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -SAVING LANGUAGE.pdf",
+    "sha256": "02e644dcaced44e5b5b4a239bd0b17e2a2ec13f982f8dbac5ef5cfd3b4a24198",
+    "pageCount": 15
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說語言學家第一次為語言「標價」，保存瀕危語言並不便宜；尾句說越來越多人認為，另一個選擇就是社群死亡。只看首尾句，可以估計本段是全文導入：文章會討論保存語言的成本，也會把語言和社群存亡連起來。這段不只是談學術研究，也引入價值判斷：語言消失可能代表一個社群身份、文化和延續能力受損。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說單一語言死亡並不罕見，社群歷史上一直有興衰；尾句說平均每兩星期左右，世界某處就有一種語言消失。只看首尾句，可以判斷本段負責說明「今天的情況為何嚴重」。它把過去正常的語言死亡，和現今大規模滅絕作比較。段中很可能有數字，例如 6,000 種語言、半數將消失、每月速度等，適合定位 extinction rate 題。"
+      },
+      {
+        "number": "3",
+        "summary": "首句問「我們怎樣知道？」；尾句說 1999 年調查顯示，世界 97% 的語言只由 4% 的人口使用。只看首尾句，可以估計本段解釋語言學家如何判斷語言是否即將消失。它會談 speakers 數量、是否傳給孩子、少於 100 speakers 的風險，以及語言與人口分布的不平均。這段很適合處理 research timing、100 speakers、language vulnerability 類題目。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說很多語言已經太遲拯救，因為說話者太少或太老，社群也忙於生存；尾句說讓瀕危語言重獲新生命稱為 revitalisation。只看首尾句，可以判斷本段是從「死亡風險」轉入「復興可能」。它一方面承認部分情況已無能為力，另一方面指出不少語言仍有救。這段很適合定位 community survival、serious position、revitalisation 和 small community priority 題目。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說一旦社群意識到語言有危險，就可以開始採取真正復興語言的措施；尾句說若人們和語言要在電腦化文明中有未來，就必須能讀寫。只看首尾句，可以估計本段列出語言復興的必要條件，包括社群意願、尊重少數語言、資金、課程、教材、教師、語言學家，以及把語言記錄下來。這段是 Questions 33–35 的核心答案區。"
+      },
+      {
+        "number": "6",
+        "summary": "首句問我們是否能就這樣保存數千種語言；尾句估算若每種語言三年投入每年 100,000 美元， 3,000 種語言約需 9 億美元。只看首尾句，可以判斷本段集中處理成本和可行性。它會解釋保存語言需要 field linguists、training、teachers、grammars、dictionaries、school materials，也說明這項工程花錢又花時間。這段可輔助 Questions 33–35，尤其是 experts 和 education procedures。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說有一些著名案例說明可以怎樣做；尾句說 Welsh 在 Wales 各地越來越明顯可見。只看首尾句，可以估計本段開始列舉成功案例，第一個例子是 Welsh。重點大概是 Welsh 透過法律和公共地位保護，停止衰退並開始增長。這段適合定位 Welsh、Language Acts、official status、growth等細節，但本題後面的配對未直接用 Welsh 作答案。"
+      },
+      {
+        "number": "8",
+        "summary": "首句轉到世界另一端，說 New Zealand 的 Maori 透過 language nests 系統得到維持；尾句說Faroese 在 Faroe Islands 獲得一定政治自治後，增長尤其明顯。只看首尾句，可以判斷本段有兩個例子：Maori 的幼兒沉浸式語言環境，以及 Faroese 與 political autonomy 的關係。這段會直接回答 Questions 36 和 38，因為題目問 increased independence 和 immersion programmes。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 Switzerland 的 Romansch 面對困難，因為它有五種很不同的方言、使用人數少且減少；尾句說 Romansch Grischun 取得部分官方地位，並越來越多用於電台和電視。只看首尾句，可以估計本段講 Romansch 的解決方案：把不同方言整合成一套統一書面語。這段直接對應 Question 39 的 merger of different varieties，也可能涉及 official status 和 media use。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說語言可以從滅絕邊緣被帶回來；尾句說現在人們重新感興趣，Ainu 比多年來更公開可見。只看首尾句，可以判斷本段講 Ainu 的復興：它曾經只剩八位年老流利說話者，但新政策和態度改變令一些 semi-speakers 重新活躍。這段最適合定位 prejudice、negative attitudes、fresh attitudes、active speakers 等詞，直接支援 Question 37。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說如果有良好描述和材料，即使已滅絕的語言也可以復活；尾句說只要人們繼續重視並使用它，它會像其他活語言一樣發展新功能和新詞彙。只看首尾句，可以判斷本段講 Kaurna：雖已滅絕約一世紀，但因為記錄充分，所以可以重建。這段直接對應 Question 40，因為題目問 written samples / documentation 如何令語言復興。"
+      },
+      {
+        "number": "12",
+        "summary": "首句說現在預測這些復興語言的未來仍太早；尾句說世界語言總數也許能以意想不到但令人暖心的方式稍微增加。只看首尾句，可以估計這是全文收結段。它不再介紹單一語言案例，重點轉向復興語言的未來條件：positive attitudes 和 grass-roots support。這段可用來理解作者整體態度：語言復興未必保證成功，但確實有希望。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,808 @@
+{
+  "recipe": {
+    "engine": "kokoro-onnx",
+    "voice": "af_heart",
+    "lang": "en-us",
+    "speed": 0.96,
+    "source": "writing-practice.html"
+  },
+  "modelSha256": "7d5df8ecf7d4b1878015a32686053fd0eebe2bc377234608764cc0ef3636a6c5",
+  "voicesSha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+  "clips": {
+    "f94b7b89-bdc1-5b7f-825b-160b127c430e": {
+      "path": "audio/lesson-5/f94b7b89-bdc1-5b7f-825b-160b127c430e.mp3",
+      "sourceSha256": "63d4b41b1fe2d93acc8f8cbd9c0db45202c3f66f7e0dfdbdf72bb77252b6dba2",
+      "duration": 1.584
+    },
+    "1a808f5e-46a4-535b-a7c0-fb172b00e6c3": {
+      "path": "audio/lesson-5/1a808f5e-46a4-535b-a7c0-fb172b00e6c3.mp3",
+      "sourceSha256": "8486ee22b805a909fcaf83704542e45b72512384aa78268dae220f7a4317dddb",
+      "duration": 1.392
+    },
+    "dcb205bc-e64c-58b5-8d3b-c7bfee478cb2": {
+      "path": "audio/lesson-5/dcb205bc-e64c-58b5-8d3b-c7bfee478cb2.mp3",
+      "sourceSha256": "cbaf22de27f78322d42255ced65b1f50d281de7bd924c27f431ae3bf3d0b4f08",
+      "duration": 1.176
+    },
+    "d8980317-30ef-56a6-aa77-a9629877e57d": {
+      "path": "audio/lesson-5/d8980317-30ef-56a6-aa77-a9629877e57d.mp3",
+      "sourceSha256": "003f10799ed31164dada362c79c3b9ad309785f60162537aefbb877104eba396",
+      "duration": 1.152
+    },
+    "7d1a50a0-14ff-59d5-b623-06c7022fbb73": {
+      "path": "audio/lesson-5/7d1a50a0-14ff-59d5-b623-06c7022fbb73.mp3",
+      "sourceSha256": "aa940160079edb3f04e941184d77d7651cdd4ebc690ba2abcbb1e14b876ef892",
+      "duration": 1.488
+    },
+    "3df40ac0-2399-58e2-975d-92549a24d53b": {
+      "path": "audio/lesson-5/3df40ac0-2399-58e2-975d-92549a24d53b.mp3",
+      "sourceSha256": "deaffd8c65687e4ac3ea9f57fe55313e02c258012fa6113a021c92d4399888c0",
+      "duration": 1.392
+    },
+    "1a59ec6c-2c0c-5ec6-a6fe-a774e3a21a16": {
+      "path": "audio/lesson-5/1a59ec6c-2c0c-5ec6-a6fe-a774e3a21a16.mp3",
+      "sourceSha256": "e4dbe4c6b41577a0fb43c4eeae78566d96f520a1888acb2e024a00045d74ed77",
+      "duration": 1.2
+    },
+    "a40c8ae0-93e0-56ce-852f-9190f35749bb": {
+      "path": "audio/lesson-5/a40c8ae0-93e0-56ce-852f-9190f35749bb.mp3",
+      "sourceSha256": "290d6adc4006b6653c24d9563be757d75131185519a22f0a782856c6b437b05e",
+      "duration": 1.32
+    },
+    "be962784-2f38-577b-b8e1-6856108d4449": {
+      "path": "audio/lesson-5/be962784-2f38-577b-b8e1-6856108d4449.mp3",
+      "sourceSha256": "5886fbf53999f4810ef64e393078716aa20ccaa247352f402e953c59f85aa4c8",
+      "duration": 1.296
+    },
+    "c1bdd86b-fccd-5615-abf1-40ddc759e38d": {
+      "path": "audio/lesson-5/c1bdd86b-fccd-5615-abf1-40ddc759e38d.mp3",
+      "sourceSha256": "40190879bfcfed11a0ea41c735e7566f4286f7c8b220aca1eed74940c933f540",
+      "duration": 1.176
+    },
+    "82f01fc0-cae3-5e82-b4e3-5fc749f9fdd7": {
+      "path": "audio/lesson-5/82f01fc0-cae3-5e82-b4e3-5fc749f9fdd7.mp3",
+      "sourceSha256": "f9937535c78ad229fe3d0ece0c164f2451572d5dfdcea6d0fd3aa326a02cb989",
+      "duration": 1.176
+    },
+    "211fd9b5-c509-5d77-b383-c058fbc920db": {
+      "path": "audio/lesson-5/211fd9b5-c509-5d77-b383-c058fbc920db.mp3",
+      "sourceSha256": "b74cab7a85d5ea844d41488b1eb188ff24b405c1552443d15988479cc9506ec3",
+      "duration": 1.368
+    },
+    "f687253b-b6cf-5943-8aac-908cfb54aa82": {
+      "path": "audio/lesson-5/f687253b-b6cf-5943-8aac-908cfb54aa82.mp3",
+      "sourceSha256": "659a96cf9c3ef37f0ffdafd2c26d2f39cfa257fc94eecaa64126ca25022b9452",
+      "duration": 1.512
+    },
+    "9cf9bc0b-fc6e-558d-92d7-c9caee5ed9c7": {
+      "path": "audio/lesson-5/9cf9bc0b-fc6e-558d-92d7-c9caee5ed9c7.mp3",
+      "sourceSha256": "fe364db4d046a4f4faebacb73791a8201675f4188e61dc7e7e089ab0210a7ffb",
+      "duration": 1.176
+    },
+    "39b15555-0cbf-590e-9815-203c572a5822": {
+      "path": "audio/lesson-5/39b15555-0cbf-590e-9815-203c572a5822.mp3",
+      "sourceSha256": "35e9a58bad45ac01e9405ae59a34a0341e48874f44879d4c5427782d0f887f84",
+      "duration": 1.032
+    },
+    "b92ceb25-cc4d-5236-933b-89f65d50664e": {
+      "path": "audio/lesson-5/b92ceb25-cc4d-5236-933b-89f65d50664e.mp3",
+      "sourceSha256": "5777f81b22096fb3e680b5a55e86521dbd4c5ca570f5622350e6294bed9caffb",
+      "duration": 1.152
+    },
+    "a37e6b43-4dc6-5eb6-858e-d9e0a73fbbc3": {
+      "path": "audio/lesson-5/a37e6b43-4dc6-5eb6-858e-d9e0a73fbbc3.mp3",
+      "sourceSha256": "fb564be1cf588e1f3e19a0533adcb343579c0417a7b7cc937c0731ff4189da0b",
+      "duration": 1.176
+    },
+    "423a4e47-48d8-5005-bb7b-cfe18a63bfa5": {
+      "path": "audio/lesson-5/423a4e47-48d8-5005-bb7b-cfe18a63bfa5.mp3",
+      "sourceSha256": "9da97fbcda009a5ebf171f72f9fcb15169f6f53bd5b3907d52d766acfac8dd02",
+      "duration": 1.512
+    },
+    "e01609d9-71ae-5e33-9a2c-20ecb08dc7eb": {
+      "path": "audio/lesson-5/e01609d9-71ae-5e33-9a2c-20ecb08dc7eb.mp3",
+      "sourceSha256": "9c579b437b08f84189ec84a543ec2b18709b1c2cae942c0fe11601f6f23865b9",
+      "duration": 1.368
+    },
+    "aa9c600b-7aac-5ca5-b761-35986a1173d8": {
+      "path": "audio/lesson-5/aa9c600b-7aac-5ca5-b761-35986a1173d8.mp3",
+      "sourceSha256": "ee2674bb521f4b5cc2afe44cf7cebbfac875741a5493f57468ce62803d639533",
+      "duration": 1.368
+    },
+    "6421fb25-2ca3-5db2-ab78-5c5a174f49e3": {
+      "path": "audio/lesson-5/6421fb25-2ca3-5db2-ab78-5c5a174f49e3.mp3",
+      "sourceSha256": "e7f0d4467fd10f13b49ee47704e35a04f3cb8c2a19eb1459b5e6d16e3f17951e",
+      "duration": 1.248
+    },
+    "068c38da-e17c-5a50-b4c5-7cdc45a982a5": {
+      "path": "audio/lesson-5/068c38da-e17c-5a50-b4c5-7cdc45a982a5.mp3",
+      "sourceSha256": "4662bb2e5dcf06ee461c2ed955316685558fc1ec0966b37eab42ebffc78331b5",
+      "duration": 1.2
+    },
+    "465be147-1d26-58ee-9116-787fe592affa": {
+      "path": "audio/lesson-5/465be147-1d26-58ee-9116-787fe592affa.mp3",
+      "sourceSha256": "f8ebd43dbef1f029bf4930c65c9b7c5cc76af476927cee861ff18fcc73bfc4ab",
+      "duration": 0.888
+    },
+    "0025d297-7621-58dd-bfc0-2413f15eef7e": {
+      "path": "audio/lesson-5/0025d297-7621-58dd-bfc0-2413f15eef7e.mp3",
+      "sourceSha256": "3727f76c2fd1638b9ebd86ba1ce49ee9560af13f904a2a57578638c80183da05",
+      "duration": 1.056
+    },
+    "79a6002a-c7f5-5b08-94c7-1df13f10163e": {
+      "path": "audio/lesson-5/79a6002a-c7f5-5b08-94c7-1df13f10163e.mp3",
+      "sourceSha256": "57f19a73662dea802807c1ef90aff1644a37f5b9b3a4c7126821d11372858d2e",
+      "duration": 2.616
+    },
+    "a688555f-7105-5c05-8fd2-7615095f687f": {
+      "path": "audio/lesson-5/a688555f-7105-5c05-8fd2-7615095f687f.mp3",
+      "sourceSha256": "d6bc601f574021f8aab47594600f3d17bf04b52d408f30ff23718c116d4b0601",
+      "duration": 2.16
+    },
+    "f2a680cc-76f5-5ff1-b9bb-37ff0e9edb0c": {
+      "path": "audio/lesson-5/f2a680cc-76f5-5ff1-b9bb-37ff0e9edb0c.mp3",
+      "sourceSha256": "d252a33d493609c6fb82e6f341a84146f212eb9c6039f6094206ccbcfeb4486b",
+      "duration": 1.272
+    },
+    "b83f1385-412a-521c-833e-2b53d545f0b1": {
+      "path": "audio/lesson-5/b83f1385-412a-521c-833e-2b53d545f0b1.mp3",
+      "sourceSha256": "21e82039818b73b50fdb3151d831afae6e2b379fb92bdd19280f97c987bb432f",
+      "duration": 1.896
+    },
+    "2748eaaa-a2b8-56e6-b7fc-cdbc1098d0d2": {
+      "path": "audio/lesson-5/2748eaaa-a2b8-56e6-b7fc-cdbc1098d0d2.mp3",
+      "sourceSha256": "2cf582215207fc72bb9cc40ef3d7a8a39100c4e0ff3c4b167aea9181eb31d876",
+      "duration": 1.344
+    },
+    "9c5ce8e7-c2e0-5af2-864c-6509f4473231": {
+      "path": "audio/lesson-5/9c5ce8e7-c2e0-5af2-864c-6509f4473231.mp3",
+      "sourceSha256": "9660068b097964a8bd7d7c2cd7ace816555db45eab162c91add2a2443cea2234",
+      "duration": 1.392
+    },
+    "6f67a885-8f86-5245-81aa-de52bde8d871": {
+      "path": "audio/lesson-5/6f67a885-8f86-5245-81aa-de52bde8d871.mp3",
+      "sourceSha256": "20350e47f61617f62f15ad6797f3326b5ec7d30023c1193c5797fc46133f61fe",
+      "duration": 1.248
+    },
+    "59f50fec-7076-5bc5-81e4-fca5a8e10a43": {
+      "path": "audio/lesson-5/59f50fec-7076-5bc5-81e4-fca5a8e10a43.mp3",
+      "sourceSha256": "12e3f610e228aabf85ef68d316b67d256a429a62498332b0769809231e69762f",
+      "duration": 1.2
+    },
+    "2fc3d5dc-e510-542c-9837-0e381c2087de": {
+      "path": "audio/lesson-5/2fc3d5dc-e510-542c-9837-0e381c2087de.mp3",
+      "sourceSha256": "efc792fa943e50f53bad342d3a0c72f5c60da1cb970173280f1d063cd559426a",
+      "duration": 1.08
+    },
+    "8c4ec6d4-0db7-5195-b5e4-5fdf5ffbcc61": {
+      "path": "audio/lesson-5/8c4ec6d4-0db7-5195-b5e4-5fdf5ffbcc61.mp3",
+      "sourceSha256": "036d261de10c1391711768fefdcc8f26a1fe6fa6306c6bf9d2f24fbb61e7cb70",
+      "duration": 1.56
+    },
+    "475e66c9-1903-5a40-8cb6-1d1c5d97ded9": {
+      "path": "audio/lesson-5/475e66c9-1903-5a40-8cb6-1d1c5d97ded9.mp3",
+      "sourceSha256": "06494f162d4a28200003a795d6abc928e99453a6927ff6afa84cc11b320ee61b",
+      "duration": 1.512
+    },
+    "861d1fff-f167-527f-acee-6c62495cec1c": {
+      "path": "audio/lesson-5/861d1fff-f167-527f-acee-6c62495cec1c.mp3",
+      "sourceSha256": "8e8a045a2f381ae6ae8009a40bd058826767748c469d65ac9fbbd97688ebd7af",
+      "duration": 1.416
+    },
+    "630e7841-953f-57e7-b141-d81423f61f69": {
+      "path": "audio/lesson-5/630e7841-953f-57e7-b141-d81423f61f69.mp3",
+      "sourceSha256": "2d7fa039a8966acb2c66d9ea082a2e9251bc97b2180948d15ff703c3430a0940",
+      "duration": 1.128
+    },
+    "ec7c2446-a546-5401-8e1a-48eb2dbf244b": {
+      "path": "audio/lesson-5/ec7c2446-a546-5401-8e1a-48eb2dbf244b.mp3",
+      "sourceSha256": "126cea97cb0f59a77b7535223eab723cb2166ed30b0be1dc4756682d2e8e2d2a",
+      "duration": 1.416
+    },
+    "1408af91-c7df-5a06-a1b3-b5bb1b64b48b": {
+      "path": "audio/lesson-5/1408af91-c7df-5a06-a1b3-b5bb1b64b48b.mp3",
+      "sourceSha256": "f966655700ae7180bf5fefd5add75840e3c0f5fa0001760317396e05d04d2dc8",
+      "duration": 1.128
+    },
+    "c2c889cf-d9dc-5169-bcbb-15ba4e7cf477": {
+      "path": "audio/lesson-5/c2c889cf-d9dc-5169-bcbb-15ba4e7cf477.mp3",
+      "sourceSha256": "db39980e8dd039b44b824c570bd1809344675e1f970c583f8e31330a3df0712f",
+      "duration": 1.44
+    },
+    "718839a6-e525-5213-b903-a989b6bf66f3": {
+      "path": "audio/lesson-5/718839a6-e525-5213-b903-a989b6bf66f3.mp3",
+      "sourceSha256": "012d6a08f0d0e62546b94c0632d9968a03ae7a1b1081ce4f9b3c7dc8b475be27",
+      "duration": 1.104
+    },
+    "16f724ce-fcdb-500a-a24f-ee939ce00e8b": {
+      "path": "audio/lesson-5/16f724ce-fcdb-500a-a24f-ee939ce00e8b.mp3",
+      "sourceSha256": "0d2388c849c7beadc4793a552d94ee054c557c16f914ccaade84daa3fdd58b28",
+      "duration": 1.488
+    },
+    "e6739855-e597-57b7-b0bc-4c914770e9b2": {
+      "path": "audio/lesson-5/e6739855-e597-57b7-b0bc-4c914770e9b2.mp3",
+      "sourceSha256": "42850d46d9b0c2dd7cf37a266340da4343874ae167c8094e35fc63d787038083",
+      "duration": 2.208
+    },
+    "6e429910-497e-5c07-9890-53b170f2944c": {
+      "path": "audio/lesson-5/6e429910-497e-5c07-9890-53b170f2944c.mp3",
+      "sourceSha256": "08ab861bae5e156b17a0ceba97bb46927fe6b82a9a5979b87f00671d05f3907e",
+      "duration": 1.32
+    },
+    "6bff769c-71d3-5494-bfa0-4e41d6f7697b": {
+      "path": "audio/lesson-5/6bff769c-71d3-5494-bfa0-4e41d6f7697b.mp3",
+      "sourceSha256": "be3c01bb3b3a54dfa0a2ff8dce0bd88b1a3c9c007c116b92d4b226cbe538069e",
+      "duration": 1.032
+    },
+    "fae80f06-b9f6-5c6f-b5a9-7ffee8f69257": {
+      "path": "audio/lesson-5/fae80f06-b9f6-5c6f-b5a9-7ffee8f69257.mp3",
+      "sourceSha256": "57b315c394edadef33698190079d56eea3c2013b373b50ee080e7863ae57e00f",
+      "duration": 1.176
+    },
+    "475eefa3-db27-5edd-8ff2-d2bc9643f06b": {
+      "path": "audio/lesson-5/475eefa3-db27-5edd-8ff2-d2bc9643f06b.mp3",
+      "sourceSha256": "74707aa2d3f465f9a22f0e85eeb2b4b95976211f6e05b4f1859a322d2105268a",
+      "duration": 1.2
+    },
+    "35cf81cf-11f2-58b9-9681-b5c194139901": {
+      "path": "audio/lesson-5/35cf81cf-11f2-58b9-9681-b5c194139901.mp3",
+      "sourceSha256": "34049742ffd579365f5ed1fbbf1b73b8e983e24d984810339832f5b9c0410f8f",
+      "duration": 1.104
+    },
+    "01e71621-a698-537a-96eb-74c4327014a3": {
+      "path": "audio/lesson-5/01e71621-a698-537a-96eb-74c4327014a3.mp3",
+      "sourceSha256": "f0fddda38e5bd896fcf196c0c539885b26f7fc2c141338d3d98a48c347632406",
+      "duration": 1.152
+    },
+    "37691396-3414-56c2-9a87-195d1cd0dbba": {
+      "path": "audio/lesson-5/37691396-3414-56c2-9a87-195d1cd0dbba.mp3",
+      "sourceSha256": "d4378f2e940550dd7f88f23092d26b601d86a03062b4475771f3252975d425d4",
+      "duration": 1.272
+    },
+    "13039553-6257-5555-9116-668619590c25": {
+      "path": "audio/lesson-5/13039553-6257-5555-9116-668619590c25.mp3",
+      "sourceSha256": "dc1e42dfeb3bb40175860f4879d9997d62af7175a4187ba323dc6f7c23a4dcd5",
+      "duration": 1.44
+    },
+    "f85421c8-438e-5942-a677-361179cfe27d": {
+      "path": "audio/lesson-5/f85421c8-438e-5942-a677-361179cfe27d.mp3",
+      "sourceSha256": "2eafacd73b9da21d5b6688e4aca6088df1db97e2f125b8f08cd756b00fb4b96c",
+      "duration": 1.224
+    },
+    "795ede52-456e-5418-9feb-7e4bd792c43d": {
+      "path": "audio/lesson-5/795ede52-456e-5418-9feb-7e4bd792c43d.mp3",
+      "sourceSha256": "9bd426180f31e257c7aeb85d7df9681a88f215900619bbaccf09ac599de17d46",
+      "duration": 1.032
+    },
+    "d490b07c-3f75-50a3-96fc-54dc08a5041c": {
+      "path": "audio/lesson-5/d490b07c-3f75-50a3-96fc-54dc08a5041c.mp3",
+      "sourceSha256": "1ca39f39679aff25d79227209d6b095ddb8a8b84cb3ac3b1a4449825848cf2c0",
+      "duration": 1.056
+    },
+    "a686b1c7-11cc-52ef-9023-39af89d397fa": {
+      "path": "audio/lesson-5/a686b1c7-11cc-52ef-9023-39af89d397fa.mp3",
+      "sourceSha256": "9cecccb0d14b62954206988d7a34effd2d112b51fe31d84a3bb8604a1c75e801",
+      "duration": 1.008
+    },
+    "e9f71b78-7899-5bb5-8403-60f9f3c1305c": {
+      "path": "audio/lesson-5/e9f71b78-7899-5bb5-8403-60f9f3c1305c.mp3",
+      "sourceSha256": "a02c43961477756042157d7f5828a2a69611e18308d9206cbe5e5f052affaa5e",
+      "duration": 1.44
+    },
+    "9e84f50b-9de6-52b1-b582-a103c554a8fe": {
+      "path": "audio/lesson-5/9e84f50b-9de6-52b1-b582-a103c554a8fe.mp3",
+      "sourceSha256": "320f5c61bec86b5c382f633c059771b531fc10302aed2bc4a535982ffed57ffa",
+      "duration": 1.08
+    },
+    "8e0a90ed-6e9b-5028-802e-2472f27a79f8": {
+      "path": "audio/lesson-5/8e0a90ed-6e9b-5028-802e-2472f27a79f8.mp3",
+      "sourceSha256": "df2e65cc9baece15ee33ce42eed2037b1c770570153d5b5e6052ffbf49347d10",
+      "duration": 1.128
+    },
+    "7a4af024-5bf9-5f0e-8378-c4fa5f95bd5d": {
+      "path": "audio/lesson-5/7a4af024-5bf9-5f0e-8378-c4fa5f95bd5d.mp3",
+      "sourceSha256": "1f511fff38b23c70c175a0437bbdfc3f40a9b8a20602e82ad64d5b8bc559d79d",
+      "duration": 1.224
+    },
+    "b5a56697-3937-5095-9802-f5df0dfef8d6": {
+      "path": "audio/lesson-5/b5a56697-3937-5095-9802-f5df0dfef8d6.mp3",
+      "sourceSha256": "dfd3b8c4bcab718b2f8397261d695c78fe47f6ba681494f431e7066929444b90",
+      "duration": 1.008
+    },
+    "3c1d17e4-3665-5d73-911c-2cc25ad17188": {
+      "path": "audio/lesson-5/3c1d17e4-3665-5d73-911c-2cc25ad17188.mp3",
+      "sourceSha256": "90b240e12c1c4924edc02bb354daff9c63beeb4166b7f35d55c00ea36044ac26",
+      "duration": 1.44
+    },
+    "1a979797-c1a0-5808-af5f-6adb77e08299": {
+      "path": "audio/lesson-5/1a979797-c1a0-5808-af5f-6adb77e08299.mp3",
+      "sourceSha256": "6ad303dd4e65a121563f965a59b3854fb40724c9bc9201660d0c502401ca9513",
+      "duration": 1.728
+    },
+    "2c495d6e-4ee5-504e-83a0-63a6ac3be03c": {
+      "path": "audio/lesson-5/2c495d6e-4ee5-504e-83a0-63a6ac3be03c.mp3",
+      "sourceSha256": "dfb11798e45874237b9784a0b04d5e83cc26960afa108ceefc2f7b1ef7f49382",
+      "duration": 1.512
+    },
+    "3769beac-efde-592c-87a1-58257258ffb0": {
+      "path": "audio/lesson-5/3769beac-efde-592c-87a1-58257258ffb0.mp3",
+      "sourceSha256": "7d0b2704067af1d3a0d332572a60da927163e201950189ac5e5a0312bf7b797d",
+      "duration": 1.032
+    },
+    "ef724b5b-31b3-5123-9718-bc9477457bdc": {
+      "path": "audio/lesson-5/ef724b5b-31b3-5123-9718-bc9477457bdc.mp3",
+      "sourceSha256": "710ab24908ea9366c0c0e180ec4904df7314cf6ece4043414efa7e63fe894a7a",
+      "duration": 0.96
+    },
+    "9a4a8ff7-7d27-5eba-ae2c-eb70e3a3ca5b": {
+      "path": "audio/lesson-5/9a4a8ff7-7d27-5eba-ae2c-eb70e3a3ca5b.mp3",
+      "sourceSha256": "74d8367a64337db2be5319c23ee4ad9506ffeb3f13ec8b811680128babce932c",
+      "duration": 1.248
+    },
+    "c35ea11f-d564-5a83-8443-f670e9de2c76": {
+      "path": "audio/lesson-5/c35ea11f-d564-5a83-8443-f670e9de2c76.mp3",
+      "sourceSha256": "d4a3070b6697ee6da0743ec608f0beb14d95ca2403b5fb3aa22679563a68674b",
+      "duration": 1.032
+    },
+    "f17dc556-fa14-5ad4-bdf9-8987813f174d": {
+      "path": "audio/lesson-5/f17dc556-fa14-5ad4-bdf9-8987813f174d.mp3",
+      "sourceSha256": "c3aedaffb5432e5a8428975b0211eb51ec094d2fdbd8692fec1d974db1beff33",
+      "duration": 1.104
+    },
+    "140030f9-41fd-5c38-8401-eebc9cec712d": {
+      "path": "audio/lesson-5/140030f9-41fd-5c38-8401-eebc9cec712d.mp3",
+      "sourceSha256": "90759bba4d821250fff7a9e531c47e04ac62a3c0806c6f4091b838edbf11cc1f",
+      "duration": 1.344
+    },
+    "ab4c4adf-4a6f-5f15-a6c3-1aceed592ec1": {
+      "path": "audio/lesson-5/ab4c4adf-4a6f-5f15-a6c3-1aceed592ec1.mp3",
+      "sourceSha256": "84165a6efef15e7bc5892ae3fd1e35da74fc08a2b3897379022d8a10808e5125",
+      "duration": 2.904
+    },
+    "50855113-768e-5713-aa8e-610a86816df5": {
+      "path": "audio/lesson-5/50855113-768e-5713-aa8e-610a86816df5.mp3",
+      "sourceSha256": "81dcd62c6efefada08d7a915699eab7a9f186e5584506f12df1e442fd37cbecb",
+      "duration": 1.248
+    },
+    "15de5857-738d-531e-8126-c94afa413fdd": {
+      "path": "audio/lesson-5/15de5857-738d-531e-8126-c94afa413fdd.mp3",
+      "sourceSha256": "7707d6c076e39191c955aecf1b06fb444a5abcf5bb73220686342d5097446d96",
+      "duration": 1.248
+    },
+    "d5a99b2c-07e1-5631-a68f-03309e746d4a": {
+      "path": "audio/lesson-5/d5a99b2c-07e1-5631-a68f-03309e746d4a.mp3",
+      "sourceSha256": "6498784ec3f4647ab2f15c191eb883f8a905dc792c84b2df40dc2e4de892ab84",
+      "duration": 1.2
+    },
+    "6d2492f9-a487-5bf4-bf1c-e74d478f1206": {
+      "path": "audio/lesson-5/6d2492f9-a487-5bf4-bf1c-e74d478f1206.mp3",
+      "sourceSha256": "997d0967110c23d57d30a5df78b61baea545fa559ec2eb4df8d5b183870a42fe",
+      "duration": 1.488
+    },
+    "a8077cc7-5094-516d-8fc1-6b19ddf701eb": {
+      "path": "audio/lesson-5/a8077cc7-5094-516d-8fc1-6b19ddf701eb.mp3",
+      "sourceSha256": "e08ed4f3b9ec6e28cc7566b4c0743599f916950b4df9d5e289b0d3cf05e8bd47",
+      "duration": 1.152
+    },
+    "93b3b981-ced7-554d-b921-ad48b8fb36e8": {
+      "path": "audio/lesson-5/93b3b981-ced7-554d-b921-ad48b8fb36e8.mp3",
+      "sourceSha256": "595d7616be3d59571f036e0c72e7c7d54641a6da84e49551f553093c50438439",
+      "duration": 1.512
+    },
+    "cfd832aa-b627-5c08-aebe-191244507445": {
+      "path": "audio/lesson-5/cfd832aa-b627-5c08-aebe-191244507445.mp3",
+      "sourceSha256": "8d1421ce1393cc8c414d770c792923e11d164d2da6b3a39d88c18c1b9cf8c698",
+      "duration": 1.992
+    },
+    "ab83cc9f-1430-5330-bdff-b7adadd33d04": {
+      "path": "audio/lesson-5/ab83cc9f-1430-5330-bdff-b7adadd33d04.mp3",
+      "sourceSha256": "c3bf88873732b31248d4ea6f20077b24c4d203d794f713fd0576ce611a7e578f",
+      "duration": 1.344
+    },
+    "396dffe5-bd6a-5814-9dfb-669dd3b46e84": {
+      "path": "audio/lesson-5/396dffe5-bd6a-5814-9dfb-669dd3b46e84.mp3",
+      "sourceSha256": "10a0cea1a8ab9fab4bd060a2a7f332aabc028d6e4bafb5501a756b29424ba4ce",
+      "duration": 1.296
+    },
+    "a98ea037-e248-5b6b-a905-7952118eb829": {
+      "path": "audio/lesson-5/a98ea037-e248-5b6b-a905-7952118eb829.mp3",
+      "sourceSha256": "c598c2b9a9cab1a28f015ce5c4cec22e4495da02108ffecbd4b8119dfbd20d73",
+      "duration": 1.224
+    },
+    "bf9cb8d5-bcb6-5d9a-b36d-7517ddfa753d": {
+      "path": "audio/lesson-5/bf9cb8d5-bcb6-5d9a-b36d-7517ddfa753d.mp3",
+      "sourceSha256": "d5c226e65e139db469b939fd8522c8592cfe48bd47c7b43223f6d2aca82efa8a",
+      "duration": 1.32
+    },
+    "45afd47d-b2ac-576a-b84f-9b7943e5f5c2": {
+      "path": "audio/lesson-5/45afd47d-b2ac-576a-b84f-9b7943e5f5c2.mp3",
+      "sourceSha256": "592740fcab1c472d9f23811b7f7dd7bb7d47aea04dea786e9b8ef3eb3e990517",
+      "duration": 1.488
+    },
+    "5a8711f8-4326-53be-8a53-c1f22b912fa0": {
+      "path": "audio/lesson-5/5a8711f8-4326-53be-8a53-c1f22b912fa0.mp3",
+      "sourceSha256": "34895fc000bb431c95ba15897d93096f19d4e622937d0aadb42fa5e4c2ccf420",
+      "duration": 1.224
+    },
+    "69fea29b-5966-544b-b387-2e10932ef196": {
+      "path": "audio/lesson-5/69fea29b-5966-544b-b387-2e10932ef196.mp3",
+      "sourceSha256": "5ddab88e864a4593ee3c7106ae1b72ccad5ea0eb0da57474672e38524eaea462",
+      "duration": 1.464
+    },
+    "98332c95-1848-5574-8d68-a83e5851d1a2": {
+      "path": "audio/lesson-5/98332c95-1848-5574-8d68-a83e5851d1a2.mp3",
+      "sourceSha256": "be0822b02c1b93dc6f9f0a83107fa6cced5399dca7fe00a99b4c955aa9cb78e2",
+      "duration": 1.008
+    },
+    "091ccb01-2a90-5a74-95ee-2a935a833efa": {
+      "path": "audio/lesson-5/091ccb01-2a90-5a74-95ee-2a935a833efa.mp3",
+      "sourceSha256": "f881dc4d823e815ceb0794b371531d6c23869b09f6a6971aed3f5da956ed043a",
+      "duration": 1.08
+    },
+    "d6ef74dd-4872-50f2-9dbd-6e3493b7542a": {
+      "path": "audio/lesson-5/d6ef74dd-4872-50f2-9dbd-6e3493b7542a.mp3",
+      "sourceSha256": "1d9d081b159acf53288bb0a29344b0066612ed0972a0a164fdc3eaa04d32563a",
+      "duration": 1.536
+    },
+    "d342ce40-8985-54b6-9279-781a9b0c0e8c": {
+      "path": "audio/lesson-5/d342ce40-8985-54b6-9279-781a9b0c0e8c.mp3",
+      "sourceSha256": "0b68d44b8a84f12dc6254027ce65f731c538a7db323a169502b3cc32b2ac7e36",
+      "duration": 1.392
+    },
+    "75fad285-8f92-50b0-bbb5-188f8d31508f": {
+      "path": "audio/lesson-5/75fad285-8f92-50b0-bbb5-188f8d31508f.mp3",
+      "sourceSha256": "f8ea47a9efc677999977a32953530eaa333429c1ffae9c1b3dbfa3d768f21b29",
+      "duration": 1.656
+    },
+    "69b24598-247d-58a4-8aa7-2f3a8e4cfd6e": {
+      "path": "audio/lesson-5/69b24598-247d-58a4-8aa7-2f3a8e4cfd6e.mp3",
+      "sourceSha256": "801203da456fa6f90a98db6175789c5111f82d4c24c5656fc6d3b1f4807f38ed",
+      "duration": 1.2
+    },
+    "096e08a4-01e1-5eed-b760-512615ca6e44": {
+      "path": "audio/lesson-5/096e08a4-01e1-5eed-b760-512615ca6e44.mp3",
+      "sourceSha256": "5ac25f93404207f517422f25f6c597f88e463f510ab0a34a4f3690d17b3bc0a9",
+      "duration": 1.44
+    },
+    "ff3c5d60-15af-5cdd-93af-8aaa3e0d7981": {
+      "path": "audio/lesson-5/ff3c5d60-15af-5cdd-93af-8aaa3e0d7981.mp3",
+      "sourceSha256": "1848346ae5456933f05ca58d07255c61e6cefad056a375f00668964c3b85caf3",
+      "duration": 1.8
+    },
+    "47d882a3-dd81-5dc1-a829-37ea5bf00b58": {
+      "path": "audio/lesson-5/47d882a3-dd81-5dc1-a829-37ea5bf00b58.mp3",
+      "sourceSha256": "1c010d4e71a6942b62ce4adb80b5ad51a9dcf33ed81b395f51c91bbde62cab80",
+      "duration": 1.464
+    },
+    "5f18f37a-174c-5513-9353-7e9a87eb8601": {
+      "path": "audio/lesson-5/5f18f37a-174c-5513-9353-7e9a87eb8601.mp3",
+      "sourceSha256": "7a0c4312b81565fa3c43f64467b126c324f1f91cdbdabd0f3851ad99e5c4c656",
+      "duration": 1.368
+    },
+    "257ed422-d599-5fb3-a4ab-20681dc6a910": {
+      "path": "audio/lesson-5/257ed422-d599-5fb3-a4ab-20681dc6a910.mp3",
+      "sourceSha256": "a2f64855c95c81b0e397b50ab896599c84155022beaaaf764b2912a8f5127a5c",
+      "duration": 1.2
+    },
+    "a7631106-0003-5b23-9da7-3f9fad64cfdb": {
+      "path": "audio/lesson-5/a7631106-0003-5b23-9da7-3f9fad64cfdb.mp3",
+      "sourceSha256": "c916cae9d60aba12b44f8ec659456f9b79876771afb63b5a2dbfc8dd6a74932a",
+      "duration": 1.296
+    },
+    "6872e779-de78-5675-9dab-02ccf4d7e47d": {
+      "path": "audio/lesson-5/6872e779-de78-5675-9dab-02ccf4d7e47d.mp3",
+      "sourceSha256": "4ea33fe7fb95ec7526cbb43be7695adf9968d337481806281a231434fb493cbb",
+      "duration": 3.048
+    },
+    "578ef196-2ef0-524f-a59b-b86defaebf46": {
+      "path": "audio/lesson-5/578ef196-2ef0-524f-a59b-b86defaebf46.mp3",
+      "sourceSha256": "a388af4f4e99745013d5f2b6d8dd8b2ea4b06596f09c7164ae5f412002bc0ec4",
+      "duration": 1.152
+    },
+    "9d5563b7-dcc3-5255-b8a3-5f5db15b3b6a": {
+      "path": "audio/lesson-5/9d5563b7-dcc3-5255-b8a3-5f5db15b3b6a.mp3",
+      "sourceSha256": "2e40a39afeb48049da12502ba1d09cff515d483c04c44ae507dfc06e2e1700c6",
+      "duration": 1.584
+    },
+    "16656426-0803-5155-9236-b80169ffc363": {
+      "path": "audio/lesson-5/16656426-0803-5155-9236-b80169ffc363.mp3",
+      "sourceSha256": "00b9298483d1505f1b4f928c62a8ebdc294474ed75c9311ccaabc966d35ec94b",
+      "duration": 1.008
+    },
+    "ed1123bd-e64c-5b45-8c0f-872815d0d42d": {
+      "path": "audio/lesson-5/ed1123bd-e64c-5b45-8c0f-872815d0d42d.mp3",
+      "sourceSha256": "49002d515d1605d8e4928cdccea435328773268fb951e9dae201212284d374a5",
+      "duration": 0.768
+    },
+    "0ddec07a-4018-5100-af04-367cdd23f53c": {
+      "path": "audio/lesson-5/0ddec07a-4018-5100-af04-367cdd23f53c.mp3",
+      "sourceSha256": "60b6e20a4fcd5419dafff58d391f486d4c02db1b762e0ed499af14280a46e82e",
+      "duration": 0.888
+    },
+    "a998599a-b95f-5d2e-8d45-5bc055970e58": {
+      "path": "audio/lesson-5/a998599a-b95f-5d2e-8d45-5bc055970e58.mp3",
+      "sourceSha256": "fb45123bd2c3366943d3232de4eb311e6f2727a055a599e052a80dcb3f213a6a",
+      "duration": 1.176
+    },
+    "991f239b-e4f6-5b71-9c13-5a905b3c159e": {
+      "path": "audio/lesson-5/991f239b-e4f6-5b71-9c13-5a905b3c159e.mp3",
+      "sourceSha256": "6a0cb314de8a0bc9b2ce358ebf2769057f6753070b29fd6e7b9a6552315317f4",
+      "duration": 1.08
+    },
+    "30ef2752-8501-578e-82c5-bf0272aa63fd": {
+      "path": "audio/lesson-5/30ef2752-8501-578e-82c5-bf0272aa63fd.mp3",
+      "sourceSha256": "5b6479296b4982433b9217d244ad0a880d80ddfab419d8cc6760f3ea909c525b",
+      "duration": 1.032
+    },
+    "577f5f8e-b9bb-5bc2-9360-b9e885276fee": {
+      "path": "audio/lesson-5/577f5f8e-b9bb-5bc2-9360-b9e885276fee.mp3",
+      "sourceSha256": "880573fada6095cf08562e9321bdc51d267cec5dedf6228a7ed3db17d40cde62",
+      "duration": 1.416
+    },
+    "9771e55d-837a-580a-9426-f511abb189db": {
+      "path": "audio/lesson-5/9771e55d-837a-580a-9426-f511abb189db.mp3",
+      "sourceSha256": "fc7eaab5039dd8b31a65d4e360d7c10bd48e9d79f5289ef22b276dbe99ea8039",
+      "duration": 1.176
+    },
+    "5d857051-c713-5a87-a007-6256de6f726c": {
+      "path": "audio/lesson-5/5d857051-c713-5a87-a007-6256de6f726c.mp3",
+      "sourceSha256": "4b7e2845d537a5db71109c279350b71254744505ef06fea920a617a33979fa1f",
+      "duration": 1.056
+    },
+    "2020e539-be8c-5384-908b-50bcd7923b5e": {
+      "path": "audio/lesson-5/2020e539-be8c-5384-908b-50bcd7923b5e.mp3",
+      "sourceSha256": "ff1f2f549dff46da51ede1908a54c3bda20f97f0c9f41d2a2bfa70cd95b0f326",
+      "duration": 1.416
+    },
+    "2ab215ab-124e-5390-afb2-c5c35628c605": {
+      "path": "audio/lesson-5/2ab215ab-124e-5390-afb2-c5c35628c605.mp3",
+      "sourceSha256": "cb08181df2f70940ec9b98feef42e5f62efddcd11a623905c573988784ba99cd",
+      "duration": 1.272
+    },
+    "4aa673e9-d72e-58cb-b15f-8160f45d9488": {
+      "path": "audio/lesson-5/4aa673e9-d72e-58cb-b15f-8160f45d9488.mp3",
+      "sourceSha256": "cc17d34a748481c94370a1fc3bd73004cf317a8cceb7dbc53b2fa3ffdaadc13a",
+      "duration": 1.008
+    },
+    "514ae4c1-b334-5e66-8017-c1511220d94c": {
+      "path": "audio/lesson-5/514ae4c1-b334-5e66-8017-c1511220d94c.mp3",
+      "sourceSha256": "32c7bf719190f0af5774aa16a7627daa4483877998ace87b4922d0a913962aec",
+      "duration": 1.128
+    },
+    "f0d74531-11ed-5c9c-bb80-4b5ad7394067": {
+      "path": "audio/lesson-5/f0d74531-11ed-5c9c-bb80-4b5ad7394067.mp3",
+      "sourceSha256": "b4671abee835faad3a7a6ed68f4415ca65454eca036affec9dadf605e5cfaab2",
+      "duration": 1.344
+    },
+    "e8a9f55d-2e2c-5a4f-8e3f-b7cd162931a1": {
+      "path": "audio/lesson-5/e8a9f55d-2e2c-5a4f-8e3f-b7cd162931a1.mp3",
+      "sourceSha256": "0262202f94acd41c7263fd49e592a4beef4c94440d2a9bf89f88a49a637299cb",
+      "duration": 1.2
+    },
+    "90d6a070-e923-5597-a5dc-85014a95cdb0": {
+      "path": "audio/lesson-5/90d6a070-e923-5597-a5dc-85014a95cdb0.mp3",
+      "sourceSha256": "07299453cfd7af599d4ec60a0093d17f3f30031a2166581ac3b4756da3caf529",
+      "duration": 0.96
+    },
+    "58c56d5f-75ab-5982-bcec-034866461d48": {
+      "path": "audio/lesson-5/58c56d5f-75ab-5982-bcec-034866461d48.mp3",
+      "sourceSha256": "9afd63862aa1da63fb8fcfc9103dec1baf1c162f6ea2932ee671256dd6edef3e",
+      "duration": 1.416
+    },
+    "82267a5b-6e4c-572f-a717-de99ec8f25a5": {
+      "path": "audio/lesson-5/82267a5b-6e4c-572f-a717-de99ec8f25a5.mp3",
+      "sourceSha256": "a9167ff7fb1930f58aee7244be4838a6fd172cd1bf0a4a5f905c3ab458b95697",
+      "duration": 1.344
+    },
+    "66c6fa7d-40e2-5f62-9602-c6ce439e0620": {
+      "path": "audio/lesson-5/66c6fa7d-40e2-5f62-9602-c6ce439e0620.mp3",
+      "sourceSha256": "940f78eb4f2f290108da8d9daf17e4612d2e27e5dcf45abfd1f79a0c321f28b5",
+      "duration": 1.104
+    },
+    "4ca07726-76ab-525d-b0bf-f1a9cf306ff1": {
+      "path": "audio/lesson-5/4ca07726-76ab-525d-b0bf-f1a9cf306ff1.mp3",
+      "sourceSha256": "d6750600b7cdd7549afae7261e6e3bbbf97aeeda1b7e1c9a3f5d29d0b3b447ad",
+      "duration": 1.536
+    },
+    "453e4225-c0f5-52d5-8818-8a3598a4b7e6": {
+      "path": "audio/lesson-5/453e4225-c0f5-52d5-8818-8a3598a4b7e6.mp3",
+      "sourceSha256": "dfd04c55545b9f2e27c913384dfea23e8a2d64603adb41700af69d993dabb191",
+      "duration": 1.344
+    },
+    "57d8510b-d5de-5587-a577-f9fdacd23180": {
+      "path": "audio/lesson-5/57d8510b-d5de-5587-a577-f9fdacd23180.mp3",
+      "sourceSha256": "575ab44aaa176052e75ed3bc04c7fb9bb1b6bf1ff5f98b7aff25a89b472881eb",
+      "duration": 1.272
+    },
+    "bef388f8-70f9-597c-8c9a-244aff83f33c": {
+      "path": "audio/lesson-5/bef388f8-70f9-597c-8c9a-244aff83f33c.mp3",
+      "sourceSha256": "dade352dc0de0160ffee7b43214fb073a827305406bb4099e8c007812f793643",
+      "duration": 1.128
+    },
+    "ae5d78d5-b62a-5e21-b35c-c7ff27e6ae4e": {
+      "path": "audio/lesson-5/ae5d78d5-b62a-5e21-b35c-c7ff27e6ae4e.mp3",
+      "sourceSha256": "274349bfbda49a0aa2dbc6e3a3bbfa5593b4d7705ff7ec0e245225fe89567557",
+      "duration": 1.152
+    },
+    "33d6d501-931f-53a7-a426-317ba33146a1": {
+      "path": "audio/lesson-5/33d6d501-931f-53a7-a426-317ba33146a1.mp3",
+      "sourceSha256": "148b0994b308be674b33e549da5506b54b3778cdd399a7b7b80d5b4a3a14747f",
+      "duration": 1.392
+    },
+    "00f97a9f-1cb1-5368-b12f-c0ed1f6df0b5": {
+      "path": "audio/lesson-5/00f97a9f-1cb1-5368-b12f-c0ed1f6df0b5.mp3",
+      "sourceSha256": "89bfcad49befaad7dc9c4effdf507b87fd7737d99d81c5c35a4186eb89dd1279",
+      "duration": 1.296
+    },
+    "442b64a8-4dd5-59b7-842a-b0b6784496de": {
+      "path": "audio/lesson-5/442b64a8-4dd5-59b7-842a-b0b6784496de.mp3",
+      "sourceSha256": "8ade68c1111e48eecada9b0a7498af5cbfe094be6fd66a69d2067b9641920561",
+      "duration": 1.056
+    },
+    "70cb492c-5654-5884-b242-a73804041497": {
+      "path": "audio/lesson-5/70cb492c-5654-5884-b242-a73804041497.mp3",
+      "sourceSha256": "3db93a3fe7b89d396ba0be86852391a80dd4350ed7758b6b517425ed1b51c6b7",
+      "duration": 1.416
+    },
+    "fbb4d431-3804-56e2-8bd7-32b35c11492c": {
+      "path": "audio/lesson-5/fbb4d431-3804-56e2-8bd7-32b35c11492c.mp3",
+      "sourceSha256": "a72db5ca6de047e5590578830a1616e1c795fee1df605fba649735aef39ad2db",
+      "duration": 1.08
+    },
+    "94596889-0533-50c9-b558-b9ca79e71f4b": {
+      "path": "audio/lesson-5/94596889-0533-50c9-b558-b9ca79e71f4b.mp3",
+      "sourceSha256": "732fabf0751b48e437c831c7e447443935f8d1421f28f0277b4263c3a6df2ee5",
+      "duration": 1.368
+    },
+    "147a04b8-1648-5e30-85fd-3a9b6391e5c9": {
+      "path": "audio/lesson-5/147a04b8-1648-5e30-85fd-3a9b6391e5c9.mp3",
+      "sourceSha256": "df05c6ac63a767781a601fed14c9ff92c7310caa0a092dd61f5dada774262cbb",
+      "duration": 1.464
+    },
+    "9a5eb32c-759d-5e67-9d61-8b72b871adbf": {
+      "path": "audio/lesson-5/9a5eb32c-759d-5e67-9d61-8b72b871adbf.mp3",
+      "sourceSha256": "c244bfeada914d36e625b7f2e1862037ce6e54f114b499b2057ea27f9d33c697",
+      "duration": 0.936
+    },
+    "8192a8a9-f9ed-5111-b98c-939e105aee45": {
+      "path": "audio/lesson-5/8192a8a9-f9ed-5111-b98c-939e105aee45.mp3",
+      "sourceSha256": "2947cd361ff52c34cc7a32ede870555828f8a3d22780d87712447cd29c761969",
+      "duration": 1.608
+    },
+    "353f38a7-aba4-59db-b24c-54317cce82a6": {
+      "path": "audio/lesson-5/353f38a7-aba4-59db-b24c-54317cce82a6.mp3",
+      "sourceSha256": "7a1eb4702e77eb2fa9a3f729b91c480a40ed493ffc7c589d40290416e14c26f4",
+      "duration": 1.152
+    },
+    "b55ef6ba-c2b6-5635-8d59-40018c90554e": {
+      "path": "audio/lesson-5/b55ef6ba-c2b6-5635-8d59-40018c90554e.mp3",
+      "sourceSha256": "18dd04cb17997a801e9d43d7ada47d50c170a75c7baae153054d3806240b4f5a",
+      "duration": 2.016
+    },
+    "93efa012-a931-54d1-8bce-f169d7540af6": {
+      "path": "audio/lesson-5/93efa012-a931-54d1-8bce-f169d7540af6.mp3",
+      "sourceSha256": "12d264de09a571d6851defcdcfd4ae37d3177dc28aed52c125007dcbc91c5316",
+      "duration": 0.912
+    },
+    "5cb14011-db11-5bc7-9e24-b7ea01c9788a": {
+      "path": "audio/lesson-5/5cb14011-db11-5bc7-9e24-b7ea01c9788a.mp3",
+      "sourceSha256": "a74ea203670585a2fd93e68c1b3fb8d82f3da91357863d6bcaae0d832eae3ccc",
+      "duration": 1.2
+    },
+    "cf9cc6ef-c219-5fb1-885f-de271c3fa6dc": {
+      "path": "audio/lesson-5/cf9cc6ef-c219-5fb1-885f-de271c3fa6dc.mp3",
+      "sourceSha256": "95daad4583c762a8ea6f4b6ea2822767d009cd35091c90234adda66e3b24f6d9",
+      "duration": 1.488
+    },
+    "915aec77-c391-5292-baa7-2dc96ea933ce": {
+      "path": "audio/lesson-5/915aec77-c391-5292-baa7-2dc96ea933ce.mp3",
+      "sourceSha256": "404b5f8425221c57faa26e47c9c915580a3bfa0816fa0969e1689120c461bcda",
+      "duration": 1.248
+    },
+    "ea66c357-0026-5676-8343-4de7ebdaf0c7": {
+      "path": "audio/lesson-5/ea66c357-0026-5676-8343-4de7ebdaf0c7.mp3",
+      "sourceSha256": "65d0465631cb2b0529086c18c0491c31209e298dbb0bfc17dd3f485310146839",
+      "duration": 1.2
+    },
+    "73bc2748-ee92-5898-8f21-006017f257f6": {
+      "path": "audio/lesson-5/73bc2748-ee92-5898-8f21-006017f257f6.mp3",
+      "sourceSha256": "35d0f75fbaccd18fad07310e06803f32df2d6cbb1f71982462cf59f4339e5faf",
+      "duration": 1.104
+    },
+    "049527e8-3dd8-5eda-ac86-2be4c75bdf19": {
+      "path": "audio/lesson-5/049527e8-3dd8-5eda-ac86-2be4c75bdf19.mp3",
+      "sourceSha256": "ed4ee21f0ac0905cc60d4ca74599a3b09575843e12ead62418bdb3f8869268db",
+      "duration": 1.704
+    },
+    "d5faebad-2dc5-59b9-9b2e-d67640ecb156": {
+      "path": "audio/lesson-5/d5faebad-2dc5-59b9-9b2e-d67640ecb156.mp3",
+      "sourceSha256": "1127f7e55fbdade3a3c1f62a03a90aa5529cd839f0ce32d491f35d76d8d58273",
+      "duration": 1.392
+    },
+    "1c7375ad-1cc7-556d-98e6-6ce1944c7b40": {
+      "path": "audio/lesson-5/1c7375ad-1cc7-556d-98e6-6ce1944c7b40.mp3",
+      "sourceSha256": "2b84c4add12ea51bd651a26702b03bbed2b82fcd12049d6bc51bd27fb0a8b9ba",
+      "duration": 1.2
+    },
+    "c9b2c9b5-4812-5e7a-ac53-d45b9ea2d73e": {
+      "path": "audio/lesson-5/c9b2c9b5-4812-5e7a-ac53-d45b9ea2d73e.mp3",
+      "sourceSha256": "f2753621a422f9710dc378168ef6e9eeeb7cda1a94451006f26a0dd189ec6b34",
+      "duration": 1.248
+    },
+    "4f6a52aa-1150-5f21-8546-8495c34f1cd8": {
+      "path": "audio/lesson-5/4f6a52aa-1150-5f21-8546-8495c34f1cd8.mp3",
+      "sourceSha256": "5ab2eee64313474d8f22358ded2567823a77fa2f89fd68311ca6e15c53cceda1",
+      "duration": 1.128
+    },
+    "dbcbcba8-3fdc-5062-8177-2c414d5e61e5": {
+      "path": "audio/lesson-5/dbcbcba8-3fdc-5062-8177-2c414d5e61e5.mp3",
+      "sourceSha256": "74b312656d7e73adabc1c2195caa0df6c3deb16e60fcadeb0797a9c09506d4c4",
+      "duration": 1.056
+    },
+    "8e9d2889-7ecf-5a90-823d-f2ecf01e2108": {
+      "path": "audio/lesson-5/8e9d2889-7ecf-5a90-823d-f2ecf01e2108.mp3",
+      "sourceSha256": "e8eaadc48f633ccc32c498e5e18c142a49dd275f3f36532f9d91ed40547767d8",
+      "duration": 1.536
+    },
+    "29a88510-5623-5dc6-8b7c-a31cc99772a4": {
+      "path": "audio/lesson-5/29a88510-5623-5dc6-8b7c-a31cc99772a4.mp3",
+      "sourceSha256": "80f693915b526d6046c12f4db45129562b64a6cf893b44594bb6521e806fdb2d",
+      "duration": 1.152
+    },
+    "14007d34-c9cd-52fe-ab52-60630e9783e4": {
+      "path": "audio/lesson-5/14007d34-c9cd-52fe-ab52-60630e9783e4.mp3",
+      "sourceSha256": "984052c10a3392a0d8ca62dec6fbe37adb669688c1dab52d6047c2fb4d5ea7b0",
+      "duration": 1.416
+    },
+    "1a72ed4f-b127-5609-8ebf-0ffd31beede0": {
+      "path": "audio/lesson-5/1a72ed4f-b127-5609-8ebf-0ffd31beede0.mp3",
+      "sourceSha256": "6f89bbc02729601f84b61bfbec4446c30a697d29f38430e5bdd224add91f76a6",
+      "duration": 1.968
+    },
+    "14b30633-78ce-5202-91bd-4004ec6d2d86": {
+      "path": "audio/lesson-5/14b30633-78ce-5202-91bd-4004ec6d2d86.mp3",
+      "sourceSha256": "130a28e583bca2d95ba8af529eb508a36667bf46f8d13fcbf015ecb0b6234cf9",
+      "duration": 1.992
+    },
+    "08795d82-2bd4-5e6d-8c66-8b7b93ca88a0": {
+      "path": "audio/lesson-5/08795d82-2bd4-5e6d-8c66-8b7b93ca88a0.mp3",
+      "sourceSha256": "fb83e22bced37a546a3a21fdc286f2131195b515f08605093b20870c45e3fde7",
+      "duration": 1.152
+    },
+    "03d78fb1-9dcf-511b-8cc9-615948d48525": {
+      "path": "audio/lesson-5/03d78fb1-9dcf-511b-8cc9-615948d48525.mp3",
+      "sourceSha256": "b925460d0ec765c28d83d4e4166d2ef149fc6e68f9a943aa142be33b3504d331",
+      "duration": 1.128
+    },
+    "cfc7270f-19f4-5dbe-b761-029446537471": {
+      "path": "audio/lesson-5/cfc7270f-19f4-5dbe-b761-029446537471.mp3",
+      "sourceSha256": "63bacfa91b524bd2ef21659ce06dc3cfed6e6bf2baef92793e8ae41eaa65e88c",
+      "duration": 1.416
+    },
+    "3eebc9a1-2397-5666-a76e-d8a69c4552df": {
+      "path": "audio/lesson-5/3eebc9a1-2397-5666-a76e-d8a69c4552df.mp3",
+      "sourceSha256": "f62169059ebedbc69967ef40b6d40a2f67c5bcd22d11f41ad9cabb7d91b86444",
+      "duration": 1.368
+    },
+    "82325d57-d1b6-5635-8521-eabe82ee5b9b": {
+      "path": "audio/lesson-5/82325d57-d1b6-5635-8521-eabe82ee5b9b.mp3",
+      "sourceSha256": "9e4157ec839b2e7a152c889d09b5c77fd3bb3044fb86df51ec67383fb248d71a",
+      "duration": 1.344
+    },
+    "496d69f0-93a6-5e42-a847-a9abf49322a5": {
+      "path": "audio/lesson-5/496d69f0-93a6-5e42-a847-a9abf49322a5.mp3",
+      "sourceSha256": "e1ab4fd6a5f4078050bd7615a0cb50c41dfee31d9b98a83639bf051be5cf2174",
+      "duration": 1.512
+    },
+    "ce443d81-6093-5151-8fb9-a1874ad5951e": {
+      "path": "audio/lesson-5/ce443d81-6093-5151-8fb9-a1874ad5951e.mp3",
+      "sourceSha256": "584e401699e344fa1c51ecbce3224f3d93990bfa4dba194e0e844e22bb539f4a",
+      "duration": 2.208
+    },
+    "584f4efa-63e2-5da8-b2c7-6009e8093e9a": {
+      "path": "audio/lesson-5/584f4efa-63e2-5da8-b2c7-6009e8093e9a.mp3",
+      "sourceSha256": "5600d07d1bfac18c1b98bade89d96c0424d1a32bf6a36d103f7643d413092c74",
+      "duration": 1.992
+    }
+  }
+}

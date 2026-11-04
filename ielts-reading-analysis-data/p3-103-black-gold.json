@@ -1,0 +1,1181 @@
+{
+  "id": "p3-103-black-gold",
+  "catalogueId": "p3-103",
+  "catalogueIds": [
+    "p3-103"
+  ],
+  "passage": 3,
+  "title": "Black Gold",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "B",
+    "C",
+    "C",
+    "B",
+    "shortfall",
+    "wine and coffee",
+    "blood clots",
+    "outright denial",
+    "bitter",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "B — dark chocolate",
+      "answerKey": "B — dark chocolate",
+      "type": "Multiple Choice",
+      "prompt": "“In the UK, people are eating more…”",
+      "translation": "在英國，人們正在吃更多甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1。首句說 “Dark chocolate used to be an acquired taste.”，表示 dark chocolate 以前要慢慢培養才會喜歡。尾句說 cocoa futures 價格上升，引發 chocolate shortage的憂慮。只看首尾句，這段明顯圍繞 dark chocolate demand 和 cocoa price 展開。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 In the UK 和 eating more。原文沒有直接寫 eating more，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“A 25% jump in dark chocolate sales in the UK pretty much speaks for itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國 dark chocolate 銷量上升 25%，這已經很能說明問題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“jump in sales” 表示銷量上升，通常可直接反映消費增加。後文又說：“As a nation we are turning our backs on the bland taste of milk chocolate…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為一個國家，我們正在背離 milk chocolate 那種淡而無味的口感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句進一步說明英國消費者由 milk chocolate 轉向 dark chocolate。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A “chocolate” 太闊。文章重點是 dark chocolate 上升，不是所有 chocolate。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確，對應 “25% jump in dark chocolate sales”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 相反，原文說英國人正背離 milk chocolate。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "C — transportation problems",
+      "answerKey": "C — transportation problems",
+      "type": "Multiple Choice",
+      "prompt": "“Cocoa prices are rising for several reasons, but not because of…”",
+      "translation": "cocoa prices 上升有多個原因，但哪一項並非原因？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 2–3。Paragraph 2 首句提到 speculators 和 British chocolate aficionados；尾句說 supermarkets 增加 dark chocolate lines。Paragraph 3 首句說 dark chocolate 需要更多beans；尾句說 industry buyers 仍未加入 frenzy。這兩段都在解釋 cocoa price 被推高的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 prices rising / reasons。原文提供幾個原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“speculators have been fingered for pushing the price of cocoa higher”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "speculators 被指推高 cocoa 價格。"
+            },
+            {
+              "kind": "quote",
+              "text": "“compounding the impact of a severe drought in West Africa”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這進一步加劇了 West Africa severe drought 的影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “a water shortage in West Africa” 對應 severe drought in West Africa。drought 即乾旱、水分不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “speculators” 原字出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “transportation problems” 文章沒有提到。文章談的是 demand、drought、speculators、investors 和 futures market，沒有說運輸困難導致價格上升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目問 “but not because of”，因此要找沒有被文章列為原因的一項。答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — not yet responding to the price rise in cacao beans",
+      "answerKey": "C — not yet responding to the price rise in cacao beans",
+      "type": "Multiple Choice",
+      "prompt": "“Industry buyers are…”",
+      "translation": "industry buyers 現在的反應是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3。首句說 dark chocolate 需要更多 beans，尾句提到 industry buyers 的反應。題目直接出現 industry buyers，所以定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far, industry buyers, such as Cadbury Schweppes, have refrained from joining the frenzy, although traders believe that a jump in prices will prompt them to build up their stocks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，Cadbury Schweppes 這類 industry buyers 仍克制自己，沒有加入這股搶購熱潮；不過 traders 相信，價格跳升會促使他們建立庫存。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“So far” 表示到目前為止。“have refrained from joining the frenzy” 表示仍未加入搶購或囤貨行動。“will prompt them” 是 traders 對未來的預測，並非已經發生。選項排除A 說他們正在大量買入，比平常多很多；原文說他們尚未加入 frenzy。 B 說他們買得不夠，無法製造 chocolate；原文沒有說生產不足。 C 正確，因為 “so far… have refrained” 表示目前未真正回應價格上升。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — Scientists",
+      "answerKey": "B — Scientists",
+      "type": "Multiple Choice",
+      "prompt": "“_____ are trying hard to prove that chocolate can be good for you.”",
+      "translation": "誰正在努力證明 chocolate 對健康有益？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6。首句說 scientists 正努力完成研究，證明 moderate consumption of high-quality chocolate can be good for you；尾句說 dark chocolate 有較高 antioxidants。這段明顯是 health research 段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 trying hard 對應原文的固定表達："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists are falling over themselves to complete studies showing that moderate consumption of high-quality chocolate can be good for you.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家正爭相完成研究，顯示適量食用高品質 chocolate 可能對健康有益。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“falling over themselves” 在這裡表示非常積極、爭相做某事。題目把它改寫成 “trying hard”。“can be good for you” 原字幾乎重現。選項排除A Manufacturers：文章沒有說製造商在做研究。 B Scientists：正確，原文第一字就是 Scientists。 C Advertisers：文章沒有提到 advertisers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "shortfall",
+      "answerKey": "shortfall",
+      "type": "Sentence Completion",
+      "prompt": "“A worldwide 31 ______ in chocolate production is expected this year.”",
+      "translation": "今年預計 chocolate production 會出現全球性的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4。首句說價格因 Ivory Coast 嚴重 drought 而上升；尾句說 International Cocoa Organisation 預測 global cocoa shortfall。這段集中講 supply shortage。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 worldwide、expected this year。原文尾句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The International Cocoa Organisation predicts a global cocoa shortfall of around 100,000 tonnes this year alone…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "International Cocoa Organisation 預測，單是今年 global cocoa shortfall 約有 100,000 tonnes。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已有 worldwide，所以答案不用再填 global。空格後是 “in chocolate production”，需要一個名詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“shortfall” 表示短缺，正好符合句子意思。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "worldwide = global is expected = predicts this year = this year alone"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：shortfall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "wine and coffee",
+      "answerKey": "wine and coffee",
+      "type": "Sentence Completion",
+      "prompt": "“Chocolate is becoming like 32 ______ in that people are looking for fresh tastes.”",
+      "translation": "Chocolate 正變得像 ______ 一樣，因為人們正在尋找新的味道。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5。首句說 chocolate 正在跟隨 wine and coffee 的路線，讓消費者欣賞palate effect；尾句說 single-estate chocolate bar 需求上升。這段討論 taste appreciation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 becoming like 和 fresh tastes。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Getting the right beans is becoming crucial in a market that is fast following in the footsteps of wine and coffee…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一個快速跟隨 wine and coffee 路線的市場中，選對 beans 正變得很重要。"
+            },
+            {
+              "kind": "label",
+              "text": "後文也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rather like wine and coffee, people are realising there are varieties of chocolate available.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就像 wine and coffee 一樣，人們開始意識到 chocolate 也有不同品種。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格需要可接在 “like” 後面的名詞短語。原文直接給出 wine and coffee，三個字，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：wine and coffee"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "blood clots",
+      "answerKey": "blood clots",
+      "type": "Sentence Completion",
+      "prompt": "“Dark chocolate can prevent deadly 33 ______.”",
+      "translation": "Dark chocolate 可以預防致命的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6。首句說 scientists 正研究 chocolate 的健康好處；尾句說 dark chocolate有較多 antioxidants。這段會列出不同 health benefits。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 dark chocolate、deadly、prevent。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Separate research at the Johns Hopkins University in Baltimore, Maryland, late last year found that snacking on dark chocolate decreased the development of potentially fatal blood clots.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Johns Hopkins University 的另一項研究發現，吃 dark chocolate 減少 potentially fatal blood clots 的形成。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“potentially fatal” 對應題目的 deadly。“decreased the development of” 對應 prevent。答案要填名詞短語，所以是 blood clots。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "outright denial",
+      "answerKey": "outright denial",
+      "type": "Sentence Completion",
+      "prompt": "“Most dieticians disagree with the concept of 34 ______ when dieting.”",
+      "translation": "大多數 dieticians 不認同 dieting 時採取 ______ 這種概念。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7。首句說 health 對 dark chocolate 消費有影響，但更多像 justification；尾句說 vanilla 可 soften bitter notes。中間會談 diet、snacks 和 dark chocolate 的可接受性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 Most dieticians 和 dieting。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most dieticians agree that a little of what you fancy does you more good than outright denial.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數 dieticians 同意，少量吃自己喜歡的東西，比完全壓抑自己更有好處。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “disagree with the concept of…”，原文說 dieticians agree with “a little of what you fancy”。由此可見，他們反對的是相反做法：outright denial。這是原文短語，兩個字，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：outright denial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "bitter",
+      "answerKey": "bitter",
+      "type": "Sentence Completion",
+      "prompt": "“Some companies have made their dark chocolate less 35 ______.”",
+      "translation": "一些公司把 dark chocolate 做得較不 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7。尾句說 vanilla 可 soften bitter notes，帶出 sweetness。這段後半談 dark chocolate 味道改善。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 Some companies 和 less。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the past, dark chocolate was bitter and reasonably gritty tasting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去，dark chocolate 味道苦，而且口感相當粗糙。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some companies use a gentle-tasting cocoa bean…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些公司使用味道較溫和的 cocoa bean。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vanilla acts as a seasoning to soften the bitter notes of the cocoa…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "vanilla 像調味料一樣，可以柔化 cocoa 的苦味。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要一個形容詞接在 less 後面。原文的 “bitter” 和 “bitter notes” 直接支援答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“gentle-tasting” 和 “soften the bitter notes” 都說明公司讓 dark chocolate 變得較不苦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：bitter"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Not one company has yet increased the price of its chocolate bars.”",
+      "translation": "到目前為止，沒有任何公司曾提高 chocolate bars 的價格。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1。首句說 dark chocolate 曾經是 acquired taste；尾句提到 cocoa crisis of 2002 迫使 major manufacturers 加價。題目問公司有沒有提高 chocolate bars 價格，所以要看尾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 increased the price 和 chocolate bars。原文尾句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…the cocoa crisis of 2002 that forced major manufacturers such as Nestlé to hike the prices of some of their chocolate bars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2002 年的 cocoa crisis 曾迫使 Nestlé 這類大型製造商提高部分 chocolate bars 的價格。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hike the prices” = increase the price。“major manufacturers such as Nestlé” 表示至少有公司曾經提高價格。題目說 “Not one company”，是絕對否定；原文提供了 Nestlé 這類製造商加價的例子。判斷題目命題：沒有任何公司提高 chocolate bar 價格。原文命題：2002 crisis 迫使大型製造商提高部分 chocolate bars 價格。兩者方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "如果把題目只理解成「這一次價格上升中是否已加價」，文章沒有明確說現時加價情況。不過題目本身沒有加入這個時間限制；原文已提供公司加價的反例，因此判 FALSE 較穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Chocolate consumers in Britain are moving to higher quality brands.”",
+      "translation": "英國 chocolate 消費者正在轉向較高品質的品牌或產品。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2。首句說 British chocolate aficionados 要為 cacao beans 價格上升承擔部分責任；尾句說 supermarkets 擴大 dark chocolate lines。這段重點是英國消費者口味升級。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 consumers in Britain 和 higher quality。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consumers are doing the same thing in chocolate as in the rest of the food market. They are trading up and being more discerning about what they buy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "消費者在 chocolate 方面和其他食品市場一樣，正在升級消費，並且對購買的東西更有判斷力。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“All of the country’s top supermarket chains have added new premium dark chocolate varieties…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國所有頂級 supermarket chains 都加入了新的 premium dark chocolate varieties。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“trading up” 表示轉向較高級、較高品質的產品。“premium dark chocolate varieties” 也支援 higher quality。題目把這些概括成 “moving to higher quality brands”。判斷題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“London and New York are the biggest cocoa trading centres.”",
+      "translation": "London 和 New York 是最大的 cocoa trading centres。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3。首句說 dark chocolate 需要更多 beans；尾句說 industry buyers 仍未加入搶購。這段中間談交易市場，包括 London cocoa exchange 和 New York。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 London、New York、cocoa trading centres。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yesterday, the cost of cacao beans for delivery in July on the London cocoa exchange shot to£1,028 a tonne…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "昨日，London cocoa exchange 上七月交付的 cacao beans 價格升至每 tonne £1,028。"
+            },
+            {
+              "kind": "label",
+              "text": "後文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hedge funds… have swallowed up a third of the cocoa contracts traded in New York, the other main cocoa trading centre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "hedge funds 已吸納 New York 交易的 cocoa contracts 三分之一，而 New York 是另一個主要cocoa trading centre。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“the other main cocoa trading centre” 的 “other” 回指前面提到的 London cocoa exchange。也就是說，文章把 London 和 New York 放在同一組主要交易中心中。題目用 “biggest” 概括 “main”，在這類題中可視為主要／大型交易中心的改寫。判斷原文支援 London 和 New York 是主要 cocoa trading centres，因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有列交易量排名數字，所以不要從外部知識判斷。這題只需根據文章：London exchange先出現，New York 被稱為 “the other main cocoa trading centre”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The taste of cacao beans depends on the climate where it is grown.”",
+      "translation": "cacao beans 的味道取決於其生長地的氣候。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5。首句把 chocolate 與 wine and coffee 相比，尾句說 single-estate chocolate bar 需求上升。這段講 flavour、origin 和 palate。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 taste of cacao beans 和 where it is grown。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are 450 different flavour elements in a single cacao bean, which itself varies in taste depending on where it is grown.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一顆 cacao bean 中有 450 種不同 flavour elements，而 cacao bean 本身的味道會因生長地點而不同。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說味道取決於 where it is grown，即生長地點。後面舉例："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chocolate from Colombia might seem peppery, while chocolate from Venezuela might smell like vanilla…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Colombia 的 chocolate 可能帶胡椒味，而 Venezuela 的 chocolate 可能聞起來像 vanilla。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目加入了 climate。文章沒有說氣候造成味道差異，也沒有說土壤、品種、海拔、加工方式或氣候哪一項是原因。地點和氣候有關聯，但文章沒有把 climate 明確列為控制因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：味道取決於氣候。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：味道因生長地點而異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少 climate 這項具體原因，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Vanilla is used in most types of dark chocolate.”",
+      "translation": "vanilla 被用於大多數 dark chocolate 中。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7。首句說 health 可能有作用，但更像是消費理由；尾句說 vanilla 可 soften bitter notes。題目提 vanilla，所以直接看最後一句附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 Vanilla 和 most types。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Adding a hint of vanilla can also help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加入少量 vanilla 也可以有所幫助。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vanilla acts as a seasoning to soften the bitter notes of the cocoa and to bring out the sweetness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "vanilla 像調味料一樣，可以柔化 cocoa 的苦味，並帶出甜味。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文只說 adding vanilla can help，並解釋 vanilla 的功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “most types of dark chocolate”，需要文章提供比例或範圍，例如 most、many、usually、commonly。原文沒有這類資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：大多數 dark chocolate 都使用 vanilla。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：vanilla 可以幫助柔化苦味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺少 “most types” 的範圍證據，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Black Gold.pdf",
+    "sha256": "8e4434879ecaaa38e3d0abcd18e2e009777a559aded2cb2872f59d4ede1e0d29",
+    "pageCount": 16
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 dark chocolate 以前是 acquired taste，意思是需要慢慢培養才會喜歡；尾句說 cocoa futures 價格自去年十一月起穩步上升，令人再次擔心 2002 年 cocoa crisis。只看首尾句，可以先看到這段是全文問題引入：英國人愈來愈喜歡 dark chocolate，需求上升推高 cacao beans 價格，並引發全球 chocolate shortage 的擔憂。Questions 27、36 很可能定位到這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說雖然 speculators 被指推高 cocoa price，但 British chocolate aficionados 也至少要承擔部分責任；尾句說 supermarkets 擴大 dark chocolate lines，有些情況下甚至令 milk chocolate variants 相形見絀。這段的功能是解釋英國消費者口味轉變如何加劇價格問題。重點包括demand for dark chocolate、West Africa drought、consumers trading up、supermarkets 增加premium dark chocolate。Questions 28、37 會用到這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說一條 dark chocolate bar 所需 cacao beans 比 milk chocolate bar 更多，這正是問題根源；尾句說 industry buyers 目前仍未加入搶購 frenzy，但 traders 相信價格上升會促使他們 build up stocks。只看首尾句，可見這段處理 cocoa price 在交易市場上被推高的機制。中間提到 London cocoa exchange、New York、hedge funds 和 cocoa contracts。Questions 29、38 明顯定位在此。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說自十二月初以來價格已上升近三成，主要因為 Ivory Coast 農民稱之為一生中最嚴重的drought；尾句說 International Cocoa Organisation 預測今年 global cocoa shortfall 約 100,000 tonnes，私人預測甚至可達 250,000 tonnes。這段功能是補充供應危機：West Africa drought、developing markets demand、supply 不足。Question 31 主要在這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 getting the right beans 愈來愈重要，chocolate 正在跟隨 wine and coffee 的路線，讓消費者欣賞其 palate effect；尾句說這帶動 single-estate chocolate bar 的需求，因為其 beans 來自single location。這段功能是解釋 dark chocolate 變成高級品味市場：人們追求產地、風味、cacao bean 差異。Questions 32、39 會回到這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 scientists 正努力完成研究，顯示適量食用 high-quality chocolate 可能有益健康；尾句說dark chocolate 的 antioxidants 比 red wine、green tea、berries 等以健康特性聞名的食物比例更高。只看首尾句，可以看到這段是 health evidence 段。中間包括 epicatechin、cancer、strokes、heart disease、diabetes、Kuna people，以及 dark chocolate 減少 potentially fatal blood clots。 Questions 30、33 主要在此。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 health probably played a role，但更多像是 consumption 的 justification；尾句說 vanilla 可作 seasoning，soften bitter notes，並帶出 sweetness。這段功能是解釋 dark chocolate 流行的其他原因：健康理由、避免 sugar-craving spiral、fashionable diets、dieticians 反對 outright denial，以及產品味道改善。Questions 34、35、40 會用到這段，尤其是 dieting 和 bitter taste 的部分。"
+      }
+    ]
+  }
+}

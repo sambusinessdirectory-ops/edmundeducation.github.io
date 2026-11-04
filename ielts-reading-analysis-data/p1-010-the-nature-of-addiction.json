@@ -1,0 +1,2065 @@
+{
+  "id": "p1-010-the-nature-of-addiction",
+  "catalogueId": "p1-010",
+  "catalogueIds": [
+    "p1-010",
+    "p1-061"
+  ],
+  "passage": 1,
+  "title": "THE NATURE OF ADDICTION",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 12,
+  "answerKey": [
+    "x",
+    "iii",
+    "ix",
+    "v",
+    "i",
+    "vi",
+    "interest",
+    "productivity",
+    "crime",
+    "excessive gambling",
+    "impulse-control disorders",
+    "psychological roots"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "x — Not all addictions are cause for concern",
+      "answerKey": "x — Not all addictions are cause for concern",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "並非所有 addiction 都值得嚴重擔憂目標段落：Paragraph B",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To try to define the subject of addiction (and in many cases the subsequent course of treatment to best combat it), psychologists now commonly refer to three distinct categories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了嘗試定義 addiction 這個主題，並在很多情況下決定之後最合適的治療方向，心理學家現在通常會參考三個不同類別。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This category is referred to as soft addiction and is generally related only to a potential loss of productivity; in the workplace, an employee who is addicted to social networking sites is likely to be a less useful member of staff.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一類稱為 soft addiction，通常只與潛在的生產力下降有關；在工作場所，一名沉迷社交網站的員工很可能會成為較沒效率的員工。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 正在介紹 addiction 的第一個分類，而且這個分類的風險相對較低。最後一句的 “only” 很重要，因為它限制了問題範圍：一般只涉及 productivity，不直接等同嚴重健康或生命危險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading x 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not all addictions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cause for concern”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“not life-threatening or particularly dangerous”"
+            },
+            {
+              "kind": "quote",
+              "text": "“almost tongue-in-cheek”"
+            },
+            {
+              "kind": "quote",
+              "text": "“soft addiction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only to a potential loss of productivity”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些字眼共同把段落導向「某些 addiction 比較輕微」的意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first category concerns forms of addiction that are perhaps not life-threatening or particularly dangerous.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一類涉及一些 addiction 形式，它們或許不會危及生命，也未必特別危險。"
+            },
+            {
+              "kind": "label",
+              "text": "接着原文提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are often labelled in an almost tongue-in-cheek manner, such as excessive chocolate consumption leading to someone being labelled a ‘chocoholic’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們常以近乎半開玩笑的方式被標籤，例如過量吃朱古力的人被稱為 “chocoholic”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“tongue-in-cheek” 帶有輕鬆、半玩笑語氣，說明這類 addiction 不一定要用非常嚴重的方式看待。再加上段末 “only to a potential loss of productivity”，heading x 可以覆蓋整段。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heading：“Not all addictions are cause for concern”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“not life-threatening or particularly dangerous”"
+            },
+            {
+              "kind": "quote",
+              "text": "“soft addiction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only to a potential loss of productivity”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： not cause for concern = not life-threatening / not particularly dangerous not all addictions = first category / soft addiction"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "viii “The lack of clarity in modern interpretations of addiction” 很容易吸引人，因為 Paragraph B也在 define addiction。不過這個 heading 已用於 Paragraph A，而且 B 的重點轉到 soft addiction的低危程度。判斷 heading 時，段末 “only” 和 “soft addiction” 更能控制答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "iii — Biological changes and associated risks",
+      "answerKey": "iii — Biological changes and associated risks",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "生物變化和相關風險目標段落：Paragraph C",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Substance addiction, however, is a completely different category that focuses on the ingestion of a drug (either natural or synthetic) to alter the brain’s chemical constitution temporarily.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Substance addiction 則是完全不同的一類，焦點在於攝入某種藥物，不論是天然或合成，以暫時改變大腦的化學構成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Users who are addicted will often go to great lengths to acquire these substances, which helps explain the very strong connection between drug abuse and crime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成癮者常會不惜代價取得這些物質，這有助解釋濫用藥物和犯罪之間非常強的關聯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句顯示這段處理生物或化學層面：drug ingestion alters brain chemistry。末句則把 substance addiction 連到 crime。首尾句合起來看，這段同時有 biological changes 和 associated risks。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading iii 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Biological changes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“associated risks”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“alter the brain’s chemical constitution”"
+            },
+            {
+              "kind": "quote",
+              "text": "“physical and psychological dependence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“known health dangers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“drug abuse and crime”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a combination of physical and psychological dependence on substances that have known health dangers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它是對某些已知有健康危害的物質產生身體和心理依賴的組合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 substance addiction 的兩層風險講清楚：一方面涉及身體和心理依賴，另一方面涉及已知健康危險。再加上首句的 brain’s chemical constitution，heading iii 中的 biological changes 有直接支撐。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Biological changes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“alter the brain’s chemical constitution temporarily”"
+            },
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“associated risks”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“known health dangers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“connection between drug abuse and crime”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "iv “The long-term damage of addiction” 看似相關，因為 Paragraph C 有 health dangers。可是這段沒有集中談 long-term damage，反而以 ingestion、brain chemistry、dependence、crime risk 構成主線。iii 更能覆蓋整段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "ix — Modern label for taking addiction to extremes",
+      "answerKey": "ix — Modern label for taking addiction to extremes",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "把 addiction 推向極端時使用的現代標籤目標段落：Paragraph D",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, there is behavioural addiction, which is regarded as ‘a compulsion to engage in some specific activity, despite harmful consequences’ and is a relatively recent entrant to the field.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，還有 behavioural addiction，它被視為「即使有有害後果，仍強迫性地參與某項特定活動」，也是這個領域中相對較新的概念。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also included in this category are behaviours such as excessive gambling, and, for many, the combination of the availability and anonymity of the internet, as well as a plethora of online gambling sites, has led to a vast increase in this form of addiction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一類也包括 excessive gambling 等行為；對很多人來說，互聯網的可用性和匿名性，再加上大量 online gambling sites，已令這種 addiction 大幅增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接定義 behavioural addiction，並說它是 relatively recent entrant。段中又說 soft addictions 超過 safe limit 後可變危險。因此 heading ix 的 “modern label” 和 “taking addiction to extremes” 都能在這段找到支撐。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading ix 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Modern label”"
+            },
+            {
+              "kind": "quote",
+              "text": "“taking addiction to extremes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“behavioural addiction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“relatively recent entrant”"
+            },
+            {
+              "kind": "quote",
+              "text": "“soft addictions go beyond a safe limit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“can become dangerous”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is where ‘soft’ addictions go beyond a safe limit and can become dangerous.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 soft addictions 超過安全界線並可能變得危險的地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是 heading ix 的核心。Paragraph B 的 soft addiction 本身較輕微；到了 Paragraph D，當它超越 safe limit，便進入 behavioural addiction 的範圍。這正好是 “taking addiction to extremes” 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Modern label”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“behavioural addiction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a relatively recent entrant to the field”"
+            },
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“taking addiction to extremes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“go beyond a safe limit and can become dangerous”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "iii 也有 risks，因為 Paragraph D 提到 obesity 和 health risks。可是 iii 更貼合 Paragraph C 的brain chemistry 和 substance dependence。Paragraph D 的獨特功能是介紹 behavioural addiction 這個新分類，以及 soft addiction 超過界線後的危險狀態。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "v — Disagreements about definition",
+      "answerKey": "v — Disagreements about definition",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "關於定義的分歧目標段落：Paragraph E",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the point at which a soft addiction becomes a behavioural addiction is both hard to define and a cause of significant controversy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，soft addiction 在哪一點變成 behavioural addiction，既難以定義，也引起重大爭議。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another point of friction among people involved in studying and treating sufferers is that some of the issues covered by the umbrella term ‘addiction’ may be mislabelled: they belong to a different category altogether and should be referred to as ‘impulse-control disorders’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究和治療患者的人之間另一個摩擦點是，某些被 umbrella term “addiction” 涵蓋的問題可能被錯誤標籤；它們屬於完全不同的類別，應稱為 “impulse-control disorders”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句幾乎直接指向 heading v。第一句有 hard to define 和 controversy；最後一句有 point of friction 和 mislabelled。整段就是在講定義界線和分類名稱的爭議。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading v 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Disagreements”"
+            },
+            {
+              "kind": "quote",
+              "text": "“definition”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“hard to define”"
+            },
+            {
+              "kind": "quote",
+              "text": "“significant controversy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“point of friction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mislabelled”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文中間例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“A child who comes home after school and plays on the internet for three hours is considered by some to be suffering from a behavioural addiction; to others, this is just a modern form of leisure time and just as valid as reading a book or playing outside.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個孩子放學後回家上網玩三小時，有些人會認為他患有 behavioural addiction；對另一些人來說，這只是現代休閒形式，和看書或到外面玩同樣合理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個例子展示同一行為被不同人解讀成兩種性質：有人當作 addiction，有人當作 leisure。這正是disagreement about definition 的具體表現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Disagreements”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“significant controversy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“point of friction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“by some… to others…”"
+            },
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“definition”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“hard to define”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mislabelled”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different category”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "vii “The changing nature of addiction in children” 有吸引力，因為段中有 child 的例子。可是孩子上網只是例子，用來說明定義爭議。段落首尾句都回到 define / controversy / mislabelled，所以 v更能覆蓋全段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "i — A change in methods",
+      "answerKey": "i — A change in methods",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "方法上的改變目標段落：Paragraph F",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The correct course of action when attempting to overcome an addiction varies greatly according to the type of addiction, while opinions within the medical community also differ considerably.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "嘗試克服 addiction 時，正確處理方法會因 addiction 類型而大幅不同，醫學界內部的意見也有很大差異。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often, extreme addictions—both substance-based and behavioural—stem from psychological roots such as stress, guilt, depression and rejection; for this reason, counselling and open discussion are producing more successful long-term results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "極端 addiction，不論是 substance-based 或 behavioural，常常源於 stress、guilt、depression、rejection 等 psychological roots；因此，counselling 和 open discussion 正帶來更成功的長期結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說治療方法因類型不同，意見也不同；末句說現時較成功的長期方法是 counselling and open discussion。這段自然會處理 treatment approach 的轉變。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading i 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“change”"
+            },
+            {
+              "kind": "quote",
+              "text": "“methods”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“traditional approach”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no longer considered the best long-term approach”"
+            },
+            {
+              "kind": "quote",
+              "text": "“old idea… proved faulty”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increasing tendency”"
+            },
+            {
+              "kind": "quote",
+              "text": "“counselling and open discussion”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The traditional approach has been to remove the source—that is, the availability of the drug—but this is no longer considered the best long-term approach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統方法是移除來源，也就是藥物的可取得性；可是這現已不再被視為最佳長期方法。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is now an increasing tendency to consider not only the physical mechanisms of addiction but also its psychological causes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在越來越傾向同時考慮 addiction 的身體機制和心理原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句構成方法轉變：從單純 remove source / isolate the addict，轉向處理 psychological causes。段末的 counselling and open discussion 是新方法的具體結果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“A change in methods”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“traditional approach”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no longer considered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“old idea… proved faulty”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increasing tendency”"
+            },
+            {
+              "kind": "quote",
+              "text": "“counselling and open discussion”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "iii 或 iv 可能因為 substance addiction、relapses、extreme addictions 出現而吸引學生。可是這段的控制詞是 “course of action”、“traditional approach”、“no longer”、“increasing tendency”，全都指向 treatment methods 的轉變。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "vi — Advice for those involved",
+      "answerKey": "vi — Advice for those involved",
+      "type": "Matching Headings",
+      "prompt": "Question 6",
+      "translation": "給相關人士的建議目標段落：Paragraph G",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For non-professionals who have people in their lives suffering from some form of addiction, the focus now should be on supporting their recovery, not enabling their dependence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對於生活中有 addiction sufferer 的非專業人士來說，現在的焦點應放在支持他們康復，而不應助長他們的依賴。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Judgemental attitudes or helping to conceal addiction have been shown not only to perpetuate the problem, but in many cases actually exacerbate it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "批判態度或幫忙掩飾 addiction 已被證明會延續問題，在很多情況下甚至會令問題惡化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接指向 non-professionals who have people in their lives suffering from addiction，也就是身邊有成癮者的人。段落語氣是 should be on supporting recovery，明顯是 advice。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading vi 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Advice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“those involved”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“non-professionals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“should be on supporting their recovery”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not enabling their dependence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Judgemental attitudes…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“conceal addiction…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the focus now should be on supporting their recovery, not enabling their dependence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在的焦點應放在支持他們康復，而不應助長他們的依賴。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 should 是建議訊號。原文對 non-professionals 說明應該做甚麼，也說明甚麼做法會使情況更糟。這正好符合 “Advice for those involved”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“those involved”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“non-professionals who have people in their lives suffering from some form of addiction”"
+            },
+            {
+              "kind": "label",
+              "text": "heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Advice”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“should be on supporting their recovery”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not enabling their dependence”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "iv “The long-term damage of addiction” 可能因為 “perpetuate” 和 “exacerbate” 看似有關。但Paragraph G 的焦點不在描述 addiction 本身造成的 long-term damage；它是在給身邊人士處理addiction 的建議。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "interest",
+      "answerKey": "interest",
+      "type": "Short-answer Questions",
+      "prompt": "“It is increasingly difficult to differentiate between an addiction and what?”",
+      "translation": "現在越來越難分辨 addiction 和甚麼之間的差異？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 what，所以答案需要一個名詞或名詞短語。題目中的 “differentiate between” 通常會對應原文的 “lines between X and Y are hard to identify”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many people would perhaps, at least as an immediate response, not consider themselves to be ‘addicts’, yet a closer look at lifestyle and mental attitude often reveals a very different picture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多人第一反應大概不會把自己看成 “addicts”，可是更仔細看生活方式和心理態度，常會看到很不同的情況。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gambling, food, work and shopping are all potential areas in which addiction can lurk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "賭博、食物、工作和購物，全都是 addiction 可能潛藏的領域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段在說 addiction 的現代範圍擴大，所以題目中 “increasingly difficult” 很可能來自這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“differentiate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“addiction”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the lines between addiction and interest are far harder to identify”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The main problem at present is that the traditional definition of the word has become blurred and the lines between addiction and interest are far harder to identify.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前主要問題是，這個詞的傳統定義已變得模糊，addiction 和 interest 之間的界線也更難辨認。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “differentiate between” 改寫自 “the lines between… are far harder to identify”。空格問addiction 和甚麼難分辨，原文答案是 interest。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "differentiate between = identify the lines between increasingly difficult = far harder addiction and what = addiction and interest答案形式interest = 1 word，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "productivity",
+      "answerKey": "productivity",
+      "type": "Short-answer Questions",
+      "prompt": "“What can soft addictions lead to a decline in?”",
+      "translation": "soft addictions 會導致甚麼下降？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "問題問 “a decline in”，所以要找 loss / decrease / lower 之類的詞。答案應是被下降的對象。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To try to define the subject of addiction (and in many cases the subsequent course of treatment to best combat it), psychologists now commonly refer to three distinct categories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了定義 addiction，並在很多情況下決定之後最合適的治療方向，心理學家現在通常會參考三個不同類別。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This category is referred to as soft addiction and is generally related only to a potential loss of productivity; in the workplace, an employee who is addicted to social networking sites is likely to be a less useful member of staff.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一類稱為 soft addiction，通常只與潛在的生產力下降有關；在工作場所，沉迷社交網站的員工很可能會成為較沒效率的員工。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落最後一句直接有 soft addiction 和 loss of productivity，所以定位非常穩。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“soft addictions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“decline”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“soft addiction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“loss of productivity”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“a potential loss of productivity”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "潛在的生產力下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “lead to a decline in what?” 原文的 “loss of” 就是 decline in。答案需要名詞，填productivity。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "decline in = loss of soft addictions = soft addiction what declines = productivity答案形式productivity = 1 word，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "有人可能想填 “staff” 或 “useful member”，因為句末提到 less useful member of staff。可是這只是 workplace 例子，用來說明 productivity loss。題目問下降的對象，答案是 productivity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "crime",
+      "answerKey": "crime",
+      "type": "Short-answer Questions",
+      "prompt": "“What are addictions involving the consumption of a drug clearly connected with?”",
+      "translation": "涉及攝入藥物的 addictions 和甚麼有明顯關聯？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “consumption of a drug” 對應 Paragraph C 的 ingestion of a drug。問題問 clearly connected with，所以要找 connection with what。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Substance addiction, however, is a completely different category that focuses on the ingestion of a drug (either natural or synthetic) to alter the brain’s chemical constitution temporarily.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Substance addiction 是完全不同的一類，焦點在攝入某種藥物，不論天然或合成，以暫時改變大腦化學構成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Users who are addicted will often go to great lengths to acquire these substances, which helps explain the very strong connection between drug abuse and crime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成癮者常會不惜代價取得這些物質，這有助解釋 drug abuse 和 crime 之間非常強的關聯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經把題目完整包住：consumption of a drug = ingestion of a drug；connected with =connection between drug abuse and crime。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“consumption of a drug”"
+            },
+            {
+              "kind": "quote",
+              "text": "“connected with”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“ingestion of a drug”"
+            },
+            {
+              "kind": "quote",
+              "text": "“connection between drug abuse and crime”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Users who are addicted will often go to great lengths to acquire these substances, which helps explain the very strong connection between drug abuse and crime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "成癮者常會不惜代價取得這些物質，這有助解釋濫用藥物和犯罪之間非常強的關聯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “very strong connection”。題目用 “clearly connected with” 改寫這個意思。被連接的對象是 crime。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "addictions involving the consumption of a drug = substance addiction / ingestion of a drug clearly connected with = very strong connection between answer = crime答案形式crime = 1 word，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "excessive gambling",
+      "answerKey": "excessive gambling",
+      "type": "Short-answer Questions",
+      "prompt": "“What specific addiction has increased considerably over recent years?”",
+      "translation": "近年哪一種具體 addiction 大幅增加？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 specific addiction，所以要找某個具體例子。題目中的 “increased considerably” 應對應原文 “vast increase”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, there is behavioural addiction, which is regarded as ‘a compulsion to engage in some specific activity, despite harmful consequences’ and is a relatively recent entrant to the field.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，還有 behavioural addiction，它被視為「即使有有害後果，仍強迫性地參與某項特定活動」，也是這個領域中相對較新的概念。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also included in this category are behaviours such as excessive gambling, and, for many, the combination of the availability and anonymity of the internet, as well as a plethora of online gambling sites, has led to a vast increase in this form of addiction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一類也包括 excessive gambling 等行為；對很多人來說，互聯網的可用性和匿名性，以及大量online gambling sites，已令這種 addiction 大幅增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接出現 “vast increase”，所以答案在這句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“specific addiction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increased considerably”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“excessive gambling”"
+            },
+            {
+              "kind": "quote",
+              "text": "“this form of addiction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a vast increase”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also included in this category are behaviours such as excessive gambling…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一類也包括 excessive gambling 等行為。"
+            },
+            {
+              "kind": "label",
+              "text": "後半句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…has led to a vast increase in this form of addiction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……已導致這種 addiction 大幅增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“this form of addiction” 回指前面提到的 excessive gambling。互聯網和 online gambling sites 是造成增長的背景；題目問具體 addiction 名稱，所以答案填 excessive gambling 最完整。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "increased considerably = a vast increase specific addiction = excessive gambling over recent years = relatively recent context / internet availability and online sites答案形式excessive gambling = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“online gambling sites” 很吸引，因為它在同一句出現。可是 online gambling sites 是造成excessive gambling 增加的條件之一。題目問 addiction itself，較穩答案是 excessive gambling。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "impulse-control disorders",
+      "answerKey": "impulse-control disorders",
+      "type": "Short-answer Questions",
+      "prompt": "“In some cases, addictions should actually be labelled as what?”",
+      "translation": "在某些情況下，addictions 其實應該被標籤為甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 labelled as what，答案應是某個分類名稱。定位詞是 labelled / mislabelled。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the point at which a soft addiction becomes a behavioural addiction is both hard to define and a cause of significant controversy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，soft addiction 在哪一點變成 behavioural addiction，既難以定義，也引起重大爭議。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another point of friction among people involved in studying and treating sufferers is that some of the issues covered by the umbrella term ‘addiction’ may be mislabelled: they belong to a different category altogether and should be referred to as ‘impulse-control disorders’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究和治療患者的人之間另一個摩擦點是，某些被 umbrella term “addiction” 涵蓋的問題可能被錯誤標籤；它們屬於完全不同的類別，應稱為 “impulse-control disorders”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段末直接有 should be referred to as，完全對應 labelled as what。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“labelled”"
+            },
+            {
+              "kind": "quote",
+              "text": "“actually”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“mislabelled”"
+            },
+            {
+              "kind": "quote",
+              "text": "“should be referred to as”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“should be referred to as ‘impulse-control disorders’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "應稱為 “impulse-control disorders”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “should actually be labelled as” 改寫了原文 “should be referred to as”。答案必須保留原文專門名稱。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "labelled as = referred to as in some cases = some of the issues covered by the umbrella term “addiction” answer = impulse-control disorders答案形式impulse-control disorders = 2 words if hyphenated compound is counted as one unit plus disorders；IELTS 通常接受，且符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "psychological roots",
+      "answerKey": "psychological roots",
+      "type": "Short-answer Questions",
+      "prompt": "“Extreme addictions often have what kind of root cause?”",
+      "translation": "極端 addictions 常有哪一類根源？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “what kind of root cause”，所以要找 root / cause / stem from 一類字。答案需要保留原文詞形。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The correct course of action when attempting to overcome an addiction varies greatly according to the type of addiction, while opinions within the medical community also differ considerably.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "嘗試克服 addiction 時，正確處理方法會因 addiction 類型而大幅不同，醫學界內部意見也有很大差異。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often, extreme addictions—both substance-based and behavioural—stem from psychological roots such as stress, guilt, depression and rejection; for this reason, counselling and open discussion are producing more successful long-term results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "極端 addiction，不論是 substance-based 或 behavioural，常常源於 stress、guilt、depression、rejection 等 psychological roots；因此，counselling 和 open discussion 正帶來更成功的長期結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接包含 extreme addictions、stem from、psychological roots，因此答案很穩定。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Extreme addictions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“root cause”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“extreme addictions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stem from psychological roots”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often, extreme addictions—both substance-based and behavioural—stem from psychological roots such as stress, guilt, depression and rejection…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "極端 addiction，不論是 substance-based 或 behavioural，常常源於 stress、guilt、depression、rejection 等心理根源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“stem from” 表示源於、來自；“psychological roots” 就是題目要找的 kind of root cause。後面的stress、guilt、depression、rejection 是 psychological roots 的例子。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "have what kind of root cause = stem from what roots extreme addictions = extreme addictions answer = psychological roots答案形式psychological roots = 2 words，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - THE NATURE OF ADDICTION.pdf",
+    "sha256": "3660810423507690093f618dc28190da7104ccdacb6c7b1458d68284a02d9584",
+    "pageCount": 20
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看第一句，讀者會先知道很多人第一反應都不會把自己看成 “addicts”。最後一句則說gambling、food、work、shopping 都可能藏有 addiction。首尾句合起來看，這段主要說明現代addiction 的界線變得模糊：過去多指 drugs、alcohol、nicotine 等有害物質，現在範圍擴大到生活習慣和行為。例題 Paragraph A 配 viii 很合理，因為焦點是 modern interpretations lack clarity。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句說，psychologists 現在常把 addiction 分成三個 distinct categories，以便定義問題和安排治療。最後一句說，沉迷 social networking sites 的員工可能會變成較沒效率的 staff member。首尾句顯示這段介紹第一類 addiction：soft addiction。它通常不會危及生命，也不算特別危險，問題主要在 productivity loss。這段重點是：有些 addiction 標籤語氣較輕，未必需要用嚴重病理角度看待。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句用 however 轉入另一類：substance addiction，是完全不同的 category，焦點在攝入natural 或 synthetic drug，以短暫改變大腦化學構成。最後一句說，這也解釋了 drug abuse 和crime 的強烈關聯。首尾句顯示，這段聚焦於物質成癮的生物層面和相關風險：brain chemistry、physical and psychological dependence、known health dangers、crime。這段很適合用於heading iii 和短答題 Q9。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句介紹第三類 behavioural addiction，定義為明知有 harmful consequences 仍compulsively engage in a specific activity。最後一句說，internet 的 availability、anonymity 和大量 online gambling sites 令這類 addiction 大幅增加。首尾句顯示這段說明 behavioural addiction這個較新的分類，以及 soft addictions 超過安全界線後如何變得危險。中間例子包括 overeating、obesity risks 和 excessive gambling。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句說，soft addiction 在甚麼點變成 behavioural addiction，很難定義，也是 significant controversy 的來源。最後一句說，有些 umbrella term “addiction” 下的問題可能被 mislabelled，應歸入 impulse-control disorders。首尾句顯示這段焦點是定義爭議：三小時上網可被某些人視為behavioural addiction，也可被另一些人視為現代休閒。這段會支援 heading v 和 Q11。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說，要克服 addiction，正確處理方法會按 addiction type 大幅變化，medical community內部意見也相當不同。最後一句說，counselling and open discussion 正帶來較成功的 long-term results。首尾句顯示這段處理治療方法轉變：過去常用 remove the source / isolate the addict，但這種方法不能防止 relapse；現在更重視 physical mechanisms 加上 psychological causes。這段對應 heading i。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說，對身邊有 addiction sufferer 的非專業人士來說，焦點應放在 supporting their recovery，而非 enabling their dependence。最後一句說，judgemental attitudes 或幫忙 conceal addiction 會 perpetuate，甚至 exacerbate 問題。首尾句顯示這段是 practical advice：親友不應用批判、包庇或掩飾的方式處理 addiction，較合適的方向是支持康復，同時避免加深依賴。 Answer Key 1. x 2. iii 3. ix 4. v 5. i 6. vi 7. interest 8. productivity 9. crime 10. excessive gambling 11. impulse-control disorders 12. psychological roots"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1292 @@
+{
+  "id": "p3-143-water-filter",
+  "catalogueId": "p3-143",
+  "catalogueIds": [
+    "p3-143"
+  ],
+  "passage": 3,
+  "title": "Water Filter",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "crushed clay",
+    "water",
+    "straw",
+    "cow manure",
+    "950 degrees",
+    "60 minutes",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "C",
+    "D",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "crushed clay",
+      "answerKey": "crushed clay",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 28",
+      "translation": "把 28 ______ 和有機材料混合。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Combine 28 ______ and organic material…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The production of the filters is extremely simple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些濾水器的製作過程非常簡單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The manure has to be dry and is best used exactly as found in the field; there is no need to break it up or process it any further.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牛糞必須是乾的，而且最好直接使用田野中找到的狀態，無需把它打碎或再加工。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph C 是製作流程段，會交代材料、混合、塑形、燃料和燒製。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Combine” 和 “organic material”。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Take a handful of dry, crushed clay, mix it with a handful of organic material…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句的意思是：取一把乾燥、壓碎的黏土，和一把有機材料混合。題目把 “mix it with” 改寫"
+            },
+            {
+              "kind": "paragraph",
+              "text": "成 “Combine”。空格要填與 organic material 並列的材料，所以答案是 crushed clay。原文完整形容是 “dry, crushed clay”，但題目限制 NO MORE THAN TWO WORDS，因此 crushed clay 最合適。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "water",
+      "answerKey": "water",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 29",
+      "translation": "加入足夠的 29 ______，形成濃稠混合物。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“with sufficient 29 ______ to create a thick mixture”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph C。第一句說製作過程 extremely simple，最後一句說 cow"
+            },
+            {
+              "kind": "paragraph",
+              "text": "manure 無需進一步加工。這段明顯按順序講製作濾水器，所以 Q29 要沿著 Q28 後面讀下去。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “sufficient” 和 “thick mixture”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“add enough water to make a stiff biscuit-like mixture”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加入足夠的水，做成像硬餅乾一樣的混合物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “sufficient” 對應原文 “enough”；“thick mixture” 對應 “stiff biscuit-like mixture”。空"
+            },
+            {
+              "kind": "paragraph",
+              "text": "格需要材料名詞，而且只可用文章原字，所以答案是 water。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "straw",
+      "answerKey": "straw",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 30",
+      "translation": "把 30 ______ 包在圓柱狀濾器周圍。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pack 30 ______ around the cylinders.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "仍看 Paragraph C。首句指出這段在講製作方法，尾句講牛糞燃料的使用狀態。由於題目進"
+            },
+            {
+              "kind": "paragraph",
+              "text": "入 Step two，應該在 Paragraph C 中段找燒製前的準備步驟。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “around the cylinders”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Next, surround the pots with straw…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著，用稻草包圍這些陶罐。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Pack … around” 對應 “surround … with”。題目用 cylinders 代替 pots，因為前文說要"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“form a cylindrical pot”。空格問包在外面的材料，所以答案是 straw。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "cow manure",
+      "answerKey": "cow manure",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 31",
+      "translation": "把它們放入 31 ______ 中，而這會作為燒製燃料。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Place them in 31 ______, which is used as fuel for firing”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。這段首句說製作過程簡單，尾句說 cow manure 最好直接用乾"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的田野牛糞，暗示牛糞在此段中是重要燃料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Place them in” 和 “fuel for firing”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“put them in a mound of cow manure, light the straw and then top up the burning manure as required.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把它們放入一堆牛糞中，點燃稻草，然後按需要補充正在燃燒的牛糞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “used as fuel for firing” 對應前文 Paragraph B 的 “cow manure as the source of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heat”，以及 Paragraph C 的 “burning manure”。空格要填燃料材料，所以答案是 cow manure。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "950 degrees",
+      "answerKey": "950 degrees",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 32",
+      "translation": "最高溫度：32 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“maximum temperature: 32 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。這段不只講步驟，也講牛糞燃料可達到的溫度，所以 Q32 仍然"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Paragraph C 找數字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “maximum temperature”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The properties of cow manure are vital as the fuel can reach a temperature of 700 degrees in half an hour and will be up to 950 degrees after another 20 to 30 minutes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牛糞的特性非常重要，因為這種燃料可在半小時內達到 700 度，再過 20 至 30 分鐘可升至 950度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 maximum temperature，即最高溫。原文先給 700 degrees，再給 “up to 950"
+            },
+            {
+              "kind": "paragraph",
+              "text": "degrees”。“up to” 表示最高可達，所以答案是 950 degrees。注意要保留單位 degrees。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "60 minutes",
+      "answerKey": "60 minutes",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 33",
+      "translation": "濾水器在少於 33 ______ 內完成燒製。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“The filters are baked in under 33 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "仍然是 Paragraph C。這段按流程描述製作和燒製，時間詞會在點火和完成之間出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “baked” 和 “under”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In less than 60 minutes the filters are finished.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不到 60 分鐘，濾水器便完成。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “less than” 改寫成 “under”；“filters are finished” 對應 “filters are baked”。空格在"
+            },
+            {
+              "kind": "paragraph",
+              "text": "under 之後，所以填 60 minutes。不要填 “less than 60 minutes”，因為題目本身已有 under，重複less than 會語法不自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“It takes half an hour for the manure to reach 950 degrees.”",
+      "translation": "牛糞需要半小時達到 950 度。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The production of the filters is extremely simple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些濾水器的製作過程非常簡單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The manure has to be dry and is best used exactly as found in the field; there is no need to break it up or process it any further.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牛糞必須是乾的，而且最好直接使用田野中找到的狀態，無需把它打碎或再加工。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段會詳細講 cow manure 在製作過程中的用途，因此溫度和時間也應在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “half an hour” 和 “950 degrees”。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“the fuel can reach a temperature of 700 degrees in half an hour and will be up to 950 degrees after another 20 to 30 minutes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種燃料可在半小時內達到 700 度，再過 20 至 30 分鐘可升至 950 度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “half an hour” 配到 950 degrees，但原文中 half an hour 配的是 700 degrees。950"
+            },
+            {
+              "kind": "paragraph",
+              "text": "degrees 需要再多 20 至 30 分鐘。這是明確的數字配對錯誤，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生看到 half an hour 和 950 degrees 都在同一句，容易直接配對。真正判斷要看數字旁"
+            },
+            {
+              "kind": "paragraph",
+              "text": "邊的介詞和時間順序：700 degrees in half an hour；950 degrees after another 20 to 30 minutes。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Clay was initially found to be unsuitable for pot-making.”",
+      "translation": "黏土最初被發現不適合用來製作這種陶罐／濾水器。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The invention was born out of a World Vision project involving the Manatuto community in East Timor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項發明源自 World Vision 在東帝汶 Manatuto 社區的一個項目。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Everyone has a right to clean water. These filters have the potential to enable anyone in the world to drink water safely,’ says Mr. Flynn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Flynn 說：「每個人都有權享有乾淨食水。這些濾水器有潛力讓世界任何人都能安全飲水。」只看首尾句，可以先估計 Paragraph G 會講發明的項目來源、初期問題和後來可全球推廣的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “initially” 和 “clay”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The charity wanted to help set up a small industry manufacturing water filters, but initial research found the local clay to be too fine — a problem solved by the addition of organic material.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個慈善機構想幫助建立一個製造濾水器的小型產業，但初步研究發現當地黏土太細；加入有機材料後，這個問題得到解決。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “initially found” 對應原文 “initial research found”。“unsuitable” 對應 “too fine — a"
+            },
+            {
+              "kind": "paragraph",
+              "text": "problem”。這裡的 pot-making 要放回文章語境理解：Paragraph C 說要 “form a cylindrical pot”，也就是把濾水器做成一端封閉的圓柱狀陶罐。Paragraph G 說當地黏土太細，令製造濾水器遇到問題，後來靠 organic material 解決。題目概括為 initially unsuitable，方向成立，所以答案是TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接用 unsuitable 這個字，但 “too fine — a problem” 已經表明初期材料性質不"
+            },
+            {
+              "kind": "paragraph",
+              "text": "合適。這題不能只找 unsuitable 原字，要看 problem 是否等於題目的 unsuitable。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Coffee grounds are twice as effective as other materials.”",
+      "translation": "咖啡渣的效果是其他材料的兩倍。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The production of the filters is extremely simple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些濾水器的製作過程非常簡單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The manure has to be dry and is best used exactly as found in the field; there is no need to break it up or process it any further.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牛糞必須是乾的，而且最好直接使用田野中找到的狀態，無需把它打碎或再加工。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段會列出 organic material 的例子，所以 coffee grounds 應在這段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Coffee grounds” 和 “twice as effective”。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Mr. Flynn, used coffee grounds have given the best results to date.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Flynn 的說法，到目前為止，使用過的咖啡渣取得了最佳結果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文只說 coffee grounds “best results to date”，即目前效果最好。題目加入 “twice as"
+            },
+            {
+              "kind": "paragraph",
+              "text": "effective”，要求兩倍效果的數量比較。文章沒有提供兩倍、百分比或與其他有機材料的量化比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此不能選 TRUE。也不能選 FALSE，因為原文沒有說 coffee grounds 沒有兩倍效果；文章只是沒有提供這個數字。答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "best results 很容易讓人以為 coffee grounds 遠遠勝出，但 best 不等於 twice as effective"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。IELTS 很常把「最好」改成具體倍數，沒有數字證據時要選 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“E. coli is the most difficult bacterium to combat.”",
+      "translation": "E. coli 是最難對付的細菌。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other commercial ceramic filters do exist, but, even if available, with prices starting at US$5 each, they are often outside the budgets of most people in the developing world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "市面上確實有其他商業陶瓷濾水器，但即使買得到，每個起價 5 美元，往往超出發展中國家大部分人的預算。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And like clay and cow dung, it is universally available.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且像黏土和牛糞一樣，它到處都能取得。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 會說濾水器的原理、成本和材料可得性。E. coli 測試也在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “E. coli” 和 “most difficult”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tests with the deadly E. coli bacterium have shown that the filters remove 96.4 to 99.8 per cent of the pathogen — well within safe levels.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "針對致命的 E. coli 細菌進行的測試顯示，這些濾水器可移除 96.4% 至 99.8% 的病原體，完全在安全水平之內。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 E. coli 是 deadly，並且濾水器能移除 96.4% 至 99.8%。題目說 “most difficult"
+            },
+            {
+              "kind": "paragraph",
+              "text": "bacterium to combat”，需要和其他細菌比較難度。文章沒有說 E. coli 比其他 bacteria 更難，也沒有排名。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 most difficult。看到 deadly 不能自動推出最難處理；deadly 描述危險性，most difficult描述處理難度，兩者概念不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "C — is the same as an adult’s forefinger",
+      "answerKey": "C — is the same as an adult’s forefinger",
+      "type": "Multiple Choice",
+      "prompt": "“When making the pot, the thickness of the wall…”",
+      "translation": "製作陶罐時，罐壁厚度……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The production of the filters is extremely simple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些濾水器的製作過程非常簡單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The manure has to be dry and is best used exactly as found in the field; there is no need to break it up or process it any further.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牛糞必須是乾的，而且最好直接使用田野中找到的狀態，無需把它打碎或再加工。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講製作步驟和尺寸，所以 wall thickness 應在 Paragraph C 找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “thickness of the wall”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The walls of the finished pot should be about as thick as an adult’s index finger.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "完成後的陶罐罐壁應該大約和成人食指一樣厚。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 C 說 “should be the same as an adult’s forefinger”。forefinger 和 index finger 是同義"
+            },
+            {
+              "kind": "paragraph",
+              "text": "詞，都指食指。選項用 “the same as” 改寫原文 “about as thick as”。雖然原文有 about，選項沒有about，但四個選項中 C 明顯最貼近原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除： A 說厚度大到讓 pathogens 通過，與濾水原理相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說厚度按燃料溫度變化，原文沒有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說 Mr. Flynn 沒有提及厚度，與原文明確句子相衝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "D — It intended to help establish a local water-filter industry.",
+      "answerKey": "D — It intended to help establish a local water-filter industry.",
+      "type": "Multiple Choice",
+      "prompt": "“Which statement about the charity is true?”",
+      "translation": "關於這個慈善機構，哪一句正確？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The invention was born out of a World Vision project involving the Manatuto community in East Timor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項發明源自 World Vision 在東帝汶 Manatuto 社區的一個項目。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Everyone has a right to clean water. These filters have the potential to enable anyone in the world to drink water safely,’ says Mr. Flynn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Flynn 說：「每個人都有權享有乾淨食水。這些濾水器有潛力讓世界任何人都能安全飲水。」本段首句已出現 World Vision project，題目問 charity，所以 Paragraph G 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “charity”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The charity wanted to help set up a small industry manufacturing water filters…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個慈善機構想幫助建立一個製造濾水器的小型產業。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 D 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It intended to help establish a local water-filter industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它打算幫助建立一個本地濾水器產業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這與原文 “wanted to help set up a small industry manufacturing water filters” 直接對應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "intended = wanted help establish = help set up water-filter industry = industry manufacturing water filters錯項排除： A 說它未能找到合適材料。原文只說 local clay too fine，後來加 organic material 解決。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說它成功製造 kiln-based filter 作全球銷售。原文說 kiln-based solution 只適合那個社區材料， couldn’t be applied elsewhere。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 local clay was suitable。原文方向相反，local clay was too fine。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "A — He hopes the design can be used freely around the world.",
+      "answerKey": "A — He hopes the design can be used freely around the world.",
+      "type": "Multiple Choice",
+      "prompt": "“Why is Mr Flynn deliberately not patenting his design?”",
+      "translation": "為甚麼 Flynn 有意不為設計申請專利？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The invention was born out of a World Vision project involving the Manatuto community in East Timor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項發明源自 World Vision 在東帝汶 Manatuto 社區的一個項目。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Everyone has a right to clean water. These filters have the potential to enable anyone in the world to drink water safely,’ says Mr. Flynn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Flynn 說：「每個人都有權享有乾淨食水。這些濾水器有潛力讓世界任何人都能安全飲水。」本段最後部分談 no patent、legal obstacles 和 worldwide adoption，所以 Q40 定位到 Paragraph G 後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “not patenting”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“with no plans to patent his idea, there will be no legal obstacles to it being adopted in any community that needs it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於他沒有計劃為這個想法申請專利，任何有需要的社區採用它時便不會有法律障礙。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 A 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“He hopes the design can be used freely around the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他希望這項設計可在世界各地自由使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括原文意思。no patent 的直接結果是 no legal obstacles；adopted in any community that needs it 表示有需要的社區可自由採用。段末 “anyone in the world” 也支持全球使用的目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除： B 說技術未夠 refined，原文沒有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說法律障礙阻止他申請專利，方向錯。原文說不申請專利會消除法律障礙。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說設計已被廣泛採用，原文只說有 potential，沒有說已經 widely adopted。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Water Filter.pdf",
+    "sha256": "13a32548c8bc9b47dfe0b9391f7c65324a95b699e8624852ae76ca0023e08f8c",
+    "pageCount": 14
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說這項巧妙發明即將為第三世界帶來乾淨食水，並指出雖然科學很先進，材料卻非常樸素。尾句列出 clay、coffee grounds 和 cow manure 這些低成本材料。只看首尾句，可以先判斷本段是全文導入：它突出發明的反差感，一邊是 clean water 和 cutting-edge science，一邊是極普通的本地材料。後面應會解釋這些材料如何製成濾水器。"
+      },
+      {
+        "number": "B",
+        "summary": "首句介紹這項 simple new technology，由 ANU materials scientist Tony Flynn 發展，並說濾水器可用常見材料製成，用 cow manure 在地上燒製，無需 kiln。尾句用引號強調只需 terracotta clay、cow 和 match。只看首尾句，可見本段重點是技術的低門檻：便宜、簡單、不依賴西方設備，同時已被測試能移除病原體，包括 E. coli。"
+      },
+      {
+        "number": "C",
+        "summary": "首句直接說濾水器的製作過程 extremely simple。尾句說牛糞要乾，最好直接使用田野中找到的狀態，無需打碎或進一步加工。只看首尾句，可以判斷本段是流程段，會詳細交代原料混合、塑形、乾燥、包 straw、放入 cow manure、點火、溫度和完成時間。這段是 flow chart 和部分 TRUE /FALSE / NOT GIVEN 題的核心答案區。"
+      },
+      {
+        "number": "D",
+        "summary": "首句指出 potter’s kiln 很昂貴，而且升至 800 degrees 需要四至五小時。尾句說若只用 cow manure 和 match，這些限制都不適用。只看首尾句，可以先判斷本段是比較段：把傳統 kiln 的成本、燃料和操作經驗要求，跟 Flynn 的低技術方法對照。這段主要支援「為何不用 kiln」、「為何cow manure firing 有優勢」一類題目。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 cow dung 像 terracotta clay 和 organic material 一樣，在 developing world 很容易取得。尾句說 Flynn 的濾水器利用 clay 的 porous nature。只看首尾句，可以推測本段解釋材料為何適合第三世界：牛糞到處可得，porosity 這種以往做容器時可能被視為問題的特性，在濾水器中成為可利用的優勢。這段也補充發明的新意。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說市面上也有 commercial ceramic filters，但價格由 US$5 起，對很多 developing world 人口仍然太貴。尾句說 organic material 和 clay、cow dung 一樣普遍可得。只看首尾句，可以判斷本段集中解釋濾水原理和成效：孔道讓水滴通過，阻擋 pathogens；E. coli 測試結果安全；organic material 燒掉後形成可困住病原體的結構。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說這項發明源自 World Vision 在 East Timor Manatuto community 的項目。尾句引用 Flynn的話，強調每個人都有權享有乾淨食水，這些濾水器有潛力讓世界任何人安全飲水。只看首尾句，可以估計本段是起源與推廣段：先講 charity 想建立本地製造業，再講 local clay 太細、kiln-based solution 的限制，以及 no patent 帶來的自由採用可能。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1704 @@
+{
+  "id": "p1-111-sustainable-architecture-lessons-from-the-ant",
+  "catalogueId": "p1-111",
+  "catalogueIds": [
+    "p1-111"
+  ],
+  "passage": 1,
+  "title": "Sustainable architecture – lessons from the ant",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "B",
+    "D",
+    "C",
+    "C",
+    "A",
+    "ceiling vents",
+    "forty-eight brick chimneys",
+    "cement arches",
+    "big fans",
+    "small heaters",
+    "A",
+    "D",
+    "E"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B — to enable the termites to produce food",
+      "answerKey": "B — to enable the termites to produce food",
+      "type": "Multiple Choice",
+      "prompt": "“Why do termite mounds have a system of vents?”",
+      "translation": "白蟻丘為甚麼有一套通風孔系統？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 vents 的目的，所以要找 vents 的功能，而非只找 vents 這個字。手冊提醒 MCQ 要選最完整、最精確受原文支援的一項，不能只做單字配對。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Termites in Zimbabwe build gigantic mounds inside which they farm a fungus that is their primary food source.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Zimbabwe 的白蟻會建造巨大的蟻丘，並在裏面培養一種真菌；這種真菌是牠們的主要食物來源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By constantly opening and closing these heating and cooling vents over the course of the day, the termites succeed in keeping the temperature constant in spite of the wide fluctuations outside.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "白蟻在一天之中不斷開關這些加熱和冷卻通風孔，因此即使外界溫度大幅波動，牠們也能成功保持內部溫度穩定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 3 會解釋白蟻丘的生物功能：白蟻在蟻丘內種植 fungus 作食物，而 vents 用來維持適合 fungus 生長的穩定溫度。題目問 vents 的目的，因此這段是最直接目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “system of vents”。原文對應 “a system of vents in the mound” 以及"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“heating and cooling vents”。掃描時也要留意目的詞，例如 “farm a fungus”、“primary food source”、“must be kept at exactly 30.5°C”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Termites in Zimbabwe build gigantic mounds inside which they farm a fungus that is their primary food source. This must be kept at exactly 30.5°C…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Zimbabwe 的白蟻建造巨大蟻丘，在其中培養作為主要食物來源的真菌。這種真菌必須保持在正好 30.5°C。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The termites achieve this remarkable feat by building a system of vents in the mound.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "白蟻透過在蟻丘中建造一套通風孔系統，做到這件了不起的事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “this remarkable feat” 指前一句保持 fungus 所需的固定溫度。白蟻的 vents 不是單純讓自己呼吸或逃走，而是為了調控內部溫度，使 fungus 可以維持在合適環境中生長。既然 fungus是牠們的 primary food source，通風系統最終服務於食物生產。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “to allow the termites to escape from predators”原文完全沒有 predators 或 escape。這選項把白蟻丘想像成防禦結構，但本段重點是溫度調節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “to enable the termites to produce food”正確。原文說白蟻在蟻丘裏 farm a fungus，而 fungus 是 primary food source；vents 幫助保持fungus 所需溫度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “to allow the termites to work efficiently”原文沒有談工作效率。即使穩定溫度可能讓活動更順利，文章沒有把這作為 vents 的目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “to enable the termites to survive at night”原文確實提到夜晚外界溫度可低至 1.5°C，但 vents 的功能是整日維持 fungus 溫度，不限於夜間生存。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 很吸引，因為原文有 “at night” 和接近 freezing 的低溫。不過 vents 的真正目的要連回 fungus和 30.5°C。題目問 why，答案要抓住生物目的：讓白蟻能培養食物來源。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "D — No air conditioners were needed.",
+      "answerKey": "D — No air conditioners were needed.",
+      "type": "Multiple Choice",
+      "prompt": "“Why was Eastgate cheaper to build than a conventional building?”",
+      "translation": "為甚麼 Eastgate 比傳統建築更便宜興建？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問建造成本下降的原因。要注意題目問 “cheaper to build”，不是問日後營運時能源消耗低多少。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Architect Mick Pearce used precisely the same strategy when designing the Eastgate Building, which has no air conditioning and virtually no heating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "建築師 Mick Pearce 在設計 Eastgate Building 時用了完全相同的策略；這座建築沒有空調，幾乎沒有暖氣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These savings were also passed on to tenants: rents are 20% lower than in a new building next door.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些節省下來的成本也轉給租戶：租金比隔壁新建築低 20%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可見 Paragraph 4 會說 Eastgate 如何透過免用空調和少用暖氣來省成本，並帶出業主和租戶得到的經濟好處。題目問 cheaper to build，目標句很可能在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “cheaper to build”。原文沒有直接用 cheaper to build，但有 “owners saved $3.5 million on a $36 million building”。這就是建造成本層面的節省。原因由 because 帶出。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These efficiencies translated directly to the bottom line: Eastgate’s owners saved $3.5 million on a $36 million building because an air-conditioning plant didn’t have to be imported.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些效率直接反映在財務結果上：Eastgate 的業主在一座 3,600 萬美元的建築上節省了 350 萬美元，原因是毋須進口空調設備。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心因果很清楚：結果：owners saved $3.5 million原因：an air-conditioning plant didn’t have to be imported題目把 “saved $3.5 million on a $36 million building” 改寫成 “cheaper to build”。選項 D “No air conditioners were needed” 正好概括這個原因。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Very few materials were imported.”原文只提到 air-conditioning plant didn’t have to be imported，沒有說很少材料進口。A 把一個設備擴大成整體材料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Its energy consumption was so low.”原文的確說使用能源少於同等大小傳統建築的 10%。可是題目問建造成本，直接原因是沒有進口空調設備。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Its tenants contributed to the costs.”原文說 savings were passed on to tenants，租戶享受較低租金；沒有說租戶分擔建造成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “No air conditioners were needed.”正確。這對應 “has no air conditioning” 和 “an air-conditioning plant didn’t have to be imported”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 是最真實的干擾，因為 Eastgate 的低能源消耗是本段重要資訊。可是 “cheaper to build” 指建造成本，關鍵句由 because 清楚指出：毋須進口空調設備。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C — Summer and winter temperatures are too extreme.",
+      "answerKey": "C — Summer and winter temperatures are too extreme.",
+      "type": "Multiple Choice",
+      "prompt": "“Why would a building like Eastgate not work efficiently in New York?”",
+      "translation": "為甚麼像 Eastgate 這樣的建築在 New York 不能高效運作？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Eastgate 模式的地理和氣候限制。要找 Pearce 對 New York 的直接評論。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is all possible only because Harare is 1,600 feet above sea level, has cloudless skies, little humidity and rapid temperature swings: days as warm as 31°C commonly drop to 14°C at night.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一切之所以可能，只因 Harare 位於海拔 1,600 呎，天空無雲、濕度低，而且溫度快速變化：白天可暖至 31°C，夜晚常降至 14°C。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Perhaps you could store the summer’s heat in water somehow.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「也許可以用某種方式把夏天的熱量儲存在水中。」只看首尾句，可以先估計 Paragraph 8 會說明 Eastgate 設計能運作所需的特殊氣候條件，並比較 New York 的限制。題目直接問 New York，所以這段是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “New York”。原文中 Pearce 直接說 “You couldn’t do this in New York”。這句值得停下細讀，因為它直接回答題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘You couldn’t do this in New York, with its fantastically hot summers and fantastically cold winters,’ Pearce said.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pearce 說：「你不能在 New York 這樣做，因為那裏有極其炎熱的夏天和極其寒冷的冬天。」這句給出的原因是 “fantastically hot summers and fantastically cold winters”。選項 C “Summer and winter temperatures are too extreme” 把這句精簡成「夏冬溫度太極端」。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Temperature change occurs seasonally rather than daily.”原文說 Harare 有 daily rapid temperature swings，但 Pearce 對 New York 的直接理由是夏天極熱、冬天極冷。A 加入了 “rather than daily” 這種對比，文章沒有清楚說 New York 缺乏日夜溫差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Pollution affects the storage of heat in the atmosphere.”原文沒有 pollution，也沒有 atmospheric heat storage。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Summer and winter temperatures are too extreme.”正確。這直接對應 “fantastically hot summers and fantastically cold winters”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Levels of humidity affect cloud coverage.”原文說 Harare 有 little humidity 和 cloudless skies，但沒有把 New York 的問題解釋成濕度影響雲量。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 有一定吸引力，因為 Eastgate 確實依賴 Harare 的日夜溫差。但 MCQ 要選最直接、最有原句支援的一項。Pearce 談 New York 時明確強調 summer 和 winter 的極端溫度，所以 C 最穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C — It functions well for most of the year.",
+      "answerKey": "C — It functions well for most of the year.",
+      "type": "Multiple Choice",
+      "prompt": "“What does Ove Arup’s data suggest about Eastgate’s temperature control system?”",
+      "translation": "Ove Arup 的數據顯示 Eastgate 的溫度控制系統如何？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問監測數據反映的整體效果。要看 temperature generally stayed 以及 exceptions。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The engineering firm of Ove Arup & Partners, which worked with him on the design, monitors daily temperatures outside, under the floors and at knee, desk and ceiling level.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "曾與 Pearce 合作設計的工程公司 Ove Arup & Partners，會監測室外、地板下方，以及膝蓋、桌面和天花高度的每日溫度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the air is fresh—far more so than in air-conditioned buildings, where up to 30% of the air is recycled.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且空氣很新鮮，比空調建築中的空氣新鮮得多；在空調建築中，最多 30% 的空氣會被循環使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可知本段用工程數據和空氣質素評估 Eastgate 的系統表現。題目問 data suggest，所以應看 graphs show 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Ove Arup’s data”。原文有 “Ove Arup’s graphs show”。這是直接對應。接著要看圖表顯示溫度是否穩定，以及哪些例外。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ove Arup’s graphs show that the temperature of the building has generally stayed between 23°C and 25°C, with the exception of the annual hot spell just before the summer rains in October and three days in November, when a janitor accidentally switched off the fans at night.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ove Arup 的圖表顯示，建築物的溫度一般保持在 23°C 至 25°C 之間；例外是每年十月夏季雨來臨前的炎熱時段，以及十一月有三天清潔工意外在晚上關掉風扇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “generally stayed between 23°C and 25°C” 表示大部分時間溫度非常穩定。後面的exceptions 說明有例外，但例外有限。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “It allows a relatively wide range of temperatures.”錯。23°C 至 25°C 只有 2°C 範圍，屬於窄範圍，不是 wide range。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “The only problems are due to human error.”錯。十一月三天是 human error，但十月 annual hot spell 是自然炎熱時段，所以 problems 不是全由人為錯誤造成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “It functions well for most of the year.”正確。這概括 “generally stayed between 23°C and 25°C”，並容納原文提到的少數例外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “The temperature in the atrium may fall too low.”原文說 atrium can be much cooler，但沒有說 too low，也沒有描述成問題。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 很容易吸引人，因為原文有 janitor accidentally switched off the fans。細讀時要保留前面的annual hot spell。既然例外包括自然炎熱期和人為錯誤，B 的 “only” 範圍過窄。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "A — becoming more of a habitat for wildlife.",
+      "answerKey": "A — becoming more of a habitat for wildlife.",
+      "type": "Multiple Choice",
+      "prompt": "“Pearce believes that his building would be improved by”",
+      "translation": "Pearce 認為他的建築可以透過甚麼方式變得更好？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 Pearce 的個人期望。定位時應找 “Pearce said he hoped”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 11第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Standing on a roof catwalk, peering down inside at people as small as termites below, Pearce said he hoped plants would grow wild in the atrium and pigeons and bats would move into it, just as fungus lives inside a termite mound, further extending the whole ‘organic machine’ metaphor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pearce 站在屋頂走道上，向內俯視下方像白蟻般細小的人，說他希望植物會在 atrium 中自然生長，鴿子和蝙蝠也會搬進來，就像真菌生活在白蟻丘內一樣，進一步延伸整個「有機機器」的比喻。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The architecture, he says, is a regionalised style that responds to the biosphere, to the traditional stone architecture of Zimbabwe’s past, and to local human resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說，這種建築是一種地域化風格，回應生物圈、Zimbabwe 過去的傳統石建築，以及本地人力資源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可知本段總結 Pearce 的設計理念：Eastgate 不只是一座節能建築，也希望和自然生命、地方歷史及本地資源建立更緊密關係。題目問 improved by，第一句中的 “hoped” 就是核心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Pearce believes” 和 “would be improved”。原文沒有 “improved” 這個字，但 “he hoped” 表示他想看到的理想發展。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pearce said he hoped plants would grow wild in the atrium and pigeons and bats would move into it…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pearce 說，他希望植物會在 atrium 中自然生長，鴿子和蝙蝠也會搬進來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確說他希望建築能容納植物和動物。選項 A “becoming more of a habitat for wildlife” 將"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“plants grow wild” 和 “pigeons and bats move into it” 概括成「更像野生生命的棲息地」。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “becoming more of a habitat for wildlife.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確。plants、pigeons、bats 都指向建築成為更多生命居住或生長的地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “even closer links with the history of Zimbabwe.” Paragraph 10 確實談 Zimbabwe 歷史文化符號，但 Question 5 的證據是 Paragraph 11 的"
+            },
+            {
+              "kind": "quote",
+              "text": "“hoped plants... pigeons and bats...”。 C “giving people more space to interact with nature.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說給人更多互動空間。焦點在植物和動物進入 atrium。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “better protection from harmful organisms.”原文提到 bats、pigeons 和 fungus 的比喻，沒有 harmful organisms 或 protection。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 有吸引力，因為最後一句提到 Zimbabwe’s past。但題目問 Pearce 認為建築會被怎樣改善，最直接的希望是讓植物和動物進入 atrium。答案要連回 “he hoped”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "ceiling vents",
+      "answerKey": "ceiling vents",
+      "type": "Sentence Completion",
+      "prompt": "“Warm air leaves the offices through 6 ______”",
+      "translation": "暖空氣通過 ______ 離開辦公室。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sentence Completion。空格前是 through，後面需要一個通道或出口名詞。答案不可超過三個字，並且要直接取自原文。手冊提醒 Sentence Completion 要先看空格前後文法，再掃描同義段落，並檢查字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The complex is actually two buildings linked by bridges across a shady, glass-roofed atrium open to the breezes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個建築群其實由兩座建築組成，中間由橋連接，跨越一個陰涼、玻璃屋頂、向微風開放的atrium。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As it rises and warms, it is drawn out via ceiling vents and finally exits through forty-eight brick chimneys.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當空氣上升並變暖時，它會經由天花板通風口被抽出，最後通過四十八條磚煙囪排出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可知 Paragraph 5 描述 Eastgate 的空氣流動：空氣進入、上升、升溫、離開辦公室，最後排出建築。題目問 warm air 離開 offices through 甚麼，最後一句正好含答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Warm air leaves the offices”。原文改寫為 “As it rises and warms, it is drawn out via...”。“leaves” 對應 “drawn out”；“through” 對應 “via”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As it rises and warms, it is drawn out via ceiling vents and finally exits through forty-eight brick chimneys.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當空氣上升並變暖時，它會經由天花板通風口被抽出，最後通過四十八條磚煙囪排出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個出口層次：第一層，暖空氣離開辦公室：via ceiling vents。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二層，暖空氣離開整座建築：through forty-eight brick chimneys。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 6 問 “leaves the offices”，所以答案是 ceiling vents。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Warm air leaves the offices”= 原文 “As it rises and warms, it is drawn out”題目 “through”= 原文 “via”答案形式： ceiling vents 是兩個字，符合 NO MORE THAN THREE WORDS。原文用複數 vents，答案也要保留複數。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 brick chimneys。brick chimneys 是暖空氣離開整座建築的最後出口；Question 6 問的是離開 offices 的通道。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "forty-eight brick chimneys",
+      "answerKey": "forty-eight brick chimneys",
+      "type": "Sentence Completion",
+      "prompt": "“The warm air leaves the building through 7 ______”",
+      "translation": "暖空氣通過 ______ 離開建築物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sentence Completion。空格前是 through，後面需要建築出口。這題與 Question 6 同一句，但問的是 building，不是 offices。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The complex is actually two buildings linked by bridges across a shady, glass-roofed atrium open to the breezes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個建築群其實由兩座建築組成，中間由橋連接，跨越一個陰涼、玻璃屋頂、向微風開放的atrium。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As it rises and warms, it is drawn out via ceiling vents and finally exits through forty-eight brick chimneys.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當空氣上升並變暖時，它會經由天花板通風口被抽出，最後通過四十八條磚煙囪排出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 的功能是說明整個通風系統的路線。最後一句的 “finally exits” 正好回答暖空氣最後如何離開 building。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “leaves the building”。原文對應 “finally exits”。題目 “through” 原字也在原文中出現，後面就是答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As it rises and warms, it is drawn out via ceiling vents and finally exits through forty-eight brick chimneys.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當空氣上升並變暖時，它會經由天花板通風口被抽出，最後通過四十八條磚煙囪排出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“finally exits” 表示最終離開整座建築。出口是 “forty-eight brick chimneys”。答案可完整填forty-eight brick chimneys，正好三個字，符合題目限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “leaves the building”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “finally exits”題目 “through”= 原文 “through”答案形式： forty-eight brick chimneys 是三個字。若答案紙只填 brick chimneys，也能表達核心名詞；完整原文答案更穩定。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 6 和 Question 7 很接近。做這組題時要分清 offices 和 building：ceiling vents 是辦公室出口；brick chimneys 是整座建築的最終出口。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "cement arches",
+      "answerKey": "cement arches",
+      "type": "Sentence Completion",
+      "prompt": "“Heat from the sun is prevented from reaching the windows by 8 ______”",
+      "translation": "來自太陽的熱量由 ______ 阻擋，不能到達窗戶。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sentence Completion。空格前有 by，後面需要阻擋陽光的物件。題目把原文的設計目的改寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“prevented from reaching the windows”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6第一句／唯一一句：“To keep the harsh, highveld sun from heating the interior, no more than 25% of the exterior is glass, and all the windows are screened by cement arches that jut out more than a metre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了防止高地猛烈陽光加熱室內，建築外牆玻璃比例不超過 25%，而所有窗戶都由向外伸出超過一米的水泥拱遮擋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段只有一句。句首 “To keep the harsh, highveld sun from heating the interior” 直接說明設計目的；句尾 “screened by cement arches” 提供阻擋物。題目問 sun heat 如何被阻擋，答案就在這句後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “sun”、“windows”、“prevented”。原文對應 “harsh, highveld sun”、“all the windows” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“screened by”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“all the windows are screened by cement arches that jut out more than a metre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有窗戶都由向外伸出超過一米的水泥拱遮擋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“screened by” 意思是被遮擋、被保護。題目 “Heat from the sun is prevented from reaching the windows by...” 把原文目的和方法合併：水泥拱擋住陽光，減少室內受熱。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Heat from the sun is prevented from reaching the windows”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “To keep the harsh, highveld sun from heating the interior” + “windows are screened”"
+            },
+            {
+              "kind": "label",
+              "text": "答案："
+            },
+            {
+              "kind": "paragraph",
+              "text": "cement arches答案形式： cement arches 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “glass”。原文說外牆玻璃比例不超過 25%，這也是減熱設計的一部分；但題目問 reaching the windows by 甚麼阻擋，直接答案是 cement arches。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "big fans",
+      "answerKey": "big fans",
+      "type": "Sentence Completion",
+      "prompt": "“When the outside temperature drops 9 ______ bring air in from outside.”",
+      "translation": "當外面溫度下降時，______ 會把外面的空氣帶進來。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sentence Completion。空格後是 bring air in，因此答案需要可執行動作的名詞，最可能是機器或設備。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During summer’s cool nights, big fans flush air through the building seven times an hour to chill the hollow floors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在夏天涼爽的夜晚，大風扇每小時七次把空氣沖入建築，以冷卻中空樓板。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On winter days, there are small heaters in the vents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冬天白天，通風口裏有小型暖爐。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可知 Paragraph 7 描述 Eastgate 在不同溫度條件下使用不同設備：涼爽夜晚用 big fans，冬天白天用 small heaters。題目問 outside temperature drops，即對應 cool nights。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “outside temperature drops”。原文沒有直接說 drops，但 “summer’s cool nights” 表示夜間氣溫較低。再找 bring air in from outside，原文對應 “flush air through the building”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During summer’s cool nights, big fans flush air through the building seven times an hour to chill the hollow floors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在夏天涼爽的夜晚，大風扇每小時七次把空氣沖入建築，以冷卻中空樓板。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “When the outside temperature drops” 把 “summer’s cool nights” 改寫成外界變涼的情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "此時執行動作的是 “big fans”。它們把空氣帶入並穿過建築，用來冷卻 hollow floors。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “outside temperature drops”= 原文 “summer’s cool nights”題目 “bring air in from outside”= 原文 “flush air through the building”"
+            },
+            {
+              "kind": "label",
+              "text": "答案："
+            },
+            {
+              "kind": "paragraph",
+              "text": "big fans答案形式： big fans 是兩個字，符合字數限制。fans 要保留複數，因為原文是 big fans。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 smaller fans。smaller fans 在白天用來讓空氣循環，和 cool nights 的外部冷空氣引入功能不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "small heaters",
+      "answerKey": "small heaters",
+      "type": "Sentence Completion",
+      "prompt": "“On cold days 10 ______ raise the temperature in the offices.”",
+      "translation": "在寒冷日子，______ 會提高辦公室溫度。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sentence Completion。空格後是 raise the temperature，因此答案需要加熱設備。題目 “cold days” 對應原文 “winter days”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During summer’s cool nights, big fans flush air through the building seven times an hour to chill the hollow floors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在夏天涼爽的夜晚，大風扇每小時七次把空氣沖入建築，以冷卻中空樓板。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On winter days, there are small heaters in the vents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冬天白天，通風口裏有小型暖爐。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段對應一組相反場景：熱季夜晚要冷卻，冬天日子要加熱。題目問 cold days 的升溫設備，最後一句就是答案位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “cold days” 和 “raise the temperature”。原文對應 “winter days” 和 “small heaters”。雖然原文沒有 “raise the temperature” 這幾個字，但 heaters 的功能就是升溫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On winter days, there are small heaters in the vents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冬天白天，通風口裏有小型暖爐。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句沒有直接說 “raise the temperature”，但 heaters 是加熱設備，放在 vents 裏可暖化進入辦公室的空氣。題目將這項功能明確寫成 “raise the temperature in the offices”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “On cold days”= 原文 “On winter days”題目 “raise the temperature”= 原文 “heaters” 的功能"
+            },
+            {
+              "kind": "label",
+              "text": "答案："
+            },
+            {
+              "kind": "paragraph",
+              "text": "small heaters答案形式： small heaters 是兩個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 vents。vents 是 heaters 所在位置，真正負責升溫的是 small heaters。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "A, D, E",
+      "answerKey": "A, D, E",
+      "type": "Multiple-answer Questions",
+      "prompt": "“Which three parts of the Eastgate Building reflect important features of Zimbabwe’s history and culture?”",
+      "translation": "Eastgate Building 哪三個部分反映了 Zimbabwe 歷史和文化的重要特徵？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Choose THREE。每個正確選項都要有獨立證據，不能只因為選項中的字曾在原文出現就選。手冊提醒 Multiple-answer Questions 要追蹤每個選項是否被提及、支持、限制或否定。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Pearce, disdaining smooth glass skins as ‘igloos in the Sahara’, calls his building, with its exposed girders and pipes, ‘spiky’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Pearce 鄙視平滑玻璃外牆，稱其為「撒哈拉沙漠中的冰屋」；他把自己這座有外露鋼樑和管道的建築稱為「尖刺狀」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The shape of the fan covers, and the stone used in their construction, are echoes of Great Zimbabwe, the ruins that give the country its name.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "風扇罩的形狀，以及用於其建造的石材，都呼應 Great Zimbabwe；這些遺址正是該國國名的來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 10 會描述 Eastgate 的外觀設計和本地文化來源。第一句講建築的外形特色，最後一句講 Great Zimbabwe 的歷史文化呼應。題目問 building parts，因此要找本段列出的具體建築部件。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “parts of the Eastgate Building”、“Zimbabwe’s history and culture”。原文中依次列出三個建築部件："
+            },
+            {
+              "kind": "quote",
+              "text": "“entrances”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Elevators”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fan covers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三個都和 Zimbabwe 的文化或歷史元素相連。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據一："
+            },
+            {
+              "kind": "quote",
+              "text": "“The design of the entrances is based on the porcupine-quill headdresses of the local Shona tribe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "入口的設計以當地 Shona tribe 的豪豬刺頭飾為基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支持 A entrances。Entrances 是建築的一部分；Shona tribe 的 headdresses 是本地文化元素。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Elevators are designed to look like the mineshaft cages used in Zimbabwe’s diamond mines.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "升降機被設計成像 Zimbabwe 鑽石礦中使用的礦井吊籠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支持 D elevators。Elevators 是建築的一部分；mineshaft cages 和 Zimbabwe’s diamond mines 連到當地採礦歷史。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據三："
+            },
+            {
+              "kind": "quote",
+              "text": "“The shape of the fan covers, and the stone used in their construction, are echoes of Great Zimbabwe, the ruins that give the country its name.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "風扇罩的形狀，以及用於其建造的石材，都呼應 Great Zimbabwe；這些遺址正是該國國名的來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支持 E fan covers。Fan covers 是建築部件；Great Zimbabwe 是國名來源，也是重要歷史文化象徵。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A entrances正確。原文直接說 entrances 的設計來自 local Shona tribe 的 porcupine-quill headdresses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B quill不選。quill 是 porcupine-quill headdresses 的元素，是文化參照物，不是 Eastgate Building 的部件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C cages不選。mineshaft cages 是 elevators 模仿的歷史物件，不是 Eastgate 的部件本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D elevators正確。原文直接說 elevators 被設計成像 Zimbabwe 鑽石礦中的 mineshaft cages。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E fan covers正確。原文說 fan covers 的形狀呼應 Great Zimbabwe。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F stone不選。stone 的確出現在原文中，但題目問的是三個 building parts。這句的建築部件是 fan covers；stone 是 fan covers 建造中使用的材料，作為材料細節出現。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 和 C 很吸引，因為它們都是 Zimbabwe 文化或歷史參照物：quill 連到 Shona headdresses， cages 連到 diamond mines。可是題目問 Eastgate Building 的 parts，所以要選 entrances 和elevators。F 也有原文字眼，但在題目 “parts” 的框架下，fan covers 是更合適的建築部件答案。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        11,
+        12,
+        13
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Sustainable architecture – lessons from the ant.pdf",
+    "sha256": "2c36c31c6f8edb6e6f4be24cac0412b7c11f746718bad1d19f98d5d7f98441d5",
+    "pageCount": 21
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "第一句說 Africa owes its termite mounds a lot，先把 termite mounds 描寫成對非洲有多種價值的自然結構。最後一句提到它們也是 aardvarks 和其他食蟲動物的 special treat。只看首尾句，可以先估計本段是背景鋪墊：白蟻丘對植物、人類探礦者和動物都有用途。這段未直接進入建築設計，主要讓讀者知道 termite mounds 並非普通泥土堆，而是非洲生態和人類活動中的重要存在。"
+      },
+      {
+        "number": "2",
+        "summary": "第一句說 Africa 正以一種 offbeat tribute 向這些 mud towers 致敬。最後一句指出 Harare 的Eastgate Building 據說是全球唯一使用 termite mound 同類冷暖原理的建築。只看首尾句，可以看出文章正式由自然界轉入建築案例。本段功能是引出 Eastgate Building，並建立全文主題：建築師從白蟻丘學習自然通風與溫度調節，用於可持續建築設計。"
+      },
+      {
+        "number": "3",
+        "summary": "第一句說 Zimbabwe 的白蟻會在巨大蟻丘內培養 fungus，這是牠們的主要食物來源。最後一句說牠們透過開關 heating and cooling vents，使內部溫度在外界大幅波動下保持穩定。只看首尾句，可知本段主要解釋白蟻丘的自然冷暖系統。若題目問 vents 的目的、fungus、constant temperature 或 outdoor temperature fluctuations，答案多半在這段。"
+      },
+      {
+        "number": "4",
+        "summary": "第一句說建築師 Mick Pearce 在設計 Eastgate Building 時用了 precisely the same strategy，而且大樓沒有空調，幾乎沒有暖氣。最後一句說節省下來的成本也轉給租戶，租金比隔壁新樓低20%。只看首尾句，本段從生物原理轉到建築經濟效果。它會處理 Eastgate 如何省能源、節省建造成本、毋須進口空調設備，以及這些節省如何影響業主和租戶。"
+      },
+      {
+        "number": "5",
+        "summary": "第一句說整個 complex 其實由兩座建築組成，中間由橋連接，並有通風的玻璃屋頂 atrium。最後一句說暖空氣經 ceiling vents 被抽走，最後由 forty-eight brick chimneys 排出。只看首尾句，可知本段是空氣流動路線圖：新鮮空氣從 atrium 進入，經樓板下方空間和 baseboard vents 進入辦公室，升溫後從 ceiling vents 和 chimneys 離開。"
+      },
+      {
+        "number": "6",
+        "summary": "本段只有一句，說為了避免 harsh, highveld sun 加熱室內，外牆玻璃比例不超過 25%，所有窗戶都由向外伸出超過一米的 cement arches 遮擋。只看這句已能判斷，本段處理太陽熱量控制。它和風扇或通風路線不同，重點在建築外殼如何阻擋陽光直接進入窗戶。若題目問 sun、windows、screened 或 arches，答案大概率在這裡。"
+      },
+      {
+        "number": "7",
+        "summary": "第一句說在夏天涼爽的夜晚，大風扇每小時七次把空氣沖入建築，以冷卻 hollow floors。最後一句說冬天白天，vents 裏有 small heaters。只看首尾句，可見本段描述 Eastgate 在不同季節和晝夜條件下的實際運作：夜晚用 big fans 冷卻樓板，白天用 smaller fans 讓空氣接觸冷樓板；冷天則透過 small heaters 升溫。"
+      },
+      {
+        "number": "8",
+        "summary": "第一句說這一切只因 Harare 位於海拔 1,600 feet，且有晴朗天空、低濕度和快速溫差變化才可行。最後一句引用 Pearce 想像，也許可以把夏天熱量儲存在水中。只看首尾句，本段功能是說明Eastgate 模式的氣候條件限制。它也解釋為何 New York 未必適合直接照搬，因為當地夏天極熱、冬天極冷，氣候挑戰不同。"
+      },
+      {
+        "number": "9",
+        "summary": "第一句說 Ove Arup & Partners 監測室外、地板下方，以及膝蓋、桌面和天花高度的每日溫度。最後一句說 Eastgate 的空氣很新鮮，比空調建築更好，因為空調建築最多會回收 30% 空氣。只看首尾句，可知本段用工程監測數據評估系統效果。它會回答溫度控制是否穩定、有何例外，以及Eastgate 的空氣質素如何優於傳統空調建築。"
+      },
+      {
+        "number": "10",
+        "summary": "第一句說 Pearce 鄙視 smooth glass skins，稱其為 “igloos in the Sahara”，並形容自己的建築是“spiky”。最後一句說 fan covers 的形狀和所用石材呼應 Great Zimbabwe ruins。只看首尾句，本段從工程轉向外觀和文化設計。它列出 entrances、elevators、fan covers 等部件如何回應 Shona tribe、diamond mines 和 Great Zimbabwe，適合處理 Questions 11–13。"
+      },
+      {
+        "number": "11",
+        "summary": "第一句說 Pearce 站在 roof catwalk 上向下看，人小得像 termites，並希望 atrium 會長出植物，吸引 pigeons 和 bats。最後一句說這種 regionalised style 回應 biosphere、Zimbabwe 傳統石建築和本地人力資源。只看首尾句，可知本段是設計理念總結：Eastgate 不只模仿白蟻丘通風，也希望像有生命的 organic machine，與自然、地方歷史和本地資源連在一起。 Answer Key Questio Answer n 1 B 2 D 3 C 4 C 5 A 6 ceiling vents 7 forty-eight brick chimneys 8 cement arches 9 big fans 10 small heaters 11 A 12 D 13 E"
+      }
+    ]
+  }
+}

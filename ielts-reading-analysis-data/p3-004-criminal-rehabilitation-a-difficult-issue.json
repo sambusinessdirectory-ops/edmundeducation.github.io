@@ -1,0 +1,2032 @@
+{
+  "id": "p3-004-criminal-rehabilitation-a-difficult-issue",
+  "catalogueId": "p3-004",
+  "catalogueIds": [
+    "p3-004"
+  ],
+  "passage": 3,
+  "title": "Criminal Rehabilitation: A Difficult Issue",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "high moral standing",
+    "parole officer",
+    "regulatory condition",
+    "parole violation hearing",
+    "criminal recidivism",
+    "system cracking",
+    "probation",
+    "curfew",
+    "good time"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Many prison inmates can become worse in prison.”",
+      "translation": "很多囚犯在監獄中可能變得更差。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When convicted criminals have served long terms of imprisonment, it is obvious that, upon their release, one cannot necessarily expect them to be reformed and able to reintegrate into society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當已定罪的罪犯服了長期監禁後，出獄時我們不一定可以期望他們已經改過，並能重新融入社會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To maintain social order, those who break the law are expected to be punished, yet that same maintenance of order means that rehabilitation must be given a high emphasis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了維持社會秩序，犯法者應受懲罰；同樣為了維持秩序，rehabilitation 也必須受到高度重視。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段在提出 rehabilitation 的矛盾：監禁需要懲罰罪犯，但監禁本身未必令犯人變好，所以社會也需要重視改造。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“become worse in prison”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接寫 become worse，但有一個很接近的表達："
+            },
+            {
+              "kind": "quote",
+              "text": "“quite the opposite may occur”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句值得停下細讀，因為它指向「沒有變好，甚至走向相反方向」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the potentially rough and violent ganglands of prisons, quite the opposite may occur…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在監獄中可能粗暴、暴力、幫派化的環境裡，完全相反的情況可能出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “quite the opposite” 要回扣前一句。前一句說的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“be reformed and able to reintegrate into society”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即：改過自新，重新融入社會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼 opposite 就是：未能改過，甚至更難融入社會。題目的 “become worse in prison” 正是把這個意思概括出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “can” 也很重要。它不是說所有囚犯一定會變壞，只是說有這種可能性。原文的 “may occur” 和題目的 “can become” 方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Prisons usually have good education and therapy systems.”",
+      "translation": "監獄通常有良好的教育和治療系統。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ethic of rehabilitation is based on the assumption that criminal tendencies are not necessarily permanent, and that former inmates can successfully lead lives in which they contribute positively to society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "rehabilitation 的理念建基於一個假設：犯罪傾向不一定是永久的，前囚犯也可以成功過上對社會有正面貢獻的生活。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Assessing this accurately is a difficult issue, and it must be accepted that there are some people who can never be rehabilitated, however much we try.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要準確評估這一點是困難的，而且我們必須接受，有些人無論怎樣努力，都永遠不能被改造。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主要講 rehabilitation 的理念、監獄內部嘗試改造犯人的方法，以及評估是否成功改造的困難。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“education”"
+            },
+            {
+              "kind": "quote",
+              "text": "“therapy systems”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 有一句非常接近："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prisons therefore contain systems of education or therapy…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Prisons therefore contain systems of education or therapy, as well as assessment to determine whether inmates have truly developed remorse for past misdeeds, an ability to reintegrate into society, and intentions to do so.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，監獄設有教育或治療系統，也有評估機制，用來判斷囚犯是否真正對過去惡行產生悔意、是否有能力重新融入社會，以及是否有這種意願。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說監獄有 systems of education or therapy。可是題目多加了一個很重要的形容詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“good”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有評價這些教育和治療系統是否良好、有效、完善或高質素。它只說有這些系統存在。題目還用了 “usually”，原文雖然以 Prisons 作概括說法，但重點仍不是品質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以原文支援「監獄有教育或治療系統」，但沒有支援「這些系統是 good」。資料不足以判斷題目真假。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Psychopathic prisoners often reoffend after being released.”",
+      "translation": "psychopathic prisoners 出獄後經常再次犯罪。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The term psychopath is often used here, one of the key determiners of this condition being an inability to learn from past mistakes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡常用 psychopath 這個詞，而判定這種狀況的一個重要因素，是無法從過去錯誤中學習。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Treatment and therapy merely give them knowledge of penal and judicial procedures, which they can then twist to their advantage, colloquially known as ‘system cracking’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "治療和輔導只會給他們關於刑罰和司法程序的知識，而他們之後可以把這些知識扭曲成對自己有利的工具；這種做法俗稱 system cracking。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主要講 psychopathic prisoners 的問題：他們難以從錯誤中學習，行為改善技巧不易奏效，還可能更懂得操控制度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Psychopathic prisoners”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reoffend”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“psychopathic prisoners”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recidivism”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "recidivism 就是再次犯罪、重犯。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Obviously, recidivism is highly correlated with this condition, yet studies have shown that psychopathie prisoners are equally likely to be released from prisons as non-psychopathic ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顯然，recidivism 和這種狀況高度相關；然而研究顯示，psychopathic prisoners 和non-psychopathic prisoners 一樣有可能被釋放出獄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “this condition” 指前文的 psychopathy。原文說 recidivism 和 psychopathy 高度相關，也就是 psychopathic prisoners 重犯風險高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “often reoffend after being released”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “recidivism is highly correlated with this condition”，而同一句又提到他們同樣會被released from prisons。兩個資訊合起來支援題目：這類人出獄後有高重犯傾向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Supervised release is stricter than parole.”",
+      "translation": "Supervised release 比 parole 更嚴格。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cases such as these reveal the biggest problem with rehabilitation: the difficulty of reading the deepest intentions of human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類情況揭示了 rehabilitation 最大的問題：很難看清人類最深層的意圖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever the case, the parole officer will monitor the released inmate, offering support and assistance wherever possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論是哪一種情況，parole officer 都會監察獲釋的囚犯，並在可能情況下提供支援和協助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段先承接上文「難以判斷犯人真正意圖」，再介紹犯人釋放後的不同監管制度，包括 parole、probation 和 supervised release。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Supervised release”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stricter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“parole”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中 “stricter” 沒有直接出現，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“places greater restrictions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 stricter 的同義表達。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is different from probation, which is used instead of prison sentences, and consequently places greater restrictions upon the subject.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和 probation 不同；probation 是用來代替監禁刑罰的，因此對 subject 施加較多限制。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similar system is supervised release, where the subject faces the same restrictions as probation, but only after serving the entire prison sentence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "supervised release 是一種類似制度，subject 面對和 probation 相同的限制，但它是在服完整個刑期之後才開始。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "邏輯鏈如下： parole = 在監獄外服完餘下刑期probation = 代替入獄，限制比 parole 多supervised release = 限制和 probation 相同既然 probation 比 parole 有更多限制，而 supervised release 和 probation 限制相同，supervised release 就比 parole 更嚴格。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “stricter” 對應原文的 “greater restrictions”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“The abolition of the parole system is usually done after much thought.”",
+      "translation": "取消 parole system 通常是在深思熟慮之後作出的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is this which can make parole a controversial and politically charged issue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正是這一點令 parole 成為一個具爭議性、充滿政治壓力的議題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As always, the same argument applies: without parole as an intermediate step, released inmates may face an uphill battle to avoid recidivism, costing society much more in the longer term.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一如既往，同一個論點仍然適用：如果沒有 parole 作為中間步驟，獲釋囚犯可能要面對艱難挑戰才能避免重犯，長遠而言會令社會付出更高代價。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主要講 parole 的政治爭議，以及取消 parole 的原因未必理性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“abolition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“after much thought”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文對應 “abolish” 和 “considered assessment”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, the political will is often lacking, which has seen, for example, some US states abolish the parole system completely, and others having done so for specific offences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，政治意願常常不足；例如，一些美國州份已經完全取消 parole system，另一些州份則針對特定罪行取消。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句更重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is often a response to public pressure, rather than a considered assessment of the pros and cons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這往往是對公眾壓力的回應，而非對利弊作出的周詳評估。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “usually done after much thought”，意思是通常經過深思熟慮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “often a response to public pressure” 並說不是 “a considered assessment of the pros and cons”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "方向相反，所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 32–35 — Flow Chart"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "high moral standing",
+      "answerKey": "high moral standing",
+      "type": "Question Analysis",
+      "prompt": "Question 32",
+      "translation": "parole board 作出建議；這些人受過良好教育，並且具備 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Flow chart："
+            },
+            {
+              "kind": "quote",
+              "text": "“recommendation from parole board (well-educated people with 32 ______)”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The decision about whether to grant parole usually lies with a parole board.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "是否批准 parole 的決定，通常由 parole board 負責。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having already established a permanent residence, and having gained employment, is usually mandatory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "已經有固定住所，並且已經獲得工作，通常是必要條件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主要講 parole board 如何作出決定、成員是甚麼人，以及囚犯獲 parole 前要符合甚麼條件。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 flow chart 定位"
+            },
+            {
+              "kind": "label",
+              "text": "圖表中的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“parole board”"
+            },
+            {
+              "kind": "quote",
+              "text": "“well-educated people”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The common factor is that they all have a good education…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The common factor is that they all have a good education, and are judged to be of high moral standing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "共同點是他們都受過良好教育，並被認為具有高尚的道德聲望。"
+            },
+            {
+              "kind": "label",
+              "text": "Flow chart 已經改寫了前半句："
+            },
+            {
+              "kind": "quote",
+              "text": "“well-educated people”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “they all have a good education”空格要填後半句："
+            },
+            {
+              "kind": "quote",
+              "text": "“high moral standing”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案符合 no more than three words，三個字正好： high moral standing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "parole officer",
+      "answerKey": "parole officer",
+      "type": "Question Analysis",
+      "prompt": "Question 33",
+      "translation": "由 ______ 監察。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Flow chart："
+            },
+            {
+              "kind": "quote",
+              "text": "“monitoring by the 33 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cases such as these reveal the biggest problem with rehabilitation: the difficulty of reading the deepest intentions of human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類情況揭示 rehabilitation 最大的問題：很難看清人類最深層的意圖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever the case, the parole officer will monitor the released inmate, offering support and assistance wherever possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論是哪一種情況，parole officer 都會監察獲釋的囚犯，並在可能情況下提供支援和協助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段介紹 parole 等釋放制度，也說明誰負責監察獲釋人士。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 flow chart 定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“monitoring”"
+            },
+            {
+              "kind": "quote",
+              "text": "“by the”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the parole officer will monitor…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever the case, the parole officer will monitor the released inmate, offering support and assistance wherever possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論是哪一種情況，parole officer 都會監察獲釋的囚犯，並在可能情況下提供支援和協助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Flow chart 把動詞 “will monitor” 改成名詞 “monitoring”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主體是 “the parole officer”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是： parole officer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "regulatory condition",
+      "answerKey": "regulatory condition",
+      "type": "Question Analysis",
+      "prompt": "Question 34",
+      "translation": "subject 違反了一項 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Flow chart："
+            },
+            {
+              "kind": "quote",
+              "text": "“subject breaks a 34 ______”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Upon being released on parole, there are still a variety of regulatory conditions to be met.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "獲 parole 釋放後，仍然有多種 regulatory conditions 需要遵守。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As mentioned, such decisions are not a hard science, and mistakes can be made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如前所述，這類決定並不是一門精確科學，錯誤也可能出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主要講 parole 後的條件，以及違反條件後的程序。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 flow chart 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖表中 “breaks a” 提示我們找「違反某項規定／條件」。原文沒有直接用 breaks，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“regulatory conditions to be met”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Upon ignoring any of these…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來就是「違反 parole 條件」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Upon being released on parole, there are still a variety of regulatory conditions to be met.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "獲 parole 釋放後，仍然有多種監管條件需要遵守。"
+            },
+            {
+              "kind": "label",
+              "text": "後文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Upon ignoring any of these, an arrest warrant is issued, parole time is stopped, and there follows a parole violation hearing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若無視其中任何一項，就會發出 arrest warrant，parole time 會停止，然後會有 parole violation hearing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖表中的 “subject breaks a ______” 對應原文的 “ignoring any of these”，而 “these” 指前面的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“regulatory conditions”。所以答案是： regulatory condition小心：原文是 plural regulatory conditions，圖表有 “a”，所以答案形式要用 singular。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "parole violation hearing",
+      "answerKey": "parole violation hearing",
+      "type": "Question Analysis",
+      "prompt": "Question 35",
+      "translation": "會舉行 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Flow chart："
+            },
+            {
+              "kind": "quote",
+              "text": "“35 ______ takes place”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Upon being released on parole, there are still a variety of regulatory conditions to be met.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "獲 parole 釋放後，仍然有多種監管條件需要遵守。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As mentioned, such decisions are not a hard science, and mistakes can be made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如前所述，這類決定並不是一門精確科學，錯誤也可能出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講違反 parole 條件後的後果。Q35 在 flow chart 最後一步，所以應看 Paragraph 6 後半段的程序結果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 flow chart 定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“takes place”"
+            },
+            {
+              "kind": "quote",
+              "text": "“subject breaks”"
+            },
+            {
+              "kind": "quote",
+              "text": "“violation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“there follows a parole violation hearing”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Upon ignoring any of these, an arrest warrant is issued, parole time is stopped, and there follows a parole violation hearing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "若無視其中任何一項，就會發出拘捕令，parole time 會停止，然後會有 parole violation hearing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Flow chart 用 “takes place” 改寫 “there follows”。意思都是「接著發生／舉行」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是： parole violation hearing字數檢查： parole / violation / hearing = 3 words，符合 no more than three words。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 36–40 — Specific Terms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "criminal recidivism",
+      "answerKey": "criminal recidivism",
+      "type": "Question Analysis",
+      "prompt": "Question 36",
+      "translation": "出獄後再次犯罪。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Definition："
+            },
+            {
+              "kind": "quote",
+              "text": "“reoffending, after being released from prison”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ethic of rehabilitation is based on the assumption that criminal tendencies are not necessarily permanent…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "rehabilitation 的理念建基於一個假設：犯罪傾向不一定是永久的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Assessing this accurately is a difficult issue…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要準確評估這一點是困難的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段講 rehabilitation 的目標，其中一個核心目標就是防止再次犯罪。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 definition 定位"
+            },
+            {
+              "kind": "label",
+              "text": "definition 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“reoffending”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ultimate goal is to prevent them from reoffending…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ultimate goal is to prevent them from reoffending, an event technically known as criminal recidivism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最終目標是防止他們再次犯罪；這件事在技術上稱為 criminal recidivism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "definition 說 “reoffending, after being released from prison”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文把 reoffending 的專門術語直接寫出來： criminal recidivism所以答案是 criminal recidivism。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "system cracking",
+      "answerKey": "system cracking",
+      "type": "Question Analysis",
+      "prompt": "Question 37",
+      "translation": "操控監獄人員和相關程序。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Definition："
+            },
+            {
+              "kind": "quote",
+              "text": "“manipulating prison officials and procedures”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The term psychopath is often used here, one of the key determiners of this condition being an inability to learn from past mistakes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡常用 psychopath 這個詞，而判定這種狀況的一個重要因素，是無法從過去錯誤中學習。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Treatment and therapy merely give them knowledge of penal and judicial procedures, which they can then twist to their advantage, colloquially known as ‘system cracking’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "治療和輔導只會給他們關於刑罰和司法程序的知識，而他們之後可以把這些知識扭曲成對自己有利的工具；這種做法俗稱 system cracking。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半明顯在定義一個術語。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 definition 定位"
+            },
+            {
+              "kind": "label",
+              "text": "definition 中的 “manipulating” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“twist to their advantage”"
+            },
+            {
+              "kind": "quote",
+              "text": "“procedures” 對應原文：“penal and judicial procedures”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Treatment and therapy merely give them knowledge of penal and judicial procedures, which they can then twist to their advantage, colloquially known as ‘system cracking’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "治療和輔導只會讓他們知道刑罰和司法程序，而他們之後可以把這些程序扭曲成對自己有利的工具；這種做法俗稱 system cracking。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "definition 把 “twist to their advantage” 概括成 “manipulating”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文給出的術語是： system cracking所以答案是 system cracking。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "probation",
+      "answerKey": "probation",
+      "type": "Question Analysis",
+      "prompt": "Question 38",
+      "translation": "監禁刑罰的替代方案。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Definition："
+            },
+            {
+              "kind": "quote",
+              "text": "“an alternative to prison sentences”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cases such as these reveal the biggest problem with rehabilitation: the difficulty of reading the deepest intentions of human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類情況揭示 rehabilitation 最大的問題：很難看清人類最深層的意圖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever the case, the parole officer will monitor the released inmate, offering support and assistance wherever possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論是哪一種情況，parole officer 都會監察獲釋囚犯，並在可能情況下提供支援和協助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段介紹幾個釋放或監管制度，Q38 的 definition 明顯要找其中一個制度名稱。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 definition 定位"
+            },
+            {
+              "kind": "label",
+              "text": "definition 的關鍵詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“alternative to prison sentences”"
+            },
+            {
+              "kind": "label",
+              "text": "原文用的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“used instead of prison sentences”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是直接同義改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is different from probation, which is used instead of prison sentences, and consequently places greater restrictions upon the subject.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和 probation 不同；probation 是用來代替監禁刑罰的，因此對 subject 施加較多限制。"
+            },
+            {
+              "kind": "quote",
+              "text": "“used instead of prison sentences”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “an alternative to prison sentences”所以答案是： probation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "curfew",
+      "answerKey": "curfew",
+      "type": "Question Analysis",
+      "prompt": "Question 39",
+      "translation": "必須在指定時間前回到家中。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Definition："
+            },
+            {
+              "kind": "quote",
+              "text": "“having to be at one’s home by a predetermined time”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Upon being released on parole, there are still a variety of regulatory conditions to be met.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "獲 parole 釋放後，仍然有多種監管條件需要遵守。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As mentioned, such decisions are not a hard science, and mistakes can be made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如前所述，這類決定並不是一門精確科學，錯誤也可能出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段列舉 parole 後需要遵守的條件，definition 所描述的是其中一項具體條件。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 definition 定位"
+            },
+            {
+              "kind": "label",
+              "text": "definition 中的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“home”"
+            },
+            {
+              "kind": "quote",
+              "text": "“predetermined time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“return to the home residence before a certain time”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These include the obvious, such as obeying the law, and contacting the parole officer at specified intervals, but may be more individual and specific, such as the non-use of drugs and alcohol, and return to the home residence before a certain time (known as a curfew).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些條件包括一些明顯項目，例如守法、按指定間隔聯絡 parole officer；也可以有更個別和具體的要求，例如不得使用毒品和酒精，以及在某個時間前回到住所，這稱為 curfew。"
+            },
+            {
+              "kind": "label",
+              "text": "definition 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“having to be at one’s home by a predetermined time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“return to the home residence before a certain time”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "括號中直接給術語： curfew所以答案是 curfew。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "good time",
+      "answerKey": "good time",
+      "type": "Question Analysis",
+      "prompt": "Question 40",
+      "translation": "因囚犯行為良好而從刑期中扣減的時間。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Definition："
+            },
+            {
+              "kind": "quote",
+              "text": "“time deducted from the sentences of well-behaved prisoners”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A more innovative method to encourage rehabilitation is ‘time off for good behaviour’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種更創新的鼓勵 rehabilitation 的方法是「因良好行為而減刑」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, if the inmates commit more than a certain number of infractions, or particularly serious ones, they then forfeit their time, and must complete the full, duration of their sentence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，如果囚犯違規次數超過某一數目，或犯下特別嚴重的違規，他們便會失去這些時間，必須完成全部刑期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段整段都在講因良好行為而減刑的制度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 definition 定位"
+            },
+            {
+              "kind": "label",
+              "text": "definition 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“time deducted”"
+            },
+            {
+              "kind": "quote",
+              "text": "“well-behaved prisoners”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“time off for good behaviour”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inmates who exhibit good behaviour”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the ‘good time’ is accrued”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For each year of imprisonment, it automatically allots inmates who exhibit good behaviour a certain number of days.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每服刑一年，制度會自動給予表現良好的囚犯一定數量的日子。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“This means that, year after year, the ‘good time’ is accrued, resulting in an eventual release perhaps one third of the sentence earlier.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示一年接一年，這些 “good time” 會累積起來，最終可能令囚犯提前三分之一刑期獲釋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求 no more than two words，所以不能寫完整的 “time off for good behaviour”。原文中符合二字限制的專門術語是： good time所以答案是 good time。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Criminal Rehabilitation_ A Difficult Issue.pdf",
+    "sha256": "a1789ab774f7db9c386877a914f84dd3da3b7c2d4e12483400153896ef358a19",
+    "pageCount": 21
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "介紹 criminal rehabilitation 的核心困難：長期入獄者出獄後未必已經改過，在粗暴的監獄環境中，情況甚至可能惡化。這段支援 Q27。"
+      },
+      {
+        "number": "2",
+        "summary": "說明 rehabilitation 的理念：犯罪傾向未必永久，監獄設有教育、治療和評估，目標是防止reoffending，也就是 criminal recidivism。這段支援 Q28、Q36。"
+      },
+      {
+        "number": "3",
+        "summary": "討論 psychopaths。這類人難以從錯誤中學習，recidivism 和 psychopathy 高度相關；他們甚至可能利用治療中學到的制度知識來操控程序，這叫 system cracking。這段支援 Q29、Q37。"
+      },
+      {
+        "number": "4",
+        "summary": "介紹 parole、probation 和 supervised release 的分別。Parole 是在監獄外服完餘下刑期； probation 是代替入獄，而且限制較多；supervised release 和 probation 限制相同，但在完成整個刑期後才開始。這段支援 Q30、Q33、Q38。"
+      },
+      {
+        "number": "5",
+        "summary": "介紹 parole board 的成員和決定 parole 的因素。成員受過良好教育，並被認為有 high moral standing；犯人在監獄內行為良好、出獄後有住所和工作，都是重要條件。這段支援 Q32。"
+      },
+      {
+        "number": "6",
+        "summary": "說明 parole 後的 regulatory conditions，例如守法、定期聯絡 parole officer、不得使用毒品和酒精、遵守 curfew。若違反條件，會有 arrest warrant、parole time stopped，然後舉行 parole violation hearing。這段支援 Q34、Q35、Q39。"
+      },
+      {
+        "number": "7",
+        "summary": "討論 parole 的政治爭議。若假釋人士犯下高調罪案，公眾會反對 parole；一些地方取消 parole，常是受公眾壓力影響，不是經過周詳利弊評估。這段支援 Q31。"
+      },
+      {
+        "number": "8",
+        "summary": "介紹另一種鼓勵改過的方法：time off for good behaviour。表現良好的囚犯每年可獲一定日數減刑，累積起來稱為 good time。這段支援 Q40。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Q34 小提醒： 原文用的是 plural：regulatory conditions。因為 flow chart 寫成 “subject breaks a______”，文法上要用 singular，所以答案寫 regulatory condition；若答案表要求完全照原文形式，也可能見到 regulatory conditions。"
+  ]
+}

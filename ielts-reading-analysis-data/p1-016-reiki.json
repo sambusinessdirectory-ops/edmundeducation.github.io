@@ -1,0 +1,1778 @@
+{
+  "id": "p1-016-reiki",
+  "catalogueId": "p1-016",
+  "catalogueIds": [
+    "p1-016"
+  ],
+  "passage": 1,
+  "title": "REIKI",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "B",
+    "D",
+    "G",
+    "G",
+    "C",
+    "B",
+    "E",
+    "C",
+    "D",
+    "C",
+    "D",
+    "A",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B, D, G",
+      "answerKey": "B, D, G",
+      "type": "Choose THREE",
+      "prompt": "“Which THREE of the following statements are true of Reiki?”",
+      "translation": "以下哪三項關於 Reiki 的說法正確？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple-answer Questions。每一個正確選項都要獨立由原文支持，不能靠大概印象一次包辦三個答案。黃金手冊也提醒，Choose TWO / THREE 題要逐一追蹤每個選項是否被提及、支持、限制或否定。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要目標段落：Paragraph B、C、D Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Reiki philosophy, only by undergoing an attunement process performed by a Reiki Master is an individual able to access, then channel this positive energy within, this ability once established is considered to be enduring.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Reiki philosophy，個人只有經過 Reiki Master 進行的 attunement process，才能接觸並傳導內在正面能量；這種能力一旦建立，便被認為是持久的。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The healing energy is said to originate in the universe itself and is not the passing of personal energy from practitioner to patient; it is therefore thought to be inexhaustible and the personal well-being of the practitioner uncompromised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種 healing energy 被說成源自宇宙本身，並非治療師把個人能量傳給病人；因此它被認為不會耗盡，治療師自身健康也不會受損。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩段首句，可以初步估計：B 段會支持 attunement 相關選項；D 段會支持能量來源、病人態度和治療對象相關選項。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "最有定位力的詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“attunement”"
+            },
+            {
+              "kind": "quote",
+              "text": "“permanent effect”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other therapies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“contact”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recipient’s own energy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pessimistic approach”"
+            },
+            {
+              "kind": "quote",
+              "text": "“human subjects”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描後可見： B 對應 “enduring”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 對應 “many practitioners are confident...” 和 “others recommend...” 。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G 對應 “subjects must be receptive...” 。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B B："
+            },
+            {
+              "kind": "quote",
+              "text": "“Attunement is said to have a permanent effect on the recipient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Attunement 被說成會對接受者產生永久或持久效果。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...this ability once established is considered to be enduring.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種能力一旦建立，便被認為是持久的。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "permanent effect= enduring ability recipient= individual undergoing attunement判斷： B 正確。原文沒有用 permanent，但 enduring 已足以表示 lasting / continuing 的效果。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D D："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are differences in opinion regarding its use with other therapies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於 Reiki 和其他療法並用，存在不同意見。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since healing initiated by Reiki treatment is entirely natural, many practitioners are confident that it can be used alongside any other type of treatment without adverse affect; however, others recommend that since the patient may undergo significant internal improvement for certain ailments – diabetes, for example – careful monitoring is required since such improvements may establish a need for an alteration in medication requirements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 Reiki 引發的 healing 被認為完全自然，許多 practitioners 相信它可和任何其他治療並用且沒有不良影響；不過，另一些人建議，若某些病症如 diabetes 出現明顯內在改善，便需要小心監測，因為這種改善可能令藥物需求需要調整。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "differences in opinion= many practitioners are confident... / others recommend... use with other therapies= used alongside any other type of treatment / medication requirements判斷： D 正確。原文呈現兩種態度：一種較放心，一種較謹慎。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 G G："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some therapists believe a pessimistic approach affects results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些治療師認為負面或不接受的態度會影響效果。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While some masters and teachers hold that subjects must be receptive to the concept in order for energy to flow, others believe that the attitude of the patient is of no consequence and that benefits will follow regardless...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些 masters 和 teachers 認為，接受者必須對這個概念保持 receptiveness，能量才會流動；另一些人則認為病人的態度沒有影響，效果仍會出現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "pessimistic approach affects results= subjects must be receptive for energy to flow判斷： G 正確。題目用 pessimistic approach 概括「缺乏 receptiveness」這一類態度。"
+            },
+            {
+              "kind": "label",
+              "text": "錯項分析A："
+            },
+            {
+              "kind": "quote",
+              "text": "“Principles for self-healing differ to those used on others.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說 “these techniques can also be used for self-healing”。這表示同一套 techniques 也可用於 self-healing，沒有說原理不同。"
+            },
+            {
+              "kind": "label",
+              "text": "C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its preventative properties are more significant than cure.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Reiki “can be used as preventative medicine”，但沒有比較 preventative properties 和cure 哪一個更重要。"
+            },
+            {
+              "kind": "label",
+              "text": "E："
+            },
+            {
+              "kind": "quote",
+              "text": "“The treatment typically involves contact between the therapist and the patient.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 treatment “may involve” placing hands on the recipient，也說 some therapists use a non-touching approach。may involve 不能推成 typically involves。"
+            },
+            {
+              "kind": "label",
+              "text": "F："
+            },
+            {
+              "kind": "quote",
+              "text": "“The recipient’s own energy is the key to the philosophy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 healing energy originates in the universe itself，並非 personal energy from practitioner to patient。也沒有說 recipient’s own energy 是核心。"
+            },
+            {
+              "kind": "label",
+              "text": "H："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is only practiced on human subjects.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說某派認為 Reiki 可 benefit “animals and plant life”，所以 H 和原文相衝。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“A scientific explanation of why Reiki may have positive effects.”",
+      "translation": "一個解釋 Reiki 為何可能有正面效果的科學說法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other studies have also attempted to determine correlation between Reiki treatment and improvement in cancer and stroke patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他研究也嘗試判斷 Reiki treatment 和 cancer、stroke 患者改善之間是否有關聯。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Theories have been put forward that the benefits of energy treatments such as Reiki may be scientifically attributed to the effect of electromagnetic fields; however, the majority researchers agree that more extensive investigation is required.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人提出理論，認為 Reiki 這類 energy treatments 的好處也許可從 electromagnetic fields 的作用獲得科學解釋；不過，多數研究者同意仍需更廣泛研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，G 段會講研究結果和可能科學解釋。題目中的 scientific explanation 直接指向最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“scientific explanation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“positive effects”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“scientifically attributed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“benefits”"
+            },
+            {
+              "kind": "quote",
+              "text": "“electromagnetic fields”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞同時出現在 G 段最後一句，因此值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Theories have been put forward that the benefits of energy treatments such as Reiki may be scientifically attributed to the effect of electromagnetic fields...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人提出理論，認為 Reiki 這類能量療法的好處，也許可以用 electromagnetic fields 的作用作科學歸因。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“scientific explanation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“scientifically attributed to the effect of electromagnetic fields”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“why Reiki may have positive effects”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the benefits of energy treatments such as Reiki”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： G 段包含 Reiki 可能有效的科學歸因，所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F 段有 scientific studies，但主要是研究觀察結果，例如 heart rate、blood pressure 和 memory。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 4 問的是「為何有效」的 explanation，G 段 electromagnetic fields 更貼切。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“An overview of the practicalities of how Reiki is performed.”",
+      "translation": "概述 Reiki 實際如何進行。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A ‘whole body’ Reiki treatment session typically lasts between to 90 minutes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一次 whole body Reiki treatment session 通常持續至 90 分鐘左右。原文這裡似乎漏了一個數字，但不影響本題定位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those who have undergone a Reiki treatment session often state that they experienced a pleasant warmness in the area of focus and a feeling of contentment and relaxation throughout the session.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接受過 Reiki treatment session 的人常說，他們在治療集中位置感到 pleasant warmness，整個過程也感到 contentment 和 relaxation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，C 段會講一次療程的時間、形式和接受者感受。題目問 practicalities，即實際操作方式，C 段最直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“practicalities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“how Reiki is performed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“lie down”"
+            },
+            {
+              "kind": "quote",
+              "text": "“treatment table”"
+            },
+            {
+              "kind": "quote",
+              "text": "“clothed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hands on the recipient”"
+            },
+            {
+              "kind": "quote",
+              "text": "“non-touching approach”"
+            },
+            {
+              "kind": "quote",
+              "text": "“12 and 20 hand positions”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The subject is required to lie down – often on a treatment table – clothed in comfortable and loose fitting attire. Treatment may involve the practitioner placing their hands on the recipient in a variety of positions; however, some therapists take a non-touching approach, holding their hands a few centimeters away from the body.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接受者需要躺下，通常是在治療床上，並穿著舒適寬鬆的衣服。治療可能包括治療師把手放在接受者身上不同位置；不過，也有些治療師採用非接觸方式，把手保持在身體外幾厘米處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡交代了療程實際安排，包括姿勢、衣著、治療師手的位置和是否接觸。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "overview of practicalities= session length, lying down, clothing, hand positions, touching / non-touching approach how Reiki is performed= practitioner placing hands / holding hands away from body判斷： Paragraph C 清楚說明 Reiki 實際進行方式，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“The pre-requisite required to experience Reiki benefits.”",
+      "translation": "要獲得 Reiki benefits 之前所需的前提條件。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Reiki philosophy, only by undergoing an attunement process performed by a Reiki Master is an individual able to access, then channel this positive energy within, this ability once established is considered to be enduring.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Reiki philosophy，個人只有經過 Reiki Master 進行的 attunement process，才能接觸並傳導這種正面能量；這種能力一旦建立，便被認為持久。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...careful monitoring is required since such improvements may establish a need for an alteration in medication requirements.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "需要小心監測，因為這些改善可能令藥物需求需要調整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句用 “only by...” 給出必要條件，因此與 pre-requisite 高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“pre-requisite”"
+            },
+            {
+              "kind": "quote",
+              "text": "“required”"
+            },
+            {
+              "kind": "quote",
+              "text": "“benefits”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“only by undergoing an attunement process”"
+            },
+            {
+              "kind": "quote",
+              "text": "“is an individual able to access...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“only by” 是必要條件訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“According to Reiki philosophy, only by undergoing an attunement process performed by a Reiki Master is an individual able to access, then channel this positive energy within...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Reiki philosophy，個人只有經過 Reiki Master 進行的 attunement process，才能接觸並傳導這種內在正面能量。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "pre-requisite required= only by undergoing... experience Reiki benefits= access and channel positive energy, then allow energy to flow to weak or diseased areas答案判斷： B 段明確指出 attunement process 是接觸和傳導 Reiki energy 的前提，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 段也說有些人認為 subjects must be receptive，但這是部分 masters / teachers 對能量流動的看法。Question 6 問 Reiki philosophy 中的 pre-requisite，B 段的 attunement process 更根本。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“When patients faith and expectations cause concern.”",
+      "translation": "當病人的信念和期待引起擔憂時。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Controversy surrounds the practice of Reiki, some in opposition as they say that Reiki may offer only a perceived improvement in health and therefore only a ‘placebo’ effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Reiki 的實踐充滿爭議；一些反對者說 Reiki 可能只帶來 perceived improvement in health，因此只有 placebo effect。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While Reiki is not connected to any particular religious doctrine, some religious leaders oppose the practice for spiritual reasons; however, others hold that the meditative principles involved in treatment have enhanced their own ability to explore and embrace their own particular religion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Reiki 與特定宗教教義沒有關聯，一些宗教領袖仍因精神理由反對；不過，也有人認為治療中的冥想原則增強了他們探索和接納自身宗教的能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，E 段處理爭議、placebo、過度相信和宗教態度。題目中的 faith and expectations 可連到 placebo effect 和 over-estimated benefits。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“patients faith”"
+            },
+            {
+              "kind": "quote",
+              "text": "“expectations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cause concern”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“placebo effect”"
+            },
+            {
+              "kind": "quote",
+              "text": "“benefits may be over-estimated by patients”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may ignore or abandon conventional treatments”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whilst the practice of Reiki itself is not necessarily considered potentially harmful, some medical practitioners are concerned that its benefits may be over-estimated by patients and that, as a result, they may ignore or abandon conventional treatments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Reiki practice 本身未必被視為有潛在傷害，一些 medical practitioners 擔心病人可能高估其好處，結果忽視或放棄 conventional treatments。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 faith and expectations 是一種概括。原文較精確地說，病人可能把 Reiki benefits 看得過高，繼而放棄常規治療。這正是醫療人員的 concern。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "patients faith and expectations= perceived improvement / placebo effect / benefits may be over-estimated by patients cause concern= medical practitioners are concerned判斷： E 段描述病人對 Reiki 效果的期待過高可能帶來風險，所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“The immediate effects that can be experienced by recipients.”",
+      "translation": "接受者可能即時感受到的效果。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A ‘whole body’ Reiki treatment session typically lasts between to 90 minutes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一次 whole body Reiki treatment session 通常持續至 90 分鐘左右。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Those who have undergone a Reiki treatment session often state that they experienced a pleasant warmness in the area of focus and a feeling of contentment and relaxation throughout the session.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接受過 Reiki treatment session 的人常說，在治療集中位置感到 pleasant warmness，整個療程中也感到 contentment 和 relaxation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句直接講 recipients’ experienced effects，因此 C 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“immediate effects”"
+            },
+            {
+              "kind": "quote",
+              "text": "“experienced”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recipients”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“experienced a pleasant warmness”"
+            },
+            {
+              "kind": "quote",
+              "text": "“contentment and relaxation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“throughout the session”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“throughout the session” 表示療程當中即可感受到。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Those who have undergone a Reiki treatment session often state that they experienced a pleasant warmness in the area of focus and a feeling of contentment and relaxation throughout the session.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接受過 Reiki treatment session 的人常表示，他們在治療集中區域感到舒服的溫暖，也在整個療程中感到滿足和平靜放鬆。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "immediate effects= warmness, contentment, relaxation during the session recipients= those who have undergone a Reiki treatment session判斷： C 段明確描述接受者在療程期間的感受，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“The safety of conducting therapy for practitioners.”",
+      "translation": "對治療師而言，進行療法是否安全。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The healing energy is said to originate in the universe itself and is not the passing of personal energy from practitioner to patient; it is therefore thought to be inexhaustible and the personal well-being of the practitioner uncompromised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "healing energy 被說成源自宇宙本身，並非治療師把個人能量傳給病人；因此它被認為不會耗盡，治療師自身健康也不會受損。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...those following the latter school of thought say that since Reiki requires no conscious belief it can also benefit the well-being of animals and plant life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後一派認為，既然 Reiki 不需要 conscious belief，它也能有益於動物和植物生命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接處理 practitioner 的 personal well-being，和題目中的 safety for practitioners 完全相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“safety”"
+            },
+            {
+              "kind": "quote",
+              "text": "“practitioners”"
+            },
+            {
+              "kind": "quote",
+              "text": "“conducting therapy”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“personal well-being of the practitioner uncompromised”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not the passing of personal energy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inexhaustible”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The healing energy is said to originate in the universe itself and is not the passing of personal energy from practitioner to patient; it is therefore thought to be inexhaustible and the personal well-being of the practitioner uncompromised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種 healing energy 被說成源自宇宙本身，並非治療師把個人能量傳給病人；因此能量被認為不會耗盡，治療師自身健康也不會受到損害。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "safety of conducting therapy for practitioners= practitioner’s personal well-being uncompromised healing does not drain practitioner= energy is inexhaustible and not personal energy判斷： D 段清楚說治療師的 personal well-being 不會受損，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Research",
+      "prompt": "“The groups’ comfort and quality of life appeared to improve.”",
+      "translation": "該組人的舒適感和生活質素似乎有所改善。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other studies have also attempted to determine correlation between Reiki treatment and improvement in cancer and stroke patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他研究也嘗試判斷 Reiki treatment 和 cancer、stroke 患者改善之間是否有關聯。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Theories have been put forward that the benefits of energy treatments such as Reiki may be scientifically attributed to the effect of electromagnetic fields; however, the majority researchers agree that more extensive investigation is required.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人提出理論，認為 Reiki 這類能量療法的好處或可由 electromagnetic fields 解釋；不過，多數研究者認為仍需更廣泛調查。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“comfort”"
+            },
+            {
+              "kind": "quote",
+              "text": "“quality of life”"
+            },
+            {
+              "kind": "quote",
+              "text": "“improve”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接寫 comfort / quality of life，但 cancer research 提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“fatigue, pain and stress”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三項改善會合理對應 comfort 和生活質素。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whilst investigations into the first condition indicated a seemingly positive effect on degrees of fatigue, pain and stress experienced by sufferers...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於第一種病症的研究顯示，患者所經歷的 fatigue、pain 和 stress 程度似乎有正面效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the first condition” 回指前一句的 cancer。fatigue、pain 和 stress 減少，自然可概括為 comfort 和quality of life 改善。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "comfort and quality of life appeared to improve= positive effect on fatigue, pain and stress the first condition= cancer判斷：答案是 C — Cancer research。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Research",
+      "prompt": "“No apparent links were identified.”",
+      "translation": "沒有發現明顯關聯。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other studies have also attempted to determine correlation between Reiki treatment and improvement in cancer and stroke patients.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他研究也嘗試判斷 Reiki treatment 和 cancer、stroke 患者改善之間是否有關聯。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Theories have been put forward that the benefits of energy treatments such as Reiki may be scientifically attributed to the effect of electromagnetic fields; however, the majority researchers agree that more extensive investigation is required.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人提出理論，認為 Reiki 的好處也許可用 electromagnetic fields 解釋；不過，多數研究者認為仍需更廣泛調查。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“no apparent links”"
+            },
+            {
+              "kind": "quote",
+              "text": "“identified”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“failed to reveal a link”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是直接近義。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the second project failed to reveal a link between treatment and improvement in the subjects’ condition and rehabilitation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個項目未能顯示 treatment 和受試者病情及康復改善之間有關聯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the second project” 回指前一句中的 stroke patients。第一種 condition 是 cancer；第二種 project就是 stroke research。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "No apparent links were identified= failed to reveal a link stroke research= the second project判斷：答案是 D — Stroke research。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Research",
+      "prompt": "“Results were compared to a control group who did not receive Reiki treatment.”",
+      "translation": "結果和一個沒有接受 Reiki treatment 的對照組比較。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Limited scientific studies in the authenticity of Reiki have been conducted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於 Reiki 真實性的科學研究數量有限。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similarly small preliminary study into the potential effects of Reiki on patients suffering mild dementia, conducted in the USA, tentatively suggested that treatment had a positive effect on the subjects’ memory abilities; however, research limitations included insufficient analysis of potential placebo affects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國一項同樣小型的初步研究，針對 Reiki 對 mild dementia 患者的潛在效果，初步指出治療對受試者 memory abilities 有正面效果；不過，研究限制包括對可能 placebo effects 的分析不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 包含兩項研究：South Glasgow 的對照組研究，以及 USA dementia 研究。題目有control group，因此先看 South Glasgow 那句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“control group”"
+            },
+            {
+              "kind": "quote",
+              "text": "“did not receive Reiki treatment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“compared”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“as opposed to a group receiving placebo treatment of 30 minutes rest”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "placebo treatment of rest 表示沒有真正 Reiki treatment。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During research conducted by the Institute of Neurological Studies at South Glasgow University Hospital it was observed that there was a significant decrease in heart rate and blood pressure amongst subjects receiving 30 minutes of Reiki treatment as opposed to a group receiving placebo treatment of 30 minutes rest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "South Glasgow University Hospital 的 Institute of Neurological Studies 進行研究時觀察到，接受30 分鐘 Reiki treatment 的受試者 heart rate 和 blood pressure 明顯下降；這是和另一組接受 30分鐘休息作為 placebo treatment 的人相比。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "control group who did not receive Reiki= group receiving placebo treatment of 30 minutes rest results were compared= as opposed to a group...判斷：答案是 A — The Institute of Neurological Studies。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Research",
+      "prompt": "“Recollection ability seemed to be enhanced.”",
+      "translation": "回憶能力似乎有所提升。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Limited scientific studies in the authenticity of Reiki have been conducted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於 Reiki 真實性的科學研究數量有限。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similarly small preliminary study into the potential effects of Reiki on patients suffering mild dementia, conducted in the USA, tentatively suggested that treatment had a positive effect on the subjects’ memory abilities; however, research limitations included insufficient analysis of potential placebo affects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國一項針對 mild dementia 患者的小型初步研究，初步指出治療對受試者的 memory abilities有正面效果；不過，研究限制包括對可能 placebo effects 的分析不足。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 recollection ability 和 memory abilities 很接近，因此答案在 F 段尾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“recollection ability”"
+            },
+            {
+              "kind": "quote",
+              "text": "“enhanced”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“memory abilities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“positive effect”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similarly small preliminary study into the potential effects of Reiki on patients suffering mild dementia, conducted in the USA, tentatively suggested that treatment had a positive effect on the subjects’ memory abilities...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "美國一項針對 mild dementia 患者的小型初步研究，謹慎地指出 Reiki treatment 對受試者的記憶能力有正面效果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "recollection ability= memory abilities seemed to be enhanced= tentatively suggested a positive effect判斷：答案是 B — Research conducted in the USA。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後方法總結這篇文章的結構很清楚：A 介紹 Reiki 起源和名稱；B 講 attunement、energy flow、預防用途和與其他治療並用；C 講療程操作和接受者感受；D 講能量來源、治療師安全和病人態度；E 講爭議和風險；F 講 South Glasgow 和 USA dementia 小型研究；G 講 cancer、stroke 研究和electromagnetic fields 理論。做這篇時，Questions 1–3 要逐項核對選項；Questions 4–9 要用段落功能定位；Questions 10–13 要先建立研究表，再把題目中的概括詞如 quality of life、link、control group、recollection 對回原文。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - REIKI.pdf",
+    "sha256": "c7212b0465a90c9d9cbf0564842dbc921fb7cec72a61c9e74851c4cd91447712",
+    "pageCount": 23
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句後的合理段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段首句說 Reiki 這種 spiritual practice 於二十世紀初在日本首次出現，至今仍被追隨者用來處理身體、情緒和精神上的不平衡。尾句解釋 Reiki 這個名稱來自兩個日文字符：rei 指 unseen 或spiritual，ki 指 life force 或 energy。只看首尾句，可以估計這段是基本介紹，會交代 Reiki 的起源、目的、治療理念，以及名稱含義。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句說，根據 Reiki philosophy，個人只有經過 Reiki Master 進行的 attunement process，才能接觸並傳導正面能量。尾句說，有些人建議某些病症需要小心監測，因為身體改善可能令藥物需求改變。只看首尾句，可以估計這段會講 Reiki 的前提條件、能量如何流動、預防性用途，以及和其他治療並用時的不同看法。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句說，一次 whole body Reiki treatment session 通常持續至 90 分鐘左右。尾句說，接受Reiki 的人常表示，治療位置有 pleasant warmness，整個過程也有 contentment 和 relaxation 的感覺。只看首尾句，可以估計這段會描述實際治療程序，例如病人躺下、穿著寬鬆衣服、治療師手的位置、接觸或非接觸方式，以及即時感受。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句說，healing energy 被認為來自 universe itself，並非治療師把個人能量傳給病人。尾句說，某一派認為 Reiki 不需要 conscious belief，因此也可令 animals 和 plant life 受益。只看首尾句，可以估計這段會講能量來源、治療師是否會被耗損、病人態度是否重要，以及 Reiki 是否可超出人類對象使用。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句說，Reiki 充滿爭議，反對者認為它可能只帶來 perceived improvement，即 placebo effect。尾句說，雖然 Reiki 和特定宗教教義沒有關聯，仍有宗教領袖因精神理由反對，也有人覺得它增強宗教探索能力。只看首尾句，可以估計這段會處理質疑：安慰劑效應、患者高估療效、放棄常規治療、治療師缺乏規管和宗教爭議。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段首句說，關於 Reiki 真實性的科學研究很有限。尾句說，美國一項針對 mild dementia 患者的小型初步研究指出記憶能力可能有正面效果，但 placebo effects 分析不足。只看首尾句，可以估計這段會講小型研究證據，包括 South Glasgow University Hospital 的 heart rate / blood pressure 研究，以及美國 dementia 記憶研究。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段首句說，其他研究嘗試找出 Reiki treatment 和 cancer、stroke 患者改善之間的關聯。尾句說，大部分研究者同意仍需要更大規模調查。只看首尾句，可以估計這段會比較 cancer 和 stroke的研究結果，並提出一種可能科學解釋，例如 electromagnetic fields，但整體結論仍保守，強調研究不足。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,807 @@
+.grammar-library,
+.grammar-practice {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: clamp(26px, 4vw, 48px);
+}
+
+.grammar-library__head,
+.grammar-practice__head,
+.grammar-question__meta,
+.grammar-answer__actions,
+.grammar-dialog__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.grammar-library__head h2,
+.grammar-practice__head h2,
+.grammar-dialog h2 {
+  margin: 0;
+  font-family: Georgia, "Noto Serif TC Local", serif;
+}
+
+.grammar-library__head p:last-child,
+.grammar-practice__head p:last-child {
+  margin: 8px 0 0;
+  color: var(--portal-muted);
+  font-weight: 650;
+}
+
+.grammar-lesson-card {
+  position: relative;
+  margin-top: 26px;
+  overflow: hidden;
+  padding: clamp(24px, 4vw, 42px);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 28px;
+  align-items: center;
+  border: 1px solid hsl(var(--portal-hue) 45% 68% / .48);
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 93% 12%, hsl(calc(var(--portal-hue) + 38) 80% 75% / .34), transparent 34%),
+    linear-gradient(135deg, hsl(var(--portal-hue) 66% 35%), hsl(var(--portal-hue) 61% 21%));
+  color: #fff;
+  box-shadow: 0 22px 45px hsl(var(--portal-hue) 55% 22% / .2);
+}
+
+.grammar-lesson-card::after {
+  content: "TENSE";
+  position: absolute;
+  right: 28px;
+  bottom: -19px;
+  color: rgba(255, 255, 255, .08);
+  font: 900 clamp(72px, 13vw, 150px)/1 Georgia, serif;
+  pointer-events: none;
+}
+
+.grammar-lesson-card--articles {
+  background:
+    radial-gradient(circle at 92% 10%, rgba(255, 229, 153, .26), transparent 36%),
+    linear-gradient(135deg, #17616d, #103e50);
+  border-color: rgba(96, 186, 178, .6);
+}
+.grammar-lesson-card--articles::after { content: "ARTICLES"; }
+
+.grammar-lesson-card--new-curation::after { content: "GUIDE"; }
+.grammar-lesson-card--new-curation:nth-of-type(3n) { background: linear-gradient(135deg, #31576d, #17364d); }
+.grammar-lesson-card--new-curation:nth-of-type(3n + 1) { background: linear-gradient(135deg, #65517e, #352d59); }
+.grammar-lesson-card--new-curation:nth-of-type(3n + 2) { background: linear-gradient(135deg, #437460, #214c47); }
+.grammar-lesson-card--new-curation .grammar-lesson-card__stats { grid-template-columns: 1fr; }
+
+.grammar-new-curation { scroll-margin-top: 20px; }
+.grammar-new-chapters { display: flex; flex-wrap: wrap; gap: 9px; margin: 28px 0; }
+.grammar-new-chapters a { padding: 9px 14px; border: 1px solid #ccdbe6; border-radius: 999px; background: #fff; color: #214c68; font-weight: 750; text-decoration: none; }
+.grammar-new-chapters a:hover, .grammar-new-chapters a:focus-visible { background: #eaf3f8; border-color: #80a9bc; }
+.grammar-new-body { width: 100%; color: #273a4c; font-size: clamp(16px, 1.65vw, 19px); line-height: 1.75; overflow-wrap: normal; word-break: normal; hyphens: none; }
+.grammar-new-intro { max-width: 78ch; padding: 4px 0 18px; color: #4a6173; }
+.grammar-new-intro h3 { margin-top: 24px; }
+.grammar-new-stream { margin-top: 12px; }
+.grammar-new-body .grammar-new-chapter h3 { color: #fff; margin: 0; }
+.grammar-new-topic { width: 100%; box-sizing: border-box; }
+.grammar-new-topic__content { margin-top: 15px; }
+.grammar-new-topic__content > :first-child { margin-top: 0; }
+.grammar-new-topic__content p { max-width: 78ch; }
+.grammar-new-topic__content blockquote { max-width: 950px; box-sizing: border-box; border: 1px solid #d9e3ed; border-radius: 15px; background: #f7faff; color: #193c63; font-size: clamp(17px, 1.9vw, 21px); font-weight: 700; }
+.grammar-new-topic__content .grammar-new-table-wrap { margin: 0 0 18px; }
+/* Put each complete unless lesson onto the generated, wood-framed classroom board. */
+.grammar-eddy-dialogue { position: relative; width: min(100%, 980px); margin: 24px 0 4px; }
+.grammar-eddy-dialogue__art {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1671 / 820;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #101d1b url("grammar-eddy-dialogues/blackboard-imagegen-framed-v2.webp") center / 100% 100% no-repeat;
+  box-shadow: 0 3px 12px #36211345;
+}
+.grammar-eddy-dialogue__art > img { position: absolute; z-index: 2; right: 0; bottom: 0; display: block; width: min(52%, 510px); height: auto; clip-path: inset(0 0 40% 0); pointer-events: none; }
+.grammar-eddy-dialogue--indefinite { width: min(100%, 1170px); }
+.grammar-eddy-dialogue--indefinite .grammar-eddy-dialogue__art > img { width: min(45%, 420px); clip-path: polygon(0 0, 100% 0, 100% 69%, 32% 69%, 32% 61%, 0 54%); }
+.grammar-eddy-dialogue--eddy-aside .grammar-eddy-dialogue__art { width: calc(100% - 220px); }
+.grammar-eddy-dialogue--eddy-aside > img {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: min(380px, 40%);
+  height: auto;
+  clip-path: polygon(0 0, 100% 0, 100% 69%, 32% 69%, 32% 61%, 0 54%);
+  pointer-events: none;
+}
+.grammar-eddy-dialogue__lesson {
+  position: absolute;
+  z-index: 1;
+  inset: 6% 5% 36% 5.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: safe center;
+  overflow: auto;
+  color: #f6f3e8;
+  font: 650 clamp(18px, 2vw, 23px)/1.48 "Noto Sans TC Local", sans-serif;
+  text-shadow: 0 0 1px currentColor, 0 0 4px #e9f2d51a;
+}
+.grammar-eddy-dialogue__lesson .grammar-articles-topic__head { display: block; margin: 0 0 8px; padding: 0; border: 0; background: transparent; color: #fff4d2; }
+.grammar-eddy-dialogue__lesson .grammar-articles-topic__head > span { display: none; }
+.grammar-eddy-dialogue__lesson .grammar-articles-topic__head small { display: block; margin: 0 0 2px; color: #aee5d0; font: 750 14px/1.3 "Noto Sans TC Local", sans-serif; letter-spacing: .08em; }
+.grammar-eddy-dialogue__lesson .grammar-articles-topic__head h3 { margin: 0; color: #ffe28b; font: 850 clamp(26px, 3vw, 34px)/1.3 Georgia, "Noto Serif TC Local", serif; }
+.grammar-eddy-dialogue__lesson .grammar-tense-topic__focus { margin: 0 0 8px; padding: 0; border: 0; background: none; color: inherit; }
+.grammar-eddy-dialogue__lesson .grammar-tense-topic__focus > span { display: inline-block; margin: 0 0 2px; color: #b8f0d7; font-size: 14px; font-weight: 800; }
+.grammar-eddy-dialogue__lesson .grammar-tense-topic__focus p,
+.grammar-eddy-dialogue__lesson-copy p { max-width: none; margin: 2px 0 7px; color: inherit; font: inherit; }
+.grammar-eddy-dialogue__lesson-copy blockquote { margin: 7px 0; padding: 0 0 0 9px; border: 0; border-left: 2px solid #ffe392; border-radius: 0; background: none; color: #fff8df; font-size: inherit; font-weight: 700; }
+.grammar-eddy-dialogue__lesson-copy strong { color: #dec3ff; }
+.grammar-eddy-dialogue__lesson-copy code { padding: 0; background: none; color: #ffe392; font: inherit; }
+.grammar-eddy-dialogue__lesson-copy em { color: #b9f0d3; font-style: normal; }
+.grammar-eddy-dialogue__lesson-copy ul,
+.grammar-eddy-dialogue__lesson-copy ol { margin: 3px 0 7px; padding-left: 1.25em; }
+.grammar-eddy-dialogue__lesson-copy li { margin: 1px 0; }
+.grammar-eddy-dialogue__lesson-copy table { width: 100%; min-width: 0; border-collapse: collapse; color: inherit; font: inherit; }
+.grammar-eddy-dialogue__lesson-copy th,
+.grammar-eddy-dialogue__lesson-copy td { padding: 2px 4px; border-bottom: 1px solid #f5edcf55; text-align: left; }
+.grammar-eddy-dialogue__lesson-copy th { background: #fff2cf1c; color: #ffe392; }
+.grammar-eddy-dialogue__text {
+  position: absolute;
+  z-index: 3;
+  right: 3%;
+  bottom: 2.5%;
+  left: 3%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 112px;
+  padding: 24px 27px 15px;
+  border: 6px solid #985024;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #fff2d2, #ffe5b5);
+  box-shadow: inset 0 0 0 3px #dda660, inset 0 0 0 8px #fff8de, 0 4px 8px #2b180c66;
+  color: #2c2018;
+  font: 700 clamp(16px, 1.7vw, 20px)/1.4 "Noto Sans TC Local", sans-serif;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+.grammar-eddy-dialogue__text::before {
+  position: absolute;
+  top: -35px;
+  left: 17px;
+  box-sizing: border-box;
+  min-width: 137px;
+  height: 39px;
+  padding: 2px 17px 2px 48px;
+  border: 5px solid #985024;
+  border-radius: 18px 18px 12px 12px;
+  background: linear-gradient(#ffe4a6, #f8ca76);
+  box-shadow: inset 0 0 0 2px #f7b854;
+  color: #2c2018;
+  content: "Eddy";
+  font: 800 21px/1.35 "Noto Sans TC Local", sans-serif;
+}
+.grammar-eddy-dialogue__text::after {
+  position: absolute;
+  top: -30px;
+  left: 32px;
+  color: #b77a0d;
+  content: "♞";
+  font: 900 27px/1.2 Georgia, serif;
+}
+.grammar-eddy-dialogue__copy { display: block; max-height: 130px; overflow: auto; }
+.grammar-eddy-dialogue--long .grammar-eddy-dialogue__text { font-size: clamp(15px, 1.55vw, 18px); }
+.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art { aspect-ratio: 1671 / 1020; }
+.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art > img { bottom: -55px; }
+.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson { inset: 5% 5% 31% 5.5%; font-size: clamp(16px, 1.7vw, 20px); }
+.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson .grammar-articles-topic__head h3 { font-size: clamp(24px, 2.5vw, 30px); }
+.grammar-eddy-dialogue__lesson .grammar-eddy-dialogue__chalk--purple { color: #e9c9ff; }
+.grammar-eddy-dialogue__lesson .grammar-eddy-dialogue__chalk--yellow { color: #ffe28b; }
+.grammar-eddy-dialogue__lesson .grammar-eddy-dialogue__chalk--mint { color: #b9f5dc; }
+.grammar-eddy-dialogue__text .grammar-eddy-dialogue__chalk--purple,
+.grammar-new-body .grammar-eddy-dialogue__text strong { color: #602e6f; }
+.grammar-eddy-dialogue__text .grammar-eddy-dialogue__chalk--yellow,
+.grammar-new-body .grammar-eddy-dialogue__text code { color: #795000; }
+.grammar-eddy-dialogue__text .grammar-eddy-dialogue__chalk--mint,
+.grammar-new-body .grammar-eddy-dialogue__text em { color: #0d6454; }
+.grammar-new-body .grammar-eddy-dialogue__text code { padding: 0; background: none; font: inherit; }
+@media (max-width: 840px) {
+  .grammar-eddy-dialogue { margin-top: 18px; }
+  .grammar-eddy-dialogue__art { aspect-ratio: 1 / 1.05; }
+  .grammar-eddy-dialogue__art > img { inset: auto 0 50px auto; width: min(76%, 390px); height: auto; }
+  .grammar-eddy-dialogue__lesson { inset: 5% 5% 43% 5%; overflow: auto; font-size: clamp(15px, 3.8vw, 18px); line-height: 1.4; }
+  .grammar-eddy-dialogue__lesson .grammar-articles-topic__head { margin-bottom: 6px; }
+  .grammar-eddy-dialogue__lesson .grammar-articles-topic__head h3 { font-size: clamp(16px, 4.6vw, 20px); }
+  .grammar-eddy-dialogue__lesson .grammar-tense-topic__focus { margin-bottom: 5px; }
+  .grammar-eddy-dialogue__lesson-copy blockquote { margin: 5px 0; }
+  .grammar-eddy-dialogue__text,
+  .grammar-eddy-dialogue--long .grammar-eddy-dialogue__text {
+    right: 3%;
+    bottom: 2%;
+    left: 3%;
+    min-height: 100px;
+    padding: 23px 14px 11px;
+    border-width: 4px;
+    border-radius: 16px;
+    font-size: clamp(13px, 3.6vw, 16px);
+    line-height: 1.36;
+  }
+  .grammar-eddy-dialogue__text::before { top: -29px; left: 11px; min-width: 104px; height: 32px; padding: 2px 11px 2px 34px; border-width: 4px; font-size: 17px; }
+  .grammar-eddy-dialogue__text::after { top: -26px; left: 20px; font-size: 22px; }
+  .grammar-eddy-dialogue__copy { max-height: 115px; }
+  .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art { aspect-ratio: 1 / 1.4; }
+  .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art > img { inset: auto 0 30px auto; }
+  .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson { inset: 5% 5% 38% 5%; font-size: clamp(14px, 3.5vw, 16px); }
+  .grammar-eddy-dialogue--indefinite .grammar-eddy-dialogue__lesson { justify-content: flex-start; }
+  .grammar-eddy-dialogue--indefinite .grammar-eddy-dialogue__art > img { width: min(72%, 300px); }
+
+}
+.grammar-new-appendix { padding-top: clamp(24px, 3vw, 38px); }
+.grammar-new-appendix .grammar-new-table-wrap { margin: 0; }
+.grammar-new-body h2 { scroll-margin-top: 100px; margin: 42px 0 16px; padding: 15px 0; border-top: 2px solid #c8dbe5; border-bottom: 1px solid #e4ebf0; color: #183d59; font: 850 clamp(23px, 2.5vw, 31px)/1.4 Georgia, "Noto Serif TC Local", serif; }
+.grammar-new-body h3 { margin: 30px 0 12px; color: #1d4858; font: 800 clamp(19px, 2vw, 24px)/1.5 Georgia, "Noto Serif TC Local", serif; }
+.grammar-new-body p { margin: 13px 0; }
+.grammar-new-body blockquote { margin: 17px 0; padding: 14px 20px; border-left: 4px solid #4a92a1; border-radius: 0 12px 12px 0; background: #f1f8f8; color: #25475a; }
+.grammar-new-body ul, .grammar-new-body ol { padding-left: 1.6em; }
+.grammar-new-body li { margin: 6px 0; }
+.grammar-new-body code { padding: .1em .35em; border-radius: 5px; background: #edf3f7; color: #205675; font-size: .92em; }
+.grammar-new-body hr { border: 0; border-top: 1px solid #dce7ed; margin: 30px 0; }
+.grammar-new-table-wrap { max-width: 100%; overflow-x: auto; margin: 19px 0; border: 1px solid #d7e4eb; border-radius: 12px; }
+.grammar-new-body table { width: 100%; border-collapse: collapse; min-width: 520px; font-size: .9em; line-height: 1.55; }
+.grammar-new-body th, .grammar-new-body td { padding: 10px 12px; border-bottom: 1px solid #dce7ed; text-align: left; vertical-align: top; }
+.grammar-new-body th { background: #eaf3f7; color: #1e4d65; }
+.grammar-new-body tr:last-child td { border-bottom: 0; }
+.grammar-new-body tr:nth-child(even) td { background: #f8fbfc; }
+
+/* The general lesson styles use pale paper. Inside Eddy's board every row and example stays dark with bright chalk. */
+.grammar-new-body .grammar-eddy-dialogue__lesson,
+.grammar-new-body .grammar-eddy-dialogue__lesson p,
+.grammar-new-body .grammar-eddy-dialogue__lesson li,
+.grammar-new-body .grammar-eddy-dialogue__lesson td { color: #f7f5e9; }
+.grammar-new-body .grammar-eddy-dialogue__lesson .grammar-articles-topic__head small { color: #d0f4e3; }
+.grammar-new-body .grammar-eddy-dialogue__lesson .grammar-tense-topic__focus,
+.grammar-new-body .grammar-eddy-dialogue__lesson .grammar-tense-topic__focus p,
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy blockquote,
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy .grammar-new-table-wrap,
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy table,
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy th,
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy td,
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy tr:nth-child(even) td { background: transparent; }
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy blockquote { margin: 7px 0; padding: 0 0 0 10px; border: 0; border-left: 3px solid #ffe392; color: #fff8df; font: inherit; }
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy .grammar-new-table-wrap { overflow-x: auto; overflow-y: hidden; margin: 6px 0; border-color: #f7f5e980; }
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy table { min-width: 800px; table-layout: auto; color: #f7f5e9; font: inherit; }
+/* Keep English terms intact; scroll the table if the device cannot fit its columns. */
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy th,
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy td { overflow-wrap: normal; word-break: normal; hyphens: none; }
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy th { color: #ffe392; }
+.grammar-new-body .grammar-eddy-dialogue__lesson code { padding: 0; background: transparent; color: #ffe392; font: inherit; }
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy strong { color: #dec3ff; }
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy em { color: #b9f0d3; }
+@media (max-width: 840px) {
+  .grammar-new-body .grammar-eddy-dialogue__lesson-copy table { min-width: 720px; }
+}
+
+.grammar-lesson-card__copy { position: relative; z-index: 1; }
+.grammar-lesson-card__copy h3 { margin: 0; font: 900 clamp(30px, 4vw, 50px)/1.08 Georgia, "Noto Serif TC Local", serif; }
+.grammar-lesson-card__copy p { max-width: 650px; margin: 12px 0 0; color: rgba(255, 255, 255, .78); font-weight: 700; }
+
+.grammar-lesson-card__stats {
+  position: relative;
+  z-index: 1;
+  min-width: min(280px, 100%);
+  padding: 18px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, .2);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, .1);
+  backdrop-filter: blur(12px);
+}
+
+.grammar-lesson-card__stats div { display: grid; gap: 5px; }
+.grammar-lesson-card__stats strong { font: 900 30px/1 Georgia, serif; }
+.grammar-lesson-card__stats span { color: rgba(255, 255, 255, .7); font-size: 11px; font-weight: 850; }
+.grammar-lesson-card__stats button { grid-column: 1 / -1; margin-top: 6px; }
+
+.grammar-button,
+.grammar-button--ghost,
+.grammar-nav button,
+.grammar-range-select {
+  min-height: 44px;
+  border-radius: 999px;
+  font-weight: 850;
+}
+
+.grammar-button,
+.grammar-nav button {
+  padding: 10px 18px;
+  border: 1px solid transparent;
+  color: hsl(var(--portal-hue) 65% 22%);
+  background: #fff;
+  cursor: pointer;
+}
+
+.grammar-button:hover,
+.grammar-button:focus-visible,
+.grammar-nav button:hover,
+.grammar-nav button:focus-visible { transform: translateY(-1px); box-shadow: 0 9px 20px rgba(0, 0, 0, .12); }
+
+.grammar-button:disabled,
+.grammar-nav button:disabled { cursor: not-allowed; opacity: .45; transform: none; box-shadow: none; }
+
+.grammar-button--primary {
+  color: #fff;
+  background: linear-gradient(135deg, var(--portal-accent), var(--portal-accent-dark));
+}
+
+.grammar-button--ghost {
+  padding: 9px 16px;
+  border: 1px solid var(--portal-border);
+  color: var(--portal-accent-dark);
+  background: rgba(255, 255, 255, .8);
+  cursor: pointer;
+}
+
+.grammar-practice__head { align-items: flex-start; }
+.grammar-practice__tools { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 12px 22px; }
+.grammar-reading-mode { display: flex; align-items: center; gap: 3px; padding: 4px; border: 1px solid var(--portal-border); border-radius: 999px; background: hsl(var(--portal-hue) 48% 96%); }
+.grammar-reading-mode__label { padding: 0 9px; color: var(--portal-muted); font-size: 12px; font-weight: 850; white-space: nowrap; }
+.grammar-reading-mode button { min-height: 40px; padding: 8px 13px; border: 0; border-radius: 999px; color: var(--portal-accent-dark); background: transparent; font: inherit; font-size: 13px; font-weight: 850; white-space: nowrap; cursor: pointer; }
+.grammar-reading-mode button:hover { background: #fff; }
+.grammar-reading-mode button[aria-pressed="true"] { color: #fff; background: var(--portal-accent-dark); box-shadow: 0 3px 10px hsl(var(--portal-hue) 45% 28% / .18); }
+.grammar-reading-mode button:focus-visible { outline: 3px solid var(--portal-accent); outline-offset: 2px; }
+.grammar-practice__summary { display: flex; align-items: center; gap: 10px; }
+.grammar-practice__summary strong { font: 900 30px/1 Georgia, serif; color: var(--portal-accent-dark); }
+.grammar-practice__summary span { color: var(--portal-muted); font-size: 12px; font-weight: 850; }
+
+.grammar-progress {
+  height: 10px;
+  margin: 22px 0 20px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: hsl(var(--portal-hue) 45% 90%);
+}
+
+.grammar-progress span {
+  width: 0;
+  height: 100%;
+  display: block;
+  border-radius: inherit;
+  background: linear-gradient(90deg, hsl(var(--portal-hue) 70% 51%), hsl(calc(var(--portal-hue) + 56) 77% 55%));
+  transition: width .28s ease;
+}
+
+.grammar-navigator {
+  padding: 15px;
+  border: 1px solid var(--portal-border);
+  border-radius: 18px;
+  background: hsl(var(--portal-hue) 62% 97% / .9);
+}
+
+.grammar-navigator__bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.grammar-range-select { padding: 8px 34px 8px 13px; border: 1px solid var(--portal-border); color: var(--portal-ink); background: #fff; }
+.grammar-navigator__legend { color: var(--portal-muted); font-size: 11px; font-weight: 750; }
+
+.grammar-number-grid {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(25, 32px);
+  gap: 5px;
+  overflow-x: auto;
+  padding-bottom: 3px;
+}
+
+.grammar-number-grid button {
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--portal-border);
+  border-radius: 10px;
+  color: var(--portal-muted);
+  background: #fff;
+  font-size: 11px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.grammar-number-grid button[aria-current="true"] { color: #fff; border-color: var(--portal-accent-dark); background: var(--portal-accent-dark); }
+.grammar-number-grid button[data-state="correct"] { color: #0c6b43; border-color: #6ac79e; background: #e7f8ef; }
+.grammar-number-grid button[data-state="wrong"] { color: #a52935; border-color: #eca0a6; background: #fff0f1; }
+.grammar-number-grid button[aria-current="true"][data-state] { color: #fff; border-color: var(--portal-accent-dark); background: var(--portal-accent-dark); }
+
+.grammar-question {
+  margin-top: 20px;
+  padding: clamp(25px, 4vw, 46px);
+  border: 1px solid var(--portal-border);
+  border-radius: 24px;
+  background: linear-gradient(155deg, rgba(255,255,255,.98), hsl(var(--portal-hue) 60% 97%));
+}
+
+.grammar-question__meta { justify-content: flex-start; flex-wrap: wrap; }
+.grammar-question__number {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 6px 11px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 900;
+}
+.grammar-question__number { color: #fff; background: var(--portal-accent-dark); }
+.grammar-bookmark {
+  margin-left: auto;
+  min-height: 36px;
+  padding: 7px 13px;
+  border: 1px solid var(--portal-border);
+  border-radius: 999px;
+  color: var(--portal-accent-dark);
+  background: #fff;
+  font-weight: 850;
+  cursor: pointer;
+}
+.grammar-bookmark[aria-pressed="true"] { border-color: #d29b20; color: #7a5200; background: #fff5cf; }
+
+.grammar-question__prompt {
+  margin: 24px 0 0;
+  color: var(--portal-ink);
+  font: 800 clamp(23px, 3vw, 35px)/1.45 Georgia, "Noto Serif TC Local", serif;
+}
+
+.grammar-question__translation { margin: 13px 0 0; color: var(--portal-muted); font-weight: 700; line-height: 1.7; }
+
+.grammar-answer { margin-top: 30px; }
+.grammar-answer label { display: grid; gap: 9px; color: var(--portal-ink); font-size: 13px; font-weight: 900; }
+.grammar-answer input {
+  min-height: 58px;
+  width: 100%;
+  padding: 13px 17px;
+  border: 2px solid hsl(var(--portal-hue) 34% 78%);
+  border-radius: 15px;
+  color: var(--portal-ink);
+  background: #fff;
+  font-size: 18px;
+  font-weight: 750;
+  outline: none;
+}
+.grammar-answer input:focus { border-color: var(--portal-accent); box-shadow: 0 0 0 5px hsl(var(--portal-hue) 70% 57% / .12); }
+.grammar-answer input[aria-invalid="true"] { border-color: #c94650; background: #fff8f8; }
+.grammar-answer__hint { margin: 8px 0 0; color: var(--portal-muted); font-size: 11px; font-weight: 650; }
+.grammar-answer__actions { margin-top: 17px; justify-content: flex-start; flex-wrap: wrap; }
+
+.grammar-feedback {
+  margin-top: 18px;
+  padding: 16px 18px;
+  border: 1px solid;
+  border-radius: 15px;
+  font-weight: 800;
+  line-height: 1.55;
+}
+.grammar-feedback[data-state="correct"] { color: #08633e; border-color: #73c89f; background: #e9f8f0; }
+.grammar-feedback[data-state="wrong"] { color: #9d2732; border-color: #e8a1a7; background: #fff0f1; }
+
+.grammar-nav { margin-top: 20px; display: flex; justify-content: space-between; gap: 12px; }
+.grammar-nav button { color: var(--portal-ink); border-color: var(--portal-border); background: rgba(255,255,255,.92); }
+
+.grammar-save-status { min-height: 20px; margin: 14px 0 0; color: var(--portal-muted); font-size: 11px; font-weight: 700; text-align: center; }
+.grammar-save-status[data-state="error"] { color: #a52935; }
+
+.grammar-explanation {
+  margin-top: 24px;
+  scroll-margin-top: 20px;
+  padding: clamp(20px, 3vw, 30px);
+  border: 1px solid hsl(var(--portal-hue) 40% 76%);
+  border-radius: 20px;
+  background: linear-gradient(145deg, #fff, hsl(var(--portal-hue) 55% 97%));
+}
+.grammar-explanation[data-result="correct"] { border-color: #78caa2; background: linear-gradient(145deg, #fff, #edf9f2); }
+.grammar-explanation[data-result="wrong"] { border-color: #e7a1a7; background: linear-gradient(145deg, #fff, #fff3f4); }
+.grammar-explanation__head { display:flex; align-items:flex-start; justify-content:space-between; gap:18px; }
+.grammar-explanation__head h3 { margin:5px 0 0; font:900 clamp(22px,3vw,31px)/1.2 Georgia,"Noto Serif TC Local",serif; }
+.grammar-explanation__head > p { margin:0; padding:10px 13px; border-radius:12px; color:var(--portal-accent-dark); background:var(--portal-wash); font-weight:900; }
+.grammar-explanation__instruction { margin:18px 0; color:var(--portal-muted); font-size:13px; line-height:1.65; font-weight:700; }
+.grammar-step__head { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.grammar-step h4 { margin:0; color:var(--portal-accent-dark); font-size:15px; }
+.grammar-step__bookmark { padding:7px 10px; border:1px solid var(--portal-border); border-radius:999px; color:var(--portal-accent-dark); background:#fff; font-size:11px; font-weight:850; cursor:pointer; }
+.grammar-step__bookmark[aria-pressed="true"] { border-color:#d29b20; color:#7a5200; background:#fff5cf; }
+.grammar-step__confirm { margin-top:14px; padding-top:13px; display:flex; align-items:center; gap:9px; border-top:1px dashed var(--portal-border); color:var(--portal-ink); font-size:12px; font-weight:800; cursor:pointer; }
+.grammar-step__confirm input { width:20px; height:20px; accent-color:var(--portal-accent-dark); }
+.grammar-explanation[data-mode="scroll"] .grammar-step__confirm { display: none; }
+.grammar-practice--scroll-reading { padding-bottom: clamp(28px, 8vh, 96px); }
+.grammar-explanation[data-mode="scroll"] .grammar-steps { position: relative; }
+.grammar-explanation[data-mode="scroll"] .grammar-step {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(24px) scale(.985);
+  pointer-events: none;
+  transition: opacity .55s cubic-bezier(.18,.7,.2,1), transform .55s cubic-bezier(.18,.7,.2,1), visibility 0s .55s;
+}
+.grammar-explanation[data-mode="scroll"] .grammar-step[data-scroll-visible="true"] {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  pointer-events: auto;
+  transition: opacity .55s cubic-bezier(.18,.7,.2,1), transform .55s cubic-bezier(.18,.7,.2,1), visibility 0s;
+}
+
+.grammar-dialog {
+  width: min(850px, calc(100% - 28px));
+  max-height: min(84vh, 850px);
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: 26px;
+  color: var(--portal-ink);
+  background: #fff;
+  box-shadow: 0 35px 90px rgba(15, 34, 58, .34);
+}
+.grammar-dialog::backdrop { background: rgba(15, 29, 48, .56); backdrop-filter: blur(7px); }
+.grammar-dialog__head { padding: 24px 28px; color: #fff; background: linear-gradient(135deg, var(--portal-accent), var(--portal-accent-dark)); }
+.grammar-dialog[data-result="wrong"] .grammar-dialog__head { background: linear-gradient(135deg, #df5b62, #9b2933); }
+.grammar-dialog__head p { margin: 5px 0 0; color: rgba(255,255,255,.74); font-size: 12px; font-weight: 750; }
+.grammar-dialog__close { width: 42px; height: 42px; border: 1px solid rgba(255,255,255,.3); border-radius: 50%; color: #fff; background: rgba(255,255,255,.12); font-size: 22px; cursor: pointer; }
+.grammar-dialog__body { max-height: calc(min(84vh, 850px) - 90px); overflow-y: auto; padding: 26px 28px 32px; }
+.grammar-dialog__answer { margin: 0 0 18px; padding: 15px 17px; border-radius: 14px; color: var(--portal-accent-dark); background: var(--portal-wash); font-weight: 900; }
+.grammar-steps { display: grid; gap: 12px; }
+.grammar-step { padding: 17px 18px; border: 1px solid var(--portal-border); border-radius: 15px; background: hsl(var(--portal-hue) 55% 98%); }
+.grammar-step h3 { margin: 0 0 7px; color: var(--portal-accent-dark); font-size: 14px; }
+.grammar-step p { margin: 5px 0 0; line-height: 1.75; font-size: 14px; font-weight: 600; }
+
+@media (max-width: 820px) {
+  .grammar-lesson-card { grid-template-columns: 1fr; }
+  .grammar-lesson-card__stats { min-width: 0; }
+  .grammar-practice__head { display: grid; }
+  .grammar-practice__tools { justify-content: space-between; }
+  .grammar-practice__summary { justify-content: space-between; }
+}
+
+@media (max-width: 560px) {
+  .grammar-library, .grammar-practice { padding: 21px 16px; }
+  .grammar-library__head { display: grid; }
+  .grammar-lesson-card { padding: 25px 20px; }
+  .grammar-navigator__bar { align-items: flex-start; flex-direction: column; }
+  .grammar-question { padding: 24px 18px; }
+  .grammar-answer__actions .grammar-button { width: 100%; }
+  .grammar-bookmark { width:100%; margin-left:0; }
+  .grammar-explanation__head, .grammar-step__head { align-items:stretch; flex-direction:column; }
+  .grammar-dialog__head, .grammar-dialog__body { padding-left: 20px; padding-right: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .grammar-progress span { transition: none; }
+  .grammar-explanation[data-mode="scroll"] .grammar-step { transition: none; transform: none; }
+}
+
+.grammar-highlight-tools { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 16px; margin: 18px 0; padding: 12px 16px; border: 1px solid #d5e2df; border-radius: 14px; background: #f3f8f6; }
+.grammar-highlight-tools { display:none; }
+.grammar-highlight-tools button { min-height: 44px; padding: 10px 16px; border-radius: 10px; background: #e5efeb; color: #234b42; }
+.grammar-highlight-tools button[aria-pressed="true"] { background: #ffed8c; color: #544307; box-shadow: inset 0 0 0 1px #d6b743; }
+.grammar-highlight-tools span { color: #536660; font-size: .85rem; line-height: 1.5; }
+.grammar-articles-curation,
+.grammar-articles-practice { scroll-margin-top: 18px; }
+.grammar-articles-curation {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: clamp(24px, 4vw, 48px);
+  color: var(--portal-ink);
+}
+.grammar-articles-curation__head { max-width: 850px; }
+.grammar-articles-curation__head h2 {
+  margin: 20px 0 10px;
+  font: 900 clamp(31px, 4.7vw, 56px)/1.18 Georgia, "Noto Serif TC Local", serif;
+}
+.grammar-articles-curation__head > p:last-of-type {
+  margin: 0;
+  color: var(--portal-muted);
+  font-size: clamp(15px, 1.8vw, 19px);
+  line-height: 1.8;
+}
+.grammar-articles-curation__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 15px; margin-top: 26px; }
+.grammar-articles-curation__actions span { color: var(--portal-accent-dark); font-weight: 850; }
+.grammar-articles-chapters { display: flex; flex-wrap: wrap; gap: 9px; margin: 30px 0 34px; }
+.grammar-articles-chapters button {
+  min-height: 40px;
+  padding: 8px 14px;
+  border: 1px solid var(--portal-border);
+  border-radius: 999px;
+  color: var(--portal-accent-dark);
+  background: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+.grammar-articles-chapters button:hover,
+.grammar-articles-chapters button:focus-visible { border-color: var(--portal-accent); background: var(--portal-wash); }
+.grammar-articles-stream { position: relative; display: grid; gap: 20px; }
+.grammar-articles-topic {
+  scroll-margin-top: 25px;
+  padding: clamp(24px, 3vw, 38px);
+  border: 1px solid var(--portal-border);
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 14px 35px rgba(25, 50, 75, .065);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(24px) scale(.99);
+  pointer-events: none;
+  transition: opacity .55s cubic-bezier(.18,.7,.2,1), transform .55s cubic-bezier(.18,.7,.2,1), visibility 0s .55s;
+}
+.grammar-articles-topic[data-scroll-visible="true"] {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  pointer-events: auto;
+  transition: opacity .55s cubic-bezier(.18,.7,.2,1), transform .55s cubic-bezier(.18,.7,.2,1), visibility 0s;
+}
+.grammar-articles-topic__head { display: flex; align-items: flex-start; gap: 16px; padding-bottom: 20px; }
+.grammar-articles-topic__head > span {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 13px;
+  color: #fff;
+  background: #234f77;
+  font: 900 18px/1 Georgia, serif;
+}
+.grammar-articles-topic__head h3 { margin: 0; max-width: 840px; font: 850 clamp(20px, 2.5vw, 29px)/1.45 Georgia, "Noto Serif TC Local", serif; }
+.grammar-articles-topic__focus {
+  padding: clamp(20px, 2.7vw, 30px);
+  border: 1px solid #b7dcd5;
+  border-left: 5px solid #168b79;
+  border-radius: 16px;
+  background: linear-gradient(110deg, #edf9f5, #f8fcfb);
+}
+.grammar-articles-topic__focus > span,
+.grammar-articles-topic__label {
+  display: block;
+  margin: 0 0 9px;
+  color: #176454;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .12em;
+}
+.grammar-articles-topic__focus p { margin: 0; max-width: 74ch; color: #173e43; font-size: clamp(18px, 2.1vw, 24px); font-weight: 850; line-height: 1.7; }
+.grammar-articles-ink { padding: .04em .24em; border-radius: .35em; color: inherit; font-weight: 900; }
+.grammar-articles-ink--indefinite { background: #ffedbf; color: #75500d; }
+.grammar-articles-ink--the { background: #dceafb; color: #194e85; }
+.grammar-articles-ink--zero { background: #d8f2eb; color: #0e6857; }
+.grammar-articles-topic__examples { margin-top: 24px; }
+.grammar-articles-topic__label { color: #647489; }
+.grammar-articles-example-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 11px; }
+.grammar-articles-example {
+  min-width: 0;
+  padding: 17px 20px;
+  border: 1px solid #d8e2ea;
+  border-radius: 15px;
+  background: #f7fafc;
+}
+.grammar-articles-example p { margin: 0; overflow-wrap: anywhere; color: #1b314b; font: 750 clamp(17px, 1.9vw, 22px)/1.45 Georgia, serif; }
+.grammar-articles-example span { display: block; margin-top: 7px; color: #57697b; font-size: 14px; font-weight: 650; line-height: 1.5; }
+.grammar-articles-example--wrong { border-color: #edc6c7; background: #fff8f8; }
+.grammar-articles-example__warning { display: block; margin-bottom: 7px; color: #ad3c43; font-size: 11px; font-weight: 900; }
+.grammar-articles-topic__details { margin-top: 24px; border-top: 1px solid #dce5ec; }
+.grammar-articles-topic__details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 19px 0 0;
+  color: #23537a;
+  font-size: 15px;
+  font-weight: 850;
+  cursor: pointer;
+  list-style: none;
+}
+.grammar-articles-topic__details summary::-webkit-details-marker { display: none; }
+.grammar-articles-topic__details summary span { font-size: 24px; line-height: 1; transition: transform .2s ease; }
+.grammar-articles-topic__details[open] summary span { transform: rotate(45deg); }
+.grammar-articles-topic__full { margin-top: 17px; max-width: 78ch; padding: 3px 20px 12px; border-left: 3px solid #dbe9ee; color: #405268; }
+.grammar-articles-topic__full p { margin: 15px 0; white-space: pre-line; line-height: 1.75; }
+.grammar-articles-topic__body { max-width: 100%; overflow-wrap: anywhere; font-size: clamp(14px, 1.5vw, 17px); line-height: 1.85; }
+.grammar-articles-topic__body p { margin: 14px 0 0; white-space: pre-line; }
+.grammar-articles-topic__body pre { margin: 16px 0 0; max-width: 100%; overflow-x: auto; white-space: pre-wrap; font: inherit; }
+.grammar-articles-map__intro { margin: 0 0 20px; color: #506476; font-size: 17px; line-height: 1.7; }
+.grammar-articles-map__choices { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.grammar-articles-map__choice { min-width: 0; padding: 20px; border: 1px solid; border-radius: 16px; }
+.grammar-articles-map__choice strong { display: block; margin-bottom: 10px; font: 900 28px/1.2 Georgia, serif; }
+.grammar-articles-map__choice p { margin: 0 0 12px; font-size: 14px; font-weight: 750; line-height: 1.65; }
+.grammar-articles-map__choice small { font-size: 12px; line-height: 1.5; }
+.grammar-articles-map__choice--indefinite { border-color: #ecd5a6; background: #fff8e8; color: #765315; }
+.grammar-articles-map__choice--definite { border-color: #bdd5ed; background: #f0f7ff; color: #214d7e; }
+.grammar-articles-map__choice--zero { border-color: #acd9c8; background: #eefaf4; color: #17624c; }
+.grammar-articles-map__checks { margin-top: 24px; padding: 22px 24px; border-radius: 17px; background: #f7fafc; }
+.grammar-articles-map__checks h4 { margin: 0 0 12px; font: 850 19px Georgia, "Noto Serif TC Local", serif; }
+.grammar-articles-map__checks ol { margin: 0; padding-left: 1.5em; display: grid; gap: 9px; line-height: 1.7; }
+.grammar-articles-topic--appendix .grammar-articles-topic__full { max-width: none; }
+.grammar-articles-topic--appendix .grammar-articles-topic__full pre { max-width: 100%; overflow-x: auto; white-space: pre-wrap; font: 600 13px/1.65 ui-monospace, Menlo, monospace; }
+.grammar-articles-curation__finish { margin-top: 28px; padding: clamp(22px, 3vw, 34px); border-radius: 20px; background: var(--portal-wash); }
+.grammar-articles-curation__finish h3 { margin: 0 0 8px; font: 900 25px Georgia, "Noto Serif TC Local", serif; }
+.grammar-articles-curation__finish p { line-height: 1.7; }
+.grammar-lesson-card__secondary { background: transparent !important; color: #fff !important; border: 1px solid rgba(255,255,255,.55) !important; }
+.grammar-lesson-card__secondary:hover,
+.grammar-lesson-card__secondary:focus-visible { background: rgba(255,255,255,.14) !important; }
+.grammar-tense-practice__back { display: flex; flex-wrap: wrap; gap: 8px 15px; align-items: center; }
+.grammar-tense-curation { background: linear-gradient(155deg, #f9fcff 0%, #fffdf8 36%, #f9fcff 100%); }
+.grammar-tense-curation .grammar-articles-curation__head { max-width: 900px; }
+.grammar-tense-curation .grammar-articles-curation__head .eyebrow { margin-top: 20px; color: #13746d; }
+.grammar-tense-deep-dive { margin: 18px 0 4px; padding: clamp(26px, 4vw, 44px); border-radius: 22px; background: linear-gradient(125deg, #153f60, #146d70); color: #fff; }
+.grammar-tense-deep-dive span { display: block; color: #bce8d5; font-size: 12px; font-weight: 900; letter-spacing: .16em; }
+.grammar-tense-deep-dive h3 { margin: 12px 0 8px; font: 900 clamp(25px, 3vw, 35px)/1.3 Georgia, "Noto Serif TC Local", serif; }
+.grammar-tense-deep-dive p { margin: 0; max-width: 70ch; color: #dceef0; font-size: 15px; line-height: 1.75; }
+.grammar-tense-topic { position: relative; overflow: hidden; border-color: #cfdfe4; }
+.grammar-tense-topic::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 5px; background: linear-gradient(#21a393, #4c71b3); }
+.grammar-tense-topic:nth-child(3n + 2)::before { background: linear-gradient(#e7a744, #e1c86e); }
+.grammar-tense-topic:nth-child(3n)::before { background: linear-gradient(#5f78bd, #82b5da); }
+.grammar-tense-topic .grammar-articles-topic__head { align-items: center; }
+.grammar-tense-topic .grammar-articles-topic__head > span { background: #1b676b; }
+.grammar-tense-topic:nth-child(3n + 2) .grammar-articles-topic__head > span { background: #aa7426; }
+.grammar-tense-topic:nth-child(3n) .grammar-articles-topic__head > span { background: #4b65a4; }
+.grammar-tense-topic .grammar-articles-topic__head small { display: block; margin-bottom: 6px; color: #487482; font-size: 11px; font-weight: 900; letter-spacing: .14em; }
+.grammar-tense-topic__focus { max-width: 950px; padding: clamp(18px, 2.5vw, 27px); border-radius: 17px; background: #eaf7f3; }
+.grammar-tense-topic__focus > span,
+.grammar-tense-topic__formula small { display: block; margin-bottom: 8px; color: #1b7066; font-size: 11px; font-weight: 900; letter-spacing: .13em; }
+.grammar-tense-topic__focus p { margin: 0; color: #173e43; font-size: clamp(18px, 2vw, 23px); font-weight: 800; line-height: 1.65; }
+.grammar-tense-topic__formula { margin-top: 13px; padding: 15px 20px; border: 1px solid #ead8ae; border-radius: 14px; background: #fff8e8; }
+.grammar-tense-topic__formula small { color: #8b6026; }
+.grammar-tense-topic__formula strong { display: block; color: #765018; font-size: clamp(15px, 1.8vw, 20px); line-height: 1.55; overflow-wrap: anywhere; }
+.grammar-tense-topic__examples { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 15px; }
+.grammar-tense-example { min-width: 0; padding: 18px 20px; border: 1px solid #d9e3ed; border-radius: 15px; background: #f7faff; }
+.grammar-tense-example p { margin: 0; color: #193c63; font: 750 clamp(17px, 1.9vw, 21px)/1.5 Georgia, serif; overflow-wrap: anywhere; }
+.grammar-tense-example span { display: block; margin-top: 8px; color: #576a7f; font-size: 14px; font-weight: 650; line-height: 1.6; }
+.grammar-tense-topic__check { display: flex; align-items: baseline; gap: 9px 16px; margin-top: 18px; padding: 13px 0 0; border-top: 1px dashed #c9d8de; }
+.grammar-tense-topic__check strong { flex: none; color: #a06923; font-size: 13px; }
+.grammar-tense-topic__check p { margin: 0; color: #4c5f6c; line-height: 1.65; }
+.grammar-tense-checkpoint { margin-top: 22px; padding: clamp(18px, 2.5vw, 25px); border: 1px solid #b8d5cf; border-radius: 17px; background: linear-gradient(145deg, #f0faf5, #f7fbff); }
+.grammar-tense-checkpoint__label { color: #146b64; font-size: 11px; font-weight: 900; letter-spacing: .14em; }
+.grammar-tense-checkpoint h4 { margin: 9px 0 13px; color: #183f49; font-size: clamp(17px, 2vw, 20px); line-height: 1.5; }
+.grammar-tense-checkpoint__choices { display: grid; gap: 8px; }
+.grammar-tense-checkpoint__choices button { width: 100%; padding: 12px 15px; border: 1px solid #cbdadf; border-radius: 11px; background: #fff; color: #25445b; font-family: inherit; font-size: 15px; font-weight: 700; line-height: 1.5; text-align: left; cursor: pointer; }
+.grammar-tense-checkpoint__choices button:hover, .grammar-tense-checkpoint__choices button:focus-visible { border-color: #258678; box-shadow: 0 0 0 3px #25867822; outline: none; }
+.grammar-tense-checkpoint__choices button[data-result="correct"] { border-color: #1c8a68; background: #dcf5e9; color: #0c6049; }
+.grammar-tense-checkpoint__choices button[data-result="retry"] { border-color: #d9a773; background: #fff4e7; color: #805325; }
+.grammar-tense-checkpoint__feedback { margin: 10px 0 0; font-weight: 750; line-height: 1.6; }
+.grammar-tense-checkpoint__feedback[data-result="correct"] { color: #0c6f50; }
+.grammar-tense-checkpoint__feedback[data-result="retry"] { color: #96632c; }
+.grammar-tense-checkpoint [data-checkpoint-why] { margin-top: 18px; padding-top: 17px; border-top: 1px dashed #b8d5cf; }
+.grammar-tense-topic__source { margin: 18px 0 0; color: #697d89; font-size: 12px; font-weight: 750; }
+@media (max-width: 650px) {
+  .grammar-tense-topic__examples { grid-template-columns: 1fr; }
+  .grammar-tense-topic__check { display: block; }
+  .grammar-tense-topic__check p { margin-top: 4px; }
+}
+.grammar-articles-practice .grammar-question__translation { white-space: pre-line; }
+.grammar-articles-practice .grammar-step p { white-space: pre-line; }
+.grammar-articles-practice .grammar-question__prompt { white-space: pre-line; }
+@media (max-width: 560px) {
+  .grammar-articles-curation { padding: 22px 16px; }
+  .grammar-articles-topic__head { align-items: flex-start; }
+  .grammar-articles-topic__head > span { width: 35px; height: 35px; font-size: 15px; }
+  .grammar-articles-example-grid { grid-template-columns: 1fr; }
+  .grammar-articles-map__choices { grid-template-columns: 1fr; }
+  .grammar-articles-topic__full { padding-left: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .grammar-articles-topic,
+  .grammar-articles-topic[data-scroll-visible="true"] { transition: none; transform: none; }
+}
+::highlight(grammar-teaching) { background: #ffe680; color: #242b36; }
+mark.grammar-teaching-highlight { background: #ffe680; color: #242b36; border-radius: 2px; }
+@media (max-width: 600px) { .grammar-highlight-tools { align-items: flex-start; flex-direction: column; } }
+
+/* Module 3 shares the Articles guide and exercise layout. */
+.grammar-lesson-card--advanced-articles {
+  background:
+    radial-gradient(circle at 88% 12%, rgba(163, 224, 211, .19), transparent 38%),
+    linear-gradient(135deg, #254a66, #173854);
+  border-color: rgba(144, 190, 212, .58);
+}
+.grammar-lesson-card--advanced-articles::after { content: "ADVANCED"; }
+
+.grammar-question__focus{margin:0 0 20px;padding:16px 20px;border-left:4px solid #37669c;background:#eef4fc;border-radius:8px;line-break:strict;overflow-wrap:anywhere}.grammar-question__focus p{margin:8px 0 0;line-height:1.7}.grammar-question__focus[hidden]{display:none}

@@ -1,0 +1,43 @@
+/* A quiet utility bar with one home for all display preferences. */
+.calendar-toolbar { position: relative; z-index: 2; grid-template-columns: minmax(180px, .7fr) minmax(360px, 1.6fr); gap: 22px 32px; }
+.calendar-toolbar .week-navigation { max-width: 900px; width: 100%; justify-self: end; }
+.schedule-tools { grid-column: 1 / -1; justify-content: space-between; align-items: center; border-top: 1px solid var(--line); padding-top: 18px; gap: 12px; }
+.schedule-tools__utilities { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.schedule-tools .secondary-button, .schedule-display-settings > summary { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 44px; padding: 10px 16px; border-radius: 12px; font-size: 14px; font-weight: 650; line-height: 1.4; cursor: pointer; box-shadow: none; }
+.schedule-tools svg { width: 18px; height: 18px; flex: 0 0 auto; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.schedule-tools .schedule-today { color: #284d66; background: #e8edf0; border-color: transparent; }
+.schedule-display-settings { position: relative; }
+.schedule-display-settings > summary { list-style: none; background: #294a60; color: #fff; border: 1px solid #294a60; }
+.schedule-display-settings > summary::-webkit-details-marker { display: none; }
+.schedule-settings-chevron { width: 7px; height: 7px; border-right: 1.5px solid; border-bottom: 1.5px solid; transform: rotate(45deg); margin: -4px 2px 0 7px; }
+.schedule-display-settings[open] .schedule-settings-chevron { transform: rotate(225deg); margin-top: 4px; }
+.schedule-settings-panel { position: absolute; z-index: 40; top: calc(100% + 12px); right: 0; width: 330px; max-width: calc(100vw - 40px); padding: 22px; border: 1px solid #ded7cd; border-radius: 18px; background: #fffdf8; box-shadow: 0 18px 50px #263c4d26, 0 3px 10px #263c4d0d; }
+.schedule-settings-heading { display: grid; gap: 6px; padding-bottom: 17px; }
+.schedule-settings-heading strong { font-size: 17px; color: #294a60; }
+.schedule-settings-heading span { font-size: 12px; color: #786d62; }
+.schedule-settings-panel fieldset { border: 0; border-top: 1px solid #e9e2d8; margin: 0; padding: 10px 0 0; min-width: 0; }
+.schedule-settings-panel fieldset + fieldset { margin-top: 16px; }
+.schedule-settings-panel legend { color: #8b7460; padding: 0 10px 0 0; font-size: 11px; font-weight: 700; letter-spacing: .08em; }
+.schedule-settings-panel .subtle-toggle { display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; min-height: 42px; padding: 9px 10px; border: 0; border-radius: 8px; background: transparent; color: #4b443d; box-shadow: none; text-align: left; font-size: 13px; font-weight: 500; }
+.schedule-settings-panel .subtle-toggle::after { content: '−'; display: grid; place-items: center; flex: 0 0 23px; width: 23px; height: 23px; border-radius: 7px; background: #eee9e1; color: #756b60; font: 16px/1 sans-serif; }
+.schedule-settings-panel .subtle-toggle[aria-pressed="true"], .schedule-settings-panel .subtle-toggle[aria-expanded="false"] { background: #eaf0f3; color: #294a60; }
+.schedule-settings-panel .subtle-toggle[aria-pressed="true"]::after, .schedule-settings-panel .subtle-toggle[aria-expanded="false"]::after { content: '+'; background: #d6e2e9; color: #294a60; }
+.schedule-settings-panel .subtle-toggle[hidden] { display: none; }
+.schedule-tools button:hover, .schedule-settings-panel .subtle-toggle:hover { background: #e5eaf0; color: #294a60; }
+.schedule-display-settings > summary:hover { background: #365f78; }
+.schedule-tools :is(button, summary):focus-visible { outline: 3px solid #be8c46; outline-offset: 3px; }
+@media (max-width: 980px) {
+  .calendar-toolbar { grid-template-columns: 1fr; }
+  .calendar-toolbar .week-navigation { max-width: none; }
+}
+@media (max-width: 600px) {
+  .calendar-toolbar { gap: 18px; }
+  .schedule-tools { align-items: stretch; flex-direction: column; padding-top: 14px; }
+  .schedule-tools .schedule-today { align-self: flex-start; }
+  .schedule-tools__utilities { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .schedule-tools .secondary-button, .schedule-display-settings > summary { padding: 10px 9px; font-size: 12px; }
+  .schedule-display-settings { grid-column: 1 / -1; }
+  .schedule-display-settings > summary { width: 100%; }
+  .schedule-settings-panel { position: static; width: 100%; max-width: none; margin-top: 10px; padding: 18px; box-shadow: none; }
+}
+@media print { .schedule-tools { display: none !important; } }

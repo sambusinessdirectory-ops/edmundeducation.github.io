@@ -1,0 +1,1512 @@
+{
+  "id": "p2-064-tricky-sums-and-psychology",
+  "catalogueId": "p2-064",
+  "catalogueIds": [
+    "p2-064"
+  ],
+  "passage": 2,
+  "title": "TRICKY SUMS AND PSYCHOLOGY",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "G",
+    "F",
+    "C",
+    "D",
+    "A",
+    "B",
+    "E",
+    "chocolate",
+    "information",
+    "four",
+    "older",
+    "adults",
+    "challenging"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "G — Harris",
+      "answerKey": "G — Harris",
+      "type": "Question Analysis",
+      "prompt": "“proposed an alternative explanation in which children may not actually understand another person’s beliefs”",
+      "translation": "提出另一種解釋，認為兒童可能其實未真正理解他人的信念。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Features。這題要把一個觀點配到研究者。定位詞是 “alternative"
+            },
+            {
+              "kind": "paragraph",
+              "text": "explanation”、“may not actually understand” 和 “another person’s beliefs”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Harris offers a different explanation: children use ‘simulation’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Harris 提供另一種解釋：兒童使用 “simulation”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thinking about situations that do not exist is known as counterfactual reasoning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "思考並不存在的情境，稱為 counterfactual reasoning。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 H 段是在介紹 Harris 的替代解釋。第一句的 “different explanation” 直接對應題目 “alternative explanation”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “alternative explanation” 對應原文 “different explanation”。“may not actually"
+            },
+            {
+              "kind": "paragraph",
+              "text": "understand another person’s beliefs” 對應原文中 “rather than an ability to appreciate other people’s beliefs”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Success in false-belief tasks may therefore reflect children imagining what they themselves would do as a character in the story, rather than an ability to appreciate other people’s beliefs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，在 false-belief tasks 中成功，可能反映兒童把自己想像成故事中的角色，並想像自己會怎樣做；未必代表他們真正懂得理解別人的信念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 children may not actually understand another person’s beliefs。原文說 task success may reflect simulation，未必代表 ability to appreciate other people’s beliefs。這就是同一個觀點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "F — Schatz",
+      "answerKey": "F — Schatz",
+      "type": "Question Analysis",
+      "prompt": "“found that children younger than four can distinguish mental states from reality”",
+      "translation": "發現四歲以下兒童也能區分 mental states 和 reality。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Features。定位詞是 “younger than four”、“distinguish mental states from"
+            },
+            {
+              "kind": "paragraph",
+              "text": "reality”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is also concern that some aspects of the ToM approach underestimate children’s understanding of other people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也有人擔心，ToM approach 的某些方面低估了兒童理解他人的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children’s social abilities therefore indicate that they distinguish mental states from external reality at ages younger than four.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，兒童的社交能力顯示，他們在四歲前已能把 mental states 和 external reality 區分開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 G 段在挑戰「四歲前兒童完全不懂 mental states」的想法。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“younger than four” 和最後一句高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目中的 “found” 要找研究者。G 段中出現 Schatz："
+            },
+            {
+              "kind": "quote",
+              "text": "“Schatz studied the spontaneous speech of three-year-olds...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Schatz studied the spontaneous speech of three-year-olds and found that they used mental terms in situations involving a contrast—for example, between uncertainty about an object’s location and finding it, or between pretence and reality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Schatz 研究三歲兒童的 spontaneous speech，發現他們會在涉及對比的情境中使用 mental terms，例如物件位置不確定和找到物件之間的對比，或 pretence 和 reality 之間的對比。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句總結："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children’s social abilities therefore indicate that they distinguish mental states from external reality at ages younger than four.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，兒童的社交能力顯示，他們在四歲前已能區分 mental states 和 external reality。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Schatz 研究 three-year-olds，即四歲以下兒童。題目把三歲兒童研究概括為 children younger than four。答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "C — Wimmer and Perner",
+      "answerKey": "C — Wimmer and Perner",
+      "type": "Question Analysis",
+      "prompt": "“conducted a well-known experiment and concluded that young children could not understand a person’s false belief”",
+      "translation": "進行一個著名實驗，並得出年幼兒童不能理解他人 false belief 的結論。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Features。定位詞是 “well-known experiment”、“young children”、“false"
+            },
+            {
+              "kind": "paragraph",
+              "text": "belief”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wimmer and Perner devised a ‘false-belief task’ to investigate this issue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wimmer and Perner 設計了一個 “false-belief task” 來研究這個問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They fail to appreciate that he will act on his belief rather than on how the world is actually organised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們未能理解 Maxi 會按照自己的信念行動，而非按照世界實際狀態行動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 段很明顯是 Wimmer and Perner 的 false-belief experiment。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“conducted a well-known experiment” 就是指這個 Maxi chocolate task。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "研究者定位詞 Wimmer and Perner 直接出現在 B 段第一句。題目中的 “young children"
+            },
+            {
+              "kind": "paragraph",
+              "text": "could not understand” 對應原文 “Most children under four incorrectly answer...” 和 “fail to appreciate”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most children under four incorrectly answer that he will look in the green cupboard, whereas children over four tend to answer correctly that he will look in the blue cupboard.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數四歲以下兒童錯誤回答他會在綠色櫃子找；四歲以上兒童則傾向正確回答他會在藍色櫃子找。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The incorrect answers suggest that younger children do not understand that Maxi’s belief no longer corresponds to the actual state of the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些錯誤答案顯示，年幼兒童不理解 Maxi 的信念已經不再符合世界的實際狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “could not understand a person’s false belief” 對應 “do not understand that Maxi’s belief no longer corresponds to the actual state of the world”。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "D — Lewis",
+      "answerKey": "D — Lewis",
+      "type": "Question Analysis",
+      "prompt": "“found that children who interact with more adults tend to pass ToM tests at an earlier age”",
+      "translation": "發現和更多成人互動的兒童，較早通過 ToM tests。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Features。定位詞是 “more adults”、“pass ToM tests”、“earlier age”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lewis investigated older children living in extended families in Crete and Cyprus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lewis 研究住在 Crete 和 Cyprus extended families 中的較年長兒童。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dunn makes a similar point, arguing that peer interaction is more likely to include pretend play and to be more challenging because other children, unlike adults, do not make large adjustments for a child’s communicative needs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dunn 提出相近觀點，認為 peer interaction 更可能包含 pretend play，也更具挑戰性，因為其他兒童不像成人那樣，會為兒童的溝通需要作大幅調整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 段首句直接出現 Lewis，並且本段主題是 social interaction 對 ToM 的影響。題目中的 adults 是強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lewis found that children who interacted socially with more adults, had more friends and had older siblings tended to pass ToM tasks at a slightly earlier age than other children.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lewis 發現，和更多成人有社交互動、有更多朋友、並有年長兄弟姊妹的兒童，往往比其他兒童稍早通過 ToM tasks。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "interact with more adults= interacted socially with more adults pass ToM tests at an earlier age= pass ToM tasks at a slightly earlier age題目只抽出其中一個社交因素：more adults。原文還有 more friends 和 older siblings，但這不影響答案。研究者是 Lewis，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A — Baron-Cohen",
+      "answerKey": "A — Baron-Cohen",
+      "type": "Question Analysis",
+      "prompt": "“devised a simpler experiment to exclude the effects of complex reasoning and excessive information”",
+      "translation": "設計較簡單的實驗，以排除複雜推理和過多資訊造成的影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Features。定位詞是 “simpler experiment”、“complex reasoning”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“excessive information”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“Baron-Cohen devised a simpler version of the Maxi task in response to criticism that younger children might have been affected by the original story’s complexity and quantity of information.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Baron-Cohen 因應批評，設計了較簡單版本的 Maxi task；批評指出，年幼兒童可能受到原本故事的複雜程度和資訊量影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Results from false-belief tasks have been fairly consistent: most normally developing children cannot pass them until around the age of four.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "false-belief tasks 的結果相當一致：大部分正常發展兒童要到大約四歲才通過。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已經直接給出答案。題目中的 “simpler experiment” 對應 “simpler version”；“excessive information” 對應 “quantity of information”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞 Baron-Cohen 在 C 段第一句出現。題目中的 complex reasoning 可用原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“complexity” 對應；excessive information 可用 “quantity of information” 對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Baron-Cohen devised a simpler version of the Maxi task in response to criticism that younger children might have been affected by the original story’s complexity and quantity of information.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Baron-Cohen 設計較簡單版本，是回應一個批評：年幼兒童可能受原故事複雜度和資訊量影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “complexity and quantity of information” 改寫成 “complex reasoning and excessive information”。雖然 “complex reasoning” 不是逐字重現，但它概括了 original story’s complexity 對兒童理解造成的負擔。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "B — Meins",
+      "answerKey": "B — Meins",
+      "type": "Question Analysis",
+      "prompt": "“linked a social factor, such as mother–child communication, with ToM ability”",
+      "translation": "把一個社會因素，例如母子溝通，和 ToM ability 聯繫起來。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Features。定位詞是 “mother–child communication”、“social factor”、“ToM"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ability”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is also evidence that social processes contribute to the development of ToM.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也有證據顯示，social processes 會促進 ToM 發展。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mind-minded speech discusses an infant’s feelings and explains behaviour in terms of mental states, for example, ‘You’re feeling hungry.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mind-minded speech 會談論嬰兒的感受，並以 mental states 解釋行為，例如：「你覺得餓了。」只看首尾句，可以判斷 E 段主題是 social processes 和 ToM development。題目中的mother–child communication 正好對應 mothers’ speech。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "研究者定位詞是 Meins。原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meins and her colleagues found that what they call mind-mindedness in mothers’ speech to six-month-old infants is related both to secure attachment and to later ToM ability.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Meins 和同事發現，他們稱為 mind-mindedness 的現象，即母親對六個月大嬰兒說話時談及心理狀態，和 secure attachment 及日後 ToM ability 均有關。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "social factor= social processes / mothers’ speech mother–child communication= mothers’ speech to six-month-old infants linked with ToM ability= is related to later ToM ability所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "E — Dunn",
+      "answerKey": "E — Dunn",
+      "type": "Question Analysis",
+      "prompt": "“explained that children discuss thoughts and feelings less often with their mothers than with their peers”",
+      "translation": "解釋兒童和母親談 thoughts and feelings 的頻率，低於和同伴談這些內容的頻率。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Features。定位詞是 “thoughts and feelings”、“mothers”、“peers”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lewis investigated older children living in extended families in Crete and Cyprus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lewis 研究住在 Crete 和 Cyprus extended families 中的較年長兒童。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dunn makes a similar point, arguing that peer interaction is more likely to include pretend play and to be more challenging because other children, unlike adults, do not make large adjustments for a child’s communicative needs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dunn 提出相近觀點，認為 peer interaction 更可能包含 pretend play，並且更具挑戰性，因為其他兒童不像成人那樣為孩子的溝通需要作大幅調整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 段中有 Lewis 和 Dunn 兩位研究者。Q17 已由 Lewis 的 more adults 定案；Q20 的 peers /mothers 比較出現在 Dunn 觀點前後。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目中的 “thoughts and feelings” 原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Young children are also more likely to discuss their thoughts and feelings with peers than with their mothers, so interaction with peers may provide a special impetus for ToM development.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "年幼兒童也更可能和同伴討論自己的想法和感受，多於和母親討論；因此，與同伴互動可能為ToM 發展提供特別推動力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "緊接下一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dunn makes a similar point, arguing that peer interaction is more likely to include pretend play and to be more challenging...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dunn 提出相近觀點，認為同伴互動更可能包含 pretend play，也更具挑戰性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的精確證據是 peers vs mothers 的比較句；研究者配對要落在下一句的 Dunn，因為文章說Dunn makes a similar point，並繼續解釋 peer interaction 的特別作用。選項中沒有 “writer” 或一般研究背景，最貼近的研究者是 Dunn。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Step 4：Summary Completion 逐題分析"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "chocolate",
+      "answerKey": "chocolate",
+      "type": "Question Analysis",
+      "prompt": "“In the first experiment, children heard a story about a boy and were asked where he would look for his 21 ________________.”",
+      "translation": "在第一個實驗中，兒童聽到一個關於男孩的故事，並被問他會在哪裡找自己的甚麼。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion。限制是 ONE WORD ONLY。空格前是 “his”，需要一個單數"
+            },
+            {
+              "kind": "paragraph",
+              "text": "名詞。定位詞是 “first experiment”、“boy”、“where he would look”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wimmer and Perner devised a ‘false-belief task’ to investigate this issue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wimmer and Perner 設計了 false-belief task 研究這個問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They fail to appreciate that he will act on his belief rather than on how the world is actually organised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們未能理解 Maxi 會按照自己的信念行動，而非按照世界實際狀態行動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "summary 的 “first experiment” 對應 Wimmer and Perner 的 Maxi task。原文中男孩是 Maxi"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，物件是 chocolate。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Maxi leaves some chocolate in a blue cupboard before going out.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Maxi 外出前，把一些 chocolate 留在藍色櫃子裡。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children are asked to predict where Maxi will look for the chocolate when he returns.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童被要求預測 Maxi 回來後會在哪裡找 chocolate。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格問 he would look for his ___。原文答案是 chocolate。ONE WORD ONLY，答案正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "information",
+      "answerKey": "information",
+      "type": "Question Analysis",
+      "prompt": "“The task was criticised for containing too much 22 ________________.”",
+      "translation": "這個 task 被批評包含太多甚麼。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion。限制是 ONE WORD ONLY。空格前是 “too much”，需要不可"
+            },
+            {
+              "kind": "paragraph",
+              "text": "數名詞或抽象名詞。定位詞是 “criticised”、“too much”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Baron-Cohen devised a simpler version of the Maxi task in response to criticism that younger children might have been affected by the original story’s complexity and quantity of information.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Baron-Cohen 因應批評，設計了較簡單的 Maxi task 版本；批評指出，年幼兒童可能受到原本故事的複雜度和資訊量影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Results from false-belief tasks have been fairly consistent: most normally developing children cannot pass them until around the age of four.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "false-belief tasks 的結果相當一致：大部分正常發展兒童要到大約四歲才可通過。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “criticised” 對應原文 “in response to criticism”。“too much” 對應 “quantity of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "information”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文答案短語是 “quantity of information”。Summary 改寫成 “containing too much ___”，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此空格應填 “information”。如果填 “complexity”，文法上 “too much complexity” 可以成立，但原文同時有 complexity 和 quantity of information；題目中的 “containing too much” 更直接指"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“information”。ONE WORD ONLY，答案是 information。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "four",
+      "answerKey": "four",
+      "type": "Question Analysis",
+      "prompt": "“A second, simplified experiment used two dolls, and most children could pass it at age 23________________.”",
+      "translation": "第二個簡化實驗使用兩個 dolls，大部分兒童在幾歲時能通過。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion。限制是 ONE WORD ONLY。空格前是 “at age”，答案要填年"
+            },
+            {
+              "kind": "paragraph",
+              "text": "齡，通常是一個數字或數字詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Baron-Cohen devised a simpler version of the Maxi task in response to criticism that younger children might have been affected by the original story’s complexity and quantity of information.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Baron-Cohen 因應批評，設計較簡單版本，避免原故事的複雜度和資訊量影響年幼兒童。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Results from false-belief tasks have been fairly consistent: most normally developing children cannot pass them until around the age of four.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "false-belief tasks 的結果相當一致：大部分正常發展兒童要到大約四歲才可通過。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “second, simplified experiment” 對應 Baron-Cohen 的 Sally-Anne task。年齡資"
+            },
+            {
+              "kind": "paragraph",
+              "text": "訊在 C 段末句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "關鍵句說 “cannot pass them until around the age of four”。這代表到了大約四歲才可通"
+            },
+            {
+              "kind": "paragraph",
+              "text": "過。Summary 寫成 “could pass it at age ___”，空格填 four 最自然。ONE WORD ONLY，答案是four。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "older",
+      "answerKey": "older",
+      "type": "Question Analysis",
+      "prompt": "“Lewis then studied 24 _________________ children in extended families and found that those who interacted more with 25 _________________ performed better.”",
+      "translation": "Lewis 接著研究 extended families 中的哪一類兒童，並發現和更多甚麼互動的兒童表現較好。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion。限制是 ONE WORD ONLY。空格在 “studied ___ children”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中，需要形容詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lewis investigated older children living in extended families in Crete and Cyprus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lewis 研究住在 Crete 和 Cyprus extended families 中的較年長兒童。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dunn makes a similar point, arguing that peer interaction is more likely to include pretend play and to be more challenging because other children, unlike adults, do not make large adjustments for a child’s communicative needs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dunn 提出相近觀點，認為 peer interaction 更可能包含 pretend play，也更具挑戰性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 Lewis、children、extended families 全部在 F 段第一句出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lewis investigated older children living in extended families in Crete and Cyprus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lewis 研究住在 extended families 中的 older children。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前後是 “studied ___ children”，所以填形容詞 older。ONE WORD ONLY，答案是 older。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "adults",
+      "answerKey": "adults",
+      "type": "Question Analysis",
+      "prompt": "“Lewis then studied 24 _________________ children in extended families and found that those who interacted more with 25 _________________ performed better.”",
+      "translation": "Lewis 發現，和更多甚麼互動的兒童表現較好。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion。限制是 ONE WORD ONLY。空格前是 “interacted more with”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，答案要填互動對象，通常是複數名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lewis investigated older children living in extended families in Crete and Cyprus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lewis 研究住在 Crete 和 Cyprus extended families 中的較年長兒童。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dunn makes a similar point, arguing that peer interaction is more likely to include pretend play and to be more challenging because other children, unlike adults, do not make large adjustments for a child’s communicative needs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dunn 提出相近觀點，說 peer interaction 更可能包含 pretend play，也更具挑戰性。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “interacted more with” 對應原文 “interacted socially with more adults”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lewis found that children who interacted socially with more adults, had more friends and had older siblings tended to pass ToM tasks at a slightly earlier age than other children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lewis 發現，和更多成人有社交互動、有更多朋友、並有年長兄弟姊妹的兒童，往往比其他兒童稍早通過 ToM tasks。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 只抽出 interacted socially with more adults 這一項。ONE WORD ONLY，答案是adults。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "challenging",
+      "answerKey": "challenging",
+      "type": "Question Analysis",
+      "prompt": "“Dunn argued that interaction with peers is more 26 _________________ because it includes pretend play.”",
+      "translation": "Dunn 認為 peer interaction 更加怎樣，因為它包含 pretend play。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Summary Completion。限制是 ONE WORD ONLY。空格前是 “more”，需要形容詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Dunn、peers、pretend play。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lewis investigated older children living in extended families in Crete and Cyprus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lewis 研究 extended families 中的較年長兒童。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dunn makes a similar point, arguing that peer interaction is more likely to include pretend play and to be more challenging because other children, unlike adults, do not make large adjustments for a child’s communicative needs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dunn 提出相近觀點，認為 peer interaction 更可能包含 pretend play，也更具挑戰性，因為其他兒童不像成人那樣大幅調整溝通方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 Dunn 和 pretend play 直接定位到 F 段最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句有兩個 “more”："
+            },
+            {
+              "kind": "quote",
+              "text": "“peer interaction is more likely to include pretend play”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：peer interaction 更可能包含 pretend play。"
+            },
+            {
+              "kind": "quote",
+              "text": "“and to be more challenging”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：並且更具挑戰性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子是 “interaction with peers is more ___ because it includes pretend play”。空格需要一個形容詞，不能填 likely，因為 “more likely because it includes...” 文法和意思都不自然。最合適的原文答案是 challenging。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 challenging。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - TRICKY SUMS AND PSYCHOLOGY.pdf",
+    "sha256": "6aa44c1b6c4030e20da83ab774f59e54aee137e2929eb3568eaa4d79a50a0d9e",
+    "pageCount": 16
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Step 1：全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "A 段首句說，自 1980 年代中期以來，大量研究集中在 children’s theory of mind。末句說，由於一個有影響力的 autism 解釋認為受影響兒童缺乏 ToM，所以兒童 ToM 發展受到高度關注。只看首尾句，可以先判斷本段是全文背景段：它定義 ToM，說明 ToM 和信念理解、認知發展、社交發展、autism 的關係，並交代為何 false-belief research 重要。"
+      },
+      {
+        "number": "B",
+        "summary": "B 段首句說 Wimmer and Perner 設計了 false-belief task 研究這個問題。末句說年幼兒童未能理解 Maxi 會按自己的 belief 行動，而非按世界實際狀態行動。只看首尾句，可以估計本段會介紹經典 Maxi chocolate 實驗：兒童要預測 Maxi 回來後到哪個 cupboard 找 chocolate。題目若問 first experiment、false belief、young children failing，應優先看 B 段。"
+      },
+      {
+        "number": "C",
+        "summary": "C 段首句說 Baron-Cohen 因應批評，設計了較簡單的 Maxi task 版本。末句說 false-belief tasks的結果相當一致：大部分正常發展兒童要到大約四歲才可通過。只看首尾句，可以判斷本段主題是 Sally-Anne task。中間會交代 basket、box、marble 和通過條件，並說明兒童要理解別人的mental representation 和自己的 knowledge 不同。"
+      },
+      {
+        "number": "D",
+        "summary": "D 段首句說 Leslie 認為 18 個月前的兒童以字面方式理解世界，較少進行 pretence。末句用banana 當 telephone 的例子說明 secondary representation 如何操作。只看首尾句，可以估計本段主題是 pretend play 和 representation 系統。它不是直接講 false-belief test 分數，重點在兒童如何把現實表徵和假裝表徵分開，從而解釋想像能力。"
+      },
+      {
+        "number": "E",
+        "summary": "E 段首句說，也有證據顯示 social processes 會促進 ToM 發展。末句以 “You’re feeling hungry”作例子，說明 mind-minded speech 會談到嬰兒感受，並用 mental states 解釋行為。只看首尾句，可以知道本段聚焦 Meins 的研究：母親對六個月大嬰兒使用 mind-minded speech，和 secure attachment 及日後 ToM ability 有關。"
+      },
+      {
+        "number": "F",
+        "summary": "F 段首句說 Lewis 研究 Crete 和 Cyprus extended families 中較年長兒童。末句說 Dunn 認為peer interaction 更常包含 pretend play，也更具挑戰性，因為其他兒童不像成人那樣大幅調整溝通方式。只看首尾句，可以判斷本段主題是 social interaction 對 ToM 的作用。中間提到更多adults、friends、older siblings、peers 和 mothers 的比較。"
+      },
+      {
+        "number": "G",
+        "summary": "G 段首句說，有人擔心 ToM approach 的某些面向低估了兒童理解他人的能力。末句說兒童社交能力顯示，他們在四歲前已能把 mental states 和 external reality 區分開。只看首尾句，可以知道本段是對傳統 false-belief interpretation 的質疑。中間會提 infants pointing、empathy、Schatz 對三歲兒童 spontaneous speech 的研究，以及 pretence / reality contrast。"
+      },
+      {
+        "number": "H",
+        "summary": "H 段首句說 Harris 提供另一種解釋：兒童使用 simulation。末句說思考不存在的情境稱為counterfactual reasoning。只看首尾句，可以判斷本段介紹 alternative explanation。它把false-belief task 的成功解釋為兒童把自己放進故事角色位置，想像自己會怎樣做；這未必等同真正理解他人 belief。題目若問 alternative explanation 或 not actually understand beliefs，應看 H段。"
+      }
+    ]
+  }
+}

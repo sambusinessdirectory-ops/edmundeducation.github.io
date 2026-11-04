@@ -1,0 +1,2817 @@
+{
+  "id": "p1-158-facial-expression",
+  "catalogueId": "p1-158",
+  "catalogueIds": [
+    "p1-158"
+  ],
+  "passage": 1,
+  "title": "Facial Expression",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "misidentified",
+    "emotions",
+    "concealed",
+    "cultural background",
+    "exposed",
+    "C",
+    "A",
+    "D",
+    "H",
+    "D",
+    "B",
+    "B",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "misidentified",
+      "answerKey": "misidentified",
+      "type": "Question Analysis",
+      "prompt": "“The results of Ekman’s study showed that fear and surprise were persistently 1____________.”",
+      "translation": "Ekman 研究的結果顯示，恐懼和驚訝一直被怎樣處理／辨認。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這一格需要一個過去分詞或形容詞，因為空格前面是 “were persistently”。文法上應填入類似"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“misunderstood”、“confused”、“misidentified” 這類表示「被錯誤辨認」的詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G第一句：“Although the isolated South Fore people identified emotions as accurately as the non-isolated control group, both fear and surprise were consistently misidentified.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然與非隔離的對照組相比，處於隔離狀態的 South Fore 人同樣能準確辨認情緒，但恐懼和驚訝這兩種情緒一直被錯誤辨認。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The study concluded that certain facial expressions correspond to particular emotions and cannot be concealed, regardless of cultural background and whether or not the culture has been isolated or exposed to the mainstream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究總結指出，某些面部表情與特定情緒相對應，而且不能被隱藏，不論文化背景如何，也不論該文化是否曾被隔離，還是已接觸主流文化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph G 的首尾句，已經可以看出這段是在交代 Ekman 研究的結果和結論。題目summary 也正正寫 “The results of Ekman’s study showed…”，所以 Paragraph G 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“fear and surprise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“persistently”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph G 時，可以直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“both fear and surprise were consistently misidentified.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 fear、surprise，而且 “consistently” 對應題目的 “persistently”，所以值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the isolated South Fore people identified emotions as accurately as the non-isolated control group, both fear and surprise were consistently misidentified.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然與非隔離的對照組相比，處於隔離狀態的 South Fore 人同樣能準確辨認情緒，但恐懼和驚訝這兩種情緒一直被錯誤辨認。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “both fear and surprise”。核心動詞結構是 “were consistently misidentified”。這表示 fear 和 surprise 不是被準確辨認，而是一直被錯誤辨認。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“persistently”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“consistently”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“were persistently ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“were consistently misidentified”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 misidentified。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “identified”。原文前半句確實有 “identified emotions as accurately as…”，但真正講 fear and surprise 的地方是後半句 “were consistently misidentified”。前半句是整體情緒辨認能力，後半句才是 fear and surprise 的具體結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： misidentified 是一個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "emotions",
+      "answerKey": "emotions",
+      "type": "Question Analysis",
+      "prompt": "“It concluded that some facial expressions correspond to particular 2 ____________…”",
+      "translation": "研究總結指出，某些面部表情與特定的甚麼相對應。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 “particular”，所以空格需要一個名詞。題目問 facial expressions correspond to particular something，即「面部表情對應某些特定東西」。根據文章主題，最可能是 emotions。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the isolated South Fore people identified emotions as accurately as the non-isolated control group, both fear and surprise were consistently misidentified.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然與非隔離的對照組相比，處於隔離狀態的 South Fore 人同樣能準確辨認情緒，但恐懼和驚訝這兩種情緒一直被錯誤辨認。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The study concluded that certain facial expressions correspond to particular emotions and cannot be concealed, regardless of cultural background and whether or not the culture has been isolated or exposed to the mainstream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究總結指出，某些面部表情與特定情緒相對應，而且不能被隱藏，不論文化背景如何，也不論該文化是否曾被隔離，還是已接觸主流文化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 明顯是在講 study result 和 conclusion。這一題的 summary 句子幾乎直接改寫 Paragraph G 最後一句，因此目標段落非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“concluded”"
+            },
+            {
+              "kind": "quote",
+              "text": "“facial expressions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“correspond to particular”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph G 時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The study concluded that certain facial expressions correspond to particular emotions…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句與題目結構幾乎完全一致。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The study concluded that certain facial expressions correspond to particular emotions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究總結指出，某些面部表情與特定情緒相對應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “certain facial expressions” 對應題目的 “some facial expressions”。“correspond to particular emotions” 則直接提供答案。空格前面的 “particular” 已經在原文保留，因此答案只需要填 emotions。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“some facial expressions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“certain facial expressions”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“correspond to particular ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“correspond to particular emotions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 emotions。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “facial expressions”，因為空格前面已經有 “some facial expressions”。題目不是說「某些情緒對應表情」，而是說「某些表情對應特定情緒」。主體和對象不能倒轉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： emotions 是一個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "concealed",
+      "answerKey": "concealed",
+      "type": "Question Analysis",
+      "prompt": "“…and cannot be 3 ____________…”",
+      "translation": "而且不能被怎樣。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 “cannot be”，所以空格需要過去分詞。意思上，題目在問某些表情不能被做甚麼。原文答案應該是 “concealed”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the isolated South Fore people identified emotions as accurately as the non-isolated control group, both fear and surprise were consistently misidentified.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然與非隔離的對照組相比，處於隔離狀態的 South Fore 人同樣能準確辨認情緒，但恐懼和驚訝這兩種情緒一直被錯誤辨認。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The study concluded that certain facial expressions correspond to particular emotions and cannot be concealed, regardless of cultural background and whether or not the culture has been isolated or exposed to the mainstream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究總結指出，某些面部表情與特定情緒相對應，而且不能被隱藏，不論文化背景如何，也不論該文化是否曾被隔離，還是已接觸主流文化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 最後一句正是這組 summary 的來源。空格 3 也在同一句內，因此不需要跨段推論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot be”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph G 時，可以看到原文完全重現："
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot be concealed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是答案所在。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The study concluded that certain facial expressions correspond to particular emotions and cannot be concealed…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究總結指出，某些面部表情與特定情緒相對應，而且不能被隱藏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個並列結論：第一，certain facial expressions correspond to particular emotions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，these expressions cannot be concealed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “cannot be 3 ______” 保留了原文的被動結構，因此答案必須填入原文的過去分詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“concealed”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "這一題幾乎是原字重現："
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot be ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot be concealed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 concealed。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “hidden”。雖然 hidden 和 concealed 意思相近，但題目要求從文章中選字，文章用的是concealed。Summary Completion 不能自行把原文字換成自己的近義詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： concealed 是一個字，符合 NO MORE THAN TWO WORDS，而且文法上可以接在 “cannot be”後面。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "cultural background",
+      "answerKey": "cultural background",
+      "type": "Question Analysis",
+      "prompt": "“…regardless of 4 ____________…”",
+      "translation": "不論甚麼如何。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 “regardless of”，後面需要名詞或名詞短語。題目在問：這個研究結論不受哪個因素影響。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the isolated South Fore people identified emotions as accurately as the non-isolated control group, both fear and surprise were consistently misidentified.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然與非隔離的對照組相比，處於隔離狀態的 South Fore 人同樣能準確辨認情緒，但恐懼和驚訝這兩種情緒一直被錯誤辨認。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The study concluded that certain facial expressions correspond to particular emotions and cannot be concealed, regardless of cultural background and whether or not the culture has been isolated or exposed to the mainstream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究總結指出，某些面部表情與特定情緒相對應，而且不能被隱藏，不論文化背景如何，也不論該文化是否曾被隔離，還是已接觸主流文化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格 4 直接來自 Paragraph G 最後一句的 “regardless of cultural background”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“regardless of”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph G 時，可以直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“regardless of cultural background…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…regardless of cultural background and whether or not the culture has been isolated or exposed to the mainstream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不論文化背景如何，也不論該文化是否曾被隔離，還是已接觸主流文化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “regardless of” 表示「不論、不受……影響」。它後面有兩組限制：第一組是 cultural background。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二組是 whether or not the culture has been isolated or exposed to the mainstream。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 4 要填的是第一組，所以答案是 cultural background。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "這題不是深度同義改寫，而是原文結構直接保留："
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“regardless of ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“regardless of cultural background”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 cultural background。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 cultural。空格需要的是完整名詞短語；“regardless of cultural” 文法不完整。也不要填background only，因為原文真正意思是文化背景，而不是任何一般背景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： cultural background 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "exposed",
+      "answerKey": "exposed",
+      "type": "Question Analysis",
+      "prompt": "“…or whether a culture has been isolated or 5 ____________ to the mainstream.”",
+      "translation": "或者某個文化是否曾被隔離，還是曾經怎樣接觸主流文化。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 “has been isolated or”，後面有 “to the mainstream”。文法上要填一個過去分詞，與"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“has been” 形成被動結構。原文是 “exposed to the mainstream”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G第一句：“Although the isolated South Fore people identified emotions as accurately as the non-isolated control group, both fear and surprise were consistently misidentified.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然與非隔離的對照組相比，處於隔離狀態的 South Fore 人同樣能準確辨認情緒，但恐懼和驚訝這兩種情緒一直被錯誤辨認。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The study concluded that certain facial expressions correspond to particular emotions and cannot be concealed, regardless of cultural background and whether or not the culture has been isolated or exposed to the mainstream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究總結指出，某些面部表情與特定情緒相對應，而且不能被隱藏，不論文化背景如何，也不論該文化是否曾被隔離，還是已接觸主流文化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句正好是題目 summary 的來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“isolated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mainstream”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph G 時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“whether or not the culture has been isolated or exposed to the mainstream.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “isolated” 和 “mainstream” 都與題目重合，答案就在兩者之間。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…whether or not the culture has been isolated or exposed to the mainstream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不論該文化是否曾被隔離，還是已接觸主流文化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有一個平行結構： has been isolated or has been exposed to the mainstream題目保留了 “has been isolated or ______ to the mainstream”，所以空格要填 exposed。完整意思是「被暴露於／接觸到主流文化」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "這題幾乎原字重現："
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“has been isolated or ______ to the mainstream”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“has been isolated or exposed to the mainstream”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 exposed。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “the mainstream”。題目空格後面已經有 “to the mainstream”，如果填入 “the mainstream”，句子會變成 “or the mainstream to the mainstream”，文法和意思都錯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： exposed 是一個字，符合 NO MORE THAN TWO WORDS，並且能與 “has been” 組成被動語態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 6–11這組是 Matching Information。黃金手冊指出，這類題不一定按文章順序，做法是先建立段落地圖，再用題目中的稀有概念和同義詞定位，最後確認該段真的包含題目要求的「資訊功能」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "“The difficulty of identifying the actual meaning of facial expressions”",
+      "translation": "辨認面部表情真正意思的困難。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪一段講「解讀表情很困難」。核心不是 facial expressions 這個大主題，因為全文很多段都有這個詞；真正控制答案的是 difficulty 和 actual meaning。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some expressions can be accurately interpreted even between members of different species—anger and extreme contentment being the primary examples.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些表情甚至可以在不同物種的成員之間被準確理解，憤怒和極度滿足就是主要例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some faces are mistakenly read as expressing emotion even when they are neutral, because their natural proportions resemble those that another face would temporarily assume when expressing emotion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些臉即使處於中性狀態，也會被錯誤解讀為正在表達情緒，因為它們天生的比例像另一張臉在暫時表達某種情緒時的樣子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph C 是在討論表情解讀有時準確、有時困難，尤其最後一句講到mistakenly read，即錯誤解讀。這和題目中的 difficulty of identifying actual meaning 非常接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“difficulty”"
+            },
+            {
+              "kind": "quote",
+              "text": "“identifying”"
+            },
+            {
+              "kind": "quote",
+              "text": "“actual meaning”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph C 時，不一定會看到 difficulty 這個字，但會看到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others, however, are difficult to interpret even in familiar individuals.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“reading them requires considerable sensitivity…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是 difficulty 的同義或相關概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Others, however, are difficult to interpret even in familiar individuals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，另一些表情即使出現在熟悉的人身上，也很難解讀。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“For instance, disgust and fear can be tough to tell apart.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，厭惡和恐懼可能很難分辨。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because faces have only a limited range of movement, expressions rely upon fairly minuscule differences in the proportion and relative position of facial features, and reading them requires considerable sensitivity to the same.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為臉部只有有限的活動範圍，表情依靠面部特徵比例和相對位置中相當細微的差別，而解讀這些差別需要相當敏銳的觀察力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾句一起說明表情的真正意思不容易辨認。原因是不同情緒可能很相似，例如 disgust 和 fear；而面部動作的變化幅度有限，差異可能非常細微。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“difficulty of identifying”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“difficult to interpret” / “tough to tell apart” / “requires considerable sensitivity”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“actual meaning of facial expressions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“reading them” / “interpret” / “expressing emotion”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也講表情和情緒的關係，但它的重點是 voluntary 和 involuntary，不是「解讀困難」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 6 的控制詞是 difficulty，所以 Paragraph C 更精確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法： Matching Information 不能只找主題詞。facial expressions 在全篇都出現，真正有定位力的是difficulty、interpret、tell apart、mistakenly read 這一組語義。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Question Analysis",
+      "prompt": "“An initial description of the role of culture in facial expressions”",
+      "translation": "文章最初對文化在面部表情中所扮演角色的描述。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找「初步提到文化和面部表情關係」的段落。題目中的 initial 很重要，表示不是後面詳細研究文化差異的段落，而是文章開首對這個問題的初次描述。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A facial expression consists of one or more movements or positions of the facial muscles beneath the skin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "面部表情由皮膚下方一個或多個面部肌肉的動作或位置構成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Facial expressions and their significance to the observer can, to some extent, vary between cultures, as descriptions in the works of Charles Darwin indicate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如 Charles Darwin 作品中的描述所顯示，面部表情以及觀察者對其意義的理解，在某種程度上可能因文化而異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph A 的首尾句，可以看出這段是整篇文章的入門介紹。第一句給出 facial expression 的基本定義，最後一句則初步指出文化可能影響表情的意義。這正是題目中的 initial description。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“culture”"
+            },
+            {
+              "kind": "quote",
+              "text": "“role”"
+            },
+            {
+              "kind": "quote",
+              "text": "“initial description”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph A 時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“vary between cultures”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是文章第一次把 facial expressions 和 culture 連起來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Facial expressions and their significance to the observer can, to some extent, vary between cultures, as descriptions in the works of Charles Darwin indicate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如 Charles Darwin 作品中的描述所顯示，面部表情以及觀察者對其意義的理解，在某種程度上可能因文化而異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Facial expressions and their significance to the observer”。核心動詞是 “can vary”。程度詞是 “to some extent”，即「在某種程度上」。這一點很重要：原文不是說所有表情完全由文化決定，而只是說表情及其意義可能在一定程度上因文化而不同。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the role of culture”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“vary between cultures”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“initial description”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文位置： Paragraph A 作為文章開首段落，第一次提出文化差異問題。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 和 F 也大量討論文化，尤其提到 anthropologists、Darwin 和 Ekman。但是Question 7 說的是 initial description，即最初的描述。Paragraph E 和 F 是後面對文化學習說與普遍性理論的研究討論，不是最初引入文化角色的位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法：如果題目有 initial、first、early、original 這些時間或順序限制詞，不能只找概念本身，還要看它在文章中首次出現的位置。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "“Research data on the relationship between blink rates and success in elections”",
+      "translation": "關於眨眼率和選舉成功之間關係的研究數據。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪一段提到 blink rates 和 elections，而且不是泛泛講眼睛，而是講研究數據如何把眨眼率和選舉結果連在一起。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also, a person’s eyes reveal much about how they are feeling or what they are thinking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，一個人的眼睛能透露很多關於他們感受或想法的資訊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nervousness can also be measured by examining each candidate’s perspiration, eye contact and stiffness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "緊張程度也可以透過檢查每位候選人的出汗、眼神接觸和僵硬程度來衡量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph D 的首尾句，可以先猜這段在講眼睛和其他非語言訊號如何透露人的心理狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 blink rates 和 elections 都屬於這段中間的研究例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“blink rates”"
+            },
+            {
+              "kind": "quote",
+              "text": "“elections”"
+            },
+            {
+              "kind": "quote",
+              "text": "“success”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph D 時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“He supports his data with statistics on the relation between the blink rates of presidential candidates and their success in their races.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句同時包含 blink rates、presidential candidates、success，因此就是答案位置。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research by Boston College professor Joe Tecce suggests that stress levels are revealed by blink rates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Boston College 教授 Joe Tecce 的研究指出，壓力水平會由眨眼率顯示出來。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“He supports his data with statistics on the relation between the blink rates of presidential candidates and their success in their races.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他用有關總統候選人眨眼率與他們在競選中成功之間關係的統計數據，來支持自己的資料。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tecce claims that the faster blinker in the presidential debates has lost every election since 1980.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tecce 聲稱，自 1980 年以來，總統辯論中眨眼較快的人在每次選舉中都落敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句建立完整證據鏈：研究者是 Joe Tecce；研究主題是 blink rates 和 stress；他用 presidential candidates 的 blink rates 與 election success 的統計關係支持數據；最後補充 faster blinker lost every election since 1980。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“research data”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“supports his data with statistics”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“success in elections”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“success in their races” / “lost every election”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“blink rates”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“blink rates”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也提到 perspiration、eye contact 和 stiffness，但這些是補充說 nervousness 也可由其他渠道衡量。Question 8 的核心是 blink rates and success in elections，所以真正證據是presidential candidates 那幾句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法：當題目有非常具體的組合，例如 blink rates + elections，要找同一句或相鄰句是否同時包含兩個概念。只找到 blink rates 還不夠，因為 Question 8 要的是它和 election success 的關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Question Analysis",
+      "prompt": "“The social component of several facial expressions”",
+      "translation": "幾種面部表情所涉及的社會成分。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪一段提到某些情緒或表情有 social component。題目中的 social component 是非常強的定位詞，因為全文只有 Paragraph H 明確使用這個概念。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The expressions Ekman found to be universal included those indicating anger, disgust, fear, joy, sadness, and surprise (note that none of these emotions has a definitive social component, such as shame, pride, or schadenfreude).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ekman 發現具有普遍性的表情包括表示憤怒、厭惡、恐懼、快樂、悲傷和驚訝的表情；請注意，這些情緒都沒有明確的社會成分，例如羞恥、驕傲或幸災樂禍那樣的社會成分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These findings suggest that facial expressions are deeply rooted in human psychology and that different parts of the face can convey specific emotions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發現顯示，面部表情深深植根於人類心理之中，而且臉部不同部位能傳達特定情緒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph H 的首尾句，可以看出這段在總結 Ekman 的普遍表情發現，並討論 social component 和面部不同部位傳達情緒的問題。Question 9 正是問 social component。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“social component”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph H 時，可以直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“none of these emotions has a definitive social component…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Findings on contempt (which is social) are less clear…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“The expressions Ekman found to be universal included those indicating anger, disgust, fear, joy, sadness, and surprise (note that none of these emotions has a definitive social component, such as shame, pride, or schadenfreude).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ekman 發現具有普遍性的表情包括表示憤怒、厭惡、恐懼、快樂、悲傷和驚訝的表情；請注意，這些情緒都沒有明確的社會成分，例如羞恥、驕傲或幸災樂禍那樣的社會成分。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Findings on contempt (which is social) are less clear, though there is at least some preliminary evidence that this emotion and its expression are universally recognised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於輕蔑這種情緒的研究結果則較不明確；輕蔑是帶有社會性的情緒，不過至少有一些初步證據顯示，這種情緒及其表情是被普遍認出的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句都在處理 facial expressions / emotions 的 social component。第一句說 universal emotions 中不包括明確社會成分，並列出 shame、pride、schadenfreude 這些例子；第二句說contempt 是 social，但研究結果較不清楚。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“social component”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“social component” / “which is social”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“several facial expressions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“shame, pride, schadenfreude” / “contempt” 這些與表情相關的社會性情緒例子。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 Paragraph E。Paragraph E 提到 cultures，但 culture 不等於 social component。 Question 9 的重點不是文化差異，而是某些情緒本身是否有社會性。可轉移方法：當題目出現非常罕見的原文概念，例如 social component，通常可以直接作為強定位詞。但定位後仍要確認該段確實是在討論題目要求的資訊功能，而不是只偶然出現相近字。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "“An indicator of a person’s degree of nervousness”",
+      "translation": "一個顯示某人緊張程度的指標。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪一段提到 nervousness 的衡量指標。核心定位詞是 nervousness，也可以改寫成stress levels、at ease、blink rate 等。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also, a person’s eyes reveal much about how they are feeling or what they are thinking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，一個人的眼睛能透露很多關於他們感受或想法的資訊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nervousness can also be measured by examining each candidate’s perspiration, eye contact and stiffness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "緊張程度也可以透過檢查每位候選人的出汗、眼神接觸和僵硬程度來衡量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 明顯是在講眼睛和其他身體訊號如何透露心理狀態。最後一句更直接出現 nervousness can be measured，因此這段就是答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“nervousness”"
+            },
+            {
+              "kind": "quote",
+              "text": "“indicator”"
+            },
+            {
+              "kind": "quote",
+              "text": "“degree”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph D 時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Blink rate can reveal how nervous or at ease a person may be.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nervousness can also be measured…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Blink rate can reveal how nervous or at ease a person may be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "眨眼率可以顯示一個人有多緊張或多放鬆。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Blink rate”。核心動詞是 “can reveal”。後面的內容是 “how nervous or at ease a person may be”，即一個人的緊張或放鬆程度。"
+            },
+            {
+              "kind": "label",
+              "text": "原文另一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nervousness can also be measured by examining each candidate’s perspiration, eye contact and stiffness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "緊張程度也可以透過檢查每位候選人的出汗、眼神接觸和僵硬程度來衡量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明 Paragraph D 不只提出 blink rate 一個訊號，也指出 nervousness 可以透過多種非語言渠道衡量。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“an indicator”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“can reveal” / “can be measured by”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a person’s degree of nervousness”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“how nervous or at ease a person may be”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 8 和 Question 10 都來自 Paragraph D，但焦點不同。Question 8 問 blink rates 和election success 的研究數據；Question 10 問 nervousness 的指標。兩題可以同段，但不能把兩題的答案理由混在一起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法： Matching Information 中同一段可使用多次。看到 “NB You may use any letter more than once”時，要接受同一段可能回答多題，但每題仍要用不同證據句支援。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "“The relationship between emotions and facial expressions”",
+      "translation": "情緒和面部表情之間的關係。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪一段集中講 emotions 和 expressions 之間的雙向關係。題目不是只問表情能傳達情緒，而是問兩者之間的 relationship。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Humans can adopt a facial expression as a voluntary action.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類可以自願地做出某種面部表情。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The close link between emotion and expression can also work in the other direction; it has been observed that voluntarily assuming an expression can actually cause the associated emotion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "情緒和表情之間的緊密連繫也可以反過來運作；人們已觀察到，自願做出某種表情實際上可以引發相關的情緒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 是在講表情可以是自願行為，以及表情與情緒之間的關係甚至可以雙向運作。這完全對應 Question 11。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“relationship”"
+            },
+            {
+              "kind": "quote",
+              "text": "“emotions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“facial expressions”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph B 時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“because expressions are closely tied to emotion”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“The close link between emotion and expression…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都直接對應 relationship。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, because expressions are closely tied to emotion, they are more often involuntary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，由於表情與情緒緊密相連，它們更多時候是不由自主的。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“The close link between emotion and expression can also work in the other direction; it has been observed that voluntarily assuming an expression can actually cause the associated emotion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "情緒和表情之間的緊密連繫也可以反過來運作；人們已觀察到，自願做出某種表情實際上可以引發相關的情緒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句建立了雙向關係。第一個方向是 emotion → expression：因為情緒出現，表情往往不由自主地流露出來。第二個方向是 expression → emotion：自願做出某種表情，也可能引發相應情緒。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“relationship between emotions and facial expressions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“expressions are closely tied to emotion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The close link between emotion and expression…”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“relationship”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“closely tied” / “close link”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也說 facial expressions “convey the emotional state”，但那只是介紹表情的基本功能。Question 11 問的是 relationship，而且 Paragraph B 更完整地處理 emotion 和 expression 的雙向關係，所以答案應選 B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法：當題目問 relationship，不要只找兩個名詞同時出現。要找原文是否真的說明兩者如何互相影響，特別是 link、tied、cause、associated 這些關係詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "B and D",
+      "answerKey": "B and D",
+      "type": "Question Analysis",
+      "prompt": "Questions 12–13",
+      "translation": "根據 Ekman 的理論，以下哪兩項說法正確？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這組是 Multiple-answer Questions。題目要求 Choose TWO，所以每一個正確選項都要獨立獲得原文支援，不能用一段模糊證據同時包辦兩個答案。黃金手冊亦提醒，這類題要追蹤每個選項是否被提及、支持、限制或否定。"
+            },
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which TWO of the following statements are true according to Ekman’s theory?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option B"
+            },
+            {
+              "kind": "label",
+              "text": "選項句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a relationship between facial expressions and states of mind.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "面部表情和心理狀態之間存在關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E / G / H Paragraph E 第一 句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Charles Darwin noted in his book The Expression of the Emotions in Man and Animals, ‘the young and the old of widely different races, both in humans and animals, express the same state of mind by the same movements’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如 Charles Darwin 在《人與動物的情緒表達》中指出，來自差異很大的種族中的年輕人和老人，不論是人類還是動物，都會用相同動作表達相同的心理狀態。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Studies conducted in the 1960s by Paul Ekman eventually supported Darwin’s belief to a large degree.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paul Ekman 在 1960 年代進行的研究最終在很大程度上支持了 Darwin 的看法。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These findings suggest that facial expressions are deeply rooted in human psychology and that different parts of the face can convey specific emotions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發現顯示，面部表情深深植根於人類心理之中，而且臉部不同部位能傳達特定情緒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子共同支援 Option B。Darwin 說相同心理狀態會以相同動作表達，而 Ekman 的研究支持Darwin 的看法；Paragraph H 也總結 facial expressions are deeply rooted in human psychology。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "選項中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“relationship”"
+            },
+            {
+              "kind": "quote",
+              "text": "“facial expressions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“states of mind”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時可以找到 Paragraph E 的 “express the same state of mind by the same movements”，以及 Paragraph H 的 “deeply rooted in human psychology”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Studies conducted in the 1960s by Paul Ekman eventually supported Darwin’s belief to a large degree.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paul Ekman 在 1960 年代進行的研究最終在很大程度上支持了 Darwin 的看法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 Darwin 的 “same state of mind by the same movements” 和 Ekman 的研究連起來。換言之，根據 Ekman 支持的理論，心理狀態和面部動作／表情之間確實有關係。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The study concluded that certain facial expressions correspond to particular emotions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究總結指出，某些面部表情與特定情緒相對應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 facial expressions 和 emotions 建立直接對應。states of mind 在此可理解為 emotions /psychological states。這不是外加常識，而是由 Paragraph E 的 state of mind、Paragraph G 的emotions、Paragraph H 的 human psychology 共同支援。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“states of mind”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“particular emotions” / “human psychology” / “same state of mind”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a relationship between…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“correspond to” / “deeply rooted in” / “express the same state of mind by the same movements”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：D — 正確"
+            },
+            {
+              "kind": "label",
+              "text": "選項句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Different areas of the face can convey particular emotions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "臉部不同部位可以傳達特定情緒。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The expressions Ekman found to be universal included those indicating anger, disgust, fear, joy, sadness, and surprise…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ekman 發現具有普遍性的表情包括表示憤怒、厭惡、恐懼、快樂、悲傷和驚訝的表情。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These findings suggest that facial expressions are deeply rooted in human psychology and that different parts of the face can convey specific emotions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發現顯示，面部表情深深植根於人類心理之中，而且臉部不同部位能傳達特定情緒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 最後一句幾乎直接支援 Option D。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "選項中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“different areas of the face”"
+            },
+            {
+              "kind": "quote",
+              "text": "“convey”"
+            },
+            {
+              "kind": "quote",
+              "text": "“particular emotions”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph H 時，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“different parts of the face can convey specific emotions.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These findings suggest that facial expressions are deeply rooted in human psychology and that different parts of the face can convey specific emotions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發現顯示，面部表情深深植根於人類心理之中，而且臉部不同部位能傳達特定情緒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的第二個 that-clause 正是答案證據： different parts of the face can convey specific emotions選項 D 只是把 “different parts” 改寫成 “different areas”，把 “specific emotions” 改寫成 “particular emotions”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“different areas of the face”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“different parts of the face”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“particular emotions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“specific emotions”"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“can convey”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“can convey”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 D 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼其他選項不正確？"
+            },
+            {
+              "kind": "label",
+              "text": "Option A選項句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no evidence that animals have facial expressions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有證據顯示動物有面部表情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題：這與文章方向相反。"
+            },
+            {
+              "kind": "label",
+              "text": "原文 Paragraph A 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are a primary means of conveying social information among humans, but also occur in most other mammals and some other animal species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們是人類傳遞社會資訊的主要方式，但也出現在大多數其他哺乳動物和一些其他動物物種之中。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 的 Darwin 引文也提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“both in humans and animals”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在人類和動物之中都是如此。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以文章不是說沒有證據，而是明確說 facial expressions 也出現在一些動物身上。Option A 錯在把原文方向倒轉。"
+            },
+            {
+              "kind": "label",
+              "text": "Option C選項句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Facial expressions differ fundamentally between cultures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "面部表情在不同文化之間有根本差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題：這與 Ekman 的理論相反。"
+            },
+            {
+              "kind": "label",
+              "text": "原文 Paragraph F 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ekman showed that, contrary to the belief of some anthropologists, including Margaret Mead, facial expressions of emotion are not culturally determined, but universal across human cultures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ekman 顯示，與包括 Margaret Mead 在內的一些人類學家的看法相反，情緒的面部表情並不是由文化決定的，而是在所有人類文化中具有普遍性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句非常明確。Ekman 的理論不是說 facial expressions fundamentally differ between cultures，而是說它們 universal across human cultures。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option C 的錯誤在於把 “not culturally determined, but universal” 改成了相反意思。"
+            },
+            {
+              "kind": "label",
+              "text": "Option E選項句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The mind controls men’s facial expressions more clearly than women’s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "男性的面部表情比女性更明顯地受心智控制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題：原文沒有提供性別比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章有提到 human psychology、states of mind 和 facial expressions，但沒有比較 men 和women，也沒有說男性比女性更受心智控制。這不是 FALSE 的相反證據，而是缺乏原文支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這是 TRUE / FALSE / NOT GIVEN 題，這類說法會是 NOT GIVEN。但在 Multiple-answer Questions 中，它就是不能選的選項。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Option E 可能利用了 “mind” 和 “facial expressions” 的相關概念來吸引學生，但題目加入了men’s 和 women’s 的比較。原文完全沒有性別比較，因此不能用 general psychology 的內容去支持它。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        12,
+        13
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Facial Expression.pdf",
+    "sha256": "d727db658226c95c1c92af7d9b3a5714cf77841ffba0bfe4b073e1f8af1e618d",
+    "pageCount": 30
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Paragraph Map",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "介紹 facial expression 的基本定義、功能，以及文化可能影響表情意義的初步說法。"
+      },
+      {
+        "number": "B",
+        "summary": "說明表情可以是自願的，但更多時候和情緒緊密相連，甚至會不由自主地出現。"
+      },
+      {
+        "number": "C",
+        "summary": "討論表情解讀的困難，包括不同情緒相似、面部差異細微，以及中性臉被誤讀。"
+      },
+      {
+        "number": "D",
+        "summary": "集中講眼睛和眨眼率，並引用 Joe Tecce 關於壓力、眨眼率和總統選舉的研究。"
+      },
+      {
+        "number": "E",
+        "summary": "引入 Darwin 的觀點，以及 20 世紀中期以前人類學家對表情是否由文化學習而來的看法，然後過渡到 Ekman。"
+      },
+      {
+        "number": "F",
+        "summary": "介紹 Ekman 的研究背景、理論方向，以及 South Fore people 研究的設計。"
+      },
+      {
+        "number": "G",
+        "summary": "交代 Ekman 研究結果：fear 和 surprise 被誤認，而某些表情與特定情緒相應，並且不能被隱藏。"
+      },
+      {
+        "number": "H",
+        "summary": "列出 Ekman 認為具普遍性的表情，並補充 social component 和不同面部部位傳達情緒的問題。"
+      }
+    ]
+  }
+}

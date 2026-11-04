@@ -1,0 +1,2045 @@
+{
+  "id": "p3-126-is-graffiti-art-or-crime",
+  "catalogueId": "p3-126",
+  "catalogueIds": [
+    "p3-126"
+  ],
+  "passage": 3,
+  "title": "Is Graffiti Art or Crime",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "D",
+    "G",
+    "B",
+    "E",
+    "C",
+    "B",
+    "B",
+    "D",
+    "D",
+    "E",
+    "social history",
+    "tag",
+    "protective equipment",
+    "low-pressure water"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“why chemical cleaning may damage a surface”",
+      "translation": "哪一段提到為甚麼化學清潔可能損壞表面？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問的是 chemical cleaning 和 surface damage 的關係。定位時不能只找 “damage”，也要找chemical cleaning、solvents、surface、substrate、withstand treatment 這一組字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are a variety of methods that are used to remove graffiti.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "移除 graffiti 有多種方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If there is any doubt regarding this, then small trial areas should be tested to assess the impact of more extensive treatment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果對此有任何疑問，就應先測試小範圍試驗區，以評估更大範圍處理會造成甚麼影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph D 是 removal methods 和 safety testing 的段落。題目問chemical cleaning risk，所以這段非常可疑。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “chemical cleaning” 和 “damage a surface”。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chemical preparations are based on dissolving the media; these solvents can range from water to potentially hazardous chemical ‘cocktails’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "化學製劑的原理是溶解 graffiti medium；這些溶劑可以從水到可能有危險的化學混合物都有。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“When examining a graffiti incident it is important to assess the ability of the substrate to withstand the prescribed treatment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "檢查 graffiti incident 時，重要的是評估底層材料是否能承受指定處理方法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “substrate” 指被塗寫的底層材料或表面，例如石材、牆面、歷史建築材料。化學清潔要用solvents 溶解 graffiti medium，但不同底層材料承受能力不同。如果 substrate 不能 withstand prescribed treatment，清理就可能傷害表面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “why chemical cleaning may damage a surface” 概括了這個邏輯：化學清潔不是只作用於 graffiti，也可能影響承載 graffiti 的底層材料，所以要先評估和測試。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“damage a surface”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“assess the ability of the substrate to withstand the prescribed treatment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“assess the impact of more extensive treatment”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "surface = substrate chemical cleaning = chemical preparations / solvents may damage = may not withstand treatment / impact of treatment方法總結Matching information 題不要只找完全相同的字。這題真正定案的是 “substrate” 和 “withstand treatment”，它們說明表面能否承受清潔方法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“the benefit of a precautionary measure for gentle removal”",
+      "translation": "哪一段提到某種預防／保護措施對溫和移除 graffiti 的好處？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問的是一個 precautionary measure 的 benefit。題目中的 “gentle removal” 很重要，應該找low-pressure、easier、reduces damage 這類字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Removal of graffiti from a surface that has been treated in this way is much easier, usually using low-pressure water which reduces the possibility of damage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從經過這種方式處理的表面移除 graffiti 會容易得多，通常使用低壓水，這可以降低損壞的可能性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Depending on the type of barrier selected it may be necessary to reapply the coating after each graffiti removal exercise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "視所選 barrier 類型而定，每次移除 graffiti 後，可能需要重新塗上 coating。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 只有兩句，首句已直接講 treated surface、easier removal、low-pressure water、reduces damage。這完全符合題目方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “precautionary measure”、“gentle removal”、“benefit”。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Removal of graffiti from a surface that has been treated in this way is much easier, usually using low-pressure water which reduces the possibility of damage.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“treated in this way” 回指 Paragraph F 的 anti-graffiti coatings。這種 coating 形成 thin veneer，隔開 graffiti 和原本 surface。Paragraph G 接著說，經過這種 treatment 後，清理更容易，而且可用 low-pressure water。low-pressure water 比強烈機械磨擦或高壓處理更溫和，因此 damage possibility 較低。題目中的 “benefit” 對應 “much easier” 和 “reduces the possibility of damage”。“gentle removal”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對應 “low-pressure water”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“precautionary measure”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“surface that has been treated in this way” / “coating”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“gentle removal”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“using low-pressure water”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“benefit”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“much easier” / “reduces the possibility of damage”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "方法總結如果題目有 “benefit”，要找正面結果詞，例如 easier、reduce、prevent、help。這題的答案段落就是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“the damaging cumulative impact of graffiti on a community”",
+      "translation": "哪一段提到 graffiti 對社區逐步累積的破壞性影響？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 cumulative impact，不是單一次塗鴉的清潔方法。要找 social decline、deterioration、more serious vandalism 這類由小問題累積成大問題的字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is usually considered a priority to remove graffiti as quickly as possible after it appears.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "graffiti 出現後，通常會被視為優先事項，要盡快移除。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Graffiti can also lead to more serious forms of vandalism and, ultimately, the deterioration of an area, contributing to social decline.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "graffiti 也可能導致更嚴重形式的破壞行為，最終令一個地區惡化，並導致社會衰退。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講 quick removal，尾句講更嚴重破壞和社會衰退。題目問 community impact，尾句直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “damaging”、“cumulative impact”、“community”。原文沒有 community 這個字，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the deterioration of an area”"
+            },
+            {
+              "kind": "quote",
+              "text": "“social decline”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個短語都指向社區或地區層面的負面影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Graffiti can also lead to more serious forms of vandalism and, ultimately, the deterioration of an area, contributing to social decline.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有清楚的遞進關係： graffiti→ more serious forms of vandalism→ deterioration of an area→ social decline這正是題目說的 cumulative impact：影響會逐步累積，不只停留在牆面難看。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“damaging cumulative impact on a community”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“lead to more serious forms of vandalism”"
+            },
+            {
+              "kind": "quote",
+              "text": "“deterioration of an area”"
+            },
+            {
+              "kind": "quote",
+              "text": "“contributing to social decline”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "community = area / social environment cumulative impact = lead to → ultimately → contributing to方法總結看到 cumulative，要找表示發展鏈的字，例如 lead to、ultimately、contributing to。Paragraph B 的最後一句正好是一條影響鏈。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“the need to use different preventive measures”",
+      "translation": "哪一段提到需要因應不同情況使用不同的預防措施？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 preventive measures 的多樣性。要找 no two sites、no one set、each site individually 這類表示沒有單一方案適用所有情況的句子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A variety of preventive strategies can be adopted to combat a recurring problem of graffiti at a given site.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "面對某個地點反覆出現的 graffiti 問題，可以採取多種預防策略。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In others, they might simply provide a new surface for graffiti.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在其他情況下，這些措施可能只是為 graffiti 提供新的表面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已出現 variety of preventive strategies，尾句提醒防護措施有時會帶來新問題。這段明顯討論 prevention 的選擇和限制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “different preventive measures”。原文中最直接的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“As no two sites are the same, no one set of protection measures will be suitable for all situations. Each site must be looked at individually.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於沒有兩個地點完全相同，所以沒有一套保護措施能適用於所有情況。每個地點都必須個別考慮。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句清楚說明為何需要 different preventive measures。不同 sites 有不同結構、風險、使用方式和環境要求，因此不能把同一套 prevention 套到所有地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 後面列出 CCTV、security patrols、physical barriers，也是在展示不同 preventive measures 的例子。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the need to use different preventive measures”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“A variety of preventive strategies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“no one set of protection measures will be suitable for all situations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Each site must be looked at individually”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "different = variety / no one set suitable for all preventive measures = preventive strategies / protection measures方法總結題目問 “need to use different...” 時，要找原文是否有 “no one solution fits all” 的意思。Paragraph E 的 no two sites / no one set 就是答案訊號。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“a recommendation that building owners involve the police”",
+      "translation": "哪一段建議建築物擁有人應讓警方介入？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 recommendation 和 police involvement。要找 owners、police、informed、prosecution 等處理程序字眼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although graffiti may be regarded as an eyesore, any proposal to remove it from sensitive historic surfaces should be carefully considered: techniques designed for more robust or utilitarian surfaces may result in considerable damage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 graffiti 可能被視為礙眼，但若要從敏感歷史表面移除，任何方案都應仔細考慮：為較堅固或實用表面設計的技術，可能造成相當大的損害。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such images are also required for insurance claims and can be helpful to cleaning operatives, allowing them to see the problem area before arriving on site.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些照片也可用於保險索償，並能幫助清潔人員在到場前先了解問題區域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段講 graffiti incident 的處理程序，包括小心清理、通知相關方、記錄證據。題目問building owners 和 police，很適合定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “building owners” 和 “police”。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the event of graffiti incidents, it is important that the owners of buildings or other structures and their consultants are aware of the approach they should take in dealing with the problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果發生 graffiti incidents，建築物或其他結構的擁有人及其顧問，必須知道應採取甚麼方法處理問題。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The police should be informed as there may be other related attacks occurring locally.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "應通知警方，因為當地可能還有其他相關襲擊事件正在發生。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “building owners involve the police” 是把兩句合起來概括。第一句建立主體：owners of buildings or other structures。第二句給出建議：The police should be informed。inform the police就是讓 police involved。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文還補充理由：可能有 related attacks occurring locally；警方可用 incident pattern、tags 等資料找出 culprits。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“building owners involve the police”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“owners of buildings or other structures”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The police should be informed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "involve = inform / bring in building owners = owners of buildings or other structures方法總結Matching information 題有時需要連接相鄰兩句。這題第一句給出 building owners，第二句給出police recommendation，兩句合起來才完整支援題目。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“the reasons for removing graffiti as soon as possible”",
+      "translation": "哪一段列出 graffiti 出現後應盡快移除的原因？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 reasons，且有 “as soon as possible”。定位時要找 quick removal、as quickly as possible、several reasons、copy-cat、offensive、difficult to remove 等字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is usually considered a priority to remove graffiti as quickly as possible after it appears.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "graffiti 一出現，通常會被視為優先事項，應盡快移除。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Graffiti can also lead to more serious forms of vandalism and, ultimately, the deterioration of an area, contributing to social decline.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "graffiti 也可能導致更嚴重形式的破壞行為，最終令一個地區惡化，並導致社會衰退。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句和題目高度吻合：remove graffiti as quickly as possible。這段肯定是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “reasons” 和 “as soon as possible”。原文在首句後立刻說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is for several reasons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這有幾個原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後列出 copy-cat、offensive graffiti、paints/glues/inks dry out、more serious vandalism 等原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 的結構非常清楚：第一句提出做法：快速移除 graffiti。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二句宣布原因：This is for several reasons。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後面逐項列出原因： 1. 防止 copy-cat emulation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. offensive graffiti 需要很快移除。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. paints, glues and inks 乾了之後更難清理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "4. graffiti 可導致更嚴重 vandalism 和 social decline。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“as soon as possible”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“as quickly as possible”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“reasons”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is for several reasons.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "方法總結這題是原字重現型。只要先用 “as soon as possible” 找到 “as quickly as possible”，再看下一句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“several reasons”，答案就很穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "B — A small test patch should be tried before large-scale removal.",
+      "answerKey": "B — A small test patch should be tried before large-scale removal.",
+      "type": "Choose TWO letters",
+      "prompt": "Question 33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問移除 graffiti 前是否應先做小範圍測試。控制詞是 “small test patch” 和 “before large-scale removal”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are a variety of methods that are used to remove graffiti.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "移除 graffiti 有多種方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If there is any doubt regarding this, then small trial areas should be tested to assess the impact of more extensive treatment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果對此有任何疑問，就應先測試小範圍試驗區，以評估更大範圍處理會造成甚麼影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已直接顯示答案。這段講 removal methods，最後一句講 small trial areas。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “small test patch”。原文對應 “small trial areas”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞 “large-scale removal” 對應 “more extensive treatment”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“If there is any doubt regarding this, then small trial areas should be tested to assess the impact of more extensive treatment.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “should be tested” 是建議語氣。小範圍測試的目的，是先看 prescribed treatment 對substrate 有甚麼影響，才決定是否做更大範圍處理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的 “A small test patch should be tried before large-scale removal” 正好概括這句。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "small test patch = small trial areas tried = tested large-scale removal = more extensive treatment判斷B 正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "D — There are risks with both chemical and mechanical methods.",
+      "answerKey": "D — There are risks with both chemical and mechanical methods.",
+      "type": "Choose TWO letters",
+      "prompt": "Question 34",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 chemical 和 mechanical methods 是否都有風險。要看原文有沒有分別說明化學方法和機械方法都可能造成問題。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are a variety of methods that are used to remove graffiti.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "移除 graffiti 有多種方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If there is any doubt regarding this, then small trial areas should be tested to assess the impact of more extensive treatment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果對此有任何疑問，就應先測試小範圍試驗區，以評估更大範圍處理會造成甚麼影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 是 removal methods 的總段落。既然題目問 chemical and mechanical methods，答案應在本段中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “chemical” 和 “mechanical”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“These divide broadly into chemical and mechanical systems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些方法大致分為化學系統和機械系統。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“these solvents can range from water to potentially hazardous chemical ‘cocktails’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些溶劑可以從水到可能有危險的化學混合物都有。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mechanical systems such as wire-brushing and grit-blasting attempt to abrade or chip the media from the surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "wire-brushing 和 grit-blasting 等機械系統，試圖從表面磨走或打掉 graffiti medium。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "化學方法的 risk 在 “potentially hazardous chemical ‘cocktails’”。hazardous 表示有危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "機械方法的 risk 在 “abrade or chip”，即磨蝕或打碎。這些動作本身暗示可能傷害表面，後面又補充要 comply with health and safety legislation，並評估 substrate 能否 withstand prescribed treatment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，D 說 both chemical and mechanical methods have risks，是對整段 removal risk 的合理概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A 錯，因為原文說 chemical cocktails potentially hazardous，沒有說比 water safer。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯，原文沒有比較 expense。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 錯，原文沒有說 mechanical methods much more suitable。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "risks = hazardous / abrade / chip / health and safety / assess impact chemical and mechanical methods = chemical and mechanical systems"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "D — Install more visible security cameras.",
+      "answerKey": "D — Install more visible security cameras.",
+      "type": "Choose TWO letters",
+      "prompt": "Question 35",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 preventive measures，而且要是文章提到 effective 的措施。D 的核心是 visible security cameras，所以要找 CCTV、prominently placed cameras、reduce anti-social behaviour。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A variety of preventive strategies can be adopted to combat a recurring problem of graffiti at a given site.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "面對某地點反覆出現的 graffiti 問題，可以採取多種預防策略。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In others, they might simply provide a new surface for graffiti.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在其他情況下，這些措施可能只是為 graffiti 提供新的表面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明顯講 preventive strategies。D 這個選項正好屬於 prevention。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “security cameras”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surveillance systems such as closed-circuit television may also help.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "closed-circuit television 這類 surveillance systems 也可能有幫助。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“In cities and towns around the country, prominently placed cameras have been shown to reduce anti-social behaviour of all types including graffiti.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在全國各地的城市和城鎮中，放在顯眼位置的攝影機已被證明能減少各類 anti-social behaviour，包括 graffiti。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 的 “visible security cameras” 對應原文 “prominently placed cameras”。prominently placed 表示放在顯眼位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“effective” 對應 “have been shown to reduce”。這是一個很強的證據，因為原文不是只說 may help，還說已被證明能 reduce 包括 graffiti 在內的 anti-social behaviour。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "visible = prominently placed security cameras = surveillance systems / closed-circuit television / cameras effective = have been shown to reduce判斷D 正確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "E — Apply a chemical coating to the entire surface.",
+      "answerKey": "E — Apply a chemical coating to the entire surface.",
+      "type": "Choose TWO letters",
+      "prompt": "Question 36",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼E 問的是 surface coating。要找 anti-graffiti coatings、treated surface、isolate graffiti from surface、removal easier、low-pressure water 這一組線索。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs F–G Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the most significant problems associated with graffiti removal is the need to remove it from surfaces that are repeatedly attacked.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "graffiti removal 其中一個最重大問題，是需要從反覆遭受攻擊的表面移除 graffiti。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Removal of graffiti from a surface that has been treated in this way is much easier, usually using low-pressure water which reduces the possibility of damage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從經過這種方式處理的表面移除 graffiti 會容易得多，通常使用低壓水，這可降低損壞可能性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾邏輯很清楚：反覆清理會傷害表面，所以需要 coating；coating 之後，移除更容易，損壞風險更低。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “coating” 和 “surface”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Anti-graffiti coatings are usually applied by brush or spray, leaving a thin veneer that essentially serves to isolate the graffiti from the surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "anti-graffiti coatings 通常用刷子或噴霧施加，留下薄薄一層 veneer，主要作用是把 graffiti 和表面隔開。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 用 “chemical coating” 概括原文的 anti-graffiti coating。雖然原文沒有逐字說 “chemical”，但coating 是施加在 surface 上的防護層，功能是 isolate the graffiti from the surface。Paragraph G再說 treated surface 更容易清理，且可用 low-pressure water，降低 damage。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 E 在五個選項中是受原文支持的 preventive / protective measure。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 看起來接近，因為原文有 “Security patrols will also act as a deterrent”。但選項 B 寫的是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“police patrols on the streets”。原文沒有說 police，也沒有說 on the streets；它說的是 site-related security patrols。這兩個新增細節令 B 不如 E 精準。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "anti-graffiti coatings = chemical coating / protective coating surface treated in this way = coated surface effective = removal much easier / reduces possibility of damage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "social history",
+      "answerKey": "social history",
+      "type": "Summary Completion",
+      "prompt": "“Ancient graffiti is significant because it records the 37 ______ of life during that period.”",
+      "translation": "古代 graffiti 重要，因為它記錄了那個時期生活的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The term graffiti derives from the Italian graffito, meaning ‘scratching’, and can be defined as uninvited marking or writing scratched or applied to objects, built structures and natural features.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "graffiti 一詞來自意大利文 graffito，意思是 scratching，可定義為未經邀請而刻劃或施加在物件、建築結構和自然特徵上的標記或文字。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Graffiti is now a problem that has become pervasive, as a result of the availability of cheap and quick means of mark-making.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於便宜而快速的標記工具容易取得，graffiti 現在已成為一個普遍問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段由定義開始，最後轉到現代問題。題目問 ancient graffiti 的 significance，所以要看Paragraph A 中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Ancient graffiti” 和 “significant”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“In such circumstances it has acquired invaluable historical and archaeological significance, providing a social history of life and events at that time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些情況下，它獲得了寶貴的歷史和考古意義，提供了當時生活和事件的 social history。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “records the ______ of life during that period”，原文說 “providing a social history of life and events at that time”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格後面有 “of life”，所以答案應能接成 “the social history of life”。答案 social history 剛好兩個字，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "records = providing during that period = at that time significant = historical and archaeological significance"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：social history"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "tag",
+      "answerKey": "tag",
+      "type": "Summary Completion",
+      "prompt": "“The police may recognise new graffiti by its signature, called a 38 ______, if they are already familiar with it.”",
+      "translation": "如果警方已經熟悉某種簽名，他們可能透過這種稱為 ______ 的簽名辨認新的 graffiti。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although graffiti may be regarded as an eyesore, any proposal to remove it from sensitive historic surfaces should be carefully considered: techniques designed for more robust or utilitarian surfaces may result in considerable damage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 graffiti 可能被視為礙眼，但若要從敏感歷史表面移除，任何方案都要小心考慮；為較堅固或實用表面設計的技術，可能造成相當大的損害。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such images are also required for insurance claims and can be helpful to cleaning operatives, allowing them to see the problem area before arriving on site.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些照片也可用於保險索償，並幫助清潔人員在到場前先了解問題區域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 講 incident handling，包括 police、photographs、prosecution 和 tags。題目提 police和 signature，所以定位很明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “police”、“signature”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“An incident pattern can identify possible culprits, as can stylised signatures or nicknames, known as ‘tags’, which may already be familiar to local police.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "incident pattern 可以識別可能的犯事者；風格化簽名或暱稱也可以，這些被稱為 “tags”，而當地警方可能已熟悉它們。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文用複數 “tags”，因為它泛指多個 stylised signatures or nicknames。題目句子是 “called a______”，需要單數名詞，所以答案寫 tag 最自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“tag” 在 graffiti 語境中指塗鴉者的風格化簽名或暱稱。警方如果已經熟悉某個 tag，就可能把新出現的 graffiti 和過去事件連起來。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "signature = stylised signatures or nicknames called = known as already familiar = may already be familiar"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：tag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "protective equipment",
+      "answerKey": "protective equipment",
+      "type": "Summary Completion",
+      "prompt": "“During removal, operatives must comply with relevant rules and wear suitable 39 ______.”",
+      "translation": "移除 graffiti 時，操作人員必須遵守相關規則，並穿戴合適的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are a variety of methods that are used to remove graffiti.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "移除 graffiti 有多種方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If there is any doubt regarding this, then small trial areas should be tested to assess the impact of more extensive treatment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果對此有任何疑問，就應先測試小範圍試驗區，以評估更大範圍處理的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 講 removal methods 和安全措施。題目提 operatives、rules、wear suitable，很可能在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “operatives”、“comply with”、“wear”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Care should be taken to comply with health and safety legislation with regard to the protection of both passers-by and any person carrying out the cleaning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "應小心遵守健康與安全法例，以保護路人和任何執行清潔的人。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Operatives should follow product guidelines in terms of application and removal, and wear the appropriate protective equipment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "操作人員應按照產品指引進行施用和移除，並穿戴適當的 protective equipment。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “must comply with relevant rules” 對應原文 “comply with health and safety legislation”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “wear suitable” 對應原文 “wear the appropriate”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格要填物件，所以答案是 protective equipment，兩個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "relevant rules = health and safety legislation / product guidelines suitable = appropriate"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：protective equipment"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "low-pressure water",
+      "answerKey": "low-pressure water",
+      "type": "Summary Completion",
+      "prompt": "“Graffiti can be removed more conveniently from a coated surface by using 40 ______.”",
+      "translation": "graffiti 可以從有 coating 的表面更方便地移除，方法是使用 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Removal of graffiti from a surface that has been treated in this way is much easier, usually using low-pressure water which reduces the possibility of damage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從經過這種方式處理的表面移除 graffiti 會容易得多，通常使用低壓水，這可降低損壞可能性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Depending on the type of barrier selected it may be necessary to reapply the coating after each graffiti removal exercise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "視所選 barrier 類型而定，每次移除 graffiti 後，可能需要重新塗上 coating。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句幾乎直接回答題目：treated surface、much easier、using low-pressure water。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “coated surface”、“removed more conveniently”、“using”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“surface that has been treated in this way”"
+            },
+            {
+              "kind": "quote",
+              "text": "“much easier”"
+            },
+            {
+              "kind": "quote",
+              "text": "“using low-pressure water”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “coated surface” 對應原文 “surface that has been treated in this way”。這個 “this way”回指上一段的 anti-graffiti coatings。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“more conveniently” 對應 “much easier”。“by using” 後面要填方法，原文就是 low-pressure water。答案三個單位中，hyphenated “low-pressure” 通常算一個詞，加上 water，共兩個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "coated surface = surface treated in this way more conveniently = much easier"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：low-pressure water"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Is Graffiti Art or Crime.pdf",
+    "sha256": "487dc7382234e01ea6127d7460c2e90744fcd28eb91e04763d5983b24eaf9820",
+    "pageCount": 25
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句解釋 graffiti 一詞來自意大利文 graffito，意思和 scratched marking / writing 有關；末句說因為 cheap and quick means of mark-making 變得容易取得，graffiti 現在已成為 pervasive problem。只看首尾句，可以先看到這段功能是定義 graffiti，並建立古今對比：古代 graffiti 有歷史和考古價值，現代 graffiti 卻成為普遍問題。Summary 題若問 ancient graffiti 的意義，答案很可能在這段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 graffiti 一出現，通常會被視為優先事項，應盡快移除；末句說 graffiti 可導致更嚴重的vandalism、地區 deterioriation，並 contributing to social decline。首尾句顯示這段主題非常集中：為何要快速清理 graffiti，以及如果不處理，會帶來哪些社區層面的負面後果。Questions 29 和 32明顯會定位到這段，因為它們問 cumulative impact 和 reasons for quick removal。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說雖然 graffiti 可能被視為 eyesore，但在 sensitive historic surfaces 上移除前要 careful considered；末句說照片可用於 insurance claims，也可幫助 cleaning operatives 預先了解現場問題。只看首尾句，可以估這段主要講 graffiti incident 發生後的處理程序：歷史表面要小心、業主和顧問要知道做法、要通知 police、要拍照留紀錄。Question 31 和 tag / police / prosecution 相關題會在這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說移除 graffiti 有多種方法，大致分成 chemical 和 mechanical systems；末句說如果有疑問，應先在 small trial areas 測試，以評估更大範圍處理的影響。首尾句顯示這段是 removal method的核心段：化學溶劑、機械磨擦、健康安全、保護公眾、評估 substrate 是否能承受處理。 Questions 27、33、34 和 39 多半定位在這裡，因為它們問 cleaning risk、test patch、protective equipment。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說面對 recurring graffiti problem，可採取多種 preventive strategies；末句說某些防護措施可能反過來提供新的 graffiti surface。只看首尾句，可以看到這段主題是 prevention，但作者強調 no one set of measures suits all sites。中間提到 CCTV、prominently placed cameras、security patrols、physical barriers，以及這些措施的成本或環境影響。Questions 30、35、36 會用這段判斷哪些 preventive measures 真正被提及。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 graffiti removal 的重大問題之一，是有些 surfaces 會 repeated attacked，需要反覆清理；末句說 anti-graffiti coatings 可用 brush 或 spray 施加，形成 thin veneer，把 graffiti 和 surface 隔開。首尾句顯示這段從 repeated removal damage 轉向 protective coating。它說明為何普通prevention 有時不夠，以及 coating 如何保護表面。若題目問 precautionary coating 或 chemical coating，這段和下一段要一起看。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說經過這種 coating 處理的 surface，graffiti removal much easier，通常只需 low-pressure water，從而降低 damage 的可能性；末句說視 barrier 類型而定，每次清除 graffiti 後可能需要重新塗上 coating。只看首尾句，這段功能是補充 Paragraph F：coating 的實際好處和後續維護要求。Question 28 和 Question 40 明顯會定位到這段，因為它們問 gentle removal 的 benefit 和使用甚麼方法清除。"
+      }
+    ]
+  }
+}

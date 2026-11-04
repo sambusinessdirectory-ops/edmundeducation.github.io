@@ -1,0 +1,1718 @@
+{
+  "id": "p2-073-crop-circles",
+  "catalogueId": "p2-073",
+  "catalogueIds": [
+    "p2-073"
+  ],
+  "passage": 2,
+  "title": "Crop circles",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "NO",
+    "NOT GIVEN",
+    "YES",
+    "YES",
+    "NO",
+    "southern England",
+    "sounds",
+    "animals",
+    "avoid",
+    "C",
+    "B",
+    "A",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Crop circles only appear in wheat fields.”",
+      "translation": "Crop circles 只會出現在 wheat fields，即小麥田。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN 題，問的是題目說法是否符合作者的 claims。控制詞是 only。只要文章明確提到 crop circles 也出現在其他類型的田地，答案便是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crop circles have appeared all over the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crop circles 已在世界各地出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crop circles have been documented in over 30 countries, including Canada, the former Soviet Union, Japan and the United States.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crop circles 已在超過 30 個國家被記錄，包括加拿大、前蘇聯、日本和美國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 2 會處理 crop circles 的出現地點和分布範圍。題目問出現在哪種田地，這段最有機會提供反例。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的字是 wheat fields 和 only。掃描 Paragraph 2，可以看到原文先提到 “a wheat field”，後面又提到 “an oat field”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A strange circular imprint appeared in a wheat field near Wokurna, a community southeast of Adelaide. Soon seven swirled circles up to 14 feet in diameter appeared in an oat field nearby.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個奇怪的圓形印記出現在 Adelaide 東南方 Wokurna 附近的一片小麥田。不久，附近一片燕麥田中出現了七個旋轉狀圓圈，直徑最大達 14 英尺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 crop circles only appear in wheat fields。原文第一句確實提到 wheat field，但下一句已經給出 oat field 這個反例。只要有 oat field，only wheat fields 便不成立。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "only appear in wheat fields原文： appeared in a wheat field + appeared in an oat field判斷：原文提供了明確相反資訊，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 “wheat field” 原字出現便急著選 YES。這題真正控制答案的是 only，不能只看wheat field 是否出現，還要檢查文章有沒有其他田地類型。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Crop circles have never been documented in tropical countries.”",
+      "translation": "Crop circles 從未在熱帶國家被記錄。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷作者是否說過「從未在 tropical countries 出現」。控制詞是 never 和 tropical countries。如果文章列出國家，但沒有把它們分類為 tropical / non-tropical，也沒有討論熱帶地區，便不能自行補資料。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crop circles have appeared all over the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crop circles 已在世界各地出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crop circles have been documented in over 30 countries, including Canada, the former Soviet Union, Japan and the United States.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crop circles 已在超過 30 個國家被記錄，包括加拿大、前蘇聯、日本和美國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段處理世界分布和國家例子。題目問 tropical countries，所以合理地先看這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 tropical countries。原文沒有出現 tropical、equatorial、rainforest、hot countries之類分類詞。它只說 all over the world、various countries、over 30 countries，並列出部分例子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crop circles have been documented in over 30 countries, including Canada, the former Soviet Union, Japan and the United States.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crop circles 已在超過 30 個國家被記錄，包括加拿大、前蘇聯、日本和美國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只提供「超過 30 個國家」以及幾個例子。它沒有說這些國家是否屬於 tropical countries，也沒有說熱帶國家有或沒有 crop circles。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： crop circles have never been documented in tropical countries原文資料： documented in over 30 countries, including several named examples缺失部分：是否包括 tropical countries是否從未在 tropical countries 記錄作者對 tropical countries 的明確判斷判斷：文章提供世界分布背景，但沒有足夠資料判斷「從未在熱帶國家記錄」是否成立。因此答案是NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“All over the world” 聽起來像包括任何氣候區，但 IELTS 不能用常識推成 YES。另一方面，列出的 Canada、former Soviet Union 等例子偏非熱帶，也不能推成 NO。題目需要的是 tropical countries 這個分類，文章沒有交代。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The largest number of crop circle reports in a single year occurred in 1990.”",
+      "translation": "單一年份中，最多 crop circle reports 出現在 1990 年。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要比較年份數字。控制詞是 largest number、single year、1990。要找每年報告數量，尤其1988、1989、1990、1991 的數字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crop circles have appeared all over the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crop circles 已在世界各地出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crop circles have been documented in over 30 countries, including Canada, the former Soviet Union, Japan and the United States.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crop circles 已在超過 30 個國家被記錄，包括加拿大、前蘇聯、日本和美國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph 2 是分布和統計段。題目有年份和數量，必然要在這段中間找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 1990 和 largest number。掃描本段可見連續數字： 1988：112 new circles 1989：305 circles worldwide 1990：1,000 newly formed circles 1991：200 to 300 circles"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the end of 1989, 305 circles had been reported worldwide. The total grew to an astounding 1,000 newly formed circles in 1990. In 1991, 200 to 300 circles were reported.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1989 年底，全球已有 305 個 crop circles 被報告。到 1990 年，總數增加到驚人的 1,000 個新形成的 circles。1991 年則報告了 200 至 300 個。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較： 1989：305 1990：1,000 1991：200–300原文給出的年份數字中，1990 的 1,000 明顯最高。題目說 largest number occurred in 1990，與原文方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "largest number= an astounding 1,000 newly formed circles in a single year= in 1990判斷：答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能被 “about 10,000 instances” 吸引。那是 recent years 的總報告量，不是單一年份。題目問 single year，所以要比較各年份數字。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The patterns of crop circles have become increasingly complex over the years.”",
+      "translation": "多年來，crop circles 的圖案變得愈來愈複雜。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷作者是否說 patterns 有 increasing complexity。控制詞是 patterns、increasingly complex、over the years。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nine out of ten circles remain simple with broken stems flattened to the ground and swirled.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十個 circles 中有九個仍然簡單，莖部折斷、壓在地上並呈旋轉狀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Flocks of birds have been seen to split apart and fly around the perimeter rather than go directly over a crop circle formation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人見過鳥群分開，繞著 crop circle formation 的邊緣飛，而不直接飛過它上方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 3 會由形狀特徵講到異常現象。題目問 patterns complex，所以應細看前半段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 patterns 原文直接出現。increasingly complex 對應 “much more geometrically intricate”。over the years 原文也直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But over the years, crop circles have become much more geometrically intricate. Patterns have involved multiple circles, bars, triangles, rings and spurs. Pictorial imagery has also appeared.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過多年來，crop circles 在幾何上變得複雜得多。圖案已包含多個圓形、長條、三角形、環形和突出部分。圖像式 imagery 也已經出現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "become increasingly complex= have become much more geometrically intricate patterns= multiple circles, bars, triangles, rings, spurs, pictorial imagery over the years= over the years判斷：題目和原文完全同方向，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一句說 “Nine out of ten circles remain simple”，這可能令人猶豫。不過後面用 But 轉向說明，雖然大部分仍簡單，整體發展趨勢仍是「多年來愈來愈幾何複雜」。題目問 patterns 的變化趨勢，所以看 But 後面的句子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“All crop circles are hoaxes.”",
+      "translation": "所有 crop circles 都是假作、惡作劇或騙局。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題控制詞是 All 和 hoaxes。如果作者明確反對「全部都是 hoaxes」這個說法，答案就是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have attempted to explain crop circles as a result of natural processes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家曾嘗試把 crop circles 解釋為自然過程的結果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many crop circles show strange mathematical traits when analysed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多 crop circles 經分析後顯示奇特的數學特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph 6 是解釋理論段：一方面有自然理論，另一方面可能討論其他成因。題目問 hoaxes，應在本段後半找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 hoaxes。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another theory is that the circles are all hoaxes or practical jokes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種理論認為這些 circles 全部都是騙局或惡作劇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但不能只停在這句，因為後面作者會評價這個理論。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is irrational to believe that all crop circles are fake for publicity or other reasons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相信所有 crop circles 都是為了宣傳或其他原因而造假的，這是不理性的。"
+            },
+            {
+              "kind": "label",
+              "text": "後面補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Too many circles and patterns are formed each year in too many countries for them to have been hoaxes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每年在太多國家形成太多 circles 和 patterns，要把它們全部說成 hoaxes，並不合理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說： All crop circles are hoaxes.原文說： It is irrational to believe that all crop circles are fake.判斷：作者直接反對題目說法，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文確實提到 “Another theory is that the circles are all hoaxes”，但這只是其中一個 theory。作者後面用 “It is irrational” 明確否定這種全盤假作論。做 YES / NO 題時，要分清「文章提到某觀點」和「作者接受某觀點」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "southern England",
+      "answerKey": "southern England",
+      "type": "Summary Completion",
+      "prompt": "“Since the early 1970s, over ten thousand crop circles have been reported around the world, the greatest number occurring in 20 ______, where in a single year, over one hundred circles appeared.”",
+      "translation": "自 1970 年代早期以來，全球已有超過一萬個 crop circles 報告；最多或最重要的一批出現在______，那裡曾有超過一百個 circles 出現。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，字數限制是 NO MORE THAN THREE WORDS。空格前有 “in”，所以答案應是地點。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crop circles have appeared all over the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crop circles 已在世界各地出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crop circles have been documented in over 30 countries, including Canada, the former Soviet Union, Japan and the United States.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Crop circles 已在超過 30 個國家被記錄，包括加拿大、前蘇聯、日本和美國。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 early 1970s 對應 Paragraph 2 的 “December 1973”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 over ten thousand 對應 “About 10,000 instances”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 over one hundred circles 對應 “112 new circles”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The best documented and largest modern spread of crop circles began in southern England during the summer of 1980. By the end of 1988, 112 new circles had been formed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最有文獻記錄、規模最大的現代 crop circles 擴散，始於 1980 年夏天的 southern England。到1988 年底，已有 112 個新的 circles 形成。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "the greatest number occurring in= the best documented and largest modern spread began in over one hundred circles= 112 new circles答案形式： southern England 是兩個詞，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "1990 年的 1,000 是全球 total newly formed circles，不是題目空格要填的地點。空格前是 “in”，後面又有 “where”，所以要填地方，不能填年份。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "sounds",
+      "answerKey": "sounds",
+      "type": "Summary Completion",
+      "prompt": "“Phenomena such as the appearance of strange lights and unusual 21 ______ sometimes occur around the sites of crop circles.”",
+      "translation": "在 crop circle sites 附近，有時會出現奇怪的光和異常的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 unusual，後面需要名詞。答案要來自原文，且不超過三個詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nine out of ten circles remain simple with broken stems flattened to the ground and swirled.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十個 circles 中有九個仍然簡單，莖部折斷、壓在地上並呈旋轉狀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Flocks of birds have been seen to split apart and fly around the perimeter rather than go directly over a crop circle formation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人見過鳥群分開，繞著 crop circle formation 的邊緣飛，不會直接飛越其上方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段除了形狀，也會講 crop circle 周邊現象。題目中的 lights 和 sounds 都屬於本段中間的異常現象。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 strange lights 和 unusual。原文用 “unusual lights” 和 “unidentifiable sounds”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reliable eyewitnesses have reported seeing unusual lights and hearing unidentifiable sounds while on an early-morning walk in the countryside where a crop circle appeared later that day.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可靠目擊者曾報告，在清晨於鄉間散步時看到異常光亮並聽到無法辨認的聲音，而當天稍後該地出現了 crop circle。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： summary 已有 “unusual”，所以填 sounds 最自然： unusual sounds= unidentifiable sounds in the passage"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文也有 “High-pitched, warbling noises”。不過題目句子是 “strange lights and unusual ______”，最直接的名詞是 sounds。若填 “noises”，也有語義基礎，但原文與 lights 同一句中使用的是sounds。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "animals",
+      "answerKey": "animals",
+      "type": "Summary Completion",
+      "prompt": "“22 ______ are not affected but it has been observed that birds 23 ______ flying over a formation.”",
+      "translation": "______ 沒有受到影響，但有人觀察到鳥類會 ______ 飛越 crop circle formation。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格 22 在句首作主語，需要複數名詞。題目中的 “not affected” 對應原文 “do not seem to harm”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nine out of ten circles remain simple with broken stems flattened to the ground and swirled.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十個 circles 中有九個仍然簡單，莖部折斷、壓在地上並呈旋轉狀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Flocks of birds have been seen to split apart and fly around the perimeter rather than go directly over a crop circle formation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人見過鳥群分開，繞著 crop circle formation 的邊緣飛，不會直接飛越其上方。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 not affected 和 birds。原文相關位置在段落後半："
+            },
+            {
+              "kind": "quote",
+              "text": "“do not seem to harm animals, or even insects”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wild creatures tend to avoid the circles”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Flocks of birds…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the causative forces do not seem to harm animals, or even insects as far as we can tell, wild creatures tend to avoid the circles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就我們目前所知，造成 crop circles 的力量似乎不會傷害動物，甚至昆蟲也不會受害；不過野生生物往往會避開這些 circles。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "are not affected= do not seem to harm animals= animals in the original sentence答案形式： animals 是一個詞，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文也提到 insects，但 summary 用一個主語概括“不受影響”的對象，最自然填 animals。後面再講 birds 的行為，birds 屬於下一個觀察點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "avoid",
+      "answerKey": "avoid",
+      "type": "Summary Completion",
+      "prompt": "“... it has been observed that birds 23 ______ flying over a formation.”",
+      "translation": "有人觀察到鳥類會 ______ 飛越 crop circle formation。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與答案形式",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後面是 “flying over”，所以答案需要一個動詞，最自然是 avoid：avoid flying over。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nine out of ten circles remain simple with broken stems flattened to the ground and swirled.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十個 circles 中有九個仍然簡單，莖部折斷、壓在地上並呈旋轉狀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Flocks of birds have been seen to split apart and fly around the perimeter rather than go directly over a crop circle formation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人見過鳥群分開，繞著 crop circle formation 的邊緣飛，不會直接飛越其上方。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 birds 和 flying over。原文最後一句直接描述鳥群的飛行方向。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Flocks of birds have been seen to split apart and fly around the perimeter rather than go directly over a crop circle formation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人見過鳥群分開，繞著 crop circle formation 的邊緣飛，不會直接飛越其上方。"
+            },
+            {
+              "kind": "label",
+              "text": "前一句也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“wild creatures tend to avoid the circles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "野生生物往往會避開這些 circles。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把兩句合併成： birds avoid flying over a formation"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "fly around the perimeter rather than go directly over= avoid flying over答案形式： avoid 一個詞，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "如果只抄 “split apart”，句子會變成 “birds split apart flying over”，文法不順。空格後有 flying over，所以答案需要能接 gerund 的動詞；avoid 最合適。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "C — Michael Chorost",
+      "answerKey": "C — Michael Chorost",
+      "type": "Matching Scientists",
+      "prompt": "“changes in the structure of soil within crop circles”",
+      "translation": "crop circles 內土壤結構或土壤成分的變化。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr. W. C. Levengood of BLT Research in Cambridge, Massachusetts, has analysed many grain samples and confirmed, time after time, significant changes at the cellular level of crop circle plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Massachusetts Cambridge 的 BLT Research 研究員 Dr. W. C. Levengood 分析了許多 grain samples，並一次又一次確認 crop circle plants 在細胞層面有重大變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of the plant stalks within the circles show evidence of being exposed to rapid microwave heating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "crop circles 內部分植物莖顯示曾暴露於快速微波加熱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句主力講 plants，但中間也轉到 soil，所以要掃描 soil 相關人名。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 soil。原文中出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Michael Chorost of Duke University found traces of short-lived radionuclides in the top layer of soil in some of the formations.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Michael Chorost of Duke University found traces of short-lived radionuclides in the top layer of soil in some of the formations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Duke University 的 Michael Chorost 在部分 formations 的表層土壤中發現了短命放射性核素的痕跡。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "changes in the structure of soil= traces of short-lived radionuclides in the top layer of soil判斷：土壤相關的具名科學家是 Michael Chorost，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段還有 British government laboratory 發現 nitrogen、nematode、water content 變化，但選項中沒有這個實驗室。題目要在 A–C 三位中選，與 soil 直接相連的人名是 Michael Chorost。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "B — Dr. Levengood",
+      "answerKey": "B — Dr. Levengood",
+      "type": "Matching Scientists",
+      "prompt": "“accelerated growth of seeds from crop circles”",
+      "translation": "來自 crop circles 的種子有加速生長現象。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr. W. C. Levengood of BLT Research in Cambridge, Massachusetts, has analysed many grain samples and confirmed, time after time, significant changes at the cellular level of crop circle plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr. W. C. Levengood 分析許多 grain samples，並反覆確認 crop circle plants 在細胞層面有重大變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of the plant stalks within the circles show evidence of being exposed to rapid microwave heating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "crop circles 內一些植物莖顯示曾暴露於快速微波加熱。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 seeds 和 accelerated growth。這兩個詞在 Levengood 的研究描述內直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Seeds from the circle plants often show accelerated growth rates when they are sown, and in some instances, quite different-looking plants result.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自 circle plants 的種子在播種後常顯示加速生長率；在某些情況下，還會長出外觀相當不同的植物。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "accelerated growth of seeds= seeds show accelerated growth rates from crop circles= seeds from the circle plants判斷：這句屬於 Levengood 分析 grain samples 和 circle plants 的段落，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A — Dr. Mearden",
+      "answerKey": "A — Dr. Mearden",
+      "type": "Matching Scientists",
+      "prompt": "“electrical charges in the air around crop circles”",
+      "translation": "crop circles 周圍空氣中的電荷或帶電空氣。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have attempted to explain crop circles as a result of natural processes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家曾嘗試把 crop circles 解釋成自然過程的結果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many crop circles show strange mathematical traits when analysed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多 crop circles 經分析後顯示奇特數學特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段是 theories 段。題目問 electrical charges in the air，應看自然理論，尤其是 Plasma Vortex Theory。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 electrical charges in the air 對應原文 “electrified air (plasma)”。人名是 Dr. Terence Mearden。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Developed by Dr. Terence Mearden, it theorises that electrified air (plasma) on the sides of hills forms mini-tornadoes that spiral down towards the ground, creating the circles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個理論由 Dr. Terence Mearden 提出，主張山坡側面的帶電空氣，也就是 plasma，會形成向地面旋轉下降的小型龍捲風，從而產生 circles。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "electrical charges in the air= electrified air (plasma) around crop circles= air involved in the process of creating the circles判斷：答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 提到 small planes 的 electrical power 被切斷，但那裡沒有科學家配對。Question 26 問 scientist area of study，所以要回到 Dr. Mearden 的 Plasma Vortex Theory。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "B — Dr. Levengood",
+      "answerKey": "B — Dr. Levengood",
+      "type": "Matching Scientists",
+      "prompt": "“changes in cell structure of plants found in crop circles”",
+      "translation": "crop circles 內植物細胞結構的變化。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr. W. C. Levengood of BLT Research in Cambridge, Massachusetts, has analysed many grain samples and confirmed, time after time, significant changes at the cellular level of crop circle plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr. W. C. Levengood 分析了許多 grain samples，並反覆確認 crop circle plants 在細胞層面有重大變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of the plant stalks within the circles show evidence of being exposed to rapid microwave heating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "crop circles 內部分植物莖顯示曾暴露於快速微波加熱。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 cell structure 和 plants。原文直接有 “cellular level”、 “elongated cells” 和 “growth nodes”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The plants from the circles have elongated cells and blown-out growth nodes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自 crop circles 的植物有拉長的細胞和爆開狀的生長節點。"
+            },
+            {
+              "kind": "label",
+              "text": "前一句也提供人名來源："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr. W. C. Levengood ... has analysed many grain samples and confirmed ... significant changes at the cellular level of crop circle plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dr. W. C. Levengood 分析 grain samples，確認 crop circle plants 在細胞層面有重大變化。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "changes in cell structure= significant changes at the cellular level= elongated cells and blown-out growth nodes判斷：答案是 B。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Crop circles.pdf",
+    "sha256": "99a7852e9310208eb624f55830f964b9385c97da03580771d71cfb2b9d3f551a",
+    "pageCount": 21
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：Paragraph 1–7",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 crop circle phenomenon 多年來令人困惑和神秘化，直接建立「未解之謎」的主題。末句說多數 crop circles 一夜之間出現，也有人聲稱少數在白天半小時內出現。只看首尾句，可以先判斷本段功能是介紹 crop circles 的基本外觀、出現方式和神秘感。中間提到它們可能大過足球場，形狀也不一定是圓形，為後文談複雜圖案和成因爭議鋪路。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 crop circles 已在世界各地出現，近年各國報告約有 10,000 宗。末句列出超過 30 個國家，包括 Canada、former Soviet Union、Japan 和 United States。只看首尾句，可以先判斷本段主題是分布和歷史數量。中間按年份列出 Australia、southern England、1988、1989、1990、1991等數字，適合處理數量、年份、地點和 worldwide reports 類題目。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說九成 crop circles 仍然簡單，莖部折斷並旋轉式壓平，周圍莖仍直立。末句說鳥群會分開，繞著 crop circle 邊緣飛，不會直接飛越圖案。只看首尾句，可以判斷本段功能是描述 crop circles的形態特徵和周邊異常現象。中間提到圖案愈來愈幾何複雜，並出現 unusual lights、unidentifiable sounds、strange glow、small planes power cut off 等現象。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 researchers 花了大量時間研究 crop circles 的不同方面。末句說他們會分析圈內圈外的grain，尋找差異。只看首尾句，可以先判斷本段是研究方法總覽：研究者檢查是否有人為痕跡、測試 geophysical anomalies，並比較圈內外植物。本段很短，功能是承接前面的神秘現象，帶到後面較具科學調查色彩的人名和研究結果。"
+      },
+      {
+        "number": "5",
+        "summary": "首句介紹 Dr. W. C. Levengood 分析大量 grain samples，反覆確認 crop circle plants 在 cellular level 有重大變化。末句說部分 crop circle 內的植物莖顯示曾暴露於 rapid microwave heating。只看首尾句，可以判斷本段集中講科學異常證據：植物細胞、growth nodes、seed growth、soil、radionuclides、nitrogen、nematodes、water content、magnetic particles 和 charred tissue。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說科學家嘗試以自然過程解釋 crop circles。末句說許多 crop circles 經分析後顯示奇特數學特徵。只看首尾句，可以判斷本段主題是解釋理論與反駁：一方面有 Dr. Terence Mearden 的Plasma Vortex Theory，講 electrified air 和 mini-tornadoes；另一方面有 hoax theory，講兩名英國男子聲稱造了約 250 個圈，但作者認為把所有 crop circles 都說成假作不合理。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 crop circle phenomenon 是一個 enigma，即謎團。末句說這個 puzzle 會繼續困擾人類，直到找到解釋。只看首尾句，可以判斷本段是總結段：作者沒有給出最終答案，只強調大量研究經費和努力仍未完全解開問題。這段通常不會提供細節答案，但可幫助理解作者整體態度：crop circles 仍未有令人完全滿意的解釋。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+/* This sheet is loaded in the guide, native document, and meeting transcript roots. */
+.paper-page>header.cur23-has-file-stamps{min-height:69px;display:flex;align-items:center;gap:9px}
+.cur23-file-stamps{display:flex;align-items:center;gap:4px;flex:none;margin-right:7px}
+.cur23-file-stamp{display:grid;place-items:center;width:42px;height:44px;border:3px solid currentColor;border-radius:10px 12px 10px 13px;background:#fffdf7;box-shadow:2px 3px 0 #173c3528;font:900 30px/1 Georgia,serif;transform:rotate(-7deg)}
+.cur23-file-stamp:nth-child(2){margin-left:-10px;transform:rotate(6deg)}
+.cur23-file-stamp:nth-child(3){margin-left:-10px;transform:rotate(-3deg)}
+.cur23-file-stamp-A{color:#008c9d;background:#e5fbfc}.cur23-file-stamp-B{color:#9b7000;background:#fff4c3}.cur23-file-stamp-C{color:#b94964;background:#ffe7eb}
+.cur23-stamp-enter{animation:cur23-stamp .58s cubic-bezier(.2,1.4,.35,1) both}@keyframes cur23-stamp{from{opacity:0;scale:1.8;rotate:-25deg}to{opacity:1;scale:1;rotate:0deg}}
+.cur23-boss-point{position:relative;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.cur23-boss-point::before{content:attr(data-point);display:inline-grid;place-items:center;width:18px;height:18px;margin-right:3px;border:2px solid #d95643;border-radius:50%;color:#b64736;background:#fff9ed;font:800 13px/1 system-ui;vertical-align:super;transform:rotate(-9deg)}
+.cur23-boss-hint{background:#b9e7aa!important;box-shadow:0 0 0 2px #b9e7aa}
+.email-content p[data-curation-task]{position:relative;padding-right:40px;line-height:2.05;text-wrap:pretty}
+.email-content p.cur23-task-revealed::after{content:attr(data-curation-task);position:absolute;right:1px;top:.1em;display:grid;place-items:center;width:27px;height:27px;border-radius:50%;font:900 20px/1 Georgia,serif;transform:rotate(-8deg)}
+.email-content p[data-curation-task="A"].cur23-task-revealed::after{color:#008ca0;border:2px solid #00aabc}.email-content p[data-curation-task="B"].cur23-task-revealed::after{color:#ae7900;border:2px solid #dfb81c}.email-content p[data-curation-task="C"].cur23-task-revealed::after{color:#c04d68;border:2px solid #e995a5}
+.paper-page mark[data-step-index]{cursor:pointer}.paper-page mark[data-step-index]:focus-visible{outline:3px solid #287a70;outline-offset:3px}
+.cur23-review-current{outline:2px solid #d9aa24;outline-offset:3px;border-radius:5px}.cur23-review-sentence{background:#fff2a8;box-shadow:0 0 0 3px #fff2a8;border-radius:2px}.cur23-review-rejected{text-decoration:line-through 3px #c7222c}.cur23-review-task-1{background:#8eeaf0}.cur23-review-task-2{background:#ffe486}.cur23-review-task-3{background:#f8bdc8}
+.cur23-flight-1{background:#dff8f8;border-color:#24a2ac}.cur23-flight-2{background:#fff4c6;border-color:#bf892a}.cur23-flight-3{background:#ffe6eb;border-color:#cc687d}
+@media(max-width:620px){.paper-page>header.cur23-has-file-stamps{flex-wrap:wrap;min-height:88px}.cur23-file-stamp{width:34px;height:36px;font-size:24px}}
+@media(prefers-reduced-motion:reduce){.cur23-stamp-enter{animation:none!important}.curation-flying{transition:none!important}}
+@media print{.cur23-file-stamps{display:none!important}}
+
+/* Step 5 keeps all three teaching models visible in the writing workspace. */
+.cur23-writing-paper{max-height:none;overflow:visible;white-space:normal;padding:6px 4px 24px;color:#17332d}
+.cur23-model-header{border-bottom:1px solid #c5d7ca;padding:10px 14px 15px;margin:0 0 16px;background:#f1f7f1;border-radius:10px}
+.cur23-model-header span{font:800 11px/1.4 system-ui,sans-serif;letter-spacing:.12em;color:#507969}
+.cur23-model-header h2{font:700 clamp(24px,2.2vw,34px)/1.2 Georgia,serif;margin:7px 0;color:#173d35}
+.cur23-model-header p{font:600 13px/1.4 system-ui,sans-serif;margin:0;color:#547267}
+.cur23-model-nav{position:static;display:flex;gap:8px;flex-wrap:wrap;padding:0 14px 14px;margin:0;background:transparent;border:0;box-shadow:none}
+.cur23-model-nav button{display:block;min-width:110px;padding:9px 14px;font:750 13px/1.3 system-ui,sans-serif;background:#f1f7f1;border:1px solid #accabb;color:#23594b;border-radius:8px}
+.cur23-model-nav button[aria-current="true"]{background:#145949;color:white;border-color:#145949}
+.cur23-model-note{margin:0 14px 16px;padding:11px 14px;border-left:3px solid #cf9b39;background:#f7f1de;font:600 14px/1.5 system-ui,sans-serif}
+/* The 2025 reader opens each native model inside a disclosure in the practice card. */
+.curation-model-essay{margin-top:18px;border:1px solid #b8d1c4;border-radius:12px;background:#f6fbf7;overflow:hidden}
+.curation-model-essay summary{padding:12px 14px;cursor:pointer;font:800 15px/1.45 system-ui;color:#164d42}
+.curation-model-essay article{padding:4px 16px 18px;background:#fffdf8;font:16px/1.65 Georgia,serif;color:#182e2b}
+.cur23-model-essay h4,.cur23-model-essay h5{font-family:Georgia,serif;margin:1em 0 .35em}
+.cur23-model-essay h4{font-size:1.3em}.cur23-model-essay h5{font-size:1em}
+.cur23-model-essay p{margin:0 0 1em}.cur23-model-essay p:last-child{margin-bottom:0}
+.cur23-model-essay .current-model{box-decoration-break:clone;-webkit-box-decoration-break:clone}
+@media(max-width:620px){.cur23-model-nav button{min-width:0;flex:1}}
+
+/* Manual writing sequence: prompt, skeleton, independent draft, check, then model. */
+.cur23-prep-progress{margin:0 14px 12px;color:#466b5d;font:750 13px/1.5 system-ui,sans-serif}
+.cur23-writing-prompt{margin:0 14px 16px;padding:15px 18px;background:#f5f0e2;border-left:4px solid #c89136;border-radius:4px;font:18px/1.55 Georgia,serif}
+.cur23-writing-contract{display:grid;grid-template-columns:110px minmax(0,1fr);gap:0 12px;margin:0 14px 18px;border:1px solid #ccdacd;border-radius:9px;overflow:hidden;font:15px/1.5 system-ui,sans-serif}
+.cur23-writing-contract dt,.cur23-writing-contract dd{margin:0;padding:10px 12px;border-bottom:1px solid #dce8dc}
+.cur23-writing-contract dt{font-weight:800;background:#edf5ef}.cur23-writing-contract dd{background:#fffefa}
+.cur23-writing-contract dt:nth-last-of-type(1),.cur23-writing-contract dd:nth-last-of-type(1){border-bottom:0}
+.cur23-writing-skeleton{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:0 14px 18px}
+.cur23-writing-skeleton label{display:block;padding:12px;border:1px solid #c7d9cc;border-radius:9px;background:#fffefa;font:14px/1.5 system-ui,sans-serif}
+.cur23-writing-skeleton strong{display:block;margin-bottom:6px;color:#204f42}
+.cur23-writing-skeleton textarea{width:100%;min-height:88px;padding:9px;border:1px solid #adccba;border-radius:5px;background:#fffef9;font:15px/1.5 Georgia,serif}
+.cur23-prep-draft-note{margin:0 14px 16px;padding:13px;background:#eaf4ed;border-radius:8px;font:700 15px/1.5 system-ui,sans-serif}
+.cur23-writing-checks{display:grid;gap:10px;margin:0 14px 18px;font:15px/1.5 system-ui,sans-serif}
+.cur23-writing-checks label{display:flex;align-items:flex-start;gap:8px;padding:11px 13px;background:#fffefa;border:1px solid #c8dacd;border-radius:7px}
+.cur23-writing-checks input{width:18px;height:18px;margin-top:2px;accent-color:#287a70;flex:none}
+.cur23-open-model{display:block;margin:0 14px 18px;padding:11px 16px;border:0;border-radius:8px;background:#155747;color:#fff;font:800 14px/1.3 system-ui,sans-serif}
+@media(max-width:620px){.cur23-writing-skeleton{grid-template-columns:1fr}.cur23-writing-contract{grid-template-columns:90px minmax(0,1fr)}.cur23-writing-prompt{font-size:16px}}
+
+.cur23-essay-structure{background:#e8dafa;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.cur23-essay-content-A{background:#8eeaf0;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.cur23-essay-content-B{background:#ffe486;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.cur23-essay-content-C{background:#f8bdc8;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+
+/* Reserve a reading band between the bank and the guide at narrow widths. */
+@media(max-width:1099px){
+  .curation-dock{max-height:42dvh}
+  body.cur23-open main{padding-bottom:65vh}
+}
+@media(max-width:620px){
+  .curation-dock{max-height:40dvh}
+  .curation-content{min-height:44px}
+}
+mark.target[data-type="1"]{outline-color:#0baabe}
+mark.target[data-type="2"]{outline-color:#d8ac19}
+mark.target[data-type="3"]{outline-color:#df758b}
+mark.target[data-type="4"]{outline-color:#6baa60}
+mark.reject.target{background-image:linear-gradient(#c7222c,#c7222c)!important;background-position:left center!important;background-repeat:no-repeat!important;background-size:100% 3px!important;animation:cur23-reject .55s ease-out}
+@keyframes cur23-reject{from{background-size:0 3px}to{background-size:100% 3px}}
+@media(prefers-reduced-motion:reduce){mark.reject.target{animation:none}}
+
+/* The guide already exposes Help beside Back and Next. */
+body.cur23-open .learning-question-launcher{display:none!important}
+/* Keep the explanation and save controls reachable on short screens. */
+@media(max-width:620px){
+  .curation-dock{overflow-y:auto;overscroll-behavior:contain}
+  .curation-dock>*{flex-shrink:0}
+  .curation-dock .curation-actions{position:sticky;top:0;z-index:2}
+  .curation-dock .curation-content{overflow:visible}
+}

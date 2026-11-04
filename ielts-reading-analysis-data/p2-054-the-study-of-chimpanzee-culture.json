@@ -1,0 +1,1513 @@
+{
+  "id": "p2-054-the-study-of-chimpanzee-culture",
+  "catalogueId": "p2-054",
+  "catalogueIds": [
+    "p2-054"
+  ],
+  "passage": 2,
+  "title": "The Study of Chimpanzee Culture",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "H",
+    "J",
+    "I",
+    "K",
+    "G",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "FALSE",
+    "1960s",
+    "Tanzania",
+    "close observation",
+    "cultural origin"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Question Analysis",
+      "prompt": "“an approach to studying chimpanzee culture based solely on official sources”",
+      "translation": "一種只依靠正式來源來研究 chimpanzee culture 的方法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How did an international team of chimpanzee experts perform the most comprehensive survey of the animals ever attempted?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個國際 chimpanzee 專家團隊如何完成有史以來最全面的 chimpanzee survey？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But this approach probably neglects a good deal of cultural variation for three reasons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這種方法很可能因三個原因忽略大量 cultural variation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph H 明顯由新 survey 的方法問題切入，再批評舊 approach。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“approach” 和 “official sources” 正好應該在這段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最有定位力的字是 “based solely” 和 “official sources”。原文沒有 official sources 這個短語，但有“officially published accounts”。掃描 Paragraph H 可找到：“So far, most attempts to document cultural diversity among chimpanzees have solely relied upon officially published accounts of the behaviours reported at each research site.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far, most attempts to document cultural diversity among chimpanzees have solely relied upon officially published accounts of the behaviours reported at each research site.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，大部分記錄 chimpanzees cultural diversity 的嘗試，都只依靠各研究地點已正式出版的行為報告。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “solely relied upon” 對應題目的 “based solely”；“officially published accounts” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“official sources”。所以答案是 H。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "based solely on official sources= solely relied upon officially published accounts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "J",
+      "answerKey": "J",
+      "type": "Question Analysis",
+      "prompt": "“mention of a new research approach developed by two scientists to address the problemsss”",
+      "translation": "提到兩位科學家為解決那些問題而提出的新研究方法。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph J第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To tackle these problems, my colleague and I decided to take a new approach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了解決這些問題，我和同事決定採取一種新方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With this information, we assembled a comprehensive list of 65 candidates for cultural behaviours.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "利用這些資料，我們整理出一份完整清單，包含 65 個候選 cultural behaviours。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經完整覆蓋題目：two scientists = my colleague and I；address the problems = tackle these problems；new approach = take a new approach。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “new research approach” 和 “two scientists”。原文中的 “my colleague and I” 就是兩位研究者；“decided to take a new approach” 是直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To tackle these problems, my colleague and I decided to take a new approach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了解決這些問題，我和同事決定採取一種新方法。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句補充方法內容："
+            },
+            {
+              "kind": "quote",
+              "text": "“We asked field researchers at each site to list all the behaviours which they suspected were local traditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們請每個研究地點的 field researchers 列出所有他們懷疑屬於 local traditions 的行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問的是「提到新方法」的段落，不是問新方法的結果。Paragraph J 的第一句直接定案，所以答案是 J。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "I",
+      "answerKey": "I",
+      "type": "Question Analysis",
+      "prompt": "“reasons why previous research on ape culture is problematic”",
+      "translation": "說明以往 ape culture 研究有問題的原因。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, scientists normally don’t publish an extensive list of all the activities they do not see at a particular location.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，科學家通常不會出版某個地點沒有觀察到的所有活動的完整清單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, researchers’ descriptions of potentially significant chimpanzee behaviours often lack sufficient detail, which makes it difficult for scientists from other sites to report the presence or absence of the activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，研究者對可能重要的 chimpanzee behaviours 的描述常缺乏足夠細節，令其他地點的科學家難以報告這些活動有沒有出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph I 已經呈現原因列舉結構：First 到 Finally。題目問 reasons，最自然定位在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “reasons” 對應原文的 First、Second、Finally。Paragraph H 末句預告 “for three reasons”，Paragraph I 逐一展開三個原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "第一個原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“scientists normally don’t publish an extensive list of all the activities they do not see at a particular location.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家通常不會列出某地沒有看到的所有活動。"
+            },
+            {
+              "kind": "label",
+              "text": "第二個原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“there are many reports describing chimpanzee behaviours without expressing how common they are”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多報告描述了 chimpanzee behaviours，卻沒有說明它們有多常見。"
+            },
+            {
+              "kind": "label",
+              "text": "第三個原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“researchers’ descriptions of potentially significant chimpanzee behaviours often lack sufficient detail”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者對可能重要的行為描述常缺乏足夠細節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三點合起來解釋 why previous research is problematic：缺少 absence data、frequency data 和detailed descriptions。答案是 I。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "K",
+      "answerKey": "K",
+      "type": "Question Analysis",
+      "prompt": "“new classification of data observed or collected”",
+      "translation": "對觀察或收集到的資料作新分類。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph K第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then we distributed our list to team leaders at each site.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著，他們把清單分發給每個研究地點的 team leaders。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The main categories were customary behaviour … habitual … present … absent … and unknown.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要分類包括 customary behaviour、habitual、present、absent 和 unknown。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說把資料清單發給各地團隊，末句說 main categories。這段段落功能明顯是資料分類。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “classification”。原文用 “classified each behaviour according to its occurrence or absence”。這句直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They consulted with their colleagues and classified each behaviour according to its occurrence or absence in the chimpanzee community.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們和同事商議，並根據每種行為在 chimpanzee community 中有沒有出現來分類。"
+            },
+            {
+              "kind": "label",
+              "text": "後文列出分類："
+            },
+            {
+              "kind": "quote",
+              "text": "“customary behaviour … habitual … present … absent … and unknown.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "分類包括：大多數或全部成員都有的 customary behaviour、較少見但多個個體重複出現的habitual、已觀察到但未達 habitual 的 present、從未見過的 absent，以及 unknown。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “new classification of data” 對應這組分類，所以答案是 K。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Question Analysis",
+      "prompt": "“an example showing that the cultural traits of chimpanzees can lead to a change in local people’s attitudes towards their conservation”",
+      "translation": "一個例子，顯示 chimpanzee 的文化特質可以改變當地人對保育的態度。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the cultural richness of the ape may contribute to its salvation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，猿類的文化豐富性可能有助於牠們得救。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After several organisations showed videotapes illustrating the cognitive prowess of chimpanzees, one Zairian viewer was heard to exclaim, ‘Ah, this ape is so like me, I can no longer eat him.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾個組織播放展示 chimpanzees 認知能力的影片後，有一位 Zaire 觀眾驚呼：「啊，這隻猿太像我了，我再也不能吃牠。」首句說 cultural richness 可幫助 salvation；末句給出 local viewer 改變態度的例子。這正好對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “change in local people’s attitudes” 和 “conservation”。原文的 “altered the attitudes of some local people” 直接重現這個意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, conservation efforts have already altered the attitudes of some local people.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，保育工作已經改變了一些當地人的態度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後文用 videotapes 和 Zairian viewer 的反應作例子。這位觀眾看到 chimpanzee cognitive prowess 後，不再願意吃 chimpanzee。這說明文化和認知特質能支持保育，所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Research found that chimpanzees possess a culture as complex as that of humans.”",
+      "translation": "研究發現 chimpanzees 擁有和人類一樣複雜的文化。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After studying the similarities between chimpanzees and humans for years, researchers have recognised over the past decade that these resemblances run much deeper than anyone first thought.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者多年比較 chimpanzees 和 humans 後，在過去十年認識到這些相似之處比任何人最初想像更深。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These researchers frequently use the term ‘culture’ to describe elementary animal behaviours, like the regional dialects of different species of songbirds, but it turns out that the rich and varied cultural traditions enjoyed by chimpanzees rank second in complexity only to human traditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些研究者常用 “culture” 來描述基礎動物行為，例如不同 songbirds 物種的地區方言；但結果顯示，chimpanzees 擁有的豐富多樣文化傳統，其複雜程度僅次於人類傳統。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “as complex as humans”。原文中要找 complexity 比較。Paragraph A 末句出現"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“rank second in complexity only to human traditions”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵短語：“rank second in complexity only to human traditions”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "複雜程度排第二，只低於人類傳統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “as complex as that of humans”，意思是與人類文化同等複雜。原文說 chimpanzee cultural traditions 排第二，僅次於人類。這已經明確顯示兩者複雜程度不相等，人類仍居第一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Humans and chimpanzees have coexisted for a long time and share most of their genetic material.”",
+      "translation": "人類和 chimpanzees 已共存很長時間，並共享大部分基因材料。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although we know that Homo sapiens and Pan troglodytes have coexisted for hundreds of millennia and their genetic similarities surpass 98 per cent, we knew next to nothing about chimpanzee behaviour in the wild until 40 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然我們知道 Homo sapiens 和 Pan troglodytes 已共存數十萬年，並且基因相似度超過 98%，但直到 40 年前，我們對野外 chimpanzee behaviour 幾乎一無所知。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Goodall’s research station at Gombe—the first of its kind—is more famous, but Nishida’s site at Mahale is the second oldest chimpanzee research site in the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Goodall 在 Gombe 的研究站是同類研究站中第一個，也較為有名；Nishida 在 Mahale 的地點則是世界第二古老的 chimpanzee research site。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “coexisted” 和 “genetic material”。原文第一句有 “coexisted for hundreds of millennia”和 “genetic similarities surpass 98 per cent”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “hundreds of millennia” 對應題目 “a long time”；“genetic similarities surpass 98 per cent”對應 “share most of their genetic material”。98% 以上明顯是大部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Toshisada Nishida’s and Jane Goodall’s early studies revealed surprising examples of sophisticated chimpanzee behaviour.”",
+      "translation": "Toshisada Nishida 和 Jane Goodall 的早期研究揭示了令人驚訝、較複雜的 chimpanzee behaviour 例子。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C–D Paragraph C 交代 Nishida 和 Goodall 在 1960s 於 Tanzania 開始研究 wild chimpanzees。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 首句接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“During these initial studies, as the chimpanzees became more and more accustomed to close observation, researchers made remarkable discoveries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些最初研究期間，隨著 chimpanzees 越來越習慣近距離觀察，研究者作出了重要發現。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers witnessed a variety of unexpected behaviours, ranging from fashioning and using tools, hunting, meat eating and food sharing to lethal fights between members of neighbouring communities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者目睹了多種 unexpected behaviours，包括製造和使用工具、狩獵、吃肉、分享食物，以及鄰近群體成員之間的致命打鬥。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Nishida”, “Goodall”, “early studies”, “surprising examples”。Paragraph C 找到兩位研究者；Paragraph D 的 “initial studies” 連接到前段的 early studies。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“remarkable discoveries” 和 “unexpected behaviours” 支援 “surprising examples”。工具製造與使用、狩獵、分享食物和跨群體 lethal fights 都屬於 sophisticated behaviour 的例子。題目將 Paragraph D 的 “unexpected behaviours” 概括為 “surprising examples of sophisticated chimpanzee behaviour”，意思成立。判斷：TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“Chimpanzees, like humans, pass cultural behaviours primarily through genetic inheritance.”",
+      "translation": "Chimpanzees 像人類一樣，主要透過 genetic inheritance 傳遞 cultural behaviours。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1973, 13 forms of tool use and 8 social activities which appeared to differ between the Gombe chimpanzees and chimpanzees elsewhere were recorded by Goodall.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1973 年，Goodall 記錄了 13 種 tool use 和 8 種 social activities，這些似乎在 Gombe chimpanzees 和其他地方的 chimpanzees 之間有所不同。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From the biologists’ point of view, this is the fundamental criterion for a cultural trait—something can be learnt by observing the established skills of others and then passed on to subsequent generations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從生物學家的角度看，這就是 cultural trait 的基本標準：某種東西可透過觀察他人已建立的技能而學得，然後傳給後代。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “genetic inheritance”。原文中有非常強的反向訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“not through their genes but via learning.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, animals do not have myths and legends, but they do share the capacity to pass on behavioural traits from one generation to another, not through their genes but via learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，動物沒有 myths and legends，但牠們確實有能力把 behavioural traits 從一代傳到下一代；這種傳遞靠 learning，並非靠 genes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 primarily through genetic inheritance；原文說 via learning，並明確排除 genes。方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“For decades, researchers have investigated chimpanzee culture using data about both observed and unobserved behaviours.”",
+      "translation": "數十年來，研究者一直使用「已觀察到」和「沒有觀察到」的行為資料來研究 chimpanzee culture。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H–I Paragraph H 第一部分說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although scientists have been delving into chimpanzee culture for several decades, sometimes their studies contained a fatal defect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然科學家已研究 chimpanzee culture 數十年，但他們的研究有時含有致命缺陷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 第一及最後句則說明缺陷原因，包括沒有列出未觀察到的行為，以及描述不夠詳細。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “for decades” 在 Paragraph H 找到；“observed and unobserved behaviours” 要對應Paragraph I 的 “activities they do not see”。這題需要跨段檢查。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far, most attempts to document cultural diversity among chimpanzees have solely relied upon officially published accounts of the behaviours reported at each research site.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，大多數記錄 chimpanzees cultural diversity 的嘗試，都只依靠各研究地點正式出版的行為報告。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I："
+            },
+            {
+              "kind": "quote",
+              "text": "“scientists normally don’t publish an extensive list of all the activities they do not see at a particular location.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家通常不會出版某地沒有看到的所有活動的完整清單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說研究者使用 observed and unobserved behaviours 兩類資料；原文說舊方法主要依賴published accounts，且缺少未觀察到的活動清單。這與題目說法衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "1960s",
+      "answerKey": "1960s",
+      "type": "Question Analysis",
+      "prompt": "“When did the unexpected discoveries of chimpanzee behaviour start?”",
+      "translation": "chimpanzee behaviour 的 unexpected discoveries 何時開始？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C–D Paragraph C 第一、二句交代時間背景：直到 40 年前，人類對野外 chimpanzee behaviour 幾乎不了解；這一切在 1960s 開始改變。Paragraph D 接著說 initial studies 帶來 remarkable discoveries。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “unexpected discoveries”。Paragraph D 有 “remarkable discoveries” 和 “unexpected behaviours”。要找時間，需回到 Paragraph C 的 “1960s”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All this began to change in the 1960s when Toshisada Nishida of Kyoto University in Japan and renowned British primatologist Jane Goodall launched their studies of wild chimpanzees at two field sites in Tanzania.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一切在 1960s 開始改變；當時日本京都大學的 Toshisada Nishida 和英國著名靈長類學家Jane Goodall 在 Tanzania 的兩個 field sites 展開 wild chimpanzees 研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 再說 “During these initial studies” 研究者看到 unexpected behaviours。時間答案因此是 1960s。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：1960s，符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "Tanzania",
+      "answerKey": "Tanzania",
+      "type": "Question Analysis",
+      "prompt": "“In which country are Toshisada Nishida’s and Jane Goodall’s research sites located?”",
+      "translation": "Toshisada Nishida 和 Jane Goodall 的研究地點位於哪個國家？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although we know that Homo sapiens and Pan troglodytes have coexisted for hundreds of millennia and their genetic similarities surpass 98 per cent, we knew next to nothing about chimpanzee behaviour in the wild until 40 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然我們知道人類和 chimpanzees 已共存數十萬年，基因相似度超過 98%，但直到 40 年前，我們對野外 chimpanzee behaviour 幾乎一無所知。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Goodall’s research station at Gombe—the first of its kind—is more famous, but Nishida’s site at Mahale is the second oldest chimpanzee research site in the world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Goodall 在 Gombe 的研究站較有名，是同類中的第一個；Nishida 在 Mahale 的研究點是世界第二古老的 chimpanzee research site。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Toshisada Nishida”, “Jane Goodall”, “research sites”。Paragraph C 同一句出現兩人名字和 field sites。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...Toshisada Nishida ... and ... Jane Goodall launched their studies of wild chimpanzees at two field sites in Tanzania.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Toshisada Nishida 和 Jane Goodall 在 Tanzania 的兩個 field sites 展開 wild chimpanzees 研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 country，答案是 Tanzania。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：Tanzania，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "close observation",
+      "answerKey": "close observation",
+      "type": "Question Analysis",
+      "prompt": "“What did the chimpanzees have to become accustomed to during the initial studies?”",
+      "translation": "在最初研究期間，chimpanzees 需要習慣甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During these initial studies, as the chimpanzees became more and more accustomed to close observation, researchers made remarkable discoveries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些最初研究期間，隨著 chimpanzees 越來越習慣 close observation，研究者作出了重要發現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers witnessed a variety of unexpected behaviours, ranging from fashioning and using tools, hunting, meat eating and food sharing to lethal fights between members of neighbouring communities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者目睹了多種 unexpected behaviours，包括製造和使用工具、狩獵、吃肉、分享食物，以及鄰近群體成員間的致命打鬥。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “become accustomed to”。原文第一句直接有 “became more and more accustomed to close observation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...the chimpanzees became more and more accustomed to close observation...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "chimpanzees 越來越習慣近距離觀察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 what they became accustomed to，答案直接是 close observation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：close observation，2 words，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "cultural origin",
+      "answerKey": "cultural origin",
+      "type": "Question Analysis",
+      "prompt": "“What term did Jane Goodall use to describe regional differences in chimpanzees’ tool use in 1973?”",
+      "translation": "1973 年，Jane Goodall 用甚麼詞語描述 chimpanzees 工具使用的地區差異？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1973, 13 forms of tool use and 8 social activities which appeared to differ between the Gombe chimpanzees and chimpanzees elsewhere were recorded by Goodall.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1973 年，Goodall 記錄了 13 種 tool use 和 8 種 social activities，這些似乎在 Gombe chimpanzees 和其他地方的 chimpanzees 之間不同。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From the biologists’ point of view, this is the fundamental criterion for a cultural trait—something can be learnt by observing the established skills of others and then passed on to subsequent generations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從生物學家的角度看，這就是 cultural trait 的基本標準：某種東西可透過觀察他人已建立的技能學得，然後傳給後代。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “1973”, “Goodall”, “tool use”, “regional differences”。Paragraph E 第一段即有 1973、tool use、differ between Gombe and elsewhere。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She speculated that some of these variations had what she called a ‘cultural origin’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她推測其中一些 variations 具有她稱為 “cultural origin” 的來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 term，原文引號內詞語就是答案。regional differences 對應 “variations”；Goodall used the term “cultural origin”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：cultural origin，2 words，符合限制。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The Study of Chimpanzee Culture.pdf",
+    "sha256": "f7ce16a5637546acac425444333b01003ecb0050f08b14bc667bb2a435046a85",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Part 1｜Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說，研究者多年比較 chimpanzees 和 humans 後，近十年發現兩者相似程度比最初想像更深。末句說，chimpanzees 的文化傳統豐富多樣，複雜程度僅次於人類。只看首尾句，可以估計本段是全文引入：它把 chimpanzee behaviour 提升到 culture 層面，並用 Tai Forest 的 nut-cracking作例子，說明某些行為有地區性和文化性。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說，過去兩年主要 chimpanzee 研究團隊大規模合作，記錄了工具使用、溝通方式和社會習俗等 distinct cultural patterns。末句說，這改變了我們對人類獨特性及遠古祖先文化創造能力的理解。只看首尾句，本段功能是說明新合作研究的重要性：它不只擴展 chimpanzee knowledge，也衝擊 human uniqueness 這個大問題。"
+      },
+      {
+        "number": "C",
+        "summary": "首句指出 Homo sapiens 和 Pan troglodytes 已共存數十萬年，基因相似度超過 98%，但直到 40年前，我們幾乎不了解野外 chimpanzee behaviour。末句補充 Goodall 的 Gombe 站最有名， Nishida 的 Mahale 是世界第二古老 chimpanzee 研究地。首尾合看，本段交代研究歷史起點、Tanzania 兩個 field sites，以及 1960s 如何改變人類對 chimpanzees 的認識。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說，在最初研究期間，chimpanzees 越來越習慣 close observation，研究者作出了remarkable discoveries。末句列出 unexpected behaviours，包括製造和使用工具、狩獵、吃肉、分享食物，以及鄰近群體成員之間的 lethal fights。只看首尾句，這段是早期發現段，重點在chimpanzees 的行為遠比以往想像複雜和多樣。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說，1973 年 Goodall 記錄了 13 種 tool use 和 8 種 social activities，這些似乎在 Gombe 和其他地方的 chimpanzees 之間不同。末句說，生物學角度下，cultural trait 的基本標準是：行為可透過觀察他人而學得，並傳給後代。首尾句顯示，本段由 Goodall 的 “cultural origin” 推到 culture的定義，重點在 learning，並非 genetic inheritance。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說，這些發現對 chimpanzees 本身有重大含義。末句說，破壞威脅的不只是一隻隻動物，也包括很多 fascinatingly different ape cultures。只看首尾句，本段功能偏向 conservation warning： chimpanzee populations 因 illegal trapping、logging 和 bushmeat trade 急劇下降，文化多樣性也同時面臨消失。"
+      },
+      {
+        "number": "G",
+        "summary": "首句用 However 轉向較積極方向：ape 的 cultural richness 可能幫助其 survival。末句引用一位Zairian viewer 看到 chimpanzee cognitive prowess 後說，這隻猿如此像自己，他再也不能吃牠。首尾句顯示，本段用一個 conservation example 說明：了解 chimpanzee culture 和 cognition 可改變當地人態度，從而支持保育。"
+      },
+      {
+        "number": "H",
+        "summary": "首句提出問題：國際 chimpanzee 專家團隊如何進行有史以來最全面的 survey？末句說，過去依賴 published accounts 的方法可能因三個原因忽略很多 cultural variation。只看首尾句，本段是methodology problem 段：先承認研究已持續多年，再指出早期方法有 fatal defect，尤其過度依賴正式出版資料。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說，第一個問題是科學家通常不會出版某地「沒有看到」的所有活動清單。末句說，研究者對重要行為的描述常缺乏足夠細節，使其他研究地點難以報告該行為有沒有出現。首尾合看，本段完整列出舊研究問題：缺少 absence data、缺少 frequency information、描述不夠 detailed。這是previous research problematic 的核心段。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說，為了解決這些問題，作者和同事決定採取新方法。末句說，他們利用這些資料組成一份包含 65 個候選 cultural behaviours 的 comprehensive list。只看首尾句，本段是 solution / new approach 段：兩位研究者不再只等 published accounts，而請各 field researchers 列出他們懷疑屬於 local traditions 的行為。"
+      },
+      {
+        "number": "K",
+        "summary": "首句說，他們把 list 分發給各研究地點的 team leaders。末句列出分類：customary、habitual、present、absent 和 unknown。只看首尾句，本段是 data classification 段：各地團隊根據某行為在chimpanzee community 中的 occurrence 或 absence 來分類，並用多層級標籤分清常見、重複出現、只曾觀察到、從未見過和未知。"
+      }
+    ]
+  }
+}

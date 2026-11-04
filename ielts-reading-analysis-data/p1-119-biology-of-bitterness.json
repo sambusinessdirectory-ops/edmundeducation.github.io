@@ -1,0 +1,2698 @@
+{
+  "id": "p1-119-biology-of-bitterness",
+  "catalogueId": "p1-119",
+  "catalogueIds": [
+    "p1-119"
+  ],
+  "passage": 1,
+  "title": "Biology of Bitterness",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "B",
+    "I",
+    "C",
+    "E",
+    "G",
+    "H",
+    "A",
+    "D",
+    "naringin",
+    "poisonous",
+    "supertasters",
+    "taste buds",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“An experiment on bitterness”",
+      "translation": "一個關於苦味的實驗。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不是問哪一段談 bitter 這個概念，因為幾乎全篇都與 bitterness 有關。它問的是 experiment，所以要找具體測試、受試者、樣本、比較結果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is possible, however, to get the goodness of grapefruit juice without the bitter taste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們可以得到葡萄柚汁的好處，同時避開苦味。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This juice had been treated with adenosine monophosphate, or AMP, a compound that blocks the bitterness in foods without making them less nutritious.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這杯果汁已用 adenosine monophosphate，即 AMP 處理；AMP 是一種能阻擋食物苦味、同時不會降低營養價值的化合物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph B 會展示「去除苦味但保留營養」這個想法。第一句提出可能性，最後一句揭示原因是 AMP。這個段落功能和 “experiment on bitterness” 相關，因為要證明AMP 能否改變苦味，需要 tasting test。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“experiment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bitterness”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接用 experiment 這個字，但有 test 的具體場景："
+            },
+            {
+              "kind": "quote",
+              "text": "“participating in a test conducted at the Linguagen Corporation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Sets of two miniature white paper cups…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Each of us drank from one cup and then the other…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是實驗或測試語境。尤其 “test conducted at the Linguagen Corporation” 是最直接的定位訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I found that out by participating in a test conducted at the Linguagen Corporation, a biotechnology company in Cranbury, New Jersey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我是透過參與 Linguagen Corporation 進行的一項測試得知這一點的；Linguagen 是位於新澤西州 Cranbury 的一家生物科技公司。"
+            },
+            {
+              "kind": "label",
+              "text": "接着原文描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even the smallest sip of 304 had grapefruit’s unmistakable bitter bite. But 305 was smoother; there was the sour taste of citrus but none of the bitterness of naringin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使只喝一小口 304，也有葡萄柚明顯的苦澀刺激感。但 305 較順口；它有柑橘的酸味，卻沒有naringin 的苦味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句證明 Paragraph B 包含一個具體 taste test。304 和 305 是對照樣本；參與者喝兩杯果汁，再比較苦味有無。題目 “An experiment on bitterness” 把這個 test 概括成 experiment。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“An experiment”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a test conducted at the Linguagen Corporation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Each of us drank from one cup and then the other”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“on bitterness”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“bitter bite”"
+            },
+            {
+              "kind": "quote",
+              "text": "“none of the bitterness of naringin”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 和 E 也有 studies，但它們主要講苦味敏感度和味覺訊號機制。Question 1 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“experiment on bitterness” 最直接對應 Paragraph B 的 taste test，因為那裡有兩杯果汁、受試者、味覺比較和 AMP 處理結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "I",
+      "answerKey": "I",
+      "type": "Matching Information",
+      "prompt": "“A look at a future application”",
+      "translation": "對未來應用的一個展望。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 future application，關鍵不是現有理論，也不是現有實驗，而是作者展望未來可能怎樣使用 bitter blockers。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A number of foodmakers have already begun to experiment with AMP in their products, and other bitter blockers are being developed by rival firms such as Senomyx in La Jolla, California.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不少食品製造商已開始在自己的產品中試用 AMP，而其他 bitter blockers 也正由競爭公司開發，例如位於加州 La Jolla 的 Senomyx。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a few years, perhaps, after food companies have taken the bitterness from canned soup and TV dinners, they can set their sights on something more useful: a bitter blocker in a bottle that any of us can sprinkle on our Brussels sprouts or stir into our grapefruit juice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許幾年後，食品公司把 canned soup 和 TV dinners 的苦味去除後，便可以把目標轉向更有用的東西：一瓶裝 bitter blocker，任何人都可以撒在 Brussels sprouts 上，或攪入 grapefruit juice中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph I 明顯是結尾展望。第一句講企業已開始試驗，最後一句用 “In a few years, perhaps” 推向未來日常應用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“future”"
+            },
+            {
+              "kind": "quote",
+              "text": "“application”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a few years, perhaps”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a bitter blocker in a bottle”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sprinkle on our Brussels sprouts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stir into our grapefruit juice”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a few years, perhaps… a bitter blocker in a bottle that any of us can sprinkle on our Brussels sprouts or stir into our grapefruit juice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許幾年後，會有瓶裝 bitter blocker，任何人都可以把它撒在 Brussels sprouts 上，或攪入葡萄柚汁中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是典型 future application。它不再停留在 laboratory test 或 industrial development，而是想像普通消費者將來如何在日常飲食中使用 bitter blocker。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“future”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a few years, perhaps”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“application”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“sprinkle on our Brussels sprouts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stir into our grapefruit juice”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 也談未來用途，例如 processed foods 和 medicines，所以有一定吸引力。但Paragraph H 的題目功能已由 Question 6 指向 “make food healthier”。Question 2 用 “a look at a future application” 較寬，且 Paragraph I 的 “In a few years, perhaps” 是最明顯的未來展望訊號。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“Bitterness conveys different information to humans and animals”",
+      "translation": "苦味對人類和動物傳遞不同資訊。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找一段同時比較 humans 和 animals 對 bitterness 的理解。只提植物防禦或只提人類喜歡咖啡都不夠，段落需要包含兩邊。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Taste research is a booming business these days, with scientists delving into all five basic tastes—sweet, bitter, sour, salty and umami, the savoury taste of protein.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今味覺研究是一門蓬勃的行業，科學家深入研究五種基本味道：甜、苦、酸、鹹和 umami，即蛋白質的鮮味。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because bitterness can be pleasing in small quantities but repellent when intense, bitter blockers like AMP could make a whole range of foods, drinks, and medicines more palatable—and therefore more profitable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於苦味在少量時可以令人愉悅，但濃烈時會令人抗拒，所以 AMP 這類 bitter blockers 可令一系列食物、飲料和藥物更可口，也因此更有利可圖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph C 會講 bitterness 的研究價值和商業應用。中間很可能解釋為何 bitterness 特別重要，也就是人類、動物、植物之間對苦味的不同反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“humans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“animals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“information”"
+            },
+            {
+              "kind": "label",
+              "text": "原文可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“They defend plants by warning animals away…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“protect animals by letting them know when a plant may be poisonous.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Humans are the only species that enjoys bitter taste…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“They defend plants by warning animals away and protect animals by letting them know when a plant may be poisonous.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們保護植物，透過警告動物遠離；同時也保護動物，讓牠們知道某種植物可能有毒。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Humans are the only species that enjoys bitter taste,” says Charles Zuker."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Charles Zuker 說，人類是唯一會享受苦味的物種。原文關鍵句三：“Every other species is averse to bitter because it means bad news. But we have learned to enjoy it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他所有物種都厭惡苦味，因為苦味代表壞消息。但我們已經學會享受它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子清楚比較 animals 和 humans。對 animals 來說，bitterness 是 poison warning，是危險訊號；對 humans 來說，苦味也可以是 pleasure，例如 coffee 和 quinine。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“conveys different information”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“warning animals away”"
+            },
+            {
+              "kind": "quote",
+              "text": "“letting them know when a plant may be poisonous”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Humans… enjoys bitter taste”"
+            },
+            {
+              "kind": "quote",
+              "text": "“we have learned to enjoy it”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“humans and animals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Humans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“animals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Every other species”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也比較不同 people 對 bitterness 的敏感度，但那是人類內部差異。Question 3 要的是 humans 與 animals 的比較，所以 Paragraph C 才完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“How a bitter signal travels through the body”",
+      "translation": "苦味訊號如何在身體中傳遞。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 biological mechanism：taste molecules、receptors、G proteins、brain 這類訊號傳遞鏈。只講基因或受體數量不足夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In one recent study, Duffy found that supertasters consume alcoholic beverages, on average, only two to three times a week, compared with five or six times for the average nontaster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一項近期研究中，Duffy 發現 supertasters 平均每週只飲用酒精飲品兩至三次，而一般nontaster 則是五至六次。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The signaling system is like a bucket brigade,” Margolskee says. “It goes from the G protein to other proteins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Margolskee 說：「這套訊號系統就像 bucket brigade。它由 G protein 傳到其他 proteins。」只看首尾句，這段由 supertaster 行為資料轉向 signaling system。最後一句明顯出現 signal 和 G protein，所以這段很可能回答「bitter signal travels」這類題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“bitter signal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“travels”"
+            },
+            {
+              "kind": "quote",
+              "text": "“body”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once a bitter signal has been received”"
+            },
+            {
+              "kind": "quote",
+              "text": "“it is relayed via proteins known as G proteins”"
+            },
+            {
+              "kind": "quote",
+              "text": "“delivers a signal to the brain”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once a bitter signal has been received, it is relayed via proteins known as G proteins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦苦味訊號被接收，它就會透過稱為 G proteins 的蛋白質傳遞。"
+            },
+            {
+              "kind": "label",
+              "text": "接着原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Known as gustducin, the protein triggers a cascade of chemical reactions that lead to changes in ion concentrations within the cell. Ultimately, this delivers a signal to the brain that registers as bitter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種名為 gustducin 的蛋白質會觸發一連串化學反應，導致細胞內離子濃度改變。最終，這會把訊號送到大腦，並被登記為 bitter。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有完整傳遞鏈：receptors 捕捉 tastants → bitter signal 被接收 → G proteins 傳遞 →gustducin 觸發反應 → signal 到 brain → 大腦感知 bitter。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“How a bitter signal travels through the body”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“relayed via proteins known as G proteins”"
+            },
+            {
+              "kind": "quote",
+              "text": "“triggers a cascade of chemical reactions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“delivers a signal to the brain”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也講 bitter-taste receptors 和 genes，但焦點在 receptors 的種類和 taste cells 的on/off，不是完整 signal pathway。Question 4 的 “travels through the body” 最貼近 Paragraph E的 relayed、delivers a signal to the brain。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“How AMP blocks bitterness”",
+      "translation": "AMP 如何阻擋苦味。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 AMP 的 mechanism。Paragraph B 告訴我們 AMP 能 block bitterness；Question 5 問how，所以要找「它如何做到」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once they figured out the taste mechanism, scientists began to think of ways to interfere with it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦科學家弄清楚味覺機制，他們便開始思考干擾它的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then candidate substances, culled from chemical compound libraries, are dropped onto the receptors, and scientists look for evidence of a reaction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後，從化合物庫中挑出的候選物質會被滴到受體上，科學家再尋找反應證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph G 的功能是「干擾味覺機制」和「尋找 blocker」。這和 AMP blocks bitterness 的機制高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“AMP”"
+            },
+            {
+              "kind": "quote",
+              "text": "“blocks bitterness”"
+            },
+            {
+              "kind": "quote",
+              "text": "“how”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“AMP has no bitterness of its own”"
+            },
+            {
+              "kind": "quote",
+              "text": "“it attaches to bitter-taste receptors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may not be able to dampen every type of bitter taste”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“AMP has no bitterness of its own, but when it is put into foods, Margolskee and his colleagues discovered that it attaches to bitter-taste receptors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "AMP 本身沒有苦味，但當它被放進食物時，Margolskee 和同事發現它會附着在 bitter-taste receptors 上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接回答 how。AMP 不是靠改變食物營養，也不是靠甜味蓋過苦味；它透過 attach to bitter-taste receptors，干擾苦味受體接收苦味物質。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“As effective as it is, AMP may not be able to dampen every type of bitter taste, because it probably doesn’t attach to all 30 bitter-taste receptors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管 AMP 很有效，它可能無法減弱每一種苦味，因為它很可能無法附着到全部 30 種bitter-taste receptors 上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句進一步證明 blocking 的關鍵在 receptors。如果 AMP 不能 attach to 某些 receptor，就未必能阻擋相應苦味。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“blocks bitterness”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“attaches to bitter-taste receptors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dampen every type of bitter taste”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“How”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“when it is put into foods… it attaches to…”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 已經說 AMP blocks bitterness，但只交代結果。Question 5 問 how，答案要到Paragraph G 找 receptor-level mechanism。Paragraph B 可作背景，真正定案在 Paragraph G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Information",
+      "prompt": "“How a bitter blocker may make food healthier”",
+      "translation": "bitter blocker 如何可能令食物更健康。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找「食物健康化」的應用，而不是單純令食物更可口。關鍵詞是 healthier，通常會對應 salt、sodium、diet、processed foods 等健康資訊。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In time, some taste researchers believe, compounds like AMP will help make processed foods less unhealthy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些味覺研究者認為，將來像 AMP 這樣的化合物會幫助 processed foods 變得比較不健康程度較低。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bitter blockers could also be used in place of cherry or grape flavouring to take the harshness out of children’s cough syrup, and they could dampen the bitterness of antihistamines, antibiotics, certain HIV drugs, and other medications.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "bitter blockers 也可取代 cherry 或 grape flavoring，用來減少兒童 cough syrup 的刺激感，並可減弱 antihistamines、antibiotics、某些 HIV drugs 和其他藥物的苦味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接有 “processed foods less unhealthy”，所以 Paragraph H 是 Question 6 的明確定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“make food healthier”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“make processed foods less unhealthy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sodium chloride”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recommended daily allowance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Part of the salt could be replaced”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Potassium chloride has a bitter aftertaste… eliminated with AMP”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Consider, for example, that a single cup of Campbell’s chicken noodle soup contains 850 milligrams of sodium chloride, or table salt—more than a third of the recommended daily allowance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，一杯 Campbell’s chicken noodle soup 含有 850 毫克 sodium chloride，即 table salt，超過建議每日攝取量的三分之一。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Part of the salt could be replaced by another salt, potassium chloride, which tends to be scarce in some people’s diets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "部分食鹽可以由另一種鹽 potassium chloride 取代，而一些人的飲食中通常缺乏 potassium chloride。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“Potassium chloride has a bitter aftertaste, but that could be eliminated with a dose of AMP.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Potassium chloride 有苦澀餘味，但這可以用一劑 AMP 消除。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句說明健康化的鏈條：processed soup 太多 sodium chloride → 可用 potassium chloride 取代部分鹽 → potassium chloride 有 bitter aftertaste → AMP 可消除苦味 → 食品可減少 sodium burden，同時使用飲食中較缺乏的 potassium chloride。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“may make food healthier”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“make processed foods less unhealthy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Part of the salt could be replaced…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bitter aftertaste… eliminated with a dose of AMP”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 也講 foodmakers，但焦點在市場發展和未來瓶裝產品。Question 6 的 “healthier” 由Paragraph H 的 less unhealthy、sodium chloride、recommended daily allowance 決定。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“The source of bitterness in a fruit”",
+      "translation": "某種水果苦味的來源。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 fruit 和 bitter chemical compound。文章中的 fruit 是 grapefruit，苦味來源是 naringin。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a reason why grapefruit juice is served in little glasses: most people don’t want to drink more than a few ounces at a time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "葡萄柚汁通常用小杯供應是有原因的：大多數人一次不想喝超過幾盎司。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So juice packagers often select grapefruit with low naringin, though the compound has antioxidant properties that some nutritionists contend may help prevent cancer and arteriosclerosis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，果汁包裝商常選擇 naringin 含量低的 grapefruit，雖然這種化合物有抗氧化特性，一些營養學家認為它可能有助預防癌症和動脈硬化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph A 介紹 grapefruit juice 為何令人不想大量飲用，以及包裝商如何處理naringin。這很自然會回答 fruit bitterness source。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“fruit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bitterness”"
+            },
+            {
+              "kind": "quote",
+              "text": "“source”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Naringin, a natural chemical compound found in grapefruit, tastes bitter.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Naringin, a natural chemical compound found in grapefruit, tastes bitter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Naringin 是 grapefruit 中天然存在的一種化學化合物，味道是苦的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接說明 grapefruit 苦味的來源。Naringin 是 chemical compound，found in grapefruit，且tastes bitter。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“source of bitterness in a fruit”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Naringin… found in grapefruit, tastes bitter”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "fruit = grapefruit source of bitterness = naringin tastes bitter = bitterness"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也提到 “bitterness of naringin”，但 Paragraph A 更早、更清楚地給出「naringin 是grapefruit 中的天然化合物」這個來源說明。所以 Question 7 選 A 最精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“A genetic basis for sensitivity to bitterness”",
+      "translation": "對苦味敏感的基因基礎。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 genetic 和 sensitivity。重點不是苦味受體基因的數量，因為那是 bitter receptors 的科學發現；題目要的是人與人之間苦味敏感差異和基因的關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People have varying capacities for tasting bitterness, and the differences appear to be genetic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們感受苦味的能力各不相同，而這些差異似乎具有基因基礎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘But a supertaster tastes no sweetness at all, only bitterness,’ says Valerie Duffy, an associate professor of dietetics at the University of Connecticut at Storrs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "University of Connecticut at Storrs 的 dietetics 副教授 Valerie Duffy 說：「但 supertaster 完全嘗不到甜味，只嘗到苦味。」Paragraph D 的第一句幾乎直接重現題目意思：varying capacities、bitterness、genetic。段落末尾則用 supertaster 作例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“genetic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sensitivity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bitterness”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“differences appear to be genetic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“75 per cent of people are sensitive…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people, known as supertasters, are especially sensitive…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People have varying capacities for tasting bitterness, and the differences appear to be genetic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們感受苦味的能力不同，而這些差異似乎由基因決定。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people, known as supertasters, are especially sensitive to 6-n-propylthiouracil because they have an unusually high number of taste buds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人稱為 supertasters，對 6-n-propylthiouracil 特別敏感，因為他們有異常多的 taste buds。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句提供 genetic basis；後文以 supertasters 解釋 sensitivity 的具體表現。這就是 Question 8的答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“genetic basis”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the differences appear to be genetic”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“sensitivity to bitterness”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“varying capacities for tasting bitterness”"
+            },
+            {
+              "kind": "quote",
+              "text": "“are sensitive to the taste of bitter compounds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“especially sensitive”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也有 genes，但焦點是 genes code for bitter-taste receptors，不是人與人之間sensitivity 的差異。Question 8 的完整概念由 Paragraph D 第一吻合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "naringin",
+      "answerKey": "naringin",
+      "type": "Summary Completion",
+      "prompt": "“The reason grapefruit tastes bitter is that it contains a substance called 9 ______.”",
+      "translation": "grapefruit 之所以嘗起來苦，是因為它含有一種叫做 ______ 的物質。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a reason why grapefruit juice is served in little glasses: most people don’t want to drink more than a few ounces at a time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "葡萄柚汁通常用小杯供應是有原因的：大多數人一次不想喝超過幾盎司。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So juice packagers often select grapefruit with low naringin, though the compound has antioxidant properties that some nutritionists contend may help prevent cancer and arteriosclerosis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，果汁包裝商常選擇 naringin 含量低的 grapefruit，雖然這種化合物有抗氧化特性，一些營養學家認為它可能有助預防癌症和動脈硬化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 已出現 grapefruit 和 naringin，且段首說明 grapefruit juice 令人不想多喝，所以這段很可能解釋 bitterness source。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“grapefruit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tastes bitter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“substance called”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Naringin, a natural chemical compound found in grapefruit, tastes bitter.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Naringin, a natural chemical compound found in grapefruit, tastes bitter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Naringin 是 grapefruit 中天然存在的一種化學化合物，味道是苦的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “natural chemical compound” 改成 “substance”，把 “found in grapefruit” 改成 “grapefruit contains”。空格需要填該物質名稱，所以答案是 naringin。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案檢查naringin = 1 word符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大小寫方面，句中填小寫 naringin 即可，因為原文也是普通化合物名。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "contains a substance called = a chemical compound found in grapefruit tastes bitter = tastes bitter substance = chemical compound"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "poisonous",
+      "answerKey": "poisonous",
+      "type": "Summary Completion",
+      "prompt": "“However, bitterness plays a significant role for plants: it signals that a particular plant may be 10 ______.”",
+      "translation": "然而，苦味對植物有重要作用：它發出訊號，表示某種植物可能 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Taste research is a booming business these days, with scientists delving into all five basic tastes—sweet, bitter, sour, salty and umami, the savoury taste of protein.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今味覺研究是一門蓬勃行業，科學家深入研究五種基本味道：甜、苦、酸、鹹和 umami，即蛋白質的鮮味。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because bitterness can be pleasing in small quantities but repellent when intense, bitter blockers like AMP could make a whole range of foods, drinks, and medicines more palatable—and therefore more profitable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於苦味少量時可以令人愉悅，但濃烈時會令人抗拒，AMP 這類 bitter blockers 可令一系列食物、飲料和藥物更可口，也更有利可圖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段解釋 bitterness 的功能和應用。題目中的 “plants” 和 “signals” 應在中間找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“plants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“signals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may be”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“They defend plants by warning animals away and protect animals by letting them know when a plant may be poisonous.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They defend plants by warning animals away and protect animals by letting them know when a plant may be poisonous.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們保護植物，透過警告動物遠離；也保護動物，讓牠們知道某種植物可能有毒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “it signals that” 對應原文 “letting them know”。空格前是 “may be”，所以需要形容詞。原文的形容詞是 “poisonous”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案檢查poisonous = 有毒的1 word，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "詞性正確：a plant may be poisonous。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "signals = lets animals know particular plant = a plant may be poisonous = may be poisonous"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "supertasters",
+      "answerKey": "supertasters",
+      "type": "Summary Completion",
+      "prompt": "“According to a scientist at the University of Utah, 11 ______ have exceptionally large numbers of 12 ______, which allow them to perceive bitter compounds.”",
+      "translation": "根據 University of Utah 一位科學家的說法，______ 有異常大量的 ______，因此能感知苦味化合物。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People have varying capacities for tasting bitterness, and the differences appear to be genetic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們感受苦味的能力不同，而這些差異似乎有基因基礎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘But a supertaster tastes no sweetness at all, only bitterness,’ says Valerie Duffy, an associate professor of dietetics at the University of Connecticut at Storrs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "University of Connecticut at Storrs 的 dietetics 副教授 Valerie Duffy 說：「但 supertaster 完全嘗不到甜味，只嘗到苦味。」只看首尾句，Paragraph D 明顯講 bitter sensitivity 的人際差異，並以 supertaster 作高敏感例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目提 University of Utah，也應在這段找 Stephen Wooding。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“University of Utah”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exceptionally large numbers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“perceive bitter compounds”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“according to Stephen Wooding, a geneticist at the University of Utah”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people, known as supertasters…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because they have an unusually high number of taste buds”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people, known as supertasters, are especially sensitive to 6-n-propylthiouracil because they have an unusually high number of taste buds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人稱為 supertasters，他們對 6-n-propylthiouracil 特別敏感，因為他們有異常多的 taste buds。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目空格 11 是句子主語，後面接 “have exceptionally large numbers of…”。原文主語就是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“supertasters”。所以 Q11 答案是 supertasters。答案檢查supertasters = 1 word符合 NO MORE THAN TWO WORDS。拼法要保持原文 plural，因為題目動詞是 have。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "exceptionally large numbers = unusually high number perceive bitter compounds = are especially sensitive to 6-n-propylthiouracil supertasters = Some people, known as supertasters"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目開頭說 “According to a scientist at the University of Utah”，容易令人只看 Stephen Wooding 那一句。但真正包含 “unusually high number of taste buds” 的是緊接下來的supertasters 句。這是一個跨句定位：先用 University of Utah 找段落，再用 “large numbers” 找答案句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "taste buds",
+      "answerKey": "taste buds",
+      "type": "Summary Completion",
+      "prompt": "“According to a scientist at the University of Utah, 11 ______ have exceptionally large numbers of 12 ______, which allow them to perceive bitter compounds.”",
+      "translation": "根據 University of Utah 一位科學家的說法，supertasters 有異常大量的 ______，因此能感知苦味化合物。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People have varying capacities for tasting bitterness, and the differences appear to be genetic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們感受苦味的能力不同，而這些差異似乎有基因基礎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘But a supertaster tastes no sweetness at all, only bitterness,’ says Valerie Duffy, an associate professor of dietetics at the University of Connecticut at Storrs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Valerie Duffy 說：「但 supertaster 完全嘗不到甜味，只嘗到苦味。」段首提出 bitter sensitivity 的差異，段尾展示 supertaster 的感知極端，所以這段就是 Q12 的定位範圍。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“exceptionally large numbers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“perceive bitter compounds”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“unusually high number of taste buds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“especially sensitive to 6-n-propylthiouracil”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people, known as supertasters, are especially sensitive to 6-n-propylthiouracil because they have an unusually high number of taste buds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人稱為 supertasters，他們對 6-n-propylthiouracil 特別敏感，因為他們有異常多的 taste buds。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格 12 位於 “large numbers of ______” 後，所以需要複數名詞。原文是 “taste buds”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案檢查taste buds = 2 words符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "複數正確，因為題目說 large numbers of。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "exceptionally large numbers = unusually high number taste buds = taste buds allow them to perceive bitter compounds = are especially sensitive to 6-n-propylthiouracil"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也詳細描述 taste bud 的結構，例如 each taste bud consists of 50 to 100 cells。可是 summary 這句問的是 supertasters 為何更敏感，原文原因在 Paragraph D：他們有 unusually high number of taste buds。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "A — It offsets bitter flavours in food.",
+      "answerKey": "A — It offsets bitter flavours in food.",
+      "type": "Multiple Choice",
+      "prompt": "“What is the main feature of AMP according to the passage?”",
+      "translation": "根據文章，AMP 的主要特徵是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 main feature，不是問 AMP 出現在哪一杯，也不是問它的味道像甚麼。要找文章多次重複強調的核心功能。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要目標段落：Paragraph B；可用 Paragraph G 作機制補充。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is possible, however, to get the goodness of grapefruit juice without the bitter taste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們可以得到葡萄柚汁的好處，同時避開苦味。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This juice had been treated with adenosine monophosphate, or AMP, a compound that blocks the bitterness in foods without making them less nutritious.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這杯果汁已用 AMP 處理；AMP 是一種能阻擋食物苦味、同時不會降低營養價值的化合物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經把 AMP 的核心功能定得很清楚：block bitterness in foods。題目問 main feature，因此 Paragraph B 是最直接來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“AMP”"
+            },
+            {
+              "kind": "quote",
+              "text": "“main feature”"
+            },
+            {
+              "kind": "label",
+              "text": "原文反覆出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“blocks the bitterness in foods”"
+            },
+            {
+              "kind": "quote",
+              "text": "“attaches to bitter-taste receptors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dampen every type of bitter taste”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This juice had been treated with adenosine monophosphate, or AMP, a compound that blocks the bitterness in foods without making them less nutritious.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這杯果汁已用 AMP 處理；AMP 是一種能阻擋食物苦味、同時不會降低營養價值的化合物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支援 A。A 的 “offsets bitter flavours in food” 意思是抵消、減弱或中和食物中的苦味。原文 “blocks the bitterness in foods” 正好對應。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Paragraph G："
+            },
+            {
+              "kind": "quote",
+              "text": "“AMP has no bitterness of its own, but when it is put into foods… it attaches to bitter-taste receptors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "AMP 本身沒有苦味，但放入食物後會附着在 bitter-taste receptors 上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句補充 AMP 的作用方式，但 Question 13 只問 main feature，所以 A 最直接。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “It offsets bitter flavours in food.”正確。offsets bitter flavours 對應 blocks the bitterness in foods。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “It exists only in cup 304.”錯。原文說 304 有 bitter bite；305 較順口，而且 “This juice had been treated with AMP”。“This juice” 指 305，不是 304。更重要的是，AMP 並非只存在於某個實驗杯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “It tastes like citrus.”錯。原文說 305 有 “the sour taste of citrus”，但這是果汁本身的 citrus 酸味，不是 AMP 的味道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 還說 AMP “has no bitterness of its own”，沒有說它像 citrus。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “It reacts chemically when it meets a biscuit.”錯。原文提到 soda cracker 只是用來 cleansing palates，清潔味覺。沒有任何 AMP 和 biscuit /cracker 發生化學反應的資料。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“offsets bitter flavours in food”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“blocks the bitterness in foods”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： offsets = blocks / reduces the effect of bitter flavours = bitterness food = foods / grapefruit juice"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 的 cup number 是常見陷阱。304 和 305 相鄰出現，學生若快速掃讀，容易把 AMP 和 304 配錯。細讀比較句可見 304 苦，305 順口；AMP 處理的是消除苦味的那杯。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "D — It transmits bitter signals to the brain.",
+      "answerKey": "D — It transmits bitter signals to the brain.",
+      "type": "Multiple Choice",
+      "prompt": "“What is the main function of a G protein?”",
+      "translation": "G protein 的主要功能是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 main function of a G protein，需要找 G protein 在 bitter signal pathway 中做甚麼。要小心 A 選項，因為 capture taste molecules 是 receptors 的工作，不是 G protein 的工作。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In one recent study, Duffy found that supertasters consume alcoholic beverages, on average, only two to three times a week, compared with five or six times for the average nontaster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一項近期研究中，Duffy 發現 supertasters 平均每週只飲用酒精飲品兩至三次，而一般nontaster 則是五至六次。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The signaling system is like a bucket brigade,” Margolskee says. “It goes from the G protein to other proteins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Margolskee 說：「這套訊號系統就像 bucket brigade。它由 G protein 傳到其他 proteins。」只看首尾句，可以先猜 Paragraph E 後半會講 taste signal 的傳遞。最後一句直接提 G protein 和signaling system，所以這段是 Question 14 的明確定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“G protein”"
+            },
+            {
+              "kind": "quote",
+              "text": "“main function”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中 G protein 附近有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once a bitter signal has been received, it is relayed via proteins known as G proteins.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Ultimately, this delivers a signal to the brain that registers as bitter.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once a bitter signal has been received, it is relayed via proteins known as G proteins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦苦味訊號被接收，它就會透過稱為 G proteins 的蛋白質傳遞。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ultimately, this delivers a signal to the brain that registers as bitter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最終，這會把訊號送到大腦，並被大腦登記為苦味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句說明 G protein 在訊號傳遞鏈中的作用：relay bitter signal，最後令 signal 到達 brain。選項D “transmits bitter signals to the brain” 是最佳概括。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “It collects taste molecules.”錯。原文說 “At the top is a little clump of receptors that capture the taste molecules”。capture tastants 是 receptors 的功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “It identifies different flavour elements.”錯。原文沒有說 G protein 分辨不同 flavour elements。Paragraph F 還說 bitter always tastes the same to us，差異主要來自 intensity 和 smell。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “It breaks down large molecules.”錯。原文說 AMP is created as cells break down food，但這不是 G protein 的功能。G protein 參與 signal relay。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “It transmits bitter signals to the brain.”正確。relayed via G proteins + delivers a signal to the brain，完整支援 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“transmits bitter signals”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a bitter signal… is relayed via proteins known as G proteins”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“to the brain”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“delivers a signal to the brain”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 最有迷惑性，因為它也在同一段，且同樣屬於 taste mechanism。但原文主語是 receptors，不是 G proteins。這題要特別看主語：receptors capture tastants；G proteins relay the bitter signal。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Biology of Bitterness.pdf",
+    "sha256": "45b49f91e9b98b3f87b28f0f3c8d6bd43eb42e1216a242b6a861b7ed6a7e7746",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看第一句，讀者會先知道 grapefruit juice 通常只用小杯供應，原因和大多數人不想一次喝太多有關。最後一句說，果汁包裝商常選用 naringin 含量較低的 grapefruit，但 naringin 其實有抗氧化特性，部分營養學家認為它可能有助預防 cancer 和 arteriosclerosis。首尾句合起來看，這段功能是介紹 grapefruit 苦味的來源和矛盾：苦味令人抗拒，但苦味化合物也可能有健康價值。"
+      },
+      {
+        "number": "B",
+        "summary": "第一句說，人們其實可以得到 grapefruit juice 的好處，同時避開苦味。最後一句說，305 號果汁經 AMP 處理；AMP 能阻擋食物苦味，同時不會令食物營養下降。首尾句顯示這段會描述一個tasting test：作者和其他人試飲兩杯果汁，304 有 grapefruit 的苦澀感，305 則只有 citrus 的酸味。這段是「bitter blocker 實驗」的主要位置，也是 AMP 功能的初步展示。"
+      },
+      {
+        "number": "C",
+        "summary": "第一句說，taste research 如今是蓬勃行業，科學家研究五種基本味道：sweet、bitter、sour、salty和 umami。最後一句說，苦味少量時可以令人喜歡，濃烈時卻令人反感，因此 AMP 這類 bitter blockers 可讓多種食物、飲料和藥物更可口，也更有利可圖。首尾句顯示這段從味覺研究擴大到行業應用。中間會解釋 bitterness 對植物、動物和人類有不同意義。"
+      },
+      {
+        "number": "D",
+        "summary": "第一句說，人們感受苦味的能力不同，而且差異似乎由基因決定。最後一句引用 Valerie Duffy，說 Dewar’s Scotch 對多數人帶點甜味，但 supertaster 完全嘗不到甜，只嘗到苦。首尾句顯示這段聚焦個體差異和 genetic sensitivity。中間的 75% / 25%、phenylthiocarbamide、6-n-propylthiouracil、supertasters、taste buds 都是關鍵資料。這段會支援「苦味敏感度有 genetic basis」和 summary 的 supertasters 題。"
+      },
+      {
+        "number": "E",
+        "summary": "第一句說，在一項近期研究中，Duffy 發現 supertasters 飲酒頻率平均只有每週兩至三次，少於一般 nontaster 的五至六次。最後一句用 Margolskee 的比喻說，味覺訊號系統像 bucket brigade，由 G protein 傳到其他 proteins。首尾句顯示這段由 supertaster 行為資料，轉入 taste bud、receptors、G proteins 和 gustducin 的生理機制。它是「苦味訊號如何傳到大腦」的主要段落。"
+      },
+      {
+        "number": "F",
+        "summary": "第一句說，2000 年 Zuker 和其他研究者發現約 30 種 coding for bitter-taste receptors 的 genes。最後一句說，taste cells 像 light switch，只會 on 或 off。首尾句顯示這段處理 bitter receptors 的基因數量，以及為何不同苦味物質最後都被感覺成同一種 bitter。中間補充：因 bitter tastants 種類極多，所以 receptors 的基因數量也需要很多；苦味差異主要來自 intensity 和 smell 的修飾。"
+      },
+      {
+        "number": "G",
+        "summary": "第一句說，科學家弄清楚 taste mechanism 之後，開始思考如何干擾這套機制。最後一句說，研究者會把候選物質滴到受體上，觀察是否有反應。首尾句顯示這段進入 bitter blockers 的研發方法。中間最重要的是 AMP：它本身沒有苦味，但放進食物後會 attach to bitter-taste receptors，從而阻擋苦味。這段同時解釋 AMP 的作用方式和尋找其他 bitter blockers 的 high-throughput screening 技術。"
+      },
+      {
+        "number": "H",
+        "summary": "第一句說，一些 taste researchers 認為，像 AMP 這類化合物將來可令 processed foods less unhealthy。最後一句說，bitter blockers 也可用於 children’s cough syrup、antihistamines、antibiotics、HIV drugs 和其他 medications，減少 harshness 或 bitterness。首尾句顯示這段集中討論健康應用：例如減少 canned soup 裡的 sodium chloride，用 potassium chloride 取代部分鹽，再用 AMP 消除其 bitter aftertaste。這段是「bitter blocker 讓食品更健康」的定位段。"
+      },
+      {
+        "number": "I",
+        "summary": "第一句說，不少 foodmakers 已開始在產品中試用 AMP，其他 rival firms 也在開發 bitter blockers。最後一句展望未來：也許食品公司先除去 canned soup 和 TV dinners 的苦味，之後可推出瓶裝 bitter blocker，讓人撒在 Brussels sprouts 或攪入 grapefruit juice。首尾句顯示這段是結尾展望，重點在 commercial development 和 future application。它不再解釋生理機制，焦點轉向市場產品和日常使用情境。 Answer Key 1. B 2. I 3. C 4. E 5. G 6. H 7. A 8. D 9. naringin 10. poisonous 11. supertasters 12. taste buds 13. A 14. D"
+      }
+    ]
+  }
+}

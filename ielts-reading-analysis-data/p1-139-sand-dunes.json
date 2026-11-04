@@ -1,0 +1,2182 @@
+{
+  "id": "p1-139-sand-dunes",
+  "catalogueId": "p1-139",
+  "catalogueIds": [
+    "p1-139"
+  ],
+  "passage": 1,
+  "title": "Sand Dunes",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "i",
+    "v",
+    "x",
+    "vii",
+    "ix",
+    "ii",
+    "vi",
+    "iv",
+    "B",
+    "C",
+    "B",
+    "G",
+    "H",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "i — Potential threats to buildings and crops despite the benefits",
+      "answerKey": "i — Potential threats to buildings and crops despite the benefits",
+      "type": "Matching Headings",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph A 選出最能概括整段的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the main problems posed by sand dunes is their encroachment on human habitats.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙丘帶來的主要問題之一，是它們侵入人類居住地。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the other hand, dune habitats provide niches for highly specialised plants and animals, including numerous rare and endangered species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，沙丘生境也為高度專門化的動植物提供生態位置，包括許多稀有及瀕危物種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段同時有兩個方向：沙丘對人類空間造成威脅；沙丘也有生態價值。這正好對應heading i 中的 “Potential threats … despite the benefits”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading i 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“threats”"
+            },
+            {
+              "kind": "quote",
+              "text": "“buildings and crops”"
+            },
+            {
+              "kind": "quote",
+              "text": "“despite the benefits”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 中可掃描到："
+            },
+            {
+              "kind": "quote",
+              "text": "“encroachment on human habitats”"
+            },
+            {
+              "kind": "quote",
+              "text": "“threaten buildings and crops”"
+            },
+            {
+              "kind": "quote",
+              "text": "“On the other hand”"
+            },
+            {
+              "kind": "quote",
+              "text": "“provide niches”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些詞組完整覆蓋 heading i 的兩個部分。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sand dunes threaten buildings and crops in Africa, the Middle East, and China.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙丘威脅非洲、中東和中國的建築物及農作物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支援 “threats to buildings and crops”。末句的 “provide niches” 支援 “despite the benefits”。所以 i 能概括整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何不合適： iii “Protection methods in various countries” 有吸引力，因為原文提到 UNEP 和 preventing sand dunes，但文章沒有列出各國保護方法。A 段重點是問題與生態價值並列。viii “Personal opinions”完全沒有支援，文章是客觀說明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法： Headings 題看到 “On the other hand” 時，要特別留意轉折後的資訊是否也被 heading 覆蓋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading i 同時收住 threat 和 benefit，所以最完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "v — An explanation of sand composition",
+      "answerKey": "v — An explanation of sand composition",
+      "type": "Matching Headings",
+      "prompt": "Question 2",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph B 選出正確 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sand is usually composed of hard minerals such as quartz that cannot be broken down into silt or clay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙通常由堅硬礦物組成，例如石英；這些物質不能被分解成粉砂或黏土。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sandstone forms when sand mixed with lime, chalk or another binding material is deposited in layers at the bottom of a sea or elsewhere and compressed into rock by the pressure of overlying sediments over thousands or millions of years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當沙與石灰、白堊或其他黏結物質混合，在海底或其他地方分層沉積，並在數千或數百萬年間被上層沉積物壓力壓成岩石時，砂岩便會形成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講 sand 的基本成分，末句講 sand 如何與其他物質形成 sandstone。全段焦點明顯是 sand composition，包括 mineral、iron compounds、gypsum、silicate、sandstone。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading v 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“sand composition”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 中可掃描到："
+            },
+            {
+              "kind": "quote",
+              "text": "“composed of hard minerals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“iron compounds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“quartz”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gypsum”"
+            },
+            {
+              "kind": "quote",
+              "text": "“silicate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sand mixed with lime, chalk or another binding material”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些全部是成分或材料詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 不只說沙是什麼，也補充顏色與成分的關係："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yellow, brown and reddish shades of sand indicate the presence of iron compounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "黃色、棕色和 reddish 的沙色表示其中有鐵化合物。"
+            },
+            {
+              "kind": "quote",
+              "text": "“White sands are nearly pure gypsum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "白沙幾乎是純石膏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子都在解釋 sand composition，所以 v 是最準確 heading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何不合適： ix “Reasons why sand dunes form” 會吸引學生，因為段尾提到 sandstone forms，但這裡是sandstone 形成，不是 sand dunes 形成。x “The most common dune type” 屬於 Paragraph C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法： Headings 題要看整段反覆出現的詞類。Paragraph B 反覆出現的是 minerals、quartz、iron compounds、gypsum、silicate、lime、chalk，因此主題是成分。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "x — The most common dune type",
+      "answerKey": "x — The most common dune type",
+      "type": "Matching Headings",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph C 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most common dune form on Earth and on Mars is crescentic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球和火星上最常見的沙丘形態是 crescentic，即新月形。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The largest crescentic dunes on Earth, with mean crest-to-crest widths of more than 3 kilometres, are in China’s Taklamakan Desert.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球上最大的 crescentic dunes 位於中國塔克拉瑪干沙漠，平均脊線到脊線的寬度超過 3 公里。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都圍繞 crescentic dunes。第一句直接說它是 “most common dune form”，末句仍然講最大的 crescentic dunes。這段主旨非常集中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading x 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“most common”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dune type”"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句幾乎直接重現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most common dune form…”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫是",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "dune form= dune type crescentic= crescent-shaped / barchans / transverse dunes"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“These dunes form under winds that blow consistently from one direction, and they also are known as barchans or transverse dunes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些沙丘在風向持續來自同一方向時形成，也稱為 barchans 或 transverse dunes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句補充 crescentic dunes 的形成風向及其他名稱。後面 China 和 Egypt 的速度例子、Taklamakan 的最大沙丘，都是 crescentic dunes 的延伸細節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何不合適： vii “Other types of sand dunes” 會更適合 Paragraph D，因為 D 段介紹 star dunes 和 linear dunes。Paragraph C 的核心是「最常見的一種」。ii “The cycle of sand moving forwards with the wind” 屬於 Paragraph F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法：當段落第一句已經出現 “The most common…” 時，heading 通常會直接概括這個最高層主題，不要被中間地名和數字細節分散注意力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "vii — Other types of sand dunes",
+      "answerKey": "vii — Other types of sand dunes",
+      "type": "Matching Headings",
+      "prompt": "Question 4",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph D 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radially symmetrical, star dunes are pyramidal sand mounds with slipfaces on three or more arms that radiate from the high centre of the mound.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "星形沙丘呈放射狀對稱，是金字塔狀沙丘，三條或以上的臂從沙丘高中心向外伸展，並有滑落面。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Linear loess hills known as pahas are superficially similar.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被稱為 pahas 的線性黃土丘在表面上與它們相似。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句介紹 star dunes，後半段轉到 linear dunes，最後又提到 pahas。這段明顯不是只介紹一個類型，而是補充 Paragraph C 以外的其他沙丘形態。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading vii 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other types”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sand dunes”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 中可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“star dunes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“linear dunes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Y-shaped compound dunes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pahas”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是沙丘或相似地貌類型。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 中段明確轉到另一類："
+            },
+            {
+              "kind": "quote",
+              "text": "“Straight or slightly sinuous sand ridges typically much longer than they are wide are known as linear dunes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "筆直或略微彎曲、通常長度遠大於寬度的沙脊，被稱為 linear dunes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，這段先講 star dunes，再講 linear dunes。heading vii 能完整概括全段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何不合適： x “The most common dune type” 已被 Paragraph C 使用，且 D 段沒有說 star 或 linear 是最常見。iv “Scientists simulate…” 屬於 Paragraph H。ix “Reasons why sand dunes form” 也不合適，因為 D 段主要分類和描述形態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法： Headings 題遇到一段介紹兩三個並列名詞，要優先找能覆蓋全部名詞的 heading。這裡 “Other types” 比 “star dunes” 或 “linear dunes” 任何單一概念都更完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "ix — Reasons why sand dunes form",
+      "answerKey": "ix — Reasons why sand dunes form",
+      "type": "Matching Headings",
+      "prompt": "Question 5",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph E 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once sand begins to pile up, ripples and dunes can form.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦沙開始堆積，沙紋和沙丘就可能形成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ripples grow into dunes as wind and sand input increase.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當風和沙的輸入增加時，沙紋會成長為沙丘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都在講形成過程：沙開始堆積，然後在風和沙輸入增加時，由 ripples 變成 dunes。這段核心是 dunes form 的原因和條件。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading ix 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reasons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sand dunes form”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 中可掃描到："
+            },
+            {
+              "kind": "quote",
+              "text": "“sand begins to pile up”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Wind continues to move sand”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pile is so steep that it collapses”"
+            },
+            {
+              "kind": "quote",
+              "text": "“angle of repose”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wind and sand input increase”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是形成機制詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wind continues to move sand up to the top of the pile until the pile is so steep that it collapses under its own weight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "風繼續把沙移到沙堆頂部，直到沙堆過於陡峭，在自身重量下崩塌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句解釋形成過程中的力和條件。接著 angle of repose 解釋沙堆穩定角度，grain size and roundness 解釋不同材料有不同休止角。這些都支援 “why sand dunes form”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何不合適： ii “The cycle of sand moving forwards with the wind” 會吸引人，因為 E 段也提到 wind。但 E 段重點是形成，F 段才講整個沙丘向前遷移。v “composition” 已屬於 B 段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法：看到 “form”、“grow into dunes”、“angle of repose” 時，要判斷段落是在講形成條件；看到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“migrating / inch forward” 時，才更可能是移動過程。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "ii — The cycle of sand moving forwards with the wind",
+      "answerKey": "ii — The cycle of sand moving forwards with the wind",
+      "type": "Matching Headings",
+      "prompt": "Question 6",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph F 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The repeating cycle of sand inching up the windward side to the dune crest and then slipping down the dune’s slip face allows the dune to inch forward, migrating in the direction the wind blows.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙重複沿迎風面慢慢上升到沙丘脊，然後從滑落面滑下，這個循環讓沙丘慢慢向前移動，沿風吹方向遷移。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The larger the cross-bedded structure, however, the more likely it is to be formed by wind, rather than water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，cross-bedded structure 越大，它越可能由風形成，而非由水形成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接講 cycle、windward side、slip face、inch forward、wind direction。這是 heading ii 的完整內容。末句講 cross-bedding 是這種遷移留下的內部結構證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading ii 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“cycle”"
+            },
+            {
+              "kind": "quote",
+              "text": "“moving forwards”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wind”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“repeating cycle”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inch forward”"
+            },
+            {
+              "kind": "quote",
+              "text": "“migrating in the direction the wind blows”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段真正定案的是第一句。它把沙丘遷移拆成三步： sand inching up the windward side= 沙沿迎風面上升to the dune crest= 到達沙丘脊slipping down the slip face= 從滑落面下滑這個 cycle 造成整個沙丘 “inch forward”。因此 heading ii 最準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何不合適： ix “Reasons why sand dunes form” 已在 E 段。F 段不再解釋沙丘從無到有形成，而是講形成後如何遷移。v “composition” 和 vi “singing” 都缺乏支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法： Headings 題要分清 form 和 migrate。Paragraph E 是形成，Paragraph F 是移動。兩段都有 wind，但控制主旨的動詞不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "vi — Singing sand dunes",
+      "answerKey": "vi — Singing sand dunes",
+      "type": "Matching Headings",
+      "prompt": "Question 7",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph G 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sand dunes can ‘sing’ at a level up to 115 decibels and generate sounds in different notes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙丘可以「唱歌」，音量高達 115 分貝，並產生不同音符。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The tone of the sounds depended primarily on the size of the grains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些聲音的音調主要取決於沙粒大小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接提出 singing sand dunes，末句解釋 tone 由 grain size 決定。整段從現象到科學解釋，都圍繞沙丘發聲。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading vi 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Singing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sand dunes”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 中有大量聲音詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“sing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“decibels”"
+            },
+            {
+              "kind": "quote",
+              "text": "“notes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hum”"
+            },
+            {
+              "kind": "quote",
+              "text": "“howl”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sounds”"
+            },
+            {
+              "kind": "quote",
+              "text": "“resonate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“vibrate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tone”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sounds are produced by avalanches of sand generated by blowing winds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些聲音由風吹造成的沙流崩落產生。"
+            },
+            {
+              "kind": "label",
+              "text": "後面又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the sounds were produced by collisions between grains of sand…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些聲音由沙粒之間的碰撞產生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以這段不只講沙丘會唱，也講唱的原因、音符和音調差異。heading vi 完整概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何不合適： iv “Scientists simulate…” 會有一點吸引力，因為本段提到 scientists 和 paper，但 G 段主題仍是singing dunes；scientists 只是解釋現象的來源。iv 的 laboratory simulation 屬於 H 段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法： Headings 題中，若段首出現非常鮮明的主題詞，如 “sing”，且全段重複同一語義場，heading 往往直接對應該主題詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "iv — Scientists simulate sand movement and build a model in a laboratory",
+      "answerKey": "iv — Scientists simulate sand movement and build a model in a laboratory",
+      "type": "Matching Headings",
+      "prompt": "Question 8",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：為 Paragraph H 選 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists performed a computer simulation of the patterns and dynamics of desert dunes in a laboratory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家在實驗室中對沙漠沙丘的模式和動態進行電腦模擬。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They also found that the shadow zone, the region in which sand cannot move, shrank through the course of evolution, which greatly helped them build a model to simulate sand movement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們也發現 shadow zone，即沙不能移動的區域，在演化過程中縮小；這大大幫助他們建立模擬沙移動的模型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句直接對應 heading iv：scientists、computer simulation、laboratory、build a model、simulate sand movement 全部出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 關鍵詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading iv 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“simulate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sand movement”"
+            },
+            {
+              "kind": "quote",
+              "text": "“model”"
+            },
+            {
+              "kind": "quote",
+              "text": "“laboratory”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 中可以直接掃描到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists performed a computer simulation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in a laboratory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“build a model”"
+            },
+            {
+              "kind": "quote",
+              "text": "“simulate sand movement”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文補充說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dune patterns observed in deserts were reproduced.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙漠中觀察到的沙丘模式被重新製造出來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明實驗室模擬能重現真實沙丘模式。後文的 wind direction variability、sand transport efficiency、shadow zone 都是模型建立過程中的研究結果。heading iv 覆蓋整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 為何不合適： ii “cycle of sand moving forwards” 屬於 F 段的自然遷移過程。H 段的重點是科學模擬和模型建立，不只是自然現象本身。ix “reasons why sand dunes form” 太寬，無法覆蓋 laboratory model這個核心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可轉移方法：當 heading 出現多個精準詞，如 scientists + laboratory + model，若段落首尾句都直接重現這些詞，通常答案非常穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "B — Gypsum",
+      "answerKey": "B — Gypsum",
+      "type": "Multiple Choice",
+      "prompt": "“What is white sand mainly composed of?”",
+      "translation": "白沙主要由甚麼構成？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 MCQ factual detail 題。題目有 “white sand” 和 “mainly composed of”，所以要找顏色與成分的對應。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sand is usually composed of hard minerals such as quartz that cannot be broken down into silt or clay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙通常由堅硬礦物組成，例如石英；這些物質不能分解成粉砂或黏土。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sandstone forms when sand mixed with lime, chalk or another binding material is deposited in layers…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當沙與石灰、白堊或其他黏結物質混合並分層沉積時，砂岩會形成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 的功能是解釋沙的成分，因此 white sand 的答案必定在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "最強定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“white sand”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“White sands are nearly pure gypsum.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句就是答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“White sands are nearly pure gypsum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "白沙幾乎是純石膏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “mainly composed of”，原文用 “nearly pure”。兩者意思非常接近： mainly composed of= mainly made of= nearly pure所以答案是 B Gypsum。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Quartz：Paragraph B 有 quartz，但它是一般 sand 的常見硬礦物，也出現在 red sand 的描述中，不是 white sand 的答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Gypsum：正確，直接對應 “White sands are nearly pure gypsum.” C Lime：lime 出現在 sandstone 形成過程，屬於 binding material，不是 white sand 主要成分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Iron：iron compounds 解釋 yellow、brown、reddish shades，不是 white sand。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A quartz 很吸引人，因為 Paragraph B 開頭就提到 sand 通常由 quartz 一類硬礦物構成。不過題目限定 “white sand”，答案要找顏色與成分的精準配對。真正控制答案的是 “White sands”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "C — Overlap",
+      "answerKey": "C — Overlap",
+      "type": "Multiple Choice",
+      "prompt": "“Which type of sand dune is NOT mentioned in the passage?”",
+      "translation": "哪一種沙丘類型沒有在文章中提及？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 negative detail MCQ。重點是 NOT mentioned，所以要逐一掃描選項名稱是否出現或是否有同義稱呼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C and Paragraph D Paragraph C 第一和最後一句都講 crescentic dunes。Paragraph D 第一部分講 star dunes，後半講 linear dunes。沙丘類型主要集中在 C 和 D 段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A Linear：Paragraph D 有 “linear dunes”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B Crescentic：Paragraph C 有 “crescentic”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C Overlap：全文沒有 overlap dunes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D Star：Paragraph D 有 “star dunes”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most common dune form on Earth and on Mars is crescentic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球和火星上最常見的沙丘形態是 crescentic。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radially symmetrical, star dunes are pyramidal sand mounds…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "星形沙丘呈放射狀對稱，是金字塔狀沙丘。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Straight or slightly sinuous sand ridges typically much longer than they are wide are known as linear dunes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "筆直或略微彎曲、長度通常遠大於寬度的沙脊，被稱為 linear dunes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 A、B、D 均有提及，只有 C Overlap 沒有出現。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也提到 barchans 和 transverse dunes，但題目選項沒有這兩個名稱。做 NOT mentioned 題時，不要因為文章還有其他類型就分心；只需要逐一核對四個選項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "B — shape",
+      "answerKey": "B — shape",
+      "type": "Summary Completion",
+      "prompt": "Question 11",
+      "translation": "Crescentic dune 是地球和火星上常見的一種 ______；其他沙丘類型也存在。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The crescentic dune is a common 11 ______ on both Earth and Mars; other types of sand dune also exist.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion。空格前有 “a common”，後面要接單數名詞。選項中 shape 和category 都能勉強放入，但要看原文如何表達 crescentic。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most common dune form on Earth and on Mars is crescentic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球和火星上最常見的沙丘形態是 crescentic。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The largest crescentic dunes on Earth… are in China’s Taklamakan Desert.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "地球上最大的 crescentic dunes 位於中國塔克拉瑪干沙漠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 的主題就是 crescentic 這個最常見沙丘形態。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 summary 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "summary 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“crescentic dune”"
+            },
+            {
+              "kind": "quote",
+              "text": "“common”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Earth and Mars”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most common dune form on Earth and on Mars is crescentic.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “dune form” 對應 summary 中的空格。選項中最接近 form 的是 shape，因為下一句也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Crescent-shaped mounds are generally wider than they are long.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新月形沙丘通常寬度大於長度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“crescentic” 本身就指新月形，所以 B shape 最貼合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "dune form= dune shape crescentic= crescent-shaped common on Earth and Mars= most common dune form on Earth and on Mars為何不選 F category： category 是比較抽象的分類詞；原文更強調 form 和 crescent-shaped mounds，即形狀。 summary 後面才說 other types，這只是承接全文分類，不改變 blank 11 的原文對應。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "G — minerals",
+      "answerKey": "G — minerals",
+      "type": "Summary Completion",
+      "prompt": "Question 12",
+      "translation": "不同顏色的沙反映不同成分；有些富含不能輕易分解成黏土的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Different colours of sand reflect different components; some are rich in 12 ______ that cannot easily be broken down into clay.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “rich in”，後面需要名詞。選項 A quartz 和 G minerals 都來自 Paragraph B，所以要細讀原文的層級：quartz 是例子，minerals 是較大類別。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sand is usually composed of hard minerals such as quartz that cannot be broken down into silt or clay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙通常由堅硬礦物組成，例如石英；這些物質不能分解成粉砂或黏土。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 之後再講 iron compounds、gypsum、silicate 和 sandstone。summary 這句明顯在概括 B 段的成分資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 summary 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "summary 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“components”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot easily be broken down into clay”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“hard minerals such as quartz that cannot be broken down into silt or clay”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文的核心名詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“hard minerals”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "quartz 是 “such as” 後面的例子。也就是說，文章先說 sand 通常由 hard minerals 構成，再用quartz 作例子。summary 空格要概括這類不能分解成 clay 的物質，因此 G minerals 最合適。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "hard minerals= minerals cannot be broken down into silt or clay= cannot easily be broken down into clay為何 A quartz 吸引但不選： quartz 確實出現在原文，而且是 hard mineral 的例子。不過 summary 句子要概括沙的成分種類，“minerals” 比單一例子 quartz 更能覆蓋原文第一句。題目中的 “that cannot easily be broken down” 已經補回 “hard” 的含義。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "H — sing",
+      "answerKey": "H — sing",
+      "type": "Summary Completion",
+      "prompt": "Question 13",
+      "translation": "沙丘可以在某一聲音強度水平下 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sand dunes can 13 ______ at a particular level of sound intensity…”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 modal verb “can” 後面，所以需要原形動詞。選項中只有 sing 明顯是動詞，且 Paragraph G 直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sand dunes can ‘sing’ at a level up to 115 decibels and generate sounds in different notes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙丘可以「唱歌」，音量高達 115 分貝，並產生不同音符。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The tone of the sounds depended primarily on the size of the grains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聲音的音調主要取決於沙粒大小。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 summary 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "summary 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“sound intensity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“particular level”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“at a level up to 115 decibels”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "decibels 是聲音強度單位。句中動詞就是 “sing”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sand dunes can ‘sing’ at a level up to 115 decibels…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沙丘可以「唱歌」，音量高達 115 分貝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "summary 把 “up to 115 decibels” 改寫成 “a particular level of sound intensity”。所以答案是 H sing。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "at a level up to 115 decibels= at a particular level of sound intensity can ‘sing’= can sing"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 tone。tone 是名詞，不能直接放在 “can” 後面；而且 tone 對應 Question 14。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "D — tone",
+      "answerKey": "D — tone",
+      "type": "Summary Completion",
+      "prompt": "Question 14",
+      "translation": "每種沙粒大小會在聲音中產生不同的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“…and each grain size creates a different 14 ______ in the sound.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “a different”，後面要接單數名詞。Paragraph G 末句直接提到 grain size 和 tone 的關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G第一句講沙丘會 singing，最後一句講 tone 由 grain size 決定。Question 14 明顯在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 summary 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "summary 的定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“grain size”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sound”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The tone of the sounds depended primarily on the size of the grains.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The tone of the sounds depended primarily on the size of the grains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些聲音的音調主要取決於沙粒大小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "summary 把句子方向改寫了：原文：tone depends on grain size summary：grain size creates a different tone兩者是同一因果關係的改寫。答案是 D tone。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "size of the grains= grain size tone of the sounds= tone in the sound depended primarily on= is created / affected mainly by"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 direction。direction 在 Paragraph H 和 wind direction 有關，但這裡講的是聲音差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 14 的定位詞 “sound” 和 “grain size” 都把答案鎖定在 Paragraph G 的最後一句。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Sand Dunes.pdf",
+    "sha256": "1e5da68a08663201ad2516862cec718c1d12db3a067503fbf4650f71bba56769",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看 Paragraph A 的首句，可以看到 sand dunes 的主要問題是 encroachment on human habitats，即沙丘侵入人類居住地；末句轉到另一面，說 dune habitats 也為高度專門化、稀有或瀕危的動植物提供生境。這段大概是全文引言，先交代沙丘對建築、農作物、城市和農業區的威脅，再補充沙丘也有生態價值。首尾句形成一個「威脅與好處並存」的段落功能。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 首句直接講 sand 的組成：通常由 hard minerals such as quartz 構成，這些物質不能輕易分解成 silt 或 clay。末句講 sandstone 如何形成：沙混合 binding material 後，經沉積和壓力壓縮成岩石。由首尾句可推測，這段重點是 sand composition 和由沙形成其他材料的過程。中間應會補充不同顏色、不同成分和不同用途，例如 iron compounds、gypsum、silicate、glassmaking 等。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 首句已經給出核心：地球和火星上最常見的 dune form 是 crescentic。末句則補充最大 crescentic dunes 位於中國 Taklamakan Desert，crest-to-crest widths 超過 3 公里。由首尾句看，這段明顯集中介紹 crescentic dunes，包括形狀、形成風向、移動速度和實例地點。這段功能很集中，主要處理「最常見的沙丘類型」，中間的 China、Egypt、Taklamakan 都是 supporting details。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 首句引入 star dunes：radially symmetrical、pyramidal，並有三條或以上由中心伸出的 arms。末段最後提到 pahas 和 linear dunes 表面上相似。由首尾句看，這段不是只介紹一種沙丘，而是接續 Paragraph C，介紹其他 dune types，尤其 star dunes 和 linear dunes。中間會比較它們的形態、風向條件、位置和高度。這段對 headings 題很重要，因為它的主旨要覆蓋兩種以上沙丘。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句說，一旦沙開始堆積，ripples and dunes can form；末句說當風和沙的輸入增加時，ripples 會成長為 dunes。只看首尾句，這段很可能解釋沙丘形成條件和形成原因。中間提到wind、pile、collapse、angle of repose、grain size、roundness 等，應該是在說沙如何由小波紋逐步形成穩定沙丘。這段重點不在沙丘移動到哪裡，核心在形成機制。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 首句說沙會重複沿 windward side 上升到 dune crest，再從 slip face 滑落，這個循環讓沙丘向風的方向慢慢前進。末句指出，較大的 cross-bedded structure 更可能由 wind 造成，而非 water。首尾句顯示，這段由沙丘移動循環開始，再講這種移動如何留下內部結構痕跡。主旨是沙丘如何隨風遷移；cross-bedding 是結果和證據，不宜當成全段 heading。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 首句非常明確：Sand dunes can “sing”，聲音可達 115 decibels 並產生不同音符。末句說聲音的 tone 主要取決於 sand grains 的大小。由首尾句可見，本段主題是 singing sand dunes：先描述奇特聲音現象，再解釋聲音形成原因。中間提到 Nevada、Chile、Morocco、collisions between grains、outer layer vibrating like a loudspeaker cone 等，都是用來說明沙丘發聲的地點、機制和音調差異。"
+      },
+      {
+        "number": "H",
+        "summary": "Paragraph H 首句說 scientists 在 laboratory 進行 computer simulation，模擬 desert dunes 的patterns and dynamics。末句說 shadow zone 在演化過程中縮小，幫助他們建立 model to simulate sand movement。首尾句明確顯示，這段處理科學家如何用實驗室模擬和模型研究 sand movement。中間提到 star and linear dunes、wind direction variability、sand transport efficiency、stepwise increase 等，都是模型和模擬結果。"
+      }
+    ]
+  }
+}

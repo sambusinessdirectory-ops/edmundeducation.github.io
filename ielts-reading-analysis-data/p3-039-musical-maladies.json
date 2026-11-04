@@ -1,0 +1,2157 @@
+{
+  "id": "p3-039-musical-maladies",
+  "catalogueId": "p3-039",
+  "catalogueIds": [
+    "p3-039"
+  ],
+  "passage": 3,
+  "title": "Musical Maladies",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "B",
+    "C",
+    "A",
+    "A",
+    "YES",
+    "NOT GIVEN",
+    "YES",
+    "NOT GIVEN",
+    "YES",
+    "NO",
+    "F",
+    "B",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "B — The writer expected it to be better than it was.",
+      "answerKey": "B — The writer expected it to be better than it was.",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "為甚麼作者對這本書有 mixed feelings，即感受好壞參半？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Why does the writer have mixed feelings about the book?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是原因型 Multiple Choice。題目問 reviewer 為何有 mixed feelings，所以要回到文章開頭找reviewer 的閱讀期待和實際反應。Multiple Choice 要選「最完整、最精確獲原文支援」的一項，不能只看某個選項有原文字眼便選。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Music and the brain are both endlessly fascinating subjects, and as a neuroscientist specialising in auditory learning and memory, I find them especially intriguing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "音樂和大腦都是令人無窮著迷的題目；作為一位專門研究聽覺學習和記憶的神經科學家，我尤其覺得它們引人入勝。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And I confess to feeling a little guilty reporting that my reactions to the book are mixed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我承認，當我說自己對這本書的反應好壞參半時，心裡有點愧疚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 的功能：作者先交代自己為何對此書特別感興趣，再透露最終評價不是完全正面。這正好對應題目中的 mixed feelings。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的字是：● mixed feelings● book● why在 Paragraph 1 中，真正要看的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“So I had high expectations of Musicophilia, the latest offering from neurologist and prolific author Oliver Sacks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以我對《Musicophilia》抱有很高期望；這是神經學家兼多產作家 Oliver Sacks 的最新作品。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文邏輯是： 1. 作者本身是 neuroscientist； 2. 他研究 auditory learning and memory； 3. music and brain 對他尤其吸引； 4. 所以他對 Sacks 的書有 high expectations； 5. 但最後他說 reactions are mixed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 說： The writer expected it to be better than it was.這正是 high expectations 和 mixed reactions 之間的關係。作者原本期待很高，但實際閱讀後沒有完全滿意，所以感受好壞參半。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯。原文說作者感到 a little guilty，但 guilt 是他說出 mixed review 時的感受，不是造成 mixed feelings 的根本原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。high expectations 對應 expected it to be better。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。Paragraph 2 明確說 Sacks richly documents his own life，所以書中有 personal stories。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯。原文說 Sacks 是 prolific author，即多產作家，選項說這是他唯一一本書，方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很容易吸引學生，因為原文真的有 guilty。但題目問的是 mixed feelings 的原因，不是問作者報告 mixed feelings 時的心理狀態。真正控制答案的是 high expectations。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "C — the autobiographical description in the book",
+      "answerKey": "C — the autobiographical description in the book",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "這本書最好的部分是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What is the best part of the book?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 best part，定位詞非常直接。要找原文中 reviewer 明確說「最好的部分」的句子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sacks himself is the best part of Musicophilia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sacks 本人就是《Musicophilia》最好的部分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He is neither self-conscious nor self-promoting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他既不忸怩，也不自我推銷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已直接說 best part 是 Sacks himself。接著整段解釋這是甚麼意思：他在書中寫到自己的生活和個人經驗，聲音穩定、有學識，但不居高臨下。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞：● best part● book原文直接重現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sacks himself is the best part of Musicophilia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sacks 本人就是這本書最好的部分。"
+            },
+            {
+              "kind": "label",
+              "text": "但選項中沒有 “Sacks himself”，所以要繼續看下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He richly documents his own life in the book and reveals highly personal experiences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在書中豐富地記錄自己的生活，並揭示非常個人的經歷。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 是： the autobiographical description in the book"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "書中的自傳式描述。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這對應原文：● documents his own life = autobiographical description；● reveals highly personal experiences = 個人經歷的描述。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 C 是最貼近的選項。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯。封面照片確實令 reviewer 有 positive impression，但它只是引入 Sacks 本人的形象，不是書中最好的部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 有部分支援。原文說 Sacks’s voice throughout is steady and erudite，但這只是 Sacks 本人作為 best part 的其中一個面向。與 C 相比，C 更直接對應 richly documents his own life 和personal experiences。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確。它概括 Sacks 在書中寫自己的生活和個人經驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯。原文沒有說 Sacks 的 wealth，而且 wealth 也不是本段重點。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 有真實迷惑性，因為原文真的稱讚 Sacks’s voice。但題目問 best part，首句先說 Sacks himself，接著第一個具體解釋是他記錄自己的生活和個人經驗。C 覆蓋這個核心較完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — come to terms with the new technologies",
+      "answerKey": "A — come to terms with the new technologies",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "在序言中，Sacks 嘗試達成甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： In the preface, what did Sacks try to achieve?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是問 preface 內容的概括題。題目不只是問 Sacks 提到甚麼，也問他想做到甚麼。要看Paragraph 3 中 Sacks 對 observation、description 和 latest technology 的取態。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The preface gives a good idea of what the book will deliver.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "序言很好地提示了這本書會提供甚麼內容。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He knows that he needs to take heed of the latter, but his heart lies with the former.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他知道自己需要留意後者，即新的高科技方法；但他的心偏向前者，即傳統觀察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段功能：它介紹 Sacks 在序言中設定的寫作方向，尤其是傳統observation 和新 technology 之間的張力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● preface● try to achieve● new technologies原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He wants to combine ‘observation and description with the latest in technology,’ he says, and to imaginatively enter into the experience of his patients and subjects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說自己想把「觀察和描述」與「最新科技」結合起來，並以想像力進入病人和研究對象的經驗之中。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reader can see that Sacks… is torn between the ‘old-fashioned’ path of observation and the newfangled, high-tech approach.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "讀者可以看出，Sacks 在「老派的觀察路線」和「新式高科技方法」之間感到拉扯。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Sacks 想 combine observation and description with the latest in technology。這表示他不是完全拒絕新科技；他知道自己需要正視它、吸收它、和它取得某種平衡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A： come to terms with the new technologies"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "接受並適應新科技；與新科技找到相處方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括 Sacks 在 preface 中的狀態：他心中偏愛 observation，但也知道不能忽略 latest technology。因此 A 是最佳答案。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。它概括 Sacks 嘗試把傳統觀察和新科技放在一起處理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 不夠準確。書中確實有 musical disorders，但 preface 的重點不是單純詳細描述各種 disorder，而是把 observation、human context 和 technology 結合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 太籠統。原文提到 musical perception and imagery，但沒有把目標縮窄成「解釋人們如何理解音樂」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯。Sacks 沒有要拋棄 simple observation；相反，他非常重視 observation。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 用了 simple observation 這個原文字眼，很像定位成功。但原文說 Sacks stresses the importance of “the simple art of observation”，並且擔心它會因過度依賴科技而消失。D 把原文重視的東西改成要拋棄的東西，所以方向錯了。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — He refuses to have further tests.",
+      "answerKey": "A — He refuses to have further tests.",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "Tony Cicoria 的個案令人失望的地方是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What is disappointing about Tony Cicoria’s case?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 disappointing，原文中沒有直接用 disappointing，但有一句帶有 reviewer 情緒判斷的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“What a shame!”。這就是答案附近。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4第一句：“The book consists mainly of detailed descriptions of cases, most of them involving patients whom Sacks has seen in his practice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這本書主要由詳細個案描述組成，其中大多涉及 Sacks 在臨床工作中見過的病人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What a shame!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真可惜！"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句指出本段是 case descriptions，最後一句明顯表達 reviewer 的失望。題目問 Tony Cicoria’s case，正好定位在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● Tony Cicoria● disappointing● case● tests原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are now more sensitive tests, but Cicoria has declined to undergo them; he does not want to delve into the causes of his musicality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已有更敏感的測試，但 Cicoria 拒絕接受這些測試；他不想深入探究自己音樂能力的成因。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What a shame!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真可惜！"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的情緒鏈非常清楚： 1. Cicoria 被雷擊後突然產生強烈音樂能力； 2. 舊 EEG 測試顯示 brain waves normal； 3. 現在有 more sensitive tests； 4. 但 Cicoria declined to undergo them； 5. reviewer 說 What a shame!"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以令人失望的不是「當年 EEG 正常」本身，也不是「他不能判斷原因」；真正讓 reviewer 覺得可惜的是他拒絕接受更敏感的新測試，令成因無法進一步研究。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。declined to undergo them = refuses to have further tests。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 不夠精準。原因未能確定是整個個案留下的疑問，但 reviewer 說 What a shame 的直接原因是他拒絕新測試。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。near-death experience 是背景，不是 reviewer 說可惜的地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 有原文支援，但不是 disappointment 的核心。EEG normal 只是舊測試結果；真正可惜的是更敏感測試已存在，他卻拒絕做。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 很容易吸引學生，因為原文真的說 EEG showed his brain waves to be normal。但題目問What is disappointing。要跟住情緒句 What a shame! 往前讀，才會找到真正原因：declined to undergo them。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "It is difficult to give a highly reputable writer a less than favourable review.",
+      "translation": "要給一位很有聲望的作家不太正面的評論，是困難的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN，問 writer’s views。要判斷題目是否和 reviewer 的態度一致。YES需要題目命題和原文方向一致；NO 需要原文提供相反資訊；NOT GIVEN 則是缺少核心資料。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Music and the brain are both endlessly fascinating subjects…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "音樂和大腦都是令人無窮著迷的題目。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And I confess to feeling a little guilty reporting that my reactions to the book are mixed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我承認，當我說自己對這本書反應好壞參半時，心裡有點愧疚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計作者對這本書有高度期待，也覺得給出 mixed review 有心理壓力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● difficult● highly reputable writer● less than favourable review原文中相關資訊："
+            },
+            {
+              "kind": "quote",
+              "text": "“So I had high expectations of Musicophilia, the latest offering from neurologist and prolific author Oliver Sacks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以我對《Musicophilia》有很高期望；這是神經學家兼多產作家 Oliver Sacks 的最新作品。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“I confess to feeling a little guilty reporting that my reactions to the book are mixed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我承認，當我說自己對這本書反應好壞參半時，心裡有點愧疚。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀命題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 highly reputable writer 對應原文的：● neurologist；● prolific author；● Oliver Sacks。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 less than favourable review 對應原文的：● reactions are mixed；● feeling a little guilty reporting that。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然原文沒有逐字說 difficult，但 feeling a little guilty 表示 reviewer 覺得給出 mixed review有心理負擔。題目將這種心理負擔概括為 difficult，是合理改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目和原文方向一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不要因為原文沒有直接寫 difficult 就選 NOT GIVEN。IELTS Reading 接受短距離推論。作者明確說自己 feel guilty reporting mixed reactions，已經支援「給出不完全正面的評論有難度」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "Beethoven’s Pathétique Sonata is a good treatment for musical disorders.",
+      "translation": "Beethoven 的《Pathétique Sonata》是治療音樂相關障礙的好方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的主體是 Beethoven’s Pathétique Sonata，要看原文提到它時是在甚麼語境。題目加入了good treatment for musical disorders，這是一個醫療治療效果的判斷，必須有原文支持。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sacks himself is the best part of Musicophilia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sacks 本人是《Musicophilia》最好的部分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He is neither self-conscious nor self-promoting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他既不忸怩，也不自我推銷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 的功能是評論 Sacks 本人的形象和書中呈現的個人風格，不是討論治療方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● Beethoven’s Pathétique Sonata● treatment● musical disorders原文中唯一提到 Pathétique Sonata 的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The photograph of him on the cover of the book—which shows him wearing headphones, eyes closed, clearly enchanted as he listens to Alfred Brendel perform Beethoven’s Pathétique Sonata—makes a positive impression…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "書封照片中，他戴著耳機，閉著眼睛，聽 Alfred Brendel 演奏 Beethoven 的《Pathétique Sonata》時明顯陶醉其中；這張照片留下了正面印象。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說：● 封面照片中 Sacks 在聽這首曲；● 他看起來 enchanted；● 照片給人 positive impression。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說：● 這首 sonata 被用作 therapy；● 它能治療 musical disorders；● Sacks 用它治療病人；● reviewer 認為它有醫療效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把「封面照片中的音樂」改成「治療音樂障礙的方法」。這超出文章證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文提到 Beethoven’s Pathétique Sonata，但只在 cover photograph 的語境中出現。關於treatment 的資料缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是同一篇文章後面確實討論 music therapy。學生可能把「音樂」和「治療」連起來，再把 Beethoven 這首曲視為治療例子。可是文章從未說這首 sonata 有治療用途。相關主題存在，不代表題目命題成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "Sacks believes technological methods are less important than observation when studying his patients.",
+      "translation": "Sacks 認為研究病人時，科技方法的重要性低於觀察。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 Sacks 對 technological methods 和 observation 的相對取態。題目有比較關係： technology less important than observation。要找原文是否呈現 Sacks 偏向 observation。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The preface gives a good idea of what the book will deliver.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "序言很好地提示了這本書會提供甚麼。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He knows that he needs to take heed of the latter, but his heart lies with the former.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他知道自己需要留意後者，即高科技方法；但他的心偏向前者，即傳統觀察。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 3 是關於 Sacks 的方法取向：他知道科技重要，但情感和習慣上更靠近observation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● technological methods● observation● less important● patients原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also stresses the importance of ‘the simple art of observation’ and ‘the richness of the human context.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也強調「簡單觀察藝術」和「人類情境的豐富性」的重要。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reader can see that Sacks… is torn between the ‘old-fashioned’ path of observation and the newfangled, high-tech approach: He knows that he needs to take heed of the latter, but his heart lies with the former.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "讀者可以看出，Sacks 在「老派的觀察路線」和「新式高科技方法」之間感到拉扯：他知道自己需要留意後者，但他的心偏向前者。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀命題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有兩層意思： 1. Sacks says he wants to combine observation with latest technology； 2. reviewer 判斷他心裡更偏向 old-fashioned observation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 technological methods are less important than observation。這不是逐字引用，但 his heart lies with the former 很清楚表示 Sacks 對 observation 有更深取向。再加上他 stresses the importance of simple observation，整體方向與題目一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題和原文取向一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "有些學生會因為原文說 Sacks wants to combine observation and technology，就覺得兩者完全同等重要。但下一句補充 his heart lies with the former。這句才真正控制題目中的比較方向： Sacks 雖然承認科技需要被重視，但更傾向 observation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "It is difficult to understand why music therapy is undervalued.",
+      "translation": "很難理解為甚麼 music therapy 會被低估。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要小心，因為原文確實有 underappreciated realm of music therapy，也提到 music therapy 的強大效果。但題目不只是說 music therapy is undervalued，還加上 It is difficult to understand why。這個「為甚麼難以理解」需要原文支援。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To Sacks’s credit, Part III, ‘Memory, Movement and Music,’ brings us into the underappreciated realm of music therapy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "值得稱讚的是，第三部分 “Memory, Movement and Music” 帶我們進入 music therapy 這個未被充分重視的領域。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists cannot yet explain how music achieves this effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家尚未能解釋音樂如何達到這種效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段重點是 music therapy 的價值和神奇效果，但最後一句討論的是「科學家不能解釋它如何發揮作用」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● music therapy● undervalued● difficult to understand why原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“brings us into the underappreciated realm of music therapy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "帶我們進入 music therapy 這個未被充分重視的領域。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists cannot yet explain how music achieves this effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家尚未能解釋音樂如何達到這種效果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀原文與題目差距"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支援的內容是：● music therapy is underappreciated；● music can help expressive aphasic patients regain fluent speech；● music can animate Parkinson’s patients；● scientists cannot explain how music achieves this effect。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說的是：● it is difficult to understand why music therapy is undervalued。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有兩個問題： 1. 原文有 underappreciated，可支援「被低估」； 2. 但原文沒有說 reviewer 覺得「很難理解為甚麼它被低估」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句 Scientists cannot yet explain how music achieves this effect 是在說「難以解釋音樂如何產生效果」，不是「難以理解為何 therapy 被低估」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目把兩個概念連在一起：underappreciated + difficult to understand why。原文只支援前半，缺少後半，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很有迷惑性，因為 underappreciated 和 cannot yet explain 都在同一段出現。可是前者說music therapy 的地位，後者說科學機制。題目把兩者重新組合成「很難理解為甚麼被低估」，原文沒有建立這個關係。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "Sacks should have more skepticism about other theories and findings.",
+      "translation": "Sacks 應該對其他理論和研究發現更有懷疑精神。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 reviewer 對 Sacks 的批評。定位詞是 skepticism, theories, findings。原文可能用反面詞，例如 uncritical。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To readers who are unfamiliar with neuroscience and music behaviour, Musicophilia may be something of a revelation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對不熟悉神經科學和音樂行為的讀者來說，《Musicophilia》可能頗有啟發。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And he tends to be rather uncritical in accepting scientific findings and theories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且他在接受科學發現和理論時，往往相當缺乏批判性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph 7 先給出有限肯定，然後提出批評。最後一句直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● skepticism● theories● findings原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And he tends to be rather uncritical in accepting scientific findings and theories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且他在接受科學發現和理論時，往往相當缺乏批判性。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Sacks should have more skepticism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 he is rather uncritical。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是直接同義轉換：● uncritical = not skeptical enough；● should have more skepticism = reviewer 認為他應更有批判性；● findings and theories = scientific findings and theories。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文和題目方向一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要被 Sacks appears to be more at ease discussing patients than discussing experiments 分散注意。這句也是批評，但真正對應 skepticism 的是下一句 rather uncritical。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位時要找意思最貼近的詞，不只是找同段的大概批評。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "Sacks is impatient to use new testing methods.",
+      "translation": "Sacks 急於使用新的測試方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看 Sacks 對 new testing methods 的態度。題目用 impatient，表示急切、迫不及待。要找原文是否說他有 urgency。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, in many of the cases described here the patient with music-brain symptoms is reported to have ‘normal’ EEG results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，在書中描述的許多個案裡，有 music-brain 症狀的病人被報告有「正常」EEG 結果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He does call for both approaches, though, and we can only hope that the neurological community will respond.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，他確實呼籲兩種方法並用；我們只能希望神經學界會作出回應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提到舊 EEG 的不足，後面會談新技術。這與題目 new testing methods 直接相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● impatient● new testing methods● Sacks原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although Sacks recognises the existence of new technologies, among them far more sensitive ways to analyse brain waves than the standard neurological EEG test, he does not call for their use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 Sacks 承認新技術存在，其中包括比標準神經學 EEG 測試更敏感的腦波分析方法，但他沒有呼籲使用它們。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“he conveys no sense of urgency about the pursuit of new avenues in the diagnosis and treatment of music-brain disorders.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他沒有傳達出任何急切感，去追求診斷和治療 music-brain disorders 的新途徑。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀衝突位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說：● Sacks is impatient；● he wants to use new testing methods eagerly / urgently。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說：● he recognises new technologies；● he does not call for their use；● he conveys no sense of urgency。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是明確相反。impatient 和 no sense of urgency 方向衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文提供相反證據，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易出錯的是看到 Sacks recognises the existence of new technologies，便以為他支持積極使用新技術。可是同一句後半有轉向：he does not call for their use。細讀時要特別留意although 之後真正主句的重點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "F — show that music is not localised in the brain.",
+      "answerKey": "F — show that music is not localised in the brain.",
+      "type": "Sentence Endings",
+      "prompt": "The dissociations between harmony and melody ______",
+      "translation": "和聲與旋律之間的分離現象顯示，音樂並不是定位於大腦某一單一區域。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "The dissociations between harmony and melody show that music is not localised in the brain."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s true that the causes of music-brain oddities remain poorly understood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "音樂與大腦相關怪異現象的成因確實仍了解不足。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because many people who read the book are likely to believe in the brain localisation of all mental functions, this was a missed educational opportunity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為許多讀這本書的人可能相信所有心理功能都可在大腦中定位，所以這是一個錯失的教育機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段在談 Sacks 沒有充分解釋某些病例的 broader implications，尤其與 brain localisation 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● dissociations● harmony● melody原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, he might have noted that the many specific dissociations among components of music comprehension, such as loss of the ability to perceive harmony but not melody, indicate that there is no music center in the brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，他本可以指出，音樂理解不同組成部分之間有許多特定分離現象，例如失去感知和聲的能力但仍能感知旋律，這顯示大腦中沒有單一音樂中心。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀句尾配對"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題幹的 dissociations between harmony and melody 對應原文：● loss of the ability to perceive harmony but not melody；● specific dissociations among components of music comprehension。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文結論是：● there is no music center in the brain。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 F：● show that music is not localised in the brain。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是同義改寫：● no music center = music is not localised in one brain center；● indicate = show。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 說 show no music-brain disorders，看似也和 disorders 有關，但 dissociations 本身正是music-brain problems 的證據，不是證明沒有 disorder。真正答案要連到 Paragraph 8 的核心：no music center in the brain。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — indicates that medication can have varied results.",
+      "answerKey": "B — indicates that medication can have varied results.",
+      "type": "Sentence Endings",
+      "prompt": "The study of treatments for musical disorders ______",
+      "translation": "對音樂相關障礙治療的研究顯示，藥物可能有不同結果。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "The study of treatments for musical disorders indicates that medication can have varied results."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another conclusion one could draw is that there seem to be no ‘cures’ for neurological problems involving music.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個可以得出的結論是，涉及音樂的神經問題似乎沒有真正的「治癒方法」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Treatments mentioned seem to be almost exclusively antiepileptic medications, which ‘damp down’ the excitability of the brain in general; their effectiveness varies widely.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "文中提到的治療幾乎全都是抗癲癇藥物，它們一般會降低大腦興奮性；它們的有效程度差異很大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句清楚顯示本段在談 treatments 的限制和差異，正好對應 Question 38。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● treatments● musical disorders● medication● varied results原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A drug can alleviate a symptom in one patient and aggravate it in another, or can have both positive and negative effects in the same patient.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種藥物可以在一位病人身上緩解症狀，卻在另一位病人身上加重症狀；也可能在同一位病人身上同時有正面和負面效果。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“their effectiveness varies widely.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們的有效程度差異很大。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀句尾配對"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題幹 The study of treatments for musical disorders 要接一個結果。Paragraph 9 的核心結果是：● no cures；● drugs may alleviate or aggravate；● effectiveness varies widely。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 說 medication can have varied results，直接對應：● alleviate in one patient；● aggravate in another；● positive and negative effects in same patient；● effectiveness varies widely。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 B 正確。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 說 is key for the neurological community to unravel the mysteries，語氣太強，原文沒有說 treatment study 是破解謎團的關鍵。Paragraph 9 的語氣其實較保守，重點是治療效果不穩定。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "A — show no music-brain disorders.",
+      "answerKey": "A — show no music-brain disorders.",
+      "type": "Sentence Endings",
+      "prompt": "The EEG scans of Sacks’s patients ______",
+      "translation": "Sacks 病人的 EEG 掃描顯示不出 music-brain disorders。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "The EEG scans of Sacks’s patients show no music-brain disorders."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, in many of the cases described here the patient with music-brain symptoms is reported to have ‘normal’ EEG results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，在這裡描述的許多個案中，有 music-brain 症狀的病人被報告有「正常」EEG 結果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He does call for both approaches, though, and we can only hope that the neurological community will respond.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，他確實呼籲兩種方法並用；我們只能希望神經學界會作出回應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接提到 EEG results，並且說有症狀的病人 EEG normal。這就是題目定位句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● EEG scans● Sacks’s patients● music-brain disorders原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“in many of the cases described here the patient with music-brain symptoms is reported to have ‘normal’ EEG results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在許多書中個案裡，有 music-brain 症狀的病人被報告有「正常」EEG 結果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀句尾配對"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文不是說病人沒有 music-brain symptoms。它說的是：● 病人有 music-brain symptoms；● EEG results 卻是 “normal”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以選項 A show no music-brain disorders 要理解為：EEG 掃描本身沒有顯示異常。它不是說病人真的沒有病症，而是說標準 EEG 未能反映這些問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，把題幹和 A 接起來最貼近原文： The EEG scans of Sacks’s patients show no music-brain disorders."
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要特別小心 A 的意思。A 不應理解成「病人沒有 disorder」。原文正好說他們有 symptoms。A的合理意思是「EEG 結果沒有顯示 disorder」，這對應 normal EEG results。這也解釋為甚麼reviewer 之後批評 Sacks 沒有呼籲使用更敏感的新技術。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — should not be used in isolation.",
+      "answerKey": "D — should not be used in isolation.",
+      "type": "Sentence Endings",
+      "prompt": "Sacks believes testing based on new technologies ______",
+      "translation": "Sacks 認為以新技術為基礎的測試不應單獨使用。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sacks believes testing based on new technologies should not be used in isolation."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, in many of the cases described here the patient with music-brain symptoms is reported to have ‘normal’ EEG results.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，在許多書中個案裡，有 music-brain 症狀的病人被報告有「正常」EEG 結果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He does call for both approaches, though, and we can only hope that the neurological community will respond.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，他確實呼籲兩種方法並用；我們只能希望神經學界會作出回應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段一方面批評 Sacks 對新技術缺少 urgency，另一方面也說他呼籲 both approaches。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 40 問 Sacks believes testing based on new technologies，所以答案要看他對 new technologies 和 observation 的平衡態度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● testing based on new technologies● Sacks believes● used原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This absence echoes the book’s preface, in which Sacks expresses fear that ‘the simple art of observation may be lost’ if we rely too much on new technologies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種缺席呼應了書的序言；在序言中，Sacks 表達了一種擔憂：如果我們過度依賴新技術，「簡單的觀察藝術」可能會消失。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“He does call for both approaches, though…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，他確實呼籲兩種方法並用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀句尾配對"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sacks 的想法是：● 不希望 simple observation 被新技術取代；● 擔心 relying too much on new technologies；● 因此 call for both approaches。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D： should not be used in isolation"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不應單獨使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好對應 both approaches。新技術可以使用，但要配合 observation，不應孤立使用。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 說新技術是 neurological community 解開謎團的關鍵，這較像 reviewer 對未來研究的希望，不是 Sacks 的明確信念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確。both approaches = observation + technology；因此 new technologies should not be used alone。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易被 C 吸引，因為最後一句有 neurological community will respond。但題幹主體是Sacks believes，所以要用 Sacks 在 preface 中的取態：害怕 observation 被過度依賴科技壓走，同時呼籲兩種方法並用。真正控制答案的是 both approaches。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Musical Maladies.pdf",
+    "sha256": "ce134078e86860808b35bbaef385379c41c637356a70e81bc4564eb66d9727a8",
+    "pageCount": 30
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "reviewer 介紹自己對 music and brain 有高度興趣，因此對 Sacks 的新書抱有高期望，但讀後感受 mixed。"
+      },
+      {
+        "number": "2",
+        "summary": "評論書中最好的部分是 Sacks 本人，包括他的個人經歷、聲音、態度和不自我推銷的風格。"
+      },
+      {
+        "number": "3",
+        "summary": "介紹 preface：Sacks 想結合 observation、human context 和 latest technology，但他的心更偏向傳統觀察。"
+      },
+      {
+        "number": "4",
+        "summary": "介紹全書主要由病例組成，並詳述 Tony Cicoria 被雷擊後突然迷上音樂的個案。"
+      },
+      {
+        "number": "5",
+        "summary": "評論 Part II，有些章節新意不足，但 strange cases，例如 amusia 和dysharmonia，較有趣。"
+      },
+      {
+        "number": "6",
+        "summary": "評論 Part III，介紹 music therapy，包括 melodic intonation therapy 和音樂對Parkinson’s patients 的作用。"
+      },
+      {
+        "number": "7",
+        "summary": "對全書提出主要批評：對初學者有啟發，但不能滿足想追問原因和含義的讀者； Sacks 對實驗和理論較少批判。"
+      },
+      {
+        "number": "8",
+        "summary": "reviewer 認為 Sacks 錯過教育機會，沒有充分帶出 dissociations 的含義，例如大腦沒有單一 music center。"
+      },
+      {
+        "number": "9",
+        "summary": "說明音樂相關神經問題似乎沒有真正 cures，藥物和治療效果差異很大。"
+      },
+      {
+        "number": "10",
+        "summary": "批評 Sacks 雖然承認新技術，卻沒有呼籲使用更敏感的新測試，也缺少追求新診斷和治療途徑的迫切感。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="EdmundEducation Reading Comprehension 閱讀理解學習系統">
+  <meta name="theme-color" content="#153f3a">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Edmund 閱讀理解">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; script-src 'self' https://cdn.jsdelivr.net https://edmund-site-assets.edmundeducation.workers.dev; style-src 'self' 'unsafe-inline' https://edmund-site-assets.edmundeducation.workers.dev; img-src 'self' data: https://edmund-site-assets.edmundeducation.workers.dev; font-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-speaking-system.edmundeducation.workers.dev https://edmund-site-assets.edmundeducation.workers.dev; media-src 'self' blob: https://edmund-neural-audio.edmundeducation.workers.dev https://edmund-speaking-system.edmundeducation.workers.dev https://edmund-site-assets.edmundeducation.workers.dev; object-src 'none'; frame-src 'self'; worker-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; base-uri 'self'; form-action 'self'">
+  <title>閱讀理解學習系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/reading-comprehension.html">
+  <link rel="manifest" href="/pwa-manifests/reading-comprehension.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <script defer src="/pwa-register.js"></script>
+  <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
+  <link rel="stylesheet" href="reading-comprehension.css?v=20261030-curation6">
+  <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
+  <link rel="stylesheet" href="dse-deep-analysis.css?v=20261018-analysis-batch1">
+<link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
+<link rel="stylesheet" href="theme-finder.css?v=20261028-grouped"></head>
+<body>
+  <a class="skip-link" href="#reading-main">跳至主要內容</a>
+  <header class="site-header edmund-system-header">
+    <div class="header-inner edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="reading-comprehension">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Reading Comprehension<br>閱讀理解學習系統</small></span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="header-actions edmund-system-header__actions">
+        <span class="connection-pill" data-connection data-state="checking">正在連接</span>
+        <span class="user-pill" data-user hidden></span>
+        <button class="header-button" type="button" data-home hidden>學習首頁</button>
+        <button class="header-button" type="button" data-logout hidden>登出</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="reading-main" class="app-shell">
+    <section class="view" data-view="login">
+      <div class="login-layout">
+        <article class="login-hero panel">
+          <p class="eyebrow">EDMUND READING LAB</p>
+          <p class="student-label">(學生使用)</p>
+          <h1>Reading Comprehension<br><span>閱讀理解</span><br>學習系統</h1>
+          <p>一邊細讀文章，一邊完成題目；結合翻譯、朗讀、Skimming 與逐題分析，練成真正可運用的閱讀能力。</p>
+          <div class="book-mark" aria-hidden="true"><i></i><i></i><b>R</b></div>
+        </article>
+        <section class="login-panel panel" aria-labelledby="reading-login-title">
+          <img class="reading-login-frame" src="reading-login-art/archive-frame-v1.webp" alt="" aria-hidden="true" width="1145" height="1374">
+          <p class="eyebrow">STUDENT LOGIN</p>
+          <h2 id="reading-login-title">登入閱讀理解系統</h2>
+          <p>請使用與其他學生系統相同的帳戶資料。</p>
+          <form data-login-form novalidate>
+            <label><span>用戶名稱</span><input name="username" autocomplete="username" maxlength="100" required></label>
+            <label><span>密碼</span><span class="password-field"><input name="password" type="password" autocomplete="current-password" maxlength="200" required><button type="button" data-password-toggle aria-pressed="false">顯示</button></span></label>
+            <p class="form-status" data-login-status role="status" aria-live="polite"></p>
+            <button class="primary-button" type="submit" data-login-button>登入並開始學習</button>
+          </form>
+        </section>
+      </div>
+    </section>
+
+    <section class="view reading-home-view" data-view="reading-home" hidden>
+      <section class="reading-home-hero panel" aria-labelledby="reading-home-title">
+        <p class="eyebrow">CHOOSE YOUR READING SYSTEM</p>
+        <h1 id="reading-home-title">選擇閱讀理解系統</h1>
+        <p>請選擇 DSE 或 IELTS 閱讀理解。之後亦可隨時返回這個頁面切換系統。</p>
+      </section>
+      <div class="reading-system-choice-grid" role="group" aria-label="閱讀理解系統選擇">
+        <button class="reading-system-card panel is-dse" type="button" data-enter-dse>
+          <span class="reading-system-card-kicker">DSE READING COMPREHENSION</span>
+          <strong>DSE 閱讀理解</strong>
+          <span>香港中學文憑考試閱讀練習</span>
+          <small>2012–2026 · A、B1、B2</small>
+          <b aria-hidden="true">選擇年份 →</b>
+        </button>
+        <button class="reading-system-card panel is-ielts" type="button" data-enter-ielts>
+          <span class="reading-system-card-kicker">IELTS READING COMPREHENSION</span>
+          <strong>IELTS 閱讀理解</strong>
+          <span>Passage 1、2、3 · 437 篇完整練習</span>
+          <small>可按 Passage、文章或題型搜尋</small>
+          <b aria-hidden="true">開始練習 →</b>
+        </button>
+      </div>
+    </section>
+
+    <section class="view dse-dashboard-view" data-view="dse-dashboard" hidden>
+      <section class="dse-dashboard-hero panel" aria-labelledby="dse-dashboard-title">
+        <div>
+          <button class="text-button" type="button" data-back-reading-home>← 返回選擇閱讀系統</button>
+          <p class="eyebrow">DSE READING COMPREHENSION</p>
+          <h1 id="dse-dashboard-title">DSE 閱讀理解</h1>
+          <p>2012–2023、2025、2026 · Part A、B1、B2</p>
+        </div>
+        <div class="dse-year-sort" role="group" aria-label="年份排序">
+          <span>年份排序</span>
+          <button type="button" data-dse-sort="desc" aria-pressed="true">新至舊</button>
+          <button type="button" data-dse-sort="asc" aria-pressed="false">舊至新</button>
+        </div>
+      </section>
+      <p class="dse-catalogue-status" data-dse-catalogue-status role="status"></p>
+      <button class="theme-entry" type="button" data-open-reading-themes="dse"><small>DSE READING · THEME FINDER</small><strong>By Theme · 按主題練習</strong><span>按運動、文化、科技、健康等主題尋找文章 →</span></button>
+      <details class="dse-question-finder panel" data-dse-question-finder>
+        <summary><span class="dse-question-finder__icon" aria-hidden="true">45</span><span><small>DSE READING · QUESTION FINDER</small><strong>按題型選題練習</strong><span>45 份 Part A、B1、B2 試卷已按每道題的題型整理；展開後可直接跳到指定題目。</span></span><b aria-hidden="true">展開 ↓</b></summary>
+        <div class="dse-question-finder__body">
+          <label for="dse-question-type-search">搜尋英文或中文題型</label>
+          <input id="dse-question-type-search" type="search" data-dse-question-type-search placeholder="例如：配對／Matching／True False" autocomplete="off">
+          <p data-dse-question-type-status role="status">展開後載入題型索引…</p>
+          <div class="dse-question-type-chips" data-dse-question-type-chips role="group" aria-label="選擇 DSE 題型"></div>
+          <div class="dse-question-type-results" data-dse-question-type-results></div>
+        </div>
+      </details>
+      <section class="mock-exam-panel panel full-exam-launch" aria-labelledby="dse-full-exam-title">
+        <div><p class="eyebrow">DSE PAPER 1 · 90-MINUTE FULL PAPER</p><h2 id="dse-full-exam-title">完整試卷模擬試 <span>Part A + Part B</span></h2><p>選擇 B1 或 B2。可使用同一年度的 A + B，或隨機配對不同年度的 A + B。全卷共用 90 分鐘，交卷後才結束。</p></div>
+        <div class="mock-exam-actions full-exam-options">
+          <label>模式<select data-dse-exam-mode><option value="same-year">同一年份 A + B</option><option value="mixed-year">隨機不同年份 A + B</option></select></label>
+          <label data-dse-exam-year-label>年份<select data-dse-exam-year></select></label>
+          <label>選卷<select data-dse-exam-path><option value="B1">Part B1</option><option value="B2">Part B2</option></select></label>
+          <button class="primary-button" type="button" data-start-dse-full-exam>開始完整試卷</button>
+          <button class="secondary-button" type="button" data-resume-dse-full-exam hidden>繼續未完成試卷</button>
+          <button class="secondary-button" type="button" data-toggle-dse-full-exam-log aria-expanded="false">查看模擬試記錄</button>
+        </div>
+        <div class="mock-exam-log" data-dse-full-exam-log hidden></div>
+      </section>
+      <div class="dse-year-grid" data-dse-year-grid></div>
+    </section>
+
+    <section class="view" data-view="dashboard" hidden>
+      <section class="dashboard-hero panel">
+        <div><button class="text-button dashboard-system-back" type="button" data-back-reading-home>← 選擇 DSE / IELTS</button><p class="eyebrow">IELTS READING COMPREHENSION</p><h1>IELTS 閱讀理解</h1><p data-welcome>選擇一篇文章開始練習。</p></div>
+        <div class="dashboard-count"><strong data-catalogue-count>437</strong><span>篇閱讀練習</span></div>
+      </section>
+      <button class="progress-disclosure panel" type="button" data-progress-toggle aria-expanded="false" aria-controls="reading-progress-panel">
+        <span><strong>查看練習進展</strong><small>按日期查看完成題數與練習時間</small></span><span data-progress-label>展開 ＋</span>
+      </button>
+      <section class="progress-panel panel" id="reading-progress-panel" data-progress-panel hidden>
+        <article><p class="eyebrow">QUESTIONS BY DATE</p><h2>每日完成題目</h2><div class="chart" data-question-chart><p class="empty-state">完成練習後，圖表會在這裡顯示。</p></div><p class="chart-total">累計：<strong data-question-total>0</strong> 題</p></article>
+        <article><p class="eyebrow">TIME BY DATE</p><h2>每日練習時間</h2><div class="chart" data-time-chart><p class="empty-state">開始練習後，時間會在這裡顯示。</p></div><p class="chart-total">累計：<strong data-time-total>0 分 00 秒</strong></p></article>
+        <p class="reading-dse-progress-note" data-dse-progress-note hidden>舊版 DSE 作答沒有計時紀錄；時間圖表從新版練習及完整試卷開始計算。</p>
+      </section>
+      <section class="mock-exam-panel panel" aria-labelledby="mock-exam-title">
+        <div class="mock-exam-intro">
+          <p class="eyebrow">IELTS READING · 60-MINUTE MOCK EXAM</p>
+          <h2 id="mock-exam-title">模擬考試模式 <span>Mock Exam Mode</span></h2>
+          <p>系統會從 Passage 1、2、3 各隨機抽選一篇，合共 40 題。三篇共用 60 分鐘倒數；可自由切換，交卷前不顯示分數。</p>
+        </div>
+        <div class="mock-exam-actions">
+          <button class="primary-button" type="button" data-start-mock-exam>開始隨機模擬試 · Start</button>
+          <button class="secondary-button" type="button" data-toggle-mock-log aria-expanded="false">查看模擬試記錄</button>
+        </div>
+        <div class="mock-exam-log" data-mock-exam-log hidden></div>
+      </section>
+      <button class="theme-entry" type="button" data-open-reading-themes="ielts"><small>IELTS READING · THEME FINDER</small><strong>By Theme · 按主題練習</strong><span>按運動、文化、科技、健康等主題尋找文章 →</span></button>
+      <button class="question-type-directory panel" type="button" data-open-question-types aria-label="By Question Type 按題型練習：搜尋 437 篇 IELTS Reading 練習">
+        <span class="question-type-directory-icon" aria-hidden="true">14</span>
+        <span class="question-type-directory-copy"><small>IELTS READING · PRACTICE FINDER</small><strong>By Question Type <span>按題型練習</span></strong><span>用英文或中文題型名稱搜尋 437 篇練習，再直接開始作答。</span></span>
+        <span class="question-type-directory-action" aria-hidden="true">搜尋題型 →</span>
+      </button>
+      <nav class="passage-tabs panel" aria-label="選擇 IELTS Reading Passage" role="tablist">
+        <button type="button" role="tab" aria-selected="true" data-passage-tab="1">Passage 1</button>
+        <button type="button" role="tab" aria-selected="false" data-passage-tab="2">Passage 2</button>
+        <button type="button" role="tab" aria-selected="false" data-passage-tab="3">Passage 3</button>
+      </nav>
+      <section class="bookmark-library panel" aria-label="置頂閱讀書簽">
+        <button class="bookmark-library-toggle" type="button" data-bookmark-library-toggle aria-expanded="false" aria-controls="reading-bookmark-library">
+          <span class="library-star" aria-hidden="true">★</span>
+          <span><small>PINNED · 置頂</small><strong>我的閱讀書簽 <span data-bookmark-count>0</span></strong><span>文章、題目、段落與學習提示 · 不受 Passage 分頁影響</span></span>
+          <span data-bookmark-library-label>展開 ＋</span>
+        </button>
+        <div id="reading-bookmark-library" data-bookmark-library hidden>
+          <div class="bookmark-library-tools">
+            <label>書簽類型 <select data-bookmark-filter><option value="all">全部書簽</option><option value="passage">文章與題目組</option><option value="questions">整組題目</option><option value="paragraph">個別段落</option><option value="question">個別題目</option><option value="skimming">Skimming Tips</option><option value="scanning">Scanning Tips</option><option value="analysis">答案解析與分析小節</option><option value="word">重點字詞</option></select></label>
+            <button class="secondary-button" type="button" data-refresh-bookmarks>重新整理書簽</button>
+          </div>
+          <p class="bookmark-library-status" data-bookmark-status role="status"></p>
+          <div class="reading-bookmark-list" data-reading-bookmark-list></div>
+        </div>
+      </section>
+
+      <section class="catalogue-tools panel" aria-label="搜尋閱讀練習">
+        <label>搜尋文章或練習編號<input type="search" data-catalogue-search placeholder="文章名稱 / Practice 編號" autocomplete="off"></label>
+        <p data-catalogue-status role="status">正在載入文章目錄…</p>
+      </section>
+      <div data-exercise-catalogue>
+      <section class="exercise-list panel" aria-labelledby="exercise-list-title" data-passage-page="1">
+        <div><p class="eyebrow">IELTS READING · PASSAGE 1</p><h2 id="exercise-list-title">Albert Einstein</h2><p>Practice 69 · 5 個段落 · 13 題</p></div>
+        <div class="exercise-actions">
+          <button class="secondary-button" type="button" data-passage-bookmark>☆ 收藏文章與題目組</button>
+          <a class="secondary-button button-link" href="flashcards.html?deck=ielts%2Freading%2Fpassage-1%2FPractice%2069">溫習 Flash Cards</a>
+          <a class="secondary-button button-link" href="model-essay-downloads.html?catalog=reading-passage-1&amp;item=63e1085c1daadcb8">下載練習 PDF</a>
+          <button class="primary-button" type="button" data-open-exercise>開始閱讀練習</button>
+        </div>
+      </section>
+      <section class="empty-passage panel" data-passage-page="2" hidden><p class="eyebrow">IELTS READING · PASSAGE 2</p><h2>Passage 2</h2><p>練習內容即將加入。</p></section>
+      <section class="empty-passage panel" data-passage-page="3" hidden><p class="eyebrow">IELTS READING · PASSAGE 3</p><h2>Passage 3</h2><p>練習內容即將加入。</p></section>
+      </div>
+      <nav class="catalogue-pagination" aria-label="文章目錄分頁"><button class="secondary-button" type="button" data-catalogue-previous>← 上一頁</button><span data-catalogue-page></span><button class="secondary-button" type="button" data-catalogue-next>下一頁 →</button></nav>
+      <section class="history panel"><div class="section-heading"><div><p class="eyebrow">ATTEMPT RECORD</p><h2>練習記錄</h2></div><button class="secondary-button" type="button" data-refresh-dashboard>重新整理</button></div><div data-history-list><p class="empty-state">尚未有練習記錄。</p></div></section>
+    </section>
+
+    <section class="view panel" data-view="themes" hidden><button class="text-button" data-theme-back>← 返回文章目錄</button><h1>By Theme · 按主題練習</h1><div data-reading-theme-finder></div></section>
+    <section class="view question-types-view" data-view="question-types" aria-labelledby="question-types-title" hidden>
+      <section class="question-types-hero panel">
+        <div>
+          <p class="eyebrow">IELTS READING · QUESTION TYPE FINDER</p>
+          <h1 id="question-types-title">By Question Type<br><span>按題型練習</span></h1>
+          <p>輸入英文或中文題型名稱，尋找含有該題型的完整閱讀練習。</p>
+        </div>
+        <button class="secondary-button" type="button" data-question-types-back>← 返回 IELTS 閱讀目錄</button>
+      </section>
+
+      <section class="question-type-search-panel panel" aria-label="搜尋 IELTS Reading 題型">
+        <label for="question-type-search">搜尋題型（英文或中文）</label>
+        <div class="question-type-search-field">
+          <span aria-hidden="true">⌕</span>
+          <input id="question-type-search" type="search" autocomplete="off" placeholder="例如：Matching Headings、段落標題、判斷事實…" data-question-type-search>
+          <button type="button" data-clear-question-type-search>清除</button>
+        </div>
+        <p class="question-type-result-count" role="status" aria-live="polite" data-question-type-result-count></p>
+      </section>
+
+      <div class="question-type-chips" data-question-type-chips aria-label="14 種 IELTS Reading 題型"></div>
+      <div class="question-type-selection panel" data-question-type-selection hidden></div>
+      <div class="question-type-results" data-question-type-results></div>
+      <section class="question-type-empty panel" data-question-type-empty hidden>
+        <strong>找不到相符題型</strong>
+        <p>請嘗試英文題型、中文名稱或較短的關鍵字。</p>
+      </section>
+    </section>
+
+    <section class="view" data-view="exercise" hidden>
+      <div class="answer-progress-dock" data-answer-progress-dock>
+        <div class="answer-progress-content" id="answer-progress-content" data-answer-progress-content>
+          <div class="answer-progress-label"><strong>答題進度</strong><span data-answer-progress-text aria-live="polite" aria-atomic="true">0 / 13 個作答部分 · 0%</span></div>
+          <progress data-answer-progress max="100" value="0" aria-label="已填寫的作答部分">0%</progress>
+        </div>
+        <button type="button" data-answer-progress-toggle aria-expanded="true" aria-controls="answer-progress-content">隱藏進度</button>
+      </div>
+      <section class="exercise-header panel">
+        <div><button class="text-button" type="button" data-back-dashboard>← 返回閱讀練習</button><p class="eyebrow" data-exercise-kicker>PRACTICE 69 · IELTS READING · PASSAGE 1</p><h1 data-exercise-title>Albert Einstein</h1></div>
+        <div class="timer-card" data-timer-card>
+          <div class="timer-display"><span data-timer-mode-label>計時（選用）</span><time data-timer>00:00</time></div>
+          <button class="timer-toggle" type="button" data-timer-toggle>▶ 開始</button>
+          <label class="control-select"><span>模式</span><select data-timer-mode><option value="stopwatch">正計時</option><option value="countdown">倒數計時</option></select></label>
+          <label data-countdown-label hidden>分鐘<input data-countdown-minutes type="number" min="1" max="180" value="20"></label>
+          <label class="force-submit" data-force-label hidden><input data-force-submit type="checkbox"> 到時自動交卷</label>
+        </div>
+      </section>
+      <section class="full-exam-navigation panel" data-full-exam-navigation hidden aria-label="完整試卷導覽">
+        <div><strong data-full-exam-heading>完整試卷</strong><span data-full-exam-save-status role="status">答案自動儲存</span></div>
+        <nav data-full-exam-sections aria-label="切換試卷部分"></nav>
+        <button class="primary-button" type="button" data-full-exam-finish>提交完整試卷</button>
+      </section>
+      <section class="full-exam-result panel" data-full-exam-result hidden aria-live="polite"></section>
+
+      <section class="dse-paper-view-switch panel" data-dse-paper-view-switch hidden aria-label="試卷檢視方式">
+        <div><strong>試卷檢視方式</strong><p>逐頁重建原卷的篇章與題目次序，並在頁面內直接作答；可隨時返回雙欄練習。</p></div>
+        <div class="dse-paper-view-buttons" role="group" aria-label="選擇試卷檢視方式">
+          <button type="button" data-dse-display-mode="practice" aria-pressed="true">雙欄練習</button>
+          <button type="button" data-dse-display-mode="paper" aria-pressed="false">互動重繪版</button>
+          <button type="button" data-dse-display-mode="scan" aria-pressed="false" hidden>原卷影像</button>
+        </div>
+      </section>
+      <section class="panel reading-super-entry" data-reading-super-entry hidden aria-label="2023 Part A Super Curation">
+        <div><p class="eyebrow">2023 DSE PART A · SUPER CURATION</p><h2>一步一步，讀懂整份試卷</h2><p>讀卷定位 → 原文逐句 → 逐題取證 → 解說精讀 → 答案回證</p></div>
+        <button type="button" class="primary-button" data-reading-super-open>✦ 進入沉浸式導讀</button>
+        <p data-reading-super-status role="status"></p>
+      </section>
+      <section class="dse-scan-gallery panel" data-dse-scan-gallery hidden aria-label="原卷影像參考">
+        <div class="dse-scan-gallery-header"><div><p class="eyebrow">ORIGINAL PAPER REFERENCE</p><h2>原卷影像</h2></div><p>這些頁面供核對原卷編排；返回互動重繪版即可在文字上作答。</p></div>
+        <div data-dse-scan-pages></div>
+      </section>
+
+      <section class="study-toolbar panel" aria-label="文章學習工具">
+        <div class="reading-highlight-controls" role="group" aria-label="暫時螢光筆工具">
+          <button class="secondary-button" type="button" data-teaching-highlight aria-pressed="false">🖍 暫時螢光筆</button>
+          <div class="reading-highlight-colors" role="group" aria-label="選擇螢光筆顏色">
+            <button type="button" data-teaching-color="yellow" aria-label="黃色螢光筆" aria-pressed="true" title="黃色"><span></span></button>
+            <button type="button" data-teaching-color="green" aria-label="綠色螢光筆" aria-pressed="false" title="綠色"><span></span></button>
+            <button type="button" data-teaching-color="blue" aria-label="藍色螢光筆" aria-pressed="false" title="藍色"><span></span></button>
+            <button type="button" data-teaching-color="purple" aria-label="淡紫色螢光筆" aria-pressed="false" title="淡紫色"><span></span></button>
+            <button type="button" data-teaching-color="red" aria-label="紅色螢光筆" aria-pressed="false" title="紅色"><span></span></button>
+            <button type="button" data-teaching-color="hide" aria-label="隱藏所選文字" aria-pressed="false" title="隱藏文字"><span aria-hidden="true"></span></button>
+          </div>
+          <button class="secondary-button reading-highlight-clear" type="button" data-teaching-clear>清除全部標記</button>
+          <span class="sr-only" role="status" aria-live="polite" data-teaching-status></span>
+        </div>
+        <a class="secondary-button button-link" data-reading-flashcards hidden>溫習 Flash Cards</a>
+        <button class="secondary-button interactive-flashcards-button" type="button" data-reading-flashcards-popup hidden>Interactive Flashcards · 互動字卡</button>
+        <p class="dse-tools-notice" data-dse-tools-notice hidden>答案及分析會稍後加入。</p>
+        <div class="translation-control">
+          <button class="secondary-button" type="button" data-translation-menu aria-expanded="false">中文翻譯 ▾</button>
+          <div class="translation-menu" data-translation-panel hidden>
+            <label><input type="checkbox" data-translation-all> 顯示全文翻譯</label>
+            <fieldset data-translation-options><legend>或選擇指定段落</legend><label><input type="checkbox" data-translation-paragraph="1"> 第 1 段</label><label><input type="checkbox" data-translation-paragraph="2"> 第 2 段</label><label><input type="checkbox" data-translation-paragraph="3"> 第 3 段</label><label><input type="checkbox" data-translation-paragraph="4"> 第 4 段</label><label><input type="checkbox" data-translation-paragraph="5"> 第 5 段</label></fieldset>
+            <p data-translation-availability hidden>這篇文章的全文中文翻譯尚未加入；現有中文解析可在各題開啟。</p>
+            <button class="hide-translations-button" type="button" data-hide-translations>隱藏所有翻譯</button>
+          </div>
+        </div>
+        <div class="audio-control">
+          <button class="primary-button" type="button" data-audio-toggle disabled>▶ 朗讀全文</button>
+          <button class="icon-button" type="button" data-audio-back disabled aria-label="後退五秒">−5 秒</button>
+          <input type="range" data-audio-seek min="0" max="1" step="0.05" value="0" disabled aria-label="朗讀進度">
+          <time data-audio-time>00:00 / 00:00</time>
+          <label class="speed-control"><span>速度</span><select data-audio-rate><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label>
+          <label><input type="checkbox" data-sync-highlight checked> 同步標示</label>
+          <span data-audio-availability hidden>本篇朗讀尚未加入</span>
+        </div>
+      </section>
+
+      <div class="reading-workbench">
+        <article class="passage-panel panel" aria-labelledby="passage-title">
+          <div class="pane-heading pane-heading-with-action"><div><p class="eyebrow">READING PASSAGE</p><h2 id="passage-title">Albert Einstein</h2></div><button class="secondary-button" type="button" data-passage-bookmark data-ielts-only>☆ 收藏文章與題目組</button></div>
+          <div class="passage-copy" data-passage></div>
+        </article>
+        <aside class="questions-panel panel" aria-labelledby="questions-title">
+          <div class="pane-heading"><p class="eyebrow">QUESTIONS 1–13</p><div class="pane-heading-with-action"><h2 id="questions-title">題目</h2><button class="secondary-button" type="button" data-bookmark-kind="questions" data-ielts-only>☆ 收藏整組題目</button></div><label class="question-translation-toggle"><input type="checkbox" data-question-translations> 顯示題目中文翻譯</label><p class="question-translation-availability" data-question-translation-availability hidden></p></div>
+          <form data-question-form><div data-questions></div>
+            <div class="submit-bar" data-ielts-only><button class="secondary-button" type="button" data-correct-answers hidden>訂正錯誤答案</button><button class="secondary-button" type="button" data-submit-partial>提交已作答題目</button><button class="primary-button" type="submit">提交全部答案</button></div>
+            <div class="submit-bar dse-submit-bar" data-dse-submit-bar hidden><button class="primary-button" type="button" data-dse-submit>提交試卷</button><button class="secondary-button" type="button" data-dse-new-attempt hidden>重新作答</button></div>
+            <p class="dse-draft-note" data-dse-draft-note hidden>作答會自動儲存到帳戶。提交後可在此查看紀錄；已提供的參考答案可從題目解析開啟。</p>
+            <p class="submission-status" data-submission-status role="status" aria-live="polite"></p>
+          </form>
+        </aside>
+      </div>
+      <section class="mock-exam-step panel" data-mock-exam-step hidden>
+        <div><strong data-mock-exam-step-title></strong><span data-mock-exam-step-score></span></div>
+        <button class="primary-button" type="button" data-mock-exam-next></button>
+      </section>
+    </section>
+  </main>
+
+  <aside class="learning-popover" data-skimming-dialog hidden role="dialog" aria-modal="false" aria-labelledby="skimming-title"><button class="dialog-close" type="button" data-close-popover aria-label="關閉">×</button><p class="eyebrow" data-skimming-kicker></p><h2 id="skimming-title" data-skimming-title>Skimming Tips</h2><div data-skimming-content></div><button class="bookmark-button" type="button" data-skimming-bookmark>☆ 收藏這段提示</button></aside>
+  <aside class="learning-popover analysis-dialog" data-analysis-dialog hidden role="dialog" aria-modal="false" aria-labelledby="analysis-title"><button class="dialog-close" type="button" data-close-popover aria-label="關閉">×</button><p class="eyebrow" data-analysis-kicker></p><h2 id="analysis-title" data-analysis-title>答案解析</h2><div class="answer-banner" data-analysis-answer></div><div data-analysis-content></div><button class="bookmark-button" type="button" data-analysis-bookmark>☆ 收藏這題解析</button></aside>
+  <aside class="interactive-flashcards-panel" data-interactive-flashcards-panel hidden aria-labelledby="interactive-flashcards-title">
+    <header class="interactive-flashcards-panel__bar" data-interactive-flashcards-drag>
+      <div><span>INTERACTIVE FLASHCARDS</span><strong id="interactive-flashcards-title">互動字卡</strong></div>
+      <div class="interactive-flashcards-panel__actions">
+        <button type="button" data-interactive-flashcards-minimize aria-label="縮小互動字卡">−</button>
+        <button type="button" data-interactive-flashcards-expand aria-label="放大互動字卡">□</button>
+        <button type="button" data-interactive-flashcards-close aria-label="關閉互動字卡">×</button>
+      </div>
+    </header>
+    <div class="interactive-flashcards-panel__body">
+      <iframe data-interactive-flashcards-frame title="互動字卡練習" allow="autoplay"></iframe>
+    </div>
+    <div class="interactive-flashcards-panel__resize" data-interactive-flashcards-resize data-resize-corner="nw" role="separator" aria-label="從左上角調整互動字卡視窗大小"></div>
+    <div class="interactive-flashcards-panel__resize" data-interactive-flashcards-resize data-resize-corner="ne" role="separator" aria-label="從右上角調整互動字卡視窗大小"></div>
+    <div class="interactive-flashcards-panel__resize" data-interactive-flashcards-resize data-resize-corner="sw" role="separator" aria-label="從左下角調整互動字卡視窗大小"></div>
+    <div class="interactive-flashcards-panel__resize" data-interactive-flashcards-resize data-resize-corner="se" role="separator" aria-label="從右下角調整互動字卡視窗大小"></div>
+  </aside>
+  <div class="toast" data-toast hidden role="status" aria-live="polite"></div>
+  <dialog class="reading-highlight-dialog" data-teaching-clear-dialog aria-labelledby="teaching-clear-title" aria-describedby="teaching-clear-description">
+    <div class="reading-highlight-dialog__icon" aria-hidden="true">✦</div>
+    <h2 id="teaching-clear-title">清除所有暫時標記？</h2>
+    <p id="teaching-clear-description">這會移除目前文章和題目中的所有螢光筆標記，並顯示已隱藏的文字。</p>
+    <div class="reading-highlight-dialog__actions"><button type="button" data-teaching-clear-cancel>保留標記</button><button type="button" data-teaching-clear-confirm>清除全部</button></div>
+  </dialog>
+  <dialog class="reading-highlight-dialog" data-word-remove-dialog aria-labelledby="word-remove-title" aria-describedby="word-remove-description">
+    <div class="reading-highlight-dialog__icon" aria-hidden="true">!</div>
+    <h2 id="word-remove-title">移除這個字詞書簽？</h2>
+    <p id="word-remove-description">移除後，這個字詞將不再出現在我的閱讀書簽。</p>
+    <div class="reading-highlight-dialog__actions"><button type="button" data-word-remove-cancel>保留書簽</button><button type="button" data-word-remove-confirm>確認移除</button></div>
+  </dialog>
+  <audio data-reading-audio preload="metadata"></audio>
+  <noscript><p>請啟用 JavaScript 使用閱讀理解學習系統。</p></noscript>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="reading-comprehension-audio-manifest.js?v=20260830-pause065"></script>
+  <script src="dse-reading-audio-manifest.js?v=20261001-dse-2024-a"></script>
+  <script src="ielts-reading-question-types.js?v=20260829-2"></script>
+  <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261101-coin-dialogue1"></script>
+  <script src="learning-word-bookmarks.js?v=20260901-word-brush1"></script>
+  <script src="dse-reading-translations.js?v=20260904-dse-zh-hant-1"></script>
+  <script type="module" src="reading-comprehension.js?v=20261030-curation6"></script>
+<script type="module" src="reading-teaching-tools.mjs?v=20261018-hide-words1"></script>
+<script type="module" src="reading-exam-selects.mjs?v=20261018-glass-selects1"></script>
+<script type="module" src="study-support.mjs?v=20260907-study4"></script><script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
+</body>
+</html>

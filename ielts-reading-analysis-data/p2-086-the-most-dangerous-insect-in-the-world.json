@@ -1,0 +1,1524 @@
+{
+  "id": "p2-086-the-most-dangerous-insect-in-the-world",
+  "catalogueId": "p2-086",
+  "catalogueIds": [
+    "p2-086"
+  ],
+  "passage": 2,
+  "title": "The Most Dangerous Insect in the World",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "antibodies",
+    "filariasis",
+    "liver",
+    "urban",
+    "jungle",
+    "parasite",
+    "sprayed",
+    "strategies"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Mosquito blood transmits disease.”",
+      "translation": "蚊的血液會傳播疾病。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although all mosquitoes are nectar feeders, the females also need protein from a blood meal in order to produce eggs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然所有蚊都以花蜜為食，但雌蚊為了產卵，也需要從吸血中取得蛋白質。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Upon biting, they inject an anticoagulant saliva into the flesh, and it is this fluid (and not their blood) which may contain a range of viral and parasitic nasties for which mosquitoes are notorious.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "叮咬時，牠們會把抗凝血的唾液注入皮肉；可能含有各種病毒和寄生蟲惡物的是這種液體，並非牠們的血液。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 2 在講 mosquito biting mechanism 和 disease transmission。題目問 “Mosquito blood”，尾句已經直接出現 “not their blood”，所以這段是最強定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “blood” 和 “transmits disease”。掃描時會找到 blood meal、biting、saliva、viral、parasitic 等字。真正控制答案的是尾句中的 “this fluid (and not their blood)”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“it is this fluid (and not their blood) which may contain a range of viral and parasitic nasties”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能含有各種病毒和寄生蟲惡物的是這種液體，並非牠們的血液。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 disease 由 mosquito blood 傳播；原文明確指出危險物質在 saliva 之中，而且特別排除blood。這是直接衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “transmits disease” 對應原文 “may contain a range of viral and parasitic nasties”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “mosquito blood” 和原文 “not their blood” 方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在於前文提到 “blood meal”，學生可能看到 blood 就急著選 TRUE。真正定案的短語是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“not their blood”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Mosquitoes have good vision.”",
+      "translation": "蚊有良好視力。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although all mosquitoes are nectar feeders, the females also need protein from a blood meal in order to produce eggs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然所有蚊都以花蜜為食，但雌蚊為了產卵，也需要從吸血中取得蛋白質。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Upon biting, they inject an anticoagulant saliva into the flesh, and it is this fluid (and not their blood) which may contain a range of viral and parasitic nasties for which mosquitoes are notorious.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "叮咬時，牠們會把抗凝血的唾液注入皮肉；可能含有各種病毒和寄生蟲惡物的是這種液體，並非牠們的血液。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 的功能是解釋蚊如何找血餐、如何叮咬、疾病如何傳播。題目問sensory ability，這段最相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “good vision”。掃描 Paragraph 2 時，應找 vision、sight、see、eyes、visual 等字，也要留意其他感官詞。原文可找到的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“To find a blood meal, they use a keen sense of smell to detect sweat, carbon dioxide and other organic compounds emitted by mammals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了找到血餐，牠們使用敏銳的嗅覺來偵測哺乳動物釋放出的汗液、二氧化碳和其他有機化合物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說 mosquitoes use “a keen sense of smell”。這支持「蚊嗅覺靈敏」，但題目說的是 “good vision”。嗅覺和視覺是兩種不同感官。文章沒有說牠們視力好，也沒有說視力差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目和原文之間的關係是資料缺失：原文有：keen sense of smell題目問：good vision缺少：視力相關資訊中伏位在於 “sense” 這個概念。學生可能把 smell 和 vision 都歸入 sensory ability，然後以為文章支持題目。IELTS 要比較精確感官類型：原文只支援 smell，未提供 vision。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Rupert Brooke died in Greece.”",
+      "translation": "Rupert Brooke 死於 Greece。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet even without such diseases, mosquitoes are an irritating nuisance which can occasionally cause serious injury.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，即使沒有這些疾病，蚊仍然是令人煩擾的害蟲，偶爾也可以造成嚴重傷害。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two famous victims of infected mosquito bites were Lord Carnarvon, the Egyptologist who played a role in the discovery of Tutankhamun’s tomb, and the British poet Rupert Brooke; they died in Egypt and Greece, respectively.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩位因感染蚊叮而成名的受害者是 Lord Carnarvon 和英國詩人 Rupert Brooke；他們分別死於Egypt 和 Greece。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 3 在講 ordinary bites 也可能造成 serious injury，並以兩位名人死亡作例子。題目有人名 Rupert Brooke，所以可以直接定位到這段最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Rupert Brooke” 和 “Greece”。Paragraph 3 最後一句同時出現兩者。需要小心"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“respectively” 的對應順序。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Two famous victims … were Lord Carnarvon … and the British poet Rupert Brooke; they died in Egypt and Greece, respectively.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩位著名受害者分別是 Lord Carnarvon 和 Rupert Brooke；他們分別死於 Egypt 和 Greece。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“respectively” 表示按前面名單順序逐一對應： Lord Carnarvon → Egypt Rupert Brooke → Greece題目說 Rupert Brooke died in Greece，和原文完全一致，所以答案是 TRUE。中伏位在於 “respectively”。這個字若漏讀，可能會把兩個地點配錯。遇到 A and B; X and Y, respectively，要自動建立 A→X、B→Y 的配對。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Malaria kills over half a million people per year.”",
+      "translation": "Malaria 每年殺死超過五十萬人。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the real danger will always be mosquito-borne diseases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但真正的危險始終是蚊媒疾病。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It infects over two million people a year, most of them children, killing over one quarter in the process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它每年感染超過二百萬人，其中多數是兒童，並在此過程中殺死超過四分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段主題是 mosquito-borne diseases，其中尾句提供 malaria 的感染和死亡數字。題目問 malaria death toll，所以 Paragraph 4 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Malaria”、 “kills”、 “over half a million”、 “per year”。掃描 Paragraph 4 時，找到 “the worst disease is undoubtedly malaria”，後面很快出現 “infects over two million people a year” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“killing over one quarter”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀數字推論"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“It infects over two million people a year … killing over one quarter in the process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它每年感染超過二百萬人，並殺死其中超過四分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題需要一個很短的數字推論： over two million × over one quarter= 超過 2,000,000 的四分之一= 超過 500,000題目說 “over half a million people per year”，即超過五十萬人。這和原文數字推論一致，所以答案是 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是原文沒有直接寫 “half a million”。但 TRUE / FALSE / NOT GIVEN 可接受簡單數學推論。只要數字關係由原文直接提供，就可以判斷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There is a vaccine for malaria.”",
+      "translation": "Malaria 有疫苗。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Aedes aegypti mosquito is the species responsible for that other great killer: yellow fever.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aedes aegypti mosquito 是另一大殺手 yellow fever 的傳播物種。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike malaria, yellow fever can be prevented with a vaccine, and extensive vaccination programmes sponsored by the WHO have had some success, whilst travellers to disease-prone areas are usually similarly protected.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 malaria 不同，yellow fever 可以用疫苗預防；由 WHO 贊助的大規模疫苗接種計劃已有一定成功，而前往高風險地區的旅客通常也會受到類似保護。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 5 的主題是 yellow fever，尾句直接比較 yellow fever 和 malaria 的vaccine 情況。題目問 malaria vaccine，所以要看尾句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “vaccine” 和 “malaria”。Paragraph 5 最後一句同時出現兩個詞，是最直接答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀比較關係"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike malaria, yellow fever can be prevented with a vaccine…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 malaria 不同，yellow fever 可以用疫苗預防。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的比較結構很重要。“Unlike malaria” 表示 yellow fever 和 malaria 在這一點上相反。yellow fever can be prevented with a vaccine；按這句的邏輯，malaria 在本文中不屬於可用 vaccine 預防的疾病。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “There is a vaccine for malaria.” 原文提供相反資訊，所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "注意：這裡只按本文判斷，不用現實世界醫學更新補充。IELTS Reading 的答案要回到 passage evidence。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "antibodies",
+      "answerKey": "antibodies",
+      "type": "Short-answer Questions",
+      "prompt": "“What can cause mosquito bites to become inflamed?”",
+      "translation": "甚麼可以令蚊叮變得發炎？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet even without such diseases, mosquitoes are an irritating nuisance which can occasionally cause serious injury.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，即使沒有這些疾病，蚊仍然是令人煩擾的害蟲，偶爾也可以造成嚴重傷害。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two famous victims of infected mosquito bites were Lord Carnarvon … and the British poet Rupert Brooke; they died in Egypt and Greece, respectively.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩位因感染蚊叮而成名的受害者是 Lord Carnarvon 和 Rupert Brooke；他們分別死於 Egypt 和Greece。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 明顯處理 mosquito bites 本身造成的反應和傷害，題目問 bites become inflamed，所以定位很穩。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “inflamed”。原文用名詞 “inflammation”，同義方向很明確。掃描 Paragraph 3 可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“subsequent bites trigger antibodies which cause inflammation and itching”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "之後再被叮咬會觸發抗體，而這些抗體造成發炎和痕癢。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What can cause…?” 需要名詞作答案。原文中造成 inflammation 的主體是 “antibodies”。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“subsequent bites trigger antibodies which cause inflammation and itching”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後續蚊叮會觸發抗體，而抗體會造成發炎和痕癢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ONE WORD ONLY，所以答案填 antibodies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不要填 “subsequent bites”，因為 bites 是觸發 antibodies；真正 cause inflammation 的是antibodies。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "filariasis",
+      "answerKey": "filariasis",
+      "type": "Short-answer Questions",
+      "prompt": "“Which disease causes the body to change shape?”",
+      "translation": "哪一種疾病會令身體形狀改變？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But the real danger will always be mosquito-borne diseases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但真正的危險始終是蚊媒疾病。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It infects over two million people a year, most of them children, killing over one quarter in the process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它每年感染超過二百萬人，其中多數是兒童，並殺死超過四分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 是疾病段，列出不同 mosquito-borne diseases。題目問哪種 disease 會令 body change shape，所以要找和 swelling、body parts、shape 有關的描述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目沒有直接用 swelling，但 “body change shape” 可預期對應 swell、grotesque proportions、body parts 等詞。Paragraph 4 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“filariasis … causing parts of the body to permanently swell to grotesque proportions”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A less deadly but more insidious example is filariasis, a disease named after the thread-like parasites which migrate to the body’s lymphatic system, causing parts of the body to permanently swell to grotesque proportions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個較少致命但更陰險的例子是 filariasis；這種病以線狀寄生蟲命名，寄生蟲會移到人體淋巴系統，令身體部分永久腫脹至怪異比例。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “change shape” 是對 “permanently swell to grotesque proportions” 的概括。問的是disease，所以答案要填疾病名稱：filariasis。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "liver",
+      "answerKey": "liver",
+      "type": "Short-answer Questions",
+      "prompt": "“Which organ does yellow fever affect?”",
+      "translation": "Yellow fever 影響哪個器官？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Aedes aegypti mosquito is the species responsible for that other great killer: yellow fever.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aedes aegypti mosquito 是另一大殺手 yellow fever 的傳播物種。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike malaria, yellow fever can be prevented with a vaccine…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 malaria 不同，yellow fever 可以用疫苗預防。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 全段講 yellow fever，題目也直接問 yellow fever，所以定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “yellow fever” 和 “organ”。文章未必用 organ 一字，所以要找 liver、skin、body part 等具體器官詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After high fever, nausea, and joint pains, the virus attacks the liver, causing the host’s skin to turn yellow…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在高燒、噁心和關節痛之後，病毒會攻擊肝臟，使宿主皮膚變黃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 organ，原文直接說 “attacks the liver”。ONE WORD ONLY，所以答案是 liver。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "urban",
+      "answerKey": "urban",
+      "type": "Short-answer Questions",
+      "prompt": "“In which parts of a country is removing exposed water a particularly cheap way to reduce mosquito numbers?”",
+      "translation": "在一個國家的哪些地區，移除外露積水是特別便宜有效的減蚊方法？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To this day, reducing the number of stagnant pools of water, however small, remains very cost-effective in combatting mosquito-borne diseases in urban areas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到今天，減少靜止積水的數量，不論多小，仍然是在城市地區對抗蚊媒疾病的高成本效益方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By eliminating such sites, the insects’ numbers fall greatly, limiting bites to those from mosquitoes which come from further afield, yet since they cannot travel far, the likelihood of being bitten (and infected) is greatly reduced.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "透過清除這些地方，蚊的數量會大幅下降；剩下的叮咬多來自較遠地方的蚊，但由於牠們不能飛很遠，被叮咬和感染的可能性會大大降低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經出現 cost-effective 和 urban areas，直接對應題目中的 cheap way 和 parts of a country。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “particularly cheap” 對應原文 “very cost-effective”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “removing exposed water” 對應 “reducing the number of stagnant pools of water”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “which parts” 對應 “urban areas”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案形式"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“in urban areas”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在城市地區。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果沒有字數限制，最完整答案是 urban areas。但題目要求 ONE WORD ONLY，所以要從原文片語中取一個字，建議填 urban。考試答題時，若答案格嚴格只收一個字，urban 最符合指示；語意上要理解為 urban areas。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "jungle",
+      "answerKey": "jungle",
+      "type": "Summary Completion",
+      "prompt": "Question 23",
+      "translation": "這項大型工程發生在充滿昆蟲的 ______ 之中。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary："
+            },
+            {
+              "kind": "quote",
+              "text": "“This large undertaking took place in 23 ______ full of insects.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With such a death toll, it took a surprisingly long time before the link between mosquitoes and disease was realised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "面對如此高的死亡人數，人們竟然花了很長時間才意識到蚊和疾病之間的關聯。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also realised that mosquito numbers could be reduced by limiting their access to water, providing two crucial insights which laid the foundations for controlling the disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也意識到，透過限制蚊接觸水，可以減少蚊的數量；這兩個重要洞見奠定了控制疾病的基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 用 Panama Canal 作例子，描述 French 在昆蟲多、疾病多的環境中失敗，後來Ronald Ross 發現傳播機制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Panama Canal”、“full of insects”。原文對應 “insect-infested jungle”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1880s, the French struggled for eight years in the insect-infested jungle…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1880 年代，法國人在昆蟲成患的叢林中艱難工作了八年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“full of insects” 是對 “insect-infested” 的改寫。空格前有 “in”，需要地點名詞。ONE WORD，所以答案是 jungle。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "parasite",
+      "answerKey": "parasite",
+      "type": "Summary Completion",
+      "prompt": "Question 24",
+      "translation": "但在 malaria 的 ______ 被發現之後……",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary："
+            },
+            {
+              "kind": "quote",
+              "text": "“…but after the malaria 24 ______ was discovered…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With such a death toll, it took a surprisingly long time before the link between mosquitoes and disease was realised.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "面對如此高的死亡人數，人們竟然花了很長時間才意識到蚊和疾病之間的關聯。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also realised that mosquito numbers could be reduced by limiting their access to water…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也意識到，透過限制蚊接觸水，可以減少蚊的數量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 後半講 Ronald Ross 的發現，題目中的 “after … was discovered” 應該對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“deduced / identifying”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “malaria” 和 “discovered”。原文沒有 discovered 一字，但有 “deduced” 和 “identifying”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Ronald Ross, deduced the means of disease transmission, identifying the malaria parasite in the gastrointestinal tract of mosquitoes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ronald Ross 推斷出疾病傳播方式，並在蚊的胃腸道中識別出 malaria parasite。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 的 “was discovered” 對應原文 “identifying”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“malaria ______” 後面最自然接 parasite。 ONE WORD，所以答案是 parasite。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "sprayed",
+      "answerKey": "sprayed",
+      "type": "Summary Completion",
+      "prompt": "Question 25",
+      "translation": "所有外露積水都被移除或被 ______，以阻止蚊有繁殖地點。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary："
+            },
+            {
+              "kind": "quote",
+              "text": "“…all exposed water was removed or 25 ______ to deny breeding sites.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, in 1904, when the Americans resumed work on the Panama Canal, they instituted a multi-million dollar mosquito-abatement programme, consisting of many strategies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，1904 年美國人重啟 Panama Canal 工程時，推行了一個耗資數百萬美元、由多項策略組成的滅蚊計劃。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All this reduced the number of deaths from disease over the ten-year construction phase to less than 6,000 — a considerable number, but still considered a major success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有這些措施把十年建設期內因疾病死亡的人數降至少於 6,000；這個數字仍然相當高，但仍被視為重大成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 是具體 control measures 段，題目 summary 也在講 Panama Canal 防蚊措施，所以定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “water”、“breeding sites”。原文有 “Stagnant pools of water (where mosquitoes breed)”和多個處理水的方法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stagnant pools of water (where mosquitoes breed) were sprayed with oil and insecticide…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "靜止積水，也就是蚊繁殖的地方，被噴灑油和殺蟲劑。"
+            },
+            {
+              "kind": "label",
+              "text": "原文還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“swamps were drained”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沼澤被排乾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 說 “removed or ______”。“removed” 概括 drained / eliminated；另一個處理方式就是sprayed。ONE WORD，所以答案是 sprayed。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "strategies",
+      "answerKey": "strategies",
+      "type": "Summary Completion",
+      "prompt": "Question 26",
+      "translation": "之後相對較低的死亡人數，被歸因於這些 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary："
+            },
+            {
+              "kind": "quote",
+              "text": "“The relatively low number of deaths which followed is attributed to these 26 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, in 1904, when the Americans resumed work on the Panama Canal, they instituted a multi-million dollar mosquito-abatement programme, consisting of many strategies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，1904 年美國人重啟 Panama Canal 工程時，推行了一個耗資數百萬美元、由多項策略組成的滅蚊計劃。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All this reduced the number of deaths from disease over the ten-year construction phase to less than 6,000 — a considerable number, but still considered a major success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有這些措施把十年建設期內因疾病死亡的人數降至少於 6,000；這個數字仍然相當高，但仍被視為重大成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句有 “many strategies”，尾句有 “All this reduced the number of deaths”。Summary 的 “these______” 正好回指那些措施。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “low number of deaths” 和 “attributed to these”。原文對應 “reduced the number of deaths” 和 “many strategies”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“they instituted a multi-million dollar mosquito-abatement programme, consisting of many strategies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們推行了一個耗資數百萬美元的滅蚊計劃，當中包括多項策略。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句 “All this reduced…” 中的 “All this” 指前面整組 strategies，包括 screens、fumigation、nets、spraying、paving、draining、piping。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格應填 strategies。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The Most Dangerous Insect in the World.pdf",
+    "sha256": "7833037b62763a2a98bed5bb5d8854bb1a4c0d04db36742584eae7ff31a65189",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句先問讀者，如果要說出世界上最致命的昆蟲，很多人可能會想到 spiders、scorpions 或exotic pests。尾句說沒有其他昆蟲能接近 mosquito 的死亡影響。只看首尾句，可以估計這段在建立全文主題：mosquito 才是按死亡人數計算最危險的昆蟲。中間用 over 700 million people a year 和 killing a fair proportion 強化其 deadly status。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說所有 mosquitoes 都吃花蜜，但雌蚊為了產卵也需要 blood meal。尾句說牠們叮咬時注入的 anticoagulant saliva 可能含有病毒和寄生蟲。只看首尾句，這段功能偏向解釋蚊如何尋找和叮咬宿主，以及疾病傳播的真正媒介。重點包括 smell、sweat、carbon dioxide、scent profile、pipeways、air-conditioning ducts，以及 disease comes through saliva rather than mosquito blood。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說即使沒有疾病，蚊叮也可以是 irritating nuisance，甚至偶爾造成 serious injury。尾句列出Lord Carnarvon 和 Rupert Brooke 兩位因 infected mosquito bites 死亡的例子，分別死於 Egypt和 Greece。只看首尾句，可以看到這段不再主講大型傳染病，而是講普通蚊叮如何引發 immune response、antibodies、inflammation、itching、swelling、blistering、infection，並用名人死亡例子加強嚴重性。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說真正危險始終是 mosquito-borne diseases。尾句說 malaria infects over two million people a year，大多數是兒童，並殺死超過四分之一。只看首尾句，這段的主題是蚊媒疾病，特別把 malaria 放在 death toll 最高的位置。中間也介紹 dengue fever、West Nile virus、encephalitis-type diseases 和 filariasis；filariasis 的特色是令身體某些部位永久腫脹至怪異比例。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 Aedes aegypti mosquito 是另一大殺手 yellow fever 的傳播物種。尾句說 WHO 贊助的廣泛 vaccination programmes 有一定成功，旅客到高風險地區通常也會接種保護。只看首尾句，這段主題是 yellow fever：地理範圍主要在 tropical areas、Africa、Central and South America，症狀包括 fever、nausea、joint pains，病毒會攻擊 liver，使皮膚變黃，並可用 vaccine 預防。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說面對如此高的 death toll，人們竟然很久後才發現 mosquitoes 和 disease 的關聯。尾句說Ronald Ross 發現兩個重要 insight：疾病傳播方式，以及透過限制蚊接觸水來減少蚊數量。只看首尾句，這段會用 Panama Canal 作歷史例子：French 在 1880s 因 malaria 和 yellow fever 損失22,000 lives，被迫放棄工程；Ross 後來找出 malaria parasite 和 mosquito 的關係。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Americans 於 1904 年重啟 Panama Canal 工程時，實施 multi-million dollar mosquito-abatement programme。尾句說十年工程期間疾病死亡人數降至少於 6,000，仍然很多，卻被視為重大成功。只看首尾句，這段功能是列出具體防蚊策略，包括 screens、fumigation、nets、spraying stagnant pools、paving roads、draining swamps、proper piping，並說明這些措施如何降低死亡。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說直到今天，減少 stagnant pools of water 仍然是城市中對抗 mosquito-borne diseases 的高成本效益方法。尾句說因蚊不能飛很遠，清除本地 breeding sites 會大幅減少被叮和感染的可能。只看首尾句，這段是現代應用總結：危險蚊種可在 ditches、flowerpots、discarded containers等小積水處繁殖，清除這些地方能有效減少蚊數量。"
+      }
+    ]
+  }
+}

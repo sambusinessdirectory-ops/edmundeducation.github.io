@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+ <title>IELTS 圖表教學系統｜EdmundEducation</title>
+ <meta name="description" content="互動 IELTS 圖表教室：標示趨勢、用顏色分組，以及選取數據進行簡單計算。">
+ <meta name="theme-color" content="#e9eee8"><link rel="canonical" href="https://edmundeducation.com/ielts-chart-teaching.html">
+ <link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/shared-system-nav.css"><link rel="stylesheet" href="/pwa-ui.css">
+ <link rel="stylesheet" href="/ielts-chart-teaching/style.css?v=20261102-3">
+ <link rel="stylesheet" href="/ielts-chart-teaching/glass-dashboard.css?v=20261102-2">
+ <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js"></script><script defer src="/supabase-config.js"></script>
+ <script defer src="/shared-system-nav.js"></script><script defer src="/pwa-register.js"></script>
+ <script type="module" src="/ielts-chart-teaching/auth.mjs?v=20261102-3"></script>
+</head>
+<body>
+ <a class="skip" href="#workspace">跳至圖表</a>
+  <header class="site-header edmund-system-header">
+    <div class="header-inner edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="ielts-chart-teaching">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy">
+          <strong>EdmundEducation</strong>
+          <small>IELTS 圖表教學系統</small>
+          </span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="header-actions edmund-system-header__actions">
+        <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
+        <span class="user-pill" data-user-pill hidden></span>
+        <button class="header-button" type="button" data-dashboard-button hidden>學習首頁</button>
+        <button class="header-button" type="button" data-admin-students-button hidden>學生記錄</button>
+        <button class="header-button" type="button" data-logout hidden>登出</button>
+      </div>
+    </div>
+  </header>
+
+ <section id="student-login" class="tool-card"><h1>學生登入</h1><form id="student-login-form"><label>用戶名稱<input name="username" autocomplete="username" required></label><label>密碼<input name="password" type="password" autocomplete="current-password" required></label><button type="submit">登入並開始學習</button><p id="login-status" role="status">正在檢查登入…</p></form></section>
+ <main id="student-workspace" hidden>
+  <section class="intro"><div><p class="eyebrow">79 / IELTS WRITING TASK 1</p><h1>IELTS 圖表教學系統</h1><p class="intro-note">看見數據，整理比較。</p></div><span class="lesson-chip" id="lesson-chip"><i></i> 05 / 60 · Electricity</span></section>
+  <nav class="lesson-navigation" aria-label="Task 1 圖表選擇"><button type="button" id="previous-chart" aria-label="上一題">←</button><label for="chart-selector">選擇題圖</label><select id="chart-selector" aria-label="選擇 Task 1 題圖"></select><button type="button" id="next-chart" aria-label="下一題">→</button><span id="chart-position" role="status"></span></nav>
+  <div class="workspace" id="workspace">
+   <section class="chart-card" aria-label="互動 IELTS Task 1 題圖">
+    <div class="chart-toolbar"><div class="mode-switch" role="group" aria-label="圖表操作模式"><button type="button" data-mode="colour" aria-pressed="true">◉ 顏色分組</button><button type="button" data-mode="calculate" aria-pressed="false">＋ 選數計算</button><button type="button" data-mode="organize" aria-pressed="false">☷ 選數排序</button></div><div class="chart-toolbar-actions"><button type="button" data-vocabulary-open class="vocab-launch">詞彙庫 ↗</button><button type="button" id="undo" class="quiet">↶ 撤銷標記</button></div></div>
+    <p class="mode-hint" id="mode-hint"></p>
+    <div class="chart-heading"><p class="eyebrow" id="question-id">TASK 1 · T1-005</p><div id="chart-title"></div></div>
+    <p class="chart-scroll-hint">左右滑動查看完整圖表 ↔</p><div class="image-view-controls" id="image-view-controls" hidden><button type="button" id="image-fit" aria-pressed="false">縮至全圖</button><span>可切換全圖與放大閱讀</span></div>
+    <div class="chart-scroll" tabindex="0" aria-label="IELTS Task 1 題圖，可水平捲動"><div id="chart"></div></div>
+    <div class="image-points" id="image-points" hidden><p>點擊題圖中的數據、位置或步驟，新增可獨立分組和排序的標記。數值可用於計算。</p><button type="button" id="add-point">＋ 新增標記</button><div id="point-list"></div></div>
+    <div class="chart-footer"><span>Summarise the information by selecting and reporting the main features, and make comparisons where relevant.</span><small>Write at least 150 words.</small></div>
+   </section>
+   <aside class="tools tools-left" aria-label="圖表標記與計算工具">
+    <section class="tool-card groups-card"><div class="tool-heading"><span class="step">01</span><div><p class="eyebrow">FIND THE PATTERN</p><h2>顏色與群組</h2></div></div><p class="tool-note">同一元素可加入多個群組：第一組填色，其他組以光暈標示。名稱可自行修改。</p><div id="groups"></div><div class="group-actions"><button type="button" id="eraser" aria-pressed="false">橡皮擦</button><button type="button" id="clear-colours">清除標記</button></div><p class="storage-note" id="storage-status" role="status">標記儲存在此瀏覽器</p></section>
+    <section class="tool-card calculator-card"><div class="tool-heading"><span class="step">02</span><div><p class="eyebrow">MAKE A COMPARISON</p><h2>數據計算機</h2></div></div><p class="tool-note">切換「選數計算」，依序點擊有數值的圖表元素或標記。可加入兩個或更多數值。</p><div id="operands"></div><form id="manual-form"><label class="sr-only" for="manual-number">自訂數字</label><input id="manual-number" type="number" step="any" placeholder="自訂數字，例如 100" required><button type="submit" aria-label="加入自訂數字">＋ 加入</button></form><div class="result-box" aria-live="polite"><p id="expression">選取數字開始比較</p><output id="result">—</output><small id="result-note">依選取順序，由左至右計算</small></div><button type="button" id="clear-calculator" class="clear-calc">清空計算</button></section>
+   </aside>
+   <aside class="tools tools-right" aria-label="圖表觀察與寫作規劃工具">
+    <section class="tool-card notes-card" aria-labelledby="observation-title"><div class="tool-heading"><span class="step">03</span><div><p class="eyebrow">NOTICE THE DETAILS</p><h2 id="observation-title">Observation</h2></div></div><p class="tool-note">記下你看到的數據模式與比較。</p><div id="observation-rows"></div><button type="button" class="add-note" data-add-note="observation">＋ 新增觀察</button></section>
+    <section class="tool-card notes-card" aria-labelledby="overview-title"><div class="tool-heading"><span class="step">04</span><div><p class="eyebrow">SEE THE BIG PICTURE</p><h2 id="overview-title">Overview</h2></div></div><p class="tool-note">試寫不同版本的整體概述。</p><div id="overview-rows"></div><button type="button" class="add-note" data-add-note="overview">＋ 新增概述</button></section>
+    <section class="tool-card organization-card" aria-labelledby="organization-title"><div class="tool-heading"><span class="step">05</span><div><p class="eyebrow">PLAN THE PARAGRAPH</p><h2 id="organization-title">Organization</h2></div></div><p class="tool-note">選取圖表元素或標記，再拖動卡片安排段落中的先後次序。</p><button type="button" id="pick-data-mode" aria-pressed="false">◉ Pick data mode</button><ol id="organization-list" aria-label="段落數據順序"></ol><button type="button" id="clear-organization" class="clear-calc">清空順序</button></section>
+   </aside>
+  </div>
+  <footer class="page-footer"><span>EDMUND EDUCATION · CHART STUDIO</span><span id="chart-source">題圖來自 IELTS Writing Task 1 題庫</span></footer>
+ </main>
+ <dialog id="tense-dialog" aria-labelledby="tense-title">
+  <header><div><p class="eyebrow">TIME &amp; TENSE</p><h2 id="tense-title"><span id="tense-year">2014</span> · 選擇時態</h2></div><button type="button" id="close-tense" aria-label="關閉時態選擇">×</button></header>
+  <div class="tense-options"><button type="button" data-tense="past" aria-pressed="false">Past tense</button><button type="button" data-tense="present" aria-pressed="false">Present tense</button><button type="button" data-tense="future" aria-pressed="false">Future tense</button><button type="button" data-tense="present-perfect" aria-pressed="false">Present perfect</button><button type="button" data-tense="past-perfect" aria-pressed="false">Past perfect</button></div>
+  <button type="button" id="remove-tense">移除時態</button>
+ </dialog>
+ <dialog id="point-dialog" aria-labelledby="point-title"><form id="point-form"><h2 id="point-title">標記題圖數據</h2><p>為這個位置命名。圖中沒有標示精確數值時，可留空。</p><label>標記名稱<input id="point-label" maxlength="100" required placeholder="例如：2015 年的最高收入組"></label><label>數值（可選）<input id="point-value" type="number" step="any" placeholder="只填寫圖中可確認的數值"></label><div class="point-coordinates"><label>橫向位置 %<input id="point-x" type="number" min="0" max="100" step="0.1" required></label><label>縱向位置 %<input id="point-y" type="number" min="0" max="100" step="0.1" required></label></div><div class="point-dialog-actions"><button type="button" id="cancel-point">取消</button><button type="submit">儲存標記</button></div></form></dialog>
+ <div id="toast" role="status" aria-live="polite"></div>
+</body></html>

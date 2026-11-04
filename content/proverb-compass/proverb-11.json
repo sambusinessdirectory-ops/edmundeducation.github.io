@@ -1,0 +1,543 @@
+{
+  "id": "proverb-11",
+  "titleEn": "Ask a Silly Question and You Get a Silly Answer",
+  "titleZh": "問得無聊，答得滑稽",
+  "version": "2026-10-28.1",
+  "scoredCount": 12,
+  "items": [
+    {
+      "id": "proverb-11-q01",
+      "number": 1,
+      "promptEn": "Lok comes in from the rain, soaked; a friend asks whether it is raining, and Lok jokes that the clouds are taking a bath.",
+      "promptZh": "阿樂剛從雨中走入屋，全身濕透，朋友仍問外面有沒有下雨；阿樂笑說「雲在洗澡」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The obvious question drew a playful answer about bathing clouds—ask a silly question and you get a silly answer.",
+          "reasonZh": "明顯的提問引出滑稽回應。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Lok gave a detailed weather report—ask a silly question and you get a silly answer.",
+          "reasonZh": "原文是開玩笑，不是正式天氣報告。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The friend asked a difficult scientific question—ask a silly question and you get a silly answer.",
+          "reasonZh": "全身濕透使提問顯得明顯。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The joke proved there was no rain—ask a silly question and you get a silly answer.",
+          "reasonZh": "笑話不證明外面沒下雨。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-11-q02",
+      "number": 2,
+      "promptEn": "Ki carries a large bouquet; asked if she is holding flowers, she jokes, “No, the flowers are holding me.”",
+      "promptZh": "阿琪拿着一大束花，朋友問「你拿着花嗎」；她答「不，是花拿着我」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Ki turns an obvious question into a playful reversal—ask a silly question and you get a silly answer.",
+          "reasonZh": "眼前花束令問題顯然，回答刻意倒轉。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Ki gives the shop’s receipt number—ask a silly question and you get a silly answer.",
+          "reasonZh": "原文是玩笑，不是收據資料。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The bouquet is invisible to her friend—ask a silly question and you get a silly answer.",
+          "reasonZh": "朋友看得到大束花。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The joke proves the flowers can actually shop—ask a silly question and you get a silly answer.",
+          "reasonZh": "擬人笑話不是字面事實。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-11-q03",
+      "number": 3,
+      "promptEn": "A friend watches Jun cycle in, then asks whether he cycled there, he jokes, “I came by spaceship.”",
+      "promptZh": "朋友看着阿俊騎單車到達，仍問他是否騎單車來；他笑說「我是坐飛船來的」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Jun answers the obvious question with an absurd joke—ask a silly question and you get a silly answer.",
+          "reasonZh": "問題太明顯，回應刻意荒謬。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Jun carefully describes his cycling route—ask a silly question and you get a silly answer.",
+          "reasonZh": "原文不是詳細路線。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The friend cannot see the bicycle—ask a silly question and you get a silly answer.",
+          "reasonZh": "朋友見到單車。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Jun’s joke confirms a real spaceship journey—ask a silly question and you get a silly answer.",
+          "reasonZh": "飛船是玩笑，不是事實。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-11-q04",
+      "number": 4,
+      "promptEn": "A friend watches Ting take a cake from the oven, then asks if she baked it, she jokes that the oven did all the work.",
+      "promptZh": "朋友看着阿婷把蛋糕從焗爐取出，仍問她有沒有焗蛋糕；她說「是焗爐自己做的」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Ting gives a joking answer to a question with an obvious clue—ask a silly question and you get a silly answer.",
+          "reasonZh": "蛋糕就在手上，答案以玩笑回應。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Ting refuses to speak at all—ask a silly question and you get a silly answer.",
+          "reasonZh": "她確實開口回答。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "No one can see the cake—ask a silly question and you get a silly answer.",
+          "reasonZh": "朋友看見蛋糕。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Her joke proves she did no baking—ask a silly question and you get a silly answer.",
+          "reasonZh": "把功勞推給焗爐是玩笑。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-11-q05",
+      "number": 5,
+      "promptEn": "A friend watches Man practise in his football kit on the pitch, then asks if he came to play, he jokes that he is there to count blades of grass.",
+      "promptZh": "朋友看着穿球衣的阿文在球場練習，仍問他是不是來踢球；他答「不是，我來替草地數葉子」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Man responds to an obvious question with a silly alternative—ask a silly question and you get a silly answer.",
+          "reasonZh": "球衣與球場是明顯線索，回答是戲言。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Man gives a serious training plan—ask a silly question and you get a silly answer.",
+          "reasonZh": "原文沒有正式訓練計劃。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The friend has not seen Man or the pitch—ask a silly question and you get a silly answer.",
+          "reasonZh": "朋友正看見他在球場。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Counting grass is stated as Man’s real job—ask a silly question and you get a silly answer.",
+          "reasonZh": "數草葉是玩笑話。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-11-q06",
+      "number": 6,
+      "promptEn": "Shan carries a tall stack of books; asked if she is carrying books, she jokes that the books are taking her for a walk.",
+      "promptZh": "阿珊抱着厚厚一疊書，朋友問「你拿着書嗎」；她笑說「不，是書帶我散步」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Shan answers an obvious question with a playful image—ask a silly question and you get a silly answer.",
+          "reasonZh": "書本是線索，擬人回答是玩笑。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Shan silently ignores the question—ask a silly question and you get a silly answer.",
+          "reasonZh": "她有作答。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Her friend has no clue about the books—ask a silly question and you get a silly answer.",
+          "reasonZh": "朋友能看到書。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The books literally need exercise—ask a silly question and you get a silly answer.",
+          "reasonZh": "書本散步並非字面需要。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-11-q07",
+      "number": 7,
+      "promptEn": "A friend watches Bin finish his meal, then asks if he has finished eating, he jokes that the bowl ate the food itself.",
+      "promptZh": "朋友看着阿彬把飯吃完，仍問「你吃完了嗎」；他答「是碗自己吃光的」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "An obvious question receives a deliberately silly answer—ask a silly question and you get a silly answer.",
+          "reasonZh": "空碗使答案明顯，回應刻意滑稽。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Bin explains exactly what ingredients he ate—ask a silly question and you get a silly answer.",
+          "reasonZh": "原文沒有詳細菜單。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The bowl is still full of food—ask a silly question and you get a silly answer.",
+          "reasonZh": "碗是空的。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The joke proves the bowl can digest food—ask a silly question and you get a silly answer.",
+          "reasonZh": "碗吃東西是擬人玩笑。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-11-q08",
+      "number": 8,
+      "promptEn": "Ning enters holding an umbrella; asked if she brought one, she jokes that it is a folding tree.",
+      "promptZh": "阿寧拿着雨傘走入屋，朋友問她有沒有帶傘；她答「沒有，這是會摺的樹」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Ning gives a playful answer to an obvious question—ask a silly question and you get a silly answer.",
+          "reasonZh": "眼前雨傘與滑稽回答對應。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Ning makes a serious botanical claim—ask a silly question and you get a silly answer.",
+          "reasonZh": "會摺的樹是玩笑。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The umbrella is hidden from view—ask a silly question and you get a silly answer.",
+          "reasonZh": "朋友看見雨傘。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The joke proves she arrived without an umbrella—ask a silly question and you get a silly answer.",
+          "reasonZh": "她手上確有雨傘。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-11-q09",
+      "number": 9,
+      "promptEn": "A friend watches Hong put on his hard hat and take out his tools at the building site, then asks if he is starting work, he jokes that he came to photograph the hat.",
+      "promptZh": "朋友看着阿康戴上安全帽、拿出工具準備開工，仍問他是不是要開工；他答「我來給帽子拍照」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Hong replies to an obvious work question with a joke—ask a silly question and you get a silly answer.",
+          "reasonZh": "地盤與安全帽是明顯線索，回答滑稽。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Hong gives a full safety briefing—ask a silly question and you get a silly answer.",
+          "reasonZh": "沒有安全簡報。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "His friend has not seen the site—ask a silly question and you get a silly answer.",
+          "reasonZh": "朋友正在地盤看見他。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The joke proves he works as a photographer—ask a silly question and you get a silly answer.",
+          "reasonZh": "拍帽子不表示真正職業。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-11-q10",
+      "number": 10,
+      "promptEn": "A friend watches Li take a bite of ice cream, then asks if she is eating it, she jokes that it is eating her.",
+      "promptZh": "阿莉正咬一口冰淇淋，朋友仍問她是否正在吃；她笑說「不，是冰淇淋在吃我」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Li answers a too-obvious question with a comic reversal—ask a silly question and you get a silly answer.",
+          "reasonZh": "實物在眼前，回答刻意顛倒。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Li gives nutritional advice—ask a silly question and you get a silly answer.",
+          "reasonZh": "原文沒有營養建議。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The ice cream is nowhere in sight—ask a silly question and you get a silly answer.",
+          "reasonZh": "冰淇淋就在手中。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The reversal proves ice cream can eat people—ask a silly question and you get a silly answer.",
+          "reasonZh": "這是笑話，不是生物學事實。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-11-q11",
+      "number": 11,
+      "promptEn": "May carries a box labelled “donation”; asked if she is donating the books, she jokes that they are going on holiday.",
+      "promptZh": "阿美抱着一箱標了「捐贈」的書，朋友問她是否要捐書；她說「不，書要去旅行」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "May answers an obvious question with a playful image—ask a silly question and you get a silly answer.",
+          "reasonZh": "標籤已指出用途，回答用擬人玩笑。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "May carefully explains the charity’s opening hours—ask a silly question and you get a silly answer.",
+          "reasonZh": "沒有說明營業時間。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The box has no label—ask a silly question and you get a silly answer.",
+          "reasonZh": "箱上清楚有「捐贈」。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The joke proves books can take holidays—ask a silly question and you get a silly answer.",
+          "reasonZh": "書旅行是戲言。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-11-q12",
+      "number": 12,
+      "promptEn": "Sam is kneading dough in the kitchen with flour all over his face; a friend asks if he is baking, he jokes that the flour found him first.",
+      "promptZh": "阿森在廚房揉麵團，滿臉麵粉，朋友仍問他是否在焗餅；他答「是麵粉先來找我的」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Sam’s floury face prompts an obvious question and a playful reply—ask a silly question and you get a silly answer.",
+          "reasonZh": "麵粉是明顯線索，回答是玩笑。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Sam provides a precise recipe—ask a silly question and you get a silly answer.",
+          "reasonZh": "原文沒有食譜。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "His face is perfectly clean—ask a silly question and you get a silly answer.",
+          "reasonZh": "臉上滿是麵粉。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The joke proves flour moves by itself—ask a silly question and you get a silly answer.",
+          "reasonZh": "麵粉主動找人並非字面事實。",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "guide": {
+    "meaning": {
+      "zh": "問題太顯而易見、荒謬或沒有想清楚時，對方可能用玩笑式答案回應。",
+      "en": "An obvious or ill-considered question can invite a joking or flippant answer."
+    },
+    "model": {
+      "zh": "阿謙滿手油漆，朋友卻問他是否剛畫過牆；他笑說自己剛和油漆桶握手。",
+      "en": "Ken had paint on both hands. Asked whether he had painted the wall, he joked that he had shaken hands with a paint tin: ask a silly question and you get a silly answer."
+    },
+    "picture": {
+      "zh": "一個過分明顯的問題像彈球；玩笑答案又彈回來。",
+      "en": "An obvious question bounces back like a ball as a playful answer."
+    },
+    "boundary": {
+      "zh": "「看似簡單」不等於愚蠢；真誠求助時，應認真解答。",
+      "en": "A simple question is not automatically silly; answer sincere requests for help respectfully."
+    },
+    "where": {
+      "zh": "適合熟人間輕鬆的玩笑；課堂、服務或敏感場合要小心，免得羞辱提問者。",
+      "en": "It suits friendly banter; in teaching, service, or sensitive settings it can embarrass the asker."
+    },
+    "tone": {
+      "zh": "幽默，亦可能帶刺；要看關係和說話方式。",
+      "en": "Playful, but potentially sharp, depending on the relationship and delivery."
+    },
+    "checks": [
+      {
+        "zh": "問題為何顯而易見或荒謬？",
+        "en": "Why is the question obvious or absurd?"
+      },
+      {
+        "zh": "答案是否刻意開玩笑？",
+        "en": "Is the answer deliberately flippant?"
+      },
+      {
+        "zh": "對方會否覺得被取笑？",
+        "en": "Could the asker feel mocked?"
+      }
+    ],
+    "readAloud": {
+      "zh": "看見我全身濕透，他問我外面有沒有下雨；我答「沒有，是雲在洗澡」。",
+      "en": "Seeing me soaked, he asked whether it was raining. I replied, “No, the clouds are taking a bath”—ask a silly question and you get a silly answer."
+    },
+    "choices": {
+      "2": {
+        "prompt": {
+          "zh": "哪個情境符合這句話？",
+          "en": "Which scene fits?"
+        },
+        "options": [
+          {
+            "zh": "他看見空杯仍問「喝完了嗎」；朋友開玩笑說杯子自己喝掉了。",
+            "en": "Seeing an empty cup, he asks if it is finished; his friend jokes that the cup drank it itself.",
+            "reasonZh": "顯然的問題引出刻意滑稽的答案。",
+            "correct": true
+          },
+          {
+            "zh": "學生不懂一道難題，老師逐步解釋。",
+            "en": "A pupil asks about a difficult problem and the teacher explains it carefully.",
+            "reasonZh": "真誠求助與認真回答不屬這種玩笑。",
+            "correct": false
+          },
+          {
+            "zh": "他提出清晰的問題，朋友給出準確資料。",
+            "en": "He asks a clear question and his friend gives accurate information.",
+            "reasonZh": "沒有荒謬提問或玩笑回答。",
+            "correct": false
+          }
+        ]
+      },
+      "3": {
+        "prompt": {
+          "zh": "年幼學生問基本問題，哪個回應更合適？",
+          "en": "A young pupil asks a basic question. Which response is better?"
+        },
+        "options": [
+          {
+            "zh": "「我來一步一步解釋。」",
+            "en": "“Let me explain it step by step.”",
+            "reasonZh": "基本問題可以是真誠求助，不應隨意取笑。",
+            "correct": true
+          },
+          {
+            "zh": "「問得無聊，答得滑稽；你不值得聽解釋。」",
+            "en": "“Ask a silly question, get a silly answer; you do not deserve an explanation.”",
+            "reasonZh": "把諺語當成羞辱學生的藉口。",
+            "correct": false
+          },
+          {
+            "zh": "「所有簡單問題都不准問。」",
+            "en": "“No simple questions are allowed.”",
+            "reasonZh": "錯把容易與不合理混為一談。",
+            "correct": false
+          }
+        ]
+      },
+      "5": {
+        "prompt": {
+          "zh": "朋友看見你拿著雨傘，仍問你是否帶了雨傘。哪句玩笑回應自然？",
+          "en": "A friend sees your umbrella and asks whether you brought one. Which joking reply fits?"
+        },
+        "options": [
+          {
+            "zh": "「沒有，這是一枝會開合的花。問得無聊，答得滑稽！」",
+            "en": "“No, it’s a folding flower. Ask a silly question and you get a silly answer!”",
+            "reasonZh": "回答刻意滑稽，也呼應顯而易見的提問。",
+            "correct": true
+          },
+          {
+            "zh": "「有，我手上拿著雨傘。」",
+            "en": "“Yes, I have an umbrella in my hand.”",
+            "reasonZh": "這是直接答案，不是滑稽回應。",
+            "correct": false
+          },
+          {
+            "zh": "「你問雨傘，就證明你討厭我。」",
+            "en": "“Asking about my umbrella proves you dislike me.”",
+            "reasonZh": "無端推斷對方動機。",
+            "correct": false
+          }
+        ]
+      },
+      "6": {
+        "prompt": {
+          "zh": "哪個理解保留了使用界線？",
+          "en": "Which reading respects the boundary?"
+        },
+        "options": [
+          {
+            "zh": "「熟人間可用作玩笑；真誠問題仍應認真回答。」",
+            "en": "“It may be playful among friends; sincere questions still deserve a real answer.”",
+            "reasonZh": "兼顧語氣與對方需要。",
+            "correct": true
+          },
+          {
+            "zh": "「任何簡單問題都應被嘲笑。」",
+            "en": "“Every simple question deserves mockery.”",
+            "reasonZh": "把語境限定的玩笑變成普遍規則。",
+            "correct": false
+          },
+          {
+            "zh": "「所有滑稽答案都是正確答案。」",
+            "en": "“Every funny answer is a correct answer.”",
+            "reasonZh": "滑稽不代表內容正確。",
+            "correct": false
+          }
+        ]
+      }
+    }
+  }
+}

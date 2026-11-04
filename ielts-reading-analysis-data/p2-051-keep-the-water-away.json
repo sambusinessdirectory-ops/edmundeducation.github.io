@@ -1,0 +1,1720 @@
+{
+  "id": "p2-051-keep-the-water-away",
+  "catalogueId": "p2-051",
+  "catalogueIds": [
+    "p2-051"
+  ],
+  "passage": 2,
+  "title": "Keep the Water Away",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "B",
+    "G",
+    "A",
+    "F",
+    "E",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "Maidenhead",
+    "soft engineers",
+    "Los Angeles"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“a new approach carried out in the UK”",
+      "translation": "在英國實行的一種新方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找的是「哪一段包含 UK 實行的新 flood-management approach」，所以要找 UK、Environment Agency、new wetlands、reflooding、reconnect 等訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The European Union is trying to improve rain forecasts and more accurately model how intense rains swell rivers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "European Union 正嘗試改善降雨預報，並更準確模擬強降雨如何令河流水位上升。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And near the south coast, the agency is digging out channels to reconnect old meanders on the river Cuckmere in East Sussex that were cut off by flood banks 150 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在南部海岸附近，該機構正在 East Sussex 的 Cuckmere River 挖通渠道，重新連接 150 年前被flood banks 切斷的 old meanders。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，D 段先由預測和 modelling 引入，再轉到英國 Environment Agency 的實際工程。最後一句的 East Sussex 是英國地名，表示本段有 UK 實施例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “UK” 和 “new approach”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The UK’s Environment Agency…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“The focus is now on working with the forces of nature. Towering concrete walls are out, and new wetlands are in.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The UK’s Environment Agency—which has been granted an extra £150 million a year to spend in the wake of floods in 2000 that cost the country £1 billion—puts it like this: ‘The focus is now on working with the forces of nature. Towering concrete walls are out, and new wetlands are in.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國 Environment Agency 在 2000 年造成 10 億英鎊損失的洪水後，每年獲得額外 1.5 億英鎊經費。該機構這樣說：「現在的焦點是與自然力量合作。高聳的混凝土牆退場，新濕地登場。」這句明確包含 UK、new focus、working with nature、new wetlands。之後本段再列出 Otmoor、Maidenhead、Eton College、Cuckmere 等英國實施例子。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "a new approach= working with the forces of nature / new wetlands / reflooding ancient flood plain / reconnect old meanders carried out in the UK= The UK’s Environment Agency / Thames / Oxford / Maidenhead / East Sussex所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Why straightened rivers and dykes can fail”",
+      "translation": "為何被拉直的河流和堤壩可能失敗。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Back in the days when rivers took a more tortuous path to the sea, flood waters lost impetus and volume while meandering across flood plains and idling through wetlands and inland deltas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在過去河流以較曲折路線流向大海時，洪水在 flood plains 上蜿蜒流動、在 wetlands 和 inland deltas 中緩慢流過，因而失去動力和水量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Take the Rhine, Europe’s most engineered river. For two centuries, German engineers have erased its backwaters and cut it off from its flood plain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以 Rhine 為例，它是歐洲最被工程化的河流。兩百年來，German engineers 消除了它的backwaters，並把它與 flood plain 隔開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已顯示段落對比：以前河流彎曲、有 flood plains，可減弱洪水；現代工程把河道變得太直接，又切斷 flood plains。題目中的 straightened rivers 和 dykes 正好屬於這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “straightened rivers”、“dykes” 和 “fail”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the water tends to have an unimpeded journey to the sea”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Dykes are only as good as their weakest link—and the water will unerringly find it.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“But today the water tends to have an unimpeded journey to the sea. And this means that when it rains in the uplands, the water comes down all at once.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但今天，水往往可以毫無阻礙地流向大海。這表示當高地降雨時，水會一下子全部流下來。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dykes are only as good as their weakest link—and the water will unerringly find it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "堤壩的可靠程度只等於它最薄弱的一環；而水一定會準確找到那個弱點。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“By trying to turn the complex hydrology of rivers into the simple mechanics of a water pipe, engineers have often created danger where they promised safety, and intensified the floods they meant to end.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工程師試圖把河流複雜的水文系統變成像水管一樣簡單的機械系統，結果常常在承諾安全的地方製造危險，並加劇他們原本想終結的洪水。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "straightened rivers fail= water has an unimpeded journey / comes down all at once dykes fail= only as good as their weakest link / water will find it why they fail= complex river hydrology has been oversimplified into water-pipe mechanics所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“An apparently unrealistic alternative plan for Los Angeles”",
+      "translation": "一個看似不切實際的 Los Angeles 替代方案。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Los Angeles has spent billions of dollars digging huge drains and concreting river beds to carry away the water from occasional intense storms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Los Angeles 花了數十億美元挖大型排水渠，並把 river beds 鋪上混凝土，以便把偶爾強烈暴雨帶來的水排走。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It sounds expensive and utopian, until you realise how much we spend trying to drain cities and protect our watery margins—and how bad we are at it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這聽起來昂貴又烏托邦式；直到你意識到我們一直花多少錢試圖為城市排水、保護潮濕邊界，而且我們做得多差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示 LA 的傳統方案昂貴且失敗，最後一句用 “expensive and utopian” 對應題目中的apparently unrealistic。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Los Angeles” 和 “apparently unrealistic alternative plan”。原文除了 “Los Angeles” 外，也有 “pipe dream”、“porous city”、“Plan B”、“sounds expensive and utopian”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lipkis, together with citizen groups such as Friends of the Los Angeles River and Unpaved LA, wants to beat the urban flood hazard and fill the taps by holding onto the city’s flood water. And it’s not just a pipe dream.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lipkis 和 Friends of the Los Angeles River、Unpaved LA 等市民團體，希望透過保留城市洪水，同時應對城市洪災和填滿水龍頭。而這不只是空想。"
+            },
+            {
+              "kind": "quote",
+              "text": "“pipe dream” 指不切實際的幻想。原文說 “not just a pipe dream”，代表這個方案看似很理想化，但已經有試行計劃。後文補充：“The authorities this year launched a $100 million scheme to road-test the porous city in one flood-hit community in Sun Valley.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當局今年推出一項 1 億美元計劃，在 Sun Valley 一個受洪水影響的社區測試 porous city。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "apparently unrealistic= pipe dream / expensive and utopian alternative plan= hold onto the city’s flood water / road-test the porous city Los Angeles= LA / Los Angeles River / Sun Valley所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“The traditional approach to flood control”",
+      "translation": "傳統防洪方法。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Last winter’s floods on the rivers of central Europe were among the worst since the Middle Ages, and as winter storms return, the spectre of floods is returning too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年冬天中歐河流洪水是中世紀以來最嚴重之一；冬季風暴再臨時，洪水的陰影也回來了。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No wonder engineers are turning to Plan B: sap the water’s destructive strength by dispersing it into fields, forgotten lakes, flood plains and aquifers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "難怪工程師開始轉向 Plan B：把水分散到 fields、forgotten lakes、flood plains 和 aquifers，以削弱水的破壞力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 段會先講傳統 Plan A，再引入 Plan B。題目問 traditional approach，自然要看 Plan A 的描述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “traditional approach”。原文直接寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“Traditionally, river engineers have gone for Plan A…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Traditionally, river engineers have gone for Plan A: get rid of the water fast, draining it off the land and down to the sea in tall-sided rivers re-engineered as high-performance drains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統上，河流工程師採用 Plan A：快速把水排走，讓水離開土地，經由高堤河道流向大海；這些河流被重新工程化，像高效能排水渠一樣運作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句非常直接。traditional approach 的核心是 get rid of the water fast，即盡快排水，把河流改造成 drains。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "traditional approach= Plan A flood control= get rid of the water fast / draining it off the land / tall-sided rivers / high-performance drains所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“Flood-management efforts in the Netherlands and Germany”",
+      "translation": "荷蘭和德國的防洪管理措施。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Rivers have to be allowed to take more space. They have to be turned from flood-chutes into flood-foilers,’ says Nienhuis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nienhuis 說：「河流必須被允許佔有更多空間。它們必須由 flood-chutes 變成 flood-foilers。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A good illustration is the giant Potsdamer Platz, a huge new commercial redevelopment by Daimler Chrysler in the heart of the city.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個好例子是巨大的 Potsdamer Platz，這是 Daimler Chrysler 在城市中心的大型新商業重建項目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提出新工程理念，段中講 Dutch / Netherlands 的 flood experiences，後半轉到 Berlin。Berlin是 Germany 的城市，所以本段同時包含 Netherlands 和 Germany。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Netherlands” 和 “Germany”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Dutch…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the Netherlands”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Berlin is their shining example”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“And the Dutch, for whom preventing floods is a matter of survival, have gone furthest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對 Dutch 來說，防洪是生存問題，而他們走得最遠。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same happened again in 1995, when a quarter of a million people were evacuated from the Netherlands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣情況在 1995 年再次發生，當時荷蘭有 25 萬人被疏散。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“But a new breed of ‘soft engineers’ wants our cities to become porous, and Berlin is their shining example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但新一代 “soft engineers” 希望城市變得 porous，而 Berlin 是他們的耀眼例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這組句子把 Netherlands 的洪水經驗和 Dutch 防洪理念，接到 Germany 的 Berlin porous-city model。因此題目中的 Netherlands and Germany 都在 Paragraph F。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "flood-management efforts in the Netherlands= the Dutch have gone furthest / preventing floods is survival / evacuations from the Netherlands Germany= Berlin / Potsdamer Platz所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“A river project that benefits three countries”",
+      "translation": "一個令三個國家受益的河流工程。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same is taking place on a much grander scale in Austria, in one of Europe’s largest river restorations to date.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣事情正在 Austria 以更大規模發生，這是歐洲至今最大型 river restorations 之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The engineers calculate that the restored flood plain can now store up to 10 million cubic metres of flood waters and slow storm surges coming out of the Alps by more than an hour, protecting towns as far downstream as Slovenia and Croatia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工程師估計，復原後的 flood plain 現在可儲存最多 1,000 萬立方米洪水，並將從 Alps 湧出的storm surges 延遲超過一小時，保護遠至下游 Slovenia 和 Croatia 的城鎮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句有 Austria，最後一句有 Slovenia 和 Croatia。三個國家正好是 Austria、Slovenia、Croatia。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “river project” 和 “three countries”。原文有 “river Drava”、“Austria”、“Slovenia and Croatia”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Engineers are regenerating flood plains along 60 kilometres of the river Drava as it exits the Alps.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工程師正在 Drava River 離開 Alps 的 60 公里河段沿線重建 flood plains。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“protecting towns as far downstream as Slovenia and Croatia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "保護遠至下游 Slovenia 和 Croatia 的城鎮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 project 位於 Austria，並保護 Slovenia 和 Croatia 下游城鎮。題目把這個跨國效益概括成benefits three countries。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "river project= regenerating flood plains along the river Drava benefits three countries= in Austria + protecting towns in Slovenia and Croatia所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In the past, Europeans improved river banks, making floods less severe.”",
+      "translation": "過去，歐洲人改善河岸，使洪水變得較不嚴重。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷兩件事：第一，過去是否有改善河岸或加高河岸；第二，這是否令洪水較不嚴重。若原文說加高河岸後洪水仍回來，甚至更嚴重，答案就是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A / B Paragraph A 第一和最後一句顯示，文章先講洪水威脅，再由傳統 Plan A 轉向 Plan B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 首尾句則解釋，河流被過度工程化後，與 flood plains 斷開，危險反而增加。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “in the past”、“river banks”、“less severe”。原文對應 “however high they built the banks” 和 “worse than ever”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But however big they dug city drains, however wide and straight they made the rivers, and however high they built the banks, the floods kept coming back to taunt them, from the Mississippi to the Danube.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但不論他們把城市排水渠挖得多大，把河流改得多寬多直，把河岸修得多高，洪水仍然一次又一次回來嘲弄他們，從 Mississippi 到 Danube 都如此。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句更重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“And when the floods came, they seemed to be worse than ever.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且當洪水來臨時，它們似乎比以往更嚴重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 river banks 被 improved 後 floods less severe；原文說 built the banks high 之後 floods kept coming back，甚至 seemed worse than ever。方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "improved river banks= built the banks high making floods less severe與原文 “worse than ever” 衝突所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Flooding has shortened rivers, causing faster flows and greater damage to buildings on flood plains.”",
+      "translation": "洪水令河流變短，造成更快水流，並對 flood plains 上的建築造成更大破壞。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最重要是因果關係。原文確實說 Rhine 變短、水流變快、損害更大；但造成河流變短的原因是 river engineering，不是 flooding 本身。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B / C Paragraph B 最後一句說 German engineers 消除了 Rhine 的 backwaters，並把它與 flood plain隔開。Paragraph C 第一和最後一句接著說 Rhine 變短、變快，Mississippi 也有類似情況。這兩段需要連讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “shortened rivers”、“faster flows”、“greater damage”、“buildings on flood plains”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有 “lost 7 percent of its original length”、“runs up to a third faster”、“does ever-greater damage to the homes, offices and roads”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B："
+            },
+            {
+              "kind": "quote",
+              "text": "“For two centuries, German engineers have erased its backwaters and cut it off from its flood plain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩百年來，German engineers 消除了 Rhine 的 backwaters，並把它與 flood plain 隔開。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, the river has lost 7 percent of its original length and runs up to a third faster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天，這條河已失去原本長度的 7%，水流速度最多快了三分之一。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The result is more frequent flooding that does ever-greater damage to the homes, offices and roads that sit on the flood plain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果是更頻繁的 flooding，對 flood plain 上的 homes、offices 和 roads 造成越來越大的破壞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 flooding 放在原因位置，說 flooding has shortened rivers。原文的因果鏈是：engineering改造 Rhine → river lost length and ran faster → flooding became more frequent and damaging。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的第一個因果環節錯了。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：Flooding has shortened rivers"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：German engineers erased backwaters and cut river off from flood plain；then the river lost length題目後半：faster flows and greater damage原文有支援，但整句的因果主體已錯所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The UK’s new approach is better than Austria’s.”",
+      "translation": "英國的新方法比 Austria 的方法更好。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求比較 UK 和 Austria。文章如果分別介紹兩地做法，但沒有評價誰較好，就應選 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D / E Paragraph D 講 UK Environment Agency 的 working with nature、新 wetlands、reflooding ancient flood plain 和 reconnecting meanders。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 講 Austria 的 Drava restoration，規模更大，能儲存 flood waters 並延遲 storm surges。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “UK”、“Austria”、“better than”。原文有 UK 和 Austria，但要找 better、more effective、worse、superior、less successful 等比較語言。文章沒有提供這種直接比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "UK："
+            },
+            {
+              "kind": "quote",
+              "text": "“The focus is now on working with the forces of nature. Towering concrete walls are out, and new wetlands are in.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在的焦點是與自然力量合作。高聳混凝土牆退場，新濕地登場。"
+            },
+            {
+              "kind": "label",
+              "text": "Austria："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same is taking place on a much grander scale in Austria, in one of Europe’s largest river restorations to date.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣事情正在 Austria 以更大規模發生，這是歐洲至今最大型 river restorations 之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡甚至說 Austria 是 “on a much grander scale”，但 grander scale 只表示規模更大，不等於比UK 更好或更差。題目要求 “UK’s approach is better than Austria’s”，文章沒有提供這個評價。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "資料狀態：原文有：UK new approach。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有：Austria large-scale restoration。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文缺少：UK better than Austria / Austria worse than UK 的比較判斷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“At least 300,000 people were evacuated from the Netherlands in 1995.”",
+      "translation": "1995 年，荷蘭至少有 300,000 人被疏散。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是數字題，要把 at least 300,000 和原文數字比較。原文若說 250,000，就和題目衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Rivers have to be allowed to take more space. They have to be turned from flood-chutes into flood-foilers,’ says Nienhuis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nienhuis 說：「河流必須被允許佔有更多空間。它們必須由 flood-chutes 變成 flood-foilers。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A good illustration is the giant Potsdamer Platz, a huge new commercial redevelopment by Daimler Chrysler in the heart of the city.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個好例子是巨大的 Potsdamer Platz，這是 Daimler Chrysler 在城市中心的大型新商業重建項目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 中段有 Netherlands 1995 evacuation，是本題目標位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Netherlands”、“1995”、“300,000”。原文直接出現 1995 和 evacuated from the Netherlands。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The same happened again in 1995, when a quarter of a million people were evacuated from the Netherlands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣情況在 1995 年再次發生，當時有四分之一百萬人從荷蘭被疏散。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a quarter of a million” = 250,000。題目說 at least 300,000，即至少 300,000。250,000 少於300,000，所以題目和原文數字衝突。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 數字轉換",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "a quarter of a million= 250,000 at least 300,000= 300,000 or more 250,000 < 300,000所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "Maidenhead",
+      "answerKey": "Maidenhead",
+      "type": "Sentence Completion",
+      "prompt": "“The UK Environment Agency created wetlands near the town of 24 ______ to protect it from flooding.”",
+      "translation": "UK Environment Agency 在 ______ 鎮附近建立 wetlands，以保護它免受洪水影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The European Union is trying to improve rain forecasts and more accurately model how intense rains swell rivers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "European Union 正嘗試改善降雨預報，並更準確模擬強降雨如何令河流水位上升。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And near the south coast, the agency is digging out channels to reconnect old meanders on the river Cuckmere in East Sussex that were cut off by flood banks 150 years ago.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在南部海岸附近，該機構正在 East Sussex 的 Cuckmere River 挖通渠道，重新連接 150 年前被flood banks 切斷的 old meanders。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “created wetlands”、“town” 和 “protect”。原文有 “creating new wetlands”、“to protect the town of Maidenhead”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nearer to London it has spent £100 million creating new wetlands and a relief channel across 16 kilometres of flood plain to protect the town of Maidenhead, as well as the ancient playing fields of Eton College.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在更接近 London 的地方，它花了 1 億英鎊，在 16 公里 flood plain 上建立 new wetlands 和relief channel，以保護 Maidenhead 鎮，以及 Eton College 古老的運動場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “near the town of ______”，空格需要地名。原文是 “the town of Maidenhead”，答案一字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 Maidenhead。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "soft engineers",
+      "answerKey": "soft engineers",
+      "type": "Sentence Completion",
+      "prompt": "“25 ______ proposed that cities should be porous, and Berlin provides a good example.”",
+      "translation": "______ 提出城市應該 porous，而 Berlin 提供了一個好例子。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Rivers have to be allowed to take more space. They have to be turned from flood-chutes into flood-foilers,’ says Nienhuis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nienhuis 說：「河流必須被允許佔有更多空間。它們必須由 flood-chutes 變成 flood-foilers。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A good illustration is the giant Potsdamer Platz, a huge new commercial redevelopment by Daimler Chrysler in the heart of the city.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個好例子是巨大的 Potsdamer Platz，這是 Daimler Chrysler 在城市中心的大型新商業重建項目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “cities should be porous” 和 “Berlin”. 原文直接有 “wants our cities to become porous” 和 “Berlin is their shining example”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But a new breed of ‘soft engineers’ wants our cities to become porous, and Berlin is their shining example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但新一代 “soft engineers” 希望我們的城市變得 porous，而 Berlin 是他們的耀眼例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：空格在句首，需要一個人物或群體名稱作主語。原文是 “soft engineers”，兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "proposed that cities should be porous= wants our cities to become porous Berlin provides a good example= Berlin is their shining example答案是 soft engineers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "Los Angeles",
+      "answerKey": "Los Angeles",
+      "type": "Sentence Completion",
+      "prompt": "“Another city frequently hit by severe storms is 26 ______, despite spending billions of dollars on flood control.”",
+      "translation": "另一個經常受強暴雨影響的城市是 ______，儘管它已花費數十億美元防洪。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Los Angeles has spent billions of dollars digging huge drains and concreting river beds to carry away the water from occasional intense storms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Los Angeles 花了數十億美元挖大型排水渠，並把 river beds 鋪上混凝土，以便把偶爾強烈暴雨帶來的水排走。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It sounds expensive and utopian, until you realise how much we spend trying to drain cities and protect our watery margins—and how bad we are at it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這聽起來昂貴又烏托邦式；直到你意識到我們一直花多少錢試圖為城市排水、保護潮濕邊界，而且我們做得多差。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “spending billions of dollars” 和 “severe storms”。原文第一句直接對應 “spent billions of dollars” 和 “occasional intense storms”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Los Angeles has spent billions of dollars digging huge drains and concreting river beds to carry away the water from occasional intense storms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Los Angeles 花了數十億美元挖大型排水渠，並把河床鋪上混凝土，以便把偶爾強烈暴雨帶來的水排走。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet many communities still flood regularly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，許多社區仍經常發生洪水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “Another city … is ______”，空格需要城市名稱。原文城市名是 Los Angeles，兩個字，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 Los Angeles。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Keep the Water Away.pdf",
+    "sha256": "79b6edf1ed322d4706daf9e149462078cdebc6b671ecf3211b4127bdca3e406b",
+    "pageCount": 21
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句可見甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說去年冬天中歐河流洪水是中世紀以來最嚴重之一，冬季風暴再臨時，洪水陰影又回來。最後一句說工程師開始轉向 Plan B，把水分散到 fields、forgotten lakes、flood plains 和 aquifers，以削弱其破壞力。只看首尾句，可以估計 A 段先交代洪水問題和傳統 Plan A 的失敗，再引出新思路 Plan B。題目若問 traditional approach 或 Plan B 概念，A 段最重要。"
+      },
+      {
+        "number": "B",
+        "summary": "首句回到過去，說河流以前彎曲流向大海時，洪水會在 flood plains、wetlands 和 inland deltas 中失去力量和水量。最後一句以 Rhine 為例，說 German engineers 兩百年來消除了 backwaters，並把 Rhine 與 flood plain 隔開。只看首尾句，可以估計 B 段主要解釋河流被拉直、堤壩封閉flood plains 後，水流為何變得更危險。dykes、straightened rivers、water pipe 相關題目應看這段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說今天 Rhine 已失去原來長度的 7%，水流速度最多快了三分之一。最後一句說 Mississippi也發生了類似情況，它把世界第二大 river catchment 的水排入 Gulf of Mexico。只看首尾句，可以估計 C 段會用 Rhine 和 Mississippi 做具體例子，說明工程化河流變短、變快、洪峰重疊，最後導致 flood plain 上的 homes、offices 和 roads 受損更嚴重。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 European Union 正嘗試改善雨量預報，並更準確模擬強降雨如何令河流上漲。最後一句說 Environment Agency 在 East Sussex 的 river Cuckmere 挖通渠道，重新連接 150 年前被flood banks 切斷的 old meanders。只看首尾句，可以判斷 D 段聚焦 UK 的新 flood-management approach：重點由 concrete walls 轉向 working with nature、new wetlands、reflooding ancient flood plain 和 reconnecting meanders。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說同樣事情在 Austria 以更大規模發生，是歐洲至今最大型 river restorations 之一。最後一句說 restored flood plain 可儲存最多 1,000 萬立方米 flood waters，並令 storm surges 延遲超過一小時，保護下游 Slovenia 和 Croatia 的 towns。只看首尾句，可見 E 段介紹 Austria 的 Drava restoration project。題目若問 river project benefits three countries，應看 E。"
+      },
+      {
+        "number": "F",
+        "summary": "首句引用 Nienhuis，說 Rivers 必須有更多空間，要由 flood-chutes 變成 flood-foilers。最後一句引出 Berlin 的 Potsdamer Platz，說它是 soft-engineering / porous-city 思路的好例子。只看首尾句，可以估計 F 段先講 Netherlands 的 flood fear 和 Dutch approach，再轉到 Germany 的 Berlin redevelopment rules。題目若問 Netherlands and Germany 的 flood-management efforts，就應定位 F 段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Los Angeles 花了數十億美元挖大型 drains 和用 concrete 處理 river beds，以便把強暴雨的水排走。最後一句說 Plan B 主張每個城市都應 porous，每條河都應有自然泛洪空間，每條海岸都應自行建立防禦；這聽起來昂貴又 utopian，但傳統排水法本身已非常昂貴且效果差。只看首尾句，可見 G 段集中談 LA 的傳統失敗和 porous city 替代方案。"
+      }
+    ]
+  }
+}

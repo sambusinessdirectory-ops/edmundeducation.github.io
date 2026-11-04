@@ -1,0 +1,133 @@
+{
+  "key": "advantage-disadvantage:23",
+  "sourceSentenceCount": 17,
+  "reason": "Canonical Traditional Chinese has added, shifted or omitted material; proposed items align one-to-one with physical English sentences.",
+  "sentences": [
+    {
+      "number": 1,
+      "english": "In recent decades, the expansion of tourism and other forms of international contact has helped English become the most widely used language in the world.",
+      "sourceChinese": "近幾十年來，旅遊業的發展以及其他形式的國際交流，促使英語成為世界上最廣泛使用的語言。",
+      "proposedChinese": "近幾十年來，旅遊業的發展以及其他形式的國際交流，促使英語成為世界上最廣泛使用的語言。"
+    },
+    {
+      "number": 2,
+      "english": "As a result, some people believe that humanity may one day share a single common tongue.",
+      "sourceChinese": "因此，有些人相信，人類有一天可能會共用一種共同語言。",
+      "proposedChinese": "因此，有些人相信，人類有一天可能會共用一種共同語言。"
+    },
+    {
+      "number": 3,
+      "english": "Such a development would offer notable practical benefits, but it would also carry profound cultural and social costs.",
+      "sourceChinese": "這樣的發展會帶來顯著的實際好處，但同時也會付出深遠的文化與社會代價。",
+      "proposedChinese": "這樣的發展會帶來顯著的實際好處，但同時也會付出深遠的文化與社會代價。"
+    },
+    {
+      "number": 4,
+      "english": "The most obvious advantage of one global language is ease of communication.",
+      "sourceChinese": "全球只使用一種語言最明顯的優點，就是溝通會變得更容易。",
+      "proposedChinese": "全球只使用一種語言最明顯的優點，就是溝通會變得更容易。"
+    },
+    {
+      "number": 5,
+      "english": "If people from different countries could speak to one another without interpreters or translation software, travel, trade, diplomacy and academic collaboration would all become more efficient.",
+      "sourceChinese": "如果來自不同國家的人能夠在沒有口譯員或翻譯軟體的情況下彼此交流，那麼旅遊、貿易、外交以及學術合作都會變得更有效率。",
+      "proposedChinese": "如果來自不同國家的人能夠在沒有口譯員或翻譯軟體的情況下彼此交流，那麼旅遊、貿易、外交以及學術合作都會變得更有效率。"
+    },
+    {
+      "number": 6,
+      "english": "Misunderstandings could be reduced, and ideas could cross borders far more quickly.",
+      "sourceChinese": "這樣一來，誤解可以減少，而各種想法也能更快速地跨越國界傳播。例如，如果研究同一項醫療問題的國際研究人員都使用同一種語言，他們便能直接交換研究成果，並更快找到解決方法。",
+      "proposedChinese": "誤解可能減少，而想法也可以更快跨越國界傳播。"
+    },
+    {
+      "number": 7,
+      "english": "A common language could also widen access to education and employment.",
+      "sourceChinese": "一種共同語言也可以擴大人們接受教育和獲得工作的機會。",
+      "proposedChinese": "一種共同語言也可以擴大人們接受教育和獲得工作的機會。"
+    },
+    {
+      "number": 8,
+      "english": "Students would be able to study abroad more easily, while workers could compete in a broader international labour market.",
+      "sourceChinese": "學生將更容易到海外升學，而勞工也能在更廣闊的國際就業市場中競爭。",
+      "proposedChinese": "學生將更容易到海外升學，而勞工也能在更廣闊的國際就業市場中競爭。"
+    },
+    {
+      "number": 9,
+      "english": "In this sense, a shared language could act as a bridge, bringing people into closer contact with one another.",
+      "sourceChinese": "從這個角度來看，共通語言就像一座橋樑，使人與人之間的聯繫更加緊密。因此，全球共用一種語言可以大大提升效率、流動性以及國際合作。",
+      "proposedChinese": "從這個角度看，共同語言可以像一座橋，讓人們彼此聯繫得更緊密。"
+    },
+    {
+      "number": 10,
+      "english": "However, serious disadvantages would also arise.",
+      "sourceChinese": "然而，這樣的情況也會帶來嚴重的缺點，其中最重要的就是語言與文化多樣性可能流失。",
+      "proposedChinese": "然而，嚴重的缺點也會隨之出現。"
+    },
+    {
+      "number": 11,
+      "english": "Language is not merely a tool for exchanging information; it is also a carrier of memory, identity and tradition.",
+      "sourceChinese": "語言不僅僅是交換資訊的工具，它同時也是記憶、身份認同與傳統的載體。",
+      "proposedChinese": "語言不僅僅是交換資訊的工具，它同時也是記憶、身份認同與傳統的載體。"
+    },
+    {
+      "number": 12,
+      "english": "If smaller languages were pushed aside by a global one, communities could lose folk stories, historical knowledge and cultural values that have been passed down for generations.",
+      "sourceChinese": "如果較小的語言被全球通用語所取代，社群便可能失去那些代代相傳的民間故事、歷史知識以及文化價值。",
+      "proposedChinese": "如果較小的語言被全球通用語所取代，社群便可能失去那些代代相傳的民間故事、歷史知識以及文化價值。"
+    },
+    {
+      "number": 13,
+      "english": "In addition, a one-language world might not be as fair as it appears.",
+      "sourceChinese": "例如，當一種少數語言消失時，那種獨特的世界觀與表達方式也可能隨之消失。此外，只有一種語言的世界，未必像表面看起來那麼公平。",
+      "proposedChinese": "此外，只有一種語言的世界，未必像表面看來那麼公平。"
+    },
+    {
+      "number": 14,
+      "english": "Those born into the dominant language would enjoy an immediate advantage in business, media and higher education, whereas others might feel compelled to abandon their mother tongue in order to succeed.",
+      "sourceChinese": "以主導語言為母語的人，會在商業、媒體和高等教育方面立刻擁有優勢；相反，其他人則可能被迫放棄母語，以換取成功的機會。",
+      "proposedChinese": "以主導語言為母語的人，會在商業、媒體和高等教育方面立刻擁有優勢；相反，其他人則可能被迫放棄母語，以換取成功的機會。"
+    },
+    {
+      "number": 15,
+      "english": "What is gained in convenience, therefore, could be paid for in cultural erosion and social imbalance.",
+      "sourceChinese": "因此，便利所帶來的收穫，可能要以文化侵蝕與社會失衡作為代價。因此，雖然一種共同語言可能使生活變得更簡單，但它也可能削弱文化認同，並加深不平等。",
+      "proposedChinese": "因此，所得到的便利，可能要以文化流失和社會失衡為代價。"
+    },
+    {
+      "number": 16,
+      "english": "In conclusion, having one language worldwide could simplify communication and create wider educational and economic opportunities.",
+      "sourceChinese": "總結來說，全球只使用一種語言可以簡化溝通，並創造更廣泛的教育與經濟機會。",
+      "proposedChinese": "總結來說，全球只使用一種語言可以簡化溝通，並創造更廣泛的教育與經濟機會。"
+    },
+    {
+      "number": 17,
+      "english": "Nevertheless, it could also accelerate the loss of linguistic heritage and reinforce inequality between native and non-native speakers.",
+      "sourceChinese": "然而，它同時也可能加速語言文化遺產的流失，並強化母語者與非母語者之間的不平等。",
+      "proposedChinese": "然而，它同時也可能加速語言文化遺產的流失，並強化母語者與非母語者之間的不平等。"
+    }
+  ],
+  "rawChinese": [
+    "近幾十年來，旅遊業的發展以及其他形式的國際交流，促使英語成為世界上最廣泛使用的語言。",
+    "因此，有些人相信，人類有一天可能會共用一種共同語言。",
+    "這樣的發展會帶來顯著的實際好處，但同時也會付出深遠的文化與社會代價。",
+    "全球只使用一種語言最明顯的優點，就是溝通會變得更容易。",
+    "如果來自不同國家的人能夠在沒有口譯員或翻譯軟體的情況下彼此交流，那麼旅遊、貿易、外交以及學術合作都會變得更有效率。",
+    "誤解可能減少，",
+    "而想法也可以更快跨越國界傳播。",
+    "一種共同語言也可以擴大人們接受教育和獲得工作的機會。",
+    "學生將更容易到海外升學，而勞工也能在更廣闊的國際就業市場中競爭。",
+    "從這個角度看，共同語言可以像一座橋，",
+    "讓人們彼此聯繫得更緊密。",
+    "然而，嚴重的缺點也會隨之出現。",
+    "語言不僅僅是交換資訊的工具，它同時也是記憶、身份認同與傳統的載體。",
+    "如果較小的語言被全球通用語所取代，社群便可能失去那些代代相傳的民間故事、歷史知識以及文化價值。",
+    "此外，",
+    "只有一種語言的世界，未必像表面看來那麼公平。",
+    "以主導語言為母語的人，會在商業、媒體和高等教育方面立刻擁有優勢；相反，其他人則可能被迫放棄母語，以換取成功的機會。",
+    "因此，所得到的便利，",
+    "可能要以文化流失和社會失衡為代價。",
+    "總結來說，全球只使用一種語言可以簡化溝通，並創造更廣泛的教育與經濟機會。",
+    "然而，它同時也可能加速語言文化遺產的流失，並強化母語者與非母語者之間的不平等。"
+  ],
+  "rawItemCount": 21
+}

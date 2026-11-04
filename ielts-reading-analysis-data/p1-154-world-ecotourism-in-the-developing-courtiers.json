@@ -1,0 +1,1218 @@
+{
+  "id": "p1-154-world-ecotourism-in-the-developing-courtiers",
+  "catalogueId": "p1-154",
+  "catalogueIds": [
+    "p1-154"
+  ],
+  "passage": 1,
+  "title": "World Ecotourism in the developing courtiers",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "A",
+    "D",
+    "C",
+    "B",
+    "A",
+    "C",
+    "D",
+    "A",
+    "B",
+    "tour",
+    "journey",
+    "tropical forests",
+    "illegal hunting"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "A — Cuba",
+      "answerKey": "A — Cuba",
+      "type": "Matching Places",
+      "prompt": "Question 1",
+      "translation": "一個能提升遊客和本地人環境教育的地方。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目描述：A place that improves local environmental education for tourists"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching places。四個選項是地方，所以第一步要用描述中的核心概念定位，而"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不是只看地名。這題最有定位力的字是 “environmental education” 和 “tourists”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 指向",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B。這段以 Cuba 為標題，首句說 Cuba 是明顯的 ecotourism 地點，末句說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ecotourism 能創造本地就業。首尾句已經提示這段會把古巴寫成正面例子，內容可能包括環境、社區和教育利益。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "在 Paragraph B 掃描 “education”、“awareness”、“visitors”、“residents”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ecotourism is also seen as an environmental education opportunity to heighten both visitors’ and residents’ awareness of environmental and conservation issues, and even to inspire conservation action.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Ecotourism 也被視為一個環境教育機會，可以提高遊客和居民對環境及保育議題的意"
+            },
+            {
+              "kind": "paragraph",
+              "text": "識，甚至啟發保育行動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “improves local environmental education for tourists”。原文的 “environmental"
+            },
+            {
+              "kind": "paragraph",
+              "text": "education opportunity” 直接對應 environmental education；“visitors” 對應 tourists；“heighten awareness” 對應 improves education / raises awareness。雖然題目說 local，原文同時提到residents，所以地方層面也成立。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要被 “local” 限制得太窄。原文不是只教育本地人，也包括 visitors and residents。題目"
+            },
+            {
+              "kind": "paragraph",
+              "text": "問的是地方特色，Cuba 最直接符合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "D — Indonesia",
+      "answerKey": "D — Indonesia",
+      "type": "Matching Places",
+      "prompt": "Question 2",
+      "translation": "一個同時適合富裕旅客和預算有限旅客的地方。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目描述：A place suitable for both wealthy and budget travellers"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：wealthy、budget travellers。這題的核心是旅客消費能力的兩端，所以要找 budget、affluent、wide range of budgets 這類字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 指向",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F。首句說 Indonesia 在 1995 年把 ecotourism 視為強化 domestic travel"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的重要概念；末句說 “The country welcomes travellers with a wide range of budgets.” 只看末句已經很接近題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文列出三類市場，其中第一類是："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the silent generation”, people aged 55–64 who are generally affluent and well educated..."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：55 至 64 歲的 silent generation 通常較富裕、教育程度較高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三類是：“generation X”, people aged 18–29 who enjoy backpacking ecotours and are generally students able to travel for 3–12 months on a monthly budget of US$300–500."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：18 至 29 歲的 generation X 喜歡背包 ecotours，通常是學生，可以用每月 300–500 美"
+            },
+            {
+              "kind": "paragraph",
+              "text": "元的預算旅行 3 至 12 個月。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "affluent 對應 wealthy；monthly budget of US$300–500 對應 budget travellers。末句 “wide"
+            },
+            {
+              "kind": "paragraph",
+              "text": "range of budgets” 把兩端總結起來。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 也提到 honeymoon packages 和 private service，看起來有高端旅遊感，但"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有同時明確提到低預算旅客。Indonesia 同時有 affluent 和 monthly budget，證據最完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C — South America",
+      "answerKey": "C — South America",
+      "type": "Matching Places",
+      "prompt": "Question 3",
+      "translation": "一個遊客容易感染真菌疾病的地方。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目描述：A place where visitors can easily contract a fungal infection"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：fungal infection、contract、visitors。這題是健康風險題，不能只找 ecotourism benefits。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 指向",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C。首句已經說 South America illustrates one potential shortcoming of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ecotourism，末句警告 HIV-infected travellers 避免 caves，特別是含 bat droppings 的地方。首尾句明顯指向風險和疾病。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Histoplasma capsulatum ... a dimorphic fungus ... is associated with exposure to bat or bird droppings.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Histoplasma capsulatum 是一種雙相真菌，和接觸蝙蝠或鳥類糞便有關。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“outbreaks have been reported in healthy travellers who returned from Central and South America after engaging in recreational activities associated with spelunking, adventure tourism, and ecotourism.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：有報告指出，健康旅客在中南美洲參與洞穴探險、冒險旅遊和 ecotourism 相關活動後"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，回國出現感染爆發。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “visitors can easily contract a fungal infection” 概括了原文的 outbreaks in healthy"
+            },
+            {
+              "kind": "paragraph",
+              "text": "travellers 和 fungus。place 對應 South America，所以選 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 easily 語氣較強，原文沒有直接說所有旅客都很容易感染；但在四個地方中，只有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "South America 明確講 fungus、outbreaks、travellers 和 risky activities，因此答案仍是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "B — East Africa",
+      "answerKey": "B — East Africa",
+      "type": "Matching Places",
+      "prompt": "Question 4",
+      "translation": "一個採取措施減少非法狩獵的地方。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目描述：A place taking measures to reduce illegal hunting"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：reduce illegal hunting。這是非常強的原文定位詞，應直接找 illegal hunting。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 指向",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E。首句開頭已經說 “In East Africa, significantly reducing illegal hunting...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "末句談 local advocates 宣傳 conservation efforts 和 ecotourism。這段功能非常清楚：東非、非法狩獵、野生動物、保育和 ecotourism。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In East Africa, significantly reducing illegal hunting and allowing wildlife populations to recover could generate substantial economic benefits through trophy hunting and potentially ecotourism.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在東非，大幅減少非法狩獵並讓野生動物數量恢復，可以透過 trophy hunting 和潛在的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ecotourism 產生可觀經濟利益。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “taking measures to reduce illegal hunting”。原文雖然用 “could generate” 表示潛"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在利益，但段落核心就是 reducing illegal hunting。place 明確是 East Africa。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也談 deforestation、logging、mining 等威脅，但沒有 illegal hunting。看到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "wildlife 不夠，真正定位詞是 illegal hunting。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "A — Cuba",
+      "answerKey": "A — Cuba",
+      "type": "Matching Places",
+      "prompt": "Question 5",
+      "translation": "一個草藥醫學支援醫療系統的地方。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目描述：A place where herbal medicine supports the healthcare system"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：herbal medicine、healthcare system。這兩個字很稀有，應直接掃描。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim 指向",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B。首尾句指出 Cuba 是 ecotourism 正面例子，既有自然條件，也有本地"
+            },
+            {
+              "kind": "paragraph",
+              "text": "就業和社區效益。這段內容較長，會包含多種古巴 ecotourism 的社會功能。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Raul Castro ... started this initiative to rescue the Cuban tradition of herbal medicine and provide natural medicines for its healthcare system.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Raul Castro 開始這項倡議，目的是拯救古巴的草藥醫學傳統，並為其醫療系統提供天"
+            },
+            {
+              "kind": "paragraph",
+              "text": "然藥物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “herbal medicine” 原字重現；“supports the healthcare system” 對應 “provide"
+            },
+            {
+              "kind": "paragraph",
+              "text": "natural medicines for its healthcare system”。地點是 Cuba，所以答案 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 提到 cheese factory 和 food experience，可能有自然或地方特色，但沒有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "healthcare system。此題是原字重現題，重點是不要被其他 “natural” 相關內容吸走。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "C — which is situated in the heart of the forest",
+      "answerKey": "C — which is situated in the heart of the forest",
+      "type": "Sentence Endings",
+      "prompt": "Visiting the cheese factory which is situated in the heart of the forest.",
+      "translation": "參觀那間位於森林中心的芝士工廠。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 首句說 Kodai 是親近自然的好地方，末句說 culinary experience 是受歡迎的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ecotourism attraction。只看首尾句，可以預測這段會把自然景觀和食物體驗結合起來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 cheese factory。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The cheese factory here exports large quantities of cheese to countries around the world. It is located in the centre of the forest.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這裡的芝士工廠出口大量芝士到世界各國。它位於森林中心。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題幹 “Visiting the cheese factory” 需要接一個能描述該工廠的句尾。選項 C “which is"
+            },
+            {
+              "kind": "paragraph",
+              "text": "situated in the heart of the forest” 對應 “located in the centre of the forest”。heart of the forest 是centre of the forest 的同義改寫。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 A。Paragraph G 的 picnic 有 local fruit，但 Question 6 問 cheese factory，證據在"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "D — with private, comfortable service",
+      "answerKey": "D — with private, comfortable service",
+      "type": "Sentence Endings",
+      "prompt": "Enjoying a honeymoon with private, comfortable service.",
+      "translation": "享受帶有私人、舒適服務的蜜月旅程。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 首句說 ecotourism 可以提供和 traditional tourism 一樣多的服務，末句列出"
+            },
+            {
+              "kind": "paragraph",
+              "text": "guided tours 的交通、食物、導遊和保險。這段重點是旅遊服務，而非保育風險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 honeymoon。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a wonderful place for a Hamanasi honeymoon, offering a bottle of champagne upon arrival, three meals daily, private service on one night of your stay and a choice of adventures depending on the length of your stay.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這裡是 Hamanasi honeymoon 的美好地方，抵達時提供香檳、每日三餐、住宿其中一"
+            },
+            {
+              "kind": "paragraph",
+              "text": "晚的私人服務，以及按住宿長短選擇的冒險活動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題幹 “Enjoying a honeymoon” 對應 Hamanasi honeymoon。選項 D 的 “private,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "comfortable service” 概括 champagne、three meals daily、private service 和 honeymoon package 的舒適旅遊安排。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要因為 Paragraph H 有 culinary experience 而選其他句尾。honeymoon 是極強定位詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，只出現在 Paragraph G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "A — while eating local fruit",
+      "answerKey": "A — while eating local fruit",
+      "type": "Sentence Endings",
+      "prompt": "Having a picnic while eating local fruit.",
+      "translation": "一邊野餐，一邊吃本地水果。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 由 ecotourism services 開始，最後引用 tour guide 說明 tour includes"
+            },
+            {
+              "kind": "paragraph",
+              "text": "transport、picnic、local fruit、guide 和 insurance。末句已經直接提示 picnic 題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 picnic。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“All of our tours on St Kitts include transportation by specially modified Land Rovers, a picnic of island pastries and local fruit, fresh tropical juices, a qualified island guide and full liability insurance coverage for participants.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：我們在 St Kitts 的所有旅程都包括由特別改裝的 Land Rovers 接送、一份由島上糕點"
+            },
+            {
+              "kind": "paragraph",
+              "text": "和本地水果組成的野餐、新鮮熱帶果汁、合資格本地導遊，以及參加者的完整責任保險。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題幹 “Having a picnic” 對應 “a picnic of island pastries and local fruit”。選項 A “while"
+            },
+            {
+              "kind": "paragraph",
+              "text": "eating local fruit” 抓住 picnic 內容。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 看似有點口語化，但 local fruit 是原文直接證據。不要被 D 的 private service 吸引；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "private service 屬 honeymoon 題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "B — find jobs in the community",
+      "answerKey": "B — find jobs in the community",
+      "type": "Sentence Endings",
+      "prompt": "Residents of Cuba could find jobs in the community.",
+      "translation": "古巴居民可以在社區中找到工作。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 首句建立 Cuba 的自然旅遊條件，末句說 ecotourism 創造 local employment"
+            },
+            {
+              "kind": "paragraph",
+              "text": "opportunities。這段末句已經非常接近題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 Residents of Cuba、jobs。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Cuba, ecotourism has the potential to alleviate poverty by bringing money into the economy and creating jobs.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在古巴，ecotourism 有潛力透過為經濟帶來資金和創造工作來減輕貧困。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to their environmental benefits, these efforts create local employment opportunities through ecotourism.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：除了環境效益，這些努力也透過 ecotourism 創造本地就業機會。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題幹 “Residents of Cuba could” 需要接一個結果。選項 B “find jobs in the community” 對"
+            },
+            {
+              "kind": "paragraph",
+              "text": "應 “creating jobs” 和 “local employment opportunities”。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 沒有逐字說 residents，但 local employment opportunities 合理指向本地居民的工作機"
+            },
+            {
+              "kind": "paragraph",
+              "text": "會。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "tour",
+      "answerKey": "tour",
+      "type": "Summary Completion",
+      "prompt": "Ecotourism is not simply a 10 ____________; it is a 11 ____________.",
+      "translation": "Ecotourism 不只是一個旅程／遊覽活動；它也是一段旅向可持續性的過程。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 首句談 South America 的 biodiversity 和 wildlife exploration；末句談"
+            },
+            {
+              "kind": "paragraph",
+              "text": "indigenous peoples 參與 sustainable tourism。首尾句都把 ecotourism 放在 sustainability 和local communities 的框架內。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “not simply a ... it is a ...” 提示要找一組概念對比。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ecotourism depends on sustainable tours that allow travellers, nature and local communities to thrive together while respecting what makes the region special.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Ecotourism 依靠可持續的旅遊活動，讓旅客、自然和本地社區在互相尊重地區特色的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "情況下一起受益。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格 10 前面有 “a”，所以需要單數可數名詞。原文是 “sustainable tours”，但題目文法要求"
+            },
+            {
+              "kind": "paragraph",
+              "text": "單數，應填 tour。這裡的意思是：ecotourism 不只是一次 tour，它還有更長遠的 sustainability 意義。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "嚴格來說，原文是 plural “tours”。題目使用 “a” 後，答案形式要變成 singular “tour”。這屬"
+            },
+            {
+              "kind": "paragraph",
+              "text": "於題目設計造成的形式調整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "journey",
+      "answerKey": "journey",
+      "type": "Summary Completion",
+      "prompt": "Ecotourism is not simply a tour; it is a 11 ____________.",
+      "translation": "Ecotourism 不只是一個 tour；它也是一段 journey。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "和 Question 10 同一位置，下一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Travellers get great joy from every step they take forward on this endless but exciting journey towards sustainability.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：旅客在這段通往可持續性的漫長但令人興奮的旅程中，每向前一步都得到很大喜悅。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a”，需要單數名詞。原文直接有 “journey”，並且 “journey towards sustainability”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表示 ecotourism 是持續走向 sustainability 的過程。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “it is a journey” 直接取自原文 “journey towards sustainability”。Question 10 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "11 合起來，就是把 “sustainable tours” 與 “journey towards sustainability” 壓縮成一句 summary。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 sustainability。雖然 sustainability 是核心概念，但句子是 “it is a ____”，文法上需"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要可數名詞；journey 才能自然接上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "tropical forests",
+      "answerKey": "tropical forests",
+      "type": "Summary Completion",
+      "prompt": "South America promotes ecotourism because of the destruction of its 12____________.",
+      "translation": "南美洲推動 ecotourism，是因為它的熱帶森林遭到破壞。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 首句談 biodiversity 和 wildlife，末句談 indigenous peoples 參與 sustainable"
+            },
+            {
+              "kind": "paragraph",
+              "text": "tourism。中間很可能解釋 South America 的自然環境受到甚麼威脅。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 South America、destruction、forests。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The primary threats to South America’s tropical forests are deforestation caused by agricultural expansion, cattle ranching, logging, oil extraction and spills, mining, illegal coca farming, and colonisation initiatives.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：南美洲熱帶森林的主要威脅包括由農業擴張、養牛、伐木、石油開採和洩漏、採礦、非"
+            },
+            {
+              "kind": "paragraph",
+              "text": "法古柯種植和殖民倡議造成的森林砍伐。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “destruction” 對應原文 “deforestation” 和 “primary threats”。空格前 “its” 指 South"
+            },
+            {
+              "kind": "paragraph",
+              "text": "America’s，所以答案是 “tropical forests”。符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 deforestation。題目是 “destruction of its ____”，空格要填被破壞的對象；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "deforestation 是破壞形式，tropical forests 才是對象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "illegal hunting",
+      "answerKey": "illegal hunting",
+      "type": "Summary Completion",
+      "prompt": "East Africa also encourages it as a way of reducing 13 ____________ and protecting wildlife.",
+      "translation": "東非也鼓勵 ecotourism，把它視為減少非法狩獵和保護野生動物的方法。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 首句已經出現 “significantly reducing illegal hunting and allowing wildlife"
+            },
+            {
+              "kind": "paragraph",
+              "text": "populations to recover”，末句談 conservation efforts、environmental awareness 和 ecotourism promotion。這段明顯處理非法狩獵與野生動物保育。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In East Africa, significantly reducing illegal hunting and allowing wildlife populations to recover could generate substantial economic benefits through trophy hunting and potentially ecotourism.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在東非，大幅減少非法狩獵並讓野生動物數量恢復，可以透過 trophy hunting 和潛在的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ecotourism 產生可觀經濟利益。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “reducing” 原字重現；“protecting wildlife” 對應 “allowing wildlife populations to"
+            },
+            {
+              "kind": "paragraph",
+              "text": "recover”。空格要填 reducing 的受詞，所以答案是 illegal hunting。符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 wildlife populations。題目後面已經說 protecting wildlife，所以空格應是需要減少"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的負面行為。原文中需要減少的是 illegal hunting。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - World Ecotourism in the developing courtiers.pdf",
+    "sha256": "d3cd8d52ba6684ebe758efac437e86aac06ba1850b44d052a4a6b4b0356beeef",
+    "pageCount": 12
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可合理看到的全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句先用 The Ecotourism Society 的定義開場，說 ecotourism 是到自然地區的 responsible travel，並且要保護環境、改善本地人的福祉。末句補充它之所以提升旅遊的地位，是因為它尊重自然遺產、本地人口和每個地點的承載能力。只看首尾句，可以判斷 Paragraph A 是全文定義段，負責建立 ecotourism 的基本標準：環境保護、本地利益、可承受容量。後面各國例子都會圍繞這些標準展開。"
+      },
+      {
+        "number": "B",
+        "summary": "首句以 Cuba 開始，指出古巴有海灘、海底景觀、鄉郊風景和生態保護區，是很明顯的 ecotourism地點。末句說這些努力除了有環境效益，也能透過 ecotourism 創造本地就業機會。只看首尾句，可以估計 Paragraph B 會把古巴描寫成正面例子：自然資源豐富、旅遊發展成熟，而且ecotourism 能帶來教育、醫療、和平交流、扶貧和就業。題目若問 environmental education、herbal medicine、local jobs，很可能在此段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句直接說 South America illustrates one potential shortcoming of ecotourism，即南美洲顯示ecotourism 的一個潛在缺點。末句警告 HIV-infected travellers 要避免高風險行為或環境，例如探索有蝙蝠糞便的洞穴。只看首尾句，可以判斷 Paragraph C 不再讚美 ecotourism，而是轉向健康風險。段落主題很可能是旅客在南美洲參與 cave exploration、adventure tourism、ecotourism 時，可能接觸 bat or bird droppings，因而感染 fungus。題目若問 infection 或 health danger，應看此段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說在這種驚人的 biodiversity 之中，敏銳觀察和深入知識特別有價值，因為旅客探索的是野生動物豐富的偏遠地區。末句說很多 indigenous peoples 即使向更多旅客介紹 protected regions，也在 sustainable tourism 中擔任 leading roles。只看首尾句，可以估計 Paragraph D 會談南美洲的生物多樣性、sustainable tourism、indigenous peoples 和 conservation。中間很可能提到forests、deforestation、agriculture、logging、mining 等威脅。題目若問 tropical forests 被破壞或sustainability journey，應回到此段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說在 East Africa，如果大幅減少 illegal hunting 並讓 wildlife populations recover，就可以透過 trophy hunting 和 ecotourism 產生 substantial economic benefits。末句說 local advocates 很投入 community empowerment、photography、conservation praise、environmental awareness和 ecotourism promotion。只看首尾句，可以判斷 Paragraph E 是東非例子，重點是非法狩獵、野生動物恢復、經濟利益和本地保育倡議。題目若問 reducing illegal hunting、protecting wildlife、residents’ belief 或 conservation efforts，目標段落很可能是 Paragraph E。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Indonesia 在 1995 年把 ecotourism 視為強化 domestic travel 的重要概念。末句說這個國家歡迎不同預算範圍的旅客。只看首尾句，可以估計 Paragraph F 是市場定位段，會介紹印尼如何按照遊客類型設計 ecotourism：較富裕、受教育程度高、可長時間旅行的年長旅客；帶家庭旅行、為減壓出遊的中年旅客；以及預算較低、背包旅行時間較長的年輕旅客。題目若問 wealthy and budget travellers，答案應在此段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句用 On the other hand 開始，說 ecotourism 提供的服務和 traditional tourism 一樣多。末句引用 Gregory Pereira 說明 St Kitts 的 tours 包括 specially modified Land Rovers、island pastries、local fruit、fresh juices、qualified guide 和 liability insurance。只看首尾句，可以判斷 Paragraph G 不是單純談保育，而是談 ecotourism 也能有舒適、完整、商業化的旅遊服務，包括 honeymoon packages、guided tours、private service、picnic、transport 和 insurance。題目若問 honeymoon、picnic、local fruit 或 private service，應看此段。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Kodai 是適合親近 Mother Nature 的美麗目的地。末句說這種獨特的 culinary experience是很受歡迎的 ecotourism attraction。只看首尾句，可以估計 Paragraph H 會把 Kodai 描寫成自然與飲食體驗結合的例子。段落中間提到 deep valleys、steep mountains、unspoilt paths，也提到cheese factory exports cheese，而且工廠位於 forest centre。題目若問 cheese factory、forest location 或 distinctive culinary experience，應看此段。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "第 10 題有一個小小文本問題：原文是 “sustainable tours” 複數，但題目句式是 “a ____”，所以答案形式應填單數 “tour”。這是根據題目文法作出的合理調整；真正原文線索是 “sustainable tours”和 “journey towards sustainability”。"
+  ]
+}

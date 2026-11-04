@@ -1,0 +1,643 @@
+{
+  "id": "p3-132-how-to-handle-the-sun",
+  "catalogueId": "p3-132",
+  "catalogueIds": [
+    "p3-132"
+  ],
+  "passage": 3,
+  "title": "How to handle the Sun",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "E",
+    "H",
+    "C",
+    "F",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "affected",
+    "blend",
+    "caring",
+    "slowly",
+    "overcom e"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "E — suggests that the sun assists with common illnesses",
+      "answerKey": "E — suggests that the sun assists with common illnesses",
+      "type": "Matching People",
+      "prompt": "Question 27",
+      "translation": "另一位專家 Richard Kovacs 醫生寫道：「日光治療常常有助於身體虛弱的人，例如經常感冒、呼吸道疾病、流感等。」題目選項 E 說 “the sun assists with common illnesses”，其中 assists 對應 “is often helpful to”； common illnesses 對應 repeated colds、respiratory diseases、influenza。這些都是常見疾病或常見身體不適，所以 Q27 答案是 E。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目人物是 Richard Kovacs。掃描 Paragraph D，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another specialist, Dr Richard Kovacs, writes, ‘Sun treatment is often helpful to persons suffering from general debility – repeated colds, respiratory diseases, influenza and the like’.”"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "H — opened the first specialised hospital",
+      "answerKey": "H — opened the first specialised hospital",
+      "type": "Matching People",
+      "prompt": "Question 28",
+      "translation": "日光療法之父 August Rollier 於 1903 年開設了他的第一所高阿爾卑斯療養院。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目人物是 August Rollier。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“August Rollier, the Swiss father of heliotherapy, opened his first high-Alps sanatorium in 1903.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "sanatorium 是療養院，可理解為專門治療或休養的醫療機構。選項 H 的 “opened the first specialised hospital” 對應 “opened his first high-Alps sanatorium”。所以 Q28 答案是 H。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 C。Rollier 和 “health giver and healer” 出現在同一句附近，但真正說 “sun cure” 可治療多種皮膚病的人是 Coblenz，不是 Rollier。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — suggests that the sun is an excellent healer",
+      "answerKey": "C — suggests that the sun is an excellent healer",
+      "type": "Matching People",
+      "prompt": "Question 29",
+      "translation": "W. W. Coblenz 醫生指出，日光療法是治療至少 23 種皮膚病的重要因素，範圍由暗瘡、濕疹，到潰瘍和傷口。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目人物是 W. Coblenz。掃描 Paragraph D，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dr. W. W. Coblenz suggests that the sun cure is a major factor in the treatment of at least 23 skin diseases, ranging from acne and eczema to ulcers and wounds.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 說 “the sun is an excellent healer”。原文沒有直接用 excellent 這個字，但 “a major factor in the treatment of at least 23 skin diseases” 已經說明他認為陽光有很強治療作用。因此 Q29 答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "F — thinks that initially, the sun is of benefit to the body",
+      "answerKey": "F — thinks that initially, the sun is of benefit to the body",
+      "type": "Matching People",
+      "prompt": "Question 30",
+      "translation": "漫長冬天之後重新接觸陽光，對身體是一種普遍刺激；若之前有一段缺乏陽光的時期，效果會更強。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目人物是 Leonard Dodds。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“After a long winter, the return to the sun … is a general stimulus to the body, more potent if applied after a period when it has been lacking…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 F 的 initially 對應 “After a long winter” 和 “after a period when it has been lacking”。也就是說，剛重新接觸陽光時，身體會得到刺激和好處。後半句 “gradually loses its effect if exposure is over-prolonged” 也說明效果不是越曬越多，最初階段才最有益。因此 Q30 答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Most doctors agree when it comes to the health benefits of the sun.”",
+      "translation": "談到陽光對健康的好處時，大部分醫生意見一致。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The medical world appears to be divided on the effects of the sun upon the human body.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "醫學界似乎對陽光對人體的影響存在分歧。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is both healthy and beneficial for human skin.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這對人體皮膚既健康又有益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時要找 “doctors agree” 和 “health benefits”。Paragraph A 中真正關鍵的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Doctors agree on one of the benefits of the sun – vitamin D.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "醫生們對陽光其中一項好處有共識——維他命 D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “Most doctors agree when it comes to the health benefits of the sun”，範圍較闊，像是在說醫生普遍同意陽光的健康好處。原文開首先說 medical world divided，然後只縮窄到 “one of the benefits” 有共識。題目把一項共識放大成整體共識，與段落開首的 “divided” 相衝。因此答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Beaches are best for a suntan because the air has far less pollution.”",
+      "translation": "海灘最適合曬黑，因為空氣污染少得多。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Locale plays a big part in the effectiveness of the suntan.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "地點對曬黑效果有很大影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the seashore is best of all, with its air estimated to have at least a fifth of a per cent more oxygen than inland air – free of city and inland dust, tars, pollen, and allergens.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "海邊也許是最好的地方；據估計，海邊空氣比內陸空氣至少多五分之一個百分點的氧氣，並且沒有城市和內陸的灰塵、焦油、花粉和致敏原。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 定位詞是 “Beaches”、“suntan”、“air” 和 “pollution”。原文還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mountaintops and beaches are nonpareil sun spas because they receive far purer sunlight than the rest of the land.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "山頂和海灘是無與倫比的日光地點，因為它們接收到的陽光比其他陸地地方純淨得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “far less pollution” 對應原文的 “free of city and inland dust, tars, pollen, and allergens”，也呼應前一句城市 smoke and smog 會過濾陽光的有益特性。題目把 “free of dust, tars, pollen, allergens” 概括成 air has far less pollution，方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Women applied fat to their skin for protection from the sun.”",
+      "translation": "女性把脂肪塗在皮膚上，以防止太陽造成傷害。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over many years of study, dermatologists have proven that excessive exposure to sunlight for years is responsible for a large proportion of skin cancer amongst the population.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "經過多年研究，皮膚科醫生已證明，多年過度接觸陽光是人群中大量皮膚癌個案的原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both sexes now contribute annually to a multi-million dollar global sunscreen business.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今男女每年都為全球數百萬美元的防曬產品生意作出消費貢獻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 定位詞是 “Women”、“fat” 和 “protection from the sun”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the ladies of ancient Egypt first began to apply the fat of the so-called sacred temple cats to their faces, women have been tireless in waging this battle against damage to the skin from the sun.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "自古埃及女性最早開始把所謂神聖廟貓的脂肪塗在臉上以來，女性一直不懈地對抗太陽對皮膚造成的傷害。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “applied fat to their skin” 對應 “apply the fat … to their faces”；“for protection from the sun” 對應 “waging this battle against damage to the skin from the sun”。臉部屬於皮膚的一部分，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Extended exposure of the eyes to the sun can lead to blindness.”",
+      "translation": "眼睛長時間暴露在陽光下，可能導致視力喪失。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other parts of the human body which tend to suffer from exposure to the sun are the eyes and hair.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人體其他容易因接觸陽光而受傷的部位是眼睛和頭髮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These were dark enough to absorb most of the sun’s harmful infrared and ultraviolet rays.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些太陽眼鏡顏色夠深，可以吸收大部分太陽有害的紅外線和紫外線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 定位詞是 “eyes”、“sun” 和 “vision”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“even a few hours in the bright sun without sunglasses could cause a significant loss of vision –a loss that might take several weeks to recover from.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使只是在猛烈陽光下不戴太陽眼鏡幾個小時，也可能造成明顯視力下降；這種視力損失可能需要幾個星期才能恢復。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “lead to blindness” 可理解為造成嚴重視力喪失，並沒有說 permanent blindness。原文的 “a significant loss of vision” 支持這個方向；而 “even a few hours” 也表示陽光對眼睛的影響可以很快出現。題目用 extended exposure 概括長時間曝曬，原文用 even a few hours 強調少量時間已足以造成問題，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The human eye cannot heal itself when it is damaged by the sun.”",
+      "translation": "眼睛被陽光傷害後不能自行恢復。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other parts of the human body which tend to suffer from exposure to the sun are the eyes and hair.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "人體其他容易因接觸陽光而受傷的部位是眼睛和頭髮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These were dark enough to absorb most of the sun’s harmful infrared and ultraviolet rays.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些太陽眼鏡顏色夠深，可以吸收大部分太陽有害的紅外線和紫外線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 定位詞是 “eye”、“damaged” 和 “heal”。原文沒有用 heal，但有 recover："
+            },
+            {
+              "kind": "quote",
+              "text": "“a significant loss of vision – a loss that might take several weeks to recover from.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "明顯視力下降，而這種視力損失可能需要幾個星期才能恢復。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 cannot heal itself，方向是否定恢復能力；原文說這種 loss “might take several weeks to recover from”，即可以恢復，只是需時數星期。題目與原文方向相反，所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 “several weeks”。它表示恢復慢，不代表無法恢復。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "affected",
+      "answerKey": "affected",
+      "type": "Summary Completion",
+      "prompt": "“As far as the human body is concerned, it is primarily the face and hands that are 36 ______.”",
+      "translation": "就人體而言，主要是臉和手受到影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Year-round outdoor workers face the greatest risk of permanent skin damage, 90% of which occurs on the heavily exposed hands and face.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "全年在戶外工作的人面臨永久皮膚損害的最大風險，其中 90% 發生在大量暴露於陽光下的手和臉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “are”，後面沒有名詞，所以需要過去分詞或形容詞。word box 中 affected 最合適。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "hands and face are affected 對應原文 “damage … occurs on … hands and face”。所以答案是affected。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "blend",
+      "answerKey": "blend",
+      "type": "Summary Completion",
+      "prompt": "“When human skin is exposed to the sun, the body has a defence: a 37 ______ of the skin’s natural oils and acids.”",
+      "translation": "當皮膚暴露在陽光下，身體有一道防線：皮膚天然油脂和酸性物質的混合。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first line of defense against permanent sun damage is the skin’s own natural fatty matter and sweat, which combine to form an oily acid surface shield against the ultraviolet rays.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "對抗永久性日曬傷害的第一道防線，是皮膚本身的天然脂肪物質和汗液；它們結合起來，形成一層油性酸性表面保護膜，抵禦紫外線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a”，後面有 “of”，所以需要名詞。blend 可解作 mixture，即混合物。題目把 “fatty matter and sweat combine to form an oily acid surface shield” 改寫成 “a blend of the skin’s natural oils and acids”。所以答案是 blend。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "caring",
+      "answerKey": "caring",
+      "type": "Summary Completion",
+      "prompt": "“For some time, women have been more effective than men in 38 ______ for their skin.”",
+      "translation": "長久以來，女性比男性更懂得照顧自己的皮膚。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the years, women have shown far greater wisdom in the care of their skin than men.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "多年以來，女性在護理皮膚方面比男性表現出大得多的智慧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “in”，後面是 “for their skin”，最自然的搭配是 “caring for their skin”。原文的 “in the care of their skin” 轉成題目中的 “in caring for their skin”。所以答案是 caring。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "slowly",
+      "answerKey": "slowly",
+      "type": "Summary Completion",
+      "prompt": "“The damage often goes undetected because it happens quite 39 ______.”",
+      "translation": "這種傷害常常未被察覺，因為它發生得相當緩慢。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“So gradual was the change that the lifeguards were unaware that their sight had been affected.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種變化非常逐漸，以至於救生員沒有察覺自己的視力已受到影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “goes undetected” 對應 “were unaware”；“happens quite ______” 對應 “So gradual was the change”。word box 中 slowly 最能表達 gradual。答案是 slowly。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "overcome",
+      "answerKey": "overcome",
+      "type": "Summary Completion",
+      "prompt": "“Hair-care professionals recommend a lanolin-based conditioner to 40 ______ this problem.”",
+      "translation": "護髮專業人士建議使用含 lanolin 的護髮產品來處理這個問題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Haircare professionals recommend a nutritional cream treatment with a substance containing lanolin to restore your hair’s natural softness.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "護髮專業人士建議使用含有 lanolin 的滋養乳霜護理，以恢復頭髮的天然柔軟度。"
+            },
+            {
+              "kind": "label",
+              "text": "前文指出問題是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The sun has a lesser impact on the hair, but prolonged exposure leaves it brittle and dry.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "陽光對頭髮的影響較小，但長時間曝曬會令頭髮脆弱乾燥。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “restore your hair’s natural softness” 改寫成 “overcome this problem”。這個 problem 指dry and brittle hair。空格在 to 後面，需要動詞原形，所以答案是 overcome。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -How to handle the Sun.pdf",
+    "sha256": "ee32a042fb0ae9cb9219a1a15b5142207776ac3f07c48ec8b7b88a2782aed698",
+    "pageCount": 12
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說醫學界對陽光對人體的影響意見分裂；尾句說陽光透過皮膚中的 ergosterol 儲存 vitamin D，對皮膚健康有益。只看首尾句，可以先估計本段是全文導入：陽光的部分功效仍有爭議，但vitamin D 是醫生較有共識的一點。這段很可能支援 TRUE / FALSE / NOT GIVEN 中有關doctors agree、health benefits、vitamin D 的題目。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說西方世界的人對陽光產生迷戀；尾句說 Caucasians 的皮膚顏色會被太陽製造的 pigment層遮住，深淺又因 complexion 和 occupation 而異。只看首尾句，可以判斷本段重點是 suntan 的社會觀感和皮膚顏色形成。它解釋為何曬黑在西方被視為健康、活躍、戶外生活的標誌，但本段較少直接對應題目答案。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說地點對 suntan 的效果有很大影響；尾句說海邊空氣含氧量稍高，並且沒有城市和內陸的dust、tars、pollen、allergens。只看首尾句，可以推測本段討論哪裡最適合曬太陽：山頂和海灘因陽光較純淨而理想，城市煙霧會過濾掉陽光的有益特性。這段很可能支援 beaches、pollution、suntan effectiveness 類題目。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說太陽長久以來被稱為大自然最偉大的 health giver 和 healer，並提到 August Rollier 在1903 年開設第一所 high-Alps sanatorium。尾句引用 Leonard Dodds，說冬天後重新接觸陽光會刺激身體，但過久會逐漸失效。只看首尾句，可以看到本段集中列出幾位醫學人物對 sun cure 的看法，是人物配對題的核心段落。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說皮膚科醫生多年研究證明，長年過度曝曬會導致大量皮膚癌個案。尾句說男女現在每年都支撐著龐大的全球 sunscreen 生意。只看首尾句，可以判斷本段由陽光傷害轉向皮膚保護：戶外工作者風險高，手和臉受損最多；皮膚本身有天然油酸保護層，但海灘環境會削弱它。這段支援skin cancer、hands and face、women skincare、sunscreen 題目。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說除了皮膚，眼睛和頭髮也容易受陽光傷害；尾句說太陽眼鏡足夠深色，可吸收大部分有害infrared 和 ultraviolet rays。只看首尾句，可以估計本段先講眼睛受損：美國對 Atlantic City lifeguards 的研究顯示，短時間強光下不戴太陽眼鏡會造成視力明顯下降，而且變化很慢，令人不易察覺。這段支援 eyes、vision loss、recovery、slow damage 題目。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說太陽對頭髮的影響較小，但長時間曝曬會令頭髮 brittle and dry。尾句說戴帽有雙重作用：保護頭髮，也有助預防最危險的戶外問題 sunstroke。只看首尾句，可以判斷本段是頭髮保護建議：lanolin conditioner 可回復自然柔軟度，帽子則是更簡單的保護方法。這段支援 dry / brittle hair、lanolin conditioner、hat 類 summary 題。"
+      }
+    ]
+  }
+}

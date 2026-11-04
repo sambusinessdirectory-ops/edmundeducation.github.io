@@ -1,0 +1,199 @@
+import { createClassroomLiveSync } from '../classroom-live-sync.mjs?v=20261028-1';
+let classroomLive, classroomFinished=false;
+import {modules,moduleMap,allQuestionMap,correct,completed,latestRun,daily,hkDate,esc,hydrateModule} from './catalogue.mjs?v=20261024-books10-16-730';
+import {englishText,chineseText,promptText} from './advanced-display.mjs?v=20261024-books10-16-730';
+import {audioManifest} from './audio/manifest.mjs?v=20261024-books10-16-730';
+import {eventsByModule} from './progress-index.mjs?v=20261024-books10-16-730';
+import {mountRecorder,listRecordings,storeRecording} from './recording.mjs?v=20261103-readalong';
+const voiceAudio=new Audio();let voiceRequest=0,voiceLabel=null;const voiceUrls=new Map();
+const advancedCourse=document.body.dataset.course==='advanced-native';
+const visibleModules=modules.filter(m=>(m.course==='advanced-native')===advancedCourse);
+const inThisCourse=id=>visibleModules.some(m=>m.id===id);
+const $=s=>document.querySelector(s);let client,user=null,events=[],outbox=[],timeDays=[],inputs={},run=null,index=0,generation=0,syncing=null,ready=false,cleanup=()=>{},feedback={},seconds=0,lastTick=Date.now(),lastAction=Date.now(),storageFailed=false,current=null;
+const choiceOrders=new Map(),choiceOffsets=new Map();
+let moduleOpenRequest=0;
+function moduleLoadStatus(message){
+ let label=$('[data-module-load-status]');
+ if(!label){label=document.createElement('p');label.dataset.moduleLoadStatus='';label.setAttribute('role','status');$('[data-app]').prepend(label);}
+ label.textContent=message;label.hidden=!message;
+}
+function cancelModuleOpen(){moduleOpenRequest++;moduleLoadStatus('');}
+
+function choiceOrder(q){
+ const indexes=q.options.map((_,i)=>i);
+ const key=current.id+':'+run+':'+q.id;if(choiceOrders.has(key))return choiceOrders.get(key);
+ if(q.allCorrect){for(let i=indexes.length-1;i>0;i--){const j=crypto.getRandomValues(new Uint32Array(1))[0]%(i+1);[indexes[i],indexes[j]]=[indexes[j],indexes[i]];}choiceOrders.set(key,indexes);return indexes;}
+ const correctIndex=indexes.find(i=>correct(q,q.options[i]));if(correctIndex===undefined)return indexes;
+ const runKey=current.id+':'+run;
+ if(!choiceOffsets.has(runKey))choiceOffsets.set(runKey,crypto.getRandomValues(new Uint32Array(1))[0]%4);
+ const ordinal=current.questions.filter(item=>item.type==='mc').findIndex(item=>item.id===q.id);
+ const target=(ordinal+choiceOffsets.get(runKey))%indexes.length;
+ const distractors=indexes.filter(i=>i!==correctIndex);
+ for(let i=distractors.length-1;i>0;i--){const j=crypto.getRandomValues(new Uint32Array(1))[0]%(i+1);[distractors[i],distractors[j]]=[distractors[j],distractors[i]];}
+ distractors.splice(target,0,correctIndex);choiceOrders.set(key,distractors);return distractors;
+}
+const cacheKey=()=>`edmund-natural-english-v1:${user.id}`;
+const unique=xs=>[...new Map(xs.map(e=>[e.id,e])).values()];
+const status=(text,error=false)=>{$('[data-sync]').textContent=text;$('[data-retry]').hidden=!error;};
+function persist(){if(!user)return;try{localStorage.setItem(cacheKey(),JSON.stringify({events,outbox,timeDays,inputs}));}catch{storageFailed=true;status('本機儲存不可用，請保持連線並等候帳戶儲存。',true);}}
+async function rpc(name,args){if(!client){const c=window.EDMUND_SUPABASE;if(!window.supabase||!c)throw Error('登入服務未能載入，請重新整理。');client=window.supabase.createClient(c.url,c.anonKey,{auth:{persistSession:true,storage:sessionStorage,autoRefreshToken:true,detectSessionInUrl:false}});}const s=await client.auth.getSession();if(s.error)throw s.error;if(!s.data?.session){const a=await client.auth.signInAnonymously();if(a.error)throw a.error;}const {data,error}=await client.rpc(name,args).abortSignal(AbortSignal.timeout(15000));if(error)throw error;return data;}
+function add(data){if(!user)return;const e={id:crypto.randomUUID(),at:new Date().toISOString(),module:current?.id||data.module||'scoop',...data};outbox.push(e);if(e.kind!=='time')events.push(e);persist();void sync();if(data.kind==='answer')queueMicrotask(()=>classroomLive?.publish());return e;}
+async function sync(){if(!user||syncing)return syncing;const owner=user.id,token=user.token,gen=generation;const task=(async()=>{try{do{const batch=outbox.slice(0,100),ids=new Set(batch.map(e=>e.id));status('正在儲存…');const data=await rpc('natural_english_modules_sync',{p_token:token,p_events:batch});if(gen!==generation||user?.id!==owner)return false;outbox=outbox.filter(e=>!ids.has(e.id));events=unique([...(data.events||[]),...outbox.filter(e=>e.kind!=='time')]);timeDays=data.timeDays||[];persist();renderLibrary();if(current){progress();charts();}}while(outbox.length);status(storageFailed?'本機儲存不可用，請保持連線。':'');return true;}catch(e){if(gen===generation)status(/expired|session|Sign in/i.test(e.message||'')?'登入已過期，請重新登入。未同步進度保留於此裝置。':storageFailed?'未能連線，且本機儲存不可用。請保持此頁開啟並重試。':'暫時未能連線，進度保留於此裝置，恢復連線後會再同步。',true);return false;}})();syncing=task;const ok=await task;if(gen===generation)syncing=null;return ok;}
+const seen=sense=>events.some(e=>e.kind==='view'&&(e.module||'scoop')===current.id&&e.sense===sense);
+function view(sense){if(!seen(sense))add({kind:'view',sense});if(/^(recorded|skipped):/.test(sense))queueMicrotask(()=>classroomLive?.publish());}
+function recorded(slot){return seen('recorded:'+run+':'+slot);}
+function skipped(slot){return seen('skipped:'+run+':'+slot);}
+function stepDone(s){const done=completed(events,run,current);return s.questions.every(q=>done.has(q))&&(!s.recording||recorded(s.recording)||skipped(s.recording));}
+function moduleProgress(m,grouped){const source=grouped?grouped.get(m.id)||[]:events;const r=latestRun(source,m.id);return r?completed(source,r,m).size:0;}
+function advancedCard(m,grouped){
+ const done=moduleProgress(m,grouped),complete=done===m.questions.length;
+ const state=complete?'✓ 已完成':done?`${done} / ${m.questions.length} 題已完成`:'開始學習';
+ const title=m.cardTitleLines?.length?`<strong class="advanced-card-title-lines">${m.cardTitleLines.map(line=>`<span>${esc(line)}</span>`).join('')}</strong>`:`<strong>${esc(m.titleZh)}</strong>`;
+ return `<button class="module-card advanced-module-card" data-module="${m.id}" aria-label="第 ${m.number} 課：${esc(m.titleZh)}，${esc(state)}"><span class="advanced-card-top"><span>LESSON ${String(m.number).padStart(2,'0')}</span><span>${esc(m.kind.split(' · ')[1]||m.kind)}</span></span><span class="module-card-copy">${title}<em lang="en">${englishText(m.titleEn)}</em></span><span class="advanced-card-bottom"><span>${esc(state)}</span><span class="advanced-card-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M5 19 19 5M9 5h10v10"/></svg></span></span></button>`;
+}
+function zhPhrases(value){return chineseText(value);}
+function renderLibrary(){
+ // Every lesson remains in the library, but rebuilding thousands of hidden
+ // cards after each saved answer does no useful work. showLibrary refreshes it.
+ if(!user||$('[data-library-view]').hidden)return;
+ const grouped=eventsByModule(events);
+ const query=$('[data-module-search]').value.trim().toLocaleLowerCase();
+ const filtered=visibleModules.filter(m=>!query||String(m.number).includes(query)||m.titleZh.toLocaleLowerCase().includes(query)||m.titleEn.toLocaleLowerCase().includes(query));
+ const grid=$('[data-module-grid]');
+ if(advancedCourse&&!query&&filtered.length>5){
+  grid.dataset.layout='sections';
+  const groups=Array.from({length:Math.ceil(filtered.length/5)},(_,i)=>filtered.slice(i*5,i*5+5));
+  grid.innerHTML=groups.map((group,i)=>`${i===1?'<h2 class="advanced-library-section">繼續探索 · More expressions</h2>':''}<div class="module-card-grid" data-layout="${group.length===5?'featured':'results'}" data-palette="${i%2?'reversed':'normal'}">${group.map(m=>advancedCard(m,grouped)).join('')}</div>`).join('');
+ }else{
+  grid.dataset.layout=advancedCourse&&!query&&filtered.length===5?'featured':'results';
+  grid.innerHTML=filtered.map(m=>{if(advancedCourse)return advancedCard(m,grouped);const done=moduleProgress(m,grouped),complete=done===m.questions.length;return `<button class="module-card" data-module="${m.id}" aria-label="第 ${m.number} 課：${esc(m.titleZh)}"><span class="module-card-number">${String(m.number).padStart(2,'0')}</span><span class="module-card-copy"><strong>${esc(m.titleZh)}</strong><span>${complete?'✓ 已完成':done?`${done} / ${m.questions.length} 題已完成`:'開始學習'}</span></span></button>`;}).join('');
+ }
+ $('[data-library-count]').textContent=query?`找到 ${filtered.length} 課`:`全部 ${filtered.length} 課`;
+}
+function progress(){if(!user||!run||!current)return;const done=completed(events,run,current);$('[data-count]').textContent=`本次已完成 ${done.size} / ${current.questions.length} 題`;$('[data-progress]').max=current.questions.length;$('[data-progress]').value=done.size;$('[data-steps]').innerHTML=current.steps.map((s,i)=>`<button data-step="${i}" ${i===index?'aria-current="step"':''}><span>${stepDone(s)?'✓':String(i+1).padStart(2,'0')}</span>${s.label}</button>`).join('');const next=$('[data-next]');if(next)next.disabled=!stepDone(current.steps[index]);}
+function sentenceTranslation(value){if(!advancedCourse||!value)return '';const text=String(value).trim(),bracketed=/^（[\s\S]*）$/.test(text)?text:`（${text}）`;return `<span class="sentence-translation" lang="zh-Hant">${zhPhrases(bracketed)}</span>`;}
+function choiceText(value,translation){return `<span class="choice-copy"><span class="choice-original"${translation?' lang="en"':''}>${advancedCourse?(/[\u3400-\u9fff]/.test(value)?chineseText(value):englishText(value)):String(value).split(/,\s+/).map(esc).join(',<br>')}</span>${sentenceTranslation(translation)}</span>`;}
+function questionPrompt(q){return advancedCourse?promptText(q.prompt)+sentenceTranslation(q.promptZh):esc(q.prompt);}
+function safeHint(q){const hint=String(q.hint||'');return q.answers.some(answer=>answer.trim()&&hint.toLocaleLowerCase().includes(answer.trim().toLocaleLowerCase()))?'先根據情境自己試一次；提交後會看到解釋。':hint;}
+function openQuestionHtml(q){
+ const done=completed(events,run,current).has(q.id),reviewing=feedback[q.id]?.reviewing;
+ const key=current.id+':'+run+':'+q.id;
+ const saved=[...events].reverse().find(e=>e.kind==='answer'&&e.module===current.id&&(e.run===run||(e.kind==='view'&&e.sense?.includes(run)))&&e.question===q.id)?.choice||'';
+ const value=inputs[key]??saved;
+ const revealed=done||reviewing;
+ const glossary=q.glossary?.length?`<div class="writing-glossary"><strong>${zhPhrases('小詞庫 · 試用這些詞組寫句子')}</strong><p>${zhPhrases('詞庫不提供本課表達，請自己想想怎樣用它。')}</p><table><thead><tr><th scope="col">English</th><th scope="col">中文</th></tr></thead><tbody>${q.glossary.map(([en,zh])=>`<tr><td lang="en">${englishText(en)}</td><td>${zhPhrases(zh)}</td></tr>`).join('')}</tbody></table></div>`:'';
+ return `<article class="question open-question" data-question="${q.id}"><h3>${questionPrompt(q)}</h3>${glossary}<form data-open="${q.id}"><label for="open-${q.id}">你的英文回應</label><textarea id="open-${q.id}" name="answer" maxlength="400" spellcheck="true" ${done?'disabled':''}>${esc(value)}</textarea><p data-open-status role="status"></p>${revealed?'':`<button type="button" data-open-reveal="${q.id}">寫好後對照示例</button>`}</form>${revealed?`<div class="open-review"><strong>可行示例</strong><ul>${q.answers.slice(0,3).map(example=>`<li lang="en"><span>${advancedCourse?englishText(example,current.id,'yellow'):esc(example)}</span>${sentenceTranslation(q.answersZh?.[example])}</li>`).join('')}</ul><p>${advancedCourse?zhPhrases(q.explanation):esc(q.explanation)}</p>${done?'<strong>✓ 已完成自我檢查</strong>':`<button class="primary" data-open-complete="${q.id}">我已對照，完成本題</button>`}</div>`:''}</article>`;
+}
+function questionHtml(q){
+ if(q.type==='open')return openQuestionHtml(q);
+ const done=completed(events,run,current).has(q.id),f=feedback[q.id],value=inputs[current.id+':'+run+':'+q.id]||'';
+ const saved=done?[...events].reverse().find(e=>e.kind==='answer'&&e.module===current.id&&(e.run===run||(e.kind==='view'&&e.sense?.includes(run)))&&e.question===q.id)?.choice:null;
+ const picked=f?.choice??saved;
+ const choices=q.type==='mc'?`<div class="choices">${choiceOrder(q).map((originalIndex,i)=>{
+   const option=q.options[originalIndex],selected=q.allCorrect&&done&&picked===option;
+   const state=q.allCorrect?(selected?option===q.golden?'correct golden':'correct':''):(done&&correct(q,option)?'correct':f?.choice===option&&!f.correct?'wrong':'');
+   return `<button data-choice="${originalIndex}" data-q="${q.id}" ${done&&!q.allCorrect?'disabled':''} class="${state}" ${selected?'aria-pressed="true"':''}><span>${String.fromCharCode(65+i)}</span>${choiceText(option,q.optionZh?.[option])}</button>`;
+ }).join('')}</div>`:`<form data-blank="${q.id}"><label><span lang="en">${esc(q.before)}</span><input name="answer" value="${esc(value)}" aria-label="${esc(q.prompt)}" autocomplete="off" autocapitalize="none" spellcheck="false" maxlength="160" ${done?'disabled':''} required><span lang="en">${esc(q.after)}</span></label><div class="blank-actions">${done?'<span>✓ 已答對</span>':''}<button type="button" data-hint="${q.id}">給我提示</button></div><p data-hint-text hidden>${esc(safeHint(q))}</p></form>`;
+ const golden=q.allCorrect&&done&&picked===q.golden;
+ const heading=q.allCorrect&&done?(golden?'★ 金句！你用上了本課表達。':'✓ 回答自然，答對了！'):(done?'✓ 答對了！':'再想一下，你可以再試。');
+ const explanation=q.allCorrect&&done?(golden?'這句既回應了提問，也自然用上了本課表達。':'你的回答符合情境。試看看其他答案，找出含有本課表達的金句。'):q.explanation;
+ return `<article class="question ${q.allCorrect?'reply-question':''}" data-question="${q.id}"><h3>${questionPrompt(q)}</h3>${choices}${done||f?`<div class="feedback ${done?'good':''} ${golden?'golden':''}" role="status"><strong>${heading}</strong><p>${advancedCourse?zhPhrases(explanation):esc(explanation)}</p>${done?'':`<small>正確表達：${esc(q.answers[0])}</small>`}</div>`:''}</article>`;
+}
+function dialogueHtml(turns,language){const translated=language==='zh';return `<div class="model-dialogue ${translated?'model-translation':'model-sentence'}" lang="${translated?'zh-Hant':'en'}" ${translated?'data-zh hidden':''}>${turns.map(turn=>`<p class="model-turn" data-voice="${turn.speaker==='B'?'b':'a'}"><span class="model-speaker" aria-label="Speaker ${esc(turn.speaker)}">${esc(turn.speaker)}</span><span>${esc(translated?turn.zh:turn.en)}</span></p>`).join('')}</div>`;}
+function audioHtml(s){
+ if(!s.model)return '';
+ const pending=!stepDone(s);
+ if(s.revealAfterAnswer&&pending)return '';
+ if(s.speakingPrompt&&pending)return `<section class="model"><p class="eyebrow">先聽示範 · 再自己說</p><p class="audio-concealed">先聽完整句子，留意空格中的表達。</p><div class="audio-actions"><button data-say="${esc(s.model)}">▶ 聽示範</button><button data-say="${esc(s.model)}" data-slow>慢速播放</button></div><p data-audio-status role="status"></p>${s.displayModel?`<p class="model-sentence speaking-cloze" lang="en">${advancedCourse?englishText(s.displayModel):esc(s.displayModel)}</p>${sentenceTranslation(s.zh)}`:''}<p>${advancedCourse?zhPhrases(s.speakingPrompt):esc(s.speakingPrompt)}</p></section>`;
+ const concealed=(s.audioOnly||current.number>=7&&s.questions.length>0)&&pending;
+ const transcript=s.dialogue?dialogueHtml(s.dialogue,'en'):`<p class="model-sentence" lang="en">${advancedCourse?englishText(s.displayModel||s.model,current.id,'green'):esc(s.displayModel||s.model)}</p>`;
+ const translation=s.dialogue?dialogueHtml(s.dialogue,'zh'):`<p data-zh hidden>${esc(s.zh)}</p>`;
+ return `<section class="model"><p class="eyebrow">${concealed?'只聽聲音 · 先自己判斷':'聽一聽 · 再自己說'}</p>${concealed?'<p class="audio-concealed">先只聽聲音；稍後可回看逐字稿。</p>':transcript+(advancedCourse?sentenceTranslation(s.zh):'')}<div class="audio-actions"><button data-say="${esc(s.model)}">聽示範</button><button data-say="${esc(s.model)}" data-slow>慢速播放</button>${concealed||advancedCourse?'':'<button data-translation>顯示／隱藏中文</button>'}</div>${concealed||advancedCourse?'':translation}<p data-audio-status role="status"></p></section>`;
+}
+function revealHtml(s){if(!s.reveal)return '';const items=s.revealItems?.length?`<div class="scoop-pairs">${s.revealItems.map(([a,b])=>`<span>${esc(a)} <b lang="en">${esc(b)}</b></span>`).join('')}</div>`:'';return `<aside class="reveal"><h3>原來可以這樣說！</h3><p>${esc(s.reveal)}</p>${items}${audioHtml(s)}</aside>`;}
+function render(){classroomFinished=false;cleanup();cleanup=()=>{};stopVoice();const s=current.steps[index],done=completed(events,run,current);$('[data-stage]').innerHTML=`<div class="stage-heading"><p class="eyebrow">第 ${current.number} 課 / 第 ${index+1} 步，共 ${current.steps.length} 步</p><h2 tabindex="-1">${advancedCourse?zhPhrases(s.title):esc(s.title)}</h2><p>${advancedCourse?zhPhrases(s.intro):esc(s.intro)}</p></div>${s.sentence?`<div class="surprise"><span>${esc(current.surpriseLabel)}</span><p lang="en">${esc(s.sentence)}</p></div>`:''}${s.id.endsWith('surprise')||s.id==='surprise'?'':audioHtml(s)}${s.questions.map(id=>questionHtml(current.questionMap.get(id))).join('')}${(s.id.endsWith('surprise')||s.id==='surprise')&&(s.questions.some(id=>done.has(id)||feedback[id]))?revealHtml(s):''}${s.recording?`<section class="recorder" data-recorder></section><p class="record-badge" data-record-badge>${recorded(s.recording)?'✓ 口說已練習':skipped(s.recording)?'已跳過，可隨時回來練習':'口說選做，不計入答對題數'}</p>`:''}${s.questions.some(id=>current.questionMap.get(id).type==='blank')?'<div class="submit-bar"><span data-submit-status role="status">填好後可一次提交本頁答案。</span><button data-submit-partial>提交已填答案</button><button class="primary" data-submit-all>提交本頁全部答案</button></div>':''}<nav class="stage-nav"><button data-prev ${index===0?'disabled':''}>上一步</button><span>${stepDone(s)?'✓ 這一步已完成':s.recording?'完成題目後，錄音或選擇跳過即可繼續':'答對本頁題目後繼續；答錯可以再試。'}</span><button class="primary" data-next ${stepDone(s)?'':'disabled'}>${index===current.steps.length-1?'查看學習成果':'下一步'}</button></nav>`;
+ if(s.recording){const owner=user.id,currentRun=run,moduleId=current.id;cleanup=mountRecorder($('[data-recorder]'),{expected:s.model,key:owner+':'+moduleId+':'+run+':'+s.recording,instruction:s.speakingPrompt,onRecorded:async blob=>{if(user?.id!==owner||run!==currentRun||current?.id!==moduleId)return;const saved=await saveRecording(blob,owner,moduleId,currentRun,s.recording,s.model);if(user?.id!==owner||run!==currentRun||current?.id!==moduleId)return;view('recorded:'+run+':'+s.recording);$('[data-record-badge]').textContent='✓ 口說已練習';$('[data-stage] .model')?.replaceWith(document.createRange().createContextualFragment(audioHtml(s)));progress();return saved;},onSkip:()=>{if(user?.id!==owner||run!==currentRun||current?.id!==moduleId)return;view('skipped:'+run+':'+s.recording);$('[data-record-badge]').textContent=recorded(s.recording)?'✓ 口說已練習':'已跳過，可隨時回來練習';$('[data-stage] .model')?.replaceWith(document.createRange().createContextualFragment(audioHtml(s)));progress();}});}
+ progress();}
+function answer(id,choice,defer=false){const q=current.questionMap.get(id);if(!ready||!q||(!q.allCorrect&&completed(events,run,current).has(id)))return;const round=1+Math.max(0,...events.filter(e=>e.kind==='answer'&&(e.module||'scoop')===current.id&&e.run===run&&e.question===id).map(e=>e.round));feedback[id]={choice,correct:correct(q,choice)};if(advancedCourse)document.dispatchEvent(new CustomEvent('edmund:answer-result',{detail:{correct:feedback[id].correct}}));add({kind:'answer',run,round,question:id,choice});if(q.type==='mc'&&user?.id)document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer',{detail:{scope:`natural-english:${user.id}:${current.id}`,correct:feedback[id].correct,mc:true}}));if(defer)return;render();$(`[data-question="${id}"] .feedback`)?.scrollIntoView({block:'nearest',behavior:'smooth'});}
+function finish(){if(!current.steps.every(stepDone)){index=current.steps.findIndex(s=>!stepDone(s));render();return;}classroomFinished=true;cleanup();$('[data-stage]').innerHTML=`<section class="finish"><span class="finish-icon">✓</span><p class="eyebrow">第 ${current.number} 課完成</p><h2 tabindex="-1">${advancedCourse?zhPhrases('本課練習已完成！'):esc(current.completionTitle)}</h2>${advancedCourse?`<p class="completion-phrase" lang="en">${englishText(current.titleEn)}</p>`:''}<p>${current.questions.length} / ${current.questions.length} 題已完成。</p><p>今天帶走的實用表達：</p>${current.takeaways.map(t=>`<button class="takeaway" data-say="${esc(t)}"><span lang="en">${advancedCourse?englishText(t):esc(t)}</span>${sentenceTranslation(current.takeawaysZh?.[t])}</button>`).join('')}<p data-audio-status role="status"></p><div class="finish-actions"><button data-step="0">回顧本課</button><button class="primary" data-redo>再練一次</button><button data-back-modules>返回全部課程</button></div></section>`;renderLibrary();}
+function timeMap(){const map=new Map(timeDays.map(d=>[d.date,Number(d.seconds)]));for(const e of outbox.filter(e=>e.kind==='time'))map.set(hkDate(e.at),(map.get(hkDate(e.at))||0)+e.seconds);return map;}
+const duration=n=>`${Math.floor(n/60)} 分 ${Math.floor(n%60)} 秒`;
+function charts(){if(!user)return;const qs=daily(events),ts=timeMap(),range=$('[data-range]').value,today=hkDate(new Date());let dates=[...new Set([...qs.keys(),...ts.keys(),today])].sort();if(range!=='all'){dates=[];for(let i=Number(range)-1;i>=0;i--){const d=new Date(today+'T12:00:00+08:00');d.setUTCDate(d.getUTCDate()-i);dates.push(hkDate(d));}}$('[data-charts]').innerHTML=[['questions','完成題數',qs],['time','學習時間',ts]].map(([kind,title,map])=>{const vals=dates.map(d=>map.get(d)||0),max=Math.max(1,...vals),sum=vals.reduce((a,b)=>a+b,0);return `<article class="dashboard-card"><h3>${title}</h3><strong class="stat">${kind==='time'?duration(sum):sum+' 題'}</strong><p>${kind==='time'?'可見頁面的活躍學習時間':'每道題目在同一次練習只計一次'}</p><div class="bars">${dates.map((date,i)=>`<button data-day="${date}" data-kind="${kind}" title="${date}：${kind==='time'?duration(vals[i]):vals[i]+' 題'}" aria-label="${date}：${kind==='time'?duration(vals[i]):vals[i]+' 題'}"><svg viewBox="0 0 18 90" aria-hidden="true"><rect x="0" y="${90-Math.max(3,vals[i]/max*85)}" width="18" height="${Math.max(3,vals[i]/max*85)}" rx="4"/></svg><small>${date.slice(5)}</small></button>`).join('')}</div></article>`;}).join('');}
+function detail(date,kind){const el=$('[data-day-detail]');el.hidden=false;el.innerHTML=`<h3>${esc(date)} · ${kind==='time'?'學習時間':'作答紀錄'}</h3>`+(kind==='time'?`<p>${duration(timeMap().get(date)||0)} · 包括看解釋、答題和口說練習。</p>`:`<ul>${events.filter(e=>e.kind==='answer'&&hkDate(e.at)===date&&allQuestionMap.has(e.question)).map(e=>`<li>${allQuestionMap.get(e.question).type==='open'?'✓ 已完成自我檢查':correct(allQuestionMap.get(e.question),e.choice)?'✓ 答對':'待重溫'} · ${esc(allQuestionMap.get(e.question).prompt)}<small>你的回答：${esc(e.choice)}</small></li>`).join('')||'<li>當天沒有作答紀錄。</li>'}</ul>`);}
+function capture(){if(!user||!seconds)return;const n=Math.min(60,Math.floor(seconds));seconds-=n;if(n)add({kind:'time',seconds:n});}
+function showLibrary(push=true){cancelModuleOpen();capture();cleanup();stopVoice();current=null;run=null;feedback={};$('[data-library-view]').hidden=false;$('[data-lesson-view]').hidden=true;renderLibrary();charts();if(push)history.pushState({},'',location.pathname);}
+async function openModule(id,push=true){
+ const m=moduleMap.get(id);if(!m||!inThisCourse(id))return;
+ if(!user||!ready)return;
+ const request=++moduleOpenRequest,owner=user.id,gen=generation;
+ const active=()=>request===moduleOpenRequest&&generation===gen&&user?.id===owner&&ready;
+ if(m.advancedLazy){
+  capture();cleanup();cleanup=()=>{};stopVoice();current=null;run=null;feedback={};
+  $('[data-library-view]').hidden=false;$('[data-lesson-view]').hidden=true;
+  moduleLoadStatus('正在載入課程…');
+  try{await hydrateModule(id);}catch{
+   if(active())moduleLoadStatus('課程暫時未能載入，請按同一課程重試。');
+   return;
+  }
+  if(!active())return;
+ }
+ moduleLoadStatus('');capture();current=m;run=latestRun(events,id);if(!run){run=crypto.randomUUID();add({kind:'start',run});}feedback={};index=Math.max(0,m.steps.findIndex(s=>!stepDone(s)));if(index<0)index=0;$('[data-library-view]').hidden=true;$('[data-lesson-view]').hidden=false;$('[data-lesson-kicker]').textContent=`第 ${m.number} 課`;$('[data-lesson-title]').innerHTML=advancedCourse?zhPhrases(m.titleZh):esc(m.titleZh);render();charts();if(advancedCourse)$('[data-stage] h2')?.focus({preventScroll:true});if(push)history.pushState({module:id},'',`?module=${encodeURIComponent(id)}`);scrollTo({top:0,behavior:'smooth'});}
+function startReady(){if(!user)return;ready=true;$('[data-app]').inert=false;renderLibrary();charts();const id=new URLSearchParams(location.search).get('module');if(id&&inThisCourse(id))openModule(id,false);else showLibrary(false);}
+async function enter(token){const gen=++generation,rows=await rpc('flashcard_student_session_profile',{p_token:token});if(gen!==generation)return false;const r=rows?.[0];if(!r?.id||!r.session_token)return false;user={id:r.id,name:r.name,role:'student',token:r.session_token};events=[];outbox=[];inputs={};timeDays=[];run=null;ready=false;feedback={};seconds=0;storageFailed=false;try{const c=JSON.parse(localStorage.getItem(cacheKey())||'null');if(c&&Array.isArray(c.events)&&Array.isArray(c.outbox)){events=c.events;outbox=c.outbox;timeDays=c.timeDays||[];inputs=c.inputs||{};}}catch{}window.EdmundSystemNav?.rememberStudentSession(user);$('[data-login-form]').reset();$('[data-login]').hidden=true;$('[data-app]').hidden=false;$('[data-app]').inert=true;$('[data-logout]').hidden=false;$('[data-my-recordings]').hidden=false;$('[data-student]').textContent=user.name;$('[data-dashboards]').open=false;const ok=await sync();if(gen===generation&&ok)startReady();return true;}
+function clear(){cancelModuleOpen();cleanup();stopVoice();choiceOrders.clear();choiceOffsets.clear();generation++;user=null;current=null;run=null;ready=false;syncing=null;events=[];outbox=[];seconds=0;$('[data-app]').hidden=true;$('[data-login]').hidden=false;$('[data-logout]').hidden=true;$('[data-my-recordings]').hidden=true;$('[data-recordings-dialog]').close();clearLibrary();for(const url of voiceUrls.values())URL.revokeObjectURL(url);voiceUrls.clear();$('[data-student]').textContent='';}
+$('[data-login-form]').onsubmit=async e=>{e.preventDefault();const b=e.currentTarget.querySelector('[type=submit]'),f=new FormData(e.currentTarget);b.disabled=true;$('[data-login-status]').textContent='正在登入…';try{const rows=await rpc('flashcard_student_login',{p_name:String(f.get('username')).trim(),p_password:String(f.get('password'))});if(!rows?.[0]?.session_token||!await enter(rows[0].session_token))throw Error('用戶名稱或密碼不正確，請再試。');$('[data-login-status]').textContent='';}catch(err){$('[data-login-status]').textContent=err.message||'登入失敗，請重試。';}finally{b.disabled=false;}};
+$('[data-logout]').onclick=async()=>{cancelModuleOpen();capture();cleanup();await sync();clear();window.EdmundSystemNav?.forgetStudentSession();};
+$('[data-retry]').onclick=async()=>{if(await sync()&&!ready)startReady();};
+$('[data-range]').onchange=()=>{charts();$('[data-day-detail]').hidden=true;};
+$('[data-module-search]').addEventListener('input',()=>{cancelModuleOpen();renderLibrary();});
+document.addEventListener('submit',e=>{if(e.target.matches('[data-blank]')){e.preventDefault();submitBlanks(false);}else if(e.target.matches('[data-open]')){e.preventDefault();revealOpen(e.target.dataset.open);}});
+document.addEventListener('input',e=>{const f=e.target.closest('[data-blank],[data-open]');if(user&&f&&current){inputs[current.id+':'+run+':'+(f.dataset.blank||f.dataset.open)]=e.target.value;persist();}});
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||!user||!ready)return;if(b.dataset.module)openModule(b.dataset.module);else if(b.hasAttribute('data-back-modules'))showLibrary();else if(b.hasAttribute('data-submit-partial'))submitBlanks(false);else if(b.hasAttribute('data-submit-all'))submitBlanks(true);else if(b.dataset.openComplete)completeOpen(b.dataset.openComplete);else if(b.dataset.openReveal)revealOpen(b.dataset.openReveal);else if(b.dataset.step!==undefined){capture();index=Number(b.dataset.step);render();$('[data-stage] h2').focus();}else if(b.hasAttribute('data-prev')){capture();index--;render();}else if(b.hasAttribute('data-next')){capture();if(index===current.steps.length-1)finish();else{index++;render();}$('[data-stage] h2')?.focus();}else if(b.dataset.q)answer(b.dataset.q,current.questionMap.get(b.dataset.q).options[Number(b.dataset.choice)]);else if(b.dataset.hint)$(`[data-question="${b.dataset.hint}"] [data-hint-text]`).hidden=false;else if(b.hasAttribute('data-translation')){const p=b.closest('.model').querySelector('[data-zh]');p.hidden=!p.hidden;}else if(b.dataset.say)void playVoice(b);else if(b.dataset.day)detail(b.dataset.day,b.dataset.kind);else if(b.hasAttribute('data-redo')&&confirm('開始新一次練習？之前的紀錄會保留。')){run=crypto.randomUUID();feedback={};index=0;add({kind:'start',run});render();}});
+window.addEventListener('popstate',()=>{if(!user||!ready)return;const id=new URLSearchParams(location.search).get('module');if(id&&inThisCourse(id))openModule(id,false);else showLibrary(false);});
+['pointerdown','keydown'].forEach(n=>document.addEventListener(n,()=>lastAction=Date.now(),{passive:true}));
+setInterval(()=>{const now=Date.now(),elapsed=Math.min(2,Math.max(0,(now-lastTick)/1000));lastTick=now;if(user&&ready&&!document.hidden&&now-lastAction<600000){seconds+=elapsed;if(seconds>=30)capture();}},1000);
+setInterval(()=>{if(user&&!document.hidden)void sync();},60000);
+document.addEventListener('visibilitychange',()=>{capture();if(document.hidden){cleanup();stopVoice();}else{lastAction=Date.now();lastTick=Date.now();if(user&&ready&&current)render();void sync();}});
+window.addEventListener('online',async()=>{if(await sync()&&user&&!ready)startReady();});window.addEventListener('pagehide',()=>{cancelModuleOpen();capture();persist();cleanup();stopVoice();});
+window.addEventListener('edmund-student-session-change',()=>{if(user&&window.EdmundSystemNav?.getStudentSession?.()?.id!==user.id){capture();persist();clear();}});
+(async()=>{const s=window.EdmundSystemNav?.getStudentSession?.();if(s?.role==='student'&&s.token){try{if(await enter(s.token))return;}catch{}clear();$('[data-login-status]').textContent='請重新登入以繼續。';}})();
+window.addEventListener('pageshow',e=>{if(e.persisted&&user&&ready){lastAction=Date.now();lastTick=Date.now();if(current)render();void sync();}});
+function revealOpen(id){
+ const q=current?.questionMap.get(id),area=$(`[data-open="${id}"] textarea`);
+ if(q?.type!=='open'||!area||completed(events,run,current).has(id))return;
+ const value=area.value.trim();
+ if(value.length<3){$(`[data-open="${id}"] [data-open-status]`).textContent='先寫下你的英文回應，才可對照示例。';area.focus();return;}
+ inputs[current.id+':'+run+':'+id]=value;persist();feedback[id]={reviewing:true};render();
+ $(`[data-question="${id}"] .open-review`)?.scrollIntoView({block:'nearest',behavior:'smooth'});
+}
+function completeOpen(id){
+ const q=current?.questionMap.get(id),area=$(`[data-open="${id}"] textarea`);
+ if(q?.type!=='open'||!feedback[id]?.reviewing||!area)return;
+ const value=area.value.trim();
+ if(value.length<3){$(`[data-open="${id}"] [data-open-status]`).textContent='先寫下你的英文回應，才可完成自我檢查。';area.focus();return;}
+ inputs[current.id+':'+run+':'+id]=value;persist();answer(id,value);
+}
+function submitBlanks(all){const pending=current.steps[index].questions.filter(id=>current.questionMap.get(id).type==='blank'&&!completed(events,run,current).has(id));const values=pending.map(id=>[id,($(`[data-blank="${id}"] input`)?.value||'').trim()]);if(all&&values.some(([,value])=>!value)){$('[data-submit-status]').textContent='請先填完本頁空格，或選「提交已填答案」。';return;}const filled=values.filter(([,value])=>value);if(!filled.length){$('[data-submit-status]').textContent='請先填寫至少一個答案。';return;}for(const [id,value] of filled){inputs[current.id+':'+run+':'+id]=value;answer(id,value,true);}render();$('[data-submit-status]').textContent=`已檢查 ${filled.length} 個答案；答錯可修改後再提交。`;}
+function stopVoice(){voiceRequest++;voiceAudio.pause();voiceAudio.onended=null;voiceAudio.onerror=null;voiceAudio.removeAttribute('src');if(voiceLabel?.isConnected)voiceLabel.textContent='';voiceLabel=null;}
+async function playVoice(button){stopVoice();const ticket=voiceRequest,owner=user?.id,text=button.dataset.say,label=button.closest('.model,.finish')?.querySelector('[data-audio-status]');voiceLabel=label;if(label)label.textContent='正在載入示範…';try{const local=current?.id==='scoop'&&text==='Can I get two scoops of ice cream, please?'?'natural-english/audio/scoop-request-v2.mp3':audioManifest[current?.id]?.[text];if(advancedCourse&&!local)throw Error('Approved lesson audio mapping is missing.');let url=local||voiceUrls.get(text);if(!url){const response=await fetch('https://edmund-speaking-system.edmundeducation.workers.dev/v1/learning-voice',{method:'POST',headers:{Authorization:'Bearer '+user.token,'Content-Type':'application/json'},body:JSON.stringify({text}),signal:AbortSignal.timeout(30000)});if(!response.ok)throw Error();const blob=await response.blob();if(!blob.type.startsWith('audio/')||!blob.size)throw Error();if(ticket!==voiceRequest||user?.id!==owner)return;url=URL.createObjectURL(blob);voiceUrls.set(text,url);}if(ticket!==voiceRequest||user?.id!==owner)return;voiceAudio.onended=()=>{if(ticket===voiceRequest&&label?.isConnected)label.textContent='播放完畢。';if(voiceLabel===label)voiceLabel=null;};voiceAudio.onerror=()=>{if(ticket===voiceRequest&&label?.isConnected)label.textContent='未能播放，請按一次重試。';if(voiceLabel===label)voiceLabel=null;};voiceAudio.src=url;voiceAudio.currentTime=0;voiceAudio.playbackRate=button.hasAttribute('data-slow')?.75:1;await voiceAudio.play();if(ticket===voiceRequest&&label)label.textContent='正在播放…';}catch{if(ticket===voiceRequest&&label)label.textContent='未能播放，請按一次重試。';if(voiceLabel===label)voiceLabel=null;}}
+let libraryUrls=[];
+function clearLibrary(){$('[data-recordings-list]').querySelectorAll('audio').forEach(a=>a.pause());for(const url of libraryUrls)URL.revokeObjectURL(url);libraryUrls=[];$('[data-recordings-list]').innerHTML='';}
+async function uploadRecording(item){const owner=user?.id,token=user?.token;if(owner!==item.owner)return;await sync();const base64=await new Promise((resolve,reject)=>{const f=new FileReader();f.onload=()=>resolve(f.result.split(',')[1]);f.onerror=reject;f.readAsDataURL(item.blob);});await rpc('natural_english_modules_recording',{p_token:token,p_action:'save',p_payload:{id:item.id,module:item.module||'scoop',run:item.run,slot:item.slot,mime:item.blob.type.split(';')[0],audio:base64}});item.synced=true;await storeRecording(item);}
+async function saveRecording(blob,owner,module,currentRun,slot,text){const item={id:crypto.randomUUID(),owner,module,run:currentRun,slot,text,blob,at:new Date().toISOString(),synced:false};await storeRecording(item);try{await uploadRecording(item);return true;}catch{if(user?.id===owner)status('錄音已保留在此裝置；請到「我的錄音」重試上傳。',true);return false;}}
+$('[data-my-recordings]').onclick=()=>{stopVoice();$('[data-recordings-dialog]').showModal();void showRecordings();};$('[data-close-recordings]').onclick=()=>{$('[data-recordings-dialog]').close();clearLibrary();};$('[data-recordings-dialog]').addEventListener('close',clearLibrary);
+async function showRecordings(){const owner=user?.id,token=user?.token;if(!owner)return;clearLibrary();const host=$('[data-recordings-list]');host.textContent='正在載入錄音…';let local=[],remote=[],failed=false;try{local=await listRecordings(owner);}catch{}try{remote=await rpc('natural_english_modules_recording',{p_token:token,p_action:'list',p_payload:{}});}catch{failed=true;}if(user?.id!==owner||!$('[data-recordings-dialog]').open)return;const map=new Map(local.filter(i=>i.id).map(i=>[i.id,i]));for(const item of remote||[])map.set(item.id,{...map.get(item.id),...item,synced:true});const items=[...map.values()].sort((a,b)=>String(b.at||'').localeCompare(String(a.at||'')));host.innerHTML=(failed?'<p>暫時無法載入帳戶錄音，先顯示此裝置的副本。</p>':'')+(items.length?'':'<p>還沒有錄音。完成口說練習後便會在這裡出現。</p>');for(const item of items){const m=moduleMap.get(item.module||'scoop')||modules[0],box=document.createElement('article');box.className='record-library-item';box.innerHTML=`<h3>第 ${m.number} 課 · ${esc(m.titleZh)}</h3><p>${esc(item.at?new Date(item.at).toLocaleString('zh-HK'):'裝置錄音')} · ${item.synced?'已同步':'只在此裝置'}</p><button data-listen>播放錄音</button>${!item.synced&&item.id?'<button data-upload>重試上傳</button>':''}<audio controls hidden></audio><a hidden download="module-${m.number}-recording.${item.mime?.includes('mp4')?'m4a':'webm'}">下載錄音</a><p role="status"></p>`;host.append(box);box.querySelector('[data-listen]').onclick=async()=>{const message=box.querySelector('[role=status]');message.textContent='正在載入…';try{let blob=item.blob;if(!blob){const data=await rpc('natural_english_modules_recording',{p_token:token,p_action:'get',p_payload:{id:item.id}});blob=new Blob([Uint8Array.from(atob(data.audio),c=>c.charCodeAt(0))],{type:data.mime});}if(user?.id!==owner||!box.isConnected)return;const url=URL.createObjectURL(blob);libraryUrls.push(url);const a=box.querySelector('audio');a.src=url;a.hidden=false;const link=box.querySelector('a');link.href=url;link.hidden=false;await a.play();message.textContent='';}catch{message.textContent='未能播放，請重試。';}};const retry=box.querySelector('[data-upload]');if(retry)retry.onclick=async()=>{retry.disabled=true;try{await uploadRecording(item);if(user?.id===owner)await showRecordings();}catch{box.querySelector('[role=status]').textContent='未能上傳，裝置副本仍然保留。';retry.disabled=false;}};}}
+
+classroomLive = createClassroomLiveSync({
+ system:advancedCourse?'advanced-native':'natural-english',
+ context:()=>({owner:user?.id,token:user?.token,scope:ready&&current?current.id:null,active:true}),rpc,
+ read:()=>current?{module:current.id,run,index,feedback,finished:classroomFinished,events:events.filter(e=>e.module===current.id&&(e.run===run||(e.kind==='view'&&e.sense?.includes(run)))),inputs:Object.fromEntries(Object.entries(inputs).filter(([k])=>k.startsWith(current.id+':'+run+':')))}:null,
+ apply:snapshot=>{
+  if(snapshot.module!==current?.id||!Array.isArray(snapshot.events)||!Number.isInteger(snapshot.index)||snapshot.index<0||snapshot.index>=current.steps.length)return;
+  run=snapshot.run;index=snapshot.index;feedback=snapshot.feedback||{};
+  events=unique([...events,...snapshot.events,...outbox.filter(e=>e.kind!=='time')]);Object.assign(inputs,snapshot.inputs||{});
+  persist();render();if(snapshot.finished)finish();progress();charts();
+ }
+});
+document.addEventListener('click',e=>{if(e.target.closest('[data-next],[data-prev],[data-step],[data-redo],[data-open-complete],[data-open-reveal],[data-submit-all],[data-submit-partial]'))queueMicrotask(()=>classroomLive.publish());});
+document.addEventListener('input',e=>{if(e.target.closest('[data-blank],[data-open]')){clearTimeout(classroomDraftTimer);classroomDraftTimer=setTimeout(()=>classroomLive.publish(),350);}});
+let classroomDraftTimer;

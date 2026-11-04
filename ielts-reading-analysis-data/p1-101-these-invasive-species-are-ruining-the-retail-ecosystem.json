@@ -1,0 +1,2125 @@
+{
+  "id": "p1-101-these-invasive-species-are-ruining-the-retail-ecosystem",
+  "catalogueId": "p1-101",
+  "catalogueIds": [
+    "p1-101"
+  ],
+  "passage": 1,
+  "title": "These Invasive Species are Ruining the Retail Ecosystem",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "F",
+    "A",
+    "C",
+    "D",
+    "cattle feed",
+    "current epoch",
+    "corporate lawyers",
+    "weakly regulated markets",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“The suggestion that the government should legislate to control invasive species of a corporate nature”",
+      "translation": "文章哪一段提出：政府應透過立法或監管，控制企業性質的 invasive species？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是一種 policy suggestion。題目中的 “government should legislate” 未必逐字出現，原文可能用 regulators、regulation、checks and balances 來表達。另一個重要改寫是 “invasive species of a corporate nature”，即把自然界入侵物種比喻套到大型企業和連鎖店身上。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Like it or not (and it is something about which most policymakers and economists are in deep denial), weakly regulated markets give free rein to economic invasive species and hence tend towards monopoly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不管人們喜不喜歡這一點，多數政策制定者和經濟學家仍深深否認：監管薄弱的市場會放任經濟入侵物種，因而傾向走向壟斷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The scale and seriousness of Tesco’s ambition mean that, unless we recognise what is happening and have regulators up to the job, we will one day be able to shop anywhere we like, as long as it is Tesco.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tesco 的野心規模和嚴重性意味著，除非我們認清正在發生的事，並有能勝任的監管者，否則有一天我們表面上可以在任何地方購物，實際選擇卻只剩 Tesco。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph F 是結論段，焦點在 weakly regulated markets、monopoly、regulators。這正好對應題目中的 government / legislate / control。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“legislate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“control”"
+            },
+            {
+              "kind": "quote",
+              "text": "“corporate nature”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接寫 government should legislate，但有幾個高度相近的訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“checks and balances”"
+            },
+            {
+              "kind": "quote",
+              "text": "“anti-monopoly regulation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“regulators up to the job”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Advocates of free markets argue against checks and balances to counter the power of big business…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自由市場支持者反對用制衡措施來抵消大企業的力量。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“They resist anti-monopoly regulation in the name of providing consumer choice, and in the process they ultimately destroy it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們以提供消費者選擇為名，抗拒反壟斷監管；結果卻最終破壞了消費者選擇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句說明作者認為需要某種 regulation / checks and balances，以限制 big business 走向壟斷。題目把這概括成 “government should legislate to control invasive species of a corporate nature”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“government should legislate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“anti-monopoly regulation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“regulators up to the job”"
+            },
+            {
+              "kind": "quote",
+              "text": "“checks and balances”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“invasive species of a corporate nature”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“economic invasive species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“big business”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Tesco”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： Paragraph F 明確把問題推到 regulation 和 regulators，所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也說 “you have to manage for that outcome”，但那裡主要仍在用園藝比喻說明「要管理多樣性」。真正出現 anti-monopoly regulation 和 regulators 的位置在 Paragraph F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“Examples of the problems with the spread of specific invasive species in nature”",
+      "translation": "文章哪一段提供自然界中具體 invasive species 擴散後造成問題的例子？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求的是 examples，而且限定在 nature。要找的段落應該包含具體物種名稱，以及牠們或它們造成的問題。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Invasive species often triumph as a result of good intentions gone wrong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "入侵物種常常因為好意出錯而成功擴散。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Introduced for pest control, it turned out to be noisy, fast-spreading, and a greater pest itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "cane toad 原本為控制害蟲而引入，結果變得嘈雜、迅速擴散，而且自己成為更大的害蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph A 會列出自然界入侵物種的例子，並說明好意引入如何演變成生態問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“specific invasive species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“problems”"
+            },
+            {
+              "kind": "quote",
+              "text": "“spread”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 中出現三個具體例子： Japanese knotweed Nile perch cane toad"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說 Japanese knotweed："
+            },
+            {
+              "kind": "quote",
+              "text": "“from just a scrap of root no bigger than a pea it could grow through tarmac, pavements, and brick walls.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要有一小塊豌豆大小的根，它就能穿過柏油路、人行道和磚牆生長。"
+            },
+            {
+              "kind": "label",
+              "text": "又說 Nile perch："
+            },
+            {
+              "kind": "quote",
+              "text": "“it has helped push over 200 well-established local fish species to extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它已促使二百多種原本穩定存在的本地魚類走向滅絕。"
+            },
+            {
+              "kind": "label",
+              "text": "cane toad 則："
+            },
+            {
+              "kind": "quote",
+              "text": "“it turned out to be noisy, fast-spreading, and a greater pest itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它結果變得嘈雜、迅速擴散，自己也成為更大的害蟲。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“problems with the spread”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“threat”"
+            },
+            {
+              "kind": "quote",
+              "text": "“suffocates other plants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pushed … species to extinction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“greater pest itself”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： Paragraph A 集中列出自然界三個具體入侵物種及其破壞，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也講 biodiversity loss，但語氣較概括。Question 2 要找 examples of specific invasive species，所以 Paragraph A 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“Characteristics that distinguish invasive species in nature from other species”",
+      "translation": "文章哪一段說明自然界 invasive species 和其他物種不同的特徵？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求 characteristics，即特徵。這類題通常要找列表式句子，例如 include、typical characteristics、features 等訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Natural scientists use a whole new term to describe the current epoch of comprehensive global human interference in ecosystems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自然科學家使用一個全新的詞語，描述目前這個人類全面干預全球生態系統的時代。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever the reason for their arrival and proliferation, invasive species tend to cause a disruption of the ecosystem that is catastrophic for native species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論入侵物種因何到來並大量繁殖，它們往往會破壞生態系統，對本地物種造成災難性影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph C 是概念解釋段。它由 Homogocene 講到 biodiversity loss，再總結 invasive species 對 native species 的破壞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“characteristics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“invasive species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nature”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Typical characteristics of an invasive species include the absence of predators, hardiness, and a generalist diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "入侵物種的典型特徵包括缺乏天敵、生命力強，以及食性廣泛。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有清楚的列表： the absence of predators= 缺少天敵hardiness= 生命力強、適應力強a generalist diet= 食性廣泛，能吃很多不同東西這些特徵說明為何 invasive species 容易在新環境中擴散並壓倒 native species。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“characteristics that distinguish invasive species”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Typical characteristics of an invasive species include…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： Paragraph C 直接列出特徵，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也重提這三個特徵，但 E 的重點是把它們轉成大型超市的商業特徵。題目限定 “in nature”，所以 Paragraph C 是更直接答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“Examples of companies that can be considered invasive species”",
+      "translation": "文章哪一段列出可被視為 invasive species 的公司例子？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求 examples of companies，所以要找具體公司名稱，例如 supermarket、chain store、品牌名。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The big, centralised logistical operations of the supermarkets are likewise driving the homogenisation of business, shopping, eating, farming, food, the landscape, the environment, and our daily lives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大型超市集中化的物流運作，也正在推動商業、購物、飲食、農業、食物、景觀、環境和日常生活的同質化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With around 2,000 stores in Britain, almost one third of the grocery market, and rapid international growth, city analysts believe the brand has the land and resources in place already to double its UK floor space. Can anything stop it?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tesco 在英國約有二千間店，佔將近三分之一雜貨市場，並且快速國際擴張；城市分析師認為，這個品牌已有土地和資源，足以把英國店面面積翻倍。有甚麼能阻止它嗎？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph D 主要談大型超市和連鎖品牌如何令 retail landscape 同質化，其中 Tesco 是重點例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“companies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“invasive species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“examples”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tesco is not the only guilty party (think of McDonald’s, Starbucks, and Gap), but it is possibly the largest driving force.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tesco 並非唯一有責任的一方；想想 McDonald’s、Starbucks 和 Gap，但 Tesco 可能是最大的推動力量。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接列出四個公司或品牌： Tesco McDonald’s Starbucks Gap它們被放在同一段的 “invasive species” 比喻下，前文說 chain-store-led clone retailing 正在殺死diversity 和 local species。因此這些公司就是題目所問的 examples。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“companies that can be considered invasive species”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are spreading in the way ‘invasive species’ spread in nature…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Tesco … McDonald’s, Starbucks, and Gap”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： Paragraph D 列出具體公司名稱，答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也談 Tesco，但 Q4 問 examples of companies，Paragraph D 的公司名最集中。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "cattle feed",
+      "answerKey": "cattle feed",
+      "type": "Sentence Completion",
+      "prompt": "“Japanese knotweed was used for decoration and as 5 ______”",
+      "translation": "Japanese knotweed 曾被用作裝飾，亦被用作 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “as”，答案應是一個用途名詞短語。題目中的 “decoration” 會對應原文的 ornamental。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Invasive species often triumph as a result of good intentions gone wrong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "入侵物種常常因為好意出錯而成功擴散。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Introduced for pest control, it turned out to be noisy, fast-spreading, and a greater pest itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "cane toad 原本為控制害蟲而引入，結果自己成為更大的害蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段以自然界入侵物種為主，Japanese knotweed 是第一個例子，因此 Question 5 應在Paragraph A 前半定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japanese knotweed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“decoration”"
+            },
+            {
+              "kind": "quote",
+              "text": "“used as”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Take Japanese knotweed (Fallopia japonica), introduced to Britain by enthusiastic Victorian gardeners who thought it an ornamental delight that doubled as cattle feed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以 Japanese knotweed 為例，它由熱心的維多利亞時代園丁引入英國；他們認為它既是令人愉悅的觀賞植物，也可兼作牛飼料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“ornamental delight” 對應題目 “decoration”。“doubled as cattle feed” 表示「兼作 cattle feed」。答案形式檢查： cattle feed = two words，符合 NO MORE THAN THREE WORDS。所以答案是 cattle feed。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 ornamental delight，因為題目已經用 decoration 改寫了這部分。空格問另一個用途。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "current epoch",
+      "answerKey": "current epoch",
+      "type": "Sentence Completion",
+      "prompt": "“‘Homogocene’ is the word used by natural scientists to describe the 6 ______ we are living in.”",
+      "translation": "“Homogocene” 是自然科學家用來描述我們身處的 ______ 的詞語。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “the”，後面有 “we are living in”，所以答案應是表示時代或時期的名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C第一句：“Natural scientists use a whole new term to describe the current epoch of comprehensive global human interference in ecosystems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自然科學家使用一個全新的詞語，描述目前這個人類全面干預全球生態系統的時代。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whatever the reason for their arrival and proliferation, invasive species tend to cause a disruption of the ecosystem that is catastrophic for native species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論入侵物種因何到來並大量繁殖，它們往往會破壞生態系統，對本地物種造成災難性影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，已經看到 “whole new term” 和 “current epoch”，與題目高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Homogocene”"
+            },
+            {
+              "kind": "quote",
+              "text": "“natural scientists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“describe”"
+            },
+            {
+              "kind": "label",
+              "text": "原文接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our time, they say, should be called the ‘Homogocene’ to describe the way that distinctiveness and difference are being eroded.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們說，我們的時代應稱為 “Homogocene”，用來描述獨特性和差異正在被侵蝕的情況。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “the ______ we are living in”，對應原文第一句的："
+            },
+            {
+              "kind": "quote",
+              "text": "“the current epoch”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“epoch” 是時代、紀元；current 表示目前。這比 “our time” 更符合空格前 “the” 和原文用詞。答案形式檢查： current epoch = two words，符合 NO MORE THAN THREE WORDS。所以答案是 current epoch。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“our time” 也在原文出現，但題目句子要求 “the ______ we are living in”，最自然、最精確的答案是 “current epoch”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "corporate lawyers",
+      "answerKey": "corporate lawyers",
+      "type": "Sentence Completion",
+      "prompt": "“7 ______, plenty of money, and cost-cutting increase the strength of big supermarkets.”",
+      "translation": "______、充足資金和削減成本，增強了大型超市的力量。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格與 “plenty of money” 和 “cost-cutting” 並列，所以答案應是另一項增強大型超市實力的因素。題目用 “plenty of money” 改寫原文 “financial leverage”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bear in mind those characteristics of an invasive species: the absence of predators (real commercial competition or effective regulators to hold them back); hardiness (the legions of corporate lawyers, financial leverage, and endless commercial cost-cutting); and a generalist diet (supermarkets will sell virtually anything, and chain stores operate according to the lowest common denominator).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "請記住入侵物種的那些特徵：缺乏天敵，對應缺乏真正商業競爭或有效監管者；生命力強，對應大量企業律師、財務槓桿和不斷的商業削價；食性廣泛，對應超市幾乎甚麼都賣，而連鎖店按最低共同標準運作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When we garden, we hold back aggressive, opportunistic plants in order to keep space open for a celebration of variety and colour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們園藝時，會壓制具侵略性、機會主義的植物，為多樣和色彩保留空間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，已看到題目所需的並列結構。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“plenty of money”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cost-cutting”"
+            },
+            {
+              "kind": "quote",
+              "text": "“strength”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the legions of corporate lawyers, financial leverage, and endless commercial cost-cutting”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的： plenty of money= financial leverage cost-cutting= endless commercial cost-cutting剩下的並列項就是： corporate lawyers原文完整短語是 “the legions of corporate lawyers”，但題目限制是 NO MORE THAN THREE WORDS。最合適的答案是 corporate lawyers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： corporate lawyers = two words，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 corporate lawyers。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “legions of corporate lawyers”，因為這是 four words，超出字數限制。Sentence Completion 要保留原文詞，但也要按題目限制縮短到可接受範圍。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "weakly regulated markets",
+      "answerKey": "weakly regulated markets",
+      "type": "Sentence Completion",
+      "prompt": "“The article suggests that 8 ______ allow economic invasive species to do what they want and eventually lead to monopolies.”",
+      "translation": "文章指出，______ 會讓經濟入侵物種自由行動，並最終導向壟斷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後面的動詞是 allow，所以答案應是複數主語。題目中的 “do what they want” 會對應原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“give free rein”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F第一句：“Like it or not (and it is something about which most policymakers and economists are in deep denial), weakly regulated markets give free rein to economic invasive species and hence tend towards monopoly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不管人們喜不喜歡這一點，多數政策制定者和經濟學家仍深深否認：監管薄弱的市場會放任經濟入侵物種，因而傾向走向壟斷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The scale and seriousness of Tesco’s ambition mean that, unless we recognise what is happening and have regulators up to the job, we will one day be able to shop anywhere we like, as long as it is Tesco.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Tesco 的野心規模和嚴重性意味著，除非我們認清正在發生的事，並有能勝任的監管者，否則有一天我們表面上可以在任何地方購物，實際選擇卻只剩 Tesco。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句，已經看到 economic invasive species 和 monopoly，與題目完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“economic invasive species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“do what they want”"
+            },
+            {
+              "kind": "quote",
+              "text": "“monopolies”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“weakly regulated markets give free rein to economic invasive species and hence tend towards monopoly.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“give free rein to” 意思是放任、讓某人或某事自由行動。“hence tend towards monopoly” 對應題目 “eventually lead to monopolies”。因此空格答案是這句的主語： weakly regulated markets答案形式檢查： weakly regulated markets = three words，符合 NO MORE THAN THREE WORDS。所以答案是 weakly regulated markets。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 “markets”。題目問的是哪一種市場會放任 economic invasive species。原文限定是weakly regulated markets，即監管薄弱的市場。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Nile perch was introduced to Lake Victoria as a source of food for local people.”",
+      "translation": "Nile perch 被引入 Lake Victoria，是為了作為當地人的食物來源。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目包含兩個核心元素：第一，Nile perch was introduced to Lake Victoria。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，引入原因是 as a source of food for local people。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一部分原文有，第二部分要細讀是否有證據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Invasive species often triumph as a result of good intentions gone wrong.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "入侵物種常常因為好意出錯而成功擴散。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Introduced for pest control, it turned out to be noisy, fast-spreading, and a greater pest itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "cane toad 原本為控制害蟲而引入，結果變得嘈雜、迅速擴散，而且自己成為更大的害蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段會列出不同自然界入侵物種的引入原因和後果。Nile perch 在中間位置，所以要掃描該物種名稱。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nile perch”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Lake Victoria”"
+            },
+            {
+              "kind": "quote",
+              "text": "“source of food”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Again, with good intentions, it was introduced in 1954 to Lake Victoria, which straddles Tanzania, Kenya and Uganda.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣出於好意，它於 1954 年被引入 Lake Victoria；這個湖橫跨 Tanzania、Kenya 和 Uganda。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文清楚說明： Nile perch was introduced in 1954 to Lake Victoria= Nile perch 被引入 Lake Victoria但原文只說 “with good intentions”，沒有說這些好意具體是：為當地人提供食物增加漁獲改善當地營養發展 fisheries題目加入 “as a source of food for local people”，這是文章沒有提供的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文沒有提供足夠資料判斷「是否為了作為當地食物來源」。也沒有提供相反原因，所以不能選FALSE。最合適答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Nile perch 是魚，而且可以長得很大，現實上容易令人聯想到食物來源。但 IELTS Reading 只能根據文章判斷。原文有 “good intentions”，具體好意內容缺失。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Planning regulations have been ineffective against big supermarkets.”",
+      "translation": "planning regulations 對大型超市沒有有效阻止作用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目焦點落在 planning regulations 是否有效。要找 big supermarkets / chain stores 通過planning regulations 的描述。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As it is in nature, so it is in the economy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自然界如此，經濟世界亦如此。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rather than coexisting in balance—or even in a boom-and-bust cycle—with similar local types of shop, they began to displace them permanently.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們沒有與相似的本地店舖保持平衡共存，甚至沒有形成盛衰循環；它們開始永久取代這些店舖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph B 把連鎖商店比作經濟入侵物種，並說它們取代 local shops。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "planning regulations 應在中間句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“planning regulations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“big supermarkets”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ineffective”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They passed through planning regulations as easily as knotweed pushes through tarmac…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們通過規劃法規，就像 knotweed 穿過柏油路一樣容易。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句用比喻說明大型 superstores / cloned shops 很容易穿過 planning regulations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“as easily as knotweed pushes through tarmac” 帶有強烈批評：規劃制度沒有形成有效阻力。題目中的 “ineffective against big supermarkets” 是對這句的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“planning regulations have been ineffective”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“passed through planning regulations as easily as…”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“big supermarkets”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“superstores and cloned shops”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文支持題目說法，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有要求原文說 “completely ineffective”。“passed through … as easily as…” 已足夠表明規管效果很弱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Supermarkets in Britain sell a limited range of products.”",
+      "translation": "英國超市售賣的產品範圍有限。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找 supermarkets 的銷售範圍。題目中的 “limited range” 如果與原文 “virtually anything” 衝突，就要選 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bear in mind those characteristics of an invasive species: the absence of predators (real commercial competition or effective regulators to hold them back); hardiness (the legions of corporate lawyers, financial leverage, and endless commercial cost-cutting); and a generalist diet (supermarkets will sell virtually anything, and chain stores operate according to the lowest common denominator).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "請記住入侵物種的特徵：缺乏天敵、生命力強和食性廣泛；對應到商業世界，就是缺乏真正競爭或有效監管、有大量企業律師與資金及不斷削價，並且超市幾乎甚麼都賣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When we garden, we hold back aggressive, opportunistic plants in order to keep space open for a celebration of variety and colour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "園藝時，我們會壓制具侵略性、機會主義的植物，為多樣和色彩保留空間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已直接說 supermarkets will sell virtually anything，因此這段是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“supermarkets”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sell”"
+            },
+            {
+              "kind": "quote",
+              "text": "“limited range”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“supermarkets will sell virtually anything”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超市幾乎甚麼都會賣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“virtually anything” 意思是幾乎任何東西。這表示產品範圍非常廣。題目說 “a limited range of products”，意思是產品範圍有限。兩者方向衝突： limited range= 範圍有限virtually anything= 幾乎甚麼都賣判斷：原文直接提供相反資料，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“chain stores operate according to the lowest common denominator” 容易令人想到款式單一或標準化，但同一句對 supermarkets 的明確描述是 “sell virtually anything”。Question 11 問的是sell 的 range，所以應以這個短語定案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Chain stores only sell low-quality goods.”",
+      "translation": "連鎖店只售賣低質素商品。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目有兩個很強的限制： only= 只、全部限於low-quality goods= 低質素商品要選 TRUE，原文必須明確說連鎖店只賣低質素貨品。只說它們標準化、迎合大眾或按最低共同標準運作，仍不足夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bear in mind those characteristics of an invasive species: the absence of predators (real commercial competition or effective regulators to hold them back); hardiness (the legions of corporate lawyers, financial leverage, and endless commercial cost-cutting); and a generalist diet (supermarkets will sell virtually anything, and chain stores operate according to the lowest common denominator).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "請記住入侵物種的特徵：缺乏天敵、生命力強和食性廣泛；對應商業世界，就是缺乏真正競爭或有效監管、有企業律師與資金及不斷削價，並且超市幾乎甚麼都賣，連鎖店按最低共同標準運作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When we garden, we hold back aggressive, opportunistic plants in order to keep space open for a celebration of variety and colour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們園藝時會壓制具侵略性、機會主義的植物，為多樣和色彩保留空間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“chain stores”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only”"
+            },
+            {
+              "kind": "quote",
+              "text": "“low-quality goods”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到最接近位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“chain stores operate according to the lowest common denominator”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "連鎖店按最低共同標準運作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“lowest common denominator” 指迎合最大眾、最標準化、最低共同要求的做法。它可以帶出作者對連鎖店缺乏特色的批評，但它沒有直接等同於：只賣低質素商品所有商品質量都差完全沒有較高質素商品題目中的 “only” 亦沒有原文支持。原文談的是商業模式和標準化傾向，沒有提供產品品質分類。判斷：文章沒有足夠資料判斷 chain stores 是否只售賣低質素商品，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“lowest common denominator” 很容易被理解成「低質」。較準確地說，它在這裡更偏向「標準化、迎合最普通需求、缺乏地方特色」。產品品質這一層，原文沒有交代。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The writer is against the domination of big supermarkets.”",
+      "translation": "作者反對大型超市的支配地位。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 writer 的態度。要看作者對 big supermarkets / Tesco / chain retailers 的用詞是否負面，以及是否主張阻止或監管它們的擴張。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs B, D, F Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As it is in nature, so it is in the economy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自然界如此，經濟世界亦如此。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rather than coexisting in balance—or even in a boom-and-bust cycle—with similar local types of shop, they began to displace them permanently.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們沒有與相似本地店舖保持平衡共存，甚至沒有形成盛衰循環；它們開始永久取代這些店舖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 最後一句也警告，如果沒有監管，有一天我們表面上能到處購物，實際只剩 Tesco。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些首尾句已顯示作者態度偏批判。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“writer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“against”"
+            },
+            {
+              "kind": "quote",
+              "text": "“domination”"
+            },
+            {
+              "kind": "quote",
+              "text": "“big supermarkets”"
+            },
+            {
+              "kind": "label",
+              "text": "原文多處顯示負面態度："
+            },
+            {
+              "kind": "quote",
+              "text": "“dominate and suffocate the economic ecosystem”"
+            },
+            {
+              "kind": "quote",
+              "text": "“killing off diversity and ‘native’ … species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Can anything stop it?”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unless … have regulators up to the job”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the superstores and cloned shops grew to dominate and suffocate the economic ecosystem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大型超市和複製式商店逐漸支配並窒息經濟生態系統。"
+            },
+            {
+              "kind": "quote",
+              "text": "“dominate and suffocate” 是非常負面的描述。Paragraph D 又說：“They are spreading in the way ‘invasive species’ spread in nature, lacking checks and balances, killing off diversity and ‘native’ … species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們像自然界入侵物種一樣擴散，缺乏制衡，殺死多樣性和本地物種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 最後提出需要 regulators，並用 Tesco 壟斷式結尾作警告。這些語氣共同顯示作者反對大型超市支配 retail ecosystem。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“against the domination of big supermarkets”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“dominate and suffocate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“killing off diversity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unless … have regulators up to the job”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：作者的負面立場非常清楚，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章承認大型超市當初獲 planners、town councils 和 governments 允許擴張，且可能被認為提供服務。但作者重點落在後果：同質化、取代小店、走向壟斷和削弱 consumer choice。這些證據足以支持 TRUE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - These Invasive Species are Ruining the Retail Ecosystem.pdf",
+    "sha256": "8a7a5023a7e2906e42ea442e0b68fb95d7915d94e4dba76d3cda87e660549d6d",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句可先看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 invasive species 常因「好意出錯」而成功擴散。末句說 cane toad 原本為 pest control 引入，結果自己變成更大的害蟲。只看首尾句，可以先估計這段會用自然界例子建立文章核心比喻：外來物種一開始常有合理目的，例如觀賞、食物或除害；後來卻因生命力強、擴散快、缺乏控制而破壞原本生態。這段很可能對應自然界 invasive species 的具體問題。"
+      },
+      {
+        "number": "B",
+        "summary": "首句直接把自然界比喻轉到經濟世界：自然界如此，經濟亦如此。末句說大型連鎖店沒有與本地相似店舖保持平衡共存，最終開始永久取代它們。只看首尾句，可以看到這段功能是把superstores / chain retailers 塑造成經濟版 invasive species。段中大概會比較它們如何通過planning regulations、吞噬 independent retailers、支配 local economic ecosystem。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說自然科學家用新詞描述人類全面干預生態系統的當前時代。末句說 invasive species 通常會造成 ecosystem disruption，對 native species 帶來災難性影響。只看首尾句，可以估計這段會提升到概念層面，說明 Homogocene、biodiversity loss，以及 invasive species 的典型特徵。這段很適合找 characteristics、native biodiversity、absence of predators、hardiness、generalist diet等資料。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說大型超市的 centralized logistical operations 也在推動 business、shopping、eating、farming、landscape 等方面的 homogenisation。末句問 “Can anything stop it?”，顯示作者對Tesco 之類品牌的擴張有強烈憂慮。只看首尾句，可以看到這段主要處理英國 retail landscape 被連鎖化、標準化、clone retailing 取代的情況，也會列出被視為 economic invasive species 的公司例子。"
+      },
+      {
+        "number": "E",
+        "summary": "首句提醒讀者回想 invasive species 的特徵：absence of predators、hardiness、generalist diet，並把這些特徵套到商業世界。末句用 garden analogy 說，我們園藝時會壓制 aggressive plants，為 variety and colour 保留空間。只看首尾句，可以估計這段是「自然特徵 → 商業特徵」的對照段。它說明大型超市靠監管不足、律師、資金和削價取得強勢。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 weakly regulated markets 會讓 economic invasive species 自由擴張，最後走向monopoly。末句借用 Henry Ford 的句式，警告如果沒有足夠好的 regulators，將來我們去哪裡購物都可能只能去 Tesco。只看首尾句，可以看到這段是全文結論和政策呼籲：作者批評放任市場會削弱真正的 choice，並主張需要 checks and balances、anti-monopoly regulation 和有效監管。"
+      }
+    ]
+  }
+}

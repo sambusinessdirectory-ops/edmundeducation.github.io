@@ -1,0 +1,2245 @@
+{
+  "id": "p1-073-please-hold-the-line",
+  "catalogueId": "p1-073",
+  "catalogueIds": [
+    "p1-073"
+  ],
+  "passage": 1,
+  "title": "PLEASE HOLD THE LINE",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "D",
+    "A",
+    "C",
+    "D",
+    "D",
+    "A",
+    "B",
+    "YES",
+    "YES",
+    "NO",
+    "NOT GIVEN",
+    "NO",
+    "NO"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D — both gender and type of music influence callers’ reactions.",
+      "answerKey": "D — both gender and type of music influence callers’ reactions.",
+      "type": "Multiple Choice",
+      "prompt": "“The researchers concluded that …”",
+      "translation": "研究人員得出的結論是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 researchers concluded that，所以要找整體研究結論。重點不只是一種音樂好不好，也要看 music type 和 gender 是否共同影響 callers’ reactions。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1、Paragraph 6、Paragraph 7 Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nearly all of us know what it’s like to be put on ‘musical hold’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾乎我們所有人都知道被放在「音樂等候」中的感覺。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That may depend on your gender and what type of music is playing, according to research by James Kellaris, an associate professor of marketing at the University of Cincinnati.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 University of Cincinnati 行銷學副教授 James Kellaris 的研究，這可能取決於你的性別，以及正在播放哪一類音樂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一段首尾句，文章已經把核心變項放出來：gender 和 type of music。後面段落則用實驗結果支持這個方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“researchers concluded”"
+            },
+            {
+              "kind": "quote",
+              "text": "“gender”"
+            },
+            {
+              "kind": "quote",
+              "text": "“type of music”"
+            },
+            {
+              "kind": "quote",
+              "text": "“callers’ reactions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描時要找的不一定是 concluded 原字，也可能是 “findings”、“reactions”、“men and women”、"
+            },
+            {
+              "kind": "quote",
+              "text": "“music format differed”等表達。 Paragraph 6 有一句：“the effect of music format differed for men and women.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 music format 和 men and women，值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“That may depend on your gender and what type of music is playing…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可能取決於你的性別，以及正在播放哪一類音樂。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Kellaris’ other findings, however, make the picture of musical hold a little less clear: time spent‘on hold’ seemed slightly shorter when light jazz was played, but the effect of music format differed for men and women.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，Kellaris 的其他發現令 musical hold 的情況更不容易一概而論：播放 light jazz 時，on-hold時間似乎稍短，但音樂形式的效果因男女而有所不同。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“In general, classical music evoked the most positive reactions among males; light jazz evoked the most positive reactions (and shortest waiting time estimates) among females.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般而言，classical music 在男性中引起最正面反應；light jazz 在女性中引起最正面反應，並帶來最短的等待時間估計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句共同支持 D。研究顯示 caller reactions 不只受音樂類型影響，也和性別有關。男性和女性對 classical、light jazz、rock 的反應明顯不同。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “subjects underestimated the time spent ‘on hold’.”錯。原文說 “the time spent ‘on hold’ was generally overestimated.” 題目選項把 overestimated改成 underestimated，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “it is better for companies not to use any ‘on-hold’ music.”缺乏支援。文章說公司希望等待體驗 pleasant，並討論哪種音樂較適合，沒有說不用音樂較好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “light jazz was the most acceptable music overall.”只符合部分內容。light jazz 對女性反應較好，也讓等待看似稍短，但整體最佳選擇是 adult alternative，因為男女反應較少兩極化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “both gender and type of music influence callers’ reactions.”正確。這正好概括文章多處結論。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“gender”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“men and women”"
+            },
+            {
+              "kind": "quote",
+              "text": "“among males”"
+            },
+            {
+              "kind": "quote",
+              "text": "“among females”"
+            },
+            {
+              "kind": "label",
+              "text": "題目 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“type of music”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“what type of music is playing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“music format”"
+            },
+            {
+              "kind": "label",
+              "text": "題目 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“influence callers’ reactions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“effect … differed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“evoked the most positive reactions”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很吸引，因為 light jazz 在女性中反應最好，也令等待感略短。不過 overall best choice 另有答案：adult alternative。Question 1 問整體結論，D 覆蓋 gender 和 music type 兩個核心因素，所以最完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A — their client continue to play alternative music.",
+      "answerKey": "A — their client continue to play alternative music.",
+      "type": "Multiple Choice",
+      "prompt": "“The researchers recommended that …”",
+      "translation": "研究人員建議……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 recommended，要找研究對客戶公司的實際建議。定位時應找 client、current format、best choice 這類字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He did find some good news for the client who hired him.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他確實為聘請他的客戶找到了一些好消息。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Second, men and women were less polarised in their reactions to this type of music.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，男女性對這類音樂的反應較少兩極化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段會講「對客戶公司來說，哪種音樂較可取」。段首有 client who hired him，段尾講男女反應較平衡，這正好和公司實際選擇 on-hold music 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“recommended”"
+            },
+            {
+              "kind": "quote",
+              "text": "“client”"
+            },
+            {
+              "kind": "quote",
+              "text": "“alternative music”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接用 recommended，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their current adult-alternative format is probably the best choice.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句是建議功能的核心。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their current adult-alternative format is probably the best choice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們目前使用的 adult-alternative 形式大概是最佳選擇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "前文說這是 “good news for the client who hired him”，所以 “their” 指聘請 Kellaris 的那間公司。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若目前的 adult-alternative format 已經是 probably the best choice，合理結論就是該公司應繼續使用這種 alternative music。"
+            },
+            {
+              "kind": "label",
+              "text": "原文接着列出兩個原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, it did not produce strongly positive or negative reactions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，它沒有引起強烈正面或負面反應。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Second, men and women were less polarised in their reactions to this type of music.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，男女性對這類音樂的反應較少兩極化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個理由支持 A：adult alternative 雖然不一定最令人興奮，但它最穩定、最少引發強烈分歧。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “their client continue to play alternative music.”正確。current adult-alternative format is probably the best choice。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “four types of music should be offered to people ‘on hold’.”原文只是測試四種音樂，沒有建議 caller 可自行選四種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “advertising is preferable to music.”文章沒有提到 advertising。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “women can be kept waiting for longer than men.”原文說男女對音樂反應不同，沒有建議公司讓女性等更久。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“continue to play alternative music”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“current adult-alternative format is probably the best choice”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： continue = keep current format alternative music = adult-alternative format recommended = probably the best choice"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 會吸引人，因為研究確實 tested four types of music。但 tested four types 只是研究方法，不等於研究建議。做 MCQ 時，要分清 methodology 和 recommendation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C — classical",
+      "answerKey": "C — classical",
+      "type": "Matching Music Types",
+      "prompt": "“music preferred by men”",
+      "translation": "男性較喜歡的音樂。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In general, classical music evoked the most positive reactions among males; light jazz evoked the most positive reactions (and shortest waiting time estimates) among females.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般而言，classical music 在男性中引起最正面反應；light jazz 在女性中引起最正面反應，並帶來最短等待時間估計。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So maybe time does tend to fly when you’re having fun, even if you’re on musical hold,’ Kellaris joked.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kellaris 開玩笑說，也許當你享受其中時，時間真的會過得比較快，即使你正在電話音樂等候中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首句直接比較男女對不同音樂的正面反應。題目問 men，應在這句定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“preferred by men”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“evoked the most positive reactions among males”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In general, classical music evoked the most positive reactions among males…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般而言，classical music 在男性中引起最正面反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“preferred” 在題目中並非逐字重現，原文用 “most positive reactions” 表達偏好。男性對 classical music 反應最正面，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "preferred by men= evoked the most positive reactions among males"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 說 “Among men, the wait seemed shortest when classical music was played.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 又說男性對 classical reaction 最正面。兩句方向一致，因此 C 很穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "D — rock",
+      "answerKey": "D — rock",
+      "type": "Matching Music Types",
+      "prompt": "“longest waiting time estimate (both sexes)”",
+      "translation": "男女合計最長的等待時間估計。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In general, classical music evoked the most positive reactions among males; light jazz evoked the most positive reactions (and shortest waiting time estimates) among females.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般而言，classical music 在男性中引起最正面反應；light jazz 在女性中引起最正面反應，並帶來最短等待時間估計。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So maybe time does tend to fly when you’re having fun, even if you’re on musical hold,’ Kellaris joked.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kellaris 開玩笑說，也許當你享受其中時，時間真的會過得比較快，即使你正在電話音樂等候中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段同時講 positive reactions 和 waiting time estimates，所以 Q4 應在這段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“longest waiting time estimate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“both sexes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“both gender groups”"
+            },
+            {
+              "kind": "quote",
+              "text": "“produced the longest waiting time estimates”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rock was the least preferred by both gender groups and produced the longest waiting time estimates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rock 是男女兩組都最不喜歡的音樂，並產生最長的等待時間估計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完全對應題目。both sexes = both gender groups；longest waiting time estimate = longest waiting time estimates。答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "both sexes= both gender groups longest waiting time estimate= produced the longest waiting time estimates"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Example 說 “longest waiting time estimate for women = classical”。Q4 多了 “both sexes”，範圍不同。女性單獨看是 classical，男女合計看是 rock。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D — rock",
+      "answerKey": "D — rock",
+      "type": "Matching Music Types",
+      "prompt": "“music to avoid while callers are on hold”",
+      "translation": "顧客等候時應避免播放的音樂。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In general, classical music evoked the most positive reactions among males; light jazz evoked the most positive reactions (and shortest waiting time estimates) among females.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般而言，classical music 在男性中引起最正面反應；light jazz 在女性中引起最正面反應，並帶來最短等待時間估計。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So maybe time does tend to fly when you’re having fun, even if you’re on musical hold,’ Kellaris joked.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kellaris 開玩笑說，也許當你享受其中時，時間真的會過得比較快，即使你正在電話音樂等候中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段比較各類音樂的正負反應。若題目問 avoid，就要找 least preferred、aggravates people、longest estimates。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“avoid”"
+            },
+            {
+              "kind": "quote",
+              "text": "“callers are on hold”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 avoid，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“least preferred”"
+            },
+            {
+              "kind": "quote",
+              "text": "“aggravates people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“longest waiting time estimates”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rock was the least preferred by both gender groups and produced the longest waiting time estimates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rock 是男女兩組都最不喜歡的音樂，並產生最長的等待時間估計。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The rock music’s driving beat kind of aggravates people calling customer assistance with a problem,’ said Kellaris.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kellaris 說：「rock music 的強烈節拍有點會刺激那些帶着問題致電客戶支援的人。」這兩句合起來說明 rock 最應避免。它最不受歡迎，令人覺得等候時間最長，還可能 aggravate 有問題要處理的 caller。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "music to avoid= least preferred / aggravates people / produced the longest waiting time estimates callers are on hold= people calling customer assistance with a problem"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Rock” 本身可能有活力，現實中有人喜歡，但 IELTS 只看文章。原文在 both gender groups 和waiting time estimates 上都對 rock 不利，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "A — light jazz",
+      "answerKey": "A — light jazz",
+      "type": "Matching Music Types",
+      "prompt": "“music to use if clients are mostly women”",
+      "translation": "如果客戶大多是女性，應使用的音樂。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In general, classical music evoked the most positive reactions among males; light jazz evoked the most positive reactions (and shortest waiting time estimates) among females.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般而言，classical music 在男性中引起最正面反應；light jazz 在女性中引起最正面反應，並帶來最短等待時間估計。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So maybe time does tend to fly when you’re having fun, even if you’re on musical hold,’ Kellaris joked.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kellaris 開玩笑說，也許當你享受其中時，時間真的會過得比較快，即使你正在電話音樂等候中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目指明 mostly women，第一句直接提供女性最正面反應的音樂。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“mostly women”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“among females”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“light jazz evoked the most positive reactions (and shortest waiting time estimates) among females.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "light jazz 在女性中引起最正面反應，並帶來最短等待時間估計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 caller 大多是女性，理論上應選能讓女性反應最正面、覺得等候時間較短的音樂。因此答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "clients are mostly women= among females music to use= evoked the most positive reactions / shortest waiting time estimates"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Example 中說 women 對 classical 的等待時間估計最長，所以如果看到 “women” 後只記得classical，很容易出錯。女性相關資料有兩種方向：classical 對女性最不利；light jazz 對女性最有利。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "B — alternative",
+      "answerKey": "B — alternative",
+      "type": "Matching Music Types",
+      "prompt": "“best choice of ‘on-hold’ music overall”",
+      "translation": "整體而言最好的 on-hold music 選擇。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He did find some good news for the client who hired him.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他確實為聘請他的客戶找到了一些好消息。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Second, men and women were less polarised in their reactions to this type of music.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，男女性對這類音樂的反應較少兩極化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段談的是對客戶公司的整體選擇建議。題目有 overall，應找能平衡男女反應的音樂，而非只對某一性別最有利的音樂。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“best choice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“overall”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their current adult-alternative format is probably the best choice.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their current adult-alternative format is probably the best choice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們目前使用的 adult-alternative 形式大概是最佳選擇。"
+            },
+            {
+              "kind": "label",
+              "text": "接着原文解釋原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, it did not produce strongly positive or negative reactions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，它沒有引起強烈正面或負面反應。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Second, men and women were less polarised in their reactions to this type of music.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，男女性對這類音樂的反應較少兩極化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "overall 的重點在平衡。Alternative music 未必令某一組最興奮，但它最少引發強烈負面反應，男女差距也較小，因此是最佳整體選擇。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "best choice overall= probably the best choice= less polarised reactions alternative= adult-alternative format"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Light jazz 可能令人覺得等候時間稍短，也最適合女性；classical 最適合男性。但整體公司選擇要兼顧男女，adult alternative 更穩定。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Businesses want to minimise the time spent ‘on hold’.”",
+      "translation": "企業希望盡量減少顧客被放在電話等候中的時間。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷企業對 waiting on hold 的態度。重點是 businesses 是否希望減少等待時間。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Service providers, of course, do not want customers to wait on hold; if they do, however, companies want the experience to be pleasant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "服務提供者當然不希望顧客在電話中等待；如果顧客真的要等，公司也希望這段體驗是愉快的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The actual wait in the study was 6 minutes, but the average estimate was 7 minutes and 6 seconds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究中的實際等待時間是 6 分鐘，但平均估計是 7 分 6 秒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯講公司不希望顧客等待，以及顧客如何高估等待時間。題目中的 minimise time spent on hold 與段首 “do not want customers to wait on hold” 高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Businesses”"
+            },
+            {
+              "kind": "quote",
+              "text": "“minimise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“time spent on hold”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Service providers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“do not want customers to wait on hold”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Service providers, of course, do not want customers to wait on hold; if they do, however, companies want the experience to be pleasant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "服務提供者當然不希望顧客在電話中等待；如果顧客真的要等，公司也希望這段體驗是愉快的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “want to minimise the time”，原文說 “do not want customers to wait on hold”。兩者方向一致：公司不希望顧客等待，若等待發生，也要讓體驗不太差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較題目命題：Businesses want to minimise time on hold.原文命題：Service providers do not want customers to wait on hold.比較結果：同方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Businesses = service providers / companies minimise time = do not want customers to wait on hold = on hold所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有逐字寫 “minimise”。但 “do not want customers to wait” 已經足以支持「希望等候時間減到最低」這個概括。這是合理短距離改寫。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The research sample consisted of real clients of a company.”",
+      "translation": "研究樣本由一間公司的真實客戶組成。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要查 sample 的身份。關鍵是 71 participants 是否為公司客戶。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers tested four types of ‘on-hold’ music with 71 of the company’s clients, 30 of them women.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員用該公司的 71 名客戶測試四種 on-hold music，其中 30 人是女性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their reactions and comments were also solicited and quantified by the researchers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員也徵詢並量化了他們的反應和評論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 3 是實驗方法段，並在第一句清楚交代樣本：71 of the company’s clients。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“research sample”"
+            },
+            {
+              "kind": "quote",
+              "text": "“real clients”"
+            },
+            {
+              "kind": "quote",
+              "text": "“company”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“71 of the company’s clients”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers tested four types of ‘on-hold’ music with 71 of the company’s clients, 30 of them women.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員用該公司的 71 名客戶測試四種 on-hold music，其中 30 人是女性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the company’s clients” 表示這些人是公司客戶，不是隨機學生、研究員或普通路人。題目中的“real clients of a company” 正好概括此句。命題比較題目命題：sample consisted of real clients of a company.原文命題：tested with 71 of the company’s clients.比較結果：同方向。 research sample = 71 participants real clients = the company’s clients consisted of = tested with所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "後文說 participants were asked to imagine calling a customer assistance line。這只是實驗情境是 imagined，不代表參與者身份是假客戶。他們仍然是 company’s clients。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The sample consisted of equal numbers of men and women.”",
+      "translation": "研究樣本由相同數量的男性和女性組成。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 numbers 是否 equal。看到數字時要計算：總人數 71，其中 women 30，因此 men 41。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers tested four types of ‘on-hold’ music with 71 of the company’s clients, 30 of them women.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員用該公司的 71 名客戶測試四種 on-hold music，其中 30 人是女性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their reactions and comments were also solicited and quantified by the researchers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員也徵詢並量化了他們的反應和評論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句直接有 sample size 和 female number。題目問男女是否 equal，所以這句足夠判斷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“sample”"
+            },
+            {
+              "kind": "quote",
+              "text": "“equal numbers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“men and women”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“71”"
+            },
+            {
+              "kind": "quote",
+              "text": "“30 of them women”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers tested four types of ‘on-hold’ music with 71 of the company’s clients, 30 of them women.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員用該公司的 71 名客戶測試四種 on-hold music，其中 30 人是女性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "計算： Total = 71 Women = 30 Men = 71 - 30 = 41男女數量是 41 和 30，並不相等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較題目命題：equal numbers of men and women.原文命題：71 participants, 30 women, so 41 men.比較結果：相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "equal numbers = 男女相同30 women and 41 men = 男女不同所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有直接問 women 數量，而是問 equal numbers。這類題需要由總數和女性數字推出男性數字。只看到 women 30 不夠，要完成 71 - 30。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Advertising is considered a poor alternative to ‘on-hold’ music.”",
+      "translation": "廣告被認為是 on-hold music 的差劣替代品。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 advertising 和 on-hold music 的比較。若原文完全沒有 advertising，就不能判斷作者是否認為它是 poor alternative。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可能相關範圍：全文，尤其 Paragraphs 4–8 Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Service providers, of course, do not want customers to wait on hold; if they do, however, companies want the experience to be pleasant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "服務提供者當然不希望顧客在電話中等待；如果顧客真的要等，公司也希望這段體驗是愉快的。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The possible solution,’ Kellaris joked, ‘might be for the recorded message to say: if you’re a male, please press one; if you’re a female, please press two. If you are in a bad mood, please hang up and try later.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kellaris 開玩笑說：「可能的解決方法是讓錄音訊息說：如果你是男性，請按一；如果你是女性，請按二。如果你心情不好，請掛線稍後再打。」整篇文章一直討論 music format、gender reactions、waiting time estimates，沒有建立advertising 和 music 的比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Advertising”"
+            },
+            {
+              "kind": "quote",
+              "text": "“poor alternative”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描全文，沒有 advertising、commercials、advertisements、promotional messages 這類資訊。文章只提到 “recorded message”，但那是性別選擇的幽默說法，並非廣告。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關邊界"
+            },
+            {
+              "kind": "label",
+              "text": "原文確實討論 alternative，但語境不同："
+            },
+            {
+              "kind": "quote",
+              "text": "“adult alternative” 是一種音樂類型，不是 advertising 的 alternative。原文也有：“Their current adult-alternative format is probably the best choice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們目前使用的 adult-alternative 形式大概是最佳選擇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “alternative” 是 music format 名稱的一部分，不能理解成「替代方案」。題目中的advertising as an alternative 完全沒有原文支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較題目需要： Advertising exists as an option. Advertising is compared with on-hold music. Advertising is considered poor.原文有：不同 music formats 的比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有 advertising 資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有 advertising 和 music 的優劣比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：核心資料缺失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“adult alternative” 很容易誤導學生看到 alternative 就想到替代方案。這裡 adult alternative 是音樂類型名稱，與 advertising 無關。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The customer service company surveyed was playing classical music.”",
+      "translation": "被調查的 customer service company 當時播放的是 classical music。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要查公司原本的 current format。題目說 classical music；原文若說 current format 是 adult alternative，答案就是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3 和 Paragraph 5 Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers tested four types of ‘on-hold’ music with 71 of the company’s clients, 30 of them women.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員用該公司的 71 名客戶測試四種 on-hold music，其中 30 人是女性。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He did find some good news for the client who hired him.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他確實為聘請他的客戶找到了一些好消息。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Second, men and women were less polarised in their reactions to this type of music.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，男女性對這類音樂的反應較少兩極化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 告訴我們四種音樂被測試；Paragraph 5 告訴我們該公司目前使用哪種音樂較好。題目問 customer service company was playing，所以應看 current format。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“customer service company”"
+            },
+            {
+              "kind": "quote",
+              "text": "“was playing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“classical music”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Light jazz, classical, rock and the company’s current format of adult alternative … were all tested.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their current adult-alternative format is probably the best choice.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Light jazz, classical, rock and the company’s current format of adult alternative (a mix of contemporary styles) were all tested.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Light jazz、classical、rock，以及該公司目前使用的 adult alternative 形式，即多種當代風格的混合，都被測試了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚區分四類音樂：light jazz、classical、rock、the company’s current format of adult alternative。公司當時的 current format 是 adult alternative，classical 只是被測試的其中一種音樂。"
+            },
+            {
+              "kind": "label",
+              "text": "原文再說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their current adult-alternative format is probably the best choice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們目前使用的 adult-alternative 形式大概是最佳選擇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較題目命題：company was playing classical music.原文命題：company’s current format was adult alternative.比較結果：相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "classical music 確實被 tested，也在男性中反應最好。可是題目問公司正在播放甚麼 current format。測試過某音樂，不等於公司原本正在播放該音樂。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Researchers asked subjects only to estimate the length of time they waited ‘on hold’.”",
+      "translation": "研究人員只要求受試者估計自己 on hold 等了多久。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要留意 only。若原文說除了估計時間，還收集 reactions and comments，題目就和原文相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers tested four types of ‘on-hold’ music with 71 of the company’s clients, 30 of them women.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員用該公司的 71 名客戶測試四種 on-hold music，其中 30 人是女性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their reactions and comments were also solicited and quantified by the researchers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員也徵詢並量化了他們的反應和評論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經看到 also。這代表研究不只要求估計時間，還收集反應和評論。題目中的only 是控制答案的關鍵。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“only”"
+            },
+            {
+              "kind": "quote",
+              "text": "“estimate the length of time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“asked to estimate how long it played”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Their reactions and comments were also solicited and quantified”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“They were then exposed to ‘on-hold’ music via headsets and asked to estimate how long it played.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們接着透過耳機聽 on-hold music，並被要求估計音樂播放了多久。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their reactions and comments were also solicited and quantified by the researchers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員也徵詢並量化了他們的反應和評論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句支持題目的一部分：subjects did estimate time。第二句用 also 加入另一項任務：reactions and comments。題目說 only，因此範圍過窄，與原文不相容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較題目命題：researchers asked subjects only to estimate time.原文命題：subjects estimated time; researchers also collected reactions and comments.比較結果：題目排除了原文存在的額外任務。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易被 “asked to estimate how long it played” 吸引。看到這句後不能立即選 YES，因為題目有 only。遇到 only、all、never、equal 這類限制詞，要再看前後句是否加入其他資訊。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - PLEASE HOLD THE LINE.pdf",
+    "sha256": "15665a5d642b15eef3f7b94be51df1cb0de39cba5f8796a6492edf8911d4dda4",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看第一句，讀者會先知道幾乎人人都有被 customer service 放在 musical hold 的經驗。最後一句說，究竟會掛線還是繼續等，可能取決於 gender 和播放的 music type。首尾句顯示，這段負責提出全文問題：on-hold music 會否影響顧客等待反應。James Kellaris 的研究在段末被引入，因此後文很可能會圍繞性別、音樂種類和等待感受展開。"
+      },
+      {
+        "number": "2",
+        "summary": "這段只有一句，第一句也就是最後一句。它交代 Kellaris 已研究 music 對 consumers 的影響超過 12 年，並與 Sigma Research Management Group 合作，為一間營運 customer service line 的公司評估 hold music 的效果。這段功能是研究背景介紹：誰做研究、和誰合作、為哪類公司研究。它不直接提供答案細節，但幫助我們確認後文的 study 確實和真實 customer service company有關。"
+      },
+      {
+        "number": "3",
+        "summary": "第一句說，研究人員用 71 名公司客戶測試四種 on-hold music，其中 30 人是女性。最後一句說，研究人員也收集並量化參與者的 reactions and comments。首尾句顯示，這段是 methodology 段，重點在實驗設計：四種音樂、樣本構成、想像致電 customer assistance line、戴耳機聽音樂、估計播放時間。Questions 9、10、13 會在這段找到關鍵證據。"
+      },
+      {
+        "number": "4",
+        "summary": "第一句說，服務提供者當然不希望顧客在電話中等待；如果等待無可避免，公司也希望體驗愉快。最後一句說，研究中的實際等待時間是 6 分鐘，但平均估計是 7 分 6 秒。首尾句顯示，這段集中處理 perceived waiting time。最重要的發現是：無論播放哪種音樂，on-hold 時間普遍被overestimated。這段可支援 Question 1 的錯項排除和 Question 8。"
+      },
+      {
+        "number": "5",
+        "summary": "第一句說，Kellaris 也為聘請他的客戶找到一些好消息。最後一句說，男女性對 adult-alternative music 的反應較少兩極化。首尾句顯示，這段聚焦研究對該公司的實際建議：公司目前使用的adult alternative format 大概是最佳選擇。原因有兩個：它沒有引起強烈正面或負面反應；男女反應差距較小。Questions 2 和 7 的答案直接來自這段。"
+      },
+      {
+        "number": "6",
+        "summary": "第一句說，Kellaris 的其他發現令 musical hold 的圖像更複雜。最後一句說，這可能和 attention levels 及 musical preferences 的性別差異有關。首尾句顯示，這段強調同一音樂對男女影響不同。中間提到 light jazz 令等待時間看似稍短，但 men 覺得 classical music 等待最短，women 卻覺得 classical music 等待最長。這段解釋為何 Question 1 要選 gender + music type。"
+      },
+      {
+        "number": "7",
+        "summary": "第一句說，一般來看，classical music 在男性中引起最正面反應；light jazz 在女性中引起最正面反應，並帶來最短等待時間估計。最後一句用玩笑說，也許快樂時時間真的飛逝，即使你正在musical hold。首尾句顯示，這段是具體 preference results：男性偏 classical，女性偏 light jazz， rock 在兩性中最不受歡迎，且帶來最長等待估計。Questions 3–6 主要靠這段。"
+      },
+      {
+        "number": "8",
+        "summary": "第一句說，對營運 on-hold lines 的公司來說，不幸的是男女對甚麼音樂算 “fun” 有不同想法。最後一句用玩笑建議：男性按一，女性按二，心情差則稍後再打。首尾句顯示，這段是幽默式總結。它指出實務困難：沒有一種音樂能完美滿足所有 caller。這段不提供太多新數據，但能支援整篇主旨，即 caller reaction 同時受 gender 和 music preference 影響。 Answer Key 1. D 2. A 3. C 4. D 5. D 6. A 7. B 8. YES 9. YES 10. NO 11. NOT GIVEN 12. NO 13. NO"
+      }
+    ]
+  }
+}

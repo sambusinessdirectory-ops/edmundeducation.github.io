@@ -1,0 +1,1795 @@
+{
+  "id": "p1-120-undoing-our-emotions",
+  "catalogueId": "p1-120",
+  "catalogueIds": [
+    "p1-120"
+  ],
+  "passage": 1,
+  "title": "UNDOING OUR EMOTIONS",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "C",
+    "A",
+    "D",
+    "C",
+    "A",
+    "E",
+    "D",
+    "C",
+    "A",
+    "A",
+    "focus",
+    "friendship",
+    "society"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Which paragraph contains",
+      "prompt": "A conclusion that it is possible to train people to deal with anxiety",
+      "translation": "一個結論：人是可以被訓練去處理焦慮或壓力反應的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目問的是哪一段含有某個「結論」。定位時要找 train /"
+            },
+            {
+              "kind": "paragraph",
+              "text": "coach / anxiety / stress / recover 這一組概念。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph C。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fredrickson believes positive emotions work their magic by producing a rapid unwinding of pent-up tension, restoring the system to normal.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Fredrickson 認為，正面情緒之所以有神奇效果，是因為它能快速釋放積壓的緊張，使"
+            },
+            {
+              "kind": "paragraph",
+              "text": "身體系統恢復正常。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a second experiment, Fredrickson reported that even those who normally were slow to bounce back could be coached to recover more quickly by being told to view the experiment as a challenge, rather than a threat.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在第二個實驗中，Fredrickson 報告說，即使那些平時較慢恢復的人，也可以透過指導，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "把實驗看成挑戰而非威脅，從而更快恢復。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph C 會處理「壓力後如何恢復」。最後一句的 “could be coached”已經和題目中的 train people 高度接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “train people” 和 “deal with anxiety”。原文沒有用 train，但用了"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“could be coached”；沒有直接用 anxiety，但有 “stress”、“nervous”、“threat” 和 “recover”。掃描 C段時，speech experiment、heart rates、blood pressure 都提示這段在處理壓力反應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "真正定案的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a second experiment, Fredrickson reported that even those who normally were slow to bounce back could be coached to recover more quickly by being told to view the experiment as a challenge, rather than a threat.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Fredrickson 在第二個實驗中指出，即使通常恢復較慢的人，也能透過指導，把實驗理"
+            },
+            {
+              "kind": "paragraph",
+              "text": "解成一個挑戰，而非威脅，並因此更快恢復。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "train people= could be coached deal with anxiety= recover more quickly / view the experiment as a challenge rather than a threat題目說 “deal with anxiety”，原文具體說的是 stress response 後的恢復。這裡的 anxiety 來自前文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“students get nervous” 和 threat framing。Paragraph C 同時有實驗、恢復速度和 coaching，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也談 stress 和 physical reaction，但 B 主要解釋負面情緒的身體後果。真正"
+            },
+            {
+              "kind": "paragraph",
+              "text": "講到「可以被訓練」的是 C 段的 “could be coached”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Which paragraph contains",
+      "prompt": "Conclusive evidence that lifespan can be influenced by emotions",
+      "translation": "有力證據顯示，人的壽命可能受情緒影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 lifespan / live longer / emotions 之間的關係。題目中的 “conclusive"
+            },
+            {
+              "kind": "paragraph",
+              "text": "evidence” 是概括說法，原文可能用 finding、predictive、lived longer 這類字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph A。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three generations ago, 180 young women wrote essays describing why they wanted to join a convent (a religious community of nuns).”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：三代以前，180 名年輕女性寫文章，描述她們為何想加入一個修女會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, she points out that no one has been able to determine why positive emotions might have such life-extending effects.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：然而，她指出，至今沒有人能確定為何正面情緒可能有這種延長壽命的效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 A 段會由 convent essays 的研究材料開始，最後落在 positive emotions和 life-extending effects 的關係上。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 lifespan、emotions、evidence。原文中最貼近的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers found that, although the young women were in their early twenties when they wrote their essays, the emotions expressed in these writings were predictive of how long they would live: those with upbeat autobiographies lived more than ten years longer than those whose language was more neutral.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：研究者發現，雖然這些年輕女性寫文章時只有二十出頭，但文章中表達的情緒能預測"
+            },
+            {
+              "kind": "paragraph",
+              "text": "她們會活多久：那些自傳較樂觀的人，比語言較中性的人多活十年以上。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 lifespan can be influenced by emotions。原文說 emotions expressed in writings"
+            },
+            {
+              "kind": "paragraph",
+              "text": "were predictive of how long they would live，並且 upbeat autobiographies lived more than ten years longer。這正是 emotions 和 lifespan 的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Deborah Danner 的補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“the results were particularly striking because all members of the convent lived similar lifestyles, eliminating many variables that normally make it difficult to interpret longevity studies.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些結果特別驚人，因為修女會所有成員生活方式相似，排除了許多通常會令壽命研"
+            },
+            {
+              "kind": "paragraph",
+              "text": "究難以解讀的變項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句使研究結果更有力：生活方式相近，飲食、日常規律和環境等干擾因素較少，所以情緒與壽命的關係更突出。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "lifespan= how long they would live / lived more than ten years longer influenced by emotions= emotions expressed in these writings were predictive conclusive evidence= particularly striking / phenomenal finding"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文最後也說 no one has determined why，表示原因未明；但這不會推翻第 2 題。第 2"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題問的是「有沒有證據顯示情緒和壽命有關」，並非問原因是否已被解釋。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Which paragraph contains",
+      "prompt": "An explanation of the way negative emotions affect what people concentrate on",
+      "translation": "解釋負面情緒如何影響人們把注意力集中在哪些東西上。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 negative emotions 和 attention / concentrate / focus 的關係。題目問的是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "explanation，所以只找到 “negative emotions” 不夠，還要找到它如何改變注意力範圍。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph D。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fredrickson believes that positive emotions make people more flexible and creative.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Fredrickson 相信，正面情緒會使人更靈活、更有創意。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fredrickson speculated that just as positive emotions can undo the cardiovascular effects of negative ones, they may also reverse the attention-narrowing effects of negative feelings: broadening our perspectives.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Fredrickson 推測，正面情緒既然能解除負面情緒對心血管造成的影響，也可能逆轉負"
+            },
+            {
+              "kind": "paragraph",
+              "text": "面感受造成的注意力收窄效果，使我們的視野變闊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 D 段會討論 emotions 對思維和注意力的影響。最後一句的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“attention-narrowing effects” 幾乎直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 negative emotions、concentrate on。原文沒有用 concentrate on，但有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“heightened sense of detail”、“minute clues”、“source of a threat”、“tunnel vision” 和 “ignore anything unrelated to the danger”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Negative emotions, she says, give a heightened sense of detail that makes us hypersensitive to minute clues related to the source of a threat.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：她說，負面情緒會令人對細節的感覺變得更強，使我們對與威脅來源有關的微小線索"
+            },
+            {
+              "kind": "paragraph",
+              "text": "過度敏感。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“But that also produces ‘tunnel vision’ in which we ignore anything unrelated to the danger.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但這也會造成「隧道視野」，使我們忽略任何與危險無關的事物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句一起建立完整答案。負面情緒讓人集中在 threat 相關細節上，同時忽略 unrelated information。題目中的 what people concentrate on，就是原文中的 minute clues related to the source of a threat。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "affect what people concentrate on= heightened sense of detail / hypersensitive to minute clues / tunnel vision negative emotions= negative feelings concentrate on danger-related details= ignore anything unrelated to the danger"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也說 negative emotions provided focus，但 F 是從 early tribes 的進化功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "角度講 focus。Question 3 要的是「如何影響注意力內容」的解釋，D 段的 tunnel vision 和 minute clues 最完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Which paragraph contains",
+      "prompt": "An experiment showing how a positive outlook can help people adjust to a stressful situation faster than others",
+      "translation": "一個實驗顯示，正面看法能幫助人在壓力情境後比其他人更快調整回來。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 experiment、positive outlook、stressful situation、faster adjustment。核心不"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只在 “positive emotions”，還要有具體實驗和比較速度。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph C。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fredrickson believes positive emotions work their magic by producing a rapid unwinding of pent-up tension, restoring the system to normal.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Fredrickson 認為，正面情緒能快速鬆開積壓的緊張，使系統恢復正常。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a second experiment, Fredrickson reported that even those who normally were slow to bounce back could be coached to recover more quickly by being told to view the experiment as a challenge, rather than a threat.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在第二個實驗中，Fredrickson 報告說，即使那些平時較慢恢復的人，也能被指導把實"
+            },
+            {
+              "kind": "paragraph",
+              "text": "驗看成挑戰而非威脅，從而更快恢復。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 C 段和 stress recovery、positive framing、faster recovery 直接相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞包括 experiment、positive outlook、stressful situation、faster。原文中有"
+            },
+            {
+              "kind": "label",
+              "text": "speech experiment："
+            },
+            {
+              "kind": "quote",
+              "text": "“To test her theory, Fredrickson told a group of student volunteers that they had only a few minutes to prepare a speech that would be critiqued by experts.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：為了測試理論，Fredrickson 告訴一組學生志願者，他們只有幾分鐘準備一段將由專家"
+            },
+            {
+              "kind": "paragraph",
+              "text": "評價的演講。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 stressful situation。後文提到 “good-humoured excitement” 和 “heart rates return to normal much more quickly”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not surprisingly, all students got nervous about their speeches, but those who viewed the experiment with good-humoured excitement saw their heart rates return to normal much more quickly than those who were angry about being fooled.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：不出所料，所有學生都因演講而緊張；但那些以幽默、興奮的心情看待實驗的人，心跳"
+            },
+            {
+              "kind": "paragraph",
+              "text": "回復正常的速度比那些因被捉弄而生氣的人快得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完全符合題目。positive outlook 對應 “viewed the experiment with good-humoured excitement”；stressful situation 對應 prepared speech critiqued by experts；adjust faster 對應heart rates return to normal much more quickly。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "positive outlook= viewed the experiment with good-humoured excitement stressful situation= preparing a speech critiqued by experts / students got nervous adjust faster= heart rates return to normal much more quickly"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 1 和 Question 4 都在 Paragraph C。第 1 題重點是 “could be coached”，第 4"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題重點是 speech experiment 和 heart rates recover quickly。兩題同段，但定位句不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Which paragraph contains",
+      "prompt": "A discovery beyond what researchers were investigating",
+      "translation": "一項超出研究者原本調查目標的發現。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找 researchers 本來想研究甚麼，以及後來發現了甚麼更意外的結果。這是「研究目"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的 vs 意外發現」的對比題。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph A。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three generations ago, 180 young women wrote essays describing why they wanted to join a convent (a religious community of nuns).”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：三代以前，180 名年輕女性寫文章，描述她們想加入修女會的原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, she points out that no one has been able to determine why positive emotions might have such life-extending effects.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：然而，她指出，至今沒有人能確定為何正面情緒可能有這種延長壽命的效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段由 essays 的研究材料開始，最後發展成 positive emotions 與壽命的意外關係。這和 “discovery beyond what researchers were investigating” 很吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 discovery、beyond、investigating。原文的結構很清楚："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers were seeking material to confirm earlier studies hinting at a link between having a good vocabulary in youth and a low risk of Alzheimer’s disease in old age.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：研究者原本在尋找材料，以確認較早研究所暗示的一項關聯：年輕時詞彙能力較好，老"
+            },
+            {
+              "kind": "paragraph",
+              "text": "年時 Alzheimer’s disease 風險較低。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句馬上轉向："
+            },
+            {
+              "kind": "quote",
+              "text": "“What they found was even more amazing.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他們發現的東西更加驚人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "真正答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers found that ... the emotions expressed in these writings were predictive of how long they would live...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：研究者發現，這些文字中表達出的情緒能預測她們會活多久。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “beyond what researchers were investigating”。原文中，研究者本來查的是 vocabulary 和Alzheimer’s disease 的關係；結果發現 emotions 和 longevity 的關係。這明顯超出原本研究方向。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "what researchers were investigating= seeking material to confirm earlier studies ... vocabulary ... Alzheimer’s disease discovery beyond that= what they found was even more amazing / emotions ... predictive of how long they would live"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易只看到 Alzheimer’s disease，以為答案和老年疾病研究有關。真正控制答案的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是 “What they found was even more amazing”，它標示研究方向發生轉移。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Which paragraph contains",
+      "prompt": "An experiment in which the nature of material viewed by participants affected how they performed a task",
+      "translation": "一個實驗中，參加者觀看材料的性質影響了他們做任務的方式。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找 viewed material 和 task performance 之間的因果關係。定位詞是 material"
+            },
+            {
+              "kind": "paragraph",
+              "text": "viewed、participants、performed a task。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph E。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“To verify her theory, Fredrickson showed a group of students some film clips—some saw frightening clips, some saw humorous ones or peaceful ones.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：為了驗證理論，Fredrickson 讓一組學生看一些電影片段：有些人看驚嚇片段，有些人"
+            },
+            {
+              "kind": "paragraph",
+              "text": "看幽默或平和片段。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Students who had seen the humorous or peaceful clips were more likely to match objects according to broad impressions.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：看過幽默或平和片段的學生，更可能按整體印象來配對物件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經給出完整框架：不同 film clips 影響 matching task 的方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “nature of material viewed” 對應 frightening / humorous / peaceful clips；"
+            },
+            {
+              "kind": "quote",
+              "text": "“performed a task” 對應 matching test。原文說：“They then did a matching test in which they were shown a simple drawing and asked which of two other drawings it most resembled.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：之後他們做了一個配對測試：他們看到一幅簡單圖畫，然後要判斷它最像另外兩幅圖"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中的哪一幅。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The results confirmed Fredrickson’s suspicion that positive emotions affect our perceptions.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：結果證實了 Fredrickson 的猜想：正面情緒會影響我們的感知方式。"
+            },
+            {
+              "kind": "label",
+              "text": "再加上末句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Students who had seen the humorous or peaceful clips were more likely to match objects according to broad impressions.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：看過幽默或平和片段的學生，更可能按整體印象來配對物件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 viewed material affected task performance。原文中，viewed material 是 film clips；task 是matching test；performance difference 是按 details 或 big picture / broad impressions 來配對。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "nature of material viewed= frightening clips / humorous ones / peaceful ones affected how they performed a task= more likely to match objects according to broad impressions participants= students"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也有 experiment，但 C 的任務是 speech stress 和 physiological recovery。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 6 有 “material viewed”，這個訊號清楚指向 film clips，所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "D — Susan Folkman",
+      "answerKey": "D — Susan Folkman",
+      "type": "Matching Researchers",
+      "prompt": "People whose daily lives are stressful often have surprisingly positive emotions.",
+      "translation": "日常生活充滿壓力的人，往往仍會有令人意外的正面情緒。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找哪位研究者提出這個觀點。定位詞是 daily lives stressful、surprisingly positive"
+            },
+            {
+              "kind": "paragraph",
+              "text": "emotions。題目沒有原字 “daily lives”，所以要找 long-term stresses 這類概念。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph G。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other researchers are intrigued by Fredrickson’s findings.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：其他研究者對 Fredrickson 的發現感到很感興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is very consistent with Fredrickson’s work.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這與 Fredrickson 的研究非常一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 G 段會引入另一位研究者，以外部研究支持 Fredrickson。題目問 stressful lives 中的 positive emotions，應看 G 段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "掃描人物名，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Susan Folkman, of the University of California, has spent two decades studying how people cope with long-term stresses such as bereavement, or caring for a chronically ill child.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：加州大學的 Susan Folkman 花了二十年研究人們如何應對長期壓力，例如喪親，或照"
+            },
+            {
+              "kind": "paragraph",
+              "text": "顧長期患病的孩子。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Contrary to what one might expect, she says, these people frequently experience positive emotions.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：她說，與人們可能預期的相反，這些人經常經歷正面情緒。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 people whose daily lives are stressful，原文用 long-term stresses such as"
+            },
+            {
+              "kind": "paragraph",
+              "text": "bereavement or caring for a chronically ill child。這些壓力不是短暫事件，會深刻影響日常生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 surprisingly positive emotions，原文說 “Contrary to what one might expect” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“frequently experience positive emotions”。這正是「出乎意料地有正面情緒」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "daily lives are stressful= cope with long-term stresses surprisingly= contrary to what one might expect often have positive emotions= frequently experience positive emotions所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Fredrickson 也研究 positive emotions，但第 7 題問的是長期壓力生活中的人。這一點由"
+            },
+            {
+              "kind": "paragraph",
+              "text": "bereavement 和 caring for a chronically ill child 定位到 Susan Folkman。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "C — Brooks Gump",
+      "answerKey": "C — Brooks Gump",
+      "type": "Matching Researchers",
+      "prompt": "The body’s reaction to a crisis may trigger a life-threatening event.",
+      "translation": "身體對危機的反應可能引發危及生命的事件。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找研究者觀點。定位詞是 body’s reaction、crisis、life-threatening event。原文可能用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "physiological / cardiovascular / heart attack 來表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph B。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Barbara Fredrickson, Professor of Psychology at the University of Michigan, believes that part of the answer is the ‘undo effect’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：密歇根大學心理學教授 Barbara Fredrickson 認為，部分答案在 “undo effect” 之中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only is it physically draining to live in a perpetual state of high vigilance, but high cardiovascular reactivity could be linked to increased chances of a heart attack.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：長期處於高度警覺狀態不但耗損身體，而且高度心血管反應可能與心臟病發作機會增"
+            },
+            {
+              "kind": "paragraph",
+              "text": "加有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，B 段明顯處理負面情緒的身體後果，並在末句提到 heart attack。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 body’s reaction to a crisis。原文中 Brooks Gump 出現於："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brooks Gump, a stress researcher at the State University of New York, explains that one of these effects is excessive cardiovascular reactivity.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：紐約州立大學的壓力研究者 Brooks Gump 解釋說，其中一種影響是過度的心血管反"
+            },
+            {
+              "kind": "paragraph",
+              "text": "應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "完整證據組是："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, even when the emergency is gone, negative emotions produce lingering effects.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：然而，即使緊急狀況已經過去，負面情緒仍會產生持續影響。"
+            },
+            {
+              "kind": "label",
+              "text": "加上："
+            },
+            {
+              "kind": "quote",
+              "text": "“one of these effects is excessive cardiovascular reactivity.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：其中一種影響是過度的心血管反應。"
+            },
+            {
+              "kind": "label",
+              "text": "再加上："
+            },
+            {
+              "kind": "quote",
+              "text": "“high cardiovascular reactivity could be linked to increased chances of a heart attack.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：高度心血管反應可能與心臟病發作機會增加有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 crisis 對應 emergency / threat；body’s reaction 對應 cardiovascular reactivity； life-threatening event 對應 heart attack。這個觀點由 Brooks Gump 解釋，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "body’s reaction= cardiovascular reactivity crisis= emergency / threat / flight-or-fight response may trigger a life-threatening event= could be linked to increased chances of a heart attack"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也測量 heart rates and blood pressure，但第 8 題講的是危機反應可能與"
+            },
+            {
+              "kind": "paragraph",
+              "text": "心臟病風險相連，這是 Brooks Gump 在 B 段提出的生理風險。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "A — Deborah Danner",
+      "answerKey": "A — Deborah Danner",
+      "type": "Matching Researchers",
+      "prompt": "It is unusual to have a study group whose circumstances were very similar.",
+      "translation": "研究對象的生活條件非常相似，這種情況很罕見。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找哪位研究者指出 study group 的 circumstances very similar。定位詞是 study group、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "similar circumstances、unusual。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph A。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three generations ago, 180 young women wrote essays describing why they wanted to join a convent (a religious community of nuns).”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：三代以前，180 名年輕女性寫文章，描述她們為何想加入修女會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, she points out that no one has been able to determine why positive emotions might have such life-extending effects.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：然而，她指出，至今沒有人能確定為何正面情緒可能有這種延長壽命的效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，A 段會介紹修女會研究，最後回到 Deborah Danner 對研究結果和原因的看法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "人物名 Deborah Danner 出現在："
+            },
+            {
+              "kind": "quote",
+              "text": "“Deborah Danner, a psychologist at the University of Kentucky who spearheaded the study, noted that the results were particularly striking because all members of the convent lived similar lifestyles, eliminating many variables that normally make it difficult to interpret longevity studies.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：主導這項研究的肯塔基大學心理學家 Deborah Danner 指出，結果特別驚人，因為修女"
+            },
+            {
+              "kind": "paragraph",
+              "text": "會所有成員生活方式相似，排除了許多通常令壽命研究難以解讀的變項。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 circumstances were very similar。原文說 all members of the convent lived similar"
+            },
+            {
+              "kind": "paragraph",
+              "text": "lifestyles。題目說 unusual，是因為原文說這排除了 many variables，而這些變項通常會令longevity studies 難以解讀。雖然原文沒有逐字說 unusual，但 “particularly striking” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“eliminating many variables” 表明這個研究群體很特別。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "study group= all members of the convent circumstances were very similar= lived similar lifestyles unusual= particularly striking / eliminating many variables normally difficult to control所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Susan Folkman 也研究一群人，但她研究的是 long-term stress groups；題目講 study"
+            },
+            {
+              "kind": "paragraph",
+              "text": "conditions / similar lifestyle，這和 convent setting 更吻合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "A — Deborah Danner",
+      "answerKey": "A — Deborah Danner",
+      "type": "Matching Researchers",
+      "prompt": "The reasons for a link between positive emotions and a longer life have not been established.",
+      "translation": "正面情緒與較長壽命之間的原因尚未確定。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "找哪位研究者指出「原因未明」。定位詞是 reasons、link、positive emotions、longer life"
+            },
+            {
+              "kind": "paragraph",
+              "text": "、not established。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph A。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three generations ago, 180 young women wrote essays describing why they wanted to join a convent (a religious community of nuns).”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：三代以前，180 名年輕女性寫文章，描述她們為何想加入修女會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, she points out that no one has been able to determine why positive emotions might have such life-extending effects.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：然而，她指出，至今沒有人能確定為何正面情緒可能有這種延長壽命的效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句中，最後一句已直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找 reasons not established。原文最後一句的 “no one has been able to determine"
+            },
+            {
+              "kind": "paragraph",
+              "text": "why” 是最直接定位。這個 she 指前文的 Deborah Danner。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, she points out that no one has been able to determine why positive emotions might have such life-extending effects.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：然而，她指出，沒有人能確定為何正面情緒可能有這種延長壽命的效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句中 “she” 指 Deborah Danner，因為上一句剛介紹她並引用她說 “It was a phenomenal finding”。“why” 對應 reasons；“life-extending effects” 對應 longer life；“no one has been able to determine” 對應 have not been established。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "reasons= why positive emotions and a longer life= positive emotions ... life-extending effects have not been established= no one has been able to determine所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Fredrickson 在 B 段提出 undo effect，似乎在回答 why positive emotions might help"
+            },
+            {
+              "kind": "paragraph",
+              "text": "people live longer。但第 10 題問的是「原因尚未確定」這個說法由誰提出。原文把這句明確放在Deborah Danner 的評論中。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "focus",
+      "answerKey": "focus",
+      "type": "Sentence Completion",
+      "prompt": "In early tribes, negative emotions gave humans the 11 _________________ that they needed to deal with emergencies.",
+      "translation": "在早期部落中，負面情緒給了人類處理緊急情況所需的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ONE WORD ONLY。空格前有 “the”，後面有 that they needed，空格需要一個名詞。定"
+            },
+            {
+              "kind": "paragraph",
+              "text": "位詞是 early tribes、negative emotions、emergencies。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph F。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This fits with the role that positive emotions might have played in early human tribes, Fredrickson says.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Fredrickson 說，這與正面情緒在早期人類部落中可能扮演的角色相符。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only are these emotions good for the individual, but they are also good for society.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些情緒不只對個人有益，也對社會有益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 F 段會從 early human tribes 講到 individual 和 society 的價值。第 11 題明確有 early tribes，所以直接看 F。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "掃描 F 段中 negative emotions 的句子，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Negative emotions provided focus, which was important for surviving in life-or-death situations...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：負面情緒提供了專注力，這對在生死攸關的情境中生存很重要。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “deal with emergencies” 對應原文 “surviving in life-or-death situations”。空格前"
+            },
+            {
+              "kind": "label",
+              "text": "是 “the”，原文有 “focus”。完整句子變成："
+            },
+            {
+              "kind": "quote",
+              "text": "“In early tribes, negative emotions gave humans the focus that they needed to deal with emergencies.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在早期部落中，負面情緒給了人類處理緊急情況所需的專注力。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "gave humans the focus= negative emotions provided focus deal with emergencies= surviving in life-or-death situations字數檢查：focus 是一個字，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “negative” 或 “emotions”。題目已經有 negative emotions，空格要填它們提供的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "東西。原文動詞 provided 後面的名詞 focus 才是答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "friendship",
+      "answerKey": "friendship",
+      "type": "Sentence Completion",
+      "prompt": "Fredrickson believes that a passing positive emotion can lead to an enduring asset such as a 12 _________________, which is useful in times to come.",
+      "translation": "Fredrickson 認為，一種短暫的正面情緒可以帶來一種持久資產，例如一段 ______，在將來會有用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ONE WORD ONLY。空格前是 “a”，需要單數可數名詞。定位詞是 passing positive"
+            },
+            {
+              "kind": "paragraph",
+              "text": "emotion、enduring asset、times to come。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph F。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This fits with the role that positive emotions might have played in early human tribes, Fredrickson says.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Fredrickson 說，這與正面情緒在早期人類部落中可能扮演的角色相符。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only are these emotions good for the individual, but they are also good for society.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些情緒不只對個人有益，也對社會有益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 從 positive emotions 的進化角色講到它們對個人和社會的長遠好處。第 12 題的enduring asset 很可能在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 “transient”、“durable”、“lasting resource” 這些同義詞。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“She says: ‘The emotions are transient, but the resources are durable. If you build a friendship through being playful, that friendship is a lasting resource.’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：她說：「情緒是短暫的，但資源是持久的。假如你透過玩樂建立一段友誼，那段友誼就是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "一項持久資源。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “a passing positive emotion” 對應 “emotions are transient”；“enduring asset” 對應"
+            },
+            {
+              "kind": "quote",
+              "text": "“resources are durable” 和 “lasting resource”；“such as a ___” 對應原文例子 friendship。後句也加強答案：“So while the good feelings may pass, the friendship remains.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：所以，雖然美好的感覺可能會過去，友誼仍會留下。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "passing positive emotion= emotions are transient / good feelings may pass enduring asset= resources are durable / lasting resource such as a friendship= build a friendship through being playful字數檢查：friendship 一個字，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 resources。題目已經用 “asset” 概括 resource，空格要填具體例子。原文中的具"
+            },
+            {
+              "kind": "paragraph",
+              "text": "體 lasting resource 是 friendship。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "society",
+      "answerKey": "society",
+      "type": "Sentence Completion",
+      "prompt": "Fredrickson also believes that both individuals and 13 _________________ benefit from positive emotions.",
+      "translation": "Fredrickson 也相信，個人和 ______ 都會從正面情緒中受益。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ONE WORD ONLY。空格前有 both individuals and，需要填一個與 individuals 並列的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "名詞。定位詞是 individuals、benefit、positive emotions。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph F。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This fits with the role that positive emotions might have played in early human tribes, Fredrickson says.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Fredrickson 說，這與正面情緒在早期人類部落中可能扮演的角色相符。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only are these emotions good for the individual, but they are also good for society.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些情緒不只對個人有益，也對社會有益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，答案已很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 individuals 對應原文 “the individual”；benefit from positive emotions 對應 “these"
+            },
+            {
+              "kind": "paragraph",
+              "text": "emotions are good for”。空格應找與 individual 並列的對象。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Not only are these emotions good for the individual, but they are also good for society.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些情緒不只對個人有好處，也對社會有好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文的 “the individual” 改成複數 “individuals”，把 “good for” 改成 “benefit from”。“society”原字保留。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "individuals benefit= good for the individual society benefits= good for society positive emotions= these emotions字數檢查：society 一個字，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “community”。雖然前文提到 early human tribes 和 friendship，但原文最後一句明"
+            },
+            {
+              "kind": "paragraph",
+              "text": "確用 society。IELTS Sentence Completion 要盡量保留原文用詞。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - UNDOING OUR EMOTIONS.pdf",
+    "sha256": "3e8067c1f7ca356e9d426e5b12b8e317cf71bb6ca9416ad5ebf3ec1478c3578b",
+    "pageCount": 20
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可合理看到的全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句講三代以前，180 名年輕女性寫下想加入 convent 的原因。末句說雖然研究發現 positive emotions 可能延長壽命，但沒有人能確定原因。只看首尾句，可以估計本段是研究發現引入段：研究者本來在看年輕時的文字能力和老年 Alzheimer’s disease 風險，後來發現 autobiographies中的 emotions 能預測壽命。題目若問 lifespan、discovery beyond original aim、similar lifestyles或 Deborah Danner，應看 A。"
+      },
+      {
+        "number": "B",
+        "summary": "首句引入 Barbara Fredrickson 的 “undo effect”，說她認為部分答案在這個理論之中。末句說 high cardiovascular reactivity 可能和心臟病發作機會增加有關。只看首尾句，可以估計本段解釋 undo effect 的生理背景：negative emotions 會啟動 flight-or-fight response，危機過後仍留下 excessive vigilance 和 cardiovascular reactivity。題目若問 negative emotions 的身體後果、heart attack、Brooks Gump 或 crisis reaction，目標段落很可能是 B。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Fredrickson 認為 positive emotions 透過快速釋放積壓的 tension，使系統回復正常。末句說即使平時較慢從壓力中恢復的人，也可透過把實驗視為 challenge 而非 threat，被訓練得更快恢復。只看首尾句，可以判斷本段是實驗證明段：先製造 speech anxiety，再比較 good-humoured excitement 和 anger 對心跳血壓恢復速度的影響，最後補充 training / coaching 的可能性。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Fredrickson 相信 positive emotions 使人更 flexible and creative。末句說 positive emotions 可能逆轉 negative feelings 造成的注意力收窄效果，擴闊人的 perspectives。只看首尾句，可以估計本段由身體層面轉入認知層面：negative emotions 令人高度注意威脅細節，造成tunnel vision；positive emotions 則可能擴闊注意範圍。題目若問 people concentrate on what、attention、negative emotions，應看 D。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 Fredrickson 為驗證理論，讓學生觀看不同 film clips，有些看 frightening clips，有些看humorous 或 peaceful clips。末句說看過幽默或平和片段的學生，更可能按 broad impressions來配對物件。只看首尾句，可以估計本段是第二類實驗證據：影像材料先影響情緒，再影響matching test 的答題方式。題目若問 viewed material affected task performance，或 humorous /peaceful clips，答案通常在 E。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說這與 positive emotions 在早期 human tribes 中可能扮演的角色相符。末句說這些emotions 對個人有益，也對 society 有益。只看首尾句，可以估計本段是 evolutionary value 和broader implication 段：negative emotions 在生死情境中提供 focus；positive emotions 則打開思想、建立長期資源，例如 friendship。題目若問 early tribes、focus、friendship、individual 和society，應回到 F。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說其他研究者對 Fredrickson 的發現感到 intrigued。末句說 Susan Folkman 認為自己的觀察與 Fredrickson 的研究非常一致。只看首尾句，可以估計本段是外部研究支持段：Folkman 研究long-term stresses，例如 bereavement 和照顧長期病童，發現壓力生活中的人仍經常有 positive emotions。題目若問 daily lives are stressful、surprisingly positive emotions、restore resources或 Susan Folkman，應看 G。"
+      }
+    ]
+  }
+}

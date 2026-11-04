@@ -1,0 +1,2541 @@
+{
+  "id": "p1-081-controlling-deathwatch-beetles",
+  "catalogueId": "p1-081",
+  "catalogueIds": [
+    "p1-081"
+  ],
+  "passage": 1,
+  "title": "CONTROLLING DEATHWATCH BEETLES",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "F",
+    "B",
+    "D",
+    "A",
+    "FALSE",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "C",
+    "D",
+    "B",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "F — if changes in weather patterns continue.",
+      "answerKey": "F — if changes in weather patterns continue.",
+      "type": "Sentence Endings",
+      "prompt": "“One species of the beetle population may spread if changes in weather patterns continue.”",
+      "translation": "如果天氣模式持續改變，其中一種 beetle species 可能會擴散。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 sentence endings 題。題幹的核心是 “One species … may spread”。我們要找某一種beetle 未來可能變得更 widespread 的原因。這題的定位詞是 “one species” 和 “may spread”，原文可能用 “become more widespread” 這類近義表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first is the House Longhorn Beetle (Hylotrupes bajulus).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一種是 House Longhorn Beetle，學名 Hylotrupes bajulus。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is an insect that might become more widespread because of climate change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一種可能因氣候變化而變得更廣泛分佈的昆蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph 8 會介紹 House Longhorn Beetle。第一句給出 species 名稱，最後一句談未來可能擴散的原因，和 Question 1 的 “One species … may spread” 高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “may spread”。原文沒有用 spread，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is an insect that might become more widespread because of climate change.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “might become more widespread” 就是 “may spread” 的改寫。再看選項 F："
+            },
+            {
+              "kind": "quote",
+              "text": "“if changes in weather patterns continue.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和 “because of climate change” 對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is an insect that might become more widespread because of climate change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一種可能因氣候變化而變得更廣泛分佈的昆蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “This”，指前文的 House Longhorn Beetle。核心動詞是 “might become”，表示可能性，不是已經確定發生。原因短語是 “because of climate change”。選項 F 把 climate change 改寫成 “changes in weather patterns”。雖然兩者不逐字相同，但在這篇文章的語境中，climate change 會帶來 weather patterns 的改變，因此 F 是最貼合的句尾。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題幹："
+            },
+            {
+              "kind": "quote",
+              "text": "“One species of the beetle population may spread”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is an insect that might become more widespread”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 F："
+            },
+            {
+              "kind": "quote",
+              "text": "“if changes in weather patterns continue”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“because of climate change”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：題幹接上 F 後，人物、意思和文法都成立，所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 C 提到 17°C，這也和 beetles flying 有關。但 17°C 出現在 Paragraph 3，說的是deathwatch beetles 在 emergence season 會飛、light trap 才可能有效，並沒有說某個 species會因此擴散。Question 1 問的是 future spread，真正控制答案的是 Paragraph 8 的 “might become more widespread”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "B — if you clog the suspected holes with furniture polish, paper or card.",
+      "answerKey": "B — if you clog the suspected holes with furniture polish, paper or card.",
+      "type": "Sentence Endings",
+      "prompt": "“You can detect the presence of beetles if you clog the suspected holes with furniture polish, paper or card.”",
+      "translation": "如果用 furniture polish、paper 或 card 處理可疑洞口，就可以偵測 beetles 是否仍然存在。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找「如何偵測 beetles 是否仍 active」。題幹的 “detect the presence” 可能對應原文的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“confirm active infestation”、“assessed”、“visible hole” 等表達。定位詞是 “detect” 和 “presence of beetles”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3第一句：“The beetles fly to light and some form of light trap may help to deplete a population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 beetles 會飛向光源，因此某種 light trap 可能有助減少族群。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unnecessary pesticide treatments must be avoided.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "必須避免不必要的 pesticide treatments。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段會講非立即殺蟲式的控制和確認方法。首句講 light trap；末句提醒不要用不必要 pesticides。中間很可能會講如何確認是否有 active infestation，這正好對應Question 2。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “detect the presence” 不一定逐字出現。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Beetle holes do not disappear when the beetles have gone so it is sometimes necessary to confirm active infestation if remedial works are planned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "beetles 離開後，洞口不會消失，所以如果計劃補救工程，有時需要確認是否仍有 active infestation。"
+            },
+            {
+              "kind": "label",
+              "text": "接著掃描到："
+            },
+            {
+              "kind": "quote",
+              "text": "“This problem may be overcome by clogging the suspected holes with furniture polish or by covering a group of holes tightly with paper or card.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接對應選項 B。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This problem may be overcome by clogging the suspected holes with furniture polish or by covering a group of holes tightly with paper or card.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個問題可以透過用 furniture polish 塞住可疑洞口，或用 paper / card 緊密覆蓋一組洞口來克服。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Any emerging beetles will make a hole that should be visible, so that the extent and magnitude of the problem can be assessed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何正在鑽出的 beetles 都會弄出一個應該可見的洞口，這樣便能評估問題的範圍和嚴重程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩句合起來的意思是：原有洞口不一定能顯示現在是否仍有 beetles，所以要先堵住或覆蓋可疑洞口；若仍有 beetles emerging，牠們會弄出新的可見洞，從而證明 active infestation。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題幹："
+            },
+            {
+              "kind": "quote",
+              "text": "“You can detect the presence of beetles”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“confirm active infestation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Any emerging beetles will make a hole that should be visible”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“clog the suspected holes with furniture polish, paper or card”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“clogging the suspected holes with furniture polish”"
+            },
+            {
+              "kind": "quote",
+              "text": "“covering a group of holes tightly with paper or card”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： B 接回題幹後，方法和目的都符合原文，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的 wording 稍微壓縮了原文。原文其實分兩種方法：用 furniture polish clog holes，或用paper/card cover holes。選項把它們合併成一句。這種簡化仍保留核心意思，沒有改變檢測方法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "D — if you use a contact insecticide.",
+      "answerKey": "D — if you use a contact insecticide.",
+      "type": "Sentence Endings",
+      "prompt": "“You may kill household spiders if you use a contact insecticide.”",
+      "translation": "如果使用 contact insecticide，可能會殺死家中的蜘蛛。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的題幹是 “You may kill household spiders”。要找甚麼處理方法會傷害 spiders。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“spiders” 和 “kill”。文章中 spiders 是 natural predators，所以要回看與 natural predators 有關的句子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5第一句：“Surface spray treatments are generally ineffective because they barely penetrate the surface of the timber and the beetles’ natural behaviour does not bring them into much contact with the insecticide.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "surface spray treatments 一般無效，因為它們幾乎不能滲入木材表面，而 beetles 的自然行為也不會令牠們大量接觸 insecticide。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Contact insecticides might also kill the natural predators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "contact insecticides 也可能殺死 natural predators。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段講 insecticide 的局限和副作用。最後一句直接提到 contact insecticides 會殺死 natural predators，和題幹的 spiders 非常相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中 “spiders” 在 Paragraph 2 出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spiders are significant predators and will help to keep the beetle population under control.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蜘蛛是重要捕食者，會幫助控制 beetle population。"
+            },
+            {
+              "kind": "label",
+              "text": "再掃描到 Paragraph 5："
+            },
+            {
+              "kind": "quote",
+              "text": "“Contact insecticides might also kill the natural predators.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 natural predators 包括前文說過的 spiders。因此題目需要跨段連接：Paragraph 2 建立spiders = predators；Paragraph 5 說 contact insecticides may kill predators。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spiders are significant predators and will help to keep the beetle population under control.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蜘蛛是重要捕食者，會幫助控制 beetle population。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Contact insecticides might also kill the natural predators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "contact insecticides 也可能殺死 natural predators。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “household spiders” 具體化 natural predators。原文雖然沒有在 Paragraph 5 重複spiders 一詞，但 Paragraph 2 已明確說 spiders 是 significant predators。因此當 Paragraph 5 說contact insecticides 可能殺死 natural predators，spiders 合理包含在內。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題幹："
+            },
+            {
+              "kind": "quote",
+              "text": "“You may kill household spiders”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“might also kill the natural predators”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題幹中的 spiders= 原文 Paragraph 2 的 “significant predators”選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“if you use a contact insecticide”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Contact insecticides might also kill…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： D 接回題幹後，因果清楚，答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 G “if the use of surface treatments is avoided” 看似和 Paragraph 5 相關，但原文沒有說避免 surface treatments 會殺死 spiders。相反，真正會殺死 natural predators 的是 contact insecticides。題目中的 “kill household spiders” 要連到 “kill the natural predators”，不能只看到surface treatments 就選。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "A — if the building is kept in good condition.",
+      "answerKey": "A — if the building is kept in good condition.",
+      "type": "Sentence Endings",
+      "prompt": "“Beetles will disappear at a faster rate if the building is kept in good condition.”",
+      "translation": "如果建築保持良好狀態，beetles 會以較快速度消失。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 beetles 消失或下降速度加快的條件。題幹中的 “disappear at a faster rate” 可能對應原文 “decline”、“speed up the decline”、“extinction”。定位詞是 “faster rate” 和 “disappear”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first fact to remember about deathwatch beetles in your building is that they have probably been there for centuries and will remain long after you have gone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於建築中的 deathwatch beetles，第一件要記住的事是：牠們很可能已在那裡存在數百年，並會在你離開後仍然存在很久。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They will speed up the decline of a beetle population in a well-maintained building.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在維修良好的建築中，牠們會加快 beetle population 的下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段強調 long-term control，不是短期快速清除。最後一句提到 “speed up the decline” 和 “well-maintained building”，正好對應題幹和選項 A。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “faster rate” 對應原文 “speed up”。“disappear” 對應 “decline to extinction”。原文有兩句重要證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Beetle damage in oak timbers is a slow process and if we make it slower by good maintenance then the beetle population may eventually decline to extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“They will speed up the decline of a beetle population in a well-maintained building.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Beetle damage in oak timbers is a slow process and if we make it slower by good maintenance then the beetle population may eventually decline to extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "oak timbers 中的 beetle damage 是一個緩慢過程；如果透過良好維修令這個過程更慢，beetle population 最終可能下降至 extinction。"
+            },
+            {
+              "kind": "quote",
+              "text": "“They will speed up the decline of a beetle population in a well-maintained building.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在維修良好的建築中，牠們會加快 beetle population 的下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二句中的 “They” 指前一句提到的 spiders。文章意思是：良好維修會令 beetle damage 更慢，蜘蛛又會在 well-maintained building 中加速 beetle population decline。題目把 “decline to extinction” 概括為 “disappear”，把 “speed up the decline” 改寫成 “disappear at a faster rate”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題幹："
+            },
+            {
+              "kind": "quote",
+              "text": "“Beetles will disappear at a faster rate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“speed up the decline of a beetle population”"
+            },
+            {
+              "kind": "quote",
+              "text": "“may eventually decline to extinction”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“if the building is kept in good condition”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“by good maintenance”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in a well-maintained building”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：題幹接上 A 後，文法自然，意思也和原文完全相合，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 D 的 contact insecticide 也會令人聯想到殺蟲，但原文沒有說它會加快 beetle disappearance；它還可能殺死 natural predators，反而削弱自然控制。這題真正控制答案的是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“good maintenance / well-maintained building”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Infestation by beetles deep within modified heartwood can be identified by the type of hole visible.”",
+      "translation": "modified heartwood 深處的 beetle infestation 可以透過可見洞口的類型辨認出來。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目包含三個元素：deep within modified heartwood、identified、type of hole visible。要判斷原文是否支持「深層 infestation 可依靠洞口類型辨認」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The beetles fly to light and some form of light trap may help to deplete a population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 beetles 會飛向光源，因此某種 light trap 可能有助減少族群。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unnecessary pesticide treatments must be avoided.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "必須避免不必要的 pesticide treatments。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段講控制和確認 active infestation 的方法。題目提到 visible hole 和heartwood，答案應在這段中間關於 beetle holes 的部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “modified heartwood”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Infestation deep within modified heartwood is more difficult to detect, particularly because the beetles will not necessarily make their own emergence holes if plenty of other holes are available.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "modified heartwood 深處的 infestation 較難偵測，尤其因為如果已有很多其他洞口可用，beetles未必會製造自己的 emergence holes。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Infestation deep within modified heartwood is more difficult to detect…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "modified heartwood 深處的 infestation 較難偵測。"
+            },
+            {
+              "kind": "label",
+              "text": "後半句解釋原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“the beetles will not necessarily make their own emergence holes if plenty of other holes are available.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果已有很多其他洞口可用，beetles 不一定會製造自己的 emergence holes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接削弱題目說法。題目說可以靠可見洞口類型辨認 deep heartwood infestation；原文說這種infestation 更難偵測，因為 beetles 不一定會留下自己的新 emergence holes。洞口可見不等於能判斷 active infestation，特別是 deep modified heartwood 的情況。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“can be identified by the type of hole visible”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“more difficult to detect”"
+            },
+            {
+              "kind": "quote",
+              "text": "“will not necessarily make their own emergence holes”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說可以透過 hole type identify；原文說 deep modified heartwood infestation detection 更困難，且洞口未必由 beetles 自己製造。兩者方向相衝，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "前一句說 sapwood damage 容易看出，因為 holes clean、sharp edges、bore dust trickling。學生若把 sapwood 的判斷方法套到 modified heartwood，便會誤選 TRUE。題目明確限定 “deep within modified heartwood”，不能使用 sapwood 的證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Clogging a hole with furniture polish or paper will trap the beetle inside permanently.”",
+      "translation": "用 furniture polish 或 paper 塞住洞口，會把 beetle 永久困在裡面。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 clogging / covering holes 的效果。重點是 “trap … permanently”。要檢查原文中這個方法的目的，是困住 beetles，還是讓牠們鑽出時留下可見新洞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The beetles fly to light and some form of light trap may help to deplete a population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 beetles 會飛向光源，因此某種 light trap 可能有助減少族群。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unnecessary pesticide treatments must be avoided.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "必須避免不必要的 pesticide treatments。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段以檢測和避免不必要處理為主。題目提到 furniture polish / paper，是段中一個很具體的方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “furniture polish” 和 “paper”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“This problem may be overcome by clogging the suspected holes with furniture polish or by covering a group of holes tightly with paper or card.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個問題可以透過用 furniture polish 塞住可疑洞口，或用 paper / card 緊密覆蓋一組洞口來克服。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句才是判斷題目真假的關鍵："
+            },
+            {
+              "kind": "quote",
+              "text": "“Any emerging beetles will make a hole that should be visible…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Any emerging beetles will make a hole that should be visible, so that the extent and magnitude of the problem can be assessed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何正在鑽出的 beetles 都會弄出一個應該可見的洞口，這樣便能評估問題的範圍和嚴重程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 beetles 仍會 emerge，並且會製造可見洞口。這說明 furniture polish / paper 的用途是detection：讓新的 emergence activity 變得可見。題目說這種方法會把 beetle permanently trapped inside，這和原文相反。若 beetles 會 make a visible hole，就表示牠們不會被永久困住。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“trap the beetle inside permanently”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Any emerging beetles will make a hole that should be visible”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：題目說 beetle 出不來；原文說 emerging beetles 會弄出可見洞口，用來評估 infestation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文提供相反證據，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“covering … tightly with paper or card” 可能令人以為目的是封死洞口。其實後文 “Any emerging beetles will make a hole” 把目的講清楚：這是一種檢測方法，不是永久困住 beetles 的方法。做T/F/NG 時，一定要讀方法後面的目的句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Paste insecticides are less effective than any other kind.”",
+      "translation": "paste insecticides 比任何其他種類都較無效。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 “less effective than any other kind”。它是一個很強的比較，表示 paste insecticides 是最不有效的一種。要找原文對 paste insecticides 的評價，以及是否有和其他treatment 的比較。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4 and Paragraph 5 Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sometimes a building cannot be dried enough to eradicate the beetles or a localised population will have built up unnoticed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時建築無法乾燥到足以消滅 beetles，或局部 beetle population 已在不知不覺中累積。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Insecticides formulated as a paste can be effective – either applied to the surface or caulked into pre-drilled holes – but the formulations may only be obtainable by a remedial company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "配製成 paste 的 insecticides 可以有效，可塗於表面或填入預先鑽好的洞中，但這類配方可能只有 remedial company 才能取得。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 4 講在某些情況下需要 treatment，而 paste insecticides 是一種可行方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Paste insecticides”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Insecticides formulated as a paste can be effective…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句已經足夠停下，因為它直接評價 paste insecticides 的 effectiveness。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Insecticides formulated as a paste can be effective – either applied to the surface or caulked into pre-drilled holes – but the formulations may only be obtainable by a remedial company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "配製成 paste 的 insecticides 可以有效，可塗於表面或填入預先鑽好的洞中，但這類配方可能只有 remedial company 才能取得。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心評價是 “can be effective”。也就是說，paste insecticides 在某些情況下可以有效。題目卻說它們 “are less effective than any other kind”，這比原文強得多，也和後文形成衝突。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surface spray treatments are generally ineffective…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "surface spray treatments 一般無效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 surface spray treatments 一般無效，而 paste insecticides can be effective，題目說 paste insecticides 比任何其他種類都無效，就難以成立。原文對 paste 的評價偏正面，對 surface spray的評價偏負面。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“less effective than any other kind”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“can be effective”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Surface spray treatments are generally ineffective”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目把 paste insecticides 描述成最差一類；原文說它們可以有效，且另一類 surface spray 一般無效。這形成明確衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 paste formulations “may only be obtainable by a remedial company”。這代表取得不方便，不代表效果差。學生容易把 “難取得” 誤讀成 “不有效”。判斷要落在 “can be effective” 這個評價詞上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Surface spray treatments are sometimes effective for the House Longhorn Beetle.”",
+      "translation": "surface spray treatments 有時對 House Longhorn Beetle 有效。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要處理兩個元素：surface spray treatments，以及 House Longhorn Beetle。文章分別提到surface spray 和 House Longhorn，但要檢查兩者是否被直接連在一起。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5 and Paragraph 8 Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surface spray treatments are generally ineffective because they barely penetrate the surface of the timber and the beetles’ natural behaviour does not bring them into much contact with the insecticide.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "surface spray treatments 一般無效，因為它們幾乎不能滲入木材表面，而 beetles 的自然行為也不會令牠們大量接觸 insecticide。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first is the House Longhorn Beetle (Hylotrupes bajulus).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一種是 House Longhorn Beetle，學名 Hylotrupes bajulus。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句可以知道：surface spray treatments 在 Paragraph 5，House Longhorn Beetle 在Paragraph 8。這題需要跨段檢查，看看後文是否把 surface spray 應用到 House Longhorn。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞有兩組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surface spray treatments”"
+            },
+            {
+              "kind": "quote",
+              "text": "“House Longhorn Beetle”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph 5，找到 surface spray 的一般評價。掃描 Paragraph 8，找到 House Longhorn Beetle 的特徵、分佈、活動木材、temperature 和 climate change，但沒有找到 surface spray treatments 或 treatment effectiveness。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 的關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surface spray treatments are generally ineffective…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "surface spray treatments 一般無效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句談的是 surface spray treatments 的一般效果，語境仍在前文 deathwatch beetles 的處理方法之中。它沒有說 House Longhorn Beetle。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 講 House Longhorn Beetle："
+            },
+            {
+              "kind": "quote",
+              "text": "“The beetle larvae can cause considerable damage but infestation has generally been restricted to the southwest of London…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種 beetle larvae 可造成相當大破壞，但 infestation 一般局限於倫敦西南部。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段沒有說 surface spray 是否對 House Longhorn 有效，也沒有說 sometimes effective 或never effective。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據： surface spray treatments 對 House Longhorn Beetle 有時有效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的資料： surface spray treatments 一般無效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "House Longhorn Beetle 的分佈和未來擴散風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者沒有直接建立 treatment relationship。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文沒有足夠資料判斷題目真假，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 的 “generally ineffective” 可能令人想選 FALSE。但 “generally ineffective” 仍可能容許少數情況有效；更重要的是，這句沒有指定 House Longhorn Beetle。Paragraph 8 講 House Longhorn 時也沒有處理 surface spray。因此這題缺少核心資料，應選 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Heat treatments tend to cause less damage than other treatments.”",
+      "translation": "heat treatments 通常比其他處理方法造成較少損害。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 heat treatments 與 damage 的關係。定位詞是 “Heat treatments” 和 “damage”。要找原文是否說它們能在不造成重大 structural damage 的情況下清除嚴重 infestation。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Heat treatments for entire buildings are available and experience in continental Europe shows that they are effective.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "整棟建築的 heat treatments 已經存在，而歐洲大陸的經驗顯示它們有效。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are also likely to be expensive but they may be the only way to eradicate a heavy and widespread infestation without causing considerable structural damage to the building.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們也可能很昂貴，但在 heavy and widespread infestation 的情況下，它們可能是在不對建築造成重大結構損害的前提下消滅 infestation 的唯一方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 6 專門講 heat treatment 的效果、成本和優勢。最後一句直接談 structural damage，正好對應 Question 9。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Heat treatments” 和 “damage”。Paragraph 6 的末句同時包含："
+            },
+            {
+              "kind": "quote",
+              "text": "“Heat treatments” 的代詞 “They”"
+            },
+            {
+              "kind": "quote",
+              "text": "“without causing considerable structural damage”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此這句就是核心答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are also likely to be expensive but they may be the only way to eradicate a heavy and widespread infestation without causing considerable structural damage to the building.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們也可能很昂貴，但在嚴重且廣泛的 infestation 中，它們可能是在不對建築造成重大結構損害的前提下清除 infestation 的唯一方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“They” 指 heat treatments。句中有一個轉折：heat treatments likely expensive，但可能是避免considerable structural damage 的唯一 eradication method。題目說 “tend to cause less damage than other treatments”。原文沒有逐字說 “less damage than other treatments”，但 “only way …without causing considerable structural damage” 提供了很強的比較含義：若要清除 heavy and widespread infestation，其他方式可能會帶來 considerable structural damage，heat treatment 則可能避免這種損害。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“cause less damage than other treatments”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the only way to eradicate … without causing considerable structural damage”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Heat treatments tend to…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“they may be…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文支持 heat treatments 在嚴重廣泛 infestation 下能避免重大 structural damage。題目將這點概括成造成較少 damage，方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “tend to” 而原文用 “may be”。兩者都保留可能性，沒有把 heat treatments 說成絕對無損。若題目寫成 “Heat treatments never cause damage”，就會過度；但現在的說法較保守，和原文可配合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "C — with good maintenance it may be possible to eliminate them.",
+      "answerKey": "C — with good maintenance it may be possible to eliminate them.",
+      "type": "Multiple Choice",
+      "prompt": "“The point the writer makes about deathwatch beetles is that…”",
+      "translation": "作者關於 deathwatch beetles 的重點是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 writer 的主要 point，不是單一句細節。定位詞是 “deathwatch beetles”。文章 Paragraph 2 正面交代作者對 deathwatch beetles 的基本態度：牠們長期存在、damage 慢、可透過 good maintenance 令族群下降。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first fact to remember about deathwatch beetles in your building is that they have probably been there for centuries and will remain long after you have gone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於建築中的 deathwatch beetles，第一件要記住的事是：牠們很可能已存在數百年，並會在你離開後仍然存在很久。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They will speed up the decline of a beetle population in a well-maintained building.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在維修良好的建築中，牠們會加快 beetle population 的下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段不是講即時 extermination，而是講 long-term decline。最後一句提到well-maintained building，是答案 C 的核心來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “deathwatch beetles”。Paragraph 2 第一行直接出現。選項 C 的定位詞是 “good maintenance” 和 “eliminate”。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Beetle damage in oak timbers is a slow process and if we make it slower by good maintenance then the beetle population may eventually decline to extinction.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Beetle damage in oak timbers is a slow process and if we make it slower by good maintenance then the beetle population may eventually decline to extinction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "oak timbers 中的 beetle damage 是一個緩慢過程；如果透過良好維修令這個過程更慢，beetle population 最終可能下降至 extinction。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的條件是 “by good maintenance”。結果是 “may eventually decline to extinction”。選項 C 說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“with good maintenance it may be possible to eliminate them”。這把 “decline to extinction” 改寫成 “eliminate them”。雖然 eliminate 聽起來像主動清除，但選項有 “may be possible” 和 “with good maintenance”，所以它概括的是長期自然下降至消失，而非立即用藥殺清。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “they must be eliminated quickly.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯。原文說 damage is a slow process，且牠們可能已存在數百年。作者沒有主張快速清除。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “only natural predation will keep them under control.”錯。原文提到 natural predation 會 help，但 good maintenance 也很重要。選項中的 only 過強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “with good maintenance it may be possible to eliminate them.”正確。對應 “by good maintenance … may eventually decline to extinction”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “they are here to stay and do great damage.”只符合一部分。原文確實說牠們可能已存在很久，也會長期存在，但 damage 是 slow process，且 good maintenance 可令族群下降。選項 “do great damage” 把語氣推得太重。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“with good maintenance”"
+            },
+            {
+              "kind": "label",
+              "text": "= “by good maintenance”選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“may be possible to eliminate them”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “may eventually decline to extinction”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 很吸引，因為 Paragraph 2 第一語句確實說 beetles have probably been there for centuries and will remain long after you have gone。但作者不是要叫讀者絕望；後面馬上提出 good maintenance 和 spiders 可幫助 decline。MCQ 要選整段最完整支援項，C 比 D 更貼近作者真正重點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "D — a light trap in a dark place.",
+      "answerKey": "D — a light trap in a dark place.",
+      "type": "Multiple Choice",
+      "prompt": "“One way to trap deathwatch beetles is to attract them to…”",
+      "translation": "捕捉 deathwatch beetles 的其中一種方法，是把牠們吸引到……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 trapping method。定位詞是 “trap” 和 “attract”。原文有 “fly to light” 和 “light trap”，所以答案位置很直接。但要注意，原文還補充 trap 所在地方必須 dark，避免 competing light source。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The beetles fly to light and some form of light trap may help to deplete a population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 beetles 會飛向光源，因此某種 light trap 可能有助減少族群。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unnecessary pesticide treatments must be avoided.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "必須避免不必要的 pesticide treatments。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph 3 講 light trap 和檢測 active infestation。Question 11 的 “trap”直接指向這段第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的是 “trap”。原文第一句直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“light trap”"
+            },
+            {
+              "kind": "label",
+              "text": "再看下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The place in which it is used must be dark, so that there is no competing light source…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句補充了 trap 的使用條件。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“The beetles fly to light and some form of light trap may help to deplete a population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 beetles 會飛向光源，因此某種 light trap 可能有助減少族群。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The place in which it is used must be dark, so that there is no competing light source…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用 light trap 的地方必須黑暗，這樣才沒有其他競爭光源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 說 “a light trap in a dark place”。這同時包含兩個必要資訊：光源吸引和黑暗環境。只選daylight 或 totally dark environment 都不完整，因為 beetles 被吸引的是 trap 的 light，而使用地點需要 dark。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “daylight.”錯。beetles fly to light，但原文說 trap 所在處 must be dark，避免 competing light source。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "daylight 會成為競爭光源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “a totally dark environment.”只符合部分條件。地方要 dark，但仍需要 light trap 作吸引。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “a constantly warm environment.”錯。原文說 air temperature must rise above about 17°C during emergence season so beetles will fly；這是飛行條件，不是 trap 的吸引目標，也沒有說 constantly warm。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “a light trap in a dark place.”正確。完整概括 “light trap” 和 “place … must be dark”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“attract them to”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“fly to light”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“a light trap in a dark place”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“some form of light trap”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The place in which it is used must be dark”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 的 daylight 很容易吸引學生，因為原文說 beetles fly to light。不過 light 不等於 daylight。原文要求沒有 competing light source，所以光源要由 trap 控制，環境反而要 dark。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "B — they do not reach the beetles.",
+      "answerKey": "B — they do not reach the beetles.",
+      "type": "Multiple Choice",
+      "prompt": "“Surface spray treatments are not effective because…”",
+      "translation": "surface spray treatments 無效的原因是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目已直接給出 treatment type 和 because，要求找原因。定位詞是 “Surface spray treatments”。答案在 Paragraph 5 第一個句子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surface spray treatments are generally ineffective because they barely penetrate the surface of the timber and the beetles’ natural behaviour does not bring them into much contact with the insecticide.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "surface spray treatments 一般無效，因為它們幾乎不能滲入木材表面，而 beetles 的自然行為也不會令牠們大量接觸 insecticide。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Contact insecticides might also kill the natural predators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "contact insecticides 也可能殺死 natural predators。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段集中評價 spray / insecticide treatment 的不足。Question 12 幾乎直接問第一句的 because 部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Surface spray treatments”。原文第一句逐字出現。答案詞不一定是原字，應看原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“barely penetrate the surface of the timber”"
+            },
+            {
+              "kind": "quote",
+              "text": "“does not bring them into much contact with the insecticide”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個原因都指向同一結果：insecticide 不能有效到達 beetles。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surface spray treatments are generally ineffective because they barely penetrate the surface of the timber and the beetles’ natural behaviour does not bring them into much contact with the insecticide.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "surface spray treatments 一般無效，因為它們幾乎不能滲入木材表面，而且 beetles 的自然行為也不會令牠們大量接觸 insecticide。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩層原因：第一，spray 幾乎停留在 timber surface，不能深入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，beetles 的行為不會讓牠們大量接觸 insecticide。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B “they do not reach the beetles” 是對這兩層原因的概括。insecticide 不能深入木材，也不容易接觸 beetles，所以 treatment 效果差。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “the beetles are immune to them.”錯。原文沒有說 beetles 有免疫或抗藥性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “they do not reach the beetles.”正確。對應 barely penetrate 和 little contact。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “they react poorly to wooden surfaces.”錯。原文說 spray barely penetrates wood surface，不是發生 poor reaction。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “they attract other harmful creatures.”錯。原文說 contact insecticides might kill natural predators，沒有說吸引其他害蟲。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“do not reach the beetles”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“barely penetrate the surface of the timber”"
+            },
+            {
+              "kind": "quote",
+              "text": "“does not bring them into much contact with the insecticide”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： B 把兩個技術原因概括成「藥劑到不了 beetles」，最貼合原文。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 可能令人想到 natural predators，但原文說的是 contact insecticides 可能殺死捕食者，沒有說會吸引 harmful creatures。這個錯項使用了生態關係的背景，卻換了動作。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "B — the timber was imported.",
+      "answerKey": "B — the timber was imported.",
+      "type": "Multiple Choice",
+      "prompt": "“Damage by the House Longhorn Beetle is sometimes found further afield than London because…”",
+      "translation": "House Longhorn Beetle 的 damage 有時在倫敦以外更遠地區被發現，原因是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 House Longhorn Beetle damage 為何有時在倫敦西南部以外出現。定位詞是 “House Longhorn Beetle”、“London” 和 “further afield”。目標段落是 Paragraph 8。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first is the House Longhorn Beetle (Hylotrupes bajulus).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一種是 House Longhorn Beetle，學名 Hylotrupes bajulus。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is an insect that might become more widespread because of climate change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一種可能因 climate change 而變得更廣泛分佈的昆蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 8 講 House Longhorn Beetle 的特徵和分佈。最後一句談未來climate change，題目則問 damage sometimes found further afield than London，可能在段中關於 distribution 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “London”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“infestation has generally been restricted to the southwest of London…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "infestation 一般局限於倫敦西南部。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Old damage is, however, frequently found elsewhere, thus indicating a wider distribution in the past, and infested timber is sometimes imported.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，old damage 經常在其他地方被發現，這顯示過去分佈曾更廣，而受 infestation 的 timber有時也會被進口。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Old damage is, however, frequently found elsewhere, thus indicating a wider distribution in the past, and infested timber is sometimes imported.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，old damage 經常在其他地方被發現，這顯示過去分佈曾更廣，而受 infestation 的 timber有時也會被進口。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含兩個相關解釋：第一，old damage elsewhere indicates a wider distribution in the past。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，infested timber is sometimes imported。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項中沒有 “wider distribution in the past” 這個答案。四個選項裡，B “the timber was imported”對應 “infested timber is sometimes imported”。因此 B 是可選項中最直接受原文支持的一項。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “temperatures have increased.”錯。原文說 House Longhorn Beetle 可能因 climate change 變得更 widespread，這是未來可能趨勢，不是 explaining old damage currently found elsewhere。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “the timber was imported.”正確。對應 “infested timber is sometimes imported”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “there was no effective treatment previously.”原文沒有提到 previous treatment failure。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “the type of timber has changed.”原文說牠們主要活動於 20th-century softwood，也可能 attack older softwood；但這不是damage found beyond London 的原因。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“found further afield than London”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“found elsewhere”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“the timber was imported”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“infested timber is sometimes imported”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：在四個選項中，B 最能對應原文中的明確原因。答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很吸引，因為 Paragraph 8 最後一句有 “climate change”。但題目問的是 damage sometimes found further afield than London 的原因；原文把 climate change 放在 future spread 的可能性上。要把 current / past evidence 和 future risk 分開處理。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - CONTROLLING DEATHWATCH BEETLES.pdf",
+    "sha256": "e85927df075f9f59dce7434f23265504f54394d89c34c9f1f3bf7da6ed116f35",
+    "pageCount": 28
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可建立的粗略地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說會損害建築木材的生物，其實都屬於森林中分解死木、製造 humus、把養分回收給樹木的自然過程。末句用一句很形象的說法指出，從 fungus 的角度看，維修不良的屋頂只像森林地面的一部分。只看首尾句，可以估計這段是全文背景：木材害蟲和真菌並非偶然出現；當建築環境複製了自然分解條件，相關生物便會入侵。"
+      },
+      {
+        "number": "2",
+        "summary": "首句提醒讀者，建築中的 deathwatch beetles 很可能已存在數百年，並會在住戶離開後繼續存在。末句說在維修良好的建築中，蜘蛛會加速 beetle population 的下降。只看首尾句，可以估計這段不是鼓吹立即大規模殺蟲，而是提出長期控制思路：oak timbers 中的 beetle damage 很慢，良好維修和自然捕食可令族群慢慢下降，甚至走向 extinction。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 beetles 會飛向光源，因此 light trap 可能有助減少族群；末句警告 unnecessary pesticide treatments 必須避免。只看首尾句，可以估計這段處理 detection 和 assessment：如何用光源誘捕、在甚麼溫度和季節有效、如何確認 active infestation，以及如何用 furniture polish、paper 或card 檢測仍有沒有 beetles emerging。這段是 Questions 2、5、6、11 的重點。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說有時建築無法乾燥到足以消滅 beetles，或局部族群已在不知不覺中累積。末句說 paste insecticides 可以有效，但相關配方可能只可由 remedial company 取得。只看首尾句，可以估計這段講 treatment threshold：少量 scattered beetles 未必值得驚慌，但如果 beam-end 下有大量beetles，而且 infested timber 可接觸，便可能需要處理。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 surface spray treatments 一般無效，因為它們幾乎不能滲入木材表面，beetles 的自然行為也不會令牠們大量接觸 insecticide。末句補充 contact insecticides 也可能殺死 natural predators。只看首尾句，可以估計這段專門評估一類處理方法的缺點：surface spray 難以到達beetles，contact insecticides 還可能傷害蜘蛛等幫助控制 beetles 的生物。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 entire buildings 的 heat treatments 已經存在，而歐洲大陸經驗顯示它們有效。末句指出它們可能很昂貴，但在 heavy and widespread infestation 下，可能是不用造成重大 structural damage 便能 eradication 的唯一方法。只看首尾句，可以估計這段講另一種較大規模的處理方法：heat treatment 有效但成本高，適合嚴重而廣泛的情況。"
+      },
+      {
+        "number": "7",
+        "summary": "這段只有一句：“Two other beetles are worth a mention.” 中文意思是：另外兩種 beetles 也值得一提。只看這句，可以判斷它是過渡段，把文章從 deathwatch beetles 的控制方法，轉向其他timber beetles。它本身不太會提供細節答案，但它提醒我們後面兩段會分別介紹 House Longhorn Beetle 和 Lyctus / powderpost beetle。做題時，若題目提到 one species may spread、new oak、sapwood，便要掃描後兩段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說第一種值得一提的是 House Longhorn Beetle，並給出學名 Hylotrupes bajulus。末句說這種昆蟲可能因 climate change 而變得更廣泛。只看首尾句，可以估計這段介紹 House Longhorn Beetle 的特徵、活動木材類型、地理分佈和未來風險。關鍵包括 oval emergence holes、softwood、southwest of London、old damage elsewhere、imported infested timber，以及 climate change。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說第二種是 Lyctus 或 powderpost beetle。末句說 beetle infestation 幾年後會停止，但若infestation heavy，可能需要 spray treatment。只看首尾句，可以估計這段講 Lyctus 的分類、繁殖、damage pattern 和預防方法。重點包括 oak sapwood、newly installed oak、recent increase、new oak structure、minimal sapwood content，以及 heavy infestation 時或需 spray treatment。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1861 @@
+{
+  "id": "p1-067-spot-the-difference",
+  "catalogueId": "p1-067",
+  "catalogueIds": [
+    "p1-067"
+  ],
+  "passage": 1,
+  "title": "Spot the Difference",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "C",
+    "F",
+    "G",
+    "B",
+    "variation",
+    "futile",
+    "fertile offspring",
+    "species inflation",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“The generally accepted system for naming different species”",
+      "translation": "為不同物種命名時，一般被接受的系統。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要求找「命名制度」，定位詞是 “system”、“naming”、“species”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們要找的不是雲豹外觀，也不是保育問題，而是分類學名稱如何建立。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What this actually means is fuzzy, and whether it is scientifically important is questionable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這件事實際上意味著甚麼並不清楚，其科學重要性也值得質疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, delineating when enough variation has evolved to justify a new category is largely a matter of taste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，要界定何時已演化出足夠變異、足以建立新分類，很大程度上取決於判斷口味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph C 會討論 species / subspecies 的定義和分類邊界。命名制度自然也會在這裡出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “naming different species”。掃描 Paragraph C，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Creatures are given two-part Latin names (corresponding to a genus and species) according to the convention of Carl von Linné…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "生物會根據 Carl von Linné 的慣例，被賦予由兩部分組成的拉丁名稱，分別對應 genus 和species。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接說明一般物種命名制度：two-part Latin names，也就是屬名和種名。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“generally accepted system” 對應原文 “convention”。因此包含這項資訊的是 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“system for naming” = “convention”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different species” = “genus and species” / “two-part Latin names”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也談 classification，但那裡講的是 clouded leopards 從 subspecies 升為 species。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 1 問的是「命名制度」本身，Paragraph C 才有 Carl von Linné 和 two-part Latin names。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“The reason that conservationists are happy with the apparent discovery of a new species of leopard”",
+      "translation": "保育人士為何樂見這個看似發現新雲豹物種的消息。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 conservationists 的動機。定位詞是 “conservationists”、“happy”、“new species of leopard”。原文未必寫 happy，可能用 see as a means、publicity、political capital 這類較正式表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One thing is abundantly clear: conservationists who are trying to stop the destruction of the leopards’ habitat in Borneo and Sumatra see the announcement of a new species of big cat as a means to gain publicity and political capital.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一點非常清楚：那些試圖阻止 Borneo 和 Sumatra 雲豹棲地被破壞的保育人士，把宣布新大型貓科物種視為獲得宣傳和政治資本的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trouble is that this risks devaluing the importance of the term ‘species’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題在於，這有可能貶低 species 這個詞的重要性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接回答題目。Paragraph F 的功能是解釋保育人士為何會支持「新物種」宣稱，以及這樣做的風險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“conservationists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reason”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句就是首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“see the announcement of a new species of big cat as a means to gain publicity and political capital.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “happy with” 概括保育人士的態度。原文更精確地說，他們把這項宣布看成爭取關注和政治支持的工具。這說明他們樂見新物種消息的原因：它能增加保育議題的能見度，也可能令政府或公眾更重視棲地保護。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“happy with the apparent discovery” = “see the announcement … as a means”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reason” = “gain publicity and political capital”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也提到 WWF，容易讓人以為答案在開首。不過 Question 2 問「保育人士為何高興」，真正的原因在 Paragraph F 的 publicity and political capital。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“How genes could cause a potential problem for conservationists”",
+      "translation": "基因如何可能為保育人士帶來問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求找 genes 對 conservationists 造成的 potential problem。定位詞是 “genes”、“problem”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“conservationists”。這題很可能在文章結尾，因為它把前文分類爭議推到保育法例後果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G第一句：“The problem of redefining species by genetics is the creation of taxonomic confusion, a potentially serious difficulty for conservationists and others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用基因重新定義物種所造成的問題，是會製造分類混亂；這對保育人士和其他人來說，可能是嚴重困難。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Go by the genes and it seems that the polar bear would not count as a species in its own right… but should be labelled a subspecies of the brown bear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果按基因來看，polar bear 似乎不能算作獨立 species，而應被標示為 brown bear 的subspecies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 已明顯對應題目：genes、taxonomic confusion、conservationists、potential problem 全部出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“genes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“potential problem”"
+            },
+            {
+              "kind": "quote",
+              "text": "“conservationists”"
+            },
+            {
+              "kind": "label",
+              "text": "原文首句直接包含："
+            },
+            {
+              "kind": "quote",
+              "text": "“redefining species by genetics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“taxonomic confusion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“potentially serious difficulty for conservationists”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 用 polar bear 作例。若按 genetics，polar bear 和某些 brown bears 的關係太近，可能令 polar bear 失去 species in its own right 的地位。若牠只能算 subspecies，就可能無法得到以 species 為單位的法律保護。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“How genes could cause a potential problem” = “redefining species by genetics … taxonomic confusion”"
+            },
+            {
+              "kind": "quote",
+              "text": "“for conservationists” = “a potentially serious difficulty for conservationists”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也談 genetic analysis，但 F 的重點是 species inflation 和 publicity。Question 3 問的是 genes 造成的保育困難，Paragraph G 的 polar bear 例子更直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Some scientists want to change the way clouded leopards are classified into species and subspecies.”",
+      "translation": "一些科學家想改變 clouded leopards 被分類為 species 和 subspecies 的方式。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求找 classification change。定位詞是 “clouded leopards”、“species”、“subspecies”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“change”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B第一句：“However, no previously unknown beast has suddenly leapt out from the forest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，並沒有任何以前未知的野獸突然從森林中跳出來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The 5,000–11,000 clouded leopards on Borneo, the 3,000–7,000 on Sumatra, and the remaining few on the nearby Batu Islands can now, the authors say, claim the elevated status of a separate species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者表示，Borneo 的 5,000 至 11,000 隻雲豹、Sumatra 的 3,000 至 7,000 隻雲豹，以及 Batu Islands 附近剩下的少數雲豹，現在可以獲得 separate species 的提升地位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首句已經提醒：新聞不是新動物突然出現，而是分類方法被改。最後一句說雲豹被提升為separate species，正好對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“clouded leopards”"
+            },
+            {
+              "kind": "quote",
+              "text": "“subspecies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“change”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, some scientists have proposed a change in the official taxonomic accounting system of clouded leopards. Where there were four subspecies, there will now probably be two species.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，一些科學家提出改變雲豹的官方分類計算系統。原本有四個 subspecies，現在可能會變成兩個 species。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“proposed a change” 直接對應題目 “want to change”。“official taxonomic accounting system” 就是 species / subspecies 分類方式。Paragraph B 明確說明原來四個 subspecies 可能改為兩個species，因此答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 說 scientists described a new species，似乎也相關。但 Question 4 的重點是“classified into species and subspecies”，Paragraph B 才把四個 subspecies 改成兩個 species的制度變化說清楚。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "variation",
+      "answerKey": "variation",
+      "type": "Sentence Completion",
+      "prompt": "“It is difficult to decide exactly when there is enough 5 ______ to say an animal is a new species.”",
+      "translation": "要判斷動物出現多少 ______ 才能說牠是新物種，是困難的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前有 enough，後面有 “to say an animal is a new species”，所以答案應是抽象名詞，表示足以支持新分類的差異程度。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What this actually means is fuzzy, and whether it is scientifically important is questionable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這件事實際上意味著甚麼不清楚，其科學重要性也值得質疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, delineating when enough variation has evolved to justify a new category is largely a matter of taste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，要界定何時已演化出足夠變異、足以建立新分類，很大程度上取決於判斷口味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已經幾乎是題目原句的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“difficult to decide”"
+            },
+            {
+              "kind": "quote",
+              "text": "“enough”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new species”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“when enough variation has evolved to justify a new category”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “enough variation” 對應題目 “enough ______”。“justify a new category” 對應 “say an animal is a new species”。題目把 “largely a matter of taste” 改寫成 “difficult to decide exactly”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： variation = one word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“difficult to decide exactly” = “largely a matter of taste”"
+            },
+            {
+              "kind": "quote",
+              "text": "“say an animal is a new species” = “justify a new category”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 variation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "futile",
+      "answerKey": "futile",
+      "type": "Sentence Completion",
+      "prompt": "“It is 6 ______ to compare the number of species of ants and butterflies.”",
+      "translation": "比較螞蟻和蝴蝶的物種數量是 ______ 的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “It is”，答案大多是形容詞。定位詞是 “ants and butterflies” 和 “compare”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Take ants and butterflies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以螞蟻和蝴蝶為例。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, it would be futile – if one were so inclined – to attempt to compare the diversity of ant and butterfly populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，如果有人想這樣做，嘗試比較螞蟻和蝴蝶族群的多樣性會是徒勞的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句已經把 ants / butterflies 和 compare 連起來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“ants”"
+            },
+            {
+              "kind": "quote",
+              "text": "“butterflies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“compare”"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“it would be futile … to attempt to compare the diversity of ant and butterfly populations.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “compare the number of species” 對應原文 “compare the diversity”。雖然 diversity 不完全等於 number of species，但在分類語境中，物種多樣性通常涉及物種數量和分類粒度。原文給出的形容詞是 futile。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： futile = one word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 futile。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “difficult”。原文用的精準詞是 futile，意思是徒勞、沒有實際意義。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "fertile offspring",
+      "answerKey": "fertile offspring",
+      "type": "Sentence Completion",
+      "prompt": "“Generally, animals of the same species can produce 7 ______ together.”",
+      "translation": "一般而言，同一物種的動物可以一起產生 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 produce，後面有 together，答案應是名詞短語。定位詞是 “same species” 和 “produce”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The traditional way around the problem is to classify as a species all members of a group that share the same gene pool.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "處理這個問題的傳統方法，是把共享同一 gene pool 的群體成員分類為同一 species。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A larger sample would have been more difficult to obtain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要取得更大的樣本會困難得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，可以知道 Paragraph E 會講傳統 species 定義。這正是題目 “same species can produce…” 的來源。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“same species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“produce”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“They can mate together and produce fertile offspring.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們可以互相交配，並產生有繁殖能力的後代。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “They” 指同一 group、共享 same gene pool 的成員，也就是傳統上被歸為同一 species的動物。題目把 “mate together” 和 “produce” 保留下來，答案直接是 “fertile offspring”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： fertile offspring = two words，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 fertile offspring。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 offspring。題目空格需要原文中的完整關鍵概念。fertile 表示後代本身能繁殖，這是biological species concept 的核心。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "species inflation",
+      "answerKey": "species inflation",
+      "type": "Sentence Completion",
+      "prompt": "“Some scientists claim that genetics has led to 8 ______ rather than the actual discovery of new species.”",
+      "translation": "一些科學家認為，基因研究造成了 ______，而非真正發現新物種。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格需要名詞短語。定位詞是 “genetics”、“actual discovery”、“new species”。原文很可能談到genetic analysis 帶來分類過度細分。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One thing is abundantly clear: conservationists who are trying to stop the destruction of the leopards’ habitat in Borneo and Sumatra see the announcement of a new species of big cat as a means to gain publicity and political capital.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一點非常清楚：保育人士把宣布新大型貓科物種視為獲得宣傳和政治資本的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trouble is that this risks devaluing the importance of the term ‘species’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "問題在於，這有可能貶低 species 這個詞的重要性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段從保育宣傳轉到 species 一詞被過度使用的風險，正好對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“genetics”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“claim”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Upgrading subspecies to species is a strategy that James Mallet, of University College London, likes to call species inflation. It is a common by-product of genetic analysis…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把 subspecies 升級為 species，是 University College London 的 James Mallet 喜歡稱為species inflation 的策略。這是 genetic analysis 的常見副產品。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 genetics has led to something rather than actual discovery。原文說 genetic analysis 的副產品是 species inflation，也就是把越來越細小的群體提升為 species，令 species 數目膨脹。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： species inflation = two words，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 species inflation。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 genetic analysis。題目問 genetics 造成了甚麼結果；原文的結果詞是 species inflation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The possible new species of leopard appears different in two ways.”",
+      "translation": "這個可能的新雲豹物種看起來有兩方面不同。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目重點是數量：two ways。要檢查原文列出幾個外觀差異。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Taxonomic history has been made this week, at least according to the World Wildlife Fund (WWF), a conservation group.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至少按照保育組織 WWF 的說法，本週出現了分類學歷史事件。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists have described a new species of clouded leopard from the tropical forests of Indonesia whose spots … are smaller than those of other clouded leopards, whose fur is slightly darker, and which has a double rather than a ‘partial double’ stripe down its back.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家描述了一種來自印尼熱帶森林的新雲豹物種；牠的斑點比其他雲豹小，毛色略深，背上有完整雙條紋而非部分雙條紋。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“new species of leopard”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different”"
+            },
+            {
+              "kind": "quote",
+              "text": "“two ways”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文列出三項外觀差異： 1. spots are smaller 2. fur is slightly darker 3. double rather than partial double stripe down its back"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 two ways，但原文列出三個不同點。這不是資料不足，而是明確數量衝突。因此答案為FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 數量比較",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“appears different” 對應外觀差異。“two ways” 與原文三項差異不一致。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能只注意 spots 和 fur，忽略最後的 stripe。IELTS 的數量詞很重要，two、three、several這類字要逐項核對。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Darwinism created a problem with how species are defined.”",
+      "translation": "Darwinism 令 species 如何定義這件事產生問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 species definition 的問題是否和 Darwinism 有關。定位詞是 “Darwinism”、“species”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“defined”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C第一句：“What this actually means is fuzzy, and whether it is scientifically important is questionable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這件事實際上意味著甚麼並不清楚，其科學重要性也值得質疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, delineating when enough variation has evolved to justify a new category is largely a matter of taste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，要界定何時已演化出足夠變異、足以建立新分類，很大程度上取決於判斷口味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段本來就是 species definition 的爭議段。首尾句已顯示「定義不清」和「分類界線難劃」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Darwinism”"
+            },
+            {
+              "kind": "quote",
+              "text": "“species”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Linnaeus, as he is more commonly known, thought of species as perfectly discrete units created by God. Darwinism regards them as mutable entities that arise gradually over time by natural selection.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Linnaeus 認為 species 是由上帝創造、彼此完全分明的單位。Darwinism 則把 species 視為會改變的實體，它們會隨時間經由自然選擇逐漸產生。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Linnaeus 的系統假設 species 是 discrete units，即清楚分隔的單位。Darwinism 把 species 理解為 mutable entities，即會變動的實體，而且 gradually over time 形成。正因為物種是逐步變化，分類學家就難以決定何時的 variation 已足夠建立新 category。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Darwinism created a problem with definition。原文沒有用 created a problem 這幾個字，但它給出清楚邏輯鏈： Darwinism → species are mutable and gradual→ boundaries become difficult→ enough variation becomes a matter of taste因此題目和原文方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“created a problem” 是概括語，不一定要原字重現。只要原文顯示 Darwinism 改變 species 的理解，並導致界線判斷變得主觀，就足以支持 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Lepidopterists study ants.”",
+      "translation": "Lepidopterists 研究螞蟻。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題考人物／專家群體與研究對象的配對。定位詞是 “Lepidopterists” 和 “ants”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Take ants and butterflies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以螞蟻和蝴蝶為例。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, it would be futile – if one were so inclined – to attempt to compare the diversity of ant and butterfly populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，如果有人想這樣做，嘗試比較螞蟻和蝴蝶族群的多樣性會是徒勞的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段比較兩類專家對分類細分的不同做法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lepidopterists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ants”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ant experts have recently been waging a war against all types of species subdivision. Lepidopterists, on the other hand, cling to the double-barrelled second names…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "螞蟻專家最近一直反對各種物種細分。另一方面，lepidopterists 仍堅持使用雙重第二名稱……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先說 ant experts，接著用 “on the other hand” 轉到 Lepidopterists。Paragraph D 的開頭已把 ants and butterflies 配成兩組，所以 Lepidopterists 對應 butterflies，而 ant experts 對應 ants。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Lepidopterists study ants，與段落分組相反，因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題靠上下文判斷。即使學生不知道 lepidopterists 是研究蝴蝶和蛾類的專家，原文的 “Take ants and butterflies” + “Ant experts … Lepidopterists, on the other hand” 已足以排除題目說法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Scientists are going to study more clouded leopards in Indonesia.”",
+      "translation": "科學家將會研究更多印尼雲豹。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 “are going to”，即未來計劃。原文如果只說樣本少、較大樣本難取得，仍不足以證明科學家將會做更多研究。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The traditional way around the problem is to classify as a species all members of a group that share the same gene pool.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "處理這個問題的傳統方法，是把共享同一 gene pool 的群體成員分類為同一 species。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A larger sample would have been more difficult to obtain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要取得更大的樣本會困難得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段末句談到 sample，因此是題目 “study more clouded leopards” 的相關位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“more clouded leopards”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Indonesia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“study”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The authors did find some correlation, but they looked for it in only three Indonesian animals. A larger sample would have been more difficult to obtain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者確實找到一些相關性，但他們只在三隻印尼動物中尋找這種相關性。更大的樣本會更難取得。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供兩點： 1. 研究樣本只有 three Indonesian animals。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. larger sample 會更難取得。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Scientists are going to study more clouded leopards in Indonesia.原文沒有說：他們計劃擴大樣本未來會研究更多雲豹下一步研究安排已獲得更多樣本所以答案不能是 TRUE。原文也沒有說科學家不會研究更多雲豹，因此不能選 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“larger sample would have been more difficult to obtain” 很容易令人聯想到未來需要更大樣本。不過這只是指出困難，沒有提供未來計劃。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The writer believes that polar bears are not a species in their own right.”",
+      "translation": "作者相信 polar bears 不是獨立物種。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 writer’s belief。要判斷作者自己是否持有這個立場，而不只看文章是否提到某種基因分類可能性。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The problem of redefining species by genetics is the creation of taxonomic confusion, a potentially serious difficulty for conservationists and others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用基因重新定義物種所造成的問題，是製造分類混亂；這對保育人士和其他人可能是嚴重困難。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Go by the genes and it seems that the polar bear would not count as a species in its own right… but should be labelled a subspecies of the brown bear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果按基因來看，polar bear 似乎不能算作獨立物種，而應被標示為 brown bear 的 subspecies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段用 polar bear 作例，說明基因定義可能造成保育困境。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“writer believes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“polar bears”"
+            },
+            {
+              "kind": "quote",
+              "text": "“species in their own right”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Go by the genes and it seems that the polar bear would not count as a species in its own right…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有兩個重要限制：第一，句子以 “Go by the genes” 開頭，表示在「按基因分類」這個條件下。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，原文用 “it seems”，語氣保留，表示一種推論或可能結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “The writer believes”，這是作者的直接立場。原文其實是在展示 genetic classification 會導致何種尷尬後果，未明確說作者本人認同 polar bear 應被取消 species 地位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，文章有相關背景，但缺少「作者相信 polar bears 並非獨立 species」這一核心資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤選 TRUE，因為原文有 “polar bear would not count as a species in its own right”。但這句受 “Go by the genes” 限制，功能是展示基因分類帶來的問題，不等同於作者本人最後採納這個分類立場。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Spot the Difference.pdf",
+    "sha256": "4b44ddaf7f33c2efa347a6969fa3da2b4b142878f59c8e713dee8db2ca9a4f19",
+    "pageCount": 20
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句可先看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 according to WWF，本週出現了 taxonomic history，即分類學上的重大事件。末句描述印尼熱帶森林中一種 clouded leopard 被列為新物種，並列出外觀差異：斑點較小、毛色略深、背上有 double stripe。只看首尾句，可以先估計這段是新聞式開場：用「新物種發現」吸引讀者，重點落在雲豹外觀差異和分類學宣稱。"
+      },
+      {
+        "number": "B",
+        "summary": "首句用 “However” 轉折，說沒有任何未知野獸突然從森林跳出來。末句說 Borneo、Sumatra 和Batu Islands 的雲豹，現在可被作者提升為 separate species。只看首尾句，可以看到這段會修正Paragraph A 的新聞感：所謂新物種更接近分類制度重整，從原來四個 subspecies 改成可能兩個species。這段對 clouded leopard classification 題非常重要。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說這件事真正意味著甚麼仍然 fuzzy，而且其科學重要性也值得質疑。末句說要劃出「何時變異足以建立新分類」很大程度上是 a matter of taste。只看首尾句，可以估計這段會討論species / subspecies 的定義爭議。中間會提到 Linnaeus 的雙名法，以及 Darwinism 如何令物種邊界變得流動、不易劃分。"
+      },
+      {
+        "number": "D",
+        "summary": "首句用 ants and butterflies 作例子。末句說如果有人想比較螞蟻和蝴蝶族群的 diversity，那會是futile。只看首尾句，可以看到這段用兩個生物學領域展示分類習慣差異：ant experts 反對細分， lepidopterists 卻保留大量細分類。段落功能是說明不同專家群體使用不同分類尺度，所以跨類群比較物種多樣性會失去可靠性。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說傳統解決方法是把共享同一 gene pool 的群體歸為同一 species。末句說若要取得更大樣本會更困難。只看首尾句，可以估計這段會介紹 biological species concept：同種動物能交配並產生 fertile offspring。接著它回到 Indonesian clouded leopards，檢查 genetic evidence 和 fur patterning 是否足以支持新物種，但樣本只有三隻，證據範圍有限。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說有一點非常清楚：保育人士希望阻止 Borneo 和 Sumatra 雲豹棲地被破壞，因此把「新大型貓科物種」消息視為 publicity 和 political capital。末句警告，這會冒著貶低 species 一詞重要性的風險。只看首尾句，可以看到這段處理 conservation politics 和 species inflation：基因分析令物種分類越切越細，也讓保育宣傳更有力。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說用 genetics 重新定義 species 會造成 taxonomic confusion，這對 conservationists 和其他人可能是嚴重困難。末句用 polar bear 作例：若只按基因，polar bear 可能只能算 brown bear的 subspecies，因而未必享有 species 層級保護。只看首尾句，可以估計這段說明 genetic classification 的實際後果：它可能影響 endangered species protection。"
+      }
+    ]
+  }
+}

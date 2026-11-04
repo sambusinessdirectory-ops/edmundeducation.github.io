@@ -1,0 +1,1612 @@
+{
+  "id": "p3-063-hazard-management",
+  "catalogueId": "p3-063",
+  "catalogueIds": [
+    "p3-063"
+  ],
+  "passage": 3,
+  "title": "HAZARD MANAGEMENT",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 11,
+  "questionNumberStart": 30,
+  "answerKey": [
+    "hazard-management plan",
+    "the organisation",
+    "three",
+    "chances rating",
+    "Definite",
+    "multiplied",
+    "disaster",
+    "high priority",
+    "eliminate",
+    "store",
+    "minimise"
+  ],
+  "questions": [
+    {
+      "number": 30,
+      "answer": "hazard-management plan",
+      "answerKey": "hazard-management plan",
+      "type": "Short-answer Questions",
+      "prompt": "“What are the five stages of managing hazards collectively known as?”",
+      "translation": "管理 hazards 的五個階段合起來稱為甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 short-answer question，要求 NO MORE THAN THREE WORDS。題目問的是「五個階段的總稱」，所以答案應該是一個名詞短語。看到 “five stages” 和 “collectively known as”，要回到文章一開始找整套流程的名稱。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many industrial or manufacturing workplaces, managing hazards is essential for a successful health and safety system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在很多工業或製造業工作場所中，管理 hazards 對成功的健康與安全系統十分重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many cases, local and national government legislation has strict regulations concerning hazard identification, and in many industries, especially those perceived to be dangerous, companies that overlook hazard identification can incur severe penalties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在很多情況下，地方和國家政府法律對 hazard identification 有嚴格規定；在很多行業，尤其是被視為危險的行業，忽略 hazard identification 的公司可能受到嚴重處罰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 會介紹 hazard management 的基本概念，並展開第一步identification。題目問整個五步流程的名稱，因此應在這段開頭附近找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是：● “five stages”● “managing hazards”● “collectively known as”原文對應位置是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hazard management is an ongoing process that goes through five different stages, with each step becoming a stage in the hazard-management plan.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 “Hazard management”、 “five different stages” 和 “hazard-management plan”，值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hazard management is an ongoing process that goes through five different stages, with each step becoming a stage in the hazard-management plan.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hazard management 是一個持續進行的過程，會經過五個不同階段，而每一步都成為hazard-management plan 中的一個階段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “five stages … collectively known as?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “each step becoming a stage in the hazard-management plan”。也就是說，五個階段合在一起構成 hazard-management plan。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “five stages of managing hazards”= “five different stages” in “Hazard management”● “collectively known as”= “becoming a stage in the … plan”● 答案名詞短語= “hazard-management plan”字數檢查：hazard-management / plan，共兩個詞，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 hazard-management plan。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "the organisation",
+      "answerKey": "the organisation",
+      "type": "Short-answer Questions",
+      "prompt": "“Damaged machinery and wasted resources are two examples of hazards to what entity?”",
+      "translation": "damaged machinery 和 wasted resources 是對哪一個 entity 造成 harm 的例子？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題也是 short-answer question，答案不超過三個詞。題目給出兩個例子：damaged machinery和 wasted resources。學生要回到原文，看這些例子被放在哪一個更大的分類之下。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many industrial or manufacturing workplaces, managing hazards is essential for a successful health and safety system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在很多工業或製造業工作場所中，管理 hazards 對成功的健康與安全系統十分重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many cases, local and national government legislation has strict regulations concerning hazard identification, and in many industries, especially those perceived to be dangerous, companies that overlook hazard identification can incur severe penalties.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在很多情況下，地方和國家政府法律對 hazard identification 有嚴格規定；在很多行業，尤其是被視為危險的行業，忽略 hazard identification 的公司可能受到嚴重處罰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句顯示 Paragraph 1 會定義 hazard、說明 identification 的重要性，並指出忽略 hazards的後果。題目中的 machinery 和 resources 都屬於 hazard 對工作場所造成的損害，所以應在這段中間找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● “Damaged machinery”● “wasted resources”● “entity”原文沒有用 damaged machinery，而是用 “broken machinery”。這是同義改寫：● damaged = broken掃描 Paragraph 1 可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“...can also result in lost production, broken machinery and wasted resources for the company.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時出現 broken machinery 和 wasted resources，直接定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“hazards are defined as anything that could potentially cause harm not only to people, but also to the organisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "hazards 被定義為任何可能造成傷害的東西；它們不只可能傷害 people，也可能傷害organisation。"
+            },
+            {
+              "kind": "label",
+              "text": "再看下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To illustrate, an industrial accident can cause an injury to employees, but can also result in lost production, broken machinery and wasted resources for the company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "舉例來說，industrial accident 可以令 employees 受傷，也可以為 company 帶來 production loss、broken machinery 和 wasted resources。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 damaged machinery and wasted resources 是對哪個 entity 的 hazards。原文先建立大分類：hazards 可傷害 people，也可傷害 the organisation。後一句用 company 作具體說法，列出lost production、broken machinery、wasted resources。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● damaged machinery= broken machinery● wasted resources= wasted resources● what entity= the organisation / the company● “harm … to the organisation”= “for the company”較貼文章定義的答案是 the organisation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：the / organisation，共兩個詞，符合要求。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "three",
+      "answerKey": "three",
+      "type": "Summary Completion",
+      "prompt": "“To calculate a risk assessment mathematically, 32 ______ scores must be considered.”",
+      "translation": "要用數學方式計算 risk assessment，需要考慮多少個 scores？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 summary completion，字數限制是 NO MORE THAN TWO WORDS。空格後面是 “scores”，所以答案應該是數量詞或形容詞，用來修飾 scores。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having identified the potential hazards, the next step is to assess the hazard; that is, to consider how significant each one is.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "識別出 potential hazards 之後，下一步是 assess the hazard，也就是考慮每一項 hazard 有多重要或嚴重。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Certain jobs consistently receive scores of over 200 (fire-fighting, for example) and in many cases additional payments, informally known as ‘danger money’, are made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些工作經常得到超過 200 的分數，例如 fire-fighting；在很多情況下，會作出額外付款，非正式稱為 “danger money”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段講如何評估 hazard 的嚴重程度，以及分數如何影響 priority 或danger money。題目問 mathematically calculate risk assessment，明顯定位到本段中間的scoring system。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是：● “calculate”● “risk assessment”● “scores”● “mathematically”原文沒有 “mathematically” 這個字，但有大量計算詞：● “assigning a point value”● “score”● “multiplied”● “product”● “final risk-assessment result”掃描時找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“These tables work by assigning a point value to three areas.”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Together, the three scores give the final risk-assessment result.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These tables work by assigning a point value to three areas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 tables 的運作方式，是為三個方面分配 point value。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Together, the three scores give the final risk-assessment result.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三個 scores 合起來得出最終的 risk-assessment result。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “scores must be considered”，原文說 “the three scores”。所以答案是 three。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “calculate a risk assessment mathematically”= use risk assessment tables / assign point values / multiply scores● “scores must be considered”= “the three scores”● answer= three字數檢查：one word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "chances rating",
+      "answerKey": "chances rating",
+      "type": "Summary Completion",
+      "prompt": "“The 33 ______ then measures the probability of an accident, ranging from ‘Unlikely’ to 34______.”",
+      "translation": "第 33 空那一項會量度事故發生的 probability，範圍由 “Unlikely” 到第 34 空。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題空格前有 “The”，空格後有 “then measures”，所以答案應該是名詞短語。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“probability of an accident” 是關鍵定位概念，應去找原文如何描述 likelihood / chances。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2第一句：“Having identified the potential hazards, the next step is to assess the hazard; that is, to consider how significant each one is.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "識別 potential hazards 之後，下一步是 assess the hazard，也就是判斷每一項 hazard 有多significant。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Certain jobs consistently receive scores of over 200 (fire-fighting, for example) and in many cases additional payments, informally known as ‘danger money’, are made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些工作經常得到超過 200 的分數，例如 fire-fighting；在很多情況下，會有額外付款，俗稱"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“danger money”。這段功能是說明 risk assessment scoring。Question 33 問 probability of accident，應在介紹第二個 score 的位置尋找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● “probability”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● “accident”● “Unlikely”● “ranging from”原文用的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The score is then multiplied by the likelihood of this hazard causing an injury, ranging from‘Definite’ … down to ‘Unlikely’ … This is referred to as the chances rating.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“probability” 對應 “likelihood”；“chances” 也有 probability 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The score is then multiplied by the likelihood of this hazard causing an injury, ranging from‘Definite’ (it happens all the time) down to ‘Unlikely’ (it hasn’t happened yet). This is referred to as the chances rating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 score 之後會乘以該 hazard 造成 injury 的 likelihood，範圍從 “Definite”（一直發生）到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Unlikely”（尚未發生）。這被稱為 chances rating。題目說 “measures the probability of an accident”。原文說 “likelihood of this hazard causing an injury”。這兩者意思相近：● probability= likelihood / chances● accident= hazard causing an injury答案名詞短語是 chances rating。字數檢查：chances / rating，共兩個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "Definite",
+      "answerKey": "Definite",
+      "type": "Summary Completion",
+      "prompt": "“The 33 ______ then measures the probability of an accident, ranging from ‘Unlikely’ to 34______.”",
+      "translation": "這個 rating 的範圍由 “Unlikely” 到甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求填入 range 的另一端。因為題目已經給 “Unlikely”，我們要回原文找與 “Unlikely” 配對的最高或相反等級。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having identified the potential hazards, the next step is to assess the hazard; that is, to consider how significant each one is.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "識別 potential hazards 之後，下一步是評估 hazard，也就是考慮其 significant 程度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Certain jobs consistently receive scores of over 200 (fire-fighting, for example) and in many cases additional payments, informally known as ‘danger money’, are made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些工作經常得到超過 200 的分數，例如 fire-fighting；在很多情況下會有額外付款，非正式稱為"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“danger money”。這段處理整個風險評分系統。題目出現 “Unlikely”，這是非常強的定位詞，應直接在本段掃描。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● “‘Unlikely’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● “ranging from”● “probability”掃描 Paragraph 2 可以找到原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“ranging from ‘Definite’ (it happens all the time) down to ‘Unlikely’ (it hasn’t happened yet).”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接提供 Question 34。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The score is then multiplied by the likelihood of this hazard causing an injury, ranging from‘Definite’ (it happens all the time) down to ‘Unlikely’ (it hasn’t happened yet).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個分數之後會乘以該 hazard 造成 injury 的 likelihood，範圍從 “Definite”（一直發生）到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Unlikely”（尚未發生）。原文方向是：● Definite = happens all the time● Unlikely = hasn’t happened yet題目把順序寫成 “from ‘Unlikely’ to ______”，只是把原文 range 的方向倒轉。另一端仍然是Definite。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／結構改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● 原文：from Definite down to Unlikely● 題目：from Unlikely to ______● 空格：Definite字數檢查：one word，符合要求。注意大小寫最好保留原文：Definite。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "multiplied",
+      "answerKey": "multiplied",
+      "type": "Summary Completion",
+      "prompt": "“The scores are then 35 ______ together; the resulting value is then multiplied by the degree of seriousness of an accident.”",
+      "translation": "這些分數之後會被怎樣處理？得到的數值再乘以事故嚴重程度。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “are then”，空格後是 “together”，所以答案應該是過去分詞，形成被動語態。題目句子也說 “resulting value is then multiplied”，因此要找原文的計算動作。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having identified the potential hazards, the next step is to assess the hazard; that is, to consider how significant each one is.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "識別出 potential hazards 後，下一步是 assess the hazard，也就是考慮每一項 hazard 的significant 程度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Certain jobs consistently receive scores of over 200 (fire-fighting, for example) and in many cases additional payments, informally known as ‘danger money’, are made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些工作經常得到超過 200 的分數，例如 fire-fighting；在很多情況下會有額外付款，非正式稱為"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“danger money”。這段中間有明確數學流程。Question 35 問 scores 如何處理，應找 multiplied / product 等字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● “scores”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● “together”● “resulting value”● “multiplied”原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The score is then multiplied by the likelihood…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“The product of the first two scores is then multiplied by the effects score…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把第一步運算概括成 “The scores are then ______ together”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The score is then multiplied by the likelihood of this hazard causing an injury…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 score 之後會乘以該 hazard 造成 injury 的 likelihood。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The product of the first two scores is then multiplied by the effects score…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "前兩個 scores 的乘積之後再乘以 effects score。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “The scores are then ______ together”。這裡指前兩個 scores：exposure score 和chances rating / likelihood score。原文用 “multiplied” 描述它們的關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 multiplied。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “the score is then multiplied by the likelihood”= the scores are multiplied together● “the product of the first two scores”= the resulting value after multiplication字數檢查：one word，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "disaster",
+      "answerKey": "disaster",
+      "type": "Summary Completion",
+      "prompt": "“The highest ‘effect’ score is given when more than one person is killed (this is rated as a 36______).”",
+      "translation": "當多於一人死亡時，會給最高 effect score；這被評為甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “a”，所以答案應該是單數名詞。題目中的 “more than one person is killed” 是對原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“multiple deaths” 的改寫，要找 effects score 的最高等級。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2第一句：“Having identified the potential hazards, the next step is to assess the hazard; that is, to consider how significant each one is.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "識別 potential hazards 後，下一步是 assess hazard，也就是考慮每項 hazard 的 significant 程度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Certain jobs consistently receive scores of over 200 (fire-fighting, for example) and in many cases additional payments, informally known as ‘danger money’, are made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些工作經常得到超過 200 的分數，例如 fire-fighting；在很多情況下會有額外付款，俗稱"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“danger money”。這段評估 hazard 的三項分數，其中 effects score 衡量 accident seriousness。題目問 highest effect score，所以應找 “effects score” 附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● “effect score”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "● “more than one person is killed”● “rated as”原文對應：● “effects score”● “multiple deaths”● “classed as disaster”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This can be rated from 1 (requiring minor first aid) right up to multiple deaths (classed as disaster).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可以從 1 分，即需要 minor first aid，一直到 multiple deaths，即被歸類為 disaster。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “more than one person is killed”，原文說 “multiple deaths”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者意思一致：● more than one person is killed= multiple deaths題目說 “rated as a ______”，原文說 “classed as disaster”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“rated as” 和 “classed as” 都是「被評為／被歸類為」。所以答案是 disaster。字數檢查：one word，且放入句子 “rated as a disaster” 文法自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "high priority",
+      "answerKey": "high priority",
+      "type": "Summary Completion",
+      "prompt": "“When calculated, a result of 200 or more is considered 37 ______.”",
+      "translation": "計算後，200 或以上的結果會被視為甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “is considered”，所以答案應該是形容詞短語或名詞短語。題目中 “200 or more” 是很強的數字定位詞，直接掃描 200 即可。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having identified the potential hazards, the next step is to assess the hazard; that is, to consider how significant each one is.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "識別 potential hazards 之後，下一步是 assess the hazard，也就是判斷每一項 hazard 有多significant。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Certain jobs consistently receive scores of over 200 (fire-fighting, for example) and in many cases additional payments, informally known as ‘danger money’, are made.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "某些工作經常得到超過 200 的分數，例如 fire-fighting；在很多情況下，會有額外付款，非正式稱為 “danger money”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段尾句已經出現 over 200，但題目問 200 or more 的 classification，要回到前一句找正式分類。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● “200”● “more”● “considered”原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“a result of 200 or more is classed as high priority.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句幾乎與題目完全重合。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Generally, a result in excess of 100 points requires caution, but a result of 200 or more is classed as high priority.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一般而言，超過 100 分的結果需要 caution；但 200 或以上的結果會被歸類為 high priority。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "● “a result of 200 or more”= 原文同字重現● “is considered”= “is classed as”● answer= “high priority”所以答案是 high priority。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：high / priority，共兩個詞，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 “caution”。原文同一句也說超過 100 points requires caution。可是題目問 200 or more，因此要選後半句的 high priority。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "eliminate",
+      "answerKey": "eliminate",
+      "type": "Flowchart Completion",
+      "prompt": "“Stage 1: 38 ______ the hazard, if possible.”",
+      "translation": "Stage 1：如果可以，先怎樣處理 hazard？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 flowchart completion，字數限制 NO MORE THAN TWO WORDS。空格後面直接接 “the hazard”，所以答案應該是動詞原形。題目標題是 “Stages of Hazard Control”，應定位到講 hazard control 的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The third step in the hazard-management plan is to control hazards that have been identified.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "hazard-management plan 的第三步，是控制已被 identified 的 hazards。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Isolating hazards is an ongoing process which requires companies to have very clear and strictly enforced guidelines regarding safe storage of potentially hazardous products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "isolating hazards 是一個持續過程，需要公司就 potentially hazardous products 的 safe storage制定非常清楚並嚴格執行的 guidelines。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道 Paragraph 3 會講 hazard control，並且至少會包括 isolate / storage。題目問 Stage 1，所以要看本段對 three stages to hazard control 的第一項。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● “Stages of Hazard Control”● “Stage 1”● “the hazard”● “if possible”原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are three stages to hazard control. The first aim is to eliminate the hazard…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接對應 flowchart Stage 1。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are three stages to hazard control. The first aim is to eliminate the hazard – that is, to get rid of it altogether.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "hazard control 有三個階段。第一個目標是 eliminate the hazard，也就是把它完全去除。"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“______ the hazard, if possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the first aim is to eliminate the hazard.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 eliminate。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義補充",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● eliminate the hazard= get rid of it altogether= 完全去除 hazard字數檢查：one word，符合要求。文法也正確：eliminate the hazard。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "store",
+      "answerKey": "store",
+      "type": "Flowchart Completion",
+      "prompt": "“Stage 2: Isolate the hazard—for example, 39 ______ it out of the way.”",
+      "translation": "Stage 2：isolate the hazard，例如把它怎樣放到不礙事的位置？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後面是 “it out of the way”，所以答案需要是一個動詞原形，形成 “______ it out of the way”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已經給出 “Isolate the hazard”，因此要找原文如何解釋 isolate。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The third step in the hazard-management plan is to control hazards that have been identified.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "hazard-management plan 的第三步，是控制已被 identified 的 hazards。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Isolating hazards is an ongoing process which requires companies to have very clear and strictly enforced guidelines regarding safe storage of potentially hazardous products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "isolating hazards 是一個持續過程，需要公司就 potentially hazardous products 的 safe storage制定非常清楚並嚴格執行的 guidelines。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段尾句有 “safe storage”，題目又寫 “out of the way”，所以答案很可能和 store / storage 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● “Isolate”● “out of the way”● “store”原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the next step is to isolate the hazard, to store it out of the way.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完全對應 flowchart。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Often, however, this is not possible, so the next step is to isolate the hazard, to store it out of the way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這往往不可行，所以下一步是 isolate the hazard，也就是把它 stored out of the way，放在不礙事或較安全的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Isolate the hazard—for example, ______ it out of the way.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“isolate the hazard, to store it out of the way.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 store。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● Isolate the hazard= store it out of the way● “for example”= 題目把原文的解釋變成例子字數檢查：one word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：store it out of the way 完整自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "minimise",
+      "answerKey": "minimise",
+      "type": "Flowchart Completion",
+      "prompt": "“Stage 3: 40 ______ the risk by wearing protective clothing and following safety training.”",
+      "translation": "Stage 3：透過 wearing protective clothing 和 safety training 來怎樣處理 risk？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後面是 “the risk”，所以答案需要是動詞原形。題目中的 “wearing protective clothing” 對應PPE；“following safety training” 對應 staff training / safe handling techniques。這些都出現在Paragraph 4。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the hazards cannot be isolated, then the aim must be to minimise the risk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 hazards 無法被 isolated，目標就必須是 minimise the risk。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“PPE commonly includes items such as gloves, overalls and steel-reinforced footwear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "PPE 通常包括 gloves、overalls 和 steel-reinforced footwear。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 明顯是 hazard control 的第三層：無法 isolate 時，就 minimise risk，方法包括 training 和 PPE。題目正好把這些方法寫進 flowchart。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是：● “risk”● “protective clothing”● “safety training”● “Stage 3”原文中最直接的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the hazards cannot be isolated, then the aim must be to minimise the risk.”"
+            },
+            {
+              "kind": "label",
+              "text": "下一句補充方法："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is achieved through staff training in safe handling techniques and best practices, as well as the provision of personal protective equipment (PPE).”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the hazards cannot be isolated, then the aim must be to minimise the risk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 hazards 不能被 isolated，目標就必須是 minimise the risk。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is achieved through staff training in safe handling techniques and best practices, as well as the provision of personal protective equipment (PPE).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這可以透過 staff training、safe handling techniques、best practices，以及提供 personal protective equipment，即 PPE 來達成。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“by wearing protective clothing and following safety training”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是對原文的概括：● protective clothing= PPE, such as gloves, overalls and steel-reinforced footwear● following safety training= staff training in safe handling techniques and best practices這些方法的共同目的，就是 minimise the risk。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 minimise。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：one word，符合要求。拼字要跟原文英式拼法：minimise。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -HAZARD MANAGEMENT.pdf",
+    "sha256": "da4677ec21e286e2832165dca961d0698da0176c80cbac646a318714a6756fc8",
+    "pageCount": 23
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句和尾句，可以先看到本文主題是 workplace hazard management。首句說在很多industrial or manufacturing workplaces，hazard management 對 health and safety system 很重要。尾句說某些 dangerous industries 若忽略 hazard identification，可能受到 severe penalties。這段大概會先定義 hazard management，再講第一步 identify potential hazards，並指出 hazards可傷害 people，也可傷害 organisation。Questions 30–31 很可能來自這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 potential hazards 被 identified 之後，下一步是 assess the hazard，也就是考慮每個hazard 有多 significant。尾句說某些工作如 fire-fighting 經常超過 200 分，因此可能有 “danger money”。這段主要解釋 risk assessment tables 如何計分：exposure score、chances rating、effects score 三項相乘，最後得出 risk-assessment result。Questions 32–37 幾乎全部集中在這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 hazard-management plan 的第三步是 control hazards that have been identified。尾句說isolating hazards 是 ongoing process，需要清晰並嚴格執行的 safe storage guidelines。這段開始講 hazard control 的三個層級：先 eliminate hazard；若做不到，就 isolate hazard；例子是cleaning company 不能完全消除 hazardous chemicals，但可把它們 locked away until required。 Questions 38–39 主要在這段定位。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說若 hazards 不能被 isolated，目標就要改為 minimise the risk。尾句列出 PPE 常見例子，包括 gloves、overalls 和 steel-reinforced footwear。這段延續 Paragraph 3 的 hazard control 第三階段：當 elimination 和 isolation 都不可行，就透過 staff training、safe handling techniques、best practices 和 PPE 降低風險。Question 40 會直接定位到這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 hazard-management plan 的第四和第五步是 connected：to record and review the hazard。尾句說若 workplace 發生 severe accident，investigators 通常先查 hazard register，看問題是否曾被報告，以及公司採取了甚麼行動。這段功能是講 record 和 review 的制度化作用： hazard register 不只是記錄表，也是一份可被審查的安全責任證據。"
+      },
+      {
+        "number": "6",
+        "summary": "只看最後一段，它是一句總結。句子說自從 hazard-management systems 更 rigorous 地應用後，很多之前被視為 high risk 的 industries 中，workplace accidents 已顯著下降。這段功能是收束全文，指出 hazard management 的實際成效。它沒有直接提供 Questions 30–40 的答案，但可幫助理解全文態度：文章整體支持系統化 hazard management。"
+      }
+    ]
+  }
+}

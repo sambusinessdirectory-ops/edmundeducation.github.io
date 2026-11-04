@@ -1,0 +1,2107 @@
+{
+  "id": "p1-114-the-rufous-hare-wallaby",
+  "catalogueId": "p1-114",
+  "catalogueIds": [
+    "p1-114"
+  ],
+  "passage": 1,
+  "title": "The Rufous Hare-Wallaby",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "ten million",
+    "cats and foxes",
+    "monitored",
+    "fire",
+    "extinct",
+    "five months old",
+    "about 15 weeks",
+    "strong medicinal powers",
+    "skills and knowledge",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "ten million",
+      "answerKey": "ten million",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 1",
+      "translation": "在遙遠過去，mala 在沙漠和半沙漠地區的總數最多可達 1 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Flow chart 句子大意："
+            },
+            {
+              "kind": "quote",
+              "text": "“Distant past: total population of up to 1 ______ in desert and semi-desert regions.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Flow Chart Completion。題目需要填一個數量，因為空格前有 “up to”，後面描述的是population。定位時要找 population、as many as、arid and semi-arid landscape 等數量詞和地貌詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Rufous Hare-Wallaby is a species of Australian kangaroo, usually known by its Aboriginal name, ‘mala’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Rufous Hare-Wallaby 是一種澳洲袋鼠，通常以其 Aboriginal name “mala” 為人所知。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Very extensive surveys were made throughout the mala’s historical range—but no other traces were found.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：研究人員在 mala 的歷史分布範圍內進行了非常廣泛的調查，但沒有發現其他蹤跡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 1 會介紹 mala 的基本身份、過去分布和後來稀少到幾乎找不到的情況。題目問 “Distant past” 的 population，所以應在文章開頭找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“total population”"
+            },
+            {
+              "kind": "quote",
+              "text": "“up to”"
+            },
+            {
+              "kind": "quote",
+              "text": "“desert and semi-desert regions”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At one time, there may have been as many as ten million of these little animals across the arid and semi-arid landscape of Australia…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "曾經，在澳洲乾旱和半乾旱地區，這些小動物的數量可能多達一千萬隻。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“as many as” 對應題目的 “up to”，都表示「最多可達」。“ten million” 是數量。“arid and semi-arid landscape” 對應題目中的 “desert and semi-desert regions”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “desert and semi-desert regions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “arid and semi-arid landscape”題目 “total population of up to”= 原文 “there may have been as many as”答案格式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“ten million” 是兩個詞，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。所以答案是 ten million。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “ten million of these little animals”。雖然意思完整，但超過字數限制。Completion 題要先看空格前後的文法，再抽出最短可用答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "cats and foxes",
+      "answerKey": "cats and foxes",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 2",
+      "translation": "mala 的族群被 2 ______ 摧毀。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Flow chart 句子大意："
+            },
+            {
+              "kind": "quote",
+              "text": "“Populations of malas were destroyed by 2 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找導致 mala populations devastated 的原因。空格前有 “destroyed by”，所以答案需要是造成破壞的主體，通常是動物、事件或原因。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Rufous Hare-Wallaby is a species of Australian kangaroo, usually known by its Aboriginal name, ‘mala’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Rufous Hare-Wallaby 是一種澳洲袋鼠，通常以 Aboriginal name “mala” 為人所知。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Very extensive surveys were made throughout the mala’s historical range—but no other traces were found.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：研究人員在 mala 的歷史分布範圍內進行了非常廣泛的調查，但沒有發現其他蹤跡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段從過去龐大族群，推進到後來只找到兩個小殖民群，所以中間必然會說明 mala population collapse 的原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“populations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“destroyed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“by”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文用的詞是 “devastated”，比 destroyed 更正式，意思是嚴重摧毀。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…but their populations, like those of so many other small endemic species, were devastated when cats and foxes were introduced…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，牠們的族群和許多其他小型本地特有物種一樣，在貓和狐狸被引入後遭到嚴重摧毀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主語是 “their populations”，即 mala populations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "核心動詞是 “were devastated”，對應 flow chart 的 “were destroyed”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原因由 “when cats and foxes were introduced” 提供。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “were destroyed by”= 原文 “were devastated when”題目需要破壞者= 原文 “cats and foxes”答案格式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“cats and foxes” 是三個詞，符合字數限制。所以答案是 cats and foxes。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 “cats” 或只填 “foxes”。原文把兩者並列，說 cats and foxes 被引入後造成族群衰退； flow chart 問 mala populations 被甚麼破壞，完整答案要保留兩種捕食者。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "monitored",
+      "answerKey": "monitored",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 3",
+      "translation": "科學家 3 ______ 這些殖民群。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Flow chart 句子大意："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists 3 ______ the colonies.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位於 Scientists 之後，the colonies 之前，所以需要填一個動詞。因為 flow chart 時間大約在1964/1976 發現兩個 colonies 之後，答案應該在下一段開頭。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout the 1970s and 1980s, scientists from the Parks and Wildlife Commission of the Northern Territory monitored these two populations.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 1970s 和 1980s 期間，Northern Territory 的 Parks and Wildlife Commission 科學"
+            },
+            {
+              "kind": "paragraph",
+              "text": "家監察這兩個族群。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus the mala was finally pronounced extinct in the wild.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：因此，mala 最終被宣布在野外滅絕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 Paragraph 2 由科學家 monitoring 開始，以 extinct in the wild 收結。這正好覆蓋 flow chart 中「發現兩個族群後，科學家做了甚麼」到「野外滅絕」的時間線。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“colonies”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“scientists … monitored these two populations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家監察這兩個族群。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “colonies”，原文用 “these two populations”。兩者指代相同，都是 Paragraph 1 中發現的兩個 small colonies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "動詞 “monitored” 表示持續觀察和追蹤。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “the colonies”= 原文 “these two populations”答案詞：原文 “monitored” 直接填入 flow chart："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists monitored the colonies.”"
+            },
+            {
+              "kind": "label",
+              "text": "答案格式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“monitored” 是一個詞，符合字數限制。所以答案是 monitored。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “made surveys”。Surveys 是 Paragraph 1 中大範圍搜尋其他 mala traces 的行動； Question 3 問的是兩個已知 colonies 被發現後，scientists 對它們做了甚麼。Paragraph 2 的“monitored” 才能接上句子文法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "fire",
+      "answerKey": "fire",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 4",
+      "translation": "1991 年，另一個殖民群被 4 ______ 摧毀。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Flow chart 句子大意："
+            },
+            {
+              "kind": "quote",
+              "text": "“1991: the other colony was destroyed by 4 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “destroyed by”，後面需要填造成第二個 colony 消失的原因。題目有年份 1991，是很強的定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout the 1970s and 1980s, scientists from the Parks and Wildlife Commission of the Northern Territory monitored these two populations.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 1970s 和 1980s 期間，Northern Territory 的 Parks and Wildlife Commission 科學"
+            },
+            {
+              "kind": "paragraph",
+              "text": "家監察這兩個族群。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus the mala was finally pronounced extinct in the wild.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：因此，mala 最終被宣布在野外滅絕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的功能是交代兩個最後野外族群如何相繼消失。題目問 1991 年發生甚麼，因此應掃描Paragraph 2 中的年份。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“1991”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the other colony”"
+            },
+            {
+              "kind": "quote",
+              "text": "“destroyed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And then, in October 1991, a wildfire destroyed the entire area occupied by the remaining colony.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後，在 1991 年 10 月，一場野火摧毀了剩餘殖民群所佔據的整個區域。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the remaining colony” 對應 flow chart 的 “the other colony”，因為前一句已說第二個較小 wild colony 在 1987 年被 fox 殺死。到 1991 年，剩下的就是 remaining colony。“a wildfire destroyed” 表示造成破壞的是 wildfire，即 fire。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “the other colony was destroyed by”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “a wildfire destroyed the entire area occupied by the remaining colony”答案格式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“fire” 是一個詞。原文是 “a wildfire”，但 flow chart 句子 “destroyed by ____” 填 “fire” 最自然；“wildfire” 也可由原文直接支持。這裡採用較常見答案 fire。所以答案是 fire。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “fox”。Fox 對應的是 1987 年較小 colony 被消滅的事件；1991 年對應 wildfire。Flow chart按時間排列，年份是最可靠的定位訊號。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "extinct",
+      "answerKey": "extinct",
+      "type": "Flow Chart Completion",
+      "prompt": "Question 5",
+      "translation": "野外 mala 被宣布為 5 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Flow chart 句子大意："
+            },
+            {
+              "kind": "quote",
+              "text": "“The wild mala was declared 5 ______.”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “was declared” 後，需要填一個狀態形容詞。這題應該在 Paragraph 2 結尾，因為 flow chart 是整個野外族群消失過程的最後一步。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Throughout the 1970s and 1980s, scientists from the Parks and Wildlife Commission of the Northern Territory monitored these two populations.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 1970s 和 1980s 期間，Northern Territory 的 Parks and Wildlife Commission 科學"
+            },
+            {
+              "kind": "paragraph",
+              "text": "家監察這兩個族群。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus the mala was finally pronounced extinct in the wild.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：因此，mala 最終被宣布在野外滅絕。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看尾句，已經可看到 flow chart 的最後結果。這句就是題目 “declared” 的原文改寫。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“wild mala”"
+            },
+            {
+              "kind": "quote",
+              "text": "“declared”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有用 declared，而是用："
+            },
+            {
+              "kind": "quote",
+              "text": "“pronounced extinct in the wild”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被宣布在野外滅絕。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “the mala was finally pronounced extinct in the wild” 中："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“pronounced” = declared / officially stated“extinct” = 滅絕“in the wild” = 在野外Flow chart 已經有 “The wild mala”，所以空格只需要填狀態 “extinct”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “was declared”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “was finally pronounced”題目 “wild mala”= 原文 “the mala … in the wild”答案格式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“extinct” 是一個詞，符合字數限制。所以答案是 extinct。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “extinct in the wild”。如果 flow chart 句子是 “The wild mala was declared ____”，空格前已經有 wild；填入 “extinct in the wild” 會重複，也可能超出題目設計的語法需要。最精準答案是extinct。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "five months old",
+      "answerKey": "five months old",
+      "type": "Short Answer Questions",
+      "prompt": "“At what age can female malas start breeding?”",
+      "translation": "雌性 mala 到甚麼年齡可以開始繁殖？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short Answer。題目問 “At what age”，答案必須是年齡。定位詞是 female malas、start breeding。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fortunately, ten years earlier, seven individuals had been captured and had become the founders of a captive breeding programme at the Arid Zone Research Institute in Alice Springs.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：幸好，早在十年前，已有七隻 mala 被捕捉，成為 Alice Springs 的 Arid Zone"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Research Institute 人工繁殖計劃的創始個體。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Like other kangaroo species, the mother carries her young—known as a joey—in her pouch for about 15 weeks, and she can have more than one joey at the same time.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：和其他袋鼠物種一樣，母親會把幼崽，也就是 joey，放在育兒袋中約 15 星期，而且她"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可以同時有超過一隻 joey。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段功能是解釋 captive breeding programme 為何成功，包括雌性早熟、每年可繁殖多隻、育兒袋照顧 joey 等。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“female”"
+            },
+            {
+              "kind": "quote",
+              "text": "“breed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“age”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Part of this success is due to the fact that the female can breed when she is just five months old and can produce up to three young a year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項成功部分原因在於，雌性 mala 只有五個月大時就能繁殖，而且一年最多可產下三隻幼崽。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “At what age”，答案就是 “when she is just five months old”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“female can breed” 對應題目的 “female malas start breeding”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “can female malas start breeding”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “the female can breed”題目 “At what age”= 原文 “when she is just five months old”答案格式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“five months old” 是三個詞，符合字數限制。也可接受 “five months”，但原文完整表達是 five months old。所以答案是 five months old。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句還有 “up to three young a year”。那是繁殖數量，不是開始繁殖年齡。Short Answer 要先看問題詞：At what age 要年齡，不能填數量。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "about 15 weeks",
+      "answerKey": "about 15 weeks",
+      "type": "Short Answer Questions",
+      "prompt": "“For about how long do young malas stay inside their mother’s pouch?”",
+      "translation": "幼小的 mala 會留在母親育兒袋中大約多久？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “for about how long”，答案要是一段時間。定位詞是 young malas、mother’s pouch。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fortunately, ten years earlier, seven individuals had been captured and had become the founders of a captive breeding programme at the Arid Zone Research Institute in Alice Springs.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：幸好，早在十年前，已有七隻 mala 被捕捉，成為 Alice Springs 的 Arid Zone"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Research Institute 人工繁殖計劃的創始個體。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Like other kangaroo species, the mother carries her young—known as a joey—in her pouch for about 15 weeks, and she can have more than one joey at the same time.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：和其他袋鼠物種一樣，母親會把幼崽，也就是 joey，放在育兒袋中約 15 星期，而且她"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可以同時有超過一隻 joey。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句直接出現 “pouch” 和時間，所以它就是本題核心位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“young malas”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mother’s pouch”"
+            },
+            {
+              "kind": "quote",
+              "text": "“about how long”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the mother carries her young—known as a joey—in her pouch for about 15 weeks”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "母親會把幼崽，也就是 joey，放在育兒袋中約 15 星期。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“young malas” 對應原文 “her young—known as a joey”。“stay inside their mother’s pouch” 對應 “the mother carries her young … in her pouch”。時間是 “for about 15 weeks”。答案格式檢查：“about 15 weeks” 是兩個詞加一個數字，符合字數限制。若考場答 “15 weeks” 也通常可接受；這裡保留原文的 about。所以答案是 about 15 weeks。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “more than one joey”。那是同時可照顧 joey 的數量，並非留在 pouch 的時間。題目問how long，答案必須是時間長度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "strong medicinal powers",
+      "answerKey": "strong medicinal powers",
+      "type": "Short Answer Questions",
+      "prompt": "“Apart from being a food source, what value did malas have for the Yapa people?”",
+      "translation": "除了作為食物來源，mala 對 Yapa people 還有甚麼價值？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “what value”，而且明確排除 “food source”。所以要找 Paragraph 4 中 food source 前後的另一個 value。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the early 1980s, there were enough mala in the captive population to make it feasible to start a reintroduction programme.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：到 1980s 初，人工繁殖族群中已有足夠 mala，使重新引入野外的計劃變得可行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The skills and knowledge of the Yapa would play a significant and enduring role in this and all other mala projects.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Yapa 的技能和知識會在這個以及所有其他 mala 計劃中發揮重要而持久的作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 reintroduction programme 之前，科學家需要與 Yapa leaders 商討，因為 mala 對 Yapa 有文化和實用意義。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“food source”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Yapa”"
+            },
+            {
+              "kind": "quote",
+              "text": "“value”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Traditionally, the mala had been an important animal in their culture, with strong medicinal powers for old people. It had also been an important food source…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統上，mala 在他們的文化中是一種重要動物，對老人具有強大的 medicinal powers。它也曾經是重要食物來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 apart from being a food source，所以要排除 “important food source”。前一句提供另一項價值：mala 在文化中重要，並且有 “strong medicinal powers for old people”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果只填 “culture”，意思較籠統；題目問具體 value，最準確答案是 “strong medicinal powers” 或"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“medicinal powers”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “what value”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “with strong medicinal powers”題目 “Apart from being a food source”= 原文 “It had also been an important food source” 前面的另一項資訊答案格式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“strong medicinal powers” 是三個詞，符合字數限制。較短答案 “medicinal powers” 也可以。所以答案是 strong medicinal powers。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要答 “old people”。Old people 是 medicinal powers 的受益對象，並非 mala 的價值本身。答案要填 value，所以應填 medicinal powers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "skills and knowledge",
+      "answerKey": "skills and knowledge",
+      "type": "Short Answer Questions",
+      "prompt": "“What was the Yapa people’s lasting contribution to the mala reintroduction programme?”",
+      "translation": "Yapa people 對 mala reintroduction programme 的持久貢獻是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 lasting contribution。定位詞是 Yapa、lasting、contribution。原文可能用 enduring role 取代 lasting contribution。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the early 1980s, there were enough mala in the captive population to make it feasible to start a reintroduction programme.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：到 1980s 初，人工繁殖族群中已有足夠 mala，使重新引入野外的計劃變得可行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The skills and knowledge of the Yapa would play a significant and enduring role in this and all other mala projects.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Yapa 的技能和知識會在這個以及所有其他 mala 計劃中發揮重要而持久的作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句直接對應 lasting contribution，因為 “enduring role” 表示長期持續的作用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yapa”"
+            },
+            {
+              "kind": "quote",
+              "text": "“lasting contribution”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The skills and knowledge of the Yapa would play a significant and enduring role…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Yapa 的技能和知識會發揮重要而持久的作用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主語是 “The skills and knowledge of the Yapa”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "核心動詞是 “would play”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "程度是 “significant and enduring”，表示重要且長久。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “lasting contribution” 其實把 “significant and enduring role” 改寫成較普通的說法。真正可填入空格的是 “skills and knowledge”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “lasting”= 原文 “enduring”題目 “contribution”= 原文 “role”答案格式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“skills and knowledge” 是三個詞，符合字數限制。所以答案是 skills and knowledge。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “key Yapa men”。他們被邀請去看 proposed reintroduction area，是參與過程的人；題目問 lasting contribution，原文定案詞是 skills and knowledge。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Natural defences were sufficient to protect the area called Mala Paddock.”",
+      "translation": "天然防禦已足以保護稱為 Mala Paddock 的區域。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有兩個控制點：Natural defences 和 sufficient to protect。只要原文指出保護來自人造設施，例如 electric fence，並且目的是防 predator，就會和題目衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the help of the local Yapa, an electric fence was erected around 250 acres of suitable habitat, about 300 miles northwest of Alice Springs so that the mala could adapt while protected from predators.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 local Yapa 的協助下，人們在 Alice Springs 西北約 300 miles 的 250 acres 合適棲"
+            },
+            {
+              "kind": "paragraph",
+              "text": "息地周圍建立了一道 electric fence，讓 mala 能在避開捕食者的保護下適應環境。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The team now faced a situation where mala could be bred, but not released into the wild again.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：團隊現在面對一個局面：mala 可以繁殖，卻不能再次被釋放回野外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，Mala Paddock 的保護方式已經很清楚：electric fence。這直接和題目中的 natural defences 形成對比。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Natural defences”"
+            },
+            {
+              "kind": "quote",
+              "text": "“protect”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mala Paddock”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the help of the local Yapa, an electric fence was erected around 250 acres of suitable habitat… so that the mala could adapt while protected from predators.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 local Yapa 的協助下，人們在合適棲息地周圍建立 electric fence，好讓 mala 在避開捕食者的保護下適應。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1992, there were about 150 mala in their enclosure, which became known as the Mala Paddock.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1992 年，牠們的圍欄區內約有 150 隻 mala，這個 enclosure 後來被稱為 Mala Paddock。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "命題比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Natural defences動作：were sufficient to protect對象：Mala Paddock原文命題：主體：an electric fence動作：was erected目的：so that the mala could adapt while protected from predators地點：their enclosure, known as the Mala Paddock題目說天然防禦已足夠；原文說人們建立 electric fence 保護 mala。Electric fence 是人造防禦，並且 “so that” 清楚表示建立它的目的就是保護。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Natural defences were sufficient”和原文 “an electric fence was erected” 方向衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “protect”= 原文 “protected from predators”判斷：原文提供相反證據，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Mala Paddock” 聽起來像一個自然棲息區，容易令人想像當地地形本身可保護 mala。細讀時要抓住 “electric fence” 和 “enclosure”。這兩個詞顯示保護靠人工圍欄，不是天然屏障。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Scientists eventually gave up their efforts to release captive mala into the unprotected wild.”",
+      "translation": "科學家最終放棄把人工繁殖的 mala 釋放到未受保護的野外。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 gave up、release captive mala、unprotected wild。原文可能用 abandoned、reintroduce、unfenced wild。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the help of the local Yapa, an electric fence was erected around 250 acres of suitable habitat, about 300 miles northwest of Alice Springs so that the mala could adapt while protected from predators.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 local Yapa 的協助下，人們在合適棲息地周圍建立 electric fence，讓 mala 能在避"
+            },
+            {
+              "kind": "paragraph",
+              "text": "開捕食者的保護下適應環境。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The team now faced a situation where mala could be bred, but not released into the wild again.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：團隊現在面對一個局面：mala 可以繁殖，卻不能再次被釋放回野外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經提示本段會講「可繁殖」和「不能成功回到野外」之間的困境。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“gave up”"
+            },
+            {
+              "kind": "quote",
+              "text": "“release”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unprotected wild”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, all attempts to reintroduce mala from the paddock into the unfenced wild were unsuccessful, so in the end the reintroduction programme was abandoned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，所有把 mala 從 paddock 重新引入沒有圍欄的野外的嘗試都失敗了，所以最後reintroduction programme 被放棄。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "命題比較"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“eventually gave up their efforts”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “in the end the reintroduction programme was abandoned”"
+            },
+            {
+              "kind": "quote",
+              "text": "“release captive mala”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “reintroduce mala from the paddock”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unprotected wild”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “unfenced wild”這裡 “unfenced” 是關鍵。前文說 electric fence 保護 mala；unfenced wild 就是沒有這種圍欄保護的野外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要被 “reintroduction programme was abandoned” 誤解為整個 mala recovery 完全停止。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 後來成立 Mala Recovery Team，轉向 predator-free 或 predator-controlled conservation sites。Question 11 只問把 mala 釋放到 unprotected / unfenced wild 的努力，這一項確實被放棄。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The mala population which was transferred to Dryandra Woodland quickly increased in size.”",
+      "translation": "被轉移到 Dryandra Woodland 的 mala population 很快增加。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Dryandra Woodland、quickly、increased in size。NOT GIVEN 的核心通常是：原文提到相關地點或行動，但沒有提供題目要求的結果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6 and Paragraph 7 Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, in 1993, a Mala Recovery Team was established to boost mala numbers, and goals for a new programme were set: the team concentrated on finding suitable predator-free or predator-controlled conservation sites within the mala’s known range.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：因此，1993 年成立了 Mala Recovery Team，以增加 mala 數量，並為新計劃設定目標"
+            },
+            {
+              "kind": "paragraph",
+              "text": "：團隊集中尋找位於 mala 已知分布範圍內、沒有捕食者或捕食者受控制的合適保育地點。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“First, it had been necessary to rid the island of rats and cats—a task that had taken two years of hard work.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：首先，必須清除島上的老鼠和貓；這項工作花了兩年艱苦努力。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Six weeks after their release into this conservation site, a team returned to the island to find out how things were going.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：牠們被釋放到這個保育地點六星期後，一個團隊回到島上查看情況。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far the recovery programme had gone even better than expected.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：到目前為止，recovery programme 的進展甚至比預期更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩段首尾句，可以看到 Paragraph 6 講新地點和轉移，Paragraph 7 講 island site 的早期監測結果。題目特別問 Dryandra Woodland，所以要確認成功結果是否真的指 Dryandra。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dryandra Woodland”"
+            },
+            {
+              "kind": "quote",
+              "text": "“quickly increased in size”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有 Dryandra Woodland："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, in March 1999, twelve adult females, eight adult males, and eight joeys were transferred from the Mala Paddock to Dryandra Woodland in Western Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，在 1999 年 3 月，12 隻成年雌性、8 隻成年雄性和 8 隻 joeys 從 Mala Paddock 被轉移到Western Australia 的 Dryandra Woodland。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then, a few months later, a second group was transferred to Trimouille, an island off the coast of Western Australia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後，幾個月後，第二組 mala 被轉移到 Western Australia 海岸外的 Trimouille 島。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "命題比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文對 Dryandra Woodland 提供的資料是：轉移時間：March 1999轉移數量：12 adult females, 8 adult males, 8 joeys轉移地點：Dryandra Woodland可是題目需要： Dryandra group quickly increased in size即這一群 mala 很快增加原文沒有說 Dryandra 的族群快速增長。Paragraph 7 的 “Six weeks after their release into this conservation site, a team returned to the island…” 指向剛提到的 Trimouille island，因為前一句說清除 island 的 rats and cats。後面的 radio collar 結果也在 island conservation site 中發生。即使 island 結果正面，也不能自動套到 Dryandra Woodland。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提到 Dryandra Woodland 的轉移，但沒有說 Dryandra population 很快增加。因此答案是NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤選 TRUE 的地方是 Paragraph 7 的 “even better than expected”。這句確實正面，但它承接的是 island conservation site 的 monitoring，而且內容是找到 29 out of 30 transmitters、只有一隻死亡原因不明。它沒有說 Dryandra Woodland 的數量增加，更沒有說 quickly increased in size。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Scientists were satisfied with the initial results of the recovery programme.”",
+      "translation": "科學家對 recovery programme 的初步結果感到滿意。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 scientists 的 attitude。題目用 satisfied，原文未必直接使用這個字，可能會用 better than expected、only one died 等正面結果來支持。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Six weeks after their release into this conservation site, a team returned to the island to find out how things were going.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：牠們被釋放到這個保育地點六星期後，一個團隊回到島上查看情況。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far the recovery programme had gone even better than expected.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：到目前為止，recovery programme 的進展甚至比預期更好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 7 是 early result / initial monitoring 段。第一句的 “Six weeks after” 對應 initial results；最後一句 “better than expected” 對應 satisfied。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“initial results”"
+            },
+            {
+              "kind": "quote",
+              "text": "“satisfied”"
+            },
+            {
+              "kind": "quote",
+              "text": "“recovery programme”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有 satisfied，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far the recovery programme had gone even better than expected.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，recovery programme 的進展甚至比預期更好。"
+            },
+            {
+              "kind": "label",
+              "text": "前文還有具體結果："
+            },
+            {
+              "kind": "quote",
+              "text": "“The team was able to locate 29 out of the 30 transmitters—only one came from the collar of a mala that had died of unknown causes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊能定位到 30 個 transmitter 中的 29 個；只有一個來自一隻死因不明的 mala 的 collar。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "命題比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 scientists were satisfied。原文說 programme had gone even better than expected。這雖然沒有直接說 “satisfied”，但如果結果比預期更好，而且只有一隻死亡，這可以直接支持「科學家對初步結果感到滿意」。"
+            },
+            {
+              "kind": "quote",
+              "text": "“initial results” 對應：“Six weeks after their release…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "即釋放後六星期的早期檢查。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “initial results”= 原文 “Six weeks after their release”題目 “were satisfied”= 原文 “had gone even better than expected”判斷：題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要因為原文沒有逐字寫 “satisfied” 就選 NOT GIVEN。IELTS Reading 接受合理近距離改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“even better than expected” 已清楚表達正面評價，足以支持 scientists were satisfied。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Rufous Hare-Wallaby.pdf",
+    "sha256": "62af2d1784cd32af2563f91a558a69ea1d6afd195bdf9a61c272f3441aa82799",
+    "pageCount": 23
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句和尾句，可以先看到文章介紹 mala 的身份、名稱和曾經的數量，再指出大規模調查後沒有再找到其他痕跡。首句說 Rufous Hare-Wallaby 是澳洲袋鼠的一種，通常以 Aboriginal name“mala” 為人所知；尾句說在其歷史分布範圍內進行了非常廣泛的調查，但沒有其他蹤跡。本段功能是交代 mala 曾經數量龐大，後來因 introduced predators 急劇衰退，只剩兩個小殖民群被發現。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 1970s 和 1980s 期間，Northern Territory 的 Parks and Wildlife Commission 科學家監察這兩個族群；尾句說 mala 最終被宣布在野外滅絕。只看首尾句，可以估計本段會交代最後兩個野外殖民群的命運。中間細節會說一個族群被 fox 消滅，另一個族群所在區域被 wildfire 摧毀。這段是 flow chart 中 1970s、1987、1991 和 extinct 的核心段落。"
+      },
+      {
+        "number": "3",
+        "summary": "首句用 Fortunately 轉向好消息：十年前已有七隻 mala 被捕捉，成為 Alice Springs captive breeding programme 的創始個體。尾句說母 mala 可同時有超過一隻 joey。只看首尾句，可以知道本段功能是解釋為何 mala 雖然在野外滅絕，仍可透過人工繁殖延續。本段也包含兩個短答題重點：female breeding age 和 joey 留在 pouch 的時間。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說到 early 1980s，人工繁殖族群已足以支持重新引入野外的計劃；尾句說 Yapa 的 skills and knowledge 在這個和所有其他 mala projects 中發揮重要而持久的角色。只看首尾句，可以估計本段會講 reintroduction programme 的前期協商，尤其是和 Yapa leaders 的文化、食物和保育考量。本段也回答 malas 對 Yapa 的非食物價值，以及 Yapa 的長期貢獻。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說在 local Yapa 協助下，人們在合適棲息地周圍建立 electric fence，讓 mala 在避開捕食者的情況下適應；尾句說團隊面對一個局面：mala 可以繁殖，卻不能重新放回野外。只看首尾句，可以看出本段主題是 Mala Paddock 的建立和早期 reintroduction 的失敗。這段很可能回答 Mala Paddock 是否靠天然防禦、以及科學家是否放棄釋放到 unfenced wild。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 1993 年成立 Mala Recovery Team，目標是增加 mala 數量，並尋找 predator-free 或predator-controlled 的保育地點；尾句說把 Trimouille island 清除 rats and cats 花了兩年艱苦工作。只看首尾句，可以估計本段是新 recovery programme 的行動段：從 Mala Paddock 轉移 mala到 Dryandra Woodland 和 Trimouille island。這段也提醒我們，後文的成功結果主要和 island conservation site 有關。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說釋放到 conservation site 六星期後，團隊回到 island 查看情況；尾句說到目前為止， recovery programme 的情況比預期更好。只看首尾句，可以估計本段是早期監察結果段：mala 身上裝了 radio collars，大部分 transmitter 都被定位到，而且只有一隻死亡原因不明。這段很可能回答科學家是否滿意 initial results。"
+      },
+      {
+        "number": "8",
+        "summary": "本段只有一句：今天有很多跡象顯示 island 上的 mala population 繼續表現良好。這一句功能是全文收結，把前文 recovery programme 的短期成功延伸到較長期的正面趨勢。它沒有提供新的數字或方法細節，主要用來確認文章整體結論：mala 已從野外滅絕危機中，透過受保護地點和recovery programme 取得初步復興。 Answer Key Questio Answer n 1 ten million 2 cats and foxes 3 monitored 4 fire 5 extinct 6 five months old 7 about 15 weeks 8 strong medicinal powers 9 skills and knowledge 10 FALSE 11 TRUE 12 NOT GIVEN 13 TRUE"
+      }
+    ]
+  }
+}

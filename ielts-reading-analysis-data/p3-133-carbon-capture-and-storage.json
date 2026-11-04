@@ -1,0 +1,1845 @@
+{
+  "id": "p3-133-carbon-capture-and-storage",
+  "catalogueId": "p3-133",
+  "catalogueIds": [
+    "p3-133"
+  ],
+  "passage": 3,
+  "title": "Carbon Capture and Storage",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "A — 41%",
+    "D — Nothing",
+    "A — CO₂",
+    "C — Natural gas",
+    "E — Saline aquifer",
+    "B — Coal",
+    "G — Syngas",
+    "F — Steam-driven turbines",
+    "carbon emissions",
+    "powerful lobbies",
+    "solar",
+    "massive state subsidies",
+    "untried",
+    "$0.0686/kWh"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "A — 41%",
+      "answerKey": "A — 41%",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "全球平均有多少比例的電力由煤產生？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is the global average for electricity generated from coal?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是直接數字題。Multiple Choice 的核心是找最完整、最精確受原文支持的選項；不能只因某個數字在原文出現就選。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Renewable energy is much discussed, but coal still plays the greatest role in the generation of electricity, with recent figures from the International Energy Agency showing that China relies on it for 79% of its power, Australia for 78%, and the US for 45%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "再生能源經常被討論，但煤炭仍然在發電中扮演最大角色；國際能源署的近期數字顯示，中國79% 的電力依賴煤炭，澳洲為 78%，美國為 45%。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meanwhile, 70% of the world’s steel production requires coal, and plastic and rayon are usually coal derivatives.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，全球 70% 的鋼鐵生產需要煤炭，而塑膠和人造絲通常也是煤的衍生物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已可估計本段集中在 coal dependence 和各種百分比。題目問 global average，所以這段最有可能藏有答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“global average”"
+            },
+            {
+              "kind": "quote",
+              "text": "“electricity generated from coal”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中與 global average 直接相連的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Germany is less reliant, at 41%, which is also the global average.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "德國依賴程度較低，為 41%，這也是全球平均值。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Germany 的依賴程度，但後半句 “which is also the global average” 把 41% 延伸為全球平均。題目問的不是 China、Australia、US，也不是 steel production，而是 global average for electricity generated from coal。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“global average for electricity generated from coal”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“41%, which is also the global average”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A — 41%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項方面，44% 是全球 fossil fuel CO2 emissions 中 coal 的比例，屬於另一個指標；70% 是 steel production 需要 coal；45% 是美國電力依賴煤炭。這些數字都在原文出現，但問的指標不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "D — Nothing",
+      "answerKey": "D — Nothing",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "普通美國人每月為本地電廠排放的 CO2 支付多少？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“What does the average American pay each month for CO2 produced by a local power plant?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Coal-fired power plants currently feed voracious appetites for energy, but they produce carbon dioxide (CO2) in staggering amounts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "燃煤電廠目前滿足龐大的能源需求，但同時產生驚人數量的二氧化碳。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet, as skies fill with smog and temperatures soar, people crave clean air and cheap power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，當天空充滿煙霧、氣溫急升時，人們仍然渴望清潔空氣和廉價電力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可見本段講燃煤電力與 CO2 排放的矛盾。題目問 CO2 produced by a local power plant 的收費，因此應看這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“average American”"
+            },
+            {
+              "kind": "quote",
+              "text": "“each month”"
+            },
+            {
+              "kind": "quote",
+              "text": "“CO2 produced by a local power plant”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pay”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Urbanites may grumble about an average monthly electricity bill of $113, yet they are not charged for the 6–7 million metric tons of CO2 emitted by their local plant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "城市居民可能會抱怨平均每月 113 美元的電費，但本地電廠排放的 600 至 700 萬公噸 CO2，並沒有向他們收費。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問的是為 CO2 支付多少，不是電費是多少。原文有兩個金錢／成本概念："
+            },
+            {
+              "kind": "quote",
+              "text": "“average monthly electricity bill of $113”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "平均每月電費是 113 美元。"
+            },
+            {
+              "kind": "quote",
+              "text": "“they are not charged for … CO2”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們沒有因這些 CO2 被收費。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 $113 只是電費，不是 CO2 charge。題目特別問 “for CO2 produced by a local power plant”，真正控制答案的是 “not charged”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“what does the average American pay … for CO2”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“they are not charged for … CO2”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "not charged = pays nothing所以答案是 D — Nothing。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位很清楚",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C $113 很吸引，因為它就在同一句出現，而且是 average monthly bill。不過它屬"
+            },
+            {
+              "kind": "paragraph",
+              "text": "於 electricity bill，題目問 CO2 cost，兩者不能混在一起。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 29–34：Diagram Labelling"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Diagram Completion。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "手冊提醒，Diagram Completion 要看圖的位置、箭頭方向、部件功能，再回原文找程序或結構段落；答案不能只靠原字出現，還要和圖中位置關係配合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — CO₂",
+      "answerKey": "A — CO₂",
+      "type": "Carbon dioxide sequestration diagram",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Currently, CO2 storage, or sequestration as it is known, is practised by the oil and gas industry, where CO2 is pumped into oil fields to maintain pressure and ease extraction – one metric ton displaces about three barrels of oil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，CO2 儲存，也稱為 sequestration，已由油氣產業實行；CO2 被泵入油田以維持壓力並方便開採，一公噸 CO2 可替代約三桶石油。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is also a plan for the injection of CO2 into saline aquifers, 1,000 metres beneath the seabed, to prevent its release into the atmosphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也有計劃把 CO2 注入海床下 1,000 米的鹽水含水層，以防止它釋放到大氣中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段會解釋 CO2 被注入地下不同位置。圖一中 29 出現在從 power plant 到 underground storage 的管線和向下箭頭上，正好對應被輸送和注入的物質。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖和原文定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 29 標在水平管道和向下管道中，箭頭表示某種物質由 power plant 被送入地下。原文反覆出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“CO2 is pumped into oil fields”"
+            },
+            {
+              "kind": "quote",
+              "text": "“CO2 is separated from natural gas and pumped into exhausted coal fields”"
+            },
+            {
+              "kind": "quote",
+              "text": "“CO2 remains underground”"
+            },
+            {
+              "kind": "quote",
+              "text": "“injection of CO2 into saline aquifers”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "29 的位置不是某個儲存地層，而是被運送和注入的流體本身。選項中只有 A CO₂ 符合。圖中 29多次出現在管線上，也正好吻合原文中 CO2 被 pumped / injected 的動作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 29 是 A — CO₂。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "C — Natural gas",
+      "answerKey": "C — Natural gas",
+      "type": "Carbon dioxide sequestration diagram",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Currently, CO2 storage, or sequestration as it is known, is practised by the oil and gas industry…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，CO2 儲存，或稱 sequestration，已由油氣產業實行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is also a plan for the injection of CO2 into saline aquifers, 1,000 metres beneath the seabed…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也有計劃把 CO2 注入海床下 1,000 米的鹽水含水層。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示圖一會涉及 oil and gas industry，以及地下儲存位置。Question 30 在圖中標於左下方地下儲藏體及相關管道，圖像顯示它與抽取／分離氣體相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖和原文定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alternatively, CO2 is separated from natural gas and pumped into exhausted coal fields or other deep seams.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種做法是，CO2 從天然氣中分離出來，再被泵入枯竭煤田或其他深層地縫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 30 的位置不是 29 的輸送流體，也不是最底層長條形的 aquifer。它標在地下儲藏區，與natural gas 分離 CO2 的情境相符。選項 C Natural gas 對應原文 “CO2 is separated from natural gas”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 D Oil。原文確實提到 oil fields 和 oil rig，圖中也有油井。但題號 30 在原題圖中對應的是 natural gas 位置，而 oil 並非該編號的標籤。這題必須看圖的位置，不能只靠 oil 在原文出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 30 是 C — Natural gas。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "E — Saline aquifer",
+      "answerKey": "E — Saline aquifer",
+      "type": "Carbon dioxide sequestration diagram",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Currently, CO2 storage, or sequestration as it is known, is practised by the oil and gas industry…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，CO2 儲存，也就是 sequestration，已在油氣產業中實行。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is also a plan for the injection of CO2 into saline aquifers, 1,000 metres beneath the seabed, to prevent its release into the atmosphere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也有計劃把 CO2 注入海床下 1,000 米的鹽水含水層，以防止它釋放到大氣中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已可預測圖中最深處、靠近 1,000 metres 標示的地下層，很可能是 saline aquifer。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖和原文定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 31 標在最底部一條長而水平的地下層，旁邊圖中也出現 1,000 m 的深度標示。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“saline aquifers, 1,000 metres beneath the seabed”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "31 的位置是地下深處的儲存層，不是被輸送的 CO2，也不是 natural gas 或 oil。選項 E Saline aquifer 正好對應 “saline aquifers”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目選項用單數 “Saline aquifer”，原文用複數 “saline aquifers”。Diagram label 常用單數標示一類地質層，這不影響答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 31 是 E — Saline aquifer。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B — Coal",
+      "answerKey": "B — Coal",
+      "type": "IGCC system diagram",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Post-combustion capture means CO2 is separated from gas after coal is burnt but before electricity is generated, while in oxy-firing, coal is combusted in pure oxygen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Post-combustion capture 指煤燃燒後、發電前把 CO2 從氣體中分離；而在 oxy-firing 中，煤在純氧中燃燒。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Emissions from this process contain around ten percent of the CO2 that burning coal produces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個過程的排放只含有燃煤所產生 CO2 的約十分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都提到 coal，且段落中間會解釋 IGCC。Question 32 在 IGCC 圖左側進入 gasifier 的input 位置，旁邊已標示 oxygen 和 water，因此剩下的主要 input 就是 coal。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖和原文定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In pre-combustion, as in an Integrated Gasification Combined Cycle system (IGCC), oxygen, coal, and water are burnt together to produce a synthetic gas called Syngas…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 pre-combustion 中，如 Integrated Gasification Combined Cycle system，即 IGCC，氧氣、煤和水一起燃燒，產生一種稱為 Syngas 的合成氣體。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中已直接標出 OXYGEN 和 WATER。Question 32 指向另一條進入 gasifier 的 input。根據原文，三個 input 是 oxygen、coal、water，所以空格 32 只能是 B Coal。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 32 是 B — Coal。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "G — Syngas",
+      "answerKey": "G — Syngas",
+      "type": "IGCC system diagram",
+      "prompt": "Question 33",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Post-combustion capture means CO2 is separated from gas after coal is burnt but before electricity is generated…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Post-combustion capture 指煤燃燒後、發電前把 CO2 從氣體中分離。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Emissions from this process contain around ten percent of the CO2 that burning coal produces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個過程的排放只含有一般燃煤所產生 CO2 的約十分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中間介紹 IGCC 的物質轉換和 turbine 順序，所以 33 應在流程中尋找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖和原文定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 33 標在 gasifier 上方流出、通往 cooling and cleaning 的管線。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“oxygen, coal, and water are burnt together to produce a synthetic gas called Syngas – mainly hydrogen…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "氧氣、煤和水一起燃燒，產生一種稱為 Syngas 的合成氣體，主要成分是氫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "32 是 input coal；進入 gasifier 後，產生的 output 是 syngas。圖中 33 位於 gasifier 出口，流向cooling and cleaning，符合 “produce a synthetic gas called Syngas”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 G Syngas 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 H Syngas-driven turbines。33 標在管線，不在 turbine 裝置上，所以它是氣體本身，不是被氣體推動的渦輪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 33 是 G — Syngas。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "F — Steam-driven turbines",
+      "answerKey": "F — Steam-driven turbines",
+      "type": "IGCC system diagram",
+      "prompt": "Question 34",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Post-combustion capture means CO2 is separated from gas after coal is burnt but before electricity is generated…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Post-combustion capture 指煤燃燒後、發電前把 CO2 從氣體中分離。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Emissions from this process contain around ten percent of the CO2 that burning coal produces.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個過程的排放只含有一般燃煤所產生 CO2 的約十分之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段講燃煤、發電和減排；中間的 IGCC 流程會提供 turbines 的順序。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用圖和原文定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 34 標在右下方 turbine，旁邊有 WATER 和 CONDENSER，表示這一組 turbine 與 steam /water cycle 相關。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Syngas – mainly hydrogen – which drives two sets of turbines: first gas-driven turbines, then steam-driven turbines powered by steam produced as the syngas cools through water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Syngas 主要是氫，它推動兩組渦輪：先是 gas-driven turbines，然後是 steam-driven turbines；後者由 syngas 經水冷卻時產生的蒸汽推動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中上方那組 turbine 接在 syngas flow 後，較像 gas-driven turbines；34 在下方水與 condenser附近，對應 steam cycle。原文說第二組是 “steam-driven turbines powered by steam”，所以 34是 F Steam-driven turbines。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 H Syngas-driven turbines。雖然 syngas 會推動第一組 turbine，但 34 的圖像位置連着 water 和 condenser，指向蒸汽推動的第二組 turbine。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 是 F — Steam-driven turbines。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "carbon emissions",
+      "answerKey": "carbon emissions",
+      "type": "Table Completion",
+      "prompt": "“CCS may cut 35 ______ in a short time.”",
+      "translation": "CCS 可能在短時間內減少 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several countries are keen to scale up CCS as it may reduce carbon emissions quickly, and powerful lobby groups for CCS exist among professionals in mining and engineering.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多個國家熱衷於擴大 CCS，因為它可能快速減少碳排放，而且在採礦和工程專業人士之中，有支持 CCS 的強大游說團體。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, recent clean energy acts in many countries mandate that a percentage of electricity be generated by renewables or by more energy-efficient systems, like CCS.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，許多國家近期的清潔能源法規定，一定比例的電力必須由再生能源或更高效的系統，例如CCS，來產生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段講 CCS 的優勢和支持力量。題目句中的 “may cut … in a short time”直接對應 “may reduce … quickly”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“may cut”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in a short time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文同義："
+            },
+            {
+              "kind": "quote",
+              "text": "“may reduce”"
+            },
+            {
+              "kind": "quote",
+              "text": "“quickly”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“it may reduce carbon emissions quickly”"
+            },
+            {
+              "kind": "label",
+              "text": "題目改寫為："
+            },
+            {
+              "kind": "quote",
+              "text": "“CCS may cut ______ in a short time”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cut = reduce in a short time = quickly空格需要一個複數名詞短語，原文是 carbon emissions。兩個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 35 是 carbon emissions。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "powerful lobbies",
+      "answerKey": "powerful lobbies",
+      "type": "Table Completion",
+      "prompt": "“36 ______ in labour, industry and government already support CCS.”",
+      "translation": "在勞工、產業和政府中，______ 已經支持 CCS。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8 + Paragraph 9 Paragraph 8 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several countries are keen to scale up CCS as it may reduce carbon emissions quickly, and powerful lobby groups for CCS exist among professionals in mining and engineering.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多個國家熱衷於擴大 CCS，因為它可能快速減少碳排放，而且採礦和工程專業人士中存在支持CCS 的強大游說團體。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As with desalination, where powerful lobbies wield influence, states sometimes find it easier to engage in large projects involving a few players rather than change behaviours on a more scattered household scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就像海水淡化一樣，在強大游說力量能發揮影響時，國家有時覺得推動少數參與者的大型項目，比改變分散的家庭行為更容易。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩段首句，可以估計答案會涉及 lobby groups / lobbies，以及 states / governments 對大型項目的偏好。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“support CCS”"
+            },
+            {
+              "kind": "quote",
+              "text": "“labour, industry and government”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關短語包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“powerful lobby groups for CCS”"
+            },
+            {
+              "kind": "quote",
+              "text": "“professionals in mining and engineering”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the oil and gas industry is interested”"
+            },
+            {
+              "kind": "quote",
+              "text": "“states sometimes find it easier”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供三類支持背景：第一，採礦和工程專業人士中有 “powerful lobby groups for CCS”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，foundries、refineries、oil and gas industry 也可能受益或有興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，states 有時較易推動少數大玩家的大型工程，而且 clean energy acts 也支持高效能源系統。"
+            },
+            {
+              "kind": "label",
+              "text": "題目把這些分散資料概括成："
+            },
+            {
+              "kind": "quote",
+              "text": "“in labour, industry and government already support CCS”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要一個複數名詞短語。powerful lobbies 最貼合題目結構；原文也有 “powerful lobbies wield influence”。若答案表採用更貼近 Paragraph 8 的原文形式，powerful lobby groups 也有文本根據。不過依常見答案鍵，這格通常填 powerful lobbies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 是 powerful lobbies。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “professionals in mining and engineering”。這些是 lobbies 所在的群體之一，表"
+            },
+            {
+              "kind": "paragraph",
+              "text": "格要填的是能 “support CCS” 的力量類型。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "solar",
+      "answerKey": "solar",
+      "type": "Table Completion",
+      "prompt": "“Alternatives, like 37 ______ energy, take up vast amounts of space.”",
+      "translation": "替代方案，例如 ______ energy，會佔用大量空間。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As with desalination, where powerful lobbies wield influence, states sometimes find it easier to engage in large projects involving a few players rather than change behaviours on a more scattered household scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就像海水淡化一樣，當強大游說力量有影響時，政府有時較容易參與少數玩家的大型項目，而不是改變分散的家庭行為。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, replacing coal with zero-emission photovoltaic (PV) cells to produce solar energy would require covering an area nearly 20,720 square kilometres, roughly twice the size of Lebanon or half of Denmark.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，若用零排放的 photovoltaic cells 取代煤來產生太陽能，所需覆蓋面積接近 20,720 平方公里，約為黎巴嫩兩倍或丹麥一半。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已能看出題目 “take up vast amounts of space” 對應 “require covering an area nearly 20,720 square kilometres”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“take up vast amounts of space”"
+            },
+            {
+              "kind": "quote",
+              "text": "“energy”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“produce solar energy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“require covering an area nearly 20,720 square kilometres”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目句已有 “energy” 放在空格後："
+            },
+            {
+              "kind": "quote",
+              "text": "“like ______ energy”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文完整短語是 “solar energy”。由於題目已提供 energy，空格只需填 solar。如果填 “solar energy”，句子會變成 “solar energy energy”，文法上重複。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 37 是 solar。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "massive state subsidies",
+      "answerKey": "massive state subsidies",
+      "type": "Table Completion",
+      "prompt": "“The scale of sequestration would be enormous, so CCS would need 38 ______.”",
+      "translation": "sequestration 的規模會非常龐大，因此 CCS 需要 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Still, there are many reservations about CCS.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，對 CCS 仍有很多保留。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As consumers are unlikely to want to bear this price hike, massive state subsidies would be necessary for CCS to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於消費者不太可能願意承受這種價格上升，CCS 若要運作，就需要大量國家補貼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可見本段開始講 disadvantages，並直接點出 CCS 需要政府補貼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“would need”"
+            },
+            {
+              "kind": "quote",
+              "text": "“enormous”"
+            },
+            {
+              "kind": "quote",
+              "text": "“CCS”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“would be necessary for CCS to work”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“massive state subsidies would be necessary for CCS to work”"
+            },
+            {
+              "kind": "label",
+              "text": "題目改寫為："
+            },
+            {
+              "kind": "quote",
+              "text": "“CCS would need ______”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "would need = would be necessary答案短語是 massive state subsidies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是三個字，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 38 是 massive state subsidies。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "untried",
+      "answerKey": "untried",
+      "type": "Table Completion",
+      "prompt": "“Some CCS technology is 39 ______.”",
+      "translation": "有些 CCS 技術是 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 12第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some CCS technology is untried; for example, the syngas-driven turbines in an IGCC system have not been used on an industrial scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些 CCS 技術尚未經驗證；例如，IGCC 系統中的 syngas-driven turbines 尚未在工業規模上使用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Qatar Carbonates and Carbon Storage Research Centre predicts 700 million barrels per day of this liquid would be produced if CCS were adopted modestly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Qatar Carbonates and Carbon Storage Research Centre 預測，即使 CCS 只是適度採用，每天也會產生 7 億桶這種液體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可見這段講兩個問題：技術未經驗證，以及 CO2 液化後的規模巨大。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目句幾乎照抄："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some CCS technology is ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some CCS technology is untried”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “is”，需要形容詞。原文形容詞 untried 正好填入。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後句 “syngas-driven turbines … have not been used on an industrial scale” 是對 untried 的例子解釋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 是 untried。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "$0.0686/kWh",
+      "answerKey": "$0.0686/kWh",
+      "type": "Table Completion",
+      "prompt": "“LCOE estimates for CCS are 0. 09–0.15/kWh; for natural gas, 40 ______; and for solar PV,$0.0849/kWh.”",
+      "translation": "CCS 的 LCOE 估算為每千瓦時 0. 09–0.15；natural gas 為 ______；solar PV 為 $0.0849/kWh。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 16第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In all this, an agreed measure of cost for electricity generation must be used.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在所有這些討論中，必須使用一個共同認可的發電成本衡量方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2012, the CBO demonstrated that a new CCS plant had an LCOE of about 0. 09–0.15 per kilowatt-hour (kWh), but according to the US Energy Information Administration, the LCOE from a conventional natural gas power plant without CCS is $0.0686/kWh, making it the cheapest way to produce clean energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2012 年，CBO 顯示新 CCS 電廠的 LCOE 約為每千瓦時 0. 09–0.15；但根據美國能源資訊署，沒有 CCS 的傳統天然氣電廠 LCOE 為 $0.0686/kWh，是生產清潔能源最便宜的方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經可以定位 Question 40。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“LCOE”"
+            },
+            {
+              "kind": "quote",
+              "text": "“natural gas”"
+            },
+            {
+              "kind": "quote",
+              "text": "“0. 09–0.15/kWh”"
+            },
+            {
+              "kind": "quote",
+              "text": "“solar PV”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the LCOE from a conventional natural gas power plant without CCS is $0.0686/kWh”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目要求填 natural gas 的 LCOE。原文直接給出："
+            },
+            {
+              "kind": "quote",
+              "text": "“$0.0686/kWh”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要保留單位，因為題目其他成本也以 kWh 作比較，而且答案允許 “A NUMBER”。這個答案包含數字和單位，符合要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 是 $0.0686/kWh。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 27. A 28. D 29. A 30. C 31. E 32. B 33. G 34. F 35. carbon emissions 36. powerful lobbies 37. solar 38. massive state subsidies 39. untried 40. $0.0686/kWh"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Carbon Capture and Storage.pdf",
+    "sha256": "6aa123b060fb6e881c5592624bbfaaff58536a85ca9755ab2b357c85d96b384d",
+    "pageCount": 23
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 renewable energy 雖然常被討論，但煤炭仍然在發電中佔最大角色；尾句補充全球鋼鐵生產、塑膠和人造絲也依賴煤。只看首尾句，可先估計本段功能是交代 coal dependence：煤不單用於電力，也深入工業材料生產。這段最可能提供國家比例、global average、coal role 等數字題答案。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說燃煤電廠正在滿足龐大能源需求，但同時排放驚人數量的 CO2；尾句說天空充滿煙霧、氣溫上升時，人們仍渴望清潔空氣和廉價電力。只看首尾句，可以看到一個核心矛盾：煤帶來便宜能源，也帶來嚴重排放。這段大概會回答 CO2 cost、electricity bill、global emissions 等題目。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 IPCC 指出，只要氣溫比現時升高 2°C 就會達到嚴重傷害門檻；尾句說在能源需求仍會上升 50% 的情況下，CCS 被提出作為減排方法之一。只看首尾句，本段功能是從問題轉入方案：世界需要大幅減排，同時不能忽略能源需求增加，因此 Carbon Capture and Storage 被提出。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 CO2 storage，或稱 sequestration，目前已在油氣產業中使用；尾句說也有計劃把 CO2 注入海床下 1,000 米的 saline aquifers，以防釋放到大氣。只看首尾句，可以估計本段會介紹地下儲碳的方式和位置，包括 oil fields、natural gas、coal fields、sandstone reservoirs 和 saline aquifers。這段是 diagram 29–31 的核心。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 CO2 storage 已經做到，但從電廠捕捉 CO2 仍大多停留在假設階段；尾句說西歐和北美的 CCS plants 仍在設計或規劃中。只看首尾句，本段功能是轉場：地下儲存已有實例，真正較不成熟的部分是 capture from power plants。這段為後文三種 CCS capture 技術鋪路。"
+      },
+      {
+        "number": "6",
+        "summary": "首句列出 CCS 三種主要形式：pre-combustion、post-combustion 和 oxy-firing；尾句說pre-combustion 和 oxy-firing 比 post-combustion 移除更多 CO2，也能產生更多電力。只看首尾句，可以估計本段會比較三種捕碳方法的優劣：post-combustion 可改裝舊電廠，另外兩種效果較強但需要新建電廠。"
+      },
+      {
+        "number": "7",
+        "summary": "首句解釋 post-combustion 是煤燃燒後、發電前把 CO2 從氣體中分離，而 oxy-firing 則用純氧燃煤；尾句說 pre-combustion 的排放只含有一般燃煤約十分之一的 CO2。只看首尾句，可見本段會細講三種技術流程，尤其 IGCC：coal、oxygen、water 產生 syngas，再推動兩組 turbines。這段是diagram 32–34 的核心。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說多國希望擴大 CCS，因為它可能快速減少碳排放；尾句說許多國家的清潔能源法要求部分電力由 renewable 或更高效系統如 CCS 產生。只看首尾句，本段偏向 advantages：政府、產業、採礦與工程專業團體都可能支持 CCS。這段會回答 table 中短期減排和 powerful lobbies 的內容。"
+      },
+      {
+        "number": "9",
+        "summary": "首句把 CCS 和 desalination 類比，說有強大 lobbying influence 時，政府有時較願意做少數大玩家參與的大型項目；尾句說若用零排放 PV cells 取代煤，所需面積接近 20,720 平方公里。只看首尾句，本段繼續支持 CCS 的現實吸引力：大項目容易由國家推動，而 solar alternative 雖清潔，卻需要巨大土地面積。"
+      },
+      {
+        "number": "10",
+        "summary": "首句用 Still 轉折，說對 CCS 仍有很多保留；尾句說若 CCS 要運作，需要大量國家補貼。只看首尾句，可見本段開始進入 disadvantages：主要問題是成本極高，電價可能超過現時零售價五倍以上，消費者很難承受。因此國家資金介入會成為必要條件。這段對應 table 的 subsidy 題。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說為既有電廠購買改裝設備的資本支出已經很高；尾句說新建 CCS plants 至少比retro-fitting 貴 75%。只看首尾句，可以估計本段仍在講成本，但更集中於設備、改裝、新建和能源消耗。它補充說捕捉 CO2 需要多燒三分之一煤，令 CCS 的成本和能源負擔更重。"
+      },
+      {
+        "number": "12",
+        "summary": "首句說有些 CCS technology 尚未經驗證，例如 IGCC 中的 syngas-driven turbines 未在工業規模使用；尾句說若 CCS 適度採用，每日會產生 7 億桶這種液體。只看首尾句，可見本段講technology risk 和 transport/storage scale：CO2 捕捉後需壓縮成 supercritical liquid，而 waste volume 可能極其龐大。"
+      },
+      {
+        "number": "13",
+        "summary": "首句說 sequestration 已成功使用，但符合最佳條件的煤田和油田有限；尾句說在 aquifers 中做sequestration 從未試過。只看首尾句，本段功能是講 geological limits：不是所有地下空間都適合儲存 CO2，脆弱岩層和地震可能導致 CO2 洩漏。saline aquifers 仍只是 proposal，安全性和實用性未得到實證。"
+      },
+      {
+        "number": "14",
+        "summary": "首句說最麻煩的是 CCS 只減少碳排放，不能完全終結排放；尾句同一句指出它只是medium-term solution。這段很短，但功能很清楚：作者把 CCS 的定位收窄。它可減排，卻不能根除問題。因此即使 CCS 有價值，也只能被理解為中期過渡方案，並非真正零排放終點。"
+      },
+      {
+        "number": "15",
+        "summary": "首句說至少有四種價格合理的 CCS 替代方案；尾句說 solar power 正迅速取得可信度。只看首尾句，可見本段開始介紹 alternatives，包括 redesigned pulverised coal plants、hybrid natural gas and coal plants、natural gas alone，以及 solar power。段落功能是從批評 CCS 轉向比較其他可行能源方案。"
+      },
+      {
+        "number": "16",
+        "summary": "首句說討論發電成本時，需要使用一個共同成本尺度；尾句指出 conventional natural gas plant without CCS 的 LCOE 是 $0.0686/kWh，是最便宜的 clean energy 方式。只看首尾句，本段會定義 LCOE，並用它比較 CCS 和 natural gas 的成本。這段是 Question 40 的直接定位段落。"
+      },
+      {
+        "number": "17",
+        "summary": "首句說 solar power costs 正快速下降；尾句說 2014 年 New Mexico solar project 的發電成本是$0.0849/kWh。只看首尾句，可見本段繼續 alternatives 的成本比較，重點轉向 solar PV。它支援表格中 solar PV cheaper 的論點，也和前面 solar energy 需要大量土地形成平衡：成本下降，但土地需求仍是問題。"
+      },
+      {
+        "number": "18",
+        "summary": "首句說既然世界仍有大量煤和燃煤電廠，要把它們全部退役可能不現實；尾句說無論如何，cheap power and clean air 的難題可能仍會持續一段時間。只看首尾句，可以看到全文結論：CCS 和替代方案各有問題，煤的既有基礎龐大，廉價電力與清潔空氣之間的矛盾短期內難以完全解決。"
+      }
+    ]
+  }
+}

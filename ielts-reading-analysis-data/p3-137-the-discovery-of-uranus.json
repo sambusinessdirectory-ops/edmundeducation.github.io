@@ -1,0 +1,2051 @@
+{
+  "id": "p3-137-the-discovery-of-uranus",
+  "catalogueId": "p3-137",
+  "catalogueIds": [
+    "p3-137"
+  ],
+  "passage": 3,
+  "title": "The Discovery of Uranus",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "1772",
+    "1781",
+    "1787",
+    "1977",
+    "January 1986",
+    "YES",
+    "NO",
+    "NOT GIVEN",
+    "YES",
+    "NOT GIVEN",
+    "georgium sidus",
+    "Herschel",
+    "James L. Elliot",
+    "Miranda"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "1772",
+      "answerKey": "1772",
+      "type": "Table Completion",
+      "prompt": "“Herschel began investigating astronomy”",
+      "translation": "Herschel 開始研究天文學。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Date Completion。題目要找 Herschel 轉向 astronomy 的時間，所以定位詞是 “began investigating astronomy”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a space probe today sent back evidence that such a world existed, it would cause no more sensation than Sir William Herschel’s discovery of a new planet, Uranus, in 1781, did.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果今天有太空探測器傳回證據，證明這樣一個世界存在，它造成的轟動也不會超過 Sir William Herschel 在 1781 年發現新行星 Uranus 時所造成的轟動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He spent years mastering the art of telescope construction, and even by present-day standards his instruments are comparable with the best.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他花了多年掌握望遠鏡製作技術，即使以今日標準來看，他的儀器也可與最好的儀器相比。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 是 Herschel 的人物背景段：由 Uranus discovery 引出他的生平，再說他如何走向 astronomy 和 telescope construction。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “began investigating astronomy”。原文未必直接用 began investigating，因此要找："
+            },
+            {
+              "kind": "quote",
+              "text": "“book on astronomy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“embarked on his new career”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not until 1772”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Herschel had an active mind, and deep inside he was conscious that music was not his destiny; he therefore read widely in science and the arts, but not until 1772 did he come across a book on astronomy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Herschel 思想活躍，內心深處也意識到音樂並非他的命運；因此他廣泛閱讀科學與藝術書籍，但直到 1772 年才接觸到一本天文學書籍。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He was then 34, middle-aged by the standards of the time, but without hesitation he embarked on his new career, financing it by his professional work as a musician.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他當時 34 歲，按當時標準已算中年，但他毫不猶豫地開始新的事業，並靠音樂家的專業工作來支持這條路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “began investigating astronomy” 對應原文 “came across a book on astronomy” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“embarked on his new career”。時間由 “not until 1772” 定案。所以答案是 1772。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "1781",
+      "answerKey": "1781",
+      "type": "Table Completion",
+      "prompt": "“Discovery of the planet Uranus”",
+      "translation": "發現 Uranus 這顆行星。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Uranus discovery 的年份。定位詞非常直接：Uranus / discovery。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a space probe today sent back evidence that such a world existed, it would cause no more sensation than Sir William Herschel’s discovery of a new planet, Uranus, in 1781, did.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果今天有太空探測器傳回證據，證明這樣一個世界存在，它造成的轟動也不會超過 Sir William Herschel 在 1781 年發現新行星 Uranus 時所造成的轟動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He spent years mastering the art of telescope construction, and even by present-day standards his instruments are comparable with the best.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他花了多年掌握望遠鏡製作技術，即使以今日標準來看，他的儀器也可與最好的儀器相比。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段第一句直接給出 Uranus discovery 的年份，所以可作為主定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Discovery”"
+            },
+            {
+              "kind": "quote",
+              "text": "“planet Uranus”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“discovery of a new planet, Uranus, in 1781”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sir William Herschel’s discovery of a new planet, Uranus, in 1781”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sir William Herschel 在 1781 年發現新行星 Uranus。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問的是 discovery of the planet Uranus。原文用 “discovery of a new planet, Uranus, in 1781”直接回答。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "注意 Paragraph 4 提到 13 March，但那裡 Herschel 當時仍 “suspected it to be a comet”，即他懷疑它是彗星。Table 這題要求的是 Uranus discovery 的日期，文章明確用 1781 來標示這項發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 1781。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "1787",
+      "answerKey": "1787",
+      "type": "Table Completion",
+      "prompt": "“Discovery of the moons Titania and Oberon”",
+      "translation": "發現 Titania 和 Oberon 兩顆衛星。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 moons 的發現年份，定位詞是 Titania and Oberon。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Uranus is a giant in structure, but not so much in size; its diameter compares unfavourably with that of Jupiter and Saturn, though on the terrestrial scale it is still colossal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Uranus 在結構上屬於巨行星，但體積不算那麼巨大；它的直徑比不上 Jupiter 和 Saturn，但以地球尺度來看仍然非常龐大。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Miranda, thought before 1986 to be the innermost moon, was discovered in 1948 by the American astronomer Gerard Peter Kuiper.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Miranda 在 1986 年以前被認為是最內側的衛星，它於 1948 年由美國天文學家 Gerard Peter Kuiper 發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 6 是 Uranus 的特徵與衛星發現史段落，因此 Titania and Oberon 應在這一段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Titania”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Oberon”"
+            },
+            {
+              "kind": "quote",
+              "text": "“moons”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two largest moons, Titania and Oberon, were discovered by Herschel in 1787.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The two largest moons, Titania and Oberon, were discovered by Herschel in 1787.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩顆最大的衛星 Titania 和 Oberon 由 Herschel 於 1787 年發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問的是 discovery of the moons Titania and Oberon。原文的 “were discovered … in 1787”直接提供答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 1787。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "1977",
+      "answerKey": "1977",
+      "type": "Table Completion",
+      "prompt": "“First discovery of Uranus’s rings”",
+      "translation": "首次發現 Uranus 的環。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 rings 的首次發現年份。定位詞是 rings / first discovery。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Uranus is a giant in structure, but not so much in size; its diameter compares unfavourably with that of Jupiter and Saturn, though on the terrestrial scale it is still colossal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Uranus 在結構上屬於巨行星，但體積不算那麼巨大；它的直徑比不上 Jupiter 和 Saturn，但以地球尺度來看仍然非常龐大。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Miranda, thought before 1986 to be the innermost moon, was discovered in 1948 by the American astronomer Gerard Peter Kuiper.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Miranda 在 1986 年以前被認為是最內側的衛星，它於 1948 年由美國天文學家 Gerard Peter Kuiper 發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段處理 Uranus 的 rings 和 moons，正好對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“rings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first discovery”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1977 … James L. Elliot discovered the presence of five rings…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1977, while recording the occultation of a star behind the planet, the American astronomer James L. Elliot discovered the presence of five rings encircling the equator of Uranus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1977 年，美國天文學家 James L. Elliot 在記錄一顆恆星被 Uranus 遮掩的現象時，發現 Uranus赤道周圍有五個環。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “First discovery of Uranus’s rings”。原文中 “discovered the presence of five rings” 是第一次提到 rings 的發現；下一句才說 1986 年又發現四個環。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 1977。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "January 1986",
+      "answerKey": "January 1986",
+      "type": "Table Completion",
+      "prompt": "“Discovery of the last ten moons of Uranus”",
+      "translation": "發現 Uranus 最後十顆衛星。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 last ten moons 的發現時間。定位詞是 last ten moons / Voyager 2。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Uranus is a giant in structure, but not so much in size; its diameter compares unfavourably with that of Jupiter and Saturn, though on the terrestrial scale it is still colossal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Uranus 在結構上屬於巨行星，但體積不算那麼巨大；它的直徑比不上 Jupiter 和 Saturn，但以地球尺度來看仍然非常龐大。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Miranda, thought before 1986 to be the innermost moon, was discovered in 1948 by the American astronomer Gerard Peter Kuiper.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Miranda 在 1986 年以前被認為是最內側的衛星，它於 1948 年由美國天文學家 Gerard Peter Kuiper 發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 後半列出 Uranus 衛星的發現史，所以這題仍在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“last ten”"
+            },
+            {
+              "kind": "quote",
+              "text": "“moons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Voyager 2”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Four more rings were discovered in January 1986 during the exploratory flight of Voyager 2.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to its rings, Uranus has 15 satellites (‘moons’), the last 10 discovered by Voyager 2 on the same flight…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Four more rings were discovered in January 1986 during the exploratory flight of Voyager 2.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1986 年 1 月，在 Voyager 2 的探測飛行期間，又發現了四個環。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to its rings, Uranus has 15 satellites (‘moons’), the last 10 discovered by Voyager 2 on the same flight…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了環之外，Uranus 有 15 顆衛星；最後十顆是在同一次 Voyager 2 飛行中發現的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要處理代詞 “the same flight”。它回指前一句的 “January 1986 during the exploratory flight of Voyager 2”。因此 last ten moons 的發現時間就是 January 1986。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 January 1986。若答案表只要求年份，1986 也能捕捉核心時間；但按原文最完整日期，January 1986 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“It is improbable that there is a planet hidden behind the sun.”",
+      "translation": "太陽後方藏著一顆行星這件事不大可能。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目問作者是否認為 hidden planet theory 不太可能。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Someone once put forward an attractive though unlikely theory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "曾有人提出一個吸引人但不大可能的理論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Could there be another planet there, essentially similar to our own, but always invisible?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那裡會不會有另一顆基本上和我們地球相似、卻一直看不見的行星？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 1 是一個引入式假說：表面上吸引人，但作者一開始已用 “unlikely” 評價它。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“improbable”"
+            },
+            {
+              "kind": "quote",
+              "text": "“planet hidden behind the sun”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“unlikely theory”"
+            },
+            {
+              "kind": "quote",
+              "text": "“one point in space always hidden from our eyes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“always hidden by the sun”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Someone once put forward an attractive though unlikely theory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "曾有人提出一個吸引人但不大可能的理論。"
+            },
+            {
+              "kind": "label",
+              "text": "後文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This point is the opposite part of the Earth’s orbit, which is always hidden by the sun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一點位於地球軌道的相反部分，總是被太陽遮住。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “improbable” 對應原文 “unlikely”。題目中的 “a planet hidden behind the sun” 對應原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“another planet there … always invisible” 和 “always hidden by the sun”。原文用 “attractive though unlikely” 表示這理論雖有吸引力，可信度偏低。題目只是把 unlikely 改寫成 improbable。所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Herschel knew immediately that he had found a new planet.”",
+      "translation": "Herschel 立刻知道自己發現了一顆新行星。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 “knew immediately” 是否符合原文。定位詞是 Herschel / immediately / new planet。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4 和 Paragraph 5 Paragraph 4 是 Herschel 的原始觀察報告。它記錄他看到一個比其他星更大的物體，並在最後說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…suspected it to be a comet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……懷疑它是一顆彗星。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Herschel’s care was the hallmark of a great observer; he was not prepared to jump to any conclusions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Herschel 的謹慎是一位偉大觀測者的標誌；他不準備匆忙下任何結論。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The name Uranus, which was first proposed by the German astronomer Johann Elert Bode, was in use by the late 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Uranus 這個名字最初由德國天文學家 Johann Elert Bode 提出，到了十九世紀晚期已被使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩段合起來看，Paragraph 4 給出 Herschel 當下判斷，Paragraph 5 解釋後來如何確認它是行星。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“knew immediately”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new planet”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“suspected it to be a comet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not prepared to jump to any conclusions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the discovery of a new planet was the last thought in anybody’s mind”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“…finding it to be much larger than either of them, suspected it to be a comet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "……發現它比兩者都大得多，於是懷疑它是一顆彗星。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Herschel’s care was the hallmark of a great observer; he was not prepared to jump to any conclusions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Herschel 的謹慎是一位偉大觀測者的標誌；他不準備匆忙下任何結論。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“Also, to be fair, the discovery of a new planet was the last thought in anybody’s mind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公平地說，發現一顆新行星是當時任何人最後才會想到的事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “knew immediately”，表示他立刻知道那是新行星。原文方向相反：他起初懷疑是 comet，而且作者強調他沒有急於下結論。當時大家也沒有預期會發現新行星。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Herschel collaborated with other astronomers of his time.”",
+      "translation": "Herschel 和同時代其他天文學家合作。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看原文有沒有說 Herschel 與其他天文學家共同工作。定位詞是 collaborated / other astronomers。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Herschel’s care was the hallmark of a great observer; he was not prepared to jump to any conclusions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Herschel 的謹慎是一位偉大觀測者的標誌；他不準備匆忙下任何結論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The name Uranus, which was first proposed by the German astronomer Johann Elert Bode, was in use by the late 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Uranus 這個名字最初由德國天文學家 Johann Elert Bode 提出，到了十九世紀晚期已被使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 會提到其他天文學家的觀測和命名，但題目問的是 collaboration，所以要細看關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“collaborated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other astronomers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相近位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“further observation by other astronomers besides Herschel revealed two curious facts.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But further observation by other astronomers besides Herschel revealed two curious facts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但除了 Herschel 之外，其他天文學家進一步觀測後揭示了兩個奇特事實。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說 other astronomers besides Herschel 也進行了 further observation。它能證明其他天文學家也參與觀測 Uranus 這個物體，但 “besides” 只表示「除了 Herschel 之外」，沒有表示他們和Herschel 一起合作、共同研究、交換資料或組成團隊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “collaborated” 是一個更強的關係詞。原文有 “other astronomers”，但缺少 “worked with Herschel” 這層關係。文章也沒有明確說他們沒有合作，所以不能判 NO。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Herschel’s newly-discovered object was considered to be too far from the sun to be a comet.”",
+      "translation": "Herschel 新發現的物體被認為距離太陽太遠，因此不像彗星。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問該物體是否因距離太陽遠而被懷疑不屬於 comet。定位詞是 too far from the sun / comet。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Herschel’s care was the hallmark of a great observer; he was not prepared to jump to any conclusions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Herschel 的謹慎是一位偉大觀測者的標誌；他不準備匆忙下任何結論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The name Uranus, which was first proposed by the German astronomer Johann Elert Bode, was in use by the late 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Uranus 這個名字最初由德國天文學家 Johann Elert Bode 提出，到了十九世紀晚期已被使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段會解釋為何原本疑似 comet 的物體後來被認定為 planet。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“too far from the sun”"
+            },
+            {
+              "kind": "quote",
+              "text": "“comet”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“it was thought to be a great distance from the sun, and comets are normally visible only in the immediate vicinity of the sun.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For a comet, the object showed a remarkably sharp disc; furthermore, it was moving so slowly that it was thought to be a great distance from the sun, and comets are normally visible only in the immediate vicinity of the sun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對於一顆彗星來說，這個物體呈現出異常清晰的圓盤；此外，它移動得非常慢，因此被認為距離太陽很遠，而彗星通常只有在太陽附近才可見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “too far from the sun to be a comet”。原文沒有逐字說 too far，但邏輯非常清楚："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a great distance from the sun” = 離太陽很遠“comets are normally visible only in the immediate vicinity of the sun” = 彗星通常只在太陽附近可見兩句合起來表示：如果它離太陽很遠，這就不符合一般 comet 的情況。因此題目是原文的合理概括。所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Herschel’s discovery was the most important find of the last three hundred years.”",
+      "translation": "Herschel 的發現是過去三百年最重要的發現。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看文章是否有對 Herschel’s discovery 作出最高級排名。定位詞是 most important / last three hundred years。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Herschel’s care was the hallmark of a great observer; he was not prepared to jump to any conclusions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Herschel 的謹慎是一位偉大觀測者的標誌；他不準備匆忙下任何結論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The name Uranus, which was first proposed by the German astronomer Johann Elert Bode, was in use by the late 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Uranus 這個名字最初由德國天文學家 Johann Elert Bode 提出，到了十九世紀晚期已被使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段確實描述了 Uranus discovery 的重要性，但需要檢查有沒有 “most important” 和 “last three hundred years”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“most important”"
+            },
+            {
+              "kind": "quote",
+              "text": "“last three hundred years”"
+            },
+            {
+              "kind": "quote",
+              "text": "“discovery”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最接近的表達是："
+            },
+            {
+              "kind": "quote",
+              "text": "“unprecedented prize”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As its orbit came to be worked out the truth dawned that it was a new planet far beyond Saturn’s realm, and that the ‘reviewer of the heavens’ had stumbled across an unprecedented prize.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當它的軌道逐漸被計算出來後，真相開始顯現：它是一顆遠在 Saturn 領域之外的新行星，而這位「天空審視者」偶然遇上了一項前所未有的重大成果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“unprecedented prize” 說明這項發現前所未有、非常重要。可是題目要求更強： the most important find= 最重要的發現of the last three hundred years= 過去三百年之中原文沒有提供三百年範圍，也沒有把 Herschel’s discovery 和其他發現作排名比較。它有高度評價，但沒有足夠資料支持 “most important” 這個最高級。所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "georgium sidus",
+      "answerKey": "georgium sidus",
+      "type": "Name Completion",
+      "prompt": "“The suggested names for the new planet began with 37 ______…”",
+      "translation": "這顆新行星最初被建議使用的名字是……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Name Completion。雖然題目說 “with a name”，這裡的 name 指 planet name，不一定是人名。定位詞是 suggested names / new planet。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Herschel’s care was the hallmark of a great observer; he was not prepared to jump to any conclusions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Herschel 的謹慎是一位偉大觀測者的標誌；他不準備匆忙下任何結論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The name Uranus, which was first proposed by the German astronomer Johann Elert Bode, was in use by the late 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Uranus 這個名字最初由德國天文學家 Johann Elert Bode 提出，到了十九世紀晚期已被使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 後半正是命名過程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“suggested names”"
+            },
+            {
+              "kind": "quote",
+              "text": "“began with”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new planet”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有三個命名階段："
+            },
+            {
+              "kind": "quote",
+              "text": "“georgium sidus”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Herschel”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Uranus”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Herschel wanted to call it georgium sidus (Star of George) in honour of his royal patron King George III of Great Britain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Herschel 想把它稱為 georgium sidus，即 “Star of George”，以紀念他的皇家贊助人、英國國王George III。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 suggested names “began with” 第一個名字。原文第一個出現的命名提議是 Herschel wanted to call it georgium sidus。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 georgium sidus。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "Herschel",
+      "answerKey": "Herschel",
+      "type": "Name Completion",
+      "prompt": "“…followed by 38 ______, before astronomers finally settled on Uranus.”",
+      "translation": "之後曾有一段時間使用 ______ 這個名字，最後天文學家才確定使用 Uranus。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題延續 Question 37，要找第二個 planet name。定位詞是 followed by / before settled on Uranus。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Herschel’s care was the hallmark of a great observer; he was not prepared to jump to any conclusions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Herschel 的謹慎是一位偉大觀測者的標誌；他不準備匆忙下任何結論。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The name Uranus, which was first proposed by the German astronomer Johann Elert Bode, was in use by the late 19th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Uranus 這個名字最初由德國天文學家 Johann Elert Bode 提出，到了十九世紀晚期已被使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 結尾按順序交代 planet naming。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“followed by”"
+            },
+            {
+              "kind": "quote",
+              "text": "“settled on Uranus”"
+            },
+            {
+              "kind": "label",
+              "text": "原文順序是："
+            },
+            {
+              "kind": "quote",
+              "text": "“georgium sidus”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The planet was later for a time called Herschel”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The name Uranus…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The planet was later for a time called Herschel in honour of its discoverer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這顆行星後來有一段時間被稱為 Herschel，以紀念它的發現者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “followed by” 對應原文 “later for a time called”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一個名字是 georgium sidus；之後一段時間叫 Herschel；最後採用 Uranus。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 Herschel。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "James L. Elliot",
+      "answerKey": "James L. Elliot",
+      "type": "Name Completion",
+      "prompt": "“The first five rings around Uranus were discovered by 39 ______.”",
+      "translation": "Uranus 周圍最早發現的五個環，是由 ______ 發現的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要填人名。定位詞是 first five rings / discovered by。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Uranus is a giant in structure, but not so much in size; its diameter compares unfavourably with that of Jupiter and Saturn, though on the terrestrial scale it is still colossal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Uranus 在結構上屬於巨行星，但體積不算那麼巨大；它的直徑比不上 Jupiter 和 Saturn，但以地球尺度來看仍然非常龐大。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Miranda, thought before 1986 to be the innermost moon, was discovered in 1948 by the American astronomer Gerard Peter Kuiper.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Miranda 在 1986 年以前被認為是最內側的衛星，它於 1948 年由美國天文學家 Gerard Peter Kuiper 發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段包含 rings 的發現者，所以是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“five rings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“discovered by”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“James L. Elliot discovered the presence of five rings”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1977, while recording the occultation of a star behind the planet, the American astronomer James L. Elliot discovered the presence of five rings encircling the equator of Uranus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1977 年，美國天文學家 James L. Elliot 在記錄一顆恆星被 Uranus 遮掩的現象時，發現 Uranus赤道周圍有五個環。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “the first five rings around Uranus” 改寫成原文的 “five rings encircling the equator of Uranus”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求 discovered by 後面的人名；原文的人名是 James L. Elliot。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 James L. Elliot。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "Miranda",
+      "answerKey": "Miranda",
+      "type": "Name Completion",
+      "prompt": "“From 1948 until 1986, the moon 40 ______ was believed to be the moon closest to the surface of Uranus.”",
+      "translation": "從 1948 年到 1986 年，______ 這顆衛星被認為是最接近 Uranus 表面的衛星。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要填 moon name。定位詞是 1948 / 1986 / innermost moon / closest to the surface。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Uranus is a giant in structure, but not so much in size; its diameter compares unfavourably with that of Jupiter and Saturn, though on the terrestrial scale it is still colossal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Uranus 在結構上屬於巨行星，但體積不算那麼巨大；它的直徑比不上 Jupiter 和 Saturn，但以地球尺度來看仍然非常龐大。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Miranda, thought before 1986 to be the innermost moon, was discovered in 1948 by the American astronomer Gerard Peter Kuiper.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Miranda 在 1986 年以前被認為是最內側的衛星，它於 1948 年由美國天文學家 Gerard Peter Kuiper 發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已直接含有 1948、1986、innermost moon，因此答案位置非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“1948”"
+            },
+            {
+              "kind": "quote",
+              "text": "“1986”"
+            },
+            {
+              "kind": "quote",
+              "text": "“closest to the surface”"
+            },
+            {
+              "kind": "quote",
+              "text": "“moon”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Miranda, thought before 1986 to be the innermost moon, was discovered in 1948…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Miranda, thought before 1986 to be the innermost moon, was discovered in 1948 by the American astronomer Gerard Peter Kuiper.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Miranda 在 1986 年以前被認為是最內側的衛星，它於 1948 年由美國天文學家 Gerard Peter Kuiper 發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “closest to the surface of Uranus” 對應原文 “innermost moon”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“From 1948 until 1986” 由原文 “discovered in 1948” 和 “thought before 1986” 合併而成。空格需要 moon name，所以答案是 Miranda。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Discovery of Uranus.pdf",
+    "sha256": "900be42c916282fe84ce0c627a814675b454c30933394d6bca5635874613b49a",
+    "pageCount": 22
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句提出一個吸引人但可能性低的天文理論：地球繞太陽公轉時，有一個位置永遠被太陽遮住。尾句提出問題：那裡會否有另一顆類似地球、卻一直不可見的行星。這段是文章開場鉤子，讓讀者先想像「隱藏行星」的震撼感。"
+      },
+      {
+        "number": "2",
+        "summary": "首句把假想行星和 Herschel 於 1781 年發現 Uranus 的轟動作比較。尾句說他花多年掌握望遠鏡製作，儀器以今日標準看仍可媲美最佳水平。這段是 Herschel 的生平背景段，會從出生、音樂才能、移居英國、廣泛閱讀，寫到他轉向 astronomy。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 serious observation 開始於 1774 年，代表文章從生平轉到正式天文觀測。尾句提到他在1781 年向 Royal Society 提交題為 An Account of a Comet 的論文。這段應該介紹 Herschel 的sky review、Uranus discovery 的背景，以及他後來得到 royal grant 後全心投入 astronomy。"
+      },
+      {
+        "number": "4",
+        "summary": "這段是 Herschel 的原始觀察紀錄。首句交代 3 月 13 日晚上，他在 H Geminorum 附近檢查小星。尾句說他發現某個物體比附近星體大，因而懷疑它是 comet。只看首尾句，可以看出Herschel 當下的判斷很謹慎，起初沒有直接認定它是新行星。"
+      },
+      {
+        "number": "5",
+        "summary": "首句評價 Herschel 的謹慎是偉大觀測者的標誌，說他不急於下結論。尾句交代 Uranus 這個名字由 Johann Elert Bode 首先提出，至十九世紀晚期已被使用。這段應該解釋物體從 suspected comet 到 recognised planet 的過程，也會講命名順序。"
+      },
+      {
+        "number": "6",
+        "summary": "首句介紹 Uranus 的結構和大小：它是 giant，但直徑比 Jupiter 和 Saturn 小。尾句說 Miranda 在1986 年以前被認為是最內側衛星，1948 年由 Gerard Peter Kuiper 發現。這段是資料型段落，會列出 Uranus 的大氣、顏色、rings、Voyager 2 發現，以及 moons 的發現年份和人物。"
+      }
+    ]
+  }
+}

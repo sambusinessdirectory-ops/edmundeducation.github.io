@@ -1,0 +1,30 @@
+109|It solemnly describes exhaustion after all energy has been used up.|它嚴肅地形容精力用盡後的疲倦。|It is a neutral report about the amount of petrol in a vehicle.|它是關於車內汽油量的中性報告。
+110|It warmly celebrates the affection between the people involved.|它溫暖地讚頌當事人之間的感情。|It diagnoses a blood disorder rather than describing a relationship.|它診斷血液疾病，而非描述關係。
+111|It dismisses the fit as inadequate and disappointing.|它批評尺寸不合適，令人失望。|It praises the object's low price without commenting on its fit.|它讚揚物品價錢低廉，沒有評論是否合適。
+112|It cautiously admits that the speaker has almost no confidence.|它審慎地承認說話者幾乎毫無信心。|It reports a laboratory finding about eggs without expressing certainty.|它報告關於雞蛋的實驗結果，沒有表達肯定。
+113|It praises the team's calm organisation and clear priorities.|它讚揚團隊組織冷靜，優先次序清晰。|It neutrally states the exact number of people present.|它中性地陳述在場人數。
+114|It is a botanical description rather than a comment on how easy life is.|它是植物學描述，而非評論生活是否輕鬆。|It always celebrates hardship as the main pleasure of the situation.|它總是把困難讚頌為處境中的主要樂趣。
+115|It warmly praises the price as a remarkable bargain.|它熱情讚揚價錢非常划算。|It states an exact monetary amount without emphasis.|它毫不強調地列出確實金額。
+116|It urgently demands action without any pause.|它急切要求毫不暫停地採取行動。|It declares that the plan has been permanently abandoned.|它宣布計劃已永久放棄。
+117|It seriously accuses the arriving person of being morally evil.|它認真指控到場者品行邪惡。|It formally orders the arriving person to leave immediately.|它正式命令到場者立即離開。
+118|It praises deliberate resistance to the prevailing trend.|它讚揚刻意抗拒主流趨勢。|It guarantees that the majority's preference is morally right.|它保證大多數人的偏好在道德上正確。
+119|It praises a brave willingness to investigate unpleasant facts.|它讚揚勇於調查不愉快事實的態度。|It neutrally describes a person who has never been told of the problem.|它中性地描述一個從未獲告知問題的人。
+120|It praises the successful protection of every secret.|它讚揚成功保守所有秘密。|It necessarily accuses the person of deliberately lying.|它必然指控當事人刻意說謊。
+121|It celebrates keeping every intention concealed throughout the exchange.|它讚揚整段交流中隱藏所有意圖。|It neutrally describes showing an injured hand to a doctor.|它中性地描述向醫生展示受傷的手。
+122|It treats a spoken promise alone as sufficient written evidence.|它把單純口頭承諾視為足夠的書面證據。|It guarantees the factual truth of whatever has been written.|它保證任何已寫下的內容都是事實。
+123|It expresses regret that a welcome event later became harmful.|它對原本令人歡迎的事情後來變得有害表示遺憾。|It guarantees in advance that every setback will benefit everyone.|它事先保證每個挫折都會令所有人受益。
+124|It certifies the newcomer as an expert on the basis of proven long-term skill.|它根據已證實的長期技巧，認定新手為專家。|It solemnly predicts that every future attempt will fail.|它嚴肅預言未來每次嘗試都會失敗。
+125|It proudly celebrates refusing to admit an error.|它自豪地讚頌拒絕認錯。|It describes pleasure in proving someone else wrong without any embarrassment.|它描述證明別人錯了的快感，毫無尷尬。
+126|It endorses the direct comparison because both things are identical.|它認同直接比較，因為兩件事物完全相同。|It dismisses both things as worthless without discussing comparability.|它說兩件事物都毫無價值，沒有討論是否可比較。
+127|It mocks a weak opponent who is easily defeated by an expert.|它嘲笑被專家輕易擊敗的弱小對手。|It praises harmony between people who are not competing at all.|它讚揚完全沒有競爭的人之間的和諧。
+128|It solemnly describes severe grief and disappointment.|它嚴肅地形容深切悲傷和失望。|It measures a person's literal height above the ground.|它量度當事人實際離地的高度。
+129|It expresses mild curiosity without any particular happiness.|它表達輕微好奇，沒有特別快樂。|It objectively reports an aircraft's altitude.|它客觀地報告飛機高度。
+130|It emphasises that the event is exceptionally rare.|它強調事情極為罕見。|It guarantees a scientifically measured percentage in every use.|它保證每次使用都表示科學量度的百分比。
+131|It playfully describes a harmless inconvenience with no threat to life.|它以玩笑口吻描述毫無生命威脅的小不便。|It calmly guarantees that the person will survive unharmed.|它平靜地保證當事人會毫髮無損地生還。
+132|It praises complete transparency and clear supporting evidence.|它讚揚完全透明和清晰的支持證據。|It neutrally lists decorative materials without questioning honesty.|它中性地列出裝飾材料，沒有質疑誠實程度。
+133|It describes ordinary hunger with no feeling of nausea.|它描述普通肚餓，沒有作嘔感覺。|It guarantees that vomiting has already occurred.|它保證已經發生嘔吐。
+134|It praises the preservation of every existing arrangement unchanged.|它讚揚每項原有安排都維持不變。|It guarantees that the disruption will improve the result.|它保證擾亂安排將改善結果。
+135|It expresses indifference between all available choices.|它表達對所有可用選擇都毫無偏好。|It announces that the desired outcome has already been obtained.|它宣布渴望的結果已經得到。
+136|It criticises someone for being exhausted and inactive.|它批評某人疲倦而不活躍。|It neutrally reports the person's most recent meal.|它中性地報告當事人最近吃過的一餐。
+137|It asserts that current opinions and trends can safely be ignored.|它斷言可以放心忽視當前意見和趨勢。|It guarantees an exact prediction of every future event.|它保證能準確預測未來每件事。
+138|It emphasises a reliable event that happens every day.|它強調一件每天穩定發生的事。|It states that the event is completely impossible.|它表示事情完全不可能發生。

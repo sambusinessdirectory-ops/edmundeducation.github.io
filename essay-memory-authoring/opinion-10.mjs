@@ -1,0 +1,362 @@
+// Model Essay 10 · Opinion: promotion is not the main cause of lasting business success.
+const simple=[
+  "In today's markets, companies face constant pressure to get noticed, so many people think ads are the main reason a business succeeds.",
+  'So it is easy to see why some people think advertising and other ways of promoting a company are the key to success.',
+  'I fully disagree, because companies do best when they give customers real value and run their business well.',
+  'First, advertising is not the most important thing because customers stay only when a company gives them something worth buying.',
+  'A good ad may bring some early sales, but lasting success comes from satisfied customers: when products work reliably or service remains good, buyers come back, spend more over time and tell others.',
+  'This brings regular customers and growth from recommendations, and both are steadier than attention bought with ads.',
+  'For example, a new restaurant may fill its tables with online discounts and social media ads, but customers will not return if the food is only average or staff do not pay attention.',
+  'Also, good products can build a good name on their own.',
+  'Once people trust a company, they tell others and bring in more customers; this shows quality, more than advertising, drives success over many years.',
+  'How a company is run is just as important.',
+  'Even a brand everyone knows will struggle if it spends too much, does not train workers well, or fails to keep promises.',
+  'In these cases, ads may make failure happen faster: the more customers a weak company brings in, the more late orders, complaints and refund requests it causes, and these problems quickly make people trust it less.',
+  'This often happens in online shops, where a company can advertise heavily but still lose customers to rivals if deliveries are late or help is poor.',
+  'Good management also helps a company change when needed, by making products better, dealing with competitors or spending money carefully.',
+  'These choices decide whether a business lasts for many years, while ads simply make its existing strengths or problems stand out more.',
+  'In short, I fully disagree that advertising and promotion are the main reason a business succeeds.',
+  "They may get people's attention at first, but lasting success comes from real value, customer trust and good management.",
+];
+const vocabulary=[
+  [['modern markets',"today's markets",'現代市場'],['under constant pressure','face constant pressure','持續承受壓力'],['attract attention','get noticed','吸引注意'],['advertising','ads','廣告'],['decisive ingredient of commercial success','main reason a business succeeds','商業成功的決定因素']],
+  [['therefore unsurprising','easy to see why','因此不令人意外'],['marketing and promotion','advertising and other ways of promoting a company','市場推廣與宣傳'],['key to a successful business','key to success','企業成功關鍵']],
+  [['This essay completely disagrees','I fully disagree','本文完全不同意'],['firms prosper','companies do best','企業興旺'],['offer genuine value','give customers real value','提供真正價值'],['operate efficiently','run their business well','有效率地營運']],
+  [['The primary reason','First','主要原因'],['promotion','advertising','宣傳'],['not the key','not the most important thing','不是關鍵'],['remain loyal','stay','保持忠誠'],['delivers something worthwhile','gives them something worth buying','提供有價值的東西']],
+  [['persuasive campaign','good ad','有說服力的宣傳'],['generate initial sales','bring some early sales','帶來首批銷售'],['continued success','lasting success','持續成功'],['satisfaction','satisfied customers','顧客滿意'],['dependable','work reliably','可靠'],['consistently professional','remains good','穩定專業'],['recommend the company to others','tell others','向別人推薦']],
+  [['repeat custom','regular customers','回頭客'],['organic growth','growth from recommendations','自然成長'],['far more stable','steadier','更穩定'],['attention purchased through advertising','attention bought with ads','廣告買來的關注']],
+  [['social-media campaigns','social media ads','社交媒體宣傳'],['yet','but','然而'],['mediocre','only average','普通'],['inattentive','do not pay attention','不夠周到']],
+  [['In addition','Also','此外'],['strong products','good products','優質產品'],['develop reputations of their own','build a good name on their own','建立自身聲譽']],
+  [['trust is established','people trust a company','建立信任'],['word of mouth','tell others','口碑'],['a powerful source of demand','bring in more customers','強大的需求來源'],['real engine of long-term success','drives success over many years','長期成功真正動力']],
+  [['Equally important','just as important','同樣重要'],['the way a business is managed','How a company is run','企業管理方式']],
+  [['the most visible brand','a brand everyone knows','曝光率最高的品牌'],['cannot control costs','spends too much','無法控制成本'],['train employees properly','train workers well','妥善培訓員工'],['deliver what it has promised','keep promises','履行承諾']],
+  [['In such cases','In these cases','在這種情況下'],['marketing','ads','市場推廣'],['accelerate failure','make failure happen faster','加速失敗'],['attracts','brings in','吸引'],['delayed orders','late orders','延誤訂單'],['damage public confidence','make people trust it less','損害公眾信心']],
+  [['e-commerce','online shops','電子商務'],['aggressively advertised','advertise heavily','大力宣傳'],['lose market share','lose customers to rivals','失去市場佔有率'],['unreliable','late','不可靠'],['customer support is ineffective','help is poor','客服支援無效']],
+  [['Sound management','Good management','良好管理'],['enables a company to adapt','helps a company change when needed','使企業能適應'],['improving products','making products better','改良產品'],['responding to competition','dealing with competitors','回應競爭'],['investing wisely','spending money carefully','明智投資']],
+  [['determine','decide','決定'],['survives beyond the short term','lasts for many years','超越短期生存'],['promotion','ads','宣傳'],['merely','simply','只會'],['amplifies','stand out more','放大'],['underlying strengths or weaknesses','existing strengths or problems','既有優勢或弱點']],
+  [['In conclusion','In short','總而言之'],['completely disagree','fully disagree','完全不同意'],['marketing and promotion','advertising and promotion','市場推廣和宣傳'],['key to a successful business','main reason a business succeeds','企業成功關鍵']],
+  [['attract initial attention',"get people's attention at first",'吸引最初注意'],['durable success','lasting success','持久成功'],['genuine value','real value','真實價值'],['competent management','good management','有能力的管理']],
+];
+const chunkOverrides=[
+  ['In modern markets, businesses are under constant pressure to attract attention,','so advertising is often treated','as the decisive ingredient of commercial success.'],
+  ['It is therefore unsurprising','that some people believe marketing and promotion','are the key to a successful business.'],
+  ['This essay completely disagrees,','because firms prosper above all','when they offer genuine value and operate efficiently.'],
+  ['The primary reason promotion is not the key','is that customers remain loyal only when','a business delivers something worthwhile.'],
+  ['A persuasive campaign may generate initial sales,','but continued success comes from satisfaction:','when goods are dependable or services are consistently professional,','buyers return, spend more over time and recommend the company to others.'],
+  ['This creates repeat custom and organic growth,','both of which are far more stable','than attention purchased through advertising.'],
+  ['For example, a new restaurant may fill its tables','through online discounts and social-media campaigns,','yet those customers will not return','if the food is mediocre or the staff are inattentive.'],
+  ['In addition, strong products','develop reputations of their own.'],
+  ['Once trust is established,','word of mouth becomes a powerful source of demand,','showing that quality, rather than promotion,','is the real engine of long-term success.'],
+  ['Equally important is','the way a business is managed.'],
+  ['Even the most visible brand will struggle','if it cannot control costs, train employees properly','or deliver what it has promised.'],
+  ['In such cases, marketing may actually accelerate failure:','the more customers a weak company attracts,','the more delayed orders, complaints and refund requests it creates,','and these quickly damage public confidence.'],
+  ['This pattern is common in e-commerce,','where an aggressively advertised firm can still lose market share','if deliveries are unreliable or customer support is ineffective.'],
+  ['Sound management also enables a company to adapt,','whether by improving products, responding to competition','or investing wisely.'],
+  ['These decisions determine whether a business survives beyond the short term,','whereas promotion merely amplifies','whatever underlying strengths or weaknesses already exist.'],
+  ['In conclusion, I completely disagree','that marketing and promotion are the key to a successful business.'],
+  ['They may attract initial attention,','but durable success is built on genuine value,','customer trust and competent management.'],
+];
+const simpleChunkOverrides=[
+  ["In today's markets, companies face constant pressure to get noticed,",'so many people think ads are the main reason','a business succeeds.'],
+  ['So it is easy to see why','some people think advertising and other ways of promoting a company','are the key to success.'],
+  ['I fully disagree,','because companies do best','when they give customers real value and run their business well.'],
+  ['First, advertising is not the most important thing','because customers stay only when','a company gives them something worth buying.'],
+  ['A good ad may bring some early sales,','but lasting success comes from satisfied customers:','when products work reliably or service remains good,','buyers come back, spend more over time and tell others.'],
+  ['This brings regular customers and growth from recommendations,','and both are steadier','than attention bought with ads.'],
+  ['For example, a new restaurant may fill its tables','with online discounts and social media ads,','but customers will not return','if the food is only average or staff do not pay attention.'],
+  ['Also, good products can build','a good name on their own.'],
+  ['Once people trust a company,','they tell others and bring in more customers;','this shows quality, more than advertising,','drives success over many years.'],
+  ['How a company is run','is just as important.'],
+  ['Even a brand everyone knows will struggle','if it spends too much, does not train workers well,','or fails to keep promises.'],
+  ['In these cases, ads may make failure happen faster:','the more customers a weak company brings in,','the more late orders, complaints and refund requests it causes,','and these problems quickly make people trust it less.'],
+  ['This often happens in online shops,','where a company can advertise heavily but still lose customers to rivals','if deliveries are late or help is poor.'],
+  ['Good management also helps a company change when needed,','by making products better, dealing with competitors','or spending money carefully.'],
+  ['These choices decide whether a business lasts for many years,','while ads simply make its existing strengths or problems','stand out more.'],
+  ['In short, I fully disagree','that advertising and promotion are the main reason a business succeeds.'],
+  ["They may get people's attention at first,",'but lasting success comes from real value,','customer trust and good management.'],
+];
+const F=(formula,meaning,usage,parts)=>({formula,meaning,usage,parts});
+const S=(example,answerReason,distractorReason,distractors,frame)=>({
+  example,answerReason,distractorReason,distractors,frame,
+});
+const structures=[
+  S('In busy cities, clinics are under constant pressure to attract patients, so online visibility is often treated as the main sign of success.','so 接出一種常見判斷，但這個被視為關鍵的因素仍待後文檢驗。','這句以環境壓力解釋為何某因素常被看作決定因素。',[4,10,14],
+    F('In [市場環境], [機構] are under constant pressure to [引人注意], so [表面因素] is often treated as [成功關鍵]','先交代環境壓力，再用 so 解釋某因素為何被廣泛看重；後文可檢驗這個判斷。','引言要說明題目中的主張為何普遍出現時。',[['In','link','設定環境'],[' modern markets','slot','市場環境'],[',','link','接機構處境'],[' businesses ','slot','機構'],['are under constant pressure to','link','說明壓力'],[' attract attention','slot','引人注意'],[', so','link','接常見判斷'],[' advertising ','slot','表面因素'],['is often treated as','link','被視作'],[' the decisive ingredient of commercial success.','slot','成功關鍵']])),
+  S('It is therefore unsurprising that some people believe online ratings are the key to a good restaurant.','therefore 把前文壓力與現在可理解的看法連起來，不等於作者同意。','這句表示某想法可以理解，但仍只是他人觀點。',[0,2,9],
+    F('It is therefore unsurprising that [可理解但尚未證成的他人看法]','therefore 指向前文環境，說明為何有人相信這一點；unsurprising 不表示看法正確。','引言已交代一項現實壓力，接着要中立帶出題目主張時。',[['It is therefore unsurprising that','link','承接環境並轉述'],[' some people believe marketing and promotion are the key to a successful business.','slot','他人看法']])),
+  S('This essay completely disagrees, because schools succeed above all when they teach well and manage resources carefully.','because 指出反對理由；when 把成功的核心條件放在真正做法上。','這句明確表態並預告兩個比表面宣傳更重要的基礎。',[1,3,14],
+    F('This essay completely disagrees, because [機構] prosper above all when they [真正價值] and [有效營運]','先反對題目主張，再指出長遠成功所依靠的價值與管理兩項基礎。','引言要清楚表態，並預告正文將比較兩項不同的成功條件時。',[['This essay completely disagrees, because','link','反對並引出真正原因'],[' firms ','slot','機構'],['prosper above all when','link','指出核心條件'],[' they offer genuine value ','slot','真正價值'],['and','link','並列營運基礎'],[' operate efficiently.','slot','有效營運']])),
+  S('The primary reason a large sign is not the key is that visitors return only when a museum offers valuable exhibitions.','only when 指出長期回訪必須有實際價值，而非只有宣傳。','這句先說某因素不是關鍵，再交代維持忠誠的條件。',[2,4,8],
+    F('The primary reason [表面做法] is not the key is that [使用者] remain loyal only when [真正價值]','首項理由的焦點是長期忠誠；only when 指出真正令使用者留下的條件。','要區分首次獲得注意與長期得到支持的不同條件時。',[['The primary reason','link','引出首項理由'],[' promotion ','slot','表面做法'],['is not the key is that','link','指出真正條件'],[' customers ','slot','使用者'],['remain loyal only when','link','長期忠誠條件'],[' a business delivers something worthwhile.','slot','真正價值']])),
+  S('A bright poster may bring first-time visitors, but lasting success comes from satisfaction: when the lessons are useful, learners return, pay again and recommend the school.','may 承認首次吸引；but 與冒號轉向持續滿意及回訪機制。','這句把最初關注與可持續回報清楚分開。',[0,6,10],
+    F('[宣傳] may generate [初次反應], but [長期成功] comes from [滿意]: when [品質條件], [回訪、長期使用與推薦]','先承認宣傳可帶來最初反應，再指出長期成功來自滿意；when 後列出品質如何帶動行為。','承認某種方法有作用，同時解釋它為何不是持久成果的主因時。',[['A persuasive campaign ','slot','宣傳'],['may generate','link','可能帶來'],[' initial sales','slot','初次反應'],[', but','link','轉向持續成功'],[' continued success ','slot','長期成功'],['comes from','link','指出來源'],[' satisfaction','slot','滿意'],[': when','link','具體解釋滿意條件'],[' goods are dependable or services are consistently professional','slot','品質條件'],[',','link','接顧客行動'],[' buyers return, spend more over time and recommend the company to others.','slot','回訪、長期使用與推薦']])),
+  S('This creates regular use and growth through recommendations, both of which are steadier than interest bought through posters.','both of which 指回前面兩項效果，再與付費買來的關注比較穩定性。','這句把顧客回訪及自然增長歸納為較穩定的結果。',[4,7,14],
+    F('This creates [效果一] and [效果二], both of which are [比較優點] than [短暫付費關注]','This 指回前文的滿意與推薦；both of which 同時指向回訪和自然增長。','已說明品質帶來的兩種後果，接着要比較其穩定性時。',[['This creates','link','歸納前文後果'],[' repeat custom ','slot','效果一'],['and','link','並列第二效果'],[' organic growth','slot','效果二'],[', both of which','link','指回兩項效果'],[' are far more stable ','slot','比較優點'],['than','link','提出比較對象'],[' attention purchased through advertising.','slot','短暫付費關注']])),
+  S('For example, a new gym may fill its classes through discounts, yet members will not return if the equipment is unsafe or the trainers are unhelpful.','yet 對照首次到場與不回訪，if 指出實際品質不足的原因。','這句用具體例子說明宣傳能帶來首次使用，不能保證長期滿意。',[4,5,11],
+    F('For example, [新機構] may fill its tables [宣傳方式], yet [顧客] will not return if [實際品質不足]','先給最初成功的例子，再以 yet/if 指出服務失準時回訪會受影響。','提出一般推論後，要用具體情境檢驗首次效果能否持續時。',[['For example,','link','引入具體例子'],[' a new restaurant ','slot','新機構'],['may fill its tables','link','最初吸引顧客'],[' through online discounts and social-media campaigns','slot','宣傳方式'],[', yet','link','轉向回訪結果'],[' those customers ','slot','顧客'],['will not return if','link','指出不能維持的條件'],[' the food is mediocre or the staff are inattentive.','slot','實際品質不足']])),
+  S('In addition, reliable clinics develop reputations of their own.','In addition 補上一條品質自身建立聲譽的理由。','這句在首項論證中再補一個不依賴付費宣傳的需求來源。',[1,5,9],
+    F('In addition, [實際表現良好的事物] develop reputations of their own','補充良好表現可能逐漸建立聲譽，為下一句的口碑機制鋪路。','已說明一項直接效果，還要引出人們互相推薦的間接效果時。',[['In addition,','link','補充另一作用'],[' strong products ','slot','實際表現良好的事物'],['develop reputations of their own.','link','建立自身聲譽']])),
+  S('Once trust is established, word of mouth becomes a major source of visitors, showing that quality, rather than posters, is the key to long-term success.','Once 設定信任形成；showing that 把口碑與品質的重要性連回主張。','這句由信任推到口碑需求，再歸納長期動力。',[3,6,14],
+    F('Once [信任形成], [口碑] becomes [需求來源], showing that [品質], rather than [宣傳], is [長期動力]','先說信任成立後口碑如何帶來需求，再指出真正長期動力與宣傳的差別。','已說明回訪與聲譽，須把它們收束為長期成功原因時。',[['Once','link','設定信任形成'],[' trust is established','slot','信任形成'],[',','link','接後續需求'],[' word of mouth ','slot','口碑'],['becomes','link','轉為'],[' a powerful source of demand','slot','需求來源'],[', showing that','link','歸納推論'],[' quality','slot','品質'],[', rather than','link','對照宣傳'],[' promotion','slot','宣傳'],[', is','link','指出真正動力'],[' the real engine of long-term success.','slot','長期動力']])),
+  S('Equally important is the way a school is managed.','Equally important 表示第二條主線與品質同樣重要；焦點轉到管理。','這句簡短引出另一個同等重要的成功條件。',[2,7,15],
+    F('Equally important is the way [機構] is managed','承接上一項理由，把焦點轉到機構如何運作；不是說前一理由不重要。','開始第二段論證，要引出與首項理由同樣重要的另一條件時。',[['Equally important is the way','link','引出同等重要的條件'],[' a business ','slot','機構'],['is managed.','link','指出管理方式']])),
+  S('Even the most famous clinic will struggle if it cannot manage costs, train staff or keep its promises.','Even 承認高度知名度，if 指出管理失敗仍會造成困難。','這句把品牌曝光與實際營運能力分開。',[4,6,9],
+    F('Even [最知名的機構] will struggle if it cannot [成本管理], [員工訓練] or [履行承諾]','即使已有知名度，缺乏三種基本營運能力仍可能使機構陷入困境。','要反駁只要單一條件充足，整體結果便必然成功的假設時。',[['Even','link','承認知名度'],[' the most visible brand ','slot','最知名的機構'],['will struggle if it cannot','link','指出仍會受困'],[' control costs','slot','成本管理'],[',','link','並列訓練'],[' train employees properly ','slot','員工訓練'],['or','link','並列承諾'],[' deliver what it has promised.','slot','履行承諾']])),
+  S('In such cases, publicity may accelerate failure: the more clients a weak clinic attracts, the more delays and complaints it causes, and these reduce trust.','the more...the more 顯示在能力不足時擴大需求，問題也會增加。','這句解釋宣傳可能放大營運缺陷，反而令信任更快受損。',[5,10,12],
+    F('In such cases, [宣傳] may actually accelerate failure: the more [顧客] a weak company attracts, the more [服務問題] it creates, and these quickly damage [信任後果]','冒號後展示需求愈多而服務問題愈多的關係；最後說問題如何傷害信任。','一項能力不足時，要說明增加需求反而可能使問題更快浮現時。',[['In such cases,','link','承接管理不足'],[' marketing ','slot','宣傳'],['may actually accelerate failure: the more','link','指出可能加速失敗'],[' customers ','slot','顧客'],['a weak company attracts, the more','link','連接問題增長'],[' delayed orders, complaints and refund requests ','slot','服務問題'],['it creates, and these quickly damage','link','指出信任後果'],[' public confidence.','slot','信任後果']])),
+  S('This pattern is common in online tutoring, where a heavily advertised school can still lose families if lessons are cancelled or help is poor.','where 把一般管理失誤落到具體行業；if 指出失去顧客的條件。','這句表明宣傳多不能抵消服務不穩定。',[6,10,11],
+    F('This pattern is common in [行業], where [大力宣傳的機構] can still lose [市場支持] if [服務失準]','先指出行業場景，再說即使宣傳很多，服務不可靠仍可能使顧客流失。','要用一個常見行業例子，具體比較兩種成功條件的重要性時。',[['This pattern is common in','link','指出行業場景'],[' e-commerce','slot','行業'],[', where','link','引出具體情況'],[' an aggressively advertised firm ','slot','大力宣傳的機構'],['can still lose','link','仍可能失去'],[' market share ','slot','市場支持'],['if','link','指出服務條件'],[' deliveries are unreliable or customer support is ineffective.','slot','服務失準']])),
+  S('Sound management also enables a clinic to adapt, whether by improving booking, responding to new needs or investing wisely.','whether by 並列三種適應方式，說明良好管理不只是在避免失誤。','這句補上主動調整及長期生存的機制。',[9,10,14],
+    F('Sound management also enables [機構] to adapt, whether by [改善內容], [回應變化] or [審慎投資]','說明管理讓機構能調整，並列三種具體做法。','指出管理失誤的風險後，要說明良好管理如何主動應對變化時。',[['Sound management also enables','link','提出管理作用'],[' a company ','slot','機構'],['to adapt, whether by','link','列出適應方式'],[' improving products','slot','改善內容'],[',','link','並列回應'],[' responding to competition ','slot','回應變化'],['or','link','並列投資'],[' investing wisely.','slot','審慎投資']])),
+  S('These decisions determine whether a school lasts, whereas publicity merely amplifies strengths or weaknesses already present.','whereas 對照真正決定生存的管理決策與只會放大既有狀態的宣傳。','這句把第二段論證收束成主因與放大器的區別。',[5,8,11],
+    F('These decisions determine whether [機構] survives, whereas [宣傳] merely amplifies [原有優劣]','前半句把長期生存歸因於決策；whereas 後說宣傳只是放大本來的優勢或問題。','要指出某種工具可改善一項表面指標，卻不能取代基本品質時。',[['These decisions determine whether','link','指出決策作用'],[' a business ','slot','機構'],['survives beyond the short term','link','長期生存'],[', whereas','link','轉入對照'],[' promotion ','slot','宣傳'],['merely amplifies','link','只是放大'],[' whatever underlying strengths or weaknesses already exist.','slot','原有優劣']])),
+  S('In conclusion, I completely disagree that posters and sponsorships are the key to a lasting school.','結論重申反對把宣傳視為長遠成功關鍵。','這句直接回應原題主張，沒有加入新理由。',[1,3,16],
+    F('In conclusion, I completely disagree that [表面因素] are the key to [成功結果]','結尾重申作者不同意某因素是成功關鍵，內容須與前文一致。','兩條理由已完成，要直接回答題目時。',[['In conclusion, I completely disagree that','link','收束並重申反對'],[' marketing and promotion ','slot','表面因素'],['are the key to','link','被反對的關鍵判斷'],[' a successful business.','slot','成功結果']])),
+  S('Publicity may attract first-time visitors, but lasting success is built on useful lessons, trust and careful management.','may 承認首次注意的作用；but 指出持久成功的三項基礎。','這句以讓步和轉折收束全文，不否定宣傳的有限用途。',[2,4,14],
+    F('[宣傳] may attract [最初注意], but [持久成功] is built on [真正價值], [信任] and [有能力的管理]','先承認宣傳可帶來早期注意，再清楚區分持久成功的三項根基。','結論要承認某方法的有限作用，仍指出較重要的長期成功條件時。',[['They ','slot','宣傳'],['may attract','link','可能吸引'],[' initial attention','slot','最初注意'],[', but','link','轉向持久成功'],[' durable success ','slot','持久成功'],['is built on','link','指出基礎'],[' genuine value','slot','真正價值'],[',','link','並列信任'],[' customer trust ','slot','信任'],['and','link','並列管理'],[' competent management.','slot','有能力的管理']])),
+];
+const Q=(prompt,options,why)=>({type:'quiz',prompt,options,correct:0,why});
+const sequence=(prompt,rows,why)=>({
+  type:'sequence',prompt,detail:'依照原文的推進次序，逐一點選下一步。',
+  items:rows.map(([title,body])=>({title,body})),why,
+});
+const intro=[
+  Q('作者是否同意市場推廣是企業成功的關鍵？',[
+    '完全不同意：宣傳可帶來最初關注，持久成功取決於價值、信任和良好管理',
+    '完全同意：只要宣傳夠多，產品與服務品質便不重要',
+    '完全反對任何宣傳：企業永遠不應向新顧客介紹自己',
+    '沒有立場：文章只列出不同社交平台的廣告價格',
+  ],'引言及結論都說 completely disagree，但結論也承認宣傳 may attract initial attention。'),
+  {type:'multi',prompt:'選出作者反對「宣傳是關鍵」的兩條主要理由',detail:'選兩項，再按「確認」。',options:[
+    '顧客持續回來取決於產品或服務有價值，滿意後才有口碑及回頭客',
+    '企業仍要控制成本、培訓員工、履行承諾和適應變化，宣傳不能代替管理',
+    '宣傳從來不能讓任何新顧客看見企業',
+    '管理良好便保證每一則廣告都毫無費用',
+  ],correct:[0,1],why:'第一主體段談顧客滿意及口碑；第二主體段談管理不足及適應能力。作者沒有否認宣傳的有限作用。'},
+];
+const route=[sequence('先掌握四段推進',[
+  ['引言 · 立場','市場壓力令宣傳看似關鍵；作者完全反對，指出真實價值與有效管理更根本。'],
+  ['主體段一 · 品質與回訪','宣傳可帶來首次銷售，但可靠產品與良好服務才能讓顧客回訪、花費和推薦。'],
+  ['主體段二 · 管理與適應','曝光不能補救成本、培訓或履約問題；吸引更多顧客甚至可能放大服務缺陷。'],
+  ['結論 · 有限作用','承認宣傳可吸引最初注意，重申長期成功建基於價值、信任及管理。'],
+],'宣傳吸引第一眼 → 品質保留顧客 → 管理避免及處理問題 → 長久成功。')];
+const evidence=[
+  Q('宣傳與顧客滿意，在作者的因果鏈中分別帶來甚麼？',[
+    '宣傳可能帶來初次銷售；滿意使顧客回訪、長期消費並推薦別人',
+    '宣傳一定帶來終生忠誠，與產品服務無關',
+    '顧客滿意只會減少回訪，不會帶來口碑',
+    '首次購買本身已證明企業能永久成功',
+  ],'原文把 initial sales 與 continued success 分開，再列 return、spend more、recommend。'),
+  Q('新餐廳的例子為何不能以坐滿顧客作為成功的證據？',[
+    '折扣可帶來首批人流，但食物普通或服務不周會令顧客不再回來',
+    '只要餐桌滿座，食物品質便不可能普通',
+    '所有網上折扣都必然令餐廳立即倒閉',
+    '餐廳坐滿表示每個顧客都已推薦其他人',
+  ],'yet...if 指出最初坐滿與不回訪可以同時發生。'),
+  Q('產品聲譽如何變成長期需求？',[
+    '產品可靠令顧客建立信任，口碑隨之帶來新需求',
+    '聲譽只靠一次付費廣告形成，與實際品質無關',
+    '只要有人談起產品，所有評論必然正面',
+    '口碑只會來自從未使用過產品的人',
+  ],'Once trust is established，word of mouth 才能成為需求來源；作者視品質為其根基。'),
+  Q('曝光很高的品牌，仍可能因哪三項管理缺失受困？',[
+    '成本失控、員工培訓不足、無法履行承諾',
+    '只因它的廣告設計沒有使用同一種顏色',
+    '因為被看見的次數太少，與任何內部做法無關',
+    '只要成本低，便完全不需要員工或服務',
+  ],'Even the most visible brand 仍須 control costs、train employees、deliver promises。'),
+  Q('弱公司加大宣傳，為何可能更快失去公眾信心？',[
+    '顧客越多而營運能力不足，延誤訂單、投訴與退款要求可能一起增加',
+    '宣傳一多，所有延誤訂單便自動完成',
+    '顧客越多，服務問題數目必定減到零',
+    '退款要求與是否能履約完全沒有關係',
+  ],'the more...the more 直接說明需求增長會放大原有服務問題。'),
+  Q('作者說宣傳只是 amplifies，意思是甚麼？',[
+    '宣傳可令既有優勢或缺陷更顯眼，不能替代產品與管理決策',
+    '宣傳會自行修好所有配送及客服問題',
+    '宣傳是唯一決定企業能否長期生存的決策',
+    '宣傳必然使任何弱點完全消失',
+  ],'結尾前一句以 whereas 對照管理決策與宣傳的放大作用。'),
+];
+const logic=[
+  sequence('第一主體段：為何首批顧客不等於長期成功？',[
+    ['首項理由','只有提供有價值的東西，顧客才會持續支持。'],
+    ['宣傳的有限作用','有說服力的活動可帶來最初銷售。'],
+    ['滿意的機制','產品可靠、服務穩定，顧客才回來、花費及推薦。'],
+    ['較穩定的結果','回頭客與自然增長比付費買來的關注穩定。'],
+    ['餐廳例子','折扣可坐滿餐桌；食物和服務不佳則難以回訪。'],
+    ['口碑收束','信任建立後，口碑成為需求來源，品質才是長期動力。'],
+  ],'首次注意 → 真實體驗 → 滿意與信任 → 回訪及口碑。'),
+  sequence('第二主體段：為何管理決策比更多宣傳更能決定生存？',[
+    ['另一主張','企業的管理方式同樣重要。'],
+    ['基本要求','品牌再知名，也要控制成本、培訓員工及履行承諾。'],
+    ['反面後果','弱公司吸引更多顧客，可能產生更多延誤、投訴和退款。'],
+    ['網店例子','大力宣傳仍可能因送貨或客服不佳而失去市場。'],
+    ['正面做法','良好管理使企業改良產品、回應競爭和審慎投資。'],
+    ['段落結論','這些決定影響長期生存，宣傳只放大原有的好與壞。'],
+  ],'管理能力 → 履約表現 → 信任或投訴 → 適應能力 → 長期生存。'),
+];
+const T=(context,question,options,explanations,sourceSentenceIndices,modelLink)=>({
+  type:'quiz',prompt:question,context,question,options,correct:0,explanations,why:explanations[0],sourceSentenceIndices,modelLink,
+});
+const transfer=[
+  T('新健身中心用折扣吸引很多人試堂，但會員三個月後大多不續約。','哪項最能運用「初次吸引與持續成功」的區別？',[
+    '檢查器材、課堂和教練是否令會員滿意，而不只看試堂人數',
+    '試堂人數多便證明會員必定會長期續約',
+    '只增加折扣次數，不看會員退出的原因',
+    '因有人不續約便判定所有宣傳都毫無作用',
+  ],[
+    '這把宣傳的首次作用與實際體驗帶來的回訪分開。',
+    '初次試用不能保證長期滿意。',
+    '更多折扣未必修正產品或服務問題。',
+    '宣傳仍可能有效吸引首次注意。',
+  ],[3,4,5,6],'範文說宣傳 may generate initial sales，但滿意才帶來 return、spend more 和 recommend。'),
+  T('餐廳在網上爆紅，卻因食物普通和服務緩慢收到大量差評。','哪項最直接對應範文餐廳例子的功能？',[
+    '指出網上關注可坐滿餐桌，但品質不佳會令顧客難以再來',
+    '以爆紅證明食物必然好吃，差評一定無關',
+    '因服務緩慢便認為沒有任何人曾看過廣告',
+    '只數照片轉發量，不問顧客有否再次光顧',
+  ],[
+    '這保留首次人流與回訪失敗之間的反差。',
+    '曝光與食物品質是不同事實。',
+    '服務差不代表沒有曝光。',
+    '轉發數字不能代替回訪證據。',
+  ],[4,6],'範文以新餐廳的折扣宣傳對照 mediocre food 或 inattentive staff 導致的不回訪。'),
+  T('地方圖書館新開一項借閱服務，居民使用後覺得方便，開始互相推薦。','哪項最能轉用範文的口碑機制？',[
+    '由可靠體驗解釋信任如何形成，再說居民推薦帶來新使用者',
+    '只因服務名稱好聽便認為口碑已建立',
+    '認為任何推薦都必須由付費廣告產生',
+    '只計第一次借閱，不觀察使用者是否願意再用',
+  ],[
+    '這保留「品質體驗 → 信任 → 口碑需求」的先後次序。',
+    '名稱不能替代使用後的信任。',
+    '口碑可來自顧客真實體驗。',
+    '第一次使用尚不足以解釋推薦來源。',
+  ],[5,7,8],'範文說信任建立後，word of mouth 才成為有力需求來源。'),
+  T('網店投放更多廣告，但沒有足夠員工處理新增訂單。','哪項最能應用「越多顧客、越多問題」？',[
+    '預測未補足履約能力時，更多訂單可能帶來更多延誤、投訴及退款',
+    '廣告增加後，員工便會自動學會處理所有訂單',
+    '訂單越多，延誤數目必然下降到零',
+    '只比較廣告畫面，不檢查訂單處理能力',
+  ],[
+    '這把需求放大與原有營運瓶頸連起來。',
+    '廣告不能自動增添員工或培訓。',
+    '未處理瓶頸時，更多需求可能使問題增加。',
+    '畫面設計無法替代履約能力分析。',
+  ],[10,11,12],'範文用 the more...the more 說明弱公司宣傳吸引更多人，服務問題也可能更快累積。'),
+  T('一間線上課程公司宣傳「隨時得到導師回覆」，實際卻常延遲數天。','哪項最貼近範文的管理要求？',[
+    '檢查公司能否履行回覆承諾，並補足人手或調整宣稱',
+    '只增加宣傳次數，便當作已履行回覆承諾',
+    '宣傳說得吸引，就代表學生不會有投訴',
+    '只比較課程標誌，不理實際回覆速度',
+  ],[
+    '這直接處理 deliver what it has promised，避免曝光放大失信。',
+    '更多廣告不會自動縮短回覆時間。',
+    '吸引人的承諾若未實現，可能增加投訴。',
+    '標誌無法回答服務是否可靠。',
+  ],[10,11,12],'範文指出品牌再有曝光，也必須妥善管理並履行承諾。'),
+  T('新診所受到大量媒體關注，但預約流程混亂，員工訓練不足。','哪項最能轉用第二主體段？',[
+    '先改善預約與培訓，否則更多病人到訪可能令投訴增加',
+    '媒體關注多便保證預約流程已經順暢',
+    '只重做招牌，便能取代員工訓練',
+    '因診所知名便認為病人不會在意服務',
+  ],[
+    '這把管理缺陷與曝光擴大後的服務風險連起來。',
+    '知名度不能證明內部流程良好。',
+    '招牌不能替代實際培訓。',
+    '病人仍會根據服務體驗判斷。',
+  ],[9,10,11],'範文說 Even the most visible brand 仍須控制成本、培訓員工及履行承諾。'),
+  T('一間手機維修店不常買廣告，但維修準時且問題處理得好，顧客不斷推薦。','哪項最能應用第一主體段？',[
+    '說明可靠服務建立信任，推薦逐漸帶來較穩定的客源',
+    '因廣告少便認定維修店不可能有新顧客',
+    '只看首次客戶數目，便否定後來的口碑',
+    '認為推薦和品質完全無關，只是運氣',
+  ],[
+    '這由可靠體驗推到信任與自然增長。',
+    '廣告較少不表示不能有口碑需求。',
+    '回訪與推薦是不同於首次客戶的證據。',
+    '原文把口碑建立在信任與品質之上。',
+  ],[4,5,7,8],'範文說滿意帶來回頭客和自然增長；信任建立後，口碑成為需求來源。'),
+  T('一家旅遊公司宣傳很成功，但常把行程取消，退款也拖延。','哪項最能保留範文對宣傳的有限評價？',[
+    '承認宣傳吸引了初次顧客，同時指出履約問題會傷害長期信任',
+    '因初次訂單多，便判定取消和退款問題不重要',
+    '認為出現投訴便證明宣傳從未吸引任何人',
+    '只改廣告配色，便當作已解決取消行程',
+  ],[
+    '這同時承認早期吸引與指出營運問題。',
+    '初次銷售不能消除履約責任。',
+    '投訴與早前宣傳有效可以同時發生。',
+    '配色無法修正實際服務。',
+  ],[4,10,11,16],'範文結論承認宣傳吸引最初注意，但持久成功來自價值、信任及管理。'),
+  T('學校面對新的學習需要，管理層改善課程、培訓教師並審慎購置設備。','哪項最貼近範文的「適應能力」？',[
+    '把課程改善、人員培訓和審慎投入視為應對變化的具體決策',
+    '只加大招生廣告，便認定課程已適合新需要',
+    '因購置設備便不再需要檢查教學成效',
+    '只看學校知名度，不問管理層做了甚麼調整',
+  ],[
+    '這把管理如何主動調整具體化，而非只求避免失誤。',
+    '廣告無法自行更新課程。',
+    '投資仍須與真正需要和成效相連。',
+    '知名度不能替代管理決策。',
+  ],[9,10,13,14],'範文說良好管理使企業能改良產品、回應競爭與明智投資。'),
+  T('有學生說：「既然宣傳不是關鍵，商店完全不需要介紹新產品。」','哪項回應最準確區分本篇與「好產品仍需廣告」？',[
+    '宣傳可讓人首次注意，但長久回訪仍靠品質、信任與管理',
+    '本篇主張廣告永遠不會帶來任何第一次銷售',
+    '只要產品好，顧客便自動知道它存在並相信它',
+    '宣傳一旦有效，店舖便不必履行任何承諾',
+  ],[
+    '這承認宣傳的資訊與首次吸引作用，同時保留本篇「不是關鍵」的主張。',
+    '原文明言宣傳 may generate initial sales。',
+    '品質不會自動完成告知與建立信任。',
+    '首次吸引不能取代履約與管理。',
+  ],[3,4,16],'範文並非主張廣告無用，而是說 initial attention 與 durable success 的根基不同。'),
+  T('一個公益機構的募款影片吸引大量捐款，卻因財務與派發混亂失去支持。','哪項最能轉用「宣傳放大原有優劣」？',[
+    '說明影片放大關注，財務和派發問題也因此更快被更多支持者看見',
+    '影片成功便證明機構內部管理必然良好',
+    '只要再拍一段影片，便可不處理派發混亂',
+    '因捐款後來減少，便否認影片曾帶來最初關注',
+  ],[
+    '這把宣傳的放大作用與原有管理弱點連起來。',
+    '關注度不能證明內部流程良好。',
+    '更多宣傳可能再次放大未解決的問題。',
+    '最初有效與後來失去信任可同時成立。',
+  ],[11,14,16],'範文說宣傳 merely amplifies 已存在的優勢或弱點；長期生存由管理決策決定。'),
+  T('企業比較兩項方案：增加廣告預算，或先改善產品故障與客服等待。','哪項判斷最符合範文？',[
+    '先修正會損害體驗的故障與客服問題，再評估如何介紹改良後產品',
+    '只加廣告，因更多顧客自然會令故障消失',
+    '停止一切介紹產品的活動，因為宣傳絕無用途',
+    '只看短期點擊數，不問退貨與回訪',
+  ],[
+    '這先建立真實價值與履約能力，再保留宣傳的合理用途。',
+    '需求增加可能放大未修正的故障。',
+    '原文沒有否認宣傳可帶來初次注意。',
+    '點擊數不能代表耐久成功。',
+  ],[3,4,10,11,14,16],'範文把品質和管理視為持久成功的根基，宣傳則可能放大它們的效果。'),
+];
+const reviewedTransferOptions=[
+  ['檢查課堂與教練能否令會員滿意，而非只看試堂人數','試堂人數一多，便斷定所有會員必然會長期續約','只增加折扣次數，卻不調查會員為何突然退會','因有人不續約，便判定宣傳完全沒有任何吸引力'],
+  ['網上關注可帶來初客，但品質不佳使顧客難以再來','以網上爆紅證明食物一定好吃，差評必定無關','因服務緩慢，便認為根本沒有人看過餐廳廣告','只數照片轉發量，不查顧客有否再次到店光顧'],
+  ['由可靠體驗說明信任形成，再看居民推薦帶來新客','只因服務名稱好聽，便斷言居民口碑已建立','認為每次推薦都必須由付費廣告直接產生','只計首次借閱人數，不看使用者會否再次到來'],
+  ['履約能力不足時，更多訂單可能引起更多延誤投訴','廣告增加，便推論員工自動學會處理全部訂單','訂單愈多，便斷言延誤數目一定下降到零次','只比較廣告畫面，不查員工能否處理新訂單'],
+  ['檢查公司能否履行回覆承諾，並補人手或調整宣稱','只增加宣傳次數，便當作公司已履行回覆承諾','只因宣傳吸引，便斷言學生絕對不會提出投訴','只比較課程標誌，不查公司實際回覆的速度'],
+  ['先改善預約及培訓，免得病人增加後投訴跟着上升','只因媒體關注多，便保證預約流程已經順暢','只重做診所招牌，便認為可以完全取代員工培訓','因診所知名，便斷言所有病人不會在意服務'],
+  ['說明可靠服務建立信任，推薦逐漸帶來穩定客源','因廣告少，便斷定維修店不可能有新顧客','只看首次客戶數，便否定後來的口碑作用','認為推薦和品質完全無關，全靠偶然運氣'],
+  ['承認宣傳帶來初客，指出履約問題損害長期信任','初次訂單多，便認為取消及退款問題不重要','一旦出現投訴，便認為宣傳從未吸引過顧客','只改廣告配色，便當作已經解決取消行程'],
+  ['把課程改善、培訓及審慎投入視為適應變化的決策','只加招生廣告，便斷言課程已適合新的需要','因購置新設備，便認為不用再查實際教學成效','只看學校名氣，不問管理層作了甚麼實際調整'],
+  ['宣傳帶來首次關注，長期回訪仍靠品質與管理','本篇認為廣告永遠無法帶來首次購買','產品夠好，顧客便會自動知道並信任它','宣傳有效，店舖便不用再履行任何承諾'],
+  ['影片擴大關注，也令派發及財務問題更快被看見','影片成功，便證明機構內部管理必然良好','只要再拍一段影片，便可不理會派發混亂','因捐款下跌，便否認影片曾帶來最初關注'],
+  ['先修正故障與客服問題，再介紹改良後的產品','只增加廣告，便認為更多顧客能使故障消失','停止全部產品介紹，因為宣傳絕對沒有用途','只看短期點擊數，不問退貨及顧客回訪'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[2].example='This essay completely disagrees, because schools prosper above all when they teach well and manage resources carefully.';
+structures[3].example='The primary reason a large sign is not the key is that visitors remain loyal only when a museum offers valuable exhibitions.';
+structures[4].example='A bright poster may generate initial visits, but continued success comes from satisfaction: when lessons are useful, learners return, pay again and recommend the school.';
+structures[6].example='For example, a new café may fill its tables through social media promotions, yet those customers will not return if the drinks are poor or the staff are rude.';
+structures[11].example='In such cases, publicity may actually accelerate failure: the more clients a weak company attracts, the more delays and complaints it creates, and these quickly damage public confidence.';
+structures[14].example='These decisions determine whether a school survives beyond the short term, whereas publicity merely amplifies strengths or weaknesses already present.';
+export default {
+  key:'opinion:10',
+  meta:{topic:'企業持久成功的價值與管理基礎',summary:'作者完全反對把宣傳視為成功關鍵：宣傳可吸引首次顧客，可靠產品、顧客信任及有效管理才令企業長久生存。'},
+  simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer,
+  mediumExtras:[],
+};

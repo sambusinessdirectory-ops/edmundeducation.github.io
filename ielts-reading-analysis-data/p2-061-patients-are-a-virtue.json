@@ -1,0 +1,1765 @@
+{
+  "id": "p2-061-patients-are-a-virtue",
+  "catalogueId": "p2-061",
+  "catalogueIds": [
+    "p2-061"
+  ],
+  "passage": 2,
+  "title": "Patients Are a Virtue",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "B",
+    "H",
+    "C",
+    "A",
+    "A",
+    "B",
+    "C",
+    "E",
+    "G",
+    "B",
+    "A",
+    "A",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "不同學科學生最受歡迎的僱主。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most popular employers for different students”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each student was presented with a list of 130 employers, nominated by students through a separate process, from which they selected the five they considered to be ideal employers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每位學生都會看到一份由另一程序提名出來、包含 130 個僱主的名單，然後從中選出五個他們認為理想的僱主。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meanwhile, business students voted accountancy giants PricewaterhouseCoopers (PwC) as their favoured employer, followed by HSBC.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與此同時，business students 把會計巨頭 PwC 選為最受歡迎僱主，其次是 HSBC。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句和最後一句，可以先估計 Paragraph B 會講 survey 如何操作，以及不同學生群體選了哪些理想僱主。題目 heading 中的 “different students” 對應文中 humanities、engineering、science、IT、business students 等不同組別。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading 中最有定位力的概念是 “Most popular employers” 和 “different students”。原文沒有逐字用 “most popular”，但有 “ranked first”、“ranked second”、“favoured employer”、“followed by”等排名詞。掃描 Paragraph B，可見 BBC、Foreign and Commonwealth Office、Civil Service、Cabinet Office、Ministry of Defence、NHS、Environment Agency、PwC、HSBC 等機構。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This year, government departments and public sector organisations dominated the top spots, with the BBC ranked first among humanities, engineering, science, and IT students, retaining its place from last year, and coming third for those studying business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今年，政府部門和公共界別機構佔據最高排名；BBC 在 humanities、engineering、science 和 IT students 中排名第一，保持去年位置，並在 business students 中排名第三。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meanwhile, business students voted accountancy giants PricewaterhouseCoopers (PwC) as their favoured employer, followed by HSBC.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，business students 把 PwC 選為最喜歡的僱主，其次是 HSBC。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Most popular employers= ranked first / favoured employer / top spots different students= humanities, engineering, science, IT and business students判斷： Paragraph B 覆蓋不同學科學生的僱主偏好，是最完整的對應段。Paragraph E 也有排名升跌，但重點是 movement up and down，沒有像 Paragraph B 那樣系統性列出不同學生群體的 top employers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "學生對工作和僱主的期望。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Students’ expectations”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While more than half of students were concerned about achieving a good work–life balance, a third said they wanted a job that would challenge them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過一半學生關心能否取得良好工作與生活平衡，三分之一學生表示他們想要一份有挑戰性的工作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ethical considerations and corporate social responsibility were also mentioned, with large percentages of humanities, engineering, science and IT students saying these factors were key considerations when choosing an employer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學生也提到道德考慮和企業社會責任；大量 humanities、engineering、science 和 IT students 表示，這些因素是他們選擇僱主時的重要考慮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以清楚看到 Paragraph H 在總結學生選工作時重視甚麼。它由 work–life balance、challenge 開始，以 ethics 和 CSR 作結，段落功能就是求職期望總覽。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading 的 “expectations” 未必原字出現，但可掃描 “concerned about”、“wanted”、“important factor”、“key career goal”、“key part”、“most important compensation”、“priority”、“key considerations”。Paragraph H 有很多這類表示期望、優先事項和選擇標準的詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Almost half of all students said that paid overtime was a key part of any company compensation package.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "差不多一半學生表示，有薪加班是任何公司薪酬福利組合的重要部分。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Working overseas also scored highly among those surveyed this year, with 45 per cent of business students, and 44 per cent of humanities students, listing it as a priority.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今年調查中，海外工作也得分很高；45% business students 和 44% humanities students 把它列為優先事項。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Students’ expectations= what students wanted, valued, prioritised and considered important when choosing work判斷： Paragraph H 不再講某一間公司排名，焦點轉到學生對職業、薪酬、生活平衡、海外工作和企業責任的要求。因此 heading 15 配 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "在 NHS 中既可回饋社群，也可發展事業。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Give and develop with the NHS”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At a London awards ceremony sponsored by the Guardian, Foluke Ajayi, head of NHS Careers at NHS Employers, said its success this year reflected the reality of the health service, which is the third largest employer in the world and the largest in Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Guardian 贊助的倫敦頒獎禮上，NHS Employers 的 NHS Careers 負責人 Foluke Ajayi 表示，NHS 今年的成功反映了 health service 的現實：它是世界第三大僱主，也是歐洲最大僱主。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People recognise that they can give something back to the community, but still develop a worthwhile career.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們認識到，他們可以回饋社群，同時仍然發展一份有價值的事業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，heading 幾乎直接貼合 Paragraph C。Give 對應 “give something back to the community”；develop 對應 “develop a worthwhile career”；NHS 是整段主體。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading 中最有定位力的詞是 “NHS”、“give” 和 “develop”。Paragraph C 直接出現 NHS Careers、health service、give something back、develop a worthwhile career。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We employ people in areas other than clinical care, including IT managers, engineers and architects,’ she said, adding that the health service is no longer seen as a ‘second choice’ career.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「我們僱用的人員不只限於臨床護理，也包括 IT managers、engineers 和 architects。」她補充說，health service 已不再被視為「第二選擇」職業。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People recognise that they can give something back to the community, but still develop a worthwhile career.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們認識到，他們可以回饋社群，同時仍然發展一份有價值的事業。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Give= give something back to the community develop= develop a worthwhile career判斷： Paragraph C 正面解釋 NHS 的吸引力：它有社會貢獻意義，也有職業發展空間。這正是 heading"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Give and develop with the NHS” 的意思。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "NHS 有理由高興的原因。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reason for the NHS to be happy”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite conference jeers, job cuts, and a financial crisis, Health Secretary Patricia Hewitt may find a reason to smile this week, as the NHS (British National Health Service) was named one of the top places to work by students.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然面對會議上的嘲笑、裁員和財政危機，Health Secretary Patricia Hewitt 本週仍可能有理由微笑，因為 NHS 被學生評為最佳工作地點之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The annual survey, conducted in the UK since 1997, canvassed the opinions of more than 7,700 final and penultimate-year students studying for degrees in business, engineering, science, IT and the humanities at 39 universities, between January and March this year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項自 1997 年起在英國進行的年度調查，在今年 1 月至 3 月期間訪問了 39 所大學超過 7,700名 final 和 penultimate-year students；他們修讀 business、engineering、science、IT 和humanities。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading 中的 “NHS” 和 “happy” 對應原文 “reason to smile”。同段還有 “ranked second” 和 “leap of 54 places”，說明高興的具體原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among engineering, science, and IT students, the health service was ranked second in this year’s Universum UK graduate survey of ideal employers, a leap of 54 places from last year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 engineering、science 和 IT students 中，health service 在今年 Universum UK 理想僱主畢業生調查中排名第二，比去年上升 54 位。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Reason to be happy= reason to smile NHS to be happy= NHS ranked highly and jumped 54 places判斷： Paragraph A 用反差開場：NHS 受壓，但調查結果很好。這正是 “Reason for the NHS to be happy” 的段落功能。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A, B, C, E, G",
+      "answerKey": "A, B, C, E, G",
+      "type": "FIVE True Statements",
+      "prompt": "Questions 18–22",
+      "translation": "在調查中，學生只能從指定名單上的僱主中作出選擇。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這組題要求從 A–H 中選出五個 true statements。做法是逐項檢查每個 statement 是否由原文清楚支持，尤其要看主體、範圍和程度詞，例如 only、most、among business students 等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option A"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the survey, students could only rate employers on a given list.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each student was presented with a list of 130 employers, nominated by students through a separate process, from which they selected the five they considered to be ideal employers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每位學生都會看到一份 130 個僱主的名單，然後從中選出五個他們認為理想的僱主。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meanwhile, business students voted accountancy giants PricewaterhouseCoopers (PwC) as their favoured employer, followed by HSBC.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "business students 把 PwC 選為最喜歡的僱主，其次是 HSBC。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “survey”、“students”、“given list”。原文的 “presented with a list of 130 employers” 直接對應 given list。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Each student was presented with a list of 130 employers … from which they selected the five they considered to be ideal employers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每位學生都收到一份 130 個僱主的名單，並從中選出五個理想僱主。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "could only rate employers on a given list= were presented with a list … from which they selected判斷： A 正確。學生選擇範圍來自那份 130 個僱主名單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option B"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Environment Agency rose the most places in this year’s survey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Environment Agency 在今年調查中上升位數最多。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B 和 Paragraph E Paragraph B 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As well as the NHS, engineering, science, and IT students favoured the Environment Agency, which leapt 83 places, from 86 in 2005 to number three this year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了 NHS，engineering、science 和 IT students 也喜歡 Environment Agency；它從 2005 年第86 位升到今年第 3 位，上升 83 位。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sky found itself in 12th place, up from 104th last year, and the Environment Agency also proved popular among this student group, rising from 138th in 2005 to 7th this year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sky 今年排第 12，從去年第 104 位上升；Environment Agency 在這個學生群體中也很受歡迎，從 2005 年第 138 位升到今年第 7 位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Environment Agency” 和 “rose”。它在 B 和 E 都出現。B 給出 +83；E 給出 138 到 7，即上升 131 位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 的數字最重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“rising from 138th in 2005 to 7th this year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從 2005 年第 138 位上升到今年第 7 位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較其他上升： NHS：上升 54 位John Lewis：111 到 26，上升 85 位Sky：104 到 12，上升 92 位Shell：76 到 30，上升 46 位Environment Agency：138 到 7，上升 131 位判斷： B 正確。在文中列出的 dramatic rises 之中，Environment Agency 的 131 位升幅最大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“The NHS offers a variety of careers outside health care.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "NHS 提供很多不屬於臨床醫療照護的職業選擇。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At a London awards ceremony sponsored by the Guardian, Foluke Ajayi, head of NHS Careers at NHS Employers, said its success this year reflected the reality of the health service, which is the third largest employer in the world and the largest in Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Foluke Ajayi 說，NHS 今年的成功反映 health service 的現實：它是全球第三大僱主、歐洲最大僱主。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People recognise that they can give something back to the community, but still develop a worthwhile career.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們認識到自己可以回饋社群，同時仍可發展有價值的事業。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “outside health care”。原文用 “areas other than clinical care” 表達。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We employ people in areas other than clinical care, including IT managers, engineers and architects,’ she said…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「我們僱用的人員不只限於 clinical care，也包括 IT managers、engineers 和 architects。」"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "outside health care= areas other than clinical care a variety of careers= IT managers, engineers and architects判斷： C 正確。原文明確指出 NHS 有 clinical care 以外的職位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：不選"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“British Airways fell in popularity amongst business students.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "British Airways 在 business students 中受歡迎程度下降。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E相關原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“British Airways also saw a slight dip, as did McKinsey & Co, which dropped from 11th to 22nd among business undergraduates.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "British Airways 也略為下跌；McKinsey & Co 也是如此，它在 business undergraduates 中從第11 跌到第 22。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：這句清楚說 British Airways 有 slight dip，但 “among business undergraduates” 直接修飾McKinsey & Co 的排名變化。文章沒有清楚交代 British Airways 是在哪一個學生群體中下跌。題目把 British Airways 的下跌限定為 business students，這個限定缺少明確支援。這項不選。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "British Airways 和 McKinsey & Co 放在同一句，容易令人把 “among business undergraduates”套到兩者身上。細讀時要留意 which dropped from 11th to 22nd 直接指向 McKinsey & Co。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option E"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“James Darley was surprised by his organisation’s performance in the survey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "James Darley 對自己機構在調查中的表現感到驚訝。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps more surprisingly, this year was the first appearance in the rankings of Teach First, a small charity launched three years ago…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更令人意外的是，今年 Teach First 首次出現在排名中；它是一間三年前成立的小型慈善機構。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We were not expecting this. We’re a registered charity, only able to physically go to 15 universities.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「我們沒有預期這件事。我們是一間註冊慈善機構，只能親身到 15 所大學。」"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “James Darley” 和 “surprised”。原文有 “bowled over” 和 “We were not expecting this”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“James Darley, director of graduate recruitment at Teach First, said he was ‘bowled over’ by the news.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Teach First 的 graduate recruitment director James Darley 說，他被這消息震驚了。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "was surprised= was bowled over / was not expecting this判斷： E 正確。原文直接表達驚訝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：不選"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most Teach First teachers continue in a teaching career after two years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數 Teach First 教師兩年後繼續從事教學。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of the first set of recruits to complete the programme, half have gone on to work for ‘some amazing companies’, while the other half have chosen to stay on in their schools for a further year – 20 per cent in leadership roles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一批完成計劃的 recruits 中，一半去了「一些很棒的公司」工作，另一半選擇在學校多留一年，其中 20% 擔任 leadership roles。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文說 half stayed on，另一 half 轉到公司。題目說 most continue in teaching，範圍過大。half不等於 most。F 不選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option G"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most students want to achieve a good work–life balance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數學生希望取得良好的工作與生活平衡。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While more than half of students were concerned about achieving a good work–life balance, a third said they wanted a job that would challenge them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過一半學生關心取得良好 work–life balance，三分之一學生想要有挑戰性的工作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ethical considerations and corporate social responsibility were also mentioned…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學生也提到道德考慮和企業社會責任。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞 “work–life balance” 原字重現。程度詞 “Most” 對應 “more than half”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“more than half of students were concerned about achieving a good work–life balance”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過一半學生關心能否取得良好工作與生活平衡。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Most students= more than half of students want to achieve= were concerned about achieving判斷： G 正確。more than half 足以支援 most。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option H"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：不選"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most business students were concerned about working for an ethical company.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數 business students 關心是否為有道德的公司工作。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H相關原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ethical considerations and corporate social responsibility were also mentioned, with large percentages of humanities, engineering, science and IT students saying these factors were key considerations when choosing an employer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "道德考慮和企業社會責任也被提及；大量 humanities、engineering、science 和 IT students 表示這些因素是選擇僱主時的重要考慮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文提到 humanities、engineering、science 和 IT students，沒有把 business students 放入這個ethical considerations 的說明。題目加入 business students，缺少文本支援。H 不選。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Choose the correct",
+      "prompt": "“The survey covered students…”",
+      "translation": "這項調查涵蓋了哪些學生？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite conference jeers, job cuts, and a financial crisis, Health Secretary Patricia Hewitt may find a reason to smile this week, as the NHS (British National Health Service) was named one of the top places to work by students.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然面對會議嘲笑、裁員和財政危機，Patricia Hewitt 本週仍有理由微笑，因為 NHS 被學生評為最佳工作地點之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The annual survey, conducted in the UK since 1997, canvassed the opinions of more than 7,700 final and penultimate-year students studying for degrees in business, engineering, science, IT and the humanities at 39 universities, between January and March this year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項年度調查自 1997 年起在英國進行；今年 1 月至 3 月期間，它訪問了 39 所大學超過 7,700名 final 和 penultimate-year students，他們修讀 business、engineering、science、IT 和humanities。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “survey covered students”。原文用 “canvassed the opinions of…” 交代調查涵蓋對象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "還要特別留意 “39 universities”、“final and penultimate-year”、“business, engineering, science, IT and humanities”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“more than 7,700 final and penultimate-year students studying for degrees in business, engineering, science, IT and the humanities at 39 universities”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過 7,700 名 final 和 penultimate-year students，在 39 所大學修讀 business、engineering、science、IT 和 humanities。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A from all British universities錯。原文說 39 universities，沒有說 all British universities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B studying a variety of subjects正確。business、engineering、science、IT 和 humanities 是多個不同學科。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C who were in their last year of studies only錯。原文說 final and penultimate-year students，即最後一年和倒數第二年學生；only last year過度收窄。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "a variety of subjects= business, engineering, science, IT and the humanities判斷：答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Choose the correct",
+      "prompt": "“The BBC…”",
+      "translation": "關於 BBC，哪一項正確？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each student was presented with a list of 130 employers…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每位學生都會看到一份 130 個僱主的名單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meanwhile, business students voted accountancy giants PricewaterhouseCoopers (PwC) as their favoured employer, followed by HSBC.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "business students 把 PwC 選為最喜歡的僱主，其次是 HSBC。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph B 是 survey ranking 段；BBC 排名細節就在中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “BBC”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“the BBC ranked first among humanities, engineering, science, and IT students…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...with the BBC ranked first among humanities, engineering, science, and IT students, retaining its place from last year, and coming third for those studying business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "BBC 在 humanities、engineering、science 和 IT students 中排名第一，保持去年位置；在business students 中排名第三。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A was first choice in most categories.正確。BBC 在 humanities、engineering、science、IT 四類學生中排名第一，在 business 中排名第三。若以文中列出的五個學科群體來看，它在大多數類別中都是第一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B was unpopular with business students.錯。BBC 在 business students 中排第三，不能說 unpopular。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C employs more graduates than most other organisations and companies.原文沒有討論 BBC 僱用畢業生數量。它只說 BBC 在學生理想僱主調查中的排名。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "first choice in most categories= ranked first among humanities, engineering, science, and IT students判斷：答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A, C",
+      "answerKey": "A, C",
+      "type": "Choose TWO answers",
+      "prompt": "“Sarah Churchman says PwC did well in the survey because it…”",
+      "translation": "Sarah Churchman 認為 PwC 在調查中表現好，是因為它……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sarah Churchman, director of student recruitment and diversity at PwC, said her company’s success is down to a good campus presence, its commitment to invest in its employees and, with offices around the world, the chance to travel, something that just under half of the students polled said was an important factor when it came to looking for work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "PwC 的 student recruitment and diversity director Sarah Churchman 表示，公司成功源於良好的校園存在感、投資員工的承諾，以及因全球辦公室而帶來的 travel chance；接近一半受訪學生表示，找工作時 travel 是重要因素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We’re not selling a product; we invest in our people,’ she added.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她補充說：「我們賣的不是產品；我們投資在員工身上。」"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Sarah Churchman”、“PwC”、“did well”、“because”。原文第一句直接說 “her company’s success is down to…”，這等於原因清單。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...her company’s success is down to a good campus presence, its commitment to invest in its employees and, with offices around the world, the chance to travel…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她公司的成功來自三點：良好的校園存在感、投資員工的承諾，以及全球辦公室帶來的旅行機會。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“often visits universities to meet students.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "經常到大學接觸學生。"
+            },
+            {
+              "kind": "label",
+              "text": "原文支援："
+            },
+            {
+              "kind": "quote",
+              "text": "“a good campus presence”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "良好的校園存在感。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "分析： good campus presence 通常表示公司在大學校園中曝光率高、經常參與招聘活動或接觸學生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 是合理改寫，所以選 A。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“provides many scholarships for students.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為學生提供很多獎學金。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "分析：原文沒有 scholarships。它說 invest in employees，即投資員工培訓和技能發展；這不等於向學生提供 scholarship。B 不選。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C："
+            },
+            {
+              "kind": "quote",
+              "text": "“offers many opportunities to travel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "提供很多旅行或海外工作機會。"
+            },
+            {
+              "kind": "label",
+              "text": "原文支援："
+            },
+            {
+              "kind": "quote",
+              "text": "“with offices around the world, the chance to travel”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於世界各地都有辦公室，因此有旅行機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "分析： C 直接對應原文，所以選 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final： 25–26：A, C"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        25,
+        26
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Patients Are a Virtue.pdf",
+    "sha256": "8dcb2fce7df36f05561af15838d13f39848dc0089d804117453b48f6aa199b73",
+    "pageCount": 20
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：Paragraph A–H",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句雖然提到 conference jeers、job cuts 和 financial crisis，但很快轉到 Health Secretary Patricia Hewitt 可能有理由微笑，因為 NHS 被學生評為理想工作地點之一。末句交代 Universum UK graduate survey 的調查對象、時間和學科範圍。只看首尾句，可以估計本段主要引入調查背景，並突出 NHS 排名急升這件令人意外的好消息。題目若問 NHS 為何值得高興，Paragraph A是目標段落。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說每位學生會看到一份 130 個僱主名單，並從中選出五個 ideal employers。末段則說business students 最喜歡 PricewaterhouseCoopers，其次是 HSBC。只看首尾句，可以判斷本段主要解釋 survey 方法和不同學科學生的熱門僱主排名。中間密集出現 BBC、Foreign and Commonwealth Office、Civil Service、Cabinet Office、NHS、Environment Agency、PwC、HSBC，適合處理「不同學生最受歡迎僱主」和 survey 方法題。"
+      },
+      {
+        "number": "C",
+        "summary": "首句把場景放在 Guardian 贊助的 London awards ceremony，並引入 NHS Careers 的 Foluke Ajayi。末句引用她的說法：人們認識到自己可以回饋社群，同時發展有價值的事業。只看首尾句，可以先猜本段解釋 NHS 為何吸引學生，尤其是它不再被視為 second choice career。中間說NHS 不只僱用 clinical care 人員，也包括 IT managers、engineers 和 architects。"
+      },
+      {
+        "number": "D",
+        "summary": "首句引入 PwC 的 Sarah Churchman，她解釋公司成功來自 good campus presence、投資員工，以及全球辦公室帶來 travel chance。末句說 PwC 售賣的是員工技能，所以重視發展員工能力。只看首尾句，可以判斷本段集中講 PwC 受 business students 歡迎的原因。題目若問 Sarah Churchman 認為 PwC 為何表現好，定位詞應是 campus presence、invest、travel、developing skills。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 John Lewis 雖然排名較後，但仍有理由慶祝，因為它在 humanities students 中排名大幅上升。末句說 British Airways slightly dipped，McKinsey & Co 在 business undergraduates 中從第 11 跌到第 22。只看首尾句，可以估計本段功能是補充排名升跌：John Lewis、Sky、Environment Agency、Shell 有上升，Bank of England、British Airways、McKinsey 有下降。它適合處理 ranking movement 題。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說更令人意外的是 Teach First 首次出現在排名中。末句引用 James Darley，說他們沒有預期這個結果，而且只能親身到 15 所大學做推廣。只看首尾句，可以判斷本段聚焦 Teach First 的驚人表現和 James Darley 的反應。中間交代 Teach First 是小型 charity，目標是吸引優秀畢業生到 challenging secondary schools 工作至少兩年。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Teach First scheme 以美國一個計劃為藍本，並得到 Deloitte、HSBC 等 80 多間企業支持。末句說第一批完成計劃的 recruits 中，一半去了 amazing companies，另一半留校多一年，其中 20% 擔任 leadership roles。只看首尾句，可以估計本段補充 Teach First 的後續發展、訓練內容、擴展城市和畢業生去向。這段特別適合判斷 Teach First participants 是否多數留在教學。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說超過一半學生關心 work–life balance，三分之一想要具挑戰性的工作。末句說 ethical considerations 和 corporate social responsibility 也是不少 humanities、engineering、science 和IT students 選擇僱主時的關鍵因素。只看首尾句，可以判斷本段總結學生求職期望，包括work–life balance、challenge、financial base、social contribution、paid overtime、bonuses、retirement plans、working overseas 和 ethics。"
+      }
+    ]
+  }
+}

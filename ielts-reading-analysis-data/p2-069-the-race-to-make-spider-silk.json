@@ -1,0 +1,1698 @@
+{
+  "id": "p2-069-the-race-to-make-spider-silk",
+  "catalogueId": "p2-069",
+  "catalogueIds": [
+    "p2-069"
+  ],
+  "passage": 2,
+  "title": "The race to make spider silk",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "B",
+    "C",
+    "B",
+    "A",
+    "B",
+    "NOT GIVEN",
+    "YES",
+    "NO",
+    "NOT GIVEN",
+    "NO",
+    "pollution",
+    "stretching, wrinkling, shrinkage",
+    "60 per cent"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Classification",
+      "prompt": "“forms the framework of a web”",
+      "translation": "形成蜘蛛網的框架。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷「形成 web framework」是哪一種 silk。關鍵詞是 framework 和 web。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dragline is the silk which forms the framework of the wheel-shaped webs and enables the dangling spider to drop down and grab its prey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dragline 是形成輪狀蜘蛛網框架的 silk，也讓懸掛中的蜘蛛能向下落去捕捉獵物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This silk exhibits a combination of strength and toughness unmatched by any high-performance synthetic fibre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種 silk 展現出 strength 和 toughness 的組合，是任何高性能合成纖維都無法匹敵的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph 3 專門介紹 dragline 的結構功能和強度。題目中的 framework原字直接出現在第一句，所以這段就是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "最有定位力的字是 “framework of a web”。原文直接寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dragline is the silk which forms the framework of the wheel-shaped webs…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 dragline、forms、framework、webs，定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文把主語直接放在句首：“Dragline is the silk…”這表示形成 web framework 的 silk 不是 silkworm silk，也不是 capture silk；答案應配到 B，因為B 代表 dragline silk of Nephila clavipes。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "forms the framework of a web= forms the framework of the wheel-shaped webs"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Classification",
+      "prompt": "“most elastic silk”",
+      "translation": "最有彈性的 silk。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要比較 silk 的彈性。關鍵詞是 elastic，原文可能用 stretch、flexible、resilient 等字改寫。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Capture silk is the resilient substance at the centre of the web.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Capture silk 是蜘蛛網中心有彈性的物質。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whereas dragline is stronger, capture silk is more flexible, five times more flexible, in fact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，dragline 較強；capture silk 更有彈性，事實上彈性高五倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 4 主要講 capture silk 的彈性。題目中的 most elastic 很可能對應 “more flexible” 或 “resilient”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目詞 “elastic” 在原文沒有直接出現，但同義詞很明顯："
+            },
+            {
+              "kind": "quote",
+              "text": "“resilient”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stretch”"
+            },
+            {
+              "kind": "quote",
+              "text": "“stretchiness”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more flexible”"
+            },
+            {
+              "kind": "quote",
+              "text": "“five times more flexible”"
+            },
+            {
+              "kind": "label",
+              "text": "原文還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“To catch a speeding insect, it may stretch to almost three times its original length.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了捕捉快速飛來的昆蟲，它可能伸展到接近原本長度的三倍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段所有彈性證據都指向 capture silk。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“resilient” 表示有回彈力。“stretch to almost three times its original length” 表示可伸長接近三倍。“more flexible, five times more flexible” 直接指出它比 dragline 更 flexible。題目用 “most elastic” 概括這些資料。A 是 silkworm silk，B 是較強的 dragline，C 才是最有彈性的 capture silk。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Classification",
+      "prompt": "“allows a spider to drop quickly”",
+      "translation": "讓蜘蛛可以快速向下落。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 silk 的功能。定位詞是 drop，原文很可能有 drop down。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dragline is the silk which forms the framework of the wheel-shaped webs and enables the dangling spider to drop down and grab its prey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dragline 是形成輪狀蜘蛛網框架的 silk，也讓懸掛中的蜘蛛能向下落去捕捉獵物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This silk exhibits a combination of strength and toughness unmatched by any high-performance synthetic fibre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種 silk 展現出 strength 和 toughness 的組合，是任何高性能合成纖維都無法匹敵的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經同時出現 dragline 和 drop down，因此 Paragraph 3 是最直接目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “drop quickly”。原文用："
+            },
+            {
+              "kind": "quote",
+              "text": "“enables the dangling spider to drop down and grab its prey”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然原文沒有 quickly，但 “drop down” 已足夠定位；快速感來自捕捉 prey 的動作語境。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的主語是 “Dragline”。動詞是 “enables”，意思是「使……能夠」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the dangling spider” 指懸掛中的蜘蛛。“to drop down and grab its prey” 指向下落並抓住獵物。題目把 “enables” 改寫成 “allows”，把 “drop down” 改成 “drop quickly”。意思仍然指向 dragline 的功能。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "allows = enables a spider = the dangling spider drop quickly = drop down and grab its prey"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Classification",
+      "prompt": "“single strand can be up to 900 metres long”",
+      "translation": "單一絲線可長達 900 米。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題關鍵是數字 900 metres。數字是非常強的定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many insects secrete silks of varying quality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多昆蟲會分泌不同品質的 silk。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its two silks under investigation go by the evocative names ‘dragline’ and ‘capture’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前被研究的兩種 silk 有兩個很有畫面感的名字：“dragline” 和 “capture”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 2 先講昆蟲 silk，再轉到 spider silk 的兩種類型。題目中的 900 metres 很可能出現在介紹 silkworm 的中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "最強定位詞是 “900 metres”。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It spins its cocoon from a single thread between 300 and 900 metres long and has been used for centuries to make fine garments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它用一條長 300 至 900 米的單一絲線吐絲成繭，並且數百年來一直被用來製作精美衣物。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “It” 指前一句的 moth Bombyx mori，亦即 silkworm。題目說 “single strand can be up to 900 metres long”，原文是 “a single thread between 300 and 900 metres long”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 代表 the silk of Bombyx mori，所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "single strand = single thread up to 900 metres = between 300 and 900 metres Bombyx mori = silkworm"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Classification",
+      "prompt": "“strongest silk”",
+      "translation": "最強的 silk。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要比較 strength。需要同時看 dragline 和 capture 的比較句。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 3–4 Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dragline is the silk which forms the framework of the wheel-shaped webs and enables the dangling spider to drop down and grab its prey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dragline 是形成輪狀蜘蛛網框架的 silk，也讓懸掛中的蜘蛛能向下落去捕捉獵物。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This silk exhibits a combination of strength and toughness unmatched by any high-performance synthetic fibre.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種 silk 展現出 strength 和 toughness 的組合，是任何高性能合成纖維都無法匹敵的。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句也很重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whereas dragline is stronger, capture silk is more flexible, five times more flexible, in fact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相比之下，dragline 較強；capture silk 更有彈性，事實上彈性高五倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些句子，可以看到 dragline 和 capture 的分工：dragline 強，capture 彈。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目詞 “strongest” 對應原文的："
+            },
+            {
+              "kind": "quote",
+              "text": "“strength and toughness unmatched”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dragline is stronger”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 說 dragline 的 strength and toughness 組合 unmatched。Paragraph 4 再直接比較：“dragline is stronger”。這兩句一起確認 strongest silk 應該是 dragline。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 的 silkworm silk 長、歷史悠久，用於 garments，但文章沒有說它最強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 的 capture silk 彈性最佳，但原文清楚說 dragline stronger。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“All spiders secrete silk.”",
+      "translation": "所有蜘蛛都會分泌 silk。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最重要的控制詞是 “All”。文章若只講 spiders 作為一般類別，仍要檢查是否明確支援每一種蜘蛛都如此。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many insects secrete silks of varying quality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很多昆蟲會分泌不同品質的 silk。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its two silks under investigation go by the evocative names ‘dragline’ and ‘capture’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前被研究的兩種 silk 有兩個很有畫面感的名字：“dragline” 和 “capture”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 2 在介紹不同生物的 silk，並把研究焦點收窄到 golden orb-weaving spider 的兩種 silk。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “All spiders” 和 “secrete silk”。原文相關句包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many insects secrete silks of varying quality.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Spiders make as many as seven different types of silk…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說 spiders make different types of silk，也說 golden orb-weaving spider 的 dragline 和capture 被深入研究。可是題目說 “All spiders”，範圍十分絕對。文章沒有逐字說 all spiders，也沒有比較不同 spider species 是否全部都 secrete silk。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支援的內容是：spiders 作為研究對象會製造 silk，尤其 Nephila clavipes 有 dragline 和capture。題目要求更廣：所有蜘蛛都分泌 silk。這個 “all” 沒有被文章明確支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 “Spiders make…” 就直接選 YES。這裡要留意 IELTS 很重視 all / many / some 這類範圍詞。文章有相關背景，但沒有給出 “all spiders” 這個完整命題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Artificial genes for spider silk have been produced.”",
+      "translation": "用於 spider silk 的人工基因已經被製造出來。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 artificial genes 是否已存在。定位詞是 artificial genes、genes、produced。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 6–7 Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first two steps are well underway.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "前兩個步驟已經進展良好。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The molecular structure for both dragline and capture silk is known and now researchers have cloned several genes for the silks and unravelled their protein structure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Dragline 和 capture silk 的分子結構已經為人所知，研究者現在也已 cloned 幾個與這些 silk 有關的 genes，並解開了它們的 protein structure。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一個句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The next step is to find hosts for the artificial genes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一步是為這些 artificial genes 尋找宿主。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目詞 “Artificial genes” 在 Paragraph 7 原字出現。為了確認 “have been produced”，需要回看Paragraph 6 的 “cloned several genes”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 說 researchers “have cloned several genes for the silks”。clone genes 指把相關基因複製出來，這是人工研究過程中的基因製備。Paragraph 7 隨即說 “the artificial genes”，說明這些 genes 已經進入可尋找 hosts 的階段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 have been produced。原文雖然用 cloned 和 artificial genes，但意思一致：人工基因已經存在，下一步是放入 hosts。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Artificial genes for spider silk= artificial genes / genes for the silks have been produced= researchers have cloned several genes答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Spider silk protein occurs naturally in goats’ milk.”",
+      "translation": "Spider silk protein 天然存在於 goat’s milk 中。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 “naturally”。文章若說科學家把 gene 放入 goats，再從 milk 收集 protein，這和naturally 方向不同。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The next step is to find hosts for the artificial genes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下一步是為 artificial genes 尋找宿主。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once the protein is extracted from the goats’ milk, the next step is to find a way to spin it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦 protein 從 goat’s milk 中被提取出來，下一步就是找方法把它紡成絲線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段是在講如何把 artificial genes 放入某些 hosts，再從中收集 silk protein。goats’ milk 出現在最後一句，所以這段就是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “goats’ milk”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A different experimental approach is to insert the web gene into goats in order to collect the protein from the goats’ milk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種實驗方法是把 web gene 插入山羊體內，以便從山羊奶中收集 protein。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的動作是 “insert the web gene into goats”。這表示 goats 本來不會自然產生 spider silk protein；研究者需要把相關 gene 放進 goats。後文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the researchers hope that the protein made in the goats’ mammary glands will be able to cross-link properly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者希望在山羊乳腺中製造出來的 protein 能夠正確 cross-link。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 occurs naturally。原文說 insert gene and hope protein made in mammary glands。這兩者有明確衝突：原文是實驗性基因插入後生產，並非天然存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“China is leading research efforts in the area of spider silk.”",
+      "translation": "中國在 spider silk 研究方面處於領先地位。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找國家和研究領先地位。關鍵詞是 China、leading、research efforts。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "可能相關段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because the orb weaver’s survival depends on its silk, some 400 million years of evolution have fine-tuned a remarkably tough and versatile material.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於 orb weaver 的生存依賴 silk，大約四億年的演化已把這種材料微調成非常 tough and versatile。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now, research groups all over the world are competing to spin the first artificial spider silk…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，世界各地的研究團隊正在競爭，希望率先紡出第一種 artificial spider silk。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講全球研究競賽。題目提到 China，如果文章有國家領先資料，應該在這段或後文出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描全文可找到 “research groups all over the world”，但沒有 China。後文提到 plants、fungi、bacteria、goats，也沒有國家比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說研究團隊來自 all over the world，表示這是一場全球競賽。文章沒有說哪個國家領先，也沒有提及中國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要兩個核心資料： 1. China 參與 spider silk research； 2. China is leading。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文兩點都沒有提供。沒有資料判斷題目是否成立，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“all over the world” 會令人覺得可能包括中國，但 IELTS 不接受用常識或可能性補答案。原文沒有 country ranking，就不能判 YES 或 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Spider silk is now being produced commercially.”",
+      "translation": "Spider silk 現在已經開始商業化生產。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看研究是否已到 commercial production。關鍵詞是 now、produced commercially。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 5, 7, 8 Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Now, research groups all over the world are competing to spin the first artificial spider silk…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在，世界各地的研究團隊正在競爭，希望率先紡出第一種 artificial spider silk。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once the protein is extracted from the goats’ milk, the next step is to find a way to spin it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦 protein 從 goat’s milk 中提取出來，下一步就是找方法把它紡成絲線。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bio-inspired materials are providing a new frontier for the fibre business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "仿生材料正為纖維產業提供新的前沿領域。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目詞 “commercially” 沒有原字出現，但 commercial production 可對應 “large-scale production”、“factories”、“major market”、“fibre business”。文章中相關句子多用 future / aim /eventually："
+            },
+            {
+              "kind": "quote",
+              "text": "“trying to duplicate its properties and synthesise it for large-scale production”"
+            },
+            {
+              "kind": "quote",
+              "text": "“could eventually be harvested…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The aim is to offer substitutes…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "最重要的是 Paragraph 5："
+            },
+            {
+              "kind": "quote",
+              "text": "“research groups all over the world are competing to spin the first artificial spider silk”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果大家仍在競爭製造 first artificial spider silk，就表示人工 spider silk 尚未完成成熟生產。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 又說 “the next step is to find a way to spin it”，表示連把 protein 紡成 thread 的方法仍在尋找中。Paragraph 8 的 “aim is to offer substitutes” 也指向未來目標。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “now being produced commercially”，比原文進度快得多。文章的時態和語氣都是research、competing、could eventually、aim。這和商業化量產已經發生不相容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "pollution",
+      "answerKey": "pollution",
+      "type": "Table Completion",
+      "prompt": "Question 25",
+      "translation": "生產 synthetic fibres 的主要問題。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Main problem in producing synthetic fibres”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 table completion。空格需要一個問題或後果，應該是名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spiders make their silk in environmentally friendly ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蜘蛛以環保方式製造 silk。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bio-inspired materials are providing a new frontier for the fibre business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "仿生材料正為纖維產業提供新的前沿領域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 8 會比較蜘蛛 silk 的環保性和現代纖維工業的問題。題目問synthetic fibres 的 production problem，必然在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “synthetic fibres”。原文直接寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“The process of making synthetic fibres like nylon, on the other hand, requires petroleum products or organic solvents and results in pollution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，製造 nylon 等 synthetic fibres 的過程需要 petroleum products 或 organic solvents，並造成 pollution。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “Main problem”。原文列出製程需要某些材料，最後指出結果是 “pollution”。在 table 中，最自然填入名詞 “pollution”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“requires petroleum products or organic solvents” 是製程需求；“results in pollution” 是主要問題和後果。題目要的是問題，所以填 pollution 最精準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：pollution"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "stretching, wrinkling, shrinkage",
+      "answerKey": "stretching, wrinkling, shrinkage",
+      "type": "Table Completion",
+      "prompt": "Question 26",
+      "translation": "天然纖維的三個缺點。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three disadvantages of natural fibres”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找三個 disadvantages，而且最多三個字。原文很可能列出三個名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spiders make their silk in environmentally friendly ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蜘蛛以環保方式製造 silk。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bio-inspired materials are providing a new frontier for the fibre business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "仿生材料正為纖維產業提供新的前沿領域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半開始談 natural fibres 和 substitute fibres，所以 Question 26 應在 Paragraph 8 後半定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “natural fibres”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“The aim is to offer substitutes for natural fibres that are free of the problems of poor wash-wear performance: stretching, wrinkling and shrinkage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標是提供天然纖維的替代品，這些替代品不會有 poor wash-wear performance 的問題：伸長、起皺和縮水。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "冒號後面直接列出三個問題： stretching wrinkling shrinkage題目要求 “Three disadvantages”，正好對應這三個名詞。由於字數限制是 NO MORE THAN THREE WORDS，如果寫 “stretching, wrinkling and shrinkage”，and 也會被計作一個字，總數會超過三個字。因此答案應寫成： stretching, wrinkling, shrinkage這三個字全部來自原文，且符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：stretching, wrinkling, shrinkage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "60 per cent",
+      "answerKey": "60 per cent",
+      "type": "Table Completion",
+      "prompt": "Question 27",
+      "translation": "由天然纖維製成的衣物比例。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Proportion of clothing made from natural fibres”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要填比例，答案很可能是數字加單位。題目限制允許最多三個字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Spiders make their silk in environmentally friendly ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蜘蛛以環保方式製造 silk。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bio-inspired materials are providing a new frontier for the fibre business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "仿生材料正為纖維產業提供新的前沿領域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 是 synthetic fibres、natural fibres、market 的比較段。題目中的 proportion 和clothing 應在這段中間出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “clothing” 和 “natural fibres”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Globally, as much as 60 per cent of the threads used to weave clothing come from natural fibres, including cotton, wool, and silk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球來看，多達 60% 用來織成衣物的線來自天然纖維，包括 cotton、wool 和 silk。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 proportion。原文給出 “as much as 60 per cent”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“as much as” 表示多達；比例本身是 60 per cent。字數限制是 NO MORE THAN THREE WORDS。“60 per cent” 剛好三個單位，符合要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：60 per cent"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The race to make spider silk.pdf",
+    "sha256": "d79fd30a4165fece627f693701ce77a5eef3bc3ebe7ceb5fc637165964883582",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 silk 的 strength、toughness 和 elasticity 一直令科學家著迷，因為他們想知道這種天然材料為何有這些特殊品質。末句列出大量潛在用途，包括耐磨鞋服、強繩索、汽車零件、醫療縫線、人工肌腱和防彈背心。只看首尾句，可以估計本段功能是介紹 silk 為何有研究價值。它先強調材料特性，再展示應用前景，為後文「人工複製 spider silk」鋪路。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說很多昆蟲會分泌不同品質的 silk，最著名的是 Bombyx mori，也就是 silkworm。末句把焦點收窄到 golden orb-weaving spider 的兩種 silk：dragline 和 capture。只看首尾句，可以看出本段是分類和比較段：先由一般昆蟲 silk 講到 silkworm，再轉到今日科學研究更重視的 spider silk。 Questions 15–19 的 A / B / C 分類大多需要回到這段和後面兩段核對。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 dragline 是構成 wheel-shaped webs 框架的 silk，也讓懸掛的蜘蛛能 drop down and grab its prey。末句說這種 silk 的 strength 和 toughness 組合，是任何 high-performance synthetic fibre 都無法匹敵的。只看首尾句，可以估計本段專門介紹 dragline silk 的功能和物理優勢。它和 Question 15 的 framework、Question 17 的 drop quickly、Question 19 的 strongest silk有直接關係。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 capture silk 是 web 中心的 resilient substance。末句說 dragline 較強，但 capture silk 較flexible，事實上 flexible 五倍。只看首尾句，可以估計本段專講 capture silk 的彈性和捕獵功能。中間會解釋它能 stretch to almost three times its original length，讓 web 在昆蟲撞上後來回移動，防止昆蟲直接彈走。Question 16 的 most elastic silk 正常會定位在這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 orb weaver 的生存依賴 silk，因此四億年演化已把這種材料微調成 tough and versatile。末句說製造人工 spider silk 需要三步：確定 molecular architecture、理解 genes 如何產生 silk proteins，再學會把 raw material spun into threads。只看首尾句，可以估計本段由天然 spider silk的演化優勢，轉入人工生產的研究流程。它是後文基因、宿主和工業生產的總綱段落。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說前兩步已 well underway。末句說研究者已經 cloned several genes for the silks，並unravelled their protein structure。只看首尾句，可以估計本段功能是交代研究進度：molecular structure 已知，genes 亦已被 cloned。Question 21 的 artificial genes for spider silk have been produced，需要把這段和下一段的 “artificial genes” 一起讀，因為 Paragraph 6 提供 cloned genes 的直接證據。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說下一步是替 artificial genes 找 hosts。末句說一旦從 goats’ milk 中 extracted protein，下一步就是找方法 spin it。只看首尾句，可以估計本段集中在人工基因如何放入 plants、fungi、bacteria 或 goats，從而生產 silk protein。中間解釋為何 goats 比 bacteria 更有希望：關鍵在protein molecules 是否能 cross-link properly。Questions 21–22 主要靠這段判斷。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說蜘蛛以 environmentally friendly ways 製造 silk。末句說 bio-inspired materials 正為 fibre business 提供 new frontier。只看首尾句，可以估計本段是全文總結和比較段：先比較蜘蛛生產silk 和 synthetic fibres 的污染問題，再比較 natural fibres 的缺點，最後指出人工 spider silk 的市場潛力。Questions 25–27 的 synthetic fibres、natural fibres、proportion of clothing 都集中在這段。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2138 @@
+{
+  "version": "2026-10-26.1",
+  "practice": 11,
+  "sourceSha256": "b4783bd7b5f4fe42ea79695d146096cc466c4d7cbddfd8f4c7b085bd74749f7c",
+  "timingBasis": "Existing recording-aligned transcript timestamps; explanation quotations matched to exact source spans, with explicit editorial endpoint reviews.",
+  "parts": [
+    {
+      "part": 1,
+      "title": "Wayside Camera Club",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Answer the questions using the instructions in the original question paper below.",
+      "audioSha256": "c63083f44ebf181151ddd7a559031cc8aa50cbc300823bb08e6f00b453a50262",
+      "transcriptSha256": "d6e9c9010b9ecdc729d66ef0d71f9f54b6e0ee038628953bdf860a656bbe451e",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2011%20Part%201.mp3",
+      "duration": 374.099625,
+      "cues": [
+        {
+          "id": "p1-q1",
+          "question": 1,
+          "start": 87.18,
+          "end": 103.06,
+          "endLine": 15,
+          "answer": "Marrowfield",
+          "accepted": [
+            "Marrowfield"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：It’s 52 Marrowfield Street / Is that M-A double R-O-W-F-I-E-L-D",
+          "evidence": [
+            {
+              "lineId": "p1-line-13",
+              "line": 13,
+              "quote": "It’s 52 Marrowfield Street",
+              "revealAt": 90.72
+            },
+            {
+              "lineId": "p1-line-14",
+              "line": 14,
+              "quote": "Is that M-A double R-O-W-F-I-E-L-D",
+              "revealAt": 102.06
+            },
+            {
+              "lineId": "p1-line-15",
+              "line": 15,
+              "quote": "That’s right",
+              "revealAt": 103.06
+            }
+          ],
+          "distractors": [],
+          "questionText": "Home address: 52 _____ Street, Peacetown"
+        },
+        {
+          "id": "p1-q2",
+          "question": 2,
+          "start": 111.34,
+          "end": 120.3,
+          "endLine": 20,
+          "answer": "relative",
+          "accepted": [
+            "relative"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：I was talking to a relative the other day and he suggested it",
+          "evidence": [
+            {
+              "lineId": "p1-line-20",
+              "line": 20,
+              "quote": "I was talking to a relative the other day and he suggested it",
+              "revealAt": 120.3
+            }
+          ],
+          "distractors": [],
+          "questionText": "Heard about us: from a _____"
+        },
+        {
+          "id": "p1-q3",
+          "question": 3,
+          "start": 141.56,
+          "end": 145.48,
+          "endLine": 27,
+          "answer": "socialise",
+          "accepted": [
+            "socialise",
+            "socialize"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：I also like to socialise with other photographers",
+          "evidence": [
+            {
+              "lineId": "p1-line-27",
+              "line": 27,
+              "quote": "I also like to socialise with other photographers",
+              "revealAt": 145.48
+            }
+          ],
+          "distractors": [],
+          "questionText": "Question 3 — refer to the original question paper above."
+        },
+        {
+          "id": "p1-q4",
+          "question": 4,
+          "start": 158.36,
+          "end": 162.3,
+          "endLine": 31,
+          "answer": "full",
+          "accepted": [
+            "full"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：I think I’ll go for the full membership, then",
+          "evidence": [
+            {
+              "lineId": "p1-line-31",
+              "line": 31,
+              "quote": "I think I’ll go for the full membership, then",
+              "revealAt": 162.3
+            }
+          ],
+          "distractors": [],
+          "questionText": "Type of membership: _____ membership (£30)"
+        },
+        {
+          "id": "p1-q5",
+          "question": 5,
+          "start": 237.22,
+          "end": 257.92,
+          "endLine": 42,
+          "answer": "Domestic Life",
+          "accepted": [
+            "Domestic Life"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：the theme was entitled “Domestic Life / so it had to be something related to the home",
+          "evidence": [
+            {
+              "lineId": "p1-line-40",
+              "line": 40,
+              "quote": "the theme was entitled “Domestic Life",
+              "revealAt": 241.14
+            },
+            {
+              "lineId": "p1-line-41",
+              "line": 41,
+              "quote": "so it had to be something related to the home",
+              "revealAt": 245.8
+            }
+          ],
+          "distractors": [],
+          "questionText": "Question 5 — refer to the original question paper above."
+        },
+        {
+          "id": "p1-q6",
+          "question": 6,
+          "start": 291.24,
+          "end": 299.26,
+          "endLine": 50,
+          "answer": "clouds",
+          "accepted": [
+            "clouds"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：The instructions were to capture the clouds as well – it couldn’t just be blue sky and a setting sun",
+          "evidence": [
+            {
+              "lineId": "p1-line-50",
+              "line": 50,
+              "quote": "The instructions were to capture the clouds as well – it couldn’t just be blue sky and a setting sun",
+              "revealAt": 299.26
+            }
+          ],
+          "distractors": [],
+          "questionText": "Scene must show some _____"
+        },
+        {
+          "id": "p1-q7",
+          "question": 7,
+          "start": 303.6,
+          "end": 318.5,
+          "endLine": 54,
+          "answer": "timing",
+          "accepted": [
+            "timing"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：I should have waited a bit longer to get the shot / So the timing wasn’t right",
+          "evidence": [
+            {
+              "lineId": "p1-line-52",
+              "line": 52,
+              "quote": "I should have waited a bit longer to get the shot",
+              "revealAt": 312.02
+            },
+            {
+              "lineId": "p1-line-53",
+              "line": 53,
+              "quote": "So the timing wasn’t right",
+              "revealAt": 315.72
+            },
+            {
+              "lineId": "p1-line-54",
+              "line": 54,
+              "quote": "Yes – I took it too soon",
+              "revealAt": 318.5
+            }
+          ],
+          "distractors": [],
+          "questionText": "The _____ was wrong."
+        },
+        {
+          "id": "p1-q8",
+          "question": 8,
+          "start": 319.32,
+          "end": 324.1,
+          "endLine": 55,
+          "answer": "Animal Magic",
+          "accepted": [
+            "Animal Magic"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：the third competition I entered was called “Animal Magic",
+          "evidence": [
+            {
+              "lineId": "p1-line-55",
+              "line": 55,
+              "quote": "the third competition I entered was called “Animal Magic",
+              "revealAt": 324.1
+            }
+          ],
+          "distractors": [],
+          "questionText": "‘_____’"
+        },
+        {
+          "id": "p1-q9",
+          "question": 9,
+          "start": 330.84,
+          "end": 339.5,
+          "endLine": 59,
+          "answer": "movement",
+          "accepted": [
+            "movement",
+            "animal movement"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：animals move all the time / That’s what we had to show – there had to be some movement in the scene",
+          "evidence": [
+            {
+              "lineId": "p1-line-58",
+              "line": 58,
+              "quote": "animals move all the time",
+              "revealAt": 334.34
+            },
+            {
+              "lineId": "p1-line-59",
+              "line": 59,
+              "quote": "That’s what we had to show – there had to be some movement in the scene",
+              "revealAt": 339.5
+            }
+          ],
+          "distractors": [],
+          "questionText": "Scene must show _____"
+        },
+        {
+          "id": "p1-q10",
+          "question": 10,
+          "start": 340.24,
+          "end": 351.24,
+          "endLine": 60,
+          "answer": "dark",
+          "accepted": [
+            "dark"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：I got a great shot of a fox in the end, but I took it at night and, well, I suspected that it was a bit dark, which is what I was told.",
+          "evidence": [
+            {
+              "lineId": "p1-line-60",
+              "line": 60,
+              "quote": "I got a great shot of a fox in the end, but I took it at night and, well, I suspected that it was a bit dark, which is what I was told.",
+              "revealAt": 351.24
+            }
+          ],
+          "distractors": [],
+          "questionText": "The photograph was too _____."
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "evidence"
+        },
+        {
+          "line": 15,
+          "role": "evidence"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "context"
+        },
+        {
+          "line": 39,
+          "role": "context"
+        },
+        {
+          "line": 40,
+          "role": "evidence"
+        },
+        {
+          "line": 41,
+          "role": "evidence"
+        },
+        {
+          "line": 42,
+          "role": "context"
+        },
+        {
+          "line": 43,
+          "role": "context"
+        },
+        {
+          "line": 44,
+          "role": "context"
+        },
+        {
+          "line": 45,
+          "role": "context"
+        },
+        {
+          "line": 46,
+          "role": "context"
+        },
+        {
+          "line": 47,
+          "role": "context"
+        },
+        {
+          "line": 48,
+          "role": "context"
+        },
+        {
+          "line": 49,
+          "role": "context"
+        },
+        {
+          "line": 50,
+          "role": "evidence"
+        },
+        {
+          "line": 51,
+          "role": "context"
+        },
+        {
+          "line": 52,
+          "role": "evidence"
+        },
+        {
+          "line": 53,
+          "role": "evidence"
+        },
+        {
+          "line": 54,
+          "role": "evidence"
+        },
+        {
+          "line": 55,
+          "role": "evidence"
+        },
+        {
+          "line": 56,
+          "role": "context"
+        },
+        {
+          "line": 57,
+          "role": "context"
+        },
+        {
+          "line": 58,
+          "role": "evidence"
+        },
+        {
+          "line": 59,
+          "role": "evidence"
+        },
+        {
+          "line": 60,
+          "role": "evidence"
+        },
+        {
+          "line": 61,
+          "role": "context"
+        },
+        {
+          "line": 62,
+          "role": "context"
+        },
+        {
+          "line": 63,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Picking mushrooms",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose TWO letters, A–E. · Choose the correct letter, A, B or C. · Choose wooded areas.",
+      "audioSha256": "f91973066df54119f8c1b5559d8ab1599a396b7540953a11f0878ad920d8a7b1",
+      "transcriptSha256": "caaa047cfba118380bf98ba7dddb20d8998a9941215dce9abf2be68cffbda7ec",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2011%20Part%202.mp3",
+      "duration": 440.137125,
+      "cues": [
+        {
+          "id": "p2-q11",
+          "question": 11,
+          "start": 81.8,
+          "end": 121.34,
+          "endLine": 9,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：you should never consume mushrooms picked by friends or neighbours / some poisonous mushrooms look very similar to edible ones and it’s easy for people to get confused",
+          "evidence": [
+            {
+              "lineId": "p2-line-6",
+              "line": 6,
+              "quote": "you should never consume mushrooms picked by friends or neighbours",
+              "revealAt": 90.96
+            },
+            {
+              "lineId": "p2-line-7",
+              "line": 7,
+              "quote": "some poisonous mushrooms look very similar to edible ones and it’s easy for people to get confused",
+              "revealAt": 101.5
+            },
+            {
+              "lineId": "p2-line-8",
+              "line": 8,
+              "quote": "The other thing to avoid is mushrooms growing beside busy roads",
+              "revealAt": 109.58
+            }
+          ],
+          "distractors": [
+            {
+              "line": 9,
+              "quote": "several days old and past their best",
+              "candidateAt": 121.34,
+              "rejectAt": 121.34,
+              "why": "中伏位：E 看似合理，因為 Dan 說店裡有些 mushrooms 已經 “several days old and past their best”；但那是在比較新鮮度和味道，沒有形成「不要採 old mushrooms」的明確安全規則。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO warnings does Dan give about picking mushrooms?",
+          "groupQuestions": [
+            11,
+            12
+          ]
+        },
+        {
+          "id": "p2-q12",
+          "question": 12,
+          "start": 81.8,
+          "end": 121.34,
+          "endLine": 9,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：you should never consume mushrooms picked by friends or neighbours / some poisonous mushrooms look very similar to edible ones and it’s easy for people to get confused",
+          "evidence": [
+            {
+              "lineId": "p2-line-6",
+              "line": 6,
+              "quote": "you should never consume mushrooms picked by friends or neighbours",
+              "revealAt": 90.96
+            },
+            {
+              "lineId": "p2-line-7",
+              "line": 7,
+              "quote": "some poisonous mushrooms look very similar to edible ones and it’s easy for people to get confused",
+              "revealAt": 101.5
+            },
+            {
+              "lineId": "p2-line-8",
+              "line": 8,
+              "quote": "The other thing to avoid is mushrooms growing beside busy roads",
+              "revealAt": 109.58
+            }
+          ],
+          "distractors": [
+            {
+              "line": 9,
+              "quote": "several days old and past their best",
+              "candidateAt": 121.34,
+              "rejectAt": 121.34,
+              "why": "中伏位：E 看似合理，因為 Dan 說店裡有些 mushrooms 已經 “several days old and past their best”；但那是在比較新鮮度和味道，沒有形成「不要採 old mushrooms」的明確安全規則。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO warnings does Dan give about picking mushrooms?",
+          "groupQuestions": [
+            11,
+            12
+          ]
+        },
+        {
+          "id": "p2-q13",
+          "question": 13,
+          "start": 129.24,
+          "end": 179.4,
+          "endLine": 16,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：it’s only OK to eat mushrooms that are pale or dull – this is completely untrue / Some edible mushrooms are bright red, for example",
+          "evidence": [
+            {
+              "lineId": "p2-line-11",
+              "line": 11,
+              "quote": "it’s only OK to eat mushrooms that are pale or dull – this is completely untrue",
+              "revealAt": 139.94
+            },
+            {
+              "lineId": "p2-line-12",
+              "line": 12,
+              "quote": "Some edible mushrooms are bright red, for example",
+              "revealAt": 144.54
+            },
+            {
+              "lineId": "p2-line-16",
+              "line": 16,
+              "quote": "just because deer or squirrels eat a particular mushroom doesn’t mean that you can",
+              "revealAt": 179.4
+            }
+          ],
+          "distractors": [
+            {
+              "line": 13,
+              "quote": "it’s not necessary to peel them",
+              "candidateAt": 156.28,
+              "rejectAt": 179.4,
+              "why": "中伏位：A 與錄音相反，Dan 說 “it’s not necessary to peel them”。E 也不合，因為有些最致命的 mushrooms “have no smell”。因此氣味不能用來可靠判斷毒性。"
+            },
+            {
+              "line": 15,
+              "quote": "have no smell",
+              "candidateAt": 170.46,
+              "rejectAt": 179.4,
+              "why": "中伏位：A 與錄音相反，Dan 說 “it’s not necessary to peel them”。E 也不合，因為有些最致命的 mushrooms “have no smell”。因此氣味不能用來可靠判斷毒性。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO ideas about wild mushrooms does Dan say are correct?",
+          "groupQuestions": [
+            13,
+            14
+          ]
+        },
+        {
+          "id": "p2-q14",
+          "question": 14,
+          "start": 129.24,
+          "end": 179.4,
+          "endLine": 16,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：it’s only OK to eat mushrooms that are pale or dull – this is completely untrue / Some edible mushrooms are bright red, for example",
+          "evidence": [
+            {
+              "lineId": "p2-line-11",
+              "line": 11,
+              "quote": "it’s only OK to eat mushrooms that are pale or dull – this is completely untrue",
+              "revealAt": 139.94
+            },
+            {
+              "lineId": "p2-line-12",
+              "line": 12,
+              "quote": "Some edible mushrooms are bright red, for example",
+              "revealAt": 144.54
+            },
+            {
+              "lineId": "p2-line-16",
+              "line": 16,
+              "quote": "just because deer or squirrels eat a particular mushroom doesn’t mean that you can",
+              "revealAt": 179.4
+            }
+          ],
+          "distractors": [
+            {
+              "line": 13,
+              "quote": "it’s not necessary to peel them",
+              "candidateAt": 156.28,
+              "rejectAt": 179.4,
+              "why": "中伏位：A 與錄音相反，Dan 說 “it’s not necessary to peel them”。E 也不合，因為有些最致命的 mushrooms “have no smell”。因此氣味不能用來可靠判斷毒性。"
+            },
+            {
+              "line": 15,
+              "quote": "have no smell",
+              "candidateAt": 170.46,
+              "rejectAt": 179.4,
+              "why": "中伏位：A 與錄音相反，Dan 說 “it’s not necessary to peel them”。E 也不合，因為有些最致命的 mushrooms “have no smell”。因此氣味不能用來可靠判斷毒性。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO ideas about wild mushrooms does Dan say are correct?",
+          "groupQuestions": [
+            13,
+            14
+          ]
+        },
+        {
+          "id": "p2-q15",
+          "question": 15,
+          "start": 261.48,
+          "end": 276.18,
+          "endLine": 20,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：you need to be there first thing in the morning / The deer often get the best mushrooms",
+          "evidence": [
+            {
+              "lineId": "p2-line-19",
+              "line": 19,
+              "quote": "you need to be there first thing in the morning",
+              "revealAt": 271.36
+            },
+            {
+              "lineId": "p2-line-20",
+              "line": 20,
+              "quote": "The deer often get the best mushrooms",
+              "revealAt": 276.18
+            }
+          ],
+          "distractors": [],
+          "questionText": "What advice does Dan give about picking mushrooms in parks?"
+        },
+        {
+          "id": "p2-q16",
+          "question": 16,
+          "start": 277.6,
+          "end": 306.78,
+          "endLine": 23,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：I wouldn’t recommend going alone / If possible, you should go with a group led by an expert – you’ll stay safe and learn a lot that way",
+          "evidence": [
+            {
+              "lineId": "p2-line-21",
+              "line": 21,
+              "quote": "I wouldn’t recommend going alone",
+              "revealAt": 287.8
+            },
+            {
+              "lineId": "p2-line-23",
+              "line": 23,
+              "quote": "If possible, you should go with a group led by an expert – you’ll stay safe and learn a lot that way",
+              "revealAt": 306.78
+            }
+          ],
+          "distractors": [
+            {
+              "line": 22,
+              "quote": "really good",
+              "candidateAt": 297.84,
+              "rejectAt": 306.78,
+              "why": "中伏位：mushroom apps 被形容為 “really good”，但樹林中可能沒有可靠 signal；reference books 也不建議初學者單靠圖片辨認。"
+            }
+          ],
+          "questionText": "Dan says it is a good idea for beginners to"
+        },
+        {
+          "id": "p2-q17",
+          "question": 17,
+          "start": 315.22,
+          "end": 322.3,
+          "endLine": 25,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：You should never pick all the mushrooms in one area – collect only enough for your own needs",
+          "evidence": [
+            {
+              "lineId": "p2-line-25",
+              "line": 25,
+              "quote": "You should never pick all the mushrooms in one area – collect only enough for your own needs",
+              "revealAt": 322.3
+            }
+          ],
+          "distractors": [],
+          "questionText": "What does Dan say is important for conservation?"
+        },
+        {
+          "id": "p2-q18",
+          "question": 18,
+          "start": 344.74,
+          "end": 367.46,
+          "endLine": 30,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：the biggest problem is that so many new houses have been built in this area in the last ten years / mushroom habitats have been destroyed",
+          "evidence": [
+            {
+              "lineId": "p2-line-29",
+              "line": 29,
+              "quote": "the biggest problem is that so many new houses have been built in this area in the last ten years",
+              "revealAt": 358.34
+            },
+            {
+              "lineId": "p2-line-30",
+              "line": 30,
+              "quote": "mushroom habitats have been destroyed",
+              "revealAt": 367.46
+            },
+            {
+              "lineId": "p2-line-30",
+              "line": 30,
+              "quote": "more water is being taken from rivers and reservoirs",
+              "revealAt": 367.46
+            }
+          ],
+          "distractors": [],
+          "questionText": "According to Dan, some varieties of wild mushrooms are in decline because there is"
+        },
+        {
+          "id": "p2-q19",
+          "question": 19,
+          "start": 373.58,
+          "end": 388.92,
+          "endLine": 33,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：as soon as you get home, put them in the fridge / They’ll be fine for a couple of days, but it’s best to cook them as soon as possible",
+          "evidence": [
+            {
+              "lineId": "p2-line-32",
+              "line": 32,
+              "quote": "as soon as you get home, put them in the fridge",
+              "revealAt": 379.14
+            },
+            {
+              "lineId": "p2-line-33",
+              "line": 33,
+              "quote": "They’ll be fine for a couple of days, but it’s best to cook them as soon as possible",
+              "revealAt": 388.92
+            }
+          ],
+          "distractors": [],
+          "questionText": "Dan says that when storing mushrooms, people should"
+        },
+        {
+          "id": "p2-q20",
+          "question": 20,
+          "start": 400.98,
+          "end": 419.94,
+          "endLine": 37,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Be adventurous / They’re great in so many dishes – stir fries, risottos, pasta",
+          "evidence": [
+            {
+              "lineId": "p2-line-36",
+              "line": 36,
+              "quote": "Be adventurous",
+              "revealAt": 408.02
+            },
+            {
+              "lineId": "p2-line-36",
+              "line": 36,
+              "quote": "They’re great in so many dishes – stir fries, risottos, pasta",
+              "revealAt": 408.02
+            }
+          ],
+          "distractors": [
+            {
+              "line": 37,
+              "quote": "huge quantities",
+              "candidateAt": 419.94,
+              "rejectAt": 419.94,
+              "why": "中伏位：他真正提醒的是第一次不要吃 “huge quantities”，因為有些人可能會有不良反應；沒有說每一種新 mushroom 都會有 strong taste，也沒有要求長時間烹煮。"
+            }
+          ],
+          "questionText": "What does Dan say about trying new varieties of mushrooms?"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "evidence"
+        },
+        {
+          "line": 7,
+          "role": "evidence"
+        },
+        {
+          "line": 8,
+          "role": "evidence"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "evidence"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "evidence"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "evidence"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "evidence"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Luddites and changing occupations",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose TWO letters, A–E. · Choose SIX answers from the box and write the correct letter, A–G, next to",
+      "audioSha256": "95044483b165765643447e42fe2fb136a195f0445d2de9d1500822b1d71f5465",
+      "transcriptSha256": "456347c8c81e41d703e6fc4d23891ee285bbff030989751bf361846138276444",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2011%20Part%203.mp3",
+      "duration": 327.4449375,
+      "cues": [
+        {
+          "id": "p3-q21",
+          "question": 21,
+          "start": 76.14,
+          "end": 94.32,
+          "endLine": 9,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：ultimately, they didn’t achieve anything / created more jobs than it destroyed",
+          "evidence": [
+            {
+              "lineId": "p3-line-5",
+              "line": 5,
+              "quote": "ultimately, they didn’t achieve anything",
+              "revealAt": 78.86
+            },
+            {
+              "lineId": "p3-line-6",
+              "line": 6,
+              "quote": "created more jobs than it destroyed",
+              "revealAt": 83.44
+            },
+            {
+              "lineId": "p3-line-7",
+              "line": 7,
+              "quote": "Yes, that’s true",
+              "revealAt": 88.68
+            },
+            {
+              "lineId": "p3-line-8",
+              "line": 8,
+              "quote": "I can see why the Luddites felt so threatened",
+              "revealAt": 91.3
+            },
+            {
+              "lineId": "p3-line-9",
+              "line": 9,
+              "quote": "I’m sure I would have felt the same",
+              "revealAt": 94.32
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO opinions about the Luddites do the students express?",
+          "groupQuestions": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": "p3-q22",
+          "question": 22,
+          "start": 76.14,
+          "end": 94.32,
+          "endLine": 9,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：ultimately, they didn’t achieve anything / created more jobs than it destroyed",
+          "evidence": [
+            {
+              "lineId": "p3-line-5",
+              "line": 5,
+              "quote": "ultimately, they didn’t achieve anything",
+              "revealAt": 78.86
+            },
+            {
+              "lineId": "p3-line-6",
+              "line": 6,
+              "quote": "created more jobs than it destroyed",
+              "revealAt": 83.44
+            },
+            {
+              "lineId": "p3-line-7",
+              "line": 7,
+              "quote": "Yes, that’s true",
+              "revealAt": 88.68
+            },
+            {
+              "lineId": "p3-line-8",
+              "line": 8,
+              "quote": "I can see why the Luddites felt so threatened",
+              "revealAt": 91.3
+            },
+            {
+              "lineId": "p3-line-9",
+              "line": 9,
+              "quote": "I’m sure I would have felt the same",
+              "revealAt": 94.32
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO opinions about the Luddites do the students express?",
+          "groupQuestions": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": "p3-q23",
+          "question": 23,
+          "start": 112.66,
+          "end": 139.74,
+          "endLine": 20,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：I can’t see how people are about to have more leisure time, when all the evidence shows people are spending longer than ever at work / No – that’s true",
+          "evidence": [
+            {
+              "lineId": "p3-line-14",
+              "line": 14,
+              "quote": "I can’t see how people are about to have more leisure time, when all the evidence shows people are spending longer than ever at work",
+              "revealAt": 121.04
+            },
+            {
+              "lineId": "p3-line-15",
+              "line": 15,
+              "quote": "No – that’s true",
+              "revealAt": 122.84
+            },
+            {
+              "lineId": "p3-line-16",
+              "line": 16,
+              "quote": "And what about lower unemployment",
+              "revealAt": 125.06
+            },
+            {
+              "lineId": "p3-line-17",
+              "line": 17,
+              "quote": "I’m not so sure about that",
+              "revealAt": 127.16
+            },
+            {
+              "lineId": "p3-line-18",
+              "line": 18,
+              "quote": "Perhaps in the long term – but not in the foreseeable future",
+              "revealAt": 131.42
+            }
+          ],
+          "distractors": [
+            {
+              "line": 20,
+              "quote": "That’s already happening",
+              "candidateAt": 139.74,
+              "rejectAt": 139.74,
+              "why": "中伏位：C 提到人們會工作到更老，男學生反而說 “That’s already happening”，並沒有質疑。A 則是女學生很喜歡的樂觀想法，沒有形成雙方共同懷疑。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO predictions about the future of work are the students doubtful about?",
+          "groupQuestions": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": "p3-q24",
+          "question": 24,
+          "start": 112.66,
+          "end": 139.74,
+          "endLine": 20,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：I can’t see how people are about to have more leisure time, when all the evidence shows people are spending longer than ever at work / No – that’s true",
+          "evidence": [
+            {
+              "lineId": "p3-line-14",
+              "line": 14,
+              "quote": "I can’t see how people are about to have more leisure time, when all the evidence shows people are spending longer than ever at work",
+              "revealAt": 121.04
+            },
+            {
+              "lineId": "p3-line-15",
+              "line": 15,
+              "quote": "No – that’s true",
+              "revealAt": 122.84
+            },
+            {
+              "lineId": "p3-line-16",
+              "line": 16,
+              "quote": "And what about lower unemployment",
+              "revealAt": 125.06
+            },
+            {
+              "lineId": "p3-line-17",
+              "line": 17,
+              "quote": "I’m not so sure about that",
+              "revealAt": 127.16
+            },
+            {
+              "lineId": "p3-line-18",
+              "line": 18,
+              "quote": "Perhaps in the long term – but not in the foreseeable future",
+              "revealAt": 131.42
+            }
+          ],
+          "distractors": [
+            {
+              "line": 20,
+              "quote": "That’s already happening",
+              "candidateAt": 139.74,
+              "rejectAt": 139.74,
+              "why": "中伏位：C 提到人們會工作到更老，男學生反而說 “That’s already happening”，並沒有質疑。A 則是女學生很喜歡的樂觀想法，沒有形成雙方共同懷疑。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO predictions about the future of work are the students doubtful about?",
+          "groupQuestions": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": "p3-q25",
+          "question": 25,
+          "start": 197.4,
+          "end": 209.3,
+          "endLine": 25,
+          "answer": "G",
+          "accepted": [
+            "G"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：there are more of them than ever / They’re still really in demand and have become far more efficient",
+          "evidence": [
+            {
+              "lineId": "p3-line-23",
+              "line": 23,
+              "quote": "there are more of them than ever",
+              "revealAt": 203.56
+            },
+            {
+              "lineId": "p3-line-24",
+              "line": 24,
+              "quote": "They’re still really in demand and have become far more efficient",
+              "revealAt": 207.36
+            }
+          ],
+          "distractors": [],
+          "questionText": "Accountants"
+        },
+        {
+          "id": "p3-q26",
+          "question": 26,
+          "start": 214.58,
+          "end": 234.28,
+          "endLine": 29,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：demand for hairdressing / people’s earning power has gone up so they can afford to spend more on personal services like that",
+          "evidence": [
+            {
+              "lineId": "p3-line-27",
+              "line": 27,
+              "quote": "demand for hairdressing",
+              "revealAt": 220.32
+            },
+            {
+              "lineId": "p3-line-29",
+              "line": 29,
+              "quote": "people’s earning power has gone up so they can afford to spend more on personal services like that",
+              "revealAt": 234.28
+            }
+          ],
+          "distractors": [],
+          "questionText": "Hairdressers"
+        },
+        {
+          "id": "p3-q27",
+          "question": 27,
+          "start": 243.16,
+          "end": 260.42,
+          "endLine": 34,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：changed enormously / dictation and typing",
+          "evidence": [
+            {
+              "lineId": "p3-line-32",
+              "line": 32,
+              "quote": "changed enormously",
+              "revealAt": 248.78
+            },
+            {
+              "lineId": "p3-line-33",
+              "line": 33,
+              "quote": "dictation and typing",
+              "revealAt": 253.72
+            },
+            {
+              "lineId": "p3-line-34",
+              "line": 34,
+              "quote": "Really boring compared to these days",
+              "revealAt": 260.42
+            },
+            {
+              "lineId": "p3-line-34",
+              "line": 34,
+              "quote": "they’re given much more responsibility and higher status",
+              "revealAt": 260.42
+            }
+          ],
+          "distractors": [],
+          "questionText": "Administrative staff"
+        },
+        {
+          "id": "p3-q28",
+          "question": 28,
+          "start": 270.28,
+          "end": 282.98,
+          "endLine": 39,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：But the 1871 census showed that roughly 25% of the population worked on the land. / YOUNG MAN: Yeah, I’d have assumed it would be more than 50%.",
+          "evidence": [
+            {
+              "lineId": "p3-line-37",
+              "line": 37,
+              "quote": "But the 1871 census showed that roughly 25% of the population worked on the land.",
+              "revealAt": 277.02
+            },
+            {
+              "lineId": "p3-line-38",
+              "line": 38,
+              "quote": "YOUNG MAN: Yeah, I’d have assumed it would be more than 50%.",
+              "revealAt": 280.18
+            },
+            {
+              "lineId": "p3-line-39",
+              "line": 39,
+              "quote": "Now it’s less than 0.2%.",
+              "revealAt": 282.98
+            }
+          ],
+          "distractors": [],
+          "questionText": "Agricultural workers"
+        },
+        {
+          "id": "p3-q29",
+          "question": 29,
+          "start": 285.24,
+          "end": 296.78,
+          "endLine": 43,
+          "answer": "F",
+          "accepted": [
+            "F"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：They barely existed / this sector will see huge growth",
+          "evidence": [
+            {
+              "lineId": "p3-line-41",
+              "line": 41,
+              "quote": "They barely existed",
+              "revealAt": 290.08
+            },
+            {
+              "lineId": "p3-line-42",
+              "line": 42,
+              "quote": "this sector will see huge growth",
+              "revealAt": 293.74
+            },
+            {
+              "lineId": "p3-line-43",
+              "line": 43,
+              "quote": "it’s hard enough to meet current demand",
+              "revealAt": 296.78
+            }
+          ],
+          "distractors": [],
+          "questionText": "Care workers"
+        },
+        {
+          "id": "p3-q30",
+          "question": 30,
+          "start": 297.72,
+          "end": 312.48,
+          "endLine": 47,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：The future looks quite bleak for bank clerks / They’ve been in decline since ATMs were introduced",
+          "evidence": [
+            {
+              "lineId": "p3-line-44",
+              "line": 44,
+              "quote": "The future looks quite bleak for bank clerks",
+              "revealAt": 300.74
+            },
+            {
+              "lineId": "p3-line-45",
+              "line": 45,
+              "quote": "They’ve been in decline since ATMs were introduced",
+              "revealAt": 304.74
+            },
+            {
+              "lineId": "p3-line-46",
+              "line": 46,
+              "quote": "technology will certainly make most of the jobs they do now redundant",
+              "revealAt": 309.44
+            }
+          ],
+          "distractors": [],
+          "questionText": "Bank clerks"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "evidence"
+        },
+        {
+          "line": 6,
+          "role": "evidence"
+        },
+        {
+          "line": 7,
+          "role": "evidence"
+        },
+        {
+          "line": 8,
+          "role": "evidence"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "evidence"
+        },
+        {
+          "line": 15,
+          "role": "evidence"
+        },
+        {
+          "line": 16,
+          "role": "evidence"
+        },
+        {
+          "line": 17,
+          "role": "evidence"
+        },
+        {
+          "line": 18,
+          "role": "evidence"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "evidence"
+        },
+        {
+          "line": 24,
+          "role": "evidence"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "evidence"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "evidence"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "evidence"
+        },
+        {
+          "line": 38,
+          "role": "evidence"
+        },
+        {
+          "line": 39,
+          "role": "evidence"
+        },
+        {
+          "line": 40,
+          "role": "context"
+        },
+        {
+          "line": 41,
+          "role": "evidence"
+        },
+        {
+          "line": 42,
+          "role": "evidence"
+        },
+        {
+          "line": 43,
+          "role": "evidence"
+        },
+        {
+          "line": 44,
+          "role": "evidence"
+        },
+        {
+          "line": 45,
+          "role": "evidence"
+        },
+        {
+          "line": 46,
+          "role": "evidence"
+        },
+        {
+          "line": 47,
+          "role": "context"
+        },
+        {
+          "line": 48,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Space Traffic Management",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD ONLY for each answer.",
+      "audioSha256": "0098edbf60f322d537e8172ac2782ae6d08085dd9969885fe8f0882be597679e",
+      "transcriptSha256": "23d1c720b6aea3325534d140853380200a9fc97acea7aed598723fe530bf3216",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2011%20Part%204.mp3",
+      "duration": 385.5935,
+      "cues": [
+        {
+          "id": "p4-q31",
+          "question": 31,
+          "start": 116.82,
+          "end": 127.96,
+          "endLine": 5,
+          "answer": "technical",
+          "accepted": [
+            "technical"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：a set of legal measures / develop the technical systems to enable us to prevent such accidents",
+          "evidence": [
+            {
+              "lineId": "p4-line-5",
+              "line": 5,
+              "quote": "a set of legal measures",
+              "revealAt": 127.96
+            },
+            {
+              "lineId": "p4-line-5",
+              "line": 5,
+              "quote": "develop the technical systems to enable us to prevent such accidents",
+              "revealAt": 127.96
+            }
+          ],
+          "distractors": [],
+          "questionText": "● would aim to set up legal and 31 __________ ways of improving safety."
+        },
+        {
+          "id": "p4-q32",
+          "question": 32,
+          "start": 142.02,
+          "end": 153.76,
+          "endLine": 8,
+          "answer": "cheap",
+          "accepted": [
+            "cheap"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：more people can afford to put them into space / satellites are relatively cheap these days, compared with how they were in the past",
+          "evidence": [
+            {
+              "lineId": "p4-line-8",
+              "line": 8,
+              "quote": "more people can afford to put them into space",
+              "revealAt": 153.76
+            },
+            {
+              "lineId": "p4-line-8",
+              "line": 8,
+              "quote": "satellites are relatively cheap these days, compared with how they were in the past",
+              "revealAt": 153.76
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Satellites are now quite 32 __________ and therefore more widespread,"
+        },
+        {
+          "id": "p4-q33",
+          "question": 33,
+          "start": 154.64,
+          "end": 166.56,
+          "endLine": 9,
+          "answer": "thousands",
+          "accepted": [
+            "thousands"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：whole constellations, consisting of thousands of them designed to work together",
+          "evidence": [
+            {
+              "lineId": "p4-line-9",
+              "line": 9,
+              "quote": "whole constellations, consisting of thousands of them designed to work together",
+              "revealAt": 166.56
+            }
+          ],
+          "distractors": [],
+          "questionText": "e.g. there are constellations made up of 33 __________ of satellites."
+        },
+        {
+          "id": "p4-q34",
+          "question": 34,
+          "start": 171.62,
+          "end": 186.76,
+          "endLine": 11,
+          "answer": "identification",
+          "accepted": [
+            "identification"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：it doesn’t have to send back any information to Earth to allow its identification",
+          "evidence": [
+            {
+              "lineId": "p4-line-11",
+              "line": 11,
+              "quote": "it doesn’t have to send back any information to Earth to allow its identification",
+              "revealAt": 186.76
+            }
+          ],
+          "distractors": [],
+          "questionText": "with their 34 __________."
+        },
+        {
+          "id": "p4-q35",
+          "question": 35,
+          "start": 188.02,
+          "end": 205.68,
+          "endLine": 12,
+          "answer": "tracking",
+          "accepted": [
+            "tracking"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：we don’t have anything like enough proper ways of tracking them",
+          "evidence": [
+            {
+              "lineId": "p4-line-12",
+              "line": 12,
+              "quote": "we don’t have anything like enough proper ways of tracking them",
+              "revealAt": 205.68
+            }
+          ],
+          "distractors": [],
+          "questionText": "● There are few systems for 35 __________ satellites."
+        },
+        {
+          "id": "p4-q36",
+          "question": 36,
+          "start": 238.44,
+          "end": 250.38,
+          "endLine": 17,
+          "answer": "military",
+          "accepted": [
+            "military"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：a satellite may be designed for military purposes, or it may have been launched for commercial reasons",
+          "evidence": [
+            {
+              "lineId": "p4-line-17",
+              "line": 17,
+              "quote": "a satellite may be designed for military purposes, or it may have been launched for commercial reasons",
+              "revealAt": 250.38
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Operators may be unwilling to share details of satellites used for 36 __________ or commercial reasons."
+        },
+        {
+          "id": "p4-q37",
+          "question": 37,
+          "start": 258.7,
+          "end": 265.4,
+          "endLine": 19,
+          "answer": "location",
+          "accepted": [
+            "location"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Details are needed about the object itself, as well as about its location at a particular time",
+          "evidence": [
+            {
+              "lineId": "p4-line-19",
+              "line": 19,
+              "quote": "Details are needed about the object itself, as well as about its location at a particular time",
+              "revealAt": 265.4
+            }
+          ],
+          "distractors": [],
+          "questionText": "● It may be hard to collect details of the object’s 37 __________ at a given"
+        },
+        {
+          "id": "p4-q38",
+          "question": 38,
+          "start": 274.02,
+          "end": 288.2,
+          "endLine": 21,
+          "answer": "prediction",
+          "accepted": [
+            "prediction"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：We don’t have any sensors that can constantly follow something moving so fast / all that the scientists can do is to put forward a prediction concerning where the satellite is heading next",
+          "evidence": [
+            {
+              "lineId": "p4-line-21",
+              "line": 21,
+              "quote": "We don’t have any sensors that can constantly follow something moving so fast",
+              "revealAt": 288.2
+            },
+            {
+              "lineId": "p4-line-21",
+              "line": 21,
+              "quote": "all that the scientists can do is to put forward a prediction concerning where the satellite is heading next",
+              "revealAt": 288.2
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Scientists can only make a 38 __________ about where the satellite will"
+        },
+        {
+          "id": "p4-q39",
+          "question": 39,
+          "start": 331.68,
+          "end": 343.44,
+          "endLine": 27,
+          "answer": "database",
+          "accepted": [
+            "database"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：it needs to be put together so it can be used / creating a single database on which it can be entered",
+          "evidence": [
+            {
+              "lineId": "p4-line-27",
+              "line": 27,
+              "quote": "it needs to be put together so it can be used",
+              "revealAt": 343.44
+            },
+            {
+              "lineId": "p4-line-27",
+              "line": 27,
+              "quote": "creating a single database on which it can be entered",
+              "revealAt": 343.44
+            }
+          ],
+          "distractors": [],
+          "questionText": "● The information should be combined in one 39 __________."
+        },
+        {
+          "id": "p4-q40",
+          "question": 40,
+          "start": 361.82,
+          "end": 371.32,
+          "endLine": 30,
+          "answer": "trust",
+          "accepted": [
+            "trust"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：But it’s also essential that this system is one that establishes trust in the people that use it, both nationally and at a global level.",
+          "evidence": [
+            {
+              "lineId": "p4-line-30",
+              "line": 30,
+              "quote": "But it’s also essential that this system is one that establishes trust in the people that use it, both nationally and at a global level.",
+              "revealAt": 371.32
+            }
+          ],
+          "distractors": [],
+          "questionText": "● A coordinated system must be designed to create 40 __________ in its"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "evidence"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "evidence"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "evidence"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        }
+      ]
+    }
+  ]
+}

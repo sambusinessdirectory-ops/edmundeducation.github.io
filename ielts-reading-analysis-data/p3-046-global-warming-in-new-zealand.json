@@ -1,0 +1,2214 @@
+{
+  "id": "p3-046-global-warming-in-new-zealand",
+  "catalogueId": "p3-046",
+  "catalogueIds": [
+    "p3-046"
+  ],
+  "passage": 3,
+  "title": "Global Warming in New Zealand",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "D",
+    "B",
+    "C",
+    "C",
+    "A",
+    "A",
+    "high tides",
+    "agricultural production",
+    "coastal boundaries",
+    "NOT GIVEN",
+    "NO",
+    "NOT GIVEN",
+    "YES",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "D — New Zealand’s temperature will increase less than that of other regions in the",
+      "answerKey": "D — New Zealand’s temperature will increase less than that of other regions in the",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "第一段的主要意思是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "next 100 years because it is surrounded by sea題目問： What is the main idea of the first paragraph?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 main idea 題，不是細節題。題目指定 first paragraph，所以我們要找第一段的中心意思，而不是只抓某一句孤立資料。Main idea 題要看段落整體走向：第一段先說全球變暖，再說新西蘭也變暖，然後比較新西蘭和 polar region 的升溫幅度，最後解釋原因是周圍海洋有調節作用。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For many environmentalists, the world seems to be getting warmer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對許多環保人士來說，世界似乎正在變得更暖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus New Zealand is comparatively fortunate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，新西蘭相對來說是幸運的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一句和最後一句，可以先猜這段在講「全球變暖的大背景下，新西蘭的情況相對較輕」。第一句提出全球暖化，最後一句用 comparatively fortunate 總結新西蘭的相對優勢。這已經提示我們，答案應該包含「新西蘭升溫較低」和「原因」兩部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● main idea● first paragraph● New Zealand● next century● surrounding ocean原文中最關鍵的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the temperature in New Zealand will go up 4°C in the next century while the polar region will go up more than 6°C.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在下一個世紀，新西蘭的氣溫會上升 4°C，而極地地區會上升超過 6°C。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“New Zealand’s lower projected increase is due to the surrounding ocean, which acts like an air conditioner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新西蘭預計升溫較低，是因為周圍的海洋像冷氣機一樣發揮調節作用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來就是完整答案鏈： 1. 新西蘭未來一百年氣溫會上升； 2. 但升幅比 polar region 低； 3. 原因是 surrounding ocean； 4. 海洋像 air conditioner，能調節氣溫； 5. 所以新西蘭 comparatively fortunate。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 說： New Zealand’s temperature will increase less than that of other regions in the next 100 years because it is surrounded by sea這正好把原文兩句合併成段落中心：● increase less = lower projected increase；● next 100 years = next century；● surrounded by sea = surrounding ocean；● because = is due to。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯。它說 polar region 的升溫會比新西蘭少，但原文是 polar region 會上升 more than 6°C，新西蘭只上升 4°C，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 太籠統。原文確實提到新西蘭靠近 South Polar Region，但第一段重點不是「天氣氣候對人民很重要」，也沒有討論 people 的生活重要性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 無原文支援。原文說 ocean acts like an air conditioner，是調節溫度，不是維持 high air quality。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 正確。它概括了新西蘭升溫較低及其原因。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤選的是 A。A 也有 polar region 和 New Zealand 兩個原文概念，但比較方向錯了。這題要特別看數字：4°C 和 more than 6°C。數字不只提供資料，也控制比較方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "B — New Zealand will face droughts more often in the hotter months of the year.",
+      "answerKey": "B — New Zealand will face droughts more often in the hotter months of the year.",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "環繞南大洋的風帶有甚麼其中一個影響？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What is one effect of the wind belt that circles the Southern Ocean?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 one effect，而且定位詞很明顯：wind belt that circles the Southern Ocean。這會直接帶到 SAM 的解釋。題目不是問 SAM 的定義，而是問它造成的影響。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientifically speaking, this temperature phenomenon in New Zealand is associated with what researchers call ‘SAM’ (Southern Annular Mode), which refers to the wind belt that circles the Southern Ocean around New Zealand and Antarctica.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從科學角度來說，新西蘭的這種氣溫現象與研究人員稱為 SAM（南半球環狀模）的東西有關； SAM 指的是環繞新西蘭和南極洲周圍南大洋的風帶。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A bigger problem may turn out to be more severe agricultural droughts, as increased water loss from the soil results in poorer harvests when winter rainfall arrives too late to save them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更大的問題可能會是更嚴重的農業乾旱，因為土壤水分流失增加，當冬季降雨來得太遲而無法挽救作物時，收成會變差。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接定義 wind belt；尾句總結其可能帶來的農業乾旱問題。因此 Question 28 目標段落就是Paragraph 2。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● wind belt● Southern Ocean● effect● droughts● summer / hotter months原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet recent work has revealed that changes in SAM in New Zealand have resulted in a reduction in the moisture carried by winds during summer, and more rainfall in other seasons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，最新研究顯示，新西蘭 SAM 的變化導致夏季由風帶來的水分減少，而其他季節則有更多降雨。"
+            },
+            {
+              "kind": "label",
+              "text": "再接："
+            },
+            {
+              "kind": "quote",
+              "text": "“A bigger problem may turn out to be more severe agricultural droughts…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更大的問題可能會是更嚴重的農業乾旱。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的因果鏈是：● SAM changes；● summer winds carry less moisture；● soil loses more water；● agricultural droughts become more severe；● harvests become poorer if winter rain comes too late。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 說新西蘭在較熱月份會更常面對乾旱。原文沒有逐字寫 more often，但它說 more severe agricultural droughts，而且明確把問題放在 during summer。四個選項中，B 最貼近這條因果鏈。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯。原文說 summer winds carry less moisture，A 說 winds will contain more moisture，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。summer moisture reduction 和 more severe agricultural droughts 支持這個選項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。原文說 increased water loss from soil，並沒有說 soil moisture will increase。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 有部分原文字眼，但因果錯。原文說其他季節降雨增加，真正問題是冬季降雨可能來得太遲，無法挽救作物。D 把「其他季節更多降雨」直接寫成農業減產原因，關係不精準。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 很有迷惑性，因為它抓住 more rainfall in other seasons 和 agricultural production。可是原文的減產不是由「更多降雨」直接造成，而是由夏季水分不足、土壤水分流失、冬季降雨太遲造成。做因果題時，要把整條鏈讀完整，不能只抓相鄰字眼。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — There will be a huge gap between the water plants need and the water available",
+      "answerKey": "C — There will be a huge gap between the water plants need and the water available",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "對穀物和作物來說，moisture deficit 是甚麼意思？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "from the soil.題目問： What does “moisture deficit” mean for grain and crops?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是定義題。題目直接問 moisture deficit 的意思，所以要找原文中明確定義。這類題通常答案會在術語第一次出現後面，尤其常見句型是 X is… 或 X refers to…。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among all the problems caused by drought, moisture deficit is the most serious.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在乾旱造成的所有問題中，水分虧缺是最嚴重的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If moisture deficit occurs around a crucial growth stage, it will reduce grain yield by about 22 per cent compared with a deficit during the vegetative phase.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果水分虧缺發生在關鍵生長階段，與營養生長期發生水分虧缺相比，穀物產量會減少約 22%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提出術語並說它最嚴重；尾句說它會影響 grain yield。因此本段必定處理 moisture deficit 的定義和後果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● moisture deficit● mean● grain and crops● water plants need● soil原文定義句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moisture deficit is the gap between the water plants need during the growing season and the water available from the soil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水分虧缺是指植物在生長季節所需要的水量，與土壤中可用水量之間的差距。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是直接答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的結構很清楚：● 主語：Moisture deficit● 動詞：is● 補語：the gap between A and B A 是： the water plants need during the growing season植物在生長季節需要的水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 是： the water available from the soil土壤可提供的水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 moisture deficit 的意思是「需要量」與「可用量」之間的差距。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 太概括。作物生長條件會變困難是結果，但題目問 definition，原文定義是 gap。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 無支援。原文沒有說 growing season 難以判定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確。它幾乎直接改寫原文定義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 把幾件事混在一起。原文說 moisture deficit measures were highest since the 1970s，但沒有說 soil productivity recorded its lowest productivity。這是把 measurement 和 productivity 混淆。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文： the gap between the water plants need … and the water available from the soil選項 C： a huge gap between the water plants need and the water available from the soil兩者核心完全一致。選項加入 huge，原文沒有這個形容詞，但 Paragraph 3 說它是 most serious，且 measures were at their highest since the 1970s，所以 C 仍是最合理答案。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 最容易吸引學生，因為它說的是合理後果。但 IELTS 問 mean 時，優先找定義句，不要把結果當成意思。這題真正控制答案的是 is the gap between… and…。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "C — Snowfall may increase at some ski resorts.",
+      "answerKey": "C — Snowfall may increase at some ski resorts.",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "由於全球暖化，滑雪業會出現甚麼變化？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What changes will happen to the skiing industry due to the global warming phenomenon?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目主體是 skiing industry，定位很直接。這題不是問農業，也不是問整體冰川，而是問滑雪業的具體變化。要找 snow line、snowpack、skiing industry、snowfall。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Global warming is not only affecting agricultural production.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球暖化影響的不只是農業生產。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fortunately, increased snowfall in some areas may help the local skiing industry through difficult periods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幸運的是，一些地區降雪增加，可能會幫助當地滑雪業度過困難時期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句表示本段由農業轉向其他影響；尾句直接提到 skiing industry 和 increased snowfall。因此本題定位在 Paragraph 4。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● skiing industry● global warming● snow line● snowfall● ski resorts原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, when global warming is accompanied by a rising snow line, the local skiing industry faces a crisis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，當全球暖化伴隨雪線上升時，當地滑雪業會面臨危機。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fortunately, increased snowfall in some areas may help the local skiing industry through difficult periods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幸運的是，一些地區降雪增加，可能會幫助當地滑雪業度過困難時期。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文對滑雪業的描述有兩面： 1. rising snow line：雪線上升； 2. snow at the bottom will melt earlier：底部的雪較早融化； 3. increased snowfall in some areas may help：一些地區降雪增加，可能幫助滑雪業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 說： Snowfall may increase at some ski resorts.這對應原文 increased snowfall in some areas。雖然原文說 some areas，不是直接說 ski resorts，但上下文講的是 local skiing industry，所以把 some areas 概括為 some ski resorts 是可接受的。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 錯。原文說 snow line may move up，即滑雪高度可能上移，不是降低 skiing altitude。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 無支援。原文沒有說 ski resorts 要 move north。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確。它對應 increased snowfall in some areas。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 過度推論。原文只說 increased snowfall may help through difficult periods，沒有說 ski resorts會因此 make a profit。Help through difficulty 不等於盈利。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 有吸引力，因為 increased snowfall 聽起來對滑雪業有利。可是原文語氣很保守：may help，而且只是 through difficult periods。題目若說 make a profit，就加入了原文沒有承諾的商業結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "A — Alterations in the volume and thickness of glaciers.",
+      "answerKey": "A — Alterations in the volume and thickness of glaciers.",
+      "type": "Multiple Choice",
+      "prompt": "Cumulative changes over a long period of time in mass balance will lead to…",
+      "translation": "長時間累積的 mass balance 變化會導致甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是冰川反應鏈中的第一個結果。定位詞非常明顯：● cumulative changes● long period of time● mass balance● volume and thickness要注意這題考的是「直接導致」還是「最終導致」。原文中有一串連鎖反應，答案要選題目指定位置對應的那一步。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How do glacier regions respond?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冰川地區會如何回應？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Undoubtedly, glacier mass balance is a more direct signal of annual atmospheric conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，冰川物質平衡是年度大氣條件更直接的信號。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提出 glacier regions respond，尾句提到 glacier mass balance。因此本段會解釋冰川如何根據氣候變化產生一連串變化。題目中的 mass balance 正是本段核心詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● cumulative changes● mass balance● volume● thickness原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over periods ranging from years to several decades, cumulative changes in mass balance cause volume and thickness changes, which affect the flow of ice via altered internal deformation and basal sliding.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在從數年到數十年的時間範圍內，物質平衡的累積變化會造成體積和厚度的變化，而這些變化會透過改變內部變形和底部滑動來影響冰流。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文句子的因果鏈是： 1. cumulative changes in mass balance 2. cause volume and thickness changes 3. these affect the flow of ice 4. through altered internal deformation and basal sliding 5. finally leads to changes in glacier length題目問的是 will lead to，而且句子主體正是 cumulative changes… in mass balance。最直接對應的是第二步：volume and thickness changes。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。它直接對應 cause volume and thickness changes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 不精準。原文說 volume and thickness changes affect ice flow via altered internal deformation and basal sliding，沒有說 internal deformation and basal sliding become faster。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 太單向。原文說 changes in glacier length，可能 advance or retreat，不一定 increase。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 把後面另一句混進來。原文說 mass balance is a direct signal of annual atmospheric conditions，但 glacier tongue retreat 不是由 annual atmospheric conditions 這句直接推出。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 和 D 都抓到段落後面的概念，但題目問的是 cumulative changes in mass balance 的直接結果。做這種 chain 題時，要在原文中標出每一步，不要跳到最後一步或另一條補充句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "A — To use a particular example to explain the effects of glacier melting.",
+      "answerKey": "A — To use a particular example to explain the effects of glacier melting.",
+      "type": "Multiple Choice",
+      "prompt": "Question 32",
+      "translation": "作者為甚麼在第六段提到 NIWA？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： Why does the writer mention NIWA in the sixth paragraph?"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 purpose 題，問作者提到 NIWA 的功能。這類題不能只看 NIWA 這個名字，也要看它後面引出的資料：glacier line moving up、Mount Cook、Hooker Lake、glacier retreat、lake growth。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The latest research from the National Institute of Water and Atmospheric Research (NIWA) shows that the glacier line keeps moving up because of the impacts of global warming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自國家水與大氣研究所（NIWA）的最新研究顯示，由於全球暖化的影響，冰川線持續上移。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therefore, the lake will continue to grow until it reaches the glacier bed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，這個湖會繼續擴大，直到它到達冰川床。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句引用研究機構，尾句說湖會繼續擴大。這段功能是用研究和具體地區例子說明冰川融化後的可見後果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● NIWA● sixth paragraph● glacier line● Mount Cook● Hooker Lake原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“The latest research from the National Institute of Water and Atmospheric Research (NIWA) shows that the glacier line keeps moving up because of the impacts of global warming.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "NIWA 的最新研究顯示，受全球暖化影響，冰川線持續上移。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Further ice loss is evident in the Mount Cook region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Mount Cook 地區，進一步冰量流失十分明顯。"
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1996, a 14-km-long sector of the glacier had melted, forming a melt lake (Hooker Lake).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1996 年，一段長 14 公里的冰川已經融化，形成了一個融水湖，即 Hooker Lake。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀作者功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "NIWA 在這裡不是題目主角本身，而是提供研究來源，支持「glacier line keeps moving up」這一觀察。接著，文章轉到 Mount Cook region 和 Hooker Lake，用具體地區和數字呈現冰川融化的後果：● glacier line keeps moving up；● ice loss in Mount Cook；● 14-km-long sector melted；● Hooker Lake formed；● glacier front melts at 40 m per year；● lake will continue to grow。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 說作者用 particular example 解釋 glacier melting 的 effects。這正好概括第六段作用。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。NIWA 研究加上 Mount Cook / Hooker Lake 例子，用來說明冰川融化帶來的具體影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 有一定吸引力，但 severity 是選項加入的判斷。原文說 further ice loss is evident，也有 14 km melted，但作者主要是在展示效果和過程，不是單純強調「嚴重程度」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 不準確。原文說 glacier front at a rate of 40 m per year，但沒有說所有 glaciers 都以 uniform rate 融化。這只是該處 glacier front 的描述。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯。原文說 lake will continue to grow，D 說 lake will disappear，方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 的迷惑性最高，因為 Mount Cook 的冰量流失看起來很嚴重。但題目問「為何提到 NIWA」，作者先引用研究，再用 Mount Cook 和 Hooker Lake 展示冰川融化造成甚麼。因此 A 的範圍更完整，能覆蓋整段功能。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "high tides",
+      "answerKey": "high tides",
+      "type": "Summary Completion",
+      "prompt": "The major reason for the increase in sea level is connected with 33 _______.",
+      "translation": "海平面上升的主要原因與 ______ 有關。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 summary completion。空格前是 connected with，後面需要一個名詞或名詞短語，而且答案要來自原文，最多兩個字。summary 主題是 sea level，所以應定位到講 sea-level rise 的段落。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A direct result of melting glaciers is a change in high tides, which is a major factor in sea-level rise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冰川融化的一個直接結果是高漲潮發生變化，而這是海平面上升的一個主要因素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, the coastal boundaries need to be upgraded and redefined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "確實，沿海邊界需要升級並重新界定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接提到 sea-level rise；尾句提到 coastal boundaries。這正好對應 Questions 33–35 三個空格。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● sea level● major reason● connected with原文最關鍵的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a change in high tides, which is a major factor in sea-level rise”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高漲潮的變化是海平面上升的一個主要因素。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 which 指向前面的 a change in high tides。所以 major factor in sea-level rise 對應的是 high tides 的變化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案要填原文字，而且最多兩個字。最合適答案是： high tides"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易寫 melting glaciers。因為句子一開始說 A direct result of melting glaciers…，融冰確實和海平面上升有關。但 summary 的表述是 major reason / major factor，原文中直接被which is a major factor 修飾的是 a change in high tides。在字數限制下，答案應填 high tides。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "agricultural production",
+      "answerKey": "agricultural production",
+      "type": "Summary Completion",
+      "prompt": "The rise in sea level also threatens the groundwater system; its destruction may lead to a reduction in 34 _______.",
+      "translation": "海平面上升也威脅地下水系統；地下水系統受破壞可能導致 ______ 減少。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 a reduction in，所以答案需要名詞或名詞短語。題目提到 groundwater system，應該仍在 Paragraph 7。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A direct result of melting glaciers is a change in high tides, which is a major factor in sea-level rise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冰川融化的一個直接結果是高漲潮發生變化，而這是海平面上升的一個主要因素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, the coastal boundaries need to be upgraded and redefined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "確實，沿海邊界需要升級並重新界定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段先講海平面上升，接著講地下水，再講農業和 coastal boundaries。因此 Question 34 很可能在中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● groundwater system● reduce● agricultural原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trend of rising sea levels threatens the groundwater system by making groundwater hypersaline and may then reduce agricultural production.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "海平面上升的趨勢會使地下水變得過度鹽化，從而威脅地下水系統，並可能進一步減少農業生產。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有清楚因果鏈：● rising sea levels；● threaten groundwater system；● groundwater becomes hypersaline；● may then reduce agricultural production。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 may then reduce 改成 may lead to a reduction in。空格要填被減少的東西，即： agricultural production字數檢查： agricultural 一字，production 一字，共兩字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 groundwater system。那是被威脅的對象，不是 reduction 的對象。題目空格前是 a reduction in，所以要找原文中 reduce 後面的名詞短語。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "coastal boundaries",
+      "answerKey": "coastal boundaries",
+      "type": "Summary Completion",
+      "prompt": "In the long run, New Zealand may have to upgrade its 35 _______ to reduce the effects of changing sea levels.",
+      "translation": "長遠而言，新西蘭可能需要升級其 ______，以減少海平面變化帶來的影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 upgrade its，所以答案應該是可被 upgrade 的名詞短語。題目中的 in the long run 對應原文 longer-term view，仍在 Paragraph 7。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A direct result of melting glaciers is a change in high tides, which is a major factor in sea-level rise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冰川融化的一個直接結果是高漲潮發生變化，而這是海平面上升的一個主要因素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, the coastal boundaries need to be upgraded and redefined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "確實，沿海邊界需要升級並重新界定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接有 upgraded，所以這題答案十分集中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● upgrade● long run● changing sea levels● boundaries原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many experts believe that the best way to counter this trend is to take a longer-term view of sea-level change in New Zealand. Indeed, the coastal boundaries need to be upgraded and redefined.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多專家認為，應對這一趨勢的最佳方式，是以更長遠的角度看待新西蘭的海平面變化。確實，沿海邊界需要升級並重新界定。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的：● In the long run = take a longer-term view；● upgrade its = need to be upgraded；● changing sea levels = sea-level change；● 空格答案 = coastal boundaries。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是： coastal boundaries字數檢查：兩個字，符合要求。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 sea-level change。它是要應對的問題，不是被 upgrade 的物件。真正能接在 upgrade its 後面的，是 coastal boundaries。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "Farmers respond less to climate change than agricultural experts do.",
+      "translation": "農民對氣候變化的回應比農業專家少。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN，問作者的 claim。題目有一個比較關係：● farmers；● agricultural experts；● respond less than。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要選 YES，原文需要說 farmers 的回應較少。要選 NO，原文需要說 farmers 回應較多或一樣多，或明確否定這種比較。若文章只分別說兩方都有行動，沒有比較多少，答案就是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no doubt that global warming has affected New Zealand in many aspects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，全球暖化已在許多方面影響新西蘭。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In broad terms, going forward, the ecosystem’s long-established resilience is expected to continue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "概括來說，往後生態系統長久以來形成的韌性預計會延續。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提出多方面影響，段中談 local people、experts、farmers、agriculturists 的回應。這題提到farmers 和 agricultural experts，所以定位在 Paragraph 8。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● Farmers● agricultural experts● respond less● climate change原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The response to global warming should be based on the joint efforts of local people and experts to address difficult conditions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對全球暖化的回應應建立在當地人和專家的共同努力之上，以應對困難情況。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“For instance, farmers are taking a long-term, multigenerational approach to adjust breeds and species to changing temperatures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，農民正採取長期、跨世代的方法，調整品種和物種，以適應變化中的溫度。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Agriculturists also find ways to tackle the problems climate change may cause for the soil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "農業專家也在尋找方法，處理氣候變化可能對土壤造成的問題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀命題比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說兩件事：● farmers are taking a long-term approach；● agriculturists also find ways to tackle soil problems。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示兩者都有行動。可是題目說 farmers respond less than agricultural experts do，這需要一個比較程度：誰回應更多、誰回應較少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提供：● farmers respond less；● experts respond more；● farmers are slower；● experts are more active；● 兩者投入程度的比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案不能選 YES。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也不能選 NO，因為原文沒有說 farmers respond more，也沒有明確說兩者回應程度相同。原文只是並列兩方行動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目需要比較關係，但原文只提供並列資訊。缺少核心比較，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤判的是看到 also。also 表示 agriculturists 也有行動，但它不表示「比 farmers 更多」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "IELTS Reading 中，並列不等於比較。題目有 less than，就一定要找比較證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "The agricultural sector is too conservative and resistant to dealing with climate change.",
+      "translation": "農業界太保守，而且抗拒處理氣候變化。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問作者是否認為 agricultural sector 很保守、抗拒處理 climate change。要看 Paragraph 8 中農民和 agricultural experts 的行動描述。題目核心是：● too conservative● resistant● dealing with climate change"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is no doubt that global warming has affected New Zealand in many aspects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，全球暖化已在許多方面影響新西蘭。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In broad terms, going forward, the ecosystem’s long-established resilience is expected to continue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "概括來說，往後生態系統長久以來形成的韌性預計會延續。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的功能是講「如何回應全球暖化」。如果題目說 agricultural sector resistant，就要看原文是否呈現抗拒或行動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● agricultural sector● conservative● resistant● dealing with climate change原文沒有 conservative / resistant 這兩個字，但有相反方向的行動句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For instance, farmers are taking a long-term, multigenerational approach to adjust breeds and species to changing temperatures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，農民正採取長期、跨世代的方法，調整品種和物種，以適應變化中的溫度。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Agriculturists also find ways to tackle the problems climate change may cause for the soil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "農業專家也在尋找方法，處理氣候變化可能對土壤造成的問題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀原文態度"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文用的動詞非常重要：● are taking：正在採取；● adjust：調整；● find ways：尋找方法；● tackle：處理、應對。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些全部表示 agricultural sector 內的人正在面對問題和尋找解法。題目說 resistant to dealing with climate change，即抗拒處理。這和原文的行動方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "至於 too conservative，原文沒有直接評價農業界保守或不保守。不過整句題目的核心是「農業界抗拒處理 climate change」。原文清楚寫出 farmers 和 agriculturists 都在採取措施，因此題目整體方向與原文不符。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文提供了明確相反方向的證據：農民和農業專家都在主動調整、處理問題。所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "long-term, multigenerational approach 可能讓學生聯想到「保守」或「慢」。但 long-term 在這裡是策略性長遠調整，不代表抗拒。真正控制答案的是動詞 adjust 和 tackle。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "Sea turtles are vulnerable to climate change.",
+      "translation": "海龜容易受氣候變化傷害，或對氣候變化很脆弱。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要小心 vulnerable。它不只是「會受影響」，通常帶有「容易受害、處於風險中」的意思。原文如果只說溫度影響性別比例，但沒有說 harmful、at risk、endangered、vulnerable，就不能直接選YES。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“How about animals’ responses?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那麼動物的回應又如何？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clearly, the temperature of the nest determines the sex of hatchlings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顯然，巢穴的溫度決定幼龜的性別。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提出動物如何回應全球暖化；尾句聚焦海龜巢穴溫度與幼龜性別。題目提到 sea turtles，所以 Paragraph 9 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● sea turtles● climate change● vulnerable● temperature● sex ratio原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts have found that animals can adapt to global warming in unusual ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "專家發現，動物能以不尋常的方式適應全球暖化。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“A study has examined sea turtles on a few northern beaches in New Zealand and found that sea turtles become male or female depending on the nest temperature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一項研究檢視了新西蘭北部幾個海灘上的海龜，發現海龜成為雄性或雌性，取決於巢穴溫度。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Further research will try to find out how rising temperatures affect their sex ratio.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進一步研究會嘗試找出上升的溫度如何影響牠們的性別比例。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀是否足夠支持 vulnerable"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說：● sea turtles 的性別由 nest temperature 決定；● rising temperatures 可能影響 sex ratio；● 未來研究會進一步找出影響方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目說 vulnerable to climate change。要支援這句，原文最好要有：● sea turtles are at risk；● sea turtles are endangered by rising temperatures；● sex ratio imbalance will harm them；● climate change threatens sea turtle survival。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有這些資訊。它只說溫度和性別比例有關，並且說 animals can adapt in unusual ways。這不足以推出「脆弱」或「受害」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目作出一個風險評價；原文只提供「溫度會影響性別比例」和「仍需進一步研究」的資訊。核心風險判斷缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易選 YES，因為海龜的性別由溫度決定，聽起來確實可能受全球暖化影響。但 IELTS 要看文章是否明確支持 vulnerable 這個程度。原文說 Further research will try to find out how…，表示具體影響仍待研究，不能直接補出「脆弱受害」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "Global warming is progressing slowly, and it may have different effects on different areas in New Zealand.",
+      "translation": "全球暖化進展緩慢，並且可能對新西蘭不同地區產生不同影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩部分： 1. global warming is progressing slowly； 2. it may have different effects on different areas in New Zealand。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩部分都要在原文找到，才可選 YES。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tackling the problems of global warming is never easy in New Zealand, because records show that the slow process of global warming may have different impacts on various regions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在新西蘭處理全球暖化問題從來不容易，因為記錄顯示，全球暖化這個緩慢過程可能會對不同地區產生不同影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New Zealand accounts for only 0.5 per cent of the world’s carbon dioxide emissions, and its emissions meet government standards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新西蘭只佔全球二氧化碳排放量的 0.5%，而且其排放符合政府標準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已經幾乎完全對應題目，因此這題定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● progressing slowly● different effects● different areas● New Zealand原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“records show that the slow process of global warming may have different impacts on various regions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "記錄顯示，全球暖化這個緩慢過程可能會對不同地區產生不同影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀兩部分命題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目第一部分： Global warming is progressing slowly原文： the slow process of global warming對應完全清楚。slow process 就是 progressing slowly 的名詞化改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目第二部分： may have different effects on different areas in New Zealand原文： may have different impacts on various regions對應也很清楚：● different effects = different impacts；● different areas = various regions；● may = may。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目兩部分都和原文同方向，且程度詞 may 也一致。所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題較直接，但要留意 may。原文和題目都沒有說一定會有不同影響，只說可能。若選項改成definitely / certainly，答案就會不同。這題成立的關鍵，是 slow process 和 may have different impacts on various regions。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "New Zealand must cut carbon dioxide emissions if it wants to solve the problem of global warming.",
+      "translation": "如果新西蘭想解決全球暖化問題，就必須削減二氧化碳排放。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有強烈條件和義務語氣：● must cut● carbon dioxide emissions● if it wants to solve● problem of global warming要選 YES，原文要說新西蘭必須削減排放。要選 NO，原文要明確說不用削減或削減沒有必要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若原文只提供排放比例、標準和全球性問題背景，答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題需要看 Paragraph 10 和 Paragraph 11。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 10 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tackling the problems of global warming is never easy in New Zealand, because records show that the slow process of global warming may have different impacts on various regions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在新西蘭處理全球暖化問題從來不容易，因為記錄顯示，全球暖化這個緩慢過程可能會對不同地區產生不同影響。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 10 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New Zealand accounts for only 0.5 per cent of the world’s carbon dioxide emissions, and its emissions meet government standards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新西蘭只佔全球二氧化碳排放量的 0.5%，而且其排放符合政府標準。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 11："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, New Zealand’s efforts are only the tip of the iceberg. So far, global warming remains a global issue with an uncertain future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，新西蘭的努力只是冰山一角。到目前為止，全球暖化仍是一個前景不明朗的全球性問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段都與 emissions 和 global issue 有關，所以需要跨段檢查。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● must cut● carbon dioxide emissions● solve● global warming原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New Zealand accounts for only 0.5 per cent of the world’s carbon dioxide emissions, and its emissions meet government standards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新西蘭只佔全球二氧化碳排放量的 0.5%，而且其排放符合政府標準。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far, global warming remains a global issue with an uncertain future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，全球暖化仍是一個前景不明朗的全球性問題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀是否有 must cut"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供了三點： 1. 新西蘭只佔全球二氧化碳排放的 0.5%； 2. 新西蘭排放符合政府標準； 3. 全球暖化仍是全球性問題，未來不明朗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的是：● 新西蘭 must cut carbon dioxide emissions；● 這是解決全球暖化問題的必要條件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說 must cut，也沒有說 if it wants to solve。它只是說新西蘭的排放比例很小、符合標準，以及全球暖化不是單一國家能完全處理的簡單問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷這題不能選 YES，因為缺少「必須削減」這個核心要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也不能選 NO，因為原文沒有明確說新西蘭不需要削減排放。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最準確答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易被 only 0.5 per cent 誤導。看到新西蘭排放少，學生可能推論它不需要減排；看到 global issue，又可能推論它必須減排。兩種都是文章外推。IELTS 要看原文有沒有直接建立 must cut emissions 這個要求。這裡沒有，所以是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Global Warming in New Zealand.pdf",
+    "sha256": "55e5552e628968633adf3cb0c8d462e9c8473316eb9813391c700b06606028db",
+    "pageCount": 32
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "介紹新西蘭氣溫上升，但因海洋包圍，升幅比南極附近地區低。"
+      },
+      {
+        "number": "2",
+        "summary": "解釋 SAM 風帶變化如何改變新西蘭降水與夏季水分，並帶出農業乾旱。"
+      },
+      {
+        "number": "3",
+        "summary": "解釋 moisture deficit 的意思，以及它對作物不同生長階段的影響。"
+      },
+      {
+        "number": "4",
+        "summary": "說明全球暖化對雪線、雪包、冰川和滑雪業的影響。"
+      },
+      {
+        "number": "5",
+        "summary": "解釋冰川對氣候變化的反應鏈：mass balance → volume/thickness → ice flow→ glacier length。"
+      },
+      {
+        "number": "6",
+        "summary": "引用 NIWA 研究和 Mount Cook / Hooker Lake 例子，說明冰川線上移和冰川退縮。"
+      },
+      {
+        "number": "7",
+        "summary": "說明融冰、高漲潮、海平面上升、地下水鹽化、農業減產和 coastal boundaries的關係。"
+      },
+      {
+        "number": "8",
+        "summary": "說明人類和農業專家如何回應氣候變化，並提到生態系統韌性。"
+      },
+      {
+        "number": "9",
+        "summary": "說明動物回應全球暖化的例子，特別是海龜性別與巢穴溫度的關係。"
+      },
+      {
+        "number": "10",
+        "summary": "說明全球暖化在新西蘭不同地區有不同影響，也提到新西蘭二氧化碳排放比例。 Paragraph 總結：新西蘭努力有限，全球暖化仍是全球性問題，未來不明朗。 11"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Paragraph 總結：新西蘭努力有限，全球暖化仍是全球性問題，未來不明朗。 11"
+  ]
+}

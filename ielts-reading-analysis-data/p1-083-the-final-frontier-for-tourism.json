@@ -1,0 +1,2113 @@
+{
+  "id": "p1-083-the-final-frontier-for-tourism",
+  "catalogueId": "p1-083",
+  "catalogueIds": [
+    "p1-083"
+  ],
+  "passage": 1,
+  "title": "The Final Frontier for Tourism",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "vi",
+    "ii",
+    "vii",
+    "v",
+    "viii",
+    "C",
+    "D",
+    "B",
+    "E",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "vi — Insatiable desire for adventure",
+      "answerKey": "vi — Insatiable desire for adventure",
+      "type": "Matching Headings",
+      "prompt": "“Paragraph A”",
+      "translation": "為 Paragraph A 選最合適標題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Headings。這類題要找整段主旨，不可只抓一個細節。Paragraph A 沒有人名、年份或公司資料，主要處理人類為何一直想探索太空。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For some reason, humankind has always looked towards the stars and dreamt of one day making the voyage into the unknown and exploring outer space.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "出於某種原因，人類一直仰望星空，夢想有一天能踏上通往未知的旅程，探索外太空。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps it is our innate curiosity, or perhaps the challenge presented by the seemingly impossible; whatever the lure, the quest to venture into space has become an obsession for many.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許是人類天生的好奇心，也許是看似不可能的挑戰帶來的吸引力；不論誘惑來自哪裡，冒險進入太空的追求已成為許多人的執念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜本段是全文開場，用非常概括的方式解釋人類對外太空的嚮往。它沒有進入 tourism business，也沒有談 NASA 的具體計劃。段落核心在 “dreamt”、“unknown”、“curiosity”、“challenge”、“obsession”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "可對應的 heading 關鍵詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“desire”"
+            },
+            {
+              "kind": "quote",
+              "text": "“adventure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“insatiable”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接出現 desire，但 “dreamt of”、“curiosity”、“challenge”、“lure”、“quest”、“obsession”全部屬於強烈渴望和冒險心理的語義場。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "label",
+              "text": "答案句群："
+            },
+            {
+              "kind": "quote",
+              "text": "“humankind has always looked towards the stars and dreamt of one day making the voyage into the unknown and exploring outer space.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類一直仰望星空，夢想有一天航向未知，探索外太空。"
+            },
+            {
+              "kind": "quote",
+              "text": "“the quest to venture into space has become an obsession for many.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "進入太空冒險的追求已成為許多人的執念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi “Insatiable desire for adventure” 的意思是「對冒險永不滿足的渴望」。這正好概括Paragraph A。insatiable 對應 obsession；adventure 對應 voyage into the unknown / venture into space。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Insatiable desire= dreamt of / lure / quest / obsession adventure= voyage into the unknown / venture into space錯項邊界： ii “Space travel: past, present and future” 看起來也和太空有關，但 Paragraph A 沒有時間線，也沒有 past / present / future 的具體發展。v “The future of tourism” 也不適合，因為 Paragraph A尚未提到 tourism。真正覆蓋全段的是人類對未知冒險的強烈渴望。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "ii — Space travel: past, present and future",
+      "answerKey": "ii — Space travel: past, present and future",
+      "type": "Matching Headings",
+      "prompt": "“Paragraph B”",
+      "translation": "為 Paragraph B 選最合適標題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 Paragraph B 的整體時間結構。段中有 1969、last moon landing、after 2020、2018、future 等時間訊號，所以 heading 很可能要概括太空探索的過去、現在和未來。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On a memorable July day in 1969 one man made a giant leap for his kind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1969 年 7 月一個難忘的日子，一個人為人類邁出巨大一步。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It may not be Hollywood razzle-dazzle-style progress; it may even be painstakingly slow, but rest assured that plans are afoot for something very ambitious and special indeed, and NASA may be back in the headlines making waves and history again, just as it did on that fateful day in 1969, in the not-too-distant future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這也許不像荷里活式炫目的進步，甚至可能慢得艱辛，但可以放心，某些非常有野心且特別的計劃正在進行；NASA 也許會在不太遙遠的將來再次成為頭條、掀起轟動並創造歷史，就像它在1969 年那個命運性日子所做的一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句把讀者帶到過去的登月時刻；末句又回到未來，說 NASA 可能再次創造歷史。首尾句形成清楚時間線：1969 的歷史成就，加上未來計劃。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "最有用的定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“1969”"
+            },
+            {
+              "kind": "quote",
+              "text": "“last moon landing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“plans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mars”"
+            },
+            {
+              "kind": "quote",
+              "text": "“2018”"
+            },
+            {
+              "kind": "quote",
+              "text": "“future”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中間句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to NASA, plans are afoot for a manned mission to Mars at some point after 2020. A return to the moon has been scheduled sooner – perhaps 2018 if NASA’s new Crew Exploration Vehicle (CEV) is rolled out on time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 NASA，2020 年之後某個時間點已有載人火星任務計劃。重返月球的時間安排更早——如果 NASA 新的 Crew Exploration Vehicle 能準時推出，或許會在 2018 年成行。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 的內容可以分成三層： Past： 1969 年 Neil Armstrong 登月。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Present / interim：過去 40 多年沒有再登月，但 science has not stood still。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Future： NASA 有載人火星任務計劃，也有較早重返月球的計劃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii “Space travel: past, present and future” 完整覆蓋這三層。它不是只講 NASA，也不是只講 moon landing，因為段落同時包含歷史回望、現時進展和未來計劃。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "past= July day in 1969 / Neil Armstrong touched down on the moon present= science has not stood still in the interim future= plans are afoot / manned mission to Mars / return to the moon錯項邊界： viii “Moon hotels” 完全不適合 Paragraph B，因為本段講 NASA 探索任務，沒有酒店。iii"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Russian innovations” 只和 Paragraph C 的 Russian cosmonauts 有一點字面關聯，也無法概括Paragraph B。最穩定答案是 ii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "vii — The first space tourists",
+      "answerKey": "vii — The first space tourists",
+      "type": "Matching Headings",
+      "prompt": "“Paragraph C”",
+      "translation": "為 Paragraph C 選最合適標題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要抓 Paragraph C 的主要人物和事件。段中出現 Dennis Tito 和 Mark Shuttleworth，他們分別是第一位和其後一位太空遊客，所以 heading 方向很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That said, it is the prospect of space tourism for the masses that has captured the headlines recently, and this may not be such a distant dream as people might expect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "話雖如此，最近真正吸引媒體注意的是大眾太空旅遊的前景，而這件事也許沒有大家想像中那麼遙遠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clearly these men had a once-in-a-lifetime experience, but this came at a hefty price: both men paid $20 million for the pleasure of their space adventures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顯然，這兩位男士有了一次一生難得的經歷，但代價高昂：兩人都為自己的太空冒險付了 2,000萬美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句把焦點從 NASA 任務轉到 space tourism；末句說 “these men” 的太空冒險代價高昂。中間必然會介紹這兩位太空遊客是誰。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading vii 的定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first”"
+            },
+            {
+              "kind": "quote",
+              "text": "“space tourists”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2001, an American multimillionaire, Dennis Tito, became the first space tourist, spending ten days on the International Space Station along with his crew of Russian cosmonauts…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2001 年，美國千萬富翁 Dennis Tito 成為第一位太空遊客，和一隊 Russian cosmonauts 在International Space Station 度過十天。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“A year later, South African millionaire Mark Shuttleworth followed in his footsteps.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一年後，南非百萬富翁 Mark Shuttleworth 追隨他的腳步。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段不只泛泛談 space tourism，它用兩個真實人物證明太空旅遊已經開始： Dennis Tito： first space tourist，spent ten days on the ISS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mark Shuttleworth： a year later followed in his footsteps。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句用 “both men paid $20 million” 把兩人合起來，指出第一批太空遊客經歷昂貴但難忘。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii “The first space tourists” 正好概括整段。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "first space tourists= Dennis Tito became the first space tourist / Mark Shuttleworth followed in his footsteps tourists= paid for the pleasure of their space adventures錯項邊界： v “The future of tourism” 不如 vii 精準，因為 Paragraph C 主要講已經發生的兩個早期案例，不是未來市場。i “Not worth the cost” 也不合適。雖然段末提到 $20 million，但作者沒有說不值得，只說代價高昂。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "v — The future of tourism",
+      "answerKey": "v — The future of tourism",
+      "type": "Matching Headings",
+      "prompt": "“Paragraph D”",
+      "translation": "為 Paragraph D 選最合適標題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看 Paragraph D 是否主要講現在的昂貴限制，還是未來太空旅遊可能走向普及。段首有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“what of the future?”，段末說 affordable space travel 越來越近，所以 heading 應抓 future。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D第一句：“At present, space tourism is undoubtedly reserved for an elite and wealthy few, but what of the future?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，太空旅遊無疑只屬於少數精英和富人，但未來會怎樣？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But that is perhaps missing the point—the prospect of affordable space travel is getting closer and closer and it is only a matter of time before it becomes a reality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但那也許沒有抓住重點——可負擔太空旅行的前景正越來越近，它成為現實只是時間問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句先承認現在昂貴，隨即轉問未來；末句明確總結可負擔太空旅遊越來越接近。這段的主軸是future of space tourism。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading v 的定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“future”"
+            },
+            {
+              "kind": "quote",
+              "text": "“tourism”"
+            },
+            {
+              "kind": "label",
+              "text": "原文多次對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“but what of the future?”"
+            },
+            {
+              "kind": "quote",
+              "text": "“it will be the next big thing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“planning to offer rocket trips to the public”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a space hotel”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the prospect of affordable space travel is getting closer and closer”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但未來會怎樣？它會成為下一件大事；公司計劃向公眾提供火箭旅程；也有太空酒店構想；可負擔太空旅行的前景正在接近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 的例子包括： Space Adventures：未來數年可能以 $100,000 向公眾提供 rocket trips。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "The Space Island Group：計劃建 space hotel。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gene Meyers：預測 2020 年酒店五日假期低於 $25,000。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都不是已經普遍存在的服務，而是未來旅遊形態。Heading v “The future of tourism” 最能覆蓋全段。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "future of tourism= what of the future / next big thing / rocket trips to the public / space hotel / affordable space travel getting closer錯項邊界： i “Not worth the cost” 很有迷惑性，因為本段確實說 $25,000 仍是 considerable sum。但作者之後說 “that is perhaps missing the point”，即價格高不是段落最終重點。段落的結論落在affordable space travel getting closer。viii “Moon hotels” 也不夠準，因為 Paragraph D 講的是space hotel 和 rocket trips，並未集中在 moon。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "viii — Moon hotels",
+      "answerKey": "viii — Moon hotels",
+      "type": "Matching Headings",
+      "prompt": "“Paragraph E”",
+      "translation": "為 Paragraph E 選最合適標題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要概括最後一段。段中出現 Bigelow Aerospace 的 moon tourist spaceship，也提到 Hilton on the moon。heading 中最貼近的是 Moon hotels。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other companies have even more ambitious plans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他公司甚至有更具野心的計劃。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps sooner than you’d think.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許比你想像中更快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提示本段會列出更大膽的商業計劃；末句說變化可能很快。中間細節就是月球旅遊、月球住宿和大型太空飛船。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "heading viii 的定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moon”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hotels”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bigelow Aerospace is spending close to $500 million on a project to build a 700-metre spaceship to fly tourists to the moon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bigelow Aerospace 正花接近 5 億美元建造一艘 700 米長的太空船，用來把遊客送到月球。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even the Hilton Hotel Group wants to get in on the act with talk of plans to build a Hilton on the moon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "甚至 Hilton Hotel Group 也想參與其中，傳出有計劃在月球上建一間 Hilton。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主旨"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 不是單純講 “investment”，雖然有 $500 million。它也不是只講一般 space journeys，因為重點位置轉向 moon： tourists to the moon private rooms with views Hilton on the moon Heading viii “Moon hotels” 雖然字面上只點出酒店，但它最能概括本段的月球旅遊和月球住宿構想。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Moon hotels= a Hilton on the moon / private rooms on a spaceship to the moon / moon travel accommodation錯項邊界： iv “A profitable investment” 不合適，因為原文只說 Bigelow 花很多錢，沒有說這投資能賺錢。v"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“The future of tourism” 也可描述整體方向，但 Paragraph D 已更完整處理未來旅遊；Paragraph E 的特色是 moon-based plans，所以 viii 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "C — spent ten days on the International Space Station",
+      "answerKey": "C — spent ten days on the International Space Station",
+      "type": "Matching People",
+      "prompt": "“Dennis Tito”",
+      "translation": "Dennis Tito 對應哪一項描述？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。人物名是最強定位詞。找到 Dennis Tito 後，要看句子給他的具體行為，而非只看他是第一位太空遊客。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That said, it is the prospect of space tourism for the masses that has captured the headlines recently, and this may not be such a distant dream as people might expect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "話雖如此，最近真正吸引媒體注意的是大眾太空旅遊的前景，而這件事也許沒有大家想像中那麼遙遠。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clearly these men had a once-in-a-lifetime experience, but this came at a hefty price: both men paid $20 million for the pleasure of their space adventures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顯然，這兩位男士有了一次一生難得的經歷，但代價高昂：兩人都為自己的太空冒險付了 2,000萬美元。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段會講早期太空遊客和他們昂貴的經歷。Dennis Tito 在這段中出現，答案應直接跟在名字附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dennis Tito”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2001, an American multimillionaire, Dennis Tito, became the first space tourist, spending ten days on the International Space Station along with his crew of Russian cosmonauts, and fulfilling a lifelong ambition in the process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2001 年，美國千萬富翁 Dennis Tito 成為第一位太空遊客，和一隊俄羅斯太空人在 International Space Station 度過十天，並在過程中實現了一生的抱負。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句給 Dennis Tito 兩項資料： became the first space tourist成為第一位太空遊客spending ten days on the International Space Station在國際太空站度過十天選項 C 完整對應第二項。雖然他也是 first space tourist，但選項列表沒有 “first tourist” 這個獨立選項；最直接可配的是 C。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "spent ten days= spending ten days International Space Station= International Space Station"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “touched down on the moon in 1969” 是 Neil Armstrong，不是 Dennis Tito。Dennis Tito 去的是 International Space Station，並非月球。人物名相鄰時，要先鎖定名字，再讀同一句的動詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "D — was the second tourist to travel into space",
+      "answerKey": "D — was the second tourist to travel into space",
+      "type": "Matching People",
+      "prompt": "“Mark Shuttleworth”",
+      "translation": "Mark Shuttleworth 對應哪一項描述？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題同樣是人物配對。Mark Shuttleworth 出現在 Dennis Tito 之後。題目不問他的國籍或感想，而是問他在太空旅遊順序中的位置。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That said, it is the prospect of space tourism for the masses that has captured the headlines recently…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "話雖如此，最近吸引媒體注意的是大眾太空旅遊的前景……最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clearly these men had a once-in-a-lifetime experience, but this came at a hefty price…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "顯然，這兩位男士有了一次一生難得的經歷，但代價高昂……首尾句顯示本段會把兩位早期太空遊客並列討論。Mark Shuttleworth 的資訊應緊接 Dennis Tito的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mark Shuttleworth”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A year later, South African millionaire Mark Shuttleworth followed in his footsteps.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一年後，南非百萬富翁 Mark Shuttleworth 追隨他的腳步。"
+            },
+            {
+              "kind": "label",
+              "text": "前一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2001, an American multimillionaire, Dennis Tito, became the first space tourist…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2001 年，美國千萬富翁 Dennis Tito 成為第一位太空遊客……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“followed in his footsteps” 是關鍵。his 指 Dennis Tito。Dennis Tito 是 first space tourist；Mark Shuttleworth 一年後 follow in his footsteps，即成為下一位以遊客身份進入太空的人。選項 D “was the second tourist to travel into space” 正好概括這個順序。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "was the second tourist= a year later / followed in his footsteps after the first space tourist travel into space= followed in his space-tourism footsteps"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C “spent ten days on the International Space Station” 專屬 Dennis Tito。Mark Shuttleworth 的原文重點是 “A year later” 和 “followed in his footsteps”。看到兩人同段出現時，要按先後次序配對，不要把 Tito 的細節移到 Shuttleworth 身上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "B — believes space tourism will be popular in the near future",
+      "answerKey": "B — believes space tourism will be popular in the near future",
+      "type": "Matching People",
+      "prompt": "“Eric Anderson”",
+      "translation": "Eric Anderson 對應哪一項描述？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "人物名 Eric Anderson 出現在 Paragraph D。題目選項中和他最相關的是 belief / prediction about space tourism being “the next big thing”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At present, space tourism is undoubtedly reserved for an elite and wealthy few, but what of the future?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，太空旅遊無疑只屬於少數精英和富人，但未來會怎樣？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But that is perhaps missing the point—the prospect of affordable space travel is getting closer and closer and it is only a matter of time before it becomes a reality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但那也許沒有抓住重點——可負擔太空旅行的前景正越來越近，它成為現實只是時間問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 主題是太空旅遊未來普及。Eric Anderson 是 Space Adventures 的 president，他的觀點正好會支持這個主題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eric Anderson”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If Eric Anderson, president of Space Adventures, the company that organised Tito and Shuttleworth’s trips, is to be believed, it will be the next big thing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 Space Adventures 的總裁 Eric Anderson 可信的話，太空旅遊將會成為下一件大事；Space Adventures 正是安排 Tito 和 Shuttleworth 旅程的公司。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Everyone’s looking for a new experience,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「人人都在尋找新的體驗。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“it will be the next big thing” 是關鍵。這裡 it 指 space tourism。next big thing 指即將非常流行、成為熱門事物。這正好對應選項 B：“believes space tourism will be popular in the near future”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "believes= if Eric Anderson … is to be believed / he says space tourism will be popular= it will be the next big thing near future= within the next few years / getting closer"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "E “predicts space holidays will be more affordable by 2020” 屬於 Gene Meyers，因為那句有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“predicts that in 2020”。Eric Anderson 的語氣集中在 popularity：next big thing 和 new experience。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "E — predicts space holidays will be more affordable by 2020",
+      "answerKey": "E — predicts space holidays will be more affordable by 2020",
+      "type": "Matching People",
+      "prompt": "“Gene Meyers”",
+      "translation": "Gene Meyers 對應哪一項描述？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Gene Meyers 在 Paragraph D 中出現。題目要找他親自作出的 prediction。需要分清 Space Island Group 的計劃和 Gene Meyers 的具體預測。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At present, space tourism is undoubtedly reserved for an elite and wealthy few, but what of the future?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，太空旅遊無疑只屬於少數精英和富人，但未來會怎樣？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the prospect of affordable space travel is getting closer and closer and it is only a matter of time before it becomes a reality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可負擔太空旅行的前景正越來越近，它成為現實只是時間問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的主題是未來太空旅遊可能變得較便宜和較普及。Gene Meyers 的預測正好服務這個主題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gene Meyers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“predicts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“2020”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gene Meyers, the company’s president, predicts that in 2020 a five-day holiday at the hotel will cost less than $25,000.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該公司總裁 Gene Meyers 預測，到 2020 年，在這間酒店度過五日假期的費用將低於 25,000 美元。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Gene Meyers；動詞是 predicts；時間是 in 2020；內容是 five-day holiday at the hotel will cost less than $25,000。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 E 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“predicts space holidays will be more affordable by 2020”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括原文。less than $25,000 相比前文 Tito 和 Shuttleworth 的 $20 million，明顯是可負擔程度提高。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "predicts= predicts space holidays= a five-day holiday at the hotel more affordable by 2020= in 2020 / will cost less than $25,000"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F “will build a hotel inspired by a film” 看似和 Gene Meyers 同段相關，因為 The Space Island Group 計劃建 space hotel inspired by 2001: A Space Odyssey。但句子主體是 company，不是Gene Meyers 本人的預測。Question 9 問 Gene Meyers，最直接證據是 “Gene Meyers …predicts”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Bigelow Aerospace’s spaceship will offer unique views of the Moon’s sunset.”",
+      "translation": "Bigelow Aerospace 的太空船將提供月球日落的獨特景觀。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目關鍵在 Bigelow Aerospace、unique views、Moon’s sunset。要核對原文說的是 Moon 還是 Earth。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other companies have even more ambitious plans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他公司甚至有更具野心的計劃。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps sooner than you’d think.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許比你想像中更快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph E 會列出更大膽的公司計劃。Bigelow Aerospace 是其中一個公司例子，所以答案在此段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bigelow Aerospace”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unique views”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Moon’s sunset”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bigelow Aerospace is spending close to $500 million on a project to build a 700-metre spaceship to fly tourists to the moon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bigelow Aerospace 正花接近 5 億美元建造一艘 700 米長的太空船，用來把遊客送到月球。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The spaceship will be able to hold 100 guests, each with a private room offering truly unique views of the Earth’s sunset.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這艘太空船能容納 100 位客人，每人都有一間私人房間，能欣賞真正獨特的地球日落景觀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目和原文只差一個非常重要的名詞："
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Moon’s sunset月球日落原文： Earth’s sunset地球日落Bigelow 的太空船是飛往月球，但房間提供的景觀是 Earth’s sunset。這代表遊客從太空或月球方向看地球的日落。題目把景觀對象改成 Moon’s sunset，和原文不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Bigelow spaceship offers unique views of the Moon’s sunset.原文命題： Bigelow spaceship offers unique views of the Earth’s sunset.比較結果：主體 Bigelow spaceship 一致；unique views 一致；sunset 對象相反。這是明確衝突，所以答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "unique views= truly unique views Moon’s sunset≠ Earth’s sunset"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生很容易看到 “fly tourists to the moon” 後，把後面的 sunset 自動理解成 moon’s sunset。細讀時要看 views 後面的所有格：the Earth’s sunset 才是決定答案的短語。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Hilton Hotel Group has ambitious plans to organise cheap space journeys.”",
+      "translation": "Hilton Hotel Group 有雄心勃勃的計劃，要組織廉價太空旅程。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目包含三個元素：Hilton Hotel Group、plans、organise cheap space journeys。文章若只提到 Hilton 建酒店，沒有提到 cheap journeys，就屬於資料不足。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other companies have even more ambitious plans.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他公司甚至有更具野心的計劃。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps sooner than you’d think.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許比你想像中更快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的功能是列出不同公司更具野心的太空旅遊計劃。Hilton 在本段後半出現，應該是目標位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hilton Hotel Group”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ambitious plans”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cheap space journeys”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even the Hilton Hotel Group wants to get in on the act with talk of plans to build a Hilton on the moon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "甚至 Hilton Hotel Group 也想參與其中，傳出有計劃在月球上建一間 Hilton。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的資訊是： Hilton Hotel Group有出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "plans有出現，但內容是 build a Hilton on the moon。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cheap space journeys原文沒有提供。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "organise journeys原文也沒有提供。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Hilton 要 “organise cheap space journeys”。原文只說 Hilton 可能在月球建酒店，沒有說Hilton 安排旅程，也沒有說價錢便宜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡不能選 FALSE，因為原文沒有明確說 Hilton 不會組織旅程，也沒有明確說它們一定很貴。文章只是沒有提供題目所需的核心資訊。根據 TRUE / FALSE / NOT GIVEN 規則，資料缺失時答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "plans= talk of plans build a Hilton on the moon= 建月球酒店organise cheap space journeys= 原文沒有提及旅程安排或 cheap pricing"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段第一句有 “ambitious plans”，題目也有 “ambitious plans”，這會讓人覺得句子正確。但真正要檢查的是 plans 的內容。原文計劃是建酒店；題目加入 organize cheap space journeys，這部分文章沒有支援。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“NASA plans to launch a mission to Mars, but first it is hoping to return to the moon.”",
+      "translation": "NASA 計劃發射火星任務，但它希望先重返月球。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有兩層時間關係：Mars mission；return to moon first。要找 NASA 的計劃順序。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On a memorable July day in 1969 one man made a giant leap for his kind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1969 年 7 月一個難忘的日子，一個人為人類邁出巨大一步。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It may not be Hollywood razzle-dazzle-style progress; it may even be painstakingly slow, but rest assured that plans are afoot for something very ambitious and special indeed, and NASA may be back in the headlines making waves and history again, just as it did on that fateful day in 1969, in the not-too-distant future.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這也許不像荷里活式炫目的進步，甚至可能慢得艱辛，但可以放心，非常有野心且特別的計劃正在進行；NASA 也許會在不太遙遠的將來再次成為頭條、掀起轟動並創造歷史，就像 1969 年那天一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 明顯處理 NASA 的太空探索時間線，所以 Q12 應定位在此段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“NASA”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mission to Mars”"
+            },
+            {
+              "kind": "quote",
+              "text": "“return to the moon”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to NASA, plans are afoot for a manned mission to Mars at some point after 2020.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 NASA，2020 年之後某個時間點已有載人火星任務計劃。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“A return to the moon has been scheduled sooner – perhaps 2018 if NASA’s new Crew Exploration Vehicle (CEV) is rolled out on time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "重返月球的安排更早——如果 NASA 新的 Crew Exploration Vehicle 準時推出，或許會在 2018年成行。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 NASA plans to launch a mission to Mars。原文說 plans are afoot for a manned mission to Mars after 2020。方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 first it is hoping to return to the moon。原文說 A return to the moon has been scheduled sooner — perhaps 2018。sooner 表示比 Mars mission 更早。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： Mars mission planned；moon return before that。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題： Mars mission after 2020；moon return scheduled sooner, perhaps 2018。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：時間順序一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "plans to launch a mission to Mars= plans are afoot for a manned mission to Mars first / before Mars= scheduled sooner hoping to return to the moon= a return to the moon has been scheduled"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “hoping” 不是亂加情緒，而是概括 NASA 的 scheduled plans，並保留未必一定成行的語氣。原文也有 “perhaps 2018 if … rolled out on time”，說明這是計劃和預期，不是已完成事實。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“At the moment, space tourism is too expensive for ordinary people; only the very rich can travel to space.”",
+      "translation": "目前，太空旅遊對普通人來說太昂貴；只有非常富有的人能去太空旅行。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目關鍵在 “At the moment”、“too expensive”、“ordinary people”、“only the very rich”。要看文章對現階段 space tourism 的描述。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D，也可參照 Paragraph E Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At present, space tourism is undoubtedly reserved for an elite and wealthy few, but what of the future?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，太空旅遊無疑只屬於少數精英和富人，但未來會怎樣？"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But that is perhaps missing the point—the prospect of affordable space travel is getting closer and closer and it is only a matter of time before it becomes a reality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但那也許沒有抓住重點——可負擔太空旅行的前景正越來越近，它成為現實只是時間問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph D 首尾句，已經能看到 present 與 future 對比：現在只屬於 wealthy few；未來可負擔太空旅行越來越接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the moment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“too expensive”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ordinary people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“only the very rich”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“At present, space tourism is undoubtedly reserved for an elite and wealthy few…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，太空旅遊無疑只屬於少數精英和富人。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 也有價格證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“both men paid $20 million for the pleasure of their space adventures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩人都為自己的太空冒險付了 2,000 萬美元。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 再次確認："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the present, only millionaires can enjoy the privilege of a space journey…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前，只有百萬富翁能享有太空旅行這項特權。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “At the moment”，原文對應 “At present” 和 “For the present”。時間一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “space tourism is too expensive for ordinary people”，原文沒有逐字說 ordinary people，但兩處證據支持這個概括： reserved for an elite and wealthy few只留給少數精英和富人only millionaires can enjoy the privilege只有百萬富翁能享有這特權再加上 Paragraph C 的 $20 million，普通人負擔不起的意思非常清楚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “only the very rich can travel to space”。原文說 “only millionaires” 和 “wealthy few”。這是直接同義概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "At the moment= At present / For the present ordinary people cannot afford it= reserved for an elite and wealthy few the very rich= millionaires / wealthy few can travel to space= enjoy the privilege of a space journey答案判斷：題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 後半說 future prices may become lower，學生可能因此懷疑題目。可是題目限定"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“At the moment”。現在的情況和未來前景要分開判斷。現階段，文章明確說只有 wealthy few /millionaires 能享受太空旅行。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Final Frontier for Tourism.pdf",
+    "sha256": "82a5a7f6c322fd6eaa15df733651c3122b6943da99aae95f2b812612eee8a4f4",
+    "pageCount": 28
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說人類一直仰望星空，夢想有一天能航向未知、探索外太空。末句說不論吸引力來自好奇心，還是看似不可能的挑戰，進入太空的追求已成為很多人的 obsession。只看首尾句，可以先判斷本段是全文引子：它不講具體公司或太空旅遊價格，重點在於人類對冒險、未知和太空探索有長久而強烈的渴望。"
+      },
+      {
+        "number": "B",
+        "summary": "首句回到 1969 年 7 月 Neil Armstrong 登月這個歷史時刻。末句說 NASA 可能在不久將來再次成為頭條，像 1969 年那天一樣創造歷史。只看首尾句，可以估計本段會把太空探索放在時間線上：過去有登月，現在科學仍前進，未來有重返月球和載人火星任務計劃。段落功能偏向總覽space travel 的 past, present and future。"
+      },
+      {
+        "number": "C",
+        "summary": "首句用 “That said” 轉入近年最受關注的 mass space tourism，並說它可能沒有大家想像中遙遠。末句說 Dennis Tito 和 Mark Shuttleworth 的經歷雖然一生難得，但每人要付 2,000 萬美元。只看首尾句，可以判斷本段集中講第一批太空遊客：Tito 和 Shuttleworth 的經歷證明私人太空旅遊已出現，但目前價格極高。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說目前 space tourism 無疑只屬於少數有錢精英，但接着問 future 會怎樣。末句說可負擔的太空旅遊越來越近，只是時間問題。只看首尾句，可以判斷本段主題是太空旅遊的未來普及化： Space Adventures 和 Space Island Group 提出較低價格、太空酒店等構想，重點在 future tourism，而非單純說價格不值得。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說其他公司有更具野心的計劃。末句引用 Bob Dylan 的話，說時代正在改變，可能比你想像中更快。只看首尾句，可以估計本段會列出更宏大的 moon tourism 方案：Bigelow Aerospace 想造載客飛月球的巨大 spaceship，Hilton 也有月球酒店構想。這段功能是把太空旅遊想像推向月球住宿和月球度假。"
+      }
+    ]
+  }
+}

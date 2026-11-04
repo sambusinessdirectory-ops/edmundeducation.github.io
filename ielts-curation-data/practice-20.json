@@ -1,0 +1,1913 @@
+{
+  "version": "2026-10-26.1",
+  "practice": 20,
+  "sourceSha256": "674bbeb329f5fc5ce47545c28677bbdcf2c7603fe624b7f0b6d8246f47d3c8ba",
+  "timingBasis": "Existing recording-aligned transcript timestamps; explanation quotations matched to exact source spans, with explicit editorial endpoint reviews.",
+  "parts": [
+    {
+      "part": 1,
+      "title": "Bankside Recruitment Agency",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD AND/OR A NUMBER for each answer.",
+      "audioSha256": "a4c19c196fe676a940fe57119acb312ee7b633c48527355c3e223feb2420ff0d",
+      "transcriptSha256": "0355a91663c741af05a9070025e70eb7e26f327c6132a955740a1b03cf1ce09c",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2020%20Part%201.mp3",
+      "duration": 341.4988125,
+      "cues": [
+        {
+          "id": "p1-q1",
+          "question": 1,
+          "start": 75.32,
+          "end": 89.62,
+          "endLine": 7,
+          "answer": "Jamieson",
+          "accepted": [
+            "Jamieson"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：The agent I always deal with is called Becky Jamieson / J-A-M-I-E-S-O-N",
+          "evidence": [
+            {
+              "lineId": "p1-line-5",
+              "line": 5,
+              "quote": "The agent I always deal with is called Becky Jamieson",
+              "revealAt": 78.56
+            },
+            {
+              "lineId": "p1-line-7",
+              "line": 7,
+              "quote": "J-A-M-I-E-S-O-N",
+              "revealAt": 89.62
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Name of agent: Becky 1 __________"
+        },
+        {
+          "id": "p1-q2",
+          "question": 2,
+          "start": 103.68,
+          "end": 110.1,
+          "endLine": 10,
+          "answer": "afternoon",
+          "accepted": [
+            "afternoon"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：always really busy in the morning / I wouldn’t call her until the afternoon",
+          "evidence": [
+            {
+              "lineId": "p1-line-10",
+              "line": 10,
+              "quote": "always really busy in the morning",
+              "revealAt": 110.1
+            },
+            {
+              "lineId": "p1-line-10",
+              "line": 10,
+              "quote": "I wouldn’t call her until the afternoon",
+              "revealAt": 110.1
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Best to call her in the 2 __________"
+        },
+        {
+          "id": "p1-q3",
+          "question": 3,
+          "start": 144.66,
+          "end": 155.6,
+          "endLine": 16,
+          "answer": "communication",
+          "accepted": [
+            "communication"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：it’s communication that really matters",
+          "evidence": [
+            {
+              "lineId": "p1-line-16",
+              "line": 16,
+              "quote": "it’s communication that really matters",
+              "revealAt": 155.6
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Must have good 3 __________ skills"
+        },
+        {
+          "id": "p1-q4",
+          "question": 4,
+          "start": 166.98,
+          "end": 186.9,
+          "endLine": 24,
+          "answer": "week",
+          "accepted": [
+            "week"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：something lasting at least a month / you’re more likely to be offered something for a week at first",
+          "evidence": [
+            {
+              "lineId": "p1-line-20",
+              "line": 20,
+              "quote": "something lasting at least a month",
+              "revealAt": 170.64
+            },
+            {
+              "lineId": "p1-line-22",
+              "line": 22,
+              "quote": "you’re more likely to be offered something for a week at first",
+              "revealAt": 177.12
+            },
+            {
+              "lineId": "p1-line-23",
+              "line": 23,
+              "quote": "It’s unusual to be sent somewhere for just a day or two",
+              "revealAt": 180.28
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Jobs are usually for at least one 4 __________"
+        },
+        {
+          "id": "p1-q5",
+          "question": 5,
+          "start": 186.9,
+          "end": 192.06,
+          "endLine": 25,
+          "answer": "10",
+          "accepted": [
+            "10",
+            "ten"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：The hourly rate is about £10, 11 if you’re lucky",
+          "evidence": [
+            {
+              "lineId": "p1-line-25",
+              "line": 25,
+              "quote": "The hourly rate is about £10, 11 if you’re lucky",
+              "revealAt": 192.06
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Pay is usually £5 __________ per hour"
+        },
+        {
+          "id": "p1-q6",
+          "question": 6,
+          "start": 252.1,
+          "end": 262.86,
+          "endLine": 31,
+          "answer": "suit",
+          "accepted": [
+            "suit"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：I can probably borrow a suit from Mum / Good idea",
+          "evidence": [
+            {
+              "lineId": "p1-line-30",
+              "line": 30,
+              "quote": "I can probably borrow a suit from Mum",
+              "revealAt": 258.78
+            },
+            {
+              "lineId": "p1-line-31",
+              "line": 31,
+              "quote": "Good idea",
+              "revealAt": 262.86
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Wear a 6 __________ to the interview"
+        },
+        {
+          "id": "p1-q7",
+          "question": 7,
+          "start": 268.72,
+          "end": 275.18,
+          "endLine": 35,
+          "answer": "passport",
+          "accepted": [
+            "passport"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：they don’t need to see those / What about my passport",
+          "evidence": [
+            {
+              "lineId": "p1-line-33",
+              "line": 33,
+              "quote": "they don’t need to see those",
+              "revealAt": 270.68
+            },
+            {
+              "lineId": "p1-line-34",
+              "line": 34,
+              "quote": "What about my passport",
+              "revealAt": 272.62
+            },
+            {
+              "lineId": "p1-line-35",
+              "line": 35,
+              "quote": "Oh yes — they will ask to see that",
+              "revealAt": 275.18
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Must bring your 7 __________ to the interview"
+        },
+        {
+          "id": "p1-q8",
+          "question": 8,
+          "start": 285.06,
+          "end": 295.96,
+          "endLine": 40,
+          "answer": "personality",
+          "accepted": [
+            "personality"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：there are questions about personality that they always ask candidates / probably won’t ask",
+          "evidence": [
+            {
+              "lineId": "p1-line-39",
+              "line": 39,
+              "quote": "there are questions about personality that they always ask candidates",
+              "revealAt": 290.7
+            },
+            {
+              "lineId": "p1-line-40",
+              "line": 40,
+              "quote": "probably won’t ask",
+              "revealAt": 295.96
+            }
+          ],
+          "distractors": [],
+          "questionText": "● They will ask questions about each applicant’s 8 __________"
+        },
+        {
+          "id": "p1-q9",
+          "question": 9,
+          "start": 298.7,
+          "end": 308.9,
+          "endLine": 42,
+          "answer": "feedback",
+          "accepted": [
+            "feedback"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：so you can improve next time / they’ll give you feedback on your performance",
+          "evidence": [
+            {
+              "lineId": "p1-line-42",
+              "line": 42,
+              "quote": "so you can improve next time",
+              "revealAt": 308.9
+            },
+            {
+              "lineId": "p1-line-42",
+              "line": 42,
+              "quote": "they’ll give you feedback on your performance",
+              "revealAt": 308.9
+            }
+          ],
+          "distractors": [],
+          "questionText": "● The 9 __________ you receive at interview will benefit you"
+        },
+        {
+          "id": "p1-q10",
+          "question": 10,
+          "start": 317.34,
+          "end": 325.8,
+          "endLine": 45,
+          "answer": "time",
+          "accepted": [
+            "time"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：takes a lot less time",
+          "evidence": [
+            {
+              "lineId": "p1-line-45",
+              "line": 45,
+              "quote": "takes a lot less time",
+              "revealAt": 325.8
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Less 10 __________ is involved in applying for jobs"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "evidence"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "evidence"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "evidence"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "evidence"
+        },
+        {
+          "line": 23,
+          "role": "evidence"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "evidence"
+        },
+        {
+          "line": 35,
+          "role": "evidence"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "context"
+        },
+        {
+          "line": 39,
+          "role": "evidence"
+        },
+        {
+          "line": 40,
+          "role": "evidence"
+        },
+        {
+          "line": 41,
+          "role": "context"
+        },
+        {
+          "line": 42,
+          "role": "evidence"
+        },
+        {
+          "line": 43,
+          "role": "context"
+        },
+        {
+          "line": 44,
+          "role": "context"
+        },
+        {
+          "line": 45,
+          "role": "evidence"
+        },
+        {
+          "line": 46,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Matthews Island Holidays",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose the correct letter, A, B or C. · Write ONE WORD AND/OR A NUMBER for each answer.",
+      "audioSha256": "2e458749f86357322678ed2550db6d8ba1c9cf677277f5ad5184b6eb790dd92f",
+      "transcriptSha256": "28bcdafc13b15ab19c97e6a8322b3ef0050381d0062825d6c236c657ab7e7058",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2020%20Part%202.mp3",
+      "duration": 388.8065625,
+      "cues": [
+        {
+          "id": "p2-q11",
+          "question": 11,
+          "start": 70.02,
+          "end": 97.38,
+          "endLine": 3,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：we don’t aim to compete / on the number of customers",
+          "evidence": [
+            {
+              "lineId": "p2-line-2",
+              "line": 2,
+              "quote": "we don’t aim to compete",
+              "revealAt": 81.02
+            },
+            {
+              "lineId": "p2-line-2",
+              "line": 2,
+              "quote": "on the number of customers",
+              "revealAt": 81.02
+            },
+            {
+              "lineId": "p2-line-3",
+              "line": 3,
+              "quote": "a small number of destinations",
+              "revealAt": 97.38
+            },
+            {
+              "lineId": "p2-line-3",
+              "line": 3,
+              "quote": "our many years’ experience — more than almost any other rail holiday company",
+              "revealAt": 97.38
+            }
+          ],
+          "distractors": [],
+          "questionText": "According to the speaker, the company"
+        },
+        {
+          "id": "p2-q12",
+          "question": 12,
+          "start": 112.68,
+          "end": 120.86,
+          "endLine": 6,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Our holiday starts in Heysham, where your tour manager will meet you",
+          "evidence": [
+            {
+              "lineId": "p2-line-6",
+              "line": 6,
+              "quote": "Our holiday starts in Heysham, where your tour manager will meet you",
+              "revealAt": 120.86
+            }
+          ],
+          "distractors": [],
+          "questionText": "Where can customers meet the tour manager before travelling to the Isle of Man?"
+        },
+        {
+          "id": "p2-q13",
+          "question": 13,
+          "start": 130.62,
+          "end": 140.16,
+          "endLine": 8,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：five breakfasts and dinners / lunch on the three days when there are organised trips",
+          "evidence": [
+            {
+              "lineId": "p2-line-8",
+              "line": 8,
+              "quote": "five breakfasts and dinners",
+              "revealAt": 140.16
+            },
+            {
+              "lineId": "p2-line-8",
+              "line": 8,
+              "quote": "lunch on the three days when there are organised trips",
+              "revealAt": 140.16
+            }
+          ],
+          "distractors": [],
+          "questionText": "How many lunches are included in the price of the holiday?"
+        },
+        {
+          "id": "p2-q14",
+          "question": 14,
+          "start": 161.8,
+          "end": 184.86,
+          "endLine": 13,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：there’s no supplement for single rooms / the price is the same whether you book six months in advance or at the last minute",
+          "evidence": [
+            {
+              "lineId": "p2-line-12",
+              "line": 12,
+              "quote": "there’s no supplement for single rooms",
+              "revealAt": 172.62
+            },
+            {
+              "lineId": "p2-line-12",
+              "line": 12,
+              "quote": "the price is the same whether you book six months in advance or at the last minute",
+              "revealAt": 172.62
+            },
+            {
+              "lineId": "p2-line-13",
+              "line": 13,
+              "quote": "change to an alternative date",
+              "revealAt": 184.86
+            },
+            {
+              "lineId": "p2-line-13",
+              "line": 13,
+              "quote": "for a small administrative fee",
+              "revealAt": 184.86
+            }
+          ],
+          "distractors": [],
+          "questionText": "Customers have to pay extra for"
+        },
+        {
+          "id": "p2-q15",
+          "question": 15,
+          "start": 244.56,
+          "end": 252.06,
+          "endLine": 16,
+          "answer": "river",
+          "accepted": [
+            "river"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：The dining room looks out at the river, close to where it flows into the harbour",
+          "evidence": [
+            {
+              "lineId": "p2-line-16",
+              "line": 16,
+              "quote": "The dining room looks out at the river, close to where it flows into the harbour",
+              "revealAt": 252.06
+            }
+          ],
+          "distractors": [],
+          "questionText": "Hotel dining room has view of the 15 _____"
+        },
+        {
+          "id": "p2-q16",
+          "question": 16,
+          "start": 268.98,
+          "end": 286.74,
+          "endLine": 20,
+          "answer": "1422",
+          "accepted": [
+            "1422"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：it dates back to 979 / the earliest surviving reference to it is from 1422, so perhaps it isn’t quite as old as it claims",
+          "evidence": [
+            {
+              "lineId": "p2-line-19",
+              "line": 19,
+              "quote": "it dates back to 979",
+              "revealAt": 276.48
+            },
+            {
+              "lineId": "p2-line-20",
+              "line": 20,
+              "quote": "the earliest surviving reference to it is from 1422, so perhaps it isn’t quite as old as it claims",
+              "revealAt": 286.74
+            }
+          ],
+          "distractors": [],
+          "questionText": "Tynwald may have been founded in _____, not 979."
+        },
+        {
+          "id": "p2-q17",
+          "question": 17,
+          "start": 304.92,
+          "end": 311.18,
+          "endLine": 24,
+          "answer": "top",
+          "accepted": [
+            "top"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：From there it’s an eight-kilometre ride in the Snaefell Mountain Railway to the top.",
+          "evidence": [
+            {
+              "lineId": "p2-line-24",
+              "line": 24,
+              "quote": "From there it’s an eight-kilometre ride in the Snaefell Mountain Railway to the top.",
+              "revealAt": 311.18
+            }
+          ],
+          "distractors": [],
+          "questionText": "train to the _____ of Snaefell"
+        },
+        {
+          "id": "p2-q18",
+          "question": 18,
+          "start": 318.02,
+          "end": 322.98,
+          "endLine": 26,
+          "answer": "pass",
+          "accepted": [
+            "pass"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：the pass which we’ll give you",
+          "evidence": [
+            {
+              "lineId": "p2-line-26",
+              "line": 26,
+              "quote": "the pass which we’ll give you",
+              "revealAt": 322.98
+            }
+          ],
+          "distractors": [],
+          "questionText": "Company provides a _____ for local transport and heritage sites."
+        },
+        {
+          "id": "p2-q19",
+          "question": 19,
+          "start": 336.58,
+          "end": 347.2,
+          "endLine": 29,
+          "answer": "steam",
+          "accepted": [
+            "steam"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：a ride on the steam railway, from Douglas to Port Erin",
+          "evidence": [
+            {
+              "lineId": "p2-line-29",
+              "line": 29,
+              "quote": "a ride on the steam railway, from Douglas to Port Erin",
+              "revealAt": 347.2
+            }
+          ],
+          "distractors": [],
+          "questionText": "Take the _____ railway train from Douglas to Port Erin"
+        },
+        {
+          "id": "p2-q20",
+          "question": 20,
+          "start": 356.92,
+          "end": 364.82,
+          "endLine": 31,
+          "answer": "capital",
+          "accepted": [
+            "capital"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Castletown, which used to be the capital of the Isle of Man",
+          "evidence": [
+            {
+              "lineId": "p2-line-31",
+              "line": 31,
+              "quote": "Castletown, which used to be the capital of the Isle of Man",
+              "revealAt": 364.82
+            }
+          ],
+          "distractors": [],
+          "questionText": "former _____ has old castle."
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "evidence"
+        },
+        {
+          "line": 3,
+          "role": "evidence"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "evidence"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "evidence"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "evidence"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "evidence"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "evidence"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "evidence"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Birth order and personality",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose SIX answers from the box and write the correct letter, A–H, next to · Choose the correct letter, A, B or C. · Choose TWO letters, A–E.",
+      "audioSha256": "611191247c9adc74f4c4b73c3400a33effa952184f623512cce1aa054d527996",
+      "transcriptSha256": "39a9cb23577187a81e74c720fe625d719596dd559e0e5385081bdaca3929d816",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2020%20Part%203.mp3",
+      "duration": 403.0694375,
+      "cues": [
+        {
+          "id": "p3-q21",
+          "question": 21,
+          "start": 106.12,
+          "end": 118.22,
+          "endLine": 10,
+          "answer": "G",
+          "accepted": [
+            "G"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：were thought to be good at nurturing / look after the younger ones",
+          "evidence": [
+            {
+              "lineId": "p3-line-9",
+              "line": 9,
+              "quote": "were thought to be good at nurturing",
+              "revealAt": 111.24
+            },
+            {
+              "lineId": "p3-line-10",
+              "line": 10,
+              "quote": "look after the younger ones",
+              "revealAt": 118.22
+            }
+          ],
+          "distractors": [],
+          "questionText": "the eldest child"
+        },
+        {
+          "id": "p3-q22",
+          "question": 22,
+          "start": 118.38,
+          "end": 134.62,
+          "endLine": 12,
+          "answer": "F",
+          "accepted": [
+            "F"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：are easier to get on with / eager to please and helpful",
+          "evidence": [
+            {
+              "lineId": "p3-line-11",
+              "line": 11,
+              "quote": "are easier to get on with",
+              "revealAt": 127.94
+            },
+            {
+              "lineId": "p3-line-12",
+              "line": 12,
+              "quote": "eager to please and helpful",
+              "revealAt": 134.62
+            }
+          ],
+          "distractors": [],
+          "questionText": "a middle child"
+        },
+        {
+          "id": "p3-q23",
+          "question": 23,
+          "start": 150.66,
+          "end": 158.62,
+          "endLine": 16,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：terribly shy / a sociable and confident child who made friends easily",
+          "evidence": [
+            {
+              "lineId": "p3-line-16",
+              "line": 16,
+              "quote": "terribly shy",
+              "revealAt": 158.62
+            },
+            {
+              "lineId": "p3-line-16",
+              "line": 16,
+              "quote": "a sociable and confident child who made friends easily",
+              "revealAt": 158.62
+            }
+          ],
+          "distractors": [],
+          "questionText": "the youngest child"
+        },
+        {
+          "id": "p3-q24",
+          "question": 24,
+          "start": 166.76,
+          "end": 184.58,
+          "endLine": 20,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：likely to be quite shy in social situations / only interested in each other",
+          "evidence": [
+            {
+              "lineId": "p3-line-19",
+              "line": 19,
+              "quote": "likely to be quite shy in social situations",
+              "revealAt": 176.9
+            },
+            {
+              "lineId": "p3-line-20",
+              "line": 20,
+              "quote": "only interested in each other",
+              "revealAt": 184.58
+            },
+            {
+              "lineId": "p3-line-20",
+              "line": 20,
+              "quote": "found it hard to engage with other kids",
+              "revealAt": 184.58
+            }
+          ],
+          "distractors": [],
+          "questionText": "a twin"
+        },
+        {
+          "id": "p3-q25",
+          "question": 25,
+          "start": 186.84,
+          "end": 197.42,
+          "endLine": 22,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：loners who think the world revolves around them",
+          "evidence": [
+            {
+              "lineId": "p3-line-22",
+              "line": 22,
+              "quote": "loners who think the world revolves around them",
+              "revealAt": 197.42
+            }
+          ],
+          "distractors": [],
+          "questionText": "an only child"
+        },
+        {
+          "id": "p3-q26",
+          "question": 26,
+          "start": 205.56,
+          "end": 213.24,
+          "endLine": 25,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：grow up more quickly / are expected to do basic things for themselves",
+          "evidence": [
+            {
+              "lineId": "p3-line-25",
+              "line": 25,
+              "quote": "grow up more quickly",
+              "revealAt": 213.24
+            },
+            {
+              "lineId": "p3-line-25",
+              "line": 25,
+              "quote": "are expected to do basic things for themselves",
+              "revealAt": 213.24
+            }
+          ],
+          "distractors": [],
+          "questionText": "a child with much older siblings"
+        },
+        {
+          "id": "p3-q27",
+          "question": 27,
+          "start": 290.56,
+          "end": 315.98,
+          "endLine": 33,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：younger siblings / Performances in intelligence tests decline slightly from the eldest child to",
+          "evidence": [
+            {
+              "lineId": "p3-line-30",
+              "line": 30,
+              "quote": "younger siblings",
+              "revealAt": 297.0
+            },
+            {
+              "lineId": "p3-line-30",
+              "line": 30,
+              "quote": "Performances in intelligence tests decline slightly from the eldest child to",
+              "revealAt": 297.0
+            },
+            {
+              "lineId": "p3-line-32",
+              "line": 32,
+              "quote": "what many of them didn’t take into consideration was family size",
+              "revealAt": 305.38
+            },
+            {
+              "lineId": "p3-line-33",
+              "line": 33,
+              "quote": "The more siblings there are, the likelier the family is to have a low socioeconomic status",
+              "revealAt": 315.98
+            }
+          ],
+          "distractors": [],
+          "questionText": "What do the speakers say about the evidence relating to birth order and academic success?"
+        },
+        {
+          "id": "p3-q28",
+          "question": 28,
+          "start": 329.98,
+          "end": 350.38,
+          "endLine": 39,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：extra attention at a young age / they benefit from being teachers for their younger siblings, by verbalising processes",
+          "evidence": [
+            {
+              "lineId": "p3-line-37",
+              "line": 37,
+              "quote": "extra attention at a young age",
+              "revealAt": 336.4
+            },
+            {
+              "lineId": "p3-line-38",
+              "line": 38,
+              "quote": "they benefit from being teachers for their younger siblings, by verbalising processes",
+              "revealAt": 342.22
+            }
+          ],
+          "distractors": [],
+          "questionText": "What does Ruth think is surprising about the difference in oldest children’s academic performance?"
+        },
+        {
+          "id": "p3-q29",
+          "question": 29,
+          "start": 355.4,
+          "end": 379.84,
+          "endLine": 45,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：we fought a lot but I think this has made me a stronger person / I know how to defend myself",
+          "evidence": [
+            {
+              "lineId": "p3-line-41",
+              "line": 41,
+              "quote": "we fought a lot but I think this has made me a stronger person",
+              "revealAt": 363.64
+            },
+            {
+              "lineId": "p3-line-42",
+              "line": 42,
+              "quote": "I know how to defend myself",
+              "revealAt": 365.54
+            },
+            {
+              "lineId": "p3-line-44",
+              "line": 44,
+              "quote": "we co-existed amicably enough",
+              "revealAt": 376.86
+            },
+            {
+              "lineId": "p3-line-44",
+              "line": 44,
+              "quote": "we had to put up with each other",
+              "revealAt": 376.86
+            },
+            {
+              "lineId": "p3-line-45",
+              "line": 45,
+              "quote": "my situation was pretty similar",
+              "revealAt": 379.84
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO experiences of sibling rivalry do the speakers agree has been valuable for them?",
+          "groupQuestions": [
+            29,
+            30
+          ]
+        },
+        {
+          "id": "p3-q30",
+          "question": 30,
+          "start": 355.4,
+          "end": 379.84,
+          "endLine": 45,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：we fought a lot but I think this has made me a stronger person / I know how to defend myself",
+          "evidence": [
+            {
+              "lineId": "p3-line-41",
+              "line": 41,
+              "quote": "we fought a lot but I think this has made me a stronger person",
+              "revealAt": 363.64
+            },
+            {
+              "lineId": "p3-line-42",
+              "line": 42,
+              "quote": "I know how to defend myself",
+              "revealAt": 365.54
+            },
+            {
+              "lineId": "p3-line-44",
+              "line": 44,
+              "quote": "we co-existed amicably enough",
+              "revealAt": 376.86
+            },
+            {
+              "lineId": "p3-line-44",
+              "line": 44,
+              "quote": "we had to put up with each other",
+              "revealAt": 376.86
+            },
+            {
+              "lineId": "p3-line-45",
+              "line": 45,
+              "quote": "my situation was pretty similar",
+              "revealAt": 379.84
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO experiences of sibling rivalry do the speakers agree has been valuable for them?",
+          "groupQuestions": [
+            29,
+            30
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "evidence"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "evidence"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "evidence"
+        },
+        {
+          "line": 38,
+          "role": "evidence"
+        },
+        {
+          "line": 39,
+          "role": "context"
+        },
+        {
+          "line": 40,
+          "role": "context"
+        },
+        {
+          "line": 41,
+          "role": "evidence"
+        },
+        {
+          "line": 42,
+          "role": "evidence"
+        },
+        {
+          "line": 43,
+          "role": "context"
+        },
+        {
+          "line": 44,
+          "role": "evidence"
+        },
+        {
+          "line": 45,
+          "role": "evidence"
+        },
+        {
+          "line": 46,
+          "role": "context"
+        },
+        {
+          "line": 47,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "The Eucalyptus Tree in Australia",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD ONLY for each answer.",
+      "audioSha256": "fa873b92bd0720bad545a3ae4572200b7627aec390de14888affd2058bf20252",
+      "transcriptSha256": "177026fec233047c0005ee05d1a00544922801e613863cac1c4da5d5f94ade03",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2020%20Part%204.mp3",
+      "duration": 474.096375,
+      "cues": [
+        {
+          "id": "p4-q31",
+          "question": 31,
+          "start": 116.66,
+          "end": 129.04,
+          "endLine": 4,
+          "answer": "shelter",
+          "accepted": [
+            "shelter"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：gives shelter to creatures like birds and bats",
+          "evidence": [
+            {
+              "lineId": "p4-line-4",
+              "line": 4,
+              "quote": "gives shelter to creatures like birds and bats",
+              "revealAt": 129.04
+            }
+          ],
+          "distractors": [],
+          "questionText": "● it provides 31 __________ and food for a wide range of species"
+        },
+        {
+          "id": "p4-q32",
+          "question": 32,
+          "start": 133.9,
+          "end": 143.86,
+          "endLine": 6,
+          "answer": "oil",
+          "accepted": [
+            "oil"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：made from oil extracted from eucalyptus leaves",
+          "evidence": [
+            {
+              "lineId": "p4-line-6",
+              "line": 6,
+              "quote": "made from oil extracted from eucalyptus leaves",
+              "revealAt": 143.86
+            }
+          ],
+          "distractors": [],
+          "questionText": "● its leaves provide 32 __________ which is used to make a disinfectant"
+        },
+        {
+          "id": "p4-q33",
+          "question": 33,
+          "start": 183.92,
+          "end": 197.5,
+          "endLine": 13,
+          "answer": "roads",
+          "accepted": [
+            "roads"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：was being used in the construction of roads",
+          "evidence": [
+            {
+              "lineId": "p4-line-13",
+              "line": 13,
+              "quote": "was being used in the construction of roads",
+              "revealAt": 197.5
+            }
+          ],
+          "distractors": [],
+          "questionText": "● lime used for making 33 __________ was absorbed"
+        },
+        {
+          "id": "p4-q34",
+          "question": 34,
+          "start": 251.36,
+          "end": 264.9,
+          "endLine": 21,
+          "answer": "insects",
+          "accepted": [
+            "insects"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：secrete a solution which has sugar in it / What happens is that insects settle on the leaves and eat their way round them",
+          "evidence": [
+            {
+              "lineId": "p4-line-21",
+              "line": 21,
+              "quote": "secrete a solution which has sugar in it",
+              "revealAt": 264.9
+            },
+            {
+              "lineId": "p4-line-21",
+              "line": 21,
+              "quote": "What happens is that insects settle on the leaves and eat their way round them",
+              "revealAt": 264.9
+            }
+          ],
+          "distractors": [],
+          "questionText": "● 34 __________ feed on eucalyptus leaves"
+        },
+        {
+          "id": "p4-q35",
+          "question": 35,
+          "start": 327.12,
+          "end": 341.26,
+          "endLine": 28,
+          "answer": "grass",
+          "accepted": [
+            "grass",
+            "grasses"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：very frequent / this encourages grass to grow afterwards",
+          "evidence": [
+            {
+              "lineId": "p4-line-28",
+              "line": 28,
+              "quote": "very frequent",
+              "revealAt": 341.26
+            },
+            {
+              "lineId": "p4-line-28",
+              "line": 28,
+              "quote": "this encourages grass to grow afterwards",
+              "revealAt": 341.26
+            }
+          ],
+          "distractors": [],
+          "questionText": "growth of 35 __________"
+        },
+        {
+          "id": "p4-q36",
+          "question": 36,
+          "start": 351.74,
+          "end": 361.96,
+          "endLine": 30,
+          "answer": "water",
+          "accepted": [
+            "water"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：consume water needed by eucalyptus trees",
+          "evidence": [
+            {
+              "lineId": "p4-line-30",
+              "line": 30,
+              "quote": "consume water needed by eucalyptus trees",
+              "revealAt": 361.96
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ make more 36 __________ available to the trees"
+        },
+        {
+          "id": "p4-q37",
+          "question": 37,
+          "start": 365.9,
+          "end": 380.42,
+          "endLine": 32,
+          "answer": "soil",
+          "accepted": [
+            "soil"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：If these other quick-growing species of bushes and plants are allowed to proliferate, they harm the eucalyptus in another way, by affecting the composition of the soil, and removing nutrients from it.",
+          "evidence": [
+            {
+              "lineId": "p4-line-32",
+              "line": 32,
+              "quote": "If these other quick-growing species of bushes and plants are allowed to proliferate, they harm the eucalyptus in another way, by affecting the composition of the soil, and removing nutrients from it.",
+              "revealAt": 380.42
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ maintain the quality of the 37 __________"
+        },
+        {
+          "id": "p4-q38",
+          "question": 38,
+          "start": 409.5,
+          "end": 425.66,
+          "endLine": 36,
+          "answer": "dry",
+          "accepted": [
+            "dry"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：has led to what’s known as “dry rainforest",
+          "evidence": [
+            {
+              "lineId": "p4-line-36",
+              "line": 36,
+              "quote": "has led to what’s known as “dry rainforest",
+              "revealAt": 425.66
+            }
+          ],
+          "distractors": [],
+          "questionText": "low-frequency bushfires result in the growth of ‘_____ rainforest’"
+        },
+        {
+          "id": "p4-q39",
+          "question": 39,
+          "start": 431.2,
+          "end": 445.94,
+          "endLine": 39,
+          "answer": "simple",
+          "accepted": [
+            "simple"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：a rich ecosystem / this type of ecosystem is usually a simple one",
+          "evidence": [
+            {
+              "lineId": "p4-line-38",
+              "line": 38,
+              "quote": "a rich ecosystem",
+              "revealAt": 440.06
+            },
+            {
+              "lineId": "p4-line-38",
+              "line": 38,
+              "quote": "this type of ecosystem is usually a simple one",
+              "revealAt": 440.06
+            },
+            {
+              "lineId": "p4-line-39",
+              "line": 39,
+              "quote": "not much variety of species",
+              "revealAt": 445.94
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ a 39 __________ ecosystem"
+        },
+        {
+          "id": "p4-q40",
+          "question": 40,
+          "start": 447.36,
+          "end": 458.86,
+          "endLine": 40,
+          "answer": "nests",
+          "accepted": [
+            "nests",
+            "nest"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：builds its nests in the undergrowth there",
+          "evidence": [
+            {
+              "lineId": "p4-line-40",
+              "line": 40,
+              "quote": "builds its nests in the undergrowth there",
+              "revealAt": 458.86
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ an ideal environment for the 40 __________ of the bell-miner"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "evidence"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "evidence"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "evidence"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "evidence"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "evidence"
+        },
+        {
+          "line": 39,
+          "role": "evidence"
+        },
+        {
+          "line": 40,
+          "role": "evidence"
+        },
+        {
+          "line": 41,
+          "role": "context"
+        }
+      ]
+    }
+  ]
+}

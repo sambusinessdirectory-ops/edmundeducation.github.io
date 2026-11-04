@@ -1,0 +1,1205 @@
+{
+  "id": "p3-117-recovering-a-damaged-reputation",
+  "catalogueId": "p3-117",
+  "catalogueIds": [
+    "p3-117"
+  ],
+  "passage": 3,
+  "title": "Recovering a damaged reputation",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "NO",
+    "YES",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "YES",
+    "A",
+    "C",
+    "C",
+    "D",
+    "C — statistics",
+    "F — public relations",
+    "D — guidelines",
+    "A — critics"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“If a majority of scientists at the CRU were cleared of misconduct, the public would be satisfied.”",
+      "translation": "如果 CRU 大部分科學家被證明沒有 misconduct，公眾就會感到滿意。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目問的是 writer 的看法。要判斷「大部分科學家洗清嫌疑」是否足以令公眾滿意。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2009, it was revealed that some of the information published by the University of East Anglia’s Climatic Research Unit (CRU) in the UK, concerning climate change, had been inaccurate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2009 年，有人揭發英國 University of East Anglia 的 Climatic Research Unit 發布的部分 climate change 資料並不準確。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The perceived wrongdoings of a few people had raised doubts about the many.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "少數人被認為有不當行為，已經令大眾對許多人產生懷疑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 的功能：交代 CRU 事件背景，並說明少數人的問題如何擴大成整個群體的 reputation damage。這和題目中的 “majority of scientists” 及 “public would be satisfied” 直接相關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 時，最有定位力的字是 “cleared of misconduct” 和 “public would be satisfied”。原文沒有逐字說 cleared，但有一個很接近的句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even if the claims of misconduct and incompetence were eventually proven to be largely untrue, or confined to a few individuals, the damage was done.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使有關 misconduct 和 incompetence 的指控最終被證明大致不實，或只限於少數個人，傷害已經造成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “Even if … the damage was done”。“Even if” 表示讓步：就算指控大部分不成立，或只涉及少數人，聲譽損害已經發生。題目說公眾會 satisfied；原文說 damage was done，而且少數人的 perceived wrongdoings 已令大眾懷疑 many。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cleared of misconduct= claims of misconduct proven largely untrue / confined to a few individuals public would be satisfied↔ the damage was done / raised doubts about the many判斷落點在 “Even if”。作者的看法是：即使多數人沒有 misconduct，公眾信任仍已受損。所以題目方向和原文相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“In the aftermath of the CRU scandal, most scientists avoided attention.”",
+      "translation": "CRU scandal 發生後，大多數科學家避開公眾注意。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The response of most climate scientists was to cross their fingers and hope for the best, and they kept a low profile.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數 climate scientists 的反應是祈求事情會好轉，並保持低調。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, although these were likely to help, they were unlikely to undo the harm caused by months of hostile news reports and attacks by critics.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，雖然這些調查可能有幫助，卻不太可能消除數月敵意新聞報道和批評者攻擊造成的傷害。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 2 在講 scientists 的危機後反應，以及這種反應不足以修補名聲。題目中的 “aftermath” 對應 scandal 之後；“avoided attention” 對應 “kept a low profile”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "most scientists avoided attention aftermath原文最直接證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“most climate scientists … kept a low profile.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數氣候科學家保持低調。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“keep a low profile” 是常見短語，意思是避免引人注目、不要高調露面。題目把它改寫成 “avoided attention”，意思完全吻合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "most scientists= most climate scientists avoided attention= kept a low profile in the aftermath of the CRU scandal= response after the controversy題目和原文方向一致，所以答案是 YES。中伏位在於 “cross their fingers and hope for the best”。這不是正式行動，而是希望情況自行好轉。它和 “kept a low profile” 一起說明科學家當時偏向被動、低調。題目沒有說他們 completely disappeared，也沒有說所有科學家都避開注意；它只說 most，和原文一致。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Journalists have defended the CRU and the IPCC against their critics.”",
+      "translation": "記者曾為 CRU 和 IPCC 辯護，反駁批評者。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 2 and 9這題需要跨段看。Paragraph 2 先提到 hostile news reports；Paragraph 9 再提到 journalists 和defend。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, although these were likely to help, they were unlikely to undo the harm caused by months of hostile news reports and attacks by critics.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，雖然這些調查可能有幫助，卻不太可能消除數月敵意新聞報道和批評者攻擊造成的傷害。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second step outlined by Gaines-Ross is to ‘communicate tirelessly’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gaines-Ross 提出的第二步是「不斷溝通」。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this case, ‘no comment’ is commonly interpreted as an admission of silent, collective guilt.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這種情況下，「無可奉告」通常會被理解成一種沉默的集體罪咎承認。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Scan 定位詞是 “Journalists”, “defended”, “critics”。原文真正相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Journalists following the story have often been unable to find spokespeople willing to defend climate science.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "跟進這個故事的記者常常找不到願意為 climate science 辯護的發言人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "細讀時要看清主體。題目說 journalists defended；原文說 journalists were unable to find spokespeople willing to defend。也就是說，原文中負責 defend 的應是 spokespeople，問題在於他們找不到這些人。再加上 Paragraph 2 形容新聞報道是 hostile news reports，文章整體方向並不支持「記者為 CRU 和 IPCC 辯護」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "journalists have defended↔ journalists were unable to find spokespeople willing to defend against their critics↔ hostile news reports and attacks by critics這裡真正控制答案的是 “defended” 的主體。題目把 defend 的行動放在 journalists 身上；原文指出 journalists 找不到願意 defend 的 spokesperson。方向不一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Ralph Cicerone regarded the damage caused by the CRU as extending beyond the field of climate science.”",
+      "translation": "Ralph Cicerone 認為 CRU 事件造成的傷害超出了 climate science 這一個領域。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The damage that has been done should not be underestimated.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "已造成的損害不應被低估。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He concluded that ‘the perceived misbehavior of even a few scientists can diminish the credibility of science as a whole.’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他總結說，即使只有少數科學家被認為行為不當，也會削弱 science as a whole 的可信度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會強調 reputational damage 的廣度。題目中的 Ralph Cicerone 是非常強的定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Ralph Cicerone damage beyond climate science原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Ralph Cicerone, the President of the US National Academy of Sciences, wrote in an editorial in the journal Science…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如 US National Academy of Sciences 主席 Ralph Cicerone 在 Science 期刊一篇社論中所寫……答案核心在最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the perceived misbehavior of even a few scientists can diminish the credibility of science as a whole.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使只有少數科學家被認為行為不當，也會削弱整體科學的可信度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 beyond the field of climate science。原文的 “science as a whole” 比 climate science 範圍更大，直接支持「影響超出氣候科學」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "damage caused by the CRU= perceived misbehavior of even a few scientists extending beyond the field of climate science= diminish the credibility of science as a whole所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Since 2010, confidence in climate science has risen slightly in the US.”",
+      "translation": "自 2010 年以來，美國人對 climate science 的信心略有上升。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An opinion poll taken at the beginning of 2010 found that the proportion of people in the US who trust scientists as a source of information about global warming had dropped from 83 percent in 2008 to 74 percent.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2010 年初一項民調發現，美國把 scientists 視為 global warming 資訊來源並信任他們的人，由2008 年的 83% 跌至 74%。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another survey carried out by the British Broadcasting Corporation in February 2010 found that just 26 percent of British people now believe that climate change is confirmed as being largely human-made, down from 41 percent in November 2009.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "BBC 在 2010 年 2 月進行的另一項調查發現，現在只有 26% 英國人相信 climate change 已被確認主要由人類造成，低於 2009 年 11 月的 41%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段只提供 2008 到 2010 的下降數據，以及英國 2009 到 2010 的下降數據。題目問 “Since 2010” 之後是否上升，這需要 2010 之後的資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Since 2010 risen slightly US原文有 US 和 2010，但資訊方向是： 83 percent in 2008→ 74 percent at the beginning of 2010這是下降，不是上升。可是題目問的是 “Since 2010”，即 2010 之後。文章沒有提供 2010 之後美國信心是否上升、下降或持平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題不宜選 NO，因為 NO 需要原文明確否定 “since 2010 has risen slightly”。原文只說到 2010年初為止的下降，沒有提供後續趨勢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺失資料：有：2008 → 2010 年初，美國信任度下跌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺：2010 年之後，美國信任度是否略升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Climate scientists should take professional advice on regaining public confidence.”",
+      "translation": "Climate scientists 應該接受專業建議，以重新獲得公眾信心。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 5–6 Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Regaining the confidence and trust of the public is never easy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "重新獲得公眾信心與信任從來不容易。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 第一段："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, climate science needs professional help to rebuild its reputation.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，climate science 需要專業協助來重建聲譽。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gaines-Ross’s strategy is based on her analysis of how various organisations responded to crises…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gaines-Ross 的策略建基於她對不同組織如何應對危機的分析。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "professional advice regaining public confidence climate scientists原文雖然用 “climate science”，但此處代表整個 climate science field 及其中的 scientists。原文說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“needs professional help”，題目說 “should take professional advice”，兩者方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "regaining public confidence= rebuild its reputation / regaining the confidence and trust of the public professional advice= professional help / advice given by Leslie Gaines-Ross should take= needs這題的判斷很直接。作者明確主張 climate science needs professional help，並建議可跟從Leslie Gaines-Ross 的 advice。因此答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "A — resigned from their posts",
+      "answerKey": "A — resigned from their posts",
+      "type": "Multiple Choice",
+      "prompt": "“In accordance with Gaines-Ross’s views, the heads of the CRU and IPCC should have…”",
+      "translation": "根據 Gaines-Ross 的看法，CRU 和 IPCC 的領導人應該……目標段落：Paragraphs 7–8 Paragraph 7 第一句：“The first step she suggests is to ‘take the heat – leader first’.”",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "她建議的第一步是：「先由領袖承擔壓力。」Paragraph 7 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the leader is held at least partly responsible for the fall from grace, it can be almost impossible to convince critics that a new direction can be charted with that same person at the helm.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果領袖被認為至少要為聲譽下跌負部分責任，就幾乎不可能說服批評者相信，同一個人繼續掌舵仍能帶出新方向。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 第一、二句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is the dilemma facing the heads of the IPCC and CRU. Both have been blamed for their organisations’ problems…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是 IPCC 和 CRU 領導層面對的兩難。兩者都因其組織的問題而受到責備。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Gaines-Ross heads of the CRU and IPCC leader same person at the helm原文的邏輯是兩步：第一，Gaines-Ross 說 crisis 中 leader 要先承擔壓力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，如果 leader 本身被認為要負責，繼續由同一人掌舵就很難說服批評者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 再把這套原則套用到 CRU 和 IPCC：both have been blamed，並且 both have been subjected to public calls for their removal。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A resigned from their posts.正確。文章沒有逐字命令 “resign”，但根據 Gaines-Ross 的邏輯，若領袖已被視為問題一部分，要以同一人繼續修復聲譽幾乎不可能。因此四個選項中，A 最貼近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B accepted responsibility and continued in their posts.前半 “accepted responsibility” 接近 “take the heat”，但後半 “continued” 與 “same person at the helm” 造成困難的說法不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C shifted attention onto more junior staff.原文沒有說要把責任推給 junior staff；“leader first” 的方向剛好相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D ignored the criticisms directed at them.這與全文建議相反。Gaines-Ross 的策略要求正面處理危機，不是忽視批評。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "C — They have avoided interviews with the press.",
+      "answerKey": "C — They have avoided interviews with the press.",
+      "type": "Multiple Choice",
+      "prompt": "“Which mistake have staff at the CRU and IPCC made?”",
+      "translation": "CRU 和 IPCC 的人員犯了哪一個錯誤？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second step outlined by Gaines-Ross is to ‘communicate tirelessly’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gaines-Ross 提出的第二步是「不斷溝通」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this case, ‘no comment’ is commonly interpreted as an admission of silent, collective guilt.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這種情況下，「無可奉告」通常會被理解成沉默的集體罪咎承認。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段明顯處理 communication。題目問 mistake，所以要找 climate researchers 哪裡沒有做到 communicate tirelessly。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "mistake CRU and IPCC staff press / media / interviews原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet many climate researchers have avoided the media and the public, at least until the official enquiries have concluded their reports.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，許多 climate researchers 避開了傳媒和公眾，至少在官方調查完成報告之前如此。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Journalists following the story have often been unable to find spokespeople willing to defend climate science.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "跟進這件事的記者常常找不到願意為 climate science 辯護的發言人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C “They have avoided interviews with the press” 把 avoided the media 改寫成 avoided interviews with the press。雖然原文沒有逐字說 interviews，但 journalists 找不到 spokespeople，語境正是傳媒採訪和公開回應。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A They have blamed each other for problems.原文沒有說 CRU 和 IPCC 互相指責。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B They have publicly acknowledged failings.原文批評的是他們 reluctance to admit mistakes or wrongdoing，不支持此選項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C They have avoided interviews with the press.正確。對應 avoided the media and the public。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D They have made conflicting public statements.原文沒有說他們發表互相矛盾的 statements。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "C — made some criticisms which are justified",
+      "answerKey": "C — made some criticisms which are justified",
+      "type": "Multiple Choice",
+      "prompt": "“People who challenge the evidence of climate change have generally…”",
+      "translation": "質疑 climate change evidence 的人，一般來說……目標段落：Paragraph 11第一句：“The third step put forward by Gaines-Ross is ‘don’t underestimate your critics and competitors’.”",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Gaines-Ross 提出的第三步是「不要低估你的批評者和競爭者」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is clear, for instance, that climate scientists need better standards of transparency, to allow for scrutiny not just by their peers, but also by critics from outside the world of research.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，很明顯，climate scientists 需要更好的透明度標準，好讓不只同行，還包括研究界以外的批評者都能審查。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 11 的核心是 critics。題目中的 “People who challenge the evidence” 對應 critics / opponents of climate research。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "challenge the evidence critics criticisms justified原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This means not only recognising the skill with which the opponents of climate research have executed their campaigns through Internet blogs and other media, but also acknowledging the validity of some of their criticisms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這意味著不只要承認 climate research 的反對者如何熟練地透過 Internet blogs 和其他 media 展開 campaign，也要承認他們某些批評是有道理的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“validity of some of their criticisms” 就是 “some criticisms which are justified”。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A presented their case poorly.原文說他們透過 blogs 和 media 執行 campaigns 很有技巧，所以 A 方向不合。 B missed opportunities for publicity.原文說他們善用 Internet blogs 和 other media，沒有說他們錯過宣傳機會。 C made some criticisms which are justified.正確。對應 acknowledging the validity of some of their criticisms。 D been dishonest in their statements. Paragraph 12 提到 unfounded arguments based on prejudice，但沒有概括說他們 generally dishonest。答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "D — The time it might take for scientists to win back confidence",
+      "answerKey": "D — The time it might take for scientists to win back confidence",
+      "type": "Multiple Choice",
+      "prompt": "“What does the reference to ‘a marathon’ indicate in the final paragraph?”",
+      "translation": "最後一段提到 “a marathon” 指的是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 13–14 Paragraph 13 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To begin the process of rebuilding trust in their profession, climate scientists need to follow these three steps.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要開始重建大眾對其專業的信任，climate scientists 需要跟從這三個步驟。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 13 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gaines-Ross estimates that it typically takes four years for a company to rescue and restore a broken reputation.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gaines-Ross 估計，一間公司通常需要四年才能拯救並恢復受損聲譽。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 14："
+            },
+            {
+              "kind": "quote",
+              "text": "“Winning back public confidence is a marathon, not a sprint, but you can’t win at all if you don’t step up to the starting line.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "贏回公眾信心是一場馬拉松，不是短跑；但如果你連起跑線都不上，就完全不可能取勝。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "marathon final paragraph win back confidence原文中的 “marathon, not a sprint” 是比喻。marathon 表示長距離、長時間、需要持續努力；sprint表示短時間衝刺。前一段剛說 reputation recovery 通常要四年，因此這個比喻重點在 time and persistence。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A The rate at which the climate is changing.文章最後談 reputation recovery，不是 climate change speed。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B The competition between rival theories of climate change.全文沒有把 marathon 用來比喻理論競爭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C The ongoing need for new climate data.文章重點是 public confidence，不是新數據需求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D The time it might take for scientists to win back confidence.正確。對應 “typically takes four years” 和 “marathon, not a sprint”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "C — statistics",
+      "answerKey": "C — statistics",
+      "type": "Summary Completion",
+      "prompt": "“The revelation, in 2009, that scientists at the CRU had presented inaccurate information and concealed some of their 37 ______ had a serious effect on their reputation.”",
+      "translation": "2009 年，有人揭發 CRU 科學家呈現不準確資訊，並隱瞞部分 37 ______，這對他們的聲譽造成嚴重影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "2009 inaccurate information concealed reputation原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2009, it was revealed that some of the information published by the University of East Anglia’s Climatic Research Unit (CRU) in the UK, concerning climate change, had been inaccurate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2009 年，有人揭發 CRU 發布的部分 climate change 資訊不準確。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Furthermore, it was alleged that some of the relevant statistics had been withheld from publication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，有人指稱部分相關 statistics 被 withheld from publication，即沒有公開發布。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “some of their”，需要複數名詞。選項 C “statistics” 文法和意思都合適。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "concealed= withheld from publication some of their statistics= some of the relevant statistics答案是 C — statistics。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "F — public relations",
+      "answerKey": "F — public relations",
+      "type": "Summary Completion",
+      "prompt": "“In order to address the problem, the scientists should turn to experts in 38 ______.”",
+      "translation": "為了解決這個問題，科學家應該求助於 38 ______ 方面的專家。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, climate science needs professional help to rebuild its reputation.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，climate science 需要專業協助來重建聲譽。"
+            },
+            {
+              "kind": "label",
+              "text": "接着："
+            },
+            {
+              "kind": "quote",
+              "text": "“It could do worse than follow the advice given by Leslie Gaines-Ross, a ‘reputation strategist’ at public relations (PR) company Weber Shandwick…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它大可參考 Leslie Gaines-Ross 的建議；她是 public relations 公司 Weber Shandwick 的reputation strategist。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "professional help experts public relations題目中的 “turn to experts” 對應原文 “needs professional help” 和 “follow the advice given by Leslie Gaines-Ross”。她的身份來自 public relations company，因此空格應填 public relations。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "experts in public relations= a reputation strategist at public relations company Weber Shandwick address the problem= rebuild its reputation答案是 F — public relations。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "D — guidelines",
+      "answerKey": "D — guidelines",
+      "type": "Summary Completion",
+      "prompt": "“Leslie Gaines-Ross has published 39 ______ based on studies of crisis management in commercial and public-sector organisations.”",
+      "translation": "Leslie Gaines-Ross 已根據對商業及公共部門組織 crisis management 的研究，發布了 39______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It could do worse than follow the advice given by Leslie Gaines-Ross… in her recent book Corporate Reputation: 12 Steps to Safeguarding and Recovering Reputation.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它大可參考 Leslie Gaines-Ross 在其近作《Corporate Reputation: 12 Steps to Safeguarding and Recovering Reputation》中提出的建議。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Gaines-Ross’s strategy is based on her analysis of how various organisations responded to crises…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gaines-Ross 的策略建基於她分析不同組織如何應對危機。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “has published” 對應 “in her recent book”。“based on studies of crisis management” 對應 “strategy is based on her analysis of how various organisations responded to crises”。選項中最合適的是 D “guidelines”，因為她的 book 提供 “12 Steps”，也就是一套可跟從的建議或指引。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項不合： B corruption：文章沒有說她出版 corruption。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E managers：她不是出版 managers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F public relations：Q38 已用，且這裡需要可被 published 的內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "H computer modelling：文章完全沒有提到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 D — guidelines。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "A — critics",
+      "answerKey": "A — critics",
+      "type": "Summary Completion",
+      "prompt": "“Amongst other things, Gaines-Ross suggests that climate scientists should confront their 40______.”",
+      "translation": "除其他事情外，Gaines-Ross 建議 climate scientists 應該面對他們的 40 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 11–12 Paragraph 11 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The third step put forward by Gaines-Ross is ‘don’t underestimate your critics and competitors’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Gaines-Ross 提出的第三步是「不要低估你的批評者和競爭者」。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 12 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is also important to engage with those critics.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "與那些批評者互動也很重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan 定位詞",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Gaines-Ross confront critics題目中的 “confront” 沒有逐字出現在原文，但它的意思是正面面對、處理。原文用了 “don’t underestimate your critics” 和 “engage with those critics”。這兩句合起來表示 climate scientists不能避開 critics，需要正面處理他們的批評。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "confront their critics= don’t underestimate your critics / engage with those critics climate scientists should= Gaines-Ross suggests答案是 A — critics。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Recovering a damaged reputation.pdf",
+    "sha256": "dd092e0df1388ee60664b0a9e23bc2563996115e64c746ea0164b6c085687727",
+    "pageCount": 23
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句交代 2009 年 CRU 發布的部分 climate change 資料被揭發不準確。末句說少數人的perceived wrongdoings 已令大眾質疑整個科學群體。只看首尾句，可以先判斷本段功能是建立scandal 背景及 reputation damage。重點不只在資料錯誤，也在公眾信任受損。後面若有misconduct、public confidence、statistics、reputation 題，很可能定位到這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說大多數 climate scientists 的反應是祈求事情好轉，並保持低調。末句指出 independent inquiries 雖可能有幫助，卻不太可能消除數月 hostile news reports 和 critics attacks 造成的傷害。只看首尾句，可以估計本段處理 scientists 的危機後反應：avoid attention、keep low profile、hope inquiries solve problem。這段很可能支援關於 scientists 是否主動面對傳媒的判斷題。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說已造成的 damage 不應被低估。末句引用 Ralph Cicerone 的結論：即使只有少數科學家被認為行為不當，也會削弱 science as a whole 的可信度。只看首尾句，可以看到本段把 CRU 事件的影響擴大到整個 science reputation。若題目問 Ralph Cicerone 或 damage 是否超出 climate science，本段是最直接答案位置。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 2010 年初一項 opinion poll 發現，美國相信 scientists 作為 global warming 資訊來源的人由 2008 年的 83% 跌至 74%。末句再用 BBC survey 說英國相信 climate change 主要由人類造成的人由 41% 跌至 26%。只看首尾句，本段功能是用美英民調數字證明 public confidence 下跌。重點是下降，而非恢復或上升。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說要重建 public confidence and trust 從來不容易。末句建議 climate science 應向曾經處理類似 public standing crisis 的 organisations 學習成功與失敗經驗。只看首尾句，可以看出本段開始由問題轉向建議：光靠 hunkering down and hoping for the best 幾乎不可行，必須學習reputation recovery。後文應會引入具體專業策略。"
+      },
+      {
+        "number": "6",
+        "summary": "首句直接說 climate science 需要 professional help 重建 reputation。末句說 Gaines-Ross 的策略建基於她分析不同組織如何應對危機，例如 Xerox 和 NASA。只看首尾句，可以判斷本段引入public relations / reputation strategist / crisis management。若題目問 professional advice、public relations 或 Gaines-Ross 的 published guidance，本段是核心定位段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Gaines-Ross 建議的第一步是 “take the heat – leader first”。末句說若 leader 被視為至少要為聲譽下跌負部分責任，批評者很難相信同一位 leader 能帶出新方向。只看首尾句，本段功能是解釋 leadership responsibility：領袖公開承擔有時有用，但若領袖本身被指責，繼續由同一人掌舵會難以重建信任。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說這正是 IPCC 和 CRU 領導層面對的 dilemma。末句說兩個組織似乎相信即使不換領導也能修復聲譽。只看首尾句，可以知道本段把 Paragraph 7 的 leadership principle 套用到 IPCC 和CRU。這段暗示作者認為兩組織仍低估 leadership change 的重要性，特別適合處理 Q33。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 Gaines-Ross 的第二步是 “communicate tirelessly”。末句說在這種情況下，“no comment”通常會被理解成沉默的集體罪咎承認。只看首尾句，可以判斷本段處理 communication failure： climate researchers 避開 media and public，令 journalists 找不到願意 defend climate science 的spokesperson。這段會支援「避開傳媒訪問」類題目。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說 remaining visible 只是起點，climate scientists 還要小心自己說甚麼。末句指出損害因一種 perceived reluctance to admit mistakes or wrongdoing 而加劇。只看首尾句，本段重點是communication content，不只要出現，也要承認公眾疑慮牽涉 conduct and honesty。若題目問是否只需重申 evidence，本段會提供反方向證據。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說 Gaines-Ross 第三步是 “don’t underestimate your critics and competitors”。末句說climate scientists 需要更高的 transparency standards，讓同行和研究界以外的 critics 都能審查。只看首尾句，可以判斷本段處理 critics：既要承認對手 campaign skill，也要承認部分criticism 有 validity。這段直接支援 Q35 和 Q40。"
+      },
+      {
+        "number": "12",
+        "summary": "首句說 engage with those critics 也很重要。末句說 scientists 有義務幫助 public understand climate change 的原因，以及避免和應對後果的 options。只看首尾句，本段補充 Paragraph 11：面對 critics 不等於接受沒有證據的說法，但仍要與批評者和公眾溝通。這段把 “critics” 和 public communication 連起來。"
+      },
+      {
+        "number": "13",
+        "summary": "首句說要開始重建 profession trust，climate scientists 需要跟隨這三步。末句說 Gaines-Ross 估計一間公司通常要四年才能 rescue and restore broken reputation。只看首尾句，可以看到本段總結三步只是 start，reputation recovery 需要長時間。這段為最後一段的 “marathon” 比喻做準備。"
+      },
+      {
+        "number": "14",
+        "summary": "首句也是全段唯一一句：Winning back public confidence is a marathon, not a sprint, but you can’t win at all if you don’t step up to the starting line. 只看這句，可以判斷全文結尾主旨：重建public confidence 是長期過程，不能期待短時間完成；可是若 climate scientists 不開始主動行動，就完全無法贏回信任。這段直接支援 Q36。"
+      }
+    ]
+  }
+}

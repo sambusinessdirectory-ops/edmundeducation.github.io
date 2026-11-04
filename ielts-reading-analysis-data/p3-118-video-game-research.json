@@ -1,0 +1,1431 @@
+{
+  "id": "p3-118-video-game-research",
+  "catalogueId": "p3-118",
+  "catalogueIds": [
+    "p3-118"
+  ],
+  "passage": 3,
+  "title": "Video game research",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "NOT GIVEN",
+    "YES",
+    "NOT GIVEN",
+    "NO",
+    "YES",
+    "C",
+    "E",
+    "F",
+    "A",
+    "I",
+    "B",
+    "C",
+    "A",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Video game use amongst preschool children is higher in the US than in other countries.”",
+      "translation": "美國 preschool children 使用 video games 的比例高於其他國家。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 和 Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although video games were first developed for adults, they are no longer exclusively reserved for the grown-ups in the home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 video games 最初是為成人開發，但現在已不再只保留給家中的成年人。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Portable systems have done a particularly good job of penetrating the younger market.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "便攜式系統在打入年幼市場方面尤其成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 只提供美國幼兒玩遊戲的數據和年幼市場背景。題目加入 “higher in the US than in other countries”，所以需要跨國比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “US”, “other countries”, “higher”。Paragraph 1 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2006, Rideout and Hamel reported that as many as 29 percent of preschool children … in the United States had played console video games, and 18 percent had played hand-held ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2006 年，Rideout 和 Hamel 報告指，美國 2 至 6 歲 preschool children 中，多達 29% 曾玩console video games，18% 曾玩 hand-held games。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 又有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our context in this case was the United States, although the games that resulted were also released in other regions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項研究的背景是美國，不過由於角色具有廣泛國際影響力，研究產生的遊戲也在其他地區推出。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有美國數據，也提到產品後來在其他地區推出。可是題目需要的是比較句： US use > other countries use文章沒有提供 other countries 的 preschool video game use 數據，也沒有說美國更高或更低。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要： higher in the US= 美國比其他國家比例高原文只有： in the United States, 29% / 18%= 美國內部數據缺少： other countries’ data= 其他國家的使用比例判斷原文沒有足夠資料判斷美國是否高於其他國家，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “United States” 和 “other regions” 很容易以為文章有跨國比較。其實 “other regions” 只說產品也在其他地區推出，沒有比較幼兒使用比例。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The proportion of preschool children using video games is likely to rise.”",
+      "translation": "使用 video games 的 preschool children 比例可能會上升。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although video games were first developed for adults, they are no longer exclusively reserved for the grown-ups in the home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 video games 最初是為成人開發，但現在已不再只屬於家中成年人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Portable systems have done a particularly good job of penetrating the younger market.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "便攜式系統在打入年幼市場方面尤其成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經提示：遊戲由成人市場逐步擴展到更年幼用戶。題目問 “likely to rise”，要找作者對未來趨勢的預測。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “proportion”, “preschool children”, “likely to rise”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Given young children’s insatiable eagerness to learn, coupled with the fact that they are clearly surrounded by these media, we predict that preschoolers will both continue and increasingly begin to adopt video games for personal enjoyment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考慮到年幼兒童強烈的學習渴望，再加上他們明顯被這些媒體包圍，作者預測 preschoolers 會繼續使用，並且會愈來愈多地開始把 video games 用作個人娛樂。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "核心是 “we predict” 和 “increasingly begin to adopt”。“predict” 表示作者對未來的看法；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“increasingly” 表示程度上升。題目說 “is likely to rise”，正好把這個預測概括成比例可能增加。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "The proportion … is likely to rise= more preschool children will use video games we predict= is likely to increasingly begin to adopt video games= use will rise判斷題目和原文方向一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有要求文章提供未來精確百分比。原文的 “we predict” 已經足以支援 “is likely to rise”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Parents in the US who own gaming equipment generally allow their children to play with it.”",
+      "translation": "美國擁有 gaming equipment 的父母通常容許孩子玩這些設備。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although video games were first developed for adults, they are no longer exclusively reserved for the grown-ups in the home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 video games 最初是為成人開發，但現在已不再只保留給家中成年人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Portable systems have done a particularly good job of penetrating the younger market.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "便攜式系統在打入年幼市場方面尤其成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段確實談 household、family members 和 youngest children，所以和題目有關。但題目加入了parents’ permission，即父母是否容許。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Parents”, “own gaming equipment”, “allow”, “children”。原文最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the majority of gaming equipment is still designed for a much older target audience, once a game system enters the household it is potentially available for all family members, including the youngest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然大多數 gaming equipment 仍然是為年齡大得多的目標群體設計，但一旦一套 game system進入家庭，它就有可能被所有家庭成員使用，包括最年幼的成員。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 “potentially available”，意思是設備在家庭中有可能被所有人接觸。這是可接觸性，不等於父母容許。題目說 “parents … generally allow”，需要明確涉及父母態度或准許行為。文章沒有說父母一般批准，也沒有說父母一般禁止。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文： potentially available= 有機會接觸到"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "parents generally allow= 父母通常准許缺少的核心資料是 “allow”。原文提供的是設備在家中的可接觸性，沒有提供父母規管或許可情況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷文章沒有足夠資料判斷父母是否通常容許，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“potentially available for all family members” 很吸引人，但 potentially 只是「可能可用」。它不等於 “generally allow”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The type of research which manufacturers usually do is aimed at improving game design.”",
+      "translation": "製造商通常進行的研究，目的是改善 game design。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research in the video game market is typically done at two stages: some time close to the end of the product cycle, in order to get feedback from consumers, so that a marketing strategy can be developed; and at the very end of the product cycle to ‘fix bugs’ in the game.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "video game market 的研究通常在兩個階段進行：一是在產品周期接近尾聲時取得消費者回饋，以制定 marketing strategy；二是在產品周期最後階段修正遊戲中的 bugs。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So we set about doing a study to answer the query: What could we expect preschoolers to be capable of in the context of hand-held game play, and how might the child development literature inform us as we proceeded with the creation of a new outlet for this age group?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以作者開始進行一項研究，回答 preschoolers 在 hand-held gameplay 中能做到甚麼，以及child development literature 如何幫助他們為這個年齡層創造新產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經說一般市場研究的目的：marketing strategy 和 bug fixing。題目說 usual research aims at improving design，需要檢查是否和原文衝突。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “usually do”, “aimed at”, “improving game design”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While both of those types of research are important, and may be appropriate for dealing with adult consumers, neither of them aids in designing better games, especially when it comes to designing for an audience that may have particular needs, such as preschoolers or senior citizens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這兩類研究都重要，也可能適合處理成人消費者，但它們都無助於設計更好的遊戲，尤其是面對有特殊需要的受眾，例如 preschoolers 或 senior citizens。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說通常研究 aimed at improving game design。原文說這些通常研究的目的分別是marketing strategy 和 fix bugs，並清楚補充 “neither of them aids in designing better games”。這和題目核心相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "aimed at improving game design= 目的是設計更好遊戲原文： neither of them aids in designing better games= 兩類通常研究都不能幫助設計更好遊戲判斷原文提供明確反向證據，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “research” 和原文 “research” 一樣，但要看研究目的。原字重現只帶你到位置；真正定案的是 “marketing strategy”, “fix bugs”, “neither … aids in designing better games”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Both younger and older consumers of games require specifically targeted research.”",
+      "translation": "較年幼和較年長的遊戲消費者都需要專門針對他們的研究。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research in the video game market is typically done at two stages…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "video game market 的研究通常在兩個階段進行……最後一句提出 Nickelodeon 研究要回答 preschoolers 能做到甚麼。這段由一般研究不足，轉向有特殊需要用戶的研究。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “younger and older consumers”, “specifically targeted research”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“…especially when it comes to designing for an audience that may have particular needs, such as preschoolers or senior citizens. Instead, exploratory and formative research has to be undertaken in order to truly understand those audiences, their abilities, their perspectives, and their needs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "尤其是為可能有特殊需要的受眾設計時，例如 preschoolers 或 senior citizens。相反，必須進行exploratory and formative research，才能真正理解這些受眾、他們的能力、觀點和需要。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“preschoolers” 對應 younger consumers；“senior citizens” 對應 older consumers。原文說這些audience may have particular needs，所以需要 exploratory and formative research 來理解他們。題目的 “specifically targeted research” 是對 “research … to truly understand those audiences” 的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "younger consumers= preschoolers older consumers= senior citizens require specifically targeted research= exploratory and formative research has to be undertaken to understand their abilities, perspectives and needs判斷題目和原文方向一致，所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接寫 “younger and older consumers” 這幾個字，但用 preschoolers 和 senior citizens 這兩個例子表達了同一組人群。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "C — cognitive skills",
+      "answerKey": "C — cognitive skills",
+      "type": "Summary Completion",
+      "prompt": "“Preschool children find many electronic games difficult, because neither their motor skills nor their 32 ______ are sufficiently developed.”",
+      "translation": "Preschool children 覺得很多 electronic games 困難，因為他們的 motor skills 和 32 ______ 都尚未充分發展。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Revelle and Medoff (2002) review some of the basic reasons why home entertainment systems, computers, and other electronic gaming devices, are often difficult for preschoolers to use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Revelle and Medoff 回顧了一些基本原因，解釋為何 home entertainment systems、computers和其他 electronic gaming devices 對 preschoolers 來說常常難用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though this aspect is changing, in traditional mapping systems real-life movements do not usually translate into game-based activity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這方面正在改變，但在傳統 mapping systems 中，現實生活中的動作通常不能轉化為遊戲中的活動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “motor skills”, “difficult”, “developed”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to their still developing motor skills … many of the major stumbling blocks are cognitive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了他們仍在發展中的 motor skills 之外，許多主要障礙都屬於 cognitive 層面。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目空格和 “motor skills” 並列，所以需要另一種能力。原文 “cognitive” 對應選項 C “cognitive skills”。“stumbling blocks are cognitive” 表示困難源於認知能力尚在發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：C — cognitive skills"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "E — fingers",
+      "answerKey": "E — fingers",
+      "type": "Summary Completion",
+      "prompt": "“Certain types of control are hard for these children to manipulate, for example, 33 ______ can be more effective than styluses.”",
+      "translation": "某些控制方式對這些兒童來說很難操作；例如，33 ______ 可能比 styluses 更有效。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the course of our study, we gained many insights into how preschoolers interact with various platforms, including the DS.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在研究過程中，作者獲得很多 insights，了解 preschoolers 如何和包括 DS 在內的各種平台互動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…by using their fingers they can often be more accurate in their game interactions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，使用手指時，他們在遊戲互動中往往可以更準確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “styluses”, “more effective”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another of our findings indicated that preschoolers may use either a stylus, or their fingers, or both, although they are not very accurate with either.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一項發現指出，preschoolers 可能會用 stylus、手指，或兩者都用，雖然兩種方式他們都不太準確。"
+            },
+            {
+              "kind": "label",
+              "text": "後面補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“…their fingers are so small that they mimic the stylus very effectively, and therefore by using their fingers they can often be more accurate…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的手指很小，能很有效地模仿 stylus，因此使用手指時往往更準確。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “can be more effective than styluses”，原文說 fingers mimic stylus effectively and can often be more accurate。答案是 E fingers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：E — fingers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "F — pictures",
+      "answerKey": "F — pictures",
+      "type": "Summary Completion",
+      "prompt": "“Also, although they already have the ability to relate 34 ______ to real-world objects…”",
+      "translation": "此外，雖然他們已經能夠把 34 ______ 和現實世界物件聯繫起來……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說電子遊戲設備對 preschoolers 常常難用；最後一句說 real-life movements 和game-based activity 的 mapping 有困難。本題問 symbolically / real-world objects，應看中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “relate”, “real-world objects”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though preschoolers are learning to think symbolically, and understand that pictures can stand for real-life objects, the vast majority are still unable to read and write.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 preschoolers 正在學習象徵性思考，並理解 pictures 可以代表現實生活中的物件，但大多數仍不能閱讀和書寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “relate ___ to real-world objects” 對應原文 “pictures can stand for real-life objects”。答案是 F pictures。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：F — pictures"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "A — actions",
+      "answerKey": "A — actions",
+      "type": "Summary Completion",
+      "prompt": "“…preschool children are largely unable to understand the connection between their own 35______ and the movements they can see on the screen.”",
+      "translation": "preschool children 大多未能理解自己的 35 ______ 和螢幕上看到的 movement 之間的聯繫。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4。尾句直接談 real-life movements 和 game-based activity 的關係，所以這題在尾段附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “connection”, “own”, “movements on the screen”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mapping is yet another obstacle since preschoolers may be unable to understand that there is a direct link between how the controller is used and the activities that appear before them on screen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mapping 是另一個障礙，因為 preschoolers 可能無法理解 controller 的使用方式和螢幕上出現的 activities 之間有直接連結。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…real-life movements do not usually translate into game-based activity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現實生活中的動作通常不會轉化為遊戲中的活動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 A “actions” 最能概括 “how the controller is used” 和 “real-life movements”。題目把controller use 轉成 children’s own actions。答案是 A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：A — actions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "I — written menus",
+      "answerKey": "I — written menus",
+      "type": "Summary Completion",
+      "prompt": "“Finally, very few preschool children can understand 36 ______.”",
+      "translation": "最後，很少 preschool children 能理解 36 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4。這段列出幼兒使用遊戲的幾種困難，包含不能讀寫和 menu selection。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “understand”, “very few”, “preschool children”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“…the vast majority are still unable to read and write. Thus, using text-based menu selections is not viable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "絕大多數 preschoolers 仍不能閱讀和書寫。因此，使用文字式 menu selections 並不可行。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“the vast majority are unable to read and write” 等於 very few can understand written text.“text-based menu selections” 對應選項 I “written menus”。答案是 I。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：I — written menus"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 H spoken instructions。Paragraph 5 說幼兒需要 voice-over instructions，這代表 spoken instructions 對他們有幫助。真正困難的是 written / text-based menus。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "B — One of their hardware products would probably be suitable for preschoolers.",
+      "answerKey": "B — One of their hardware products would probably be suitable for preschoolers.",
+      "type": "Multiple Choice",
+      "prompt": "“In 2007, what conclusion did games producers at Nickelodeon come to?”",
+      "translation": "2007 年，Nickelodeon 的遊戲製作人得出甚麼看法？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research in the video game market is typically done at two stages…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "video game market 的研究通常在兩個階段進行……最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So we set about doing a study to answer the query…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以作者開始進行研究，以回答 preschoolers 在 hand-held gameplay 中能做到甚麼，以及兒童發展文獻如何幫助新產品創作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段先批評傳統研究，再交代 Nickelodeon 為何開始研究 preschool game design。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “2007”, “Nickelodeon”, “games producers”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the spring of 2007, our preschool-game production team at Nickelodeon had a hunch that the Nintendo DS – with its new features, such as the microphone, small size and portability, and its relatively low price point – was a ripe gaming platform for preschoolers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2007 年春天，Nickelodeon 的 preschool-game production team 有一個直覺：Nintendo DS 具備microphone、小尺寸、便攜性和相對低價格等新特點，可能是適合 preschoolers 的成熟遊戲平台。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“had a hunch” 表示他們初步認為或猜想。核心內容是 Nintendo DS “was a ripe gaming platform for preschoolers”。選項 B 的核心是某種硬件／平台可能適合 preschoolers。雖然選項中的 “their hardware products” 說法略寬鬆，真正對應的對象是 Nintendo DS 這個 gaming platform，不是Nickelodeon 自家硬件；但四個選項中，B 最貼近原文。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A The preschool market was unlikely to be sufficiently profitable.原文沒有說 preschool market 不夠有利可圖。相反，團隊覺得 DS 是 ripe platform。 B One of their hardware products would probably be suitable for preschoolers.正確。核心對應 “Nintendo DS … was a ripe gaming platform for preschoolers”。 C Games produced by rival companies were completely inappropriate for preschoolers.太強。原文只說當時市場上有些遊戲的 characters appealed to younger set，但 mechanics or design 不適合 preschoolers。沒有 “completely inappropriate”。 D They should put their ideas for new games for preschoolers into practice.原文說他們開始研究，以了解 preschoolers 能做到甚麼；沒有直接說已經應該把新遊戲概念投入實行。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "had a hunch= came to the view / thought probably Nintendo DS= hardware platform ripe gaming platform for preschoolers= probably suitable for preschoolers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "C — investigated the specific characteristics of the target market.",
+      "answerKey": "C — investigated the specific characteristics of the target market.",
+      "type": "Multiple Choice",
+      "prompt": "“The study carried out by Nickelodeon…”",
+      "translation": "Nickelodeon 進行的研究……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our context in this case was the United States, although the games that resulted were also released in other regions, due to the broad international reach of the characters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項研究的背景是美國，不過由於角色具有廣泛國際影響力，產生的遊戲也在其他地區推出。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After all, when it comes to introducing a new interactive product to the child market, and particularly such a young age group within it, we believe it is crucial to assess the range of physical and cognitive abilities associated with their specific developmental stage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "畢竟，當要把新的互動產品引入兒童市場，尤其是這樣年幼的群體時，作者認為評估他們在特定發展階段中的 physical and cognitive abilities 非常關鍵。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “study”, “Nickelodeon”, “target market”, “specific characteristics”。Paragraph 3 提到user-centered approach 和 assessing physical / cognitive abilities。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 C 說研究調查 target market 的 specific characteristics。原文的 “assess the range of physical and cognitive abilities associated with their specific developmental stage” 正是這個意思。target market 是 preschool audience；specific characteristics 是 physical and cognitive abilities。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A was based on children living in various parts of the world.錯。原文說 context was the United States。產品後來在其他地區推出，不代表研究以全球兒童為基礎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B focused on the kinds of game content that interest preschoolers.錯。原文重點是 abilities、perspectives、needs、physical and cognitive development，不是 game content interest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C investigated the specific characteristics of the target market.正確。對應 user-centered approach 和 assessment of physical / cognitive abilities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D led to products which appealed mainly to US consumers.錯。原文說 games also released in other regions because characters had broad international reach，方向不支持 mainly US consumers。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "target market= preschool audience / such a young age group specific characteristics= physical and cognitive abilities associated with their developmental stage investigated= assess / consulted during development process"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "A — Spoken instructions take up a lot of the available memory.",
+      "answerKey": "A — Spoken instructions take up a lot of the available memory.",
+      "type": "Multiple Choice",
+      "prompt": "“Which problem do the writers highlight concerning games instructions for young children?”",
+      "translation": "作者指出 young children 的 game instructions 有甚麼問題？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the course of our study, we gained many insights into how preschoolers interact with various platforms, including the DS.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究期間，作者獲得很多 insights，了解 preschoolers 如何與包括 DS 在內的不同平台互動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…by using their fingers they can often be more accurate in their game interactions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用手指時，他們在遊戲互動中往往能更準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段前半講 instructions，後半講 stylus / fingers。本題問 instructions，要讀前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “instructions”, “young children”, “problem”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“For instance, all instructions for preschoolers need to be in voice-over, and include visual representations, and this has been one of the most difficult areas for us to negotiate with respect to game design on the DS.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，所有給 preschoolers 的 instructions 都需要 voice-over，並包含 visual representations；就DS game design 而言，這一直是最難協調的範疇之一。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because the game cartridges have very limited memory capacity … the ability to capture large amounts of voice-over data via sound files or visual representations of instructions becomes limited.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為 game cartridges 的記憶容量非常有限，尤其和 console 或 computer games 相比，所以透過 sound files 或 instructions 的 visual representations 來儲存大量 voice-over data 的能力也受到限制。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "作者指出幼兒需要 voice-over instructions，但 DS cartridge memory limited。spoken instructions以 sound files 儲存，佔用較多 memory，所以設計上困難。選項 A 精準對應。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Spoken instructions take up a lot of the available memory.正確。voice-over data / sound files 受 limited memory capacity 限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Written instructions have to be expressed very simply.原文沒有說 written instructions 要簡化。它說 text instructions take up minimal memory，從技術角度較理想，但 preschoolers 不適合依賴文字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C The children do not follow instructions consistently.原文沒有說幼兒不穩定地跟從 instructions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D The video images distract attention from the instructions.原文沒有說 images 分散注意力。相反，visual representations 對幼兒很重要。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "spoken instructions= voice-over data / sound files take up a lot of memory= large amounts of voice-over data limited by cartridge memory capacity available memory= very limited memory capacity"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "B — Researching and designing video games for preschool children",
+      "answerKey": "B — Researching and designing video games for preschool children",
+      "type": "Multiple Choice",
+      "prompt": "“Which is the best title for Reading Passage 3?”",
+      "translation": "本文最合適的標題是甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "全篇功能： Paragraph 1：preschool children 已經開始接觸 video games，且使用可能增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2：傳統市場研究不足，Nickelodeon 需要為 preschoolers 做 exploratory / formative research。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3：採用 user-centered approach，評估 preschoolers 的 physical and cognitive abilities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4：解釋 preschool users 的 motor / cognitive / reading / mapping difficulties。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5：交代研究發現如何影響 instructions、memory、stylus、finger interaction 等 design decisions。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "全篇核心不是單純介紹 preschool market 的 software，也不是研究 video games 對行為或教育成績的影響。文章主軸是：如何透過研究 preschool children 的能力和需要，設計適合他們的video games。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A An overview of video games software for the preschool market太窄。文章不是概覽各種 preschool software，而是講研究和設計方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Researching and designing video games for preschool children正確。它涵蓋 research、user-centered approach、child development、design challenges 和 DS interaction findings。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C The effects of video games on the behaviour of young children錯。文章沒有研究 video games 對行為的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Assessing the impact of video games on educational achievement錯。文章沒有談 educational achievement，也沒有測量學業影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Researching= exploratory and formative research / user-centered approach / study designing video games= designing better games / creation of a new outlet / game design on the DS preschool children= preschoolers / such a young age group所以最佳標題是 B。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Video game research.pdf",
+    "sha256": "98d101641156e6fb1f508c7ae41665c8e851c2fa8fd5f90d5ed82af31b64cf1c",
+    "pageCount": 20
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 video games 最初是為 adults developed，但現在已不再只屬於家中 grown-ups。尾句說portable systems 特別成功地進入 younger market。只看首尾句，可以先估計本段功能是交代背景：preschool children 已經接觸 video games，而且這個年齡層的使用情況可能會增加。中間的2006 數據和 household availability 會支撐「幼兒接觸遊戲愈來愈常見」這個方向。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 video game market 的 research 通常在產品周期接近尾聲或最後階段進行。尾句提出研究問題：preschoolers 在 hand-held game play 中能做到甚麼，以及 child development literature如何幫助設計新產品。只看首尾句，可以看到本段由批評傳統市場研究開始，轉向 Nickelodeon為 preschool audience 進行較早期、較形成性的研究。這段是 30、31、37 題的重要來源。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說研究背景是 United States，但產品因角色的 international reach 也在其他地區推出。尾句說面對年紀很小的兒童市場，必須評估他們在特定 developmental stage 中的 physical and cognitive abilities。只看首尾句，可以判斷本段功能是說明研究方法理念：user-centered approach。它重點不在世界各地比較，而在理解目標用戶的發展能力和需要。"
+      },
+      {
+        "number": "4",
+        "summary": "首句引入 Revelle and Medoff 的 review，說明 home entertainment systems、computers 和electronic gaming devices 對 preschoolers 來說常常難用。尾句說在傳統 mapping systems 中， real-life movements 通常不能轉化為 game-based activity。只看首尾句，可以先看到本段重點是幼兒使用電子遊戲的困難，包括 motor skills、cognitive blocks、不能讀寫、written menus 不可行，以及 actions 和 screen movement 的關係難理解。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說研究讓作者獲得很多關於 preschoolers 如何和各種 platforms，包括 DS，互動的 insights。尾句說幼兒手指很小，能有效模仿 stylus，所以用 fingers 時往往更準確。只看首尾句，可以估計本段功能是交代設計發現：幼兒需要 spoken / visual instructions，但 DS cartridge memory 限制聲音和圖像；另外，手指有時比 stylus 更適合幼兒操作。"
+      }
+    ]
+  }
+}

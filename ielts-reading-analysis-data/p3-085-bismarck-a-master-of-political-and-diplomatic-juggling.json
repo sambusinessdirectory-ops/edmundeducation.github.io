@@ -1,0 +1,997 @@
+{
+  "id": "p3-085-bismarck-a-master-of-political-and-diplomatic-juggling",
+  "catalogueId": "p3-085",
+  "catalogueIds": [
+    "p3-085"
+  ],
+  "passage": 3,
+  "title": "Bismarck: A Master of Political and Diplomatic Juggling?",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "A",
+    "A",
+    "C",
+    "B",
+    "D",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "ii",
+    "viii",
+    "v",
+    "vi",
+    "iii",
+    "i"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "A — succeeded in reuniting Germany and defeating Austria and France",
+      "answerKey": "A — succeeded in reuniting Germany and defeating Austria and France",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Bismarck 做 Prussian Chancellor 九年多一點後，已經做到甚麼？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In little more than nine years, Bismarck realised his lifelong ambition, steering Germany to reunification.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在九年多一點的時間內，Bismarck 實現了終身抱負，帶領德國走向統一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Provinces that were slow to support him were enticed with bribes and before long the German Empire was his to command.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些遲遲未支持他的省份被賄賂吸引，不久之後，German Empire 已由他掌控。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “In little more than nine years” 直接對應 Paragraph B 第一行，所以這段就是答"
+            },
+            {
+              "kind": "paragraph",
+              "text": "案位置。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“And by defeating Austria and France in quick succession, he also created a power vacuum on mainland Europe…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他接連擊敗 Austria 和 France，也在歐洲大陸造成權力真空。"
+            },
+            {
+              "kind": "label",
+              "text": "A 完整對應兩部分："
+            },
+            {
+              "kind": "quote",
+              "text": "“reuniting Germany” = “steering Germany to reunification”"
+            },
+            {
+              "kind": "quote",
+              "text": "“defeating Austria and France” = “defeating Austria and France in quick succession”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 divided his country and lost two wars，方向完全相反。C 是 Paragraph D 的 socialist issue，而且他沒有成功壓制 socialist movement。D 說 abolished parliament，原文只說 parliament effectively powerless，沒有說廢除。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "A — He changed his policy and made the church an ally.",
+      "answerKey": "A — He changed his policy and made the church an ally.",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Bismarck 制定削弱 Catholic Church 的法律後，發生了甚麼？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is a testament to his political skill that Bismarck achieved so much so quickly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bismarck 能如此迅速取得巨大成就，證明他的政治技巧。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The damage to his reputation was limited and indeed by the late 1870s he had even managed to win over the church, whose support he now needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的名譽受損有限；事實上，到 1870 年代末，他甚至成功爭取到教會支持，而這份支持正是他當時需要的。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Catholic Church” 和 “enacted laws”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“He proceeded to enact a series of laws which seriously eroded the power of the church.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他接著制定一系列法律，嚴重削弱教會權力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "後面緊接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, his plans backfired and Bismarck was forced to make a political U-turn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，他的計劃產生反效果，Bismarck 被迫作出政治急轉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再加上最後一句 “win over the church”，可得出 A：他改變政策，後來令教會成為支持者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 只說教會影響力削弱，忽略後文 backfired 和 U-turn。D 說他的 influence severely weakened，原文說 damage to reputation was limited，方向不符。C 是 Paragraph A 的 France war，與教會無關。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — Its popularity had risen threefold.",
+      "answerKey": "C — Its popularity had risen threefold.",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：到 1890 年，Socialist party 發生了甚麼？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bismarck viewed the growing popularity of the Social Democratic Party as a serious threat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bismarck 把 Social Democratic Party 日益上升的人氣視為嚴重威脅。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Just as his interventions with the church had not gone as planned, Bismarck once again failed to achieve his objective; though, to his credit, he held on to power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如他處理教會問題時沒有如願，Bismarck 這一次也未能達成目標；不過值得一提的是，他仍保住了權力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目中的 “by 1890” 非常有定位力。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“But despite his efforts to destroy the socialist movement, its popularity had trebled by 1890.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，儘管他努力摧毀 socialist movement，到 1890 年，它的人氣已經增加到三倍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“trebled” = became three times as large / risen threefold。C 的 “popularity had risen"
+            },
+            {
+              "kind": "paragraph",
+              "text": "threefold” 是原文的直接同義改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 說它從 Bismarck 手中奪權，原文說 Bismarck held on to power。B 說失去影響力，與 trebled相反。D 說在 parliament 變得非常強大，文章沒有提供 parliamentary power 這個資訊。答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B — Preserving the peace and isolating France would benefit him.",
+      "answerKey": "B — Preserving the peace and isolating France would benefit him.",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：統一德國後，Bismarck 對 foreign policy 有甚麼看法？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His domestic position was relatively secure after 1871, and Bismarck devoted a lot of his time to foreign policy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1871 年後，他的國內地位相對穩固，Bismarck 便把大量時間投放在外交政策上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He built up strategic alliances with the big powers, Russia, Italy and Austria-Hungary, in the hope that he could keep his main threats, France and Britain, isolated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他與 Russia、Italy 和 Austria-Hungary 等大國建立戰略聯盟，希望能孤立主要威脅 France 和Britain。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目有 “After reuniting Germany” 和 “foreign policy”。原文中最直接一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having used war to unite Germany and make her great, Bismarck now believed that his ambitions were best served by peace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他曾用戰爭統一德國並使德國強大；如今，Bismarck 相信和平最有利於他的抱負。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文同時有兩個核心：peace + isolate France。後面說："
+            },
+            {
+              "kind": "quote",
+              "text": "“His plan to isolate a hostile France would require all his considerable diplomatic skills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他要孤立敵對的 France，這需要他全部高超外交技巧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正好整合兩句：preserving peace 對應 “best served by peace”；isolating France 對應 “plan to isolate a hostile France”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 說要對所有威脅國開戰，與 peace 相反。C 說要和 France 結盟，原文說 isolate France。D 說要和 Britain and France 結盟，原文說 isolate France and Britain。答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "D — was not actually a master of political juggling.",
+      "answerKey": "D — was not actually a master of political juggling.",
+      "type": "Multiple Choice",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：文章最後怎樣總結 Bismarck？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In truth, Bismarck’s reign as chancellor of the German Empire does seem to confirm his status as a shrewd and wily diplomat and politician, one whose objectives were broadly achieved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "說實話，Bismarck 作為 German Empire Chancellor 的統治似乎確認了他精明狡猾的外交家和政治家地位，而且他的目標大體上已經達成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His political and diplomatic juggling, therefore, simply cannot be considered a total success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，他的政治與外交 juggling 不能被視為完全成功。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “The article concludes”，所以要看最後段，特別是最後一句。原文先承認他"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“objectives were broadly achieved”，接著用 “but” 轉入 legacy 問題。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的核心評價是複合的：他很精明，也確實有成就；可是他留下的制度安排有重"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大缺陷，因為 Kaiser 權力過大，帝國未來過度依賴一個人的性格和能力。最後句明確收束為“cannot be considered a total success”。四個選項中，D 最貼近這個結論。要注意，D 不是說他完全失敗；它在選項框架中代表文章對“master of political juggling” 這個稱號的保留。A 太正面；B 太絕對，因為原文承認 objectives were broadly achieved；C 說他一直容忍異見，和他壓制 socialists、削弱 church 的做法不符。答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Congress of Berlin was a great personal success for Bismarck.”",
+      "translation": "Congress of Berlin 對 Bismarck 來說是一次重大的個人成功。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 Bismarck 1871 年後把大量時間放在 foreign policy。最後一句說他建立大國聯盟，希望孤立 France 和 Britain。這段整體談外交手段和外交聲望。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “Congress of Berlin”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The subsequent Congress of Berlin, which he hosted, was an outstanding success and only served to reinforce Bismarck’s reputation as a shrewd diplomat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨後由他主持的 Congress of Berlin 是一次傑出成功，而且進一步鞏固了 Bismarck 作為精明外交家的名聲。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “great personal success”，原文有三個支援點："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“which he hosted” = 他親自主持；“outstanding success” = 巨大成功；“reinforce Bismarck’s reputation” = 鞏固他本人的名聲。雖然原文沒有逐字寫 “personal success”，但它明確說這場會議由他主持，並強化他的個人外交聲譽。題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Bismarck refused to build alliances with Russia or Austria.”",
+      "translation": "Bismarck 拒絕與 Russia 或 Austria 建立聯盟。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說段落談 foreign policy；最後一句已經提到 Russia、Italy、Austria-Hungary 和 strategic alliances，所以這題很明顯定位到 E。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Russia”、“Austria” 和 “alliances”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Dreikaiserbund agreement of 1873 between Germany, Austria-Hungary and Russia was a first step towards doing just that.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1873 年 Germany、Austria-Hungary 和 Russia 之間的 Dreikaiserbund agreement，是朝這個方向邁出的第一步。"
+            },
+            {
+              "kind": "label",
+              "text": "後文也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“He built up strategic alliances with the big powers, Russia, Italy and Austria-Hungary…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他與 Russia、Italy 和 Austria-Hungary 等大國建立戰略聯盟。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目動詞是 “refused to build alliances”，原文動詞是 “built up strategic alliances”。這是明"
+            },
+            {
+              "kind": "paragraph",
+              "text": "確相反。原文不只說他沒有拒絕，還直接列出 Russia 和 Austria-Hungary 在他的聯盟網絡內。答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Bismarck considered his reign as German chancellor a failure.”",
+      "translation": "Bismarck 認為自己作為 German chancellor 的統治是失敗。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說他的統治似乎確認他是精明政治家和外交家，目標大體達成。最後一句說他的 political and diplomatic juggling 不能被視為完全成功。這段是作者的評價段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “considered”、“his reign” 和 “failure”。原文有作者對 Bismarck reign 的評價，但"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有出現 Bismarck 自己怎樣看待這段統治。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In truth, Bismarck’s reign as chancellor of the German Empire does seem to confirm his status as a shrewd and wily diplomat and politician…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "說實話，Bismarck 作為 German Empire Chancellor 的統治似乎確認了他精明狡猾的政治家和外交家地位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“His political and diplomatic juggling, therefore, simply cannot be considered a total success.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，他的政治和外交 juggling 不能被視為完全成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是文章作者的總結，不是 Bismarck 自己的看法。題目要求的是 “Bismarck considered…”；原文沒有說他自評成功或失敗。文章有相關評價，但缺少「Bismarck 本人認為」這個核心資訊，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "ii — Early career and rise to power",
+      "answerKey": "ii — Early career and rise to power",
+      "type": "Matching Headings",
+      "prompt": "Questions 35–40",
+      "translation": "Bismarck 在政治階梯上的上升迅速而毫不鬆懈。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Headings 題要區分段落主題、例子、細節和結論；一個 heading 不能只符合段內一個細節，必須能概括整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 35 — Paragraph A"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一個關鍵詞就是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otto von Bismarck’s rise up the political ladder was swift and relentless.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段接著講他 1847 年進入 parliament、抱有統一德國和追求權力的野心、成為 Prussian Chancellor、利用 Austro-Prussian War 和 Franco-German conflict 推動統一，最後 German Empire 在 1871 年成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ii “Early career and rise to power” 能覆蓋整段，因為本段主線是從早期進入議會到成為締造帝國的權力人物。其他 heading 如 foreign policy 或 virtual dictatorship 只適合後文，不足以概括 Paragraph A。答案是 ii。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 36 — Paragraph B"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 的首句先說他完成統一；中段轉入他如何鞏固權力："
+            },
+            {
+              "kind": "quote",
+              "text": "“He set about creating a dictatorial Germany…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他開始建立一個帶有獨裁性質的德國。"
+            },
+            {
+              "kind": "label",
+              "text": "原文還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“despite maintaining a veneer of democracy, the German parliament was effectively powerless to oppose him.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管表面上維持民主外觀，German parliament 實際上無力反對他。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading viii “Creating a virtual dictatorship” 最能概括整段。virtual dictatorship 指表面上仍有制度和議會，實際權力集中在 Bismarck 手中。heading iv “Powerful friends” 不合適，因為 bribes and provinces 只是細節。答案是 viii。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 37 — Paragraph C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 的核心是 Bismarck 與 Catholic Church 的衝突。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bismarck’s next target was the Catholic Church, which he deemed too powerful and a threat to his political dominance.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bismarck 的下一個目標是 Catholic Church；他認為教會權力過大，威脅他的政治支配地位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著他制定法律削弱 church power，計劃反效果後又作出 political U-turn，最後爭取教會支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "整段都圍繞 state power 和 church power 的角力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading ix “A change of mind” 只符合 U-turn 這一部分，不能覆蓋全段。heading v “Separating church and state” 更能概括他企圖限制教會政治力量的主線。答案是 v。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 38 — Paragraph D"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 開首直接定題："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bismarck viewed the growing popularity of the Social Democratic Party as a serious threat.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bismarck 把 Social Democratic Party 日益上升的人氣視為嚴重威脅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "整段接著講他如何利用 attempted assassination of the Kaiser 作藉口攻擊 socialists：逮捕領袖、禁止聚會、壓制 socialist newspapers。但到 1890 年 socialist movement 的人氣增加到三倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 heading vi “Socialist threat” 完整概括本段。heading vii “Political decline” 不合適，因為他雖然失敗，仍 “held on to power”。段落焦點是 socialist movement 的威脅和他的反制。答案是 vi。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 39 — Paragraph E"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 首句直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bismarck devoted a lot of his time to foreign policy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bismarck 把大量時間投放在外交政策上。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段後面全部都在展開 foreign policy：由 war 轉向 peace、isolate France、Dreikaiserbund、Balkan crisis、Congress of Berlin、alliances with Russia, Italy and Austria-Hungary，以及孤立France 和 Britain。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading iii “Foreign policy” 是最直接、最完整的段落標題。heading iv “Powerful friends” 只覆蓋alliance-building 一部分；這段不只是有朋友或盟友，也有和平策略、危機調停和外交名聲。答案是 iii。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 40 — Paragraph F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 是全文總評。首句承認 Bismarck 是 shrewd and wily diplomat and politician，目標大體達成。可是後文轉向批判他的 legacy：他創造的制度令 Kaiser 擁有過大權力，帝國未來依賴單一統治者的能力和性格，最後導向德國的 downfall。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句收束："
+            },
+            {
+              "kind": "quote",
+              "text": "“His political and diplomatic juggling, therefore, simply cannot be considered a total success.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，他的政治和外交 juggling 不能被視為完全成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "heading i “A critical analysis” 最能概括這種「承認成就，同時指出深層問題」的總結方式。答案是 i。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Bismarck_ A Master of Political and Diplomatic Juggling_.pdf",
+    "sha256": "849c926721e584e1e08f6dd1ac851dbf9867d9ce97a708b9d6ac14c11d6b88ac",
+    "pageCount": 12
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：首尾句段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 Bismarck 的政治晉升迅速而強勢；尾句說 German Empire 在 1871 年 1 月宣告成立。只看首尾句，可以先判斷本段是早期崛起與統一德國的背景段。中間應會交代他從進入議會、成為Prussian Chancellor，到利用外交、戰爭和政治操作擊敗 Austria、France，最終達成 German reunification。這段很適合定位 early career、rise to power、Austria、France、German Empire 類題目。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Bismarck 在九年多一點的時間內達成終身抱負，帶領德國完成統一；尾句說 German Empire 最終由他掌控。只看首尾句，可以估計本段重點是統一後的權力鞏固。中間應會講他如何利用戰勝 Austria 和 France 造成的 power vacuum，設計新憲法，保持民主外觀，同時令parliament 實際無力反對他。這段最適合處理 dictatorship、constitution、powerless parliament 類題目。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Bismarck 能快速取得巨大成就，證明他的政治技巧；尾句說到 1870 年代末，他甚至成功爭取到 Catholic Church 的支持。只看首尾句，可以推測本段先承接他的政治能力，再轉向一個國內挑戰：Catholic Church。中間會講他視教會為威脅，制定法律削弱教會權力，但計劃反效果，之後政策急轉，最終把教會變成可用的政治支持力量。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Bismarck 把 Social Democratic Party 的人氣上升視為嚴重威脅；尾句說他沒有達成目標，但仍保住權力。只看首尾句，可以判斷本段集中處理 socialist threat。中間應會提到他如何利用刺殺 Kaiser 的企圖作藉口，逮捕領袖、禁止會議、壓制報章。可是段尾已提示結果不如他所願，所以要留意 popularity trebled by 1890 這類相反結果。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 1871 年後他的國內地位相對穩固，於是把大量時間投放在 foreign policy；尾句說他與Russia、Italy、Austria-Hungary 建立戰略聯盟，希望孤立 France 和 Britain。只看首尾句，可以估計本段主題非常明確：外交政策。中間應會講他由戰爭轉向和平，透過 Dreikaiserbund、Balkan crisis、Congress of Berlin 和 alliance-building 維持德國利益及外交名聲。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Bismarck 作為 German Empire Chancellor 的統治似乎確認他是精明狡猾的外交家和政治家；尾句說他的政治與外交 juggling 不能被視為完全成功。只看首尾句，可以判斷本段是全文總評。它應會承認他的成就，同時批判他的 legacy：他創造了一個過度依賴 Kaiser 的政治結構，令德國未來承受重大風險。這段適合定位 conclusion、legacy、critical analysis 類題目。"
+      }
+    ]
+  }
+}

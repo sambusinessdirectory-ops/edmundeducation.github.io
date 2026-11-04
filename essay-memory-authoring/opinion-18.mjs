@@ -1,0 +1,352 @@
+// Model Essay 18 · Opinion: work that follows people home and constant social comparison.
+const simple=[
+  'Stress has always been part of life, and every generation has had its own problems.',
+  'But I fully disagree that people long ago had more stress than people today.',
+  'I think life today brings pressure that rarely stops because work does not stop when people go home, and people keep comparing their success with others.',
+  'First, work now often stays with people long after they leave their workplace.',
+  'In the past, many jobs made people very tired, but after the workday ended, their tasks were more likely to stay at the factory, shop or family farm.',
+  'On the other hand, many workers today are expected to answer messages, read emails and be easy to contact even at home.',
+  'This makes time meant for rest feel like more work.',
+  'For example, a worker may leave the office at six but still feel worried whenever their phone alerts them at night.',
+  'Over time, always being ready for work can harm sleep, make it harder to focus and make people feel they are never really free from work.',
+  'Another big cause of stress today is feeling that we need to compare our lives with others.',
+  'People in the past usually compared themselves with people nearby, while today people often see only the best-looking parts of others’ achievements, relationships and ways of living.',
+  'Social media can make an ordinary person feel not good enough even when their own life has no big problem.',
+  'For example, a student may feel they have failed just because classmates seem to win prizes, travel to other countries or start great careers online.',
+  'This hidden pressure on the mind is easy to ignore, but it can hurt how people feel about themselves and their mental health.',
+  'In short, I fully disagree that people long ago had more stress.',
+  'They had real difficulties, but people today face pressure that lasts longer, is easier for others to see and is much harder to stop.',
+];
+const vocabulary=[
+  [['Stress has always been part of human life','Stress has always been part of life','壓力一直是人類生活一部分'],['each generation','every generation','每一代'],['carried its own burdens','has had its own problems','有各自負擔']],
+  [['However','But','然而'],['completely disagree','fully disagree','完全不同意'],['previous generations','people long ago','過去世代'],['more stressed','more stress','壓力更大']],
+  [['in my view','I think','在我看來'],['more constant form of pressure','pressure that rarely stops','更持續的壓力'],['work is harder to escape','work does not stop when people go home','更難擺脫工作'],['endless social comparison','keep comparing their success with others','無止境的社會比較']],
+  [['modern work follows people','work now often stays with people','現代工作跟隨人'],['far beyond the workplace','long after they leave their workplace','遠超工作場所']],
+  [['physically exhausting','made people very tired','體力令人疲憊'],['once the working day ended','after the workday ended','工作日結束後'],['responsibilities','tasks','責任'],['more likely to stop','more likely to stay','較可能停留']],
+  [['By contrast','On the other hand','相比之下'],['employees','workers','員工'],['check emails','read emails','查看電郵'],['remain reachable','be easy to contact','隨時可聯絡']],
+  [['turns rest','makes time meant for rest','把休息變成'],['another extension of work','feel like more work','工作的延伸']],
+  [['office worker','worker','辦公室員工'],['yet','but','然而'],['anxious','worried','焦慮'],['phone notification appears','phone alerts them','手機通知出現']],
+  [['constant alertness','always being ready for work','持續警覺'],['damage sleep','harm sleep','損害睡眠'],['weaken concentration','make it harder to focus','削弱專注力'],['never truly off duty','never really free from work','從未真正下班']],
+  [['major cause','big cause','主要原因'],['pressure to compare one’s life with others','feeling that we need to compare our lives with others','將生活與他人比較的壓力']],
+  [['Previous generations','People in the past','過去幾代人'],['immediate community','people nearby','身邊社區'],['whereas','while','而／相反'],['carefully polished versions','only the best-looking parts','精心美化的版本'],['lifestyles','ways of living','生活方式']],
+  [['feel inadequate','feel not good enough','覺得自己不夠好'],['nothing is seriously wrong','has no big problem','沒有嚴重問題']],
+  [['For instance','For example','例如'],['feel unsuccessful','feel they have failed','覺得不成功'],['appear to be winning','seem to win','看似正在獲獎'],['travelling abroad','travel to other countries','到海外旅行'],['impressive careers','great careers','出色事業']],
+  [['quiet psychological pressure','hidden pressure on the mind','不易察覺的心理壓力'],['easy to dismiss','easy to ignore','容易忽視'],['weigh heavily on self-esteem','hurt how people feel about themselves','重壓自尊']],
+  [['In conclusion','In short','總結來說'],['earlier generations','people long ago','較早幾代人'],['more stressed','more stress','壓力更大']],
+  [['faced real hardship','had real difficulties','面對真實困難'],['more continuous','lasts longer','更持續'],['more visible','easier for others to see','更明顯'],['far harder to switch off','much harder to stop','更難關掉']],
+];
+const chunkOverrides=[
+  ['Stress has always been part of human life,','and each generation has carried its own burdens.'],
+  ['However, I completely disagree','that people in previous generations were more stressed than people are today.'],
+  ['Modern life, in my view, creates a more constant form of pressure','because work is harder to escape','and personal success is now judged against endless social comparison.'],
+  ['The first reason is that','modern work follows people far beyond the workplace.'],
+  ['In the past, many jobs were physically exhausting,','but once the working day ended, responsibilities were more likely to stop','at the factory gate, the shop door, or the family farm.'],
+  ['By contrast, many employees today are expected','to answer messages, check emails','and remain reachable even at home.'],
+  ['This turns rest','into another extension of work.'],
+  ['For example, an office worker may leave the office at six,','yet still feel anxious whenever a phone notification appears at night.'],
+  ['Over time, this constant alertness can damage sleep,','weaken concentration and make people feel','that they are never truly off duty.'],
+  ['Another major cause of stress today','is the pressure to compare one’s life with others.'],
+  ['Previous generations usually judged success','against people in their immediate community,','whereas people today are exposed to carefully polished versions','of other people’s achievements, relationships and lifestyles.'],
+  ['Social media can make an ordinary person feel inadequate','even when nothing is seriously wrong with their own life.'],
+  ['For instance, a student may feel unsuccessful','simply because classmates appear to be winning prizes,','travelling abroad or building impressive careers online.'],
+  ['This quiet psychological pressure is easy to dismiss,','but it can weigh heavily on self-esteem and mental health.'],
+  ['In conclusion, I fully disagree with the view','that earlier generations were more stressed.'],
+  ['They faced real hardship,','but modern people live under pressure','that is more continuous, more visible and far harder to switch off.'],
+];
+const simpleChunkOverrides=[
+  ['Stress has always been part of life,','and every generation has had its own problems.'],
+  ['But I fully disagree','that people long ago had more stress than people today.'],
+  ['I think life today brings pressure that rarely stops','because work does not stop when people go home,','and people keep comparing their success with others.'],
+  ['First, work now often stays with people','long after they leave their workplace.'],
+  ['In the past, many jobs made people very tired,','but after the workday ended, their tasks were more likely to stay','at the factory, shop or family farm.'],
+  ['On the other hand, many workers today are expected','to answer messages, read emails','and be easy to contact even at home.'],
+  ['This makes time meant for rest','feel like more work.'],
+  ['For example, a worker may leave the office at six','but still feel worried whenever their phone alerts them at night.'],
+  ['Over time, always being ready for work can harm sleep,','make it harder to focus and make people feel','they are never really free from work.'],
+  ['Another big cause of stress today','is feeling that we need to compare our lives with others.'],
+  ['People in the past usually compared themselves with people nearby,','while today people often see only the best-looking parts','of others’ achievements, relationships and ways of living.'],
+  ['Social media can make an ordinary person feel not good enough','even when their own life has no big problem.'],
+  ['For example, a student may feel they have failed','just because classmates seem to win prizes,','travel to other countries or start great careers online.'],
+  ['This hidden pressure on the mind is easy to ignore,','but it can hurt how people feel about themselves and their mental health.'],
+  ['In short, I fully disagree','that people long ago had more stress.'],
+  ['They had real difficulties,','but people today face pressure that lasts longer,','is easier for others to see and is much harder to stop.'],
+];
+const F=(formula,meaning,usage,parts)=>({formula,meaning,usage,parts});
+const S=(example,answerReason,distractorReason,distractors,frame)=>({example,answerReason,distractorReason,distractors,frame});
+const structures=[
+  S('Conflict has always been part of group work, and every team has faced different difficulties.','has always...and... 承認問題並非新事物，也承認每個群體有自己的負擔。','這句先建立公平的共同前提，尚未比較哪一方更受壓。',[1,2,9],
+    F('[長期存在的情況] has always been part of [生活範圍], and [每一群體] has carried [自己的負擔]','先承認壓力古今都有，避免把過去說成毫無困難。','比較兩個時期前，要公平承認各自都有真實困難時。',[['Stress','slot','長期存在的情況'],[' has always been part of ','link','指出一直存在'],['human life','slot','生活範圍'],[', and ','link','並列另一前提'],['each generation','slot','每一群體'],[' has carried ','link','承擔'],['its own burdens.','slot','自己的負擔']])),
+  S('However, I completely disagree that the older team had more problems than the team today.','However 從共同前提轉到作者反對的比較判斷。','這句表明比較立場，並未否定較早群體也有問題。',[0,2,14],
+    F('However, I completely disagree that [過去群體] were more [某種負擔] than [今天群體]','在承認各代各有負擔後，清楚反對題目的相對程度主張。','承認一方有困難後，仍要清楚說明不同意某項相對比較時。',[['However, I completely disagree that ','link','轉折並表態'],['people in previous generations','slot','過去群體'],[' were more ','link','作程度比較'],['stressed','slot','某種負擔'],[' than ','link','比較對象'],['people are today.','slot','今天群體']])),
+  S('Online work, in my view, creates pressure that rarely stops because requests arrive at home and colleagues compare progress throughout the day.','because 連到兩項機制：離開工作處也有要求，以及持續比較。','這句在引言預告兩段獨立原因，不把所有壓力歸成一項。',[0,1,3],
+    F('[今天的生活] creates [較持續的壓力] because [工作難擺脫] and [成就被持續比較]','先下比較判斷，再以工作延伸與社會比較兩條主線說明。','引言要預告兩種不同來源，而非只作籠統評價時。',[['Modern life','slot','今天的生活'],[', in my view, creates ','link','提出作者判斷'],['a more constant form of pressure','slot','較持續的壓力'],[' because ','link','引出第一原因'],['work is harder to escape','slot','工作難擺脫'],[' and ','link','並列第二原因'],['personal success is now judged against endless social comparison.','slot','成就被持續比較']])),
+  S('The first reason is that schoolwork follows students long after lessons end.','is that 引出首項機制：正式時間結束後，責任仍延續。','這句開啟工作邊界主線，未進入比較心理。',[2,4,9],
+    F('The first reason is that [工作或責任] follows [人] far beyond [原本的場所]','把抽象的持續壓力落到工作跨越場所與時間界線。','首段要解釋某種責任如何侵入原本分開的時間時。',[['The first reason is that ','link','引出首項理由'],['modern work','slot','工作或責任'],[' follows ','link','持續跟隨'],['people','slot','人'],[' far beyond ','link','超出界線'],['the workplace.','slot','原本的場所']])),
+  S('In the past, preparing lessons was exhausting, but once school ended, teachers were more likely to leave paperwork in the staffroom.','but once 承認舊工作辛苦，再指出工作結束後較可能停在工作處。','這句比較壓力的邊界，不是聲稱過去工作輕鬆。',[3,5,7],
+    F('In the past, [工作] was [體力辛苦], but once [工作日結束], [責任] were more likely to stop at [工作場所]','先讓步承認過去勞累，再對照責任較可能隨工作日結束而停下。','要區分一項工作本身辛苦與它持續延伸到私人時間這兩種負擔時。',[['In the past, ','link','設定過去情況'],['many jobs','slot','工作'],[' were ','link','描述'],['physically exhausting','slot','體力辛苦'],[', but once ','link','轉向時間界線'],['the working day ended','slot','工作日結束'],[', ','link','接後續情況'],['responsibilities','slot','責任'],[' were more likely to stop at ','link','審慎指出可能的界線'],['the factory gate, the shop door, or the family farm.','slot','工作場所']])),
+  S('By contrast, many pupils today are expected to reply to class messages and check assignments even in the evening.','By contrast 與前句下班後較能停工對照；expected to 指向外部要求。','這句具體列今天工作延伸到家中的方式。',[3,4,6],
+    F('By contrast, [今天的工作者] are expected to [回訊、查電郵及保持可聯絡] even [在家]','以通訊要求對照過去較有界線的工作，說明不在辦公室也難休息。','比較時期時，要指出原本清楚的界線如何被新安排打開時。',[['By contrast, ','link','轉入今天對照'],['many employees today','slot','今天的工作者'],[' are expected to ','link','指出外部要求'],['answer messages, check emails and remain reachable','slot','回訊、查電郵及保持可聯絡'],[' even ','link','強調超出場所'],['at home.','slot','在家']])),
+  S('This turns family time into another extension of schoolwork.','turns...into 指出原本屬於一種用途的時間被另一用途佔據。','這句用短句概括工作侵入休息的邊界變化。',[3,5,7],
+    F('This turns [原本應用於休息的時間] into [工作的延伸]','用 turns...into 簡潔說明工作訊息如何使休息時間也帶有工作性質。','列出界線被打開的具體做法後，要一句話概括它改變了甚麼時。',[['This turns ','link','指回前句現象並提出轉變'],['rest','slot','原本應用於休息的時間'],[' into ','link','轉成'],['another extension of work.','slot','工作的延伸']])),
+  S('For example, a coach may leave the sports centre at six, yet feel tense whenever a work message appears at night.','yet 對照身體已離開工作處與心理仍受通知牽動。','這句以夜間訊息的具體情境呈現邊界消失。',[4,6,8],
+    F('For example, [工作者] may leave [工作處] at [時間], yet still feel [焦慮] whenever [夜間通知] appears','以一位員工下班後仍被手機通知觸發焦慮的情境，展示壓力持續。','解釋一般情況後，要用一個人及具體時間展示影響時。',[['For example, ','link','引出日常例子'],['an office worker','slot','工作者'],[' may leave ','link','已離開'],['the office','slot','工作處'],[' at ','link','指出時間'],['six','slot','時間'],[', yet still feel ','link','對照持續感受'],['anxious','slot','焦慮'],[' whenever ','link','指出觸發條件'],['a phone notification','slot','夜間通知'],[' appears at night.','link','指出出現時段']])),
+  S('Over time, repeated evening alerts can harm sleep, make it harder to focus and leave workers feeling they are never fully off duty.','Over time 將一晚焦慮推到反覆警覺的累積後果。','這句從單一例子轉到睡眠、專注與下班感受三方面。',[6,7,9],
+    F('Over time, [持續警覺] can [損害睡眠], [削弱專注] and make [人] feel [從未真正休息]','用 can 保留可能性，說明長期保持警覺可怎樣影響身心與休息。','提出反覆發生的例子後，要追蹤長期累積後果時。',[['Over time, ','link','引出累積影響'],['this constant alertness','slot','持續警覺'],[' can ','link','指出可能後果'],['damage sleep','slot','損害睡眠'],[', ','link','並列'],['weaken concentration','slot','削弱專注'],[' and make ','link','接主觀感受'],['people','slot','人'],[' feel ','link','感到'],['that they are never truly off duty.','slot','從未真正休息']])),
+  S('Another major cause of pressure today is the need to compare our work with other people’s achievements.','Another major cause...is... 清楚引入與工作訊息不同的第二原因。','這句切換主線到比較心理，不重述下班後通訊。',[3,8,10],
+    F('Another major cause of [問題] today is [與他人比較的壓力]','第二主體段另列壓力來源，避免把所有現代壓力都說成工作訊息。','完成第一種壓力來源後，要轉入另一種獨立來源時。',[['Another major cause of ','link','引出第二原因'],['stress','slot','問題'],[' today is ','link','指出原因'],['the pressure to compare one’s life with others.','slot','與他人比較的壓力']])),
+  S('Earlier pupils compared scores mainly with classmates nearby, whereas pupils today can see carefully selected achievements from people far away.','whereas 對照身邊比較與遠方精心呈現的成就，指出比較範圍和材料已變。','這句解釋第二理由的具體機制，不是只說今天有網絡。',[7,9,11],
+    F('[過去的人] judged success against [身邊的人], whereas [今天的人] are exposed to [精心美化的他人成就]','以 whereas 對照比較對象與看到的內容：身邊社區相對於大量被修飾的展示。','提出一種比較機制後，要指出新情境令它有何不同時。',[['Previous generations','slot','過去的人'],[' usually judged success against ','link','指出過去比較對象'],['people in their immediate community','slot','身邊的人'],[', whereas ','link','對照今天'],['people today','slot','今天的人'],[' are exposed to ','link','接觸到'],['carefully polished versions of other people’s achievements, relationships and lifestyles.','slot','精心美化的他人成就']])),
+  S('Social media can make an ordinary pupil feel behind even when their own progress is steady.','can...even when... 指出即使生活沒有明顯問題，也可能因比較而覺得不足。','這句說明精心呈現的他人生活如何改變自我評價。',[9,10,12],
+    F('[社交媒體] can make [普通人] feel [不足] even when [自己生活沒有嚴重問題]','把比較機制落到心理效果：客觀上沒有大問題，也可感到不夠好。','指出人接觸經篩選的展示後，要說明這如何影響自我評價時。',[['Social media','slot','社交媒體'],[' can make ','link','可能造成感受'],['an ordinary person','slot','普通人'],[' feel ','link','感到'],['inadequate','slot','不足'],[' even when ','link','對照實際情況'],['nothing is seriously wrong with their own life.','slot','自己生活沒有嚴重問題']])),
+  S('For instance, a pupil may feel unsuccessful simply because classmates seem to win prizes and travel widely online.','simply because 交代看似微小的觸發；seem 提醒只見網上展示。','這句以學生與同學網上成就作具體例子，不把展示當完整真相。',[10,11,13],
+    F('For instance, [學生] may feel [不成功] simply because [同學網上看似有多項成就]','用一個與自身生活未必有問題的學生，說明精選網上展示如何觸發失敗感。','提出心理機制後，要用一個貼近受影響者的例子說明時。',[['For instance, ','link','引出學生例子'],['a student','slot','學生'],[' may feel ','link','可能感到'],['unsuccessful','slot','不成功'],[' simply because ','link','指出觸發來源'],['classmates appear to be winning prizes, travelling abroad or building impressive careers online.','slot','同學網上看似有多項成就']])),
+  S('This quiet pressure is easy to overlook, but it can still weigh on confidence and wellbeing.','but 承認心理壓力不顯眼，仍指出可能有實際影響。','這句收束第二段，避免把不易察覺等同無傷害。',[10,11,12],
+    F('[不易察覺的心理壓力] is easy to dismiss, but it can weigh heavily on [自我評價與健康]','先說某種傷害容易被輕視，再指出它仍可能深刻影響人。','舉例後，要解釋看似不劇烈的反覆影響為何值得重視時。',[['This quiet psychological pressure','slot','不易察覺的心理壓力'],[' is easy to dismiss, but it can weigh heavily on ','link','對照忽視與實際影響'],['self-esteem and mental health.','slot','自我評價與健康']])),
+  S('In conclusion, I fully disagree with the view that older pupils faced more constant pressure than pupils do now.','結論直接重申反對過去壓力較大的比較。','這句是立場回收，未展開過去辛苦與今天持續壓力的讓步。',[1,9,15],
+    F('In conclusion, I fully disagree with the view that [過去的人] were more [有壓力]','結論再次清楚回答題目中的比較，不新增理由。','完成兩段不同來源的論證後，要重申題目所問的比較判斷時。',[['In conclusion, I fully disagree with the view that ','link','重申完全反對'],['earlier generations','slot','過去的人'],[' were more ','link','程度比較'],['stressed.','slot','有壓力']])),
+  S('They faced real hardship, but workers today live under pressure that is more frequent, more public and harder to leave behind.','but 承認過去艱難，轉而比較今天壓力的持續、可見和難以關閉。','這句不否定過去的痛苦，而是概括今天壓力的性質。',[0,2,14],
+    F('[過去的人] faced real hardship, but [今天的人] live under pressure that is [更持續、更可見且更難停止]','結尾以公平讓步承認過去困難，再綜合現代工作和社會比較的特點。','結尾要避免把一方寫成毫無問題，同時維持整體比較立場時。',[['They','slot','過去的人'],[' faced real hardship, but ','link','承認過去並轉折'],['modern people','slot','今天的人'],[' live under pressure that is ','link','描述今天的壓力'],['more continuous, more visible and far harder to switch off.','slot','更持續、更可見且更難停止']])),
+];
+const Q=(prompt,options,why)=>({type:'quiz',prompt,options,correct:0,why});
+const sequence=(prompt,rows,why)=>({type:'sequence',prompt,detail:'依照原文的推進次序，逐一點選下一步。',items:rows.map(([title,body])=>({title,body})),why});
+const intro=[
+  Q('作者是否同意「過去幾代人比今天的人壓力更大」？',[
+    '完全不同意：過去確有艱難，但今天的工作聯絡與社會比較令壓力更持續',
+    '完全同意：只有體力勞動會產生壓力',
+    '認為過去沒有人曾經面對任何真實困難',
+    '沒有立場：文章只比較手機品牌',
+  ],'引言與結論都明言完全反對；結尾承認過去 real hardship，仍指出今天壓力較難關掉。'),
+  {type:'multi',prompt:'選出文章的兩條現代壓力來源',detail:'選兩項，再按「確認」。',options:[
+    '工作訊息與電郵把職責延伸到家中，令休息難與工作分開',
+    '網上的精心呈現讓人持續以他人成就衡量自己的生活',
+    '所有人每天的工作都只在工廠內完成，不會收到訊息',
+    '社交媒體展示的每段生活都必然完整而未經修飾',
+  ],correct:[0,1],why:'第一段談下班後仍可聯絡，第二段談精心美化的他人成就如何引發比較。'},
+];
+const route=[sequence('先排好全文四段',[
+  ['引言 · 承認古今都有壓力','作者完全反對過去壓力更大，並預告工作難抽離和無盡社會比較。'],
+  ['主體段一 · 工作侵入休息','過去很多工作辛苦，但較可能在工作日結束時停止；今天訊息可在家中繼續。'],
+  ['主體段二 · 精心呈現的比較','人從身邊社區比較，轉為接觸網上美化的成就與生活，可能感到不足。'],
+  ['結論 · 壓力性質','承認過去真實艱難，仍認為今天壓力更持續、更可見、更難關掉。'],
+],'過去並非無壓力 → 今天工作邊界變弱 → 比較範圍與材料改變 → 壓力更難停止。')];
+const evidence=[
+  Q('文章如何公平描述過去的工作？',[
+    '許多工作體力上很累，但工作日結束後責任較可能停在工作場所',
+    '過去所有工作都輕鬆，也絕不使人疲憊',
+    '過去每位工人都在家中隨時回覆電郵',
+    '只要工作辛苦，就一定沒有休息與工作的時間界線',
+  ],'physically exhausting 與 but once the working day ended...more likely to stop 同時成立。'),
+  Q('今天甚麼要求會令工作越過辦公室界線？',[
+    '在家仍被期望回訊、查電郵並保持可聯絡',
+    '只要人離開辦公室，所有訊息便自動不再存在',
+    '今天員工只能在工廠大門內閱讀任何訊息',
+    '文章說工作場所的實際位置完全沒有變化',
+  ],'By contrast 後具體列出 answer messages、check emails、remain reachable even at home。'),
+  Q('六點下班的員工例子展示甚麼？',[
+    '雖已離開辦公室，夜間通知仍可能觸發焦慮',
+    '只要離開辦公室，手機通知便必定不影響心情',
+    '員工六點之後仍必須留在工廠大門內',
+    '文章保證每名員工晚上都會收到同一則訊息',
+  ],'may leave...yet still feel anxious 對照身體離開與心理仍處工作狀態。'),
+  Q('持續警覺可能累積成哪幾種影響？',[
+    '損害睡眠、削弱專注，並使人覺得從未真正下班',
+    '保證人人睡得更好且不再需要休息',
+    '只改變電郵的字體，不影響日常感受',
+    '只對工廠大門的位置有影響',
+  ],'Over time 和 can 說明可能累積的睡眠、專注與下班感受三項後果。'),
+  Q('第二主體段比較過去與今天的社會比較有何不同？',[
+    '過去較常與身邊人相比；今天還會接觸他人經精心修飾的成就與生活展示',
+    '過去與今天都只能看見身邊社區的完整生活',
+    '網上展示一定比現實生活更完整、更客觀',
+    '文章說所有過去的人完全不會比較自己與他人',
+  ],'usually 與 whereas 保留相對差異，不把任何年代絕對化。'),
+  Q('學生看見同學網上獲獎或旅行，為何可能感到不成功？',[
+    '精心呈現的片段可觸發比較，即使學生自己的生活沒有嚴重問題',
+    '同學獲獎必然使學生自己所有成就消失',
+    '網上片段能完整呈現每位同學每天的生活',
+    '文章認為這種感受一定很明顯，絕不會被忽視',
+  ],'學生例子承接 Social media can make...feel inadequate；下一句指出這種壓力安靜而容易被忽略。'),
+];
+const logic=[
+  sequence('第一主體段：工作為何更難抽離？',[
+    ['首項理由','現代工作會跟隨人離開工作場所。'],
+    ['公平比較','過去許多工作體力辛苦，但責任較可能在下班時停止。'],
+    ['今天要求','員工即使在家中也被期望回訊、查電郵並保持可聯絡。'],
+    ['邊界變化','休息時間像工作的延伸。'],
+    ['夜間例子','員工六點離開辦公室，手機通知仍可令他焦慮。'],
+    ['累積影響','持續警覺可傷害睡眠、專注及真正下班的感受。'],
+  ],'昔日工作辛苦但較有時間界線 → 今天訊息越界 → 休息受侵入 → 長期警覺。'),
+  sequence('第二主體段：社會比較如何增加壓力？',[
+    ['新原因','人感到要以他人的生活衡量自己。'],
+    ['比較範圍','過去較常與身邊社區的人比較。'],
+    ['今天看到的材料','精心美化的成就、關係和生活方式。'],
+    ['心理機制','即使自身生活沒有大問題，也可能覺得不夠好。'],
+    ['學生例子','同學網上看似獲獎、旅行或有出色事業，學生便感到失敗。'],
+    ['段落結論','這種不顯眼的壓力仍可沉重影響自尊和心理健康。'],
+  ],'身邊比較 → 網上精選展示 → 自我感到不足 → 隱形但可能深刻的壓力。'),
+];
+const T=(context,question,options,explanations,sourceSentenceIndices,modelLink)=>({type:'quiz',prompt:question,context,question,options,correct:0,explanations,why:explanations[0],sourceSentenceIndices,modelLink});
+const transfer=[
+  T('小型設計公司員工六點下班，但主管習慣在晚上十點發非緊急工作訊息。','哪項最能套用「休息變工作延伸」？',[
+    '檢查員工是否因等候回覆而持續留意手機，並訂明非緊急訊息的回覆時間',
+    '只因員工已離開辦公室，便認定晚上不可能有工作壓力',
+    '只統計公司有多少張桌子，不問訊息何時送達',
+    '把夜間訊息全部稱作休閒交流，不看內容是否要求工作',
+  ],[
+    '這檢驗工作是否跨過時間界線，並回應真正的觸發來源。',
+    '身體下班不等於心理能抽離。',
+    '桌數與休息受侵入無關。',
+    '訊息內容與回覆期待才是判斷重點。',
+  ],[3,5,6,7],'範文說在家仍須保持可聯絡，夜間通知可令已下班者焦慮。'),
+  T('一所學校的教師過去批改作業很辛苦，現在又被要求在深夜回覆家長群組。','哪項比較最公平？',[
+    '承認過去工作也辛苦，再比較今天的聯絡要求是否讓下班時間更難停止工作',
+    '因過去教師辛苦，便否認今天夜間訊息可能增加壓力',
+    '因今天有訊息，便說過去教師完全沒有任何負擔',
+    '只比較兩代教師的衣著，不看工作時段',
+  ],[
+    '這保留兩代各有負擔，並聚焦壓力延續的不同形式。',
+    '承認過去辛苦不會消除今天的壓力。',
+    '範文明確承認過去體力勞動辛苦。',
+    '衣著不能顯示責任是否延伸到家中。',
+  ],[0,4,5,15],'範文說過去工作體力上很累，但責任較可能在工作日後停下；今天訊息可延伸到家。'),
+  T('某員工夜間手機一響便以為需要立即處理工作，即使多數通知只是一般更新。','哪項最能調查範文所說的持續警覺？',[
+    '記錄通知時間、是否需即時回覆，以及員工睡眠和專注的變化',
+    '只問員工喜不喜歡手機顏色，不記通知時段',
+    '因多數通知不緊急，便認定反覆警覺不可能有影響',
+    '只看一晚是否睡好，便判定長期狀況完全清楚',
+  ],[
+    '這同時檢查觸發條件與反覆發生後的可能影響。',
+    '手機顏色不能代表工作警覺。',
+    '非緊急通知仍可引發期待回覆的感受。',
+    '原文用 Over time，需看較長期間。',
+  ],[7,8],'範文由夜間通知例子推到長期警覺可能影響睡眠與專注。'),
+  T('一間商店讓員工下班後保留工作群組，但沒有說明哪些訊息必須即時處理。','哪項最能回應「永遠未真正下班」？',[
+    '清楚區分緊急與一般訊息，設定下班後不用回覆一般事項的規則',
+    '只要求員工隨時看群組，卻永不說明回覆要求',
+    '因群組可靜音，便推定員工完全沒有心理負擔',
+    '只限制午餐時間看手機，不處理夜間工作期待',
+  ],[
+    '這針對可聯絡期待與休息界線，避免一般訊息持續侵入。',
+    '模糊期待容易維持警覺。',
+    '靜音功能不等於工作要求已明確。',
+    '問題出現在下班後，不只午餐。',
+  ],[5,6,8],'範文重點是被期望在家可聯絡，使人感到從未真正下班。'),
+  T('一名大學生只看到同學發佈獲獎、旅行的照片，便覺得自己整年沒有進步。','哪項最符合「精心美化版本」的分析？',[
+    '把網上展示視為部分片段，再對照自己完整的學習過程與實際目標',
+    '把所有同學貼文當作其全部生活的完整紀錄',
+    '只因同學獲獎，便否定自己整年的所有學習',
+    '只要求同學停止分享，不檢視比較方式',
+  ],[
+    '這辨認網上選取展示與完整生活之間的落差。',
+    '精選片段不能代表全部經歷。',
+    '他人的成就不會抹去本人的進步。',
+    '範文分析的是比較材料如何影響自我評價。',
+  ],[10,11,12],'範文指出今天的人接觸他人精心美化的成就，學生可能因此覺得不成功。'),
+  T('青年創業者每天看見其他公司公布融資消息，便認為自己仍在測試產品就等於失敗。','哪項最能轉用第二主體段的機制？',[
+    '分開別人的公開亮點與自己完整進度，檢查產品測試的實際成果',
+    '只按社交平台上最亮眼的消息，決定自己的企業價值',
+    '因別人公布融資，便認定自己目前所有工作都沒有意義',
+    '只看貼文數目，不看市場測試資料',
+  ],[
+    '這把外界精選展示與自身真實狀況分開。',
+    '公開亮點不是完整比較標準。',
+    '別人的融資不直接證明本人的努力無效。',
+    '貼文數不能替代業務進度。',
+  ],[9,10,11],'範文說精心美化的他人成就可使普通人即使生活無大問題仍感不足。'),
+  T('一位學生看見朋友在網上展示實習與海外活動，卻不知道朋友也遇到甚麼困難。','哪項最能保留範文的審慎語氣？',[
+    '承認朋友可能真的有成就，同時不把少量貼文當作其全部生活',
+    '因貼文經挑選，便斷定朋友的所有成就都不真實',
+    '因朋友看來成功，便認為自己必然不夠好',
+    '只比較照片外觀，不問自己真正想達成甚麼',
+  ],[
+    '這避免走向「貼文全假」或「貼文代表全部」兩個過度推論。',
+    '經挑選不等於成就不存在。',
+    '他人成就不能直接判定自己的價值。',
+    '外觀比較未回到自身目標。',
+  ],[10,11,12],'範文說人接觸經美化的版本，沒有聲稱網上成就全是假的。'),
+  T('班主任聽學生說自己沒甚麼事，卻發現學生常因網上比較而覺得不如人。','哪項最貼近「容易被忽視的心理壓力」？',[
+    '留意這種比較是否持續影響自我評價，不只因外表平靜便忽略',
+    '只要學生沒有公開哭泣，便判定比較不可能造成任何負擔',
+    '只因學生用社交媒體，便保證每個人都承受相同壓力',
+    '只統計貼文顏色，不問學生如何理解自己',
+  ],[
+    '這保留壓力較不顯眼，但仍可能有影響的判斷。',
+    '不公開表達不代表沒有壓力。',
+    '範文用 can，而非保證所有人。',
+    '顏色不能替代主觀感受與持續影響。',
+  ],[11,12,13],'範文指出比較壓力安靜而易被輕視，卻可能重壓自我評價。'),
+  T('一家老工廠工時長，現代辦公室工時較短卻要求員工晚上在線；兩組都說工作辛苦。','哪項分析最能區分兩種壓力？',[
+    '比較體力負擔與下班後的可聯絡要求，查看壓力何時真正停止',
+    '只比較每日工時，便認定較短的一組絕不會壓力較大',
+    '只看夜間訊息，便否認老工廠有任何真實艱難',
+    '只看建築新舊，不問員工的工作邊界',
+  ],[
+    '這同時承認舊時艱難，並檢查現代壓力的持續性。',
+    '工時長短不足以描述下班後警覺。',
+    '範文沒有否認過去辛苦。',
+    '建築年代不是壓力性質的證據。',
+  ],[0,4,5,8,15],'範文承認過去體力勞動辛苦，仍說今天工作可延伸到家中。'),
+  T('一個青年團體想研究會員壓力，只問有否加班，卻未問網上比較。','哪項修改最符合文章的兩條主線？',[
+    '同時問下班後的工作聯絡與網上比較，並分別觀察其影響',
+    '只問加班時數，因所有現代壓力都必然來自同一原因',
+    '只問網上貼文數目，不問看後是否感到比較',
+    '只問會員年齡，便推斷全部壓力來源',
+  ],[
+    '這完整覆蓋工作邊界與社會比較兩種不同機制。',
+    '範文有兩條獨立原因。',
+    '貼文數未必等於比較感受。',
+    '年齡不能代替壓力來源資料。',
+  ],[2,3,5,8,9,10,13],'範文引言預告兩條原因，正文分別分析工作延伸與社會比較。'),
+  T('某辦公室制定「休息時間不要求即時回覆」規則，員工仍因同齡人的網上成就感到焦慮。','哪項最符合文章的因果分工？',[
+    '規則可能改善工作邊界，但另一種社會比較壓力仍需另行理解',
+    '只要工作訊息減少，網上比較壓力便必定同步消失',
+    '因社會比較仍存在，便認定改善工作邊界完全無用',
+    '把兩種壓力都解釋為工廠大門的設計問題',
+  ],[
+    '這把兩條機制視作不同來源，避免一項措施被誤當成全面答案。',
+    '兩種壓力來源不同。',
+    '改善一方面仍可能有價值。',
+    '工廠大門不是網上比較的原因。',
+  ],[3,5,8,9,10,11],'範文分段論述工作難抽離與比較他人生活，並非同一條因果鏈。'),
+  T('學生要寫「過去更辛苦，所以現代壓力不可能更大」的結論；前文卻討論了夜間訊息和網上比較。','哪項改寫最貼近範文？',[
+    '承認過去真實艱難，仍指出今天壓力可能更持續、更可見且難以停止',
+    '否認過去有任何體力勞動或家庭負擔',
+    '只列手機與電郵名稱，不分析壓力如何延續',
+    '把他人網上展示當作現代每個人全部真實生活',
+  ],[
+    '這保留公平讓步並回收兩段論據。',
+    '範文承認過去有 real hardship。',
+    '名稱不足以解釋機制。',
+    '網上展示可能經精心修飾。',
+  ],[0,2,8,10,13,15],'範文結論承認過去艱難，仍從持續工作壓力與社會比較支持其反對立場。'),
+];
+const reviewedTransferOptions=[
+  ['查夜間等候回覆有否令員工一直留意手機','員工已離開辦公室，便斷定晚上不會有壓力','只統計辦公桌數量，不查訊息於何時送達','把夜間工作訊息當休閒交流，不查內容要求'],
+  ['承認過去也辛苦，再比較今天下班後的聯絡要求','過去教師工作辛苦，便否認今天訊息帶來壓力','今天收到訊息，便斷定過去教師完全沒有負擔','只比較兩代教師衣著，不查實際工作時段'],
+  ['記錄通知與回覆時間，再看睡眠和專注變化','只問員工喜不喜歡手機顏色，不記通知時段','通知多數不緊急，便斷言持續警覺沒有影響','只看一晚睡眠，便判定長期狀況已經清楚'],
+  ['分清緊急訊息，訂明下班後一般事項毋須回覆','要求員工隨時看群組，卻不說明回覆要求','群組可以靜音，便認為心理負擔完全消失','只管午餐看手機，不處理夜間工作期待'],
+  ['把貼文當片段，再看自己完整進度和目標','把同學貼文當作其全部生活的完整紀錄','同學獲獎，便否定自己整年的所有學習','只叫同學停止分享，不檢視自身比較方式'],
+  ['分開他人公開亮點與自己實際測試成果','只按網上亮眼消息，判定自己企業的價值','別人公布融資，便認為自己工作全無意義','只看貼文數目，不看產品的市場測試資料'],
+  ['承認朋友或有成就，不把少量貼文當全部生活','貼文經挑選，便認定朋友成就全都不真實','朋友看來成功，便認為自己必定不夠好','只比較照片外觀，不問自己的真正目標'],
+  ['查比較有否持續傷害自我評價，不憑表面平靜','學生沒有公開哭泣，便斷定比較毫無負擔','學生使用社交媒體，便保證每人壓力一樣','只數貼文顏色，不問學生怎樣理解自己'],
+  ['比較體力負擔與夜間聯絡，查壓力何時停止','只比較每日工時，便認為較短的一組無壓力','只看夜間訊息，便否認舊工廠有真實艱難','只看建築新舊，不問員工實際工作邊界'],
+  ['同時問夜間工作聯絡與網上比較，各看其影響','只問加班時數，認定現代壓力只出自一因','只數網上貼文，不問看後有否感到比較','只問會員年齡，便推斷全部心理壓力來源'],
+  ['工作規則可改善邊界，社會比較仍需另行理解','工作訊息減少，網上比較壓力便一同消失','社會比較仍在，便說改善工作邊界全無用','把兩種壓力都歸咎於工廠大門外觀設計'],
+  ['承認過去艱難，也分析今天壓力如何持續','否認過去存在體力勞動或家庭負擔','只列手機電郵名稱，不解釋壓力如何延續','把網上展示當成每個人的全部真實生活'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[0].example='Conflict has always been part of group work, and every team has carried its own burdens.';
+structures[1].example='However, I completely disagree that the older team were more stressed than the team today.';
+structures[3].example='The first reason is that schoolwork follows students far beyond the end of lessons.';
+structures[4].example='In the past, teaching jobs were exhausting, but once school ended, responsibilities were more likely to stop at the staffroom door.';
+structures[7].example='For example, a coach may leave the sports centre at six, yet still feel tense whenever a work message appears at night.';
+structures[8].example='Over time, repeated evening alerts can harm sleep, weaken concentration and make workers feel that they are never truly off duty.';
+structures[10].example='Earlier pupils usually judged success against classmates nearby, whereas pupils today are exposed to carefully selected achievements from people far away.';
+structures[13].example='This quiet pressure is easy to dismiss, but it can weigh heavily on confidence and wellbeing.';
+structures[14].example='In conclusion, I fully disagree with the view that older pupils were more stressed than pupils are today.';
+export default {
+  key:'opinion:18',
+  meta:{topic:'現代工作邊界與社會比較壓力',summary:'作者完全反對過去世代壓力更大的說法：過去有真實艱難，但今天下班後仍被聯絡與網上精選展示可形成更持續、難以停止的壓力。'},
+  simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer,
+  mediumExtras:[],
+};

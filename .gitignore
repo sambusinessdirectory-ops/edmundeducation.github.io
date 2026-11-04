@@ -1,0 +1,9 @@
+**/.wrangler/
+**/.dev.vars
+**/.dev.vars.*
+**/node_modules/
+**/__pycache__/
+.flashcards-audio-build/
+tmp/
+supabase/.temp/
+supabase/.branches/

@@ -1,0 +1,47 @@
+.eddy-first-question-message--schedule-two-day {
+  font-size: clamp(13px, 2.8vw, 27px);
+  white-space: pre-line;
+}
+
+.eddy-first-question-message--schedule-two-day-headline {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: .12em;
+  line-height: 1.2;
+}
+
+.eddy-first-question-message--schedule-two-day-headline strong {
+  font-size: 1.16em;
+  font-weight: 800;
+}
+
+.eddy-first-question-message--schedule-two-day-headline span {
+  font-size: .8em;
+  font-weight: 650;
+}
+
+@media (max-width: 560px) {
+  .eddy-first-question-message--schedule-two-day {
+    top: 72%;
+    right: 3%;
+    bottom: auto;
+    left: 3%;
+    min-height: 102px;
+    padding: 8px 28px 8px 11px;
+    border: 3px solid #a85729;
+    border-radius: 14px;
+    box-shadow: 0 4px 0 #61301c;
+    font-size: clamp(13px, 3.65vw, 17px);
+    line-height: 1.28;
+  }
+
+  .eddy-first-question-message--schedule-two-day::after {
+    position: absolute;
+    right: 9px;
+    bottom: 5px;
+    color: #4b200e;
+    content: '▼';
+    font-size: 11px;
+  }
+}

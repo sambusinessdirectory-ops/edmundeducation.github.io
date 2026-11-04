@@ -1,0 +1,1666 @@
+{
+  "id": "p2-078-therapeutic-jurisprudence-an-overview",
+  "catalogueId": "p2-078",
+  "catalogueIds": [
+    "p2-078"
+  ],
+  "passage": 2,
+  "title": "Therapeutic Jurisprudence:An Overview",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "agent",
+    "antitherapeutic",
+    "humanising*",
+    "justice",
+    "actors",
+    "promising",
+    "creatively",
+    "relapse prevention plans",
+    "chain of events",
+    "high-risk situations",
+    "FALSE",
+    "TRUE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "agent",
+      "answerKey": "agent",
+      "type": "Question Analysis",
+      "prompt": "“Study of the law as a therapeutic 14 ______”",
+      "translation": "把法律作為一個 therapeutic ______ 來研究。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion，限制是 NO MORE THAN ONE WORD。空格前有 “a therapeutic”，所以答案需要是一個單數名詞。題目問定義，最可能在文章開頭。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therapeutic jurisprudence is the study of the role of the law as a therapeutic agent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Therapeutic jurisprudence 是研究法律作為 therapeutic agent 的角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is most applicable to the fields of mental health law, criminal law, juvenile law and family law.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它最適用於 mental health law、criminal law、juvenile law 和 family law 等範疇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 1 是定義和適用範圍段。題目問 definition，所以第一句就是主要定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “law as a therapeutic”。原文第一句完整出現 “the law as a therapeutic agent”，所以可以直接停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therapeutic jurisprudence is the study of the role of the law as a therapeutic agent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Therapeutic jurisprudence 是研究法律作為 therapeutic agent 的角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文 “the role of the law as a therapeutic agent” 縮短成 note form：“Study of the law as a therapeutic ____”。空格前後完全吻合，答案就是 agent。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查agent 是一個字，符合 ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：agent"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "antitherapeutic",
+      "answerKey": "antitherapeutic",
+      "type": "Question Analysis",
+      "prompt": "“the therapeutic and 15 ______ consequences of the law”",
+      "translation": "法律帶來的 therapeutic 和 ______ 後果。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion，限制是 ONE WORD。空格和 therapeutic 並列，所以答案應是形容consequences 的形容詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therapeutic jurisprudence is the study of the role of the law as a therapeutic agent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Therapeutic jurisprudence 是研究法律作為 therapeutic agent 的角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is most applicable to the fields of mental health law, criminal law, juvenile law and family law.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它最適用於 mental health law、criminal law、juvenile law 和 family law。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段介紹定義、影響和適用範圍。題目同樣來自 definition notes，所以仍在 Paragraph 1。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “therapeutic consequences”。原文第二句有："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the therapeutic and antitherapeutic consequences of the law”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“It examines the law’s impact on emotional life and on psychological well-being, and the therapeutic and antitherapeutic consequences of the law.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它研究法律對情感生活和心理健康的影響，以及法律的 therapeutic 和 antitherapeutic 後果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把這一句直接改成筆記形式，空格就是 therapeutic 的反向配對詞 antitherapeutic。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查antitherapeutic 是一個字，符合 ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：antitherapeutic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "humanising",
+      "answerKey": "humanising",
+      "type": "Question Analysis",
+      "prompt": "“Goal: The 16 ______ of the law, but not at the expense of 17 ______ and due process.”",
+      "translation": "目標：法律的 ______，但不能犧牲 ______ 和正當程序。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion，限制是 ONE WORD。空格位於 “The ___ of the law”，所以文法上需要noun / gerund。題目問 Goal，應定位到 general aim。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The general aim of therapeutic jurisprudence is to humanise the law and address the human, emotional and psychological side of the legal process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Therapeutic jurisprudence 的一般目標，是使法律更人性化，並處理法律程序中人性、情感和心理的一面。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therapeutic jurisprudence simply suggests that we think about the therapeutic consequences of the law and see if they can be factored into the processes of law-making, lawyering and judging.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Therapeutic jurisprudence 只是建議我們思考法律的治療性後果，並看看能否把這些後果納入立法、律師工作和審判過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 明顯講 therapeutic jurisprudence 的目標、方法和限度。Question 16的 Goal 直接對應第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Goal” 和 “of the law”。原文用 “general aim” 對應 Goal，用 “humanise the law” 對應答案概念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The general aim of therapeutic jurisprudence is to humanise the law…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Therapeutic jurisprudence 的一般目標，是使法律更人性化。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “to humanise the law” 改成 “The ___ of the law”。如果用動詞 humanise，放進空格會變成 “The humanise of the law”，文法不自然。由於空格需要一個名詞化形式，答案應寫humanising。這也保留原文的意思：讓法律更人性化。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "the general aim= Goal humanise the law= the humanising of the law答案形式檢查humanising 是一個字，符合 ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：humanising"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "justice",
+      "answerKey": "justice",
+      "type": "Question Analysis",
+      "prompt": "“but not at the expense of 17 ______ and due process”",
+      "translation": "但不能以犧牲 ______ 和 due process 為代價。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion，限制是 ONE WORD。空格和 due process 並列，應是另一個法律價值。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The general aim of therapeutic jurisprudence is to humanise the law and address the human, emotional and psychological side of the legal process.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Therapeutic jurisprudence 的一般目標，是使法律更人性化，並處理法律程序中人性、情感和心理的一面。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therapeutic jurisprudence simply suggests that we think about the therapeutic consequences of the law and see if they can be factored into the processes of law-making, lawyering and judging.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Therapeutic jurisprudence 只是建議我們思考法律的治療性後果，並看看能否把這些後果納入立法、律師工作和審判過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段處理 therapeutic goals 和其他法律價值之間的平衡，所以 Q17 仍在 Paragraph 2。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “due process”。原文中 “justice and due process” 直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therapeutic jurisprudence strives to have laws made or applied in a more therapeutic way so long as other values, such as justice and due process, can be fully respected.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Therapeutic jurisprudence 力求讓法律以更具治療性的方式制定或應用，前提是 justice 和 due process 等其他價值能被充分尊重。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “not at the expense of” 是對 “so long as … can be fully respected” 的改寫。意思是：治療性目標不能壓過 justice 和 due process。空格答案是 justice。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查justice 是一個字，符合 ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：justice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "actors",
+      "answerKey": "actors",
+      "type": "Question Analysis",
+      "prompt": "“Especially applicable to the role of legal 18 ______, such as judges and lawyers.”",
+      "translation": "尤其適用於 legal ______ 的角色，例如 judges 和 lawyers。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion，限制是 ONE WORD。空格前有 legal，後面有 judges and lawyers 作例子，所以答案應是一個上位類別名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The law can be divided into the following categories: (1) legal rules, (2) legal procedures, such as hearings and trials, and (3) the roles of legal actors – the behaviour of judges, lawyers and therapists acting in a legal context.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "法律可分為以下類別：（1）legal rules；（2）legal procedures，例如 hearings 和 trials；以及（3）legal actors 的角色，即 judges、lawyers 和在法律情境中行動的 therapists 的行為。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therefore, therapeutic jurisprudence is especially applicable to this third category.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，therapeutic jurisprudence 尤其適用於第三類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 3 是法律分類段，並突出第三類 legal actors。題目直接問這個上位類別。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “judges and lawyers”。原文有 “judges, lawyers and therapists”，前面正是 “legal actors”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the roles of legal actors – the behaviour of judges, lawyers and therapists acting in a legal context.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "legal actors 的角色，也就是 judges、lawyers 和在法律情境中行動的 therapists 的行為。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “judges, lawyers and therapists” 縮成 “such as judges and lawyers”，答案要填這些人的共同類別：actors。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查actors 是一個字，符合 ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：actors"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "promising",
+      "answerKey": "promising",
+      "type": "Question Analysis",
+      "prompt": "“It asks people to seek out 19 ______ developments, not problems.”",
+      "translation": "它要求人們尋找 ______ 的發展，而非只看問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion，限制是 ONE WORD。空格形容 developments，應是形容詞。題目問new attitude，應定位到 Therapeutic jurisprudence 和早期法律態度的對比段。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therapeutic jurisprudence is a relatively new phenomenon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Therapeutic jurisprudence 是一個相對新的現象。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It encourages people to think creatively about how promising developments from other fields might be brought into the legal system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它鼓勵人們有創意地思考，如何把其他領域中有前景的發展帶入法律制度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 4 是新態度段，尤其是從只看問題轉向尋找可發展之處。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “developments”。原文有 “promising developments”，而且出現兩次："
+            },
+            {
+              "kind": "quote",
+              "text": "“look very hard for promising developments”"
+            },
+            {
+              "kind": "quote",
+              "text": "“how promising developments from other fields…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therapeutic jurisprudence focuses attention on this previously under-appreciated aspect, encouraging us to look very hard for promising developments…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Therapeutic jurisprudence 把注意力放到這個過去被低估的方面，鼓勵我們努力尋找有前景的發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “seek out” 對應 “look very hard for”。答案詞直接是 promising。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查promising 是一個字，符合 ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：promising"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "creatively",
+      "answerKey": "creatively",
+      "type": "Question Analysis",
+      "prompt": "“It urges people to think 20 ______ and borrow from other fields.”",
+      "translation": "它促使人們 ______ 地思考，並借用其他領域的成果。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion，限制是 ONE WORD。空格在 think 後面，應是副詞，修飾 think。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therapeutic jurisprudence is a relatively new phenomenon.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Therapeutic jurisprudence 是一個相對新的現象。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It encourages people to think creatively about how promising developments from other fields might be brought into the legal system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它鼓勵人們有創意地思考，如何把其他領域中有前景的發展帶入法律制度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 尾句已經直接包含 think creatively 和 other fields，所以此題定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “think” 和 “borrow from other fields”。原文中 “think creatively” 和 “promising developments from other fields” 同句出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It encourages people to think creatively about how promising developments from other fields might be brought into the legal system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它鼓勵人們有創意地思考，如何把其他領域中有前景的發展帶入法律制度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “urges” 改寫 “encourages”，用 “borrow from other fields” 概括 “developments from other fields might be brought into the legal system”。空格答案就是 creatively。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查creatively 是一個字，符合 ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：creatively"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "relapse prevention plans",
+      "answerKey": "relapse prevention plans",
+      "type": "Question Analysis",
+      "prompt": "“One aspect of cognitive behavioural treatment includes the preparation of 21 ______ by offenders.”",
+      "translation": "Cognitive behavioural treatment 的其中一方面，是 offenders 準備 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion，限制是 NO MORE THAN THREE WORDS。空格前有 “preparation of”，所以答案應是名詞短語。定位詞是 cognitive behavioural treatment。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recently, as a result of this multidisciplinary approach, certain kinds of rehabilitative programmes have begun to emerge that look rather promising.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近來，由於這種 multidisciplinary approach，某些看起來頗有前景的 rehabilitative programmes開始出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These programmes, so far, seem to be reasonably successful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，這些 programmes 似乎相當成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 講具體 rehabilitation programmes，並介紹 cognitive behavioural treatment 的內容，所以 Q21 應在此段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “cognitive behavioural treatment” 和 “preparation”。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“One type of cognitive behavioural treatment encourages offenders to prepare relapse prevention plans…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One type of cognitive behavioural treatment encourages offenders to prepare relapse prevention plans which require them to think through the chain of events that leads to criminality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一種 cognitive behavioural treatment 鼓勵 offenders 準備 relapse prevention plans，而這些計劃要求他們仔細思考導致犯罪的一連串事件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “encourages offenders to prepare” 改成 “includes the preparation of … by offenders”。答案是 relapse prevention plans。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查relapse prevention plans = 3 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：relapse prevention plans"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "chain of events",
+      "answerKey": "chain of events",
+      "type": "Question Analysis",
+      "prompt": "“The treatment requires offenders to consider the 22 ______ that lead to a crime being committed.”",
+      "translation": "這種 treatment 要求 offenders 思考導致犯罪發生的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion，限制是 NO MORE THAN THREE WORDS。空格前有 “the”，後面有 “that lead to”，答案應是名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recently, as a result of this multidisciplinary approach, certain kinds of rehabilitative programmes have begun to emerge that look rather promising.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近來，由於這種 multidisciplinary approach，某些看似有前景的 rehabilitative programmes 開始出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These programmes, so far, seem to be reasonably successful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，這些 programmes 似乎相當成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段說明 cognitive behavioural treatment 的具體內容。題目中的 “lead to a crime being committed” 對應原文 “leads to criminality”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “lead to a crime” 和 “consider”。原文有 “think through the chain of events that leads to criminality”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“relapse prevention plans which require them to think through the chain of events that leads to criminality.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 relapse prevention plans 要求他們仔細思考導致犯罪的一連串事件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “think through” 改寫成 “consider”，把 “criminality” 改寫成 “a crime being committed”。空格答案是 chain of events。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查chain of events = 3 words，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：chain of events"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "high-risk situations",
+      "answerKey": "high-risk situations",
+      "type": "Question Analysis",
+      "prompt": "“Treatment programmes encourage offenders to identify 23 ______ in advance and learn how to avoid or cope with them.”",
+      "translation": "Treatment programmes 鼓勵 offenders 預先識別 ______，並學會如何避免或應對它們。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion，限制是 NO MORE THAN THREE WORDS。題目中的 “avoid or cope with them” 是強定位詞，因為原文很可能原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recently, as a result of this multidisciplinary approach, certain kinds of rehabilitative programmes have begun to emerge that look rather promising.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近來，由於這種 multidisciplinary approach，某些看似有前景的 rehabilitative programmes 開始出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These programmes, so far, seem to be reasonably successful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，這些 programmes 似乎相當成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段集中講 programmes 如何訓練 offenders 改變思考，題目正是這類訓練內容。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “avoid or cope with”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“anticipate high-risk situations, and learn to avoid or cope with them.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These reasoning and rehabilitation programmes teach offenders to change their thinking: to stop and consider consequences, anticipate high-risk situations, and learn to avoid or cope with them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 reasoning and rehabilitation programmes 教 offenders 改變思考方式：停下來考慮後果，預判 high-risk situations，並學會避免或應對它們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “anticipate” 改成 “identify … in advance”。兩者都指預先看出可能出事的情況。答案是high-risk situations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查high-risk situations = 2 words，符合 NO MORE THAN THREE WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：high-risk situations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“The use of rehabilitative programmes has been proved to greatly reduce the chance of a criminal re-offending.”",
+      "translation": "Rehabilitative programmes 的使用已被證明能大幅降低罪犯再犯的機會。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有幾個程度很強的字：has been proved、greatly reduce、chance of re-offending。需要檢查原文是否真的有「已證明」和「大幅降低再犯率」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recently, as a result of this multidisciplinary approach, certain kinds of rehabilitative programmes have begun to emerge that look rather promising.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近來，由於這種 multidisciplinary approach，某些看似頗有前景的 rehabilitative programmes 開始出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These programmes, so far, seem to be reasonably successful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，這些 programmes 似乎相當成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，原文語氣偏審慎：look rather promising、seem reasonably successful。這與題目"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“has been proved” 和 “greatly reduce” 的強語氣需要仔細比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “rehabilitative programmes” 和 “re-offending”。原文有 rehabilitative programmes、relapse prevention plans 和 “seem to be reasonably successful”，但沒有 “proved”、沒有 “greatly reduce”，也沒有明確的 re-offending rate。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“These programmes, so far, seem to be reasonably successful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，這些 programmes 似乎相當成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中最重要的是 “seem” 和 “reasonably”。“seem” 表示看來如此，仍帶有保留；“reasonably successful” 表示相當成功，語氣溫和。題目說 “has been proved to greatly reduce”，語氣強很多，表示已有確證，而且效果非常大。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與判斷",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "has been proved= 已被證明，證據很確定原文： seem= 看似，有保留"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "greatly reduce the chance of re-offending= 大幅降低再犯機會原文： reasonably successful= 相當成功，沒有量化再犯率這裡的衝突在證據強度和效果程度。原文提供的是保守評估，題目改成已證明並大幅降低。答案為 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Therapeutic jurisprudence aims to make cognitive behavioural treatment a part of the legal process itself.”",
+      "translation": "Therapeutic jurisprudence 旨在把 cognitive behavioural treatment 變成 legal process 本身的一部分。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目問 treatment programmes 能否成為 legal process itself 的一部分。定位詞是 cognitive behavioural treatment 和 legal process itself。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From a therapeutic jurisprudence standpoint, the question is how these programmes might be brought into the law.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從 therapeutic jurisprudence 的角度來看，問題是如何把這些 programmes 帶入法律。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In order for me to feel comfortable, I need to know what you regard as high-risk situations and how you’re going to avoid them or cope with them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了讓我感到放心，我需要知道你認為哪些是 high-risk situations，以及你打算如何避免或應對它們。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 6 明顯是「把 rehabilitation programmes 帶入法律程序」的段落。題目中的 legal process itself 應該就在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “legal process itself”。原文有完全對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“would be to make them part of the legal process itself.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A way of linking them even more to the law, of course, would be to make them part of the legal process itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把它們更緊密地連到法律的一種方法，當然就是使它們成為 legal process 本身的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “them” 指前文的 “problem-solving, reasoning and rehabilitation-type programmes”，也包括前段提到的 cognitive behavioural treatment 及 relapse prevention planning。題目把這些programmes 概括成 cognitive behavioural treatment，是合理的。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "make cognitive behavioural treatment a part of the legal process itself= make problem-solving, reasoning and rehabilitation-type programmes part of the legal process itself判斷：TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Offenders might be encouraged by judges to take part in deciding what their punishment should be.”",
+      "translation": "Offenders 可能會被 judges 鼓勵參與決定自己的處罰或判刑安排應如何設定。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目中的 “might be encouraged by judges” 對應原文 “the judge might say”。“take part in deciding” 對應 offender 自己提出 relapse prevention plan 和voice in rehabilitation。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If that approach is followed, courts will be promoting cognitive self-change as part and parcel of the sentencing process itself.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果採用這種方法，法院會把 cognitive self-change 推動成 sentencing process 本身的一部分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a person has a voice in their rehabilitation, they are more likely to feel a commitment to it, and with that commitment, presumably, compliance will increase dramatically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果一個人在自己的 rehabilitation 中有發聲機會，他們更可能對它產生 commitment；有了這種commitment，遵守程度大概會大幅增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經提示答案方向：這是 sentencing process 內的 cognitive self-change，而且 offender有 voice。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “judges”、“deciding”、“punishment”。Paragraph 6 有 judge 的說話；Paragraph 7 有sentencing process、not imposing、offender developed it、voice in rehabilitation。這題需要跨Paragraph 6–7 看。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The suggestion here is that if a judge or parole board becomes familiar with these techniques and is about to consider someone for probation, the judge might say…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的建議是，如果 judge 或 parole board 熟悉這些技巧，並準備考慮某人是否可獲 probation，法官可能會說……接著法官要求 offender 提出 preliminary relapse prevention plan。Paragraph 7 再說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Suddenly, it is not a judge imposing something on the offender. It is something the offender has developed, so they should consider it fair.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "突然之間，這不再像法官單方面把某事加在 offender 身上。這是 offender 自己發展出來的東西，所以他們應會認為它公平。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a person has a voice in their rehabilitation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果一個人在自己的 rehabilitation 中有發聲機會……題目中的 “punishment” 在這裡可理解為 sentencing / probation conditions 的廣義說法。原文顯示 offender 會參與提出計劃，這個計劃會成為 sentencing process 和 rehabilitation 的一部分。因此題目方向成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：TRUE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Therapeutic Jurisprudence_An Overview.pdf",
+    "sha256": "6f4abb189288189df6deaf5698cf2c209a9456448cceb3d22c5d3201513c29c0",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Part 1｜Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句直接定義 therapeutic jurisprudence：研究法律作為 therapeutic agent 的角色。末句說它最適用於 mental health law、criminal law、juvenile law 和 family law。只看首尾句，可以估計本段是定義和適用範圍段。中間會補充法律對 emotional life 和 psychological well-being 的影響，以及法律可能帶來 therapeutic 和 antitherapeutic consequences。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 therapeutic jurisprudence 的一般目標是 humanise the law，並處理 legal process 中人性、情感和心理的一面。末句說它建議我們思考法律的 therapeutic consequences，並把這些後果納入 law-making、lawyering 和 judging。只看首尾句，本段功能是解釋目標和界限：法律可更具治療性，但 justice 和 due process 等價值仍要被尊重。"
+      },
+      {
+        "number": "3",
+        "summary": "首句把法律分成三類：legal rules、legal procedures 和 legal actors 的角色。末句說 therapeutic jurisprudence 尤其適用於第三類。只看首尾句，可以估計本段重點是分類，特別是 judges、lawyers、therapists 等 legal actors 的行為如何影響受法律影響者的心理和情緒。題目若問judges、lawyers、actors，應定位此段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 therapeutic jurisprudence 是相對新的現象。末句說它鼓勵人們思考其他領域的promising developments 如何帶入法律制度。首尾合看，這段應是新態度段：早期法律較集中於testimony 有甚麼問題，現在則鼓勵看見可發展之處，並借用 behavioural science 等其他領域的研究，用更有創意的方式改進法律。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說由於這種 multidisciplinary approach，一些看似 promising 的 rehabilitative programmes最近開始出現。末句說這些 programmes 到目前為止似乎相當成功。只看首尾句，本段功能是介紹具體應用，尤其是 cognitive behavioural treatment。中間會講 offenders 準備 relapse prevention plans、分析 chain of events、預判 high-risk situations，並學會避免或應對。"
+      },
+      {
+        "number": "6",
+        "summary": "首句從 therapeutic jurisprudence 角度提出問題：如何把這些 programmes 帶入法律。末句以法官語氣說，他需要知道 offender 認為哪些是 high-risk situations，以及如何避免或應對。只看首尾句，可以估計本段把上一段的 treatment programmes 連到 legal process，尤其是 probation、judge、parole board 和 relapse prevention plan。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說如果採用這種方法，法院會把 cognitive self-change 變成 sentencing process 的一部分。末句說如果一個人在 rehabilitation 中有發聲機會，他們更可能產生 commitment，compliance 也可能大幅增加。只看首尾句，這是結果和原理段：offender 參與制定自己的 rehabilitation plan，便較容易覺得公平，也較可能遵守。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1943 @@
+{
+  "id": "p1-116-the-economic-importance-of-coral-reefs",
+  "catalogueId": "p1-116",
+  "catalogueIds": [
+    "p1-116"
+  ],
+  "passage": 1,
+  "title": "The economic importance of coral reefs",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "FALSE",
+    "sea cucumbers",
+    "agricultural",
+    "scuba-diving",
+    "communications",
+    "sustainability",
+    "conflict"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In most places, coral-reef gleaning is normally carried out by men.”",
+      "translation": "在大多數地方，coral-reef gleaning 通常由男性進行。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目核心有三個部分：coral-reef gleaning、normally carried out、by men。真正要判斷的是文章是否把 reef-gleaning 描述為男性主導活動。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reef flats and shallow reef lagoons are accessible on foot, without the need for a boat, and so allow women, children and the elderly to engage directly in manual harvesting, or‘reef-gleaning’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "礁坪和淺礁潟湖可以步行到達，不需要船，因此女性、兒童和長者也能直接參與手工採集，也就是 reef-gleaning。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Similarly, in the Surin Islands of Thailand, young Moken boys spend much of their time playing, swimming and diving in shallow reef lagoons, and in doing so build crucial skills for their future daily subsistence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，在泰國 Surin Islands，年輕的 Moken 男孩大部分時間都在淺礁潟湖中玩耍、游泳和潛水，並在過程中建立日後日常生存所需的重要技能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph 2 的功能：這段講 reef areas 的 physical accessibility 如何讓更多人參與，包括女性、兒童、長者和男孩。它不太像是在說男性壟斷 coral-reef gleaning。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “reef-gleaning” 和 “men”。Paragraph 2 第一句直接出現"
+            },
+            {
+              "kind": "quote",
+              "text": "“reef-gleaning”。往後掃描，原文出現一個容易混淆的句子：“Near-shore fisheries are typically the domain of adult males, in particular where they involve the use of boats, with women and children restricted mainly to shore-based activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近岸海洋漁業通常是成年男性的領域，尤其是在需要用船的情況下；女性和兒童主要被限制在岸上活動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "真正要細讀的是這組對比："
+            },
+            {
+              "kind": "quote",
+              "text": "“Near-shore fisheries are typically the domain of adult males…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "近岸漁業通常是成年男性的領域。"
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in a coral-reef fishery the physical accessibility of the reef opens up opportunities for direct participation by women…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在 coral-reef fishery 中，礁區的可及性為女性直接參與打開了機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “normally carried out by men” 放到 coral-reef gleaning 上，但原文把 adult male dominance 放在 near-shore fisheries 上。到了 coral-reef fishery，原文強調的是 women、children 和 elderly 也能參與，並特別指出女性直接參與的機會增加。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "coral-reef gleaning normally carried out by men原文： reef-gleaning allows women, children and elderly to engage directly near-shore fisheries are typically the domain of adult males coral-reef fishery opens opportunities for women判斷：題目把男性主導放錯到 reef-gleaning 上，與原文方向相反。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤選的地方是原文真的有 “adult males”。但這個短語描述的是 near-shore fisheries，不是coral-reef gleaning。做 TRUE / FALSE / NOT GIVEN 時，不能只看到相同字眼；要看該字眼屬於哪一種活動。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Involvement in coral-reef-based occupations raises the status of women.”",
+      "translation": "參與以 coral reef 為基礎的職業會提高女性地位。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “status” 不一定會在原文中逐字出現。掃描時要找同義概念，例如 independence、importance、control、leverage、role in the community。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2 and Paragraph 3 Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reef flats and shallow reef lagoons are accessible on foot, without the need for a boat, and so allow women, children and the elderly to engage directly in manual harvesting, or‘reef-gleaning’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "礁坪和淺礁潟湖可以步行到達，不需要船，因此女性、兒童和長者也能直接參與手工採集，也就是 reef-gleaning。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 第一個句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Secondary occupations, such as fish processing and marketing, are often dominated by women and offer an important survival strategy for households with access to few other physical assets, such as boats and gear—particularly households headed by elderly women, widows or the wives of infirm men.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "魚類加工和銷售等次要職業常由女性主導，並為缺少船和漁具等實物資產的家庭提供重要生存策略，尤其是由年長女性、寡婦或病弱男性妻子所支撐的家庭。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩段的開頭，可以先估：Paragraph 2 講女性能直接參與 reef-gleaning；Paragraph 3 講女性在加工、銷售和家庭經濟中的角色。兩段都可能支援 “raises the status of women”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “women” 和 “status”。原文沒有 status 原字，但 Paragraph 2 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“increases their independence and the importance of their role in the community”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "增加她們的獨立性，以及她們在社區中角色的重要性。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 又有："
+            },
+            {
+              "kind": "quote",
+              "text": "“greater control over household income and greater leverage when negotiating for loans or credit”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對家庭收入有更大控制權，在談判貸款或信貸時也有更大影響力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 的核心句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in a coral-reef fishery the physical accessibility of the reef opens up opportunities for direct participation by women, and consequently increases their independence and the importance of their role in the community.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，在 coral-reef fishery 中，礁區的可及性為女性直接參與打開了機會，結果增加了她們的獨立性，以及她們在社區中角色的重要性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚說明女性參與 coral-reef fishery 後，其 independence 和 role importance 都提升。這正是 status 的實質含義。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 再補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Small-scale reef fisheries support local women traders, whose involvement can give them greater control over household income and greater leverage when negotiating for loans or credit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "小規模 reef fisheries 支持本地女性交易者；她們的參與可以讓她們更能控制家庭收入，也在談判貸款或信貸時有更大籌碼。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "raises the status of women原文： increases their independence increases the importance of their role in the community greater control over household income greater leverage when negotiating for loans or credit判斷：原文明確指出女性參與後在社區、家庭收入和金融談判上的角色提升，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “status” 比較抽象，原文用具體效果表達。學生如果只找 status 原字會找不到答案。這題要把 status 拆成社會角色、獨立性、收入控制權和談判能力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Coral reefs provide valuable learning opportunities for young children.”",
+      "translation": "珊瑚礁為年幼兒童提供有價值的學習機會。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目核心是 “learning opportunities”。原文可能用 play、acquire skills、knowledge、develop the art of fishing、build crucial skills 這類說法表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reef flats and shallow reef lagoons are accessible on foot, without the need for a boat, and so allow women, children and the elderly to engage directly in manual harvesting, or‘reef-gleaning’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "礁坪和淺礁潟湖可以步行到達，不需要船，因此女性、兒童和長者也能直接參與手工採集，也就是 reef-gleaning。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Similarly, in the Surin Islands of Thailand, young Moken boys spend much of their time playing, swimming and diving in shallow reef lagoons, and in doing so build crucial skills for their future daily subsistence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，在泰國 Surin Islands，年輕的 Moken 男孩大部分時間都在淺礁潟湖中玩耍、游泳和潛水，並在過程中建立日後日常生存所需的重要技能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測這段不只講 adults 的生計，也講 children 在 reef environment 中如何透過玩耍和活動學習。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “young children” 和 “learning opportunities”。Paragraph 2 中間有直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“It also provides a place for children to play, and to acquire important skills and knowledge for later in life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它也為兒童提供一個玩耍的地方，並讓他們獲得日後生活所需的重要技能和知識。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中 “It” 指前文的 reef / coral-reef fishery environment。句子有兩個動作：第一，children can play。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，children can acquire important skills and knowledge for later in life。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “valuable learning opportunities”。原文的 “acquire important skills and knowledge” 已經直接支援 learning；“for later in life” 說明這些學習有長遠價值。"
+            },
+            {
+              "kind": "label",
+              "text": "後面兩個例子進一步加強這點："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, in the South West Island of Tobi, in the Pacific Ocean, young boys use simple hand lines with a loop and bait at the end to develop the art of fishing on the reef.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，在太平洋的 South West Island of Tobi，年幼男孩使用簡單手線，末端有線圈和餌，來發展在礁上捕魚的技巧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以及 Moken boys 的例子，說他們透過 playing、swimming、diving 建立 future daily subsistence所需技能。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "valuable learning opportunities原文： acquire important skills and knowledge develop the art of fishing build crucial skills for their future daily subsistence判斷：原文清楚說 coral reefs 讓兒童學習技能和知識，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “learning opportunities”，原文其中一部分用 “play”。不要把 play 理解成純娛樂；原文緊接著說 acquire skills and knowledge，說明 play 和 learning 在這裡連在一起。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The women of Ulithi Atoll have some control over how fish catches are shared out.”",
+      "translation": "Ulithi Atoll 的女性對魚獲如何分配有一定控制權。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目核心是 “some control” 和 “how fish catches are shared out”。原文可能用 role、rights、distribution 表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Secondary occupations, such as fish processing and marketing, are often dominated by women and offer an important survival strategy for households with access to few other physical assets, such as boats and gear—particularly households headed by elderly women, widows or the wives of infirm men.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "魚類加工和銷售等次要職業常由女性主導，並為缺少船和漁具等實物資產的家庭提供重要生存策略，尤其是由年長女性、寡婦或病弱男性妻子所支撐的家庭。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, their role is important not only in providing income for their families but also in underpinning the economy of the local village.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，她們的角色不單為家庭提供收入，也支撐本地村落經濟。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 主要講女性在 reef-based economy 中的具體權利和重要性。Ulithi Atoll 是這段中間的例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最強定位詞是 “Ulithi Atoll”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“On Ulithi Atoll in the western Pacific, women have a distinct role and specific rights in the distribution of fish catches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在西太平洋的 Ulithi Atoll，女性在魚獲分配中有明確角色和特定權利。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “specific rights in the distribution of fish catches” 直接對應題目 “some control over how fish catches are shared out”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“distribution” = 分配。“fish catches” = 魚獲。“specific rights” = 有明確權利，即至少有一定控制或影響。題目沒有說 women have complete control，只說 “some control”，範圍較保守，與原文 “distinct role and specific rights” 完全吻合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "have some control over how fish catches are shared out原文： have a distinct role and specific rights in the distribution of fish catches判斷：原文清楚支持題目，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “control” 原文用 “rights”。這不是逐字重現，但在分配魚獲的語境中，有 specific rights 就表示她們對分配過程有正式影響力。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Boats for use by the inhabitants of Ulithi are constructed on Yap Island.”",
+      "translation": "Ulithi 居民使用的船是在 Yap Island 上建造的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要小心 location 和 material source 的分別。題目說的是 constructed on Yap Island，即建造地點在 Yap Island。原文是否真的說船在那裡建造，是判斷重點。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Secondary occupations, such as fish processing and marketing, are often dominated by women and offer an important survival strategy for households with access to few other physical assets, such as boats and gear—particularly households headed by elderly women, widows or the wives of infirm men.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "魚類加工和銷售等次要職業常由女性主導，並為缺少船和漁具等實物資產的家庭提供重要生存策略，尤其是由年長女性、寡婦或病弱男性妻子所支撐的家庭。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, their role is important not only in providing income for their families but also in underpinning the economy of the local village.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，她們的角色不單為家庭提供收入，也支撐本地村落經濟。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段集中講女性經濟角色。題目提到 Ulithi 和 boats，需要在段中尋找Ulithi Atoll 的例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Ulithi” 和 “Yap Island”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is because the canoes, made from mahogany logs from nearby Yap Island, are obtained through the exchange of cloth made by the women of Ulithi.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是因為這些獨木舟由來自附近 Yap Island 的 mahogany logs 製成，並透過交換 Ulithi 女性製作的布料而取得。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “constructed on Yap Island”，即建造地點。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“made from mahogany logs from nearby Yap Island”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句提供的是材料來源：mahogany logs 來自 Yap Island。它沒有說 canoes 在 Yap Island 上建造，也沒有說誰在 Yap Island 建造船。後半句 “obtained through the exchange of cloth” 說明取得方式是以布料交換，仍未交代建造地點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有的資料： canoes are made from mahogany logs the logs are from nearby Yap Island canoes are obtained through exchange of cloth made by women of Ulithi原文缺少的資料： where the canoes are constructed whether construction happens on Yap Island whether inhabitants of Ulithi build them elsewhere"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／缺失關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要： constructed on Yap Island原文只提供： made from mahogany logs from nearby Yap Island判斷：原文提供材料來源，沒有提供建造地點。這不是 TRUE；也不能判 FALSE，因為文章沒有說船不在 Yap Island 建造。資料不足，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易被 “from nearby Yap Island” 吸引。from Yap Island 在原文中修飾 logs 的來源。題目問 on Yap Island，是建造地點。IELTS 很常考 from 和 on 這類介詞差異，一個是來源，一個是位置。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In coral-reef fisheries, only male traders can apply for finance.”",
+      "translation": "在 coral-reef fisheries 中，只有男性交易者可以申請資金。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目有一個很強的限制詞 “only”。只要原文顯示女性交易者也能接觸 loans or credit，題目就會與原文相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Secondary occupations, such as fish processing and marketing, are often dominated by women and offer an important survival strategy for households with access to few other physical assets, such as boats and gear—particularly households headed by elderly women, widows or the wives of infirm men.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "魚類加工和銷售等次要職業常由女性主導，並為缺少船和漁具等實物資產的家庭提供重要生存策略，尤其是由年長女性、寡婦或病弱男性妻子所支撐的家庭。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, their role is important not only in providing income for their families but also in underpinning the economy of the local village.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，她們的角色不單為家庭提供收入，也支撐本地村落經濟。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段講女性在 reef economy 中的強角色，不像是在排除女性財務參與。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “traders” 和 “finance”。原文沒有 finance 原字，但有 loans 和 credit："
+            },
+            {
+              "kind": "quote",
+              "text": "“Small-scale reef fisheries support local women traders, whose involvement can give them greater control over household income and greater leverage when negotiating for loans or credit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "小規模 reef fisheries 支持本地女性交易者；她們的參與可以讓她們更能控制家庭收入，也在談判貸款或信貸時有更大籌碼。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的主體是 “local women traders”。她們因參與 small-scale reef fisheries，獲得兩種能力： greater control over household income= 更能控制家庭收入greater leverage when negotiating for loans or credit= 在談判貸款或信貸時有更大籌碼題目說 “only male traders can apply for finance”。這與原文直接衝突，因為原文談到的是 women traders 也能在 loans or credit 上獲得更大 leverage。finance 在題目中就是 loans or credit 的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "only male traders can apply for finance原文： local women traders greater leverage when negotiating for loans or credit判斷：原文顯示女性交易者也與 loans / credit 有關，題目中的 only male 與原文不相容。因此答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“apply for finance” 沒有逐字出現，但 loans or credit 就是 finance 的具體形式。真正控制答案的是 only male，這個限制被原文的 women traders 推翻。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Coral reefs provide a less constant source of income than near-shore seas.”",
+      "translation": "與近岸海域相比，coral reefs 提供較不穩定的收入來源。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求比較：coral reefs vs near-shore seas，並說 coral reefs less constant。掃描時要找stable、constant、other fisheries、seasonal changes 這類字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Poor people with little access to land, labour and financial resources are particularly reliant on exploiting natural resources, and consequently they are vulnerable to seasonal changes in availability of those resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺乏土地、勞動力和資金資源的窮人特別依賴開採自然資源，因此容易受到這些資源季節性供應變化的影響。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The diversity of coral reef fisheries, combined with their physical accessibility and the protection they provide against bad weather, makes these fisheries relatively stable compared with other fisheries or land-based agricultural production.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "coral reef fisheries 的多樣性，加上其可及性和它們對惡劣天氣提供的保護，使這些 fisheries 相比其他 fisheries 或陸地農業生產較為穩定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 4 的功能是：說明窮人面對季節性波動時，coral reef fisheries為何相對穩定。這與題目中的 “less constant” 方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “less constant” 和 “near-shore seas”。原文用 “relatively stable compared with other fisheries” 表達相反方向。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The diversity of coral reef fisheries, combined with their physical accessibility and the protection they provide against bad weather, makes these fisheries relatively stable compared with other fisheries or land-based agricultural production.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "coral reef fisheries 的多樣性，加上可及性和抵禦惡劣天氣的保護，使這些 fisheries 相比其他fisheries 或陸地農業生產較為穩定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“relatively stable” = 相對穩定。“compared with other fisheries” 可包括前文提到的 near-shore sea fisheries。題目說 “less constant”，意思是較不穩定。原文方向：coral reef fisheries are more stable.題目方向：coral reefs are less constant."
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "less constant source of income原文： relatively stable compared with other fisheries判斷：原文說 coral reef fisheries 比其他 fisheries 更穩定；題目說更不穩定。方向相反，所以答案是FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 第一開始說窮人依賴自然資源，因此容易受 seasonal changes 影響。學生可能只讀到 vulnerable，就選 TRUE。真正定案在最後一句：coral reef fisheries 因多樣性和保護作用，相比其他 fisheries 更穩定。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "sea cucumbers",
+      "answerKey": "sea cucumbers",
+      "type": "Notes Completion",
+      "prompt": "“a resource bank, e.g. for keeping clams and 8 _________________”",
+      "translation": "作為一個資源庫，例如保存 clams 和 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Notes Completion。空格和 “clams” 並列，因此需要一個名詞或名詞短語，並且不超過 TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many places, the reef may even act as a resource bank, serving as a means of saving food for future times of need.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在很多地方，reef 甚至可作為 resource bank，即為未來有需要時保存食物的一種方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Palau, sea cucumbers are seldom eaten during good weather in an effort to conserve their populations for months during which rough weather prohibits good fishing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Palau，人們在天氣好時很少吃 sea cucumbers，目的是保存牠們的數量，以供天氣惡劣、無法好好捕魚的月份使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段正是 notes 中 “resource bank” 的來源段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “resource bank” 和 “clams”。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Manus, Papua New Guinea, giant clams are collected and held in walled enclosures on the reef until they are needed during periods of rough weather.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Papua New Guinea 的 Manus，giant clams 被收集起來，放在 reef 上有牆圍起的 enclosure中，直到惡劣天氣期間需要時才使用。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Palau, sea cucumbers are seldom eaten during good weather…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Palau，人們在天氣好時很少吃 sea cucumbers……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "notes 寫 “clams and ______”，原文的兩個 resource bank 例子是： giant clams sea cucumbers clams 是第一個例子；第二個例子就是 sea cucumbers。雖然 sea cucumbers 不是被放在enclosure 裡，而是透過天氣好時不食用來 conserved，但它們同樣屬於 reef 作 resource bank 的例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： sea cucumbers = 2 words，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是：sea cucumbers。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “giant clams”，因為題目已經給了 clams。也不要填 “rough weather”，那是使用這些資源的時候，不是被保存的資源。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "agricultural",
+      "answerKey": "agricultural",
+      "type": "Notes Completion",
+      "prompt": "“a seasonal back-up, when 9 _________________ products are insufficient”",
+      "translation": "作為季節性後備資源，當 ______ 產品不足時使用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格後面已有 “products”，所以空格需要一個形容詞，修飾 products。答案必須來自原文，不超過 TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Coral reef resources also act as a buffer against seasonal lows in other sectors, particularly agriculture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "coral reef resources 也能作為其他產業季節性低谷的緩衝，尤其是 agriculture。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Papua New Guinea, while agriculture is the primary means of food production, a large proportion of the coastal population engage in sporadic subsistence fishing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Papua New Guinea，雖然 agriculture 是主要食物生產方式，但很大比例的沿岸人口也會不定期進行 subsistence fishing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷這段講 coral reef resources 如何在 agriculture 低谷時發揮後備作用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “seasonal back-up” 和 “products are insufficient”。原文對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“reef harvests provide key sources of food and cash when agricultural production is low”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 agricultural production 偏低時，reef harvests 提供重要食物和現金來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "完整原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, in coastal communities in northern Mozambique, reef harvests provide key sources of food and cash when agricultural production is low, with the peak in fisheries production coinciding with the period of lowest agricultural stocks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，在 northern Mozambique 的沿岸社區，當農業生產偏低時，reef harvests 提供重要的食物和現金來源；而 fisheries production 的高峰剛好與 agricultural stocks 最低的時期重合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “products are insufficient” 對應原文 “agricultural production is low” 和 “lowest agricultural stocks”。由於題目空格後已經有 products，所以只需填形容詞 “agricultural”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： agricultural = 1 word，來自原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入題目：when agricultural products are insufficient。語法自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是：agricultural。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “agricultural production”，因為題目已經有 products，填入後會變成 “agricultural production products”，文法錯誤。Notes Completion 要先看空格前後文法，再回到原文找相應詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "scuba-diving",
+      "answerKey": "scuba-diving",
+      "type": "Notes Completion",
+      "prompt": "“a tourist attraction, e.g. 10 _________________ tours in the Caribbean.”",
+      "translation": "作為旅遊吸引點，例如加勒比海的 ______ 旅遊團。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “tours” 前面，需要一個修飾 tours 的名詞或形容詞短語。題目限制 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many coral-reef areas, tourism is one of the main industries providing employment and, in many cases, is promoted to provide alternatives to fisheries-based livelihoods and to ensure that local reef resources are conserved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在許多 coral-reef areas，tourism 是提供就業的主要產業之一；在很多情況下，它也被推動成fisheries-based livelihoods 的替代方案，並用來確保本地 reef resources 得到保護。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is growing recognition that sustainability is a key requirement, as encompassed in small-scale eco-tourism activities, for instance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們愈來愈認同 sustainability 是一項關鍵要求，例如 small-scale eco-tourism activities 就包含這種理念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 7 講 tourism 的發展、好處和注意事項。Question 10 的 tourist attraction 應定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Caribbean” 和 “tours”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the Caribbean alone, tours based on scuba-diving have attracted 20 million people in one year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單是在 Caribbean，基於 scuba-diving 的旅遊團一年內已吸引二千萬人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“a tourist attraction, e.g. ______ tours in the Caribbean.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“tours based on scuba-diving”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "也就是 scuba-diving tours。題目已經提供 tours，所以空格填 “scuba-diving”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： scuba-diving = 1 hyphenated word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入題目：scuba-diving tours in the Caribbean。語法自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是：scuba-diving。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “20 million people”，這是被吸引的人數，不是旅遊活動種類。題目空格修飾 tours，因此要找 activity type。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "communications",
+      "answerKey": "communications",
+      "type": "Notes Completion",
+      "prompt": "“Improvements to roads and 11 _________________”",
+      "translation": "道路和 ______ 的改善。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格與 roads 並列，需要一個名詞。題目問 tourism 對 local people 的 benefit，應在 Paragraph 7 中找 tourism expansion 的伴隨好處。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many coral-reef areas, tourism is one of the main industries providing employment and, in many cases, is promoted to provide alternatives to fisheries-based livelihoods and to ensure that local reef resources are conserved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在許多 coral-reef areas，tourism 是提供就業的主要產業之一；在很多情況下，它也被推動成fisheries-based livelihoods 的替代方案，並用來確保本地 reef resources 得到保護。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is growing recognition that sustainability is a key requirement, as encompassed in small-scale eco-tourism activities, for instance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們愈來愈認同 sustainability 是一項關鍵要求，例如 small-scale eco-tourism activities 就包含這種理念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段講 tourism 的 employment benefits 和 development principles。道路及通訊改善應在中間細節。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “roads”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The upgrading of roads and communications associated with the expansion of tourism may also bring benefits to local communities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 tourism 擴張相關的 roads and communications 升級，也可能為本地社區帶來好處。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文短語是 “roads and communications”。題目已經給出 roads，所以空格填 communications。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： communications = 1 word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入題目：Improvements to roads and communications。語法自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是：communications。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “tourism”，因為 tourism 是導致 roads and communications upgrade 的背景；題目問的是roads and ______ 這個並列名詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "sustainability",
+      "answerKey": "sustainability",
+      "type": "Notes Completion",
+      "prompt": "“Need for 12 _________________”",
+      "translation": "需要 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 notes 中 Important considerations 的部分。前一句是 “Development must be based on appropriate principles.” 因此空格應該是發展規劃中的核心要求或原則。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In many coral-reef areas, tourism is one of the main industries providing employment and, in many cases, is promoted to provide alternatives to fisheries-based livelihoods and to ensure that local reef resources are conserved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在許多 coral-reef areas，tourism 是提供就業的主要產業之一；在很多情況下，它也被推動成fisheries-based livelihoods 的替代方案，並用來確保本地 reef resources 得到保護。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is growing recognition that sustainability is a key requirement, as encompassed in small-scale eco-tourism activities, for instance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們愈來愈認同 sustainability 是一項關鍵要求，例如 small-scale eco-tourism activities 就包含這種理念。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經可以預測 Question 12 的答案很可能是 sustainability。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Need for”。原文中最接近的是 “a key requirement”："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is growing recognition that sustainability is a key requirement…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們愈來愈認同 sustainability 是一項關鍵要求。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 tourism development must be considered carefully，並且："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ability of the poorer members of the community to access the benefits of tourism is far from guaranteed, and requires development guided by social, cultural and environmental principles.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "社區中較貧困成員能否獲得旅遊業好處，遠遠未能保證；這需要由 social、cultural 和environmental principles 指導的發展。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文總結："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is growing recognition that sustainability is a key requirement…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們愈來愈認同 sustainability 是關鍵要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “a key requirement” 改寫成 “Need for”。所以空格填 sustainability。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： sustainability = 1 word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入題目：Need for sustainability。語法自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是：sustainability。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “eco-tourism”。原文用 small-scale eco-tourism activities 作例子，真正的要求是sustainability。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "conflict",
+      "answerKey": "conflict",
+      "type": "Notes Completion",
+      "prompt": "“Poorly-planned development can create 13 _________________ with local fishers.”",
+      "translation": "規劃欠佳的發展可能與本地漁民產生 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 create 後面，需要一個名詞。題目定位詞是 “poorly-planned development” 和 “local fishers”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8整段原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Where tourism development has not been carefully planned and the needs and priorities of the local community have not been properly recognised, conflict has sometimes arisen between tourism and local, small-scale fishers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在旅遊發展沒有經過仔細規劃、且本地社區的需要和優先事項沒有得到適當認可的地方， tourism 和本地小規模漁民之間有時會出現 conflict。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這一段，就能判斷它是對 tourism development 的警告，正好對應 notes 的最後一點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Poorly-planned development” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“tourism development has not been carefully planned”"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “local fishers” 對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“local, small-scale fishers”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“conflict has sometimes arisen between tourism and local, small-scale fishers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "tourism 和本地小規模漁民之間有時會出現衝突。"
+            },
+            {
+              "kind": "label",
+              "text": "題目說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Poorly-planned development can create ______ with local fishers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“create” 對應原文 “has sometimes arisen”，即出現、產生。空格需要填造成的結果，所以答案是conflict。答案形式檢查： conflict = 1 word，符合 NO MORE THAN TWO WORDS。放入題目：can create conflict with local fishers。語法自然。所以答案是：conflict。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “tourism”，因為 tourism 是衝突的一方；題目問 create 甚麼，答案必須是結果名詞 conflict。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The economic importance of coral reefs.pdf",
+    "sha256": "0c2db88f30fc368378ab3dff9475a58a9f27f1226721e778e38e6dd61da3d147",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可建立的粗略地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說世界上很多人完全或部分依賴 coral reefs 維持生計，末句補充他們的家也受 reef 保護，免受海浪衝擊。只看首尾句，可以估計這段是全文總引入，功能是說明 coral reefs 的基本經濟重要性：它們既提供可直接採集、加工和出售的資源，如 shellfish 和 seaweeds，也為沿岸居民提供自然屏障。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 reef flats 和 shallow reef lagoons 可步行到達，不需要船，因此 women、children 和elderly 也能直接採集。末句用 Thailand Surin Islands 的 Moken boys 作例子，說孩子透過游泳和潛水建立日後生存所需技能。只看首尾句，可以估計這段集中講 reef 的 accessibility 如何改變參與者結構，尤其是女性和兒童。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 secondary occupations，如 fish processing 和 marketing，常由女性主導，對缺少其他資產的家庭十分重要。末句總結女性角色不單為家庭帶來收入，也支撐 local village economy。只看首尾句，可以判斷這段延續女性經濟角色，重點包括 Ulithi Atoll 女性分配魚獲的權利、女性交易者收入控制，以及貸款／信貸談判能力。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說缺乏土地、勞動力和資金的窮人特別依賴自然資源，因此容易受季節性資源變化影響。末句說 coral reef fisheries 因多樣性、可及性和抵禦惡劣天氣的保護，比其他 fisheries 或land-based agriculture 更穩定。只看首尾句，可以估計這段開始處理 reefs 在困難時期的穩定作用。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說在許多地方，reef 甚至可作 resource bank，即為未來需要儲備食物。末句說 Palau 人在天氣好時很少吃 sea cucumbers，以保存牠們到惡劣天氣、難以捕魚的月份。只看首尾句，可以判斷這段用 Manus 的 giant clams 和 Palau 的 sea cucumbers 說明 reefs 如何像食物儲蓄系統一樣運作。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 coral reef resources 也可作為其他產業季節性低谷的 buffer，尤其是 agriculture。末句說在 Papua New Guinea，雖然農業是主要食物生產方式，但很多沿岸人口也會不定期進行subsistence fishing。只看首尾句，可以估計這段講 reefs 在農業不足時提供替代食物和現金來源，Northern Mozambique 是核心例子。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說在很多 coral-reef areas，tourism 是主要提供就業的產業之一，也被推動成fisheries-based livelihoods 的替代方案。末句說人們愈來愈認同 sustainability 是關鍵要求，例如small-scale eco-tourism。只看首尾句，可以判斷這段講 tourism 的好處與限制：jobs、scuba-diving、roads、communications，以及 careful development 和 sustainability。"
+      },
+      {
+        "number": "8",
+        "summary": "全段只有一句，說如果 tourism development 沒有妥善規劃，也沒有真正認可 local community 的needs and priorities，tourism 和 local small-scale fishers 之間有時會出現 conflict。只看這一句，可以判斷結尾段是警告：旅遊發展若只追求擴張，忽略本地漁民和社區需要，經濟機會可能轉化為社會衝突。"
+      }
+    ]
+  }
+}

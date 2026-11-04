@@ -1,0 +1,479 @@
+{
+  "id": "analysis-p2-169",
+  "catalogueId": "p2-169",
+  "catalogueIds": [
+    "p2-169"
+  ],
+  "passage": 2,
+  "title": "Australian artist Margaret Preston",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "symbols",
+    "titles",
+    "stencilling",
+    "books",
+    "travel",
+    "400"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "prompt": "Question 15",
+      "translation": "德國美學傳統的藝術家如實描繪自然。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 German aesthetic tradition。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "subjects of the natural world were depicted in a true-to-life manner."
+            },
+            {
+              "kind": "paragraph",
+              "text": "true-to-life 與 realistically 同義，均指如實呈現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "prompt": "Question 16",
+      "translation": "Margaret 曾就讀巴黎一所著名藝術學院。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位 Paris 及 studies。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "her studies in Paris, France, had little impact on this naturalism"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章提到在巴黎進修，但沒有提供學院名稱或其知名程度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "prompt": "Question 17",
+      "translation": "Margaret 在復康中心教授手藝時認識丈夫 William。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 returning to Australia 與 met。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "It was on board a boat returning to Australia that she met wealthy businessman William Preston"
+            },
+            {
+              "kind": "paragraph",
+              "text": "相識地點是回澳洲的船上，不是教授編籃的復康中心。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "prompt": "Question 18",
+      "translation": "Margaret Preston 與 Thea Proctor 探索相近的藝術主題。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位 1925 年共同展覽。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "Her first major showing in Australia was with her friend Thea Proctor"
+            },
+            {
+              "kind": "paragraph",
+              "text": "共同展出並不能證明作品主題相同；文中沒有介紹 Proctor 的作品主題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "prompt": "Question 19",
+      "translation": "1925 年的悉尼港作品比早期作品簡單。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 compared with earlier works。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "they were compact and busy"
+            },
+            {
+              "kind": "paragraph",
+              "text": "compact and busy 及 elaborate patterns 表示構圖緊密繁複，與 simpler 相反。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "prompt": "Question 20",
+      "translation": "Berowra 時期版畫的顏色非常鮮艷。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 Berowra 及 bright colours。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "Preston’s prints became larger, less complex and less reliant on the use of bright colours."
+            },
+            {
+              "kind": "paragraph",
+              "text": "該時期作品較少依賴鮮艷顏色，並非強調非常鮮艷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "prompt": "Question 21",
+      "translation": "住在 Berowra 時，Margaret 描繪自然環境中的花卉。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 growing wild。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "Preston began to concentrate instead on flowers that were growing wild."
+            },
+            {
+              "kind": "paragraph",
+              "text": "她由瓶花轉向野生花卉，符合 in their natural setting。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "symbols",
+      "answerKey": "symbols",
+      "prompt": "Question 22",
+      "translation": "她把原住民藝術的符號及色彩融入作品。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 During the 1940s 之後的 symbols。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "symbols used by Aboriginal people, together with dried, burnt colours found in traditional Aboriginal paintings"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格與 colours 並列，答案為複數名詞 symbols。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "titles",
+      "answerKey": "titles",
+      "prompt": "Question 23",
+      "translation": "作品名稱常提及原住民來源。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 acknowledge her sources。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "The artist’s titles from this period frequently acknowledge her sources"
+            },
+            {
+              "kind": "paragraph",
+              "text": "titles 是她為作品所用的名稱；保留複數。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "stencilling",
+      "answerKey": "stencilling",
+      "prompt": "Question 24",
+      "translation": "部分版畫使用古老的鏤版技法。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 1953、ancient technique。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "29 prints made using the ancient technique known as stencilling."
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接給出技法名稱 stencilling。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "books",
+      "answerKey": "books",
+      "prompt": "Question 25",
+      "translation": "她從 1915 年開始收藏關於中國藝術的書籍。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 1915 與 acquired。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "she acquired the first of her many books on the subject"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1915 年取得第一本，對應題目的 started collecting books。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "travel",
+      "answerKey": "travel",
+      "prompt": "Question 26",
+      "translation": "年老後仍對旅行與藝術感興趣。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 As she got older。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "her love of painting, printmaking and travel continued."
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 art 概括 painting 與 printmaking，另一項為 travel。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "400",
+      "answerKey": "400",
+      "prompt": "Question 27",
+      "translation": "她創作了超過四百幅畫作及版畫。",
+      "type": "Question Analysis",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scanning",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "掃描 over 及 produced。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read · 原文證據",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "she had produced over 400 paintings and prints."
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已提供 more than，只需填入數字 400。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Australian artist Margaret Preston.pdf",
+    "sha256": "d9fb08873d302ebe5b5f2ba1ca8c3e6f135005597c43827ddfd2170b2ba32084",
+    "pageCount": 19
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": null
+}

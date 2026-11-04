@@ -1,0 +1,2102 @@
+{
+  "id": "p1-084-taking-us-back-to-the-paradise-city",
+  "catalogueId": "p1-084",
+  "catalogueIds": [
+    "p1-084"
+  ],
+  "passage": 1,
+  "title": "Taking us back to the Paradise City",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "B",
+    "E",
+    "G",
+    "rehearsals",
+    "chemistry",
+    "airplay",
+    "appeal",
+    "D",
+    "D",
+    "A",
+    "C",
+    "C",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B — was named after its founding members.",
+      "answerKey": "B — was named after its founding members.",
+      "type": "Sentence Endings",
+      "prompt": "“Guns N’ Roses was named after its founding members.”",
+      "translation": "Guns N’ Roses 以其創始成員命名。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Endings 題。題目主體是 “Guns N’ Roses”，要找第一段中關於樂隊名稱來源的資訊。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Introduction第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Formed in 1985 by Axl Rose and the then-lead guitarist Tracii Guns, and taking its name from its two founding members, the hard rock band Guns N’ Roses reached heights of success that few could or would have ever predicted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "硬搖滾樂隊 Guns N’ Roses 於 1985 年由 Axl Rose 和當時的主音結他手 Tracii Guns 組成，並以兩位創始成員命名；它後來達到很少人能預料到的成功高度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And as it embarks on another chapter of its journey, we take a look back at the colourful and often controversial history of the band.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當它展開旅程的另一章時，我們回望這支樂隊色彩豐富且經常充滿爭議的歷史。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計第一段負責介紹樂隊基本資料、名稱來源、成功高度，以及全文要回顧其歷史。Question 1 問 Guns N’ Roses 這個名稱，所以第一句就是最可能位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Guns N’ Roses”"
+            },
+            {
+              "kind": "label",
+              "text": "選項中最有定位力的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“named”"
+            },
+            {
+              "kind": "quote",
+              "text": "“founding members”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“taking its name from its two founding members”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“taking its name from its two founding members”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以它的兩位創始成員作為名稱來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “its two founding members” 指前面提到的 Axl Rose 和 Tracii Guns。樂隊名 Guns N’ Roses 正是把 Guns 和 Rose 兩個名字結合起來。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“was named after its founding members”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“taking its name from its two founding members”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： was named after = taking its name from founding members = two founding members"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “takes its name from two former members” 有迷惑性，因為 Tracii Guns 後來離隊，而"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“then-lead guitarist” 也暗示他的身份已有時間限制。可是第一段明確說 “founding members”，題目需要名稱來源，答案要跟 founding 這個身份對齊。A 的 former members 沒有精準反映原文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "E — considerable success in America.",
+      "answerKey": "E — considerable success in America.",
+      "type": "Sentence Endings",
+      "prompt": "“The band has enjoyed considerable success in America.”",
+      "translation": "這支樂隊在美國取得了相當大的成功。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 “The band has enjoyed…” 後面應接甚麼。要找第一段中關於銷量和成功地區的資訊。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Introduction第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Formed in 1985 by Axl Rose and the then-lead guitarist Tracii Guns, and taking its name from its two founding members, the hard rock band Guns N’ Roses reached heights of success that few could or would have ever predicted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "硬搖滾樂隊 Guns N’ Roses 於 1985 年由 Axl Rose 和當時的主音結他手 Tracii Guns 組成，並以兩位創始成員命名；它後來達到很少人能預料到的成功高度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And as it embarks on another chapter of its journey, we take a look back at the colourful and often controversial history of the band.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當它展開旅程的另一章時，我們回望這支樂隊色彩豐富且經常充滿爭議的歷史。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已出現 “heights of success”，所以第一段一定包含成功程度資料。Question 2 的 “has enjoyed” 與選項中的 success 有關，應在首句後面繼續掃描銷售數字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“The band has enjoyed”"
+            },
+            {
+              "kind": "label",
+              "text": "選項定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“success”"
+            },
+            {
+              "kind": "quote",
+              "text": "“America”"
+            },
+            {
+              "kind": "quote",
+              "text": "“States”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having sold more than 100 million albums worldwide to date—46 million in the United States alone…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Having sold more than 100 million albums worldwide to date—46 million in the United States alone…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，樂隊全球專輯銷量超過一億張，單在美國就有四千六百萬張。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“46 million in the United States alone” 是非常強的成功證據。46 million albums 是龐大銷量，所以可以概括成 “considerable success in America”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 E：“considerable success in America”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“46 million in the United States alone”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： America = the United States considerable success = 46 million albums sold"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C “success in the States alone” 看似有 “States alone” 對應 “United States alone”。問題在於句子接上題幹後變成 “The band has enjoyed success in the States alone.” 這可能帶出「只在美國成功」的感覺，但原文同時說 worldwide 銷量超過一億。E 的 “considerable success in America”更準確。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "G — representative of a certain attitude in music in the 1980s and 1990s.",
+      "answerKey": "G — representative of a certain attitude in music in the 1980s and 1990s.",
+      "type": "Sentence Endings",
+      "prompt": "“The band became representative of a certain attitude in music in the 1980s and 1990s.”",
+      "translation": "這支樂隊成為 1980 和 1990 年代某種音樂態度的代表。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目主體是 “The band became…”。要找第一段中 “came to symbolise” 一類表達，判斷樂隊象徵甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Introduction第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Formed in 1985 by Axl Rose and the then-lead guitarist Tracii Guns, and taking its name from its two founding members, the hard rock band Guns N’ Roses reached heights of success that few could or would have ever predicted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "硬搖滾樂隊 Guns N’ Roses 於 1985 年由 Axl Rose 和當時的主音結他手 Tracii Guns 組成，並以兩位創始成員命名；它後來達到很少人能預料到的成功高度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And as it embarks on another chapter of its journey, we take a look back at the colourful and often controversial history of the band.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當它展開旅程的另一章時，我們回望這支樂隊色彩豐富且經常充滿爭議的歷史。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一段介紹的不只包括銷量，也包括樂隊在硬搖滾文化中的象徵地位。Question 3 的 “became”很可能對應原文 “came to symbolise”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“became”"
+            },
+            {
+              "kind": "label",
+              "text": "選項定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“symbol”"
+            },
+            {
+              "kind": "quote",
+              "text": "“representative”"
+            },
+            {
+              "kind": "quote",
+              "text": "“1980s and 1990s”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the band that came to symbolise the hedonistic rebelliousness of the 1980s and 1990s hard-rock era”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“came to symbolise the hedonistic rebelliousness of the 1980s and 1990s hard-rock era”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "逐漸成為 1980 和 1990 年代硬搖滾時代享樂、叛逆精神的象徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hedonistic rebelliousness” 是一種態度：享樂、不羈、反叛。選項 G 用 “a certain attitude in music” 概括這種精神。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 G：“representative of a certain attitude in music in the 1980s and 1990s”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“came to symbolise the hedonistic rebelliousness of the 1980s and 1990s hard-rock era”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： representative of = came to symbolise a certain attitude = hedonistic rebelliousness music in the 1980s and 1990s = 1980s and 1990s hard-rock era"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "F “a symbol of success in the 1980s” 只抓到 symbol 和 success，範圍偏窄。原文說的是hedonistic rebelliousness，不是單純 success；時間也包含 1980s and 1990s。因此 G 更完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "rehearsals",
+      "answerKey": "rehearsals",
+      "type": "Sentence Completion",
+      "prompt": "“Between 1985 and 1986, one of the original members failed to attend 4 ______, forcing the band to replace him.”",
+      "translation": "1985 至 1986 年間，其中一名原始成員未能出席 ______，迫使樂隊替換他。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目已給年份 1985–1986，目標段落非常明確。空格前是 attend，所以需要一個可被出席的名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：1985–1986第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The band line-up underwent many changes in the early days.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "樂隊早期的成員陣容經歷了許多變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was on the road that the band established its chemistry, and though it only managed to release one four-track EP, Like a Suicide, during this period, the seeds of success were being sown as the band quickly earned a reputation for its impressive live performances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正是在巡演路上，樂隊建立了默契；雖然這段時期只推出了一張四首歌 EP《Like a Suicide》，但成功的種子已經播下，因為樂隊很快憑出色現場演出建立名聲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說 line-up changes，題目說 original member 被 replacement，兩者高度相關。這題應在段落前半尋找成員更替原因。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“original members”"
+            },
+            {
+              "kind": "quote",
+              "text": "“failed to attend”"
+            },
+            {
+              "kind": "quote",
+              "text": "“replace”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Founding member Tracii Guns’ failure to attend rehearsals led to him being replaced…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Founding member Tracii Guns’ failure to attend rehearsals led to him being replaced as lead guitarist by Slash.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "創始成員 Tracii Guns 未能出席排練，導致他被 Slash 取代，失去主音結他手位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格句的 “failed to attend” 直接對應原文 “failure to attend”。attend 後面接 “rehearsals”，所以答案是 rehearsals。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "one of the original members = Founding member Tracii Guns failed to attend = failure to attend forcing the band to replace him = led to him being replaced答案形式rehearsals = 1 word符合 NO MORE THAN ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要填 plural，因為原文是 rehearsals。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "chemistry",
+      "answerKey": "chemistry",
+      "type": "Sentence Completion",
+      "prompt": "“During their first tour, they developed good 5 ______ and played well together.”",
+      "translation": "在首次巡演期間，他們建立了良好的 ______，並且合作得很好。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “first tour” 指 1985–1986 段的 “Hell Tour”。空格前是 good，後面說 played well together，所以需要表示默契或合作感的名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：1985–1986第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The band line-up underwent many changes in the early days.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "樂隊早期的成員陣容經歷了許多變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was on the road that the band established its chemistry, and though it only managed to release one four-track EP, Like a Suicide, during this period, the seeds of success were being sown as the band quickly earned a reputation for its impressive live performances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正是在巡演路上，樂隊建立了默契；雖然這段時期只推出了一張四首歌 EP《Like a Suicide》，但成功的種子已經播下，因為樂隊很快憑出色現場演出建立名聲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已經有 “on the road” 和 “established its chemistry”，正好對應題目中的 first tour 和developed good。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first tour”"
+            },
+            {
+              "kind": "quote",
+              "text": "“developed good”"
+            },
+            {
+              "kind": "quote",
+              "text": "“played well together”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“embarked on their first tour, nicknamed ‘Hell Tour’”"
+            },
+            {
+              "kind": "quote",
+              "text": "“It was on the road that the band established its chemistry”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was on the road that the band established its chemistry…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正是在巡演路上，樂隊建立了彼此之間的默契。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“chemistry” 在樂隊語境中指成員之間合作自然、互相配合、整體效果好。題目用 “played well together” 解釋了 chemistry 的意思。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "During their first tour = on the road / first tour developed good = established its played well together = chemistry答案形式chemistry = 1 word符合 NO MORE THAN ONE WORD。這裡不能填 “good chemistry”，因為題目已經有 good。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "airplay",
+      "answerKey": "airplay",
+      "type": "Sentence Completion",
+      "prompt": "“The song Sweet Child of Mine got regular 6 ______ and reached the top of the charts.”",
+      "translation": "《Sweet Child of Mine》得到定期 ______，並登上排行榜榜首。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目指名歌曲 Sweet Child of Mine，所以定位很直接。空格前是 regular，需要找原文中和電台或電視播放有關的名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：1987–1989第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On 21 July 1987, the band released its first album, Appetite for Destruction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1987 年 7 月 21 日，樂隊推出首張專輯《Appetite for Destruction》。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The band was now well on its way to achieving fame and fortune.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "樂隊如今已經踏上通往名聲和財富的道路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段是成名段：由首張專輯發行，到歌曲和巡演推動樂隊走向 fame and fortune。Sweet Child of Mine 應在段落中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sweet Child of Mine”"
+            },
+            {
+              "kind": "quote",
+              "text": "“regular”"
+            },
+            {
+              "kind": "quote",
+              "text": "“top of the charts”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the song and its accompanying music video received regular airplay and shot to the top of the US charts”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sweet Child of Mine was the album’s second US single and, thanks largely to growing grassroots support, the song and its accompanying music video received regular airplay and shot to the top of the US charts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Sweet Child of Mine》是這張專輯在美國推出的第二首單曲；很大程度上因為基層粉絲支持增加，這首歌和它的音樂錄影帶得到定期播放，並衝上美國排行榜榜首。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格句中的 “got regular” 對應原文 “received regular”。答案就是 airplay，意思是歌曲或音樂錄影帶在電台或電視上的播放。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "got regular = received regular reached the top of the charts = shot to the top of the US charts答案形式airplay = 1 word符合 NO MORE THAN ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“MTV executives to play Welcome to the Jungle” 也有 play 這個概念，但題目問 Sweet Child of Mine。先找歌曲名，再讀同一句，避免被上一首單曲 Welcome to the Jungle 帶走。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "appeal",
+      "answerKey": "appeal",
+      "type": "Sentence Completion",
+      "prompt": "“Nobody can deny that they have enjoyed long-lasting 7 ______.”",
+      "translation": "沒有人能否認，他們享有長久的 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Nobody can deny” 很可能對應原文 “there’s no denying”。“long-lasting” 應對應enduring。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：2009–Present第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A new world tour followed the release of Chinese Democracy and, although it received largely positive reviews, the band has continued to be plagued by controversy; Rose is notorious for arriving late for performances and his onstage behaviour has led to much criticism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Chinese Democracy》推出後，新的世界巡演隨之而來；雖然評價大致正面，樂隊仍持續受爭議困擾。Rose 因演出遲到而惡名昭彰，他的台上行為也引來大量批評。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The only difference is that today they are more hoping for than expecting a great performance, but then that’s rock and roll, baby.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "唯一不同的是，今天他們更像是在希望看到一場精彩演出，而非理所當然地期待它；但這就是rock and roll。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段有爭議也有粉絲持續支持。題目問 long-lasting 影響或吸引力，應在中間找對GNR 的總評。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nobody can deny”"
+            },
+            {
+              "kind": "quote",
+              "text": "“long-lasting”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“there’s no denying”"
+            },
+            {
+              "kind": "quote",
+              "text": "“enduring appeal”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But when all’s said and done, there’s no denying the enduring appeal of GNR.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過說到底，GNR 持久的吸引力是無法否認的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“enduring” 就是 long-lasting；“appeal” 指吸引力。題目已經給出 “long-lasting”，所以空格只需填appeal。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Nobody can deny = there’s no denying long-lasting = enduring they have enjoyed = of GNR答案形式appeal = 1 word符合 NO MORE THAN ONE WORD。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "D — from 1994 to 2008",
+      "answerKey": "D — from 1994 to 2008",
+      "type": "Matching Periods",
+      "prompt": "“The band took a long break, during which many members decided to leave.”",
+      "translation": "樂隊經歷了一段長時間休止，在此期間許多成員決定離開。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Periods 題。要找 “long break” 和 “many members leave” 同時出現的時期。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：1994–2008第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But just when it seemed that the band could do no wrong, things slowly began to unravel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正當樂隊看似一切順利時，事情開始慢慢瓦解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It wasn’t until 2008, with Rose now the only remaining member of the original band, that Chinese Democracy was finally released.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 2008 年，在 Rose 成為原始樂隊唯一仍留下的成員後，《Chinese Democracy》才終於推出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段是瓦解、成員流失和漫長等待的時期。題目中的 long break 和 many members leave 很自然對應這一段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“long break”"
+            },
+            {
+              "kind": "quote",
+              "text": "“many members”"
+            },
+            {
+              "kind": "quote",
+              "text": "“leave”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the band went on a hiatus”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not recording or touring together for the best part of two years”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Slash officially quit”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of the other band members followed Slash out”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rose and Slash had personal issues and the band went on a hiatus, not recording or touring together for the best part of two years, before Slash officially quit in 1996.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rose 和 Slash 出現私人問題，樂隊進入休止狀態，在接近兩年的時間內沒有一起錄音或巡演，之後 Slash 於 1996 年正式退出。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most of the other band members followed Slash out…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他大多數成員也跟隨 Slash 離開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hiatus” 對應 long break；“Most of the other band members followed Slash out” 對應 many members decided to leave。兩個條件同時在 1994–2008 段出現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "long break = hiatus / not recording or touring many members decided to leave = most of the other band members followed Slash out"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "1985–1986 也有 line-up changes，但那是早期換人和陣容建立，沒有 long break。題目要求break 和 many members leave 同時成立，所以 D 最準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "D — from 1994 to 2008",
+      "answerKey": "D — from 1994 to 2008",
+      "type": "Matching Periods",
+      "prompt": "“There was an extremely long delay before the release of the band’s next album.”",
+      "translation": "樂隊下一張專輯推出前，出現了極長時間的延誤。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找 album release delay。關鍵詞是 “long delay” 和 “next album”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：1994–2008第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But just when it seemed that the band could do no wrong, things slowly began to unravel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正當樂隊看似一切順利時，事情開始慢慢瓦解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It wasn’t until 2008, with Rose now the only remaining member of the original band, that Chinese Democracy was finally released.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 2008 年，在 Rose 成為原始樂隊唯一仍留下的成員後，《Chinese Democracy》才終於推出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經強烈提示這段有 long delay。最後一句 “It wasn’t until 2008” 是典型延遲表達。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“long delay”"
+            },
+            {
+              "kind": "quote",
+              "text": "“release”"
+            },
+            {
+              "kind": "quote",
+              "text": "“next album”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The band’s promised new album, Chinese Democracy, never materialised”"
+            },
+            {
+              "kind": "quote",
+              "text": "“It wasn’t until 2008… that Chinese Democracy was finally released”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The band’s promised new album, Chinese Democracy, never materialised and tour schedules were interrupted and often cancelled altogether.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "樂隊承諾推出的新專輯《Chinese Democracy》一直沒有出現，巡演安排也被中斷，甚至經常完全取消。"
+            },
+            {
+              "kind": "label",
+              "text": "段落最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It wasn’t until 2008… that Chinese Democracy was finally released.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到 2008 年，《Chinese Democracy》才終於推出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“never materialised” 表示原本承諾的專輯遲遲未見；“finally released” 表示拖延很久後才推出。這正好對應 extremely long delay before release。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "extremely long delay = never materialised / wasn’t until 2008 / finally released the band’s next album = the band’s promised new album, Chinese Democracy"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "1990–1993 有兩張專輯同時推出，反而是快速而成功的發行事件。題目講的是下一張專輯長期未能推出，所以定位要轉到 1994–2008。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "A — from 1985 to 1986",
+      "answerKey": "A — from 1985 to 1986",
+      "type": "Matching Periods",
+      "prompt": "“The relationship between band members developed in a positive way while on tour.”",
+      "translation": "樂隊成員之間的關係在巡演期間向正面方向發展。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “relationship developed in a positive way” 對應比較抽象的詞，原文可能用 chemistry來表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：1985–1986第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The band line-up underwent many changes in the early days.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "樂隊早期的成員陣容經歷了許多變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was on the road that the band established its chemistry, and though it only managed to release one four-track EP, Like a Suicide, during this period, the seeds of success were being sown as the band quickly earned a reputation for its impressive live performances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正是在巡演路上，樂隊建立了默契；雖然這段時期只推出了一張四首歌 EP《Like a Suicide》，但成功的種子已經播下，因為樂隊很快憑出色現場演出建立名聲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句非常直接：on the road = while on tour；established its chemistry = 關係和配合變好。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“relationship”"
+            },
+            {
+              "kind": "quote",
+              "text": "“developed”"
+            },
+            {
+              "kind": "quote",
+              "text": "“while on tour”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“on the road”"
+            },
+            {
+              "kind": "quote",
+              "text": "“established its chemistry”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was on the road that the band established its chemistry…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正是在巡演路上，樂隊建立了彼此之間的默契。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“chemistry” 在樂隊語境中表示成員之間配合順暢、互相激發，帶有正面關係發展的意思。題目把這個抽象名詞改寫成 “relationship … developed in a positive way”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "while on tour = on the road relationship developed in a positive way = established its chemistry"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "1990–1993 也有 tour，而且 Use Your Illusion Tour 很長。不過那一段的 tour 重點是 record attendances 和 28 months，沒有說成員關係變好。真正的 relationship / chemistry 在 1985–1986。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "C — from 1990 to 1993",
+      "answerKey": "C — from 1990 to 1993",
+      "type": "Matching Periods",
+      "prompt": "“A damaging addiction prevented one band member from performing well and led to him being sacked.”",
+      "translation": "一種有害的成癮問題使一名成員無法正常演出，並導致他被開除。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目核心是 addiction、cannot perform、sacked。要找 drug dependence 和 fired。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：1990–1993第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Band members lived life on the edge and, unfortunately, drummer Adler’s lifestyle got the better of him.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "樂隊成員過著冒險放縱的生活；不幸的是，鼓手 Adler 的生活方式最終害了他。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That said, the Use Your Illusion Tour ended on a high, registering record attendances and lasting an incredible 28 months.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使如此，Use Your Illusion Tour 仍以高點結束，創下入場紀錄，並持續了驚人的 28 個月。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接點出 drummer Adler 出問題，題目也說 one band member 因 addiction 出事，因此1990–1993 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“addiction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prevented”"
+            },
+            {
+              "kind": "quote",
+              "text": "“performing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sacked”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“dependence on drugs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“could no longer perform”"
+            },
+            {
+              "kind": "quote",
+              "text": "“was fired”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The extent of his dependence on drugs was so bad that he could no longer perform with the band and was fired in July 1990, to be replaced by Matt Sorum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他對毒品的依賴嚴重到無法再與樂隊一起演出，並於 1990 年 7 月被開除，由 Matt Sorum 取代。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含三個答案元素： dependence on drugs = addiction could no longer perform = prevented from performing well was fired = sacked"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "damaging addiction = dependence on drugs was so bad prevented one band member from performing = he could no longer perform led to him being sacked = was fired"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "1985–1986 也有成員被 replaced，但原因是 Tracii Guns 未出席 rehearsals。Question 11 的控制詞是 addiction / drugs，所以必須選 1990–1993。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "C — from 1990 to 1993",
+      "answerKey": "C — from 1990 to 1993",
+      "type": "Matching Periods",
+      "prompt": "“A new member joined the band playing an instrument that hadn’t been played by previous band members.”",
+      "translation": "一名新成員加入樂隊，負責一種之前成員沒有負責過的樂器。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 new member 和 new instrument。要找 “sixth member” 和 “keyboardist”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：1990–1993第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Band members lived life on the edge and, unfortunately, drummer Adler’s lifestyle got the better of him.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "樂隊成員過著冒險放縱的生活；不幸的是，鼓手 Adler 的生活方式最終害了他。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That said, the Use Your Illusion Tour ended on a high, registering record attendances and lasting an incredible 28 months.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使如此，Use Your Illusion Tour 仍以高點結束，創下入場紀錄，並持續了驚人的 28 個月。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提成員問題，段中很可能說 replacements 和 additions。題目中的 new member 應在這段找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“new member”"
+            },
+            {
+              "kind": "quote",
+              "text": "“instrument”"
+            },
+            {
+              "kind": "quote",
+              "text": "“previous band members”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“A sixth member of the group was also added as Dizzy Reed became the band’s keyboardist.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A sixth member of the group was also added as Dizzy Reed became the band’s keyboardist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "樂隊也加入了第六名成員，Dizzy Reed 成為樂隊的鍵盤手。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1985–1986 段列出的完整陣容是：vocals、rhythm guitar、bass、lead guitar、drums。1990–1993段新增 keyboardist，表示這是一種原有五人陣容中未出現的樂器角色。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A new member joined = A sixth member was added playing an instrument = became the band’s keyboardist hadn’t been played by previous band members = previous line-up had vocals, guitars, bass, drums; keyboardist was newly added"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matt Sorum 也在同段加入，但他是替代 Adler 做 drummer，屬於 replacement。Question 12 說的是加入一種之前未有的樂器角色，所以答案要落在 Dizzy Reed / keyboardist。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "B — from 1987 to 1989",
+      "answerKey": "B — from 1987 to 1989",
+      "type": "Matching Periods",
+      "prompt": "“The band registered its first number-one hit single.”",
+      "translation": "樂隊取得了第一首冠軍熱門單曲。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找 single 和 number-one / top of charts。要注意 album 排名和 single 排名不同。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：1987–1989第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On 21 July 1987, the band released its first album, Appetite for Destruction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1987 年 7 月 21 日，樂隊推出首張專輯《Appetite for Destruction》。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The band was now well on its way to achieving fame and fortune.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "樂隊如今已經踏上通往名聲和財富的道路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段是首張專輯帶來突破的時期。Question 13 問第一首 number-one hit single，應在這段找 singles。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“first number-one hit single”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Welcome to the Jungle, the first single…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Sweet Child of Mine was the album’s second US single…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shot to the top of the US charts”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sweet Child of Mine was the album’s second US single and, thanks largely to growing grassroots support, the song and its accompanying music video received regular airplay and shot to the top of the US charts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "《Sweet Child of Mine》是這張專輯在美國推出的第二首單曲；很大程度上由於基層粉絲支持增加，這首歌和它的音樂錄影帶得到定期播放，並衝上美國排行榜榜首。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“shot to the top of the US charts” 對應 number-one hit。因為這段前面提到 Welcome to the Jungle 是 first single，但真正登頂的是 Sweet Child of Mine，所以題目說 first number-one hit single 時，時期是 1987–1989。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "registered its first number-one hit single = the song shot to the top of the US charts single = US single hit = received regular airplay and chart success"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "1990–1993 段有 “albums shooting to numbers one and two”，這是專輯榜，不是 single。題目明確說 hit single，所以要找歌曲 Sweet Child of Mine，而非 Use Your Illusion 兩張專輯。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Taking us back to the Paradise City.pdf",
+    "sha256": "441fc62564266b4388334dc485aba1ae63381c0d31886d2c50210a29b707c45a",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "Intro",
+        "summary": "只看第一句，讀者會先知道 Guns N’ Roses 於 1985 年由 Axl Rose 和 Tracii Guns 組成，樂隊名稱也來自兩位 founding members。最後一句說，文章會趁樂隊展開新一章時，回望它 colourful and controversial history。首尾句顯示，這段是總引入：先交代樂隊名稱、銷量和象徵意義，再引出後文按年代回顧樂隊歷史。Questions 1–3 明確只考這段。 1985–1986第一句說，樂隊早期 line-up underwent many changes，即成員陣容多次更替。最後一句說，雖然這段時間只推出一張四首歌 EP，但樂隊已因精彩現場演出建立名聲，成功種子正在萌芽。首尾句合起來看，這段重點是早期成員更替、首次巡演和現場化學反應。Tracii Guns、Slash、Steven Adler、Hell Tour、chemistry 都是重要定位詞。 1987–1989第一句交代 1987 年 7 月 21 日，樂隊推出首張專輯 Appetite for Destruction。最後一句說，世界巡演和大型國際搖滾音樂節邀請接踵而來，樂隊已走上 fame and fortune 之路。首尾句顯示，這段功能是描述首張專輯由低位慢熱，到 MTV 播放、粉絲支持、Sweet Child of Mine 登頂，最後帶動樂隊成名。Question 6 和 Question 13 都在這裡。 1990–1993第一句說，樂隊成員生活在邊緣，drummer Adler 的 lifestyle 最終害了他。最後一句說，Use Your Illusion Tour 以高點結束，創下入場紀錄，並持續了驚人的 28 個月。首尾句顯示，這段同時有成功和混亂：Adler 因 drug dependence 被開除，Matt Sorum 和 Dizzy Reed 加入，兩張專輯同時登上榜首，但 Rose 也捲入 assault、riot 等爭議。 1994–2008第一句說，當樂隊看似無往不利時，事情開始慢慢 unravel。最後一句說，直到 2008 年，在 Rose成為唯一仍留下的 original member 後，Chinese Democracy 才終於推出。首尾句顯示，這段是衰落和漫長延誤段：Rose 和 Slash 關係惡化，樂隊 hiatus，Slash 退出，多數成員跟隨離開，巡演延期或取消，新專輯多年沒有出現。Questions 8 和 9 來自這段。 2009–Present第一句說，Chinese Democracy 推出後，新的世界巡演隨之而來，評價大致正面，但樂隊仍受爭議困擾。最後一句說，今日粉絲更像是在希望看到精彩演出，多於理所當然地期待，但這正是rock and roll。首尾句顯示，這段是近年評價與持續吸引力：Rose 遲到和台上行為受批評，不過忠實粉絲仍願意排隊買票。Question 7 會用到 enduring appeal。 Answer Key 1. B 2. E 3. G 4. rehearsals 5. chemistry 6. airplay 7. appeal 8. D 9. D 10. A 11. C 12. C 13. B",
+        "label": "Introduction"
+      }
+    ]
+  }
+}

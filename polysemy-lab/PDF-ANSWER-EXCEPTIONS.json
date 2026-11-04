@@ -1,0 +1,534 @@
+{
+  "patches": [
+    {
+      "module": "bear",
+      "number": 747,
+      "oldSenseCount": 25,
+      "newSenses": [],
+      "changes": [
+        {
+          "question": "bear-10-3",
+          "sourceSection": 10,
+          "sourceMeaning": "承受／承擔成本、後果、風險、損失或負擔",
+          "oldSense": "bear-mcq-08",
+          "newSense": "bear-mcq-04",
+          "oldOptions": [
+            "bear-mcq-08",
+            "bear-mcq-07",
+            "bear-mcq-09",
+            "bear-mcq-06",
+            "bear-mcq-10",
+            "bear-mcq-05"
+          ],
+          "newOptions": [
+            "bear-mcq-04",
+            "bear-mcq-03",
+            "bear-mcq-05",
+            "bear-mcq-02",
+            "bear-mcq-06",
+            "bear-mcq-01"
+          ],
+          "oldAnswerMissing": true
+        },
+        {
+          "question": "bear-10-4",
+          "sourceSection": 10,
+          "sourceMeaning": "承受／支撐重量或負荷",
+          "oldSense": "bear-mcq-08",
+          "newSense": "bear-mcq-02",
+          "oldOptions": [
+            "bear-mcq-08",
+            "bear-mcq-07",
+            "bear-mcq-09",
+            "bear-mcq-06",
+            "bear-mcq-10",
+            "bear-mcq-05"
+          ],
+          "newOptions": [
+            "bear-mcq-02",
+            "bear-mcq-01",
+            "bear-mcq-03",
+            "bear-mcq-04",
+            "bear-mcq-05",
+            "bear-mcq-06"
+          ],
+          "oldAnswerMissing": true
+        }
+      ]
+    },
+    {
+      "module": "big",
+      "number": 148,
+      "oldSenseCount": 33,
+      "newSenses": [
+        {
+          "id": "big-pdf-reviewed-01",
+          "title": "諷刺地表示某事沒甚麼了不起",
+          "form": "PDF practice 80",
+          "en": "PDF practice 80",
+          "zh": "諷刺地表示某事沒甚麼了不起",
+          "note": "原始 PDF 練習 80：諷刺地表示某事沒甚麼了不起",
+          "examples": [
+            [
+              "You finished five minutes early? Big deal.",
+              "你早五分鐘完成？有甚麼了不起。",
+              "諷刺地表示某事沒甚麼了不起"
+            ],
+            [
+              "So he bought a new car. Big deal.",
+              "所以他買了新車。有甚麼大不了。",
+              "諷刺地表示某事沒甚麼了不起"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "big-40-0",
+          "sourceSection": 40,
+          "sourceMeaning": "諷刺地表示某事沒甚麼了不起",
+          "oldSense": "big-mcq-28",
+          "newSense": "big-pdf-reviewed-01",
+          "oldOptions": [
+            "big-mcq-28",
+            "big-mcq-27",
+            "big-mcq-29",
+            "big-mcq-26",
+            "big-mcq-30",
+            "big-mcq-25"
+          ],
+          "newOptions": [
+            "big-pdf-reviewed-01",
+            "big-mcq-27",
+            "big-mcq-29",
+            "big-mcq-26",
+            "big-mcq-30",
+            "big-mcq-25"
+          ],
+          "oldAnswerMissing": false
+        },
+        {
+          "question": "big-40-1",
+          "sourceSection": 40,
+          "sourceMeaning": "諷刺地表示某事沒甚麼了不起",
+          "oldSense": "big-mcq-28",
+          "newSense": "big-pdf-reviewed-01",
+          "oldOptions": [
+            "big-mcq-28",
+            "big-mcq-27",
+            "big-mcq-29",
+            "big-mcq-26",
+            "big-mcq-30",
+            "big-mcq-25"
+          ],
+          "newOptions": [
+            "big-pdf-reviewed-01",
+            "big-mcq-27",
+            "big-mcq-29",
+            "big-mcq-26",
+            "big-mcq-30",
+            "big-mcq-25"
+          ],
+          "oldAnswerMissing": false
+        }
+      ]
+    },
+    {
+      "module": "draw",
+      "number": 252,
+      "oldSenseCount": 28,
+      "newSenses": [
+        {
+          "id": "draw-pdf-reviewed-01",
+          "title": "畫圖的人",
+          "form": "PDF practice 62",
+          "en": "PDF practice 62",
+          "zh": "畫圖的人",
+          "note": "原始 PDF 練習 62：畫圖的人",
+          "examples": [
+            [
+              "He is a skilled drawer.",
+              "他是一個熟練的繪圖者。",
+              "畫圖的人"
+            ],
+            [
+              "The better drawer completed the sketch quickly.",
+              "較擅長繪畫的人很快完成了草圖。",
+              "畫圖的人"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "draw-31-0",
+          "sourceSection": 31,
+          "sourceMeaning": "畫圖的人",
+          "oldSense": "draw-mcq-28",
+          "newSense": "draw-pdf-reviewed-01",
+          "oldOptions": [
+            "draw-mcq-28",
+            "draw-mcq-27",
+            "draw-mcq-26",
+            "draw-mcq-25",
+            "draw-mcq-24",
+            "draw-mcq-23"
+          ],
+          "newOptions": [
+            "draw-pdf-reviewed-01",
+            "draw-mcq-27",
+            "draw-mcq-26",
+            "draw-mcq-25",
+            "draw-mcq-24",
+            "draw-mcq-23"
+          ],
+          "oldAnswerMissing": false
+        },
+        {
+          "question": "draw-31-1",
+          "sourceSection": 31,
+          "sourceMeaning": "畫圖的人",
+          "oldSense": "draw-mcq-28",
+          "newSense": "draw-pdf-reviewed-01",
+          "oldOptions": [
+            "draw-mcq-28",
+            "draw-mcq-27",
+            "draw-mcq-26",
+            "draw-mcq-25",
+            "draw-mcq-24",
+            "draw-mcq-23"
+          ],
+          "newOptions": [
+            "draw-pdf-reviewed-01",
+            "draw-mcq-27",
+            "draw-mcq-26",
+            "draw-mcq-25",
+            "draw-mcq-24",
+            "draw-mcq-23"
+          ],
+          "oldAnswerMissing": false
+        }
+      ]
+    },
+    {
+      "module": "handle",
+      "number": 337,
+      "oldSenseCount": 37,
+      "newSenses": [
+        {
+          "id": "handle-pdf-reviewed-01",
+          "title": "電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件",
+          "form": "PDF practice 78",
+          "en": "PDF practice 78",
+          "zh": "電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件",
+          "note": "原始 PDF 練習 78：電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件",
+          "examples": [
+            [
+              "The program uses an error handler.",
+              "程式使用一個錯誤處理程序。",
+              "電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件"
+            ],
+            [
+              "The event handler runs when the user clicks the button.",
+              "用戶按下按鈕時，事件處理程序便會執行。",
+              "電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "handle-40-0",
+          "sourceSection": 40,
+          "sourceMeaning": "電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件",
+          "oldSense": "handle-mcq-29",
+          "newSense": "handle-pdf-reviewed-01",
+          "oldOptions": [
+            "handle-mcq-29",
+            "handle-mcq-28",
+            "handle-mcq-30",
+            "handle-mcq-27",
+            "handle-mcq-31",
+            "handle-mcq-26"
+          ],
+          "newOptions": [
+            "handle-pdf-reviewed-01",
+            "handle-mcq-28",
+            "handle-mcq-30",
+            "handle-mcq-27",
+            "handle-mcq-31",
+            "handle-mcq-26"
+          ],
+          "oldAnswerMissing": true
+        },
+        {
+          "question": "handle-40-1",
+          "sourceSection": 40,
+          "sourceMeaning": "電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件",
+          "oldSense": "handle-mcq-29",
+          "newSense": "handle-pdf-reviewed-01",
+          "oldOptions": [
+            "handle-mcq-29",
+            "handle-mcq-28",
+            "handle-mcq-30",
+            "handle-mcq-27",
+            "handle-mcq-31",
+            "handle-mcq-26"
+          ],
+          "newOptions": [
+            "handle-pdf-reviewed-01",
+            "handle-mcq-28",
+            "handle-mcq-30",
+            "handle-mcq-27",
+            "handle-mcq-31",
+            "handle-mcq-26"
+          ],
+          "oldAnswerMissing": true
+        }
+      ]
+    },
+    {
+      "module": "mind",
+      "number": 90,
+      "oldSenseCount": 41,
+      "newSenses": [
+        {
+          "id": "mind-pdf-reviewed-01",
+          "title": "有主見或意志堅定的",
+          "form": "PDF practice 88",
+          "en": "PDF practice 88",
+          "zh": "有主見或意志堅定的",
+          "note": "原始 PDF 練習 88：有主見或意志堅定的",
+          "examples": [
+            [
+              "She is strong-minded and rarely gives in to pressure.",
+              "她很有主見／意志堅定，很少向壓力低頭。",
+              "有主見或意志堅定的"
+            ],
+            [
+              "The company values independent-minded employees.",
+              "公司重視有獨立思考能力的員工。",
+              "有主見或意志堅定的"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "mind-45-0",
+          "sourceSection": 45,
+          "sourceMeaning": "有主見或意志堅定的",
+          "oldSense": "mind-mcq-39",
+          "newSense": "mind-pdf-reviewed-01",
+          "oldOptions": [
+            "mind-mcq-39",
+            "mind-mcq-38",
+            "mind-mcq-40",
+            "mind-mcq-37",
+            "mind-mcq-36",
+            "mind-mcq-35"
+          ],
+          "newOptions": [
+            "mind-pdf-reviewed-01",
+            "mind-mcq-38",
+            "mind-mcq-40",
+            "mind-mcq-37",
+            "mind-mcq-36",
+            "mind-mcq-35"
+          ],
+          "oldAnswerMissing": true
+        },
+        {
+          "question": "mind-45-1",
+          "sourceSection": 45,
+          "sourceMeaning": "有主見或意志堅定的",
+          "oldSense": "mind-mcq-39",
+          "newSense": "mind-pdf-reviewed-01",
+          "oldOptions": [
+            "mind-mcq-39",
+            "mind-mcq-38",
+            "mind-mcq-40",
+            "mind-mcq-37",
+            "mind-mcq-36",
+            "mind-mcq-35"
+          ],
+          "newOptions": [
+            "mind-pdf-reviewed-01",
+            "mind-mcq-38",
+            "mind-mcq-40",
+            "mind-mcq-37",
+            "mind-mcq-36",
+            "mind-mcq-35"
+          ],
+          "oldAnswerMissing": true
+        }
+      ]
+    },
+    {
+      "module": "mother",
+      "number": 156,
+      "oldSenseCount": 23,
+      "newSenses": [
+        {
+          "id": "mother-pdf-reviewed-01",
+          "title": "動物的雌性親代",
+          "form": "PDF practice 58",
+          "en": "PDF practice 58",
+          "zh": "動物的雌性親代",
+          "note": "原始 PDF 練習 58：動物的雌性親代",
+          "examples": [
+            [
+              "The puppies stayed close to their mother.",
+              "小狗留在牠們的母狗／媽媽身邊。",
+              "動物的雌性親代"
+            ],
+            [
+              "The mother bird fed her chicks.",
+              "母鳥餵食幼鳥。",
+              "動物的雌性親代"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "mother-29-0",
+          "sourceSection": 29,
+          "sourceMeaning": "動物的雌性親代",
+          "oldSense": "mother-mcq-21",
+          "newSense": "mother-pdf-reviewed-01",
+          "oldOptions": [
+            "mother-mcq-21",
+            "mother-mcq-20",
+            "mother-mcq-22",
+            "mother-mcq-19",
+            "mother-mcq-18",
+            "mother-mcq-17"
+          ],
+          "newOptions": [
+            "mother-pdf-reviewed-01",
+            "mother-mcq-20",
+            "mother-mcq-22",
+            "mother-mcq-19",
+            "mother-mcq-18",
+            "mother-mcq-17"
+          ],
+          "oldAnswerMissing": true
+        },
+        {
+          "question": "mother-29-1",
+          "sourceSection": 29,
+          "sourceMeaning": "動物的雌性親代",
+          "oldSense": "mother-mcq-21",
+          "newSense": "mother-pdf-reviewed-01",
+          "oldOptions": [
+            "mother-mcq-21",
+            "mother-mcq-20",
+            "mother-mcq-22",
+            "mother-mcq-19",
+            "mother-mcq-18",
+            "mother-mcq-17"
+          ],
+          "newOptions": [
+            "mother-pdf-reviewed-01",
+            "mother-mcq-20",
+            "mother-mcq-22",
+            "mother-mcq-19",
+            "mother-mcq-18",
+            "mother-mcq-17"
+          ],
+          "oldAnswerMissing": true
+        }
+      ]
+    },
+    {
+      "module": "script",
+      "number": 338,
+      "oldSenseCount": 23,
+      "newSenses": [
+        {
+          "id": "script-pdf-reviewed-01",
+          "title": "按照預先規定的文字／步驟進行",
+          "form": "PDF practice 54",
+          "en": "PDF practice 54",
+          "zh": "按照預先規定的文字／步驟進行",
+          "note": "原始 PDF 練習 54：按照預先規定的文字／步驟進行",
+          "examples": [
+            [
+              "The support staff follow a script when answering calls.",
+              "支援人員接電話時會按照固定話術／腳本回答。",
+              "按照預先規定的文字／步驟進行"
+            ],
+            [
+              "I used the script as a guide rather than following it exactly.",
+              "我只是把講稿當作指引，而不是完全逐字照著說。",
+              "按照預先規定的文字／步驟進行"
+            ]
+          ],
+          "options": [],
+          "excludedOverlaps": []
+        }
+      ],
+      "changes": [
+        {
+          "question": "script-27-0",
+          "sourceSection": 27,
+          "sourceMeaning": "按照預先規定的文字／步驟進行",
+          "oldSense": "script-mcq-21",
+          "newSense": "script-pdf-reviewed-01",
+          "oldOptions": [
+            "script-mcq-21",
+            "script-mcq-20",
+            "script-mcq-22",
+            "script-mcq-19",
+            "script-mcq-23",
+            "script-mcq-18"
+          ],
+          "newOptions": [
+            "script-pdf-reviewed-01",
+            "script-mcq-20",
+            "script-mcq-22",
+            "script-mcq-19",
+            "script-mcq-23",
+            "script-mcq-18"
+          ],
+          "oldAnswerMissing": false
+        },
+        {
+          "question": "script-27-1",
+          "sourceSection": 27,
+          "sourceMeaning": "按照預先規定的文字／步驟進行",
+          "oldSense": "script-mcq-21",
+          "newSense": "script-pdf-reviewed-01",
+          "oldOptions": [
+            "script-mcq-21",
+            "script-mcq-20",
+            "script-mcq-22",
+            "script-mcq-19",
+            "script-mcq-23",
+            "script-mcq-18"
+          ],
+          "newOptions": [
+            "script-pdf-reviewed-01",
+            "script-mcq-20",
+            "script-mcq-22",
+            "script-mcq-19",
+            "script-mcq-23",
+            "script-mcq-18"
+          ],
+          "oldAnswerMissing": false
+        }
+      ]
+    }
+  ]
+}

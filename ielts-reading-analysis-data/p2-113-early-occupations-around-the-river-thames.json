@@ -1,0 +1,1464 @@
+{
+  "id": "p2-113-early-occupations-around-the-river-thames",
+  "catalogueId": "p2-113",
+  "catalogueIds": [
+    "p2-113"
+  ],
+  "passage": 2,
+  "title": "Early occupations around the river Thames",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "iii",
+    "vi",
+    "ix",
+    "iv",
+    "ii",
+    "vii",
+    "C",
+    "E",
+    "A",
+    "C",
+    "regular wage",
+    "steam power",
+    "picturesque"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "iii — The duties involved in various occupations",
+      "answerKey": "iii — The duties involved in various occupations",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph A 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In her pioneering survey, Sources of London English, Laura Wright has listed the variety of medieval workers who earned their living from the River Thames.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在她具開創性的研究 Sources of London English 中，Laura Wright 列出了各種靠 River Thames維生的中世紀工人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The searcher patrolled the Thames in search of illegal fish weirs, and the tideman worked on its banks and foreshores whenever the tide permitted him to do so.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "searcher 會在 Thames 巡邏，尋找非法魚堰；tideman 則在潮水允許時，在河岸和前濱工作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最有定位力的是 “occupations”、“workers” 和一連串職業名稱。Heading iii 的 “duties” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "customs officers、maintaining embankments and weirs、worked in fish garths、caught their fish、patrolled the Thames 等動作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph A 不只是列出職業名稱，也解釋部分職責。例如："
+            },
+            {
+              "kind": "quote",
+              "text": "“The baillies of Queenhithe and Billingsgate acted as customs officers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Queenhithe 和 Billingsgate 的 baillies 擔任海關人員。"
+            },
+            {
+              "kind": "label",
+              "text": "又如："
+            },
+            {
+              "kind": "quote",
+              "text": "“There were conservators, who were responsible for maintaining the embankments and the weirs…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "conservators 負責維護堤岸和魚堰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子都在說不同職業做甚麼，所以 iii 最能概括全段。Heading i 提到 languages and nationalities，但本段主要是職業和職責，沒有講國籍混雜。Heading v 提到 imports and exports，也不是本段焦點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "vi — Transporting heavy loads manually",
+      "answerKey": "vi — Transporting heavy loads manually",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph B 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All of these occupations persisted for many centuries, as did those jobs that depended upon the trade of the river.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有這些職業延續了許多世紀，那些依靠河流貿易的工作也是如此。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was a slow and expensive method of business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一種緩慢而昂貴的營商方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “carried”、“backs”、“wagons”、“carts”、“barrels”、“poles”、“shoulders”。Heading vi"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的 “heavy loads manually” 對應人力背貨、滾桶、兩人用 poles 抬貨。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“They carried most goods upon their backs, since the rough surfaces of the quays and nearby streets were not suitable for wagons or large carts…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們把大部分貨物背在背上，因為碼頭和附近街道表面粗糙，不適合馬車或大型手推車。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句也很直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the burden was too great to be carried by a single man, then the goods were slung on poles resting on the shoulders of two men.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果貨物太重，一個人搬不動，貨物便會掛在木杆上，由兩個男人用肩膀抬著。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "vi 完整概括本段。Heading v “Imports and exports transported by river” 只碰到 trade 的背景，沒有抓住本段真正焦點：貨物離船後如何用人力搬運。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "ix — The changing status of riverside occupations",
+      "answerKey": "ix — The changing status of riverside occupations",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph C 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, up to the eighteenth century, river work was seen in a generally favourable light.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，直到十八世紀以前，河上工作一般受到正面看待。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By now, dockside labour was considered to be the most disreputable, and certainly the least desirable form of work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到了這時候，碼頭勞動被視為最聲名狼藉、也肯定是最不理想的工作形式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “up to the eighteenth century”、“favourable”、“marked change in attitude”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“disreputable”、“least desirable”。這些都是社會評價和身份地位變化的訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段先說 Langland 時代的 labourers “relatively prosperous”，十七至十八世紀初的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "porters 甚至是 “aristocrats of labour, enjoying high status”。接著轉到 late eighteenth to early nineteenth century，說社會態度出現 “marked change”。 Heading ix 的 “changing status” 正好概括這條由正面、高地位，到低聲望、不受歡迎的變化線。這段不是單純講危險，也不是講工作種類；它真正想突出的，是同一類 riverside occupations 在不同時期的社會評價大幅轉變。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "iv — An unprecedented population density",
+      "answerKey": "iv — An unprecedented population density",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph D 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It could be said that the first industrial community in England grew up around the Thames.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可以說，英格蘭第一個工業社群是在 Thames 周圍形成的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, with the possible exception of the area known as Seven Dials, the East End was also the most intensively inhabited region of London.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，除了可能被稱為 Seven Dials 的地區外，East End 也是 London 居住最密集的地區。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “workforce of many thousands”、“relatively small area”、“most intensively"
+            },
+            {
+              "kind": "paragraph",
+              "text": "inhabited”。Heading iv 的 “population density” 對應最尾句 “most intensively inhabited”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the host of river workers themselves, as well as the vast assembly of ancillary trades…there was a workforce of many thousands congregated in a relatively small area.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了大量 river workers 本身，還有大量附屬行業，例如酒館老闆、洗衣婦、食物販賣者、街頭小販、店主和海事用品商人；數以千計的勞動人口聚集在一個相對細小的區域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句把「人多」和「地方小」放在一起，形成 population density。尾句再用 “most intensively inhabited” 總結。所以 iv 最準確。Heading v 講 imports and exports，這段雖然有 business，但核心在 workforce 聚集和人口密度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "ii — The creation of an exclusive identity",
+      "answerKey": "ii — The creation of an exclusive identity",
+      "type": "Matching Headings",
+      "prompt": "Question 18",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph E 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was a world apart, with its own language and its own laws.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個與外界分隔的世界，有自己的語言和自己的法律。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This backslang also helped in the formulation of Cockney rhyming slang, so that the vocabulary of Londoners was directly affected by the life of the Thames.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種倒語也幫助形成 Cockney rhyming slang，因此 Londoners 的詞彙直接受到 Thames 生活影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “world apart”、“own language”、“own laws”、“alien world”、“slang”、“backslang”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii 的 “exclusive identity” 對應這種與外界分隔、有內部語言和規則的社群身份。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "本段不只談語言，還有一種社群邊界感："
+            },
+            {
+              "kind": "quote",
+              "text": "“The alien world of the river had entered them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "河流這個陌生世界已經進入了他們之中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明 riverside workers 不只是做某份工作，他們逐漸形成一種獨特身份。dock slang 和backslang 進一步強化這種內部文化。Heading i “A mixture of languages and nationalities” 有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“languages” 這個表面相似字，但原文沒有講多國籍或多語混合；重點是 dock world 形成自己的語言和身份。因此 ii 更貼近全段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "vii — Temporary work for large numbers of people",
+      "answerKey": "vii — Temporary work for large numbers of people",
+      "type": "Matching Headings",
+      "prompt": "Question 19",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：Paragraph F 的 heading。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reports in the nineteenth-century press reveal a heterogeneous world of dock labour, in which the crowds of casuals waiting for work at the dock gates at 7.45 a.m. include penniless refugees, bankrupts, old soldiers, broken-down gentlemen, discharged servants, and ex-convicts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀報章揭示了一個混雜的碼頭勞動世界：早上 7:45 在碼頭閘口等工作的 casuals 人群，包括身無分文的難民、破產者、老兵、落魄紳士、被解僱的僕人和前囚犯。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was part of the life of the river unknown to those who were intent upon its more picturesque aspects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是河流生活的一部分，但那些只著眼於它較如畫一面的人並不知道。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “casuals”、“waiting for work”、“permanent workers”、“casual workers”、“hired by"
+            },
+            {
+              "kind": "paragraph",
+              "text": "the shift”。Heading vii 的 “temporary work” 對應 casual workers 和 hired by the shift；“large numbers” 對應 crowds 和 2,500 casual workers。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there were some 2,500 casual workers who were hired by the shift.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，約有 2,500 名臨時工按班次受僱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支援 vii。雖然本段後半也講 treadmill cranes 和 fire danger，但那是說工作艱苦的例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "整段主軸從一開始的 crowds of casuals，到 permanent workers / casual workers 的對比，集中在大量臨時碼頭勞工。因此 vii 比 viii “Hazards associated with riverside work” 更能覆蓋全段。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "C 和 E",
+      "answerKey": "C 和 E",
+      "type": "Choose TWO",
+      "prompt": "Questions 20–21",
+      "translation": "十八世紀以前，文章對 River Thames 附近工作作出了哪兩項描述？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which TWO statements are made about work by the River Thames before the eighteenth century?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題有時間限制 “before the eighteenth century”。所以要優先看 Paragraph A、B，以及Paragraph C 前半。不能把十九世紀碼頭臨時工的情況搬過來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 20–21"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確選項 C — Occupations were specialised."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph A。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In her pioneering survey, Sources of London English, Laura Wright has listed the variety of medieval workers who earned their living from the River Thames.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Laura Wright 列出了各種靠 River Thames 維生的中世紀工人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The searcher patrolled the Thames in search of illegal fish weirs, and the tideman worked on its banks and foreshores whenever the tide permitted him to do so.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "searcher 會巡查非法魚堰；tideman 則在潮水許可時於河岸和前濱工作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “specialised”。原文未必直接用 specialised，但有大量專門職稱和專門職責。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 中，每個 occupation 都有特定功能：baillies 是 customs officers；"
+            },
+            {
+              "kind": "paragraph",
+              "text": "conservators 負責 embankments and weirs；garthmen 在 fish garths 工作；hookers 按捕魚方式得名；searcher 查 illegal fish weirs；tideman 按潮汐工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些例子共同證明：工作分工細，而且職業名稱常反映任務、船種或工作方式。C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確選項 E — Physical strength was required."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph B。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All of these occupations persisted for many centuries, as did those jobs that depended upon the trade of the river.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些職業延續了許多世紀，依靠河流貿易的工作也是如此。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was a slow and expensive method of business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一種緩慢而昂貴的營商方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “physical strength”。原文對應 “carried most goods upon their backs”、“burden”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“shoulders of two men”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“They carried most goods upon their backs…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們把大部分貨物背在背上。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the burden was too great to be carried by a single man, then the goods were slung on poles resting on the shoulders of two men.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果貨物太重，一個人搬不動，便會掛在木杆上，由兩個男人用肩膀抬著。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "背貨、抬貨、用肩膀承重，都直接顯示工作需要體力。E 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項為何不選？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A Goods were transported from the river by cart.原文說 quays 和 nearby streets “were not suitable for wagons or large carts”。所以 cart 這個方向與原文衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B The workforce was very poorly paid. Paragraph C 前半說 river labourers “relatively prosperous”，porters 還 “enjoying high status”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 very poorly paid 沒有支援，方向也不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Workers were generally looked down upon.十八世紀以前，river work was seen “in a generally favourable light”。被看低是 late eighteenth to early nineteenth century 的變化，不能放回 before the eighteenth century。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        20,
+        21
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "A 和 C",
+      "answerKey": "A 和 C",
+      "type": "Choose TWO",
+      "prompt": "Questions 22–23",
+      "translation": "十九世紀初，文章對 River Thames 一帶生活作出了哪兩項描述？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which TWO statements are made about life by the River Thames in the early nineteenth century?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題要看 Paragraph C 後半、D、E、F。時間上已經進入 East End 名聲轉差、dockside labour 被看低、casual labour 增加的時期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 22–23"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確選項 A — The area was very crowded."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It could be said that the first industrial community in England grew up around the Thames.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可以說，英格蘭第一個工業社群是在 Thames 周圍形成的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, with the possible exception of the area known as Seven Dials, the East End was also the most intensively inhabited region of London.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，除了可能被稱為 Seven Dials 的地區外，East End 也是 London 居住最密集的地區。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “very crowded”。原文對應 “workforce of many thousands congregated in a"
+            },
+            {
+              "kind": "paragraph",
+              "text": "relatively small area” 和 “most intensively inhabited”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“there was a workforce of many thousands congregated in a relatively small area.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數以千計的勞動人口聚集在一個相對細小的區域。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句已經能推出 very crowded。尾句 “most intensively inhabited” 進一步確認，A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確選項 C — Casual work was in great demand."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reports in the nineteenth-century press reveal a heterogeneous world of dock labour, in which the crowds of casuals waiting for work at the dock gates at 7.45 a.m. include…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀報章揭示了混雜的碼頭勞動世界：大批 casuals 早上 7:45 在碼頭閘口等工作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was part of the life of the river unknown to those who were intent upon its more picturesque aspects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是河流生活的一部分，但只看它如畫一面的人並不知道。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “casual work” 和 “in great demand”。原文對應 “crowds of casuals waiting for"
+            },
+            {
+              "kind": "paragraph",
+              "text": "work”、“2,500 casual workers”、“competed fiercely”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“However, there were some 2,500 casual workers who were hired by the shift.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，約有 2,500 名臨時工按班次受僱。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The work for which they competed fiercely had become ever more unpleasant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們激烈競爭的工作變得越來越令人不快。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 demand 是從工人角度理解：很多 casual workers 等工作、爭工作，所以 casual work 對他們來說需求很大。C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他選項為何不選？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B The area had an absence of crime. Paragraph E 提到 smugglers，Paragraph F 提到 ex-convicts。文章呈現的是邊緣、混雜和失序感，沒有支持 absence of crime。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Several different languages were in use. Paragraph E 說 “its own language” 和 dock slang / backslang，但這是內部 slang，不等於several different languages。題目把語言獨特性擴大成多種語言並用，文章沒有這樣說。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E Inhabitants were known for their friendliness.文章沒有提到 friendliness。Paragraph E 的語氣反而是 “world apart”、“not part of any civilised society”、“alien world”，所以 E 缺乏支援。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        22,
+        23
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "regular wage",
+      "answerKey": "regular wage",
+      "type": "Sentence Completion",
+      "prompt": "“In the nineteenth century, only a minority of dock workers received a __________.”",
+      "translation": "在十九世紀，只有少數碼頭工人得到 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sentence Completion，限制是 NO MORE THAN TWO WORDS。空格前有 “a”，所以"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案應是單數名詞短語。題目中的 “only a minority” 要找 permanent workers 和 casual workers的數量對比。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reports in the nineteenth-century press reveal a heterogeneous world of dock labour…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀報章揭示了一個混雜的碼頭勞動世界。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was part of the life of the river unknown to those who were intent upon its more picturesque aspects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是河流生活的一部分，但那些只著眼於它較如畫一面的人並不知道。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “nineteenth century”、“minority”、“dock workers”、“received”。原文對應 “400–500"
+            },
+            {
+              "kind": "paragraph",
+              "text": "permanent workers” 和 “earned a regular wage”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“There were some 400–500 permanent workers who earned a regular wage and who were considered to be the patricians of dockside labour.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "約有 400 至 500 名 permanent workers 賺取固定工資，並被視為碼頭勞動中的貴族。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, there were some 2,500 casual workers who were hired by the shift.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，約有 2,500 名臨時工按班次受僱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "400–500 相對 2,500 只是少數，所以題目 “only a minority” 是對這個比例的概括。空格答案是regular wage，兩個字，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "steam power",
+      "answerKey": "steam power",
+      "type": "Sentence Completion",
+      "prompt": "“Cranes were operated manually because __________ created a risk of fire.”",
+      "translation": "起重機以人力操作，因為 __________ 造成火災風險。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說十九世紀 dock labour 是混雜世界，大批 casuals 等工作。最後一句說艱苦的 river life不為外人所知。段中後半談 cranes，因此本題應看 F 的後半部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞非常清楚： “Cranes”、“manually”、“risk of fire”。原文直接有 “Steam power could not"
+            },
+            {
+              "kind": "paragraph",
+              "text": "be used for the cranes… because of the danger of fire.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Steam power could not be used for the cranes, for example, because of the danger of fire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，起重機不能使用蒸汽動力，因為有火災危險。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句解釋人力操作："
+            },
+            {
+              "kind": "quote",
+              "text": "“So the cranes were powered by treadmills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以起重機由踏車提供動力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “danger of fire” 改寫成 “created a risk of fire”，並把 “could not be used” 改成 “were operated manually because…” 。真正造成火災風險的是 steam power。答案是 steam power，兩個字，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "picturesque",
+      "answerKey": "picturesque",
+      "type": "Sentence Completion",
+      "prompt": "“Observers who were unfamiliar with London’s docks found the River Thames __________.”",
+      "translation": "不熟悉 London docks 的觀察者會覺得 River Thames __________。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The reports in the nineteenth-century press reveal a heterogeneous world of dock labour…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀報章揭示了一個混雜的碼頭勞動世界。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was part of the life of the river unknown to those who were intent upon its more picturesque aspects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是河流生活的一部分，但那些只著眼於它較如畫一面的人並不知道。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “observers unfamiliar with London’s docks”。原文沒有 observers 這個字，但"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“those who were intent upon its more picturesque aspects” 指那些只看 Thames 較美、較風景化一面的人。題目中的 “found the River Thames ___” 要找形容詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“its more picturesque aspects”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它較如畫、較具風景美感的一面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “those who were intent upon its more picturesque aspects” 改寫成 “Observers who were unfamiliar with London’s docks found the River Thames picturesque”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“picturesque” 意思是風景如畫、具有觀賞美感。這些 observers 看見的是 Thames 的美化表面，沒有看見 dock labour 的艱苦現實。答案填 picturesque，一個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Early occupations around the river Thames.pdf",
+    "sha256": "3837f42b864c72662b564b23d4b50b5ccb0548e42d90a0dec08bfdfb404d0a12",
+    "pageCount": 14
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句提到 Laura Wright 的研究列出很多靠 River Thames 維生的 medieval workers；尾句補充searcher 和 tideman 的工作方式。只看首尾句，可以估計本段是職業清單與職責介紹。它會列出不同工種，例如 customs officers、conservators、garthmen、galleymen、lightermen、hookers 等，並解釋部分名字來自船種、捕魚方式或工作地點。題目若問 occupations、duties、specialised work，很可能定位到 A。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說這些職業延續了多個世紀，也包括依靠河流貿易的工作；尾句說這種做生意方式又慢又昂貴。只看首尾句，可以估計本段主力描寫 riverside work 的辛苦和低效率。中間會講工人如何搬貨：碼頭和附近街道路面粗糙，不適合 wagons 或 large carts，所以貨物多由人背、用木桶滾動，或由兩人用 poles 抬走。"
+      },
+      {
+        "number": "C",
+        "summary": "首句用 However 轉折，說十八世紀以前 river work 一般被正面看待；尾句說到後來 dockside labour 被視為最聲名狼藉、最不理想的工作。只看首尾句，可以估計本段講 riverside occupations的社會地位變化。前半會說十四至十八世紀的 river labourers / porters 較富足、有高地位；後半轉向 late eighteenth to early nineteenth century 的負面評價。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說英格蘭第一個 industrial community 可以說是在 Thames 周圍形成；尾句說 East End 是London 最密集居住的地區之一。只看首尾句，可以估計本段講人口和產業集中。它會列出 river workers 以外的 ancillary trades，例如 tavern-keepers、laundresses、food-sellers、street-hawkers、shopkeepers 等，並強調很多工人聚集於 relatively small area，形成高密度城市生活。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說這是一個與外界分隔的世界，有自己的語言和法律；尾句說 Londoners 的詞彙直接受Thames 生活影響。只看首尾句，可以估計本段講 riverside workers 的獨特身份和語言文化。段中會出現 sailors、opium dens、smugglers、malarial flats 等較邊緣的形象，並解釋 dock slang、backslang 和 Cockney rhyming slang 如何塑造 London vocabulary。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說十九世紀報章揭示 dock labour 是一個混雜的世界，大批 casuals 清晨在 dock gates 等工作；尾句說這種 river life 不為只看 picturesque aspects 的人所知。只看首尾句，可以估計本段講十九世紀碼頭勞工制度和艱苦工作。重點包括 permanent workers 只是少數，casual workers多達 2,500 人，工作競爭激烈，cranes 由 treadmills 人力操作。"
+      }
+    ]
+  }
+}

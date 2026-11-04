@@ -1,0 +1,2 @@
+vosk-browser 0.0.8 by Ciaran O'Reilly, Apache-2.0 (as declared in npm package.json). Includes Vosk/Kaldi WebAssembly. https://github.com/ccoreilly/vosk-browser
+English model vosk-model-small-en-us-0.15, Alpha Cephei, Apache-2.0. https://alphacephei.com/vosk/models

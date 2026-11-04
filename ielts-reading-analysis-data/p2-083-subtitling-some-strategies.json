@@ -1,0 +1,1561 @@
+{
+  "id": "p2-083-subtitling-some-strategies",
+  "catalogueId": "p2-083",
+  "catalogueIds": [
+    "p2-083"
+  ],
+  "passage": 2,
+  "title": "Subtitling: Some Strategies",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "B",
+    "C",
+    "A",
+    "D",
+    "TRUE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "D",
+    "C",
+    "A",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "B — seem silly.",
+      "answerKey": "B — seem silly.",
+      "type": "Multiple Choice",
+      "prompt": "“Dubbing can…”",
+      "translation": "配音可能會怎樣？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dubbing, although seemingly more accessible to movie watchers, comes with many disadvantages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "配音雖然看似對電影觀眾較容易接受，但有很多缺點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, films and TV programmes now have an increasingly rapid turnover rate, and subtitling is faster and more practical in such situations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，現在電影和電視節目的更替速度越來越快，在這種情況下，字幕翻譯更快，也更實用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 2 主要在比較 dubbing 和 subtitling，重點偏向 dubbing 的問題。題目問 “Dubbing can…”，所以應在本段找 dubbing 的具體缺點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的字是 “Dubbing can”。選項中 B 的 “seem silly” 可能對應原文中的 absurdity、detached、inappropriate。掃描 Paragraph 2，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“the dubbed voices may seem detached or inappropriate to the characters, and the absurdity of having an undereducated American ruffian say, ‘Je voudrais déclarer un vol’, can become too much, affecting the audience’s appreciation of the film.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "配音聲音可能顯得和角色分離，或與角色不合；例如讓一個沒受多少教育的美國惡棍說出法語"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Je voudrais déclarer un vol”，這種荒謬感可能變得太強，影響觀眾對電影的欣賞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句中的 “absurdity” 是核心。absurdity 指荒謬、可笑、不合理。題目選項 B “seem silly” 用較簡單的字概括這種感覺。原文還說 dubbed voices may seem detached or inappropriate，即配音可能和角色不配，這也會令觀眾覺得滑稽或出戲。選項 A “appeal to larger audiences” 有迷惑性，因為原文第一句有 “seemingly more accessible to movie watchers”，而且後面說 dubbing 需要 large audience 才能 justify the cost。不過 “needs a large audience” 表示成本需要大市場支撐，並沒有說 dubbing 本身能吸引更多觀眾。選項 C “increase appreciation of the film” 方向相反。原文說 “affecting the audience’s appreciation”，語境是負面影響。選項 D “be faster” 屬於 subtitling 的優點。原文最後一句說 “subtitling is faster and more practical”。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "C — help comprehension.",
+      "answerKey": "C — help comprehension.",
+      "type": "Multiple Choice",
+      "prompt": "“Cultural audits…”",
+      "translation": "文化審查 / 文化評估有甚麼作用？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, one should not assume subtitling is easier than dubbing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，人們不應以為字幕翻譯比配音容易。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, before beginning any work, a brief ‘cultural audit’ is absolutely necessary, involving a comparison of the two cultures in relation to the storyline of the movie.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，在開始任何工作前，一次簡短的「文化審查」絕對必要，內容包括比較兩種文化與電影故事線之間的關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 3 會解釋 subtitling 的準備工作，尤其文化差異如何影響字幕理解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Cultural audits”。原文直接出現 “cultural audit”，因此可以精準定位到 Paragraph 3 最後一句。前一句也非常重要："
+            },
+            {
+              "kind": "quote",
+              "text": "“Comprehension of subtitles will always be affected by lack of familiarity with the values, beliefs, and interactive differences between the host and viewing cultures.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "觀眾對字幕的理解，總會受到對原文化和觀看文化之間價值觀、信念和互動差異不熟悉的影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先說 comprehension of subtitles 會受文化差異影響，然後說 subtitlers need to be aware of this in order to convey the intended meaning。這表示文化審查的功能，是幫助字幕員理解兩種文化差異，從而把原意傳達給觀眾。選項 C “help comprehension” 正好概括這個功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A “look at one culture” 錯在範圍。原文說 “a comparison of the two cultures”，是兩種文化之間的比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B “are long and involved” 和 “brief cultural audit” 不符。brief 表示簡短。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D “are not normally required” 和 “absolutely necessary” 不符。absolutely necessary 表示絕對必要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "A — has common human themes.",
+      "answerKey": "A — has common human themes.",
+      "type": "Multiple Choice",
+      "prompt": "“The movie which was examined…”",
+      "translation": "文章分析的那套電影有甚麼特點？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The movie is set in the late 1960s, at a time when the wealth and materialism of American society were very pronounced, in contrast to the relative poverty of Italian village life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這套電影設定在 1960 年代末，當時美國社會的富裕和物質主義非常明顯，與意大利鄉村生活的相對貧窮形成對照。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although these themes are universal, one could speculate that a Western audience might not like or identify with them as much, given the increasing urbanisation and materialism of their own society.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這些主題具有普遍性，但考慮到西方社會本身越來越城市化和物質主義，我們可以推測西方觀眾未必同樣喜歡或認同這些主題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示，Paragraph 4 會介紹電影的文化背景、情節和主題。題目問 “the movie which was examined”，因此本段是最自然定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “movie”、 “examined”、以及各選項的內容。選項 A 的 “common human themes” 對應原文 “these themes are universal”。universal 即普遍、跨文化、很多人都能理解。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The final thematic assertion that there are more important things than money reflects the warmth and solidarity of the Italian village in the face of adversity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "電影最後提出的主題主張是：世上有比金錢更重要的東西；這反映了意大利村落在逆境中的溫暖和團結。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although these themes are universal…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這些主題具有普遍性……題目選項 A “has common human themes” 把 “universal themes” 改成較簡單的說法。common human themes 即很多文化和人群都能理解的主題，例如金錢與人情、貧窮與團結、物質主義與價值選擇。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “has a surprising ending” 原文沒有說結局 surprising。它只說 final thematic assertion，即最後的主題表達。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “is set in an Italian city” 和原文 “Italian village life” 不符。village 是鄉村，不是 city。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “involves two main actors” 原文說 poor couple 和 wealthy elderly American woman，這是角色或人物群組，沒有提供 “two main actors” 這項資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "D — has a variation called scopa.",
+      "answerKey": "D — has a variation called scopa.",
+      "type": "Multiple Choice",
+      "prompt": "“Scopone…”",
+      "translation": "Scopone 有甚麼特點？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要目標段落：Paragraph 5 和 Paragraph 8 Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most immediate translation issue relates to the movie’s title.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最即時的翻譯問題與電影標題有關。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The result is an apparent lack of plausibility, changing the comedic nature of the film.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果是電影看起來缺乏可信度，並改變了電影的喜劇性質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 介紹 Scopone 這個核心文化詞。Paragraph 8 則出現 scopa，並說它是 central card game 的 variation，因此這題需要跨段確認。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Scopone”。Paragraph 5 直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Scopone’ is the name of a traditional Italian card game of great antiquity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scopone” 是一種非常古老的傳統意大利紙牌遊戲名稱。再掃描 “scopa”，Paragraph 8 說：“Finally, we read scopa – an Italian word referring to a variation of the central card game.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，我們看到 scopa 這個意大利詞，它指的是中心紙牌遊戲的一個變體。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “is a relatively new game” 與 “of great antiquity” 相反。great antiquity 表示歷史非常悠久。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “is known to the Western audience” 和原文 “obscure to Western viewers” 不符。obscure 表示陌生、不易理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “is a bland term” 混淆了對象。原文說英文片名用了 “a blander, less appropriate term”，平淡的是英文替代詞，不是 Scopone 本身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “has a variation called scopa” 對應 Paragraph 8 的 “scopa – an Italian word referring to a variation of the central card game”。這裡的 central card game 指電影中的核心紙牌遊戲，即Scopone 所屬的遊戲系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The English title is a subtitling lapse.”",
+      "translation": "英文片名是一個字幕 / 翻譯失誤。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most immediate translation issue relates to the movie’s title.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最即時的翻譯問題與電影標題有關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The result is an apparent lack of plausibility, changing the comedic nature of the film.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果是電影看起來缺乏可信度，並改變了電影的喜劇性質。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 5 專門講翻譯問題，包括片名和賭注金額。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “English title” 和 “subtitling lapse”。原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Lo Scopone Scientifico’ translates as ‘Scientific Scopone’, whereas the English title is ‘The Scientific Card Player’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“Lo Scopone Scientifico” 可譯為 “Scientific Scopone”，但英文片名是 “The Scientific Card Player”。後面說：“Obviously, the translators could not use this name because it was obscure to Western viewers, but they inserted a blander, less appropriate term.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很明顯，譯者不能直接使用這個名稱，因為西方觀眾不熟悉它；但他們用了較平淡、較不恰當的詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“less appropriate term” 是判斷核心。less appropriate 表示較不恰當。下一句 “An even clearer subtitling lapse…” 說賭注金額是更明顯的字幕失誤；“even clearer” 亦暗示前面的標題翻譯已屬一個較不理想的處理，只是後面的金額例子更明顯。題目說 English title is a subtitling lapse。原文說英文片名用了 blander, less appropriate term。這足以支持 TRUE。中伏位在 “translators could not use this name”。這句表示譯者有實際困難，所以錯不在不能保留Scopone 這個詞；真正問題在於替代詞過於平淡，削弱了原片名的文化準確度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Transfer and imitation are interesting strategies.”",
+      "translation": "Transfer 和 Imitation 是有趣的策略。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With respect to the specific subtitling strategies used, there are five.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至於所使用的具體字幕策略，共有五種。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otherwise, there could well be a closely aligned idiom, in which case the strategy would be Imitation, where there are similar lexical elements between both languages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "否則，也很可能存在一個非常接近的習語；在這種情況下，策略就是 Imitation，即兩種語言之間有相似的詞彙元素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 清楚介紹 Transfer 和 Imitation 的定義與例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Transfer” 和 “imitation”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is the strategy of Transfer, where the full expression is given without consideration of time or space.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 Transfer 策略，即完整表達被保留，不考慮時間或空間限制。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“the strategy would be Imitation, where there are similar lexical elements between both languages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "策略會是 Imitation，即兩種語言之間有相似詞彙元素。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀題目命題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目加入了 “interesting” 這個評價詞。原文只說這兩種策略如何運作，沒有評價它們是否有趣、吸引、特別精彩或值得欣賞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN 題要看文章是否提供足夠資料判斷整句。這裡有 Transfer 和Imitation 的資料，但沒有 “interesting” 的評價。文章沒有說它們無趣，因此不能選 FALSE；文章也沒有支持它們有趣，因此不能選 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Paraphrasing is often used.”",
+      "translation": "Paraphrasing 經常被使用。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Continuing with idioms, we read, ‘Catches win matches’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "繼續看習語，我們讀到 “Catches win matches”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The strategy used is thus Paraphrasing, where different expressions specific to the source language (Italian) and target language (English) are required.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此使用的策略是 Paraphrasing，即源語意大利語和目標語英語需要各自特定的不同表達。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段解釋 Paraphrasing，並用一個英文習語例子說明。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Paraphrasing” 和 “often used”。原文直接定義 Paraphrasing，但沒有 often、frequently、commonly、regularly 這類頻率詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The strategy used is thus Paraphrasing…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此使用的策略是 Paraphrasing……這只證明在 “Catches win matches” 這個例子中使用了 Paraphrasing。題目說 “is often used”，要求文章提供使用頻率。單一例子不能自動推成經常使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此原文有 strategy 的定義，有例子，但缺少 frequency evidence，即使用頻率證據。答案是NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 “Continuing with idioms” 可能會覺得這類策略很常見。不過 “continuing” 只表示作"
+            },
+            {
+              "kind": "paragraph",
+              "text": "者繼續講 idioms，不代表 Paraphrasing 經常出現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Resignation can be used in many situations.”",
+      "translation": "Resignation 可以用在很多情況。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later on, we read, ‘A sign of destiny’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，我們讀到 “A sign of destiny”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The meaning remains obvious from the context, and only in such minimal and unlikely situations does this strategy become acceptable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思仍然可從語境中清楚看出；只有在這種極小和少見的情況下，這個策略才變得可以接受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句提示 Paragraph 8 後半會講 Resignation 的限制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Resignation” 和 “many situations”。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because the term is unique to Italy, there is no equivalent word in English, so the strategy used here is Resignation, where the subtitler leaves the word in the original language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為這個詞是意大利獨有的，英文沒有對應詞，所以這裡使用的策略是 Resignation，即字幕員把詞保留在原語中。"
+            },
+            {
+              "kind": "label",
+              "text": "後面立刻限制："
+            },
+            {
+              "kind": "quote",
+              "text": "“only in such minimal and unlikely situations does this strategy become acceptable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有在這種極小和少見的情況下，這個策略才可接受。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “many situations”，表示適用範圍很廣。原文說 “only in such minimal and unlikely situations”，表示適用範圍非常窄。這是明確衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“only” 是控制答案的字。它把 Resignation 的使用條件限制得很嚴格：原語詞沒有英文對應、語境足夠清楚、情況很小且少見。所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Almost all Italians love scopa.”",
+      "translation": "幾乎所有意大利人都喜歡 scopa。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later on, we read, ‘A sign of destiny’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，我們讀到 “A sign of destiny”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The meaning remains obvious from the context, and only in such minimal and unlikely situations does this strategy become acceptable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思仍然可從語境中清楚看出；只有在這種極小和少見的情況下，這個策略才可接受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 後半提到 scopa，但重點是翻譯策略，不是意大利人的喜好。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Italians”、 “love”、 “scopa”。原文只出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, we read scopa – an Italian word referring to a variation of the central card game.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，我們看到 scopa 這個意大利詞，它指的是中心紙牌遊戲的一個變體。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because the term is unique to Italy, there is no equivalent word in English…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為這個詞是意大利獨有的，英文沒有對應詞……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀題目命題"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供三項資料： scopa 是意大利詞；它指紙牌遊戲的一種變體；英文沒有對應詞，所以字幕保留原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的是另一組資料：幾乎所有意大利人；喜歡 scopa；喜歡程度接近 almost all。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提供任何關於 Italians’ preference 的資料。它也沒有說 Italians 不喜歡 scopa，所以不能選 FALSE。資料缺失，答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "D — probably exists in the source language",
+      "answerKey": "D — probably exists in the source language",
+      "type": "Matching",
+      "prompt": "Question 23",
+      "translation": "“old bag” 這個侮辱年長女性的習語。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The old bag’”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6第一句：“With respect to the specific subtitling strategies used, there are five.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "至於所使用的具體字幕策略，共有五種。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Otherwise, there could well be a closely aligned idiom, in which case the strategy would be Imitation, where there are similar lexical elements between both languages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "否則，也很可能存在一個非常接近的習語；在這種情況下，策略就是 Imitation，即兩種語言之間有相似詞彙元素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 直接解釋 “The old bag’s here” 的處理。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “old bag”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“I would speculate that the same idiom occurs in Italian (that is, the direct translation of ‘old’ and‘bag’ in Italian carries the same idiomatic meaning).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我推測意大利語中也有相同習語，也就是說，意大利語中 “old” 和 “bag” 的直接翻譯也帶有相同的習語意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“I would speculate” 表示作者推測，不是絕對確定。選項 D “probably exists in the source language” 正好保留這種推測語氣。source language 在本文中是 Italian，因為電影原語是意大利語。題目例子 “The old bag” 對應原文推測：同一習語可能存在於意大利語中。因此答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "C — using other words, but with the same meaning",
+      "answerKey": "C — using other words, but with the same meaning",
+      "type": "Matching",
+      "prompt": "Question 24",
+      "translation": "“Catches win matches” 這個英語習語。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Catches win matches’”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7第一句：“Continuing with idioms, we read, ‘Catches win matches’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "繼續看習語，我們讀到 “Catches win matches”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The strategy used is thus Paraphrasing, where different expressions specific to the source language (Italian) and target language (English) are required.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此使用的策略是 Paraphrasing，即源語意大利語和目標語英語需要各自特定的不同表達。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Catches win matches”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, one can be certain that other words were used in the original Italian, but that these had a similar pragmatic effect (in meaning and idiomatic nature).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，可以肯定原本的意大利語用了其他詞，但這些詞有相似的語用效果，即在意思和習語性質上相似。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C “using other words, but with the same meaning” 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“other words were used”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 使用其他詞"
+            },
+            {
+              "kind": "quote",
+              "text": "“similar pragmatic effect (in meaning and idiomatic nature)”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 意思和習語效果相似這正是 Paraphrasing：不是逐字翻譯，而用目標語中功能相近的說法完成同樣語用效果。答案是C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A — a practical decision",
+      "answerKey": "A — a practical decision",
+      "type": "Matching",
+      "prompt": "Question 25",
+      "translation": "“A sign of destiny” 這句字幕。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘A sign of destiny’”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8第一句：“Later on, we read, ‘A sign of destiny’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，我們讀到 “A sign of destiny”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The meaning remains obvious from the context, and only in such minimal and unlikely situations does this strategy become acceptable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思仍然可從語境中清楚看出；只有在這種極小和少見的情況下，這個策略才可接受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落開頭直接以這個例子引出 Condensation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “A sign of destiny”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“When this subtitle appears, there are actually two or three people speaking with equal force at the same time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當這句字幕出現時，其實有兩三個人同時以相同力度說話。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Space and time constraints render it impossible to have them all translated, so only the quoted subtitle appears, using the strategy known as Condensation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "空間和時間限制使所有說話都無法被翻譯出來，所以只有這句被引用的字幕出現，使用的策略稱為 Condensation。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡不是因為意思找不到，也不是因為文化詞無法翻譯。真正原因是字幕受到 space and time constraints 限制。字幕要在有限畫面和時間內讓觀眾讀完，所以字幕員只保留其中一句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A “a practical decision” 正好概括這個情況：Condensation 是基於時間和空間限制作出的實務決定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "B — clarified by the situation",
+      "answerKey": "B — clarified by the situation",
+      "type": "Matching",
+      "prompt": "Question 26",
+      "translation": "“scopa” 這個意大利語詞。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Scopa’”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8第一句：“Later on, we read, ‘A sign of destiny’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來，我們讀到 “A sign of destiny”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The meaning remains obvious from the context, and only in such minimal and unlikely situations does this strategy become acceptable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思仍然可從語境中清楚看出；只有在這種極小和少見的情況下，這個策略才可接受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落最後部分轉到 scopa 和 Resignation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “scopa”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, we read scopa – an Italian word referring to a variation of the central card game.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，我們看到 scopa 這個意大利詞，它指的是中心紙牌遊戲的一個變體。"
+            },
+            {
+              "kind": "label",
+              "text": "後面說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The meaning remains obvious from the context…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思仍然可從語境中清楚看出。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B “clarified by the situation” 對應原文 “obvious from the context”。context 就是語境、場景、前後情況。雖然 scopa 沒有英文對應詞，觀眾仍能從電影情境理解它大概指某種紙牌遊戲變體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 B。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Subtitling_ Some Strategies.pdf",
+    "sha256": "96476566b68f6ed8b3a192f485347fd5e7cc38e84998efbddb43ca3fa939e87a",
+    "pageCount": 20
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Paragraph 首句說外語電影給另一語言觀眾觀看時，解決語言障礙的方法有 subtitling 和1 dubbing。尾句解釋 dubbing 是錄製 target language 的聲音。只看首尾句可見，本段功能是定義兩種翻譯方法，建立全文基本對比：subtitling 是螢幕底部文字翻譯， dubbing 是以目標語重新配音。 Paragraph 首句說 dubbing 看似較容易讓觀眾接受，但有很多缺點。尾句指出現代影視節目2 turnover rate 越來越快，在這種情況下 subtitling 更快、更實用。首尾句顯示，本段集中批評 dubbing：成本高、需要大市場、聲音可能不配角色、效果有時荒謬，並引出 subtitling 的實用優勢。 Paragraph 首句提醒讀者不要以為 subtitling 比 dubbing 容易。尾句說正式翻譯前，一次簡短3 的 cultural audit 絕對必要，內容包括比較兩種文化與電影情節的關係。首尾句顯示，本段轉入 subtitling strategy：字幕要處理文化差異，字幕員需要先理解 host culture 和 viewing culture 的價值、信念與互動差異。 Paragraph 首句交代電影背景：故事設於 1960 年代末，美國社會富裕和物質主義明顯，與意4 大利鄉村貧窮形成對照。尾句說雖然主題普遍，但西方觀眾未必同樣喜歡或認同。首尾句顯示，本段介紹 sample movie 的文化背景、劇情和主題：金錢、貧窮、村落團結、物質主義，以及觀眾文化距離。 Paragraph 首句說最即時的翻譯問題是電影標題。尾句說 literal translation of lire figures 會5 令英語觀眾聯想到 dollars，破壞可信度並改變電影喜劇性質。首尾句顯示，本段集中分析具體翻譯失誤：Scopone 這個文化詞太陌生，英文片名變得平淡；賭注金額直譯也造成觀眾誤解。 Paragraph 首句說具體字幕策略共有五種，先由 “The old bag’s here” 開始。尾句說若原語有6 closely aligned idiom，策略會是 Imitation。首尾句顯示，本段介紹 Transfer 和Imitation：當英語習語可能與意大利語有相同或相近詞彙元素時，字幕可完整保留或模仿相似表達。 Paragraph 首句繼續處理 idioms，例子是 “Catches win matches”。尾句定義 Paraphrasing： 7 source language 和 target language 需要不同表達，但保留相似語用效果。首尾句顯示，本段集中於 Paraphrasing。因為 cricket 文化不屬意大利背景，原文必然用了其他詞；英文字幕改用英語觀眾熟悉的習語。 Paragraph 首句引入 “A sign of destiny”，說字幕出現時其實有兩三人同時用相同力度說話。 8 尾句說 Resignation 只在這種極小和少見情況下才可接受。首尾句顯示，本段一次處理兩種策略：Condensation 用於時間和空間不足時壓縮多個發言；Resignation用於無英文對應詞的文化專名，例如 scopa。",
+        "label": "段落 Rough roadmap"
+      }
+    ]
+  }
+}

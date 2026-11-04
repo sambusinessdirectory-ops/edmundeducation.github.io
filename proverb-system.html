@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="EdmundEducation 學生諺語 Proverb 學生使用系統">
+  <meta name="theme-color" content="#e84a1b">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Edmund 諺語系統">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; script-src 'self' https://cdn.jsdelivr.net https://edmund-site-assets.edmundeducation.workers.dev; style-src 'self' 'unsafe-inline' https://edmund-site-assets.edmundeducation.workers.dev; img-src 'self' data: https://edmund-site-assets.edmundeducation.workers.dev; font-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-proverb-system.edmundeducation.workers.dev https://edmund-speaking-system.edmundeducation.workers.dev https://edmund-site-assets.edmundeducation.workers.dev; media-src 'self' blob: https://edmund-speaking-system.edmundeducation.workers.dev https://edmund-site-assets.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; worker-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; base-uri 'self'; form-action 'self'">
+  <title>諺語學生使用系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/proverb-system.html">
+  <link rel="manifest" href="/pwa-manifests/proverbs.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apps/proverbs/apple-touch-icon-180.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apps/proverbs/apple-touch-icon-167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apps/proverbs/apple-touch-icon-152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <script defer src="/pwa-register.js"></script>
+  <link rel="stylesheet" href="proverb-system.css?v=20261022-purple-spellbook1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
+  <link rel="stylesheet" href="shared-speaking-practice.css?v=20260829-1">
+  <link rel="stylesheet" href="sentence-structure-trophies.css?v=20260915-companions1">
+  <link rel="stylesheet" href="common-expression-map.css?v=20260915-noirceleste1">
+  <link rel="stylesheet" href="proverb-black-sand.css?v=20260915-black3">
+  <link rel="stylesheet" href="polysemy-noir/noir-header.css?v=20261023-shared1">
+  <link rel="stylesheet" href="eddy-first-question-dialogue.css?v=20261028-blank-recovery1">
+  <link rel="stylesheet" href="eddy-five-streak-dialogue.css?v=20261101-30-35">
+  <link rel="stylesheet" href="eddy-mc-wrong-streak-dialogue.css?v=20261101-1">
+<link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
+  <link rel="stylesheet" href="proverb-compass.css?v=20261028-live1">
+</head>
+<body data-proverb-view="login">
+  <a class="skip-link" href="#proverb-system-main">跳至主要內容</a>
+
+  <header class="site-header edmund-system-header">
+    <div class="header-inner edmund-system-header__inner noir-mascot-header">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="proverbs">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy">
+          <strong>EdmundEducation</strong>
+          <small>諺語學生使用系統</small>
+          </span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <button class="noir-polysemy-mascot" type="button" data-noir-polysemy-toggle aria-label="暫停 Noir 動畫" aria-pressed="true"><img src="polysemy-noir/noir-polysemy.gif?v=20261022-2" width="68" height="68" alt="Noir 在桌面螢幕選擇詞義，選項變綠並出現勾號"></button>
+      <div class="header-actions edmund-system-header__actions">
+        <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
+        <span class="user-pill" data-user-pill hidden></span>
+        <button class="header-button" type="button" data-dashboard-button hidden>學習首頁</button>
+        <button class="header-button" type="button" data-admin-students-button hidden>學生記錄</button>
+        <button class="header-button" type="button" data-logout hidden>登出</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-shell" id="proverb-system-main">
+    <section class="view" data-view="login">
+      <div class="login-layout">
+        <article class="login-hero glass-panel">
+          <div class="hero-grid" aria-hidden="true"></div>
+          <p class="eyebrow">EDMUND PROVERB LAB</p>
+          <div class="hero-copy">
+            <p class="student-label">(學生使用)</p>
+            <h1>諺語<br>學生使用系統</h1>
+            <p>由意思、語氣、固定結構及歷史開始，再透過 50 題改寫練習，把諺語真正變成自己的表達能力。</p>
+          </div>
+        </article>
+
+        <section class="login-panel glass-panel" aria-labelledby="login-title">
+          <div class="login-heading">
+            <span class="section-number">01</span>
+            <div>
+              <p class="eyebrow">STUDENT / ADMIN LOGIN</p>
+              <h2 id="login-title">登入學習系統</h2>
+              <p>請輸入您的學生帳戶資料。</p>
+            </div>
+          </div>
+          <form class="login-form" data-login-form novalidate>
+            <label class="field">
+              <span>用戶名稱</span>
+              <input id="proverb-system-username" name="username" type="text" autocomplete="username" maxlength="100" required placeholder="輸入用戶名稱">
+            </label>
+            <label class="field">
+              <span>密碼</span>
+              <span class="password-field">
+                <input id="proverb-system-password" name="password" type="password" autocomplete="current-password" maxlength="200" required placeholder="輸入密碼">
+                <button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button>
+              </span>
+            </label>
+            <p class="form-status" data-login-status role="status" aria-live="polite"></p>
+            <button class="primary-button login-button" type="submit" data-login-button>登入並開始學習</button>
+          </form>
+          <p class="account-note">請輸入您的學生帳戶資料。</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="view" data-view="dashboard" hidden>
+      <section class="dashboard-hero glass-panel">
+        <div>
+          <p class="eyebrow">(學生使用)</p>
+          <h1>諺語<br>學生使用系統</h1>
+          <p data-dashboard-welcome>選擇一個諺語，由完整概念開始，再完成 50 題練習。</p>
+        </div>
+        <div class="dashboard-metric" aria-label="可選課題數量">
+          <strong data-lesson-count>1</strong>
+          <span>個諺語課題</span>
+        </div>
+      </section>
+
+      <button class="sentence-progress-disclosure glass-panel" type="button" data-sentence-progress-toggle aria-expanded="false" aria-controls="sentence-progress-panel">
+        <span>
+          <strong>查看練習進展</strong>
+          <small>Questions done 與 Time spent 兩項核心指標</small>
+        </span>
+        <span class="sentence-progress-disclosure-state" data-sentence-progress-toggle-label>展開 ＋</span>
+      </button>
+
+      <section class="sentence-progress-panel glass-panel" id="sentence-progress-panel" data-sentence-progress-panel aria-labelledby="sentence-progress-heading" hidden>
+        <div class="progress-summary-metrics" aria-label="練習進度總覽">
+          <article>
+            <span>QUESTIONS DONE · 已完成題目</span>
+            <strong data-sentence-progress-all-total>0</strong>
+            <small>累計提交及完成的題目數</small>
+          </article>
+          <article>
+            <span>TIME SPENT · 練習時間</span>
+            <strong data-sentence-time-all-total>0 分 00 秒</strong>
+            <small>累計用於諺語練習的時間</small>
+          </article>
+        </div>
+        <div class="sentence-progress-toolbar">
+          <div>
+            <p class="eyebrow">QUESTION ACTIVITY</p>
+            <h2 id="sentence-progress-heading">完成題目走勢</h2>
+            <p>把滑鼠移到日期上查看數量；按日期可查看當日完成過的題目。</p>
+          </div>
+          <div class="sentence-progress-ranges" data-sentence-progress-ranges aria-label="選擇統計時段">
+            <button type="button" data-sentence-progress-range="week">Week</button>
+            <button type="button" data-sentence-progress-range="month" aria-pressed="true">Month</button>
+            <button type="button" data-sentence-progress-range="half-year">Half a Year</button>
+            <button type="button" data-sentence-progress-range="ytd">Year to Date</button>
+            <button type="button" data-sentence-progress-range="year">1 Year</button>
+            <button type="button" data-sentence-progress-range="all">All Time</button>
+            <button class="sentence-cumulative-toggle" type="button" data-toggle-sentence-cumulative aria-pressed="false">顯示累積總數</button>
+          </div>
+        </div>
+        <div class="sentence-progress-chart-shell">
+          <svg data-sentence-progress-chart viewBox="0 0 900 320" role="group" aria-label="英文諺語每日完成題目數量圖表；每個日期均可開啟詳情"></svg>
+        </div>
+        <div class="sentence-progress-legend" aria-label="完成題目圖表圖例">
+          <span><i class="sentence-legend-dot sentence-legend-daily"></i>每日完成題目</span>
+          <span data-sentence-cumulative-legend hidden><i class="sentence-legend-dot sentence-legend-cumulative"></i>累積完成題目</span>
+        </div>
+        <section class="sentence-progress-day" data-sentence-progress-day-panel hidden aria-live="polite">
+          <div class="sentence-progress-day-heading">
+            <div>
+              <p class="eyebrow">DAILY DETAILS</p>
+              <h3 data-sentence-progress-day-title>當日完成題目</h3>
+            </div>
+            <button class="small-button" type="button" data-close-sentence-progress-day>關閉</button>
+          </div>
+          <div class="sentence-progress-day-list" data-sentence-progress-day-list></div>
+        </section>
+
+        <section class="sentence-time-progress-section" aria-labelledby="sentence-time-progress-heading">
+          <div class="sentence-progress-toolbar">
+            <div>
+              <p class="eyebrow">EXERCISE TIME</p>
+              <h2 id="sentence-time-progress-heading">練習時間走勢</h2>
+              <p>查看每天用於英文諺語練習的時間；把滑鼠移到日期上查看時間，按日期可查看當日練習。</p>
+            </div>
+            <div class="sentence-progress-ranges" data-sentence-time-progress-ranges aria-label="選擇練習時間統計時段">
+              <button type="button" data-sentence-time-progress-range="week">Week</button>
+              <button type="button" data-sentence-time-progress-range="month" aria-pressed="true">Month</button>
+              <button type="button" data-sentence-time-progress-range="half-year">Half a Year</button>
+              <button type="button" data-sentence-time-progress-range="ytd">Year to Date</button>
+              <button type="button" data-sentence-time-progress-range="year">1 Year</button>
+              <button type="button" data-sentence-time-progress-range="all">All Time</button>
+            </div>
+          </div>
+          <div class="sentence-progress-chart-shell sentence-time-chart-shell">
+            <svg data-sentence-time-progress-chart viewBox="0 0 900 320" role="group" aria-label="英文諺語每日練習時間圖表；每個有練習的日期均可開啟詳情"></svg>
+          </div>
+          <div class="sentence-progress-legend" aria-label="練習時間圖表圖例">
+            <span><i class="sentence-legend-dot sentence-legend-time"></i>每日練習時間</span>
+          </div>
+          <section class="sentence-progress-day sentence-time-day" data-sentence-time-day-panel hidden aria-live="polite">
+            <div class="sentence-progress-day-heading">
+              <div>
+                <p class="eyebrow">DAILY TIME DETAILS</p>
+                <h3 data-sentence-time-day-title>當日練習時間</h3>
+              </div>
+              <button class="small-button" type="button" data-close-sentence-time-day>關閉</button>
+            </div>
+            <div class="sentence-progress-day-list" data-sentence-time-day-list></div>
+          </section>
+        </section>
+      </section>
+
+      <section class="lesson-search-panel glass-panel" aria-labelledby="proverb-search-heading">
+        <div class="lesson-search-heading">
+          <h2 id="proverb-search-heading">搜尋諺語</h2>
+          <p>輸入中英文關鍵字，即時搜尋標題、例句、學習內容、重要規則及練習題。</p>
+        </div>
+        <form class="lesson-search-form" data-lesson-search-form role="search">
+          <label class="lesson-search-label" for="proverb-lesson-search">搜尋關鍵字</label>
+          <div class="lesson-search-controls">
+            <input id="proverb-lesson-search" type="search" data-lesson-search-input autocomplete="off" spellcheck="false" aria-describedby="proverb-search-summary" aria-controls="proverb-search-results" placeholder="例如：看不見、mind、remember">
+            <button class="lesson-search-submit" type="submit">搜尋</button>
+            <button class="lesson-search-clear" type="button" data-clear-lesson-search hidden>清除</button>
+          </div>
+        </form>
+        <p class="lesson-search-summary" id="proverb-search-summary" data-lesson-search-summary role="status">尚未輸入關鍵字。可搜尋全部諺語的八個學習頁面及練習題。</p>
+        <div class="lesson-search-results" id="proverb-search-results" data-lesson-search-results hidden aria-live="polite"></div>
+      </section>
+
+      <button type="button" class="secondary-button expression-map-toggle" data-proverb-map-toggle aria-pressed="false">互動地圖 · Interactive map</button>
+      <section data-proverb-map hidden aria-label="諺語互動地圖"></section>
+      <section class="lesson-choice-grid" data-lesson-choice-grid aria-label="諺語選擇"></section>
+
+      <section class="history-panel glass-panel" aria-labelledby="history-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">ATTEMPT RECORD</p>
+            <h2 id="history-heading">練習記錄</h2>
+          </div>
+          <button class="small-button" type="button" data-refresh-history>重新整理</button>
+        </div>
+        <div class="history-list" data-history-list>
+          <p class="empty-state">登入後會在這裡顯示你的練習記錄。</p>
+        </div>
+      </section>
+    </section>
+
+    <section class="view" data-view="lesson" hidden>
+      <section class="lesson-shell glass-panel">
+        <div class="lesson-topbar">
+          <button class="text-button" type="button" data-back-to-dashboard>← 返回諺語選擇</button>
+          <span class="lesson-round" data-lesson-round hidden></span>
+        </div>
+        <div class="lesson-title-row">
+          <div>
+            <p class="eyebrow" data-lesson-kicker>PROVERB STUDY</p>
+            <h1 data-lesson-title></h1>
+          </div>
+          <div class="lesson-title-actions">
+            <button class="jump-exercise-button" type="button" data-jump-to-exercise>直接跳到練習 →</button>
+            <button class="bookmark-library-button" type="button" data-open-bookmarks>☆ 查看書簽</button>
+          </div>
+        </div>
+        <nav class="lesson-stepper" data-lesson-stepper aria-label="課堂頁面">
+          <button type="button" data-step="1"><span>1</span><strong>形式＋例句</strong><small>Form + Example</small></button>
+          <button type="button" data-step="2"><span>2</span><strong>語域及語氣</strong><small>Register + Tone</small></button>
+          <button type="button" data-step="3"><span>3</span><strong>固定及可變部分</strong><small>Fixed + Variable</small></button>
+          <button type="button" data-step="4"><span>4</span><strong>所有特定形式</strong><small>All Forms</small></button>
+          <button type="button" data-step="5"><span>5</span><strong>表達好處</strong><small>Benefits</small></button>
+          <button type="button" data-step="6"><span>6</span><strong>歷史及來源</strong><small>History + Origin</small></button>
+          <button type="button" data-step="7"><span>7</span><strong>重要規則</strong><small>Important Rules</small></button>
+          <button type="button" data-step="8"><span>8</span><strong>句子練習</strong><small>Exercise</small></button>
+        </nav>
+        <div class="lesson-content" data-lesson-content></div>
+      </section>
+    </section>
+
+    <section class="view" data-view="bookmarks" hidden>
+      <section class="utility-panel glass-panel">
+        <div class="section-heading utility-heading">
+          <div>
+            <p class="eyebrow">SAVED QUESTIONS</p>
+            <h1>書簽</h1>
+            <p>收藏整個諺語作溫習，或保留個別題目稍後再做；兩類書簽都會跟隨學生帳戶同步。</p>
+          </div>
+          <button class="secondary-button compact-button" type="button" data-bookmarks-back>返回學習首頁</button>
+        </div>
+        <div class="bookmark-list" data-bookmark-list></div>
+      </section>
+    </section>
+
+    <section class="view" data-view="admin" hidden>
+      <section class="admin-hero glass-panel">
+        <div>
+          <p class="eyebrow">ADMIN CONTROL</p>
+          <h1>英文諺語學習記錄</h1>
+          <p>查看學生及其諺語練習進度。</p>
+        </div>
+        <label class="admin-search">
+          <span>搜尋學生</span>
+          <input type="search" data-admin-search placeholder="輸入學生名稱">
+        </label>
+      </section>
+      <section class="admin-grid">
+        <div class="admin-list-panel glass-panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">STUDENTS</p>
+              <h2>學生帳戶</h2>
+            </div>
+            <span class="count-badge" data-admin-student-count>0</span>
+          </div>
+          <div class="admin-student-list" data-admin-student-list></div>
+        </div>
+        <div class="admin-detail-panel glass-panel" data-admin-detail>
+          <div class="admin-empty">
+            <span aria-hidden="true">→</span>
+            <h2>選擇一位學生</h2>
+            <p>學生的完成進度、練習結果及書簽會顯示在這裡。</p>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <template id="proverb-system-loading-template">
+    <div class="loading-state" role="status">
+      <span class="loading-spinner" aria-hidden="true"></span>
+      <p>正在載入…</p>
+    </div>
+  </template>
+
+  <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="proverb-system-config.js"></script>
+  <script src="proverb-system-data.js?v=20261028-nextnine1"></script>
+  <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261101-coin-dialogue1"></script>
+  <script src="shared-answer-comparison.js?v=20260812-1"></script>
+  <script defer src="speaking-system-config.js?v=20260829-1"></script>
+
+  <script defer src="shared-speaking-practice.js?v=20261103-readalong"></script>
+  <script type="module" src="proverb-system.js?v=20261028-firefox-storage1"></script>
+  <script defer src="polysemy-noir/noir-header.js?v=20261023-shared1"></script>
+  <script defer src="eddy-first-question-dialogue.js?v=20261025-tea1"></script>
+  <script defer src="eddy-five-streak-dialogue.js?v=20261101-30-35-allmc"></script>
+  <script defer src="eddy-mc-wrong-streak-dialogue.js?v=20261101-4-recovery"></script>
+<script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
+<link rel="stylesheet" href="course-pronunciation.css"><script src="pronunciation-checker.js"></script><script src="course-pronunciation.js"></script></body>
+</html>

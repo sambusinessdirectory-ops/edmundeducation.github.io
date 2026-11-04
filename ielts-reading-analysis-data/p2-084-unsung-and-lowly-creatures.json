@@ -1,0 +1,1588 @@
+{
+  "id": "p2-084-unsung-and-lowly-creatures",
+  "catalogueId": "p2-084",
+  "catalogueIds": [
+    "p2-084"
+  ],
+  "passage": 2,
+  "title": "Unsung and Lowly Creatures",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "B",
+    "C",
+    "A",
+    "muscular action",
+    "gizzard",
+    "essential minerals",
+    "lubricating mucus",
+    "water",
+    "bodily contraction / bodily contractions",
+    "micro-organisms / soil micro-organisms",
+    "acidity",
+    "ecological awareness"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D — numbered in the many millions",
+      "answerKey": "D — numbered in the many millions",
+      "type": "Multiple Choice",
+      "prompt": "“Charles Darwin thought that worms…”",
+      "translation": "Charles Darwin 認為 worms 怎樣？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是單選題。題目用 Charles Darwin 作定位詞，但文章中 Darwin 出現不只一次，所以要把所有Darwin 相關位置掃描一次。這題的真正任務是：四個選項中哪一個最完整、最準確反映 Darwin對 earthworms 的看法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 and Paragraph 5 Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Earthworms are not creatures likely to attract much attention.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蚯蚓並非容易吸引大量注意的生物。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet Charles Darwin wrote: ‘It may be doubted whether there are many other animals which have played so important a part in the history of the world as have these lowly organised creatures.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而 Charles Darwin 寫道：「很難說是否還有許多其他動物，像這些低等組織的生物一樣，在世界歷史中扮演如此重要的角色。」Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Multiply that by a million worms, and one can understand Darwin’s comment about ‘unsung creatures which, in their untold millions, transformed the land’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把這個數量乘以一百萬條蚯蚓，就能理解 Darwin 所說的那些「無名生物，以無數百萬之眾改造土地」的評論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Charles Darwin” 和 “worms”。Paragraph 1 有 Darwin 的直接評價，Paragraph 4 有Darwin 對 arable land worm numbers 的估計，Paragraph 5 再次引用 Darwin 的 “untold millions”。因此這題需要跨段比較，不能只讀第一個 Darwin quote。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "真正支持 D 的短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“in their untold millions”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以數不清的百萬之眾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目選項 D 說 “numbered in the many millions”，即數量達許多百萬。這和 “untold millions” 意思非常接近。untold 不是「沒有被說出」那麼簡單，在這裡表示數量極多、難以計算。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “were only moderately important” 與 Darwin 的 “so important a part” 方向相反。Darwin 給的是極高評價，不是中等重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “were organised” 表面上吸引人，因為原文有 “lowly organised creatures”。可是 “organised”被抽出後，意思變得太普通；原文完整短語重點是 “lowly organised”，描述牠們身體組織低等，並非 Darwin 的主要結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “liked arable land” 沒有原文支援。Paragraph 4 說 Darwin 估計 arable land contained about 50,000 worms per acre，這只是在說耕地中有多少 worms，沒有說 worms 喜歡 arable land。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “numbered in the many millions” 對應 “untold millions”，最完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： D 是最佳答案。學生容易被 B 的 “organised” 吸引，但那只是從完整引文中抽出一個詞。真正能形成完整命題的是 Paragraph 5 的 “untold millions”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "B — has many segments",
+      "answerKey": "B — has many segments",
+      "type": "Multiple Choice",
+      "prompt": "“A single worm…”",
+      "translation": "一條單獨的蚯蚓……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問單條 earthworm 的身體或生命特徵。定位詞是 “single worm”，但原文未必逐字出現，所以要找 body description、hermaphroditic、segments、full size、one year 等資料。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That is high praise indeed for what is basically a slimy, muscular, moist, segmented tube.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對一條基本上是黏滑、有肌肉、濕潤、分節的管狀生物來說，這確實是很高的讚美。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From this, small but fully formed worms will emerge, reaching full size in about one year, and living for one or two years after that.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從這個 egg case 中，小而已完全成形的 worms 會孵出，約一年長到完整大小，之後再活一至兩年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯在講 earthworm 的 basic biology，包括 body structure、reproduction、growth 和 lifespan。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “A single worm”。原文用 “the one creature” 來表示一條 worm 本身，並多次提到 segments："
+            },
+            {
+              "kind": "quote",
+              "text": "“This tube is also hermaphroditic, meaning that there are both male and female segments in the one creature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這條管狀生物也是雌雄同體的，意思是在同一個生物身上有雄性和雌性 segments。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文首先說 worm 是 “segmented tube”，即分節的管狀身體。接著說 “some segments contain testes and others contain eggs”，即有些 segments 含 testes，有些含 eggs。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “is either male or female” 與 hermaphroditic 相反。hermaphroditic 表示同一生物兼有雄性和雌性部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “has many segments” 獲得 “segmented tube”、“male and female segments”、“some segments… others…” 多處支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “is a complicated organism” 原文說 reproductive process long and complicated，但 worm 本身被形容為 basically a segmented tube，不能推出整個 organism complicated。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “lives for about a year” 不準確。原文說約一年長成，之後再活一至兩年，所以總生命時間不只是 about a year。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： B 最準確。這題真正控制答案的是 “segmented tube” 和 “segments” 的重複出現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "C — help worms encounter others",
+      "answerKey": "C — help worms encounter others",
+      "type": "Multiple Choice",
+      "prompt": "“Stormwater may possibly…”",
+      "translation": "暴雨水可能會……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 stormwater / heavy rains 後 worms 為何出現在地面。題目有 “may possibly”，表示答案會來自假說，而非確定事實。定位詞是 stormwater 和 worms after rain。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet earthworms are rarely seen, spending as they do their whole lives underground.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，earthworms 很少被看見，因為牠們一生都在地下度過。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If this happens at dawn, during high summer or in daylight, these earthworms quickly die due to bird predation or dehydration.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這發生在黎明、盛夏或白天，這些 earthworms 很快會因鳥類捕食或脫水而死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示，這段在解釋 worms 為何從地下到地面，以及這種情況的風險。stormwater 相關假說就在中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Stormwater”"
+            },
+            {
+              "kind": "quote",
+              "text": "“possibly”"
+            },
+            {
+              "kind": "quote",
+              "text": "“encounter others”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The stormwater may flood their burrows, forcing them upwards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "暴雨水可能淹沒牠們的洞穴，迫使牠們向上移動。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alternatively, the worms may be taking advantage of the wet conditions either to travel more quickly through the open air … or to meet and mate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一種可能是，worms 利用濕潤環境，在露天更快速移動，或是為了相遇並交配。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目選項 C 的 “encounter others” 對應原文的 “meet and mate”。encounter 是 meet 的近義改寫；others 指其他 worms。原文把這一點放在 wet conditions 的假說中，而 stormwater 正是 heavy rains 後造成 wet conditions 的原因之一。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “clean out worm burrows” 沒有出現。原文說 stormwater may flood burrows，不是 clean out。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “slow down worms” 和 “travel more quickly” 方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “help worms encounter others” 對應 “meet and mate”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “harden the earth” 方向不合。原文說 concrete、rock 或 hardened earth 會 trap worms，沒有說 stormwater 令土地變硬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： C 正確。這題要留意 “may possibly” 的語氣，原文也用 may 和 hypotheses，所以答案來自可能解釋，不需要當成已證明事實。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A — often weigh less than the worms below",
+      "answerKey": "A — often weigh less than the worms below",
+      "type": "Multiple Choice",
+      "prompt": "“Grazing animals…”",
+      "translation": "在地面吃草的動物……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 grazing animals 和地下 worms 的比較。定位詞是 grazing animals，原文可能用 cows、horses、sheep 具體化。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Normally, however, worms quietly go about their hidden business, and this often leads to an underestimation of their actual numbers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，平常 worms 靜靜地進行牠們隱藏的活動，這常令人低估牠們的實際數量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Food is sucked into the body, then pushed along the length of the worm through muscular action, passing through the crop, gizzard, intestine, and finally the anus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "食物被吸進身體，然後透過肌肉活動沿著 worm 身體被推動，經過 crop、gizzard、intestine，最後到 anus。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首句講 worm numbers 被低估，中間自然會提供數量或重量比較；最後句轉向 digestive system。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Grazing animals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“weigh”"
+            },
+            {
+              "kind": "quote",
+              "text": "“worms below”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“the weight of earthworms beneath the soil is often greater than that of the cows, horses and sheep grazing upon its surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "土壤下面 earthworms 的重量，往往大於在地面吃草的 cows、horses 和 sheep 的重量。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的比較方向非常清楚： earthworms beneath the soil= 地下 worms is often greater than= 重量往往更大cows, horses and sheep grazing upon its surface= 地面 grazing animals如果地下 worms 的重量 often greater than 地面 grazing animals，那麼反過來說，grazing animals often weigh less than the worms below。選項 A 正好是這個比較的倒置改寫。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確，因為 “worms weigh more” 等同於 “grazing animals weigh less”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “are hungrier” 沒有比較支持。原文只說 “those worms are just as hungry”，即 worms 也同樣飢餓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “have very different digestive systems” 方向不合，原文說 worm digestive system is similar to those of the animals above。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “have simpler digestive systems” 沒有支援。原文說 worms 有 simple but effective system，並且 similar to grazing animals，不是比較誰更簡單。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷： A 正確。這題是比較方向轉換題：原文說 worms heavier，選項說 animals weigh less。兩者是同一比較關係的兩種表達。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "muscular action",
+      "answerKey": "muscular action",
+      "type": "Diagram Completion",
+      "prompt": "Question 18",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目任務：圖表其中一格應該標示 worm 體內推動食物的方式。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Normally, however, worms quietly go about their hidden business, and this often leads to an underestimation of their actual numbers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "平常 worms 隱藏活動，令人低估牠們的實際數量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Food is sucked into the body, then pushed along the length of the worm through muscular action, passing through the crop, gizzard, intestine, and finally the anus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "食物被吸進身體，然後透過 muscular action 沿著 worm 身體被推動，經過 crop、gizzard、intestine，最後到 anus。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若圖中是 food movement，應掃描 pushed、along the length、through 這類動作詞。原文直接說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“pushed … through muscular action”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“through muscular action” 表示食物在 worm 身體內靠肌肉活動被推動。空格限制是 NO MORE THAN TWO WORDS，muscular action 剛好兩個詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：muscular action"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "gizzard",
+      "answerKey": "gizzard",
+      "type": "Diagram Completion",
+      "prompt": "Question 19",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目任務：圖中應該要求標示 digestive system 其中一個部件。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4第一句和最後一句同上。最後一句給出完整順序："
+            },
+            {
+              "kind": "quote",
+              "text": "“passing through the crop, gizzard, intestine, and finally the anus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "經過 crop、gizzard、intestine，最後到 anus。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用順序定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖表題常按結構順序出題。如果圖上已標示 crop、intestine 或 anus，其中空白位置很可能是中間的 gizzard。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文順序是： crop → gizzard → intestine → anus gizzard 是 digestive system 的其中一部分，指類似砂囊／肌胃，用於研磨食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：gizzard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "essential minerals",
+      "answerKey": "essential minerals",
+      "type": "Diagram Completion",
+      "prompt": "Question 20",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目任務：這一格應該標示 worms 消化後釋放到土壤中的有益物質。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps surprisingly, it is this constant eating which so benefits the chemistry of the soil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許令人意外，正是這種不斷進食，對土壤化學性質帶來很大好處。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Multiply that by a million worms, and one can understand Darwin’s comment about ‘unsung creatures which, in their untold millions, transformed the land’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把這個數量乘以一百萬條 worms，就能理解 Darwin 對這些無名生物改造土地的評論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若圖中關於 excretion / soil benefit，要掃描 excreted、releasing、minerals。原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a worm’s gut, everything is ground into a fine paste, to be eventually excreted, releasing essential minerals in an easily accessible form.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 worm 的 gut 中，所有東西都被磨成 fine paste，最後被排出，並以容易取得的形式釋放essential minerals。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格若問被釋放的內容，答案就是 essential minerals。它是兩個詞，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：essential minerals"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "lubricating mucus",
+      "answerKey": "lubricating mucus",
+      "type": "Diagram Completion",
+      "prompt": "Question 21",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目任務：這一格應該標示 worms 在 soil 中移動時分泌、幫助前進的物質。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The other great benefit relates to earthworms’ search for food.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一項巨大好處與 earthworms 尋找食物有關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, without worms, the ground would become waterlogged, airless, and less productive for farming purposes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，沒有 worms，土地會變得積水、缺乏空氣，農業生產力也會下降。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中若描繪 worm moving through soil，要找 move、soil、secretion、mucus。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aided by the secretion of lubricating mucus, they push themselves through the soil…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 lubricating mucus 的分泌幫助下，牠們把自己推過土壤。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“lubricating” 表示潤滑；“mucus” 是黏液。這個詞組說明 worms 如何較容易穿過土壤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：lubricating mucus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "water",
+      "answerKey": "water",
+      "type": "Diagram Completion",
+      "prompt": "Question 22",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目任務：這一格應該標示可以通過 worm tunnels 的東西。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6第一句和最後一句同上。這段解釋 worms 的 tunnels 如何改善 soil structure。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中若是 tunnels 旁邊的流動物質，要找 tunnels / move through。原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The point is that water can also move through their tunnels.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "重點是 water 也可以通過牠們的 tunnels 移動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語就是 water，動詞是 can move through，位置是 their tunnels。若圖中的箭嘴穿過tunnels，答案自然是 water。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：water"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "bodily contraction / bodily contractions",
+      "answerKey": "bodily contraction / bodily contractions",
+      "type": "Diagram Completion",
+      "prompt": "Question 23",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目任務：這一格應該標示 worms 推動身體前進的動作方式。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The other great benefit relates to earthworms’ search for food.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一項巨大好處與 earthworms 尋找食物有關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, without worms, the ground would become waterlogged, airless, and less productive for farming purposes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，沒有 worms，土地會變得積水、缺乏空氣，農業生產力也會下降。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要找 movement mechanism，可掃描 push themselves、waves、shorten、lengthen。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“…they push themselves through the soil using waves of bodily contractions, which alternately shorten and lengthen their form.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠們利用一波波 bodily contractions 把自己推過土壤；這些收縮會交替縮短和拉長牠們的身體形態。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中若有 worm 身體縮短、伸長的動作，答案就是 bodily contractions。若空格前後文要求單數， bodily contraction 也可接受；原文原形是複數 contractions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：bodily contractions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "micro-organisms / soil micro-organisms",
+      "answerKey": "micro-organisms / soil micro-organisms",
+      "type": "Diagram Completion",
+      "prompt": "Question 24",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目任務：這一格應該標示 soil 中需要 oxygen 的生物。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6第一句和最後一句同上。這段後半處理 worms 如何讓 air 進出 soil，從而支持 soil life。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "要找 oxygen、air、soil。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the same way that animals need oxygen, so too do the myriad micro-organisms in the soil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "就像動物需要 oxygen 一樣，土壤中無數的 micro-organisms 也需要 oxygen。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若圖中已經有 “in the soil”，答案只需填 micro-organisms。若圖中空格完整要求 “_____ need oxygen”，則 soil micro-organisms 也可成立，而且符合兩個詞限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：micro-organisms / soil micro-organisms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "acidity",
+      "answerKey": "acidity",
+      "type": "Sentence Completion",
+      "prompt": "“Worm numbers will fall especially when the soil has high 25 _________.”",
+      "translation": "當土壤有很高的 _________ 時，worm numbers 尤其會下降。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion，限制是 NO MORE THAN TWO WORDS。空格在 “high” 後面，應填一個名詞，表示 soil 的某種性質。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Naturally, with so many worms in the soil, they form the base of many food chains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自然地，由於土壤中有這麼多 worms，牠們形成許多 food chains 的基礎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more ecologically aware farmer avoids such chemicals, and regularly adds a surface mulch of organic matter, raising worm numbers for the natural benefit of both soil and man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "較有生態意識的農夫會避免這些化學物質，並定期加入表層 organic matter mulch，提高 worm numbers，讓土壤和人類自然受益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段先講 worms 被捕食，後半轉向 fertilisers 對 worms 的更大威脅。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Worm numbers will fall”"
+            },
+            {
+              "kind": "quote",
+              "text": "“soil”"
+            },
+            {
+              "kind": "quote",
+              "text": "“high”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Earthworms depend on the temperature, texture, and moisture content of the soil, but they are most sensitive to its acidity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Earthworms 依賴土壤的 temperature、texture 和 moisture content，但牠們對土壤的 acidity 最敏感。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nitrogenous fertilisers can raise this to levels fatal to these creatures, often causing disastrous drops in numbers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nitrogenous fertilisers 可以把這一點提高到對這些生物致命的水平，常常造成數量災難性下降。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “this” 指前一句的 acidity。題目說 “soil has high ______”，原文說 nitrogenous fertilisers can raise acidity to fatal levels。high acidity 會令 worm numbers fall。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "high acidity= acidity raised to fatal levels worm numbers will fall= disastrous drops in numbers答案判斷：答案是 acidity。它是一個詞，符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "ecological awareness",
+      "answerKey": "ecological awareness",
+      "type": "Sentence Completion",
+      "prompt": "“Adding mulch to the soil shows 26 _________.”",
+      "translation": "向土壤加入 mulch 顯示 _________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion，空格在 shows 後面，需要一個名詞短語。題目要把某個 farmer 的行為概括成一種態度或意識。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Naturally, with so many worms in the soil, they form the base of many food chains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於土壤中有很多 worms，牠們自然成為許多 food chains 的基礎。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more ecologically aware farmer avoids such chemicals, and regularly adds a surface mulch of organic matter, raising worm numbers for the natural benefit of both soil and man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "較有生態意識的農夫會避免這些化學物質，並定期加入表層 organic matter mulch，提高 worm numbers，讓土壤和人類受益。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Adding mulch”"
+            },
+            {
+              "kind": "quote",
+              "text": "“soil”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shows”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“adds a surface mulch of organic matter”"
+            },
+            {
+              "kind": "label",
+              "text": "而這個動作的主體是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The more ecologically aware farmer”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說，會加入 surface mulch of organic matter 的，是 “more ecologically aware farmer”。題目把人物描述改成抽象名詞：“Adding mulch to the soil shows ______.” 也就是說，這個行為顯示ecological awareness。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過要誠實提醒一點：你貼出的原文用的是形容詞短語 “ecologically aware”，題目空格需要名詞短語，所以常見答案會寫成 ecological awareness。若嚴格要求完全逐字從你貼出的文章抽取，這裡有輕微題目／文本不一致；但按句子文法和標準答案邏輯，最合理答案是 ecological awareness。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ecologically aware farmer= a farmer showing ecological awareness adds a surface mulch of organic matter= Adding mulch to the soil答案判斷：答案是 ecological awareness。它是兩個詞，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Unsung and Lowly Creatures.pdf",
+    "sha256": "12565d42aebb1f76c070e44c89d37acb7afdebfffa3999dedc50a0f5264b39ec",
+    "pageCount": 17
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Paragraph 1 以 earthworms 不受注意開場：牠們 secretive、silent、slow-moving、featureless，很少人會認真看待。段尾卻引用 Darwin，說很少動物像這些 “lowly organised creatures” 一樣，在世界歷史中扮演如此重要角色。只看首尾句，這段功能很清楚：先降低讀者期待，再用 Darwin 的高度評價反轉印象。題目若問 Darwin 對 worms 的看法，這段一定要掃描。"
+      },
+      {
+        "number": "2",
+        "summary": "Paragraph 2 延續 Darwin 的讚美，開始描述 earthworm 的身體和繁殖。首句說這樣高的評價竟給了一條 slimy、muscular、moist、segmented tube；段尾說 egg case 會孵出 small but fully formed worms，約一年長成，之後再活一至兩年。只看首尾句，這段主要處理 worm 的 basic biology：身體分節、雌雄同體、繁殖過程、成長時間和壽命。題目若問 single worm 的結構或性別，定位在這段。"
+      },
+      {
+        "number": "3",
+        "summary": "Paragraph 3 首句說 earthworms 很少被看見，因為一生大多在地下；段尾說若牠們困在 concrete、rock 或 hardened earth 上，在黎明、盛夏或日光中會因鳥類捕食或脫水而死。只看首尾句，可以估計這段處理「為何雨後見到蚯蚓在地面」以及其危險。中間提出三個假說：burrows 被stormwater 淹、濕潤環境方便移動、或方便 meet and mate。題目若問 stormwater 或 worm movement，應看這段。"
+      },
+      {
+        "number": "4",
+        "summary": "Paragraph 4 首句說 worms 平日隱藏活動，令人低估牠們的真實數量；段尾則描述食物如何被suck into the body，再經 crop、gizzard、intestine，最後由 anus 排出。只看首尾句，這段有兩個重點：第一，地下 worm 數量和重量可能遠超直覺；第二，牠們有簡單但有效的 digestive system。題目若問 worm numbers、arable land、grazing animals 或 digestion sequence，目標多半是這段。"
+      },
+      {
+        "number": "5",
+        "summary": "Paragraph 5 首句指出，正是 earthworms 不斷進食，對 soil chemistry 有好處；段尾回到 Darwin的評語，說這些 unsung creatures 以 untold millions transformed the land。只看首尾句，可以先知道這段解釋 worms 為何重要：牠們吃 undecayed leaf litter 和 organic matter，拉入 burrows，撕碎後連同 small soil particles 一起吞食，在 gut 中磨成 fine paste，再排出並釋放 essential minerals。這段很適合圖表題和 soil-benefit 題。"
+      },
+      {
+        "number": "6",
+        "summary": "Paragraph 6 首句說另一大好處來自 earthworms 尋找食物的過程；段尾說沒有 worms，土地會變得 waterlogged、airless，農業生產力下降。只看首尾句，這段重點是 movement 對 soil structure 的影響。中間提到 lubricating mucus、bodily contractions、tunnels、water movement、air movement，以及 soil micro-organisms 需要 oxygen。題目若問 mucus、contractions、water、air、micro-organisms 或 farming productivity，應定位到這段。"
+      },
+      {
+        "number": "7",
+        "summary": "Paragraph 7 首句說 worms 數量多，所以成為很多 food chains 的基礎；段尾說 ecologically aware farmer 會避免這些 chemicals，並加入 surface mulch of organic matter，從而提高 worm numbers，讓土壤和人類受益。只看首尾句，這段由 predator-prey 關係轉入人類農業管理。中間最重要的風險是 nitrogenous fertilisers 會提高 soil acidity 到致命水平。題目若問 worm numbers fall 或 mulch，答案在此段。"
+      }
+    ]
+  }
+}

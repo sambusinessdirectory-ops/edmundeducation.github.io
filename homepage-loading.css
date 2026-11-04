@@ -1,0 +1,208 @@
+.homepage-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  display: grid;
+  place-items: center;
+  --homepage-loader-art-size: min(400px, 88vw, 74vh);
+  background: #7134a7;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: opacity 180ms ease, visibility 180ms ease;
+}
+
+.homepage-loader.has-animation {
+  background: linear-gradient(to bottom, #6030a9, #6832b5 calc(50% - var(--homepage-loader-art-size) / 2), #9b60eb calc(50% + var(--homepage-loader-art-size) / 2), #aa6bf0);
+}
+
+.homepage-loader.has-animation::before {
+  content: "";
+  position: absolute;
+  inset: auto 0;
+  top: calc(50% - var(--homepage-loader-art-size) / 2);
+  height: var(--homepage-loader-art-size);
+  background: url("data:image/png;base64,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") center top / calc(var(--homepage-loader-art-size) * .015) 100% repeat-x;
+  image-rendering: pixelated;
+}
+
+.homepage-loader.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+body.is-homepage-loading {
+  overflow: hidden;
+  background: #7134a7;
+}
+
+body.is-homepage-loading .eddy-global-overlay {
+  visibility: hidden !important;
+}
+
+.homepage-loader__art {
+  position: relative;
+  width: var(--homepage-loader-art-size);
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.homepage-loader__scene,
+.homepage-loader__scene svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.homepage-loader__scene {
+  position: absolute;
+  inset: 0;
+}
+
+.homepage-loader__scene {
+  opacity: 0;
+  image-rendering: pixelated;
+}
+
+.homepage-loader.has-animation .homepage-loader__scene {
+  opacity: 1;
+}
+
+.homepage-loader__label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .homepage-loader { transition: none; }
+}
+
+/* Phoebe keeps the approved checker-wall and wooden-counter composition. */
+html[data-homepage-loading-variant="phoebe"] .homepage-loader {
+  background: #d8a579;
+}
+
+html[data-homepage-loading-variant="phoebe"] body.is-homepage-loading {
+  background: #d8a579;
+}
+
+html[data-homepage-loading-variant="phoebe"] .homepage-loader.has-animation {
+  background: linear-gradient(to bottom, #d9a878 0%, #edbe96 42%, #f7d5af 60%, #d6a079 100%);
+}
+
+html[data-homepage-loading-variant="phoebe"] .homepage-loader.has-animation::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - var(--homepage-loader-art-size) / 2 + var(--homepage-loader-art-size) * .08);
+  height: calc(var(--homepage-loader-art-size) * .84);
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 96'%3E%3Cpath fill='%23b97148' fill-opacity='.37' d='M0 0h8v8H0zM8 8h8v8H8z'/%3E%3C/svg%3E") left top / calc(var(--homepage-loader-art-size) * .02) calc(var(--homepage-loader-art-size) * .12) repeat;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+html[data-homepage-loading-variant="phoebe"] .homepage-loader__art {
+  z-index: 1;
+}
+
+/* The gym wall extends behind Noir; equipment and bench stay inside the art. */
+html[data-homepage-loading-variant="noir"] .homepage-loader,
+html[data-homepage-loading-variant="noir"] body.is-homepage-loading {
+  background: #591820;
+}
+
+html[data-homepage-loading-variant="noir"] .homepage-loader.has-animation {
+  background: linear-gradient(to bottom, #541820 0%, #842029 29%, #b82b34 51%, #aa2831 65%, #591820 100%);
+}
+
+html[data-homepage-loading-variant="noir"] .homepage-loader.has-animation::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - var(--homepage-loader-art-size) / 2);
+  height: var(--homepage-loader-art-size);
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 400'%3E%3Cpath fill='%23500d18' fill-opacity='.38' d='M0 31h8v5H0zm8 5h8v5H8zM0 80h8v5H0zm8 5h8v5H8zM0 129h8v5H0zm8 5h8v5H8zM0 178h8v5H0zm8 5h8v5H8zM0 227h8v5H0zm8 5h8v5H8zM0 355h8v5H0zm8 5h8v5H8z'/%3E%3C/svg%3E") left top / calc(var(--homepage-loader-art-size) * .04) 100% repeat-x;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+html[data-homepage-loading-variant="noir"] .homepage-loader__art {
+  z-index: 1;
+}
+
+/* Celeste's forest wall continues beyond the finite harp and rug. */
+html[data-homepage-loading-variant="celeste"] .homepage-loader,
+html[data-homepage-loading-variant="celeste"] body.is-homepage-loading {
+  background: #102414;
+}
+
+html[data-homepage-loading-variant="celeste"] .homepage-loader.has-animation {
+  background: radial-gradient(ellipse at 50% 43%, #365324 0%, #243e1b 36%, #142b17 69%, #0c1e11 100%);
+}
+
+html[data-homepage-loading-variant="celeste"] .homepage-loader.has-animation::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - var(--homepage-loader-art-size) / 2);
+  height: var(--homepage-loader-art-size);
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 400'%3E%3Cpath fill='%230b2010' fill-opacity='.58' d='M0 31h8v5H0zM8 36h8v5H8zM0 80h8v5H0zM8 85h8v5H8zM0 129h8v5H0zM8 134h8v5H8zM0 178h8v5H0zM8 183h8v5H8zM0 227h8v5H0zM8 232h8v5H8zM0 355h8v5H0zM8 360h8v5H8z'/%3E%3C/svg%3E") left top / calc(var(--homepage-loader-art-size) * .04) 100% repeat-x;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+html[data-homepage-loading-variant="celeste"] .homepage-loader.has-animation::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: calc(var(--homepage-loader-art-size) * .1);
+  background: url("homepage-celeste-canopy.webp") center top / calc(var(--homepage-loader-art-size) * 2) 100% repeat-x;
+  image-rendering: pixelated;
+  opacity: .48;
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 0%, transparent 100%);
+  pointer-events: none;
+}
+
+html[data-homepage-loading-variant="celeste"] .homepage-loader__art {
+  z-index: 1;
+}
+
+/* Elsie's music room keeps the pink and blue wall continuous at every width. */
+html[data-homepage-loading-variant="elsie"] .homepage-loader,
+html[data-homepage-loading-variant="elsie"] body.is-homepage-loading {
+  background: #b8447e;
+}
+
+html[data-homepage-loading-variant="elsie"] .homepage-loader.has-animation {
+  background: linear-gradient(to bottom, #b8447e 0%, #cf528b 28%, #7150a0 43%, #c64b88 61%, #a6434f 100%);
+}
+
+html[data-homepage-loading-variant="elsie"] .homepage-loader.has-animation::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - var(--homepage-loader-art-size) / 2);
+  height: var(--homepage-loader-art-size);
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 400'%3E%3Cpath fill='%235c489e' fill-opacity='.44' d='M0 14h8v5H0zM8 19h8v5H8zM0 62h8v5H0zM8 67h8v5H8zM0 110h8v5H0zM8 115h8v5H8zM0 157h8v5H0zM8 162h8v5H8zM0 204h8v5H0zM8 209h8v5H8zM0 373h8v5H0zM8 378h8v5H8z'/%3E%3C/svg%3E") left top / calc(var(--homepage-loader-art-size) * .04) 100% repeat-x;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+html[data-homepage-loading-variant="elsie"] .homepage-loader__art {
+  z-index: 1;
+}

@@ -1,0 +1,543 @@
+{
+  "id": "proverb-07",
+  "titleEn": "Blue Are the Hills That Are Far Away",
+  "titleZh": "遠山看來格外美",
+  "version": "2026-10-28.1",
+  "scoredCount": 12,
+  "items": [
+    {
+      "id": "proverb-07-q01",
+      "number": 1,
+      "promptEn": "Yi loved photos of a distant town, but a week there revealed that the bus ran only twice daily.",
+      "promptZh": "阿怡看見遠方小鎮的照片，想搬去；住了一週才發現巴士每天只開兩班。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The town looked effortless from afar, but daily travel was awkward—blue are the hills that are far away.",
+          "reasonZh": "遠看美好，近看才發現交通限制。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The town had frequent buses all day—blue are the hills that are far away.",
+          "reasonZh": "原文說巴士每天只有兩班。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Yi had checked the bus timetable before admiring the town—blue are the hills that are far away.",
+          "reasonZh": "她是住下後才發現。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "A limited bus service proves nobody can enjoy the town—blue are the hills that are far away.",
+          "reasonZh": "交通不便不證明人人不喜歡小鎮。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-07-q02",
+      "number": 2,
+      "promptEn": "Long had seen only promotional clips of a seaside job; after starting, he found winters very windy.",
+      "promptZh": "阿朗只見過海邊工作的宣傳片；上班後才知道冬天經常大風。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The job seemed idyllic at a distance, before Long experienced winter winds—blue are the hills that are far away.",
+          "reasonZh": "遠觀的理想與親身經歷形成落差。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The clips had clearly warned Long about winter winds—blue are the hills that are far away.",
+          "reasonZh": "題目說他只看過宣傳片。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Long had worked there for years before watching the clips—blue are the hills that are far away.",
+          "reasonZh": "他在上班後才知冬天情況。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Winter winds prove the employer had lied about every aspect—blue are the hills that are far away.",
+          "reasonZh": "大風不證明宣傳的所有內容均虛假。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-07-q03",
+      "number": 3,
+      "promptEn": "Lan envied the quiet of a remote island; during a visit she learned the hospital was two hours away by boat.",
+      "promptZh": "阿嵐羨慕遠方島上的安靜，探訪後才發現醫院要坐船兩小時。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The island’s quiet appealed from afar, but a visit exposed a practical difficulty—blue are the hills that are far away.",
+          "reasonZh": "遠方印象忽略了醫療距離的細節。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The hospital was within a short walk—blue are the hills that are far away.",
+          "reasonZh": "原文是坐船兩小時。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Lan had already lived on the island for years—blue are the hills that are far away.",
+          "reasonZh": "她是探訪時才知道。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The distant hospital means no one should ever live there—blue are the hills that are far away.",
+          "reasonZh": "困難值得考慮，不等於無人適合居住。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-07-q04",
+      "number": 4,
+      "promptEn": "A café looked dreamy online; after joining, Ki learned that opening time was 4 a.m. every day.",
+      "promptZh": "網上看來夢幻的咖啡室，阿琪入職後才知每日要在凌晨四時開門。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The café looked attractive from afar, before Ki learned its early hours—blue are the hills that are far away.",
+          "reasonZh": "入職後才見到遠觀時未察覺的要求。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The café opened at noon each day—blue are the hills that are far away.",
+          "reasonZh": "題目說凌晨四時開門。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Ki had known its hours before applying—blue are the hills that are far away.",
+          "reasonZh": "她在入職後才知道。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "An early shift makes every café job unbearable—blue are the hills that are far away.",
+          "reasonZh": "早班辛苦不代表所有人無法接受。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-07-q05",
+      "number": 5,
+      "promptEn": "A ski village looked peaceful from a distance; on arrival, Man found it crowded in peak season.",
+      "promptZh": "遠山的滑雪村看來寧靜；阿文到場後發現旺季十分擠迫。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The village seemed peaceful from afar, but peak season was crowded—blue are the hills that are far away.",
+          "reasonZh": "遠看寧靜，走近才見旺季人潮。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The village remained empty in peak season—blue are the hills that are far away.",
+          "reasonZh": "與到場後擠迫的事實相反。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Man had already seen the crowds before forming his impression—blue are the hills that are far away.",
+          "reasonZh": "原文說到場後才發現。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The crowd proves the mountains were not beautiful—blue are the hills that are far away.",
+          "reasonZh": "人多不否定山本身的美。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-07-q06",
+      "number": 6,
+      "promptEn": "Min imagined a foreign university dormitory was spacious from its photos; the room was small when she visited.",
+      "promptZh": "阿敏以為外國大學的宿舍像照片般寬敞，參觀後才見房間很小。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The distant dormitory looked roomier than it proved to be—blue are the hills that are far away.",
+          "reasonZh": "照片與實地所見出現落差。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The dormitory was even larger than the photos showed—blue are the hills that are far away.",
+          "reasonZh": "參觀後看見的是小房間。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Min measured the room before seeing the photos—blue are the hills that are far away.",
+          "reasonZh": "她是先看照片才參觀。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "A small room means the whole university is poor—blue are the hills that are far away.",
+          "reasonZh": "房間大小不能評定整所大學。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-07-q07",
+      "number": 7,
+      "promptEn": "From the city, rural life looked easy; after starting farm work, an uncle learned how hard early mornings were.",
+      "promptZh": "從城市看田園生活很輕鬆；阿叔真的務農後才了解清晨的勞動。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Farm life looked easy from afar, but the early work was demanding—blue are the hills that are far away.",
+          "reasonZh": "遠觀的輕鬆印象被實際勞動修正。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Farm work proved effortless at dawn—blue are the hills that are far away.",
+          "reasonZh": "原文說清晨勞動辛苦。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The uncle had farmed all his life before moving—blue are the hills that are far away.",
+          "reasonZh": "他是開始務農後才體會。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Hard mornings mean rural life has no rewards—blue are the hills that are far away.",
+          "reasonZh": "辛苦不等於沒有其他收穫。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-07-q08",
+      "number": 8,
+      "promptEn": "Sze envied a remote cabin with no rent; a visit showed her the winter chore of carrying firewood.",
+      "promptZh": "阿思羨慕遠方山屋不用交租，探訪後才知冬天要自己搬柴。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The cabin looked simple from afar, before its winter chores became clear—blue are the hills that are far away.",
+          "reasonZh": "遠處看不到日常勞動。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The cabin required no winter chores—blue are the hills that are far away.",
+          "reasonZh": "原文說要搬柴。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Sze had carried its firewood every winter before visiting—blue are the hills that are far away.",
+          "reasonZh": "她探訪後才知道。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Having chores means the cabin is worthless to everyone—blue are the hills that are far away.",
+          "reasonZh": "有家務不等於毫無價值。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-07-q09",
+      "number": 9,
+      "promptEn": "Kin admired another city’s skyline; during a trial stay, he found poor street lighting at night.",
+      "promptZh": "阿健憧憬另一城市的夜景；試住時才發現晚上街燈不足。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The skyline drew Kin from afar, but the street-level experience differed—blue are the hills that are far away.",
+          "reasonZh": "城市遠景與街道細節不同。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The city’s streets were brightly lit everywhere—blue are the hills that are far away.",
+          "reasonZh": "原文是街燈不足。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Kin had lived there long before admiring the skyline—blue are the hills that are far away.",
+          "reasonZh": "試住後才發現。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Poor street lighting proves there is no beautiful view—blue are the hills that are far away.",
+          "reasonZh": "街燈問題不抹掉夜景可能的美。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-07-q10",
+      "number": 10,
+      "promptEn": "A distant castle looked romantic; on the tour, Li encountered steep stairs without handrails.",
+      "promptZh": "遠處的古堡很浪漫；導覽時阿莉才看見陡峭又沒有扶手的樓梯。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The castle looked romantic from afar, but visiting revealed difficult stairs—blue are the hills that are far away.",
+          "reasonZh": "遠觀的浪漫與近處的難行形成對比。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The castle had easy stairs with handrails—blue are the hills that are far away.",
+          "reasonZh": "原文說沒有扶手的陡梯。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Li had toured the castle before finding it romantic from afar—blue are the hills that are far away.",
+          "reasonZh": "題目說導覽時才看見。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Steep stairs prove the castle has no history—blue are the hills that are far away.",
+          "reasonZh": "樓梯不否定古堡的歷史。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-07-q11",
+      "number": 11,
+      "promptEn": "Photos made a desert hotel seem perfect to Tung; after arriving, she discovered unreliable internet.",
+      "promptZh": "看別人的旅行照片，阿彤覺得沙漠酒店完美；到場後才知道沒有穩定網絡。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The hotel’s distant image hid a practical inconvenience—blue are the hills that are far away.",
+          "reasonZh": "照片沒呈現網絡限制。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The internet worked reliably throughout the stay—blue are the hills that are far away.",
+          "reasonZh": "與網絡不穩的事實相反。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Tung tested the hotel network before looking at the photos—blue are the hills that are far away.",
+          "reasonZh": "她是在到場後才知情。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Unreliable internet makes every desert trip a failure—blue are the hills that are far away.",
+          "reasonZh": "網絡問題不必然毀掉所有旅程。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-07-q12",
+      "number": 12,
+      "promptEn": "An old district looked picturesque from afar; while flat-hunting there, Shan learned many buildings lacked lifts.",
+      "promptZh": "遠方的舊城區像畫；實地找住處時，阿珊才知道很多樓房沒有電梯。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The charming distant view did not show the daily difficulty of stairs—blue are the hills that are far away.",
+          "reasonZh": "找樓時才看見遠景遮蓋的生活細節。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Every building in the district had a lift—blue are the hills that are far away.",
+          "reasonZh": "原文說很多樓房沒有電梯。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Shan had checked each building before admiring the district—blue are the hills that are far away.",
+          "reasonZh": "她是找住處時才了解。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "A lack of lifts means no one could enjoy the old district—blue are the hills that are far away.",
+          "reasonZh": "不便不能推出無人欣賞。",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "guide": {
+    "meaning": {
+      "zh": "遠方的事物因細節和缺點不易看清，可能顯得特別吸引。",
+      "en": "Things far away can seem especially attractive because their difficulties are less visible."
+    },
+    "model": {
+      "zh": "阿琳只看見海島工作的照片；真正住下來後，才發現交通十分不便。",
+      "en": "Lynn loved the photos of island life, but the daily travel proved difficult—blue are the hills that are far away."
+    },
+    "picture": {
+      "zh": "從遠處看山，輪廓平滑美麗；走近才看見陡坡和碎石。",
+      "en": "From afar the hill has a smooth blue outline; up close, the steep path and loose stones come into view."
+    },
+    "boundary": {
+      "zh": "不是說遠方一定不好，而是提醒人留意距離造成的美化。",
+      "en": "The proverb does not say distant places are bad; it warns that distance can hide drawbacks."
+    },
+    "where": {
+      "zh": "適合比較想像中的城市、工作或生活與親身所見的差異。",
+      "en": "Use it when an imagined place, job, or lifestyle looks better from a distance than it does close up."
+    },
+    "tone": {
+      "zh": "帶反思或輕微警惕；避免對別人的理想抱嘲笑態度。",
+      "en": "Reflective or gently cautionary; avoid mocking another person’s hopes."
+    },
+    "checks": [
+      {
+        "zh": "吸引力是否來自遠觀？",
+        "en": "Is the appeal linked to distance?"
+      },
+      {
+        "zh": "走近後有甚麼新細節？",
+        "en": "What becomes visible up close?"
+      },
+      {
+        "zh": "我有沒有把警惕說成否定？",
+        "en": "Am I turning caution into dismissal?"
+      }
+    ],
+    "readAloud": {
+      "zh": "從網上看，那間山中小屋很完美；到場才知道每天要走很遠取水。",
+      "en": "The mountain cabin looked perfect online, but we discovered the long walk for water—blue are the hills that are far away."
+    },
+    "choices": {
+      "2": {
+        "prompt": {
+          "zh": "哪個情境有「遠看更美」的線索？",
+          "en": "Which scene contains the distance effect?"
+        },
+        "options": [
+          {
+            "zh": "她嚮往遠方城市；住下後才發現漫長通勤。",
+            "en": "She admired the distant city, then discovered its long commute after moving there.",
+            "reasonZh": "遠處的想像與近處的實際形成對比。",
+            "correct": true
+          },
+          {
+            "zh": "她一向知道那座城市交通擠塞，仍選擇搬去。",
+            "en": "She knew about the crowded transport before choosing to move.",
+            "reasonZh": "沒有因距離而忽略的缺點。",
+            "correct": false
+          },
+          {
+            "zh": "她只看見遠處的山是藍色，沒有其他想法。",
+            "en": "She only notices that a distant hill looks blue.",
+            "reasonZh": "只有字面顏色，沒有被美化的判斷。",
+            "correct": false
+          }
+        ]
+      },
+      "3": {
+        "prompt": {
+          "zh": "朋友想搬去從未到過的城市，哪個回應最有幫助？",
+          "en": "A friend wants to move to a city they have never visited. Which response helps?"
+        },
+        "options": [
+          {
+            "zh": "「先去住幾天，看看日常生活是否也合你意。」",
+            "en": "“Try staying there for a few days and see what everyday life is like.”",
+            "reasonZh": "提醒查證細節，沒有否定選擇。",
+            "correct": true
+          },
+          {
+            "zh": "「遠山看來格外美，所以那城市一定很糟。」",
+            "en": "“Blue are the hills that are far away, so that city must be awful.”",
+            "reasonZh": "諺語不證明城市不好。",
+            "correct": false
+          },
+          {
+            "zh": "「照片漂亮，就證明住在那裏沒有任何困難。」",
+            "en": "“The photos look beautiful, so living there cannot be difficult.”",
+            "reasonZh": "照片不足以涵蓋日常條件。",
+            "correct": false
+          }
+        ]
+      },
+      "5": {
+        "prompt": {
+          "zh": "廣告中的遠方學校很理想，探訪後卻發現課程不合適。哪句貼切？",
+          "en": "A distant school looks ideal in its advert, but a visit reveals the course is unsuitable. Which line fits?"
+        },
+        "options": [
+          {
+            "zh": "「宣傳照讓它看來完美；遠山看來格外美。」",
+            "en": "“The advert made it look perfect—blue are the hills that are far away.”",
+            "reasonZh": "點出遠觀帶來的美化。",
+            "correct": true
+          },
+          {
+            "zh": "「探訪證明所有遠方學校都不好；遠山看來格外美。」",
+            "en": "“The visit proves every distant school is bad—blue are the hills that are far away.”",
+            "reasonZh": "一間學校不能代表所有遠方學校。",
+            "correct": false
+          },
+          {
+            "zh": "「課程完全合適；遠山看來格外美。」",
+            "en": "“The course was a perfect fit—blue are the hills that are far away.”",
+            "reasonZh": "與探訪結果矛盾。",
+            "correct": false
+          }
+        ]
+      },
+      "6": {
+        "prompt": {
+          "zh": "這句諺語最合理的界線是甚麼？",
+          "en": "What is the soundest boundary for this proverb?"
+        },
+        "options": [
+          {
+            "zh": "「遠處看不清缺點；走近後也可能發現它確實很好。」",
+            "en": "“Distance can hide drawbacks; closer inspection might also confirm that something is good.”",
+            "reasonZh": "避免把警告當作必然失望。",
+            "correct": true
+          },
+          {
+            "zh": "「任何遠方事物都只會令人失望。」",
+            "en": "“Everything far away will disappoint us.”",
+            "reasonZh": "把可能性說成必然。",
+            "correct": false
+          },
+          {
+            "zh": "「這句話只可用來談山的顏色。」",
+            "en": "“The saying can refer only to the colour of hills.”",
+            "reasonZh": "忽略比喻用法。",
+            "correct": false
+          }
+        ]
+      }
+    }
+  }
+}

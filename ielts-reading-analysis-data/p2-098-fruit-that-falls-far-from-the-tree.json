@@ -1,0 +1,1107 @@
+{
+  "id": "p2-098-fruit-that-falls-far-from-the-tree",
+  "catalogueId": "p2-098",
+  "catalogueIds": [
+    "p2-098"
+  ],
+  "passage": 2,
+  "title": "Fruit that Falls Far from the Tree",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "C",
+    "H",
+    "G",
+    "D",
+    "A",
+    "B",
+    "D",
+    "E",
+    "H",
+    "A",
+    "B",
+    "B",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "Paragraph C",
+      "answerKey": "Paragraph C",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "是人才流失，還是人才增益？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brain gain or brain drain?”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The answer to the Senegal conundrum is of course ‘both’: the best players leave, and the dream of emulating them motivates many others to take their place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Senegal 這個難題的答案當然是「兩者皆有」：最好的球員離開，而仿效他們的夢想也激勵許多其他人填補位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the temptation is strong enough, and the chances of landing a visa low enough, the poor country could even come out ahead: it might gain more qualified (if disappointed) doctors and engineers than it loses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果誘惑足夠強，而取得簽證的機會足夠低，貧窮國家甚至可能得益：它得到的合資格醫生和工程師，可能多於流失的人數，雖然當中有些人會因未能出國而失望。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯在比較兩種效果：人才離開造成 brain drain；出國前景刺激更多人讀書和受訓，形成 brain gain。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “brain gain” 和 “brain drain”。Paragraph C 直接出現 “brain drain”，也出現 Mr Stark calls this a “brain gain”。這兩個詞同段出現，基本已經把目標段落鎖定。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The real question is whether the second effect outweighs the first, leaving the game in Senegal stronger or weaker than it otherwise would be.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正問題在於第二種效果是否超過第一種效果，從而令 Senegal 的足球比原本更強或更弱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“the first” 指最好球員離開，即 drain。“the second effect” 指其他人因夢想而投入，即 gain。 Heading “Brain gain or brain drain?” 正好概括整段的核心對比，所以答案是 Paragraph C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "Paragraph H",
+      "answerKey": "Paragraph H",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "人才大量失血。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Brain haemorrhage”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Messrs Kapur and McHale think India’s relatively happy experience with its educated émigrés is more likely to be the exception than the rule.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Kapur 和 McHale 認為，India 對受教育移民的相對正面經驗，更可能是例外，並非常態。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is not a stimulative leeching of talent; it is a haemorrhage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這並非刺激性的少量人才流失；這是大量失血。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經很清楚：這段先說 India 的情況是例外，最後用 haemorrhage 作結。題目 heading 直接來自最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “haemorrhage”。Paragraph H 最後一句原字重現，這是最強證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文先給出比較數字："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its million-strong brain drain represents just 4.3% of its vast graduate population, according to the Bank. By contrast, almost 47% of Ghana’s highly educated native sons live in the OECD; for Guyana, the figure is 89%.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據世界銀行，India 超過一百萬人的 brain drain 只佔其龐大畢業人口的 4.3%。相比之下， Ghana 幾乎 47% 的高教育本地人住在 OECD；Guyana 的數字是 89%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些數字解釋為何作者用 “haemorrhage”。India 的流失比例低；Ghana 和 Guyana 的比例極高，所以已經像大量失血。Heading 15 配 Paragraph H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "Paragraph G",
+      "answerKey": "Paragraph G",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "移民可以成為連接者。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Migrants can be connectors”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“India’s valley dwellers represent just one contingent in a much larger diaspora.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "India 的 Silicon Valley 群體只是更大 diaspora 中的一部分。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its members can be a source of know-how and money, and provide valuable entrées into foreign markets and supply chains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "diaspora 成員可以成為知識和資金來源，並提供進入外國市場和供應鏈的寶貴門路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句引入 diaspora，尾句說 diaspora members 帶來 know-how、money、foreign markets、supply chains。這段最適合 “connectors”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “connectors”。原文沒有用 connector，但有 “source of know-how and money” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“provide valuable entrées into foreign markets and supply chains”。這些都是連接母國和國際資源的功能。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“This largely successful diaspora is more than just something to envy and emulate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個大致成功的 diaspora 不只值得羨慕和仿效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著說它能提供 know-how、money、foreign markets、supply chains。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“connectors” 是對這些功能的概括：移民不只離開本國，也能連接本國與外國知識、資金和市場。答案是 Paragraph G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "Paragraph D",
+      "answerKey": "Paragraph D",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "機會促使人接受更長教育。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Opportunities lead to longer education”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As with all debates about the brain drain, theory has run ahead of evidence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "和所有 brain drain 辯論一樣，理論已經走在證據前面。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because they can aspire to a world beyond the village, even if they never reach it, young Mexicans have an added reason to stay in school beyond a ninth year, the authors show.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究作者顯示，因為年輕 Mexican 可以嚮往村莊以外的世界，即使未必真正到達，他們也多了一個讀完九年級後繼續留校的理由。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "尾句直接說外面世界的機會令年輕人 stay in school beyond a ninth year，這就是 longer education。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “opportunities”、“longer education”。原文對應 “aspire to a world beyond the village” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“stay in school beyond a ninth year”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Despite this, the example the leavers set (and the job leads they provide) raises the average level of schooling of those left behind.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管如此，離開者樹立的榜樣，以及他們提供的工作線索，提高了留下者的平均教育水平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "leavers 的例子和 job leads 提供了機會；平均 schooling level 上升就是 longer education。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading 17 配 Paragraph D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A, B, D, E, H",
+      "answerKey": "A, B, D, E, H",
+      "type": "Multiple-answer Questions",
+      "prompt": "Questions 18–22",
+      "translation": "醫護人員外流比足球員外流更重要。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "注意：E 是最合理第五項，但 “unsuccessful in getting to America” 在原文中沒有直接明示。若用最嚴格文本標準，E 需要加星號理解。"
+            },
+            {
+              "kind": "label",
+              "text": "A 正確Statement："
+            },
+            {
+              "kind": "quote",
+              "text": "“Emigration of health care workers is more important than that of footballers.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句引入 Kapur 和 McHale 的書，尾句用 Ghana doctors 的外流作例子。這段把 footballers 的visible example 轉到 doctors、nurses、teachers 的 serious brain drain。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “health care workers”、“footballers”。原文對應 “African players” 以及 “doctors, nurses, and teachers”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They see the emigration of African players as a highly visible example of the ‘brain drain’. Less visible, but more worrying, is the departure of the poor world’s doctors, nurses, and teachers to more lucrative job markets in the rich world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們把 African players 的移民視為 brain drain 的高度可見例子。較不顯眼但更令人擔心的，是貧窮世界的醫生、護士和教師前往富裕世界更有利可圖的就業市場。"
+            },
+            {
+              "kind": "quote",
+              "text": "“more worrying” 支援選項中的 “more important”。足球員是醒目的例子，醫生和護士外流對 poor countries 的社會後果更嚴重，所以 A 正確。 B 正確Statement：“If the chances of getting a visa to a rich country are low, this could benefit poor countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果取得富國簽證的機會低，這可能對貧窮國家有利。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說 Senegal 問題答案是 both；尾句說如果 temptation 強、visa chances 低，poor country could come out ahead。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “visa”、“low”、“benefit poor countries”。原文有 “chances of landing a visa low enough”和 “poor country could even come out ahead”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the temptation is strong enough, and the chances of landing a visa low enough, the poor country could even come out ahead…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果誘惑足夠強，且取得簽證的機會足夠低，貧窮國家甚至可能得益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "come out ahead = benefit / gain overall。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目和原文意思一致，所以 B 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "D 正確Statement："
+            },
+            {
+              "kind": "quote",
+              "text": "“A person’s productivity depends, to a certain extent, on the productivity of those around them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個人的生產力，在某程度上取決於身邊人的生產力。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句問教育水平提高是否一定好；尾句說 Stark 視 limited emigration 為修正 market failure 的方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “productivity” 和 “around them”。原文有幾乎直接對應的 “A person’s productivity depends on the skills of those around him, as well as his own.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A person’s productivity depends on the skills of those around him, as well as his own.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個人的生產力取決於身邊人的技能，也取決於他自己的技能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “skills of those around him” 改寫成 “productivity of those around them”。嚴格說，skills 和productivity 不完全同字，但在這裡屬於可接受概括：身邊人的技能水平會影響個人生產力。D 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "E 最合理第五項Statement："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many Indians were unsuccessful in getting to America, so they set up coding industries in India.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多印度人未能成功前往 America，所以在 India 建立 coding industries。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說 India’s software engineers 可能是前段原理的例子；尾句說 Silicon Valley 夢想吸引很多印度年輕人學 coding，足以孵化本土 software industry。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Indians”、“America”、“coding industries”。原文有 “dream of a job in Silicon Valley”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“lure many … into coding”、“hatch an indigenous software industry”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The dream of a job in Silicon Valley, however, was enough to lure many of India’s bright young things into coding, and that was enough to hatch an indigenous software industry where none existed before.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，一份 Silicon Valley 工作的夢想，足以吸引許多印度優秀年輕人投入 coding；這已足以在本來沒有本土軟件業的地方孵化出本土軟件業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句支援：海外機會吸引印度人學 coding，結果 India 出現本土 software industry。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “unsuccessful in getting to America” 沒有在 Paragraph F 直接寫出。它要靠Paragraph C 的 brain gain 原理補足：很多人受海外機會吸引受訓，但真正能取得 visa 的人較少，留下來的人才可能推動本土產業。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，若嚴格逐字判斷，E 的證據較弱；但題目要求 FIVE，E 是最合理第五項。"
+            },
+            {
+              "kind": "label",
+              "text": "H 正確Statement："
+            },
+            {
+              "kind": "quote",
+              "text": "“International migration policy is largely decided by rich countries rather than poor ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "國際移民政策主要由富國決定，而非由貧窮國家決定。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句承認 emigration 可能刺激成就；尾句說 rich world 將更激烈爭奪 bright and qualified。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “migration policy”、“rich countries”、“poor countries”。原文對應 “host countries’ rules”和 “home countries’ interests”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The drain of educated minds from poor countries is mostly determined by host countries’ rules, not home countries’ interests.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "貧窮國家的受教育人才外流，主要由接收國的規則決定，沒有按原居國利益主導。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "host countries = usually richer destination countries home countries = poor source countries這正好支援 H。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項簡析C 錯：原文說 people flows 的數據比 goods or capital flows 更 patchy，沒有說 money flow 難以量度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F 錯：原文說 unknown number acquired education outside India，不能推出 most。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G 錯：文章沒有說 most Indian emigrants return to India。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "A — was not expected to beat France in the 2002 World Cup.",
+      "answerKey": "A — was not expected to beat France in the 2002 World Cup.",
+      "type": "Multiple Choice",
+      "prompt": "Senegal 的情況是甚麼？",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 France 是 reigning world champions，卻輸給 Senegal。最後一句提出 European clubs是否奪走 Senegal 最好球員，或是否刺激更多人踢球。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Senegal”、“France”、“2002 World Cup”。原文第一句直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 2002 football World Cup, France, the reigning world champions, suffered a humiliating defeat to unfancied Senegal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 2002 年足球 World Cup 中，France 作為衛冕世界冠軍，遭到不被看好的 Senegal 羞辱性擊敗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“unfancied Senegal” = 不被看好、不被預期會勝出。所以 A 正確。 B 錯：文章沒有說 Senegal 提供歐洲大部分 African players。 C 錯：文章沒有比較 Senegal 和其他 African countries 的輸出人數。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "B — they encourage other people to play football.",
+      "answerKey": "B — they encourage other people to play football.",
+      "type": "Multiple Choice",
+      "prompt": "Senegal 球員離開去 Europe 為何可能有益？",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說答案是 both：最好的球員離開，但模仿他們的夢想激勵其他人補上位置。這已經鎖定答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “beneficial”、“encourage”、“other people”。原文對應 “the dream of emulating them motivates many others to take their place”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The answer to the Senegal conundrum is of course ‘both’: the best players leave, and the dream of emulating them motivates many others to take their place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Senegal 這個難題的答案當然是兩者皆有：最好球員離開，而仿效他們的夢想激勵許多其他人接替他們的位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 的 “encourage other people to play football” 對應 “motivates many others to take their place”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 錯：原文說 “the best players leave”，所以並非 “not actually the best players”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯：原文沒有說 Senegal 有太多 footballers。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "B — international migration is hard to measure.",
+      "answerKey": "B — international migration is hard to measure.",
+      "type": "Multiple Choice",
+      "prompt": "Oded Stark 為何研究 internal migration？",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說 brain drain 理論多於證據；接著說 international flows of people 的數據比 goods or capital 更不完整，因此 Stark 研究 internal migration。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Oded Stark”、“internal migration”。原文有 “Mr Stark and his co-authors investigate internal migration instead.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The numbers on international flows of people are much patchier than those on cross-border flows of goods or capital. In a recent paper, Mr Stark and his co-authors investigate internal migration instead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於國際人口流動的數字，比跨境商品或資本流動的數字零散得多。在近期一篇論文中，Stark和共同作者因此改為研究國內遷移。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“patchier” 表示數據不完整、較難可靠量度。因此 B 正確。 A 錯：文章沒有說 Stark 來自 Mexico。 C 錯：文章確實提到 Mexican internal migration，但這是研究對象，不是研究原因。原因在於international migration data 不足。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A — it represents a small percentage of India’s highly educated population.",
+      "answerKey": "A — it represents a small percentage of India’s highly educated population.",
+      "type": "Multiple Choice",
+      "prompt": "為何 India’s brain drain 不是大問題？",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說 India 的 happy experience 可能是 exception；中間給出 India brain drain 佔 graduate population 的比例；尾句拿 Ghana 和 Guyana 對比，稱那是 haemorrhage。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “India’s brain drain”、“not a big problem”。原文對應 “just 4.3% of its vast graduate population”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Its million-strong brain drain represents just 4.3% of its vast graduate population, according to the Bank.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據世界銀行，India 超過一百萬人的 brain drain 只佔其龐大畢業人口的 4.3%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“just 4.3%” 是控制答案的細節。雖然絕對人數超過一百萬，但放在 India 巨大的 graduate population 中，比例很小。A 正確。 B 錯：Indian people spread worldwide 本身不解釋為何問題不大。 C 錯：文章沒有說 India’s government carefully restricts emigration；最後一段還說外流多由 host countries’ rules 決定。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Fruit that Falls Far from the Tree.pdf",
+    "sha256": "c83a81e28f5b0800ffd65e6d16ad94f1a925a22c88869c5bfdb119a0971b5b96",
+    "pageCount": 15
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句用 2002 World Cup 的 France vs Senegal 作開場，France 是 reigning world champions，卻輸給 unfancied Senegal。尾句提出核心疑問：歐洲球會到底搶走 Senegal 最好球員，還是歐洲高薪前景鼓勵更多 Senegalese 踢足球？只看首尾句，可以看到這段用足球移民作引子，帶出talent migration 的雙面問題：流失精英，同時可能刺激本國人才培養。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說這個問題來自 Kapur 和 McHale 的新書。尾句說 Ghana 醫生很少，且大約四分之三醫生在取得資格後十年內離開。首尾句顯示這段把 football migration 擴展到 brain drain：非洲球員外流只是 visible example，更令人擔心的是 poor world 的 doctors、nurses、teachers 前往 rich world。這段重點是專業人才流失，特別是醫療和教育人才。"
+      },
+      {
+        "number": "C",
+        "summary": "首句直接回答 Senegal 問題：答案當然是 both，即最好球員會離開，追隨他們的夢想也會激勵其他人補上。尾句說如果誘惑夠強、取得簽證機會夠低，poor country 甚至可能 gain more qualified doctors and engineers than it loses。首尾句顯示這段主題是 brain drain 和 brain gain 的模糊淨效果：人才流失可能有害，也可能刺激教育投資。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說在 brain drain 辯論中，theory has run ahead of evidence，理論走得比證據快。尾句說年輕 Mexican 因為能想像村莊以外的世界，即使未必離開，也有額外理由讀過九年級。這段功能是用 Mexican internal migration 補證據：國際人口流動數據不足，所以 Stark 等人研究國內遷移，發現離開者的榜樣和工作線索會提高留下者的教育水平。"
+      },
+      {
+        "number": "E",
+        "summary": "首句提出追問：即使 brain drain 留下一個更高教育水平的人口，這是否一定好？尾句說 Stark 把limited emigration 看成修正 market failure 的一種方法。首尾句顯示這段討論教育投資的經濟理由：教育有成本，個人可能低估教育對整體經濟的 spillover benefits。因為個人教育可提高周圍人的生產力，有限移民機會可能鼓勵更多人投資教育。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 India’s software engineers 可能是這個原理運作的例子。尾句說 Silicon Valley 工作夢想吸引很多印度年輕人學 coding，最終足以孵化本地 software industry。這段功能是把前文 brain gain 理論放入印度例子：本來沒有軟件業，學生也缺少學 coding 的理由；海外機會成為誘因，結果本土也累積了足夠工程人才。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 India’s valley dwellers 只是更大 diaspora 中的一部分。尾句說這個成功 diaspora 不只值得羨慕和模仿，其成員也可帶來 know-how、money，並提供進入 foreign markets and supply chains 的 valuable entrées。只看首尾句，這段主題是 migrants / diaspora 的連接作用：受教育移民不只離開母國，也可成為知識、資金和國際市場網絡的橋樑。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Kapur 和 McHale 認為 India with educated émigrés 的相對正面經驗較可能是例外。尾句用 “haemorrhage” 形容某些國家的人才流失。首尾句顯示這段在反駁過度樂觀：India 的 brain drain 只佔其龐大 graduate population 的 4.3%，但 Ghana 和 Guyana 的高教育人口外流比例極高。這種情況已近乎大量失血，難以稱為刺激性流失。"
+      },
+      {
+        "number": "I",
+        "summary": "首句承認 emigration 可能像 Stark 所說，刺激人們取得更大成就，也讓 poor world’s talent 有全球競爭機會。尾句說 rich world 未來看來會更激烈地爭奪 bright and qualified。這段功能是總結政策困難：移民流向多由 host countries’ rules 決定，未必配合 home countries’ interests。富國因人口老化需要補充納稅勞動力，將更積極吸納高技能人才。"
+      }
+    ]
+  }
+}

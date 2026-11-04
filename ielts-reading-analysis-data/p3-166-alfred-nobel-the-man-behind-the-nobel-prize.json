@@ -1,0 +1,1868 @@
+{
+  "id": "p3-166-alfred-nobel-the-man-behind-the-nobel-prize",
+  "catalogueId": "p3-166",
+  "catalogueIds": [
+    "p3-166"
+  ],
+  "passage": 3,
+  "title": "Alfred Nobel: The man behind the Nobel Prize",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "chemical engineering",
+    "Ascanio Sobrero",
+    "gunpowder",
+    "Stockholm",
+    "a detonator",
+    "pneumatic drill",
+    "cost"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The first Nobel Prize was awarded in 1895.”",
+      "translation": "第一個 Nobel Prize 在 1895 年頒發。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題要判斷 Nobel Prize 第一次頒發的時間。題目有兩個控制點：第一是 first Nobel Prize，即首次頒獎；第二是 awarded in 1895，即頒獎年份。這題最容易把 “foundation laid in 1895” 和 “first awarded” 混在一起，所以要特別看動詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since 1901, the Nobel Prize has been honoring men and women from all corners of the globe for outstanding achievements in physics, chemistry, medicine, literature, and for efforts to promote peace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 1901 年起，Nobel Prize 一直表揚世界各地在物理、化學、醫學、文學方面有傑出成就的人，以及為促進和平作出努力的人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The foundations for the prize were laid in 1895 when Alfred Nobel wrote his last will, leaving much of his wealth to the establishment of the Nobel Prize.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個獎項的基礎在 1895 年奠定，當時 Alfred Nobel 寫下最後遺囑，把大部分財富留作設立Nobel Prize 之用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph A 是全篇引入，重點是 Nobel Prize 的開始、目的和遺囑來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它同時出現 1901 和 1895，因此正好是 Question 28 的目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 first Nobel Prize 和 1895。掃描 Paragraph A 時，會同時找到 “Since 1901” 和 “in 1895”。這時不能只看年份相同，要停下來細讀每個年份配上的動作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文第一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since 1901, the Nobel Prize has been honoring…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 1901 年起，Nobel Prize 一直在表揚……這句表示 Nobel Prize 的頒獎活動由 1901 年開始。原文最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The foundations for the prize were laid in 1895…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "獎項的基礎在 1895 年奠定……1895 年發生的是 Alfred Nobel 寫遺囑，並把財富留作設立獎項。這是獎項的法律和財務基礎，不等於當年已經頒發第一個獎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：first Nobel Prize was awarded in 1895。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：Nobel Prize has been honoring people since 1901；foundation was laid in 1895。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者在年份和動作上衝突。1895 是遺囑年份，1901 才是獎項開始表揚得獎者的年份。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 1895 原字重現。學生看到題目有 1895，原文也有 1895，容易急著判 TRUE。真正控制答案的是動詞：題目說 was awarded，原文說 foundations were laid。年份相同只負責定位，動詞才真正決定答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Nobel’s father wanted his son to have a better education than he himself had received.”",
+      "translation": "Nobel 的父親希望兒子接受比自己當年更好的教育。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問的是父親的動機和比較關係。它不只問 Nobel 是否受過良好教育，也不只問父親是否重視教育。題目真正需要的證據是：父親曾經比較自己和兒子的教育，並希望兒子接受比自己更好的教育。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alfred Nobel was born in Stockholm on October 21, 1833.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alfred Nobel 於 1833 年 10 月 21 日在 Stockholm 出生。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alfred’s father, who wanted his sons to join his enterprise as engineers, disliked Alfred’s interest in poetry and found his son rather introverted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alfred 的父親希望兒子們以工程師身份加入自己的企業；他不喜歡 Alfred 對詩歌的興趣，並覺得兒子相當內向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph B 介紹 Nobel 的家庭、父親、教育和早期興趣。題目問 Nobel’s father 和education，因此 Paragraph B 是合理定位段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 father、education、better education。在 Paragraph B 中，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“There, his sons were given a first-class education by private teachers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那裡，他的兒子們由私人教師提供一流教育。"
+            },
+            {
+              "kind": "label",
+              "text": "同段也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The training included natural sciences, languages and literature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "訓練包括自然科學、語言和文學。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說 Nobel 和兄弟接受了 first-class education，而且由 private teachers 教授。這支持「Nobel 受過良好教育」。可是題目要求的是更具體的比較："
+            },
+            {
+              "kind": "quote",
+              "text": "“better education than he himself had received”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句包含一個比較對象：父親自己當年接受的教育。原文沒有交代 Immanuel Nobel 的教育背景，也沒有說他覺得自己教育不足，更沒有說他因此想讓兒子受更好教育。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 的第一句也可作補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“In order to widen Alfred’s horizons, his father sent him abroad for further training in chemical engineering.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了擴闊 Alfred 的視野，父親把他送到海外接受 chemical engineering 的進一步訓練。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句交代父親送他出國的目的，是 widen Alfred’s horizons，即擴闊視野。它仍未提及「比父親自己受過的教育更好」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文有：sons were given a first-class education；father sent Alfred abroad to widen his horizons。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要：father wanted son to have better education than father himself had received。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較關係缺失。文章沒有提供父親自身教育程度，也沒有提供父親和兒子的教育比較。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 first-class education。它很容易令人覺得題目合理，但它只能證明教育質素高，不能證明「比父親自己的教育更好」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是父親確實很重視工程和訓練。可是「重視兒子教育」和「想讓兒子超越自己的教育」不是同一個命題。這題缺的是比較證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Nobel was an unsuccessful businessman.”",
+      "translation": "Nobel 是一位不成功的商人。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 Nobel 的商業成就。控制詞是 unsuccessful businessman，所以我們要找原文是否評價他的 business / entrepreneur ability。如果文章只說他是 scientist 或 inventor，仍不足以回答；必須找到商業方面的直接證據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The market for dynamite and detonating caps grew very rapidly and Alfred Nobel also proved himself to be a very skillful entrepreneur and businessman.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "dynamite 和 detonating caps 的市場增長非常迅速，而 Alfred Nobel 也證明自己是一位非常熟練的企業家和商人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the time of his death in 1896, he had 355 patents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1896 年去世時，他已擁有 355 項專利。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph E 是展示 Nobel 的商業擴張和發明成果。首句已直接提到businessman，和題目高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 businessman 和 unsuccessful。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alfred Nobel also proved himself to be a very skillful entrepreneur and businessman.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alfred Nobel 也證明自己是一位非常熟練的企業家和商人。"
+            },
+            {
+              "kind": "label",
+              "text": "同段還有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over the years he founded factories and laboratories in some 90 different places in more than 20 countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多年來，他在二十多個國家的約九十個不同地方創辦工廠和實驗室。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“very skillful entrepreneur and businessman” 是直接評價。skillful 表示有能力、熟練、擅長。這和題目的 unsuccessful 方向相反。再看後一句，Nobel 在二十多個國家建立約九十處工廠和實驗室，這進一步顯示他的事業具有國際規模。最後又提到他有 355 patents，雖然 patents 主要是發明成果，但配合工廠、實驗室和市場快速增長，可以看出他在商業和技術兩方面都有成就。判斷題目命題：Nobel was an unsuccessful businessman。原文命題：Nobel proved himself to be a very skillful entrepreneur and businessman。兩者方向相反。原文不只沒有支持 unsuccessful，還直接用 very skillful 給出相反評價。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "中伏位可能來自 Nobel 私人生活不順利，或他工作辛苦、到處旅行。可是商業成功和私人生活空白是兩件事。Question 30 問的是 businessman，必須用 Paragraph E 的 business evidence，而不能用 Paragraph F 的 private life 作判斷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Bertha von Suttner was selected by Nobel himself for the first peace prize.”",
+      "translation": "Bertha von Suttner 是由 Nobel 本人選為第一位和平獎得主的。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題包含幾個細節：人物是 Bertha von Suttner，動作是 selected by Nobel himself，獎項是 first peace prize。三個元素都要和原文一致才可以 TRUE。只要其中一個核心元素被原文取代或否定，就要判 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Intensive work and travel did not leave much time for private life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "密集的工作和旅行沒有給 Nobel 留下多少私人生活時間。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several years after the death of Alfred Nobel, the Norwegian Storting (Parliament) decided to award the 1905 Nobel Peace Prize to Bertha von Suttner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alfred Nobel 死後數年，Norwegian Storting（挪威國會）決定把 1905 年 Nobel Peace Prize 頒給Bertha von Suttner。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph F 由 Nobel 私人生活引出 Bertha，再連到和平運動和 Peace Prize。題目出現 Bertha 和 peace prize，所以這段是直接定位段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 Bertha von Suttner、selected by Nobel himself、first peace prize。掃描Paragraph F，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“No doubt this influenced Alfred Nobel when he wrote his final will, which was to include a Prize for persons or organizations who promoted peace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "毫無疑問，這影響了 Alfred Nobel 寫最後遺囑時的決定；他的遺囑包括一個頒給促進和平的人或組織的獎項。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several years after the death of Alfred Nobel, the Norwegian Storting (Parliament) decided to award the 1905 Nobel Peace Prize to Bertha von Suttner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alfred Nobel 死後數年，挪威國會決定把 1905 年 Nobel Peace Prize 頒給 Bertha von Suttner。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Bertha 影響了 Nobel 把 Peace Prize 寫入遺囑。這只是說她對獎項類別的設立有影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說 Nobel 指定她本人得獎。"
+            },
+            {
+              "kind": "label",
+              "text": "更重要的是，原文清楚交代決定者："
+            },
+            {
+              "kind": "quote",
+              "text": "“the Norwegian Storting (Parliament) decided…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "挪威國會決定……這和題目的 “selected by Nobel himself” 不相符。Nobel 已經去世，Bertha 是在他死後數年獲1905 Nobel Peace Prize。題目還說 “first peace prize”，原文只說 1905 Nobel Peace Prize，沒有說那是第一屆和平獎；文章 A 又說 Nobel Prize 自 1901 年開始表揚得獎者，所以 1905 不可能按本文語境理解成首個 Nobel Prize 年份。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：Bertha was selected by Nobel himself for the first peace prize。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：Bertha influenced Nobel’s will; after Nobel’s death, Norwegian Storting decided to award the 1905 Nobel Peace Prize to her。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "核心衝突出現在 selected by whom 和 when。決定者是 Norwegian Storting，時間是 Nobel 死後數年。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 influenced Alfred Nobel。影響 Nobel 寫遺囑，不等於 Nobel 指定她得獎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 Bertha 確實獲得 Nobel Peace Prize。題目把「她獲獎」進一步說成「由 Nobel 本人選中」和「第一位和平獎」，這兩點都缺乏原文支持，且和原文決定者相衝。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Nobel Foundation was established after the death of Nobel.”",
+      "translation": "Nobel Foundation 是在 Nobel 死後成立的。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 Nobel Foundation 的成立時間，特別是它是否發生在 Nobel death 之後。題目沒有問Foundation 的具體成立年份，也沒有問它的職能細節，因此定位後要看事件順序。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alfred Nobel died in San Remo, Italy, on December 10, 1896.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alfred Nobel 於 1896 年 12 月 10 日在意大利 San Remo 去世。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This was not without its difficulties since the will was contested by relatives and questioned by authorities in various countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這件事並非毫無困難，因為遺囑受到親戚 contest，也受到多國 authorities questioning。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph G 講 Nobel 死後遺囑執行的過程和困難。Foundation 若在此段出現，很可能和死後安排有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 Nobel Foundation 和 after the death。原文中直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“They set about forming the Nobel Foundation as an organization to take care of the financial assets left by Nobel for this purpose and to coordinate the work of the Prize-Awarding Institutions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們著手成立 Nobel Foundation，作為一個組織來管理 Nobel 為此目的留下的財務資產，並協調各頒獎機構的工作。"
+            },
+            {
+              "kind": "label",
+              "text": "前面一句交代："
+            },
+            {
+              "kind": "quote",
+              "text": "“The executors of his will were two young engineers, Ragnar Sohlman and Rudolf Lilljequist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他遺囑的執行人是兩位年輕工程師，Ragnar Sohlman 和 Rudolf Lilljequist。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 的事件順序很清楚： 1. “Alfred Nobel died…” Nobel 先去世。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. “When his will was opened…”遺囑被打開。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. “The executors of his will were…”遺囑執行人出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "4. “They set about forming the Nobel Foundation…”他們著手成立 Nobel Foundation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個順序直接支持題目。Foundation 的成立或籌組是在 Nobel 死後、遺囑被打開後，由executors 執行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：Nobel Foundation was established after Nobel’s death。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：Nobel died; will was opened; executors set about forming the Nobel Foundation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 Paragraph A 說 Nobel 在 1895 年遺囑中留下財富建立 Nobel Prize。這可能令人誤以為所有相關機構都在 1895 年已經成立。細讀 Paragraph G 後會發現，Foundation 的實際籌組是在 Nobel 死後由 executors 處理。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Nobel’s social involvement was uncommon in the 1800s.”",
+      "translation": "Nobel 對社會議題的參與在 1800 年代並不常見。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 Nobel 的 social involvement 是否在當時不尋常。題目中的 uncommon 未必會原字重現，可能被改寫成 radical、unusual、ahead of his time 等概念。要找 Nobel 對 social / peace issues的態度，以及作者如何評價這些態度在當時的性質。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Alfred Nobel’s greatness lay in his ability to combine the penetrating mind of the scientist and inventor with the forward-looking dynamism of the industrialist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Alfred Nobel 的偉大，在於他能把科學家和發明家敏銳深刻的頭腦，與工業家前瞻性的活力結合起來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Nobel Prizes became an extension and a fulfillment of his lifetime interests.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nobel Prizes 成為他一生興趣的延伸和實現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph H 是全文總結，評價 Nobel 的多重身份和 lifetime interests。題目問social involvement，通常會在總結段中出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 social involvement 和 uncommon in the 1800s。掃描 Paragraph H，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nobel was very interested in social and peace-related issues and held what were considered radical views in his era.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nobel 對社會和和平相關議題非常感興趣，並持有一些在他那個時代被認為激進的觀點。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中有兩個部分：第一，"
+            },
+            {
+              "kind": "quote",
+              "text": "“very interested in social and peace-related issues”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表示 Nobel 對社會和和平議題有高度關注。這對應題目中的 social involvement。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，"
+            },
+            {
+              "kind": "quote",
+              "text": "“held what were considered radical views in his era”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表示他的觀點在當時被視為 radical。radical 指激進、超出當時主流、較不尋常。題目的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“uncommon in the 1800s” 正是對 “radical views in his era” 的概括。題目用 1800s，原文用 “his era”。Nobel 生於 1833 年，死於 1896 年，本文主要敘述十九世紀事蹟，所以 “his era” 在文章語境中可對應 1800s。判斷題目命題：Nobel’s social involvement was uncommon in the 1800s。原文命題：he was interested in social and peace-related issues and held views considered radical in his era。意思一致。uncommon 是對 radical in his era 的合理改寫，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的中伏位是 social involvement 這個說法比原文抽象。原文沒有逐字說 involvement，但“very interested in social and peace-related issues” 加上 “radical views” 已經足以說明他不只關心科學和商業，也關心社會及和平議題。這種抽象概括在 TRUE / FALSE / NOT GIVEN 中是可以接受的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "chemical engineering",
+      "answerKey": "chemical engineering",
+      "type": "Note Completion",
+      "prompt": "“...sent him abroad to be trained in 34 ______.”",
+      "translation": "……把他送到海外接受 ______ 訓練。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In order to widen Alfred’s horizons, his father sent him abroad for further training in chemical engineering.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了擴闊 Alfred 的視野，父親把他送到海外接受 chemical engineering 的進一步訓練。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also realized that the safety problems had to be solved and a method had to be developed for the controlled detonation of nitroglycerine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也意識到安全問題必須解決，並且必須發展出一種能控制 nitroglycerine 引爆的方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估 Paragraph C 由 overseas training 轉入 nitroglycerine 的實用研究。題目問sent him abroad to be trained in，所以答案就在第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 sent him abroad 和 trained in。原文第一句幾乎原字重現："
+            },
+            {
+              "kind": "quote",
+              "text": "“sent him abroad for further training in chemical engineering”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 “trained in”，後面需要一個科目或訓練領域。原文的 “chemical engineering” 正好是訓練領域，而且是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“to be trained in”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“for further training in”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者意思一致。答案是 chemical engineering。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "Ascanio Sobrero",
+      "answerKey": "Ascanio Sobrero",
+      "type": "Note Completion",
+      "prompt": "“...he came into contact with a young chemist, 35 ______, and his invention, nitroglycerine...”",
+      "translation": "……他接觸到一位年輕化學家 ______，以及他的發明 nitroglycerine。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In order to widen Alfred’s horizons, his father sent him abroad for further training in chemical engineering.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了擴闊 Alfred 的視野，父親把他送到海外接受 chemical engineering 的進一步訓練。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also realized that the safety problems had to be solved and a method had to be developed for the controlled detonation of nitroglycerine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也意識到安全問題必須解決，並要發展能控制 nitroglycerine 引爆的方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段中間會交代 Nobel 在 Paris 接觸到甚麼人和甚麼發明。題目提到 young chemist 和nitroglycerine，定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 young chemist 和 nitroglycerine。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“There he met the young Italian chemist Ascanio Sobrero who, three years earlier, had invented nitroglycerine, a highly explosive liquid.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那裡，他遇見年輕的意大利化學家 Ascanio Sobrero；三年前，這位化學家發明了nitroglycerine，一種高度爆炸性的液體。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前面有 “a young chemist”，後面接人名。原文給出完整人名 Ascanio Sobrero，兩個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“came into contact with a young chemist”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“met the young Italian chemist”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“came into contact with” 是 “met” 的改寫。答案是 Ascanio Sobrero。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "gunpowder",
+      "answerKey": "gunpowder",
+      "type": "Note Completion",
+      "prompt": "“nitroglycerine, a more powerful explosive than 36 ______.”",
+      "translation": "nitroglycerine 是一種比 ______ 更強力的爆炸物。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In order to widen Alfred’s horizons, his father sent him abroad for further training in chemical engineering.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了擴闊 Alfred 的視野，父親把他送到海外接受 chemical engineering 的進一步訓練。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also realized that the safety problems had to be solved and a method had to be developed for the controlled detonation of nitroglycerine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也意識到安全問題必須解決，並要發展能控制 nitroglycerine 引爆的方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段介紹 nitroglycerine 的特性：威力大，但危險且難控制。題目問 more powerful than what，所以要找比較句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 more powerful explosive than。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although its explosive power greatly exceeded that of gunpowder, the liquid would explode in a very unpredictable manner if subjected to heat and pressure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然它的爆炸威力大大超過 gunpowder，但這種液體如果受到熱和壓力，會以非常不可預測的方式爆炸。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “explosive power greatly exceeded that of gunpowder” 等於題目的 “more powerful explosive than gunpowder”。空格需要一個名詞，答案是 gunpowder，一個字，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“more powerful explosive than”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“explosive power greatly exceeded that of”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是比較結構改寫。答案是 gunpowder。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "Stockholm",
+      "answerKey": "Stockholm",
+      "type": "Note Completion",
+      "prompt": "“experiments with it were banned within the city of 37 ______.”",
+      "translation": "有關它的實驗在 ______ 市內被禁止。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After his return to Sweden in 1863, Alfred Nobel concentrated on developing nitroglycerine as an explosive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1863 年回到 Sweden 後，Alfred Nobel 集中研究如何把 nitroglycerine 發展成 explosive。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Together these inventions drastically reduced the cost of blasting rock, drilling tunnels, building canals and many other forms of construction work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發明共同大幅降低了爆破岩石、開鑿隧道、修建運河和許多其他建設工程的成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 明顯是 nitroglycerine 實驗、dynamite 發明和建設效益的核心段。題目問 banned within the city，所以答案應在本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 banned、city、experimentation。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“They forbade further experimentation with nitroglycerine within the Stockholm city limits and Alfred Nobel had to move his experimentation to a barge anchored on Lake Malaren.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們禁止在 Stockholm 市界內繼續進行 nitroglycerine 實驗，Alfred Nobel 只好把實驗搬到停泊在 Lake Malaren 上的一艘駁船。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “experiments with it were banned” 對應原文 “They forbade further experimentation with nitroglycerine”。題目中的 “within the city of…” 對應原文 “within the Stockholm city limits”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格要填城市名。答案是 Stockholm。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“experiments with it were banned within the city of…”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“forbade further experimentation with nitroglycerine within the Stockholm city limits”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "forbade = banned；experimentation = experiments；city limits = within the city。答案是Stockholm。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "a detonator",
+      "answerKey": "a detonator",
+      "type": "Note Completion",
+      "prompt": "“Nobel invented dynamite along with 38 ______.”",
+      "translation": "Nobel 發明 dynamite，同時也發明了 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After his return to Sweden in 1863, Alfred Nobel concentrated on developing nitroglycerine as an explosive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1863 年回到 Sweden 後，Alfred Nobel 集中研究如何把 nitroglycerine 發展成 explosive。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Together these inventions drastically reduced the cost of blasting rock, drilling tunnels, building canals and many other forms of construction work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發明共同大幅降低了爆破岩石、開鑿隧道、修建運河和許多其他建設工程的成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段中段講 dynamite 的製作和專利，後面講為了引爆 dynamite rods，他又發明另一工具。題目問 “along with”，所以要找 dynamite 旁邊的另一項 invention。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 invented dynamite 和 along with。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1867 he patented this material under the name dynamite. To be able to detonate the dynamite rods, he also invented a detonator (blasting cap) which could be ignited by lighting a fuse.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1867 年，他以 dynamite 這個名稱為這種材料申請專利。為了能引爆 dynamite rods，他還發明了一個 detonator（blasting cap），可以透過點燃導火線來引發。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “invented dynamite along with…” 原文說 “he also invented a detonator”。空格前的"
+            },
+            {
+              "kind": "quote",
+              "text": "“along with” 要接另一項發明，所以答案可以用原文的 a detonator。注意，括號內的 blasting cap 也是原文給出的同義名稱，但若只選一個標準答案，a detonator最貼近原文主詞位置，也能完整接入句子：“Nobel invented dynamite along with a detonator.”"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“along with”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“also invented”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者都表示 dynamite 以外的另一項發明。答案是 a detonator。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "pneumatic drill",
+      "answerKey": "pneumatic drill",
+      "type": "Note Completion",
+      "prompt": "“At the same time, the 39 ______ came into general use...”",
+      "translation": "同一時期，______ 開始普遍使用。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After his return to Sweden in 1863, Alfred Nobel concentrated on developing nitroglycerine as an explosive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1863 年回到 Sweden 後，Alfred Nobel 集中研究如何把 nitroglycerine 發展成 explosive。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Together these inventions drastically reduced the cost of blasting rock, drilling tunnels, building canals and many other forms of construction work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發明共同大幅降低了爆破岩石、開鑿隧道、修建運河和許多其他建設工程的成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 最後兩句把 Nobel 的發明和另一項工具的普及連起來，說明它們共同降低建設成本。題目中的 “came into general use” 很可能原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 came into general use。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“These inventions were made at the same time as the pneumatic drill came into general use.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發明出現的同一時期，pneumatic drill 也開始普遍使用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “the”，空格後有 “came into general use”，所以需要一個名詞短語。原文完整短語是 the pneumatic drill。因為題目已經提供 “the”，答案填 pneumatic drill 即可。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目幾乎直接照抄原文："
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the same time, the ______ came into general use”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“at the same time as the pneumatic drill came into general use”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 pneumatic drill。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "cost",
+      "answerKey": "cost",
+      "type": "Note Completion",
+      "prompt": "“together, these inventions dramatically lowered the 40 ______ of construction work.”",
+      "translation": "這些發明共同大幅降低了 construction work 的 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After his return to Sweden in 1863, Alfred Nobel concentrated on developing nitroglycerine as an explosive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1863 年回到 Sweden 後，Alfred Nobel 集中研究如何把 nitroglycerine 發展成 explosive。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Together these inventions drastically reduced the cost of blasting rock, drilling tunnels, building canals and many other forms of construction work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發明共同大幅降低了爆破岩石、開鑿隧道、修建運河和許多其他建設工程的成本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題直接對應 Paragraph D 最後一句。題目中的 dramatically lowered 幾乎等同原文 drastically reduced。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 dramatically lowered、construction work。原文最後一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Together these inventions drastically reduced the cost of blasting rock, drilling tunnels, building canals and many other forms of construction work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些發明共同大幅降低了爆破岩石、開鑿隧道、修建運河和許多其他形式建設工程的成本。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目句子需要一個名詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“lowered the ______ of construction work”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接給出："
+            },
+            {
+              "kind": "quote",
+              "text": "“reduced the cost of … construction work”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 cost。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“dramatically lowered”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“drastically reduced”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "dramatically = drastically；lowered = reduced。題目把原文後面列出的 “blasting rock, drilling tunnels, building canals” 概括成 construction work。答案是 cost。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Alfred Nobel_ The man behind the Nobel Prize.pdf",
+    "sha256": "d8650063de5be75eb5fd9906f44c04fc7195e9eaca5ffb752c4702ef9ec2806e",
+    "pageCount": 24
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 Nobel Prize 自 1901 年起表揚全球在物理、化學、醫學、文學及和平方面有傑出成就的人；末句說這個獎項的基礎在 1895 年 Nobel 寫下遺囑時奠定。只看首尾句，可以先估這段是全文引入：先交代 Nobel Prize 的頒發範圍和開始時間，再引出 Alfred Nobel 的遺囑。若題目問第一屆獎項時間、1895、1901 或獎項成立背景，這段最值得優先定位。"
+      },
+      {
+        "number": "B",
+        "summary": "首句交代 Alfred Nobel 1833 年在 Stockholm 出生；末句說父親希望兒子加入工程事業，卻不喜歡 Alfred 對詩歌的興趣，並覺得他內向。首尾句合起來顯示，這段主要介紹 Nobel 的家庭、父親職業、教育背景和早期興趣。中間提到 St. Petersburg、private teachers、natural sciences、languages、literature，以及他十七歲時會五種語言。若題目問父親、教育、語言、興趣或家庭期望，這段是核心位置。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說父親為擴闊 Alfred 的視野，把他送到海外接受 chemical engineering 訓練；末句說 Nobel意識到 nitroglycerine 的安全問題必須解決，並要發展 controlled detonation 方法。只看首尾句，可見本段由教育訓練轉入 nitroglycerine 研究。中間提到 Paris、Professor Pelouze、Ascanio Sobrero、nitroglycerine，以及它比 gunpowder 更強但非常不可預測。若題目問海外訓練、Paris、Sobrero、nitroglycerine、gunpowder，答案多在此段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Nobel 1863 年回到 Sweden 後集中發展 nitroglycerine 作為 explosive；末句說相關發明大幅降低 blasting rock、drilling tunnels、building canals 等建設成本。首尾句顯示，這段是 Nobel發明 dynamite 的核心段落：先講危險和事故，再講禁令、搬到 Lake Malaren、混合 kieselguhr、取得 dynamite 專利、發明 detonator，最後連到 pneumatic drill 和 construction work 的效益。 Completion 題 37–40 主要集中在這段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 dynamite 和 detonating caps 的市場快速增長，Nobel 也證明自己是非常熟練的entrepreneur and businessman；末句說到 1896 年逝世時，他已有 355 patents。只看首尾句，可以估這段功能是展示 Nobel 的商業成功和發明產出。中間補充他在二十多個國家設立約九十處工廠和實驗室，並研究 synthetic rubber、leather、artificial silk 等。若題目問商業成敗、專利數量、全球事業，這段很重要。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說密集工作和旅行令 Nobel 幾乎沒有私人生活；末句說 Bertha von Suttner 在 Nobel 死後數年獲得 1905 Nobel Peace Prize。首尾句顯示，本段由 Nobel 的私人生活空白引出 Bertha，然後連到和平運動和 Peace Prize。中間有招聘廣告、Bertha 短暫任職、二人保持多年書信往來、她批評 arms race、寫 Lay Down Your Arms。若題目問 Bertha、peace movement、peace prize、Nobel遺囑受誰影響，這段是目標段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Alfred Nobel 於 1896 年 12 月 10 日在 Italy 的 San Remo 去世；末句說他的遺囑受到親戚 contest，也受到多國 authorities questioning。首尾句顯示，這段處理 Nobel 死後遺囑如何執行，以及 Nobel Foundation 的成立過程。中間提到他的財富要用於 Physics、Chemistry、Physiology or Medicine、Literature 和 Peace 的獎項，並由兩位年輕工程師作 executor。若題目問 Foundation、will、death 之後的安排，答案在此段。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 Nobel 的偉大在於結合 scientist and inventor 的 penetrating mind，以及 industrialist 的forward-looking dynamism；末句說 Nobel Prizes 成為他一生興趣的延伸和實現。首尾句合起來，是全文總結段：作者評價 Nobel 的多重身份，並把科學、工業、社會、和平、文學等興趣連成Nobel Prize 的來源。中間提到他對 social and peace-related issues 很感興趣，並持有當時被視為 radical 的觀點。Question 33 主要在這段。"
+      }
+    ]
+  }
+}

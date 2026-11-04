@@ -1,0 +1,1711 @@
+{
+  "id": "p3-129-the-bite-that-heat",
+  "catalogueId": "p3-129",
+  "catalogueIds": [
+    "p3-129"
+  ],
+  "passage": 3,
+  "title": "The Bite That Heat",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "FALSE",
+    "FALSE",
+    "most medicines",
+    "puffer fish",
+    "glands /apparatuses",
+    "diet",
+    "rival males"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“During his vacation, Michael experienced electric-shock-like pain and nearly lost his life.”",
+      "translation": "Michael 度假期間經歷像電擊一樣的痛楚，並且差點喪命。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩個部分：第一，Michael 是否經歷 electric-shock-like pain；第二，他是否 nearly lost his life。兩部分都要有原文支持，才可選 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Michael decided to go for a swim.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Michael 決定去游泳。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Occasionally victims die.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "受害者偶爾會死亡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph A 用 Michael 游泳被蠍子螫傷的故事，引出 bark scorpion 的危險性。最後一句說「有些受害者會死亡」，但這仍是一般情況，還未能直接證明 Michael 本人差點死亡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “electric-shock-like pain” 和 “nearly lost his life”。原文相近句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fierce pain from a sting is typically followed by what feels like electric shocks racking the body. Occasionally victims die.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "螫傷造成的劇痛通常之後會出現像電擊一樣貫穿身體的感覺。受害者偶爾會死亡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “The fierce pain from a sting”，講的是 bark scorpion sting 的一般典型反應。它沒有明確說 Michael 本人後來經歷了 electric shocks。前文對 Michael 的直接描寫是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead of cool relief, a burning pain ripped through the back of his thigh.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他沒有感到清涼舒緩，反倒是大腿後方被一陣灼痛撕裂般襲來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接支持 Michael 有 burning pain，但沒有直接支持 electric-shock-like pain。至於"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Occasionally victims die”，它只說有些受害者死亡，沒有說 Michael 當時接近死亡。Paragraph B還說他注射 antivenom 後幾小時便離開醫療設施，痛楚約三十小時後消失。判斷：題目要求的是 Michael 的個人經歷。原文提供的是 sting 的一般危險性和死亡可能，缺少Michael nearly lost his life 的個人證據。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 “electric shocks” 和 “victims die” 便直接選 TRUE。可是這兩個資訊描述的是一般victims，不等於 Michael 本人一定經歷了兩件事。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“The disease Michael had suffered from for eight years was caused by an accident.”",
+      "translation": "Michael 患了八年的疾病是由一次意外造成的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Luckily for Michael (who asked me not to give his full name), the bark scorpion is common in the area, and antivenom was readily available.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Michael 很幸運，因為 bark scorpion 在當地很常見，所以 antivenom 很容易取得。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘My back hurt every morning, and during bad flare-ups it was so horrible I couldn’t even walk,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「我的背每天早上都痛，嚴重發作時痛得可怕，甚至不能走路。」只看首尾句，可以先估計 Paragraph B 會由蠍子螫傷的治療，轉到 Michael 本來已有的慢性病和痛楚。題目問疾病成因，所以應該在這段找 ankylosing spondylitis 的描述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “disease”、“eight years” 和 “caused by an accident”。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“For eight years Michael had endured a condition called ankylosing spondylitis, a chronic autoimmune disease of the skeleton, a sort of spinal arthritis. No one knows what triggers it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "八年來，Michael 一直忍受一種叫 ankylosing spondylitis 的疾病，這是一種骨骼的慢性自體免疫疾病，類似脊椎關節炎。沒有人知道它由甚麼觸發。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 disease was caused by an accident，這是一個很具體的成因判斷。原文說 “No one knows what triggers it”，意思是沒有人知道觸發原因。這和「由一次意外造成」不能同時成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：疾病名稱：ankylosing spondylitis疾病性質：chronic autoimmune disease成因：No one knows what triggers it題目命題：成因：an accident比較結果：題目提供了一個確定原因；原文說原因未知。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Michael 的蠍子螫傷確實是一個 accident-like event，但那是後來發生的螫傷，不是他八年疾病的起因。時間線要分清：八年疾病在前，泳池螫傷在後。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Michael is grateful for the bark scorpion bite because it helped him recover from ankylosing spondylitis.”",
+      "translation": "Michael 感謝 bark scorpion 的螫傷，因為它幫助他從 ankylosing spondylitis 中恢復。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But days after the scorpion sting, the pain went away, and now, two years later, he remains essentially pain-free and off most of his medications.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是蠍子螫傷幾天後，痛楚消失了；兩年後的現在，他基本上仍然沒有痛楚，也停用了大部分藥物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Venom can kill by clotting blood and stopping the heart or by preventing clotting and triggering a killer bleed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Venom 可以透過令血液凝固並使心臟停止來殺人，也可以透過阻止凝血並引發致命出血來殺人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經非常接近題目：螫傷後，Michael 的痛楚消失，兩年後仍基本無痛。這段前半處理Michael 的病情變化，後半展開 venom 的殺傷力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “bark scorpion bite”、“helped him recover” 和 “ankylosing spondylitis”。原文沒有"
+            },
+            {
+              "kind": "quote",
+              "text": "“grateful”，但有這句：“Still, he says, ‘if my pain came back, I’d let that scorpion sting me again.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過他說：「如果我的痛楚回來，我會讓那隻蠍子再螫我一次。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先說痛楚在蠍子螫傷後幾天消失，兩年後仍基本無痛，並停用大部分藥物。接著原文提醒："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a doctor himself, Michael is cautious about overstating the role of the scorpion’s venom in his remission.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Michael 自己也是醫生，所以他對於過分誇大蠍子毒液在自己病情緩解中的作用很謹慎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句保留了科學態度：文章沒有說 venom 已經被證明治癒了他。不過，下一句 “I’d let that scorpion sting me again” 顯示 Michael 對這次螫傷後的病情改善抱有強烈正面態度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目把 “recover” 理解為症狀緩解、痛楚消失，而非醫學上已證明完全治癒。按文章意思， Michael 痛楚消失、兩年基本無痛、停用多數藥物，並願意再次被螫。這支持 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要小心 “helped him recover” 不能理解成已證明 venom 是正式療法。更準確的閱讀是：文章支持his remission / pain relief，並顯示 Michael 認為這次螫傷有潛在幫助。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“No venom performs just one function.”",
+      "translation": "沒有任何 venom 只執行一種功能。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All venom is multifaceted and multitasking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有 venom 都是多面向、同時執行多項任務的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That’s venom at work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 venom 的運作方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段非常明顯是在解釋 venom 的複雜運作。首句已經給出總論：all venom 都有多重面向和多重功能。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “No venom” 和 “just one function”。原文最直接對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“All venom is multifaceted and multitasking.”"
+            },
+            {
+              "kind": "label",
+              "text": "接著還有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dozens, even hundreds, of toxins can be delivered in a single bite, some with redundant jobs and others with unique ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一次咬擊可以送入數十種、甚至數百種毒素；其中有些功能重複，有些功能獨特。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“All venom” 對應題目的 “No venom”。如果所有 venom 都是 multitasking，那麼「沒有 venom 只做一件事」就成立。後一句再補強：一次咬擊可包含大量 toxins，有些工作重複，有些工作獨特。原文命題：所有 venom 都多面向、多任務。一次咬擊可包含大量 toxin，不同 toxin 有不同或重疊功能。題目命題： No venom performs just one function.比較結果：方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 venom 整體，不是單一 toxin。原文說有些 toxin 有 unique jobs，但整個 venom mixture仍然是 multifaceted and multitasking。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“There is no difference between venom and poison.”",
+      "translation": "Venom 和 poison 沒有分別。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“All venom is multifaceted and multitasking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所有 venom 都是多面向、同時執行多項任務的。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That’s venom at work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是 venom 的運作方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 解釋 venom 的特性，當中有一句括號專門界定 venom 和 poison 的分別，所以這題定位在本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞非常直接：“venom and poison”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The difference between venom and poison is that venom is injected, or dibbled, into victims by way of specialized body parts, and poison is ingested.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Venom 和 poison 的差別在於：venom 是透過特殊身體部位注入或滴入受害者體內；poison 則是被攝入體內。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文開頭直接說 “The difference between venom and poison is that…”，已經明確指出兩者有差別。分別在進入身體的方式： venom：injected / dibbled by specialized body parts poison：ingested題目說 “There is no difference”。原文說 “The difference is…”。兩者方向明確相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 後面有一個比喻說 “administering poison”，學生可能看到 poison 和 venom 一起出現而混淆。但真正定案的是括號內的定義句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Venom can kill, but it can also be used as medicine to save lives.”",
+      "translation": "Venom 可以殺人，但也可以用作藥物來拯救生命。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ironically, the properties that make venom deadly are also what make it so valuable for medicine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "諷刺的是，令 venom 致命的性質，也正是令它對醫學如此有價值的原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New treatments for autoimmune diseases, cancer, and pain could be available within a decade.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "針對自體免疫疾病、癌症和痛症的新療法可能在十年內可用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經完整提示題目方向：deadly properties 和 medicine value 同時存在。這正好對應題目中的 kill 和 medicine。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “kill”、“medicine” 和 “save lives”。Paragraph C 講 venom can kill；Paragraph E 講medicine value。因此這題需要把 C 末句和 E 段主題連起來。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Venom can kill by clotting blood and stopping the heart or by preventing clotting and triggering a killer bleed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Venom 可以透過令血液凝固並停止心臟來殺人，也可以阻止凝血並引發致命出血。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“already top medicines for heart disease and diabetes have been derived from venom.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "已有一些治療心臟病和糖尿病的重要藥物源自 venom。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目前半 “Venom can kill” 由 Paragraph C 直接支持。題目後半 “can also be used as medicine to save lives” 由 Paragraph E 支持，因為心臟病和糖尿病藥物已從 venom 衍生出來。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "can be used as medicine= medicines have been derived from venom save lives= treating serious diseases such as heart disease and diabetes所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要因為 venom 很危險就排除它的醫學用途。文章標題 “The Bite That Heals” 和 Paragraph E的 “Ironically” 都在提示：致命性和醫學價值可以同時存在。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“New treatments for cancer are now available on the market.”",
+      "translation": "新的癌症療法現在已經在市場上 available。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ironically, the properties that make venom deadly are also what make it so valuable for medicine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令 venom 致命的性質，也正是令它對醫學有價值的原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New treatments for autoimmune diseases, cancer, and pain could be available within a decade.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "針對自體免疫疾病、癌症和痛症的新療法可能在十年內可用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接包含 cancer 和 treatments，所以這題定位很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “cancer”、“now available” 和 “market”。原文有 “could be available within a decade”，而 Paragraph F 有 “made it to market”，需要分清兩句的對象。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“New treatments for autoimmune diseases, cancer, and pain could be available within a decade.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "針對自體免疫疾病、癌症和痛症的新療法可能在十年內可用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 now available on the market。原文說 could be available within a decade。這是時間衝突："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：現在已上市"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：可能十年內可用Paragraph F 的 “a dozen or so major drugs have made it to market” 沒有說那些是癌症新療法； Paragraph E 明確把 cancer treatments 放在 future possibility 中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“made it to market” 在後段真的出現，但它指大約十多種主要藥物已上市，不等於癌症新療法已上市。這題真正控制答案的是時間：now vs within a decade。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“So far, 20 million venom toxins have been checked for medical use.”",
+      "translation": "到目前為止，二千萬種 venom toxins 已被檢查是否有醫療用途。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We aren’t talking just a few novel drugs but entire classes of drugs,’ says National Geographic Society Emerging Explorer Zoltan Takacs, a toxinologist and herpetologist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Zoltan Takacs 說：「我們談的不是少數幾種新藥，而是整個藥物類別。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Studies of the deadly poison tetrodotoxin (TTX) from puffer fish, for instance, have revealed intricate details about the way nerve cells communicate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，對河豚中致命毒素 tetrodotoxin 的研究，揭示了神經細胞如何溝通的複雜細節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 有大量數字和研究價值。題目出現 20 million，所以應該直接掃本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “20 million” 和 “checked for medical use”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far, fewer than a thousand toxins have been scrutinized for medicinal value…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，少於一千種 toxins 被仔細檢查其醫療價值。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“There could be upwards of 20 million venom toxins out there waiting to be screened…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "外面可能有超過二千萬種 venom toxins 等待篩選。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供兩個數字：已經檢查：fewer than a thousand等待篩選：upwards of 20 million題目把 “waiting to be screened” 改成 “have been checked”，把未來待檢查的數量說成已完成檢查的數量。這是明確相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "20 million 是原文數字，但它屬於 waiting to be screened，不屬於 scrutinized already。做數字題時，不能只看到數字相同，還要看動詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“The majority of mammals carry venom inside their bodies.”",
+      "translation": "大多數哺乳類動物體內帶有 venom。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 100,000 animals have evolved to produce venom, along with the glands to house it and the apparatuses to expel it…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過十萬種動物已演化出製造 venom 的能力，並有儲存 venom 的腺體和排出 venom 的器官。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An individual snake’s venom may even change with its diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個別蛇的 venom 甚至可能隨飲食改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段介紹 venomous animals 的範圍和變化。題目問 mammals，所以要找 mammals 相關句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “mammals”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The male duck-billed platypus, which carries venom inside ankle spurs, is one of the few venomous mammals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雄性鴨嘴獸在腳踝刺中帶有 venom，是少數 venomous mammals 之一。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “one of the few venomous mammals”，意思是只有少數哺乳類帶 venom。題目說 “The majority of mammals”，意思是大多數哺乳類。few 和 majority 明確相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 第一開始說超過十萬種 animals 有 venom，這個範圍很大，但 animals 包括蛇、蠍子、蜘蛛、魚、蝸牛等。不能把「很多動物」直接推成「多數哺乳類」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "most medicines",
+      "answerKey": "most medicines",
+      "type": "Sentence Completion 題要先看空格前後文法、詞性和字數限制，再回原文找同義位置。答案必",
+      "prompt": "“The way venom works is compared to that of __________.”",
+      "translation": "Venom 的運作方式被拿來和 __________ 的運作方式比較。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ironically, the properties that make venom deadly are also what make it so valuable for medicine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令 venom 致命的性質，也正是令它對醫學有價值的原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“New treatments for autoimmune diseases, cancer, and pain could be available within a decade.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新的自體免疫疾病、癌症和痛症療法可能十年內可用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段主題是 venom 和 medicine 的關係，所以題目問 “compared to that of…” 應該看這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “way venom works” 和 “compared”。原文對應句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most medicines work the same way, fitting into and controlling molecular locks to thwart ill effects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數藥物以相同方式運作：嵌入並控制分子鎖，以阻止不良影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "前一句說 venom 的活性成分會鎖定特定分子，像 keys into locks。接著原文說 “Most medicines work the same way”。題目中的 “that of” 指 “the way of…”，所以空格需要一個名詞短語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案必須取自原文，而且不超過兩個字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "most medicines = 2 words所以 36 = most medicines。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段也有 “keys into locks”，但題目句型是 “compared to that of ___”，語法上需要一類事物的運作方式，所以 “most medicines” 比 “keys” 更合適。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "puffer fish",
+      "answerKey": "puffer fish",
+      "type": "Sentence Completion 題要先看空格前後文法、詞性和字數限制，再回原文找同義位置。答案必",
+      "prompt": "“A venom source such as __________ has helped to reveal complex details about how nerve cells communicate.”",
+      "translation": "一種 venom source，例如 __________，幫助揭示神經細胞如何溝通的複雜細節。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We aren’t talking just a few novel drugs but entire classes of drugs,’ says National Geographic Society Emerging Explorer Zoltan Takacs…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Takacs 說，這不只是少數新藥，而是整個藥物類別。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Studies of the deadly poison tetrodotoxin (TTX) from puffer fish, for instance, have revealed intricate details about the way nerve cells communicate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，對來自河豚的致命毒素 tetrodotoxin 的研究，揭示了神經細胞溝通方式的複雜細節。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句與題目幾乎完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “nerve cells communicate”。原文直接重現 “the way nerve cells communicate”。答案位置在這句前半："
+            },
+            {
+              "kind": "quote",
+              "text": "“tetrodotoxin (TTX) from puffer fish”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “A venom source such as…”，所以空格要填來源，而非毒素名稱本身。原文中 TTX 來自puffer fish，因此 source 是 puffer fish。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案符合 NO MORE THAN TWO WORDS： puffer fish = 2 words所以 37 = puffer fish。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“tetrodotoxin” 也出現在答案句，但題目問 source such as，較自然指動物來源。若題目問 “which poison”，才會填 tetrodotoxin / TTX。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "glands / apparatuses",
+      "answerKey": "glands / apparatuses",
+      "type": "Sentence Completion 題要先看空格前後文法、詞性和字數限制，再回原文找同義位置。答案必",
+      "prompt": "“Tens of thousands of animals have developed __________ and __________, which are respectively responsible for storing and releasing venom.”",
+      "translation": "數以萬計的動物已發展出 __________ 和 __________，分別負責儲存和釋放 venom。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 100,000 animals have evolved to produce venom, along with the glands to house it and the apparatuses to expel it…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過十萬種動物已演化出製造 venom 的能力，並有儲存 venom 的腺體和排出 venom 的器官。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An individual snake’s venom may even change with its diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個別蛇的 venom 甚至可能隨飲食改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已直接回答題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “storing” 對應原文 “house it”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “releasing” 對應原文 “expel it”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the glands to house it and the apparatuses to expel it”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用來儲存 venom 的 glands，以及用來排出 venom 的 apparatuses。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "respectively 表示前後順序要對應： storing venom = glands releasing venom = apparatuses兩個答案都符合 NO MORE THAN TWO WORDS： glands = 1 word apparatuses = 1 word所以 38 = glands / apparatuses。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “produce venom”。題目問的不是製造 venom 的能力，而是儲存和釋放 venom 的兩個身體結構。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "diet",
+      "answerKey": "diet",
+      "type": "Sentence Completion 題要先看空格前後文法、詞性和字數限制，再回原文找同義位置。答案必",
+      "prompt": "“The composition of a snake’s venom may change with location, age and __________.”",
+      "translation": "蛇 venom 的組成可能會隨地點、年齡和 __________ 改變。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 100,000 animals have evolved to produce venom…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過十萬種動物已演化出製造 venom 的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An individual snake’s venom may even change with its diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個別蛇的 venom 甚至可能隨飲食改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句就是答案句。題目把前一句和最後一句合併成 location、age、diet 三個因素。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “composition”、“snake’s venom”、“location”、“age”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The composition of the venom of a single snake species varies from place to place and between adults and their young. An individual snake’s venom may even change with its diet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一種蛇的 venom 組成會因地點不同而變化，也會在成年蛇和幼蛇之間不同。個別蛇的 venom甚至可能隨飲食改變。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目改寫如下： location= from place to place age= between adults and their young diet= with its diet答案必須是原文中的一個詞，且符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 = diet。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“adults and their young” 對應 age，空格後不應再填 young。題目已經把 age 概括出來，剩下的因素是 diet。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "rival males",
+      "answerKey": "rival males",
+      "type": "Sentence Completion 題要先看空格前後文法、詞性和字數限制，再回原文找同義位置。答案必",
+      "prompt": "“Some animals use venom to warn __________ of their dominance during the mating season.”",
+      "translation": "有些動物在交配季節用 venom 向 __________ 顯示自己的支配地位。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although evolution has been fine-tuning these compounds for more than a hundred million years, venom’s molecular architecture has been in place much longer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 evolution 已經微調這些化合物超過一億年，但 venom 的分子架構存在得更久。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In rural areas of developing countries, where most bites occur, victims may not be able to get treatment or may instead choose traditional therapies and are therefore not counted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在發展中國家的農村地區，多數咬傷發生在那裡；受害者可能無法得到治療，或選擇傳統療法，因此沒有被統計。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段先講 venom 的演化與用途，後面轉到人類咬傷問題。題目問 mating season，所以要掃描中段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “mating season” 和 “dominance”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the male platypus uses it to show rival males who’s boss during mating season.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雄性鴨嘴獸在交配季節用它向競爭的雄性顯示誰才是老大。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “warn … of their dominance” 是對 “show … who’s boss” 的改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“who’s boss” 是口語，意思是誰佔上風、誰有支配地位。空格問的是 venom 對誰使用。原文答案是 “rival males”。答案符合 NO MORE THAN TWO WORDS： rival males = 2 words所以 40 = rival males。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “male platypus”。male platypus 是使用 venom 的主體；題目空格要填被警告或被展示支配地位的對象，即 rival males。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Bite That Heals.pdf",
+    "sha256": "f8ee9f7e95157b351daa11ff7c7fb7e7e14948517f8d3d85d9ca8180ad96d4d9",
+    "pageCount": 20
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句用 Michael 去游泳的情節開場，看似是個普通假期場景。末句說蠍子螫傷後通常會有像電擊般的痛楚，偶爾甚至會死人。只看首尾句，可以先估計這段功能是「用一個驚險個案引入 venom的危險性」。讀者會先看到：文章不是一開始講醫學研究，而是先用 bark scorpion 的攻擊展示毒液如何造成劇痛、神經衝擊和死亡風險。Q27 會回到這段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Michael 很幸運，因為當地有現成 antivenom。末句說他的脊椎疾病嚴重發作時，痛到不能走路。只看首尾句，可以推測這段會由蠍子螫傷轉到 Michael 的長期病患。段落功能是交代兩件背景：第一，蠍子螫傷得到即時處理；第二，他本來患有 ankylosing spondylitis，一種慢性自體免疫骨骼疾病。Q28 會看這段，因為題目問疾病成因。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說蠍子螫傷幾天後，Michael 的痛楚消失。末句說 venom 可以透過凝血、停止心臟、阻止凝血或引發致命出血殺人。只看首尾句，可以先看到段落有兩個方向：前半解釋 Michael 的症狀改善，後半轉入 venom 的生物作用。這段會成為文章主題轉折位：同一種 venom 既可能帶來病情緩解，也可能成為自然界高效殺手。Q29 和 Q32 都會用到這段。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說所有 venom 都是 multifaceted and multitasking。末句用非常強烈的比喻總結：那就是venom 的運作方式。只看首尾句，這段明顯解釋 venom 的複雜性，不只一種毒素、不只一個效果。中間很可能會講 venom 和 poison 的分別，以及多種毒素如何在一次咬擊中合作。Q30、Q31和 Q36 很可能在這裡或相鄰段落找到答案。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說諷刺的是，令 venom 致命的性質，也正令它對醫學有價值。末句說針對自體免疫疾病、癌症和痛症的新療法可能十年內可用。只看首尾句，這段功能是文章核心論點：venom 的精準、快速和分子靶向能力，可以被轉化成醫藥價值。它會解釋 venom 和 medicine 在分子層面上的相似運作。Q32、Q33 和 Q36 很可能集中在這段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句引用 Zoltan Takacs，說這不只是少數新藥，而是整個藥物類別。末句說河豚毒素 TTX 的研究揭示了神經細胞溝通的複雜細節。只看首尾句，可以估計這段會擴大 venom research 的價值：不單是開發藥物，也幫助科學家理解身體蛋白質和神經系統。段中會有數字，例如已檢查毒素數量、上市藥物數量和仍未篩選的毒素數量。Q34 和 Q37 在此段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說研究者尋找新化合物，是為了減少人類痛苦。末句說研究有害動物使 Yanagihara 得到超乎預期的認識。只看首尾句，可以推測這段是研究者個案：研究 venom 有時會帶來意外發現。中間的 box jellyfish sting 和 wound-healing agent 會展示「被毒傷」如何轉化成研究動力。這段主要提供例子，不是多數題目的主要答案區，但可幫助理解文章主題。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說超過十萬種動物已演化出 venom、儲存毒液的腺體，以及釋放毒液的器官。末句說個別蛇的 venom 甚至會隨飲食改變。只看首尾句，這段功能是介紹 venom 在動物界的廣泛分布和變化。讀者可先看到：venom 不限於蛇，也包括蠍子、蜘蛛、魚、蝸牛等；同一物種的 venom 也會按地點、年齡和飲食變化。Q35、Q38、Q39 會回到這段。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說雖然 evolution 已經微調這些化合物超過一億年，venom 的分子架構其實更早已存在。末句說發展中國家農村的許多咬傷個案沒有被統計。只看首尾句，可以先估計這段會講 venom 的演化來源和現實傷害。中間會解釋自然如何改造身體原有分子，使其變成 toxin，也會說 venom不一定殺人，有些動物用作防衛或交配競爭。Q40 在這段。 Question Analysis TRUE / FALSE / NOT GIVEN 題要保留題目指定標籤，核心是比較題目命題與原文資訊：方向一致選 TRUE，明確相反選 FALSE，缺少核心資料選 NOT GIVEN。"
+      }
+    ]
+  }
+}

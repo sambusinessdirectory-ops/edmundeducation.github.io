@@ -1,0 +1,605 @@
+{
+  "busy-01-1": {
+    "path": "audio/e92ecb33024916928daebfb9.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She is always busy at the end of the month.",
+    "duration": 2.544,
+    "speed": 1,
+    "sourceSha256": "4a1c3193c8a3fca2d68d6da78f9fddc631a50ff771f711906ecb2114e3797064"
+  },
+  "busy-07-0": {
+    "path": "audio/e6fe67c4dea68a9431aaf70d.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "I have a busy schedule this week.",
+    "duration": 2.328,
+    "speed": 1,
+    "sourceSha256": "a48552c910c8db86c9e77286889bbeba52e66c94c672ba77cd8c9ae07d925422"
+  },
+  "busy-09-0": {
+    "path": "audio/6574fbaf31c848140bec7533.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "The server is busy. Please try again later.",
+    "duration": 3.096,
+    "speed": 1,
+    "sourceSha256": "ebcaf432b346b4488874285ebffafb2ccf60a6e906e7aedb9fa6f41b95155519"
+  },
+  "busy-11-0": {
+    "path": "audio/6dda432f55645af7ee49ffca.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "The caf\u00e9 is busier on weekends.",
+    "duration": 2.544,
+    "speed": 1,
+    "sourceSha256": "512f942c69df082a7d6f255ec69db1eb28f660a7e7680217db1649f755f856f4"
+  },
+  "busy-13-0": {
+    "path": "audio/17bdb11fe2e38e8dd78a28e5.mp3",
+    "voice": "american-male",
+    "index": 25,
+    "text": "She\u2019s such a busybody. She always wants to know what the neighbours are doing.",
+    "duration": 4.176,
+    "speed": 1,
+    "sourceSha256": "424534e5cf39bfb0b2ffa07ff3802f3c632c4a541ffa9923256b274f150deb03"
+  },
+  "train-01-1": {
+    "path": "audio/7060ef90cdfbba99f14e2558.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The train leaves at 7:30.",
+    "duration": 3.024,
+    "speed": 1,
+    "sourceSha256": "dbc9fd8363206828724d6d548a059d13db0a93dee96ea2093dceeb01cc5e842a"
+  },
+  "train-03-0": {
+    "path": "audio/61ca53a450d561863633da3e.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "A long train of camels crossed the desert.",
+    "duration": 2.496,
+    "speed": 1,
+    "sourceSha256": "d128aac367259c91440ab1f7f7d9e2f7b361834bfc9ff3e8d75dfb23e20bfb6c"
+  },
+  "train-05-0": {
+    "path": "audio/91cea5f661af41a7f2c600b4.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "The company trains new staff before they start work.",
+    "duration": 3.264,
+    "speed": 1,
+    "sourceSha256": "10ecd088c8ed310b6225cdd749f6b62f68c09df439662d57cfa309e4c00c2bfa"
+  },
+  "train-07-0": {
+    "path": "audio/5529ec4fd370dd8fd2574fad.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "You can train your memory with regular practice.",
+    "duration": 3.216,
+    "speed": 1,
+    "sourceSha256": "d728b3a81fa4077ca3681192f4a26e90289385853ff029ff2ff121706d443b61"
+  },
+  "train-09-0": {
+    "path": "audio/0267f2796516e07d99f956e2.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "The photographer trained his camera on the speaker.",
+    "duration": 2.712,
+    "speed": 1,
+    "sourceSha256": "78ffaa0fade61b3645813febcf9b9f1d30e60f14837bcf99afd2b79dd03bb181"
+  },
+  "train-11-0": {
+    "path": "audio/7f9801fc71c93f6a7934691e.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "All employees receive safety training.",
+    "duration": 2.88,
+    "speed": 1,
+    "sourceSha256": "2216689df2e66061d5612f5d017b253b39f061f8a3481d430db5420ba9811b14"
+  },
+  "train-13-0": {
+    "path": "audio/25c509f4a98d222af274d278.mp3",
+    "voice": "american-male",
+    "index": 25,
+    "text": "Only trained staff should use this machine.",
+    "duration": 2.976,
+    "speed": 1,
+    "sourceSha256": "ad935017de82ed2e6abc71afc730cdd0d4007652e562bcadef68123182173eee"
+  },
+  "train-15-0": {
+    "path": "audio/41ca9898a8a941b122b6a8dc.mp3",
+    "voice": "american-male",
+    "index": 29,
+    "text": "I bought a new pair of trainers.",
+    "duration": 2.472,
+    "speed": 1,
+    "sourceSha256": "929d93ba8a80b92c40521f60f5cd52557913d923478a14bedfd8728b5d52f688"
+  },
+  "watch-03-0": {
+    "path": "audio/0c8d2d792d007ed32bc6410e.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "Could you watch my bag for a minute?",
+    "duration": 2.256,
+    "speed": 1,
+    "sourceSha256": "eefbdc6424adbce2c9e6eea8525f736577ef76e9bd7c6440800b7b364ae5a874"
+  },
+  "watch-05-0": {
+    "path": "audio/1e8c605c794f7a1af05f1ff4.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "Watch your step.",
+    "duration": 1.728,
+    "speed": 1,
+    "sourceSha256": "605ef1a7d0d2a314b09643fa59d23e2f37f95113a5f35fae5876c16ac04a523f"
+  },
+  "watch-07-0": {
+    "path": "audio/45dd1b6327b5a09fbd944a70.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "Watch out! There\u2019s a car coming.",
+    "duration": 2.616,
+    "speed": 1,
+    "sourceSha256": "19891e65dd8e9e9fce1818a0872840c098af3290e77808d0592f8d6381c1fff9"
+  },
+  "watch-09-0": {
+    "path": "audio/0ed58d9903f7dff19ae3063b.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "A guard kept watch at the entrance.",
+    "duration": 2.616,
+    "speed": 1,
+    "sourceSha256": "3325b2164335ca329bfb16de61f9e68d624a5f1287ae1fb34366bb996a522685"
+  },
+  "watch-11-0": {
+    "path": "audio/6391e64007dcced91703cc50.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "No unauthorized visitor will enter on my watch.",
+    "duration": 3.312,
+    "speed": 1,
+    "sourceSha256": "1ca83ca6d0fba6ab95595b3a9353871291a5d8e16fa16ab238645f9ee112ffab"
+  },
+  "buy-01-1": {
+    "path": "audio/ad486f63bbff3024d8377e28.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "I bought a new pair of headphones yesterday.",
+    "duration": 2.88,
+    "speed": 1,
+    "sourceSha256": "e384c11128d487ef12a11decbbc3e46321e7f177ce66e0e01be7b146a1a5d33b"
+  },
+  "buy-03-0": {
+    "path": "audio/e72bea665fcc18d1bf5ac976.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "I\u2019ll buy you lunch.",
+    "duration": 1.8,
+    "speed": 1,
+    "sourceSha256": "9c648f2e5ba4b787a52cbf7896266f248b83ace29c3bc88c1a672782987a5434"
+  },
+  "buy-05-0": {
+    "path": "audio/47908db709183f7913bca6fb.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "I don\u2019t buy his excuse.",
+    "duration": 2.208,
+    "speed": 1,
+    "sourceSha256": "586cd9d393d1b51ecb755dd606d0ec24cd3d4cd24d07810481256b3f1af36ff5"
+  },
+  "buy-07-0": {
+    "path": "audio/a751812badf3a7ad36061612.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "The temporary repair bought us some time.",
+    "duration": 2.976,
+    "speed": 1,
+    "sourceSha256": "b7212659ffc36d4e31a1c4e4b000a5d989dc8bd2fbc802003b00a59fbd18f1a6"
+  },
+  "buy-09-0": {
+    "path": "audio/5d3a5528cc150fc49c3db7c5.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "The extra investment bought the company greater flexibility.",
+    "duration": 3.336,
+    "speed": 1,
+    "sourceSha256": "f8fd12a319c039e13dffacef769f6c0e323185a9896cd7cedfbb32c17c99005f"
+  },
+  "buy-11-0": {
+    "path": "audio/71df15d4673d23d044dbfb5b.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "At that price, the headphones are a good buy.",
+    "duration": 3.432,
+    "speed": 1,
+    "sourceSha256": "5a6232c451e719106337dea6b0ff1bbae91b6f2906f50c338f65c7d33b0b2dea"
+  },
+  "buy-13-0": {
+    "path": "audio/f970c8527f998e8b62e65dcf.mp3",
+    "voice": "american-male",
+    "index": 25,
+    "text": "She works as a fashion buyer.",
+    "duration": 2.352,
+    "speed": 1,
+    "sourceSha256": "2c10479a2eac495f483d8599633f5f79b3322e67e067958cc2e3aa72e8cb3060"
+  },
+  "buy-15-0": {
+    "path": "audio/02a85f777522dd722164b498.mp3",
+    "voice": "american-male",
+    "index": 29,
+    "text": "Inflation reduces consumers\u2019 buying power.",
+    "duration": 3.144,
+    "speed": 1,
+    "sourceSha256": "e673896594110780d07648f91e4b5d9194d0b7954687025aae82b465d7149eda"
+  },
+  "buy-17-0": {
+    "path": "audio/b9a5a61f1727dfe646c9068f.mp3",
+    "voice": "american-male",
+    "index": 33,
+    "text": "The company agreed to a management buyout.",
+    "duration": 2.616,
+    "speed": 1,
+    "sourceSha256": "a8498535725dafe7949f607756056c04f2adb56f6807fa92b708ef2df624f54f"
+  },
+  "buy-19-0": {
+    "path": "audio/56fdadeda8b6e9b28c6f8ea6.mp3",
+    "voice": "american-male",
+    "index": 37,
+    "text": "The shop has a buy one, get one free offer.",
+    "duration": 2.976,
+    "speed": 1,
+    "sourceSha256": "4feeb2decafd5e32af0970dfbf59acb5199b7fdd660d5885670aec4f7373ea9c"
+  },
+  "buy-21-0": {
+    "path": "audio/ba086b3a12e09f9de767b4ea.mp3",
+    "voice": "american-male",
+    "index": 41,
+    "text": "The analyst rated the stock a buy.",
+    "duration": 2.832,
+    "speed": 1,
+    "sourceSha256": "fbf9ebb9c66833395e34a6a5778f4100b60473600f6d230fc747bac1f9e48d35"
+  },
+  "catch-01-1": {
+    "path": "audio/9fc92135b30c6761ef6b50cb.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The bright red packaging caught my eye.",
+    "duration": 2.976,
+    "speed": 1,
+    "sourceSha256": "94042ac95e0344287583254f8f4a6dd47d3cb35ef14bed1e108ae2ce7aea4893"
+  },
+  "catch-03-0": {
+    "path": "audio/d4aa7b633cac0b4744ad97d3.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "The police caught the thief later that evening.",
+    "duration": 2.664,
+    "speed": 1,
+    "sourceSha256": "1747dd261f560d3f77895cb6421d9d693274ae9d06b4d62d7359d570ce1dcf0d"
+  },
+  "catch-05-0": {
+    "path": "audio/450e261fb013c79832d4799a.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "I need to catch the 7:30 train.",
+    "duration": 2.472,
+    "speed": 1,
+    "sourceSha256": "9ea8088469d70ecd00f6eb016a66be901408d68cd0ed871e6ac6065a60ab63af"
+  },
+  "catch-07-0": {
+    "path": "audio/b705e0df65455d8bba69f91a.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "The teacher caught him cheating.",
+    "duration": 2.28,
+    "speed": 1,
+    "sourceSha256": "58e381161b4c4fbd4f009badbc50251f6b26babe728131577c2270115e3ee689"
+  },
+  "catch-09-0": {
+    "path": "audio/c32b80ac6d69c4bef1eccfc9.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "Sorry, I didn\u2019t catch the joke.",
+    "duration": 2.232,
+    "speed": 1,
+    "sourceSha256": "660f4f789ef80e83745525c6ac746adca83e81a7bb175ca4ff72a5da39406a35"
+  },
+  "catch-11-0": {
+    "path": "audio/58bb48923d6f195113eb2cb8.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "Her ring caught the light.",
+    "duration": 2.04,
+    "speed": 1,
+    "sourceSha256": "5ea32a6811fd06452c1d1172a3551c09ed753331c3fffbb5539f4ceb27c8c52c"
+  },
+  "catch-13-0": {
+    "path": "audio/5e5c3e8fc1465692bde9a2b4.mp3",
+    "voice": "american-male",
+    "index": 25,
+    "text": "She slipped, but I caught her.",
+    "duration": 2.352,
+    "speed": 1,
+    "sourceSha256": "f26b80724f01e775c01e4af530bfda6281a6be50490b90bff436df55a58c9558"
+  },
+  "catch-15-0": {
+    "path": "audio/7b57927d7eb24b2d517562ba.mp3",
+    "voice": "american-male",
+    "index": 29,
+    "text": "Did you catch the news last night?",
+    "duration": 2.376,
+    "speed": 1,
+    "sourceSha256": "816c2ed34fd0594305e780dda9a2440f0c86f433bdccdb143d16ebad949f4c10"
+  },
+  "catch-17-0": {
+    "path": "audio/32d295a742a91c1d364ae45b.mp3",
+    "voice": "american-male",
+    "index": 33,
+    "text": "That was an excellent catch.",
+    "duration": 2.184,
+    "speed": 1,
+    "sourceSha256": "4071389107ef4f441e396c6c1ee9661292c1eab3017684e5acd544a7390b7bee"
+  },
+  "catch-19-0": {
+    "path": "audio/de0949c895286facbffae8d2.mp3",
+    "voice": "american-male",
+    "index": 37,
+    "text": "Everyone thinks he\u2019s a great catch.",
+    "duration": 2.376,
+    "speed": 1,
+    "sourceSha256": "3c09329c96820716b7d434ec8909ff4cad10d8351ad9a1340c80a65d18d2da5b"
+  },
+  "catch-21-0": {
+    "path": "audio/46d40d48943c8d4d61ae1686.mp3",
+    "voice": "american-male",
+    "index": 41,
+    "text": "There was a slight catch in her voice.",
+    "duration": 2.52,
+    "speed": 1,
+    "sourceSha256": "d8d4f3d8bfa87156a7081713cdfefc161a5d7c9484f9825c8129331c06f5ed8c"
+  },
+  "catch-23-0": {
+    "path": "audio/f8e0447584e3fb7906ee1540.mp3",
+    "voice": "american-male",
+    "index": 45,
+    "text": "Her laughter was catching.",
+    "duration": 2.208,
+    "speed": 1,
+    "sourceSha256": "fe8d1baa5cb559b00676f23bf09fd72af5d7f5f3ed3aa9b7de5384e72021c38a"
+  },
+  "pair-01-1": {
+    "path": "audio/f6b1870c4f66ec6659a011d9.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "She bought a pair of shoes.",
+    "duration": 2.424,
+    "speed": 1,
+    "sourceSha256": "6465fe3b7ee723aa3ef3487cf1ceb86c6035a469fa6efaa29a45e9792ace5f9b"
+  },
+  "pair-03-0": {
+    "path": "audio/66cc91f50b9afb4f3aaae104.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "The students worked in pairs.",
+    "duration": 2.016,
+    "speed": 1,
+    "sourceSha256": "6c66a5322ac7a54b190f39869df19a2f8c8ed756fa506a0525e6fc36be0e8629"
+  },
+  "pair-05-0": {
+    "path": "audio/45eed8341bcfa894e0c2319e.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "A pair of swans was swimming on the lake.",
+    "duration": 2.88,
+    "speed": 1,
+    "sourceSha256": "61b8b892625ce484b87dfc9358f61501464fc68227a045c61227a7079583ba20"
+  },
+  "pair-07-0": {
+    "path": "audio/90dafed370c5206a9e20be08.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "I had a pair of kings.",
+    "duration": 2.04,
+    "speed": 1,
+    "sourceSha256": "d2ab82300f10a1e25732da7cb67bf36e8c014ff9d6d78a2df534c97abcaf537d"
+  },
+  "pair-09-0": {
+    "path": "audio/91ac196a52033e3552697bce.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "The teacher paired the students for the activity.",
+    "duration": 2.832,
+    "speed": 1,
+    "sourceSha256": "215af6d157480cf41a7ce410c66046bec15fed5f1540f1fd7c4ba7196b281e84"
+  },
+  "pair-11-0": {
+    "path": "audio/dd4ea711b2e0ed7af860f108.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "You need to pair the headphones with your phone.",
+    "duration": 2.592,
+    "speed": 1,
+    "sourceSha256": "2edec2a2359946a39fe1144cb8ed7826302d924fbb67b85e6950d8ad102d7670"
+  },
+  "pair-13-0": {
+    "path": "audio/0aa3c884ec4d4690a3b33da4.mp3",
+    "voice": "american-male",
+    "index": 25,
+    "text": "The manager paired two designers on the project.",
+    "duration": 3.312,
+    "speed": 1,
+    "sourceSha256": "0ff69763d12d9caa4d568991d0732f286e5d982735b76763c7ba498d6101bc0d"
+  },
+  "pair-15-0": {
+    "path": "audio/e9e7b14eff0384fda7940bb9.mp3",
+    "voice": "american-male",
+    "index": 29,
+    "text": "Bluetooth pairing took only a few seconds.",
+    "duration": 3.144,
+    "speed": 1,
+    "sourceSha256": "c820a0e374b6e1563dba0de1c1a9fca0aa2d31ed0c02738b17d61e93199cf972"
+  },
+  "pair-17-0": {
+    "path": "audio/6548a354874c3edf69063e0d.mp3",
+    "voice": "american-male",
+    "index": 33,
+    "text": "The researchers made pairwise comparisons between the groups.",
+    "duration": 3.912,
+    "speed": 1,
+    "sourceSha256": "05eb829cbe2f9a24c122de496547e595280944b02ad839cf1e63dde5649e3586"
+  },
+  "see-01-1": {
+    "path": "audio/52ba0a0d3816266856ce7dc4.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "I can see the station from here.",
+    "duration": 2.352,
+    "speed": 1,
+    "sourceSha256": "8071810700699ab410eb506e454411022f3527ffeff7c9b3ca0398f0dc14f465"
+  },
+  "see-03-0": {
+    "path": "audio/671ff2a63f2135afff9963d2.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "I saw a mistake in the report.",
+    "duration": 1.896,
+    "speed": 1,
+    "sourceSha256": "76a5e34b3ec89efd637274d087690dd5710430bd7caba85fc292c3d51da817cf"
+  },
+  "see-05-0": {
+    "path": "audio/fc69b38bd3ab63af2a882e58.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "The battery only lasts ten hours. Oh, I see.",
+    "duration": 3.264,
+    "speed": 1,
+    "sourceSha256": "99fd15cb99e0e0446bae59e6095418aaac3779a7496371c1b99bae8d4920e0a4"
+  },
+  "see-07-0": {
+    "path": "audio/25329d9f168b119065486400.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "I\u2019m seeing Anna tomorrow.",
+    "duration": 1.896,
+    "speed": 1,
+    "sourceSha256": "56da0dc75350f2333d314d9116250fdffebcc7d4f9c38c01d31857041c2da8c6"
+  },
+  "see-09-0": {
+    "path": "audio/48098b4d56fb518889b591a4.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "Are you seeing anyone?",
+    "duration": 1.776,
+    "speed": 1,
+    "sourceSha256": "def1798ce6f041e6899f59780865c6fa82b3bee0627e62092a9833aee72609c3"
+  },
+  "see-13-0": {
+    "path": "audio/7a891a1d43d53234faf0f8e7.mp3",
+    "voice": "american-male",
+    "index": 25,
+    "text": "I\u2019ll see if the headphones are still available.",
+    "duration": 2.76,
+    "speed": 1,
+    "sourceSha256": "cc60d5f374bec974b3ab267405b408cc01794fb3866c502ceafa41ca5fd4265b"
+  },
+  "see-15-0": {
+    "path": "audio/51687fce39ecb685346fd128.mp3",
+    "voice": "american-male",
+    "index": 29,
+    "text": "Customers see the brand as reliable.",
+    "duration": 2.568,
+    "speed": 1,
+    "sourceSha256": "5d498ecc2399dad7ac6cf09e2103815d8ae86983f2ebf73e8f99340ab9d1e699"
+  },
+  "see-17-0": {
+    "path": "audio/bdcd58356a288cced709b82f.mp3",
+    "voice": "american-male",
+    "index": 33,
+    "text": "I can see the value of noise-cancelling headphones.",
+    "duration": 3.048,
+    "speed": 1,
+    "sourceSha256": "80415202cb0f1afb930b2465d84df4fe50403f772da6e79cfd13dfc11ec12396"
+  },
+  "see-19-0": {
+    "path": "audio/4dd4884f48e0b039528659ab.mp3",
+    "voice": "american-male",
+    "index": 37,
+    "text": "Do you think the product will succeed? We\u2019ll see.",
+    "duration": 3.528,
+    "speed": 1,
+    "sourceSha256": "a63024c6cc8b5c06aa6bf08d0884409ec1ef1539595e3c57fc431c4e787c5288"
+  },
+  "see-21-0": {
+    "path": "audio/814daa3931b9ead4b458ae32.mp3",
+    "voice": "american-male",
+    "index": 41,
+    "text": "He saw her safely home.",
+    "duration": 2.256,
+    "speed": 1,
+    "sourceSha256": "351ed5b49f64fb6971b7fd5dae6e4ead1312eb0907c98e52ca702322a55ded18"
+  },
+  "late-01-1": {
+    "path": "audio/bede6fc30321ba87750a5d73.mp3",
+    "voice": "american-male",
+    "index": 1,
+    "text": "The train was twenty minutes late.",
+    "duration": 2.496,
+    "speed": 1,
+    "sourceSha256": "8b89fb3a5e8287402f562580bd5b50a125b95dfac7db1fe0c5e0fd56e3e1749d"
+  },
+  "late-03-1": {
+    "path": "audio/b745555e2f841c669c4c3462.mp3",
+    "voice": "american-male",
+    "index": 5,
+    "text": "Late applications will not be accepted.",
+    "duration": 2.76,
+    "speed": 1,
+    "sourceSha256": "16a086b15b7f10677902f78c61246a0059be2d989dfc794a3ffa679e3adc84df"
+  },
+  "late-05-1": {
+    "path": "audio/2315cf20463b8267c333af5e.mp3",
+    "voice": "american-male",
+    "index": 9,
+    "text": "The streets are quiet late at night.",
+    "duration": 2.376,
+    "speed": 1,
+    "sourceSha256": "38b8f34e1e7cb7c8777c12bad19495eb2b90aa7f529687be655f36fff9672894"
+  },
+  "late-07-0": {
+    "path": "audio/8573bedf1663446fc46e1eef.mp3",
+    "voice": "american-male",
+    "index": 13,
+    "text": "The award was named after the late professor.",
+    "duration": 2.832,
+    "speed": 1,
+    "sourceSha256": "d8bb9db3f45518009fbecb96eed26b490b1ce0ae96e27a9716441139552909d0"
+  },
+  "late-09-0": {
+    "path": "audio/84dab13ffb3037589df6c062.mp3",
+    "voice": "american-male",
+    "index": 17,
+    "text": "It\u2019s too late to change the booking.",
+    "duration": 2.256,
+    "speed": 1,
+    "sourceSha256": "3e7c2bd8eaa921887c5ca1b07f3aae954c7c0ea73e60c8524b5dd8d15c517131"
+  },
+  "late-11-0": {
+    "path": "audio/aa0336844f383d308b05695f.mp3",
+    "voice": "american-male",
+    "index": 21,
+    "text": "I bought the headphones a few weeks later.",
+    "duration": 2.712,
+    "speed": 1,
+    "sourceSha256": "062400cde78f3bf41ddcd15d0486d0c063b20acf6b83124b3afd2bd42e0b3cd3"
+  },
+  "late-13-0": {
+    "path": "audio/3deed0fad81f0d1e801779dc.mp3",
+    "voice": "american-male",
+    "index": 25,
+    "text": "The second train leaves later.",
+    "duration": 1.92,
+    "speed": 1,
+    "sourceSha256": "1699e03444996d4ab389c76de4096c14e43dd91b6c41f3af95629738835e4905"
+  }
+}

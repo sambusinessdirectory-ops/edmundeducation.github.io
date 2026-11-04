@@ -1,0 +1,1435 @@
+{
+  "id": "p1-052-the-connection-between-culture-and-thought",
+  "catalogueId": "p1-052",
+  "catalogueIds": [
+    "p1-052"
+  ],
+  "passage": 1,
+  "title": "The Connection Between Culture and Thought",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "E",
+    "G",
+    "D",
+    "B",
+    "E",
+    "B",
+    "A",
+    "C",
+    "A（見第 9 題說明：目前文本支援較弱，但最接近 A）",
+    "living environment",
+    "conclusion",
+    "qualitative",
+    "definition"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "All people have the same reaction to a certain point of view.",
+      "translation": "所有人對某一個觀點有相同反應。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目中的定位詞是 “same reaction” 和 “point of view”。原"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文未必用 point of view，可能用 position、argument、support 這類字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph E。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In another experiment, performed by Nisbett and Choi, participants were presented with convincing evidence supporting a position.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在另一個由 Nisbett and Choi 進行的實驗中，參加者看到支持某一立場的有力證據。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Americans, by contrast, were less willing to alter their original conclusion.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：相比之下，美國人較不願意改變原本結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段會談人們面對一個立場或論點時，是否會改變想法。這與題目中的point of view 和 reaction 很接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph E 時，最重要的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both Korean and American groups initially expressed strong support.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：韓國組和美國組一開始都表達了強烈支持。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “All people have the same reaction”。這裡的 all people 應理解為實驗中的兩個群"
+            },
+            {
+              "kind": "paragraph",
+              "text": "體，而非全世界所有人。原文說 Both Korean and American groups initially expressed strong support，即兩組在一開始的反應相同。a certain point of view 對應原文的 “a position”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "a certain point of view= a position same reaction= both groups initially expressed strong support"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題只問哪段包含這個資訊，並不要求說兩組後來仍然相同。細讀 Paragraph E 會發現，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來收到反對證據後，韓國人和美國人的反應開始分開。題目中的 same reaction 對應的是initially 這個時間點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "Qualitative descriptions are valuable in exploring thought processing.",
+      "translation": "質性描述對探索思考處理方式有價值。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找 “qualitative descriptions” 和 “valuable”。這兩個詞非常有定位力。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph G。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These early experiments might seem to confirm the original premise that culture affects how we think.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些早期實驗似乎確認了原本前提：文化會影響我們如何思考。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chang partly agrees, noting that social factors might also influence the findings.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Chang 部分同意，並指出社會因素也可能影響研究結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段是評論與批評段，會提到不同研究者對 Nisbett 實驗的評價。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞 “qualitative descriptions” 直接出現在 Paragraph G："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fischer considers Nisbett’s work valuable because it provides qualitative descriptions, although not results from a controlled environment.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Fischer 認為 Nisbett 的研究有價值，因為它提供了質性描述，雖然它沒有提供來自受"
+            },
+            {
+              "kind": "paragraph",
+              "text": "控環境的結果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 qualitative descriptions are valuable。原文說 “Fischer considers Nisbett’s work"
+            },
+            {
+              "kind": "paragraph",
+              "text": "valuable because it provides qualitative descriptions”。這是直接對應。exploring thought processing 對應前文 “thought processing” 和 Nisbett 的 cognitive psychology experiments。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "valuable in exploring thought processing= Nisbett’s work valuable because it provides qualitative descriptions"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也有 thought processing 和 early studies，但沒有 Fischer 或 qualitative"
+            },
+            {
+              "kind": "paragraph",
+              "text": "descriptions。這題真正定案的位置在 Paragraph G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "Different cultures will affect the description of the same scene.",
+      "translation": "不同文化會影響人們如何描述同一個場景。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找 “same scene / description / different cultures”。原文可能用 describe the scene、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Japanese participants、American participants。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph D。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One experiment led by Nisbett and Masuda showed participants an animated video of a large fish swimming among smaller fish and other sea creatures, then asked them to describe the scene.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Nisbett and Masuda 的一個實驗讓參加者觀看一段動畫：一條大魚在小魚和其他海洋"
+            },
+            {
+              "kind": "paragraph",
+              "text": "生物之間游動，然後要求他們描述畫面。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The experiment suggested that members of Eastern cultures focus more on the overall picture, whereas those from Western cultures focus more on individuals.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：實驗顯示，東方文化成員較重視整體畫面，西方文化成員較重視個體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段已明顯處理「看同一畫面，但描述焦點不同」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Japanese participants tended to focus on the aquatic background, including plants and the colour of the water, as well as relationships between the large and small fish.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：日本參加者傾向注意水中背景，包括植物、水的顏色，以及大小魚之間的關係。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“American participants focused on individual fish, particularly the larger, more distinctive-looking one.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：美國參加者則集中於個別魚，尤其是較大、外觀較突出的那條。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "same scene 對應同一段 animated video；different cultures 對應 Japanese / American 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Eastern / Western cultures；description affected 對應 describe the scene 時，一方描述背景和關係，另一方描述個體。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "description of the same scene= asked them to describe the scene different cultures affect description= Japanese focused on background; Americans focused on individual fish"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "Young people in different geographical locations were expected to think very differently.",
+      "translation": "不同地理位置的年輕人被認為會有很不同的想法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 young people、different geographical locations、think differently。原文可能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "用 young boy、farm、New York、different countries。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph B。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your culture may influence your clothing, your language, and many aspects of your life.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：你的文化可能影響衣著、語言和生活很多方面。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If two young children from different countries were asked what they thought about a painting, they would answer differently because of their cultural backgrounds.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：如果兩個來自不同國家的小孩被問到對一幅畫的看法，他們會因文化背景不同而作出"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不同回答。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講傳統信念：文化背景會影響人的思考和回答方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "段中有兩個 young people 例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, a young boy from a farm would talk about cows while a boy from New York would talk about cars.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：例如，來自農場的小男孩會談牛，而來自紐約的小男孩會談汽車。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 young people in different geographical locations。原文用 farm 和 New York，也用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "different countries。題目說 were expected to think very differently，原文說 “It has long been believed that people from different cultures would think differently”，再用孩子例子說明。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "young people= a young boy / two young children different geographical locations= from a farm / from New York / from different countries think very differently= would talk about cows vs cars / would answer differently"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段講的是 long-held belief，不是後來研究已證實的結論。題目只問哪段包含這個資訊，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 B 成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "Eastern people are less likely to stick to their argument.",
+      "translation": "東方人較不容易堅持原本論點。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Eastern people、stick to argument。原文未必用 stick to，可能用 modify、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "reduce support、change minds、less willing to alter。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph E。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In another experiment, performed by Nisbett and Choi, participants were presented with convincing evidence supporting a position.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Nisbett and Choi 的另一個實驗中，參加者看到支持某一立場的有力證據。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Americans, by contrast, were less willing to alter their original conclusion.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：相比之下，美國人較不願改變原本結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可先估計本段會比較不同文化在面對論點證據時是否願意改變立場。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“After receiving evidence opposing that position, Koreans began to modify or reduce their support, whereas Americans strengthened their support for the original argument.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：收到反對該立場的證據後，韓國人開始修改或降低支持程度，而美國人加強了對原本"
+            },
+            {
+              "kind": "paragraph",
+              "text": "論點的支持。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Eastern people 在這段以 Koreans 代表。less likely to stick to their argument 對應 “modify"
+            },
+            {
+              "kind": "paragraph",
+              "text": "or reduce their support” 和 “more willing to change their minds”。美國人 strengthened their support，才更接近 stick to original argument。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "less likely to stick to their argument= modify or reduce their support / more willing to change their minds argument= position / original argument / conclusion"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這裡的 Eastern people 不是所有東方人，而是該實驗中的 Korean group。題目作概括時"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，仍要回到原文的具體樣本。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "B — Nisbett & Choi",
+      "answerKey": "B — Nisbett & Choi",
+      "type": "Matching Researchers",
+      "prompt": "Geographical location affects people’s position on certain arguments.",
+      "translation": "地理位置或文化群體會影響人們對某些論點的立場。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features，要把 statement 配回研究者。定位詞是 position、arguments"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，這兩個詞直接指向 Paragraph E。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph E。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In another experiment, performed by Nisbett and Choi, participants were presented with convincing evidence supporting a position.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 Nisbett and Choi 的另一個實驗中，參加者看到支持某立場的有力證據。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Americans, by contrast, were less willing to alter their original conclusion.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：相比之下，美國人較不願意改變原本結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經有 position 和 original conclusion，所以應先看 Nisbett & Choi。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“After receiving evidence opposing that position, Koreans began to modify or reduce their support, whereas Americans strengthened their support for the original argument.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：收到反對該立場的證據後，韓國人開始修改或降低支持程度，而美國人加強了對原本"
+            },
+            {
+              "kind": "paragraph",
+              "text": "論點的支持。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 geographical location，原文以 Korean and American groups 代表不同文化／國籍"
+            },
+            {
+              "kind": "paragraph",
+              "text": "背景。position on certain arguments 對應 supporting a position、opposing that position、original argument。這些詞全部集中在 Nisbett & Choi 的實驗。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "people’s position on arguments= support for a position / support for the original argument geographical location= Korean and American groups"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也有 argument，但它的重點是 logical deduction，不是支持或改變某個立"
+            },
+            {
+              "kind": "paragraph",
+              "text": "場。看到 argument 時要看它用在「支持立場」還是「邏輯推論」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "A — Nisbett & Masuda",
+      "answerKey": "A — Nisbett & Masuda",
+      "type": "Matching Researchers",
+      "prompt": "Animated images reveal different processing strategies.",
+      "translation": "動畫影像揭示不同的認知處理策略。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph D。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One experiment led by Nisbett and Masuda showed participants an animated video of a large fish swimming among smaller fish and other sea creatures, then asked them to describe the scene.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Nisbett and Masuda 的一個實驗讓參加者觀看大魚在小魚和其他海洋生物間游動的動"
+            },
+            {
+              "kind": "paragraph",
+              "text": "畫，然後要求他們描述場景。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The experiment suggested that members of Eastern cultures focus more on the overall picture, whereas those from Western cultures focus more on individuals.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：實驗顯示，東方文化成員較重視整體畫面，西方文化成員較重視個體。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "animated images 直接對應 “animated video”。different processing strategies 對應 overall"
+            },
+            {
+              "kind": "paragraph",
+              "text": "picture vs individuals。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Nisbett & Masuda 的實驗材料是動畫影像，處理策略的差異是：Japanese participants 看"
+            },
+            {
+              "kind": "paragraph",
+              "text": "背景和關係；American participants 看個體大魚。這正是題目說的不同 processing strategies。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "animated images= animated video processing strategies= focus on overall picture / focus on individuals答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "C — Nisbett & Ara",
+      "answerKey": "C — Nisbett & Ara",
+      "type": "Matching Researchers",
+      "prompt": "Eastern participants challenge a deduction because they know its conclusion is untrue.",
+      "translation": "東方參加者因知道結論不符合現實，所以質疑一個推論。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph F。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nisbett and Ara devised an experiment to test thought processing in Eastern and Western cultures.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Nisbett and Ara 設計了一個實驗，測試東方和西方文化中的思考處理方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They assumed that if the logical deduction was based on a correct premise, the conclusion must also be right.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他們假定如果邏輯推論建立在正確前提上，結論也必然正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段處理 logical deduction 和 conclusion 的判斷方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“People from Eastern cultures questioned the conclusion because they knew that some furry animals do not hibernate.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：來自東方文化的人質疑這個結論，因為他們知道有些有毛動物不冬眠。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 challenge a deduction 對應 questioned the conclusion；because they know its"
+            },
+            {
+              "kind": "paragraph",
+              "text": "conclusion is untrue 對應 knew that some furry animals do not hibernate。實驗者是 Nisbett and Ara，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "challenge a deduction= questioned the conclusion conclusion is untrue= some furry animals do not hibernate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "A — Nisbett & Masuda（目前文本支援較弱）",
+      "answerKey": "A — Nisbett & Masuda（目前文本支援較弱）",
+      "type": "Matching Researchers",
+      "prompt": "Eastern people find more difficulty when asked to identify the same object.",
+      "translation": "東方人在辨認同一物件時遇到較大困難。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有一個文本問題：目前提供的文章沒有直接寫 “find more difficulty” 或 “identify the same object”。如果嚴格只看已貼出的文本，這句不能被完整證明。可是題目選項只容許 A、B、C，三個研究中只有 Nisbett & Masuda 處理 visual objects / animated images / scene perception，因此最接近答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落仍是 Paragraph D。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One experiment led by Nisbett and Masuda showed participants an animated video of a large fish swimming among smaller fish and other sea creatures, then asked them to describe the scene.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Nisbett and Masuda 讓參加者觀看魚群動畫，然後要求他們描述場景。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The experiment suggested that members of Eastern cultures focus more on the overall picture, whereas those from Western cultures focus more on individuals.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：實驗顯示東方文化成員較重視整體畫面，西方文化成員較重視個體。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “same object” 最接近 Paragraph D 的 “individual fish”；“Eastern people” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Japanese participants / Eastern cultures；“difficulty” 在目前文本沒有原字或明確同義詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文只支持這一點：Japanese participants focus on background and relationships, while"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Americans focus on individual fish。由此可以合理連到「物件識別差異」這類研究方向，但目前文章未直接說東方人辨認同一物件比較困難。因此本題若作正式 IELTS 文本，可能原文少了一句。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "按題組設計，A 是最可能的 intended answer；按嚴格證據，需標記為支援不足。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫的可接受部分",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Eastern people= Japanese participants / members of Eastern cultures same object= individual fish / visual object缺失部分： find more difficulty= 目前文本沒有直接提供"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "living environment",
+      "answerKey": "living environment",
+      "type": "Sentence Completion",
+      "prompt": "Researchers in the Soviet Union wanted to find out how 10 _________________ and nationality influenced the way people think.",
+      "translation": "蘇聯研究者想找出 ______ 和國籍如何影響人們思考。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN TWO WORDS。空格與 nationality 並列，因此需要名詞短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph C。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In recent years, new research has challenged this long-held belief.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：近年，新研究挑戰了這個長久以來的看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nisbett’s experiment investigated this aspect of cognitive psychology, and he conducted several versions to test different processes.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Nisbett 的實驗研究了認知心理學中的這一方面，並做了幾個版本以測試不同過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph C 是研究背景段，會交代 earlier studies 和 cognitive processing。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Soviet Union、nationality、influence cognition。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The researchers focused on how living environment and nationality might influence cognition.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：研究者集中探討生活環境和國籍可能如何影響認知。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “influenced the way people think” 對應原文 “influence cognition”。空格與"
+            },
+            {
+              "kind": "paragraph",
+              "text": "nationality 並列，原文完整短語是 living environment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：living environment字數檢查：兩個 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "the way people think= cognition wanted to find out how= focused on how"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "conclusion",
+      "answerKey": "conclusion",
+      "type": "Sentence Completion",
+      "prompt": "Nisbett and Ara’s experiment shows that, for Americans, if a logical deduction is based on a correct premise, the 11 _________________ should be right.",
+      "translation": "Nisbett and Ara 的實驗顯示，對美國人來說，如果邏輯推論建立在正確前提上，______ 就應該正確。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN TWO WORDS。空格前有 the，後面接 should be right，需要名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph F。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nisbett and Ara devised an experiment to test thought processing in Eastern and Western cultures.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Nisbett and Ara 設計了一個實驗，測試東方和西方文化中的思考處理方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They assumed that if the logical deduction was based on a correct premise, the conclusion must also be right.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他們假定如果邏輯推論建立在正確前提上，結論也必然正確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目幾乎直接改寫段落最後一句。定位詞是 logical deduction、correct premise、right。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文的 “the conclusion must also be right” 對應題目 “the ___ should be right”。must also"
+            },
+            {
+              "kind": "paragraph",
+              "text": "be right 被改成 should be right；答案是 conclusion。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：conclusion字數檢查：一個 word，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "correct premise= correct premise must also be right= should be right"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "qualitative",
+      "answerKey": "qualitative",
+      "type": "Sentence Completion",
+      "prompt": "Fischer considers Nisbett’s research valuable because it was conducted in a 12_________________ way rather than in a controlled environment.",
+      "translation": "Fischer 認為 Nisbett 的研究有價值，因為它以 ______ 方式進行，而非在受控環境中得出結果。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN TWO WORDS。空格在 “a ___ way” 中，需要形容詞。原文是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“qualitative descriptions”，題目改成 “a ___ way”，所以答案應填 qualitative。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph G。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These early experiments might seem to confirm the original premise that culture affects how we think.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些早期實驗似乎確認了原本前提：文化會影響我們如何思考。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chang partly agrees, noting that social factors might also influence the findings.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Chang 部分同意，指出社會因素也可能影響研究結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段是對 Nisbett early experiments 的評論段，當中會有 Fischer 和Chang 的看法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Fischer、valuable、controlled environment。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fischer considers Nisbett’s work valuable because it provides qualitative descriptions, although not results from a controlled environment.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Fischer 認為 Nisbett 的研究有價值，因為它提供了質性描述，雖然不是來自受控環境"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的結果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “provides qualitative descriptions” 改成 “conducted in a qualitative way”。雖然原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有 exactly 說 conducted in a qualitative way，但空格文法要求形容詞，qualitative 最自然。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：qualitative字數檢查：一個 word，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 qualitative descriptions。題目句子會變成 “in a qualitative descriptions way”，文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "法不通。Completion 題一定要檢查空格前後。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "definition",
+      "answerKey": "definition",
+      "type": "Sentence Completion",
+      "prompt": "Future researchers studying culture’s effect on cognitive processing should begin with a clear 13 _________________ of culture as a variable.",
+      "translation": "未來研究文化如何影響認知處理時，研究者應先清楚 ______ 文化這個變項。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN TWO WORDS。空格前有 “a clear”，需要單數名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph J。第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The research on culture’s effect on cognitive processing still goes on today, and while some criticisms exist of Nisbett’s early studies, the projects still provide valuable insight.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：關於文化對認知處理影響的研究至今仍在進行；雖然 Nisbett 早期研究受到一些批評，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但這些項目仍提供有價值的見解。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When studying a variable like culture, it is critical that the researcher create a clear definition for what is—and what is not—considered culture.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：研究 culture 這類變項時，研究者必須清楚界定甚麼算文化，甚麼不算文化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 future researchers、clear、culture as variable。原文最後一句直接出現 “clear"
+            },
+            {
+              "kind": "paragraph",
+              "text": "definition”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “create a clear definition for what is—and what is not—considered culture” 壓縮成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“begin with a clear definition of culture as a variable”。空格前 “a clear” 指向 definition。答案形式：definition字數檢查：一個 word，符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "should begin with= it is critical that the researcher create clear definition of culture= a clear definition for what is and what is not considered culture"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - The Connection Between Culture and Thought.pdf",
+    "sha256": "2d2ccce06fac058010c8f0c6b36def7f8ac2ebdc39a0e548a9d9981bd65e99b7",
+    "pageCount": 17
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可合理看到的全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句先用世界人口超過 70 億作開場，指出人類遍佈全球，而且存在許多差異。末句說 culture 是能改變人類行為的因素之一。只看首尾句，可以估計 Paragraph A 是全文引入段，功能是把大題目放在「人類差異」和「文化影響」之中。它暫時未談思考方式或實驗，主要建立背景：地理、氣候、政治、國籍等因素都可能造成差異，而文化將成為後文討論核心。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說文化可能影響衣著、語言和生活很多方面，接著提出問題：文化是否足以改變個人思考方式？末句說兩個來自不同國家的孩子看同一幅畫，可能因文化背景而回答不同。只看首尾句，可以估計本段介紹傳統看法：不同文化的人會以不同方式思考。中間例子如 farm boy 談 cows、New York boy 談 cars，都是為了說明文化背景和地理環境可能影響兒童的思考內容。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說近年新研究挑戰了這個長久以來的看法。末句說 Nisbett 做了幾個版本的實驗，用來測試不同認知過程。只看首尾句，可以估計 Paragraph C 是研究背景段：它先說新研究挑戰舊觀點，再指出早期研究，包括 Soviet Union 的研究，以及 Nisbett 的 cognitive psychology experiments，都曾經探討 culture、living environment、nationality 和 cognition 的關係。題目若問 Soviet Union、living environment 或 Nisbett 的研究背景，應看 C。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 Nisbett and Masuda 讓參加者觀看一段動畫：大魚在小魚和其他海洋生物之間游動，然後要求他們描述畫面。末句說實驗顯示 Eastern cultures 較重視整體畫面，Western cultures 較重視個體。只看首尾句，可以估計本段是視覺描述實驗：日本參加者看背景、植物、水色和魚之間的關係；美國參加者看單一大魚。題目若問 scene description、animated images、overall picture 或individuals，答案多數在 D。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說另一個由 Nisbett and Choi 進行的實驗中，參加者先看到支持某立場的有力證據。末句說美國人較不願改變原本結論。只看首尾句，可以估計本段處理「觀點／論點支持」的文化差異：韓國和美國參加者起初都支持同一立場，但看到反對證據後，韓國人會修改或降低支持，美國人則更堅持原先論點。題目若問 point of view、argument、change mind、stick to argument，應看 E。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Nisbett and Ara 設計了一個實驗，測試東西方文化的 thought processing。末句說美國參加者認為，如果邏輯推論建立在正確前提上，結論也必然正確。只看首尾句，可以估計本段處理deductive reasoning，即形式邏輯推論。中間的 rabbit hibernate 例子會考查學生是否只看邏輯形式，還是會用現實知識挑戰結論。題目若問 deduction、premise、conclusion、furry animals 或hibernate，應看 F。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說這些早期實驗似乎確認了原本前提：文化會影響我們如何思考。末句說 Chang 部分同意，並指出 social factors 也可能影響研究結果。只看首尾句，可以估計本段轉入批評與保留：Nisbett的研究有價值，但近年研究者質疑其控制程度和解釋範圍。Fischer 認為 qualitative descriptions有價值，但不等於 controlled environment 的結果。題目若問 qualitative descriptions、criticism、Fischer 或 Chang，應看 G。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說對 Nisbett 實驗的另一項批評是：culture 被當成 nationality 的 sub-factor 來研究。末句說socioeconomic status、education、ethnicity 和 regional cultural differences 都可能大幅影響個人反應。只看首尾句，可以估計本段批評 culture = nationality 這個假設過於簡化。它提醒讀者，同一國籍內部也有階層、教育、族裔和地區文化差異。題目若問 nationality assumption 或uncontrolled factors，應看 H。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說第三項批評是：實驗內容應該更抽象，例如 puzzle 或 IQ test。末句說更抽象或更量化的測試能更受控制地研究不同群體的 cognitive processing。只看首尾句，可以估計本段批評實驗材料不夠中性。若內容涉及 nature and animals，不同國家的人可能已有不同 preconceived ideas； geographic location 形成的 prior knowledge 也會干擾結果。題目若問 abstract content、animals、prior knowledge 或 controlled study，應看 I。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說 culture 對 cognitive processing 的研究至今仍在進行，雖然 Nisbett 早期研究受到批評，但仍提供有價值的 insight。末句說研究者必須清楚界定甚麼算 culture，甚麼不算 culture。只看首尾句，可以估計本段是未來研究建議：研究 culture 時要控制 variables，尤其文化本身複雜且難定義，又受 geography 和 education styles 影響。題目若問 future researchers、clear definition、culture as variable，應看 J。"
+      },
+      {
+        "number": "K",
+        "summary": "首句說現代研究另一個重要考慮是 ethics。末句說研究 culture and nationality 時，研究者應考慮其 published conclusions 可能帶來的每一種正面和負面效果。只看首尾句，可以估計本段從方法問題轉到倫理問題：研究結論若變成 nationalities 的概括，可能傷害求職者，也可能影響考試設計和大學收生標準，令某些群體受惠或受損。題目若問 ethics、harm、employment 或 admissions，應看 K。"
+      }
+    ]
+  }
+}

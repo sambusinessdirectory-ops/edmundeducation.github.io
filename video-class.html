@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" class="frame-guard">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; base-uri 'self'; object-src 'none'; script-src 'self' https://challenges.cloudflare.com https://edmund-site-assets.edmundeducation.workers.dev; style-src 'self' 'unsafe-inline' https://edmund-site-assets.edmundeducation.workers.dev; img-src 'self' data: blob: https://edmund-video-class.edmundeducation.workers.dev https://edmund-site-assets.edmundeducation.workers.dev; font-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; connect-src 'self' https://edmund-video-class.edmundeducation.workers.dev https://challenges.cloudflare.com https://edmund-speaking-system.edmundeducation.workers.dev https://edmund-site-assets.edmundeducation.workers.dev; media-src https://edmund-video-class.edmundeducation.workers.dev https://edmund-speaking-system.edmundeducation.workers.dev https://edmund-site-assets.edmundeducation.workers.dev; frame-src https://challenges.cloudflare.com; worker-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; manifest-src 'self'; form-action 'self'">
+  <title>Edmund Sir 錄影班學習平台 | EdmundEducation</title>
+  <meta name="description" content="EdmundEducation 錄影班學生學習平台。">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff8f5">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EdmundEducation">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="/pwa-manifests/video-class.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-152x152.png">
+  <style>.frame-guard body{display:none!important}</style>
+  <script src="video-class-frame-guard.js?v=20260810-1"></script>
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="video-class.css?v=20260908-loading1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
+  <script defer src="/pwa-register.js"></script>
+<link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
+</head>
+
+<body>
+  <a class="skip-link" href="#video-class-main">跳至主要內容</a>
+  <div class="page-ambient" aria-hidden="true">
+    <span></span><span></span><span></span>
+  </div>
+
+  <header class="portal-header">
+    <div class="edmund-system-switcher" data-edmund-system-switcher data-system="video-class">
+      <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"><img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt=""><span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Video Class</small></span><span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span></button>
+    </div>
+    <div class="portal-header__title">
+      <span>VIDEO CLASS</span>
+      <strong>錄影班學習平台</strong>
+    </div>
+    <div class="portal-header__actions">
+      <span class="connection-status" data-connection-status data-state="checking" role="status">正在連接</span>
+      <span class="signed-in-user" data-signed-in-user hidden></span>
+      <button class="quiet-button" type="button" data-logout hidden>登出</button>
+      <a class="quiet-link" href="recorded.html">返回課程介紹</a>
+    </div>
+    <nav class="student-nav" data-student-nav aria-label="學生平台選單" hidden>
+      <button type="button" data-student-route="courses" aria-current="page">課程總覽</button>
+      <button type="button" data-student-route="library">課堂影片</button>
+      <button type="button" data-student-route="bookmarks">我的書籤</button>
+      <button type="button" data-student-route="playlists">我的播放列表</button>
+      <button type="button" data-student-route="notes">全部筆記</button>
+      <button type="button" data-student-route="progress">學習進度記錄</button>
+    </nav>
+  </header>
+
+  <main id="video-class-main" class="portal-main">
+    <section class="boot-view" data-view="boot" aria-live="polite">
+      <span class="spinner" aria-hidden="true"></span>
+      <p>正在安全地載入錄影班⋯</p>
+    </section>
+
+    <section class="login-view" data-view="login" hidden>
+      <div class="login-introduction">
+        <p class="eyebrow">EDMUND SIR · LEARN ANYTIME</p>
+        <h1>你的錄影課室，<br><em>隨時繼續。</em></h1>
+        <p class="login-lead">使用你現有的 EdmundEducation 用戶名稱及密碼登入。獲授權的課程會自動出現在你的課堂首頁。</p>
+        <div class="trust-list" aria-label="平台特色">
+          <div><span aria-hidden="true">01</span><p><strong>沿用現有帳戶</strong><small>毋須建立另一個密碼</small></p></div>
+          <div><span aria-hidden="true">02</span><p><strong>自動記錄進度</strong><small>下次由上次位置繼續</small></p></div>
+          <div><span aria-hidden="true">03</span><p><strong>個人化安全播放</strong><small>每個播放階段均有識別水印</small></p></div>
+        </div>
+      </div>
+
+      <div class="login-card">
+        <div class="login-card__heading">
+          <p>WELCOME BACK</p>
+          <h2>登入錄影班</h2>
+          <span>請選擇你的登入身份</span>
+        </div>
+
+        <div class="role-tabs" role="tablist" aria-label="登入身份">
+          <button id="student-tab" type="button" role="tab" aria-selected="true" aria-controls="student-login-panel" data-role-tab="student">學生登入</button>
+          <button id="admin-tab" type="button" role="tab" aria-selected="false" aria-controls="admin-login-panel" tabindex="-1" data-role-tab="admin">管理員</button>
+        </div>
+
+        <div id="student-login-panel" role="tabpanel" aria-labelledby="student-tab" data-login-panel="student">
+          <div class="returning-session" data-universal-session hidden>
+            <span class="returning-session__icon" aria-hidden="true">✓</span>
+            <div><strong data-universal-name></strong><small>已在其他學習系統登入</small></div>
+            <button type="button" data-use-universal-session>直接進入</button>
+          </div>
+          <form class="login-form" data-login-form="student" novalidate>
+            <div class="form-field">
+              <label for="student-username">用戶名稱</label>
+              <input id="student-username" name="username" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="120" required>
+            </div>
+            <div class="form-field">
+              <label for="student-password">密碼</label>
+              <span class="password-field">
+                <input id="student-password" name="password" type="password" autocomplete="current-password" maxlength="200" required>
+                <button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button>
+              </span>
+            </div>
+            <fieldset class="login-challenge" data-turnstile-challenge="student" hidden>
+              <legend tabindex="-1">安全驗證</legend>
+              <p>登入失敗次數較多，請完成以下驗證後再試。</p>
+              <div class="turnstile-widget" data-turnstile-widget="student"></div>
+              <p class="turnstile-status" data-turnstile-status="student" role="status" aria-live="polite" aria-atomic="true"></p>
+              <button class="turnstile-retry" type="button" data-turnstile-retry="student" hidden>重新載入安全驗證</button>
+            </fieldset>
+            <p class="form-status" data-form-status="student" role="status" aria-live="polite"></p>
+            <button class="primary-button" type="submit" data-login-submit="student">
+              <span>進入我的課堂</span><span aria-hidden="true">→</span>
+            </button>
+          </form>
+          <p class="login-help">帳戶資料與 EdmundEducation 其他學生系統相同。如未獲錄影班權限，請聯絡 Edmund Sir。</p>
+        </div>
+
+        <div id="admin-login-panel" role="tabpanel" aria-labelledby="admin-tab" data-login-panel="admin" hidden>
+          <form class="login-form" data-login-form="admin" novalidate>
+            <div class="form-field">
+              <label for="admin-username">管理員名稱</label>
+              <input id="admin-username" name="username" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="120" required>
+            </div>
+            <div class="form-field">
+              <label for="admin-password">密碼</label>
+              <span class="password-field">
+                <input id="admin-password" name="password" type="password" autocomplete="current-password" maxlength="240" required>
+                <button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button>
+              </span>
+            </div>
+            <fieldset class="login-challenge" data-turnstile-challenge="admin" hidden>
+              <legend tabindex="-1">安全驗證</legend>
+              <p>登入失敗次數較多，請完成以下驗證後再試。</p>
+              <div class="turnstile-widget" data-turnstile-widget="admin"></div>
+              <p class="turnstile-status" data-turnstile-status="admin" role="status" aria-live="polite" aria-atomic="true"></p>
+              <button class="turnstile-retry" type="button" data-turnstile-retry="admin" hidden>重新載入安全驗證</button>
+            </fieldset>
+            <p class="form-status" data-form-status="admin" role="status" aria-live="polite"></p>
+            <button class="primary-button" type="submit" data-login-submit="admin">
+              <span>進入管理面板</span><span aria-hidden="true">→</span>
+            </button>
+          </form>
+          <p class="login-help">此入口只供錄影班管理員使用。登入嘗試會被安全記錄及限制。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="student-view" data-view="student" hidden>
+      <section class="student-page course-selector-page" data-student-page="courses">
+        <div class="course-selector-heading">
+          <div>
+            <p class="eyebrow">CHOOSE YOUR COURSE</p>
+            <h1><span data-student-greeting>你好</span>，<br>先選擇你的課程。</h1>
+            <p>九類課程一覽；你可進入已獲授權的課程，並隨時從上方選單返回這裡。</p>
+          </div>
+          <aside class="access-pass" aria-label="錄影班通行證">
+            <span>VIDEO CLASS PASS</span>
+            <strong data-student-key>—</strong>
+            <small>你的個人課堂識別 Key</small>
+          </aside>
+        </div>
+        <div class="inline-state" data-courses-state role="status" aria-live="polite">
+          <span class="spinner" aria-hidden="true"></span><p>正在載入你的課程⋯</p>
+        </div>
+        <div class="course-grid" data-course-list hidden></div>
+      </section>
+
+      <section class="student-page homework-unavailable-page" data-student-page="unavailable" hidden>
+        <div class="homework-unavailable-card" role="status" aria-live="polite">
+          <p class="section-kicker">VIDEO CLASS HOMEWORK</p>
+          <span class="homework-unavailable-card__icon" aria-hidden="true">⌁</span>
+          <h1>此功課連結目前不可使用</h1>
+          <p data-homework-unavailable-message>影片或官方系列可能已被移除、停止發布，或你的帳戶尚未獲得觀看權限。</p>
+          <button class="primary-button primary-button--compact" type="button" data-student-route="courses">返回我的課程</button>
+        </div>
+      </section>
+
+      <section class="student-page" data-student-page="library" hidden>
+        <div class="dashboard-hero dashboard-hero--compact">
+          <div>
+            <p class="eyebrow">MY VIDEO CLASS</p>
+            <button class="course-back-button" type="button" data-student-route="courses">← 返回課程總覽</button>
+            <h1 data-selected-course-title>我的課堂</h1>
+            <p data-selected-course-description>你的觀看進度會安全地自動儲存。</p>
+            <div class="lesson-search" role="search">
+              <label class="visually-hidden" for="lesson-library-search">搜尋這個課程的影片</label>
+              <span class="lesson-search__icon" aria-hidden="true">⌕</span>
+              <input id="lesson-library-search" type="search" data-lesson-search placeholder="搜尋影片標題、簡介、標籤或播放列表" autocomplete="off" aria-controls="lesson-library-list" aria-describedby="lesson-search-status">
+              <button type="button" data-clear-lesson-search aria-label="清除課堂搜尋" hidden>清除</button>
+            </div>
+            <p class="lesson-search__status" id="lesson-search-status" data-lesson-search-status role="status" aria-live="polite"></p>
+            <section class="lesson-search-results" data-lesson-search-results aria-label="影片搜尋結果" hidden>
+              <div class="lesson-search-results__heading">
+                <strong>搜尋結果</strong>
+                <span data-lesson-search-results-count></span>
+              </div>
+              <div class="lesson-search-results__list" data-lesson-search-results-list></div>
+            </section>
+          </div>
+        </div>
+
+        <section class="learning-dashboard" data-learning-dashboard="library" aria-labelledby="library-dashboard-title">
+          <div class="learning-dashboard__heading">
+            <div>
+              <p class="section-kicker">LEARNING DASHBOARD</p>
+              <h2 id="library-dashboard-title">我的學習概覽</h2>
+              <p>以觀看日期及累積時間，快速掌握你的溫習節奏。</p>
+            </div>
+            <button class="dashboard-collapse-button" type="button" data-dashboard-toggle="library" aria-expanded="true" aria-controls="library-dashboard-body">
+              <span data-dashboard-toggle-label>收合</span><span aria-hidden="true" data-dashboard-toggle-icon>↑</span>
+            </button>
+          </div>
+          <div class="learning-dashboard__body" id="library-dashboard-body" data-dashboard-body="library">
+            <div class="analytics-state" data-analytics-state="library" role="status" aria-live="polite">
+              <span class="spinner" aria-hidden="true"></span><p>正在整理你的學習記錄⋯</p>
+            </div>
+            <div class="learning-dashboard__grid" data-dashboard-content="library" hidden>
+              <article class="analytics-card analytics-card--daily">
+                <div class="analytics-card__heading"><span>01</span><div><p>VIDEOS BY DATE</p><h3>每日觀看影片</h3></div></div>
+                <div class="daily-watch-chart" data-daily-watch-chart="library" aria-label="按日期觀看影片數量"></div>
+              </article>
+              <article class="analytics-card analytics-card--total">
+                <div class="analytics-card__heading"><span>02</span><div><p>TOTAL WATCH TIME</p><h3>累積觀看時間</h3></div></div>
+                <strong class="analytics-total" data-total-watch-minutes="library">0</strong>
+                <span class="analytics-total__unit">分鐘</span>
+                <p><strong data-total-lessons-watched="library">0</strong> 部影片曾觀看</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <div class="dashboard-toolbar">
+          <div>
+            <p class="section-kicker">COURSE LIBRARY</p>
+            <div class="library-title-line">
+              <h2>課堂影片</h2>
+              <p data-lesson-summary aria-live="polite">共 0 部影片 · 0 分鐘</p>
+            </div>
+          </div>
+          <button class="icon-button" type="button" data-refresh-lessons aria-label="重新載入課堂">
+            <span aria-hidden="true">↻</span> 重新載入
+          </button>
+        </div>
+
+        <div class="inline-state" data-lessons-state role="status" aria-live="polite">
+          <span class="spinner" aria-hidden="true"></span><p>正在載入你的課堂⋯</p>
+        </div>
+        <div class="lesson-grid" id="lesson-library-list" data-lesson-list hidden></div>
+        <button class="quiet-button student-lessons-load-more" type="button" data-student-lessons-load-more hidden>載入更多影片</button>
+
+        <section class="player-section" data-player-section hidden aria-labelledby="now-playing-title">
+          <div class="player-heading">
+            <div>
+              <p class="section-kicker">NOW PLAYING</p>
+              <h2 id="now-playing-title" data-player-title>課堂影片</h2>
+              <p data-player-description></p>
+            </div>
+            <div class="player-heading__actions">
+              <button class="close-player" type="button" data-close-player aria-label="關閉影片">關閉 ×</button>
+              <p class="player-view-count" data-player-view-count>觀看次數：—</p>
+            </div>
+          </div>
+
+          <div class="player-workspace" data-player-workspace>
+            <aside class="clip-rail" data-clip-rail hidden>
+              <button class="clip-rail__toggle" type="button" data-clip-rail-toggle aria-expanded="false" aria-controls="player-clip-list">
+                <span aria-hidden="true">⌑</span>
+                <span>精彩片段</span>
+                <strong data-clip-count>0</strong>
+              </button>
+              <nav class="clip-rail__panel" data-clip-rail-panel id="player-clip-list" aria-label="精彩片段快速跳轉">
+                <div class="clip-rail__heading">
+                  <div><span>CLIPS</span><strong>精彩片段</strong></div>
+                  <button type="button" data-clip-rail-close aria-label="收合精彩片段">×</button>
+                </div>
+                <ol class="clip-rail__list" data-clip-list></ol>
+                <p class="clip-rail__empty" data-clips-empty>尚未建立精彩片段。</p>
+              </nav>
+            </aside>
+
+            <div class="protected-player" data-player tabindex="0" aria-label="課堂影片播放器">
+            <video data-video crossorigin="anonymous" playsinline preload="metadata" controlslist="nodownload noremoteplayback" disablepictureinpicture disableremoteplayback></video>
+            <div class="mobile-seek-zones" data-mobile-seek-zones aria-hidden="true">
+              <span data-mobile-seek-zone="backward"></span>
+              <span data-mobile-seek-zone="forward"></span>
+            </div>
+            <div class="seek-feedback" data-seek-feedback role="status" aria-live="polite" aria-atomic="true"></div>
+            <div class="player-placeholder" data-player-placeholder>
+              <span class="spinner" aria-hidden="true"></span>
+              <strong>正在準備安全播放⋯</strong>
+            </div>
+            <button class="centre-play" type="button" data-centre-play aria-label="播放影片" hidden>
+              <span aria-hidden="true">▶</span>
+            </button>
+
+            <div class="watermark-layer" data-watermark-layer aria-hidden="true">
+              <span class="watermark-repeat" data-watermark-repeat></span>
+              <span class="watermark-repeat" data-watermark-repeat></span>
+              <span class="watermark-repeat" data-watermark-repeat></span>
+              <span class="watermark-repeat" data-watermark-repeat></span>
+              <span class="watermark-repeat" data-watermark-repeat></span>
+              <span class="watermark-repeat" data-watermark-repeat></span>
+              <span class="watermark-main" data-watermark-main></span>
+              <img class="company-watermark company-watermark--corner" data-company-watermark-corner src="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/edmundeducation-logo-512.png" alt="">
+              <img class="company-watermark company-watermark--bottom" data-company-watermark-bottom src="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/edmundeducation-logo-512.png" alt="">
+            </div>
+
+            <div class="player-ended-overlay" data-ended-overlay role="dialog" aria-modal="true" aria-labelledby="lesson-feedback-title" aria-describedby="rating-scale-help" hidden>
+              <div class="player-ended-overlay__content">
+                <button class="feedback-close-button" type="button" data-close-feedback aria-label="關閉影片評分">關閉 ×</button>
+                <button class="replay-button" type="button" data-replay-video><span aria-hidden="true">↻</span><span>重新播放</span></button>
+                <form class="lesson-feedback-form" data-feedback-form>
+                  <div class="lesson-feedback-form__heading">
+                    <p class="section-kicker">LESSON FEEDBACK</p>
+                    <h3 id="lesson-feedback-title">這堂課的體驗如何？</h3>
+                    <p id="rating-scale-help">1 分較低，5 分最佳。選完三項會一次儲存；如只評一至兩項，停下 2 秒後亦會自動儲存。</p>
+                  </div>
+                  <fieldset data-feedback-field="videoQuality">
+                    <legend class="visually-hidden">影片畫質</legend>
+                    <div class="lesson-feedback-form__row">
+                      <span aria-hidden="true">影片畫質</span>
+                      <div class="rating-scale" aria-describedby="rating-scale-help">
+                        <label><input type="radio" name="video-quality-rating" value="1" data-feedback-rating="videoQuality"><span>1</span></label>
+                        <label><input type="radio" name="video-quality-rating" value="2" data-feedback-rating="videoQuality"><span>2</span></label>
+                        <label><input type="radio" name="video-quality-rating" value="3" data-feedback-rating="videoQuality"><span>3</span></label>
+                        <label><input type="radio" name="video-quality-rating" value="4" data-feedback-rating="videoQuality"><span>4</span></label>
+                        <label><input type="radio" name="video-quality-rating" value="5" data-feedback-rating="videoQuality"><span>5</span></label>
+                      </div>
+                    </div>
+                  </fieldset>
+                  <fieldset data-feedback-field="explanation">
+                    <legend class="visually-hidden">解釋內容</legend>
+                    <div class="lesson-feedback-form__row">
+                      <span aria-hidden="true">解釋內容</span>
+                      <div class="rating-scale" aria-describedby="rating-scale-help">
+                        <label><input type="radio" name="explanation-rating" value="1" data-feedback-rating="explanation"><span>1</span></label>
+                        <label><input type="radio" name="explanation-rating" value="2" data-feedback-rating="explanation"><span>2</span></label>
+                        <label><input type="radio" name="explanation-rating" value="3" data-feedback-rating="explanation"><span>3</span></label>
+                        <label><input type="radio" name="explanation-rating" value="4" data-feedback-rating="explanation"><span>4</span></label>
+                        <label><input type="radio" name="explanation-rating" value="5" data-feedback-rating="explanation"><span>5</span></label>
+                      </div>
+                    </div>
+                  </fieldset>
+                  <fieldset data-feedback-field="audioQuality">
+                    <legend class="visually-hidden">聲音品質</legend>
+                    <div class="lesson-feedback-form__row">
+                      <span aria-hidden="true">聲音品質</span>
+                      <div class="rating-scale" aria-describedby="rating-scale-help">
+                        <label><input type="radio" name="audio-quality-rating" value="1" data-feedback-rating="audioQuality"><span>1</span></label>
+                        <label><input type="radio" name="audio-quality-rating" value="2" data-feedback-rating="audioQuality"><span>2</span></label>
+                        <label><input type="radio" name="audio-quality-rating" value="3" data-feedback-rating="audioQuality"><span>3</span></label>
+                        <label><input type="radio" name="audio-quality-rating" value="4" data-feedback-rating="audioQuality"><span>4</span></label>
+                        <label><input type="radio" name="audio-quality-rating" value="5" data-feedback-rating="audioQuality"><span>5</span></label>
+                      </div>
+                    </div>
+                  </fieldset>
+                  <p class="lesson-feedback-form__status" data-feedback-status role="status" aria-live="polite"></p>
+                </form>
+              </div>
+            </div>
+
+            <form class="clip-editor" data-clip-editor role="dialog" aria-modal="true" aria-labelledby="clip-editor-title" hidden>
+              <div>
+                <p class="section-kicker">SAVE A CLIP</p>
+                <h3 id="clip-editor-title">建立精彩片段</h3>
+                <p>已選擇 <strong data-clip-selected-time>0:00</strong></p>
+              </div>
+              <label for="clip-title">精彩回顧標題（選填）</label>
+              <input id="clip-title" type="text" data-clip-title maxlength="80" placeholder="例如：重點文法解說" autocomplete="off">
+              <p class="clip-editor__status" data-clip-status role="status" aria-live="polite"></p>
+              <div class="clip-editor__actions">
+                <button type="button" data-cancel-clip>取消</button>
+                <button type="button" data-skip-clip-title>略過標題</button>
+                <button type="submit" data-save-clip>儲存片段</button>
+              </div>
+            </form>
+
+            <div class="player-controls" data-player-controls hidden>
+              <div class="player-controls__timeline">
+                <span class="player-time" data-current-time>0:00</span>
+                <div class="seek-control">
+                  <label class="visually-hidden" for="video-seek">影片進度</label>
+                  <div class="seek-shell">
+                    <input id="video-seek" data-seek type="range" min="0" max="100" value="0" step="0.1" aria-label="影片進度">
+                    <div class="seek-markers" data-seek-markers></div>
+                  </div>
+                </div>
+                <span class="player-time" data-duration>0:00</span>
+              </div>
+              <div class="player-controls__actions">
+                <button type="button" data-previous-video aria-label="上一部影片" disabled><span aria-hidden="true">⏮</span><span class="control-label">上一部</span></button>
+                <button type="button" data-play-toggle aria-label="播放影片"><span aria-hidden="true">▶</span></button>
+                <button type="button" data-next-video aria-label="下一部影片" disabled><span aria-hidden="true">⏭</span><span class="control-label">下一部</span></button>
+                <button type="button" data-pin-clip aria-label="在影片進度列選擇精彩片段位置" aria-pressed="false"><span aria-hidden="true">⌖</span><span class="control-label">片段</span></button>
+                <button type="button" data-open-feedback aria-label="為這堂影片評分"><span aria-hidden="true">☆</span><span class="control-label">評分</span></button>
+                <button type="button" data-mute-toggle aria-label="靜音"><span aria-hidden="true">聲音</span></button>
+                <label class="volume-control">
+                  <span class="visually-hidden">音量</span>
+                  <input data-volume type="range" min="0" max="1" value="1" step="0.05" aria-label="音量">
+                </label>
+                <label class="player-select-control">
+                  <span>播放速度</span>
+                  <select data-playback-speed aria-label="播放速度">
+                    <option value="0.25">0.25×</option>
+                    <option value="0.5">0.5×</option>
+                    <option value="0.75">0.75×</option>
+                    <option value="1" selected>1×</option>
+                    <option value="1.25">1.25×</option>
+                    <option value="1.5">1.5×</option>
+                    <option value="2">2×</option>
+                  </select>
+                </label>
+                <label class="player-select-control">
+                  <span>畫質</span>
+                  <select data-playback-quality aria-label="影片畫質" disabled>
+                    <option value="480p">480p</option>
+                    <option value="720p">720p</option>
+                    <option value="1080p">1080p</option>
+                    <option value="max" selected>Max（最高畫質）</option>
+                  </select>
+                </label>
+                <button type="button" data-theatre-mode aria-label="切換劇院模式" aria-pressed="false"><span aria-hidden="true">▭</span><span class="control-label">劇院</span></button>
+                <button type="button" data-fullscreen aria-label="全螢幕播放"><span aria-hidden="true">⛶</span></button>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="player-notice">
+            <span aria-hidden="true">◈</span>
+            <p><strong>安全播放提示</strong>影片會顯示你的個人識別 Key、播放階段及時間。請勿錄影、分享或公開課堂內容。</p>
+          </div>
+          <div class="player-resource-buttons">
+            <button class="note-launch-button" type="button" data-open-note data-note-toggle aria-expanded="false" aria-controls="lesson-note-panel">
+              <span>我的筆記</span><span aria-hidden="true" data-note-toggle-icon>＋</span>
+            </button>
+            <button class="attachment-launch-button" type="button" data-open-attachments aria-expanded="false" aria-controls="lesson-attachments-panel">
+              <span>可下載筆記</span><span aria-hidden="true" data-attachment-toggle-icon>＋</span>
+            </button>
+          </div>
+          <section class="note-editor" id="lesson-note-panel" data-note-panel aria-labelledby="lesson-note-heading" hidden>
+            <form data-note-form>
+              <div class="note-editor__heading">
+                <div><p class="section-kicker">MY NOTES</p><h2 id="lesson-note-heading">我的筆記</h2><span data-note-lesson-title></span></div>
+                <button class="note-editor__collapse" type="button" data-note-collapse aria-label="收合我的筆記">收合 ↑</button>
+              </div>
+              <label for="lesson-note">這堂課的筆記</label>
+              <textarea id="lesson-note" data-note-content rows="10" maxlength="5000" placeholder="在這裡寫下重點、例句或要溫習的內容⋯"></textarea>
+              <small class="note-character-count" data-note-count>0 / 5,000</small>
+              <p class="form-status" data-note-status role="status" aria-live="polite"></p>
+              <div class="note-editor__actions">
+                <button class="quiet-button" type="button" data-note-collapse>稍後再寫</button>
+                <button class="primary-button primary-button--compact" type="submit" data-save-note>儲存筆記</button>
+              </div>
+            </form>
+          </section>
+          <section class="lesson-attachments" id="lesson-attachments-panel" data-attachment-panel aria-labelledby="lesson-attachments-heading" hidden>
+            <div class="lesson-attachments__heading">
+              <div><p class="section-kicker">DOWNLOADS</p><h2 id="lesson-attachments-heading">可下載筆記</h2></div>
+              <button type="button" data-close-attachments>收合 ↑</button>
+            </div>
+            <div class="lesson-attachments__list" data-attachment-list></div>
+            <p class="lesson-attachments__empty" data-attachments-empty>本影片沒有可下載筆記</p>
+            <p class="form-status" data-attachments-status role="status" aria-live="polite"></p>
+          </section>
+          <p class="player-error" data-player-error role="alert" hidden></p>
+        </section>
+      </section>
+
+      <section class="student-page" data-student-page="bookmarks" hidden>
+        <div class="student-page-heading">
+          <div><p class="eyebrow">SAVED LESSONS</p><h1>我的書籤</h1><p>快速返回你收藏的課堂影片。</p></div>
+        </div>
+        <div class="inline-state" data-bookmarks-state role="status" aria-live="polite"></div>
+        <div class="lesson-grid" data-bookmark-list hidden></div>
+      </section>
+
+      <section class="student-page playlists-page" data-student-page="playlists" hidden>
+        <div class="student-page-heading playlists-page-heading">
+          <div><p class="eyebrow">MY PLAYLISTS</p><h1>我的播放列表</h1><p>建立自己的溫習次序，集中重看同一主題的課堂。</p></div>
+          <button class="primary-button primary-button--compact" type="button" data-create-playlist>＋ 建立播放列表</button>
+        </div>
+        <div class="playlist-workspace">
+          <aside class="playlist-sidebar" aria-label="我的播放列表">
+            <div class="inline-state" data-playlists-state role="status" aria-live="polite"><p>正在載入播放列表⋯</p></div>
+            <div class="playlist-list" data-playlist-list hidden></div>
+          </aside>
+          <section class="playlist-detail" data-playlist-detail aria-labelledby="selected-playlist-title" hidden>
+            <div class="playlist-detail__heading">
+              <div>
+                <p class="section-kicker">SELECTED PLAYLIST</p>
+                <h2 id="selected-playlist-title" data-playlist-title>播放列表</h2>
+                <p data-playlist-description></p>
+                <p class="playlist-summary" data-playlist-summary aria-live="polite">共 0 部影片 · 總長度 0:00 · 已觀看 0:00（0%）</p>
+              </div>
+              <div class="playlist-detail__actions">
+                <button class="quiet-button" type="button" data-playlist-select-toggle aria-pressed="false">選取多項</button>
+                <button class="quiet-button playlist-remove-selected" type="button" data-playlist-remove-selected hidden disabled>移除已選影片</button>
+                <button class="quiet-button" type="button" data-delete-playlist>刪除清單</button>
+              </div>
+            </div>
+            <div class="inline-state" data-playlist-lessons-state role="status" aria-live="polite"></div>
+            <div class="lesson-grid" data-playlist-lesson-list hidden></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="student-page notes-page" data-student-page="notes" hidden>
+        <div class="student-page-heading notes-page-heading">
+          <div><p class="eyebrow">MY NOTES</p><h1>全部筆記</h1><p>整理所有課堂筆記，或列印並儲存為 PDF。</p></div>
+          <button class="primary-button primary-button--compact" type="button" data-print-notes>列印／儲存 PDF</button>
+        </div>
+        <div class="inline-state" data-notes-state role="status" aria-live="polite"></div>
+        <div class="notes-list" data-notes-list hidden></div>
+      </section>
+
+      <section class="student-page progress-page" data-student-page="progress" hidden>
+        <div class="student-page-heading progress-page-heading">
+          <div><p class="eyebrow">LEARNING PROGRESS</p><h1>學習進度記錄</h1><p>重溫你的學習節奏、未完成課堂及完整觀看記錄。</p></div>
+          <button class="primary-button primary-button--compact" type="button" data-export-watch-history disabled>下載觀看記錄 CSV</button>
+        </div>
+
+        <section class="learning-dashboard learning-dashboard--progress" data-learning-dashboard="progress" aria-labelledby="progress-dashboard-title">
+          <div class="learning-dashboard__heading">
+            <div>
+              <p class="section-kicker">LEARNING DASHBOARD</p>
+              <h2 id="progress-dashboard-title">我的學習概覽</h2>
+              <p>你的累積觀看情況會在播放進度同步後更新。</p>
+            </div>
+            <button class="dashboard-collapse-button" type="button" data-dashboard-toggle="progress" aria-expanded="true" aria-controls="progress-dashboard-body">
+              <span data-dashboard-toggle-label>收合</span><span aria-hidden="true" data-dashboard-toggle-icon>↑</span>
+            </button>
+          </div>
+          <div class="learning-dashboard__body" id="progress-dashboard-body" data-dashboard-body="progress">
+            <div class="analytics-state" data-analytics-state="progress" role="status" aria-live="polite">
+              <span class="spinner" aria-hidden="true"></span><p>正在整理你的學習記錄⋯</p>
+            </div>
+            <div class="learning-dashboard__grid" data-dashboard-content="progress" hidden>
+              <article class="analytics-card analytics-card--daily">
+                <div class="analytics-card__heading"><span>01</span><div><p>VIDEOS BY DATE</p><h3>每日觀看影片</h3></div></div>
+                <div class="daily-watch-chart" data-daily-watch-chart="progress" aria-label="按日期觀看影片數量"></div>
+              </article>
+              <article class="analytics-card analytics-card--total">
+                <div class="analytics-card__heading"><span>02</span><div><p>TOTAL WATCH TIME</p><h3>累積觀看時間</h3></div></div>
+                <strong class="analytics-total" data-total-watch-minutes="progress">0</strong>
+                <span class="analytics-total__unit">分鐘</span>
+                <p><strong data-total-lessons-watched="progress">0</strong> 部影片曾觀看</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="progress-section" aria-labelledby="unfinished-lessons-title">
+          <div class="progress-section__heading">
+            <div><p class="section-kicker">CONTINUE LEARNING</p><h2 id="unfinished-lessons-title">未完成影片</h2></div>
+            <p data-unfinished-count>0 部待完成</p>
+          </div>
+          <div class="analytics-state analytics-state--compact" data-unfinished-state role="status" aria-live="polite"><p>正在載入未完成影片⋯</p></div>
+          <div class="unfinished-lessons" data-unfinished-lessons hidden></div>
+        </section>
+
+        <section class="progress-section progress-section--history" aria-labelledby="watch-history-title">
+          <div class="progress-section__heading">
+            <div><p class="section-kicker">WATCH HISTORY</p><h2 id="watch-history-title">完整觀看記錄</h2></div>
+            <p data-history-count>0 項記錄</p>
+          </div>
+          <div class="analytics-state analytics-state--compact" data-history-state role="status" aria-live="polite"><p>正在載入觀看記錄⋯</p></div>
+          <ol class="watch-history-list" data-watch-history-list hidden></ol>
+        </section>
+      </section>
+
+      <dialog class="playlist-dialog" data-playlist-dialog aria-labelledby="playlist-dialog-title">
+        <form data-playlist-chooser-form>
+          <div class="playlist-dialog__heading">
+            <div><p class="section-kicker">ADD TO PLAYLIST</p><h2 id="playlist-dialog-title">加入播放列表</h2><span data-playlist-lesson-title></span></div>
+            <button class="dialog-close" type="button" data-close-playlist-dialog aria-label="關閉播放列表選擇器">×</button>
+          </div>
+          <fieldset>
+            <legend>選擇已有播放列表</legend>
+            <div class="playlist-dialog__options" data-playlist-options></div>
+            <p class="playlist-dialog__empty" data-playlist-options-empty hidden>你尚未建立播放列表。</p>
+          </fieldset>
+          <div class="playlist-dialog__create">
+            <label for="new-playlist-name">或建立新播放列表</label>
+            <div><input id="new-playlist-name" type="text" data-new-playlist-name maxlength="80" placeholder="播放列表名稱" autocomplete="off"><button type="button" data-create-playlist-inline>建立</button></div>
+          </div>
+          <p class="form-status" data-playlist-status role="status" aria-live="polite"></p>
+          <div class="playlist-dialog__actions">
+            <button class="quiet-button" type="button" data-close-playlist-dialog>取消</button>
+            <button class="primary-button primary-button--compact" type="submit" data-save-playlist-selection>儲存選擇</button>
+          </div>
+        </form>
+      </dialog>
+    </section>
+
+    <section class="admin-view" data-view="admin" hidden>
+      <div class="admin-heading">
+        <div>
+          <p class="eyebrow">VIDEO CLASS CONTROL</p>
+          <h1>錄影班學生權限</h1>
+          <p>下方顯示已啟用的錄影班學生。新學生不會自動獲發 Video Class Key，請到「新增學生」手動啟用。</p>
+        </div>
+        <button class="primary-button primary-button--compact" type="button" data-refresh-students>
+          <span aria-hidden="true">↻</span><span>重新整理</span>
+        </button>
+      </div>
+
+      <nav class="admin-tabs" aria-label="管理面板">
+        <button type="button" data-admin-panel-tab="students" aria-current="page">學生及 Key 設定</button>
+        <button type="button" data-admin-panel-tab="entitlements">學生課程權限</button>
+        <button type="button" data-admin-panel-tab="feedback">影片評分</button>
+        <button type="button" data-admin-panel-tab="lessons">所有影片</button>
+        <button type="button" data-admin-panel-tab="r2">私人影片庫</button>
+        <button type="button" data-admin-panel-tab="add-student">新增學生</button>
+      </nav>
+
+      <div data-admin-panel="students">
+
+      <div class="admin-summary" aria-label="學生權限摘要">
+        <article><span>學生總數</span><strong data-stat-total>—</strong><small>所有現有學生帳戶</small></article>
+        <article><span>已派發 Key</span><strong data-stat-keyed>—</strong><small>已建立錄影班識別</small></article>
+        <article><span>可觀看</span><strong data-stat-enabled>—</strong><small>目前已啟用權限</small></article>
+      </div>
+
+      <div class="admin-controls">
+        <label class="student-search">
+          <span class="visually-hidden">搜尋學生</span>
+          <span aria-hidden="true">⌕</span>
+          <input type="search" data-student-search placeholder="搜尋學生名稱、UUID 或 Video Key" autocomplete="off">
+        </label>
+        <label class="key-filter">
+          <span>顯示</span>
+          <select data-key-filter>
+            <option value="all">所有已啟用學生</option>
+            <option value="enabled">可觀看</option>
+            <option value="disabled">已停用</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="inline-state" data-students-state role="status" aria-live="polite">
+        <span class="spinner" aria-hidden="true"></span><p>正在載入學生名單⋯</p>
+      </div>
+
+      <div class="student-table-shell" data-student-table hidden>
+        <table>
+          <caption class="visually-hidden">錄影班學生 Key 及觀看權限</caption>
+          <thead>
+            <tr>
+              <th scope="col">學生</th>
+              <th scope="col">Internal UUID</th>
+              <th scope="col">Video Class Key</th>
+              <th scope="col">觀看權限</th>
+              <th scope="col"><span class="visually-hidden">操作</span></th>
+            </tr>
+          </thead>
+          <tbody data-student-rows></tbody>
+        </table>
+      </div>
+      <p class="result-count" data-result-count hidden></p>
+
+      <dialog class="playlist-dialog progress-reset-dialog" data-admin-progress-reset-dialog aria-labelledby="admin-progress-reset-title">
+        <form class="playlist-dialog__card" data-admin-progress-reset-form>
+          <div class="playlist-dialog__heading">
+            <div>
+              <p class="section-kicker">RESET LEARNING DASHBOARD</p>
+              <h2 id="admin-progress-reset-title">重設學生學習記錄</h2>
+              <span data-admin-progress-reset-student></span>
+            </div>
+            <button class="dialog-close" type="button" data-close-admin-progress-reset aria-label="關閉重設學習記錄視窗">×</button>
+          </div>
+          <p class="progress-reset-dialog__notice">重設會撤銷學生目前開啟的影片播放連結，避免舊的播放記錄再次寫入。此操作不會刪除學生帳戶、課程權限、筆記或書籤。</p>
+          <section class="progress-reset-option">
+            <div><strong>重設指定日期</strong><p>清除該香港日期的觀看影片數及觀看時間，其他日期的記錄會保留。</p></div>
+            <label><span>香港日期</span><input type="date" data-admin-progress-reset-date min="2000-01-01" max="2100-12-31"></label>
+            <button class="quiet-button" type="button" data-admin-progress-reset-date-submit>重設此日期</button>
+          </section>
+          <section class="progress-reset-option progress-reset-option--danger">
+            <div><strong>全部歸零</strong><p>把此學生的錄影班觀看影片數、觀看分鐘、續播位置及觀看記錄全部清除。</p></div>
+            <button class="danger-button" type="button" data-admin-progress-reset-all>全部歸零</button>
+          </section>
+          <p class="form-status" data-admin-progress-reset-status role="status" aria-live="polite"></p>
+          <div class="playlist-dialog__actions">
+            <button class="quiet-button" type="button" data-close-admin-progress-reset>關閉</button>
+          </div>
+        </form>
+      </dialog>
+      </div>
+
+      <section class="entitlements-panel" data-admin-panel="entitlements" hidden>
+        <div class="entitlements-panel__heading">
+          <div><p class="section-kicker">COURSE &amp; SERIES ENTITLEMENTS</p><h2>每位學生課程權限</h2><p>展開學生姓名，設定可觀看課程、當下可用的官方系列及水印例外。</p></div>
+        </div>
+        <label class="entitlement-student-picker" hidden>
+          <span>選擇學生</span>
+          <select data-entitlement-student><option value="">請選擇學生</option></select>
+        </label>
+        <div class="inline-state" data-entitlements-state role="status" aria-live="polite"><p>正在載入學生課程權限⋯</p></div>
+        <div class="entitlement-student-list" data-entitlement-student-list hidden></div>
+        <form class="entitlements-form" data-entitlements-form hidden aria-hidden="true">
+          <fieldset>
+            <legend>可觀看課程</legend>
+            <div class="entitlement-course-list" data-entitlement-course-list></div>
+          </fieldset>
+          <label class="trusted-student-toggle">
+            <input type="checkbox" data-disable-watermarks>
+            <span><strong>停用此學生的全部影片水印</strong><small>只應為可信任的學生啟用；個人、重複及公司標誌水印都會關閉。</small></span>
+          </label>
+          <p class="form-status" data-entitlements-form-status role="status" aria-live="polite"></p>
+          <button class="primary-button primary-button--compact" type="submit" data-save-entitlements>儲存課程權限</button>
+        </form>
+      </section>
+
+      <section class="feedback-panel" data-admin-panel="feedback" hidden>
+        <div class="feedback-panel__heading">
+          <div><p class="section-kicker">LESSON FEEDBACK</p><h2>學生影片評分</h2><p>查看每位學生對影片畫質、解釋內容及聲音品質的評分。</p></div>
+          <div class="feedback-panel__actions">
+            <button class="icon-button" type="button" data-export-feedback><span aria-hidden="true">↓</span>匯出 CSV</button>
+            <button class="icon-button" type="button" data-refresh-feedback><span aria-hidden="true">↻</span>重新整理</button>
+          </div>
+        </div>
+        <div class="feedback-controls">
+          <label class="student-search">
+            <span class="visually-hidden">搜尋影片評分</span>
+            <span aria-hidden="true">⌕</span>
+            <input type="search" data-feedback-search placeholder="搜尋學生或影片名稱" autocomplete="off">
+          </label>
+          <label class="key-filter"><span>課程</span><select data-feedback-course-filter><option value="all">所有課程</option></select></label>
+        </div>
+        <div class="inline-state" data-feedback-state role="status" aria-live="polite"><p>正在載入影片評分⋯</p></div>
+        <div class="student-table-shell feedback-table-shell" data-feedback-table role="region" aria-label="學生影片評分，可左右捲動" tabindex="0" hidden>
+          <table>
+            <caption class="visually-hidden">學生影片評分</caption>
+            <thead><tr><th scope="col">學生</th><th scope="col">課堂影片</th><th scope="col">影片畫質</th><th scope="col">解釋內容</th><th scope="col">聲音品質</th><th scope="col">更新時間</th><th scope="col">操作</th></tr></thead>
+            <tbody data-feedback-rows></tbody>
+          </table>
+        </div>
+        <p class="result-count" data-feedback-result-count hidden></p>
+        <button class="quiet-button feedback-load-more" type="button" data-feedback-load-more hidden>載入更多評分</button>
+      </section>
+
+      <section class="admin-lessons-panel" data-admin-panel="lessons" hidden>
+        <div class="admin-section-heading">
+          <div>
+            <p class="section-kicker">ALL VIDEO LESSONS</p>
+            <h2>所有影片</h2>
+            <p>查看目前所有錄影課堂。把影片設為私人後，學生仍可看見課堂資料，但縮圖會變黑，影片亦不能播放；私人影片庫內的檔案不會被刪除。</p>
+          </div>
+          <div class="admin-section-heading__actions"><button class="icon-button" type="button" data-admin-series-order>↕ 系列排列</button><button class="icon-button" type="button" data-admin-create-series disabled>＋ 建立／加入系列</button><button class="icon-button" type="button" data-admin-lessons-refresh><span aria-hidden="true">↻</span>重新整理</button></div>
+        </div>
+        <div class="admin-lessons-controls">
+          <label class="student-search"><span class="visually-hidden">搜尋所有影片</span><span aria-hidden="true">⌕</span><input type="search" data-admin-lessons-search placeholder="搜尋影片標題或內容" autocomplete="off"></label>
+          <label class="admin-select-all"><input type="checkbox" data-admin-lessons-select-all> 選取目前已載入影片</label>
+          <strong data-admin-lessons-selected-count>已選 0 部</strong>
+        </div>
+        <div class="inline-state" data-admin-lessons-state role="status" aria-live="polite"><p>正在載入影片名單⋯</p></div>
+        <div class="student-table-shell admin-lessons-table" data-admin-lessons-table role="region" aria-label="所有錄影班影片，可左右捲動" tabindex="0" hidden>
+          <table>
+            <caption class="visually-hidden">所有錄影班影片及公開狀態</caption>
+            <thead>
+              <tr>
+                <th scope="col"><span class="visually-hidden">選取</span></th>
+                <th scope="col">縮圖</th>
+                <th scope="col">影片／課程</th>
+                <th scope="col">片長</th>
+                <th scope="col">總觀看次數</th>
+                <th scope="col">目前狀態</th>
+                <th scope="col"><span class="visually-hidden">操作</span></th>
+              </tr>
+            </thead>
+            <tbody data-admin-lessons-rows></tbody>
+          </table>
+        </div>
+        <button class="quiet-button admin-lessons-load-more" type="button" data-admin-lessons-load-more hidden>載入更多影片</button>
+
+        <dialog class="playlist-dialog admin-series-dialog" data-admin-series-dialog>
+          <form class="playlist-dialog__card" data-admin-series-form>
+            <div class="playlist-dialog__heading"><div><p class="section-kicker">OFFICIAL SERIES</p><h2>建立或更新官方系列</h2></div><button class="dialog-close" type="button" data-close-admin-series>×</button></div>
+            <label><span>系列</span><select data-admin-series-existing><option value="">建立新系列</option></select></label>
+            <label><span>系列名稱</span><input type="text" data-admin-series-name maxlength="160" required></label>
+            <label><span>簡介</span><textarea data-admin-series-description rows="3" maxlength="1000"></textarea></label>
+            <fieldset><legend>顯示於課程（可多選）</legend><div class="admin-course-checkboxes" data-admin-series-courses></div></fieldset>
+            <p data-admin-series-selection-summary></p>
+            <p class="form-status" data-admin-series-status role="status" aria-live="polite"></p>
+            <div class="playlist-dialog__actions"><button class="danger-button" type="button" data-delete-admin-series hidden>永久刪除系列</button><button class="quiet-button" type="button" data-close-admin-series>取消</button><button class="primary-button primary-button--compact" type="submit">儲存系列</button></div>
+          </form>
+        </dialog>
+
+        <dialog class="playlist-dialog admin-course-dialog" data-admin-course-dialog>
+          <form class="playlist-dialog__card" data-admin-course-form>
+            <div class="playlist-dialog__heading"><div><p class="section-kicker">COURSE VISIBILITY</p><h2>影片課程分類</h2><span data-admin-course-lesson-title></span></div><button class="dialog-close" type="button" data-close-admin-course>×</button></div>
+            <div class="admin-course-checkboxes" data-admin-course-options></div>
+            <p class="form-status" data-admin-course-status role="status" aria-live="polite"></p>
+            <div class="playlist-dialog__actions"><button class="quiet-button" type="button" data-close-admin-course>取消</button><button class="primary-button primary-button--compact" type="submit">儲存分類</button></div>
+          </form>
+        </dialog>
+
+        <dialog class="playlist-dialog admin-lesson-edit-dialog" data-admin-lesson-edit-dialog>
+          <form class="playlist-dialog__card" data-admin-lesson-edit-form>
+            <div class="playlist-dialog__heading"><div><p class="section-kicker">EDIT VIDEO LESSON</p><h2>修改影片資料</h2><span data-admin-edit-lesson-label></span></div><button class="dialog-close" type="button" data-close-admin-lesson-edit aria-label="關閉修改影片視窗">×</button></div>
+            <div class="admin-edit-layout">
+              <div class="admin-edit-thumbnail">
+                <div class="admin-edit-thumbnail__preview" data-admin-edit-thumbnail-preview><span>自動使用影片首格</span></div>
+                <label class="r2-file-picker"><span>自訂縮圖（選填）</span><input type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/gif,.jpg,.jpeg,.png,.webp,.avif,.gif" data-admin-edit-thumbnail-file></label>
+                <small>支援 JPG、PNG、WebP、AVIF 及 GIF。留空會保留現有縮圖；沒有自訂縮圖時會使用影片首格。</small>
+              </div>
+              <div class="admin-edit-fields">
+                <label><span>影片標題</span><input type="text" maxlength="160" data-admin-edit-title required></label>
+                <label><span>影片描述</span><textarea maxlength="2000" rows="5" data-admin-edit-description></textarea></label>
+                <label><span>標籤</span><input type="text" maxlength="500" data-admin-edit-tags placeholder="以逗號分隔"></label>
+              </div>
+            </div>
+            <fieldset><legend>可顯示課程（可多選）</legend><div class="admin-course-checkboxes" data-admin-edit-courses></div></fieldset>
+            <div class="r2-upload-progress" data-admin-edit-progress hidden><div><span data-admin-edit-progress-label>準備上載縮圖⋯</span><strong data-admin-edit-progress-percent>0%</strong></div><progress max="100" value="0" data-admin-edit-progress-bar>0%</progress></div>
+            <p class="form-status" data-admin-edit-status role="status" aria-live="polite"></p>
+            <div class="playlist-dialog__actions playlist-dialog__actions--split"><button class="danger-button" type="button" data-admin-delete-lesson>永久刪除影片及筆記</button><span></span><button class="quiet-button" type="button" data-close-admin-lesson-edit>取消</button><button class="primary-button primary-button--compact" type="submit" data-admin-edit-submit>儲存修改</button></div>
+          </form>
+        </dialog>
+
+        <dialog class="playlist-dialog admin-series-order-dialog" data-admin-series-order-dialog>
+          <form class="playlist-dialog__card" data-admin-series-order-form>
+            <div class="playlist-dialog__heading"><div><p class="section-kicker">SERIES ORDER</p><h2>官方系列排列</h2><span>「隨機」會在每次載入時重新排列；「自訂」可用箭嘴調整次序。</span></div><button class="dialog-close" type="button" data-close-admin-series-order aria-label="關閉系列排列視窗">×</button></div>
+            <fieldset class="series-order-mode"><legend>課堂頁顯示方式</legend><label><input type="radio" name="series-order-mode" value="manual" data-series-order-mode checked> 自訂次序</label><label><input type="radio" name="series-order-mode" value="random" data-series-order-mode> 每次隨機</label></fieldset>
+            <ol class="series-order-list" data-series-order-list></ol>
+            <p class="form-status" data-series-order-status role="status" aria-live="polite"></p>
+            <div class="playlist-dialog__actions"><button class="quiet-button" type="button" data-close-admin-series-order>取消</button><button class="primary-button primary-button--compact" type="submit">儲存排列</button></div>
+          </form>
+        </dialog>
+
+        <dialog class="playlist-dialog admin-attachment-dialog" data-admin-attachment-dialog>
+          <form class="playlist-dialog__card" data-admin-attachment-form>
+            <div class="playlist-dialog__heading"><div><p class="section-kicker">PDF NOTES</p><h2>上載課堂 PDF</h2><span data-admin-attachment-lesson-title></span></div><button class="dialog-close" type="button" data-close-admin-attachment>×</button></div>
+            <label><span>顯示名稱</span><input type="text" data-admin-attachment-name maxlength="180" required></label>
+            <label class="r2-file-picker"><span>選擇 PDF</span><input type="file" accept="application/pdf,.pdf" data-admin-attachment-file required></label>
+            <div class="r2-upload-progress" data-admin-attachment-progress hidden><div><span data-admin-attachment-progress-label>準備上載⋯</span><strong data-admin-attachment-progress-percent>0%</strong></div><progress max="100" value="0" data-admin-attachment-progress-bar>0%</progress></div>
+            <p class="form-status" data-admin-attachment-status role="status" aria-live="polite"></p>
+            <div class="playlist-dialog__actions"><button class="quiet-button" type="button" data-close-admin-attachment>取消</button><button class="primary-button primary-button--compact" type="submit" data-admin-attachment-submit>上載並附加</button></div>
+          </form>
+        </dialog>
+      </section>
+
+      <section class="admin-r2-panel" data-admin-panel="r2" hidden>
+        <div class="admin-section-heading">
+          <div>
+            <p class="section-kicker">PRIVATE VIDEO LIBRARY</p>
+            <h2>私人影片庫及發佈</h2>
+            <p>查看私人影片庫內的影片，或直接從此頁上載。上載完成後仍不會自動給學生觀看；請填寫課堂資料並按「發佈」。</p>
+          </div>
+          <button class="icon-button" type="button" data-r2-refresh><span aria-hidden="true">↻</span>重新整理</button>
+        </div>
+
+        <form class="r2-upload-card" data-r2-upload-form>
+          <div class="r2-upload-card__copy">
+            <span class="r2-upload-card__icon" aria-hidden="true">↑</span>
+            <div><strong>上載新影片到私人影片庫</strong><small>支援 MP4、MOV、M4V、WebM；大型影片會自動分段安全上載。</small></div>
+          </div>
+          <label class="r2-file-picker">
+            <span>選擇影片</span>
+            <input type="file" accept="video/mp4,video/quicktime,video/x-m4v,video/webm,.mp4,.mov,.m4v,.webm" data-r2-upload-file required>
+          </label>
+          <div class="r2-upload-meta" data-r2-upload-meta hidden></div>
+          <div class="r2-upload-actions">
+            <button class="primary-button primary-button--compact" type="submit" data-r2-upload-start>開始上載</button>
+            <button class="quiet-button" type="button" data-r2-upload-cancel hidden>取消上載</button>
+          </div>
+          <div class="r2-upload-progress" data-r2-upload-progress hidden>
+            <div><span data-r2-upload-progress-label>準備上載⋯</span><strong data-r2-upload-progress-percent>0%</strong></div>
+            <progress max="100" value="0" data-r2-upload-progress-bar>0%</progress>
+          </div>
+          <p class="form-status" data-r2-upload-status role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="r2-library-controls">
+          <label class="student-search">
+            <span class="visually-hidden">搜尋私人影片</span>
+            <span aria-hidden="true">⌕</span>
+            <input type="search" data-r2-search placeholder="搜尋檔案名稱或私人路徑" autocomplete="off">
+          </label>
+          <span class="r2-security-note"><span aria-hidden="true">◆</span> 所有檔案保持私人，只有管理員可看見路徑。</span>
+        </div>
+        <div class="r2-backup-controls">
+          <label><input type="checkbox" data-r2-select-all> 選取目前已載入影片</label>
+          <strong data-r2-selected-count>已選 0 部</strong>
+          <button class="quiet-button" type="button" data-r2-backup-selected disabled>下載所選 ZIP</button>
+          <button class="primary-button primary-button--compact" type="button" data-r2-backup-all>下載全部影片 ZIP</button>
+          <p class="form-status" data-r2-backup-status role="status" aria-live="polite"></p>
+        </div>
+        <div class="inline-state" data-r2-state role="status" aria-live="polite"><p>正在讀取私人影片庫⋯</p></div>
+        <div class="r2-object-list" data-r2-list role="list" hidden></div>
+        <button class="quiet-button r2-load-more" type="button" data-r2-load-more hidden>載入更多影片</button>
+
+        <dialog class="playlist-dialog r2-publish-dialog" data-r2-publish-dialog>
+          <form class="playlist-dialog__card r2-publish-form" method="dialog" data-r2-publish-form>
+            <div class="playlist-dialog__heading">
+              <div><p class="section-kicker">PUBLISH A LESSON</p><h2>發佈私人影片</h2></div>
+              <button class="dialog-close" type="button" data-close-r2-publish aria-label="關閉發佈視窗">×</button>
+            </div>
+            <p class="r2-publish-object" data-r2-publish-object></p>
+            <div class="r2-publish-fields">
+              <label><span>影片標題</span><input type="text" maxlength="200" data-r2-publish-title required></label>
+              <label hidden><span>主要課程</span><select data-r2-publish-course><option value="">請選擇課程</option></select></label>
+              <fieldset class="r2-publish-fields__wide"><legend>所屬課程（可多選）</legend><div class="admin-course-checkboxes" data-r2-publish-courses></div></fieldset>
+              <label class="r2-publish-fields__wide"><span>影片描述</span><textarea maxlength="2000" rows="4" data-r2-publish-description placeholder="向學生簡介課堂內容"></textarea></label>
+              <label><span>片長（自動讀取）</span><strong class="detected-duration" data-r2-publish-duration-display>—</strong><input type="number" min="1" max="86400" step="1" inputmode="numeric" data-r2-publish-duration hidden><small data-r2-publish-duration-help>上載影片後會自動讀取，毋須手動輸入。</small></label>
+              <label><span>標籤</span><input type="text" maxlength="500" data-r2-publish-tags placeholder="例如：Writing, Paper 2, DSE"></label>
+              <label class="r2-publish-fields__wide r2-file-picker"><span>自訂縮圖（選填）</span><input type="file" accept="image/jpeg,image/png,image/webp,image/avif,image/gif,.jpg,.jpeg,.png,.webp,.avif,.gif" data-r2-publish-thumbnail><small>支援靜態圖片及 GIF；沒有上載時自動使用影片第一格。</small></label>
+              <div class="r2-publish-thumbnail-preview" data-r2-publish-thumbnail-preview hidden></div>
+            </div>
+            <div class="r2-upload-progress" data-r2-publish-thumbnail-progress hidden><div><span data-r2-publish-thumbnail-progress-label>準備上載縮圖⋯</span><strong data-r2-publish-thumbnail-progress-percent>0%</strong></div><progress max="100" value="0" data-r2-publish-thumbnail-progress-bar>0%</progress></div>
+            <p class="form-status" data-r2-publish-status role="status" aria-live="polite"></p>
+            <div class="playlist-dialog__actions">
+              <button class="quiet-button" type="button" data-close-r2-publish>取消</button>
+              <button class="primary-button primary-button--compact" type="submit" data-r2-publish-submit>發佈給學生</button>
+            </div>
+          </form>
+        </dialog>
+      </section>
+
+      <dialog class="playlist-dialog feedback-edit-dialog" data-feedback-edit-dialog>
+        <form class="playlist-dialog__card" data-feedback-edit-form>
+          <div class="playlist-dialog__heading"><div><p class="section-kicker">EDIT FEEDBACK</p><h2>編輯影片評分</h2><span data-feedback-edit-summary></span></div><button class="dialog-close" type="button" data-close-feedback-edit>×</button></div>
+          <div class="feedback-edit-fields">
+            <label><span>影片畫質</span><select data-feedback-edit-picture><option value="">留空</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
+            <label><span>解釋內容</span><select data-feedback-edit-explanation><option value="">留空</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
+            <label><span>聲音品質</span><select data-feedback-edit-audio><option value="">留空</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select></label>
+          </div>
+          <p class="form-status" data-feedback-edit-status role="status" aria-live="polite"></p>
+          <div class="playlist-dialog__actions"><button class="danger-button" type="button" data-delete-feedback>永久刪除整份評分</button><button class="quiet-button" type="button" data-close-feedback-edit>取消</button><button class="primary-button primary-button--compact" type="submit">儲存修改</button></div>
+        </form>
+      </dialog>
+
+      <section class="available-students-panel" data-admin-panel="add-student" hidden>
+        <div class="admin-section-heading">
+          <div>
+            <p class="section-kicker">ACTIVATE A STUDENT</p>
+            <h2>新增學生</h2>
+            <p>從現有學生名單選擇帳戶，產生隨機 Video Class Key 並啟用錄影班。完成後，學生會移到「學生及 Key 設定」。</p>
+          </div>
+          <button class="icon-button" type="button" data-available-students-refresh><span aria-hidden="true">↻</span>重新整理</button>
+        </div>
+        <label class="student-search available-students-search">
+          <span class="visually-hidden">搜尋可新增的學生</span>
+          <span aria-hidden="true">⌕</span>
+          <input type="search" data-available-students-search placeholder="搜尋學生名稱或 UUID" autocomplete="off">
+        </label>
+        <div class="inline-state" data-available-students-state role="status" aria-live="polite"><p>正在載入可新增的學生⋯</p></div>
+        <div class="available-students-list" data-available-students-list role="list" hidden></div>
+      </section>
+    </section>
+  </main>
+
+  <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+  <noscript><p class="noscript-message">請啟用 JavaScript 使用錄影班學習平台。</p></noscript>
+
+  <script defer src="video-class-config.js?v=20260811-2"></script>
+  <script defer src="supabase-config.js"></script>
+  <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script defer src="shared-system-nav.js?v=20261101-coin-dialogue1"></script>
+  <script defer src="video-class-zip.js?v=20260812-1"></script>
+  <script defer src="video-class.js?v=20260820-homework-links1"></script>
+<script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
+</body>
+</html>

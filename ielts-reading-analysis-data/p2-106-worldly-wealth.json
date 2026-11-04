@@ -1,0 +1,1970 @@
+{
+  "id": "p2-106-worldly-wealth",
+  "catalogueId": "p2-106",
+  "catalogueIds": [
+    "p2-106"
+  ],
+  "passage": 2,
+  "title": "Worldly Wealth",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "NOT GIVEN",
+    "YES",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "YES",
+    "agriculture",
+    "parks",
+    "productivity",
+    "protein",
+    "DNA",
+    "game",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Today’s wealthy people ignore the fact that millions are living in poverty.”",
+      "translation": "今天的富人忽視了數以百萬計的人仍生活在貧窮之中。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The world’s population is expected to stabilise at around nine billion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界人口預計會穩定在約 90 億左右。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One school of thought says no: not only should the majority of the world’s people resign themselves to poverty forever, but rich nations must also revert to simpler lifestyles in order to save the planet.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一派思想認為不可能：世界上大多數人不但應該永遠接受貧窮，富裕國家也必須回到較簡樸的生活方式，以拯救地球。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 1 講的是全球人口、富裕生活是否可普及，以及一種悲觀環保立場。它確實提到 “poverty” 和 “rich nations”，所以這段最可能和 Q14 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “wealthy people”、“ignore”、“millions”、“poverty”。原文中有 “wealthy”、“rich nations”、“poverty”，但要特別留意動詞 “ignore”。題目並非單純問有沒有貧窮，而是問富人是否忽視貧窮人口。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Will it be possible for nine billion people to have the lifestyle enjoyed today only by the wealthy?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "90 億人是否有可能享有今天只有富人才享有的生活方式？"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“One school of thought says no: not only should the majority of the world’s people resign themselves to poverty forever…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有一派思想認為不可能：世界上大多數人應該永遠接受貧窮……這些句子說明：今天只有富人享有某種生活方式；另有一派看法認為大多數人可能要長期貧窮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是文章沒有說今天的 wealthy people 對窮人態度如何，也沒有說他們 ignore poverty。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題需要三部分：主體：Today’s wealthy people動作：ignore對象：millions living in poverty原文有 wealthy lifestyle 和 poverty，但沒有 wealthy people ignore poverty 這個心理或行為判斷。作者沒有說富人知道、忽視、否認或關心貧窮人口。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 “wealthy” 和 “poverty” 同段出現，就把它們拼成富人忽視窮人的說法。問題出在動詞 “ignore” 缺失。IELTS Reading 判斷不能只靠名詞相鄰，還要看主體做了甚麼。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“There are reasons why the future population of the world may not enjoy a comfortable lifestyle.”",
+      "translation": "未來世界人口可能無法享有舒適生活，是有原因的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Admittedly, there may be political or social barriers to achieving a rich world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "誠然，要達成一個富裕世界，可能會有政治或社會障礙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More possessions, more space, more mobility.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更多財物、更多空間、更高流動性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 先承認障礙存在，之後轉向人們對富裕生活的三大需求。題目問未來人口可能無法舒適生活是否有 reasons，首句的 “political or social barriers” 已經是很強的定位訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “reasons”、“future population”、“may not enjoy”、“comfortable lifestyle”。原文沒有逐字寫 “may not enjoy a comfortable lifestyle”，但 “barriers to achieving a rich world” 就是達成富裕或舒適生活的阻礙。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Admittedly, there may be political or social barriers to achieving a rich world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "誠然，要達成一個富裕世界，可能會有政治或社會障礙。"
+            },
+            {
+              "kind": "label",
+              "text": "這句有幾個關鍵位："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Admittedly” 表示作者承認某點。“there may be” 表示可能性。“political or social barriers” 指政治或社會層面的阻礙。“achieving a rich world” 指達成全球富裕生活。題目說 “There are reasons why…”，原文說 “there may be political or social barriers”。barriers 正是 reasons why the future population may not enjoy comfort 的原因類表達。題目沒有說這些原因一定會令未來失敗，只說 may not enjoy；原文也用 may be，程度一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“There are reasons why…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “there may be … barriers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“future population … comfortable lifestyle”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “achieving a rich world”所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "作者之後說沒有不可克服的 physical or ecological reason。這不會否定 Q15，因為 Q15 只說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“There are reasons”，原文確實承認 political or social barriers。這題的控制點是 reasons 的類型：政治、社會障礙存在；物理、生態障礙則被作者看淡。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The first thing to consider when planning for the future is environmental protection.”",
+      "translation": "規劃未來時，第一件應考慮的事是環境保護。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Admittedly, there may be political or social barriers to achieving a rich world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "誠然，要達成一個富裕世界，可能會有政治或社會障礙。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More possessions, more space, more mobility.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更多財物、更多空間、更高流動性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 不是單純談環境保護；它先承認障礙，再討論人類對未來生活的需求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “first thing to consider” 是強控制詞，要找原文是否說 “start by asking…” 這類起點語言。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “first thing”、“consider”、“planning for the future”。原文中最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In thinking about the future of civilisation, we ought to start by asking what people want.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 “future” 和 “start by asking”，非常值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In thinking about the future of civilisation, we ought to start by asking what people want.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在思考文明的未來時，我們應該先問人們想要甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句明確說 “start by asking what people want”。題目說第一件應考慮的是 environmental protection。兩者的起點不同。原文將規劃未來的第一步放在人類需求上，之後列出人們想要"
+            },
+            {
+              "kind": "quote",
+              "text": "“personal technology”、“lots of room”、“greater speed in travel”，最後總結為 “More possessions, more space, more mobility.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： first thing = environmental protection原文命題： start by asking = what people want這裡有清楚衝突，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "標題下的問題問 “without crippling the environment?”，全文確實關心環境。不過 Q16 問 “the first thing to consider”，原文直接給出第一步：問人們想要甚麼。學生要分清「文章有沒有談環境」和「作者說第一步是甚麼」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“As manufactured goods get cheaper, people will benefit more from them.”",
+      "translation": "隨着製成品變得更便宜，人們會從中得到更多好處。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the developed world, the personal technologies of the wealthy, including telephones, washing machines and cars, have become necessities within a generation or two.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在已發展世界，富人的個人科技，包括電話、洗衣機和汽車，已在一兩代之內變成生活必需品。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Increasing productivity that results in decreasing costs for such goods has been responsible for the greatest gains in the standard of living, and there is every reason to believe that this will continue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "生產力提高令這些商品成本下降，這一直是生活水平最大提升的原因，而且完全有理由相信這種情況會持續。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 講技術商品由奢侈變必需，以及成本下降如何改善生活水平。這和題目 “manufactured goods get cheaper” 很接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “manufactured goods”、“get cheaper”、“benefit more”。原文用 “personal technologies”、“goods”、“decreasing costs”、“greatest gains in the standard of living” 作同義表達。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Increasing productivity that results in decreasing costs for such goods has been responsible for the greatest gains in the standard of living, and there is every reason to believe that this will continue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "生產力提高令這些商品成本下降，這一直是生活水平最大提升的原因，而且完全有理由相信這種情況會持續。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的因果鏈很清楚： Increasing productivity→ decreasing costs for such goods→ greatest gains in standard of living→ this will continue題目說 manufactured goods cheaper，人們得到更多 benefit。原文說這些 goods 成本下降帶來standard of living 的最大提升。standard of living gains 就是生活上的 benefit。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“manufactured goods get cheaper”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “decreasing costs for such goods”"
+            },
+            {
+              "kind": "quote",
+              "text": "“people will benefit more from them”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “greatest gains in the standard of living” + “this will continue”所以答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有要求「所有商品」都變便宜，也沒有要求立刻全球普及。原文說的是 telephones、washing machines、cars 這類 personal technologies，並把它們概括成 “such goods”。題目用manufactured goods 作較廣概括，仍然符合原文方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“It may be possible to find new types of raw materials for use in the production of machinery.”",
+      "translation": "可能可以找到新的原材料種類，用於機械生產。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As affluence grows, the amounts of energy and raw materials used to produce machinery will therefore escalate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨着富裕程度提高，用來製造機械的能源和原材料數量也會增加。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And long before all fossil fuels are exhausted, their rising prices may compel industrial society not only to become more energy efficient but also to find alternative energy sources sufficient for the demands of an advanced technological civilisation: nuclear fission, nuclear fusion, solar energy, chemical photosynthesis, geothermal, biomass or some yet unknown source of energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且遠在所有化石燃料耗盡之前，它們價格上升可能會迫使工業社會提高能源效率，並尋找足以滿足先進科技文明需求的替代能源：核裂變、核聚變、太陽能、化學光合作用、地熱、生物質，或某種尚未知的能源來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 確實同時出現 raw materials 和 energy。但題目問 new types of raw materials，最後一句講的是 alternative energy sources，要小心不要把兩者混在一起。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “raw materials”、“new types”、“production of machinery”。原文第一句有 “raw materials used to produce machinery”；後面有 “materials from old machinery can be recycled”；再後面談 “alternative energy sources”。所以要檢查原文是否真的說「找新原材料」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“As affluence grows, the amounts of energy and raw materials used to produce machinery will therefore escalate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨着富裕程度提高，用來製造機械的能源和原材料數量也會增加。"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rather than being thrown away, materials from old machinery can be recycled by manufacturers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "舊機械中的材料可以由製造商回收，而不用被丟棄。"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句三："
+            },
+            {
+              "kind": "quote",
+              "text": "“…find alternative energy sources sufficient for the demands of an advanced technological civilisation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "尋找足以滿足先進科技文明需求的替代能源來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的是 “new types of raw materials”。原文有三個相近但不同的概念：第一，raw materials 需求會上升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，old machinery 的 materials 可以 recycled。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，fossil fuels 價格上升會推動 alternative energy sources。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是文章沒有說會找到新種類的 raw materials，也沒有列出新材料。它只說可以回收舊材料，以及尋找替代能源。raw materials 和 energy sources 在這段中是兩個不同項目。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大陷阱是 “some yet unknown source of energy”。這看似 “new type”，但它指能源來源，不是machinery production 的 raw materials。另一個陷阱是 recycled materials；回收舊材料不等於發現新原材料種類。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“The rising prices of fossil fuels may bring some benefits.”",
+      "translation": "化石燃料價格上升可能帶來某些好處。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As affluence grows, the amounts of energy and raw materials used to produce machinery will therefore escalate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨着富裕程度提高，用來製造機械的能源和原材料數量也會增加。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And long before all fossil fuels are exhausted, their rising prices may compel industrial society not only to become more energy efficient but also to find alternative energy sources sufficient for the demands of an advanced technological civilisation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "遠在所有化石燃料耗盡之前，它們價格上升可能會迫使工業社會提高能源效率，並尋找足以滿足先進科技文明需求的替代能源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 正在處理能源壓力如何推動調整。題目問 fossil fuel prices rising 是否有 benefits，最後一句直接相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “rising prices of fossil fuels” 和 “benefits”。原文直接有 “fossil fuels” 和 “their rising prices”。benefits 不一定原字出現，可能由結果表示，例如 “more energy efficient”、“find alternative energy sources”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And long before all fossil fuels are exhausted, their rising prices may compel industrial society not only to become more energy efficient but also to find alternative energy sources sufficient for the demands of an advanced technological civilisation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且遠在所有化石燃料耗盡之前，它們價格上升可能會迫使工業社會提高能源效率，並尋找足以滿足先進科技文明需求的替代能源來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “their rising prices”，即 fossil fuels 的 rising prices。核心動詞是 “may compel”，表示可能迫使工業社會作出改變。結果有兩個： become more energy efficient find alternative energy sources這兩個結果都可視為 positive outcomes，因為能源效率提高和替代能源發展都能減輕未來資源與環境壓力。因此題目說 rising prices may bring some benefits，和原文方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“may bring some benefits”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “may compel … to become more energy efficient” + “find alternative energy sources”答案是 YES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "價格上升一般聽起來是壞事，但 IELTS 要看作者在文中如何使用它。這裡作者把價格上升寫成推動能源轉型的壓力，所以題目中的 “some benefits” 合理。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "agriculture",
+      "answerKey": "agriculture",
+      "type": "Summary Completion",
+      "prompt": "Question 20",
+      "translation": "作者認為，把土地用於 ______ 是對環境最嚴重的威脅。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the writer, the use of land for 20 __________ is the most serious threat to the environment.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The growth of cities and suburbs is often seen as a threat to the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "城市和郊區的增長常被視為環境威脅。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Taking the best Iowa maize growers as the norm for world food productivity, it has been calculated that less than a tenth of present cropland could support a population of 10 billion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果以 Iowa 最佳玉米種植者作為全球糧食生產力標準，有人計算出，少於現時十分之一的耕地已可支撐 100 億人口。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 講土地使用、城市、農業和糧食生產力。題目問 land use 的最大環境威脅，應在這段找 agriculture / urban sprawl 的比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “use of land”、“most serious threat”。原文對應是 “land consumed by agriculture is a far greater danger than urban sprawl”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in fact the increasing amount of land consumed by agriculture is a far greater danger than urban sprawl.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，事實上，農業所消耗的土地不斷增加，這比城市蔓延是更大的危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “the use of land for…”，需要一個名詞。原文用 “land consumed by agriculture”， summary 改成 “use of land for agriculture”。答案是 agriculture。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： agriculture = 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “urban sprawl”。原文說 urban sprawl 常被視為 threat，但作者真正指出 agriculture 是更大 danger。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "parks",
+      "answerKey": "parks",
+      "type": "Summary Completion",
+      "prompt": "Question 21",
+      "translation": "然而，在美國，用於 ______ 和森林的土地已經增加。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in the US, there has already been an increase in the amount of land used for 21__________ and forests.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The growth of cities and suburbs is often seen as a threat to the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "城市和郊區的增長常被視為環境威脅。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Taking the best Iowa maize growers as the norm for world food productivity, it has been calculated that less than a tenth of present cropland could support a population of 10 billion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果以 Iowa 最佳玉米種植者作為全球糧食生產力標準，有人計算出，少於現時十分之一的現有耕地即可支撐 100 億人口。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段中間談 reforestation 和 rewilding，也有 US 的 land set aside。題目問 US land used for “___and forests”，因此要在這段找 parks / forest。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “US”、“land used for”、“forests”。原文有 “Since 1950 more land in the US has been set aside in parks…” 和 “now forest again”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since 1950 more land in the US has been set aside in parks than has been occupied by urban and suburban growth. And much of what was farmland in the nineteenth century is now forest again.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 1950 年以來，美國劃作公園的土地比城市和郊區增長所佔用的土地更多。而十九世紀許多曾經是農地的地方，如今再次變成森林。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 將兩句壓縮成 “land used for parks and forests”。原文的 “set aside in parks” 對應parks；“now forest again” 對應 forests。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： parks = 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “rewilding”。它是過程，不是 “land used for ___ and forests” 中和 forests 並列的土地用途名詞。空格要填可與 forests 並列的名詞，所以 parks 最自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "productivity",
+      "answerKey": "productivity",
+      "type": "Summary Completion",
+      "prompt": "Question 22",
+      "translation": "如果全球土地的 ______ 能提高，養活世界人口所需土地會少得多。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Far less land would be required to feed the world’s population if the 22 __________ of the land could be improved worldwide.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The growth of cities and suburbs is often seen as a threat to the environment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "城市和郊區的增長常被視為環境威脅。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Taking the best Iowa maize growers as the norm for world food productivity, it has been calculated that less than a tenth of present cropland could support a population of 10 billion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果以 Iowa 最佳玉米種植者作為全球糧食生產力標準，有人計算出，少於現時十分之一的耕地即可支撐 100 億人口。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已經直接出現 “productivity”，而題目講 far less land required to feed population，因此目標句很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “far less land”、“feed the world’s population”、“improved worldwide”。原文用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“world food productivity”、“less than a tenth of present cropland”、“support a population of 10 billion”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Taking the best Iowa maize growers as the norm for world food productivity, it has been calculated that less than a tenth of present cropland could support a population of 10 billion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以 Iowa 最佳玉米種植者作為全球糧食生產力標準，有人計算出，少於現時十分之一的耕地即可支撐 100 億人口。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目的 “if the ___ of the land could be improved worldwide” 是對 “Taking the best Iowa maize growers as the norm for world food productivity” 的改寫。意思是：如果全世界都能達到高水平農業生產力，就不需要那麼多耕地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： productivity = 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “cropland”。題目空格前是 “the ___ of the land”，需要表示土地產出能力的抽象名詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cropland 是土地類型，productivity 才是可 improved 的項目。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "protein",
+      "answerKey": "protein",
+      "type": "Summary Completion",
+      "prompt": "Question 23",
+      "translation": "也有人聲稱，工業化生產動物食品可讓全球人口更容易得到動物 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has also been claimed that the industrial production of animal foods could allow greater access to animal 23 __________ by the entire world’s population.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In The Environment Game, a vision of a utopia that would be at once high-tech and environmentalist, Nigel Calder suggested that ‘nourishing but unpalatable primary food produced by industrial techniques—like yeast from petroleum—may be fed to animals…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 The Environment Game 這本描繪高科技兼環保烏托邦的書中，Nigel Calder 提出，由工業技術生產、營養豐富但不可口的 primary food，例如由石油製成的酵母，可以餵給動物……最後一句在同一長句末尾："
+            },
+            {
+              "kind": "quote",
+              "text": "“…so that people in underdeveloped countries can have adequate supplies of animal protein for the first time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使欠發達國家的人們首次能有充足的動物蛋白供應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明顯提供 Q23 的答案，因為 summary 的 “industrial production of animal foods” 和原文的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“industrial techniques” 對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “industrial production”、“animal foods”、“animal”。原文有 “industrial techniques”、“fed to animals”、“meat, eggs, milk, butter, and cheese”、“animal protein”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵短語：“adequate supplies of animal protein”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "充足的動物蛋白供應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 寫成 “allow greater access to animal ___”。空格前已有 animal，所以答案只需填protein。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“greater access to animal protein”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “have adequate supplies of animal protein”答案形式： protein = 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “meat”。原文確實列出 meat、eggs、milk、butter、cheese，但 summary 問的是較概括的營養類別，原文最後收束為 animal protein。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "DNA",
+      "answerKey": "DNA",
+      "type": "Summary Completion",
+      "prompt": "Question 24",
+      "translation": "科學家可使用來自馴養動物的 ______，透過 tissue cloning 生產肉類。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists could use 24 __________ from domesticated animals to help produce meat by tissue cloning…”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the long run, tissue-cloning techniques could be used to grow desired portions of meat by themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "長遠來看，tissue-cloning 技術可用來單獨培養人們想要的肉類部位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, game such as wild deer, rabbits and wild ducks will be ever more abundant as farms revert to wilderness, so this could supplement the laboratory-grown meat in the diets of tomorrow’s affluent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，隨着農場回復荒野，野鹿、兔子和野鴨等野味會越來越豐富，因此可補充未來富裕人群飲食中的實驗室培養肉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首句已經出現 tissue-cloning，題目也有 tissue cloning，所以 Paragraph 7 是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “tissue cloning”、“domesticated animals”、“produce meat”。原文有 “Once their DNA has been extracted to create cow-less steaks and chicken-less drumsticks…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once their DNA has been extracted to create cow-less steaks and chicken-less drumsticks, domesticated species of livestock… should be allowed to become extinct…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦牠們的 DNA 被提取出來，用來製造無牛牛排和無雞雞腿，那些馴養的 livestock 物種便應該被允許滅絕……題目說 scientists could use ___ from domesticated animals。原文說 “their DNA has been extracted”。their 指前文的 domesticated species of livestock / domesticated animals。答案是DNA。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： DNA = 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “tissue”。題目已經有 tissue cloning，空格問科學家從 domesticated animals 取得甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文真正被 extracted 的東西是 DNA。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "game",
+      "answerKey": "game",
+      "type": "Summary Completion",
+      "prompt": "Question 25",
+      "translation": "除了這類肉之外，______ 也會廣泛可得。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Summary 句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to this type of meat, 25 __________ will also be widely available.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the long run, tissue-cloning techniques could be used to grow desired portions of meat by themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "長遠來看，tissue-cloning 技術可用來單獨培養人們想要的肉類部位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, game such as wild deer, rabbits and wild ducks will be ever more abundant as farms revert to wilderness, so this could supplement the laboratory-grown meat in the diets of tomorrow’s affluent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，隨着農場回復荒野，野鹿、兔子和野鴨等野味會越來越豐富，因此可補充未來富裕人群飲食中的實驗室培養肉。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題直接來自最後一句。Summary 的 “In addition to this type of meat” 對應原文 “supplement the laboratory-grown meat”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “In addition to this type of meat” 和 “widely available”。原文用 “supplement” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“ever more abundant”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵短語：“game such as wild deer, rabbits and wild ducks will be ever more abundant…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "野鹿、兔子和野鴨等野味會越來越豐富……"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“game” 在這裡指可獵食的野生動物肉類，不是遊戲。題目用 “will also be widely available” 改寫“will be ever more abundant”。因為題目要求 ONE WORD ONLY，而且空格要概括 wild deer、rabbits、wild ducks 這一類食物，所以答案是 game。答案形式： game = 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “wild deer”。原文列出多個例子，但 summary 要一個上位詞。game 才能概括 wild deer、rabbits 和 wild ducks。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A — the location of housing.",
+      "answerKey": "A — the location of housing.",
+      "type": "Multiple Choice",
+      "prompt": "“Greater mobility may be a feature of the future because of changes in…”",
+      "translation": "未來可能需要更高流動性，是因為 ______ 出現變化。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With rising personal incomes come rising expectations of mobility.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨着個人收入上升，人們對流動性的期望也會上升。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In his recent book Free Flight, James Fallows, a pilot as well as a writer, describes serious attempts by both state and private entrepreneurs in the USA to promote an ‘air taxi’ system within the price range of today’s middle class and perhaps tomorrow’s global population.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "飛行員兼作家 James Fallows 在近作 Free Flight 中，描述美國政府和私人企業家正認真嘗試推動一種 air taxi 系統，其價格可落在今天中產階級，也可能是明日全球人口可負擔的範圍內。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 8 講 mobility 需求和未來 air taxi。題目問 greater mobility 的原因，因此要看本段中間對居住方式的解釋。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Greater mobility”、“future”、“because of changes”。原文關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“particularly if its members choose to live widely dispersed in a post-agrarian wilderness.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有 “live widely dispersed”，明顯和 housing location 有關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is another luxury of today’s rich that could become a necessity of tomorrow’s global population – particularly if its members choose to live widely dispersed in a post-agrarian wilderness.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是今天富人的另一種奢侈，可能變成明日全球人口的必需品——尤其是假如人們選擇分散居住在後農業時代的荒野之中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句中的 “This” 指前一句的 mobility。作者說 mobility 會成為必需品，特別是如果未來人口 “live widely dispersed”。居住得更分散，就需要更高流動性。這和選項 A “the location of housing” 最吻合。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “the location of housing.”正確。原文的 “live widely dispersed in a post-agrarian wilderness” 指人們居住位置分散。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “patterns of employment.”原文沒有談就業模式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “centres of transport.”原文談 air taxi system，但原因不是交通中心改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “the distribution of wealth.”原文有 rising personal incomes，但這是整體 mobility expectation 的背景；題目問 greater mobility may be feature because of changes in what，最直接原因是居住位置分散。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 有一定吸引力，因為段落開頭說 rising personal incomes。不過題目問 future greater mobility的具體成因，原文用 “particularly if” 引出更精準原因：人們選擇分散居住。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "D — improved technology.",
+      "answerKey": "D — improved technology.",
+      "type": "Multiple Choice",
+      "prompt": "“Air transport will be safe because of…”",
+      "translation": "航空交通將會安全，是因為 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two of the chief obstacles to the science fiction fantasy of the personal plane or hover car are price and danger.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "personal plane 或 hover car 這種科幻幻想面對兩大主要障礙：價格和危險。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But before long our aircraft and cars will be piloted by computers which are never tired or stressed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但不久後，我們的飛機和汽車會由電腦駕駛，而電腦永遠不會疲倦或受壓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 9 先提出安全問題，再用 computer piloting 作解決方向。題目問 air transport why safe，答案應在最後一句附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Air transport”、“safe”、“because of”。原文沒有直接寫 safe，但有 danger、pilot error、fatalities、computers never tired or stressed。這些都在解釋未來安全性如何改善。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While technological improvements are driving prices down, piloting an aircraft in three dimensions is still more difficult than driving a car in two, and pilot error causes more fatalities than driver error.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然科技進步正在推低價格，但在三維空間駕駛飛機仍比在二維平面駕駛汽車困難，而飛行員錯誤造成的死亡比司機錯誤更多。"
+            },
+            {
+              "kind": "label",
+              "text": "再看答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But before long our aircraft and cars will be piloted by computers which are never tired or stressed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但不久後，我們的飛機和汽車會由電腦駕駛，而電腦不會疲倦，也不會受壓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文邏輯是：aircraft 危險的原因之一是 pilot error；未來由 computers 駕駛，可減少人類疲倦或壓力導致的錯誤。這屬於 improved technology。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “new types of aircraft.”原文沒有說安全來自新型飛機。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “better training methods.”原文沒有提到訓練方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “three-dimensional models.”原文說 piloting aircraft in three dimensions is difficult，這是問題來源，不是安全原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “improved technology.”正確。computer-piloted aircraft and cars 是科技改善帶來的安全解決方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 最容易吸引學生，因為原文有 “three dimensions”。但那句是在說飛行比開車更難，屬於危險原因。安全改善來自 computers piloting vehicles，也就是 technology。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Worldly Wealth.pdf",
+    "sha256": "6c4cc75c0c0197518a1e6a22c298055186a0fe3e0dd62a4ecfbafd565f7b3945",
+    "pageCount": 24
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說世界人口預計會穩定在約 90 億，並提出問題：90 億人能否享有今天只有富人才有的生活方式？末句提到一派看法認為不可能，窮人大多要永遠接受貧窮，富國也要回到更簡樸生活以拯救地球。只看首尾句，可以估計這段是全文爭議起點：它提出人口、富裕生活、環境壓力之間的矛盾，也引出一種悲觀立場。"
+      },
+      {
+        "number": "2",
+        "summary": "首句承認未來富裕世界可能有政治或社會障礙，但緊接表示似乎沒有不可克服的物理或生態理由，阻止 90 億人達到舒適生活。末句總結人們想要更多 possessions、space 和 mobility。只看首尾句，可以估計這段建立作者主張：環境或物理限制未必是絕路；規劃未來時，作者認為應先問人們真正想要甚麼。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說在已發展世界，富人的個人科技，例如電話、洗衣機和汽車，已在一兩代內變成necessities。末句說有理由相信這種趨勢會持續。這段大概講技術產品如何由奢侈品變成生活必需品。首尾句顯示，作者相信 productivity 提升會降低商品成本，並繼續改善 standard of living，是 Q17 的重要定位段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說隨着富裕程度提高，用來製造機械的能源和原材料會增加。末句列出一系列替代能源，包括 nuclear fission、fusion、solar energy、geothermal、biomass，甚至未知能源。只看首尾句，可以估計這段處理「更多消費是否會令 machine age 結束」的問題。作者的方向是：透過 recycling、能源效率提升和 alternative energy，增長未必必然造成資源崩潰。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說城市和郊區擴張常被視為環境威脅。末句說如果以 Iowa 最佳 maize growers 的生產力作全球標準，少於現時十分之一的耕地已可養活 100 億人口。只看首尾句，可以估計這段會修正一般環保直覺：真正更嚴重的 land threat 是 agriculture 擴張。中間內容應會講 reforestation、rewilding、parks 和 cropland productivity。"
+      },
+      {
+        "number": "6",
+        "summary": "首句引用 Nigel Calder 的 The Environment Game，提出一種高科技又環保的 utopia。末句說工業技術生產的 primary food 可餵飼動物，使人們繼續吃肉蛋奶芝士，也讓欠發達國家首次得到充足 animal protein。這段功能是提供未來食物生產的想像：用工業方式生產動物飼料，間接維持人類熟悉的動物性食品，並擴大全球蛋白供應。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說長遠來看，tissue-cloning techniques 可用來直接培養人們想吃的肉類部位。末句說隨着農地回復 wilderness，wild deer、rabbits 和 wild ducks 等 game 會更豐富，可補充實驗室培養肉。只看首尾句，可以估計這段處理未來肉類來源：DNA、tissue cloning、domesticated livestock 的消失，以及野生獵物增加，都是 Summary 題的重要答案來源。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說隨着個人收入上升，人們對 mobility 的期望也會上升。末句提到 James Fallows 描述美國政府和私人企業正嘗試推動 middle class 也負擔得起的 air taxi system。這段大概講未來交通需求和解決方案。首尾句顯示，若人口分散居於 post-agrarian wilderness，流動性需求會更高，而air taxi 代表一種可能的未來交通形式。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 personal plane 或 hover car 這種科幻想像面對兩大障礙：price 和 danger。末句說不久後，飛機和汽車會由電腦駕駛，而電腦不會疲倦或受壓。只看首尾句，可以估計這段處理 air transport 安全問題。作者承認操控飛行器較難，也提到 pilot error，但最後把解決方法落在computer-piloted vehicles 這類 improved technology 上。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說從文明未來角度看，也許有一些 grounds for optimism。末句說在科技幫助下，且不對全球環境造成嚴重壓力，possessions、space 和 mobility 可以由預計中的全世界人口共同達成。只看首尾句，可以看到這是全文總結：作者重申樂觀立場，把前三大需求——財物、空間、流動性——重新收束到科技和環境可承受性之上。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Skim 的真正目的，是先看段落第一句和最後一句，暫時跳過中間細節，推測段落功能，再決定是否值得繼續 Scan 和 Read。"
+  ]
+}

@@ -1,0 +1,1553 @@
+{
+  "id": "p3-105-talented-or-gifted",
+  "catalogueId": "p3-105",
+  "catalogueIds": [
+    "p3-105"
+  ],
+  "passage": 3,
+  "title": "‘talented’ or ‘gifted’?",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "IQ tests",
+    "multifaceted approach",
+    "B",
+    "C",
+    "E",
+    "C",
+    "A",
+    "NOT GIVEN",
+    "YES",
+    "YES",
+    "NO",
+    "NO",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "IQ tests",
+      "answerKey": "IQ tests",
+      "type": "Notes Completion 題要先看圖表或 notes 的順序，再找文章中相同順序的定義變化。Golden",
+      "prompt": "Question 28",
+      "translation": "完成筆記，顯示「定義 talent / gifted」的方法如何改變。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求： Complete the notes, which show how the approaches to defining “talent” have changed."
+            },
+            {
+              "kind": "label",
+              "text": "圖表邏輯大概是："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“percentage definition” → 28 ______ → 29 ______目標段落：Paragraph 1"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句：“What do we mean by being ‘talented’ or ‘gifted’?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們說一個人 “talented” 或 “gifted” 時，到底是甚麼意思？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This definition has fallen from favour, eclipsed by the advent of IQ tests favoured by luminaries such as Professor Hans Eysenck, in which a series of written or verbal tests of general intelligence leads to an intelligence score.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種定義後來不再受歡迎，並被 IQ tests 的出現蓋過；像 Professor Hans Eysenck 這類知名人物支持這種測試，而測試會透過一系列 written or verbal tests of general intelligence 得出intelligence score。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道 Paragraph 1 會介紹早期定義 talent / gifted 的方法，並由 percentage definition 轉到 IQ tests。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “percentage definition” 和 “approaches to defining talent”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“The purely quantitative route – ‘percentage definition’…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再向後讀，就看到 “eclipsed by the advent of IQ tests”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“This definition has fallen from favour, eclipsed by the advent of IQ tests…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種定義後來不再受歡迎，並被 IQ tests 的出現取代或蓋過。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "圖表中的 change / approach changed= 原文 “has fallen from favour, eclipsed by…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“percentage definition” 之後的新方法= “IQ tests”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查： IQ tests 是兩個 words，符合 ONE or TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Q28 答案是 IQ tests。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "multifaceted approach",
+      "answerKey": "multifaceted approach",
+      "type": "Notes Completion 題要先看圖表或 notes 的順序，再找文章中相同順序的定義變化。Golden",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求：圖表繼續問 IQ tests 之後，新的 defining talent approach 是甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The IQ test has been eclipsed in turn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "IQ test 後來也被另一種方法蓋過。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If we are therefore assuming that talented, creative or gifted individuals may need to be assessed across a range of abilities, does this mean intelligence can run in families as a genetic or inherited tendency?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，如果我們假設 talented、creative 或 gifted individuals 需要從一系列能力中評估，這是否表示 intelligence 會以遺傳或 inherited tendency 的形式在家族中延續？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已經清楚說 IQ test 之後還有新方法。最後一句補充這種新方法會 across a range of abilities，因此要回段落中間找新定義名稱。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “IQ test has been eclipsed” 和 “broader definition”。原文下一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most people studying intelligence and creativity in the new millennium now prefer a broader definition, using a multifaceted approach…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Most people studying intelligence and creativity in the new millennium now prefer a broader definition, using a multifaceted approach where talents in many areas are recognised rather than purely concentrating on academic achievement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在新千年，研究 intelligence and creativity 的多數人現在偏好更廣闊的定義，使用一種multifaceted approach，承認很多範疇的才能，不再只集中於 academic achievement。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“broader definition” = 更廣闊的定義“talents in many areas are recognised” = 從多個能力範疇評估“new approach after IQ tests” = multifaceted approach答案形式檢查： multifaceted approach 是兩個 words，符合 ONE or TWO WORDS。所以 Q29 答案是 multifaceted approach。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "B, C, E",
+      "answerKey": "B, C, E",
+      "type": "Notes Completion 題要先看圖表或 notes 的順序，再找文章中相同順序的定義變化。Golden",
+      "prompt": "Questions 30–32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求從 A–F 中選 THREE。Multiple-answer 題要每一個正確選項獨立證明，不能用一段模糊證據一次包辦所有答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B：competition between brothers and sisters正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Evidence now exists that most young children, if given enough opportunities and encouragement, are able to achieve significant and sustainable levels of academic or sporting prowess.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已有證據顯示，多數幼兒如果得到足夠機會和鼓勵，都能在學業或運動方面達到顯著且可持續的水平。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There need not even be any obvious talent in such a family since there always needs to be someone who sets the family career in motion, as in the case of the Sheen acting dynasty.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣的家庭中甚至未必一開始就有明顯才能，因為家族事業總要有人先開端，就像 Sheen acting dynasty 一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 主要講父母如何看見不同孩子的才能，以及 sibling dynamics 如何被處理。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 的定位詞是 “brothers and sisters / competition”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Individual differences were encouraged, and friendly sibling rivalry was not seen as a particular problem.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Individual differences were encouraged, and friendly sibling rivalry was not seen as a particular problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "個體差異會受到鼓勵，而友善的兄弟姊妹競爭也不會被視為特別大的問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“competition between brothers and sisters”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “sibling rivalry”這裡的 rivalry 帶有競爭意味，而且文章把它放在 creative families 的兩個 themes 之中，所以 B是 creative families 的 feature。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C：parents who demonstrate vocational commitment正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A stream seems to run through creative families.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "創意家族似乎有一條共同脈絡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They may see from their parents that it takes time and dedication to be a master of a craft, and so are in less of a hurry to achieve for themselves once they start to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們可能從父母身上看到，要成為一門技藝的大師需要時間和投入，因此自己開始工作後較不急於求成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 6 明顯在講 creative families 的家庭氛圍，尤其是 work、calling、dedication。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的 “vocational commitment” 不會原字重現，要找 “work”、“calling”、“dedication”、“craft”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“They feel loved and wanted, and are secure in their home, but are often surrounded more by an atmosphere of work, where following a calling appears to be important.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們感到被愛、被需要，也在家中有安全感，但他們身邊更多是一種工作的氛圍，在這種氛圍中，追隨自己的志業顯得重要。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“vocational commitment”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= following a calling / atmosphere of work / dedication to a craft所以 C 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 E：a patient approach to achieving success正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “patient”、“achieving success”。原文沒有 patient，但有 “less of a hurry to"
+            },
+            {
+              "kind": "paragraph",
+              "text": "achieve”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“They may see from their parents that it takes time and dedication to be a master of a craft, and so are in less of a hurry to achieve for themselves once they start to work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們可能從父母身上看到，要成為一門技藝的大師需要時間和投入，因此自己開始工作後較不急於取得成就。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“patient approach”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= less of a hurry"
+            },
+            {
+              "kind": "quote",
+              "text": "“achieving success”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= achieve for themselves / be a master of a craft所以 E 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除A “a higher than average level of parental affection”原文說 “Such children are not necessarily smothered with love by their parents. They feel loved and wanted…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些孩子未必被父母過度寵愛，但他們感到被愛和被需要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以文章支持的是基本安全感與被愛，不支持 “higher than average”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “strong motivation to take exams and attend university” Martin Sheen 的例子剛好相反："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite intense parental disapproval, he turned his back on entrance exams to university…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：儘管父母強烈反對，他仍放棄大學入學試。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 D 不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F “the identification of the most talented child in the family”原文說父母能 identify the talents of each child，而且要 even-handed。重點在每個孩子各自的才能，不是只挑出最有才華的一個。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "C — a rat’s surroundings can influence its behaviour.",
+      "answerKey": "C — a rat’s surroundings can influence its behaviour.",
+      "type": "Notes Completion 題要先看圖表或 notes 的順序，再找文章中相同順序的定義變化。Golden",
+      "prompt": "“The rat experiment was conducted to show that…”",
+      "translation": "老鼠實驗是為了顯示甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Animal experiments throw some light on this question, and on the whole area of whether it is genetics, the environment or a combination of the two that allows for intelligence and creative ability.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "動物實驗能稍微說明這個問題，也能幫助理解 intelligence and creative ability 到底來自genetics、environment，還是兩者結合。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This principle applies to humans too – someone may be born with innate intelligence, but their environment probably has the final say over whether they become creative or even a genius.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個原則也適用於人類：一個人可能天生有 intelligence，但環境很可能最終決定他們是否成為creative，甚至成為 genius。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以清楚知道這段用老鼠實驗展示 environment 對 intelligence / creativity 的影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “rat experiment”。原文有 “Different strains of rats”、“maze”、“bright strain”、“dull ones”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“If these are brought up in normal conditions and then run through a maze to reach a food goal, the ‘bright’ strain makes far fewer wrong turns than the ‘dull’ ones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果牠們在正常環境中長大，然後跑迷宮去找食物，較聰明的品系比較笨拙的品系少走很多錯路。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“But if the environment is made dull and boring, the number of errors becomes equal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但如果環境變得沉悶乏味，錯誤次數就會變得相同。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“surroundings” = environment“can influence behaviour” = dull / stimulating environment changes maze performance選項判斷： C 正確，因為實驗真正顯示環境會改變老鼠的行為表現。 A 只說某些 rat strains 更聰明，這只是實驗起點，未概括整個實驗目的。 B 的 motivated 沒有原文支持。 D 說 boring environment 對 bright rat 影響很小，但原文說 dull and boring environment 令errors become equal，影響很大。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "A — he was the first in a creative line.",
+      "answerKey": "A — he was the first in a creative line.",
+      "type": "Notes Completion 題要先看圖表或 notes 的順序，再找文章中相同順序的定義變化。Golden",
+      "prompt": "“The writer cites the story of Martin Sheen to show that…”",
+      "translation": "作者引用 Martin Sheen 的故事，是為了說明甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4 / Paragraph 5"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There need not even be any obvious talent in such a family since there always needs to be someone who sets the family career in motion, as in the case of the Sheen acting dynasty.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣的家庭中甚至未必一開始就有明顯才能，因為家族事業總要有人先開端，就像 Sheen acting dynasty 一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Martin Sheen was the seventh of ten children born to a Spanish immigrant father and an Irish mother.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Martin Sheen 是十個孩子中的第七個，父親是西班牙移民，母親是愛爾蘭人。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three sons – Emilio Estevez, Ramon Estevez and Charlie Sheen – have followed him into the profession as a consequence of being inspired by his motivation and enthusiasm.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的三個兒子 Emilio Estevez、Ramon Estevez 和 Charlie Sheen 因受到他的動力和熱情啟發，跟隨他進入演藝行業。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Martin Sheen”。人名直接帶到 Paragraph 5，但真正理解作者目的要回看 Paragraph 4 最後一句的 “sets the family career in motion”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“There need not even be any obvious talent in such a family since there always needs to be someone who sets the family career in motion…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣的家庭中未必一開始就有明顯才能，因為總要有人先把家族事業開展起來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Martin Sheen 的故事接著說，他雖然遇到 parental disapproval，仍開始 acting career，後來成為1970s highly regarded actors 之一。再之後，他的三個兒子受到啟發，也進入同一 profession。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“the first in a creative line”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= someone who sets the family career in motion選項 A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “his sons were able to benefit from his talents” 是文章中的一個事實背景，但不是作者引用故事的主要目的。作者要說明 creative dynasty 可能由第一個人開端，Martin Sheen 正是這個開端。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 35–39 YES / NO / NOT GIVEN 題要看題目命題和文章立場是同方向、相反，還是缺少核心資料；分析時要保留題目給出的 YES / NO / NOT GIVEN 標籤。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Notes Completion 題要先看圖表或 notes 的順序，再找文章中相同順序的定義變化。Golden",
+      "prompt": "“Intelligence tests have now been proved to be unreliable.”",
+      "translation": "智力測驗現在已被證明不可靠。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 / Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 最後一句說 percentage definition 被 IQ tests 取代。Paragraph 2 第一句又說 “The IQ test has been eclipsed in turn.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：IQ test 後來也被蓋過。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段確實講 IQ tests 的地位改變，但題目加入 “proved to be unreliable”，要找文章是否說明它「被證明不可靠」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “intelligence tests”、“proved”、“unreliable”。原文有 IQ tests、intelligence score、eclipsed，但沒有 “unreliable” 或 “proved”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The IQ test has been eclipsed in turn.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "IQ test 後來也被另一種方法蓋過。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Most people studying intelligence and creativity in the new millennium now prefer a broader definition…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究 intelligence and creativity 的多數人現在偏好更廣闊的定義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題： IQ tests 的地位下降，現在多數研究者偏好 broader definition。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： IQ tests 已經被證明 unreliable。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：文章只說 IQ tests 被較廣闊的方法取代，沒有說它們已被證明不可靠。被取代可以有很多原因，例如定義太窄、不能涵蓋多種才能，但文章沒有給出 “proved unreliable” 這個結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Notes Completion 題要先看圖表或 notes 的順序，再找文章中相同順序的定義變化。Golden",
+      "prompt": "“The brother or sister of a gifted older child may fail to fulfil their own potential.”",
+      "translation": "一個 gifted older child 的兄弟姊妹，可能無法發揮自己的潛能。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Evidence now exists that most young children, if given enough opportunities and encouragement, are able to achieve significant and sustainable levels of academic or sporting prowess.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在已有證據顯示，多數幼兒若有足夠機會和鼓勵，都能在學業或運動上達到顯著而可持續的水平。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There need not even be any obvious talent in such a family since there always needs to be someone who sets the family career in motion, as in the case of the Sheen acting dynasty.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣的家庭中甚至未必一開始就有明顯才能，因為家族事業總要有人先開端，就像 Sheen acting dynasty 一樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段會討論孩子才能、父母注意力和 siblings，所以和題目高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “brother or sister”、“gifted older child”、“fail to fulfil potential”。原文對應 “other siblings”、“bright”、“never come to fruition”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“This can sometimes cause problems with other siblings who may feel jealous even though they themselves may be bright.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這有時會令其他兄弟姊妹出現問題；即使他們自己也可能很聰明，他們仍可能感到嫉妒。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their creative talents may be undervalued and so never come to fruition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的創意才能可能被低估，因此永遠無法開花結果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“brother or sister” = other siblings“may fail to fulfil their own potential” = creative talents may be undervalued and never come to fruition“gifted older child” 對應前文 bright or creative children who receive more parental attention判斷：題目和原文方向一致。原文清楚說其他 siblings 即使也 bright，才能仍可能被低估，最終未能發展出來。所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Notes Completion 題要先看圖表或 notes 的順序，再找文章中相同順序的定義變化。Golden",
+      "prompt": "“The importance of luck in the genius equation tends to be ignored.”",
+      "translation": "在解釋 genius 如何形成時，luck 的重要性往往被忽略。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The generation of creativity is complex: it is a mixture of genetics, the environment, parental teaching and luck that determines how successful or talented family members are.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "creativity 的產生很複雜；genetics、environment、parental teaching 和 luck 的混合，決定家庭成員能有多成功或多有才能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落後半用 Mozart 說明 luck 的角色，因此題目中的 luck 很明顯定位到這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “luck” 和 “ignored”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“This last point – luck – is often not mentioned where talent is concerned, but plays an undoubted part.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“This last point – luck – is often not mentioned where talent is concerned, but plays an undoubted part.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後這一點，即 luck，在談到 talent 時常常沒有被提及，但它毫無疑問有作用。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“tends to be ignored” = is often not mentioned“importance” = plays an undoubted part“genius equation” = mixture of genetics, environment, parental teaching and luck判斷：題目和原文方向一致。文章明確說 luck 常被忽略，但其作用無可懷疑。所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Notes Completion 題要先看圖表或 notes 的順序，再找文章中相同順序的定義變化。Golden",
+      "prompt": "“Mozart was acutely aware of his own remarkable talent.”",
+      "translation": "Mozart 非常清楚自己擁有非凡才能。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 由 creativity 的複雜成因開始，後半集中用 Mozart 說明 luck、家庭和時代如何共同造就 genius。題目指名 Mozart，所以直接掃描 Mozart。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Mozart”、“aware”、“remarkable talent”。原文有 “did not necessarily view himself as a genius”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mozart himself simply wanted to create the finest music ever written but did not necessarily view himself as a genius…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mozart 本人只是想創作出有史以來最好的音樂，但未必把自己視為天才。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與衝突",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：acutely aware of his own remarkable talent"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 非常清楚自己是非凡天才原文：did not necessarily view himself as a genius= 未必把自己視為天才判斷：原文提供了相反方向的資訊。文章承認 Mozart 能以驚人速度學會 composition，也能隨意寫出sublime music，但談到他自己的看法時，原文說他未必視自己為 genius。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Notes Completion 題要先看圖表或 notes 的順序，再找文章中相同順序的定義變化。Golden",
+      "prompt": "“Einstein and Gates would have achieved success in any era.”",
+      "translation": "Einstein 和 Gates 在任何時代都會成功。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Albert Einstein and Bill Gates are two more examples of people whose talents have blossomed by virtue of the times they were living in.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Albert Einstein 和 Bill Gates 是另外兩個例子，他們的才能因所處時代而綻放。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bill Gates may have had the creative vision to develop Microsoft, but without the new computer age dawning at the same time he may never have achieved the position on the world stage he now occupies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bill Gates 可能有創造 Microsoft 的創意視野，但如果沒有新電腦時代同時來臨，他可能永遠無法取得現在的世界地位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已可見段落重點在 times / era 對成功的影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Einstein”、“Gates”、“any era”。原文直接有兩人名字，也有 “by virtue of the times”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Albert Einstein and Bill Gates are two more examples of people whose talents have blossomed by virtue of the times they were living in.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Einstein 和 Gates 的才能是在他們所處時代的條件下開花結果。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Gates："
+            },
+            {
+              "kind": "quote",
+              "text": "“...without the new computer age dawning at the same time he may never have achieved the position on the world stage he now occupies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果沒有新電腦時代同時到來，他可能永遠無法取得今日在世界舞台上的位置。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與衝突",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：would have achieved success in any era"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 不論時代如何都會成功原文：talents blossomed by virtue of the times= 成功與所處時代密切相關判斷：文章明確強調時代條件的重要性，尤其 Gates 的成功需要 computer age 的配合。題目說任何時代都會成功，與原文方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — Nurturing talent within the family",
+      "answerKey": "D — Nurturing talent within the family",
+      "type": "Notes Completion 題要先看圖表或 notes 的順序，再找文章中相同順序的定義變化。Golden",
+      "prompt": "“From the list below choose the most suitable title for the whole of Reading Passage 3.”",
+      "translation": "從選項中選出最適合整篇文章的標題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 whole passage title 題。不能只看某一段的主題，要看全文主線。Multiple Choice 題要選獲得最完整、最精確支持的選項；不能只靠某個原字出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "全文主線回顧： Paragraph 1–2 先討論 talent / gifted 的定義如何由 percentage definition、IQ tests 轉到multifaceted approach。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 用 rat experiment 說明 environment 對 intelligence / creativity 的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4–6 是全文重心：父母如何辨識每個孩子的 talents、如何 even-handedly nurture、creative families 中的 sibling rivalry、vocational commitment 和耐心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7–8 補充 luck 和 historical timing，說明 genius 也需要合適時代。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “Geniuses in their time”這選項只適合最後兩段，尤其 Mozart、Einstein 和 Gates。它能概括 luck / era，但不能涵蓋前半的 talent definitions、rat experiment 和 creative families。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “Education for the gifted”文章不是主要講學校教育或 gifted education system。雖然有 academic achievement、opportunities and encouragement，但沒有集中討論課程、學校或教育制度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Revising the definition of intelligence”這只覆蓋 Paragraph 1–2。文章確實講 definition 變化，但後面大量篇幅轉向 genetics、environment、family、siblings、parents、luck 和 timing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Nurturing talent within the family”最適合。文章核心不只問 gifted 是甚麼，也問 talent 如何在家庭中被辨識、鼓勵、忽略、傳承和發展。Paragraph 4–6 尤其集中在 family environment、parents、siblings、creative families、Sheen dynasty，以及父母工作氛圍。最後的 Mozart、Einstein、Gates 也補充 family / timing 如何配合talent 發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -‘talented’ or ‘gifted’_.pdf",
+    "sha256": "a085feb77482286f6a014420e1ed3362d2579f4b5e963cff7629a459e469c651",
+    "pageCount": 18
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首尾句，第一段由 “talented” 和 “gifted” 的意思開場，最後收在 IQ tests 如何透過 written or verbal tests 產生 intelligence score。這段功能是交代定義天才或資優的早期方法：先看某人作品是否有 significant success，再到 percentage definition，即按人口比例挑 top five per cent，最後轉到 IQ tests。題目若問 approaches to defining talent 的早期轉變，應先定位這段。"
+      },
+      {
+        "number": "2",
+        "summary": "第二段首句說 IQ test 後來也被取代，最後一句提出 intelligence 是否能由父母傳給子女的問題。只看首尾句，可以估計本段會由 IQ tests 轉向更廣闊的 intelligence / creativity 定義。中間關鍵是broader definition、multifaceted approach、talents in many areas，以及不只集中 academic achievement。這段同時為後文 genetics、environment、family influence 的討論鋪路。"
+      },
+      {
+        "number": "3",
+        "summary": "第三段首句說 animal experiments 能幫助理解 genetics、environment 或兩者結合如何影響intelligence and creative ability；最後一句把結論帶回人類：有人可能天生聰明，但 environment可能最終決定他們是否變得 creative or even a genius。這段功能是用 rat experiment 解釋環境的重要性。bright rats 和 dull rats 在不同環境中的表現差異，是 Q33 的核心證據。"
+      },
+      {
+        "number": "4",
+        "summary": "第四段首句說多數幼兒只要有足夠 opportunities and encouragement，就能在學業或運動上達到可持續的高水平；最後一句用 Sheen acting dynasty 說明有時家庭職業傳統需要有人先開端。這段功能是講家庭內如何辨識和培養每個孩子的才能。中間有 parental attention、siblings jealousy、undervalued talents、parents identify talents of each child、even-handed nurture 和 friendly sibling rivalry。Q30–32、Q36 主要依靠這段。"
+      },
+      {
+        "number": "5",
+        "summary": "第五段首句介紹 Martin Sheen 是十個孩子中的第七個，父親是西班牙移民，母親是愛爾蘭人；最後一句說他的三個兒子 Emilio Estevez、Ramon Estevez 和 Charlie Sheen 受他的 motivation and enthusiasm 啟發而進入同一行業。這段功能是用 Martin Sheen 具體展示創意家族怎樣由一個人開始形成。它不是單純人物傳記，重點是 “sets the family career in motion”。"
+      },
+      {
+        "number": "6",
+        "summary": "第六段首句說 creative families 似乎有一條共同脈絡，孩子不一定被父母過分寵愛；最後一句說孩子看到父母投入工藝需要時間和 dedication，因此自己開始工作後不會急於求成。這段功能是補充 creative families 的第二組特徵：有安全感、有工作氛圍、父母展示 vocation / calling，以及孩子學會耐心。Q30–32 的 C 和 E 主要由這段支持。"
+      },
+      {
+        "number": "7",
+        "summary": "第七段首句指出 creativity 的產生很複雜，由 genetics、environment、parental teaching 和 luck共同決定；後半用 Mozart 作例子，說他幸運地活在鼓勵音樂創作的時代，父親又大力栽培他。段落最後指出 Mozart 未必把自己視為 genius，並常偏好 hedonistic lifestyle。這段功能是把 “luck”加入天才公式，提醒學生 genius 不只來自個人能力或家庭教育。Q37、Q38 主要在此段。"
+      },
+      {
+        "number": "8",
+        "summary": "第八段首句把 Einstein 和 Bill Gates 作為例子，說他們的才能因所處時代而綻放；最後一句說Gates 即使有 Microsoft 的創意視野，若沒有新電腦時代同時到來，他可能不會擁有今日世界舞台上的地位。這段功能是總結時代背景的重要性。它用 physics 舊定律被質疑和 computer age dawning 兩個例子，說明 genius 需要能力，也需要合適時機。Q39 和 Q40 會用到這段。"
+      }
+    ]
+  }
+}

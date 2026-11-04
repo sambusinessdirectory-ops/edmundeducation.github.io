@@ -1,0 +1,1843 @@
+{
+  "id": "p3-136-the-nagymaros-dam",
+  "catalogueId": "p3-136",
+  "catalogueIds": [
+    "p3-136"
+  ],
+  "passage": 3,
+  "title": "The Nagymaros Dam",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "F",
+    "A",
+    "K",
+    "I",
+    "B",
+    "E",
+    "J",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C — constructing a small park",
+      "answerKey": "C — constructing a small park",
+      "type": "Summary Completion",
+      "prompt": "“Nine years after the story of the fall of the Berlin Wall began to unfold, Janos Vargha visited the River Danube outside Budapest to discuss 27 ______ with local officials.”",
+      "translation": "柏林圍牆倒下故事開始展開九年後，Janos Vargha 到 Budapest 外的 River Danube，和地方官員討論 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When Janos Vargha, a biologist from the Hungarian Academy of Sciences, began a new career as a writer with a small monthly nature magazine called Buvar, it was 9 years after the story behind the fall of the Berlin Wall had started to unfold.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Janos Vargha 是 Hungarian Academy of Sciences 的生物學家；當他開始在一本名為 Buvar 的小型月刊自然雜誌展開 writer 新事業時，距離柏林圍牆倒下背後的故事開始展開已有九年。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During his early research, he went to a beauty spot on the River Danube outside Budapest known as the Danube Bend to interview local officials about plans to build a small park on the site of an ancient Hungarian capital.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在早期研究期間，他去了 Budapest 外 River Danube 上一個名為 Danube Bend 的風景區，訪問地方官員，了解在一個古代匈牙利首都遺址上建小公園的計劃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph 1 是事件起點：Vargha 以雜誌 writer 身份去 Danube Bend 做採訪，表面任務是了解小公園計劃。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “visited the River Danube outside Budapest” 和 “local officials”。原文對應 “went to a beauty spot on the River Danube outside Budapest” 和 “interview local officials”。"
+            },
+            {
+              "kind": "label",
+              "text": "最關鍵的答案短語是："
+            },
+            {
+              "kind": "quote",
+              "text": "“plans to build a small park”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "建造一個小公園的計劃。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 中 “to discuss” 對應原文 “to interview local officials about”。題目把 “plans to build” 改成一個名詞化或動名詞短語，需要從 List 中選一個能接在 discuss 後面的內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "List C “constructing a small park” 正好等於 “build a small park”。constructing = building；a small park 原字保留。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷27 答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能被 “ancient Hungarian capital” 吸引，但 Summary 問的是討論內容，不是地點歷史身份。真正控制答案的是 “plans to build a small park”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "F — swallowed up",
+      "answerKey": "F — swallowed up",
+      "type": "Summary Completion",
+      "prompt": "“However, the tree-lined curve in the river was to be 28 ______ by a colossal dam.”",
+      "translation": "然而，河中那個綠樹成蔭的彎道將被一座巨型大壩 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句，也是本段唯一一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One official mentioned in passing that this tree-lined curve in the river, a popular tourist spot for Hungarians, was to be submerged by a giant hydroelectric dam being planned in secret by a much-feared state agency known simply as Water Management.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一名官員順口提到，這個河中綠樹成蔭的彎道，也是匈牙利人喜愛的旅遊地點，將被一個巨型水力發電大壩淹沒；這座大壩正由一個令人畏懼、簡稱 Water Management 的國家機構秘密規劃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段功能非常集中：原本的小公園採訪突然揭示出一個秘密大壩計劃，而且地點會被水淹沒。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “tree-lined curve” 和 “colossal dam”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“this tree-lined curve in the river … was to be submerged by a giant hydroelectric dam”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個河中綠樹成蔭的彎道將被巨型水力發電大壩淹沒。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “colossal dam” 對應原文 “giant hydroelectric dam”。空格要填一個過去分詞，放在 “was to be ______ by” 之間。List F “swallowed up” 意思是被吞沒、被淹沒，和 “submerged” 意思一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷28 答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不要選 “discharged”。雖然大壩可能和水排放相關，但原文講的是地點被淹沒，不是水被排放。題目中的 “by a colossal dam” 提示答案要描述地點遭受的結果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — severe",
+      "answerKey": "A — severe",
+      "type": "Summary Completion",
+      "prompt": "“He noted that the Nagymaros Dam would have a 29 ______ impact on the river’s ecosystem.”",
+      "translation": "他指出 Nagymaros Dam 會對河流生態系統造成 ______ 影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vargha investigated and learned that the Nagymaros Dam (pronounced ‘nosh-marosh’) would cause pollution, destroy underground water reserves, dry out wetlands and wreck the unique ecosystem of central Europe’s longest river.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vargha 調查後得知，Nagymaros Dam 會造成污染、破壞地下水儲備、令濕地乾涸，並摧毀中歐最長河流的獨特生態系統。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“I was frustrated and angry, but I was ultimately interested in why they cared enough to ban my article,” he remembers today."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他今日回憶道：「我感到挫敗和憤怒，但到頭來我更感興趣的是，為甚麼他們在意到要禁止我的文章。」只看首尾句，Paragraph 3 先講大壩的環境破壞，再講官方禁文。Question 29 明顯問第一句的environmental impact。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “impact on the river’s ecosystem”。原文對應：“wreck the unique ecosystem of central Europe’s longest river”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "摧毀中歐最長河流的獨特生態系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一句還有 “cause pollution”、“destroy underground water reserves”、“dry out wetlands”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把原文一連串嚴重後果概括成 “have a ______ impact”。空格前有冠詞 “a”，後面是名詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“impact”，所以需要形容詞。 List A “severe” 意思是嚴重的。它可以概括 cause pollution、destroy、dry out、wreck 這些強烈負面動詞。判斷29 答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“favourable” 是反方向。文章從未說大壩對 ecosystem 有好處。原文的動詞全部是負面：cause、destroy、dry out、wreck。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "K — combined",
+      "answerKey": "K — combined",
+      "type": "Summary Completion",
+      "prompt": "“The dam was part of a 30 ______ public-works project to generate hydroelectricity, irrigate farmland and improve navigation along the Czechoslovakian border.”",
+      "translation": "這座大壩是一個 ______ 公共工程項目的一部分，目的是發電、灌溉農田，並改善Czechoslovakian border 沿線航運。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He found that the Nagymaros Dam was part of a joint project with neighbouring Czechoslovakia to produce hydroelectricity, irrigate farms and enhance navigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他發現 Nagymaros Dam 是與鄰國 Czechoslovakia 的 joint project 一部分，目的是生產水力電力、灌溉農田和改善航運。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They wanted to take their big ships from the Black Sea right up the Danube to the border with Austria.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們希望讓大型船隻從 Black Sea 沿著 Danube 一直駛到奧地利邊境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段講大壩工程背後的跨國計劃和航運目的。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “hydroelectricity”、“irrigate”、“navigation”。原文第一句幾乎完全對應 Summary："
+            },
+            {
+              "kind": "quote",
+              "text": "“joint project with neighbouring Czechoslovakia to produce hydroelectricity, irrigate farms and enhance navigation”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與鄰國 Czechoslovakia 的 joint project，用來生產水力電力、灌溉農田和改善航運。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “generate hydroelectricity” 對應原文 “produce hydroelectricity”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “irrigate farmland” 對應 “irrigate farms”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “improve navigation” 對應 “enhance navigation”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格要改寫 “joint project”。List K “combined” 最貼近 joint，表示由多方合組或共同進行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷30 答案是 K。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 “established”。雖然 project 可以被 established，但原文重點是 joint with Czechoslovakia，即共同性。空格放在 “public-works project” 前，也需要形容詞；combined 比 established 更能對應 joint。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "I — established",
+      "answerKey": "I — established",
+      "type": "Summary Completion",
+      "prompt": "“After one public meeting, Vargha 31 ______ the Danube Circle to demonstrate people’s autonomy in a democracy.”",
+      "translation": "一次公開會議後，Vargha ______ Danube Circle，以展示人民在民主中的自主性。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vargha was soon under intense investigation, and some of his articles got past the censors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vargha 很快受到嚴密調查，而他有些文章仍能通過審查。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘We decided it wasn’t enough to talk and write, so we set up an organization, the Danube Circle. We announced that we didn’t agree with censorship. We would act as if we were living in a democracy,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「我們決定光是談論和寫作還不夠，所以成立了一個組織，Danube Circle。我們宣布不同意審查制度。我們會像生活在民主之中那樣行動。」只看首尾句，這段由被審查、受調查，走向組織化反抗。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “public meeting” 和 “Danube Circle”。原文中間說："
+            },
+            {
+              "kind": "quote",
+              "text": "“When the bureaucrats pulled out of a public meeting at the last minute, Vargha knew he had to take the next step.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當官僚在最後一刻退出一場公開會議時，Vargha 知道自己必須採取下一步。"
+            },
+            {
+              "kind": "label",
+              "text": "接著他說："
+            },
+            {
+              "kind": "quote",
+              "text": "“we set up an organization, the Danube Circle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們成立了一個組織，Danube Circle。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “After one public meeting” 對應原文 “When the bureaucrats pulled out of a public meeting at the last minute”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “demonstrate people’s autonomy in a democracy” 對應原文 “We would act as if we were living in a democracy”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要動詞過去式，意思等同 “set up”。List I “established” 正好是 founded / set up 的正式改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷31 答案是 I。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 “passed”。原文有 “some of his articles got past the censors”，但這是文章通過審查，不是Vargha 對 Danube Circle 做的動作。定位詞 Danube Circle 旁邊的動詞才是答案。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B — discharged",
+      "answerKey": "B — discharged",
+      "type": "Summary Completion",
+      "prompt": "“Vargha, who later became editor of the Hungarian edition of Scientific American, was 32______ by the Politburo.”",
+      "translation": "Vargha 後來成為 Hungarian edition of Scientific American 的 editor，但他被 Politburo ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Hungarian government enforced a news blackout on the dam, but articles about the Danube Circle began to appear in the Western media.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "匈牙利政府對大壩實施新聞封鎖，但關於 Danube Circle 的文章開始出現在西方媒體。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then the Politburo removed Vargha from his new job as editor of the Hungarian version of Scientific American.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後 Politburo 把 Vargha 從 Hungarian version of Scientific American editor 的新職位上撤下。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示，這段講政府的資訊封鎖和對 Vargha 的懲罰。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞很強： “Politburo”、“editor”、“Scientific American”。原文最後一句直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“removed Vargha from his new job as editor…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把 Vargha 從 editor 新職位上撤下。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用被動式 “was ______ by the Politburo”。List 中能表示被撤職的是 B “discharged”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "discharged 在工作語境中有解僱、免職的意思，對應原文 “removed from his new job”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷32 答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“passed” 可能被前文 “got past the censors” 干擾，但題目主體是 Vargha 和 Politburo，不是articles 和 censors。要看主體和動作是否一致。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "E — reformist",
+      "answerKey": "E — reformist",
+      "type": "Summary Completion",
+      "prompt": "“Under pressure from the anti-dam movement, the dam, a final symbol of Eastern European communism, was opposed by 33 ______ politicians.”",
+      "translation": "在反壩運動壓力下，這座作為東歐共產主義最後象徵之一的大壩，遭到 ______ 政治人物反對。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 9第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Under increasing pressure from the anti-dam movement, the Hungarian Communist Party was divided.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在反壩運動日益增加的壓力下，Hungarian Communist Party 出現分裂。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Party officials saw them as a harmless product of youthful idealism created by Boy Scouts and natural history societies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "黨官員把它們看成由童軍和自然史社團創造出的青年理想主義產物，認為無害。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段講黨內分裂，以及環保運動一開始如何被黨官員低估。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Under pressure from the anti-dam movement” 和 “opposed by politicians”。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reformists found that the dam was neither popular nor economical.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "改革派發現這座大壩既不受歡迎，也不合經濟效益。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“But hardliners defended Stalinist ideas about large dams…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但強硬派維護關於大型大壩的 Stalinist 觀念。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 9 把 Communist Party 內部分成兩邊：reformists 和 hardliners。Reformists 認為大壩不受歡迎、不經濟，所以他們反對或至少不支持大壩。Hardliners 則 defended large dams，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格放在 “politicians” 前，需要形容詞。List E “reformist” 可接 politicians，對應原文的 Reformists。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷33 答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 “environmentalists”。題目問 politicians，原文在這裡講的是 Communist Party 內部分裂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Environmentalists 是運動參與者；反對大壩的黨內人物是 reformists。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "J — collision",
+      "answerKey": "J — collision",
+      "type": "Summary Completion",
+      "prompt": "“Overall, the political establishment and environmentalists were in 34 ______ over their views.”",
+      "translation": "整體而言，政治建制和環保人士在觀點上處於 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 8–10，尤其 Paragraph 10 Paragraph 10 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Green idealism steadily became a focal point for political opposition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "綠色理想主義逐漸成為政治反對的焦點。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 10 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Big water engineering projects were potent symbols of the old Stalinism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大型水利工程是舊 Stalinism 的強烈象徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示，環境議題逐漸與政治反對合流，大型水利工程則成為舊政權象徵。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “political establishment”、“environmentalists”、“views”。原文雖然未逐字說 “in collision”，但多段建立了對立："
+            },
+            {
+              "kind": "quote",
+              "text": "“Objecting to the dam was less of a hazard, but it was still considered resistance to the state.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "反對大壩危險較小，但仍被視為對國家的抵抗。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Big water engineering projects were potent symbols of the old Stalinism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大型水利工程是舊 Stalinism 的強烈象徵。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案邏輯"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目是總結式空格，不是單句抄寫。環保人士反對大壩；政治建制，尤其 hardliners 和 Water Management，推動或維護大壩。Paragraph 8 說反壩被視為 resistance to the state；Paragraph 10 說 green idealism 成為 political opposition。兩邊的觀點明顯衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "List J “collision” 意思是碰撞、衝突。短語 “in collision over their views” 雖然較正式，但能準確概括全文的政治和環保對立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷34 答案是 J。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“combined” 已在 30 對應 joint project；這裡需要的是 political establishment 和 environmentalists之間的關係。文章整體呈現的是衝突，不是合作。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Janos Vargha predicted that the Nagymaros Dam would wreck the natural environment before it was built.”",
+      "translation": "Janos Vargha 在 Nagymaros Dam 建成前預測它會破壞自然環境。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題有兩個部分：第一，Vargha 是否認為大壩會 wreck natural environment；第二，這個判斷是否發生在大壩建成前。要找 “would” 這類未來後果，以及大壩仍在 planned / being planned 的背景。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 2–3 Paragraph 2 第一及唯一一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One official mentioned in passing that this tree-lined curve in the river, a popular tourist spot for Hungarians, was to be submerged by a giant hydroelectric dam being planned in secret by a much-feared state agency known simply as Water Management.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一名官員順口提到，這個河中綠樹成蔭的彎道將被一個巨型水力發電大壩淹沒；這座大壩正由令人畏懼的 Water Management 秘密規劃。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vargha investigated and learned that the Nagymaros Dam … would cause pollution, destroy underground water reserves, dry out wetlands and wreck the unique ecosystem of central Europe’s longest river.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Vargha 調查後得知，Nagymaros Dam 會造成污染、破壞地下水儲備、令濕地乾涸，並摧毀中歐最長河流的獨特生態系統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩段首句，已能看到大壩仍在規劃，Vargha 已指出未來環境破壞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Janos Vargha”、“would wreck”、“natural environment”、“before it was built”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“would cause pollution, destroy underground water reserves, dry out wetlands and wreck the unique ecosystem…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "會造成污染、破壞地下水儲備、令濕地乾涸，並摧毀獨特生態系統。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文用 “would” 表示預期後果，說明這些破壞尚未完全發生。Paragraph 2 又說 dam “being planned in secret”，表示當時仍在規劃階段。題目中的 “natural environment” 是對 pollution、water reserves、wetlands、ecosystem 的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “predicted”，原文說 “investigated and learned”。嚴格來說，Vargha 是根據調查得知未來會發生的後果。這和 predicted 的意思相容，因為原文確實用 would 描述未來影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：Vargha 在大壩建成前指出它會破壞自然環境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：大壩仍 being planned；Vargha learned it would cause pollution, destroy reserves, dry out wetlands, wreck ecosystem。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“predicted” 不是原字重現，但 “would” 是關鍵。IELTS 常用 would 來呈現尚未發生但可預期的後果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Nagymaros Dam project was managed by the Russians only.”",
+      "translation": "Nagymaros Dam project 只由 Russians 管理。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題的控制詞是 “only”。只要原文出現其他參與方，或說它是 joint project，題目就與原文相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要特別檢查 Russians 是唯一管理者，還是其中一方參與者。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He found that the Nagymaros Dam was part of a joint project with neighbouring Czechoslovakia to produce hydroelectricity, irrigate farms and enhance navigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他發現 Nagymaros Dam 是與鄰國 Czechoslovakia 的 joint project 一部分，目的是生產水電、灌溉農田和改善航運。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They wanted to take their big ships from the Black Sea right up the Danube to the border with Austria.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們希望讓大型船隻從 Black Sea 沿 Danube 一直駛到奧地利邊境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段說明大壩工程是跨國計劃，俄方也有利益，但不支持 Russians only。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Russians only”。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Russians were working together, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Russians 也一起參與。"
+            },
+            {
+              "kind": "label",
+              "text": "前一句已說："
+            },
+            {
+              "kind": "quote",
+              "text": "“part of a joint project with neighbouring Czechoslovakia”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與鄰國 Czechoslovakia 的 joint project 一部分。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “too” 很重要。它表示 Russians 是額外參與者，不是唯一參與者。前面已經提到Hungarian side 和 neighbouring Czechoslovakia 的 joint project；後面再說 Russians were working together too。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “managed by the Russians only”。文章沒有說 Russians managed the project，更沒有說only Russians。原文反而強調 joint / together。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：Russians only managed the project。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：project was joint with Czechoslovakia；Russians were working together too。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“only” 被原文的 joint 和 too 明確推翻，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 “The Russians were working together, too” 就覺得 Russians 很重要。但 too 這個小字直接排除 only。做 TRUE / FALSE 題時，only、all、never 這類限制詞要特別小心。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Danube Circle was an unauthorised group for opposing the dam.”",
+      "translation": "Danube Circle 是一個未獲授權、用來反對大壩的團體。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題要檢查兩點：第一，Danube Circle 是否 unauthorised / illegal；第二，它是否反對大壩。兩點都要成立。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Danube Circle was illegal and the secret publications it produced were samizdat leaflets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Danube Circle 是非法的，它製作的秘密刊物是 samizdat leaflets。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In an extraordinary act of defiance, it gathered 10,000 signatures for a petition objecting to the dam and made links with environmentalists in the West, inviting them to Budapest for a press conference.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一次非凡的反抗行動中，它為一份反對大壩的 petition 收集了一萬個簽名，並與西方environmentalists 建立聯繫，邀請他們到 Budapest 出席 press conference。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句提供 unauthorised，尾句提供 opposing the dam。段落首尾句已完整支持題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Danube Circle”、“unauthorised”、“opposing the dam”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Danube Circle was illegal…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“a petition objecting to the dam”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一份反對大壩的請願書。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“illegal” 直接對應 “unauthorised”，表示沒有合法授權。“objecting to the dam” 直接對應 “opposing the dam”。題目用 “group”，原文前一段說 “we set up an organization, the Danube Circle”，所以 group /organization 也相符。判斷題目命題：Danube Circle 是未獲授權、反對大壩的團體。原文命題：Danube Circle was illegal；it gathered signatures for a petition objecting to the dam。兩個核心元素都成立，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題雖然簡單，但要留意答案需要兩句證據。只引用 illegal 只能證明未授權；還要用 petition objecting to the dam 證明它的目的。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Politburo accepted Vargha as editor of the Hungarian edition.”",
+      "translation": "Politburo 接受 Vargha 擔任 Hungarian edition 的 editor。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 Politburo 對 Vargha editor 職位的態度。控制動詞是 “accepted”。要回原文看 Politburo 是保留他、任命他，還是撤走他。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Hungarian government enforced a news blackout on the dam, but articles about the Danube Circle began to appear in the Western media.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "匈牙利政府對大壩實施新聞封鎖，但有關 Danube Circle 的文章開始在西方媒體出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then the Politburo removed Vargha from his new job as editor of the Hungarian version of Scientific American.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後 Politburo 把 Vargha 從 Hungarian version of Scientific American editor 的新職位上撤下。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯講政府壓制資訊和懲罰 Vargha。最後一句直接回答題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Politburo”、“editor”、“Hungarian edition”。原文最後一句幾乎原字對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“removed Vargha from his new job as editor…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把 Vargha 從 editor 新職位上撤下。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “accepted Vargha as editor”，意思是 Politburo 接受或認可他擔任 editor。原文說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“removed Vargha from his new job as editor”，意思是撤職。兩個動作方向相反。“new job as editor” 也說明 Vargha 確實有這個新職位，但 Politburo 的行為是將他撤下。判斷題目命題：Politburo accepted Vargha as editor。原文命題：Politburo removed Vargha from his new job as editor。核心動作相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目使用了真實元素：Politburo、Vargha、editor、Hungarian version of Scientific American 都在原文出現。真正決定答案的是動詞 accepted 和 removed 的方向差異。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The human rights Charter 77 in Czechoslovakia embraced environmental ideas.”",
+      "translation": "Czechoslovakia 的人權運動 Charter 77 接納了環保理念。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 Charter 77 和 environmentalism 的關係。控制點是 “embraced environmental ideas”，原文可能用 took up、adopted、joined 等表達。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 10第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Green idealism steadily became a focal point for political opposition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "綠色理想主義逐漸成為政治反對的焦點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Big water engineering projects were potent symbols of the old Stalinism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大型水利工程是舊 Stalinism 的強烈象徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 10 講環保理念如何成為政治反對的一部分。Charter 77 是其中一個例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Charter 77”、“Czechoslovakia”、“environmental ideas”。原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Czechoslovakia, the Charter 77 human-rights movement took up environmentalism.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Czechoslovakia，Charter 77 這個人權運動開始接納／投入 environmentalism。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “took up environmentalism” 表示開始關注、採納或投入 environmentalism。題目 “embraced environmental ideas” 是它的改寫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "human-rights movement 對應題目 “The human rights Charter 77”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Czechoslovakia 原字重現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：Charter 77 embraced environmental ideas。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：Charter 77 human-rights movement took up environmentalism。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“took up” 不可直譯成「拿起」；在這裡表示開始從事、接受、投入某個議題。題目用 embraced 來概括這個意思。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "B — to develop a source of electric power, irrigation and navigation.",
+      "answerKey": "B — to develop a source of electric power, irrigation and navigation.",
+      "type": "Multiple Choice",
+      "prompt": "“In this passage, the main purpose of the Nagymaros Dam was”",
+      "translation": "根據文章，Nagymaros Dam 的主要目的 是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目真正問甚麼這題問 main purpose，即大壩工程的主要用途。要找的是原文中 to produce / irrigate / enhance這類目的結構。題目不是問大壩造成甚麼環境後果，也不是問它象徵甚麼政治意義。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He found that the Nagymaros Dam was part of a joint project with neighbouring Czechoslovakia to produce hydroelectricity, irrigate farms and enhance navigation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他發現 Nagymaros Dam 是與鄰國 Czechoslovakia 的 joint project 一部分，目的是生產水力電力、灌溉農田和改善航運。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They wanted to take their big ships from the Black Sea right up the Danube to the border with Austria.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們希望讓大型船隻從 Black Sea 沿 Danube 一直駛到奧地利邊境。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段就是工程目的段：水電、灌溉、航運。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “main purpose”、“Nagymaros Dam”。原文沒有 “main purpose” 原字，但第一句的三個to-infinitive 目的很清楚："
+            },
+            {
+              "kind": "quote",
+              "text": "“to produce hydroelectricity, irrigate farms and enhance navigation”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用來生產水力電力、灌溉農田和改善航運。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Nagymaros Dam，說它是 joint project 的一部分；後面三個並列動詞就是 project目的： produce hydroelectricity生產水力電力irrigate farms灌溉農田enhance navigation改善航運選項 B “to develop a source of electric power, irrigation and navigation” 把這三個用途全部概括進去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A “related to Russian Water Management.”錯。Water Management 是 Hungarian state agency，Russians 只是 “working together, too”。A把機構和國家混亂地放在一起，也沒有說明大壩目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “to develop a source of electric power, irrigation and navigation.”正確。electric power 對應 hydroelectricity；irrigation 對應 irrigate farms；navigation 原字對應enhance navigation。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “to connect the Black Sea and the Danube.”錯。原文說 Russians 想讓大船從 Black Sea 沿 Danube 到奧地利邊境，這是航運野心的一部分；文章沒有說大壩的主要目的只是連接 Black Sea 和 Danube。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “to develop a beauty spot on the River Danube.”錯。beauty spot 是 Vargha 起初採訪的地點；local officials 原本談的是 small park。後來揭示大壩會淹沒這個地點，不是發展 beauty spot。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“produce hydroelectricity, irrigate farms and enhance navigation”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“develop a source of electric power, irrigation and navigation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "hydroelectricity = electric power irrigate farms = irrigation enhance navigation = improve navigation / navigation方法總結MCQ 遇到 main purpose，要優先找 to + verb 的目的結構。這題的三個並列動詞正好對應選項 B的三個名詞。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The Nagymaros Dam.pdf",
+    "sha256": "1f7d517dcb8ddd0e52465d2e6e438ae527f0c4e361807d8da04c7ed34bcb00fc",
+    "pageCount": 25
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句介紹 Janos Vargha，他本是 Hungarian Academy of Sciences 的生物學家，後來轉到一本自然雜誌 Buvar 做 writer；末句說他去 Danube Bend 訪問地方官員，了解在古代匈牙利首都遺址建小公園的計劃。只看首尾句，可以先估這段是人物和事件開端：Vargha 因一個看似普通的採訪任務接觸到 River Danube 的地點。題目若問 small park、local officials、Danube outside Budapest，可先回到這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句也是全段唯一一句，說一名官員順口提到這個 tree-lined curve in the river，即匈牙利人喜愛的旅遊地點，將被一個秘密規劃中的 giant hydroelectric dam 淹沒。這段功能非常集中：它把原本普通的 park 訪問突然轉成大壩危機。Summary 中 “tree-lined curve” 和 “colossal dam” 的空格明顯來自這段；核心概念是 submerged，也就是地點會被大壩水位吞沒。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Vargha 調查後得知 Nagymaros Dam 會造成污染、破壞地下水儲備、令濕地乾涸，並摧毀中歐最長河流的獨特生態系統；末句他回憶自己因文章被禁而又挫敗又憤怒，但更想知道對方為何如此在意要禁文。只看首尾句，可見本段主軸是兩層：大壩的環境危害，以及國家機構對資訊的審查。題目問 environmental impact 或 censorship，目標多在此段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 Vargha 發現 Nagymaros Dam 是與鄰國 Czechoslovakia 的 joint project 一部分，用於生產水電、灌溉農田和改善航運；末句引用他說 Russians 也一起參與，希望大型船隻能從 Black Sea 沿 Danube 直達奧地利邊境。首尾句顯示本段解釋大壩背後的公共工程目的和跨國政治背景。Question 40 和 Summary 中 joint / combined project、hydroelectricity、irrigation、navigation都應回到這段。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 Vargha 很快受到嚴密調查，但有些文章仍通過審查；末句他說 Danube Circle 會像生活在民主中那樣行動。首尾句顯示，這段由個人抗議升級到組織行動。中間提到他多年來聚集支持者、Water Management 拒絕公開辯論、官僚臨時退出 public meeting，這些都推動他成立Danube Circle。Summary 中 “After one public meeting” 和 established organization 就定位在這裡。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Danube Circle 是 illegal，它製作的秘密刊物是 samizdat leaflets；末句說它收集一萬個反壩 petition 簽名，並與西方 environmentalists 建立聯繫，邀請他們到 Budapest 出席 press conference。只看首尾句，可見本段展示 Danube Circle 的非法身份和公開反抗行動。TRUE /FALSE 題若問 unauthorised group 或 opposing the dam，這段提供最直接證據：illegal 加上petition objecting to the dam。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 Hungarian government 對大壩實施 news blackout，但西方媒體開始報導 Danube Circle；末句說 Politburo 把 Vargha 從 Hungarian version of Scientific American editor 的新工作中撤職。首尾句顯示，這段講政府封鎖資訊與懲罰 Vargha。中間還有 Right Livelihood award、官方要求他不要領獎、他仍然無視，以及 Austrian environmentalists 在 Budapest 抗議時遇到 tear gas and batons。題目若問 Politburo、editor、award 或 protest，目標在此。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說大壩成為反對 hated regime 的焦點；末句 Vargha 說直接反對國家仍然困難，反對大壩危險較小，但仍被視作 resistance to the state。只看首尾句，可以估這段把環境議題轉化成政治反對。大壩已不只是水利工程，也成為對 Communist regime 的象徵性挑戰。這段幫助理解為何environmental opposition 會變成 wider political resistance。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說在 anti-dam movement 壓力下，Hungarian Communist Party 出現分裂；末句說黨官員原本把環保團體視為青年理想主義、童軍和自然史社團產物，覺得它們 harmless。只看首尾句，可見本段討論黨內分歧和環保議題如何成為 Eastern European communism 的弱點。中間reformists 認為大壩不受歡迎、不合經濟效益；hardliners 則維護 Stalinist large dams。Summary中 reformist politicians 就在這段。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說 Green idealism 逐漸成為 political opposition 的焦點；末句說大型水利工程是 old Stalinism 的強烈象徵。只看首尾句，可以看出結尾把 Hungarian anti-dam movement 放進更廣泛的東歐環保政治浪潮。中間列出 Czechoslovakia 的 Charter 77、Poland 和 Estonia 的 Friends of the Earth International、Bulgaria 的 Ecoglasnost。Question 39 關於 Charter 77 embraced environmental ideas，就應定位到這段。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2916 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>免費英文通訊 | EdmundEducation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, viewport-fit=cover">
+  <meta name="theme-color" content="#20283d">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EdmundEducation">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <script defer src="/pwa-register.js"></script>
+
+  <style>
+    @font-face {
+      font-family: "Noto Serif TC Local";
+      src: local("Noto Serif TC"), local("Songti TC"), local("PMingLiU");
+      font-weight: 200 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    * { box-sizing: border-box; }
+
+    :root {
+      --ink: #17201b;
+      --muted: #657169;
+      --paper: #fbfaf4;
+      --panel: rgba(255,255,255,0.82);
+      --green: #1f9d62;
+      --green-dark: #0f5f3e;
+      --gold: #e9ba5c;
+      --line: rgba(31,157,98,0.18);
+      --shadow: 0 24px 70px rgba(25,42,31,0.16);
+    }
+
+    html, body, a, button, input, textarea { cursor: none; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      overflow-x: hidden;
+      font-family: "Noto Serif TC Local", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
+      font-weight: 700;
+      background:
+        radial-gradient(860px 480px at 8% 8%, rgba(18,88,62,0.30), transparent 68%),
+        radial-gradient(760px 520px at 88% 16%, rgba(233,186,92,0.32), transparent 64%),
+        linear-gradient(135deg, #101815 0%, #eff8ec 46%, #fffaf0 100%);
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.72), rgba(255,255,255,0.48)),
+        radial-gradient(circle at 50% 100%, rgba(31,157,98,0.12), transparent 48%);
+      pointer-events: none;
+    }
+
+    .custom-cursor {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 42px;
+      height: 42px;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.18s ease;
+    }
+
+    .newsletter-shell {
+      min-height: 100vh;
+      padding: clamp(22px, 3vw, 48px) clamp(22px, 4vw, 66px) 70px;
+    }
+
+    .study-nav {
+      min-height: 52px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-areas:
+        "left right"
+        "title title";
+      align-items: center;
+      gap: 14px 22px;
+      font-size: 15px;
+      line-height: 1;
+      font-weight: 900;
+      position: relative;
+      z-index: 5;
+    }
+
+    .study-brand,
+    .study-nav-title,
+    .nav-mini-link,
+    .login-button {
+      color: var(--ink);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .study-nav-left,
+    .study-nav-right {
+      display: flex;
+      align-items: center;
+      gap: clamp(12px, 1.6vw, 22px);
+      min-width: 0;
+    }
+
+    .study-nav-left {
+      grid-area: left;
+      justify-self: start;
+      flex-wrap: wrap;
+    }
+
+    .study-nav-right {
+      grid-area: right;
+      justify-self: end;
+    }
+
+    .study-brand {
+      display: inline-flex;
+      align-items: center;
+      min-height: 52px;
+      min-width: 0;
+    }
+
+    .study-brand img {
+      display: block;
+      height: clamp(34px, 4.2vw, 58px);
+      width: auto;
+      max-width: min(310px, 28vw);
+      object-fit: contain;
+    }
+
+    .nav-mini-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 46px;
+      border-radius: 999px;
+      padding: 0 10px;
+      color: #343437;
+      font-size: 17px;
+      font-weight: 900;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    .nav-mini-link:hover {
+      background: rgba(29,29,31,0.07);
+      color: #0071e3;
+    }
+
+    .study-nav-title {
+      grid-area: title;
+      justify-self: center;
+      color: #22302a;
+      font-size: clamp(22px, 2vw, 34px);
+      font-weight: 900;
+    }
+
+    .view-posts {
+      min-height: 46px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 18px;
+      background: rgba(255,255,255,0.82);
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 900;
+      box-shadow: 0 8px 20px rgba(29,29,31,0.08);
+    }
+
+    .login-button {
+      min-height: 46px;
+      border: 1px solid rgba(29,29,31,0.10);
+      border-radius: 999px;
+      padding: 0 20px;
+      background: rgba(255,255,255,0.82);
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 900;
+      box-shadow: 0 8px 20px rgba(29,29,31,0.08);
+    }
+
+    .dashboard-title {
+      margin: clamp(28px, 4vw, 48px) 0 18px;
+      color: #17201b;
+      font-size: clamp(34px, 4.5vw, 74px);
+      line-height: 1.02;
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+
+    .hero-card {
+      min-height: clamp(300px, 36vh, 460px);
+      border: 1px solid rgba(31,157,98,0.20);
+      border-radius: 34px;
+      overflow: hidden;
+      background:
+        linear-gradient(105deg, rgba(14,38,29,0.94), rgba(28,107,72,0.74) 46%, rgba(246,255,238,0.78)),
+        var(--hero-image);
+      background-size: cover;
+      background-position: center;
+      box-shadow: var(--shadow);
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(300px, 0.7fr);
+      align-items: stretch;
+      transition: opacity 0.55s ease, transform 0.55s ease, background-image 0.65s ease;
+    }
+
+    .hero-card.is-switching {
+      opacity: 0.55;
+      transform: translateY(8px);
+    }
+
+    .hero-copy {
+      padding: clamp(28px, 4vw, 58px);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-shadow: 0 16px 40px rgba(0,0,0,0.28);
+    }
+
+    .hero-kicker {
+      width: fit-content;
+      min-height: 32px;
+      border-radius: 999px;
+      padding: 8px 14px;
+      background: rgba(255,255,255,0.18);
+      color: rgba(255,255,255,0.90);
+      font-size: 13px;
+      line-height: 1;
+      font-weight: 900;
+      backdrop-filter: blur(12px);
+    }
+
+    .hero-title {
+      max-width: 820px;
+      margin: 24px 0 0;
+      font-size: clamp(38px, 5vw, 82px);
+      line-height: 1.02;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-wrap: balance;
+    }
+
+    .hero-note {
+      max-width: 680px;
+      margin: 18px 0 0;
+      color: rgba(255,255,255,0.86);
+      font-size: clamp(18px, 1.5vw, 24px);
+      line-height: 1.48;
+      font-weight: 800;
+    }
+
+    .hero-note span {
+      display: block;
+    }
+
+    .hero-action {
+      margin-top: 38px;
+      display: inline-flex;
+      align-items: center;
+      gap: 16px;
+      width: fit-content;
+      border: 0;
+      border-radius: 999px;
+      padding: 0;
+      background: transparent;
+      color: #d7ffe9;
+      font-family: inherit;
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    .book-button {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      background: var(--green);
+      box-shadow: 0 14px 32px rgba(31,157,98,0.30);
+    }
+
+    .book-button svg {
+      width: 33px;
+      height: 33px;
+      display: block;
+    }
+
+    .hero-image-panel {
+      min-height: 100%;
+      background:
+        linear-gradient(90deg, rgba(15,31,24,0.36), rgba(255,255,255,0.06)),
+        var(--hero-image);
+      background-size: cover;
+      background-position: center;
+      border-left: 1px solid rgba(255,255,255,0.16);
+      clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .hero-post-nav {
+      position: absolute;
+      top: clamp(18px, 2vw, 26px);
+      right: clamp(18px, 2vw, 28px);
+      z-index: 4;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px;
+      border: 1px solid rgba(255,255,255,0.24);
+      border-radius: 999px;
+      background: rgba(11,30,22,0.46);
+      color: #fff;
+      box-shadow: 0 16px 38px rgba(0,0,0,0.20);
+      backdrop-filter: blur(18px);
+    }
+
+    .post-swipe {
+      width: 48px;
+      height: 48px;
+      border: 0;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.92);
+      color: #12251c;
+      font-family: inherit;
+      font-size: 0;
+      line-height: 1;
+      font-weight: 900;
+      display: grid;
+      place-items: center;
+      position: relative;
+      box-shadow: 0 10px 22px rgba(0,0,0,0.18);
+      transition: transform 0.18s ease, background 0.18s ease, color 0.18s ease;
+    }
+
+    .post-swipe::before,
+    .post-swipe::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 15px;
+      height: 15px;
+      border-color: currentColor;
+      border-style: solid;
+      border-width: 0 4px 4px 0;
+      border-radius: 1px;
+    }
+
+    .post-swipe::before {
+      transform: translate(-50%, -50%) rotate(135deg);
+    }
+
+    .post-swipe::after {
+      display: none;
+    }
+
+    .post-swipe[data-next-post]::before,
+    .post-swipe[data-image-next-post]::before {
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+    .post-swipe:not(:disabled):hover {
+      transform: translateY(-1px);
+      background: #fff7df;
+      color: var(--green-dark);
+    }
+
+    .post-swipe:disabled {
+      opacity: 0.42;
+    }
+
+    .post-counter {
+      min-width: 70px;
+      text-align: center;
+      color: rgba(255,255,255,0.92);
+      font-size: 13px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .learning-workspace {
+      margin-top: 22px;
+      display: grid;
+      grid-template-columns: minmax(430px, 0.95fr) minmax(560px, 1.05fr);
+      gap: 22px;
+      align-items: start;
+    }
+
+    .uploaded-image-panel,
+    .notes-panel {
+      border: 1px solid rgba(31,157,98,0.16);
+      border-radius: 22px;
+      background: rgba(255,255,255,0.84);
+      box-shadow: 0 18px 44px rgba(25,42,31,0.10);
+      backdrop-filter: blur(18px);
+    }
+
+    .uploaded-image-panel {
+      margin: 0;
+      padding: clamp(14px, 1.6vw, 18px);
+      position: sticky;
+      top: 18px;
+    }
+
+    .uploaded-image-frame {
+      min-height: clamp(430px, 65vh, 820px);
+      border-radius: 16px;
+      overflow: hidden;
+      background:
+        linear-gradient(135deg, rgba(14,38,29,0.96), rgba(31,157,98,0.18)),
+        #0f1914;
+      display: grid;
+      place-items: center;
+    }
+
+    .uploaded-image-frame img {
+      width: 100%;
+      height: 100%;
+      max-height: clamp(430px, 65vh, 820px);
+      display: block;
+      object-fit: contain;
+    }
+
+    .image-caption {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-top: 14px;
+      color: #34433b;
+      font-size: 14px;
+      line-height: 1.35;
+      font-weight: 900;
+    }
+
+    .image-caption span:first-child {
+      min-width: 0;
+    }
+
+    .image-caption span:last-child {
+      color: var(--green-dark);
+      text-align: right;
+      flex: 0 0 auto;
+    }
+
+    .image-panel-actions {
+      display: grid;
+      grid-template-columns: auto minmax(150px, 1fr) auto;
+      align-items: center;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .image-post-nav {
+      justify-self: start;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 7px;
+      border-radius: 999px;
+      background: rgba(15,95,62,0.10);
+      border: 1px solid rgba(31,157,98,0.18);
+    }
+
+    .image-post-nav .post-swipe {
+      width: 42px;
+      height: 42px;
+      background: #fff;
+      color: var(--green-dark);
+      box-shadow: 0 8px 18px rgba(25,42,31,0.12);
+    }
+
+    .image-post-nav .post-counter {
+      color: var(--green-dark);
+      min-width: 56px;
+    }
+
+    .post-search {
+      min-height: 54px;
+      border: 1px solid rgba(31,157,98,0.18);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.94);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 34px;
+      align-items: center;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.70);
+    }
+
+    .post-search input {
+      min-width: 0;
+      width: 100%;
+      border: 0;
+      background: transparent;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 820;
+      outline: 0;
+      padding: 0 4px 0 16px;
+    }
+
+    .post-search input::placeholder {
+      color: rgba(52,67,59,0.58);
+    }
+
+    .post-search-icon {
+      width: 34px;
+      height: 34px;
+      color: var(--green-dark);
+      display: grid;
+      place-items: center;
+      position: relative;
+    }
+
+    .post-search-icon::before {
+      content: "";
+      width: 12px;
+      height: 12px;
+      border: 2px solid currentColor;
+      border-radius: 50%;
+      transform: translate(-2px, -2px);
+    }
+
+    .post-search-icon::after {
+      content: "";
+      position: absolute;
+      width: 8px;
+      height: 2px;
+      border-radius: 999px;
+      background: currentColor;
+      transform: translate(7px, 7px) rotate(45deg);
+    }
+
+    .image-overview-button {
+      min-height: 54px;
+      min-width: 124px;
+      border: 0;
+      border-radius: 999px;
+      padding: 0 20px;
+      background: linear-gradient(135deg, var(--green), var(--green-dark));
+      color: #fff;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 900;
+      white-space: nowrap;
+      box-shadow: 0 14px 30px rgba(31,157,98,0.22);
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    .image-overview-button:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 18px 38px rgba(31,157,98,0.28);
+    }
+
+    .post-search-results {
+      grid-column: 1 / -1;
+      display: grid;
+      gap: 10px;
+      margin-top: 2px;
+      padding: 14px;
+      border-radius: 18px;
+      border: 1px solid rgba(31,157,98,0.16);
+      background: rgba(243,250,239,0.88);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.74);
+    }
+
+    .post-search-results[hidden] {
+      display: none;
+    }
+
+    .search-results-head {
+      color: var(--green-dark);
+      font-size: 13px;
+      line-height: 1.2;
+      font-weight: 900;
+    }
+
+    .search-result-card {
+      width: 100%;
+      border: 1px solid rgba(31,157,98,0.14);
+      border-radius: 14px;
+      padding: 10px;
+      background: rgba(255,255,255,0.88);
+      color: var(--ink);
+      display: grid;
+      grid-template-columns: 86px minmax(0, 1fr);
+      align-items: center;
+      gap: 12px;
+      text-align: left;
+      font-family: inherit;
+      box-shadow: 0 10px 22px rgba(25,42,31,0.08);
+    }
+
+    .search-result-thumb {
+      width: 86px;
+      aspect-ratio: 4 / 3;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #0e261d;
+      display: block;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,0.12);
+    }
+
+    .search-result-thumb img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    .search-result-copy {
+      min-width: 0;
+      display: grid;
+      gap: 5px;
+    }
+
+    .search-result-card strong {
+      font-size: 16px;
+      line-height: 1.25;
+      font-weight: 900;
+    }
+
+    .search-result-card span {
+      color: #536157;
+      font-size: 13px;
+      line-height: 1.35;
+      font-weight: 760;
+    }
+
+    .search-result-card:hover {
+      border-color: rgba(31,157,98,0.42);
+      background: #fff;
+    }
+
+    .search-empty {
+      margin: 0;
+      color: #657169;
+      font-size: 14px;
+      line-height: 1.35;
+      font-weight: 820;
+    }
+
+    .notes-panel {
+      padding: clamp(20px, 3vw, 34px);
+      min-height: clamp(560px, 68vh, 860px);
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    .notes-panel-head {
+      display: grid;
+      grid-template-columns: minmax(170px, 0.38fr) minmax(500px, 1.62fr);
+      gap: 20px;
+      align-items: start;
+    }
+
+    .notes-kicker {
+      display: inline-flex;
+      width: fit-content;
+      min-height: 30px;
+      align-items: center;
+      border-radius: 999px;
+      padding: 7px 12px;
+      background: #dff6e9;
+      color: var(--green-dark);
+      font-size: 12px;
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .notes-panel h2 {
+      margin: 12px 0 0;
+      color: #17201b;
+      font-size: clamp(34px, 2.55vw, 46px);
+      line-height: 1.02;
+      font-weight: 900;
+      letter-spacing: 0;
+      white-space: nowrap;
+    }
+
+    .section-switcher {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .section-tab {
+      width: 100%;
+      min-height: 110px;
+      border: 1px solid rgba(31,157,98,0.20);
+      border-radius: 8px;
+      padding: 16px;
+      background: linear-gradient(135deg, rgba(248,255,245,0.98), rgba(222,246,232,0.92));
+      color: #173d2a;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 7px;
+      text-align: left;
+      font-family: inherit;
+      min-width: 0;
+      position: relative;
+      overflow: hidden;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.72), 0 12px 28px rgba(31,157,98,0.12);
+      transition: transform 0.22s ease, border-color 0.22s ease, background 0.22s ease, color 0.22s ease, box-shadow 0.22s ease;
+    }
+
+    .section-tab::before {
+      content: "";
+      position: absolute;
+      inset: 0 auto 0 0;
+      width: 0;
+      background: var(--gold);
+      transition: width 0.22s ease;
+    }
+
+    .section-tab:hover,
+    .section-tab.is-active {
+      transform: translateY(-2px);
+      border-color: rgba(233,186,92,0.86);
+      background: linear-gradient(135deg, var(--green), var(--green-dark));
+      color: #fffaf0;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.20), 0 18px 34px rgba(15,95,62,0.22);
+    }
+
+    .section-tab.is-active::before {
+      width: 7px;
+    }
+
+    .section-label {
+      display: block;
+      position: relative;
+      z-index: 1;
+      color: inherit;
+      font-size: clamp(18px, 1.28vw, 25px);
+      line-height: 1.08;
+      font-weight: 900;
+      overflow-wrap: anywhere;
+    }
+
+    .section-more {
+      display: block;
+      position: relative;
+      z-index: 1;
+      color: rgba(15,95,62,0.72);
+      font-size: clamp(13px, 1vw, 16px);
+      line-height: 1.15;
+      font-weight: 900;
+    }
+
+    .section-tab:hover .section-more,
+    .section-tab.is-active .section-more {
+      color: rgba(255,250,240,0.78);
+    }
+
+    .detail-text {
+      width: 100%;
+      flex: 1;
+      overflow: visible;
+      padding: 0;
+      color: #25322b;
+      font-size: clamp(19px, 1.45vw, 27px);
+      line-height: 1.72;
+      font-weight: 820;
+      white-space: normal;
+    }
+
+    .detail-text p {
+      margin: 0 0 1em;
+    }
+
+    .detail-text strong,
+    .detail-text .text-highlight {
+      color: #ff1f2d;
+      font-weight: 950;
+      text-decoration: underline;
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.16em;
+    }
+
+    .detail-empty {
+      color: #7b857e;
+      font-style: italic;
+    }
+
+    .admin-panel {
+      width: min(1180px, calc(100vw - 44px));
+      margin: 34px auto 0;
+      padding: clamp(24px, 4vw, 38px);
+      border-radius: 24px;
+      background: rgba(255,255,255,0.90);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(18px);
+    }
+
+    .admin-panel[hidden],
+    .login-modal[hidden] {
+      display: none;
+    }
+
+    .admin-panel h2 {
+      margin: 0;
+      font-size: clamp(28px, 3vw, 42px);
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .admin-note {
+      margin: 10px 0 24px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.45;
+      font-weight: 760;
+    }
+
+    .post-form {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .field {
+      display: grid;
+      gap: 8px;
+    }
+
+    .field.full { grid-column: 1 / -1; }
+
+    .field label {
+      font-size: 13px;
+      font-weight: 900;
+      color: #343437;
+    }
+
+    .field input,
+    .field textarea {
+      width: 100%;
+      border: 1px solid rgba(0,0,0,0.12);
+      border-radius: 12px;
+      padding: 13px 14px;
+      background: #fbfbfd;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 760;
+      outline: 0;
+    }
+
+    .field textarea {
+      min-height: 170px;
+      resize: vertical;
+      line-height: 1.58;
+    }
+
+    .image-preview {
+      min-height: 230px;
+      border: 1px dashed rgba(0,0,0,0.18);
+      border-radius: 12px;
+      background: #f5f5f7;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      color: var(--muted);
+      font-weight: 900;
+    }
+
+    .image-preview img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    .form-actions {
+      grid-column: 1 / -1;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
+      margin-top: 6px;
+    }
+
+    .post-button {
+      border: 0;
+      border-radius: 999px;
+      min-width: 132px;
+      min-height: 56px;
+      padding: 16px 28px;
+      background: #050505;
+      color: #fff;
+      font-family: inherit;
+      font-size: 16px;
+      font-weight: 900;
+    }
+
+    .post-button:disabled {
+      opacity: 0.58;
+    }
+
+    .post-button.secondary {
+      background: #f5f5f7;
+      color: var(--ink);
+      border: 1px solid rgba(0,0,0,0.10);
+    }
+
+    .saved-posts {
+      grid-column: 1 / -1;
+      display: grid;
+      gap: 10px;
+      margin-top: 8px;
+    }
+
+    .clipboard-row {
+      grid-column: 1 / -1;
+      display: grid;
+      gap: 10px;
+      padding: 18px;
+      border-radius: 18px;
+      background: #f3f8ef;
+      border: 1px solid rgba(31,157,98,0.14);
+    }
+
+    .clipboard-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    .clipboard-head h3 {
+      margin: 0;
+      font-size: 19px;
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .clipboard-adopt {
+      border: 0;
+      border-radius: 999px;
+      padding: 11px 18px;
+      background: var(--green);
+      color: #fff;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .clipboard-row textarea {
+      min-height: 190px;
+      border: 1px solid rgba(31,157,98,0.18);
+      border-radius: 14px;
+      padding: 14px;
+      background: rgba(255,255,255,0.86);
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 16px;
+      line-height: 1.62;
+      font-weight: 760;
+      resize: vertical;
+      outline: 0;
+    }
+
+    .clipboard-row textarea[readonly] {
+      background: rgba(255,255,255,0.58);
+      color: #6a746d;
+    }
+
+    .posts-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 88;
+      display: grid;
+      place-items: center;
+      padding: 26px;
+      background: rgba(236, 244, 232, 0.64);
+      backdrop-filter: blur(12px);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.28s ease, visibility 0.28s ease;
+    }
+
+    .posts-modal.is-open {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .posts-window {
+      width: min(1120px, 94vw);
+      max-height: 82vh;
+      border-radius: 30px;
+      padding: clamp(24px, 4vw, 44px);
+      background: rgba(255,255,255,0.94);
+      box-shadow: var(--shadow);
+      overflow-y: auto;
+      transform: translateY(18px);
+      transition: transform 0.28s ease;
+    }
+
+    .posts-modal.is-open .posts-window {
+      transform: translateY(0);
+    }
+
+    .posts-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 22px;
+    }
+
+    .posts-head h2 {
+      margin: 0;
+      font-size: clamp(34px, 4vw, 64px);
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .posts-close {
+      width: 58px;
+      height: 58px;
+      border: 0;
+      border-radius: 50%;
+      background: #fff;
+      color: var(--ink);
+      font-family: inherit;
+      font-size: 30px;
+      font-weight: 900;
+      box-shadow: 0 12px 28px rgba(58,42,24,0.12);
+    }
+
+    .posts-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .post-card {
+      min-height: 260px;
+      border: 0;
+      border-radius: 22px;
+      padding: 20px;
+      background: #f7fbf3;
+      color: var(--ink);
+      text-align: left;
+      font-family: inherit;
+      display: grid;
+      align-content: start;
+      gap: 12px;
+      box-shadow: 0 14px 30px rgba(25,42,31,0.10);
+    }
+
+    .post-card img {
+      width: 100%;
+      aspect-ratio: 1.6 / 1;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+
+    .post-card strong {
+      font-size: 21px;
+      line-height: 1.15;
+      font-weight: 900;
+    }
+
+    .post-card span {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .saved-post {
+      min-height: 54px;
+      border-radius: 14px;
+      padding: 10px 14px;
+      background: #f6faf4;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      font-weight: 900;
+    }
+
+    .saved-post-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .edit-post,
+    .delete-post {
+      border: 0;
+      border-radius: 999px;
+      min-width: 104px;
+      min-height: 48px;
+      padding: 13px 18px;
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .edit-post {
+      background: #dff6e9;
+      color: var(--green-dark);
+      border: 1px solid rgba(31,157,98,0.16);
+    }
+
+    .delete-post {
+      background: #d71920;
+      color: #fff;
+    }
+
+    .login-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      padding: 22px;
+      background: rgba(0,0,0,0.42);
+      backdrop-filter: blur(10px);
+      display: grid;
+      place-items: center;
+    }
+
+    .login-card {
+      width: min(460px, 100%);
+      border-radius: 18px;
+      padding: 28px;
+      background: #fff;
+      box-shadow: 0 28px 80px rgba(0,0,0,0.28);
+    }
+
+    .login-card h2 {
+      margin: 0;
+      font-size: 32px;
+      line-height: 1.1;
+      font-weight: 900;
+    }
+
+    .login-card p {
+      margin: 10px 0 18px;
+      color: var(--muted);
+      line-height: 1.45;
+      font-weight: 800;
+    }
+
+    .login-error {
+      min-height: 22px;
+      margin-top: 10px;
+      color: #b42318;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    @media (max-width: 1340px) {
+      .notes-panel-head {
+        grid-template-columns: 1fr;
+      }
+
+      .notes-panel h2 {
+        width: fit-content;
+      }
+    }
+
+    @media (max-width: 980px) {
+      html, body, a, button, input, textarea { cursor: auto; }
+      .custom-cursor { display: none; }
+
+      .newsletter-shell {
+        padding: 18px 18px 56px;
+      }
+
+      .study-nav {
+        grid-template-columns: 1fr;
+        justify-items: start;
+        gap: 14px;
+      }
+
+      .study-nav-title,
+      .study-nav-right {
+        justify-self: start;
+      }
+
+      .hero-card,
+      .learning-workspace,
+      .post-form,
+      .notes-panel-head {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-post-nav {
+        top: auto;
+        right: 16px;
+        bottom: 16px;
+      }
+
+      .hero-image-panel {
+        min-height: 240px;
+        clip-path: none;
+      }
+
+      .uploaded-image-panel {
+        position: static;
+      }
+
+      .uploaded-image-frame,
+      .uploaded-image-frame img {
+        min-height: 320px;
+        max-height: none;
+      }
+
+      .image-panel-actions {
+        grid-template-columns: 1fr;
+      }
+
+      .notes-panel {
+        min-height: auto;
+      }
+
+      .section-switcher {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .section-tab {
+        min-height: 94px;
+      }
+
+      .section-label {
+        font-size: clamp(20px, 5.5vw, 31px);
+      }
+
+      .section-more {
+        font-size: 13px;
+      }
+
+      .posts-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .hero-card {
+        min-height: 430px;
+      }
+
+      .hero-copy {
+        padding: 24px 20px 96px;
+      }
+
+      .hero-title {
+        font-size: clamp(36px, 13vw, 56px);
+      }
+
+      .hero-note {
+        font-size: 17px;
+      }
+
+      .post-swipe {
+        width: 44px;
+        height: 44px;
+      }
+
+      .post-counter {
+        min-width: 58px;
+      }
+
+      .learning-workspace {
+        gap: 16px;
+      }
+
+      .uploaded-image-panel,
+      .notes-panel {
+        border-radius: 16px;
+      }
+
+      .uploaded-image-frame,
+      .uploaded-image-frame img {
+        min-height: 300px;
+      }
+
+      .image-post-nav {
+        justify-self: stretch;
+        justify-content: space-between;
+      }
+
+      .image-overview-button {
+        width: 100%;
+      }
+
+      .section-switcher {
+        grid-template-columns: 1fr;
+      }
+
+      .section-tab {
+        min-height: 74px;
+      }
+
+      .detail-text {
+        font-size: 18px;
+      }
+
+      .form-actions {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .post-button {
+        width: 100%;
+      }
+    }
+
+    .newsletter-subscribe-banner{display:flex;align-items:center;gap:16px;margin:22px 0;padding:18px 24px;min-height:88px;border:1px solid #b9cde4;border-radius:20px;background:linear-gradient(110deg,#edf5ff,#fff8e9);box-shadow:0 12px 28px #244d8014;color:#172b49;font:16px/1.45 system-ui,sans-serif;overflow:hidden;position:relative}.newsletter-mascot-strip{display:flex;align-items:flex-end;height:54px;width:126px;flex:0 0 126px;overflow:hidden}.newsletter-mascot-strip img{width:31px;height:53px;object-fit:cover;object-position:top center;margin-left:-5px;filter:drop-shadow(0 2px 2px #283e5a28);animation:newsletter-mascot-pop .65s ease-out 1 both}.newsletter-mascot-strip img:nth-child(2){animation-delay:.08s}.newsletter-mascot-strip img:nth-child(3){animation-delay:.16s}.newsletter-mascot-strip img:nth-child(4){animation-delay:.24s}.newsletter-mascot-strip img:nth-child(5){animation-delay:.32s}@keyframes newsletter-mascot-pop{from{transform:translateY(25px) rotate(-8deg);opacity:0}to{transform:translateY(0) rotate(0);opacity:1}}.newsletter-envelope{font-size:34px;line-height:1;animation:newsletter-mail-dash 1.8s cubic-bezier(.2,.7,.35,1) 1 both}.newsletter-subscribe-copy{display:grid;gap:3px;flex:1}.newsletter-subscribe-copy strong{font-size:17px}.newsletter-subscribe-copy small,.newsletter-subscribe-note{font-size:12px;color:#52647b}.newsletter-subscribe-banner>a{display:inline-flex;align-items:center;gap:8px;padding:12px 19px;border-radius:999px;background:#2c5b97;color:#fff;text-decoration:none;font-weight:850;box-shadow:0 4px 0 #1e426f;white-space:nowrap;transition:transform .2s,box-shadow .2s}.newsletter-subscribe-banner>a:hover{transform:translateY(-2px);box-shadow:0 6px 0 #1e426f}.newsletter-subscribe-banner>a span{font-size:20px}.newsletter-subscribe-note{white-space:nowrap}@keyframes newsletter-mail-dash{0%{transform:translateX(-46px) rotate(-14deg);opacity:0}20%{opacity:1}70%{transform:translateX(9px) rotate(5deg)}100%{transform:translateX(0) rotate(0);opacity:1}}@media(max-width:700px){.newsletter-subscribe-banner{align-items:flex-start;flex-wrap:wrap;padding:17px}.newsletter-subscribe-copy{min-width:calc(100% - 60px)}.newsletter-mascot-strip{width:95px;flex-basis:95px}.newsletter-mascot-strip img{width:26px}.newsletter-subscribe-banner>a{margin-left:50px}.newsletter-subscribe-note{align-self:center}}@media(prefers-reduced-motion:reduce){.newsletter-envelope,.newsletter-mascot-strip img{animation:none}}
+
+    .study-nav-right{display:flex;align-items:center;gap:10px}.learner-account-button{border:1px solid #c6d5e7;background:#fff;color:#24446f;border-radius:999px;padding:10px 15px;font:700 13px/1.2 system-ui,sans-serif;cursor:pointer}.learner-account-button:hover{background:#edf5ff}.newsletter-flashcards{padding:18px 0 8px}.newsletter-flashcards[hidden]{display:none}.flashcard-toolbar{display:flex;justify-content:space-between;align-items:center;color:#56708e;font:800 12px system-ui,sans-serif;letter-spacing:.09em;margin:0 0 12px}.flashcard-toolbar strong{font-size:14px;letter-spacing:0;color:#243b5b}.newsletter-flashcard{display:grid;position:relative;width:100%;min-height:270px;padding:0;border:0;border-radius:22px;background:transparent;text-align:left;perspective:1000px;cursor:pointer;color:#182c4d}.newsletter-flashcard .flashcard-front,.newsletter-flashcard .flashcard-back{grid-area:1/1;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:270px;width:100%;padding:24px;border:1px solid #d2dfef;border-radius:22px;background:linear-gradient(145deg,#fff,#edf5ff);box-shadow:0 16px 35px #34557b1a;backface-visibility:hidden;transition:transform .55s cubic-bezier(.2,.7,.2,1),opacity .25s}.newsletter-flashcard .flashcard-front small{color:#7185a0;font-size:11px;letter-spacing:.16em;font-weight:800}.newsletter-flashcard .flashcard-front strong{font-size:clamp(28px,4vw,46px);margin:14px 0 4px;text-align:center}.newsletter-flashcard .flashcard-front em{font-style:normal;color:#617590}.newsletter-flashcard .flashcard-tap{margin-top:30px;font-size:12px;color:#5878a1}.newsletter-flashcard .flashcard-back{transform:rotateY(180deg);opacity:0;align-items:stretch;justify-content:flex-start}.newsletter-flashcard .flashcard-back>strong{text-align:center;font-size:20px;margin-bottom:12px}.newsletter-flashcard .flashcard-back ol{display:grid;gap:9px;margin:0;padding-left:23px;max-height:180px;overflow:auto}.newsletter-flashcard .flashcard-back li{padding-left:3px}.newsletter-flashcard .flashcard-back li span,.newsletter-flashcard .flashcard-back li small{display:block;line-height:1.4}.newsletter-flashcard .flashcard-back li small{color:#697d96;margin-top:3px}.newsletter-flashcard.is-flipped .flashcard-front{transform:rotateY(-180deg);opacity:0}.newsletter-flashcard.is-flipped .flashcard-back{transform:rotateY(0);opacity:1}.flashcard-controls{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:12px}.flashcard-controls button{border:1px solid #cfdaea;background:#fff;color:#294668;padding:10px 12px;border-radius:12px;font:700 13px system-ui,sans-serif;cursor:pointer}.flashcard-controls button:disabled{opacity:.45;cursor:default}.flashcard-controls [data-flashcard-known]{background:#eff6ff}.flashcard-controls [data-flashcard-known].is-known{background:#e6f5e9;color:#24763b;border-color:#b9dfc1}.flashcard-save-status{min-height:18px;margin:12px 0 0;text-align:center;color:#687b93;font-size:12px}.flashcards-empty{padding:48px 12px;text-align:center;border:1px dashed #cddbed;border-radius:18px;color:#617590}.flashcards-empty>span{font-size:32px;color:#e2aa3d}.learner-auth-modal{position:fixed;z-index:10000;inset:0;display:grid;place-items:center;padding:20px;background:#10243eb0;backdrop-filter:blur(5px)}.learner-auth-modal[hidden]{display:none}.learner-auth-card{position:relative;width:min(440px,100%);padding:32px;border-radius:22px;background:#fff;box-shadow:0 28px 90px #101f3a40;display:grid;gap:15px;color:#172b49}.learner-auth-card h2{margin:0;font-size:24px}.learner-auth-card p{margin:0;color:#5b6d84;line-height:1.55}.learner-auth-card label{display:grid;gap:6px;font-weight:700;font-size:13px}.learner-auth-card input{border:1px solid #c9d6e6;border-radius:10px;padding:12px;font:15px system-ui,sans-serif}.learner-auth-close{position:absolute;right:12px;top:12px}.learner-auth-status{min-height:18px;font-size:13px!important}.flashcard-editor{margin:20px 0;padding:18px;border:1px solid #dce5ef;border-radius:16px;background:#f9fbfe}.flashcard-editor-head{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-bottom:14px}.flashcard-editor-head h3{margin:0 0 4px}.flashcard-editor-head p{margin:0;color:#62758e;font-size:13px}.flashcard-sheet{overflow:auto;border:1px solid #d7e1ed;border-radius:12px;background:white}.flashcard-sheet-head,.flashcard-sheet-row{display:grid;grid-template-columns:minmax(180px,.8fr) minmax(260px,1.4fr) 100px;gap:10px;align-items:start;padding:10px;border-bottom:1px solid #e8edf4}.flashcard-sheet-head{position:sticky;top:0;background:#f1f5fa;color:#586b84;font-size:12px;font-weight:800}.flashcard-sheet-row>div:first-child{display:grid;gap:8px}.flashcard-sheet-row input,.flashcard-sheet-row textarea{width:100%;box-sizing:border-box;border:1px solid #d2deeb;border-radius:8px;padding:9px;font:13px/1.4 system-ui,sans-serif}.flashcard-sheet-row textarea{min-height:116px;resize:vertical;white-space:pre-wrap}.flashcard-row-actions{display:flex;gap:4px}.flashcard-row-actions button{width:29px;height:30px;border:1px solid #d5dfeb;border-radius:7px;background:#fff;cursor:pointer}.flashcard-row-actions button:disabled{opacity:.4;cursor:default}
+    @media(max-width:780px){.study-nav-right{gap:5px}.learner-account-button{padding:8px 10px;font-size:11px}.flashcard-sheet-head,.flashcard-sheet-row{grid-template-columns:minmax(145px,.8fr) minmax(210px,1.2fr) 80px}.flashcard-editor-head{align-items:flex-start;flex-direction:column}.newsletter-flashcard,.newsletter-flashcard .flashcard-front,.newsletter-flashcard .flashcard-back{min-height:250px}}
+    @media(prefers-reduced-motion:reduce){.newsletter-flashcard .flashcard-front,.newsletter-flashcard .flashcard-back{transition:none}}
+  </style>
+  <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+  <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
+  <style>
+    @media (max-width: 1180px) {
+      body.daily-newsletter-page .study-nav {
+        grid-template-columns: minmax(0, 1fr) auto !important;
+        grid-template-areas:
+          "left right"
+          "title title" !important;
+        padding-inline: 0 !important;
+      }
+
+      body.daily-newsletter-page .study-nav-left {
+        grid-area: left;
+      }
+
+      body.daily-newsletter-page .study-nav-right {
+        grid-area: right;
+        justify-self: end !important;
+      }
+
+      body.daily-newsletter-page .study-nav-title {
+        grid-area: title;
+        justify-self: center !important;
+      }
+    }
+
+    @media (max-width: 640px) {
+      body.daily-newsletter-page .study-nav {
+        grid-template-columns: 1fr !important;
+        grid-template-areas:
+          "left"
+          "right"
+          "title" !important;
+      }
+
+      body.daily-newsletter-page .study-nav-left,
+      body.daily-newsletter-page .study-nav-right {
+        overflow: visible !important;
+        white-space: normal !important;
+      }
+
+      body.daily-newsletter-page .study-nav-right {
+        justify-self: start !important;
+      }
+
+      body.daily-newsletter-page .study-brand img {
+        max-width: min(270px, 82vw) !important;
+      }
+
+      body.daily-newsletter-page .nav-mini-link {
+        white-space: normal;
+      }
+
+      body.daily-newsletter-page .hero-card {
+        min-height: 0;
+      }
+
+      body.daily-newsletter-page .hero-image-panel {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body class="daily-newsletter-page">
+  <div class="page-loader" data-page-loader aria-hidden="true">
+    <img src="Running Horse Mascot.gif" alt="" aria-hidden="true">
+  </div>
+  <img class="custom-cursor" src="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/homepage-optimized/eddie-front-cursor.png" alt="" aria-hidden="true">
+
+  <div class="newsletter-shell">
+    <header class="study-nav">
+      <div class="study-nav-left">
+        <a class="study-brand" href="index.html" aria-label="EdmundEducation">
+          <img src="Font Transparent.png" alt="EdmundEducation">
+        </a>
+        <a class="nav-mini-link" href="index.html">主頁</a>
+        <a class="nav-mini-link" href="resources.html">回到其他英文學習資源</a>
+      </div>
+      <a class="study-nav-title" href="daily-newsletter.html">免費英文通訊</a>
+      <div class="study-nav-right">
+        <button class="learner-account-button" type="button" data-learner-account>Sign in to save progress</button>
+        <button class="login-button" type="button" data-login-button>Log In</button>
+      </div>
+    </header>
+
+    <h1 class="dashboard-title">Edmund Sir 每日英文通訊</h1>
+
+    <main>
+      <!-- email-subscription-start -->
+      <aside class="newsletter-subscribe-banner"><div class="newsletter-mascot-strip" aria-hidden="true"><img src="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/speaking-system/mascots/v4/eddy-standing-clean.webp" alt=""><img src="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/speaking-system/mascots/v4/phoebe-standing-clean.webp" alt=""><img src="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/speaking-system/mascots/v4/elsie-standing-clean.webp" alt=""><img src="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/speaking-system/mascots/v4/noir-standing-clean.webp" alt=""><img src="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/speaking-system/mascots/v4/celeste-standing-clean.webp" alt=""></div><span class="newsletter-envelope" aria-hidden="true">✉</span><span class="newsletter-subscribe-copy"><strong>想收到本頁更新？</strong><small>免費訂閱每日英文通訊，更新直接送到你的電郵。</small></span><a href="email-subscribe.html?topic=daily-newsletter">訂閱電郵通知 <span aria-hidden="true">→</span></a><small class="newsletter-subscribe-note">無需學生帳戶 · 隨時取消</small></aside>
+      <!-- email-subscription-end -->
+      <section class="hero-card" data-hero-card style="--hero-image: url('Static Images/Daily Newsletter - Default English.jpg');">
+        <div class="hero-post-nav" aria-label="Switch newsletter posts">
+          <button class="post-swipe" type="button" data-prev-post aria-label="Previous post">‹</button>
+          <span class="post-counter" data-post-counter>1 / 1</span>
+          <button class="post-swipe" type="button" data-next-post aria-label="Next post">›</button>
+        </div>
+        <div class="hero-copy">
+          <span class="hero-kicker">Daily English In Hong Kong</span>
+          <h2 class="hero-title" data-hero-title>每日英文通訊</h2>
+          <p class="hero-note" data-hero-subheading>
+            <span>Edmund Sir 儘量每日尋找香港各地可見到的英文。</span>
+            <span>學習日常英語，同準備考試英文同樣重要！</span>
+          </p>
+          <button class="hero-action" type="button" data-start-learning>
+            <span class="book-button" aria-hidden="true">
+              <svg viewBox="0 0 48 48" role="presentation" aria-hidden="true">
+                <path d="M10 13c7 0 11 2 14 6 3-4 7-6 14-6v23c-7 0-11 2-14 6-3-4-7-6-14-6V13Z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+                <path d="M24 19v23" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <span>學習今天的免費英文通訊！</span>
+          </button>
+        </div>
+        <div class="hero-image-panel" data-hero-image aria-hidden="true"></div>
+      </section>
+
+      <section class="learning-workspace" id="newsletter-content">
+        <figure class="uploaded-image-panel">
+          <div class="uploaded-image-frame">
+            <img src="Static Images/Daily Newsletter - Default English.jpg" alt="" data-post-image>
+          </div>
+          <figcaption class="image-caption">
+            <span data-image-caption-title>每日英文通訊</span>
+            <span data-image-caption-tag>Daily English</span>
+          </figcaption>
+          <div class="image-panel-actions">
+            <div class="image-post-nav" aria-label="Switch newsletter posts near image">
+              <button class="post-swipe" type="button" data-image-prev-post aria-label="Previous post">‹</button>
+              <span class="post-counter" data-post-counter>1 / 1</span>
+              <button class="post-swipe" type="button" data-image-next-post aria-label="Next post">›</button>
+            </div>
+            <label class="post-search" aria-label="Search newsletter posts">
+              <input type="search" placeholder="可搜尋任何字眼！或月份 e.g., Apr, May 甚至年份 e.g., 2026 etc." autocomplete="off" data-post-search>
+              <span class="post-search-icon" aria-hidden="true"></span>
+            </label>
+            <button class="image-overview-button" type="button" data-open-posts>查看所有通訊</button>
+            <div class="post-search-results" data-post-search-results hidden></div>
+          </div>
+        </figure>
+
+        <article class="notes-panel" aria-live="polite">
+          <div class="notes-panel-head">
+            <div>
+              <span class="notes-kicker">Today’s Notes</span>
+              <h2 data-detail-title>圖中英語</h2>
+            </div>
+            <div class="section-switcher" aria-label="Newsletter sections">
+              <button class="section-tab is-active" type="button" data-section-tab="imageEnglish">
+                <span class="section-label">圖中英語</span>
+                <span class="section-more">Image English</span>
+              </button>
+              <button class="section-tab" type="button" data-section-tab="extension">
+                <span class="section-label">主題延伸</span>
+                <span class="section-more">Extension</span>
+              </button>
+              <button class="section-tab" type="button" data-section-tab="sentences">
+                <span class="section-label">實用句子</span>
+                <span class="section-more">Useful Sentences</span>
+              </button>
+              <button class="section-tab" type="button" data-section-tab="summary">
+                <span class="section-label">總結</span>
+                <span class="section-more">Summary</span>
+              </button>
+              <button class="section-tab" type="button" data-section-tab="flashcards">
+                <span class="section-label">互動字卡</span>
+                <span class="section-more">Flashcards</span>
+              </button>
+            </div>
+          </div>
+          <div class="detail-text" data-detail-text></div>
+          <section class="newsletter-flashcards" data-newsletter-flashcards hidden aria-live="polite"></section>
+        </article>
+      </section>
+
+      <section class="admin-panel" id="create" data-admin-panel hidden>
+        <h2 data-admin-title>新增每日英文通訊</h2>
+        <p class="admin-note">登入後可以新增通訊。圖片會壓縮後安全儲存，最新一篇會顯示在首頁大橫幅。</p>
+        <p class="admin-note" data-sync-status>正在連接資料服務...</p>
+
+        <form class="post-form" data-post-form>
+          <div class="field">
+            <label for="post-title">文章標題</label>
+            <input id="post-title" name="title" type="text" placeholder="例如：港鐵站內的一句英文" required>
+          </div>
+
+          <div class="field">
+            <label for="post-tag">Tag</label>
+            <input id="post-tag" name="tag" type="text" placeholder="例如：Daily English">
+          </div>
+
+          <div class="field full">
+            <label for="post-subheading">Subheading</label>
+            <input id="post-subheading" name="subheading" type="text" placeholder="例如：從香港街頭看見真正會用到的英文" required>
+          </div>
+
+          <div class="field">
+            <label for="post-image">Insert an image</label>
+            <input id="post-image" name="image" type="file" accept=".jpg,.jpeg,.png,.webp,image/jpeg,image/png,image/webp" required data-image-input>
+          </div>
+
+          <div class="field full">
+            <div class="image-preview" data-image-preview>Image preview</div>
+          </div>
+
+          <div class="field full">
+            <label for="post-image-english">圖中英語</label>
+            <textarea id="post-image-english" name="imageEnglish" placeholder="寫下圖片中值得學習的英文、字眼或用法。" required></textarea>
+          </div>
+
+          <div class="field full">
+            <label for="post-extension">主題延伸</label>
+            <textarea id="post-extension" name="extension" placeholder="延伸相關主題、文化背景或常見錯誤。" required></textarea>
+          </div>
+
+          <div class="field full">
+            <label for="post-sentences">實用句子</label>
+            <textarea id="post-sentences" name="sentences" placeholder="提供可直接使用的英文句子。" required></textarea>
+          </div>
+
+          <div class="clipboard-row">
+            <div class="clipboard-head">
+              <h3>Stationary Clipboard｜圖中英語至實用句子</h3>
+              <button class="clipboard-adopt" type="button" data-adopt-clipboard>Adopt</button>
+            </div>
+            <textarea id="post-clipboard" name="clipboard" readonly data-clipboard-text placeholder="這裡會自動整理「圖中英語」「主題延伸」「實用句子」的內容；按 Adopt 後可以編輯。"></textarea>
+          </div>
+
+          <div class="field full">
+            <label for="post-summary">總結</label>
+            <textarea id="post-summary" name="summary" placeholder="寫下今日重點總結。" required></textarea>
+          </div>
+
+          <section class="flashcard-editor field full">
+            <div class="flashcard-editor-head"><div><h3>每日通訊字卡</h3><p>每張字卡輸入一個詞語和最多五組英文例句及中文翻譯。可用 ↑ ↓ 排序。</p></div><button class="post-button secondary" type="button" data-add-flashcard>新增字卡</button></div>
+            <div class="flashcard-sheet" data-flashcard-sheet></div>
+          </section>
+
+          <div class="saved-posts" data-saved-posts></div>
+
+          <div class="form-actions">
+            <button class="post-button secondary" type="reset">Clear</button>
+            <button class="post-button" type="submit" data-submit-post>發布通訊</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <div class="login-modal" data-login-modal hidden>
+    <form class="login-card" data-login-form>
+      <h2>Password</h2>
+      <p>輸入管理員密碼後，就可以新增每日英文通訊。</p>
+      <div class="field">
+        <label for="admin-password">Password</label>
+        <input id="admin-password" name="password" type="password" autocomplete="current-password" required>
+      </div>
+      <div class="login-error" data-login-error></div>
+      <div class="form-actions">
+        <button class="post-button secondary" type="button" data-close-login>Cancel</button>
+        <button class="post-button" type="submit">Log In</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="learner-auth-modal" data-learner-auth-modal hidden>
+    <form class="learner-auth-card" data-learner-auth-form>
+      <button class="posts-close learner-auth-close" type="button" data-learner-auth-close aria-label="Close">×</button>
+      <h2 data-learner-auth-title>Save your flashcard progress</h2>
+      <p data-learner-auth-help>建立免費通訊帳戶即可跨裝置保存每日英文通訊字卡進度。這與學生帳戶分開。</p>
+      <label>Email<input type="email" name="email" autocomplete="email" required></label>
+      <label>Password<input type="password" name="password" autocomplete="current-password" minlength="8" required></label>
+      <p class="learner-auth-status" data-learner-auth-status role="status"></p>
+      <div class="form-actions"><button type="button" class="post-button secondary" data-auth-switch>建立帳戶</button><button type="submit" class="post-button">登入</button></div>
+    </form>
+  </div>
+
+  <div class="posts-modal" data-posts-modal aria-hidden="true">
+    <section class="posts-window" role="dialog" aria-modal="true" aria-label="查看所有通訊">
+      <div class="posts-head">
+        <h2>查看所有通訊</h2>
+        <button class="posts-close" type="button" data-close-posts aria-label="Close posts">×</button>
+      </div>
+      <div class="posts-grid" data-posts-grid></div>
+    </section>
+  </div>
+
+  <script src="supabase-config.js?v=20260518-supabase-1"></script>
+  <script>
+    const ADMIN_PASSWORD = "EdmundDailyNews";
+    const POSTS_KEY = "edmundDailyNewsletterPosts";
+    const AUTH_KEY = "edmundDailyNewsletterLoggedIn";
+    const LEARNER_AUTH_KEY = "edmundNewsletterLearnerAuthV1";
+    const DEFAULT_IMAGE = "Static Images/Daily Newsletter - Default English.jpg";
+    const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
+    const SUPABASE_URL = String(SUPABASE_CONFIG.url || "").replace(/\/$/, "");
+    const SUPABASE_ANON_KEY = String(SUPABASE_CONFIG.anonKey || "");
+    const POSTS_TABLE = SUPABASE_CONFIG.dailyNewsletterTable || "daily_newsletter_posts";
+    const POST_FIELDS = "id,created_at,title,subheading,tag,image,image_english,extension,sentences,summary,flashcards";
+    const POST_LIST_FIELDS = "id,created_at,title,subheading,tag";
+    const POST_SEARCH_FIELDS = "id,created_at,title,subheading,tag,image,image_english,extension,sentences,summary,flashcards";
+    const POST_LIST_LIMIT = 30;
+    const POST_SEARCH_LIMIT = 20;
+    const SEARCH_COLUMNS = ["title", "subheading", "tag", "image_english", "extension", "sentences", "summary"];
+
+    const sectionLabels = {
+      imageEnglish: "圖中英語",
+      extension: "主題延伸",
+      sentences: "實用句子",
+      summary: "總結"
+    };
+
+    const defaultPost = {
+      id: "daily-newsletter-default",
+      title: "每日英文通訊",
+      subheading: "Edmund Sir 儘量每日尋找香港各地可見到的英文。\n學習日常英語，同準備考試英文同樣重要！",
+      tag: "Daily English",
+      image: DEFAULT_IMAGE,
+      imageEnglish: "圖片中值得學習的英文。",
+      extension: "",
+      sentences: "",
+      summary: "",
+      flashcards: []
+    };
+
+    let activePost = defaultPost;
+    let activeSection = "imageEnglish";
+    let cachedPosts = [];
+    let editingPostId = null;
+    let editingPostImage = "";
+    let editingFlashcards = [];
+    let activeFlashcardIndex = 0;
+    let activeFlashcardFaceUp = false;
+    let flashProgress = { index: 0, known: [] };
+    let learnerAuthMode = "login";
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    function paragraphs(value) {
+      return String(value || "")
+        .split(/\n{2,}/)
+        .map(paragraph => paragraph.trim())
+        .filter(Boolean);
+    }
+
+    function formatDetailParagraph(paragraph) {
+      return String(paragraph)
+        .split(/(\*\*[\s\S]+?\*\*)/g)
+        .map(part => {
+          if (part.startsWith("**") && part.endsWith("**") && part.length > 4) {
+            return `<strong class="text-highlight">${escapeHtml(part.slice(2, -2))}</strong>`;
+          }
+          return escapeHtml(part);
+        })
+        .join("")
+        .replace(/\n/g, "<br>");
+    }
+
+    function hasSupabaseConfig() {
+      return SUPABASE_URL && SUPABASE_ANON_KEY && !SUPABASE_ANON_KEY.includes("PASTE_");
+    }
+
+    function setSyncStatus(message, isError = false) {
+      const status = document.querySelector("[data-sync-status]");
+      if (!status) return;
+      status.textContent = message;
+      status.style.color = isError ? "#a23b2d" : "var(--green-dark)";
+    }
+
+    function getLocalPosts() {
+      try {
+        return JSON.parse(localStorage.getItem(POSTS_KEY) || "[]");
+      } catch {
+        return [];
+      }
+    }
+
+    function saveLocalPosts(posts) {
+      localStorage.setItem(POSTS_KEY, JSON.stringify(posts));
+    }
+
+    function getStoredPosts() {
+      return cachedPosts;
+    }
+
+    function postTimestamp(post) {
+      if (Number.isFinite(Number(post.createdAt))) return Number(post.createdAt);
+      const parsedDate = Date.parse(post.created_at || "");
+      return Number.isFinite(parsedDate) ? parsedDate : 0;
+    }
+
+    function sortPosts(posts) {
+      return [...posts].sort((a, b) => postTimestamp(b) - postTimestamp(a));
+    }
+
+    function getLatestPost() {
+      return sortPosts(getStoredPosts())[0] || null;
+    }
+
+    function postFromRow(row, options = {}) {
+      const createdAt = Date.parse(row.created_at);
+      const hasImage = Boolean(row.image);
+      const hasContent = Boolean(row.image_english || row.extension || row.sentences || row.summary || (Array.isArray(row.flashcards) && row.flashcards.length));
+      return {
+        id: row.id,
+        createdAt: Number.isFinite(createdAt) ? createdAt : Date.now(),
+        title: row.title || "",
+        subheading: row.subheading || "",
+        tag: row.tag || "",
+        image: row.image || DEFAULT_IMAGE,
+        imageEnglish: row.image_english || "",
+        extension: row.extension || "",
+        sentences: row.sentences || "",
+        summary: row.summary || "",
+        flashcards: Array.isArray(row.flashcards) ? row.flashcards : [],
+        isFullPost: options.isFullPost ?? Boolean(hasImage && hasContent)
+      };
+    }
+
+    function rowFromPost(post) {
+      return {
+        id: post.id,
+        title: post.title,
+        subheading: post.subheading,
+        tag: post.tag,
+        image: post.image,
+        image_english: post.imageEnglish,
+        extension: post.extension,
+        sentences: post.sentences,
+        summary: post.summary,
+        flashcards: Array.isArray(post.flashcards) ? post.flashcards : [],
+        published: true
+      };
+    }
+
+    async function supabaseRequest(path, options = {}) {
+      if (!hasSupabaseConfig()) {
+        throw new Error("資料服務設定不完整。");
+      }
+
+      const response = await fetch(`${SUPABASE_URL}/rest/v1/${path}`, {
+        ...options,
+        headers: {
+          apikey: SUPABASE_ANON_KEY,
+          Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+          ...(options.headers || {})
+        }
+      });
+
+      if (!response.ok) {
+        let message = response.statusText;
+        try {
+          const error = await response.json();
+          message = error.message || error.hint || message;
+        } catch {}
+        throw new Error(message);
+      }
+
+      if (response.status === 204) return null;
+      const text = await response.text();
+      return text ? JSON.parse(text) : null;
+    }
+
+    async function loadStoredPosts() {
+      if (!hasSupabaseConfig()) {
+        cachedPosts = getLocalPosts();
+        setSyncStatus("網上同步尚未設定；文章目前只儲存在這部裝置。", true);
+        return cachedPosts;
+      }
+
+      try {
+        const latestRows = await supabaseRequest(`${POSTS_TABLE}?select=${POST_FIELDS}&published=eq.true&order=created_at.desc&limit=1`);
+        const listRows = await supabaseRequest(`${POSTS_TABLE}?select=${POST_LIST_FIELDS}&published=eq.true&order=created_at.desc&limit=${POST_LIST_LIMIT}`);
+        const postMap = new Map();
+        (Array.isArray(listRows) ? listRows : []).forEach(row => {
+          const post = postFromRow(row);
+          post.image = DEFAULT_IMAGE;
+          postMap.set(post.id, post);
+        });
+        (Array.isArray(latestRows) ? latestRows : []).forEach(row => {
+          const post = postFromRow(row);
+          postMap.set(post.id, post);
+        });
+        cachedPosts = sortPosts(Array.from(postMap.values()));
+        setSyncStatus("已安全連接；新文章會在不同裝置同步。");
+      } catch (error) {
+        cachedPosts = getLocalPosts();
+        setSyncStatus(`未能載入網上文章：${error.message}`, true);
+      }
+
+      return cachedPosts;
+    }
+
+    async function loadStoredPostById(id) {
+      const cached = cachedPosts.find(post => post.id === id);
+      if (!hasSupabaseConfig() || cached?.isFullPost) return cached || null;
+
+      const rows = await supabaseRequest(`${POSTS_TABLE}?select=${POST_FIELDS}&id=eq.${encodeURIComponent(id)}&published=eq.true&limit=1`);
+      const post = Array.isArray(rows) && rows[0] ? postFromRow(rows[0]) : null;
+      if (!post) return cached || null;
+
+      cachedPosts = sortPosts([
+        post,
+        ...cachedPosts.filter(item => item.id !== post.id)
+      ]);
+      return post;
+    }
+
+    async function createStoredPost(post) {
+      if (!hasSupabaseConfig()) {
+        cachedPosts = [post, ...cachedPosts];
+        saveLocalPosts(cachedPosts);
+        setSyncStatus("網上同步尚未設定；文章只儲存在這個瀏覽器。", true);
+        return post;
+      }
+
+      const rows = await supabaseRequest(POSTS_TABLE, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Prefer: "return=representation"
+        },
+        body: JSON.stringify(rowFromPost(post))
+      });
+      const savedPost = Array.isArray(rows) && rows[0] ? postFromRow(rows[0]) : post;
+      cachedPosts = [savedPost, ...cachedPosts.filter(item => item.id !== savedPost.id)];
+      setSyncStatus("文章已安全儲存。");
+      return savedPost;
+    }
+
+    async function updateStoredPost(post) {
+      if (!hasSupabaseConfig()) {
+        cachedPosts = sortPosts([
+          post,
+          ...cachedPosts.filter(item => item.id !== post.id)
+        ]);
+        saveLocalPosts(cachedPosts);
+        setSyncStatus("網上同步尚未設定；修訂只儲存在這個瀏覽器。", true);
+        return post;
+      }
+
+      const rows = await supabaseRequest(`${POSTS_TABLE}?id=eq.${encodeURIComponent(post.id)}`, {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+          Prefer: "return=representation"
+        },
+        body: JSON.stringify(rowFromPost(post))
+      });
+      if (Array.isArray(rows) && rows.length === 0) {
+        throw new Error("資料服務沒有確認修訂，請檢查管理權限後再試。");
+      }
+      const savedPost = Array.isArray(rows) && rows[0] ? postFromRow(rows[0]) : post;
+      cachedPosts = sortPosts([
+        savedPost,
+        ...cachedPosts.filter(item => item.id !== savedPost.id)
+      ]);
+      setSyncStatus("文章已安全更新。");
+      return savedPost;
+    }
+
+    async function deleteStoredPost(id) {
+      if (!hasSupabaseConfig()) {
+        cachedPosts = cachedPosts.filter(post => post.id !== id);
+        saveLocalPosts(cachedPosts);
+        setSyncStatus("網上同步尚未設定；文章只從這個瀏覽器刪除。", true);
+        return;
+      }
+
+      await supabaseRequest(`${POSTS_TABLE}?id=eq.${encodeURIComponent(id)}`, {
+        method: "DELETE"
+      });
+      cachedPosts = cachedPosts.filter(post => post.id !== id);
+      setSyncStatus("文章已安全刪除。");
+    }
+
+    function heroImageValue(src) {
+      return `url("${String(src || DEFAULT_IMAGE).replaceAll('"', "%22")}")`;
+    }
+
+    function renderHero(post) {
+      const hero = document.querySelector("[data-hero-card]");
+      const title = document.querySelector("[data-hero-title]");
+      const subheading = document.querySelector("[data-hero-subheading]");
+      const imagePanel = document.querySelector("[data-hero-image]");
+      if (!hero || !title || !imagePanel || !subheading) return;
+
+      hero.style.setProperty("--hero-image", heroImageValue(DEFAULT_IMAGE));
+      title.textContent = post.title || "每日英文通訊";
+      const lines = String(post.subheading || defaultPost.subheading)
+        .split(/\n+/)
+        .map(line => line.trim())
+        .filter(Boolean);
+      subheading.innerHTML = lines.map(line => `<span>${escapeHtml(line)}</span>`).join("");
+      imagePanel.style.backgroundImage = `linear-gradient(90deg, rgba(15,31,24,0.36), rgba(255,255,255,0.06)), ${heroImageValue(DEFAULT_IMAGE)}`;
+    }
+
+    function renderPostImage(post) {
+      const image = document.querySelector("[data-post-image]");
+      const captionTitle = document.querySelector("[data-image-caption-title]");
+      const captionTag = document.querySelector("[data-image-caption-tag]");
+      const captionText = String(post.subheading || post.title || "每日英文通訊")
+        .replace(/\s+/g, " ")
+        .trim();
+      if (image) {
+        image.src = post.image || DEFAULT_IMAGE;
+        image.alt = post.title ? `${post.title} image` : "";
+      }
+      if (captionTitle) captionTitle.textContent = captionText;
+      if (captionTag) captionTag.textContent = post.tag || "Daily English";
+    }
+
+    function renderDetail() {
+      const title = document.querySelector("[data-detail-title]");
+      const text = document.querySelector("[data-detail-text]");
+      if (!title || !text) return;
+
+      const flashcards = document.querySelector("[data-newsletter-flashcards]");
+      const isFlashcards = activeSection === "flashcards";
+      if (flashcards) flashcards.hidden = !isFlashcards;
+      text.hidden = isFlashcards;
+      if (isFlashcards) { renderNewsletterFlashcards(); return; }
+      title.textContent = sectionLabels[activeSection] || "圖中英語";
+      const content = paragraphs(activePost[activeSection]);
+      text.innerHTML = content.length
+        ? content.map(paragraph => `<p>${formatDetailParagraph(paragraph)}</p>`).join("")
+        : `<p class="detail-empty">這一欄暫時未有內容。</p>`;
+    }
+
+    function renderPost(post) {
+      activePost = post || defaultPost;
+      renderHero(activePost);
+      renderPostImage(activePost);
+      renderDetail();
+      renderNewsletterFlashcards();
+      void loadFlashcardProgress(activePost);
+      updatePostNavigation();
+    }
+
+    function setSection(key) {
+      activeSection = key;
+      document.querySelectorAll("[data-section-tab]").forEach(tab => {
+        tab.classList.toggle("is-active", tab.getAttribute("data-section-tab") === key);
+      });
+      renderDetail();
+    }
+
+    function flashcardList(post = activePost) {
+      return Array.isArray(post?.flashcards) ? post.flashcards.filter(card => card && String(card.front || "").trim()) : [];
+    }
+
+    function getStudentNewsletterSession() {
+      const keys = ["edmund-universal-student-session-v1", "edmund-student-progress-session-v1", "edmundFlashcardSession", "edmund-writing-submission-session-v1", "edmundSpeakingSessionV1", "edmund-listening-session-v1", "edmund-reading-comprehension-session-v1", "edmund-writing-submission-session-v1"];
+      for (const key of keys) {
+        try {
+          const value = JSON.parse(sessionStorage.getItem(key) || "null");
+          const token = value?.token || value?.sessionToken || value?.session_token;
+          if (value?.role === "student" && value.impersonatedByAdmin !== true && token) return { token: String(token), name: String(value.name || "Student") };
+        } catch {}
+      }
+      return null;
+    }
+
+    function readLearnerAuth() {
+      try { return JSON.parse(localStorage.getItem(LEARNER_AUTH_KEY) || "null"); } catch { return null; }
+    }
+
+    function flashcardOwner() {
+      const auth = readLearnerAuth();
+      if (auth?.access_token && auth?.user?.id) return { kind: "auth", id: auth.user.id, token: auth.access_token };
+      const student = getStudentNewsletterSession();
+      return student ? { kind: "student", token: student.token, name: student.name } : null;
+    }
+
+    async function refreshLearnerAuthIfNeeded() {
+      const auth = readLearnerAuth();
+      if (!auth?.refresh_token || Number(auth.expires_at || 0) > Math.floor(Date.now() / 1000) + 90) return;
+      try {
+        const refreshed = await authRequest("token?grant_type=refresh_token", { refresh_token: auth.refresh_token });
+        if (refreshed.access_token && refreshed.user?.id) {
+          localStorage.setItem(LEARNER_AUTH_KEY, JSON.stringify({ access_token: refreshed.access_token, refresh_token: refreshed.refresh_token || auth.refresh_token, expires_at: refreshed.expires_at || Math.floor(Date.now() / 1000) + Number(refreshed.expires_in || 3600), user: refreshed.user }));
+        }
+      } catch { localStorage.removeItem(LEARNER_AUTH_KEY); }
+    }
+
+    function updateLearnerAccountButton() {
+      const button = document.querySelector("[data-learner-account]");
+      if (!button) return;
+      const owner = flashcardOwner();
+      button.textContent = owner ? (owner.kind === "student" ? `已連接學生帳戶 · ${owner.name}` : "Log out of newsletter account") : "Sign in to save progress";
+    }
+
+    async function authRequest(path, body) {
+      const response = await fetch(`${SUPABASE_URL}/auth/v1/${path}`, {
+        method: "POST", headers: { apikey: SUPABASE_ANON_KEY, "Content-Type": "application/json" }, body: JSON.stringify(body)
+      });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok) throw new Error(data.msg || data.message || data.error_description || data.error || "Account request failed");
+      return data;
+    }
+
+    function openLearnerAuth() {
+      const modal = document.querySelector("[data-learner-auth-modal]");
+      if (modal) modal.hidden = false;
+      updateLearnerAuthMode();
+      setTimeout(() => modal?.querySelector('input[name="email"]')?.focus(), 0);
+    }
+
+    function updateLearnerAuthMode() {
+      const title = document.querySelector("[data-learner-auth-title]");
+      const help = document.querySelector("[data-learner-auth-help]");
+      const submit = document.querySelector("[data-learner-auth-form] button[type=submit]");
+      const toggle = document.querySelector("[data-auth-switch]");
+      if (title) title.textContent = learnerAuthMode === "signup" ? "Create a free account" : "Save your flashcard progress";
+      if (help) help.textContent = learnerAuthMode === "signup" ? "建立免費通訊帳戶即可跨裝置保存每日英文通訊字卡進度。這與學生帳戶分開。" : "登入通訊帳戶即可保存每日英文通訊字卡進度。學生亦可使用已登入的學生帳戶自動保存。";
+      if (submit) submit.textContent = learnerAuthMode === "signup" ? "Create account" : "Sign in";
+      if (toggle) toggle.textContent = learnerAuthMode === "signup" ? "已有帳戶？登入" : "建立帳戶";
+    }
+
+    async function loadFlashcardProgress(post) {
+      const requestedPostId = post.id;
+      await refreshLearnerAuthIfNeeded();
+      const cards = flashcardList(post);
+      const owner = flashcardOwner();
+      flashProgress = { index: 0, known: [] };
+      if (owner && hasSupabaseConfig()) {
+        try {
+          if (owner.kind === "student") {
+            flashProgress = await supabaseRequest("rpc/daily_newsletter_student_flashcard_progress_get", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ p_token: owner.token, p_post_id: post.id }) }) || flashProgress;
+          } else {
+            const rows = await fetch(`${SUPABASE_URL}/rest/v1/daily_newsletter_flashcard_progress?select=progress&owner_kind=eq.auth&owner_id=eq.${encodeURIComponent(owner.id)}&post_id=eq.${encodeURIComponent(post.id)}`, { headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${owner.token}` } }).then(r => r.ok ? r.json() : Promise.reject(new Error("Could not load saved progress")));
+            flashProgress = rows?.[0]?.progress || flashProgress;
+          }
+        } catch (error) { console.warn("Newsletter progress could not load", error); }
+      }
+      if (activePost?.id !== requestedPostId) return;
+      flashProgress = { index: Math.min(Math.max(0, Number(flashProgress.index) || 0), Math.max(0, cards.length - 1)), known: Array.isArray(flashProgress.known) ? flashProgress.known : [] };
+      activeFlashcardIndex = flashProgress.index;
+      activeFlashcardFaceUp = false;
+      renderNewsletterFlashcards();
+    }
+
+    async function saveFlashcardProgress() {
+      const postId = activePost?.id;
+      if (!postId) return;
+      flashProgress = { index: activeFlashcardIndex, known: [...new Set(flashProgress.known || [])] };
+      await refreshLearnerAuthIfNeeded();
+      const owner = flashcardOwner();
+      const status = document.querySelector("[data-flashcard-save-status]");
+      if (!owner || !hasSupabaseConfig()) {
+        if (status) status.textContent = "Progress is not saved for guests. Sign in or create an account to save it.";
+        return;
+      }
+      try {
+        if (owner.kind === "student") {
+          await supabaseRequest("rpc/daily_newsletter_student_flashcard_progress_save", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ p_token: owner.token, p_post_id: postId, p_progress: flashProgress }) });
+        } else {
+          const response = await fetch(`${SUPABASE_URL}/rest/v1/daily_newsletter_flashcard_progress?on_conflict=owner_kind,owner_id,post_id`, { method: "POST", headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${owner.token}`, "Content-Type": "application/json", Prefer: "resolution=merge-duplicates,return=minimal" }, body: JSON.stringify({ owner_kind: "auth", owner_id: owner.id, post_id: postId, progress: flashProgress, updated_at: new Date().toISOString() }) });
+          if (!response.ok) throw new Error("Save was not confirmed");
+        }
+        if (status) status.textContent = "Progress saved to your account.";
+      } catch (error) { if (status) status.textContent = `Could not save progress online: ${error.message}`; }
+    }
+
+    function renderNewsletterFlashcards() {
+      const host = document.querySelector("[data-newsletter-flashcards]");
+      if (!host || activeSection !== "flashcards") return;
+      const cards = flashcardList(activePost);
+      const owner = flashcardOwner();
+      if (!cards.length) {
+        host.innerHTML = `<div class="flashcards-empty"><span>✦</span><h3>今日字卡即將推出</h3><p>這篇通訊目前沒有字卡。</p></div>`;
+        return;
+      }
+      const card = cards[Math.min(activeFlashcardIndex, cards.length - 1)];
+      const examples = (card.examples || []).slice(0, 5).map(item => `<li><span>${escapeHtml(item.en || "")}</span><small>${escapeHtml(item.zh || "")}</small></li>`).join("");
+      const known = flashProgress.known?.includes(activeFlashcardIndex);
+      host.innerHTML = `<div class="flashcard-toolbar"><span>DAILY WORDS</span><strong>${activeFlashcardIndex + 1} / ${cards.length}</strong></div><button class="newsletter-flashcard ${activeFlashcardFaceUp ? "is-flipped" : ""}" type="button" data-flashcard-flip aria-label="${activeFlashcardFaceUp ? "Hide" : "Show"} examples"><span class="flashcard-front"><small>WORD</small><strong>${escapeHtml(card.front)}</strong><em>${escapeHtml(card.meaning || "點一下查看例句")}</em><span class="flashcard-tap">點擊翻卡 ↻</span></span><span class="flashcard-back"><strong>${escapeHtml(card.front)}</strong><ol>${examples || "<li>尚未加入例句</li>"}</ol></span></button><div class="flashcard-controls"><button type="button" data-flashcard-prev ${activeFlashcardIndex <= 0 ? "disabled" : ""}>← 上一張</button><button type="button" class="${known ? "is-known" : ""}" data-flashcard-known>${known ? "✓ 已學會" : "✓ 我記住了"}</button><button type="button" data-flashcard-next ${activeFlashcardIndex >= cards.length - 1 ? "disabled" : ""}>下一張 →</button></div><p class="flashcard-save-status" data-flashcard-save-status>${owner ? "進度會自動儲存。" : "未登入時不會保存進度；登入或建立帳戶即可保存。"}</p>`;
+    }
+
+    function parseFlashcardExamples(value) {
+      return String(value || "").split(/\n+/).map(line => line.trim()).filter(Boolean).slice(0, 5).map(line => { const [en, ...zh] = line.split("\t"); return { en: en.trim(), zh: zh.join(" ").trim() }; }).filter(item => item.en);
+    }
+
+    function renderFlashcardSheet() {
+      const host = document.querySelector("[data-flashcard-sheet]");
+      if (!host) return;
+      host.innerHTML = `<div class="flashcard-sheet-head"><span>Word + Chinese</span><span>Example sentences (English<TAB>中文), up to five</span><span>Order / edit</span></div>` + (editingFlashcards.length ? editingFlashcards.map((card, index) => `<div class="flashcard-sheet-row" data-sheet-row="${index}"><div><input aria-label="Word" data-card-front value="${escapeHtml(card.front)}" placeholder="English word or phrase"><input aria-label="Chinese meaning" data-card-meaning value="${escapeHtml(card.meaning)}" placeholder="中文意思"></div><textarea aria-label="Example sentences and Chinese translations" data-card-examples placeholder="English example sentence<TAB>中文翻譯 (one pair per line)">${escapeHtml((card.examples || []).map(item => `${item.en}\t${item.zh}`).join("\n"))}</textarea><div class="flashcard-row-actions"><button type="button" data-card-up="${index}" aria-label="Move up" ${index === 0 ? "disabled" : ""}>↑</button><button type="button" data-card-down="${index}" aria-label="Move down" ${index === editingFlashcards.length - 1 ? "disabled" : ""}>↓</button><button type="button" data-card-delete="${index}" aria-label="Delete">×</button></div></div>`).join("") : `<p class="admin-note">尚未加入字卡。按「新增字卡」開始。</p>`);
+      host.querySelectorAll("[data-card-front]").forEach(input => input.addEventListener("input", event => { editingFlashcards[Number(event.target.closest("[data-sheet-row]").dataset.sheetRow)].front = event.target.value; }));
+      host.querySelectorAll("[data-card-meaning]").forEach(input => input.addEventListener("input", event => { editingFlashcards[Number(event.target.closest("[data-sheet-row]").dataset.sheetRow)].meaning = event.target.value; }));
+      host.querySelectorAll("[data-card-examples]").forEach(input => input.addEventListener("input", event => { editingFlashcards[Number(event.target.closest("[data-sheet-row]").dataset.sheetRow)].examples = parseFlashcardExamples(event.target.value); }));
+      host.querySelectorAll("[data-card-delete]").forEach(button => button.addEventListener("click", () => { editingFlashcards.splice(Number(button.dataset.cardDelete), 1); renderFlashcardSheet(); }));
+      host.querySelectorAll("[data-card-up],[data-card-down]").forEach(button => button.addEventListener("click", () => { const index = Number(button.dataset.cardUp ?? button.dataset.cardDown); const next = index + (button.hasAttribute("data-card-up") ? -1 : 1); if (next < 0 || next >= editingFlashcards.length) return; [editingFlashcards[index], editingFlashcards[next]] = [editingFlashcards[next], editingFlashcards[index]]; renderFlashcardSheet(); }));
+    }
+
+    function setLoggedIn(isLoggedIn) {
+      sessionStorage.setItem(AUTH_KEY, isLoggedIn ? "yes" : "no");
+      updateAuthUi();
+    }
+
+    function isLoggedIn() {
+      return sessionStorage.getItem(AUTH_KEY) === "yes";
+    }
+
+    function updateAuthUi() {
+      const adminPanel = document.querySelector("[data-admin-panel]");
+      const loginButton = document.querySelector("[data-login-button]");
+      const loggedIn = isLoggedIn();
+
+      if (adminPanel) adminPanel.hidden = !loggedIn;
+      if (loginButton) loginButton.textContent = loggedIn ? "Log Out" : "Log In";
+      document.body.classList.toggle("is-admin", loggedIn);
+      renderSavedPosts();
+      renderPostsGrid();
+      updateLearnerAccountButton();
+    }
+
+    function openLogin() {
+      const modal = document.querySelector("[data-login-modal]");
+      const input = document.querySelector("#admin-password");
+      const error = document.querySelector("[data-login-error]");
+      if (error) error.textContent = "";
+      if (modal) modal.hidden = false;
+      setTimeout(() => input?.focus(), 0);
+    }
+
+    function closeLogin() {
+      const modal = document.querySelector("[data-login-modal]");
+      if (modal) modal.hidden = true;
+    }
+
+    async function readImageFile(file) {
+      const dataUrl = await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+
+      return await new Promise(resolve => {
+        const image = new Image();
+        image.onload = () => {
+          const maxWidth = 1400;
+          const scale = Math.min(1, maxWidth / image.width);
+          const canvas = document.createElement("canvas");
+          canvas.width = Math.round(image.width * scale);
+          canvas.height = Math.round(image.height * scale);
+          const context = canvas.getContext("2d");
+          context.drawImage(image, 0, 0, canvas.width, canvas.height);
+          resolve(canvas.toDataURL("image/jpeg", 0.78));
+        };
+        image.onerror = () => resolve(dataUrl);
+        image.src = dataUrl;
+      });
+    }
+
+    function setupLogin() {
+      const loginButton = document.querySelector("[data-login-button]");
+      const loginForm = document.querySelector("[data-login-form]");
+      const closeButton = document.querySelector("[data-close-login]");
+
+      loginButton?.addEventListener("click", () => {
+        if (isLoggedIn()) {
+          setLoggedIn(false);
+          return;
+        }
+        openLogin();
+      });
+
+      closeButton?.addEventListener("click", closeLogin);
+
+      loginForm?.addEventListener("submit", event => {
+        event.preventDefault();
+        const formData = new FormData(loginForm);
+        const password = String(formData.get("password") || "");
+        const error = document.querySelector("[data-login-error]");
+
+        if (password === ADMIN_PASSWORD) {
+          setLoggedIn(true);
+          closeLogin();
+          loginForm.reset();
+          document.querySelector("#create")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        } else if (error) {
+          error.textContent = "Password does not match.";
+        }
+      });
+    }
+
+    function renderSavedPosts() {
+      const container = document.querySelector("[data-saved-posts]");
+      if (!container || !isLoggedIn()) return;
+      const posts = getStoredPosts();
+
+      container.innerHTML = posts.length
+        ? posts.map(post => `
+          <div class="saved-post">
+            <span>${escapeHtml(post.title || "每日英文通訊")}</span>
+            <div class="saved-post-actions">
+              <button class="edit-post" type="button" data-edit-post="${escapeHtml(post.id)}">Edit</button>
+              <button class="delete-post" type="button" data-delete-post="${escapeHtml(post.id)}">Delete</button>
+            </div>
+          </div>
+        `).join("")
+        : `<p class="admin-note">暫時未有自訂通訊。</p>`;
+    }
+
+    function allPostsForDisplay() {
+      const posts = getStoredPosts();
+      return posts.length ? posts : [defaultPost];
+    }
+
+    function activePostIndex() {
+      const posts = allPostsForDisplay();
+      const index = posts.findIndex(post => post.id === activePost.id);
+      return index >= 0 ? index : 0;
+    }
+
+    function updatePostNavigation() {
+      const posts = allPostsForDisplay();
+      const previousButtons = document.querySelectorAll("[data-prev-post], [data-image-prev-post]");
+      const nextButtons = document.querySelectorAll("[data-next-post], [data-image-next-post]");
+      const counters = document.querySelectorAll("[data-post-counter]");
+      const hasMultiplePosts = posts.length > 1;
+      const counterText = `${Math.min(activePostIndex() + 1, posts.length)} / ${posts.length}`;
+
+      previousButtons.forEach(button => {
+        button.disabled = !hasMultiplePosts;
+      });
+      nextButtons.forEach(button => {
+        button.disabled = !hasMultiplePosts;
+      });
+      counters.forEach(counter => {
+        counter.textContent = counterText;
+      });
+    }
+
+    async function showPostById(id) {
+      let post = allPostsForDisplay().find(item => item.id === id);
+      if (!post && hasSupabaseConfig() && id !== defaultPost.id) {
+        setSyncStatus("正在載入文章...");
+        post = await loadStoredPostById(id);
+        setSyncStatus("已安全連接；新文章會在不同裝置同步。");
+      }
+      if (post && !post.isFullPost && post.id !== defaultPost.id) {
+        setSyncStatus("正在載入文章...");
+        post = await loadStoredPostById(post.id);
+        setSyncStatus("已安全連接；新文章會在不同裝置同步。");
+      }
+      if (post) renderPost(post);
+      return post;
+    }
+
+    async function movePost(direction) {
+      const posts = allPostsForDisplay();
+      if (posts.length < 2) return;
+      const nextIndex = (activePostIndex() + direction + posts.length) % posts.length;
+      await showPostById(posts[nextIndex].id);
+    }
+
+    function plainSearchText(value) {
+      return String(value || "").replace(/\*\*/g, "").replace(/\s+/g, " ").trim();
+    }
+
+    function searchableText(post) {
+      return [
+        post.title,
+        post.subheading,
+        post.tag,
+        post.imageEnglish,
+        post.extension,
+        post.sentences,
+        post.summary
+      ].map(plainSearchText).join(" ").toLowerCase();
+    }
+
+    function searchPreview(post, query) {
+      const fields = [
+        post.title,
+        post.subheading,
+        post.tag,
+        post.imageEnglish,
+        post.extension,
+        post.sentences,
+        post.summary
+      ].map(plainSearchText).filter(Boolean);
+      const lowerQuery = query.toLowerCase();
+      const match = fields.find(field => field.toLowerCase().includes(lowerQuery)) || fields[0] || "Open this newsletter post.";
+      const index = match.toLowerCase().indexOf(lowerQuery);
+      if (index < 0 || match.length <= 104) return match;
+      const start = Math.max(0, index - 34);
+      const end = Math.min(match.length, index + lowerQuery.length + 70);
+      return `${start > 0 ? "..." : ""}${match.slice(start, end)}${end < match.length ? "..." : ""}`;
+    }
+
+    function searchLocalPosts(query) {
+      const lowerQuery = query.toLowerCase();
+      return allPostsForDisplay()
+        .filter(post => searchableText(post).includes(lowerQuery))
+        .slice(0, POST_SEARCH_LIMIT);
+    }
+
+    async function searchStoredPosts(query) {
+      const term = plainSearchText(query);
+      if (!term) return [];
+      if (!hasSupabaseConfig()) return searchLocalPosts(term);
+
+      const encodedTerm = encodeURIComponent(`*${term}*`);
+      const filters = SEARCH_COLUMNS.map(column => `${column}.ilike.${encodedTerm}`).join(",");
+      const rows = await supabaseRequest(`${POSTS_TABLE}?select=${POST_SEARCH_FIELDS}&published=eq.true&or=(${filters})&order=created_at.desc&limit=${POST_SEARCH_LIMIT}`);
+      return (Array.isArray(rows) ? rows : []).map(row => postFromRow(row, { isFullPost: false }));
+    }
+
+    function renderPostSearchResults(results, query, status = "ready") {
+      const container = document.querySelector("[data-post-search-results]");
+      if (!container) return;
+
+      if (!query.trim()) {
+        container.hidden = true;
+        container.innerHTML = "";
+        return;
+      }
+
+      container.hidden = false;
+      if (status === "loading") {
+        container.innerHTML = `<p class="search-empty">Searching posts...</p>`;
+        return;
+      }
+
+      if (status === "error") {
+        container.innerHTML = `<p class="search-empty">Search could not load. Please try again.</p>`;
+        return;
+      }
+
+      if (!results.length) {
+        container.innerHTML = `<p class="search-empty">No posts found for "${escapeHtml(query)}".</p>`;
+        return;
+      }
+
+      const resultWord = results.length === 1 ? "post" : "posts";
+      container.innerHTML = `
+        <div class="search-results-head">${results.length} ${resultWord} found for "${escapeHtml(query)}"</div>
+        ${results.map(post => `
+          <button class="search-result-card" type="button" data-search-post-id="${escapeHtml(post.id)}">
+            <span class="search-result-thumb" aria-hidden="true">
+              <img src="${escapeHtml(post.image || DEFAULT_IMAGE)}" alt="">
+            </span>
+            <span class="search-result-copy">
+              <strong>${escapeHtml(post.title || "每日英文通訊")}</strong>
+              <span>${escapeHtml(searchPreview(post, query))}</span>
+            </span>
+          </button>
+        `).join("")}
+      `;
+    }
+
+    function renderPostsGrid() {
+      const grid = document.querySelector("[data-posts-grid]");
+      if (!grid) return;
+      const posts = allPostsForDisplay();
+
+      grid.innerHTML = posts.map(post => `
+        <button class="post-card" type="button" data-open-post-id="${escapeHtml(post.id)}">
+          <img src="${escapeHtml(post.image || DEFAULT_IMAGE)}" alt="">
+          <strong>${escapeHtml(post.title || "每日英文通訊")}</strong>
+          <span>${escapeHtml(post.subheading || "")}</span>
+          ${post.tag ? `<span>#${escapeHtml(post.tag)}</span>` : ""}
+        </button>
+      `).join("");
+    }
+
+    async function deletePost(id) {
+      try {
+        await deleteStoredPost(id);
+        const latest = getLatestPost();
+        renderPost(latest || defaultPost);
+        renderSavedPosts();
+        renderPostsGrid();
+      } catch (error) {
+        alert(`未能刪除文章：${error.message}`);
+        setSyncStatus(`刪除失敗：${error.message}`, true);
+      }
+    }
+
+    function setPostFormMode(post = null) {
+      const form = document.querySelector("[data-post-form]");
+      const imageInput = document.querySelector("[data-image-input]");
+      const preview = document.querySelector("[data-image-preview]");
+      const submitButton = form?.querySelector('button[type="submit"]');
+      const adminTitle = document.querySelector("[data-admin-title]");
+
+      editingPostId = post?.id || null;
+      editingPostImage = post?.image || "";
+
+      if (form) form.dataset.mode = editingPostId ? "edit" : "create";
+      if (imageInput) imageInput.required = !editingPostId;
+      if (submitButton) submitButton.textContent = editingPostId ? "更新通訊" : "發布通訊";
+      if (adminTitle) adminTitle.textContent = editingPostId ? "編輯每日英文通訊" : "新增每日英文通訊";
+      if (!editingPostId && preview) preview.textContent = "Image preview";
+    }
+
+    function fillPostForm(post) {
+      editingFlashcards = Array.isArray(post.flashcards) ? post.flashcards.map(card => ({ front: String(card.front || ""), meaning: String(card.meaning || ""), examples: Array.isArray(card.examples) ? card.examples.slice(0, 5) : [] })) : [];
+      renderFlashcardSheet();
+      const form = document.querySelector("[data-post-form]");
+      const preview = document.querySelector("[data-image-preview]");
+      const clipboard = document.querySelector("[data-clipboard-text]");
+      if (!form) return;
+
+      form.elements.title.value = post.title || "";
+      form.elements.tag.value = post.tag || "";
+      form.elements.subheading.value = post.subheading || "";
+      form.elements.imageEnglish.value = post.imageEnglish || "";
+      form.elements.extension.value = post.extension || "";
+      form.elements.sentences.value = post.sentences || "";
+      form.elements.summary.value = post.summary || "";
+      if (form.elements.image) form.elements.image.value = "";
+      if (clipboard) {
+        clipboard.value = "";
+        clipboard.dataset.adopted = "no";
+        clipboard.readOnly = true;
+      }
+      if (preview) {
+        preview.innerHTML = post.image
+          ? `<img src="${escapeHtml(post.image)}" alt="">`
+          : "Image preview";
+      }
+      setPostFormMode(post);
+    }
+
+    async function editPost(id) {
+      try {
+        let post = cachedPosts.find(item => item.id === id) || null;
+        if (post && !post.isFullPost && post.id !== defaultPost.id) {
+          setSyncStatus("Loading this post for editing...");
+          post = await loadStoredPostById(id);
+        }
+        if (!post) {
+          setSyncStatus("Could not find this post to edit.", true);
+          return;
+        }
+
+        fillPostForm(post);
+        renderPost(post);
+        setSyncStatus(`Editing "${post.title || "每日英文通訊"}". Upload a new image only if you want to replace the current one.`);
+        document.querySelector("#create")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      } catch (error) {
+        setSyncStatus(`Could not load this post for editing: ${error.message}`, true);
+      }
+    }
+
+    function setupPostForm() {
+      const form = document.querySelector("[data-post-form]");
+      const imageInput = document.querySelector("[data-image-input]");
+      const preview = document.querySelector("[data-image-preview]");
+      const clipboard = document.querySelector("[data-clipboard-text]");
+      const adoptButton = document.querySelector("[data-adopt-clipboard]");
+      const summaryInput = document.querySelector("#post-summary");
+      document.querySelector("[data-add-flashcard]")?.addEventListener("click", () => { editingFlashcards.push({ front: "", meaning: "", examples: [] }); renderFlashcardSheet(); [...document.querySelectorAll("[data-card-front]")].at(-1)?.focus(); });
+      const clipboardSources = [
+        document.querySelector("#post-image-english"),
+        document.querySelector("#post-extension"),
+        document.querySelector("#post-sentences")
+      ];
+      const highlightInputs = [
+        ...clipboardSources,
+        summaryInput,
+        clipboard
+      ];
+
+      function updateClipboard() {
+        if (!clipboard || clipboard.dataset.adopted === "yes") return;
+        const labels = ["圖中英語", "主題延伸", "實用句子"];
+        clipboard.value = clipboardSources.map((source, index) => {
+          const value = source?.value.trim() || "";
+          return value ? `${labels[index]}\n${value}` : "";
+        }).filter(Boolean).join("\n\n");
+      }
+
+      clipboardSources.forEach(source => {
+        source?.addEventListener("input", updateClipboard);
+      });
+
+      highlightInputs.forEach(input => {
+        input?.addEventListener("keydown", event => {
+          if (event.key.toLowerCase() !== "b" || (!event.metaKey && !event.ctrlKey)) return;
+          event.preventDefault();
+
+          const start = input.selectionStart;
+          const end = input.selectionEnd;
+          const selectedText = input.value.slice(start, end);
+          const fallback = "重點文字";
+          const replacement = `**${selectedText || fallback}**`;
+          input.setRangeText(replacement, start, end, "select");
+
+          if (!selectedText) {
+            input.setSelectionRange(start + 2, start + 2 + fallback.length);
+          }
+
+          input.dispatchEvent(new Event("input", { bubbles: true }));
+        });
+      });
+
+      adoptButton?.addEventListener("click", () => {
+        if (!clipboard) return;
+        updateClipboard();
+        clipboard.dataset.adopted = "yes";
+        clipboard.readOnly = false;
+        if (summaryInput && !summaryInput.value.trim() && clipboard.value.trim()) {
+          summaryInput.value = clipboard.value;
+          summaryInput.dispatchEvent(new Event("input", { bubbles: true }));
+        }
+        clipboard.focus();
+      });
+
+      imageInput?.addEventListener("change", async () => {
+        const file = imageInput.files?.[0];
+        if (!file || !preview) return;
+        const image = await readImageFile(file);
+        preview.innerHTML = `<img src="${image}" alt="">`;
+      });
+
+      form?.addEventListener("reset", () => {
+        editingFlashcards = [];
+        setTimeout(() => {
+          renderFlashcardSheet();
+          setPostFormMode(null);
+          if (preview) preview.textContent = "Image preview";
+          if (clipboard) {
+            clipboard.value = "";
+            clipboard.dataset.adopted = "no";
+            clipboard.readOnly = true;
+          }
+        }, 0);
+      });
+
+      form?.addEventListener("submit", async event => {
+        event.preventDefault();
+        if (!isLoggedIn()) {
+          openLogin();
+          return;
+        }
+
+        const submitButton = form.querySelector('button[type="submit"]');
+        const originalSubmitText = submitButton?.textContent || "";
+        if (submitButton) {
+          submitButton.disabled = true;
+          submitButton.textContent = "Saving...";
+        }
+
+        const formData = new FormData(form);
+        const file = formData.get("image");
+        const isEditing = Boolean(editingPostId);
+        if (!isEditing && (!(file instanceof File) || !file.size)) {
+          if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.textContent = originalSubmitText;
+          }
+          return;
+        }
+
+        const existingPost = isEditing
+          ? cachedPosts.find(item => item.id === editingPostId)
+          : null;
+        let image = editingPostImage || existingPost?.image || DEFAULT_IMAGE;
+        if (file instanceof File && file.size) {
+          image = await readImageFile(file);
+        }
+
+        const createdAt = Date.now();
+        const post = {
+          id: isEditing ? editingPostId : `daily-${createdAt}`,
+          createdAt: isEditing ? postTimestamp(existingPost || activePost) || createdAt : createdAt,
+          title: String(formData.get("title") || "").trim(),
+          subheading: String(formData.get("subheading") || "").trim(),
+          tag: String(formData.get("tag") || "").trim(),
+          image,
+          imageEnglish: String(formData.get("imageEnglish") || "").trim(),
+          extension: String(formData.get("extension") || "").trim(),
+          sentences: String(formData.get("sentences") || "").trim(),
+          summary: String(formData.get("summary") || "").trim(),
+          flashcards: editingFlashcards.map(card => ({ front: card.front.trim(), meaning: card.meaning.trim(), examples: (card.examples || []).slice(0, 5) })).filter(card => card.front),
+          isFullPost: true
+        };
+
+        let savedPost;
+        try {
+          savedPost = isEditing
+            ? await updateStoredPost(post)
+            : await createStoredPost(post);
+        } catch (error) {
+          alert(`未能${isEditing ? "更新" : "儲存"}文章：${error.message}`);
+          setSyncStatus(`${isEditing ? "更新" : "儲存"}失敗：${error.message}`, true);
+          if (submitButton) {
+            submitButton.disabled = false;
+            submitButton.textContent = originalSubmitText;
+          }
+          return;
+        }
+
+        form.reset();
+        editingFlashcards = [];
+        renderFlashcardSheet();
+        setPostFormMode(null);
+        if (preview) preview.textContent = "Image preview";
+        if (clipboard) {
+          clipboard.value = "";
+          clipboard.dataset.adopted = "no";
+          clipboard.readOnly = true;
+        }
+        renderPost(savedPost);
+        renderSavedPosts();
+        renderPostsGrid();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        if (submitButton) {
+          submitButton.disabled = false;
+          submitButton.textContent = "發布通訊";
+        }
+      });
+
+      document.addEventListener("click", event => {
+        const deleteButton = event.target.closest("[data-delete-post]");
+        if (!deleteButton) return;
+        event.preventDefault();
+        if (!confirm("Delete this post?")) return;
+        deletePost(deleteButton.getAttribute("data-delete-post"));
+      });
+
+      document.addEventListener("click", event => {
+        const editButton = event.target.closest("[data-edit-post]");
+        if (!editButton) return;
+        event.preventDefault();
+        editPost(editButton.getAttribute("data-edit-post"));
+      });
+    }
+
+    function setupPostsModal() {
+      const openButtons = document.querySelectorAll("[data-open-posts]");
+      const closeButton = document.querySelector("[data-close-posts]");
+      const modal = document.querySelector("[data-posts-modal]");
+      const grid = document.querySelector("[data-posts-grid]");
+
+      function openModal() {
+        renderPostsGrid();
+        modal?.classList.add("is-open");
+        modal?.setAttribute("aria-hidden", "false");
+      }
+
+      function closeModal() {
+        modal?.classList.remove("is-open");
+        modal?.setAttribute("aria-hidden", "true");
+      }
+
+      openButtons.forEach(button => {
+        button.addEventListener("click", openModal);
+      });
+      closeButton?.addEventListener("click", closeModal);
+      modal?.addEventListener("click", event => {
+        if (event.target === modal) closeModal();
+      });
+      grid?.addEventListener("click", async event => {
+        const button = event.target.closest("[data-open-post-id]");
+        if (!button) return;
+        const id = button.getAttribute("data-open-post-id");
+        try {
+          await showPostById(id);
+        } catch (error) {
+          setSyncStatus(`未能載入文章：${error.message}`, true);
+        }
+        closeModal();
+      });
+      window.addEventListener("keydown", event => {
+        if (event.key === "Escape") closeModal();
+      });
+    }
+
+    function setupPostNavigation() {
+      document.querySelectorAll("[data-prev-post], [data-image-prev-post]").forEach(button => {
+        button.addEventListener("click", () => {
+          movePost(-1);
+        });
+      });
+
+      document.querySelectorAll("[data-next-post], [data-image-next-post]").forEach(button => {
+        button.addEventListener("click", () => {
+          movePost(1);
+        });
+      });
+
+      const hero = document.querySelector("[data-hero-card]");
+      let touchStartX = 0;
+      hero?.addEventListener("touchstart", event => {
+        touchStartX = event.changedTouches[0]?.clientX || 0;
+      }, { passive: true });
+
+      hero?.addEventListener("touchend", event => {
+        const touchEndX = event.changedTouches[0]?.clientX || 0;
+        const distance = touchEndX - touchStartX;
+        if (Math.abs(distance) < 60) return;
+        movePost(distance > 0 ? -1 : 1);
+      }, { passive: true });
+
+      window.addEventListener("keydown", event => {
+        if (event.target.closest?.("input, textarea")) return;
+        if (event.key === "ArrowLeft") movePost(-1);
+        if (event.key === "ArrowRight") movePost(1);
+      });
+    }
+
+    function setupPostSearch() {
+      const input = document.querySelector("[data-post-search]");
+      const resultsContainer = document.querySelector("[data-post-search-results]");
+      if (!input || !resultsContainer) return;
+
+      let searchTimer = 0;
+      let searchToken = 0;
+
+      input.addEventListener("input", () => {
+        const query = input.value.trim();
+        window.clearTimeout(searchTimer);
+
+        if (!query) {
+          renderPostSearchResults([], "");
+          return;
+        }
+
+        const token = ++searchToken;
+        renderPostSearchResults([], query, "loading");
+        searchTimer = window.setTimeout(async () => {
+          try {
+            const results = await searchStoredPosts(query);
+            if (token === searchToken) renderPostSearchResults(results, query);
+          } catch (error) {
+            if (token === searchToken) renderPostSearchResults([], query, "error");
+          }
+        }, 260);
+      });
+
+      resultsContainer.addEventListener("click", async event => {
+        const button = event.target.closest("[data-search-post-id]");
+        if (!button) return;
+        const id = button.getAttribute("data-search-post-id");
+        try {
+          await showPostById(id);
+          document.querySelector("#newsletter-content")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        } catch (error) {
+          renderPostSearchResults([], input.value.trim(), "error");
+          setSyncStatus(`未能載入文章：${error.message}`, true);
+        }
+      });
+    }
+
+    function setupLearnerAccount() {
+      const button = document.querySelector("[data-learner-account]");
+      const form = document.querySelector("[data-learner-auth-form]");
+      const modal = document.querySelector("[data-learner-auth-modal]");
+      const status = document.querySelector("[data-learner-auth-status]");
+      button?.addEventListener("click", () => {
+        const owner = flashcardOwner();
+        if (owner?.kind === "auth") {
+          localStorage.removeItem(LEARNER_AUTH_KEY);
+          updateLearnerAccountButton();
+          if (activeSection === "flashcards") renderNewsletterFlashcards();
+          return;
+        }
+        if (owner?.kind === "student") { document.querySelector("[data-newsletter-flashcards]")?.scrollIntoView({ behavior: "smooth", block: "center" }); return; }
+        openLearnerAuth();
+      });
+      document.querySelector("[data-learner-auth-close]")?.addEventListener("click", () => { if (modal) modal.hidden = true; });
+      document.querySelector("[data-auth-switch]")?.addEventListener("click", () => { learnerAuthMode = learnerAuthMode === "signup" ? "login" : "signup"; if (status) status.textContent = ""; updateLearnerAuthMode(); });
+      form?.addEventListener("submit", async event => {
+        event.preventDefault();
+        if (!hasSupabaseConfig()) { if (status) status.textContent = "帳戶服務暫時未設定。"; return; }
+        const submit = form.querySelector('button[type="submit"]');
+        const values = new FormData(form);
+        if (submit) submit.disabled = true;
+        if (status) status.textContent = "處理中…";
+        try {
+          const data = learnerAuthMode === "signup"
+            ? await authRequest("signup", { email: String(values.get("email") || "").trim(), password: String(values.get("password") || "") })
+            : await authRequest("token?grant_type=password", { email: String(values.get("email") || "").trim(), password: String(values.get("password") || "") });
+          if (!data.access_token || !data.user?.id) {
+            if (status) status.textContent = "請查看電郵並確認帳戶，確認後即可登入保存進度。";
+            return;
+          }
+          localStorage.setItem(LEARNER_AUTH_KEY, JSON.stringify({ access_token: data.access_token, refresh_token: data.refresh_token || "", expires_at: data.expires_at || Math.floor(Date.now() / 1000) + Number(data.expires_in || 3600), user: data.user }));
+          if (modal) modal.hidden = true;
+          form.reset();
+          updateLearnerAccountButton();
+          if (activeSection === "flashcards") { await loadFlashcardProgress(activePost); await saveFlashcardProgress(); }
+        } catch (error) { if (status) status.textContent = error.message; }
+        finally { if (submit) submit.disabled = false; }
+      });
+      const host = document.querySelector("[data-newsletter-flashcards]");
+      host?.addEventListener("click", async event => {
+        const flip = event.target.closest("[data-flashcard-flip]");
+        const previous = event.target.closest("[data-flashcard-prev]");
+        const next = event.target.closest("[data-flashcard-next]");
+        const known = event.target.closest("[data-flashcard-known]");
+        if (flip) activeFlashcardFaceUp = !activeFlashcardFaceUp;
+        if (previous && activeFlashcardIndex > 0) { activeFlashcardIndex--; activeFlashcardFaceUp = false; }
+        if (next && activeFlashcardIndex < flashcardList().length - 1) { activeFlashcardIndex++; activeFlashcardFaceUp = false; }
+        if (known) {
+          const found = flashProgress.known.includes(activeFlashcardIndex);
+          flashProgress.known = found ? flashProgress.known.filter(index => index !== activeFlashcardIndex) : [...flashProgress.known, activeFlashcardIndex];
+          if (activeFlashcardIndex < flashcardList().length - 1) { activeFlashcardIndex++; activeFlashcardFaceUp = false; }
+        }
+        if (flip || previous || next || known) { renderNewsletterFlashcards(); await saveFlashcardProgress(); }
+      });
+      updateLearnerAccountButton();
+    }
+
+    function setupSections() {
+      document.querySelectorAll("[data-section-tab]").forEach(tab => {
+        tab.addEventListener("click", () => {
+          setSection(tab.getAttribute("data-section-tab") || "imageEnglish");
+        });
+      });
+
+      document.querySelector("[data-start-learning]")?.addEventListener("click", () => {
+        setSection("imageEnglish");
+        document.querySelector("#newsletter-content")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
+
+    function setupCustomCursor() {
+      const cursor = document.querySelector(".custom-cursor");
+      if (!cursor || !window.matchMedia("(pointer: fine)").matches) return;
+
+      window.addEventListener("mousemove", event => {
+        cursor.style.left = `${event.clientX}px`;
+        cursor.style.top = `${event.clientY}px`;
+        cursor.style.opacity = "1";
+      });
+
+      window.addEventListener("mouseleave", () => {
+        cursor.style.opacity = "0";
+      });
+    }
+
+    async function initializeNewsletter() {
+      renderPost(defaultPost);
+      setupLogin();
+      setupLearnerAccount();
+      setupPostForm();
+      renderFlashcardSheet();
+      setupPostsModal();
+      setupPostNavigation();
+      setupPostSearch();
+      setupSections();
+      setupCustomCursor();
+      updateAuthUi();
+
+      await loadStoredPosts();
+      const latest = getLatestPost();
+      if (latest) {
+        const hero = document.querySelector("[data-hero-card]");
+        hero?.classList.add("is-switching");
+        window.setTimeout(() => {
+          renderPost(latest);
+          hero?.classList.remove("is-switching");
+        }, 380);
+      }
+      updateAuthUi();
+      renderPostsGrid();
+    }
+
+    initializeNewsletter();
+  </script>
+  <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
+<script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
+</body>
+</html>

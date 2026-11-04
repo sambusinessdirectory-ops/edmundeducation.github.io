@@ -1,0 +1,1654 @@
+{
+  "id": "p2-028-the-ant-and-the-mandarin",
+  "catalogueId": "p2-028",
+  "catalogueIds": [
+    "p2-028"
+  ],
+  "passage": 2,
+  "title": "The Ant and the Mandarin",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "C",
+    "F",
+    "A",
+    "D",
+    "E",
+    "TRUE",
+    "FALSE",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "C — AD 304",
+      "answerKey": "C — AD 304",
+      "type": "Question Analysis",
+      "prompt": "“The earliest description of citrus ants being traded in a marketplace”",
+      "translation": "最早描述 citrus ants 在市場中被交易的記錄。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Dates。這題要找兩個元素：第一是 earliest description，第二是 traded in a"
+            },
+            {
+              "kind": "paragraph",
+              "text": "marketplace。日期要從 A–G 選。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The earliest report of citrus ants at work among the orange trees appeared in a book on tropical and subtropical botany written by Hsi Han in AD 304.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於 citrus ants 在橙樹間工作的最早報告，出現在 Hsi Han 於 AD 304 寫的一本熱帶和亞熱帶植物學書中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the south, if the kan trees do not have this kind of ant, the fruits will all be damaged by many harmful insects, and not a single fruit will be perfect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在南方，如果 kan trees 沒有這種螞蟻，果實全都會被許多有害昆蟲破壞，沒有一個果實會完美。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯是古代文獻記錄，並說明螞蟻對果樹保護的重要性。題目中的 earliest description 和這段第一句高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “earliest description”、“traded” 和 “marketplace”。原文用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“earliest report” 對應 earliest description，用 “sell in their markets” 對應 traded in a marketplace。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "真正答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The people of Chiao-Chih sell in their markets ants in bags of rush matting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chiao-Chih 的人在市場上售賣裝在 rush matting 袋中的螞蟻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接說 ants 被拿到 markets 出售；段首已交代這份記錄出現在 AD 304。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫是",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "earliest description = earliest report traded in a marketplace = sell in their markets date = AD 304所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "F — 1915",
+      "answerKey": "F — 1915",
+      "type": "Question Analysis",
+      "prompt": "“Swingle travelled to China for research”",
+      "translation": "Swingle 前往中國做研究。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Dates。題目核心是人名 Swingle 和 travelled to China。日期要找他到中國"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的時間。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The West did not discover the Chinese orange growers’ secret weapon until the early 20th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "西方直到二十世紀初才發現中國橙農的秘密武器。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These ants, he was told, were ‘grown’ by the people of a small village nearby who sold them to the orange growers by the nestful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人告訴他，這些螞蟻由附近一條小村的人 “grown”，並按巢出售給橙農。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這段講西方如何發現 cultivated ants。Swingle 是本段關鍵人物。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞 “Swingle” 很強。原文中直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“in 1915 Walter Swingle, a plant physiologist working for the US Department of Agriculture, was sent to China...”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "完整答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the time, Florida was suffering an epidemic of citrus canker and in 1915 Walter Swingle, a plant physiologist working for the US Department of Agriculture, was sent to China in search of varieties of orange that were resistant to the disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時 Florida 正遭受 citrus canker 疫情；1915 年，美國農業部植物生理學家 Walter Swingle 被派往中國，尋找能抵抗這種疾病的橙樹品種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 travelled to China for research，原文說 was sent to China in search of resistant orange varieties。這是研究目的。日期是 1915。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "A — 1888",
+      "answerKey": "A — 1888",
+      "type": "Question Analysis",
+      "prompt": "“The first recorded Western use of one insect to control another”",
+      "translation": "西方首次有記錄地使用一種昆蟲控制另一種昆蟲。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Dates。這題的定位詞是 first recorded Western use、one insect、control"
+            },
+            {
+              "kind": "paragraph",
+              "text": "another。原文可能會用 breakthrough、one insect to destroy another、beetle 等詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Swingle was just as impressed. Yet despite his reports, many Western biologists were sceptical.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Swingle 同樣印象深刻。不過，儘管他提交了報告，許多西方生物學家仍然懷疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Chinese had been expert in biological control for many centuries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中國人在 biological control 方面早已精通了許多世紀。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可見這段對比 Swingle 的認同、西方懷疑，以及中國早已有長期經驗。題目問Western first，所以要讀中間有關西方突破的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “first recorded Western use” 對應原文 “The first breakthrough had come in"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1888”。“one insect to control another” 對應 “using one insect to destroy another”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first breakthrough had come in 1888, when the infant orange industry in California had been saved from extinction by the Australian vedalia beetle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一次突破出現在 1888 年，當時 California 剛起步的橙業，因 Australian vedalia beetle 而免於滅絕。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“This beetle was the only thing that had made any inroads into the explosion of cottony cushion scale that was threatening to destroy the state’s citrus crops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種甲蟲是唯一能有效對付大量爆發的 cottony cushion scale 的東西，而後者正威脅摧毀該州的柑橘作物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "beetle 控制 scale insect，就是用一種昆蟲處理另一種昆蟲。日期是 1888，所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "D — 1950s",
+      "answerKey": "D — 1950s",
+      "type": "Question Analysis",
+      "prompt": "“Chinese fruit growers began replacing citrus ants with pesticides”",
+      "translation": "中國果農開始用 pesticides 取代 citrus ants。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Dates。題目控制詞是 began replacing，所以要找傳統 ant use 開始動搖、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "化學農藥開始引入的時間。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 10"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The long tradition of ants in the Chinese orchards only began to waver in the 1950s and 1960s with the introduction of powerful organic insecticides.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中國果園使用螞蟻的悠久傳統，只是在 1950s 和 1960s 隨著強效有機殺蟲劑引入後才開始動搖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They had good reason to have faith in their insect workforce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們有充分理由信任自己的昆蟲工作隊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可知本段講化學殺蟲劑如何衝擊傳統螞蟻防治，後來果農又重新相信螞蟻。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “began replacing” 對應原文 “began to waver” 和 “most fruit growers switched to"
+            },
+            {
+              "kind": "paragraph",
+              "text": "chemicals”。日期詞是 “1950s and 1960s”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although most fruit growers switched to chemicals, a few hung onto their ants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然大多數果農轉用化學品，少數人仍保留螞蟻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本題問 began replacing citrus ants with pesticides。原文將傳統動搖的開始放在 “1950s and 1960s”，而 Q18 明確問 return to old method，對應 late 1960s。為了區分兩題，Q17 應取開始階段，即 1950s。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "E — 1960s",
+      "answerKey": "E — 1960s",
+      "type": "Question Analysis",
+      "prompt": "“Some Chinese growers returned to the traditional biological method”",
+      "translation": "一些中國果農回到傳統 biological method。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Matching Dates。題目中的 returned 和 traditional biological method 指重新使用 ant"
+            },
+            {
+              "kind": "paragraph",
+              "text": "patrols。要找 comeback 的時間。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 10"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The long tradition of ants in the Chinese orchards only began to waver in the 1950s and 1960s with the introduction of powerful organic insecticides.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中國果園使用螞蟻的傳統，在 1950s 和 1960s 因強效有機殺蟲劑引入而開始動搖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They had good reason to have faith in their insect workforce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們有充分理由信任自己的昆蟲工作隊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “returned” 對應原文 “revive”。traditional biological method 對應 “old ant patrols”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“As costs soared and pests began to develop resistance to the chemicals, growers began to revive the old ant patrols in the late 1960s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著成本飆升，害蟲開始對化學品產生抗性，果農在 1960 年代末開始恢復舊有的螞蟻巡邏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "revive the old ant patrols = returned to the traditional biological method。日期選項只有 1960s，對應 E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“China has more citrus pests than any other country in the world.”",
+      "translation": "中國的 citrus pests 比世界上任何其他國家都多。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。題目核心是比較：China 是否在 citrus pests 方面最"
+            },
+            {
+              "kind": "paragraph",
+              "text": "多或最豐富。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Citrus fruits evolved in the Far East and the Chinese discovered the delights of their flesh early on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "柑橘類水果在遠東演化而來，中國人很早便發現其果肉的美味。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With so many enemies, fruit growers clearly had to have some way of protecting their orchards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "面對這麼多敵人，果農明顯需要某種方法保護果園。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可知本段講 citrus 起源、中國和果園害蟲問題。最後一句的 so many enemies 指大量害蟲。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “China”、“citrus pests”、“more than any other country”。原文中最接近的是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“greatest diversity of citrus pests”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the ancestral home of oranges, lemons and pomelos, China also has the greatest diversity of citrus pests.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作為 oranges、lemons 和 pomelos 的祖先地，中國也擁有最豐富多樣的 citrus pests。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "greatest diversity 表示多樣性最高。題目說 more citrus pests than any other country，屬於把greatest diversity 概括成「害蟲種類最多」。雖然原文重點是 diversity，不一定是個體數量，但IELTS 這裡的 pests 可理解為害蟲種類。題目方向和原文一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Swingle went to China to find an insect that could be taken back to the United States.”",
+      "translation": "Swingle 去中國是為了尋找一種可以帶回美國的昆蟲。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。這題要檢查 Swingle 去中國的目的。控制詞是 “to"
+            },
+            {
+              "kind": "paragraph",
+              "text": "find an insect”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The West did not discover the Chinese orange growers’ secret weapon until the early 20th century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "西方直到二十世紀初才發現中國橙農的秘密武器。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These ants, he was told, were ‘grown’ by the people of a small village nearby who sold them to the orange growers by the nestful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有人告訴他，這些螞蟻由附近村民 “grown”，並按巢出售給橙農。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段確實有 Swingle 發現螞蟻的內容；但題目問的是他去中國的原本目的，必須細讀中間句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Swingle went to China” 和 “find an insect”。原文有 Swingle 和 sent to China，但"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案動作是 search for varieties of orange。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the time, Florida was suffering an epidemic of citrus canker and in 1915 Walter Swingle, a plant physiologist working for the US Department of Agriculture, was sent to China in search of varieties of orange that were resistant to the disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時 Florida 正遭受 citrus canker 疫情；1915 年，美國農業部植物生理學家 Walter Swingle 被派往中國，尋找能抵抗這種疾病的橙樹品種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：Swingle 去中國尋找 resistant orange varieties。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：Swingle 去中國尋找可帶回美國的 insect。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個目的不一致。雖然他後來聽到 cultivated ants 的故事，但那是旅程中的發現，不是出發目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Many Western biologists were impressed by Swingle’s discovery.”",
+      "translation": "許多西方生物學家對 Swingle 的發現印象深刻。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。題目要判斷 Western biologists 的反應。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Western biologists、impressed、Swingle。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Swingle was just as impressed. Yet despite his reports, many Western biologists were sceptical.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Swingle 同樣印象深刻。不過，儘管他提交了報告，許多西方生物學家仍然懷疑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Chinese had been expert in biological control for many centuries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中國人在 biological control 方面已精通數百年。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，已經見到兩種反應：Swingle impressed，Western biologists sceptical。題目把impressed 套到 Western biologists 身上，因此要小心人物。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中最強定位詞是 “Western biologists”。原文直接有 “many Western biologists were"
+            },
+            {
+              "kind": "paragraph",
+              "text": "sceptical”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet despite his reports, many Western biologists were sceptical.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，儘管有他的報告，許多西方生物學家仍然抱懷疑態度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 many Western biologists were impressed。原文說 Swingle impressed，many Western biologists sceptical。題目把 Swingle 的態度錯配給 Western biologists。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同一句附近有 “Swingle was just as impressed”，很容易看到 impressed 後直接判 TRUE。真正要檢查的是主體：被 impressed 的人是 Swingle；Western biologists 的反應是 sceptical。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Chinese farmers found that pesticides became increasingly expensive.”",
+      "translation": "中國農民發現 pesticides 變得越來越昂貴。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。定位詞是 pesticides / chemicals、expensive / costs。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 10"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The long tradition of ants in the Chinese orchards only began to waver in the 1950s and 1960s with the introduction of powerful organic insecticides.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中國果園使用螞蟻的傳統，在 1950s 和 1960s 因強效有機殺蟲劑引入而開始動搖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They had good reason to have faith in their insect workforce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們有充分理由信任自己的昆蟲工作隊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可知本段比較化學品與傳統螞蟻方法。題目問 pesticides cost，所以在這段找chemicals 和 costs。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “pesticides” 對應原文 “chemicals” 和 “insecticides”。“became increasingly"
+            },
+            {
+              "kind": "paragraph",
+              "text": "expensive” 對應 “costs soared”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“As costs soared and pests began to develop resistance to the chemicals, growers began to revive the old ant patrols in the late 1960s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著成本飆升，害蟲開始對化學品產生抗性，果農在 1960 年代末開始恢復舊有的螞蟻巡邏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "costs soared = costs increased sharply。題目的 “became increasingly expensive” 是對這個意思的自然改寫。主體雖然寫 Chinese farmers，原文用 growers；這裡指 orange growers，屬於農民的一種。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Some Chinese farmers abandoned pesticides.”",
+      "translation": "一些中國農民放棄了 pesticides。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。控制詞是 Some，所以只要文章支持部分 growers 從"
+            },
+            {
+              "kind": "paragraph",
+              "text": "化學品回到螞蟻方法，便足以成立。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 10"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The long tradition of ants in the Chinese orchards only began to waver in the 1950s and 1960s with the introduction of powerful organic insecticides.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中國果園使用螞蟻的悠久傳統，在 1950s 和 1960s 因強效有機殺蟲劑引入而開始動搖。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They had good reason to have faith in their insect workforce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們有充分理由信任自己的昆蟲工作隊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可知本段描述從螞蟻到化學品，再到重新相信螞蟻的過程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 abandoned pesticides。原文沒有直接說 “abandoned pesticides”，所以要留意同"
+            },
+            {
+              "kind": "paragraph",
+              "text": "義和方向：switched to chemicals、became disillusioned、revive old ant patrols。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句組是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although most fruit growers switched to chemicals, a few hung onto their ants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然大多數果農轉用化學品，少數人仍保留螞蟻。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Those who abandoned ants in favour of chemicals quickly became disillusioned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那些放棄螞蟻、轉向化學品的人很快感到失望。"
+            },
+            {
+              "kind": "quote",
+              "text": "“As costs soared and pests began to develop resistance to the chemicals, growers began to revive the old ant patrols in the late 1960s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著成本飆升，害蟲開始對化學品產生抗性，果農在 1960 年代末開始恢復舊有的螞蟻巡邏。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句形成一條清楚走向：大多數人曾轉向化學品；轉用者後來失望；成本和抗性問題出現後， growers 重啟 old ant patrols。題目只說 Some Chinese farmers，範圍很保守，因此 “began to revive the old ant patrols” 支援有些人離開化學品路線，回到傳統 biological control。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Trees with ants lost more leaves than trees without ants.”",
+      "translation": "有螞蟻的樹比沒有螞蟻的樹失去更多葉子。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。定位詞是 trees with ants、leaves、without ants。要看"
+            },
+            {
+              "kind": "paragraph",
+              "text": "方向：有螞蟻是更好還是更差。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 11"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research in the early 1960s showed that as long as there were enough ants in the trees, they did an excellent job of dispatching some pests – mainly the larger insects – and had modest success against others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1960 年代初的研究顯示，只要樹上有足夠螞蟻，牠們能很好地消滅一些害蟲，主要是較大型昆蟲；對其他害蟲也有一定效果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More recent trials have shown that these trees yield just as big a crop as those protected by expensive chemical sprays.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "較近期試驗顯示，這些樹的收成和由昂貴化學噴劑保護的樹一樣大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可知有螞蟻的樹在害蟲控制和收成方面效果好。題目說 lost more leaves，可能方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目中的 “leaves” 在原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Trees with yellow ants produced almost 20 per cent more healthy leaves than those without.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Trees with yellow ants produced almost 20 per cent more healthy leaves than those without.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有 yellow ants 的樹，比沒有 yellow ants 的樹多產生將近 20% 的健康葉子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 with ants → more healthy leaves。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 with ants → lost more leaves。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "方向衝突。more healthy leaves 與 lost more leaves 意思相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Orchards using ants produce crops as large as those protected by chemical pesticides.”",
+      "translation": "使用螞蟻的果園，產量和用化學農藥保護的果園一樣大。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。定位詞是 ants、produce crops、as large as、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "chemical pesticides。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 11"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Research in the early 1960s showed that as long as there were enough ants in the trees, they did an excellent job of dispatching some pests – mainly the larger insects – and had modest success against others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1960 年代初的研究顯示，只要樹上有足夠螞蟻，牠們能很好地消滅一些害蟲，主要是較大型昆蟲；對其他害蟲也有一定效果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More recent trials have shown that these trees yield just as big a crop as those protected by expensive chemical sprays.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "較近期試驗顯示，這些樹的收成和由昂貴化學噴劑保護的樹一樣大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "末句直接對應題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “produce crops as large as” 對應原文 “yield just as big a crop as”。chemical"
+            },
+            {
+              "kind": "paragraph",
+              "text": "pesticides 對應 “expensive chemical sprays”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“More recent trials have shown that these trees yield just as big a crop as those protected by expensive chemical sprays.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "較近期試驗顯示，這些樹的收成和那些由昂貴化學噴劑保護的樹一樣大。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "orchards using ants = these trees，也就是前文有 yellow ants 的樹produce crops = yield a crop as large as = just as big as chemical pesticides = chemical sprays題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Citrus ants often cause considerable environmental damage in orchards.”",
+      "translation": "citrus ants 經常在果園中造成相當大的環境破壞。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。定位詞是 environmental damage、orchards、ants。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要找文章對 ants 的長期生態影響評價。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 14"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Orange growers who rely on carnivorous ants rather than poisonous chemicals maintain a better balance of species in their orchards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "依靠肉食性螞蟻而不用有毒化學品的橙農，能在果園中維持更好的物種平衡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the long run, ants do a lot less damage than chemicals – and they’re certainly more effective than excommunication.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "長遠來看，螞蟻造成的損害比化學品少得多，而且肯定比逐出教會有效。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都偏向正面評價 ants：牠們維持物種平衡，長期損害較少。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “considerable environmental damage” 對應原文可能的 “damage”。掃描最後一"
+            },
+            {
+              "kind": "paragraph",
+              "text": "句，找到 “ants do a lot less damage than chemicals”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句組是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Orange growers who rely on carnivorous ants rather than poisonous chemicals maintain a better balance of species in their orchards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "依靠肉食性螞蟻取代有毒化學品的橙農，能在果園中維持更好的物種平衡。"
+            },
+            {
+              "kind": "quote",
+              "text": "“In the long run, ants do a lot less damage than chemicals...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "長遠而言，螞蟻造成的損害比化學品少得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 ants often cause considerable environmental damage。原文說 ants 維持 better balance，且 damage less than chemicals。這和題目方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The Ant and the Mandarin.pdf",
+    "sha256": "b924de230f84eda9e102319b6a6a08a4980762366c9236f3dcbe492364a6e4e5",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Step 1：全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句以 1476 年瑞士 Berne 農民把 cutworms 告上法庭作開場，末句說需求增加後出現了 ant farming。只看首尾句，可先知道這段在比較歐洲和中國處理害蟲的方法：歐洲依靠宗教和法律式處理，中國較實際，利用 frogs、ducks 和 ants。這段亦引出全文核心：biological control 的概念由yellow citrus ant 開始，並逐漸形成交易和農業技術。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 yellow citrus ant 雖會咬人，卻非常受歡迎；末句說中國橙農至少 17 世紀以來都利用這些“six-legged killing machines” 保持果園健康和高產。只看首尾句，可見本段主要介紹這種螞蟻的實用價值。中間描寫牠體型大、跑得快、咬合力強，對人痛、對害蟲致命，說明農民為何願意忍受牠的攻擊性。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 citrus fruits 起源於 Far East，中國很早便發現其果肉的美味；末句說果農明顯需要方法保護果園。只看首尾句，可推測本段交代問題背景：中國既是 citrus 的祖先地，也有最多樣的 citrus pests。中間列出 mandarins、black ants、mealy bugs、caterpillars 等，說明中國果園面對多種食葉、吸汁和破壞果實的昆蟲。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說西方直到 20 世紀初才發現中國橙農的秘密武器；末句說 Swingle 得知附近村民會 “grow” ants，並按巢出售給橙農。只看首尾句，可知本段重點是西方發現中國 ant farming 的過程。中間提到 1915 年 Florida citrus canker 疫情，以及 Walter Swingle 到中國尋找抗病橙種，後來在Guangzhou 附近研究果園時接觸 cultivated ants 的故事。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說關於 citrus ants 在橙樹間工作的最早報告，見於 Hsi Han 於 AD 304 寫的熱帶和亞熱帶植物書。末句說若 kan trees 沒有這種螞蟻，果實會被害蟲損壞，沒有一個完美。只看首尾句，可知本段是古代文字證據，尤其涉及市場售賣螞蟻、rush matting bags、silk-like nests 和防蟲效果。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說早期農民依靠從野外收集或在市場購買的 ant nests；末句引用 Liu Hsun 約 AD 890 的記載，說人們爭相為橙樹購買 ant nests。只看首尾句，可知本段繼續交代 ant nest trade 的早期階段。重點是農民已相信沒有螞蟻的橙樹會長出 wormy fruits，因此市場交易相當活躍，買巢成為常見做法。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說這門生意很快變得更精細；末句說農民把 bladders 綁到樹上，螞蟻會擴散到其他樹並建立新巢。只看首尾句，可知本段介紹人工捕捉和飼養螞蟻的方法。中間提到 10 世紀起，人們用裝有脂肪的 hogs’ or sheep’s bladders 作 artificial nests，待螞蟻遷入後取走，Chuang Chi-Yu 於 1130年稱之為 “rearing orange ants”。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說到 17 世紀，果農在樹與樹之間建 bamboo walkways，加快螞蟻殖民整個果園。末句引用Chhii Ta-Chun 於 1700 年的說法，指出 hand labour 遠不及 ant power 有效率。只看首尾句，可知本段重點是技術成熟後，農民主動管理螞蟻在果園中的移動。bamboo bridges 令螞蟻快速建立大量 nests，並有效控制 caterpillars 等害蟲。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 Swingle 同樣對這套方法印象深刻，但許多西方生物學家對他的報告抱懷疑態度；末句說中國人在 biological control 方面已精通數百年。只看首尾句，可知本段對比西方和中國的認知差距。中間提到 1888 年 California 利用 Australian vedalia beetle 控制 cottony cushion scale，西方以為這是首創，Swingle 則知道中國早已有更長傳統。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說中國果園中使用螞蟻的悠久傳統，在 1950s 和 1960s 因 powerful organic insecticides 的引入而開始動搖；末句說果農有充分理由信任自己的 insect workforce。只看首尾句，可知本段描述化學農藥興起、部分農民保留螞蟻、使用化學品者後來失望，以及 late 1960s 重啟 old ant patrols。這段是時間題和 TRUE/FALSE 題的重要來源。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說 early 1960s 研究顯示，只要樹上有足夠螞蟻，牠們就能很好地消滅某些害蟲，尤其是較大型昆蟲；末句說較近期試驗顯示，這些樹的收成和昂貴化學噴劑保護的樹一樣大。只看首尾句，可知本段是科學效果評估。中間提到有螞蟻的樹比沒有螞蟻的樹多出約 20% healthy leaves。"
+      },
+      {
+        "number": "12",
+        "summary": "首句說使用螞蟻的一個明顯缺點，也是早期西方科學家懷疑的主要原因之一，是 citrus ants 不控制 mealy bugs。末句說橙農一直否認這是問題，但西方科學家以為自己更懂。只看首尾句，可知本段處理反方疑慮：螞蟻保護 mealy bugs，因為牠們會分泌 sweet honeydew。這段主要解釋為何 Western scientists 對螞蟻防治仍有保留。"
+      },
+      {
+        "number": "13",
+        "summary": "首句說 1980s 的研究顯示，果農一直是對的。末句說在螞蟻保護下大量繁殖的 mealy bugs，通常被嚴重寄生，因此其傷害受限制。只看首尾句，可知本段回應上一段疑慮。它指出 mealy bugs 雖在螞蟻保護下增加，但寄生情況會限制其危害。這使 orange growers 的經驗判斷得到後來研究支持。"
+      },
+      {
+        "number": "14",
+        "summary": "首句說依靠 carnivorous ants 而不用 poisonous chemicals 的果農，可在果園維持更佳物種平衡；末句說螞蟻長遠造成的損害比化學品少，也肯定比 excommunication 有效。只看首尾句，可知最後一段是全文結論。它把 biological control 的生態優勢收束起來：螞蟻處理較大害蟲，其他predatory species 控制 scale insects 和 aphids，整體比化學方法更穩定。"
+      }
+    ]
+  }
+}

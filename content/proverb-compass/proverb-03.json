@@ -1,0 +1,2418 @@
+{
+  "id": "proverb-03",
+  "titleEn": "Once Bitten, Twice Shy",
+  "titleZh": "一朝被蛇咬，十年怕草繩",
+  "version": "2026-10-28.1",
+  "items": [
+    {
+      "id": "proverb-03-q01",
+      "number": 1,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q01",
+        "prompt": "The bakery delivered my birthday cake a day late last year. I now check the delivery date carefully before ordering from it.",
+        "answer": "Once bitten, twice shy: I now check the delivery date carefully before ordering from that bakery."
+      },
+      "promptEn": "The bakery delivered my birthday cake a day late last year. I now check the delivery date carefully before ordering from it.",
+      "promptZh": "那間餅店去年遲了一天才送到我的生日蛋糕。我現在向它訂購前，會仔細確認送貨日期。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Once bitten, twice shy: last year the bakery delivered my cake a day late, so I now check the delivery date before ordering from it.",
+          "reasonZh": "去年蛋糕遲送一天，現在訂購前查日期；經歷與後續防範連成因果。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Once bitten, twice shy: last year the bakery delivered my cake a week early, so I now check the delivery date before ordering from it.",
+          "reasonZh": "原文遲一天，不是早一星期。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Once bitten, twice shy: last year the bakery delivered my cake a day late, so I now check the delivery date only after paying from it.",
+          "reasonZh": "原文訂購前確認，不是付款後才問。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Once bitten, twice shy: last year the bakery delivered my cake a day late, so I now avoid every bakery forever before ordering from it.",
+          "reasonZh": "原文仍可向同店訂購，只加強確認。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q02",
+      "number": 2,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q02",
+        "prompt": "An online seller sent Nina a damaged phone. She now reads every customer review before buying another phone online.",
+        "answer": "Nina now reads every customer review before buying another phone online—once bitten, twice shy."
+      },
+      "promptEn": "An online seller sent Nina a damaged phone. She now reads every customer review before buying another phone online.",
+      "promptZh": "一名網上賣家把損壞了的電話寄給 Nina。她現在網購另一部電話前，會閱讀每一則顧客評論。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After receiving a damaged phone, Nina now reads every customer review before buying another phone online—once bitten, twice shy.",
+          "reasonZh": "損壞電話令 Nina 網購前讀每則評論；沒有停止所有網購。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After receiving a damaged phone, Nina now reads only the seller’s slogan before buying another phone online—once bitten, twice shy.",
+          "reasonZh": "原文是每則顧客評論，不是賣家的口號。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After receiving a damaged phone, Nina now reads every customer review after buying another phone online—once bitten, twice shy.",
+          "reasonZh": "先查評論再買，不能倒轉。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "After receiving a phone she had damaged herself, Nina now reads every customer review before buying another phone online—once bitten, twice shy.",
+          "reasonZh": "原文賣家寄來已損壞的電話，並非 Nina 自己弄壞。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q03",
+      "number": 3,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q03",
+        "prompt": "Omar’s previous group partner did none of the work. Omar is therefore careful about choosing the same partner again.",
+        "answer": "For Omar, it is a case of once bitten, twice shy: he is careful about choosing the same group partner again."
+      },
+      "promptEn": "Omar’s previous group partner did none of the work. Omar is therefore careful about choosing the same partner again.",
+      "promptZh": "Omar 上次的小組伙伴完全沒有工作。因此，Omar 對再次選擇同一名伙伴十分謹慎。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Omar’s partner did none of the work, so he is careful about choosing the same partner again—once bitten, twice shy.",
+          "reasonZh": "Omar 對再次選同一位不做事的伙伴謹慎；沒有推論所有人都不可靠。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Omar’s partner did most of the work, so he is careful about choosing the same partner again—once bitten, twice shy.",
+          "reasonZh": "原文伙伴完全沒工作。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Omar’s partner did none of the work, so he is careful about choosing any partner whatsoever again—once bitten, twice shy.",
+          "reasonZh": "原文針對同一伙伴，不是拒絕所有人。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Omar’s partner did none of the work, so he is eager to choose without checking the same partner again—once bitten, twice shy.",
+          "reasonZh": "謹慎與不作考慮便急於選擇相反。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q04",
+      "number": 4,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q04",
+        "prompt": "The family’s hotel room was dirty on their last holiday. They now check recent photographs before booking a room.",
+        "answer": "After the dirty hotel room on their last holiday, the family now checks recent photographs before booking—once bitten, twice shy."
+      },
+      "promptEn": "The family’s hotel room was dirty on their last holiday. They now check recent photographs before booking a room.",
+      "promptZh": "這個家庭上次旅行時入住的酒店房間十分骯髒。他們現在訂房前會查看近期照片。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After the dirty hotel room on their last holiday, the family now checks recent photographs before booking—once bitten, twice shy.",
+          "reasonZh": "髒房間是先前壞經驗，近期照片是現在訂房前的檢查。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After the dirty hotel room on their last holiday, the family now checks only the oldest photographs before booking—once bitten, twice shy.",
+          "reasonZh": "原文近期照片，不是只看最舊的。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After the dirty hotel room on their last holiday, the family now checks recent photographs after checking out—once bitten, twice shy.",
+          "reasonZh": "防範在訂房前，不是退房後。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "After the perfectly clean hotel room on their last holiday, the family now checks recent photographs before booking—once bitten, twice shy.",
+          "reasonZh": "乾淨房間抹掉了導致戒心的壞經驗。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q05",
+      "number": 5,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q05",
+        "prompt": "I lent a friend money, but the friend never repaid me. I will not lend that person more money.",
+        "answer": "“Once bitten, twice shy,” I said, refusing to lend that friend more money."
+      },
+      "promptEn": "I lent a friend money, but the friend never repaid me. I will not lend that person more money.",
+      "promptZh": "我曾借錢給一名朋友，但對方一直沒有還錢。我不會再借錢給那個人。",
+      "options": [
+        {
+          "id": "key",
+          "text": "My friend never repaid me, so I will not lend that friend more money—once bitten, twice shy.",
+          "reasonZh": "朋友未還錢，說話者拒絕再借給同一人；不是拒絕所有朋友。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "My friend never repaid me, so I will not lend every friend I have more money—once bitten, twice shy.",
+          "reasonZh": "原文只針對未還錢的朋友。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "My friend repaid me early, so I will not lend that friend more money—once bitten, twice shy.",
+          "reasonZh": "未償還與提早還清相反。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "My friend never repaid me, so I have promised to lend that friend more money—once bitten, twice shy.",
+          "reasonZh": "拒絕再借，不是承諾借出。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q06",
+      "number": 6,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q06",
+        "prompt": "Eva’s writing app once lost an important piece of work. She now saves an extra copy of every document.",
+        "answer": "Once bitten, twice shy: Eva now saves an extra copy of every document."
+      },
+      "promptEn": "Eva’s writing app once lost an important piece of work. She now saves an extra copy of every document.",
+      "promptZh": "Eva 的寫作應用程式曾遺失一份重要文件。她現在會為每份文件額外保存一個副本。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Eva’s app lost an important piece of work; once bitten, twice shy, she now saves an extra copy of every document.",
+          "reasonZh": "Eva 曾遺失重要作品，因此每份文件多存一份；every 的範圍保留。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Eva’s app lost an important piece of work; once bitten, twice shy, she now saves an extra copy of only unimportant documents.",
+          "reasonZh": "原文每份文件，不只不重要的。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Eva’s app lost an important piece of work; once bitten, twice shy, she now saves just the original copy of every document.",
+          "reasonZh": "extra 是額外副本，原檔本身不算。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Eva’s app made all her work safer; once bitten, twice shy, she now saves an extra copy of every document.",
+          "reasonZh": "原先的事故是遺失，不是改善安全。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q07",
+      "number": 7,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q07",
+        "prompt": "Hana paid for ten lessons, but the tutor repeatedly cancelled them. She now books only one lesson at a time.",
+        "answer": "Since her tutor repeatedly cancelled the lessons she had paid for, Hana books only one lesson at a time—once bitten, twice shy."
+      },
+      "promptEn": "Hana paid for ten lessons, but the tutor repeatedly cancelled them. She now books only one lesson at a time.",
+      "promptZh": "Hana 支付了十堂課的費用，但導師多次取消課堂。她現在每次只會預訂一堂課。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Since her tutor repeatedly cancelled lessons from her prepaid block of ten, Hana books only one lesson at a time—once bitten, twice shy.",
+          "reasonZh": "Hana 預付十堂卻被多次取消，改為每次一堂；仍會上課。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Since her tutor repeatedly cancelled one free lesson, Hana books only one lesson at a time—once bitten, twice shy.",
+          "reasonZh": "原文十堂已付費，不是一堂免費課。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Since her tutor repeatedly cancelled lessons from her prepaid block of ten, Hana books a full year of lessons at a time—once bitten, twice shy.",
+          "reasonZh": "縮小承諾才符合原文的防範。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Since her tutor always delivered lessons from her prepaid block of ten, Hana books only one lesson at a time—once bitten, twice shy.",
+          "reasonZh": "原文導師多次取消，非每次如期授課。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q08",
+      "number": 8,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q08",
+        "prompt": "Ben felt ill after eating at that restaurant. He is now unwilling to eat there again.",
+        "answer": "It is a case of once bitten, twice shy for Ben: after feeling ill there, he is unwilling to eat at the restaurant again."
+      },
+      "promptEn": "Ben felt ill after eating at that restaurant. He is now unwilling to eat there again.",
+      "promptZh": "Ben 在那間餐廳吃東西後感到不適。他現在不願再次到那裏用膳。",
+      "options": [
+        {
+          "id": "key",
+          "text": "It is a case of once bitten, twice shy for Ben: after feeling ill there, he is unwilling to eat at the restaurant again.",
+          "reasonZh": "Ben 在該餐廳吃後不適，因而不願再去；不能擴大到不再吃任何食物。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "It is a case of once bitten, twice shy for Ben: after feeling ill there, he is unwilling to eat at any restaurant ever again.",
+          "reasonZh": "原文只說那間餐廳。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "It is a case of once bitten, twice shy for Ben: before he had ever eaten there, he is unwilling to eat at the restaurant again.",
+          "reasonZh": "戒心是壞經驗之後，不是從未去過。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "It is a case of once bitten, twice shy for Ben: after feeling ill there, he is eager to eat at the restaurant again.",
+          "reasonZh": "原文不願意，並非熱切想去。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q09",
+      "number": 9,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q09",
+        "prompt": "The cheap paint we bought began to fall off the wall within a month. We will choose a better brand next time.",
+        "answer": "The paint peeled within a month, so we will choose a better brand next time—once bitten, twice shy."
+      },
+      "promptEn": "The cheap paint we bought began to fall off the wall within a month. We will choose a better brand next time.",
+      "promptZh": "我們購買的廉價油漆在一個月內便開始從牆上剝落。下次我們會選擇較好的品牌。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The paint peeled within a month, so we will choose a better brand next time—once bitten, twice shy.",
+          "reasonZh": "油漆一個月內剝落，下次改選較好品牌；保留時間與計劃。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The paint peeled after twenty years, so we will choose a better brand next time—once bitten, twice shy.",
+          "reasonZh": "剝落時間是品質問題的線索，不能改為二十年後。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The paint peeled within a month, so we will choose the same cheap paint without checking next time—once bitten, twice shy.",
+          "reasonZh": "原文決定較好品牌，不是毫不檢查繼續用舊款。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The paint peeled within a month, so we will choose a better brand before this purchase—once bitten, twice shy.",
+          "reasonZh": "計劃在下次實行，不是之前已做。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q10",
+      "number": 10,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q10",
+        "prompt": "Amir once bought a fake concert ticket. He now buys tickets only from official websites.",
+        "answer": "As the saying goes, once bitten, twice shy: after buying a fake concert ticket, Amir now buys tickets only from official websites."
+      },
+      "promptEn": "Amir once bought a fake concert ticket. He now buys tickets only from official websites.",
+      "promptZh": "Amir 曾經買到一張假音樂會門票。他現在只會在官方網站購買門票。",
+      "options": [
+        {
+          "id": "key",
+          "text": "As the saying goes, once bitten, twice shy: after buying a fake concert ticket, Amir now buys tickets only from official websites.",
+          "reasonZh": "Amir 買過假票後只向官方網站購票；仍可參與音樂會。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "As the saying goes, once bitten, twice shy: after buying a fake concert ticket, Amir now buys tickets from whichever site is cheapest.",
+          "reasonZh": "原文明定只用官方網站，不是只看價格。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "As the saying goes, once bitten, twice shy: after buying a valid concert ticket, Amir now buys tickets only from official websites.",
+          "reasonZh": "假票才是壞經驗，真票沒有這項問題。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "As the saying goes, once bitten, twice shy: after buying a fake concert ticket, Amir has stopped buying any tickets only from official websites.",
+          "reasonZh": "原文繼續購票，只改變渠道。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q11",
+      "number": 11,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q11",
+        "prompt": "Priya once missed a flight because her bus arrived very late. She will leave home much earlier next time.",
+        "answer": "After missing a flight because her bus was late, Priya will leave home much earlier next time—once bitten, twice shy."
+      },
+      "promptEn": "Priya once missed a flight because her bus arrived very late. She will leave home much earlier next time.",
+      "promptZh": "Priya 曾因巴士嚴重延誤而錯過航班。下次她會提早很多離開家中。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After missing a flight because her bus was late, Priya will leave home much earlier next time—once bitten, twice shy.",
+          "reasonZh": "Priya 因遲到巴士錯過航班，決定下次提早很多出門。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After missing a flight because she chose to sleep late, Priya will leave home much earlier next time—once bitten, twice shy.",
+          "reasonZh": "原文原因是巴士延誤，非故意睡懶覺。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After missing a flight because her bus was late, Priya will leave home at the same time next time—once bitten, twice shy.",
+          "reasonZh": "原文會提早很多，不是維持原定時間。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "After missing a flight because her bus was late, Priya has always left home much earlier next time—once bitten, twice shy.",
+          "reasonZh": "將來的改變不等於一向如此。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q12",
+      "number": 12,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q12",
+        "prompt": "Marcus’s previous manager changed his pay after he had accepted the job. Marcus may refuse another job unless the pay is confirmed in writing.",
+        "answer": "Once bitten, twice shy: Marcus may refuse another job unless the pay is confirmed in writing."
+      },
+      "promptEn": "Marcus’s previous manager changed his pay after he had accepted the job. Marcus may refuse another job unless the pay is confirmed in writing.",
+      "promptZh": "Marcus 的上一名經理在他接受工作後更改了薪金。除非薪金以書面確認，否則 Marcus 可能會拒絕另一份工作。",
+      "options": [
+        {
+          "id": "key",
+          "text": "His previous manager changed his pay after he accepted the job; once bitten, twice shy, Marcus may refuse another job unless the pay is confirmed in writing.",
+          "reasonZh": "上一份工的薪金被事後更改，所以 Marcus 可能要求書面確認才接受另一份工。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "His previous manager changed his pay after he accepted the job; once bitten, twice shy, Marcus has definitely refused another job unless the pay is confirmed in writing.",
+          "reasonZh": "may 只是可能，不能改成已確實拒絕。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "His previous manager changed his pay after he accepted the job; once bitten, twice shy, Marcus may refuse another job even if the pay is confirmed in writing.",
+          "reasonZh": "unless 保留可接受的條件，even if 表示條件也無用。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "His previous manager changed his pay before he applied for the job; once bitten, twice shy, Marcus may refuse another job unless the pay is confirmed in writing.",
+          "reasonZh": "原文接受後才改薪，不是申請前。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q13",
+      "number": 13,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q13",
+        "prompt": "I had lost all my photographs when my only storage drive stopped working. By the following year, I was keeping two copies of every photograph.",
+        "answer": "By the following year, it was a case of once bitten, twice shy: I was keeping two copies of every photograph."
+      },
+      "promptEn": "I had lost all my photographs when my only storage drive stopped working. By the following year, I was keeping two copies of every photograph.",
+      "promptZh": "我唯一的儲存裝置失靈時，所有照片都遺失了。到了下一年，我已開始為每張照片保存兩個副本。",
+      "options": [
+        {
+          "id": "key",
+          "text": "By the following year, after my only storage drive failed and I lost all my photographs, I was keeping two copies of every photograph—once bitten, twice shy.",
+          "reasonZh": "唯一儲存裝置壞掉導致全失；到了下一年，每張照片都有兩份。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Before the drive had ever failed, after my only storage drive failed and I lost all my photographs, I was keeping two copies of every photograph—once bitten, twice shy.",
+          "reasonZh": "原文是事故後，到下一年已養成習慣。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "By the following year, after my only storage drive failed and I lost all my photographs, I was keeping one copy of selected photographs—once bitten, twice shy.",
+          "reasonZh": "原文每張兩份，不是部分照片一份。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "By the following year, after my spare drive worked perfectly, I was keeping two copies of every photograph—once bitten, twice shy.",
+          "reasonZh": "原文唯一裝置失靈，不能換成備用裝置正常。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q14",
+      "number": 14,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q14",
+        "prompt": "A: Why will you not pay for a full year at the new gym? B: The last gym closed only two months after I joined.",
+        "answer": "Once bitten, twice shy: I will not pay for a full year until I know that the new gym is reliable."
+      },
+      "promptEn": "A: Why will you not pay for a full year at the new gym? B: The last gym closed only two months after I joined.",
+      "promptZh": "甲：你為甚麼不願支付新健身中心一整年的費用？乙：我加入上一間健身中心後僅兩個月，它便倒閉了。",
+      "options": [
+        {
+          "id": "key",
+          "text": "My last gym closed two months after I joined; once bitten, twice shy, I will not pay for a full year at the new gym.",
+          "reasonZh": "舊健身中心入會兩個月便倒閉，說話者因此不願預付新中心整年費用。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "My last gym closed ten years after I joined; once bitten, twice shy, I will not pay for a full year at the new gym.",
+          "reasonZh": "倒閉距入會只有兩個月，不是十年。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "My last gym closed two months after I joined; once bitten, twice shy, I will not pay for a single visit at the new gym.",
+          "reasonZh": "原文拒絕整年預付，未說單次也不付。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "My last gym gave me excellent service two months after I joined; once bitten, twice shy, I will not pay for a full year at the new gym.",
+          "reasonZh": "倒閉才是受損經驗，不是服務出色。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q15",
+      "number": 15,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q15",
+        "prompt": "The Chens’ first house had several hidden water leaks. When they bought their second home, they paid someone to check it carefully.",
+        "answer": "When the Chens bought their second home, they paid someone to check it carefully—once bitten, twice shy."
+      },
+      "promptEn": "The Chens’ first house had several hidden water leaks. When they bought their second home, they paid someone to check it carefully.",
+      "promptZh": "陳家購買的第一間房屋有多處隱藏漏水問題。他們購買第二間房屋時，付費請人仔細檢查。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After hidden leaks in their first house, the Chens paid someone to inspect their second home before buying it—once bitten, twice shy.",
+          "reasonZh": "陳家首間房有暗漏，買第二間時付費驗屋；不是檢查後才發現首間問題。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After hidden leaks in their first house, the Chens paid someone to inspect their first home before buying it—once bitten, twice shy.",
+          "reasonZh": "原文檢查的是第二間。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After hidden leaks in their first house, the Chens skipped inspection to save money when buying their second home—once bitten, twice shy.",
+          "reasonZh": "原文付費檢查，並非省略。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "After no plumbing problems in their first house, the Chens paid someone to inspect their second home before buying it—once bitten, twice shy.",
+          "reasonZh": "首間有隱藏漏水，不能改為沒有問題。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q16",
+      "number": 16,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q16",
+        "prompt": "A school bus company had repeatedly arrived late. Before signing another agreement, the school decided to check the company’s record carefully.",
+        "answer": "The school will check the bus company’s record carefully before signing another agreement—once bitten, twice shy."
+      },
+      "promptEn": "A school bus company had repeatedly arrived late. Before signing another agreement, the school decided to check the company’s record carefully.",
+      "promptZh": "一間校巴公司曾多次遲到。學校決定在簽署另一份協議前，仔細查核該公司的紀錄。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After the bus company repeatedly arrived late, the school decided to check its record before signing another agreement—once bitten, twice shy.",
+          "reasonZh": "校巴多次遲到後，學校決定簽新約前查紀錄；保留已作決定的時態。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After the bus company repeatedly arrived late, the school decided to ignore its record before signing another agreement—once bitten, twice shy.",
+          "reasonZh": "原文決定查核，不是忽略。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After the bus company repeatedly arrived late, the school decided to check its record only after signing another agreement—once bitten, twice shy.",
+          "reasonZh": "簽約前的預防不能改成簽後。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "After the bus company always arrived early, the school decided to check its record before signing another agreement—once bitten, twice shy.",
+          "reasonZh": "原文多次遲到，不是每次提早。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q17",
+      "number": 17,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q17",
+        "prompt": "Asha once developed a rash after using an unfamiliar skin cream. She now tests a small amount before using any new cream.",
+        "answer": "Because an unfamiliar skin cream once caused a rash, Asha now tests a small amount first—once bitten, twice shy."
+      },
+      "promptEn": "Asha once developed a rash after using an unfamiliar skin cream. She now tests a small amount before using any new cream.",
+      "promptZh": "Asha 曾在使用一種陌生的護膚霜後出現紅疹。她現在使用任何新護膚霜前，都會先試用少量。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Because an unfamiliar cream once caused a rash, Asha now tests a small amount before using any new cream—once bitten, twice shy.",
+          "reasonZh": "Asha 過去用陌生護膚霜出疹，現在每款新霜先試少量；這是在描述她的行為。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Because an unfamiliar cream once caused a rash, Asha now tests a small amount before using only the old cream—once bitten, twice shy.",
+          "reasonZh": "原文每款新的護膚霜，不是只試舊款。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Because an unfamiliar cream once caused a rash, Asha now tests a full faceful immediately before using any new cream—once bitten, twice shy.",
+          "reasonZh": "原文先少量試用，不是立即大量用。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Because an unfamiliar cream had never caused any reaction, Asha now tests a small amount before using any new cream—once bitten, twice shy.",
+          "reasonZh": "題目已有一次紅疹經驗。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q18",
+      "number": 18,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q18",
+        "prompt": "The manager introduced the previous service too quickly, and many customers complained. This time, she will test the service first.",
+        "answer": "Once bitten, twice shy: the manager will test the service before offering it to every customer."
+      },
+      "promptEn": "The manager introduced the previous service too quickly, and many customers complained. This time, she will test the service first.",
+      "promptZh": "經理上次太快推出新服務，結果很多顧客投訴。今次她會先測試服務。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The manager introduced the last service too quickly and received many complaints; this time she will test it first—once bitten, twice shy.",
+          "reasonZh": "上次服務推出過急被投訴，今次經理先測試；先前問題與改變均有交代。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The manager introduced the last service after extensive successful testing and received many complaints; this time she will test it first—once bitten, twice shy.",
+          "reasonZh": "原文推出過急，非充分測試成功後才推。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The manager introduced the last service too quickly and received many complaints; this time she will release it immediately without a test—once bitten, twice shy.",
+          "reasonZh": "原文今次會先測試。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The manager introduced the last service too quickly and received unanimous praise; this time she will test it first—once bitten, twice shy.",
+          "reasonZh": "上次收到投訴，不是全體讚賞。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q19",
+      "number": 19,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q19",
+        "prompt": "Jay shared his password with a teammate, who then changed his account settings. Jay no longer shares his password with anyone.",
+        "answer": "After a teammate changed his account settings, Jay stopped sharing his password—once bitten, twice shy."
+      },
+      "promptEn": "Jay shared his password with a teammate, who then changed his account settings. Jay no longer shares his password with anyone.",
+      "promptZh": "Jay 把密碼告訴一名隊友，而對方其後更改了他的帳戶設定。Jay 現在不再與任何人分享密碼。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After a teammate changed his account settings, Jay stopped sharing his password with anyone—once bitten, twice shy.",
+          "reasonZh": "隊友更改帳戶設定後，Jay 不再向任何人分享密碼；anyone 保留範圍。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After a teammate changed his account settings, Jay stopped sharing his password with only that teammate—once bitten, twice shy.",
+          "reasonZh": "原文不向任何人分享，不只限制那名隊友。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After a teammate kept every setting untouched, Jay stopped sharing his password with anyone—once bitten, twice shy.",
+          "reasonZh": "原文隊友改了設定。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "After a teammate changed his account settings, Jay started publishing his password with anyone—once bitten, twice shy.",
+          "reasonZh": "停止分享與公開密碼相反。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q20",
+      "number": 20,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q20",
+        "prompt": "The club’s outdoor event was cancelled because it had no plan for rain. The club now always prepares an indoor plan.",
+        "answer": "The club now always prepares an indoor plan for its outdoor events—once bitten, twice shy."
+      },
+      "promptEn": "The club’s outdoor event was cancelled because it had no plan for rain. The club now always prepares an indoor plan.",
+      "promptZh": "學會的戶外活動因沒有雨天安排而被取消。學會現在每次都會準備室內後備方案。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The club’s event was cancelled without a rain plan, so it now always prepares an indoor plan—once bitten, twice shy.",
+          "reasonZh": "活動因沒有雨天方案取消，學會現在每次備室內方案；不是永不辦戶外活動。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The club’s event was cancelled without a rain plan, so it now occasionally considers an indoor plan—once bitten, twice shy.",
+          "reasonZh": "原文每次準備，不是偶爾考慮。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The club’s event was cancelled without a rain plan, so it now always prepares only an outdoor plan—once bitten, twice shy.",
+          "reasonZh": "原文新增室內後備方案。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The club’s event went ahead without disruption without a rain plan, so it now always prepares an indoor plan—once bitten, twice shy.",
+          "reasonZh": "原先活動取消，不是順利舉行。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q21",
+      "number": 21,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q21",
+        "prompt": "A: Why are you asking the builder for a written price? B: The last builder charged me much more than we had agreed.",
+        "answer": "“Once bitten, twice shy,” I explained. “The last builder charged me much more than we had agreed.”"
+      },
+      "promptEn": "A: Why are you asking the builder for a written price? B: The last builder charged me much more than we had agreed.",
+      "promptZh": "甲：你為甚麼要求建築工人提供書面報價？乙：上一名建築工人收取的費用比我們原先同意的高很多。",
+      "options": [
+        {
+          "id": "key",
+          "text": "“Once bitten, twice shy: the last builder charged much more than we agreed, so I am asking for a written price.”",
+          "reasonZh": "上次收費超出協議，所以這次先索取書面報價；沒有說新工人已經多收。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "“Once bitten, twice shy: the new builder charged much more than we agreed, so I am asking for a written price.”",
+          "reasonZh": "多收的是上一位，不能指控新一位已多收。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "“Once bitten, twice shy: the last builder charged much less than we agreed, so I am asking for a written price.”",
+          "reasonZh": "原文收得更多，不是更少。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "“Once bitten, twice shy: the last builder charged much more than we agreed, so I am asking for a verbal promise only.”",
+          "reasonZh": "要求書面報價，非只要口頭承諾。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q22",
+      "number": 22,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q22",
+        "prompt": "A: Are you going to use that travel website again? B: No. Last time, I arrived at the hotel and discovered that it had no record of my booking.",
+        "answer": "No, I will not use that travel website again—once bitten, twice shy. Last time, the hotel had no record of my booking."
+      },
+      "promptEn": "A: Are you going to use that travel website again? B: No. Last time, I arrived at the hotel and discovered that it had no record of my booking.",
+      "promptZh": "甲：你會再次使用那個旅遊網站嗎？乙：不會。上次我到達酒店後，才發現酒店沒有我的預訂紀錄。",
+      "options": [
+        {
+          "id": "key",
+          "text": "No, I will not use that travel website again—once bitten, twice shy. Last time, the hotel had no record of my booking.",
+          "reasonZh": "酒店沒有預訂紀錄，說話者不再用該網站；對象是同一網站。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "No, I will not use every travel website again—once bitten, twice shy. Last time, the hotel had no record of my booking.",
+          "reasonZh": "原文只拒絕用那個網站。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "No, I will not use that travel website again—once bitten, twice shy. Last time, the hotel had a confirmed record of my booking.",
+          "reasonZh": "原文無紀錄，不能改成確認成功。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "No, I will not use that travel website again—once bitten, twice shy. Every time in my life, the hotel had no record of my booking.",
+          "reasonZh": "只有上次經驗，不能擴大到一生每次。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q23",
+      "number": 23,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q23",
+        "prompt": "A friend shared Suki’s private secret with other people. Suki is now careful about trusting people too quickly.",
+        "answer": "After a friend shared her private secret, Suki became careful about trusting people too quickly—once bitten, twice shy."
+      },
+      "promptEn": "A friend shared Suki’s private secret with other people. Suki is now careful about trusting people too quickly.",
+      "promptZh": "一名朋友把 Suki 的私人秘密告訴其他人。Suki 現在不會太快信任別人。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After a friend shared her private secret, Suki became careful about trusting people too quickly—once bitten, twice shy.",
+          "reasonZh": "Suki 被朋友洩密後較謹慎，不等於永遠不再信任任何人。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After a friend shared her private secret, Suki became determined never to trust anyone—once bitten, twice shy.",
+          "reasonZh": "謹慎的程度不能擴大為永不信人。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After a friend kept her private secret safe, Suki became careful about trusting people too quickly—once bitten, twice shy.",
+          "reasonZh": "原文朋友洩密，非保密。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Long before a friend shared her private secret, Suki became careful about trusting people too quickly—once bitten, twice shy.",
+          "reasonZh": "戒心是在洩密之後，不是很久之前。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q24",
+      "number": 24,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q24",
+        "prompt": "Raj once paid an unknown seller in full, but the product never arrived. He now refuses to pay another unknown seller before receiving the item.",
+        "answer": "Once bitten, twice shy: Raj will not pay another unknown seller in full before receiving the item."
+      },
+      "promptEn": "Raj once paid an unknown seller in full, but the product never arrived. He now refuses to pay another unknown seller before receiving the item.",
+      "promptZh": "Raj 曾向一名陌生賣家支付全數款項，但貨品一直沒有送到。他現在拒絕在收到貨品前向另一名陌生賣家支付全數款項。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Once bitten, twice shy: after his prepaid purchase never arrived, Raj will not pay another unknown seller in full before receiving the item.",
+          "reasonZh": "Raj 曾全額付款卻沒收貨，現在拒絕收貨前全付；未要求他停止購物。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Once bitten, twice shy: after his prepaid purchase never arrived, Raj will not pay another unknown seller in full after receiving the item.",
+          "reasonZh": "原文避免收貨前全付，不能改成收貨後也不付。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Once bitten, twice shy: after his prepaid purchase arrived early in perfect condition, Raj will not pay another unknown seller in full before receiving the item.",
+          "reasonZh": "舊交易沒有到貨，不是完美完成。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Once bitten, twice shy: after his prepaid purchase never arrived, Raj will not pay only his closest friend in full before receiving the item.",
+          "reasonZh": "原文新的陌生賣家，不是好友。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q25",
+      "number": 25,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q25",
+        "prompt": "A restaurant owner added a new dish to the menu without testing it, and much of the food was wasted. She now prepares only a small amount of each new dish first.",
+        "answer": "The restaurant owner now tests a small amount of each new dish before adding it to the menu—once bitten, twice shy."
+      },
+      "promptEn": "A restaurant owner added a new dish to the menu without testing it, and much of the food was wasted. She now prepares only a small amount of each new dish first.",
+      "promptZh": "一名餐廳東主未經測試便把一道新菜式加入餐單，結果浪費了大量食物。她現在會先試做少量新菜式。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After much food was wasted, the owner now tests a small amount of each new dish before adding it to the menu—once bitten, twice shy.",
+          "reasonZh": "菜式未試就推出浪費很多，餐廳現在每款新菜先做少量測試。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After much food was wasted, the owner now tests a large untested batch of each new dish before adding it to the menu—once bitten, twice shy.",
+          "reasonZh": "先少量試做，不是未試便大量生產。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After much food was wasted, the owner now tests a small amount of only long-established dishes before adding it to the menu—once bitten, twice shy.",
+          "reasonZh": "原文針對新菜，不是已有老菜。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "After every portion sold immediately, the owner now tests a small amount of each new dish before adding it to the menu—once bitten, twice shy.",
+          "reasonZh": "原先問題是浪費，不是全部賣光。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q26",
+      "number": 26,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q26",
+        "prompt": "A student accidentally deleted the class’s only project file last year. The teacher now keeps two copies of every class file.",
+        "answer": "Because a student deleted the class’s only project file last year, the teacher now keeps two copies—once bitten, twice shy."
+      },
+      "promptEn": "A student accidentally deleted the class’s only project file last year. The teacher now keeps two copies of every class file.",
+      "promptZh": "一名學生去年意外刪除了全班唯一的項目檔案。老師現在會為每個班級檔案保存兩個副本。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Because a student deleted the only project file last year, the teacher now keeps two copies of every class file—once bitten, twice shy.",
+          "reasonZh": "去年唯一專題檔案被誤刪，老師現在所有班級檔案留兩份。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Because a student deleted the only project file last year, the teacher now keeps two copies of only that one project—once bitten, twice shy.",
+          "reasonZh": "原文每個班級檔案，不只上次專題。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Because a student deleted the only project file next year, the teacher now keeps two copies of every class file—once bitten, twice shy.",
+          "reasonZh": "刪檔已在去年發生，不是明年。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Because a student deleted the only project file last year, the teacher now keeps a single copy of every class file—once bitten, twice shy.",
+          "reasonZh": "原文明確是兩份。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q27",
+      "number": 27,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q27",
+        "prompt": "Clara collected a parcel from a shop but later discovered that one item was missing. She now checks every parcel before leaving the shop.",
+        "answer": "The missing item made Clara check every parcel before leaving the shop—once bitten, twice shy."
+      },
+      "promptEn": "Clara collected a parcel from a shop but later discovered that one item was missing. She now checks every parcel before leaving the shop.",
+      "promptZh": "Clara 從店舖領取包裹後，才發現其中一件貨品不見了。她現在離開店舖前都會檢查每個包裹。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The missing item made Clara check every parcel before leaving the shop—once bitten, twice shy.",
+          "reasonZh": "Clara 收到缺件包裹後，現在每個包裹離店前檢查。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The missing item made Clara check only visibly damaged parcels before leaving the shop—once bitten, twice shy.",
+          "reasonZh": "原文每個包裹，不只外觀損壞的。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The missing item made Clara check every parcel after getting home—once bitten, twice shy.",
+          "reasonZh": "原文離店前，不是回家後。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The unexpected free gift made Clara check every parcel before leaving the shop—once bitten, twice shy.",
+          "reasonZh": "導致戒心的是缺件，不是禮物。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q28",
+      "number": 28,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q28",
+        "prompt": "Joel thought a free trial would be easy to cancel, but the company charged him for three months. He now reads all the cancellation rules first.",
+        "answer": "Once bitten, twice shy: after being charged for three months, Joel now reads the cancellation rules before starting a free trial."
+      },
+      "promptEn": "Joel thought a free trial would be easy to cancel, but the company charged him for three months. He now reads all the cancellation rules first.",
+      "promptZh": "Joel 以為免費試用可以輕易取消，但公司收取了他三個月的費用。他現在會先閱讀所有取消條款。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Once bitten, twice shy: after being charged for three months, Joel now reads all the cancellation rules before starting a free trial.",
+          "reasonZh": "Joel 試用後被收三個月費用，現在先讀全部取消條款；不是單看價錢。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Once bitten, twice shy: after being charged for three months, Joel now reads only the advertised monthly price before starting a free trial.",
+          "reasonZh": "原文全部取消條款，不是月費廣告。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Once bitten, twice shy: after being charged for three days, Joel now reads all the cancellation rules before starting a free trial.",
+          "reasonZh": "被收費三個月，不是三天。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Once bitten, twice shy: after being charged for three months, Joel now reads all the cancellation rules after finishing a free trial.",
+          "reasonZh": "先閱讀才試用，不是結束後才看。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q29",
+      "number": 29,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q29",
+        "prompt": "The group held last year’s picnic in an uncovered area, and everyone became too hot. This year, they have booked a covered area.",
+        "answer": "After last year’s picnic left everyone too hot, the group booked a covered area this year—once bitten, twice shy."
+      },
+      "promptEn": "The group held last year’s picnic in an uncovered area, and everyone became too hot. This year, they have booked a covered area.",
+      "promptZh": "小組去年在沒有遮蓋的地方舉行野餐，所有人都熱得受不了。今年他們預訂了有遮蓋的地方。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After last year’s picnic left everyone too hot, the group booked a covered area this year—once bitten, twice shy.",
+          "reasonZh": "去年無遮蓋野餐太熱，今年預訂有遮蓋位置；是針對實際不適作調整。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After last year’s picnic left everyone too hot, the group booked a another uncovered area this year—once bitten, twice shy.",
+          "reasonZh": "原文改為有遮蓋位置。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After last year’s picnic left everyone too cold, the group booked a covered area this year—once bitten, twice shy.",
+          "reasonZh": "原文是熱得受不了，不是太冷。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "After last year’s picnic left everyone too hot, the group booked a covered area the year before that picnic—once bitten, twice shy.",
+          "reasonZh": "改變在今年，不是事故之前。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q30",
+      "number": 30,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q30",
+        "prompt": "Mei accepted too many volunteer duties and became exhausted before she could finish them. She now accepts only one volunteer duty at a time.",
+        "answer": "For Mei, it was a case of once bitten, twice shy: after becoming exhausted, she began accepting only one volunteer duty at a time."
+      },
+      "promptEn": "Mei accepted too many volunteer duties and became exhausted before she could finish them. She now accepts only one volunteer duty at a time.",
+      "promptZh": "Mei 接受了太多義務工作，在完成所有工作前便已筋疲力盡。她現在每次只會接受一項義務工作。",
+      "options": [
+        {
+          "id": "key",
+          "text": "For Mei, it was a case of once bitten, twice shy: after becoming exhausted, she began accepting only one volunteer duty at a time.",
+          "reasonZh": "Mei 工作過多而累垮，改成一次一項義工職務；沒有完全放棄義工。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "For Mei, it was a case of once bitten, twice shy: after becoming exhausted, she began accepting several volunteer duties at a time.",
+          "reasonZh": "原文每次只接一項。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "For Mei, it was a case of once bitten, twice shy: after finding every task effortless, she began accepting only one volunteer duty at a time.",
+          "reasonZh": "疲憊是教訓，並非輕鬆完成。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "For Mei, it was a case of once bitten, twice shy: after becoming exhausted, she permanently stopped accepting only one volunteer duty at a time.",
+          "reasonZh": "她仍接受一項，不是永遠停止。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q31",
+      "number": 31,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q31",
+        "prompt": "Although Chloe’s new landlord seems friendly, she asks for every agreement in writing because her previous landlord unfairly kept part of her deposit.",
+        "answer": "Although Chloe’s new landlord seems friendly, she asks for every agreement in writing after unfairly losing part of her previous deposit—once bitten, twice shy."
+      },
+      "promptEn": "Although Chloe’s new landlord seems friendly, she asks for every agreement in writing because her previous landlord unfairly kept part of her deposit.",
+      "promptZh": "雖然 Chloe 的新業主看來十分友善，但她要求所有協議以書面確認，因為上一名業主曾不公平地扣起她部分按金。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Although Chloe’s new landlord seems friendly, she asks for every agreement in writing after unfairly losing part of her previous deposit—once bitten, twice shy.",
+          "reasonZh": "新業主友善也不足以消除舊按金糾紛的戒心，她仍要求所有協議書面化。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Although Chloe’s new landlord seems friendly, she asks for only the smallest agreement in writing after unfairly losing part of her previous deposit—once bitten, twice shy.",
+          "reasonZh": "原文所有協議都要書面。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Although Chloe’s new landlord has already stolen her deposit, she asks for every agreement in writing after unfairly losing part of her previous deposit—once bitten, twice shy.",
+          "reasonZh": "新業主只是看來友善，沒有偷按金的證據。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Although Chloe’s new landlord seems friendly, she asks for every agreement in writing after fairly recovering all of her previous deposit—once bitten, twice shy.",
+          "reasonZh": "原文被不公扣部分款項，不是全數追回。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q32",
+      "number": 32,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q32",
+        "prompt": "Aaron’s last online course was poorly taught. Before paying for another course, he now watches a sample lesson.",
+        "answer": "Because his last online course was poorly taught, Aaron watches a sample lesson before paying for another one—once bitten, twice shy."
+      },
+      "promptEn": "Aaron’s last online course was poorly taught. Before paying for another course, he now watches a sample lesson.",
+      "promptZh": "Aaron 上一個網上課程的教學質素很差。他現在支付另一個課程的費用前，會先觀看示範課堂。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Because his last online course was poorly taught, Aaron watches a sample lesson before paying for another one—once bitten, twice shy.",
+          "reasonZh": "劣質舊課令 Aaron 先看新課示範再付款；還是願意考慮課程。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Because his last online course was poorly taught, Aaron watches a sample lesson only after paying for another one—once bitten, twice shy.",
+          "reasonZh": "原文付款前。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Because his last online course was poorly taught, Aaron watches only the course title before paying for another one—once bitten, twice shy.",
+          "reasonZh": "示範課堂不等於課程名稱。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Because his last online course was exceptionally well taught, Aaron watches a sample lesson before paying for another one—once bitten, twice shy.",
+          "reasonZh": "上次教學差，非特別好。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q33",
+      "number": 33,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q33",
+        "prompt": "I know that airlines usually handle luggage properly. However, after an airline lost one of my bags, I began putting my contact details both inside and outside every bag.",
+        "answer": "I know that airlines usually handle luggage properly, but after losing one bag, I now put my contact details both inside and outside every bag—once bitten, twice shy."
+      },
+      "promptEn": "I know that airlines usually handle luggage properly. However, after an airline lost one of my bags, I began putting my contact details both inside and outside every bag.",
+      "promptZh": "我知道航空公司通常會妥善處理行李。不過，一間航空公司遺失我的其中一件行李後，我開始在每個行李袋的內外都放上聯絡資料。",
+      "options": [
+        {
+          "id": "key",
+          "text": "I know that airlines usually handle luggage properly, but after losing one bag, I now put my contact details both inside and outside every bag—once bitten, twice shy.",
+          "reasonZh": "說話者承認航空公司通常可靠，仍因一次遺失而在每件行李內外留聯絡資料。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "I know that airlines usually handle luggage properly, but after losing one bag, I now put my contact details only outside every bag—once bitten, twice shy.",
+          "reasonZh": "原文內外都放，不能只放外面。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "I know that airlines usually handle luggage properly, but after losing one bag, I now put my contact details both inside and outside just one bag—once bitten, twice shy.",
+          "reasonZh": "原文每件行李。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "I know that airlines always lose all luggage, but after losing one bag, I now put my contact details both inside and outside every bag—once bitten, twice shy.",
+          "reasonZh": "原文通常妥善，不是總會全部遺失。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q34",
+      "number": 34,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q34",
+        "prompt": "The team’s last order arrived several weeks late. If it uses the same seller again, it will place only a small first order.",
+        "answer": "If the team uses the same seller again, it will place only a small first order—once bitten, twice shy after the last late delivery."
+      },
+      "promptEn": "The team’s last order arrived several weeks late. If it uses the same seller again, it will place only a small first order.",
+      "promptZh": "團隊上一次的訂單遲了數星期才送到。如果再次使用同一名賣家，團隊只會先下小額訂單。",
+      "options": [
+        {
+          "id": "key",
+          "text": "If the team uses the same seller again, it will place only a small first order—once bitten, twice shy after the last order arrived several weeks late.",
+          "reasonZh": "團隊可能再用同一賣家，但首單會小；沒有說一定再訂或永久拒絕。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "When the team definitely uses the same seller again, it will place only a small first order—once bitten, twice shy after the last order arrived several weeks late.",
+          "reasonZh": "If 是條件，不是確定會再次使用。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "If the team uses the same seller again, it will place another large first order—once bitten, twice shy after the last order arrived several weeks late.",
+          "reasonZh": "原文小額首單。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "If the team uses the same seller again, it will place only a small first order—once bitten, twice shy after the last order arrived several weeks early.",
+          "reasonZh": "原文遲了數星期，不是早到。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q35",
+      "number": 35,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q35",
+        "prompt": "Nora has not stopped accepting invitations. However, after attending an event that was very different from its description, she now asks who will be there.",
+        "answer": "Nora still accepts invitations, but she now asks who will be there after attending a badly described event—once bitten, twice shy."
+      },
+      "promptEn": "Nora has not stopped accepting invitations. However, after attending an event that was very different from its description, she now asks who will be there.",
+      "promptZh": "Nora 並沒有停止接受邀請。不過，她曾參加一個與宣傳描述完全不同的活動，所以現在會先詢問有哪些人出席。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Nora still accepts invitations, but she now asks who will be there after attending a badly described event—once bitten, twice shy.",
+          "reasonZh": "Nora 仍接受邀請，只是經歷描述不符的活動後先問誰出席。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Nora refuses every invitation, but she now asks who will be there after attending a badly described event—once bitten, twice shy.",
+          "reasonZh": "原文沒有停止接受。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Nora still accepts invitations, but she now asks only whether entry is free after attending a badly described event—once bitten, twice shy.",
+          "reasonZh": "她問出席者，不是只問是否免費。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Nora still accepts invitations, but she now asks who will be there after attending an event exactly as advertised—once bitten, twice shy.",
+          "reasonZh": "原先經驗與描述不符。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q36",
+      "number": 36,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q36",
+        "prompt": "A company’s previous project with another firm was never completed. The company may work with the firm again, but only through a short trial agreement.",
+        "answer": "The company may work with the firm again, but only through a short trial agreement—once bitten, twice shy after the unfinished project."
+      },
+      "promptEn": "A company’s previous project with another firm was never completed. The company may work with the firm again, but only through a short trial agreement.",
+      "promptZh": "一間公司的上一個合作項目一直沒有完成。公司可能會再次與該機構合作，但只會先簽訂短期試行協議。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The company may work with the firm again, but only through a short trial agreement—once bitten, twice shy after the unfinished project.",
+          "reasonZh": "上次合作未完成，公司可能再合作但只試短期；may 和 only 都保留。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The company has definitely agreed to work with the firm again, but only through a short trial agreement—once bitten, twice shy after the unfinished project.",
+          "reasonZh": "可能不等於已答應。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The company may work with the firm again, but only through an unrestricted ten-year agreement—once bitten, twice shy after the unfinished project.",
+          "reasonZh": "原文只短期試行，不是十年無限制。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The company may work with the firm again, but only through a short trial agreement—once bitten, twice shy after the successfully completed project.",
+          "reasonZh": "上一項目沒完成。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q37",
+      "number": 37,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q37",
+        "prompt": "An old app lost many of Luis’s photographs. Even though a new app has good reviews, he wants to wait for more updates before using it.",
+        "answer": "Even though the new app has good reviews, Luis is waiting for more updates after an older app lost his photographs—once bitten, twice shy."
+      },
+      "promptEn": "An old app lost many of Luis’s photographs. Even though a new app has good reviews, he wants to wait for more updates before using it.",
+      "promptZh": "一個舊應用程式遺失了 Luis 的很多照片。即使一個新應用程式獲得良好評價，他仍希望等待更多更新後才使用。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Even though the new app has good reviews, Luis is waiting for more updates after an older app lost his photographs—once bitten, twice shy.",
+          "reasonZh": "Luis 的舊程式丟照片，雖然新程式好評仍等待更新；不是斷言新程式也會丟失。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Even though the new app has good reviews, Luis is installing it immediately after an older app lost his photographs—once bitten, twice shy.",
+          "reasonZh": "原文想等待。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Even though the new app has no reviews at all, Luis is waiting for more updates after an older app lost his photographs—once bitten, twice shy.",
+          "reasonZh": "原文已有好評。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Even though the new app has good reviews, Luis is waiting for more updates after this new app lost his photographs—once bitten, twice shy.",
+          "reasonZh": "丟照片的是舊程式，不是已證實新程式丟失。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q38",
+      "number": 38,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q38",
+        "prompt": "The family had a very bad meal during its last holiday. It has not stopped eating out, but it now checks recent restaurant reviews.",
+        "answer": "The family has not stopped eating out, but it now checks recent restaurant reviews after a bad holiday meal—once bitten, twice shy."
+      },
+      "promptEn": "The family had a very bad meal during its last holiday. It has not stopped eating out, but it now checks recent restaurant reviews.",
+      "promptZh": "這個家庭上次旅行時吃了一頓非常差的飯。他們並沒有停止外出用膳，但現在會查看餐廳的近期評論。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The family has not stopped eating out, but it now checks recent restaurant reviews after a bad holiday meal—once bitten, twice shy.",
+          "reasonZh": "一家人仍外出用膳，只是因上次差的旅遊餐點而看近期評價。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The family has stopped eating out entirely, but it now checks recent restaurant reviews after a bad holiday meal—once bitten, twice shy.",
+          "reasonZh": "原文明說仍外出。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The family has not stopped eating out, but it now checks only old advertisements after a bad holiday meal—once bitten, twice shy.",
+          "reasonZh": "原文近期評論，不是舊廣告。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The family has not stopped eating out, but it now checks recent restaurant reviews after a pleasant holiday meal—once bitten, twice shy.",
+          "reasonZh": "戒心來自差的餐點。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q39",
+      "number": 39,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q39",
+        "prompt": "The school once hired a coach who frequently failed to attend training. It knows that not every coach is unreliable, but it now interviews each one carefully.",
+        "answer": "The school knows that one poor coach does not make every coach unreliable, but it now interviews each one carefully—once bitten, twice shy."
+      },
+      "promptEn": "The school once hired a coach who frequently failed to attend training. It knows that not every coach is unreliable, but it now interviews each one carefully.",
+      "promptZh": "學校曾聘請一名經常缺席訓練的教練。校方知道並非每名教練都不可靠，但現在會仔細面試每一名教練。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After hiring a coach who frequently missed training, the school knows one poor coach does not make every coach unreliable, but interviews each one carefully—once bitten, twice shy.",
+          "reasonZh": "學校不把一名缺席教練推廣為全部不可靠，卻加強每次面試。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After hiring a coach who frequently missed training, the school knows one poor coach proves every coach unreliable, but interviews each one carefully—once bitten, twice shy.",
+          "reasonZh": "原文明確避免以偏概全。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After hiring a coach who frequently missed training, the school knows one poor coach does not make every coach unreliable, but interviews only the first applicant briefly—once bitten, twice shy.",
+          "reasonZh": "原文每一位仔細面試。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "After hiring a coach who never missed training, the school knows one poor coach does not make every coach unreliable, but interviews each one carefully—once bitten, twice shy.",
+          "reasonZh": "原文教練經常缺席。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q40",
+      "number": 40,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q40",
+        "prompt": "Grace gave money to an organisation that falsely claimed to be a charity. She now checks every organisation carefully before donating.",
+        "answer": "After giving money to a false charity, Grace now checks every organisation carefully before donating—once bitten, twice shy."
+      },
+      "promptEn": "Grace gave money to an organisation that falsely claimed to be a charity. She now checks every organisation carefully before donating.",
+      "promptZh": "Grace 曾捐款給一個假稱是慈善機構的組織。她現在捐款前會仔細查核每個組織。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After giving money to a false charity, Grace now checks every organisation carefully before donating—once bitten, twice shy.",
+          "reasonZh": "Grace 被假慈善組織騙過，現在每次捐前查核對方；沒有停止捐款。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After giving money to a false charity, Grace now checks only familiar organisations carefully before donating—once bitten, twice shy.",
+          "reasonZh": "原文每個組織。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After giving money to a false charity, Grace now checks every organisation carefully after donating—once bitten, twice shy.",
+          "reasonZh": "原文先查後捐。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "After giving money to a verified legitimate charity, Grace now checks every organisation carefully before donating—once bitten, twice shy.",
+          "reasonZh": "原先組織是假稱慈善，不是已驗證的合法機構。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q41",
+      "number": 41,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q41",
+        "prompt": "Another seller had previously disappeared after taking the shop owner’s money. When a new seller asked for full payment before delivery, the owner offered only a small deposit.",
+        "answer": "When the new seller asked for full payment before delivery, the shop owner offered only a small deposit—once bitten, twice shy after another seller had disappeared with her money."
+      },
+      "promptEn": "Another seller had previously disappeared after taking the shop owner’s money. When a new seller asked for full payment before delivery, the owner offered only a small deposit.",
+      "promptZh": "另一名賣家先前收取店主的款項後便失去聯絡。當一名新賣家要求在送貨前支付全數款項時，店主只提出支付小額訂金。",
+      "options": [
+        {
+          "id": "key",
+          "text": "When the new seller asked for full payment before delivery, the shop owner offered only a small deposit—once bitten, twice shy after another seller had disappeared with her money.",
+          "reasonZh": "舊賣家收錢失聯，新賣家要全款時店主只提小額訂金；不是拒絕所有交易。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "When the new seller asked for full payment before delivery, the shop owner offered the full amount immediately—once bitten, twice shy after another seller had disappeared with her money.",
+          "reasonZh": "原文只小額訂金。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "When the new seller asked for full payment before delivery, the shop owner offered only a small deposit—once bitten, twice shy after this new seller had disappeared with her money.",
+          "reasonZh": "失聯的是之前另一賣家，不能指控新賣家已失聯。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "When the new seller asked for full payment after delivery, the shop owner offered only a small deposit—once bitten, twice shy after another seller had disappeared with her money.",
+          "reasonZh": "新賣家要求送貨前付款。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q42",
+      "number": 42,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q42",
+        "prompt": "A: Why do you insist on buying travel insurance for every holiday? B: We once lost a large amount of money when a holiday had to be cancelled.",
+        "answer": "“Once bitten, twice shy,” the parent explained. “A cancelled holiday cost us a large amount last year, so we always buy travel insurance now.”"
+      },
+      "promptEn": "A: Why do you insist on buying travel insurance for every holiday? B: We once lost a large amount of money when a holiday had to be cancelled.",
+      "promptZh": "甲：你為甚麼堅持每次旅行都購買旅遊保險？乙：我們曾因一次旅行需要取消而損失大量金錢。",
+      "options": [
+        {
+          "id": "key",
+          "text": "“Once bitten, twice shy: we once lost a large amount when a holiday had to be cancelled, so we now buy travel insurance for every holiday.”",
+          "reasonZh": "說話者曾因取消旅行損失很多，現在每次買保險；原文沒指定事故年份。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "“Once bitten, twice shy: we once lost a large amount when a holiday had to be cancelled, so we now buy travel insurance for only this one holiday.”",
+          "reasonZh": "原文明說每次旅行。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "“Once bitten, twice shy: we once lost a large amount when a holiday went exactly as planned, so we now buy travel insurance for every holiday.”",
+          "reasonZh": "原先損失來自取消，不是完全按計劃。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "“Once bitten, twice shy: we have never lost any money when a holiday had to be cancelled, so we now buy travel insurance for every holiday.”",
+          "reasonZh": "原文已有重大損失。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q43",
+      "number": 43,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q43",
+        "prompt": "The town’s previous improvement plan was announced and then quietly abandoned. Residents will not support another plan unless it includes clear dates.",
+        "answer": "The residents will not support another town plan without clear dates after the previous one was quietly abandoned—once bitten, twice shy."
+      },
+      "promptEn": "The town’s previous improvement plan was announced and then quietly abandoned. Residents will not support another plan unless it includes clear dates.",
+      "promptZh": "鎮上先前的改善計劃在公布後被悄悄擱置。除非另一個計劃列出明確日期，否則居民不會支持。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The residents will not support another town plan without clear dates after the previous one was quietly abandoned—once bitten, twice shy.",
+          "reasonZh": "前計劃公布後擱置，居民要求新計劃列清楚日期才支持。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The residents will not support another town plan even with clear dates after the previous one was quietly abandoned—once bitten, twice shy.",
+          "reasonZh": "without 指欠缺日期時不支持，even with 把符合條件也排除。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The residents will not support another town plan without clear dates after the previous one was fully completed on time—once bitten, twice shy.",
+          "reasonZh": "原先計劃被放棄，不是準時完成。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The residents have already approved another town plan without clear dates after the previous one was quietly abandoned—once bitten, twice shy.",
+          "reasonZh": "原文尚待條件，不是已通過。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q44",
+      "number": 44,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q44",
+        "prompt": "A venue owner once took the band’s money but cancelled the booking. The band manager will now book a venue only after receiving a written agreement and will pay only a small deposit.",
+        "answer": "The band manager will book the venue only after receiving a written agreement and will pay only a small deposit—once bitten, twice shy after being cheated before."
+      },
+      "promptEn": "A venue owner once took the band’s money but cancelled the booking. The band manager will now book a venue only after receiving a written agreement and will pay only a small deposit.",
+      "promptZh": "一名場地東主曾收取樂隊的款項後取消預訂。樂隊經理現在只會在取得書面協議後預訂場地，而且只會支付小額訂金。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The band manager will book only after receiving a written agreement and pay only a small deposit—once bitten, twice shy after a venue owner took payment but cancelled the booking.",
+          "reasonZh": "樂隊之前付款被取消，現在書面協議與小額訂金兩項都要保留。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The band manager will book only after receiving a friendly verbal promise and pay only a small deposit—once bitten, twice shy after a venue owner took payment but cancelled the booking.",
+          "reasonZh": "原文要書面協議。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The band manager will book only after receiving a written agreement and pay the full fee in advance—once bitten, twice shy after a venue owner took payment but cancelled the booking.",
+          "reasonZh": "樂隊經理現在只願付小額訂金，不會再次預付全數場租。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The band manager will book only after receiving a written agreement and pay only a small deposit—once bitten, twice shy after a venue owner took payment but honoured the booking.",
+          "reasonZh": "上次場主取消，並非履約。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q45",
+      "number": 45,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q45",
+        "prompt": "Although the new flat looked fine, the couple tested every tap because their previous home had serious water problems.",
+        "answer": "Although the new flat looked fine, the couple tested every tap after experiencing serious water problems in their previous home—once bitten, twice shy."
+      },
+      "promptEn": "Although the new flat looked fine, the couple tested every tap because their previous home had serious water problems.",
+      "promptZh": "雖然新單位看來沒有問題，但這對夫婦仍測試了每個水龍頭，因為他們上一個住所曾有嚴重水管問題。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Although the new flat looked fine, the couple tested every tap after experiencing serious water problems in their previous home—once bitten, twice shy.",
+          "reasonZh": "雖然新單位外觀良好，夫婦因舊居水管問題仍測試每個水龍頭。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Although the new flat looked fine, the couple tested only the front-door lock after experiencing serious water problems in their previous home—once bitten, twice shy.",
+          "reasonZh": "原文檢查水龍頭，不是門鎖。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Although the new flat had already flooded, the couple tested every tap after experiencing serious water problems in their previous home—once bitten, twice shy.",
+          "reasonZh": "新單位只是外觀沒問題，沒有已水浸的資料。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Although the new flat looked fine, the couple tested every tap after experiencing no water problems in their previous home—once bitten, twice shy.",
+          "reasonZh": "舊居確有嚴重水管問題。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q46",
+      "number": 46,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q46",
+        "prompt": "A: You seem unwilling to trust any online seller now. B: That is not true. However, one seller took my money and sent nothing, so I check the details first.",
+        "answer": "I still trust reliable online sellers, but after one seller took my money and sent nothing, I now check the details first—once bitten, twice shy."
+      },
+      "promptEn": "A: You seem unwilling to trust any online seller now. B: That is not true. However, one seller took my money and sent nothing, so I check the details first.",
+      "promptZh": "甲：你現在似乎不願信任任何網上賣家。乙：不是這樣。不過，一名賣家曾收取我的款項後沒有寄出任何貨品，所以我現在會先核對資料。",
+      "options": [
+        {
+          "id": "key",
+          "text": "I still trust reliable online sellers, but after one seller took my money and sent nothing, I now check the details first—once bitten, twice shy.",
+          "reasonZh": "說話者仍信可靠賣家，只是受騙後先查資料；不是一律不信。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "I distrust every online seller, but after one seller took my money and sent nothing, I now check the details first—once bitten, twice shy.",
+          "reasonZh": "原文明確否認完全不信任。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "I still trust reliable online sellers, but after one seller took my money and sent nothing, I now pay immediately without checking—once bitten, twice shy.",
+          "reasonZh": "原文先查資料。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "I still trust reliable online sellers, but after one seller took my money and sent everything promptly, I now check the details first—once bitten, twice shy.",
+          "reasonZh": "舊賣家沒有寄貨，不是準時寄齊。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q47",
+      "number": 47,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q47",
+        "prompt": "The bus for last year’s school trip failed to arrive. This year, the teacher checked the booking twice and saved the driver’s telephone number.",
+        "answer": "The teacher checked the school-trip bus booking twice and saved the driver’s telephone number—once bitten, twice shy after last year’s bus failed to arrive."
+      },
+      "promptEn": "The bus for last year’s school trip failed to arrive. This year, the teacher checked the booking twice and saved the driver’s telephone number.",
+      "promptZh": "去年的學校旅行巴士沒有到達。今年，老師核對了兩次預訂，並保存了司機的電話號碼。",
+      "options": [
+        {
+          "id": "key",
+          "text": "This year, the teacher checked the school-trip bus booking twice and saved the driver’s telephone number—once bitten, twice shy after last year’s bus failed to arrive.",
+          "reasonZh": "去年的巴士失約，今年老師查訂位兩次並存司機電話；兩項防範都保留。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "This year, the teacher checked the school-trip bus booking just once and saved the driver’s telephone number—once bitten, twice shy after last year’s bus failed to arrive.",
+          "reasonZh": "原文兩次。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "This year, the teacher checked the school-trip bus booking twice and deleted the driver’s telephone number—once bitten, twice shy after last year’s bus failed to arrive.",
+          "reasonZh": "原文保存聯絡號碼。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "This year, the teacher checked the school-trip bus booking twice and saved the driver’s telephone number—once bitten, twice shy after last year’s bus arrived early.",
+          "reasonZh": "去年巴士沒來。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q48",
+      "number": 48,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q48",
+        "prompt": "Rain completely ruined the club’s last outdoor fair. The club may organise another one, but only if it can reserve a covered area.",
+        "answer": "The club may hold another outdoor fair, but only if it can reserve a covered area—once bitten, twice shy after rain ruined the last one."
+      },
+      "promptEn": "Rain completely ruined the club’s last outdoor fair. The club may organise another one, but only if it can reserve a covered area.",
+      "promptZh": "大雨完全破壞了學會上一次的戶外市集。學會可能會再次舉辦，但前提是能夠預訂有遮蓋的地方。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The club may hold another outdoor fair, but only if it can reserve a covered area—once bitten, twice shy after rain ruined the last one.",
+          "reasonZh": "上次雨毀市集，學會可能再辦但要能訂有蓋地方；不是一定取消。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The club has permanently cancelled another outdoor fair, but only if it can reserve a covered area—once bitten, twice shy after rain ruined the last one.",
+          "reasonZh": "原文仍有可能再辦。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The club may hold another outdoor fair, but even if it cannot reserve a covered area—once bitten, twice shy after rain ruined the last one.",
+          "reasonZh": "有蓋地方是必要條件，不能移除。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The club may hold another outdoor fair, but only if it can reserve a covered area—once bitten, twice shy after the last one had perfect weather.",
+          "reasonZh": "原文上次被雨破壞。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q49",
+      "number": 49,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q49",
+        "prompt": "The company released its previous app update too quickly, and many customers complained. Even with a close deadline, the manager now refuses to release an update before testing it.",
+        "answer": "Even with a close deadline, the manager refuses to release the update before testing it after the last rushed version caused many complaints—once bitten, twice shy."
+      },
+      "promptEn": "The company released its previous app update too quickly, and many customers complained. Even with a close deadline, the manager now refuses to release an update before testing it.",
+      "promptZh": "公司上一次太快推出應用程式更新，結果很多顧客投訴。即使限期迫近，經理現在也拒絕在完成測試前推出更新。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After the last rushed update caused many complaints, the manager refuses to release another before testing it, even with a close deadline—once bitten, twice shy.",
+          "reasonZh": "上次更新太急被投訴，即使限期近也先測試；不是一趕時間就跳過。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After the last rushed update caused many complaints, the manager refuses to release another before testing it, but only when there is no deadline—once bitten, twice shy.",
+          "reasonZh": "原文即使趕也如此，不限於無限期時。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After the last rushed update caused many complaints, the manager refuses to release another after testing it, even with a close deadline—once bitten, twice shy.",
+          "reasonZh": "拒絕的是未測就發佈，不是測完後也不發佈。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "After the last rushed update caused unanimous praise, the manager refuses to release another before testing it, even with a close deadline—once bitten, twice shy.",
+          "reasonZh": "原先版本引來投訴，不是全體讚美。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-q50",
+      "number": 50,
+      "source": {
+        "lessonId": "proverb-03",
+        "questionId": "proverb-03-q50",
+        "prompt": "A: Would you invest in your friend’s new café? B: I might, but my previous investment was never repaid. I would need to see a clear business plan first.",
+        "answer": "I might still invest in the café, but only after seeing a clear business plan because my previous investment was never repaid—once bitten, twice shy."
+      },
+      "promptEn": "A: Would you invest in your friend’s new café? B: I might, but my previous investment was never repaid. I would need to see a clear business plan first.",
+      "promptZh": "甲：你會投資朋友的新咖啡店嗎？乙：可能會，但我上一次投資的款項一直沒有歸還。我需要先看到一份清楚的營運計劃。",
+      "options": [
+        {
+          "id": "key",
+          "text": "I might still invest in the café, but only after seeing a clear business plan because my previous investment was never repaid—once bitten, twice shy.",
+          "reasonZh": "舊投資沒回款，說話者仍可能投咖啡店，但要先看清楚計劃。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "I will certainly invest in the café, but only after seeing a clear business plan because my previous investment was never repaid—once bitten, twice shy.",
+          "reasonZh": "might 保留可能性。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "I might still invest in the café, but without seeing a clear business plan because my previous investment was never repaid—once bitten, twice shy.",
+          "reasonZh": "先看計劃是條件，不能刪去。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "I might still invest in the café, but only after seeing a clear business plan because my previous investment was fully repaid early—once bitten, twice shy.",
+          "reasonZh": "原文舊款從未歸還。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-x01",
+      "number": 51,
+      "theme": "science",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A contaminated sample ruined one experiment. The lab now checks seals before every new trial.",
+      "promptZh": "受污染樣本毀了一次實驗，實驗室現在每次新試驗前都檢查封口。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Once bitten, twice shy: after contamination ruined a trial, the lab now checks seals before every new one.",
+          "reasonZh": "先前污染導致針對性檢查，every 的頻率保留。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Once bitten, twice shy: after contamination ruined a trial, the lab now checks seals only after each trial.",
+          "reasonZh": "原文新試驗前檢查。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Once bitten, twice shy: after perfect results completed a trial, the lab now checks seals before every new one.",
+          "reasonZh": "原先是損失，不是成功。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Once bitten, twice shy: after contamination ruined a trial, the lab now abandons all experiments before every new one.",
+          "reasonZh": "仍做試驗，只加檢查。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-x02",
+      "number": 52,
+      "theme": "performance",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A dancer slipped on a wet stage once. Before her next performance, she asks for the floor to be checked.",
+      "promptZh": "舞者曾在濕舞台滑倒，下次演出前要求檢查地面。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After slipping once, she asks for a floor check before performing again—once bitten, twice shy.",
+          "reasonZh": "先前滑倒與檢查地面直接相關，沒有說永久停演。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After slipping once, she asks for a floor check after every performance only—once bitten, twice shy.",
+          "reasonZh": "原文演出前。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After watching a comedy, she asks for a floor check before performing again—once bitten, twice shy.",
+          "reasonZh": "戒心來自滑倒，不是看喜劇。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "After slipping once, she refuses ever to dance again before performing again—once bitten, twice shy.",
+          "reasonZh": "原文仍準備演出。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-x03",
+      "number": 53,
+      "theme": "security",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A phishing message fooled an employee last month. He now verifies the sender before opening unexpected attachments.",
+      "promptZh": "員工上月被釣魚訊息騙過，現在開啟意外附件前會核對寄件者。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Once bitten, twice shy: fooled last month, he now checks the sender before opening unexpected attachments.",
+          "reasonZh": "保留先前受騙及先查再開的順序。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Once bitten, twice shy: fooled last month, he now checks the sender after opening unexpected attachments.",
+          "reasonZh": "預防在開附件前。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Once bitten, twice shy: fooled for the first time tomorrow, he now checks the sender before opening unexpected attachments.",
+          "reasonZh": "事件已在上月發生。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Once bitten, twice shy: fooled last month, he now trusts every sender immediately before opening unexpected attachments.",
+          "reasonZh": "原文加強查核，不是全信。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-x04",
+      "number": 54,
+      "theme": "animals",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A volunteer was scratched while rushing to lift a frightened cat. She now waits for the cat to approach.",
+      "promptZh": "義工急着抱起受驚的貓而被抓傷，現在會等貓主動靠近。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After being scratched, she waits for the cat to approach—once bitten, twice shy, even without a literal bite.",
+          "reasonZh": "諺語不要求字面咬傷；抓傷引起謹慎亦可。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After being scratched, she waits for the cat to approach—once bitten, twice shy, only if the cat also bit her.",
+          "reasonZh": "不需要另一件咬傷事件。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After being scratched, she rushes to grab the cat again—once bitten, twice shy, even without a literal bite.",
+          "reasonZh": "原文改為等待。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Before ever meeting a cat, she waits for the cat to approach—once bitten, twice shy, even without a literal bite.",
+          "reasonZh": "先前已有負面經驗。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-x05",
+      "number": 55,
+      "theme": "cooking",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A cook burned a batch by guessing the oven setting. For the next batch, he checks the recipe temperature first.",
+      "promptZh": "廚師猜焗爐設定而燒焦一批食物，下批先查食譜溫度。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Once bitten, twice shy: after burning a batch, he checks the recipe temperature before baking the next one.",
+          "reasonZh": "壞經驗令他不再隨便猜溫度；仍會烘焙。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Once bitten, twice shy: after burning a batch, he checks the recipe temperature after serving the next one.",
+          "reasonZh": "原文先查再焗。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Once bitten, twice shy: after winning a baking prize, he checks the recipe temperature before baking the next one.",
+          "reasonZh": "原先燒焦，不是得獎。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Once bitten, twice shy: after burning a batch, he guesses the setting again before baking the next one.",
+          "reasonZh": "原文改變了猜測習慣。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-x06",
+      "number": 56,
+      "theme": "accessibility",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "An event’s advertised step-free route was blocked last time. The organiser now visits the route before confirming a venue.",
+      "promptZh": "上次活動聲稱無梯級的路線被阻塞，主辦人現在確認場地前親自查路線。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After the blocked route last time, the organiser checks access in person before confirming a venue—once bitten, twice shy.",
+          "reasonZh": "針對之前的失誤查實通道，不是放棄無障礙要求。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After the blocked route last time, the organiser checks access in person only after the event a venue—once bitten, twice shy.",
+          "reasonZh": "原文確認前。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After the blocked route last time, the organiser checks access by trusting the same advert alone before confirming a venue—once bitten, twice shy.",
+          "reasonZh": "原文親自去，不是只信廣告。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "After the fully accessible route last time, the organiser checks access in person before confirming a venue—once bitten, twice shy.",
+          "reasonZh": "原先問題是阻塞。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-x07",
+      "number": 57,
+      "theme": "space",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A telescope team lost observing time when a battery failed. It now tests the battery before each remote session.",
+      "promptZh": "望遠鏡團隊因電池故障失去觀測時間，現在每次遠端觀測前先測電池。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Once bitten, twice shy: after the battery failure, the team tests it before each remote session.",
+          "reasonZh": "故障導致定期測試，並非每次都已故障。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Once bitten, twice shy: after the battery failure, the team tests it only after all sessions end.",
+          "reasonZh": "原文每次前。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Once bitten, twice shy: after the perfect battery performance, the team tests it before each remote session.",
+          "reasonZh": "原先確有故障。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Once bitten, twice shy: after the battery failure, the team assumes it will always fail before each remote session.",
+          "reasonZh": "測試是防範，不是斷言永遠壞。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-x08",
+      "number": 58,
+      "theme": "community",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A neighbourhood group trusted an unconfirmed hall booking and lost its meeting space. It now asks for written confirmation.",
+      "promptZh": "街坊小組信了未確認的禮堂預訂而失去聚會場地，現在會要求書面確認。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Having lost its meeting space, the group now requests written confirmation—once bitten, twice shy.",
+          "reasonZh": "失去場地後要求證明，是相應防範。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Having lost its meeting space, the group now requests another vague verbal assurance—once bitten, twice shy.",
+          "reasonZh": "原文書面，不是含糊口頭保證。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Having always secured its meeting space, the group now requests written confirmation—once bitten, twice shy.",
+          "reasonZh": "原先失去場地，不是一向成功。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Having lost its meeting space, the group now permanently refuses written confirmation—once bitten, twice shy.",
+          "reasonZh": "原文索取確認，不是拒絕任何確認。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-x09",
+      "number": 59,
+      "theme": "workplace",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A freelancer previously worked unpaid extra hours on an unclear brief. She might accept a new project, but only with a clear scope.",
+      "promptZh": "自由工作者曾因工作要求不清而無償加班；她可能接新項目，但必須先有清楚範圍。",
+      "options": [
+        {
+          "id": "key",
+          "text": "She might accept the project only with a clear scope after the unpaid overtime—once bitten, twice shy.",
+          "reasonZh": "might 及 only with 保留有條件的可能性，不是全面拒絕。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "She has definitely accepted the project only with a clear scope after the unpaid overtime—once bitten, twice shy.",
+          "reasonZh": "原文只是可能。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "She might accept the project without checking the scope after the unpaid overtime—once bitten, twice shy.",
+          "reasonZh": "清楚範圍是條件。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "She might accept the project only with a clear scope after the generous payment for every hour—once bitten, twice shy.",
+          "reasonZh": "原先無償加班，不是每小時獲厚酬。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-03-x10",
+      "number": 60,
+      "theme": "travel",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A cyclist followed a route marked easy and faced an unsafe climb. He still cycles, but checks elevation before new routes.",
+      "promptZh": "單車手跟隨標示容易的路線卻遇上危險斜坡；他仍踩單車，但新路線先查高度變化。",
+      "options": [
+        {
+          "id": "key",
+          "text": "He still cycles but checks elevation after the unexpectedly unsafe climb—once bitten, twice shy.",
+          "reasonZh": "仍繼續活動而增加查核，謹慎並不等於放棄。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "He has given up cycling forever but checks elevation after the unexpectedly unsafe climb—once bitten, twice shy.",
+          "reasonZh": "原文明說仍踩車。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "He still cycles but chooses routes without looking after the unexpectedly unsafe climb—once bitten, twice shy.",
+          "reasonZh": "現在會先查。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "He still cycles but checks elevation after the unexpectedly safe and effortless ride—once bitten, twice shy.",
+          "reasonZh": "原先是危險斜坡。",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "guide": {
+    "meaning": {
+      "zh": "曾吃過虧，所以再遇類似事情時更加謹慎或有所卻步。",
+      "en": "A previous unpleasant experience makes someone more cautious or reluctant in a similar situation."
+    },
+    "model": {
+      "zh": "上次租來的帳篷漏水後，Lena 這次先檢查接縫：吃過一次虧，便格外小心。",
+      "en": "Lena checks the seams before renting another tent after the last one leaked—once bitten, twice shy."
+    },
+    "picture": {
+      "zh": "把上次的壞經驗想成提醒燈：下次走到類似路口，你先停一停、看清楚。",
+      "en": "Think of the bad experience as a warning light: at a similar junction next time, you pause and look carefully."
+    },
+    "boundary": {
+      "zh": "bitten 不必是真被咬，twice 也不是精確次數。謹慎不一定等於永久放棄，更不能把一次壞經驗說成所有人都不可靠。",
+      "en": "No literal bite or exact count is required. Caution need not mean giving up forever, and one bad experience does not prove everyone is unreliable."
+    },
+    "where": {
+      "zh": "適合解釋自己或別人為何猶豫。別用來嘲笑受驚的人；嚴重經歷往往需要更直接的體諒。",
+      "en": "Use it to explain hesitation. Do not mock someone’s fear; serious experiences may call for more direct empathy."
+    },
+    "tone": {
+      "zh": "日常、可帶體諒或自嘲；shy 在這裏是有所戒心，不一定是性格害羞。",
+      "en": "Conversational, sometimes sympathetic or self-deprecating; “shy” here means wary, not necessarily socially timid."
+    },
+    "checks": [
+      {
+        "zh": "之前真的有不愉快經歷嗎？",
+        "en": "Was there an earlier unpleasant experience?"
+      },
+      {
+        "zh": "現在的謹慎與那次經歷有關嗎？",
+        "en": "Is the present caution connected to that experience?"
+      },
+      {
+        "zh": "我有把「小心」擴大成「永不再試」嗎？",
+        "en": "Am I exaggerating caution into never trying again?"
+      }
+    ],
+    "readAloud": {
+      "zh": "上次快遞把包裹留在雨中後，我現在要求簽收：吃過虧便更謹慎。",
+      "en": "After a courier left my parcel in the rain, I now request a signature—once bitten, twice shy."
+    },
+    "choices": {
+      "2": {
+        "prompt": {
+          "zh": "哪個情況有足夠線索支持這句諺語？",
+          "en": "Which situation supplies enough evidence for the proverb?"
+        },
+        "options": [
+          {
+            "zh": "上次翻譯漏掉截止日期後，編輯現在在刊印前特別核對每個日期。",
+            "en": "After a translation omitted a deadline, the editor now checks every date before publication.",
+            "reasonZh": "先前失誤帶來有關的防範，兩個環節都有。",
+            "correct": true
+          },
+          {
+            "zh": "編輯第一次接觸翻譯工作，因為好奇而讀稿。",
+            "en": "The editor reads a translation out of curiosity on her first day in the job.",
+            "reasonZh": "沒有之前的壞經驗，也沒有因此變謹慎的線索。",
+            "correct": false
+          },
+          {
+            "zh": "編輯很喜歡上次的譯稿，所以立即再次聘用同一人。",
+            "en": "The editor loved the last translation and immediately hires the same person again.",
+            "reasonZh": "這是成功經驗帶來信任，不是吃虧後的戒心。",
+            "correct": false
+          }
+        ]
+      },
+      "3": {
+        "prompt": {
+          "zh": "朋友曾在群組被人公開嘲笑，現在不願發言。哪個回應最體諒？",
+          "en": "A friend was publicly mocked in a group and now hesitates to post. Which response is most considerate?"
+        },
+        "options": [
+          {
+            "zh": "「吃過那次虧，你現在小心一點很合理。我們可以先用私人訊息。」",
+            "en": "“Once bitten, twice shy—it makes sense to be cautious after that. We can use private messages first.”",
+            "reasonZh": "承認原因並提供選擇，沒有嘲笑或催迫。",
+            "correct": true
+          },
+          {
+            "zh": "「Once bitten, twice shy！你連發一句話也怕，真沒用。」",
+            "en": "“Once bitten, twice shy! You’re useless if you’re afraid to post one line.”",
+            "reasonZh": "諺語不能替羞辱合理化，這會加重對方的壓力。",
+            "correct": false
+          },
+          {
+            "zh": "「Once bitten, twice shy，意思是你天生害羞，與上次事件無關。」",
+            "en": "“Once bitten, twice shy means you’re naturally timid; it has nothing to do with last time.”",
+            "reasonZh": "把後天經驗造成的戒心誤作天生性格。",
+            "correct": false
+          }
+        ]
+      },
+      "5": {
+        "prompt": {
+          "zh": "登山隊上次跟着過時地圖走錯路，今次出發前核對新地圖。哪句自然又準確？",
+          "en": "A hiking team got lost using an old map. This time it checks an updated map before setting off. Which line fits?"
+        },
+        "options": [
+          {
+            "zh": "「上次走錯路後，我們今次先核對地圖；once bitten, twice shy。」",
+            "en": "“After getting lost last time, we’re checking the map before setting off—once bitten, twice shy.”",
+            "reasonZh": "保留壞經驗及相應檢查，沒有說全隊永不登山。",
+            "correct": true
+          },
+          {
+            "zh": "「上次走錯路後，我們今次完全不看地圖；once bitten, twice shy。」",
+            "en": "“After getting lost last time, we’re skipping the map entirely—once bitten, twice shy.”",
+            "reasonZh": "原文是核對地圖，不是取消檢查；防範行動被倒轉。",
+            "correct": false
+          },
+          {
+            "zh": "「上次每一步都走對，所以今次不用核對地圖；once bitten, twice shy。」",
+            "en": "“Every step was right last time, so we need no map check—once bitten, twice shy.”",
+            "reasonZh": "既移除了壞經驗，也否定今次的檢查。",
+            "correct": false
+          }
+        ]
+      },
+      "6": {
+        "prompt": {
+          "zh": "一次不佳的維修經驗後，Arun 仍會聘維修師傅，但先看評價。這句諺語能說明甚麼？",
+          "en": "After a poor repair, Arun still hires repairers but checks reviews first. What can the proverb explain?"
+        },
+        "options": [
+          {
+            "zh": "先前經驗令他增加檢查，並不表示他不再信任任何師傅。",
+            "en": "The experience made him add a check, without distrusting every repairer.",
+            "reasonZh": "他仍會聘人，證明謹慎可以與繼續嘗試並存。",
+            "correct": true
+          },
+          {
+            "zh": "他必須再受騙一次，才符合 twice 的字面次數。",
+            "en": "He must be cheated once more to satisfy the literal count “twice.”",
+            "reasonZh": "twice 不是規定受騙次數；諺語描述戒心。",
+            "correct": false
+          },
+          {
+            "zh": "一次差的維修證明所有師傅都會騙他。",
+            "en": "One poor repair proves that every repairer will cheat him.",
+            "reasonZh": "一次經驗不能推出全體都不可靠。",
+            "correct": false
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1899 @@
+{
+  "id": "p2-068-the-scarlet-pimpernel-of-the-vatican",
+  "catalogueId": "p2-068",
+  "catalogueIds": [
+    "p2-068"
+  ],
+  "passage": 2,
+  "title": "The Scarlet Pimpernel of the Vatican",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "A",
+    "B",
+    "C",
+    "D",
+    "C",
+    "C",
+    "A",
+    "concentration camps",
+    "caught",
+    "Allied airmen",
+    "smuggling",
+    "accolades"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D — under the instructions of the religious organisation of which he was a part.",
+      "answerKey": "D — under the instructions of the religious organisation of which he was a part.",
+      "type": "Multiple Choice",
+      "prompt": "“O’Flaherty went to Rome…”",
+      "translation": "O’Flaherty 前往羅馬的原因或方式是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A voluntarily for personal reasons as he wanted to pursue his studies there.他因個人原因自願去羅馬，因為想在那裡深造。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B after completing his studies at Mungret College in Limerick and becoming a priest.他在 Limerick 的 Mungret College 完成學業並成為神父後才去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C at the same time as Mussolini went to study there.他和 Mussolini 同時去羅馬讀書。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D under the instructions of the religious organisation of which he was a part.他是在所屬宗教組織安排或指派下前往羅馬。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Born in Kiskeam in his mother’s native North Cork, Hugh O’Flaherty was brought up in Killarney, where his father was the steward of a local golf club.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Hugh O’Flaherty 出生於母親家鄉 North Cork 的 Kiskeam，在 Killarney 長大；他的父親是當地一間高爾夫球會的 steward。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While studying in Rome, he earned a degree in theology and was ordained in 1925 before going on to study there for a further two years, earning his doctorates in divinity, canon law and philosophy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在羅馬讀書期間，他取得 theology 學位，並於 1925 年被任命為神父，之後繼續在那裡深造兩年，取得 divinity、canon law 和 philosophy 的博士學位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 1 是 O’Flaherty 的早年和神職教育背景。題目問他 went to Rome 的情況，所以應在這段中間找 “Rome” 和 “seminarian” 相關句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “went to Rome”。原文沒有用 went，而用了："
+            },
+            {
+              "kind": "quote",
+              "text": "“He was posted to Rome as a young seminarian in 1922…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “posted to Rome” 是重點。posted 通常表示被派駐、被安排到某地，不帶強烈個人自願色彩。再看 “as a young seminarian”，可知道他當時屬於 seminary / religious training system。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He was posted to Rome as a young seminarian in 1922, the year in which Mussolini came to power.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1922 年，他作為年輕 seminarian 被派往羅馬；那一年 Mussolini 上台。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “He”，核心動詞是 “was posted”。被動語態 “was posted” 表示他被派到羅馬，通常由所屬機構安排。身份是 “a young seminarian”，即正在接受神職訓練的人。選項 D 的 “under the instructions of the religious organisation of which he was a part” 正是對 “was posted … as a young seminarian” 的合理概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷： A 問題在 voluntarily for personal reasons。原文沒有說他因個人原因自願選擇羅馬。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 的時間錯了。原文說他在羅馬讀書期間 1925 年才 ordained，所以去羅馬時仍未成為神父。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 把 Mussolini 的資料誤用。原文只說 1922 是 Mussolini came to power 的年份，沒有說Mussolini 去羅馬讀書。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 最貼近 “was posted to Rome as a young seminarian”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "was posted to Rome = was sent / assigned to Rome young seminarian = member of a religious training institution under instructions = implied by posted真正控制答案的是 posted 這個動詞。它比 Rome 或 Mussolini 更能決定選項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "A — were exploited by him as a means by which to meet and influence important people.",
+      "answerKey": "A — were exploited by him as a means by which to meet and influence important people.",
+      "type": "Multiple Choice",
+      "prompt": "“O’Flaherty’s golfing talents…”",
+      "translation": "O’Flaherty 的高爾夫才能有甚麼作用？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A were exploited by him as a means by which to meet and influence important people.他利用高爾夫才能結識並影響重要人物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B were the product of his extremely hard work and tireless practice from a young age.這些才能來自他自小極度努力和不懈練習。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C went unnoticed until he was posted in Italy where they impressed a number of high-profile individuals.直到他被派到意大利後，這些才能才被注意到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D were exaggerated by friends and connections in order to win him favour with the German and Italian authorities.朋友和人脈誇大他的球技，以便幫他取得德國和意大利當局好感。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“O’Flaherty, posted at various times over the next few years in Egypt, Haiti, San Domingo and Czechoslovakia, as well as Palestine, soon proved himself a very able diplomat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "O’Flaherty 在接下來幾年先後被派駐 Egypt、Haiti、San Domingo、Czechoslovakia 和 Palestine，很快證明自己是非常能幹的外交官。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His connections would give him the power and influence to make a difference to the lives of thousands of innocent people when the time came, whilst his high profile made the German and Italian authorities slow to move against him.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "時機來臨時，他的人脈會給他權力和影響力，改變數千名無辜者的生命；同時，他的高知名度令德國和意大利當局遲遲不敢對付他。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會講 O’Flaherty 的外交能力、人脈、影響力和名聲如何為後來救人鋪路。題目問 golfing talents，所以要看本段中間 golf 如何和 connections 連起來。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “golfing talents”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“His golfing skills were also noted, and he developed a number of high-profile connections in Italy through the world of golf…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時包含 golfing skills、high-profile connections 和 through the world of golf，因此值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His golfing skills were also noted, and he developed a number of high-profile connections in Italy through the world of golf, often playing with the likes of ex-king Alfonso of Spain and Count Ciano, Mussolini’s son-in-law.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的高爾夫球技也受到注意；他透過高爾夫世界，在意大利建立了不少高層人脈，經常和西班牙前國王 Alfonso、Mussolini 的女婿 Count Ciano 等人物打球。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His golfing skill, developed since early childhood, undoubtedly impressed them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他自幼培養出的高爾夫球技無疑令他們留下深刻印象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再下一句說他後來會 rely on his high profile and high connections。也就是說，golfing skill 的作用不只是體育才能本身，也幫他接觸 elite circle，形成日後救援行動可用的 influence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷： A 正確。exploited 在這裡可理解為「善用」。原文說他 through the world of golf developed high-profile connections，並且後來 rely on those connections。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 過度加入 “extremely hard work and tireless practice”。原文只說 developed since early childhood，沒有提極度努力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 時間和內容不準。原文說他父親在 golf club 工作，他的球技 developed since early childhood，並非到意大利才被注意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 沒有原文支援。文章沒有說朋友誇大他的球技。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "golfing talents = golfing skills meet important people = playing with ex-king Alfonso and Count Ciano influence important people = developed high-profile connections / power and influence exploited by him = came to rely on those connections這題的核心是 through the world of golf。這個短語把球技和人脈建立直接連起來。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B — were influenced by the conclusions he had drawn from socialising with certain groups",
+      "answerKey": "B — were influenced by the conclusions he had drawn from socialising with certain groups",
+      "type": "Multiple Choice",
+      "prompt": "“When it came to Nazi ideology, O’Flaherty’s beliefs…”",
+      "translation": "談到 Nazi ideology 時，O’Flaherty 的信念是怎樣形成或表現的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "of people in the past."
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項： A were similar to those of Jews, blacks and gypsies, who viewed the German interference in Italy as unwanted.他的信念和 Jews、blacks、gypsies 相似，他們都把德國干預意大利看成不受歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B were influenced by the conclusions he had drawn from socialising with certain groups of people in the past.他的信念受到過去和某些人群交往所得出的看法影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C were in keeping with the stated views of the German and Italian governments.他的信念符合德國和意大利政府的公開立場。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D were equally hostile and extreme because he was influenced by fascist propaganda.他的信念同樣敵對和極端，因為他受到 fascist propaganda 影響。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the autumn of 1942, the Germans and Italians started to crack down on prominent figures they viewed as being hostile to their goals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1942 年秋天，德國人和意大利人開始打壓他們認為敵視其目標的 prominent figures。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“O’Flaherty, on the other hand, having socialised with many prominent Jews throughout his time in Italy, did not adhere to the Nazi ideology, and it was then that he started to act, protecting innocent Jews and other victims of injustice, and keeping them away from the claws of the Italian and German police, whose orders were to ship them to concentration camps.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一方面，O’Flaherty 在意大利期間曾與許多 prominent Jews 交往，因此沒有接受 Nazi ideology；那時他開始行動，保護無辜 Jews 和其他 injustice victims，使他們遠離意大利和德國警察的魔爪，因為警察奉命把他們送往 concentration camps。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段把 fascist persecution 和 O’Flaherty 的反應放在一起。題目問 Nazi ideology，自然要讀最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “Nazi ideology”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“did not adhere to the Nazi ideology”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一句也有 “having socialised with many prominent Jews throughout his time in Italy”，這會幫助判斷他的立場和過去交往的關係。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“O’Flaherty, on the other hand, having socialised with many prominent Jews throughout his time in Italy, did not adhere to the Nazi ideology…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "O’Flaherty 另一方面，在意大利期間曾與許多 prominent Jews 交往，因此沒有接受 Nazi ideology。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 “having socialised with…” 是重要的分詞結構，用來交代背景原因。原文沒有直接寫"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“he drew conclusions”，但意思是他的社交經驗令他不接受 Nazi ideology。選項 B 把 “having socialised with many prominent Jews” 概括為 “socialising with certain groups of people in the past”，再把 “did not adhere to Nazi ideology” 概括成 beliefs affected by those experiences。選項判斷： B 正確，是四個選項中最貼近原文因果關係的一項。 A 有相關群體名字，但原文沒有說 O’Flaherty 的 beliefs 和 Jews、blacks、gypsies 的 beliefs 相同，也沒有提 “German interference in Italy as unwanted”。 C 與原文方向相反。原文說 he did not adhere to Nazi ideology。 D 沒有支援。fascist propaganda 使 many people alarmed，並沒有影響 O’Flaherty 變得extreme。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Nazi ideology = Nazi ideology did not adhere to = rejected / did not accept having socialised with many prominent Jews = influenced by previous social contact beliefs = his moral and ideological position要特別留意 “on the other hand”。這個轉折表示 O’Flaherty 的立場和 German / Italian governments 的 ideology 分開走。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "C — in the place where he officially lived at the time.",
+      "answerKey": "C — in the place where he officially lived at the time.",
+      "type": "Choose TWO letters",
+      "prompt": "Question 17",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“O’Flaherty used his old college and indeed his own official residence as hiding places for the people he was trying to protect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "O’Flaherty 使用自己的 old college，甚至自己的 official residence，作為他試圖保護的人之藏身地。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Calling once again on his contacts, he developed a network of apartments in which to house them until their safe return to Britain could be arranged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他再次依靠自己的人脈，建立了一個 apartments network，用來安置他們，直到可以安排他們安全返回英國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段主題是藏匿地點和救援網絡。Question 17–18 問 “Where did he conceal people”，第一句直接列出兩個 hiding places，因此要細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “conceal” 和 “people he had taken into his care”。原文用 “hiding places” 和 “people he was trying to protect” 表達相同意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句中 “his own official residence” 直接對應選項 C。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“O’Flaherty used his old college and indeed his own official residence as hiding places for the people he was trying to protect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "O’Flaherty 使用自己的舊 college，甚至自己的 official residence，作為藏身地，收容他想保護的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的 “the place where he officially lived at the time” 正是 “his own official residence” 的解釋式改寫。official residence 指一個人因職務身份而正式居住的地方。題目中的 “conceal” 對應原文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“hiding places”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "conceal = use as hiding places people he had taken into his care = people he was trying to protect the place where he officially lived = his own official residence錯項邊界： A 有 “studying” 這個干擾，但原文說 old college，沒有說他當時仍在那裡讀書。 B 把 old college 和 apartments network 混在一起。原文分別說 old college 和 apartments network，沒有說 former college was converted into apartments。 E 的 old friends 只是在 monasteries and convents 中幫忙的人，原文沒有說藏在 friends’ houses。因此第一個正確答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "D — in the residences of certain religious groups.",
+      "answerKey": "D — in the residences of certain religious groups.",
+      "type": "Choose TWO letters",
+      "prompt": "Question 18",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“O’Flaherty used his old college and indeed his own official residence as hiding places for the people he was trying to protect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "O’Flaherty 使用自己的 old college，甚至自己的 official residence，作為他想保護的人之藏身地。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Calling once again on his contacts, he developed a network of apartments in which to house them until their safe return to Britain could be arranged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他再次依靠 contacts，建立 apartments network，用來安置他們，直到可安排他們安全回英國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已經有 hiding places；中間句很可能再列出更多藏身地。題目要求 TWO correct answers，所以要繼續掃描同段其他 location。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “conceal” 和 “where”。原文中值得留意的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“he even turned to using monasteries and convents as hideouts…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "monasteries 和 convents 都是 religious communities 的居住或活動場所，因此對應選項 D。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the situation got more and more desperate, and the number of people threatened grew, he even turned to using monasteries and convents as hideouts…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著情況越來越危急，受威脅的人數增加，他甚至轉而使用 monasteries 和 convents 作為藏身地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "monastery 通常指男修道院，convent 通常指女修道院。兩者都屬於 religious groups 的住所或宗教機構。選項 D 用 “residences of certain religious groups” 作上位概括，涵蓋 monasteries and convents。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "residences of certain religious groups = monasteries and convents hideouts = hiding places / places to conceal people people in his care = the ‘unwanted’ / people threatened錯項邊界： E 很容易吸引人，因為原文有 “old friends”。可是這些 old friends 是在 monasteries and convents 裡幫忙的人，文章沒有說藏身地是朋友私宅。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 把 “network of apartments” 和 “old college” 合併成一個不存在的地方。原文沒有 “old college converted into apartments” 這個關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此第二個正確答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "C — their disregard for the possible consequences of being caught.",
+      "answerKey": "C — their disregard for the possible consequences of being caught.",
+      "type": "Multiple Choice",
+      "prompt": "“What impressive aspect of the actions of O’Flaherty’s helpers does the writer highlight?”",
+      "translation": "作者特別強調 O’Flaherty 的幫手行動中哪一點令人敬佩？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A how eager they were to help him.他們多麼熱切想幫他。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B how many of them were willing to volunteer.有多少人願意做義工。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C their disregard for the possible consequences of being caught.他們面對被抓後果時仍願意冒險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D their ability to coordinate and work together.他們協調和合作的能力。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“O’Flaherty used his old college and indeed his own official residence as hiding places for the people he was trying to protect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "O’Flaherty 使用自己的 old college 和 official residence 作為 hiding places，保護他想救的人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Calling once again on his contacts, he developed a network of apartments in which to house them until their safe return to Britain could be arranged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他再次依靠 contacts，發展出 apartments network 收容他們，直到安排他們安全回英國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段除了講 O’Flaherty 的藏匿安排，也會講協助者和 contacts。題目問helpers 的 impressive aspect，要看中間描述 old friends risk 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “helpers” 和 “impressive aspect”。原文未必直接說 helpers，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“old friends in these places who, by agreeing to house the ‘unwanted’…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 old friends 就是 helpers。再看 “risking a reprimand” 和 “endangering their own lives”，就是作者要突出的勇氣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…calling in favours from old friends in these places who, by agreeing to house the ‘unwanted’, were not just risking a reprimand from the fascists had they been caught but were endangering their own lives by being party to O’Flaherty’s campaign.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他向這些地方的老朋友請求人情；這些人同意收容 “unwanted”，若被發現，他們面對的不只是fascists 的 reprimand，更會因參與 O’Flaherty 的行動而危及自己的生命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的重點在 consequences。helpers 的行動令人敬佩，因為他們明知若被抓，後果可能由reprimand 升級到 loss of life，仍願意收容被迫害者。選項 C 的 “disregard for the possible consequences” 稍帶概括：他們並沒有被風險阻止。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷： C 正確。它對應 “risking a reprimand” 和 “endangering their own lives”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 的 eager 沒有明確證據。原文說 agreeing to house，不代表強調熱切程度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 的 how many 沒有數量資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 的 coordination 可能和 network 有關，但作者真正強調的是 risk 和 danger，不是管理能力。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "possible consequences of being caught = reprimand from fascists / endangering their own lives helpers = old friends in these places their action = agreeing to house the ‘unwanted’這題要把焦點放在 “had they been caught”。它提示作者正在談被抓後的後果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "C — He had successfully used disguises to avoid being identified.",
+      "answerKey": "C — He had successfully used disguises to avoid being identified.",
+      "type": "Multiple Choice",
+      "prompt": "“Why was O’Flaherty nicknamed the Scarlet Pimpernel of the Vatican?”",
+      "translation": "為甚麼 O’Flaherty 被稱為 The Scarlet Pimpernel of the Vatican？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A He resembled a Scarlet Pimpernel in the disguises he used to wear.他穿的偽裝使他看起來像 Scarlet Pimpernel。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B He often disguised himself as a Vatican priest.他常偽裝成 Vatican priest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C He had successfully used disguises to avoid being identified.他成功利用偽裝避免被認出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D He had earned a Master’s in the art of disguise.他取得 disguise art 的 Master’s degree。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the end of the war, over 6,500 Jews and American and British soldiers had O’Flaherty to thank for their escape from the Germans and a nearly certain death.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到戰爭結束時，超過 6,500 名 Jews 以及 American 和 British soldiers 要感謝 O’Flaherty，因為他們逃離了德國人和幾乎必然的死亡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fledgling Jewish state of Israel also recognised O’Flaherty’s contribution by proclaiming him Righteous Among the Nations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新生的 Jewish state of Israel 也承認 O’Flaherty 的貢獻，宣布他為 Righteous Among the Nations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 O’Flaherty 的救援成果和戰後 recognition。題目問 nickname，應看本段中間含 “nickname” 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Scarlet Pimpernel of the Vatican”。原文直接出現完整詞組："
+            },
+            {
+              "kind": "quote",
+              "text": "“…led to him being given the nickname the Scarlet Pimpernel of the Vatican…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同一句前後會說原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His success in never being identified when on unauthorised rescue missions outside of Vatican City, and in smuggling Jews and Allied airmen into Vatican City led to him being given the nickname the Scarlet Pimpernel of the Vatican, an acknowledgement of what a master of disguise O’Flaherty had become.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在 Vatican City 外進行未經授權的救援任務時，成功從未被認出，並成功把 Jews 和 Allied airmen 偷偷帶入 Vatican City；這使他獲得 The Scarlet Pimpernel of the Vatican 這個綽號，也是對他成為 disguise master 的承認。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接說出兩個原因：第一，never being identified on rescue missions；第二，a master of disguise。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 C 的 “successfully used disguises to avoid being identified” 最完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷： C 正確。successfully used disguises 對應 master of disguise；avoid being identified 對應 never being identified。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 的 “resembled a Scarlet Pimpernel” 誤解了 nickname。Scarlet Pimpernel 是一種文學式綽號，不是說他外表像某物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯在 disguised himself as a Vatican priest。原文沒有這種具體偽裝，而且他本身就是 priest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 是玩弄 Master 一字。master of disguise 指高手，不是學位。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "nickname reason = led to him being given the nickname avoid being identified = never being identified used disguises successfully = master of disguise真正定案的短語是 never being identified 和 master of disguise。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "A — He admires O’Flaherty’s bravery and determination to stop injustice.",
+      "answerKey": "A — He admires O’Flaherty’s bravery and determination to stop injustice.",
+      "type": "Multiple Choice",
+      "prompt": "“What is the writer’s attitude towards O’Flaherty’s life and achievements?”",
+      "translation": "作者對 O’Flaherty 的人生和成就持甚麼態度？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項： A He admires O’Flaherty’s bravery and determination to stop injustice.作者欣賞 O’Flaherty 的勇氣，以及阻止不公義的決心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B He admires O’Flaherty’s loyalty to the Vatican and his church.作者欣賞他對 Vatican 和教會的忠誠。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C He feels that Margaret Mead was a superior speech-maker to O’Flaherty.作者認為 Margaret Mead 比 O’Flaherty 更會演說。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D He feels he didn’t get the recognition he deserves for his achievements.作者覺得他沒有得到應得的認可。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Margaret Mead once said: ‘Never doubt that a small group of thoughtful, committed citizens can change the world. Indeed, it is the only thing that ever has.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Margaret Mead 曾說：「不要懷疑一小群有思想、投入的公民能改變世界。事實上，這正是唯一曾經改變世界的力量。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In life, he saved thousands of innocent Romans; in death, he is remembered as a man who bravely stood up to extremism and who was not prepared to turn a blind eye to injustice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "生前，他拯救了數千名無辜 Romans；死後，他被記住為一個勇敢對抗 extremism、並不願對injustice 視而不見的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 7 是高度正面的總結段。題目問 writer’s attitude，最後一句尤其重要。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “writer’s attitude” 和 “achievements”。態度題要找評價性語言，例如 bravely、thoughtful、committed、saved、innocent、stood up to、injustice。Paragraph 7 幾乎全段都是評價語言。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“O’Flaherty and his loyal group of helpers inside and outside the Vatican are exactly the kind of people she was referring to.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "O’Flaherty 和他在 Vatican 內外的忠誠幫手，正正就是 Margaret Mead 所說的那種人。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In life, he saved thousands of innocent Romans; in death, he is remembered as a man who bravely stood up to extremism and who was not prepared to turn a blind eye to injustice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "生前，他拯救了數千名無辜 Romans；死後，他被記住為勇敢對抗 extremism、絕不願對 injustice視而不見的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句展示作者的 admiration。作者把 O’Flaherty 和能改變世界的 committed citizens 相連，又用 “bravely stood up to extremism” 評價他的勇氣，用 “not prepared to turn a blind eye to injustice” 評價他的道德決心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項判斷： A 正確。bravery 對應 bravely stood up；determination to stop injustice 對應 not prepared to turn a blind eye to injustice。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 有 Vatican 和 church 背景，但作者最後總結的重點是 injustice 和 extremism，不是institutional loyalty。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 完全沒有支援。Margaret Mead 是引用來源，不涉及 speech-making 比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 與原文不合。文章列出 US Medal of Freedom、Commander of the British Empire、Righteous Among the Nations、New York Times tribute 等 recognition，沒有說他未獲認可。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "admires = remembers positively / frames as world-changing bravery = bravely stood up to extremism determination to stop injustice = not prepared to turn a blind eye to injustice態度題要留意評價字。這題的評價訊號非常集中在 bravely 和 injustice。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "concentration camps",
+      "answerKey": "concentration camps",
+      "type": "Summary Completion",
+      "prompt": "“…the German and Italian police, who, acting on orders from above, were rounding these groups up to be sent to 22 __________.”",
+      "translation": "德國和意大利警察奉上級命令，把這些群體抓起來，送往 __________。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the autumn of 1942, the Germans and Italians started to crack down on prominent figures they viewed as being hostile to their goals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1942 年秋天，德國和意大利開始打壓他們視為敵對目標的 prominent figures。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“O’Flaherty, on the other hand, having socialised with many prominent Jews throughout his time in Italy, did not adhere to the Nazi ideology, and it was then that he started to act, protecting innocent Jews and other victims of injustice, and keeping them away from the claws of the Italian and German police, whose orders were to ship them to concentration camps.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "O’Flaherty 另一方面，因曾在意大利與許多 prominent Jews 交往，沒有接受 Nazi ideology；那時他開始行動，保護無辜 Jews 和其他 injustice victims，使他們遠離意大利和德國警察的魔爪，因為警察奉命把他們送往 concentration camps。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段直接講迫害政策、警察命令和 O’Flaherty 的保護行動。Summary 的 “sent to”明顯對應最後一句 “ship them to”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “police”、“orders” 和 “sent to”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“the Italian and German police, whose orders were to ship them to concentration camps.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“sent to” 是 “ship them to” 的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“…keeping them away from the claws of the Italian and German police, whose orders were to ship them to concentration camps.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使他們遠離意大利和德國警察的魔爪，因為警察奉命把他們送往 concentration camps。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “to be sent to”，後面需要地點名詞。原文的地點是 “concentration camps”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "rounding these groups up = police capturing / taking victims sent to = ship them to concentration camps = concentration camps答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“concentration camps” 是兩個字，符合 NO MORE THAN TWO WORDS。中伏位在 “ethnic cleansing”。它是政策名稱或行動背景，空格需要的是被送往的地點，所以要填concentration camps。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "caught",
+      "answerKey": "caught",
+      "type": "Summary Completion",
+      "prompt": "“In helping O’Flaherty, these friends showed their own bravery as getting 23 __________ might have cost them their lives.”",
+      "translation": "這些朋友幫助 O’Flaherty 時也表現出勇氣，因為如果被 __________，他們可能會失去生命。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“O’Flaherty used his old college and indeed his own official residence as hiding places for the people he was trying to protect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "O’Flaherty 使用 old college 和 own official residence 作為 hiding places，保護他想救的人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Calling once again on his contacts, he developed a network of apartments in which to house them until their safe return to Britain could be arranged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他再次依靠 contacts，發展 apartments network 收容他們，直到能安排他們安全返回英國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段講藏匿行動和人脈。Summary 提到 “friends showed bravery” 和 “cost them their lives”，應定位到中間 old friends 冒生命危險的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “friends”、“cost them their lives”。原文相關句有："
+            },
+            {
+              "kind": "quote",
+              "text": "“old friends in these places…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“had they been caught…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“endangering their own lives…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三個元素同一句出現，因此就是答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…old friends in these places who, by agreeing to house the ‘unwanted’, were not just risking a reprimand from the fascists had they been caught but were endangering their own lives by being party to O’Flaherty’s campaign.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些地方的老朋友同意收容 “unwanted”；如果被抓，他們面對的不只是 fascists 的 reprimand，更是在參與 O’Flaherty 的行動時危及自己的生命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 的句型是 “getting ___ might have cost them their lives”。英文自然搭配是 “getting caught”。原文是 “had they been caught”，意思完全一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "getting caught = had they been caught might have cost them their lives = were endangering their own lives friends = old friends in these places答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“caught” 是一個字，符合 NO MORE THAN TWO WORDS。不能填 “been caught”，因為 summary 已有 “getting”，寫成 “getting been caught” 文法錯誤。中伏位是 “reprimand”。它也是後果之一，但 summary 說 might have cost them their lives，真正對應的是 being caught 之後可能喪命。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "Allied airmen",
+      "answerKey": "Allied airmen",
+      "type": "Summary Completion",
+      "prompt": "“Not only did O’Flaherty help the ‘unwanted’, he also extended his assistance to downed 24__________, as well as British soldiers who had been detained by the Germans.”",
+      "translation": "O’Flaherty 不只幫助 “unwanted”，也把援助擴展到被擊落的 __________，以及被德國人拘留的British soldiers。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“O’Flaherty used his old college and indeed his own official residence as hiding places for the people he was trying to protect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "O’Flaherty 使用 old college 和 official residence 作為 hiding places，保護他想救的人。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Calling once again on his contacts, he developed a network of apartments in which to house them until their safe return to Britain could be arranged.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他再次依靠 contacts，建立 apartments network 收容他們，直到可以安排他們安全回英國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段後半講他擴展援助對象。Summary 中的 downed 和 British soldiers 直接指向該處。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “downed”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the summer of 1943, O’Flaherty extended his efforts to include helping escaped British prisoners of war and downed Allied airmen.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句和 summary 幾乎逐字對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the summer of 1943, O’Flaherty extended his efforts to include helping escaped British prisoners of war and downed Allied airmen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1943 年夏天，O’Flaherty 擴展了自己的努力，開始幫助逃出的 British prisoners of war 和被擊落的 Allied airmen。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 把 “escaped British prisoners of war” 改寫成 “British soldiers who had been detained by the Germans”。空格前保留 “downed”，因此空格應填 “Allied airmen”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "extended his assistance = extended his efforts British soldiers detained by Germans = British prisoners of war downed Allied airmen = downed Allied airmen答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Allied airmen” 是兩個字，符合 NO MORE THAN TWO WORDS。這題要注意大小寫不影響 IELTS 答案，但保留原文大寫 Allied 較清楚。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "smuggling",
+      "answerKey": "smuggling",
+      "type": "Summary Completion",
+      "prompt": "“So effective had he been at 25 __________ Jews and servicemen inside that he earned the nickname The Scarlet Pimpernel of the Vatican.”",
+      "translation": "他在把 Jews 和 servicemen __________ 進去方面非常有效，因此獲得 The Scarlet Pimpernel of the Vatican 這個綽號。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the end of the war, over 6,500 Jews and American and British soldiers had O’Flaherty to thank for their escape from the Germans and a nearly certain death.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到戰爭結束時，超過 6,500 名 Jews 以及 American 和 British soldiers 要感謝 O’Flaherty，因為他們逃離了德國人和幾乎必然的死亡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fledgling Jewish state of Israel also recognised O’Flaherty’s contribution by proclaiming him Righteous Among the Nations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新生的 Jewish state of Israel 也承認 O’Flaherty 的貢獻，宣布他為 Righteous Among the Nations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講救援成果、綽號和戰後榮譽。Summary 提到 nickname，所以應看本段中間含 “Scarlet Pimpernel” 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “nickname The Scarlet Pimpernel of the Vatican”。原文同一句有："
+            },
+            {
+              "kind": "quote",
+              "text": "“…and in smuggling Jews and Allied airmen into Vatican City led to him being given the nickname…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“smuggling” 直接是答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“His success in never being identified when on unauthorised rescue missions outside of Vatican City, and in smuggling Jews and Allied airmen into Vatican City led to him being given the nickname the Scarlet Pimpernel of the Vatican…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在 Vatican City 外進行未經授權救援任務時成功從未被認出，並成功把 Jews 和 Allied airmen偷偷帶入 Vatican City；這使他獲得 The Scarlet Pimpernel of the Vatican 這個綽號。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Summary 的 “servicemen” 概括 Allied airmen / soldiers。 “inside” 對應 “into Vatican City”。空格前是 “been at”，後面接動名詞最自然，所以填 smuggling。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Jews and servicemen inside = Jews and Allied airmen into Vatican City so effective had he been at = his success in earned the nickname = led to him being given the nickname smuggling = smuggling答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“smuggling” 是一個字，符合 NO MORE THAN TWO WORDS。中伏位是 “disguise”。綽號確實也和 disguise 有關，但 summary 的句型是 “at ___ Jews and servicemen inside”，最自然和原文對應的是 “smuggling … into Vatican City”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "accolades",
+      "answerKey": "accolades",
+      "type": "Summary Completion",
+      "prompt": "“O’Flaherty received a huge number of 26 __________ from countries all around the world in acknowledgement of his wartime achievements.”",
+      "translation": "O’Flaherty 因戰時成就，獲得世界各國大量 __________。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the end of the war, over 6,500 Jews and American and British soldiers had O’Flaherty to thank for their escape from the Germans and a nearly certain death.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到戰爭結束時，超過 6,500 名 Jews 以及 American 和 British soldiers 要感謝 O’Flaherty，因為他們逃離了德國人和幾乎必然的死亡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fledgling Jewish state of Israel also recognised O’Flaherty’s contribution by proclaiming him Righteous Among the Nations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新生的 Jewish state of Israel 也承認 O’Flaherty 的貢獻，宣布他為 Righteous Among the Nations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段後半由 nickname 轉向 honours。Summary 中 “received a huge number of…” 明顯對應received many accolades。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “received” 和 “countries all around the world”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the war, O’Flaherty continued to serve in Rome and received many accolades…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句後面列出 US、British、Israel 的認可。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the war, O’Flaherty continued to serve in Rome and received many accolades, including the US Medal of Freedom and the title Commander of the British Empire.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "戰後，O’Flaherty 繼續在羅馬服務，並獲得許多 accolades，包括 US Medal of Freedom 和Commander of the British Empire 頭銜。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fledgling Jewish state of Israel also recognised O’Flaherty’s contribution by proclaiming him Righteous Among the Nations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新生的以色列也承認 O’Flaherty 的貢獻，宣布他為 Righteous Among the Nations。"
+            },
+            {
+              "kind": "quote",
+              "text": "“accolades” 指榮譽、嘉許、獎項或正式表揚。Summary 的 “from countries all around the world”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是對 US、Britain、Israel 等例子的概括。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "a huge number of = many acknowledgement = recognised / received accolades countries all around the world = US, Britain, Israel wartime achievements = contribution / rescue work during the war答案形式檢查："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“accolades” 是一個字，符合 NO MORE THAN TWO WORDS。中伏位是列舉項目，如 “US Medal of Freedom” 或 “Commander of the British Empire”。這些是accolades 的例子；summary 需要上位概括詞，所以填 accolades。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The Scarlet Pimpernel of the Vatican.pdf",
+    "sha256": "51d884fa1775195e5caaa2a9185c62a613360f65da0d489b0d7e48cbc4c40de8",
+    "pageCount": 26
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句交代 Hugh O’Flaherty 出生於 Kiskeam，在 Killarney 長大，家庭和早年背景都帶有愛爾蘭地方色彩。末句說他在羅馬完成 theology degree、1925 年被 ordained，並繼續修讀 divinity、canon law 和 philosophy 的博士學位。只看首尾句，可以估計本段是早年教育和神職培訓背景，重點會包括 priesthood、seminary、Rome、ordination 和學歷。Question 14 應優先定位這段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 O’Flaherty 之後幾年被派往 Egypt、Haiti、San Domingo、Czechoslovakia 和 Palestine 等地，很快證明自己是出色外交官。末句說他的 connections 後來給他權力和影響力去幫助數千名無辜者，而他的 high profile 令德國和意大利當局不敢太快對付他。初步來看，本段重點是外交能力、高爾夫、人脈和名聲，Question 15 會在此定位。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 1942 年秋天，德國和意大利開始打壓他們視為敵對的 prominent figures。末句說O’Flaherty 開始行動，保護無辜 Jews 和其他 injustice victims，避免他們落入意大利和德國警察手中，被送往 concentration camps。只看首尾句，可估計本段由 fascist persecution 轉入O’Flaherty 的道德反應。Question 16 和 summary 的 22 會集中在這段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 O’Flaherty 使用自己的 old college 和 official residence 作為 hiding places，保護他照顧的人。末句說他再次依靠 contacts，發展出一個 apartments network，收容逃出的 British prisoners of war 和 downed Allied airmen，直到安排他們安全回英國。初步來看，本段是 rescue operation 的具體做法：藏身地點、朋友協助、monasteries、convents、apartments 和被救對象。 Questions 17–19、23–24 都會在這裡找證據。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說到戰爭結束時，超過 6,500 名 Jews 以及 American 和 British soldiers 要感謝 O’Flaherty使他們逃離德軍和幾乎必然的死亡。末句說 Israel 也承認他的貢獻，宣布他為 Righteous Among the Nations。只看首尾句，可估計本段講救援成果、Scarlet Pimpernel of the Vatican 這個nickname 的由來、disguise、smuggling，以及戰後獲得的 honours。Questions 20、25、26 明顯在此段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 O’Flaherty 於 1960 年退休，回到愛爾蘭 Cahersiveen。末句說他的死亡受到全世界哀悼， New York Times 更在 front page 刊登 tribute。初步來看，本段很短，主要交代晚年、死亡和國際悼念。它對本組題目幫助較少，但可補充他死後仍受尊敬，尤其支援全文對他聲望和紀念的整體理解。"
+      },
+      {
+        "number": "7",
+        "summary": "首句引用 Margaret Mead 的話，說不要懷疑一小群 thoughtful、committed citizens 可以改變世界。末句說 O’Flaherty 生前拯救了數千名無辜 Romans，死後被記住為勇敢對抗 extremism、拒絕對 injustice 視而不見的人。只看首尾句，可以估計本段是評價和總結，重點在 moral courage、helpers、anti-extremism 和反對 injustice。Question 21 可由這段判斷作者態度。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "每段只根據第一句和最後一句作初步導航。"
+  ]
+}

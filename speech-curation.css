@@ -1,0 +1,82 @@
+:root{font-family:Inter,"Helvetica Neue",Arial,"PingFang TC",sans-serif;color:#1b3542;background:#f3f1e9}*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 88% 10%,#f2dec3 0,transparent 32%),#f3f1e9}button,input,textarea{font:inherit}button{cursor:pointer}button:disabled{cursor:wait;opacity:.65}[hidden]{display:none!important}.skip-link{position:absolute;left:-9999px}.skip-link:focus{left:1rem;top:1rem;z-index:10;background:#fff;padding:.8rem}.edmund-system-header{background:#fff;border-bottom:1px solid #d8e2e1}.home-link{color:#214954;font-weight:700;text-decoration:none}.edmund-system-header__actions{display:flex;align-items:center;gap:1rem}.account-name{font-size:.88rem;font-weight:700;color:#48616c}.header-logout{border:1px solid #ccd9db;border-radius:12px;background:#fff;color:#244a53;padding:.65rem .95rem;font-weight:700}.speech-shell{max-width:1200px;margin:auto;padding:clamp(1rem,4vw,3rem)}.hero{position:relative;overflow:hidden;min-height:250px;padding:clamp(1.6rem,5vw,4rem);border-radius:30px;background:radial-gradient(circle at 80% 20%,#c8986277,transparent 25%),linear-gradient(125deg,#142739,#31536a 70%,#7e684e);color:#fff;box-shadow:0 20px 50px #17364a22}.hero:after{content:"“";position:absolute;right:7%;bottom:-9rem;font:25rem Georgia,serif;color:#ffffff15;pointer-events:none}.eyebrow{margin:0 0 .75rem;font-size:.76rem;font-weight:800;letter-spacing:.16em;color:#b5813c}.hero .eyebrow{color:#f1cf94}.hero h1{margin:0;font:700 clamp(2.6rem,7vw,5.2rem)/1.13 Georgia,"Noto Serif TC",serif;letter-spacing:-.025em}.hero h1 em{font-style:normal;color:#f2cc92}.hero>p:last-child{max-width:35rem;margin:1.25rem 0 0;color:#e3e9ec;font-size:1.08rem;line-height:1.7}.login-panel{display:grid;grid-template-columns:1fr minmax(300px,440px);gap:clamp(1rem,4vw,3rem);align-items:center;margin-top:2rem;padding:clamp(1.4rem,4vw,3rem);border:1px solid #dce2df;border-radius:26px;background:#fffcf7;box-shadow:0 12px 28px #17364a0c}.login-intro h2,.library-heading h2{margin:.2rem 0 1rem;font:700 clamp(2rem,4vw,3rem)/1.2 Georgia,"Noto Serif TC",serif}.login-intro p:last-child,.library-heading p:last-child{max-width:32rem;color:#5b7074;line-height:1.8}.login-box{padding:1.5rem;border:1px solid #dce3df;border-radius:20px;background:#fff}.role-tabs{display:flex;gap:.5rem;padding:.3rem;border-radius:13px;background:#eef1ef}.role-tabs button{flex:1;border:0;border-radius:10px;padding:.8rem .5rem;color:#536b70;background:transparent;font-weight:750}.role-tabs button[aria-pressed=true]{background:#214e58;color:#fff;box-shadow:0 3px 8px #102f3b2b}form{display:grid;gap:1rem}form label{display:grid;gap:.45rem;font-weight:700;color:#294955}input,textarea{width:100%;min-height:46px;padding:.8rem .9rem;border:1px solid #c9d7d5;border-radius:11px;background:#fff;color:#183844}input:focus-visible,textarea:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid #daa959;outline-offset:2px}.login-box form{margin-top:1.2rem}.primary-button{border:0;border-radius:11px;padding:.85rem 1.15rem;background:#22545d;color:#fff;font-weight:800;box-shadow:0 4px 0 #11343c}.primary-button:hover{background:#176271}.form-status,.library-status,[data-editor-status]{min-height:1.2em;margin:0;color:#ad5436;font-size:.89rem}.library{margin-top:2rem}.library-heading{display:flex;justify-content:space-between;align-items:end;gap:1.5rem;margin-bottom:1.4rem}.search-label{display:grid;gap:.45rem;min-width:min(100%,260px);font-size:.85rem;font-weight:750}.editor{margin:1.25rem 0 2rem;padding:clamp(1.25rem,3vw,2rem);border:1px solid #d8dfda;border-radius:22px;background:#fff}.editor-heading h3{margin:.2rem 0;font:700 1.7rem Georgia,"Noto Serif TC",serif}.editor-heading p:last-child{color:#63777b}.editor form{margin-top:1.4rem}.editor-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.editor-actions{display:flex;align-items:center;flex-wrap:wrap;gap:1rem}.editor-actions>button:not(.primary-button),.speech-actions button{border:1px solid #cad9d7;border-radius:9px;padding:.55rem .8rem;background:#fff;color:#214a54;font-weight:700}.speech-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,310px),1fr));gap:1rem}.speech-card{display:flex;flex-direction:column;min-height:230px;padding:1.5rem;border:1px solid #d6dedb;border-radius:20px;background:#fff;box-shadow:0 8px 20px #1e3b4b0c}.speech-card .eyebrow{margin-bottom:.6rem}.speech-card h3{margin:0 0 .6rem;font:700 1.35rem/1.35 Georgia,"Noto Serif TC",serif}.speech-card .speaker{margin:0 0 1rem;color:#64797d;font-weight:700}.speech-card .description{margin:0 0 1.2rem;color:#39545e;line-height:1.65;white-space:pre-wrap;overflow-wrap:anywhere}.speech-actions{display:flex;align-items:center;gap:.65rem;flex-wrap:wrap;margin-top:auto}.speech-link{display:inline-flex;align-items:center;border-radius:9px;padding:.65rem .9rem;background:#e9f0ed;color:#194e57;font-weight:800;text-decoration:none}.speech-link:hover{background:#dbe9e3}.empty-state{grid-column:1/-1;padding:3rem 1.4rem;border:1px dashed #afc2bd;border-radius:20px;background:#fffaf2;text-align:center;color:#5d7072}.empty-state h3{margin:.3rem 0;color:#244751;font:700 1.65rem Georgia,"Noto Serif TC",serif}@media(max-width:700px){.login-panel{grid-template-columns:1fr}.library-heading{align-items:stretch;flex-direction:column}.search-label{width:100%}.editor-grid{grid-template-columns:1fr}.edmund-system-header__actions{gap:.35rem}.account-name{display:none}}
+.account-editor{border-color:#b9ced0;background:#f7faf8}.account-active{display:flex;align-items:center;gap:.55rem}.account-active input{width:1.2rem;min-height:1.2rem;height:1.2rem;margin:0}.account-list-heading{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;margin-top:2rem;border-top:1px solid #d8e4e2;padding-top:1.2rem}.account-list-heading h4{margin:0 0 .7rem;font-size:1.1rem}.account-list-heading span{color:#60757b;font-size:.86rem}.account-list{display:grid;gap:.55rem;max-height:360px;overflow:auto}.account-row{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.75rem 1rem;border:1px solid #d8e4e2;border-radius:11px;background:#fff}.account-row strong{display:block;overflow-wrap:anywhere}.account-row small{display:block;margin-top:.2rem;color:#64777b}.account-row button{flex:0 0 auto;border:1px solid #cad9d7;border-radius:9px;background:#fff;padding:.48rem .75rem;color:#214a54;font-weight:700}.account-row button:hover{background:#e7f0ed}[data-account-status]{color:#ad5436;font-size:.89rem}.editor label small{color:#71858b;font-weight:500}
+@media(max-width:520px){.account-row{align-items:flex-start;flex-direction:column}.role-tabs button{font-size:.86rem}}
+.speaker-group{grid-column:1/-1;border:1px solid #cfdeda;border-radius:20px;background:#fffdf8;overflow:hidden;box-shadow:0 8px 20px #1e3b4b0c}.speaker-group>summary{display:flex;align-items:center;gap:1rem;min-height:100px;padding:1.4rem 1.7rem;list-style:none;cursor:pointer;background:linear-gradient(110deg,#fdfaf2,#eaf2ee)}.speaker-group>summary::-webkit-details-marker{display:none}.speaker-group-name{color:#234752;font:700 clamp(1.5rem,3vw,2.1rem) Georgia,serif}.speaker-group-count{margin-left:auto;color:#617a79;font-size:.86rem;font-weight:800}.speaker-group-arrow{color:#a77a44;font-size:1.7rem;transition:transform .25s}.speaker-group[open] .speaker-group-arrow{transform:rotate(180deg)}.speaker-speeches{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,310px),1fr));gap:1rem;padding:1rem}.speaker-speeches .speech-card{min-height:180px}
+
+/* The speech archive uses restrained institutional colours and natural library photography. */
+:root{color:#252f31;background:#e9eff0}
+body{background:linear-gradient(180deg,#dce5e6 0,#f4f6f5 430px,#eef2f1 100%)}
+.edmund-system-header{background:#111!important;border-bottom:1px solid #303030}
+.edmund-system-header__actions .home-link,.edmund-system-header__actions .account-name{color:#f5f7f7}
+.edmund-system-header__actions .header-logout{background:#303636;color:#fff;border-color:#526263}
+.edmund-system-switcher__copy strong,.edmund-system-switcher__copy small,.edmund-system-switcher__chevron{color:#fff!important}
+.edmund-system-switcher__trigger:hover,.edmund-system-switcher__trigger:focus-visible,.edmund-system-switcher[data-open="true"] .edmund-system-switcher__trigger{background:#303636}
+.speech-shell{max-width:1320px;padding:clamp(1rem,3.5vw,3rem)}
+.entry-stage{position:relative;min-height:min(780px,calc(100vh - 125px));overflow:hidden;border-radius:4px;background:#111;box-shadow:0 30px 55px #12262922}
+.hero{position:absolute;inset:0;min-height:0;padding:clamp(2rem,5vw,5rem);border-radius:0;background:linear-gradient(90deg,#050505d9 0%,#0b1110a8 45%,#0b111022 100%),url('/speech-curation-assets/library-hero.jpg') center 50%/cover;color:#fff;box-shadow:none}
+.hero:after{display:none}
+.hero-copy{max-width:560px}
+.hero .eyebrow{color:#abd6dc}
+.hero h1{font-size:clamp(3.2rem,6vw,6rem);line-height:1.15;letter-spacing:.01em}
+.hero h1 em{color:#fff}
+.hero-meta{margin:1.7rem 0 0;color:#c5d3d4;font-size:.82rem;font-weight:700;letter-spacing:.13em}
+.hero-meta span{margin:0 .7rem;color:#008ca8}
+.login-panel{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) minmax(310px,410px);align-items:end;gap:2rem;margin:0;padding:clamp(2rem,4vw,4rem);min-height:min(780px,calc(100vh - 125px));border:0;border-radius:0;background:none;box-shadow:none}
+.login-intro{align-self:end;max-width:490px;padding-top:230px;color:#fff}
+.login-intro h2{color:#fff;font-size:clamp(1.7rem,2.8vw,2.6rem)}
+.login-intro p:last-child{color:#d0dcdd;font-size:.92rem}
+.login-intro .eyebrow{color:#8dc8d0}
+.login-box{padding:1.6rem;border:1px solid #e6eeee88;border-radius:3px;background:#f9fbfaf0;box-shadow:0 14px 40px #0005;backdrop-filter:blur(10px)}
+.role-tabs{border-radius:2px;background:#e5ebeb}
+.role-tabs button{border-radius:2px;color:#4f6264}
+.role-tabs button[aria-pressed=true]{background:#303636;color:#fff;box-shadow:none}
+.login-box form{margin-top:1.5rem}
+form label{color:#303c3e}
+input,textarea{border-color:#b7c5c6;border-radius:2px;color:#222;background:#fff}
+input:focus-visible,textarea:focus-visible,button:focus-visible,a:focus-visible{outline-color:#008ca8}
+.primary-button{border-radius:2px;background:#00839c;box-shadow:none;transition:background .2s,transform .2s}
+.primary-button:hover{background:#006b80;transform:translateY(-2px)}
+.login-box .primary-button{display:flex;justify-content:space-between;align-items:center;min-height:50px}
+.eyebrow{color:#00768d}
+.library{margin-top:0;padding:clamp(1rem,3vw,2.5rem);border:1px solid #d1ddde;background:#fbfcfb}
+.library-heading{border-bottom:1px solid #c6d2d3;padding-bottom:1.5rem}
+.library-heading h2{color:#1b282b}
+.library-heading p:last-child{color:#627476}
+.editor,.account-editor{border-radius:3px;background:#f8faf9;border-color:#cbd7d7}
+.speech-list{display:block}
+.speaker-group{margin:1rem 0;border-radius:3px;border-color:#cbd7d7;background:#fff;box-shadow:none}
+.speaker-group>summary{min-height:110px;background:linear-gradient(90deg,#e9f0f1,#f9fbfa);border-left:4px solid #00839c}
+.speaker-group-name{color:#192c30}
+.speaker-group-arrow{color:#00839c}
+.speaker-speeches{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,310px),1fr))}
+.speech-card{border-radius:2px;box-shadow:none}
+.speech-link{border-radius:2px;background:#e2eef0;color:#006b80}
+.speech-link:hover{background:#cbe4e8}
+@media(max-width:850px){.entry-stage,.login-panel{min-height:700px}.login-panel{grid-template-columns:1fr;gap:1rem;align-content:end}.login-intro{padding-top:220px}.login-box{max-width:530px}.hero{background-position:center}}
+@media(max-width:520px){.speech-shell{padding:0}.entry-stage{border-radius:0}.hero{padding:2rem 1.25rem;background-position:57% center}.hero h1{font-size:3rem}.login-panel{padding:1.25rem;min-height:780px}.login-intro{padding-top:250px}.login-box{padding:1rem}.library{padding:1rem}.speaker-group>summary{padding:1rem}.speaker-group-name{font-size:1.35rem}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
+
+.saved-library{margin:1.5rem 0 2rem;border:1px solid #bed1d1;border-left:4px solid #00839c;padding:clamp(1rem,2vw,1.65rem);background:linear-gradient(#f3ede0cf,#f3ede0cf),url('/speech-curation-assets/parchment-paper.jpg') center/520px auto repeat}
+.saved-library-head{display:flex;align-items:end;justify-content:space-between;gap:1rem;border-bottom:1px solid #c7d3d1;padding-bottom:.8rem}
+.saved-library-head h3{margin:0;color:#203a3c;font:700 clamp(1.4rem,2vw,1.9rem) Georgia,"Noto Serif TC",serif}
+.saved-library-head h3 span{margin-left:.4rem;color:#00768d;font:800 .85rem Inter,Arial,sans-serif}
+.saved-library-head>p{max-width:26rem;margin:0;color:#597173;font-size:.86rem;line-height:1.5}
+.saved-status{color:#a04c37;font-size:.84rem}
+.saved-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:.7rem}
+.saved-item{border:1px solid #c5d5d4;padding:1rem;background:#fffdf8;box-shadow:0 5px 15px #1932390d}
+.saved-item-head{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+.saved-kicker{color:#00768d;font-size:.69rem;font-weight:900;letter-spacing:.08em}
+.saved-remove{border:0;background:none;color:#8a6d55;font-size:.72rem;font-weight:800;text-decoration:underline}
+.saved-idea-title{margin:.7rem 0 .2rem;color:#8b4c2b;font:800 1.07rem Inter,"PingFang TC",sans-serif;text-decoration:underline;text-underline-offset:.2em}
+.saved-english{margin:.75rem 0;color:#203537;font:700 1.1rem/1.55 "Times New Roman",Times,serif}
+.saved-chinese{margin:0 0 .9rem;color:#526668;font-size:.86rem;line-height:1.6}
+.saved-link{display:inline-flex;border-bottom:1px solid #00768d;padding:.2rem 0;color:#006b80;font-size:.82rem;font-weight:900;text-decoration:none}
+.saved-empty{grid-column:1/-1;margin:0;padding:1rem;color:#5c7070;font-size:.9rem}
+@media(max-width:600px){.saved-library-head{align-items:start;flex-direction:column}}
+
+.library-text-results{display:grid;gap:.5rem;margin:-.3rem 0 1.4rem;border:1px solid #bed1cf;padding:1rem;background:linear-gradient(#f9f5ebde,#f9f5ebde),url('/speech-curation-assets/parchment-paper.jpg') center/440px auto repeat}
+.library-text-results>p{margin:.2rem 0;color:#355e63;font-size:.87rem;font-weight:800}
+.library-text-hit{display:flex;align-items:baseline;gap:.85rem;border:1px solid #d2dfdb;padding:.65rem .8rem;background:#fff;color:#253e42;text-decoration:none;line-height:1.5}
+.library-text-hit:hover,.library-text-hit:focus-visible{border-color:#00839c;background:#e8f2f0}
+.library-text-hit strong{flex:0 0 auto;color:#9d6438;font-size:.77rem}
+@media(max-width:600px){.library-text-hit{align-items:start;flex-direction:column;gap:.1rem}}

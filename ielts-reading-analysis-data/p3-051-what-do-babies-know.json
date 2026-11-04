@@ -1,0 +1,2296 @@
+{
+  "id": "p3-051-what-do-babies-know",
+  "catalogueId": "p3-051",
+  "catalogueIds": [
+    "p3-051"
+  ],
+  "passage": 3,
+  "title": "What Do Babies Know?",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "E",
+    "B (選項 B 字面有問題，詳見分析)",
+    "A",
+    "D",
+    "C",
+    "B",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A baby’s behaviour after being left alone is not surprising.”",
+      "translation": "嬰兒被單獨留下後出現某些反應，並不令人意外。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目核心是：● baby’s behaviour：嬰兒的行為或反應；● after being left alone：被單獨留下後；● not surprising：不奇怪、常見、可以預期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以我們要找原文有沒有說，嬰兒在被單獨留下時出現 Daniel 那種 distress 是常見反應。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As Daniel Haworth is settled into a high chair and wheeled behind a black screen, a sudden look of worry furrows his 9-month-old brow.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當 Daniel Haworth 被安置在高椅上，並被推到黑色屏幕後面時，他九個月大的眉頭突然皺起，露出擔憂的神情。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His mother picks him up, reassures him, and two minutes later, a chortling and alert Daniel returns to the darkened booth behind the screen and submits himself to BabyLab, a unit set up in 2005 at the University of Manchester in northwest England to investigate how babies think.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的母親把他抱起來安撫他；兩分鐘後，Daniel 又笑著、警覺地回到屏幕後方的暗色小隔間，參與 BabyLab 的研究。BabyLab 是 2005 年在英格蘭西北部曼徹斯特大學成立的單位，目的是研究嬰兒如何思考。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 的功能：這段用 Daniel 的具體反應開場，既展示嬰兒在實驗環境中的焦慮，也引出 BabyLab。題目問「被單獨留下後的行為是否出乎意料」，所以最可能就在這個開場段找答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的字是：● left alone● baby’s behaviour● not surprising掃描 Paragraph 1，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such distress is a common response when babies are left alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當嬰兒被單獨留下時，這種痛苦反應是常見的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時出現 distress、common response 和 left alone，就是答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 Such distress 指前文 Daniel 的反應，包括：● looking worried；● sucking his fingers；● mouth crumples；● body stiffens；● shriek of distress。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說這些 distress 是 a common response。common 的意思是常見的，不是異常的。題目中的 not surprising 就是把 common response 改寫成「不令人意外」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "a baby’s behaviour after being left alone is not surprising原文： Such distress is a common response when babies are left alone.改寫關係：● baby’s behaviour = Such distress；● after being left alone = when babies are left alone；● not surprising = a common response。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易被 Daniel 的劇烈反應誤導。學生看到 almighty shriek of distress 可能覺得反應很誇張，因而以為「not surprising」不成立。但 IELTS Reading 要看作者如何評價這個反應。作者明確說 common response，所以判斷要落在這句，而非自己對 Daniel 反應的感覺。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Parents are overestimating what babies know.”",
+      "translation": "父母高估了嬰兒知道的東西。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要求判斷文章有沒有說 parents 高估了 what babies know。要成立 TRUE，原文需要有清楚意思，例如 parents think babies know more than they really do。要成立 FALSE，原文需要說父母沒有高估，或父母低估。若文章只是提到 parents 對嬰兒感興趣、會解讀嬰兒表情，但沒有判斷「高估」，答案就是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Watching infants piece life together, seeing their senses, emotions and motor skills take shape, is a source of mystery and endless fascination—at least to parents and developmental psychologists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "觀看嬰兒逐步理解生活，看到他們的感官、情緒和動作技能慢慢形成，對父母和發展心理學家來說，至少是一種神秘又無盡迷人的事情。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though the facility is just 18 months old and has tested only 100 infants, it’s already challenging current thinking on what babies know and how they come to know it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這個研究單位只有十八個月歷史，並且只測試過一百名嬰兒，但它已經開始挑戰目前關於嬰兒知道甚麼、以及他們如何知道的想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 2 的功能：這段提出文章核心問題，也把 parents 和developmental psychologists 放在一起，說他們都對嬰兒心智感到好奇。題目提到 parents 和what babies know，所以 Paragraph 2 是合理定位段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● Parents● overestimating● what babies know掃描 Paragraph 2，最接近的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“We can decode their signals of distress or read a million messages into their first smile.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們可以解讀他們痛苦的信號，也可能從他們的第一次微笑中讀出無數訊息。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“But how much do we really know about what’s going on behind those wide, innocent eyes?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但我們到底有多了解那雙睜大的、天真的眼睛背後正在發生甚麼？"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實提到「我們」可能從嬰兒的 first smile 中讀出很多訊息。這句有一點 over-interpretation的味道，即人們可能過度解讀嬰兒的表情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是題目更具體，說的是：● Parents；● are overestimating；● what babies know。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有明確說父母高估嬰兒的知識，也沒有說父母的理解是錯的。read a million messages into their first smile 只說人們可能把很多意思讀進嬰兒的微笑中，這不等於文章正式判斷父母高估 babies’ knowledge。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "再看最後一句，文章說 BabyLab 正在 challenging current thinking on what babies know。這裡被挑戰的是 current thinking，可能包括學術界的 nativist theories，也可能包括一般理解；但原文沒有把責任指向 parents。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫檢查",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要：● parents overestimate；● parents think babies know too much；● article says parents’ view is too high.原文提供：● parents are fascinated；● people may read many messages into a smile；● BabyLab challenges current thinking.缺失的核心是：parents are overestimating 這個判斷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最主要中伏位是 read a million messages into their first smile。這句確實可能讓學生聯想到「過度解讀」。但「過度解讀微笑」和「高估嬰兒知道甚麼」仍有距離。TRUE / FALSE / NOT GIVEN題不能用一種心理聯想補足題目；要看文章有沒有正式建立這個命題。這裡缺少核心判斷，所以選 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Although only 100 infants have been tested, the results prove current theories about infant knowledge.”",
+      "translation": "雖然只測試了一百名嬰兒，但結果證明了目前關於嬰兒知識的理論。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩個重點： 1. only 100 infants have been tested：樣本數； 2. prove current theories：證明現有理論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一部分是否和原文一致不夠，還要看第二部分是否相符。TRUE / FALSE / NOT GIVEN 題通常要整句判斷；其中一個核心部分和原文相反，就要選 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Watching infants piece life together, seeing their senses, emotions and motor skills take shape, is a source of mystery and endless fascination—at least to parents and developmental psychologists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "觀看嬰兒逐步理解生活，看到他們的感官、情緒和動作技能慢慢形成，對父母和發展心理學家來說，至少是一種神秘又無盡迷人的事情。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though the facility is just 18 months old and has tested only 100 infants, it’s already challenging current thinking on what babies know and how they come to know it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這個研究單位只有十八個月歷史，並且只測試過一百名嬰兒，但它已經開始挑戰目前關於嬰兒知道甚麼、以及他們如何知道的想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題幾乎直接來自 Paragraph 2 最後一句。題目中的 only 100 infants 和原文完全重合，所以定位很穩。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● 100 infants● current theories● prove原文最相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though the facility is just 18 months old and has tested only 100 infants, it’s already challenging current thinking on what babies know and how they come to know it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這個研究單位只有十八個月歷史，並且只測試過一百名嬰兒，但它已經開始挑戰目前關於嬰兒知道甚麼、以及他們如何知道的想法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有：● has tested only 100 infants；● challenging current thinking。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把後半改成：● prove current theories。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "challenging 的意思是挑戰、質疑、令原有想法受到考驗。prove 的意思是證明。兩者方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果研究結果 prove current theories，代表它支持現有理論；但原文說 BabyLab 正在challenging current thinking，表示它令現有理論受到質疑。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "the results prove current theories原文： it’s already challenging current thinking反向關係：● prove = support / confirm；● challenging = question / cast doubt on；● current theories ≈ current thinking。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目和原文都提到「現有想法」，但動詞方向相反。這是 FALSE 的典型情況。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的中伏位是前半句 only 100 infants have been tested。它和原文完全一致，容易讓學生太快選 TRUE。可是 IELTS statement 往往前半正確、後半改動。真正控制答案的是 prove 對challenging 的方向衝突。只要後半核心關係相反，整句就是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Piaget’s theory was rejected by parents in the 1920s.”",
+      "translation": "Piaget 的理論在 1920 年代被父母拒絕。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有三個限制：● Piaget’s theory；● rejected by parents；● in the 1920s。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要選 TRUE，原文要說父母在 1920 年代拒絕 Piaget 的理論。要選 FALSE，原文要說父母接受，或說被拒絕的時間、人物明確不同。若文章只提到 Piaget 在 1920 年代做實驗，沒有 parents’ rejection，答案就是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Variations of experiments like this one, examining infant attention, have been a standard tool of developmental psychology ever since the Swiss pioneer of the field, Jean Piaget, started experimenting on his children in the 1920s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從這個領域的瑞士先驅 Jean Piaget 在 1920 年代開始在自己的孩子身上做實驗以來，這類檢視嬰兒注意力的實驗變體一直是發展心理學的標準工具。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His conclusions so far tend to be more Piagetian: ‘Babies,’ he says, ‘know nothing.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，他的結論傾向於更接近 Piaget 的觀點；他說：「嬰兒甚麼都不知道。」只看首尾句，可以看出 Paragraph 4 的功能：這段回顧 Piaget 的理論和後來 smart-baby theories的轉變，最後引出 Sirois 較接近 Piaget 的立場。題目有 Piaget 和 1920s，所以目標段落是Paragraph 4。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● Piaget● parents● 1920s● rejected原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jean Piaget, started experimenting on his children in the 1920s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Jean Piaget 在 1920 年代開始在自己的孩子身上做實驗。"
+            },
+            {
+              "kind": "label",
+              "text": "另外："
+            },
+            {
+              "kind": "quote",
+              "text": "“Piaget’s ‘constructivist’ theories were massively influential on postwar educators and psychologists, but over the past 20 years or so they have been largely set aside by a new generation of ‘nativist’ psychologists and cognitive scientists…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piaget 的「建構主義」理論對戰後的教育工作者和心理學家產生了巨大影響；但在過去約二十年間，這些理論大多被新一代的「先天論」心理學家和認知科學家放到一旁。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只說 Piaget 在 1920 年代 experimenting on his children。這裡的 children 指他的孩子，並非 parents。它只是交代實驗對象和時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後文說 Piaget 的理論：● 在戰後對 educators and psychologists 影響很大；● 過去二十年左右，被新一代 nativist psychologists and cognitive scientists largely set aside。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些資訊都沒有說：● parents rejected his theory；● 1920s 時他的理論被拒絕；● 父母群體對理論有任何態度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以題目最關鍵的 rejected by parents in the 1920s 缺少原文支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷 TRUE / FALSE / NOT GIVEN這題不選 FALSE，因為原文沒有直接說「父母在 1920 年代接受 Piaget 理論」或「父母沒有拒絕」。文章只是沒有提供這個群體和態度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一個中伏位是 children。原文說 Piaget experimented on his children，學生可能看到 children就聯想到 parents。但 his children 是實驗對象，parents 是題目加入的新主體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個中伏位是 largely set aside。原文確實說 Piaget 的理論後來被放到一旁，但做這件事的是a new generation of nativist psychologists and cognitive scientists，時間是 over the past 20 years or so，不是 1920s，也不是 parents。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Sylvain Sirois’s conclusion about infant cognition is similar to Piaget’s.”",
+      "translation": "Sylvain Sirois 對嬰兒認知的結論和 Piaget 的看法相似。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問兩個人的觀點是否相似：● Piaget；● Sylvain Sirois。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "要找的不是單一人物資料，而是原文有沒有直接把 Sirois 的 conclusions 和 Piagetian / Piaget’s theory 連起來。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Variations of experiments like this one, examining infant attention, have been a standard tool of developmental psychology ever since the Swiss pioneer of the field, Jean Piaget, started experimenting on his children in the 1920s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從這個領域的瑞士先驅 Jean Piaget 在 1920 年代開始在自己的孩子身上做實驗以來，這類檢視嬰兒注意力的實驗變體一直是發展心理學的標準工具。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His conclusions so far tend to be more Piagetian: ‘Babies,’ he says, ‘know nothing.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，他的結論傾向於更接近 Piaget 的觀點；他說：「嬰兒甚麼都不知道。」首尾句已經非常清楚：Paragraph 4 由 Piaget 開始，最後說 Sirois 的 conclusions 更 Piagetian。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問兩者是否相似，答案很可能在最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● Sylvain Sirois● conclusion● similar● Piaget原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“BabyLab director Sylvain Sirois has been putting these smart-baby theories through a rigorous set of tests. His conclusions so far tend to be more Piagetian: ‘Babies,’ he says,‘know nothing.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "BabyLab 主任 Sylvain Sirois 一直在對這些 smart-baby theories 進行嚴格測試。到目前為止，他的結論傾向於更接近 Piaget 的觀點；他說：「嬰兒甚麼都不知道。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piagetian 這個字是關鍵。它的意思是「屬於 Piaget 理論的、接近 Piaget 的」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Sirois 的 conclusions tend to be more Piagetian，即他的結論傾向於更接近 Piaget。"
+            },
+            {
+              "kind": "label",
+              "text": "前文已解釋 Piaget 的觀點："
+            },
+            {
+              "kind": "quote",
+              "text": "“Piaget’s work led him to conclude that infants younger than 9 months have no innate knowledge of how the world works…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piaget 的研究使他得出結論：九個月以下的嬰兒沒有關於世界如何運作的先天知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sirois 的話 “Babies know nothing” 和 Piaget 的「嬰兒沒有先天知識，必須從經驗建構知識」方向一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "similar to Piaget’s原文： tend to be more Piagetian改寫關係：● similar to Piaget’s = Piagetian；● conclusion about infant cognition = conclusions so far；● Sirois = BabyLab director Sylvain Sirois。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能會被中間的 nativist psychologists 影響。Paragraph 4 同時介紹 Piaget 和 nativist theories，而 Sirois 是在測試 smart-baby theories。不能因為 Sirois 做新的 sophisticated experiments，就以為他一定支持 nativist side。真正定案的是最後一句 more Piagetian。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Sylvain Sirois found serious flaws in the experiments conducted by Baillargeon and Spelke.”",
+      "translation": "Sylvain Sirois 發現 Baillargeon 和 Spelke 所做的實驗本身有嚴重缺陷。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要分清兩種東西： 1. experiments were conducted：實驗方法、操作、可重複性； 2. interpretation：研究者如何解釋結果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 Sirois 說方法正確，但解釋有問題，題目說他發現實驗本身有 serious flaws，就和原文方向相衝。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sirois does not take issue with the way these experiments were conducted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sirois 並不反對這些實驗的進行方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The real explanation is boring,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「真正的解釋很無趣。」只看第一句已經非常有定位力。Paragraph 6 開頭直接說 Sirois 不質疑實驗進行方式。題目說他發現 conducted experiments 有 serious flaws，方向已經可疑。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：● Sirois● flaws● experiments conducted● Baillargeon and Spelke Paragraph 5 介紹 Baillargeon 和 Spelke 的實驗，Paragraph 6 開始評價這些實驗。關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sirois does not take issue with the way these experiments were conducted. ‘The methods are correct and replicable,’ he says, ‘it’s the interpretation that’s the problem.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sirois 並不反對這些實驗的進行方式。他說：「方法是正確而且可重複的；問題在於解釋。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句有三個重要部分：● does not take issue with the way these experiments were conducted：不質疑實驗如何進行；● The methods are correct and replicable：方法正確，而且可重複；● it’s the interpretation that’s the problem：問題在於解釋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 found serious flaws in the experiments conducted。這等於把問題放在實驗方法本身。原文清楚說方法沒有問題，問題在 interpretation。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "found serious flaws in the experiments conducted原文： The methods are correct and replicable反向關係：● serious flaws in methods = 方法有嚴重問題；● methods are correct and replicable = 方法正確且可重複。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是明確衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 Paragraph 6 的批評語氣。Sirois 確實批評 previous research，但他批評的是interpretation。題目把批評對象改成 experiments conducted。IELTS 很常考「批評的對象」：看到 criticism 不夠，還要問他批評的是方法、結果、解釋，還是推論。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "E — when previously seen things reappear.",
+      "answerKey": "E — when previously seen things reappear.",
+      "type": "Sentence Endings",
+      "prompt": "“Jean Piaget thinks infants younger than 9 months do not know that something still exists ______.”",
+      "translation": "Jean Piaget 認為，九個月以下的嬰兒不知道某些東西仍然存在 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "但更精準的原文意思是：even when they’re not seen。"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Sentence Ending。主體是 Jean Piaget，所以要找 Piaget 的觀點。核心內容是：● infants younger than 9 months；● do not know something still exists；● 這明顯指向 object permanence。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Variations of experiments like this one, examining infant attention, have been a standard tool of developmental psychology ever since the Swiss pioneer of the field, Jean Piaget, started experimenting on his children in the 1920s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從發展心理學先驅 Jean Piaget 在 1920 年代開始在自己的孩子身上做實驗以來，這類檢視嬰兒注意力的實驗變體一直是該領域的標準工具。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His conclusions so far tend to be more Piagetian: ‘Babies,’ he says, ‘know nothing.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，他的結論傾向於更接近 Piaget 的觀點；他說：「嬰兒甚麼都不知道。」Paragraph 4 是 Piaget 和後來理論轉變的主段落。題目直接問 Piaget，所以目標段落很清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● infants younger than 9 months● still exists● object permanence原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Piaget’s work led him to conclude that infants younger than 9 months have no innate knowledge of how the world works or any sense of ‘object permanence’ (that people and things still exist even when they’re not seen).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piaget 的研究使他得出結論：九個月以下的嬰兒沒有關於世界如何運作的先天知識，也沒有「物體恆存」的概念，也就是不知道人和物即使看不見時仍然存在。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接解釋 object permanence："
+            },
+            {
+              "kind": "quote",
+              "text": "“people and things still exist even when they’re not seen”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思是：即使人和物不在視線之內，它們仍然存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子是： infants younger than 9 months do not know that something still exists ______所以最理想的句尾應該是： even when it is not seen / when it disappears from sight / when it is hidden.但選項中沒有這個完全吻合的句尾。最接近的是 E — when previously seen things reappear，因為它和「之前看見過的東西是否仍然存在」這一主題有關。不過，reappear 和原文 not seen 字面並不完全相同。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文： object permanence = people and things still exist even when they’re not seen"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "do not know that something still exists ______選項 E： when previously seen things reappear這個選項抓住了「之前看過的東西」和「存在」的關係，但如果逐字讀，reappear 比原文慢了一步。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文真正考的是東西「看不見時」是否仍存在，而非「重新出現時」是否存在。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的問題出在選項字面。若考試原題選項本來是 when previously seen things disappear /are no longer seen，答案會非常穩定。按你提供的文字，E 是五個選項中最接近 object permanence 的 intended answer，但分析時要讓學生知道：原文核心其實是 not seen，不是單純reappear。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "B — before they learn from experience.",
+      "answerKey": "B — before they learn from experience.",
+      "type": "Sentence Endings",
+      "prompt": "“Jean Piaget thinks babies acquire knowledge only ______.”",
+      "translation": "Jean Piaget 認為，嬰兒只會 ______ 取得知識。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "但選項 B 按字面讀有問題；原文支持的是 babies construct knowledge from experience。"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題仍然問 Jean Piaget。關鍵是 acquire knowledge，即嬰兒如何獲得知識。Piaget 的理論在文章中被稱為 constructivist，意思是嬰兒要透過經驗逐步建構知識。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Variations of experiments like this one, examining infant attention, have been a standard tool of developmental psychology ever since the Swiss pioneer of the field, Jean Piaget, started experimenting on his children in the 1920s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從發展心理學先驅 Jean Piaget 在 1920 年代開始在自己的孩子身上做實驗以來，這類檢視嬰兒注意力的實驗變體一直是該領域的標準工具。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His conclusions so far tend to be more Piagetian: ‘Babies,’ he says, ‘know nothing.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，他的結論傾向於更接近 Piaget 的觀點；他說：「嬰兒甚麼都不知道。」Paragraph 4 先交代 Piaget 的實驗和理論，再比較 nativist psychologists，最後說 Sirois 回到更Piagetian 的方向。Q34 問 Piaget 如何看 knowledge acquisition，所以仍然定位在 Paragraph 4。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● acquire knowledge● learn from experience● constructivist原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, babies must gradually construct this knowledge from experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，嬰兒必須從經驗中逐步建構這種知識。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Piaget’s ‘constructivist’ theories were massively influential on postwar educators and psychologists…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piaget 的「建構主義」理論對戰後教育工作者和心理學家產生了巨大影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的核心是： babies must gradually construct this knowledge from experience這表示 Piaget 認為知識不是出生時已經完整具備，而是透過經驗逐步建立。"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "babies acquire knowledge only ______最自然的完成方式應該是： after / through / from experience。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但選項 B 是： before they learn from experience如果逐字接回題幹，就變成：嬰兒只會在學習經驗之前取得知識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文意思相衝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以這裡高度可能是題目選項有誤植，或者 B 的原意應是 by learning from experience /through experience / after experience。在五個選項中，只有 B 和 experience 有關，因此按intended answer 應選 B，但教學上必須指出字面問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文： construct this knowledge from experience"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "acquire knowledge改寫關係：● construct knowledge = acquire / build knowledge；● from experience = through learning from experience；● gradually = not immediate, step by step。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 intended answer 是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最大的中伏位不是學生誤解，而是選項本身。若 B 的 before 是原題印刷或輸入問題，學生會感到整句不合邏輯。遇到這種情況，要回到原文證據：Piaget 的核心立場是 from experience。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案可以記 B，但旁邊要標註：嚴格按字面，B 不自然；按文章和出題意圖，B 是唯一可配的選項。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "A — before they are born.",
+      "answerKey": "A — before they are born.",
+      "type": "Sentence Endings",
+      "prompt": "“Some cognitive scientists think babies have mechanisms for learning language______.”",
+      "translation": "一些認知科學家認為，嬰兒在 ______ 已經有學習語言的機制。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題主體轉為 some cognitive scientists，不再是 Piaget。題目問的是 nativist psychologists /cognitive scientists 的觀點：嬰兒是否出生時已帶有某些能力。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Variations of experiments like this one, examining infant attention, have been a standard tool of developmental psychology ever since the Swiss pioneer of the field, Jean Piaget, started experimenting on his children in the 1920s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從發展心理學先驅 Jean Piaget 在 1920 年代開始在自己的孩子身上做實驗以來，這類檢視嬰兒注意力的實驗變體一直是該領域的標準工具。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His conclusions so far tend to be more Piagetian: ‘Babies,’ he says, ‘know nothing.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，他的結論傾向於更接近 Piaget 的觀點；他說：「嬰兒甚麼都不知道。」Paragraph 4 同時介紹 Piaget 和新一代 nativist psychologists / cognitive scientists。Q35 指向cognitive scientists，所以要讀中段 nativist theory 部分。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● cognitive scientists● language● mechanisms● before they are born原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…a new generation of ‘nativist’ psychologists and cognitive scientists whose more sophisticated experiments led them to theorise that infants arrive already equipped with some knowledge of the physical world and even rudimentary programming for mathematics and language.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "新一代「先天論」心理學家和認知科學家，透過更精密的實驗，提出理論：嬰兒出生時已經具備一些關於物理世界的知識，甚至有數學和語言方面的初步程式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 arrive already equipped 是最重要的短語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "arrive 在這裡指嬰兒來到世界，也就是出生時。already equipped 表示在出生時已經具備，不是後來才完全由經驗建立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 mechanisms for learning language，原文是 rudimentary programming for mathematics and language。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "rudimentary programming 可理解為初步的內在機制或預設能力，所以和 mechanisms 接近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A： before they are born這是五個選項中最接近 arrive already equipped 的答案。嚴格說，原文最精準是 at birth /when they arrive，不是詳細討論胎兒出生前的狀態。不過 IELTS 選項常把「出生時已經具備」概括成「出生前已形成」。在選項限制下，A 最貼近 nativist theory。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "babies have mechanisms for learning language原文： rudimentary programming for mathematics and language"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "before they are born原文： arrive already equipped改寫關係：● mechanisms = rudimentary programming；● learning language = language；● before they are born / at birth = arrive already equipped。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易和 Q34 混淆。Piaget 認為知識要從經驗建構；nativist cognitive scientists 認為嬰兒出生時已帶有某些 programming。做 Sentence Endings 時要先看主體：Q34 是 Piaget，Q35 是 some cognitive scientists。主體一變，答案方向也會變。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "D — when facing the possible and impossible events.",
+      "answerKey": "D — when facing the possible and impossible events.",
+      "type": "Sentence Endings",
+      "prompt": "“Sylvain Sirois thinks that babies respond to novel stimuli ______.”",
+      "translation": "Sylvain Sirois 認為，嬰兒在 ______ 時會對新奇刺激作出反應。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題主體是 Sylvain Sirois。關鍵詞是 novel stimuli。要找 Sirois 對 previous impossible-event experiments 的新解釋。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sirois does not take issue with the way these experiments were conducted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sirois 並不反對這些實驗的進行方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The real explanation is boring,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「真正的解釋很無趣。」只看首尾句，可以估計 Paragraph 6 的功能：Sirois 接受實驗方法，但重新解釋結果。他認為過往研究把嬰兒看得久解釋得太複雜，真正原因較簡單。題目中的 novel stimuli 就是這段的核心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● Sirois● novel stimuli● possible● impossible原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His own experiments indicate that a baby’s fascination with physically impossible events merely reflects a response to stimuli that are novel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他自己的實驗顯示，嬰兒對物理上不可能事件的著迷，只是反映他們對新奇刺激作出的反應。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Data from the eye tracker and the measurement of the pupils … show that impossible events involving familiar objects are no more interesting than possible events involving novel objects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "眼動追蹤器和瞳孔測量的數據顯示，涉及熟悉物件的不可能事件，並不比涉及新奇物件的可能事件更有趣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sirois 的重點是：嬰兒並非因為理解了 impossible 才看得久。較準確地說，他們對 novel stimuli反應較強。這解釋了為何：● impossible + familiar objects 不特別吸引；● possible + novel objects 也能吸引注意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D： when facing the possible and impossible events"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當面對可能事件和不可能事件時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和原文的比較完全對應：impossible events involving familiar objects vs possible events involving novel objects。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "babies respond to novel stimuli原文： response to stimuli that are novel選項 D： when facing the possible and impossible events原文： impossible events involving familiar objects possible events involving novel objects所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是把 impossible events 當成真正答案。過往研究者認為嬰兒看得久，是因為知道事情不可能；Sirois 認為真正吸引注意的是 novelty。所以句尾要能放入他比較 possible /impossible events 的實驗語境，而 D 最合適。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "C — after they have seen the same thing for a while.",
+      "answerKey": "C — after they have seen the same thing for a while.",
+      "type": "Sentence Endings",
+      "prompt": "“Sylvain Sirois thinks babies’ attention level will drop ______.”",
+      "translation": "Sylvain Sirois 認為，嬰兒的注意力水平會在 ______ 下降。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 attention level will drop。定位詞可以是：● attention level；● drop；● bored；● habituated；● seen the same thing for a while。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Daniel is now engrossed in watching video clips of a red toy train on a circular track.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Daniel 現在正全神貫注地觀看一列紅色玩具火車在圓形軌道上行駛的影片。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And sometimes an impossible thing happens—the train goes into the tunnel one colour and comes out another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時候會發生不可能的事情：火車進入隧道時是一種顏色，出來時變成另一種顏色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 主要描述 toy train experiment，包括嬰兒的注意力如何因重複和新奇而變化。題目問 attention level drops，所以很可能在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● attention level● drops● habituated● same thing原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the child gets bored—or ‘habituated’, as psychologists call the process—his attention level steadily drops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當孩子開始感到厭倦，或者用心理學家的說法，開始「習慣化」時，他的注意力水平會穩定下降。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "habituated 是這題的核心。它表示一個人反覆接觸同一刺激後變得習慣，反應減弱。原文也用everyday language 解釋：gets bored。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C： after they have seen the same thing for a while"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在他們看同一件事看了一段時間之後。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好對應 gets bored / habituated。嬰兒看同一刺激太久，注意力就下降。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "attention level will drop原文： his attention level steadily drops選項 C： after they have seen the same thing for a while原文： gets bored / habituated所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能看到 Paragraph 3 後面提到 novelty，便以為注意力下降和 novelty 有關。實際上， novelty 會令注意力 picks up a little；注意力下降發生在 habituation，也就是同一東西看久了之後。這題要分清「新奇 → 注意力上升」和「習慣化 → 注意力下降」兩條方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — A child’s attention fell when he was accustomed to the changes.",
+      "answerKey": "B — A child’s attention fell when he was accustomed to the changes.",
+      "type": "Multiple Choice",
+      "prompt": "“What can we know about Daniel in the third paragraph?”",
+      "translation": "根據第三段，我們可以知道 Daniel 的甚麼情況？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題指定 third paragraph，所以不能跳到其他段落。題幹問 what can we know about Daniel，選項需要由 Paragraph 3 直接支持。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Daniel is now engrossed in watching video clips of a red toy train on a circular track.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Daniel 現在正全神貫注地觀看一列紅色玩具火車在圓形軌道上行駛的影片。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And sometimes an impossible thing happens—the train goes into the tunnel one colour and comes out another.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有時候會發生不可能的事情：火車進入隧道時是一種顏色，出來時變成另一種顏色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段功能是描述 Daniel 參與 toy train 實驗的過程，以及研究人員如何測量他的注意力變化。題目問第三段可知甚麼，所以答案應該來自 eye tracking、pupil measurement、attention level、habituation、novelty 這些資料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● Daniel● attention level● bored● habituated● train原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the child gets bored—or ‘habituated’, as psychologists call the process—his attention level steadily drops.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當孩子開始感到厭倦，或者用心理學家的說法，開始「習慣化」時，他的注意力水平會穩定下降。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“But it picks up a little whenever some novelty is introduced.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但每當引入一些新奇元素時，注意力又會稍微回升。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“A child’s attention fell when he was accustomed to the changes.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 was accustomed 對應原文 habituated。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的意思是：當孩子對刺激變得習慣、感到厭倦時，注意力下降。這正好支援 B 的方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過 B 的 changes 一字不算最精準。Paragraph 3 直接說的是孩子對實驗刺激 gets bored /habituated，不是詳細說他「習慣了 changes」。但四個選項中，B 最能概括 habituation leads to attention drop。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A — Daniel’s attention level rose when he saw a blue train.這個選項很接近，但太具體。原文說 whenever some novelty is introduced，注意力會回升；火車可能變綠，也可能變藍。文章沒有明確說 Daniel 看到藍色火車時注意力一定上升。真正支援的是「new novelty → attention picks up」，不專指 blue train。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B — A child’s attention fell when he was accustomed to the changes.正確。attention level steadily drops 對應 attention fell；habituated 對應 accustomed。雖然changes 一字略寬，但整體方向最符合第三段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C — The child’s brain activity was monitored with special equipment.錯。原文說追蹤 Daniel 的眼睛和瞳孔大小：tracking Daniel’s eyes、measuring the diameter of his pupils。這是眼動和瞳孔反應測量，不是直接監測 brain activity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D — The size of the train changed when it came out of the tunnel.錯。原文說改變的是 colour，不是 size：one colour and comes out another。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文： gets bored / habituated選項 B： was accustomed原文： his attention level steadily drops選項 B： attention fell所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 的迷惑性最高，因為原文真的提到 blue train。但 A 把「可能出現的其中一種 novelty」寫成Daniel 的具體觀察結果。IELTS MCQ 中，選項若比原文更具體，而原文沒有明確支援該細節，就要小心。B 抓住的是實驗的穩定規律：habituation 之後注意力下降。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "A — Theories about what babies know changed over time.",
+      "answerKey": "A — Theories about what babies know changed over time.",
+      "type": "Multiple Choice",
+      "prompt": "“What does the writer explain in the fourth paragraph?”",
+      "translation": "作者在第四段解釋了甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問整段功能，不是問某一句細節。要看 Paragraph 4 如何從 Piaget 講到 nativist psychologists，再講到 Sirois。答案應概括整段主要內容。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Variations of experiments like this one, examining infant attention, have been a standard tool of developmental psychology ever since the Swiss pioneer of the field, Jean Piaget, started experimenting on his children in the 1920s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自從這個領域的瑞士先驅 Jean Piaget 在 1920 年代開始在自己的孩子身上做實驗以來，這類檢視嬰兒注意力的實驗變體一直是發展心理學的標準工具。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His conclusions so far tend to be more Piagetian: ‘Babies,’ he says, ‘know nothing.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，他的結論傾向於更接近 Piaget 的觀點；他說：「嬰兒甚麼都不知道。」只看首尾句，可以看出這段有時間推移：由 Piaget 的早期研究開始，最後講 Sirois 的當代結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中間應該會交代理論如何轉變。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問整段，所以定位詞是概念性的：● fourth paragraph● the writer explain● theories● changed over time原文中有明顯時間線："
+            },
+            {
+              "kind": "quote",
+              "text": "“ever since … in the 1920s”"
+            },
+            {
+              "kind": "quote",
+              "text": "“postwar educators and psychologists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“over the past 20 years or so”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new generation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些時間詞共同顯示段落在解釋理論變化。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀段落主線"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先說 Piaget 在 1920s 開始使用 infant attention experiments。接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Piaget’s work led him to conclude that infants younger than 9 months have no innate knowledge…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piaget 的研究使他得出結論：九個月以下嬰兒沒有先天知識。"
+            },
+            {
+              "kind": "label",
+              "text": "然後轉到後來："
+            },
+            {
+              "kind": "quote",
+              "text": "“Piaget’s ‘constructivist’ theories were massively influential on postwar educators and psychologists, but over the past 20 years or so they have been largely set aside by a new generation of ‘nativist’ psychologists and cognitive scientists…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Piaget 的建構主義理論對戰後教育工作者和心理學家影響巨大，但在過去約二十年間，這些理論大多被新一代先天論心理學家和認知科學家放到一旁。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是「理論隨時間轉變」： 1. Piaget：嬰兒沒有先天知識； 2. Postwar period：Piaget 影響巨大； 3. Past 20 years：nativist psychologists 提出嬰兒已有部分內在知識； 4. Sirois：重新測試 smart-baby theories，結論更接近 Piaget。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A — Theories about what babies know changed over time.正確。這概括了 Paragraph 4 的時間線和理論轉變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B — Why the experiments that had been done before were rejected.錯。Paragraph 4 沒有主要解釋為何之前實驗被 rejected。真正談 previous experiments interpretation 問題的是 Paragraph 6。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C — Infants have innate knowledge of the external environment.這只是 nativist psychologists 的一個觀點，不是整段主旨。Paragraph 4 同時也講 Piaget 和Sirois，不能只用中間一派觀點概括全段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D — Piaget’s “constructivist” theories were massively influential among parents.錯。原文說 influential on postwar educators and psychologists，不是 parents。這個選項把影響對象改錯。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文時間線： 1920s → postwar → over the past 20 years → Sirois’s conclusions選項 A： changed over time原文理論內容： constructivist theories → nativist theories → Sirois’s more Piagetian conclusions選項 A： theories about what babies know所以答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很有迷惑性，因為 Paragraph 4 確實說 nativist psychologists 認為 infants arrive already equipped。但那只是段落中間的一個理論，不足以概括整段。這題問的是 what the writer explain in the fourth paragraph，所以要找段落主線，而非抓住其中一個細節。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — Sylvain Sirois suggests that novel things attract a baby’s attention.",
+      "answerKey": "D — Sylvain Sirois suggests that novel things attract a baby’s attention.",
+      "type": "Multiple Choice",
+      "prompt": "“What does the experiment discussed in the sixth paragraph show?”",
+      "translation": "第六段討論的實驗顯示了甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目指定 sixth paragraph，並問 experiment show。所以要找 Sirois 自己實驗的結果，不只是他的批評態度。定位詞是：● experiment；● show / indicate；● novel；● impossible events；● possible events；● attention / interest。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sirois does not take issue with the way these experiments were conducted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sirois 並不反對這些實驗的進行方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘The real explanation is boring,’ he says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「真正的解釋很無趣。」只看首尾句，可以先猜 Paragraph 6 的功能：Sirois 承認過往實驗方法可行，但他認為真正解釋比smart-baby theories 更簡單。題目問 experiment show，所以要看中間 Sirois own experiments 的結果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞：● His own experiments● indicate● novel● impossible events● possible events原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“His own experiments indicate that a baby’s fascination with physically impossible events merely reflects a response to stimuli that are novel.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他自己的實驗顯示，嬰兒對物理上不可能事件的著迷，只是反映他們對新奇刺激作出的反應。"
+            },
+            {
+              "kind": "label",
+              "text": "後面補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Data from the eye tracker and the measurement of the pupils … show that impossible events involving familiar objects are no more interesting than possible events involving novel objects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "眼動追蹤器和瞳孔測量的數據顯示，涉及熟悉物件的不可能事件，並不比涉及新奇物件的可能事件更有趣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sirois 的實驗想證明：嬰兒看得久不一定表示他們理解 impossibility。真正令嬰兒有反應的，是novel stimuli。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有兩個對比： 1. impossible events involving familiar objects涉及熟悉物件的不可能事件； 2. possible events involving novel objects涉及新奇物件的可能事件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "結果是前者 no more interesting than 後者。換句話說，不可能事件本身沒有特別神奇；只要是novel object，嬰兒也會感興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 說： Sylvain Sirois suggests that novel things attract a baby’s attention.這正好概括 response to stimuli that are novel。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A — Infants are attracted by the different colours of the trains all the time.錯。原文說 Daniel 看了幾次紅火車進隧道、綠火車出來後，也會變得 bored。不是一直被不同顏色吸引。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B — Sylvain Sirois criticises misleading interpretations of current experiments.這句作為 Paragraph 6 的背景是對的，但題目問 experiment show。B 偏向 Sirois 對 previous research 的批評，不是他自己的 experiment 的主要發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C — Sylvain Sirois indicates that only impossible events interest children.錯。原文方向相反。Sirois 認為 possible events involving novel objects 也能吸引嬰兒，所以不是only impossible events。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D — Sylvain Sirois suggests that novel things attract a baby’s attention.正確。這直接對應 response to stimuli that are novel。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文： a response to stimuli that are novel選項 D： novel things attract a baby’s attention原文： impossible events involving familiar objects are no more interesting than possible events involving novel objects選項 D： novel things attract attention所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 是最有迷惑性的選項。Paragraph 6 一開始確實講 Sirois 批評 previous experiments 的interpretation，所以 B 不是完全無關。但題目問的是 what the experiment shows，答案要落在His own experiments indicate… 這句。實驗顯示的是 novelty 的作用，因此 D 比 B 更貼題。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -What Do Babies Know_.pdf",
+    "sha256": "1e239c4644626d7de53c2ab999f4ddb2bd277df1549c87ab920f022ab49ed77e",
+    "pageCount": 36
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "Paragraph 以 Daniel 在 BabyLab 的反應開場，描述嬰兒被單獨留下時的焦慮反應，並介紹1 BabyLab 的研究場景。 Paragraph 提出核心研究問題：嬰兒到底知道多少？哪些理解是出生時已具備，哪些是經驗2 累積而來？同時說明 BabyLab 雖然新、樣本少，已開始挑戰現有想法。 Paragraph 描述 Daniel 看 toy train 影片的實驗，說明 eye tracker、pupil measurement、3 habituation、novelty 對注意力的影響。 Paragraph 回顧 Piaget 的 constructivist theory，以及後來 nativist psychologists 的4 smart-baby theories；最後引出 Sirois 較接近 Piaget 的結論。 Paragraph 介紹 Baillargeon 和 Spelke 的經典 impossible-event 實驗，以及她們如何解讀5 嬰兒看得較久這件事。 Paragraph 說明 Sirois 不質疑實驗方法，但質疑過往解釋；他認為嬰兒看較久主要是因為6 novelty，而非理解 impossibility。 Paragraph 解釋 Sirois 如何理解嬰兒學習：嬰兒由 primitive reflexes 開始，靠 visual buffer、7 mismatch resolution 和 statistical learning 慢慢建立理解。",
+        "label": "段落 段落功能"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1157 @@
+{
+  "id": "p3-169-the-fluoridation-controversy",
+  "catalogueId": "p3-169",
+  "catalogueIds": [
+    "p3-169"
+  ],
+  "passage": 3,
+  "title": "The fluoridation controversy",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "A",
+    "C",
+    "D",
+    "A",
+    "B",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "YES",
+    "B",
+    "G",
+    "A",
+    "D",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Question Analysis",
+      "prompt": "Question 27",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Answer: A — how hot the area is.題目問：fluoridated water 入面 fluoride 的 optimum amount，即最佳含量，部分根據甚麼計算。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 1。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 由 fluoridation 的定義開始，最後說兒童蛀牙減少是支持加氟的主要理由。這段包含concentration、water supplies、regional temperature 等技術資訊，所以很適合回答 fluoride amount 如何決定。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “optimum amount”、“fluoride”、“calculated”、“partly according to”。原文沒有用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "optimum amount，但有 “desired concentration”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The fluorine, when mixed with water, becomes fluoride and the desired concentration of fluoride in public water is approximately one part per million, depending on the regional temperature and hence the amount of water people are likely to drink.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "氟與水混合後會變成 fluoride，而公共食水中理想的 fluoride 濃度約為百萬分之一；這取決於地區溫度，因為溫度會影響人們可能飲多少水。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“optimum amount” = “desired concentration”"
+            },
+            {
+              "kind": "quote",
+              "text": "“how hot the area is” = “regional temperature”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯在 water temperature；原文說地區氣溫，不是水溫。C 的 dental problems 和 D 的community chooses 均沒有作為計算標準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Answer: C — compulsory fluoridation takes away personal freedom.題目問：作者提到其中一個反對 fluoridation 的理由是甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 2。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 第一眼已看到 “Three main grounds for opposition”，所以反對理由一定集中在這段。最後一句提到 “infringement on individual rights” 和 “compulsory medication”，與選項 C 高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “opposing fluoridation”、“one reason”、“compulsory”、“personal freedom”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Third, fluoridation is thought to be an infringement on individual rights because it is compulsory medication of all members of a community.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，加氟被認為侵犯個人權利，因為它是對社區所有成員作出的強制性用藥。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“infringement on individual rights” = takes away personal freedom“compulsory medication” = compulsory fluoridation所以答案是 C。 A 錯在原文沒有說 fluoride 會造成 tooth decay；B 的 expensive 沒有出現；D 的 accidentally excessive addition 也沒有提及。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Answer: D — show that science can be influenced by non-scientific considerations.題目問作者為何提到 Kuhn。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 先說 Kuhn 認為科學知識不總是 orderly process，最後用 Collins 補充實驗結果需要 interpretation 和 discussion。這段整體功能是挑戰「科學完全客觀、線性、只按固定方法前進」的傳統印象。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Kuhn”。這是強定位詞，人名直接帶到 Paragraph 5。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“According to Kuhn, the shift from one scientific way of thinking to another is not made solely on the basis of clear rules of formal scientific practice, but can include social factors…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 Kuhn，由一種科學思維轉向另一種科學思維，並不完全只根據正式科學實踐的清楚規則，也可能包含社會因素。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“social factors” = non-scientific considerations“not made solely on the basis of clear rules” = science is not influenced only by formal scientific rules所以答案是 D。 A 錯在作者不是主要把 Kuhn 和 Collins 對立；Collins 是延伸。B 與原文方向相反。C 的 “did not argue his case adequately” 不是作者重點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Question Analysis",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Answer: A — There were flaws in the way they were conducted.題目問 Sutton 對早期北美研究有甚麼發現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 開頭提到 sociologists 忽略 eminent scientists 的質疑，中間出現 Sutton，後面說他的研究使人懷疑 tooth decay reductions 的程度。這段功能是指出 fluoridation 的科學證據本身也有爭議。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Sutton”、“North American studies”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“An example is the study by Sutton in 1960, which analyzed the classic North American studies of the effect of fluoridation on tooth decay, and found that each showed significant methodological shortcomings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例子是 Sutton 於 1960 年的研究。他分析了北美關於加氟對蛀牙影響的經典研究，發現每項研究都顯示出重大的方法缺陷。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“methodological shortcomings” = flaws in the way they were conducted所以答案是 A。 B 的 unique results 沒有提到。C 的 long-term effects 不是 Sutton 的發現。D 與原文方向相反，因為 Sutton 是質疑 reduction 的程度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Answer: B — They should not be responsible for deciding fluoridation policy.這題問 final paragraph 中作者如何看 scientists。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 9。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 9 第一眼可見作者總結：反對 fluoridation 不一定 irrational。最後一句說 scientific experts 的 declarations 不應被視為 final word。這段功能是限制專家權威在公共政策中的最終地位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “final paragraph”、“scientists”、“experts”、“policy”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Second, social values are likely to be bound up in any decision about fluoridation, so this is not an issue on which declarations by scientific experts ought to be considered the final word.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，任何關於加氟的決定都很可能牽涉社會價值，因此在這個問題上，科學專家的宣告不應被視為最後定論。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“not … the final word” = experts should not be the final decision-makers“decision about fluoridation” = fluoridation policy所以最佳答案是 B。 B 要理解成「科學家不應單獨掌握最終決定權」。A 的 true motivations、C 的 solely scientific truth、D 的 cannot reach agreement，都不是 final paragraph 的重點。 Questions 32–35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "Question 32",
+      "translation": "科學知識應該和社會價值保持分離。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Answer: NO Statement: “Scientific knowledge should be kept separate from social values.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraphs 4–6。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 介紹 sociology of science，Paragraph 6 作出結論：科學知識的形成、評估和確立都牽涉 social processes。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “scientific knowledge”、“social values”、“separate”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Because social processes are involved at all stages of the creation, evaluation, and establishment of scientific knowledge, social values may also be involved.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於科學知識在創造、評估和確立的各個階段都牽涉社會過程，社會價值也可能牽涉其中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說應該分開；作者說 social values may also be involved，方向相反。所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "Question 33",
+      "translation": "很多社會學家忽略了一些科學家對加氟的質疑。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Answer: YES Statement: “Many sociologists have disregarded the doubts that some scientists have concerning fluoridation.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段開頭直接比較 scientists 和 sociologists 的忽略問題，並提到 eminent scientists questioned aspects of fluoridation。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “sociologists”、“doubts”、“scientists”、“fluoridation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“sociologists have also downplayed an important part of the debate by ignoring the number of eminent scientists who have questioned aspects of fluoridation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "社會學家也低估了爭論中的一個重要部分，因為他們忽略了不少曾質疑加氟某些方面的著名科學家。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“downplayed / ignoring” = disregarded“eminent scientists who have questioned” = scientists have doubts所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "Question 34",
+      "translation": "Sutton 的發現未得到北美以外科學家的足夠重視。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Answer: NOT GIVEN Statement: “Sutton’s findings have been given insufficient attention by scientists outside of North America.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Sutton 在 Paragraph 7 出現，這段說他的書沒有被任何 sociologist 的 fluoridation analysis 引用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Sutton’s findings”、“insufficient attention”、“scientists outside of North America”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "相關句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet Sutton’s book is not cited in a single analysis of the fluoridation issue by any sociologist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是 Sutton 的書沒有在任何社會學家對加氟問題的分析中被引用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是 sociologists，不是 scientists。原文也沒有說 outside of North America。題目加入了兩個新元素： 1. scientists 2. outside of North America文章沒有足夠資料判斷，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "Question 35",
+      "translation": "加氟爭議雙方都有合理論點。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Answer: YES Statement: “There are valid arguments on both sides of the fluoridation debate.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 8，也可連到 Paragraph 9。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 直接說雙方都考慮了科學證據，只是對 social benefits and costs 的評估不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 9 又說 opposition is not necessarily irrational。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “valid arguments”、“both sides”、“debate”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Both arguments consider the scientific evidence concerning fluoridation, but differ in their assessments of the social benefits and costs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩種論點都考慮了關於加氟的科學證據，但它們對社會利益和成本的評估不同。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This difference is not between rationality and irrationality but is a legitimate difference in values…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種差異不是理性與非理性之間的分別，這是價值上的合理差異。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“legitimate difference” 支持 valid arguments，所以答案是 YES。 Questions 36–40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "Question 36",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Answer: B — scientific knowledge is established through objective methods完整句： The traditional view of science is that scientific knowledge is established through objective methods."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 先講 traditional view，再講 sociology of science 的挑戰。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “traditional view of science”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The traditional view is that science is a special kind of knowledge, which is established through scientific methods and objectively applied by members of a scientific community.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統觀點認為，科學是一種特殊知識，由科學方法建立，並由科學共同體成員客觀地應用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“established through scientific methods and objectively applied” 對應 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Question Analysis",
+      "prompt": "Question 37",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Answer: G — scientific knowledge is affected by the beliefs of everyone concerned完整句： A sociological view of science argues that scientific knowledge is affected by the beliefs of everyone concerned."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半介紹 sociology of science 如何挑戰傳統觀點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “sociological view”、“scientific knowledge”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“scientific knowledge is socially negotiated, and inevitably linked to the values of the relevant parties, both scientists and nonscientists.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學知識是經社會協商形成的，並且不可避免地連繫到相關各方的價值，包括科學家和非科學家。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“values of the relevant parties” = beliefs of everyone concerned“scientists and nonscientists” = everyone concerned所以答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Question Analysis",
+      "prompt": "Question 38",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Answer: A — results of scientific research are not always understood at first完整句： Collins is of the opinion that results of scientific research are not always understood at first."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 5。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 先講 Kuhn，再講 Collins 對 experiments 的看法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Collins”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Collins (1975) took this concept further when he asserted that the outcome of experiments was not something whose meaning could be immediately comprehended…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Collins 進一步發展這個概念，指出實驗結果的意義不是可以立即被理解的東西。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“outcome of experiments” = results of scientific research“not … immediately comprehended” = not always understood at first所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "Question 39",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Answer: D — there is insufficient proof to support a cautious approach完整句： The writer suggests that a supporter of fluoridation may conclude that there is insufficient proof to support a cautious approach."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 後半用 supporter 和 opponent 的兩段說話展示雙方價值判斷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “supporter of fluoridation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The evidence for the benefits of fluoridation is quite substantial, while the evidence for harm is limited and dubious. I think the likely benefits outweigh the possible dangers…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "加氟好處的證據相當充分，而危害的證據有限且可疑。我認為可能的好處大於可能的危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "支持者的推理是：benefits 證據強，harm 證據弱，所以沒有足夠理由採取反加氟的 cautious approach。選項 D 的 “insufficient proof” 對應 “evidence for harm is limited and dubious”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Question Analysis",
+      "prompt": "Question 40",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Answer: C — people should be able to choose whether they want fluoride完整句： The writer suggests that an opponent of fluoridation may conclude that people should be able to choose whether they want fluoride."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 7。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣看 opponent 的引文。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “opponent of fluoridation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Therefore I oppose fluoridation of water supplies and favor the voluntary use of fluoride tablets by those who want to take them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此我反對食水加氟，並支持想攝取 fluoride 的人自願使用 fluoride tablets。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“voluntary use” = people should be able to choose“those who want to take them” = whether they want fluoride所以答案是 C。选项 E “risks outweigh benefits” 看似接近反對者立場，但原文反對者更精準的結論是：即使有好處，只要有少量傷害可能，加上加氟並非好牙齒的必要條件，人們應可自願選擇 fluoride tablets。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -The fluoridation controversy.pdf",
+    "sha256": "aed42714dd68f73285d180951147643c29d85d4f50ace4c471a1e185b8b664d6",
+    "pageCount": 12
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看第一句和最後一句，可以見到文章由「飲用水加氟爭議仍然持續」開始，最後收束到「兒童蛀牙大幅減少是支持加氟的主要理由」。所以本段功能是介紹 fluoridation 的定義、目的和支持方的核心證據。中間應該會解釋 fluoride 濃度如何決定、為何和地區溫度及飲水量有關，以及研究如何聲稱兒童蛀牙率可下降約 50%。這段很可能回答「最佳 fluoride 量」和「支持理由」類題目。"
+      },
+      {
+        "number": "2",
+        "summary": "首句直接說有三個反對加氟的主要理由，末句收在「強制加氟侵犯個人權利，因為它等同於全社區 compulsory medication」。所以本段功能很清楚：列出 opposition 的三條路線。第一是質疑利益是否被誇大；第二是健康風險，包括 allergic reactions、牙齒 discoloration，以及飲水多的人攝取量更高；第三是個人自由問題。題目如問反對理由、健康風險、compulsory 或 individual rights，通常要回到這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說理解 fluoridation issue 有重要 implications，末句提出一個假設：如果專家認為加氟毫無疑問有益且無害，那麼讓公眾投票否決它是否明智就值得質疑。這段功能是把討論從牙齒健康推到「專家權威、公共政策和民主決定」層面。它不直接給牙科數據，反而提出一個政策問題：科學專家如果非常確定，公眾是否仍應有權拒絕？這為後文的 sociology of science 作鋪墊。"
+      },
+      {
+        "number": "4",
+        "summary": "首句指出過往研究多假設科學層面沒有問題，並把 science 排除在 sociological examination 之外；末句說挑戰者認為 scientific knowledge 不能免於 social inquiry。這段功能是介紹兩種science 觀。傳統觀認為科學知識客觀、特殊、由科學方法建立；新的 sociology of science 則認為知識會被社會協商，並連繫科學家和非科學家的價值。這段是 Questions 32、36、37 的核心段落。"
+      },
+      {
+        "number": "5",
+        "summary": "首句引入 Kuhn，說科學知識不總是 orderly process，而有 periodic revolutions；末句引用 Collins，指出實驗結果的意義不能立即被理解，需要 interpretation、discussion 和 reinterpretation。這段功能是用學者支持「科學受方法、判準和社會因素影響」的觀點。Kuhn 用 scientific revolutions 質疑單純客觀累積；Collins 再把實驗結果本身也放入解釋過程。題目若問 Kuhn 或 Collins，答案多在這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說根據以上對 science 的分析，傳統上 facts / theories、scientific knowledge / values 的分界已不能再被合理維持；末句補充，因為科學知識在 creation、evaluation 和 establishment 的各階段都牽涉 social processes，所以 social values 也可能介入。這段功能是把前兩段的理論推向一個結論：科學知識和社會價值很難完全分開。這段對 Question 32 很重要，因為它直接反駁「科學知識應和社會價值分離」。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說科學家研究 fluoridation 時常忽略 social values，sociologists 也忽略了不少 eminent scientists 對加氟的質疑；末段以 supporter 和 opponent 的兩段引文展示雙方如何在同一批科學證據上作不同價值判斷。這段功能非常核心：一方面指出 Sutton 批評北美經典研究有methodological shortcomings；另一方面展示在 scientific uncertainty 下，利益、風險、成本、自由和公平等價值會變得突出。Questions 30、33、39、40 主要依靠這段。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說雙方論點都考慮了 fluoridation 的科學證據，末句說分歧屬於 legitimate difference in values，包括好牙齒、健康風險、強制或自願攝取 fluoride 的社會成本和利益。這段功能是明確評價雙方爭議的性質：加氟支持者和反對者不一定是一方理性、一方非理性；他們對同一證據的社會價值取捨不同。這段是 Question 35 的關鍵，也幫助理解整篇文章的立場。"
+      },
+      {
+        "number": "9",
+        "summary": "首句直接提出作者的 sociological conclusion：反對加氟不一定 irrational；末句說 fluoridation 決定中很可能包含 social values，所以 scientific experts 的 declarations 不應被視作 final word。這段功能是全文總結：作者弱化「專家說了算」的觀點，強調科學證據重要，但公共政策還牽涉價值、風險接受度和個人自由。Question 31 主要看這段，Question 35 也可用這段作支持。"
+      }
+    ]
+  }
+}

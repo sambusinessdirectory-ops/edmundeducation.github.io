@@ -1,0 +1,1757 @@
+{
+  "id": "p3-127-the-mpemba-effect",
+  "catalogueId": "p3-127",
+  "catalogueIds": [
+    "p3-127"
+  ],
+  "passage": 3,
+  "title": "THE MPEMBA EFFECT",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "P —temperature",
+    "H — hollow",
+    "F — surface",
+    "G — factor",
+    "N — difference",
+    "J — circulation",
+    "C — process",
+    "TRUE",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "P — temperature",
+      "answerKey": "P — temperature",
+      "type": "Summary Completion",
+      "prompt": "“For more than 2,000 years, people have wondered why raising the 27 ______ of cold water before cooling it results in more rapid cooling.”",
+      "translation": "二千多年來，人們一直想知道，為甚麼在冷卻前先提高冷水的 27 ______，會令它冷卻得更快。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion with word list。空格前有 “raising the”，空格後有 “of cold water”，所以需要一個可被 raise 的名詞。最自然是 temperature。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 300 BC, the famous philosopher Aristotle wrote about a strange phenomenon that he had observed: ‘Many people, when they want to cool water quickly, begin by putting it in the sun.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在公元前 300 年，著名哲學家 Aristotle 寫下自己觀察到的一個奇怪現象：「許多人想快速冷卻水時，會先把水放在太陽下。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other philosophers over the ages noted the same result, but were unable to explain it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後世不同哲學家也注意到同樣結果，但無法解釋它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段在講「古人已觀察到先加熱再冷卻可能更快」這件事。題目中的 “For more than 2,000 years” 對應 Aristotle 的 300 BC 和 over the ages。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“raising”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cold water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“before cooling”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more rapid cooling”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有直接說 “raising the temperature”，但 “putting it in the sun” 就是提高水溫。下一段也用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“warm” 和 “room temperature” 說明同一現象。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說想令水快點冷卻，有些人會先把水放在太陽下。把水放在太陽下，真正被提高的是水的temperature。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "raising the temperature= putting it in the sun cold water before cooling= water they want to cool quickly more rapid cooling= cool water quickly所以答案是 P — temperature。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "H — hollow",
+      "answerKey": "H — hollow",
+      "type": "Summary Completion",
+      "prompt": "“At first, researchers thought that a warm container created its own icy 28 ______, which made the water freeze faster…”",
+      "translation": "最初，研究者認為暖容器會製造出自己的冰冷 28 ______，令水更快結冰。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “icy”，需要一個名詞。題目說 warm container “created” something icy，定位到早期hypothesis。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was initially hypothesised that the warm bowl melted itself a place in the ice on the freezer shelf, thus embedding its base in a ‘nest’ of ice, which would accelerate freezing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初有人假設，暖碗會在冷凍櫃架上的冰中為自己融出一個位置，使碗底嵌入一個「冰巢」之中，從而加快結冰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A second suggestion was that the warmer water would be evaporating at its surface, thus reducing the volume needing to be frozen, but this idea was also shown to be insignificant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個說法是較暖的水會在表面蒸發，因此減少需要被凍結的水量，但這個想法也被證明影響很小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段在講兩個早期解釋：第一是 icy nest，第二是 evaporation。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“At first” 和 “warm container created its own icy…” 明顯對應第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞：“warm container”"
+            },
+            {
+              "kind": "quote",
+              "text": "“created its own icy…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“made the water freeze faster”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“warm bowl”"
+            },
+            {
+              "kind": "quote",
+              "text": "“melted itself a place in the ice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“embedding its base in a ‘nest’ of ice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accelerate freezing”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文的 “melted itself a place in the ice” 意思是暖碗在冰上融出一個凹位，再讓碗底嵌入。選項中沒有 nest，也沒有 place。最貼近 “a place in the ice” 的是 hollow，即凹位、空洞。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "icy hollow= a place in the ice / a nest of ice made the water freeze faster= accelerate freezing所以答案是 H — hollow。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "F — surface",
+      "answerKey": "F — surface",
+      "type": "Summary Completion",
+      "prompt": "“…but comparisons with containers resting on a dry 29 ______ indicated that this was inaccurate.”",
+      "translation": "可是，與放在乾燥 29 ______ 上的容器作比較後，顯示這個說法不準確。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “dry”，後面沒有原文限制詞，但文法上需要名詞。題目說 comparison，所以要找實驗比較句。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph 3。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句提到 warm bowl 在 freezer shelf 的冰上融出一個位置。最後一句轉到 evaporation。這段中間自然會交代如何測試第一個 hypothesis。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“comparisons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“containers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inaccurate”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The hypothesis was tested by comparing the result when bowls of warm water were placed on ice and on a dry wire shelf; this demonstrated that the ice nest actually had little effect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究者透過比較暖水碗放在冰上和放在乾燥金屬架上的結果來測試這個假設；結果顯示冰巢實際上影響很小。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文是 “a dry wire shelf”，但選項沒有 shelf。題目改寫成 “a dry ______”，要在選項中找能概括shelf 的詞。F “surface” 最合適，因為 shelf 是一種可放置容器的 surface。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "containers resting on a dry surface= bowls of warm water placed on a dry wire shelf indicated that this was inaccurate= demonstrated that the ice nest actually had little effect所以答案是 F — surface。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "G — factor",
+      "answerKey": "G — factor",
+      "type": "Summary Completion",
+      "prompt": "“Evaporation of water proved not to be a 30 ______.”",
+      "translation": "水分蒸發被證明並非一個 30 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “a”，需要單數可數名詞。意思上要表達：evaporation 對加快結冰沒有明顯作用。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3第一句處理 ice nest hypothesis，最後一句處理 evaporation。題目直接出現 “Evaporation”，所以看最後一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Evaporation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“proved”"
+            },
+            {
+              "kind": "quote",
+              "text": "“not”"
+            },
+            {
+              "kind": "quote",
+              "text": "“factor”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A second suggestion was that the warmer water would be evaporating at its surface, thus reducing the volume needing to be frozen, but this idea was also shown to be insignificant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個說法是，較暖的水會在表面蒸發，因此減少需要凍結的水量，但這個想法也被證明影響很小。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “shown to be insignificant” 改寫成 “proved not to be a factor”。在科學語境中，若某因素insignificant，就表示它不是重要因素，甚至可視作不構成真正解釋因素。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 L “significance” 文法不合，因為 “a significance” 不自然。G “factor” 剛好符合 “not to be a factor”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Evaporation of water= the warmer water would be evaporating at its surface proved not to be a factor= this idea was shown to be insignificant所以答案是 G — factor。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "N — difference",
+      "answerKey": "N — difference",
+      "type": "Summary Completion",
+      "prompt": "“Provided there is a temperature 31 ______, the water will continue to circulate and cool.”",
+      "translation": "只要仍然存在 temperature 31 ______，水就會繼續循環和冷卻。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “temperature”，要找可以和 temperature 組成固定搭配的名詞。選項 N “difference” 形成 temperature difference，十分自然。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 4–5 Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thermometers placed in the water showed that the cooler water dropped to freezing temperature well before the warmer bowlful, and yet the latter always froze solid first.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入水中的溫度計顯示，較冷的水比那碗較暖的水早很多降到結冰溫度，但後者總是先完全凍成固體。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A warm surface will lose heat faster than a cold one because of the contrast between the temperatures; but of course there is more heat to be lost from one bowl than the other!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "暖表面會比冷表面更快失熱，因為兩者溫度之間有對比；當然，其中一碗也有更多熱量要失去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句，Paragraph 5 明顯處理 temperature contrast 和 heat loss，正是題目 “temperature______” 的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“temperature”"
+            },
+            {
+              "kind": "quote",
+              "text": "“continue to circulate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cool”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the surface can be kept at a higher temperature, the higher rate of heat loss will continue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果表面可以保持在較高溫度，較高的失熱速度就會持續。"
+            },
+            {
+              "kind": "label",
+              "text": "前一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A warm surface will lose heat faster than a cold one because of the contrast between the temperatures…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "暖表面會因溫度對比而比冷表面更快失熱。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “temperature difference” 對應原文 “contrast between the temperatures”。只要不同位置仍有溫差，暖水在內部就會繼續上升，冷卻部分會下沉，形成 circulation。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "temperature difference= contrast between the temperatures water will continue to circulate= cooling portion on top will sink; warmer water below rises所以答案是 N — difference。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "J — circulation",
+      "answerKey": "J — circulation",
+      "type": "Summary Completion",
+      "prompt": "“Cooler water will have less water 32 ______ and thus a slower rate of freezing.”",
+      "translation": "較冷的水會有較少的水 32 ______，因此結冰速度較慢。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “water”，後面接原因結果 “thus a slower rate”。需要一個與水流動有關的名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The bowl that is more uniformly cold will have a much smaller temperature difference so the water flow will be minimal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "那碗較均勻寒冷的水，溫差會小得多，因此水流會非常少。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This not only acts as insulation, but will virtually stop the helpful effects of the water circulating inside the bowl.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這不只像隔熱層，也幾乎會停止碗內水循環所帶來的有利效果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以確定本段在講較冷那碗水的 water flow / water circulating 變弱。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cooler water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“less water…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“slower rate of freezing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“more uniformly cold”"
+            },
+            {
+              "kind": "quote",
+              "text": "“water flow will be minimal”"
+            },
+            {
+              "kind": "quote",
+              "text": "“water circulating inside the bowl”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “less water ______” 要表達 “water flow will be minimal”。選項 J “circulation” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“water circulating inside the bowl”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Cooler water= the bowl that is more uniformly cold less water circulation= water flow will be minimal slower rate of freezing= surface ice acts as insulation and stops helpful circulation所以答案是 J — circulation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "C — process",
+      "answerKey": "C — process",
+      "type": "Summary Completion",
+      "prompt": "“If ice forms on top of the water, this will further slow the 33 ______ of freezing…”",
+      "translation": "如果冰在水面形成，這會進一步減慢結冰的 33 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “the”，後面是 “of freezing”，需要一個抽象名詞。最自然搭配是 “the process of freezing”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6第一句說較冷的水 flow minimal。最後一句說表面冰層 acts as insulation 並 stop circulation。這段正是解釋為何表面結冰會拖慢整體凍結。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“ice forms on top”"
+            },
+            {
+              "kind": "quote",
+              "text": "“slow”"
+            },
+            {
+              "kind": "quote",
+              "text": "“freezing”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another inhibiting factor for this container is that ice will also form quite quickly on the surface.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個容器的另一個抑制因素是，冰也會很快在水面形成。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This not only acts as insulation, but will virtually stop the helpful effects of the water circulating inside the bowl.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這不只像隔熱層，也幾乎會停止碗內水循環所帶來的有利效果。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “inhibiting factor” 和 “acts as insulation / stop circulation” 改寫成 “slow the process of freezing”。C “process” 和 “of freezing” 搭配自然，也符合意思。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "ice forms on top of the water= ice will form quite quickly on the surface slow the process of freezing= inhibiting factor / acts as insulation / stop helpful circulation所以答案是 C — process。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Mpemba Effect cannot be seen when comparing liquids with an extreme temperature difference.”",
+      "translation": "當比較溫差極大的液體時，看不到 Mpemba Effect。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ultimately, the rate of cooling the core of this body of water becomes so slow that the other warmer one is always fully frozen first.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，這一團水核心的冷卻速度變得非常慢，以致另一碗較暖的水總是先完全結冰。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While there are limitations to this comparison (for example, we would not see such a result if one quantity were at 1°C and another at 99°C), this counter-intuitive result does hold true within the 5–35°C range of temperatures indicated previously.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這種比較有限制，例如若一份水是 1°C、另一份是 99°C，我們就不會看到這種結果，但這個反直覺結果在之前指出的 5–35°C 溫度範圍內確實成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段在總結 Mpemba Effect 的成立條件，尤其是它不適用於極端溫差。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“cannot be seen”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extreme temperature difference”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“we would not see such a result if one quantity were at 1°C and another at 99°C”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “extreme temperature difference” 對應原文 1°C vs 99°C。兩者相差 98°C，明顯屬於極端溫差。原文說 “we would not see such a result”，即看不到較暖水先凍結的結果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cannot be seen= we would not see such a result extreme temperature difference= one quantity at 1°C and another at 99°C因此題目與原文同方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Osborne and Mpemba’s results are still widely accepted today.”",
+      "translation": "Osborne 和 Mpemba 的研究結果今天仍被廣泛接受。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since this paper was published, the validity of the research findings has been questioned by a number of reviewers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自這篇論文出版以來，不少評論者質疑研究結果的有效性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They also state that the rate at which water freezes depends on a large number of variables.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們也指出，水結冰的速度取決於大量變量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段在質疑原研究的可靠性。這與題目 “still widely accepted today” 明顯方向相衝。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Osborne and Mpemba’s results”"
+            },
+            {
+              "kind": "quote",
+              "text": "“still widely accepted”"
+            },
+            {
+              "kind": "quote",
+              "text": "“today”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有重複 “widely accepted”，但有相反訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“validity … has been questioned”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a number of reviewers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“depends on a large number of variables”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說研究 findings 的 validity 被不少 reviewers questioned。若某研究的有效性被多位評論者質疑，就不能說它今天仍然 widely accepted。後文還說研究者需要更清楚定義 “freezing”，也指出水結冰速度受很多 variables 影響。這些都削弱了題目中的 “widely accepted”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "still widely accepted↔ validity has been questioned results= research findings today= since this paper was published, extending to later review題目說「廣泛接受」，原文說「有效性受到多位評論者質疑」。兩者方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The size of the container does not alter the Mpemba Effect.”",
+      "translation": "容器大小不會改變 Mpemba Effect。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Container size is one of these; for the Mpemba Effect to be noticed, the container must be large enough to allow a free circulation of water to take place, yet small enough for the freezing areas of the side and base to be effective at extracting heat too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "容器大小就是其中一個變量；要觀察到 Mpemba Effect，容器必須大得足以讓水自由循環，同時又要小得足以讓側面和底部的冷凍區有效抽走熱量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Secondly, research at a university in St Louis, Missouri, suggests that the Mpemba Effect may be affected by water purity, or by dissolved gas in the water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，Missouri 州 St Louis 一所大學的研究指出，Mpemba Effect 可能受水的純度或水中溶解氣體影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 9 明顯列出變量。container size 是其中一個變量，所以題目說 “does not alter” 方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“container size”"
+            },
+            {
+              "kind": "quote",
+              "text": "“does not alter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Mpemba Effect”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Container size is one of these…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “these” 指上一段的 “a large number of variables”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文的重點是：容器大小會影響 Mpemba Effect 是否能被觀察到。容器太小或太大都可能破壞必要條件，因為它既要容許 circulation，也要讓 sides and base 有效抽走熱量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： container size does not alter the effect.原文命題： container size is a variable; it must meet certain conditions for the effect to be noticed.兩者明確相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Osborne and Mpemba experimented on both pure and impure water.”",
+      "translation": "Osborne 和 Mpemba 曾用純水和不純水做實驗。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 9–10"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph 9 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Secondly, research at a university in St Louis, Missouri, suggests that the Mpemba Effect may be affected by water purity, or by dissolved gas in the water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，Missouri 州 St Louis 一所大學的研究指出，Mpemba Effect 可能受水的純度或水中溶解氣體影響。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 10 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Distilled water is totally free of the particles that are common in normal drinking water or mineral water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蒸餾水完全沒有普通飲用水或礦泉水中常見的粒子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道這兩段確實處理 pure / impure water 的問題，但人物是否是 Osborne and Mpemba 需要細讀確認。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Osborne and Mpemba”"
+            },
+            {
+              "kind": "quote",
+              "text": "“pure and impure water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“experimented”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章早前在 Paragraph 2 提到 Osborne and Mpemba co-authored a paper。Paragraphs 9–10 提到 water purity，但主語是 “research at a university in St Louis, Missouri”，沒有說 Osborne and Mpemba。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 St Louis 的研究 suggests water purity 或 dissolved gas 可能影響 Mpemba Effect。接着解釋 distilled water 和 normal drinking water / mineral water 的差別。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但題目需要證明三點： 1. 做實驗的人是 Osborne and Mpemba； 2. 他們用 pure water； 3. 他們也用 impure water。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只支援 water purity 是一個研究變量，沒有把這個實驗歸給 Osborne and Mpemba。由於文章沒有明確說他們做過或沒做過這種實驗，所以不能判 TRUE，也不能判 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“One variable is the timing of containers in a freezer.”",
+      "translation": "其中一個變量是容器放入冷凍櫃的時間。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 11"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One more factor that can distort the effect is observed if the bowls are not placed simultaneously into the same freezer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果幾個碗不是同時放入同一個冷凍櫃，還會觀察到另一個可扭曲這個效果的因素。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this case, the freezer thermostat is more likely to register the presence of a hotter bowl than a colder one, and therefore the change in internal temperature causes a boost of freezing power as the motor is activated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這種情況下，冷凍櫃恆溫器較可能感應到較熱的碗，而不是較冷的碗；因此，內部溫度變化會在摩打啟動時造成冷凍能力的提升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段講容器放入 freezer 的時間差，以及它如何改變 freezer 反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“timing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“containers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“freezer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“variable”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“if the bowls are not placed simultaneously into the same freezer”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“not placed simultaneously” 的意思是沒有同時放入。這正是 timing 的問題。題目說 “One variable is the timing of containers in a freezer”，原文說這是 “one more factor that can distort the effect”。factor / variable 在這裡可互相改寫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "timing of containers= bowls are not placed simultaneously variable= one more factor that can distort the effect in a freezer= into the same freezer答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Physicists now agree that supercooling accounts for the Mpemba Effect.”",
+      "translation": "物理學家現在同意 supercooling 能解釋 Mpemba Effect。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 12"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Mpemba Effect is still not fully understood, and researchers continue to delve into its underlying physics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mpemba Effect 至今仍未被完全理解，研究者仍繼續深入研究其底層物理原理。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A 2013 competition to explain the phenomenon run by the Royal Society of Chemistry attracted more than 22,000 entries, with the winning one suggesting supercooling as an important factor, so it seems the question and its underlying explanation continue to fascinate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Royal Society of Chemistry 在 2013 年舉辦解釋這個現象的比賽，吸引超過 22,000 份參賽作品；得獎答案提出 supercooling 是重要因素，因此這個問題及其底層解釋似乎仍然令人着迷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已經可見這不是一個已有共識的問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Physicists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“agree”"
+            },
+            {
+              "kind": "quote",
+              "text": "“supercooling”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accounts for”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Physicists cannot reach consensus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "物理學家無法達成共識。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some suggest that supercooling is involved; others that the molecular bonds in the water molecules affect the rate of cooling and freezing of water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些人提出 supercooling 牽涉其中；另一些人則認為水分子中的分子鍵會影響水冷卻和結冰的速度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “now agree”，即物理學家已有一致看法。原文第一句後明確說 “cannot reach consensus”。這是直接衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，supercooling 只被 “Some suggest” 和 2013 winning entry 提出為 important factor。這代表它是一種候選解釋，不是所有物理學家同意的最終答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "agree↔ cannot reach consensus supercooling accounts for the effect↔ some suggest supercooling is involved題目把其中一種可能解釋升格為物理學界共識，超出原文，且與 “cannot reach consensus” 相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — warmer water can freeze faster than colder water",
+      "answerKey": "D — warmer water can freeze faster than colder water",
+      "type": "Multiple Choice",
+      "prompt": "“The Mpemba Effect is best summed up as the observation that…”",
+      "translation": "Mpemba Effect 最好的概括是以下哪一項觀察？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 2 and 4"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1963, a young Tanzanian student named Erasto Mpemba noticed that the ice cream he was making froze faster if the mix was placed in the freezer while warm than if it were at room temperature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1963 年，一位名叫 Erasto Mpemba 的年輕坦桑尼亞學生注意到，如果他製作的雪糕混合物在仍然溫暖時放入冷凍櫃，會比在室溫時放入更快結冰。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thermometers placed in the water showed that the cooler water dropped to freezing temperature well before the warmer bowlful, and yet the latter always froze solid first.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "放入水中的溫度計顯示，較冷的水比那碗較暖的水早很多降到結冰溫度，但後者總是先完全凍成固體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩句，全文核心已經清楚：暖的東西可能比較冷的東西更快凍成固體。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mpemba Effect”"
+            },
+            {
+              "kind": "quote",
+              "text": "“best summed up”"
+            },
+            {
+              "kind": "quote",
+              "text": "“observation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文最直接的概括在 Paragraph 2："
+            },
+            {
+              "kind": "quote",
+              "text": "“froze faster if the mix was placed in the freezer while warm than if it were at room temperature.”"
+            },
+            {
+              "kind": "label",
+              "text": "再由 Paragraph 4 補強："
+            },
+            {
+              "kind": "quote",
+              "text": "“the latter always froze solid first.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “the latter” 指較暖的那碗水。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“warmer water can freeze faster than colder water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "較暖的水可以比較冷的水更快結冰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正是全文一直在解釋的反直覺現象。要留意 “can” 很重要，它表示「在某些條件下可以」，剛好符合 Paragraph 7 的限制：5–35°C 範圍內成立，極端溫差不一定成立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項分析： A “ice cream freezes at different temperatures.”原文開頭確實用 ice cream mix 作例子，但 Mpemba Effect 不只是雪糕現象，後文主要討論water。A 把例子誤當成定義，而且 “different temperatures” 太籠統。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “different sources of heat result in water cooling at different rates.”文章沒有比較 different sources of heat。重點在 warm water vs cooler water 的 freezing result，不是熱源種類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “salt water freezes at a lower temperature than ordinary water.” Paragraph 10 提到 salt dissolved in water 會降低 freezing temperature，但這只是用來解釋particles / impurities 的類比。它不是 Mpemba Effect 的總結。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “warmer water can freeze faster than colder water.”這一項最完整、最精準地概括全文主題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 D。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -THE MPEMBA EFFECT.pdf",
+    "sha256": "dc33671e444b9c907b742006a8feaab486d98e1567fb81cebda5774bc7465282",
+    "pageCount": 25
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 Aristotle 在 300 BC 已經記錄一個奇怪現象：有人想快速冷卻水時，會先把水放在太陽下。末句說後世哲學家也觀察到同樣結果，卻無法解釋。只看首尾句，可以先估計本段功能是交代 Mpemba Effect 的古老觀察背景。它不處理科學解釋，重點是：這個現象歷史很久，人們早已注意到熱水或暖水可能冷卻得更快，但長期沒有清楚原因。"
+      },
+      {
+        "number": "2",
+        "summary": "首句把時間帶到 1963 年，說 Tanzanian student Erasto Mpemba 發現暖的 ice cream mix 比室溫mix 更快結冰。末句說 Osborne 和 Mpemba 在 1969 年共同發表 New Scientist 論文，描述凍水過程中多種因素。只看首尾句，可推測本段功能是從古代觀察轉到現代科學研究：Mpemba 重新提出問題，物理學家 Osborne 開始認真調查，Mpemba Effect 這個名稱也由此建立。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說最初有人假設暖碗會在冷凍櫃架上的冰中融出位置，使碗底嵌入冰窩，加快結冰。末句說另一個想法是暖水表面蒸發，減少需要凍結的水量，但這個想法也被證明不重要。只看首尾句，可知道本段主要處理早期解釋的排除：ice nest / icy hollow 和 evaporation 都看似合理，但實驗比較後顯示它們不能真正解釋 Mpemba Effect。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說溫度計顯示較冷的水比暖水更早降到 freezing temperature，但暖水總是先完全結冰。末句說水失熱發生於接觸冷凍櫃較冷空氣的位置，即碗邊和水面。只看首尾句，可以看到本段進入核心物理解釋：問題不只在「哪一碗先到 0°C」，也涉及整體是否 solid。段落後半應該解釋熱量從哪些接觸面散失，以及為何暖水仍可能先完全凍結。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說暖表面因為和周圍溫度差更大，會比冷表面更快失熱；但暖水本身也有更多熱量要失去。末句說若容器側面和底部較早結冰，會放大這個效果。只看首尾句，可以推測本段講 temperature difference、surface heat loss 和 internal circulation。暖水若能保持較高表面溫度，水流循環會持續，把內部熱量帶到表面和邊緣，令冷卻更有效。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說較均勻地冷的那碗水，temperature difference 較小，所以水流會很少。末句說表面冰不只像 insulation，也幾乎會停止碗內有幫助的水循環。只看首尾句，段落功能很清楚：它解釋較冷那碗水為何反而慢。原因包括溫差小、circulation 弱、表面先結冰。表面冰層像隔熱層，阻礙熱量繼續有效散出，也令水流循環大幅減弱。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說最後，這一團水核心冷卻速度變得很慢，所以另一碗較暖的水總會先完全結冰。末句補充，這種反直覺結果有條件限制；若一份是 1°C、另一份是 99°C，就不會看到同樣結果，但在之前提到的 5–35°C 範圍內成立。只看首尾句，可以判斷本段在收束前面的物理解釋，同時提醒學生留意範圍限制：Mpemba Effect 不是任何溫差都適用。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說自論文出版後，不少 reviewers 質疑研究結果的 validity。末句說他們也指出，水的結冰速度取決於大量 variables。只看首尾句，可以知道本段從原本解釋轉向批評和限制：研究問題可能沒有清楚定義，例如何謂 freezing；而且實驗結果受很多條件控制。這段對 TRUE / FALSE / NOT GIVEN 題很重要，尤其是關於 Osborne 和 Mpemba 的研究是否仍被接受。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說 container size 是其中一個變量；容器要夠大，讓水自由循環，同時也要夠小，讓側面和底部的冷凍區有效抽走熱量。末句說 St Louis, Missouri 一所大學的研究指出，Mpemba Effect 可能受 water purity 或 dissolved gas 影響。只看首尾句，可以估計本段列出影響實驗結果的具體因素：容器大小、水的純度、溶解氣體。這段會回答 container size 和 water purity 題。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說 distilled water 完全沒有普通飲用水或礦泉水常見的 particles。末句用鹽水作類比，指出普通水最後一部分需要額外冷卻到零度以下，才會完全凍成固體。只看首尾句，可以看到本段繼續解釋 water purity 的作用。普通水中的粒子會影響冷卻和結冰，尤其當冰分子把粒子排到周圍水中，粒子濃度上升，令最後部分更難完全凍結。"
+      },
+      {
+        "number": "11",
+        "summary": "首句說如果幾個碗沒有同時放入同一個 freezer，還有另一個因素會扭曲效果。末句說在這種情況下，freezer thermostat 更可能感應到較熱的碗，內部溫度變化會啟動摩打，造成 extra freezing power。只看首尾句，可以知道本段處理 timing variable：不同時間放入冷凍櫃會改變機器反應，並非單純比較水本身。這段直接支援 Q38。"
+      },
+      {
+        "number": "12",
+        "summary": "首句說 Mpemba Effect 至今仍未完全被理解，研究者仍在探索其 underlying physics。末句說2013 年 Royal Society of Chemistry 的解釋比賽收到超過 22,000 份參賽作品，得獎答案提出supercooling 是重要因素，顯示這問題仍令人着迷。只看首尾句，可以判斷本段是全文結尾：物理學家仍未達成共識，有人提出 supercooling，有人提出 molecular bonds，現象仍然開放討論。"
+      }
+    ]
+  }
+}

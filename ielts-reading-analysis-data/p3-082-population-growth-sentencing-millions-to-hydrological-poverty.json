@@ -1,0 +1,2858 @@
+{
+  "id": "p3-082-population-growth-sentencing-millions-to-hydrological-poverty",
+  "catalogueId": "p3-082",
+  "catalogueIds": [
+    "p3-082"
+  ],
+  "passage": 3,
+  "title": "Population growth sentencing millions to hydrological poverty",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "NOT GIVEN",
+    "C",
+    "E",
+    "B",
+    "F",
+    "B",
+    "A",
+    "D",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Vegetarians drink less water than meat eaters.”",
+      "translation": "素食者喝的水比吃肉的人少。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。題目有兩個很重要的控制位：第一是 Vegetarians；第二是drink less water。題目問的不是「素食飲食是否使用較少水資源」，而是「素食者本人是否喝較少水」。這個 drink 很關鍵，因為它指向直接飲水量，不一定等於生產食物所需的水量。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to population growth, urbanisation and industrialisation also expand the demand for water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了人口增長之外，城市化和工業化也會擴大對水的需求。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using four times as much grain per person means using four times as much water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每人使用四倍的穀物，就意味著使用四倍的水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph F 的功能：這段主要講不同社會變化如何增加用水需求，包括城市化、工業化、生活富裕，以及飲食結構改變。最後一句把 grain consumption 和 water use 連在一起，所以這段很可能和 vegetarian / meat eater / diet / water use 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Vegetarians”"
+            },
+            {
+              "kind": "quote",
+              "text": "“drink less water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“meat eaters”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph F，原文沒有出現 vegetarian，也沒有討論 people drink more / drink less water。"
+            },
+            {
+              "kind": "label",
+              "text": "最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“As people move up the food chain, consuming more beef, pork, poultry, eggs, and dairy products, they use more grain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人們在食物鏈上移，食用更多牛肉、豬肉、家禽、蛋和乳製品時，他們會使用更多穀物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句確實和 meat-rich diets 有關，但它談的是生產飲食所需的 grain 和 water，不是人直接喝下去的水。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A US diet rich in livestock products requires 800 kilograms of grain per person a year, whereas diets in India, dominated by a starchy food staple such as rice, typically need only 200 kilograms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種富含畜產品的美國飲食，每人每年需要 800 公斤穀物；相比之下，印度飲食通常以米飯這類澱粉主食為主，一般只需要 200 公斤穀物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句可以支持「畜產品豐富的飲食需要更多穀物」，下一句又說更多穀物意味著更多水。可是題目說的是 Vegetarians drink less water。原文沒有講素食者，也沒有講個人飲水量。它只講 diet 對grain 和 water resources 的間接需求。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與缺失",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據： Vegetarians drink less water.原文有的證據： livestock-rich diets require more grain; more grain means more water.缺失部分：原文沒有 vegetarian。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 drink less water。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有比較素食者和吃肉者的直接飲水量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷這題應選 NOT GIVEN。如果題目寫成 “Meat-rich diets require more water to produce than starch-based diets”，答案會很接近 TRUE。但原題把 food production water 轉成 personal drinking water，這一步缺少原文支持。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 water 這個字。學生看到 meat-rich diet uses more water，就可能急著判 TRUE。細讀時要分清：原文的 water 是「生產食物所需的水資源」，題目的 drink water 是「人喝下去的水」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩個概念不能自動互換。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A typical Indian diet requires less grain than a typical USA diet.”",
+      "translation": "典型印度飲食所需的穀物少於典型美國飲食。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要比較兩種 diet：Indian diet 和 USA diet。控制詞是 less grain than，所以答案要找一組明確比較。只要原文提供美國飲食和印度飲食的 grain requirement，並且數量方向一致，就可以判TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to population growth, urbanisation and industrialisation also expand the demand for water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了人口增長之外，城市化和工業化也會擴大對水的需求。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using four times as much grain per person means using four times as much water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每人使用四倍的穀物，就意味著使用四倍的水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首句講水需求增加，末句講 grain 和 water 的倍數關係。因此 Paragraph F 很可能提供飲食、穀物和用水之間的量化比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indian diet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“USA diet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“less grain”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph F，可以找到非常直接的比較："
+            },
+            {
+              "kind": "quote",
+              "text": "“A US diet rich in livestock products requires 800 kilograms of grain per person a year, whereas diets in India, dominated by a starchy food staple such as rice, typically need only 200 kilograms.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句同時包含 US diet、India diets、grain quantity，值得停下細讀。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A US diet rich in livestock products requires 800 kilograms of grain per person a year, whereas diets in India, dominated by a starchy food staple such as rice, typically need only 200 kilograms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種富含畜產品的美國飲食，每人每年需要 800 公斤穀物；相比之下，印度飲食通常以米飯這類澱粉主食為主，一般只需要 200 公斤穀物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的比較十分清楚： US diet：800 kilograms of grain per person a year India diets：only 200 kilograms 200 kg 少於 800 kg，所以題目說 Indian diet requires less grain than USA diet，方向完全一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a typical Indian diet requires less grain than a typical USA diet”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“diets in India … typically need only 200 kilograms”"
+            },
+            {
+              "kind": "quote",
+              "text": "“A US diet … requires 800 kilograms”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： requires = need less grain = 200 kg compared with 800 kg typical Indian diet = diets in India, dominated by rice typical USA diet = A US diet rich in livestock products答案判斷答案是 TRUE。原文不只提供概念，還提供數字，200 kg 對 800 kg，明確支援題目的比較。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要留意題目寫的是 typical，不是 all。原文也用 “typically need only 200 kilograms”，所以範圍吻合。這題不用把 USA diet 理解成每一個美國人的飲食；它是文章用來比較的代表性飲食模式。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Growing grain uses more water than raising beef.”",
+      "translation": "種植穀物比養牛使用更多水。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題考的是比較方向。題目說 growing grain > raising beef in water use。要判斷 TRUE /FALSE / NOT GIVEN，需要找原文是否支持這個方向，或是否給出相反方向。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to population growth, urbanisation and industrialisation also expand the demand for water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了人口增長之外，城市化和工業化也會擴大對水的需求。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using four times as much grain per person means using four times as much water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每人使用四倍的穀物，就意味著使用四倍的水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明顯在解釋哪些生活方式會增加水需求。最後一句把 grain quantity 和 water quantity 直接連上，因此我們要看 beef / livestock products 如何影響 grain use。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“grain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“beef”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 有一句直接提到 beef："
+            },
+            {
+              "kind": "quote",
+              "text": "“As people move up the food chain, consuming more beef, pork, poultry, eggs, and dairy products, they use more grain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人們在食物鏈上移，食用更多牛肉、豬肉、家禽、蛋和乳製品時，他們會使用更多穀物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句已經提示方向：更多 beef / livestock products → 更多 grain → 更多 water。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“As people move up the food chain, consuming more beef, pork, poultry, eggs, and dairy products, they use more grain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人們在食物鏈上移，食用更多牛肉、豬肉、家禽、蛋和乳製品時，他們會使用更多穀物。"
+            },
+            {
+              "kind": "quote",
+              "text": "“A US diet rich in livestock products requires 800 kilograms of grain per person a year, whereas diets in India, dominated by a starchy food staple such as rice, typically need only 200 kilograms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種富含畜產品的美國飲食，每人每年需要 800 公斤穀物；相比之下，以米飯等澱粉主食為主的印度飲食，一般只需要 200 公斤穀物。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Using four times as much grain per person means using four times as much water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每人使用四倍的穀物，就意味著使用四倍的水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "三句合起來的方向是： more beef / livestock products→ more grain required→ more water used題目說 growing grain uses more water than raising beef。這把方向倒轉了。文章支持的是meat-rich / livestock-rich diet 導致更高 grain and water demand；題目卻說 grain production 比beef raising 用水更多。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "growing grain uses more water than raising beef原文方向： livestock-rich diet requires more grain more grain means more water反向關係："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：grain side > beef side"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：beef / livestock-rich side → more grain → more water答案判斷答案是 FALSE。文章不是單純沒有資料；它給出的邏輯方向和題目相反。原文把 consuming more beef 放在 higher grain and water use 的原因鏈之中，所以題目說 grain growing uses more water than beef raising，方向不成立。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易被 “grain uses water” 誤導。原文確實說生產 grain 需要水，但問題不在 grain 是否用水；問題在比較方向。文章重點是 meat-rich diets demand more grain and therefore more water。判斷時要看整條因果鏈，不要只看 grain 和 water 兩個字同時出現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“People who move from the country to the city may increase their water consumption considerably.”",
+      "translation": "由鄉村搬到城市的人，可能會大幅增加用水量。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 rural-to-urban movement 是否會大幅增加 water consumption。控制詞是 may 和considerably。may 表示可能性，不要求所有人都必然如此；considerably 表示增加幅度要大。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to population growth, urbanisation and industrialisation also expand the demand for water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了人口增長之外，城市化和工業化也會擴大對水的需求。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using four times as much grain per person means using four times as much water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每人使用四倍的穀物，就意味著使用四倍的水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首句已經提到 urbanisation，所以很可能回答 country-to-city movement 的用水問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“move from the country to the city”"
+            },
+            {
+              "kind": "quote",
+              "text": "“increase water consumption”"
+            },
+            {
+              "kind": "quote",
+              "text": "“considerably”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph F，可以找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“As villagers in developing countries, traditionally reliant on the village well, move to urban high-rise apartment buildings with indoor plumbing, their residential water use can easily triple.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句和題目高度對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As villagers in developing countries, traditionally reliant on the village well, move to urban high-rise apartment buildings with indoor plumbing, their residential water use can easily triple.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在發展中國家，村民傳統上依靠村裡的水井；當他們搬到有室內水管設備的城市高層公寓時，他們的住宅用水量可以輕易增加到三倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 villagers in developing countries，即鄉村居民。動作是 move to urban high-rise apartment buildings，即搬到城市高層住宅。結果是 residential water use can easily triple，即住宅用水量可以輕易變成三倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“triple” 就是 considerably 的強力證據。三倍增長一定屬於大幅增加。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“People who move from the country to the city”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“villagers … move to urban high-rise apartment buildings”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“may increase their water consumption considerably”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“their residential water use can easily triple”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： may = can increase considerably = triple country to city = villagers move to urban high-rise apartments答案判斷答案是 TRUE。題目用 may，原文用 can easily，語氣一致；題目用 considerably，原文用 triple，程度上完全足夠。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要注意 residential water use。原文說的是住宅用水量，不是整個國家的總用水，也不是工業用水。不過題目說 their water consumption，範圍足以涵蓋 residential water use，所以可以判TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Future conflicts will be fought as much over food as they will over oil.”",
+      "translation": "未來衝突會同樣圍繞食物和石油而發生。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要處理 future conflicts / fought / food / oil 之間的關係。控制詞是 as much … as，表示兩者程度相同。原文如果說更可能為某一種資源而爭，或指出真正競爭焦點是另一項資源，就會和題目不符。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph K第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is now often said that future wars in the region are more likely to be fought over water than oil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在人們常說，該地區未來的戰爭更可能因水而起，而非因石油而起。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the deficit continues to widen, the eventual adjustment will be even greater.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這個赤字繼續擴大，最終需要作出的調整將會更大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph K 在討論 future wars / water / oil / grain markets / deficit management。這正是 Question 31 的目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Future conflicts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fought”"
+            },
+            {
+              "kind": "quote",
+              "text": "“food”"
+            },
+            {
+              "kind": "quote",
+              "text": "“oil”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph K 第一部分直接出現 future wars 和 oil："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is now often said that future wars in the region are more likely to be fought over water than oil.”"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the competition for water seems more likely to take place in world grain markets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "水資源競爭似乎更可能在世界穀物市場中發生。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句組："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is now often said that future wars in the region are more likely to be fought over water than oil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在人們常說，該地區未來戰爭更可能因水而起，而非因石油而起。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps, but given the difficulty in winning a water war, the competition for water seems more likely to take place in world grain markets.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也許如此；但考慮到打贏水戰的困難，水資源競爭似乎更可能在世界穀物市場中發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的核心資源是 water。grain markets 是競爭發生的場地或途徑，因為進口 grain 等於間接進口 water。題目卻說 future conflicts will be fought as much over food as over oil。這把原文的關係改成 food 和 oil 的同等衝突，沒有保留原文的 water focus。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／衝突關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "future conflicts will be fought as much over food as oil原文： future wars are more likely to be fought over water than oil competition for water may take place in world grain markets衝突位置：題目比較 food = oil。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文比較 water > oil。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 grain markets 轉成 food conflicts，改變了原文焦點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 FALSE。Paragraph K 明確把未來競爭焦點放在 water 上，並說比 oil 更可能引發衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 food 和 oil 同樣重要，與原文方向不一致。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 “world grain markets”。學生看到 grain，就可能把它理解成 food conflict。實際上，文章的邏輯是：grain trade 承載 hidden water，國家透過購買 grain 來取得水資源。市場上的貨品是 grain，真正爭奪的資源是 water。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Egypt and Japan also import 7 million tons of oil annually.”",
+      "translation": "埃及和日本每年也進口七百萬噸石油。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有三個控制點： Egypt and Japan 7 million tons oil annually要判 TRUE，原文必須提供 Egypt 和 Japan 進口 oil 的數字，而且數字是 7 million tons annually。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "若只出現其中一部分，如 Egypt、Japan、7 million tons 或 oil，仍不足夠。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Last year, Iran imported 7 million tons of wheat, eclipsing Japan to become the world’s leading wheat importer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年，伊朗進口了七百萬噸小麥，超越日本成為世界最大的小麥進口國。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Both populations are increasing by more than a million a year and both are pressing against the limits of their water supplies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩國人口每年都增加超過一百萬，並且都正逼近自身水供應的極限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph I 講的是 Iran、Egypt、Japan 的 wheat imports 和 water supply limits。它不是關於 oil imports 的段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Egypt”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Japan”"
+            },
+            {
+              "kind": "quote",
+              "text": "“7 million tons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“oil”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 有 Egypt、Japan 和 7 million tons，但 commodity 是 wheat："
+            },
+            {
+              "kind": "quote",
+              "text": "“Last year, Iran imported 7 million tons of wheat…”"
+            },
+            {
+              "kind": "label",
+              "text": "然後："
+            },
+            {
+              "kind": "quote",
+              "text": "“This year, Egypt is also projected to move ahead of Japan.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說 Egypt 也預計會超越 Japan，但前文語境仍是 wheat imports。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Last year, Iran imported 7 million tons of wheat, eclipsing Japan to become the world’s leading wheat importer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年，伊朗進口七百萬噸小麥，超越日本成為世界最大的小麥進口國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主體是 Iran，不是 Egypt and Japan。商品是 wheat，不是 oil。數字是 7 million tons，但它屬於 Iran’s wheat imports。"
+            },
+            {
+              "kind": "label",
+              "text": "原文下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This year, Egypt is also projected to move ahead of Japan.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今年，埃及也預計會超越日本。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句省略的背景仍然是 wheat imports，沒有提及 oil，也沒有說 Egypt 和 Japan 每年進口 7 million tons。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／缺失關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目需要： Egypt and Japan import 7 million tons of oil annually.原文提供： Iran imported 7 million tons of wheat. Egypt is projected to move ahead of Japan in wheat-import context.缺失部分：沒有 Egypt and Japan both importing 7 million tons。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有 oil imports。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有 annually 的 oil figure。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 NOT GIVEN。原文提供了相鄰資料，但沒有足夠資訊判斷 Egypt 和 Japan 是否每年進口七百萬噸石油。它也沒有明確排除這件事，所以不能判 FALSE；根據 IELTS 規則，關鍵資料缺失時選 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 7 million tons。這個數字確實出現，但它屬於 Iran imported 7 million tons of wheat。題目把國家換成 Egypt and Japan，又把 wheat 換成 oil。做 TRUE / FALSE / NOT GIVEN 時，數字相同不代表答案成立；要同時檢查主體、商品、時間和動作。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“The volume of water that is needed for irrigation in grain production.”",
+      "translation": "穀物生產中灌溉所需的水量。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Matching Information。題目要找的是哪一段提到「生產 grain 所需的水量」。定位詞是volume of water、grain production。雖然題目用了 irrigation，但真正控制答案的是 1 ton grain對應多少 tons of water 的換算。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even with today’s 6 billion people, the world has a huge water deficit.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使以今天六十億人口計算，世界已經有巨大的水赤字。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using the rule of thumb that it takes 1,000 tons of water to produce 1 ton of grain, this 160-billion-ton water deficit is equal to 160 million tons of grain or one-half the US grain harvest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據一個簡單經驗法則，生產一噸穀物需要一千噸水；因此，這個一千六百億噸的水赤字等於一億六千萬噸穀物，或美國穀物收成的一半。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph C 在把 water deficit 轉換成 grain production 的量化概念。最後一句直接出現 1,000 tons of water 和 1 ton of grain，所以這段最符合題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“volume of water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“grain production”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 的最強對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“it takes 1,000 tons of water to produce 1 ton of grain”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句正是 water volume needed for grain production。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using the rule of thumb that it takes 1,000 tons of water to produce 1 ton of grain…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據一個簡單經驗法則，生產一噸穀物需要一千噸水……這句提供了明確數量： 1 ton of grain → 1,000 tons of water題目問的 “volume of water” 就是 1,000 tons of water。題目說 “irrigation in grain production”，原文說 “water to produce 1 ton of grain”，屬於同一水—穀物生產換算。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“the volume of water that is needed”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“it takes 1,000 tons of water”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“grain production”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“to produce 1 ton of grain”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 和 H 也出現 1,000 tons / grain 的相關內容。Paragraph E 用印度小麥例子說明農業和工業用水價值差異；Paragraph H 講 imported grain 等於 imported water。Question 33 問的是水量換算本身，Paragraph C 首次把這個比例作為 general rule 提出，所以答案選 C 最穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“Over-pumping our underground water supplies.”",
+      "translation": "過度抽取地下水供應。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找哪一段談 over-pumping underground water supplies。最強定位詞是 Over-pumping 和underground water supplies。這是非常直接的 Matching Information 題。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over-pumping is a new phenomenon, one largely confined to the last half century.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過度抽水是一種新現象，主要限於過去半個世紀。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This ratio helps explain why, in the American West, the sale of irrigation water rights by farmers to cities is an almost daily occurrence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個比例有助解釋，為什麼在美國西部，農民把灌溉用水權出售給城市幾乎每天都在發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接出現 Over-pumping，所以 Paragraph E 幾乎可以立即鎖定。最後一句則說明水資源在農業和城市之間被重新分配，延伸出競爭問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Over-pumping”"
+            },
+            {
+              "kind": "quote",
+              "text": "“underground water supplies”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only since the development of powerful diesel- and electrically driven pumps have we had the capacity to draw water from aquifers faster than it is replenished by precipitation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有在強力柴油和電力水泵發展之後，人類才有能力從含水層抽水，速度快於降水補回的速度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "aquifers 就是地下含水層，對應 underground water supplies。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only since the development of powerful diesel- and electrically driven pumps have we had the capacity to draw water from aquifers faster than it is replenished by precipitation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只有自強力柴油和電力水泵發展以來，人類才有能力從含水層抽取地下水，而且抽取速度快於降水補充速度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句解釋了 over-pumping 的本質： draw water from aquifers→ 從地下含水層抽水faster than it is replenished→ 快於自然補充速度這正是題目說的 over-pumping underground water supplies。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“underground water supplies”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“aquifers”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“over-pumping”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“draw water from aquifers faster than it is replenished”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷答案是 E。Paragraph E 不只提到 over-pumping，還解釋它為何在近半世紀出現，以及為何與現代 pumps 有關。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 也有 “over-pumping” 和 “aquifers” 相關數據，但 Paragraph E 更完整解釋現象本身。Matching Information 要找最直接含有該資訊功能的段落，所以 E 比 C 更精準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Population growth will be responsible for a new type of water-related poverty.”",
+      "translation": "人口增長將導致一種新的水相關貧窮。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找哪一段提到 population growth 和 water-related poverty 的因果關係。最強定位詞是Population growth 和 water-related poverty。原文用的專門詞是 hydrological poverty。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 2050, India is projected to add 519 million people and China 211 million.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 2050 年，印度預計增加 5.19 億人口，中國預計增加 2.11 億人口。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In these and other water-short countries, population growth is sentencing millions of people to hydrological poverty, a local form of poverty that is difficult to escape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些以及其他缺水國家，人口增長正在使數百萬人陷入水文貧窮，這是一種地方性的貧窮形式，而且難以逃脫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經完整對應題目：第一句講 population growth，最後一句講 hydrological poverty。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Population growth”"
+            },
+            {
+              "kind": "quote",
+              "text": "“new type of water-related poverty”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“population growth is sentencing millions of people to hydrological poverty”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "hydrological poverty 就是 water-related poverty。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In these and other water-short countries, population growth is sentencing millions of people to hydrological poverty, a local form of poverty that is difficult to escape.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些以及其他缺水國家，人口增長正在使數百萬人陷入水文貧窮，這是一種地方性的貧窮形式，而且難以逃脫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 population growth，動詞是 is sentencing，表示「使……陷入」。對象是 millions of people。結果是 hydrological poverty。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“will be responsible for”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“is sentencing”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“a new type of water-related poverty”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“hydrological poverty, a local form of poverty”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： hydrological = related to water systems poverty = poverty population growth causes / sentences people to this poverty答案判斷答案是 B。這段最直接把人口增長和 hydrological poverty 連成因果關係。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也講人口增長和水短缺，但它沒有使用 hydrological poverty 這個概念。Question 35的核心是「新的水相關貧窮形式」，所以要找 Paragraph B 的專門詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“Industrialisation demands greater water supplies.”",
+      "translation": "工業化需要更多水供應。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找工業化如何增加水需求。最強定位詞是 Industrialisation 和 greater water supplies。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文可能改寫成 expand the demand for water 或 takes more water。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to population growth, urbanisation and industrialisation also expand the demand for water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了人口增長之外，城市化和工業化也會擴大對水的需求。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using four times as much grain per person means using four times as much water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每人使用四倍的穀物，就意味著使用四倍的水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接包含 industrialisation expands demand for water。這段必然是答案所在。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Industrialisation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“demands greater water supplies”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 有兩句："
+            },
+            {
+              "kind": "quote",
+              "text": "“urbanisation and industrialisation also expand the demand for water”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Industrialisation takes even more water than urbanisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工業化比城市化需要更多水。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Industrialisation takes even more water than urbanisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "工業化比城市化需要更多水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句非常直接。題目說 industrialisation demands greater water supplies，原文說 industrialisation takes even more water。兩者意思一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“demands greater water supplies”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“expand the demand for water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“takes even more water”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： demands = takes / expands demand greater water supplies = more water答案判斷答案是 F。Paragraph F 既直接點名 industrialisation，也說它會增加水需求。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也談 industry，並說 1,000 tons of water 可用來擴大 industrial output。但 Question 36 問的是 industrialisation 本身增加水需求，Paragraph F 的句子最直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "B — the world’s population is increasing rapidly",
+      "answerKey": "B — the world’s population is increasing rapidly",
+      "type": "Multiple Choice",
+      "prompt": "“Our water supply is running low because…”",
+      "translation": "我們的水供應正在減少，原因是……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At a time when drought in the United States, Ethiopia, and Afghanistan is in the news, it is easy to forget that far more serious water shortages are emerging as the demand for water in many countries simply outruns the supply.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當美國、埃塞俄比亞和阿富汗的乾旱成為新聞時，人們很容易忘記，更嚴重的水短缺正在出現，原因是許多國家的用水需求已經超過供應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even now, many in these countries lack enough water to drink, to satisfy hygienic needs, and to produce food.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使現在，這些國家已有許多人缺乏足夠的水來飲用、滿足衛生需要和生產食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 的功能是介紹全球水短缺的核心原因：demand outruns supply，而且每年新增人口會繼續增加用水需求。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“water supply is running low”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 有兩個重點句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the demand for water in many countries simply outruns the supply”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“We live in a water-challenged world, one that is becoming more so each year as 80 million additional people stake their claims to the Earth’s water resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們生活在一個水資源受挑戰的世界，而且每年又有八千萬新增人口對地球水資源提出需求，使情況更加嚴重。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀正確選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We live in a water-challenged world, one that is becoming more so each year as 80 million additional people stake their claims to the Earth’s water resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們生活在一個水資源受挑戰的世界，而且隨著每年八千萬新增人口對地球水資源提出需求，這個世界每年都變得更加缺水。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“the world’s population is increasing rapidly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "世界人口正在快速增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括了 “80 million additional people” 這個原因。文章後面 Paragraph B 也列出 India、China、Pakistan、Egypt、Iran、Mexico 的人口增長數字，進一步強化人口增長和水短缺的關係。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A grain is now exported globally. Paragraph G-H 的確講 grain trade，但那是水短缺跨國化的方式，不是文章一開始提出水供應減少的根本原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B the world’s population is increasing rapidly.正確。Paragraph A 直接說每年新增 80 million people 會爭用地球水資源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C more people are moving to cities. Paragraph F 有 urbanisation，這也是增加需求的因素之一。但題目問整體 water supply running low 的主要原因，文章標題和 A-B 段都把焦點放在 population growth。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D people waste water foolishly. Paragraph M 談 subsidies foster inefficiency，但沒有把 “foolish waste” 作為文章開首的主要原因。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our water supply is running low”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“the demand for water … outruns the supply”"
+            },
+            {
+              "kind": "quote",
+              "text": "“water tables are now falling”"
+            },
+            {
+              "kind": "label",
+              "text": "題目選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“population is increasing rapidly”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“80 million additional people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“projected 3 billion people to be added”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很吸引，因為 Paragraph F 確實提到 urbanisation。可是這題問全篇主因，而標題和開首兩段都指向 population growth。MCQ 要選最完整支援項，不是選其中一個也有關的因素。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "A — it takes more grain to feed livestock than to feed a human",
+      "answerKey": "A — it takes more grain to feed livestock than to feed a human",
+      "type": "Multiple Choice",
+      "prompt": "“People who have a high-meat diet cause more water to be used because…”",
+      "translation": "高肉類飲食的人會造成更多用水，原因是……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to population growth, urbanisation and industrialisation also expand the demand for water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了人口增長之外，城市化和工業化也會擴大對水的需求。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using four times as much grain per person means using four times as much water.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每人使用四倍的穀物，就意味著使用四倍的水。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 的後半正是討論飲食結構如何增加用水需求，所以這題定位在 F。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“high-meat diet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“because”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 對應句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As people move up the food chain, consuming more beef, pork, poultry, eggs, and dairy products, they use more grain.”"
+            },
+            {
+              "kind": "label",
+              "text": "接著是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A US diet rich in livestock products requires 800 kilograms of grain per person a year…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句直接把 meat-rich diet 和 grain requirement 連起來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀正確選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As people move up the food chain, consuming more beef, pork, poultry, eggs, and dairy products, they use more grain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人們在食物鏈上移，食用更多牛肉、豬肉、家禽、蛋和乳製品時，他們會使用更多穀物。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“A US diet rich in livestock products requires 800 kilograms of grain per person a year, whereas diets in India, dominated by a starchy food staple such as rice, typically need only 200 kilograms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "富含畜產品的美國飲食每人每年需要 800 公斤穀物，而以米飯等澱粉主食為主的印度飲食通常只需要 200 公斤。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這建立了清楚因果： high-meat / livestock-rich diet→ more grain needed→ more water used選項 A 說 it takes more grain to feed livestock than to feed a human。這是四個選項中最貼近原文的原因。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A it takes more grain to feed livestock than to feed a human.正確。原文用 800 kg vs 200 kg 說明 livestock-rich diet 需要更多 grain，而 grain 又代表 water use。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B the industrial processes to produce meat require a lot of water.原文沒有講 meat processing 或 industrial processes。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C livestock drink a lot of water.現實上可能合理，但原文沒有把 livestock drinking water 當成原因。文章說的是 grain required for livestock-rich diets。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D packaging of meat products goes through an intensive washing process.原文完全沒有 packaging 或 washing process。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“high-meat diet”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a US diet rich in livestock products”"
+            },
+            {
+              "kind": "quote",
+              "text": "“consuming more beef, pork, poultry, eggs, and dairy products”"
+            },
+            {
+              "kind": "label",
+              "text": "題目選項 A："
+            },
+            {
+              "kind": "quote",
+              "text": "“more grain to feed livestock”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“they use more grain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“requires 800 kilograms of grain”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很容易吸引學生，因為 livestock drinking water 聽起來合理。但 IELTS Reading 只看文章證據。Paragraph F 把高肉食飲食的水需求連到 grain requirement，而非 livestock 本身喝水。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "D — falling population levels",
+      "answerKey": "D — falling population levels",
+      "type": "Multiple Choice",
+      "prompt": "“What would reduce the use of water without adversely affecting the food supply?”",
+      "translation": "甚麼做法可以減少用水，同時不對食物供應造成負面影響？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph M第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although there are still some opportunities for developing new water resources, restoring the balance between water use and a sustainable supply will depend primarily on demand-side initiatives, such as stabilising population and raising water productivity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然仍有一些開發新水資源的機會，但要恢復用水和可持續供應之間的平衡，主要取決於需求面措施，例如穩定人口和提高水生產力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These shifts will move faster if the price of water more closely reflects its real value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果水價更接近水的真實價值，這些轉變會更快發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph M 是解決方案段落，提出 stabilising population、raising water productivity、removing subsidies、pricing water correctly、using more water-efficient technologies 等方法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“reduce the use of water”"
+            },
+            {
+              "kind": "quote",
+              "text": "“without adversely affecting food supply”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中最相關的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“demand-side initiatives, such as stabilising population and raising water productivity”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "提高 water productivity 的意思是用較少水產出同樣或更多價值，這自然不會傷害 food supply。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是選項中沒有 water productivity，只剩人口變化最接近。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀正確選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“restoring the balance between water use and a sustainable supply will depend primarily on demand-side initiatives, such as stabilising population and raising water productivity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要恢復用水和可持續供應之間的平衡，主要取決於需求面措施，例如穩定人口和提高水生產力。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“falling population levels”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人口水平下降。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的精確說法是 stabilising population，即穩定人口。選項 D 用 falling population levels，語氣比原文更強。不過在四個選項中，D 是唯一和人口需求面控制相連，並且不會直接削減食物生產能力的選項。人口水平下降或不再增長，都會減少水和食物需求壓力。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A growing fewer crops這會直接降低食物供應，因此不符合 “without adversely affecting the food supply”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B increasing water subsidies Paragraph M 說 “eliminate the water subsidies that foster inefficiency”。增加補貼會加劇低效率，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C diverting water from irrigation Paragraph H 說城市和工業用水增加時，常透過 diverting water from irrigation 滿足，結果是food production capacity 下降，需要進口 grain 補回。所以 C 會傷害食物生產能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D falling population levels最接近原文的 stabilising population。人口壓力下降，水需求和食物需求同步下降，因此是四個選項中的最佳答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“reduce the use of water”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“restoring the balance between water use and a sustainable supply”"
+            },
+            {
+              "kind": "quote",
+              "text": "“demand-side initiatives”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D："
+            },
+            {
+              "kind": "quote",
+              "text": "“falling population levels”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“stabilising population”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很容易令人誤選，因為 diverting water from irrigation 確實可以把水轉到城市和工業使用。但題目加了 without adversely affecting the food supply。灌溉用水減少會削弱 food production capacity，所以 C 被這個限制詞排除。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "B — the richest countries",
+      "answerKey": "B — the richest countries",
+      "type": "Multiple Choice",
+      "prompt": "“If there is a water war, who will win?”",
+      "translation": "如果發生水資源戰爭，誰會勝出？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph K第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is now often said that future wars in the region are more likely to be fought over water than oil.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "現在人們常說，該地區未來戰爭更可能因水而起，而非因石油而起。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the deficit continues to widen, the eventual adjustment will be even greater.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這個赤字繼續擴大，最終需要作出的調整將會更大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph K 的開首直接談 water war，之後轉到 grain markets 和 financial strength，所以Question 40 必然在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“water war”"
+            },
+            {
+              "kind": "quote",
+              "text": "“win”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph K 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“given the difficulty in winning a water war”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“The countries that will ‘win’ in this competition will be those that are financially strongest, not those that are militarily strongest.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀正確選項"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The countries that will ‘win’ in this competition will be those that are financially strongest, not those that are militarily strongest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這場競爭中會「勝出」的國家，將是財政實力最強的國家，而非軍事實力最強的國家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的重點是 financially strongest。選項 B “the richest countries” 正好概括 financially strongest。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文也說 water competition 更可能發生在 world grain markets。換言之，國家用錢買 grain，實際上是買入 hidden water。因此，真正有優勢的是能負擔糧食進口成本的國家。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A the driest countries原文沒有說最乾旱的國家會勝出。乾旱可能令需求更大，但不代表有購買力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B the richest countries正確。financially strongest = richest / most financially powerful。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C the countries that are more forceful原文特別排除 military strength：not those that are militarily strongest。forceful 如果理解成強硬或軍事有力，方向不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D the countries that have the biggest population原文多次說人口大國會加重水和糧食壓力，如 China and India，但人口大不等於在競爭中勝出。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“who will win?”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“countries that will ‘win’ in this competition”"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B："
+            },
+            {
+              "kind": "quote",
+              "text": "“the richest countries”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“financially strongest”"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 是最真實的中伏位，因為題目用了 water war，學生可能自然聯想到軍事力量。原文卻特別說勝出的國家是 financially strongest，並且明確排除 militarily strongest。這題要把注意力從 war 這個字，轉到 competition in world grain markets 這個實際機制。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Population growth sentencing millions to hydrological poverty.pdf",
+    "sha256": "80868bf0221aa08482864c3fd12c8824c998eedd40dca7f46f1d3a3acbe38dae",
+    "pageCount": 35
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "介紹全球水資源短缺：需求超過供應，人口增加令問題惡化。"
+      },
+      {
+        "number": "B",
+        "summary": "用 India、China、Pakistan 等人口增長例子，提出 hydrological poverty。"
+      },
+      {
+        "number": "C",
+        "summary": "用 aquifer depletion 和 grain production 換算，說明全球水赤字的規模。"
+      },
+      {
+        "number": "D",
+        "summary": "把 160 million tons of grain 換算成人口糧食，指出部分糧食依靠不可持續用水。"
+      },
+      {
+        "number": "E",
+        "summary": "解釋 over-pumping 的新現象，並說明農業、工業、城市之間爭水時，農業往往輸。"
+      },
+      {
+        "number": "F",
+        "summary": "說明 urbanisation、industrialisation、affluence 和 meat-rich diets 如何增加用水需求。"
+      },
+      {
+        "number": "G",
+        "summary": "說明水資源短缺透過 international grain trade 跨越國界。"
+      },
+      {
+        "number": "H",
+        "summary": "解釋城市和工業用水增加後，灌溉用水被轉移，缺口由進口糧食補回。"
+      },
+      {
+        "number": "I",
+        "summary": "用 Iran、Egypt、Japan 的 wheat imports 說明水資源限制和糧食進口壓力。"
+      },
+      {
+        "number": "J",
+        "summary": "把 North Africa and Middle East 的 imported grain 換算成 Nile River flow。"
+      },
+      {
+        "number": "K",
+        "summary": "討論未來水資源競爭可能在 grain markets 發生，財力強的國家較可能取勝。"
+      },
+      {
+        "number": "L",
+        "summary": "警告水短缺可能變成食物短缺，並令低收入水短缺國家陷入 hydrological poverty。"
+      },
+      {
+        "number": "M",
+        "summary": "提出解方：穩定人口、提高水生產力、取消補貼、提高水價和採用節水技術。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "段落地圖段落 功能A 介紹全球水資源短缺：需求超過供應，人口增加令問題惡化。",
+    "B 用 India、China、Pakistan 等人口增長例子，提出 hydrological poverty。",
+    "C 用 aquifer depletion 和 grain production 換算，說明全球水赤字的規模。",
+    "D 把 160 million tons of grain 換算成人口糧食，指出部分糧食依靠不可持續用水。",
+    "E 解釋 over-pumping 的新現象，並說明農業、工業、城市之間爭水時，農業往往輸。",
+    "F 說明 urbanisation、industrialisation、affluence 和 meat-rich diets 如何增加用水需求。",
+    "G 說明水資源短缺透過 international grain trade 跨越國界。",
+    "H 解釋城市和工業用水增加後，灌溉用水被轉移，缺口由進口糧食補回。",
+    "I 用 Iran、Egypt、Japan 的 wheat imports 說明水資源限制和糧食進口壓力。",
+    "J 把 North Africa and Middle East 的 imported grain 換算成 Nile River flow。",
+    "K 討論未來水資源競爭可能在 grain markets 發生，財力強的國家較可能取勝。",
+    "L 警告水短缺可能變成食物短缺，並令低收入水短缺國家陷入 hydrological poverty。",
+    "M 提出解方：穩定人口、提高水生產力、取消補貼、提高水價和採用節水技術。"
+  ]
+}

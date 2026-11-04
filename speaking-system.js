@@ -1,0 +1,8425 @@
+(function initialiseEdmundSpeakingSystem() {
+  "use strict";
+
+  const CONFIG = window.EDMUND_SPEAKING_CONFIG || {};
+  const SUPABASE_CONFIG = window.EDMUND_SUPABASE || {};
+  const EXAM_MODE = window.EDMUND_SPEAKING_EXAM || {};
+  const DSE_BASE_DATA = window.EDMUND_DSE_SPEAKING_DATA || { years: [], catalog: {}, sets: [] };
+  const DSE_SUPPLEMENT = window.EDMUND_DSE_SPEAKING_SUPPLEMENT || { sets: [] };
+  const DSE_PAPERS = window.EDMUND_DSE_SPEAKING_PAPERS || {};
+  const DSE_SOURCE = window.EDMUND_DSE_SPEAKING_SOURCE;
+  const DSE_ILLUSTRATIONS = window.EDMUND_DSE_SPEAKING_ILLUSTRATIONS || {};
+  const DSE_DATA = (() => {
+    const keyed = new Map();
+    [...(DSE_BASE_DATA.sets || []), ...(DSE_SUPPLEMENT.sets || [])].forEach(set => {
+      const key = `${Number(set?.year || 0)}:${String(set?.set || "")}`;
+      keyed.set(key, { ...set, paperPages: set.paperPages || DSE_PAPERS[key] || null });
+    });
+    const sets = [...keyed.values()].filter(set => Number(set.year) && String(set.set || ""));
+    const catalog = sets.reduce((result, set) => {
+      (result[set.year] ||= []).push(set);
+      return result;
+    }, {});
+    const years = Object.keys(catalog).map(Number).sort((left, right) => left - right);
+    return Object.freeze({ years, catalog, sets });
+  })();
+  const DSE_TRANSLATIONS = window.EDMUND_DSE_SPEAKING_TRANSLATIONS || {};
+  const DSE_MODE = window.EDMUND_DSE_SPEAKING_MODE || {};
+  const SESSION_KEY = "edmundSpeakingSessionV1";
+  const RATE_KEY = "edmundSpeakingAudioRateV1";
+  const HIGHLIGHT_KEY = "edmundSpeakingHighlightV1";
+  const NATURAL_EXCHANGE_KEY = "edmundSpeakingNaturalExchangeV1";
+  const PROGRESS_PREFERENCES_KEY = "edmundSpeakingProgressPreferencesV1";
+  const DSE_SESSION_KEY = "edmundDseSpeakingSessionV1";
+  const DSE_HISTORY_KEY = "edmundDseSpeakingHistoryV1";
+  const SEARCH_RESULT_LIMITS = { sections: 8, exercises: 14 };
+  const VISIBLE_BOOK_LIMITS = { 1: 14, 2: 16, 3: 16 };
+  const AUDIO_RATES = [0.25, 0.5, 0.75, 1, 1.25, 1.5];
+  const PART1_POP_DURATION_SECONDS = 0.5;
+  const PART1_POP_SAFETY_SECONDS = 0.08;
+  const PART1_SEGMENT_TAIL_SECONDS = 0.2;
+  const EXAM_PART2_SETTLE_MS = 2000;
+  const EXAM_PART2_PREP_MS = 60 * 1000;
+  const EXAM_PART2_RECORDING_SECONDS = 120;
+  const EXAM_MESSAGE_GAP_MS = 900;
+  const EXAM_OPENING_GAP_MS = 2000;
+  const EXAM_RISING_INFLECTION_RATE = 1.1;
+  const EXAM_RISING_INFLECTION_TAIL_SECONDS = 0.7;
+  const EXAM_AUDIO_MAX_BYTES = 2 * 1024 * 1024;
+  const EXAM_AUDIO_CACHE_LIMIT = 16;
+  const PAGE_RECORDING_HISTORY_LIMIT = 20;
+  const EXAM_FIXED_AUDIO_KEYS = new Map([
+    ["Okay, let's begin.", "fixed:opening-begin-v2"],
+    ["Could you tell me your full name please?", "fixed:opening-full-name"],
+    ["Perfect. All right, that will do for Part 1. We'll go on to Part 2 now.", "fixed:part1-to-part2"],
+    ["Perfect. All right, that will do for Part 1. We'll go on to Part 3 now.", "fixed:part1-to-part3"],
+    ["Great. Really nice.", "fixed:part2-finished"],
+    ["Perfect. All right, that will do for Part 2. We'll go on to Part 3 now.", "fixed:part2-to-part3"],
+    ["Okay, so now we'll go on to Part 3 of the test. Okay? Okay. So, the first question.", "fixed:part3-opening-v2"],
+    ["So here is your question. I'll give you a pencil there as well. I'll give you one minute to take some notes. Okay?", "fixed:part2-instructions-v2"],
+    ["Okay, you can begin.", "fixed:part2-ready-v2"]
+  ]);
+  const WORD_PATTERN = /[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*|[^\p{L}\p{N}]+/gu;
+  const IS_WORD_PATTERN = /^[\p{L}\p{N}]+(?:[’'][\p{L}\p{N}]+)*(?:-[\p{L}\p{N}]+)*$/u;
+  let dsePaperSwipe = null;
+
+  const EXAMS = [
+    { id: "dse", title: "DSE 說話考試", description: "香港中學文憑考試說話訓練" },
+    { id: "ielts", title: "IELTS 說話考試", description: "Part 1、Part 2 及 Part 3 高分示範" },
+    { id: "business", title: "商務英語會話", description: "會議、簡報及職場溝通" },
+    { id: "interview", title: "升學／見工面試", description: "升學與求職面試實戰" },
+    { id: "civil-service", title: "公務員說話面試", description: "公務員面試表達訓練" }
+  ];
+
+  const EXAM_ACCESS_KEYS = {
+    freestyle: "exam.ielts",
+    dse: "exam.dse",
+    ielts: "exam.ielts",
+    business: "exam.business",
+    interview: "exam.interview",
+    "civil-service": "exam.civil-service"
+  };
+
+  const ACCESS_SECTIONS = [
+    { key: "exam.dse", label: "DSE 說話考試" },
+    {
+      key: "exam.ielts",
+      label: "IELTS 說話考試",
+      children: [1, 2, 3].map(part => ({
+        key: `ielts.part.${part}`,
+        label: `Part ${part}`,
+        children: Array.from({ length: 16 }, (_, index) => ({
+          key: `ielts.part.${part}.book.${index + 1}`,
+          label: `Book ${index + 1}`
+        }))
+      }))
+    },
+    { key: "exam.business", label: "商務英語會話" },
+    { key: "exam.interview", label: "升學／見工面試" },
+    { key: "exam.civil-service", label: "公務員說話面試" },
+    { key: "bookmarks", label: "書簽" }
+  ];
+
+  const dom = {
+    loginView: document.querySelector('[data-view="login"]'),
+    portalView: document.querySelector('[data-view="portal"]'),
+    content: document.querySelector("[data-view-content]"),
+    breadcrumbs: document.querySelector("[data-breadcrumbs]"),
+    loginForm: document.querySelector("[data-login-form]"),
+    loginStatus: document.querySelector("[data-login-status]"),
+    authActions: document.querySelector("[data-auth-actions]"),
+    connectionPill: document.querySelector("[data-connection-pill]"),
+    backButton: document.querySelector("[data-back]"),
+    headerBookmarkButton: document.querySelector("[data-toggle-route-bookmark]"),
+    adminButton: document.querySelector('[data-go="admin"]'),
+    toastRegion: document.querySelector("[data-toast-region]"),
+    loadingTemplate: document.querySelector("#loading-template")
+  };
+
+  const state = {
+    user: null,
+    authToken: "",
+    access: {},
+    bookmarks: [],
+    bookmarksLoaded: false,
+    bookmarksSaving: false,
+    adminStudents: [],
+    adminStudentsLoaded: false,
+    adminStudentsLoading: false,
+    adminAccessSaving: false,
+    adminAccessDrafts: new Map(),
+    adminStudentQuery: "",
+    selectedAdminStudentId: "",
+    adminRequestGeneration: 0,
+    supabase: null,
+    supabaseReady: false,
+    route: { view: "exams" },
+    routeGeneration: 0,
+    routeHistory: [],
+    selectedRate: restoreRate(),
+    highlightEnabled: restoreHighlight(),
+    examNaturalExchange: restoreNaturalExchange(),
+    modelAudio: null,
+    modelAudioExerciseId: "",
+    modelAudioSegmentStart: 0,
+    modelAudioSegmentEnd: 0,
+    modelAudioSegmentIndex: -1,
+    highlightFrame: 0,
+    activeWordIndex: -1,
+    modelAudioGeneration: 0,
+    modelAudioPendingStart: false,
+    part1RevealMessages: [],
+    part1RevealNextIndex: 0,
+    part1RevealFrame: 0,
+    part1RevealScrollHandler: null,
+    part1RevealResizeHandler: null,
+    part1RevealAll: false,
+    part1AnimationDisabled: false,
+    authGeneration: 0,
+    mediaRecorder: null,
+    mediaStream: null,
+    recordingChunks: [],
+    recordingActiveStartedAt: 0,
+    recordingElapsedMs: 0,
+    recordingTransition: "",
+    recordingPauseSupported: false,
+    recordingBackgroundPaused: false,
+    recordingTimer: 0,
+    recordingDeadlineTimer: 0,
+    recordingGeneration: 0,
+    recordingQuotaChecking: false,
+    recordingQuota: null,
+    recordingPermissionPending: false,
+    recordingProcessing: false,
+    recordedMp3: null,
+    recordedMp3Url: "",
+    recordedDurationMs: 0,
+    recordingSaved: false,
+    recordingContextKey: "",
+    pageRecordings: [],
+    pageRecordingContextKey: "",
+    floatingRecorderFrame: 0,
+    floatingRecorderPlaceholder: null,
+    floatingRecorderScrollHandler: null,
+    floatingRecorderResizeHandler: null,
+    floatingRecorderResizeObserver: null,
+    examSession: null,
+    examPhaseTimer: 0,
+    examElapsedTimer: 0,
+    examMessageTimer: 0,
+    examMessageFinish: null,
+    examFlowGeneration: 0,
+    examSpeechGeneration: 0,
+    examAudioContext: null,
+    examAudioSource: null,
+    examAudioAbortController: null,
+    examAudioBufferCache: new Map(),
+    examVoiceErrorShown: false,
+    examSpeechFinish: null,
+    examSpeechTimeout: 0,
+    examStarting: false,
+    examStartGeneration: 0,
+    examSaving: false,
+    examSkipSaving: false,
+    examRatingSaving: false,
+    dseYearSort: "asc",
+    dseWordBookmarks: new Set(),
+    dseWordBookmarksLoaded: false,
+    dseSession: null,
+    dsePrepTimer: 0,
+    dseVoiceAudio: null,
+    dseVoiceAbortController: null,
+    dseVoiceUrls: new Map(),
+    dseVoiceGeneration: 0,
+    dseVoiceAutoKey: "",
+    dseVoiceErrorShown: false,
+    idleBreakExamPausedAt: 0,
+    idleBreakExamTimerWasRunning: false,
+    idleBreakPrepTimerWasRunning: false,
+    idleBreakRecordingWasRunning: false,
+    examAttempts: [],
+    examAttemptsById: new Map(),
+    attempts: [],
+    attemptsById: new Map(),
+    attemptBlobCache: new Map(),
+    attemptObjectUrls: new Map(),
+    activeAttemptAudioId: "",
+    attemptRequestGeneration: 0,
+    attemptPlaybackGeneration: 0,
+    attemptPlaybackController: null,
+    attemptAbortControllers: new Set(),
+    attemptMutationInProgress: false,
+    attemptMutationController: null,
+    attemptTotal: 0,
+    progressOwner: "",
+    progressAttempts: [],
+    progressLoading: false,
+    progressError: "",
+    progressRequestGeneration: 0,
+    progressController: null,
+    progressRange: "month",
+    progressShowCumulative: false,
+    progressSelectedDay: "",
+    durationProgressRange: "month",
+    durationProgressShowCumulative: false,
+    durationProgressSelectedDay: "",
+    requestedHomeworkExerciseOpened: false,
+    requestedHomeworkMockModeOpened: false,
+    requestedRecordingLibraryOpened: false
+  };
+
+  function escapeHtml(value) {
+    return String(value ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
+
+  function safeFilePart(value, fallback = "recording") {
+    const cleaned = String(value || "")
+      .normalize("NFKC")
+      .replace(/[\\/:*?"<>|\u0000-\u001f]/g, "-")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, 90);
+    return cleaned || fallback;
+  }
+
+  function pad(value, length = 2) {
+    return String(value).padStart(length, "0");
+  }
+
+  function normalizeAccess(value) {
+    if (!value || typeof value !== "object" || Array.isArray(value)) return {};
+    const allowed = new Set(ACCESS_SECTIONS.flatMap(section => [
+      section.key,
+      ...(section.children || []).flatMap(child => [child.key, ...(child.children || []).map(item => item.key)])
+    ]));
+    return Object.fromEntries(Object.entries(value)
+      .filter(([key, enabled]) => allowed.has(key) && typeof enabled === "boolean"));
+  }
+
+  function examModeDefinition(modeId) {
+    return typeof EXAM_MODE.modeForId === "function" ? EXAM_MODE.modeForId(modeId) : null;
+  }
+
+  function accessKeysForRoute(route) {
+    if (!route || state.user?.role === "admin") return [];
+    if (route.view === "bookmarks") return ["bookmarks"];
+    if (["exams", "attempts", "admin"].includes(route.view)) return [];
+    const dseViews = ["dse-sections", "dse-catalog", "dse-modes", "dse-practice", "dse-types", "dse-themes", "dse-question"];
+    if (dseViews.includes(route.view)) return ["exam.dse"];
+    const ieltsViews = ["parts", "books", "exercises", "exercise", "ielts-part3-types", "ielts-themes", "exam-modes", "exam-practice"];
+    const exam = String(route.exam || (ieltsViews.includes(route.view) ? "ielts" : ""));
+    const keys = exam && EXAM_ACCESS_KEYS[exam] ? [EXAM_ACCESS_KEYS[exam]] : [];
+    if (route.view === "exam-practice") {
+      const mode = examModeDefinition(route.modeId);
+      mode?.parts?.forEach(part => keys.push(`ielts.part.${part}`));
+      return keys;
+    }
+    const part = Number(route.part || 0);
+    const book = Number(route.book || 0);
+    if (exam === "ielts" && part >= 1 && part <= 3) keys.push(`ielts.part.${part}`);
+    if (exam === "ielts" && part >= 1 && part <= 3 && book >= 1 && book <= 16) {
+      keys.push(`ielts.part.${part}.book.${book}`);
+    }
+    return keys;
+  }
+
+  function hasAccess(keys) {
+    return state.user?.role === "admin" || keys.every(key => state.access[key] !== false);
+  }
+
+  function visibleBookLimit(part) {
+    return VISIBLE_BOOK_LIMITS[Number(part)] || 16;
+  }
+
+  function bookIsVisible(book, part) {
+    const number = Number(book);
+    return Number.isInteger(number) && number >= 1 && number <= visibleBookLimit(part);
+  }
+
+  function routeIsVisible(route) {
+    if (!route || !["exercises", "exercise"].includes(route.view)) return true;
+    return bookIsVisible(route.book, route.part);
+  }
+
+  function routeAllowed(route) {
+    return routeIsVisible(route) && hasAccess(accessKeysForRoute(route));
+  }
+
+  function examAvailable(examId) {
+    return ["dse", "ielts", "freestyle"].includes(examId);
+  }
+
+  function bookAvailable(part, book) {
+    return bookIsVisible(book, part) && Boolean(speakingBook(Number(part), Number(book))?.exercises?.length);
+  }
+
+  function preferredScrollBehavior() {
+    return window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+  }
+
+  function toast(message, type = "info") {
+    if (!dom.toastRegion) return;
+    const item = document.createElement("div");
+    item.className = `toast${type === "error" ? " error" : ""}`;
+    item.textContent = String(message || "");
+    dom.toastRegion.append(item);
+    window.setTimeout(() => item.remove(), 4400);
+  }
+
+  function setConnection(label, mode = "connecting") {
+    if (!dom.connectionPill) return;
+    dom.connectionPill.textContent = label;
+    dom.connectionPill.dataset.connectionState = mode;
+  }
+
+  function setLoginStatus(message, success = false) {
+    if (!dom.loginStatus) return;
+    dom.loginStatus.textContent = message || "";
+    dom.loginStatus.classList.toggle("success", success);
+  }
+
+  function restoreRate() {
+    try {
+      const stored = Number(localStorage.getItem(RATE_KEY));
+      return AUDIO_RATES.includes(stored) ? stored : 1;
+    } catch {
+      return 1;
+    }
+  }
+
+  function restoreHighlight() {
+    try {
+      return localStorage.getItem(HIGHLIGHT_KEY) !== "false";
+    } catch {
+      return true;
+    }
+  }
+
+  function restoreNaturalExchange() {
+    try {
+      return localStorage.getItem(NATURAL_EXCHANGE_KEY) !== "false";
+    } catch {
+      return true;
+    }
+  }
+
+  function speakingProgressOwner() {
+    if (!state.user) return "";
+    return `${state.user.role || "student"}:${state.user.id || state.user.name || "anonymous"}`;
+  }
+
+  function readSpeakingProgressPreferences() {
+    try {
+      const store = JSON.parse(localStorage.getItem(PROGRESS_PREFERENCES_KEY) || "{}");
+      const value = store && typeof store === "object" && !Array.isArray(store)
+        ? store[speakingProgressOwner()]
+        : null;
+      return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+    } catch {
+      return {};
+    }
+  }
+
+  function hydrateSpeakingProgressPreferences() {
+    const owner = speakingProgressOwner();
+    if (state.progressOwner === owner) return;
+    state.progressController?.abort();
+    state.progressController = null;
+    state.progressRequestGeneration += 1;
+    state.progressOwner = owner;
+    state.progressAttempts = [];
+    state.progressLoading = false;
+    state.progressError = "";
+    state.progressSelectedDay = "";
+    state.durationProgressSelectedDay = "";
+    const preferences = readSpeakingProgressPreferences();
+    state.progressRange = ["week", "month", "half-year", "ytd", "year", "all"].includes(preferences.range)
+      ? preferences.range
+      : "month";
+    state.progressShowCumulative = preferences.showCumulative === true;
+    state.durationProgressRange = ["week", "month", "half-year", "ytd", "year", "all"].includes(preferences.durationRange)
+      ? preferences.durationRange
+      : "month";
+    state.durationProgressShowCumulative = preferences.durationShowCumulative === true;
+  }
+
+  function saveSpeakingProgressPreferences() {
+    const owner = speakingProgressOwner();
+    if (!owner) return;
+    try {
+      const stored = JSON.parse(localStorage.getItem(PROGRESS_PREFERENCES_KEY) || "{}");
+      const store = stored && typeof stored === "object" && !Array.isArray(stored) ? stored : {};
+      store[owner] = {
+        range: state.progressRange,
+        showCumulative: state.progressShowCumulative,
+        durationRange: state.durationProgressRange,
+        durationShowCumulative: state.durationProgressShowCumulative
+      };
+      localStorage.setItem(PROGRESS_PREFERENCES_KEY, JSON.stringify(store));
+    } catch {
+      // The setting remains active for this page when browser storage is unavailable.
+    }
+  }
+
+  function setNaturalExchange(enabled) {
+    state.examNaturalExchange = Boolean(enabled);
+    try {
+      localStorage.setItem(NATURAL_EXCHANGE_KEY, String(state.examNaturalExchange));
+    } catch {
+      // The preference remains active for this page when storage is unavailable.
+    }
+    if (state.route.view === "exam-modes") renderExamModes();
+  }
+
+  function setRate(value) {
+    const rate = Number(value);
+    if (!AUDIO_RATES.includes(rate)) return;
+    state.selectedRate = rate;
+    try {
+      localStorage.setItem(RATE_KEY, String(rate));
+    } catch {
+      // Preferences remain available for this page when storage is unavailable.
+    }
+    if (state.modelAudio) {
+      state.modelAudio.defaultPlaybackRate = rate;
+      state.modelAudio.playbackRate = rate;
+    }
+    syncAudioControls();
+  }
+
+  function setHighlight(enabled) {
+    state.highlightEnabled = Boolean(enabled);
+    try {
+      localStorage.setItem(HIGHLIGHT_KEY, String(state.highlightEnabled));
+    } catch {
+      // Preferences remain available for this page when storage is unavailable.
+    }
+    if (!state.highlightEnabled) {
+      clearHighlight();
+      if (Number(currentExercise()?.part) === 1 && state.modelAudio && !state.modelAudio.paused && !state.modelAudio.ended) {
+        startHighlightLoop();
+      }
+    } else if (state.modelAudio && !state.modelAudio.paused && !state.modelAudio.ended) {
+      updateHighlight();
+      startHighlightLoop();
+    }
+    syncAudioControls();
+  }
+
+  function saveSession() {
+    if (!state.user || !state.authToken) return;
+    const session = {
+      token: state.authToken,
+      role: state.user.role,
+      id: state.user.id || "",
+      name: state.user.name || ""
+    };
+    try {
+      sessionStorage.setItem(SESSION_KEY, JSON.stringify(session));
+    } catch {
+      // The authenticated session still works for this page when storage is unavailable.
+    }
+  }
+
+  function restoreSession() {
+    try {
+      const saved = JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null");
+      if (!saved?.token || !["student", "admin"].includes(saved.role)) return false;
+      state.authToken = String(saved.token);
+      state.user = {
+        id: String(saved.id || ""),
+        name: String(saved.name || (saved.role === "admin" ? CONFIG.adminUsername : "Student")),
+        role: saved.role
+      };
+      return true;
+    } catch {
+      try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Storage is unavailable. */ }
+      return false;
+    }
+  }
+
+  function clearSession() {
+    state.authGeneration += 1;
+    if (state.dseSession && !state.dseSession.completedAt) abandonDseSession("logged-out");
+    clearDsePrepTimer();
+    cancelDseVoice();
+    state.dseSession = null;
+    state.dseWordBookmarks.clear();
+    state.dseWordBookmarksLoaded = false;
+    state.user = null;
+    state.authToken = "";
+    try { sessionStorage.removeItem(SESSION_KEY); } catch { /* Storage is unavailable. */ }
+  }
+
+  function initialiseSupabaseClient() {
+    if (state.supabase) return state.supabase;
+    if (!window.supabase?.createClient || !SUPABASE_CONFIG.url || !SUPABASE_CONFIG.anonKey) {
+      throw new Error("登入服務設定未能載入，請稍後再試。");
+    }
+    let authStorage;
+    try { authStorage = window.sessionStorage; } catch { authStorage = undefined; }
+    state.supabase = window.supabase.createClient(SUPABASE_CONFIG.url, SUPABASE_CONFIG.anonKey, {
+      auth: {
+        persistSession: Boolean(authStorage),
+        ...(authStorage ? { storage: authStorage } : {}),
+        autoRefreshToken: true,
+        detectSessionInUrl: false
+      }
+    });
+    return state.supabase;
+  }
+
+  async function ensureSupabaseSession() {
+    const client = initialiseSupabaseClient();
+    const sessionResult = await client.auth.getSession();
+    if (sessionResult.error) throw sessionResult.error;
+    let session = sessionResult.data?.session || null;
+    if (!session) {
+      const signInResult = await client.auth.signInAnonymously();
+      if (signInResult.error) throw signInResult.error;
+      session = signInResult.data?.session || null;
+    }
+    if (!session?.user?.id) throw new Error("登入服務暫時未能建立安全工作階段。");
+    state.supabaseReady = true;
+    return client;
+  }
+
+  async function learningWordRpc(name, args) {
+    const client = await ensureSupabaseSession();
+    const { data, error } = await client.rpc(name, args);
+    if (error) throw error;
+    return data;
+  }
+
+  let speakingWordList;
+  async function initializeSpeakingWordBrush() {
+    try {
+      const { createSpeakingWordList } = await import('./speaking-word-list.mjs?v=20260917-brush-controls1');
+      speakingWordList = createSpeakingWordList({ root: () => dom.content, getUser: () => state.user, getToken: () => state.authToken, rpc: learningWordRpc, notify: toast, openSource: openSpeakingWordSource,
+      describe({ element, phrase, range }) {
+        if (state.user?.role !== "student" || state.route.view !== "exercise") return false;
+        const english = element.closest(
+          ".part1-answer-message .part1-message-en,.response-card .response-en,.part3-step .part3-step-en"
+        );
+        if (!english || !english.contains(range.startContainer) || !english.contains(range.endContainer)) return false;
+        const exercise = currentExercise();
+        if (!exercise) return false;
+        const part1 = english.closest(".part1-answer-message");
+        const response = english.closest(".response-card");
+        const part3 = english.closest(".part3-step");
+        const chinese = part1?.querySelector(".part1-message-zh")
+          || response?.querySelector(".response-zh")
+          || part3?.querySelector(".part3-translation p");
+        const allAnswers = [...dom.content.querySelectorAll(
+          ".part1-answer-message .part1-message-en,.response-card .response-en,.part3-step .part3-step-en"
+        )];
+        return {
+          scope: `${exercise.id}:${Math.max(0, allAnswers.indexOf(english))}`,
+          phrase,
+          contextEn: String(english.textContent || ""),
+          contextZh: String(chinese?.textContent || ""),
+          href: `speaking-system.html?exercise=${encodeURIComponent(exercise.id)}&answer=${Math.max(0, allAnswers.indexOf(english))}#speaking-answer-${Math.max(0, allAnswers.indexOf(english))}`
+        };
+      },
+      });
+      if (state.route.view === 'bookmarks') speakingWordList.mountList(dom.content);
+    } catch (error) { console.warn('Speaking word tools unavailable', error); }
+  }
+
+  async function studentLogin(username, password) {
+    const client = await ensureSupabaseSession();
+    const rpcName = String(CONFIG.studentLoginRpc || "flashcard_student_login");
+    const { data, error } = await client.rpc(rpcName, {
+      p_name: username,
+      p_password: password
+    });
+    if (error) throw error;
+    if (!Array.isArray(data) || !data.length || !data[0]?.session_token) return null;
+    const row = data[0];
+    return {
+      token: String(row.session_token),
+      access: normalizeAccess(row.access),
+      sharedAccess: row.access && typeof row.access === "object" && !Array.isArray(row.access) ? row.access : undefined,
+      user: {
+        id: String(row.id || ""),
+        name: String(row.name || username),
+        role: "student"
+      }
+    };
+  }
+
+  function workerBaseUrl() {
+    const base = String(CONFIG.workerBaseUrl || "").trim().replace(/\/+$/, "");
+    if (!base) {
+      throw new Error("錄音服務尚未完成連接。請先在 speaking-system-config.js 設定 Worker 網址。");
+    }
+    return base;
+  }
+
+  function workerEndpoint(path) {
+    const value = String(path || "");
+    if (/^https?:\/\//i.test(value)) return value;
+    return `${workerBaseUrl()}/${value.replace(/^\/+/, "")}`;
+  }
+
+  async function parseApiError(response) {
+    let message = `服務回應錯誤（${response.status}）`;
+    let code = "";
+    try {
+      const payload = await response.clone().json();
+      message = payload?.error?.message || payload?.error || payload?.message || message;
+      code = String(payload?.code || payload?.error?.code || "");
+    } catch {
+      try {
+        const text = await response.text();
+        if (text.trim()) message = text.trim().slice(0, 240);
+      } catch {
+        // Keep the status-based message.
+      }
+    }
+    const error = new Error(message);
+    error.status = response.status;
+    if (code) error.code = code;
+    return error;
+  }
+
+  async function apiRaw(path, options = {}, includeAuth = true) {
+    const headers = new Headers(options.headers || {});
+    if (includeAuth && state.authToken) headers.set("Authorization", `Bearer ${state.authToken}`);
+    let response;
+    try {
+      response = await fetch(workerEndpoint(path), {
+        ...options,
+        headers,
+        credentials: "omit"
+      });
+    } catch (error) {
+      if (error?.name === "AbortError") throw error;
+      const connectionError = new Error("暫時未能連接錄音服務。請檢查網絡後再試。");
+      connectionError.code = "RECORDING_SERVICE_UNREACHABLE";
+      connectionError.cause = error;
+      throw connectionError;
+    }
+    if (!response.ok) {
+      const error = await parseApiError(response);
+      if (includeAuth && response.status === 401) handleSessionExpired();
+      throw error;
+    }
+    return response;
+  }
+
+  async function apiJson(path, options = {}, includeAuth = true) {
+    const headers = new Headers(options.headers || {});
+    if (options.body && !(options.body instanceof FormData) && !headers.has("Content-Type")) {
+      headers.set("Content-Type", "application/json");
+    }
+    const response = await apiRaw(path, { ...options, headers }, includeAuth);
+    if (response.status === 204) return null;
+    return response.json();
+  }
+
+  async function adminLogin(username, password) {
+    const endpoint = CONFIG.endpoints?.adminLogin || "/v1/admin/login";
+    const payload = await apiJson(endpoint, {
+      method: "POST",
+      body: JSON.stringify({ username, password })
+    }, false);
+    const token = payload?.admin?.adminToken
+      || payload?.admin?.token
+      || payload?.token
+      || payload?.accessToken
+      || payload?.access_token;
+    if (!token) return null;
+    return {
+      token: String(token),
+      user: {
+        id: String(payload?.admin?.id || payload?.user?.id || payload?.id || "speaking-admin"),
+        name: String(payload?.admin?.name || payload?.user?.name || payload?.name || username),
+        role: "admin"
+      }
+    };
+  }
+
+  async function validateRestoredSession() {
+    if (!state.user || !state.authToken) throw new Error("Missing restored session.");
+    const isAdmin = state.user.role === "admin";
+    const endpoint = isAdmin
+      ? (CONFIG.endpoints?.adminMe || "/v1/admin/me")
+      : (CONFIG.endpoints?.studentMe || "/v1/student/me");
+    const payload = await apiJson(endpoint);
+    const profile = isAdmin ? payload?.admin : payload?.student;
+    if (!profile?.id || !profile?.name) throw new Error("登入時段未能通過驗證。");
+    state.user = {
+      id: String(profile.id),
+      name: String(profile.name),
+      role: isAdmin ? "admin" : "student"
+    };
+    state.access = isAdmin ? {} : normalizeAccess(payload?.access || profile?.access);
+    saveSession();
+  }
+
+  async function handleLogin(form) {
+    const submit = form.querySelector('[type="submit"]');
+    const usernameInput = form.elements.username;
+    const passwordInput = form.elements.password;
+    const username = String(usernameInput.value || "").trim();
+    let password = String(passwordInput.value || "");
+    if (!username || !password) {
+      setLoginStatus("請輸入用戶名稱及密碼。");
+      (!username ? usernameInput : passwordInput).focus();
+      return;
+    }
+
+    submit.disabled = true;
+    submit.querySelector("span:first-child").textContent = "Signing in…";
+    setLoginStatus("正在安全登入…", true);
+    setConnection("登入中", "connecting");
+
+    try {
+      const isAdmin = username.toLocaleLowerCase("en")
+        === String(CONFIG.adminUsername || "Sam Admin Speaking").trim().toLocaleLowerCase("en");
+      const result = isAdmin
+        ? await adminLogin(username, password)
+        : await studentLogin(username, password);
+      if (!result) throw new Error("用戶名稱或密碼不正確。");
+      state.authGeneration += 1;
+      state.user = result.user;
+      state.authToken = result.token;
+      state.access = normalizeAccess(result.access);
+      if (!isAdmin) {
+        window.EdmundSystemNav?.rememberStudentSession({
+          token: result.token,
+          id: result.user.id,
+          name: result.user.name,
+          role: "student",
+          access: result.sharedAccess
+        });
+        await validateRestoredSession();
+        if (!state.user) return;
+        saveSession();
+        form.reset();
+        showPortal();
+        setConnection("已登入 · 正在載入紀錄", "connecting");
+        navigate({ view: "exams" }, { reset: true });
+        try {
+          await loadBookmarks({ quiet: true });
+        } catch (bookmarkError) {
+          if (!state.user) return;
+          console.warn("Speaking bookmark restore failed after login:", bookmarkError);
+          setConnection("已登入 · 書簽稍後同步", "warning");
+          toast("已進入 Speaking 首頁；舊有書簽暫時未能載入。", "error");
+          return;
+        }
+        if (!state.user) return;
+        setConnection("已安全連接", "live");
+        if (!openRequestedDseQuestion() && !openRequestedRecordingLibrary() && !openRequestedHomeworkMockMode()) openRequestedHomeworkExercise();
+        return;
+      }
+      saveSession();
+      form.reset();
+      showPortal();
+      setConnection("Admin 已連接", "live");
+      navigate({ view: "admin" }, { reset: true });
+    } catch (error) {
+      console.warn("Speaking System login failed:", error);
+      const message = /Failed to fetch|NetworkError/i.test(String(error?.message))
+        ? "網絡連線失敗，請檢查連線後再試。"
+        : String(error?.message || "登入失敗，請再試一次。");
+      setLoginStatus(message);
+      setConnection("連接失敗", "error");
+      passwordInput.value = "";
+      passwordInput.focus();
+    } finally {
+      submit.disabled = false;
+      submit.querySelector("span:first-child").textContent = "Enter Speaking System";
+      password = "";
+    }
+  }
+
+  function showLogin() {
+    stopModelAudio();
+    clearExamSession();
+    cleanupFloatingRecorder();
+    cancelRecorder();
+    clearPageRecordingHistory();
+    cleanupAttemptAudio();
+    dom.loginView.hidden = false;
+    dom.portalView.hidden = true;
+    dom.authActions.hidden = true;
+    dom.backButton.hidden = true;
+    document.body.classList.remove("portal-active");
+    setConnection("等待登入", "connecting");
+    window.setTimeout(() => dom.loginForm?.elements?.username?.focus(), 0);
+  }
+
+  function showPortal() {
+    dom.loginView.hidden = true;
+    dom.portalView.hidden = false;
+    dom.authActions.hidden = false;
+    if (dom.adminButton) dom.adminButton.hidden = state.user?.role !== "admin";
+    document.body.classList.add("portal-active");
+  }
+
+  function resetAuthenticatedState(message) {
+    cancelAttemptMutation();
+    cleanupPart1Reveal();
+    clearSession();
+    state.route = { view: "exams" };
+    state.routeHistory = [];
+    state.attempts = [];
+    state.attemptTotal = 0;
+    state.attemptsById.clear();
+    state.progressController?.abort();
+    state.progressController = null;
+    state.progressRequestGeneration += 1;
+    state.progressOwner = "";
+    state.progressAttempts = [];
+    state.progressLoading = false;
+    state.progressError = "";
+    state.progressRange = "month";
+    state.progressShowCumulative = false;
+    state.progressSelectedDay = "";
+    state.durationProgressRange = "month";
+    state.durationProgressShowCumulative = false;
+    state.durationProgressSelectedDay = "";
+    state.idleBreakExamPausedAt = 0;
+    state.idleBreakExamTimerWasRunning = false;
+    state.idleBreakPrepTimerWasRunning = false;
+    state.idleBreakRecordingWasRunning = false;
+    state.examAttempts = [];
+    state.examAttemptsById.clear();
+    state.access = {};
+    state.bookmarks = [];
+    state.bookmarksLoaded = false;
+    state.bookmarksSaving = false;
+    state.adminStudents = [];
+    state.adminStudentsLoaded = false;
+    state.adminStudentsLoading = false;
+    state.adminAccessSaving = false;
+    state.adminAccessDrafts.clear();
+    state.adminStudentQuery = "";
+    state.selectedAdminStudentId = "";
+    showLogin();
+    state.attemptBlobCache.clear();
+    if (dom.content) dom.content.replaceChildren();
+    if (dom.breadcrumbs) dom.breadcrumbs.replaceChildren();
+    setLoginStatus(message, true);
+  }
+
+  function handleSessionExpired() {
+    if (!state.user) return;
+    if (state.user.role === "student") window.EdmundSystemNav?.forgetStudentSession();
+    resetAuthenticatedState("登入時段已過期，請重新登入。");
+    setConnection("登入時段已過期", "error");
+  }
+
+  async function handleLogout() {
+    if (blockAttemptMutationNavigation()) return;
+    if (!confirmRecordingAbandonment()) return;
+    if (state.adminAccessDrafts.size && !window.confirm("尚有未儲存的學生權限改動。登出會捨棄這些改動，確定繼續嗎？")) return;
+    const role = state.user?.role;
+    const token = state.authToken;
+    if (role === "student") window.EdmundSystemNav?.forgetStudentSession();
+    let revokePromise = null;
+    if (role === "admin" && token) {
+      try {
+        const endpoint = CONFIG.endpoints?.adminLogout || "/v1/admin/logout";
+        revokePromise = fetch(workerEndpoint(endpoint), {
+          method: "POST",
+          headers: { Authorization: `Bearer ${token}` },
+          credentials: "omit",
+          keepalive: true
+        });
+      } catch (error) {
+        console.warn("Could not start admin session revocation:", error);
+      }
+    }
+
+    resetAuthenticatedState("你已安全登出。");
+    if (!revokePromise) return;
+    try {
+      const response = await revokePromise;
+      if (!response.ok && response.status !== 401) throw new Error(`Admin logout returned ${response.status}`);
+    } catch (error) {
+      console.warn("Admin session revocation failed:", error);
+      toast("本機已登出，但伺服器未能確認管理員時段已撤銷。請檢查網絡。", "error");
+    }
+  }
+
+  function routeLabel(route) {
+    switch (route?.view) {
+      case "dse-sections": return "DSE 說話考試";
+      case "dse-themes": case "ielts-themes": return "按主題練習";
+      case "dse-types": return "按題型練習";
+      case "ielts-part3-types": return "IELTS Part 3 題型";
+      case "dse-question": return "指定題目練習";
+      case "dse-catalog": return route.part === "individual" ? "個人發言" : "小組討論";
+      case "dse-modes": return "DSE 考試練習模式";
+      case "dse-practice": return DSE_MODE.modeForId?.(route.modeId)?.labelZh || "DSE 練習";
+      case "parts": return "IELTS 說話考試";
+      case "exam-modes": return "考試練習模式";
+      case "exam-practice": return examModeDefinition(route.modeId)?.shortLabel || "考試練習";
+      case "books": return `Part ${route.part}`;
+      case "exercises": return `Book ${route.book}`;
+      case "exercise": return `Exercise ${route.exerciseIndex}`;
+      case "attempts": return state.user?.role === "admin" ? "所有錄音" : "我的錄音";
+      case "bookmarks": return "書簽";
+      case "admin": return "Admin 控制台";
+      default: return "選擇考試";
+    }
+  }
+
+  function routesEqual(left, right) {
+    return JSON.stringify(left || {}) === JSON.stringify(right || {});
+  }
+
+  function navigationHasUnsavedRecording() {
+    return Boolean(
+      ["recording", "paused"].includes(state.mediaRecorder?.state)
+      || state.recordingProcessing
+      || (state.recordedMp3 && !state.recordingSaved)
+      || (state.route.view === "exam-practice" && state.examSession && !state.examSession.completed)
+    );
+  }
+
+  function confirmRecordingAbandonment() {
+    if (!navigationHasUnsavedRecording()) return true;
+    if (
+      !["recording", "paused"].includes(state.mediaRecorder?.state)
+      && !state.recordingProcessing
+      && !(state.recordedMp3 && !state.recordingSaved)
+      && state.route.view === "exam-practice"
+      && state.examSession
+      && !state.examSession.completed
+    ) {
+      return window.confirm("考試練習仍在進行中。離開後不能繼續本次進度；已儲存的錄音仍會保留在錄音庫。確定離開嗎？");
+    }
+    return window.confirm("這次錄音尚未儲存。離開後將會捨棄錄音，確定繼續嗎？");
+  }
+
+  function navigate(route, options = {}) {
+    if (!state.user) return;
+    if (state.attemptMutationInProgress && blockAttemptMutationNavigation()) return;
+    if (!routeAllowed(route)) {
+      toast("你的帳戶尚未開放這個練習範圍。", "error");
+      return;
+    }
+    if (!routesEqual(route, state.route) && (state.examSaving || state.examSkipSaving || state.recordingProcessing)) {
+      toast("錄音正在處理或上載，完成後才可離開。", "info");
+      return;
+    }
+    if (!options.skipGuard && !routesEqual(route, state.route) && !confirmRecordingAbandonment()) return;
+    const abandoningExam = !routesEqual(route, state.route)
+      && state.route.view === "exam-practice"
+      && state.examSession
+      && !state.examSession.completed;
+    const abandoningDse = !routesEqual(route, state.route)
+      && state.route.view === "dse-practice"
+      && state.dseSession
+      && !state.dseSession.completedAt;
+    if (!routesEqual(route, state.route) && state.route.view === "exams") {
+      state.progressController?.abort();
+      state.progressController = null;
+      state.progressLoading = false;
+      state.progressRequestGeneration += 1;
+    }
+    stopModelAudio();
+    clearExamPhaseTimer();
+    clearDsePrepTimer();
+    cancelExamSpeech();
+    cancelDseVoice();
+    cleanupPart1Reveal();
+    cleanupAttemptAudio();
+    if (!routesEqual(route, state.route)) {
+      cleanupFloatingRecorder();
+      cancelRecorder();
+      clearPageRecordingHistory();
+    }
+    if (abandoningExam) clearExamSession();
+    if (abandoningDse) abandonDseSession("left-practice");
+
+    if (options.reset) {
+      state.routeHistory = [];
+    } else if (!options.fromBack && state.route?.view && !routesEqual(route, state.route)) {
+      state.routeHistory.push({ ...state.route });
+    }
+    if (!routesEqual(route, state.route)) state.routeGeneration += 1;
+    state.route = { ...route, presentation: route.view === "exams" || route.exam === "dse" ? "" : (route.presentation ?? state.route.presentation ?? "") };
+    document.body.classList.toggle("speaking-freestyle",state.route.presentation === "freestyle");
+    renderRoute();
+    window.scrollTo({ top: 0, behavior: preferredScrollBehavior() });
+    document.querySelector("#main-content")?.focus({ preventScroll: true });
+  }
+
+  function goBack() {
+    if (blockAttemptMutationNavigation()) return;
+    if (state.examSaving || state.examSkipSaving || state.recordingProcessing) {
+      toast("錄音正在處理或上載，完成後才可離開。", "info");
+      return;
+    }
+    if (!confirmRecordingAbandonment()) return;
+    const previous = state.routeHistory.pop();
+    if (previous) {
+      navigate(previous, { fromBack: true, skipGuard: true });
+      return;
+    }
+    navigate({ view: "exams" }, { reset: true, skipGuard: true });
+  }
+
+  function directRoute(route) {
+    navigate(route);
+  }
+
+  function renderBreadcrumbs() {
+    const route = state.route;
+    const crumbs = [{ label: "Speaking System", route: { view: "exams" } }];
+    if (["dse-sections", "dse-catalog", "dse-modes", "dse-practice", "dse-types", "dse-themes", "dse-question"].includes(route.view)) {
+      crumbs.push({ label: "DSE", route: route.view === "dse-sections" ? null : { view: "dse-sections", exam: "dse" } });
+    }
+    if (["dse-types","dse-question"].includes(route.view)) crumbs.push({label:"按題型練習",route:route.view==="dse-types"?null:{view:"dse-types",exam:"dse"}});
+    if (["dse-themes","ielts-themes"].includes(route.view)) crumbs.push({label:"按主題練習",route:null});
+    if (route.view === "dse-question") crumbs.push({label:"指定題目",route:null});
+    if (route.view === "dse-catalog") {
+      crumbs.push({ label: route.part === "individual" ? "個人發言" : "小組討論", route: null });
+    }
+    if (["dse-modes", "dse-practice"].includes(route.view)) {
+      crumbs.push({ label: "考試練習模式", route: route.view === "dse-modes" ? null : { view: "dse-modes", exam: "dse" } });
+    }
+    if (route.view === "dse-practice") {
+      crumbs.push({ label: DSE_MODE.modeForId?.(route.modeId)?.labelZh || "DSE 練習", route: null });
+    }
+    if (["parts", "books", "exercises", "exercise", "ielts-part3-types", "ielts-themes", "exam-modes", "exam-practice"].includes(route.view)) {
+      crumbs.push({ label: "IELTS", route: { view: "parts", exam: "ielts" } });
+    }
+    if (["exam-modes", "exam-practice"].includes(route.view)) {
+      crumbs.push({ label: "考試練習模式", route: route.view === "exam-modes" ? null : { view: "exam-modes", exam: "ielts" } });
+    }
+    if (route.view === "exam-practice") {
+      crumbs.push({ label: examModeDefinition(route.modeId)?.shortLabel || "考試練習", route: null });
+    }
+    if (["books", "exercises", "exercise", "ielts-part3-types"].includes(route.view)) {
+      crumbs.push({ label: `Part ${route.part}`, route: { view: "books", exam: "ielts", part: route.part } });
+    }
+    if (["exercises", "exercise"].includes(route.view)) {
+      crumbs.push({ label: `Book ${route.book}`, route: { view: "exercises", exam: "ielts", part: route.part, book: route.book } });
+    }
+    if (route.view === "exercise") {
+      crumbs.push({ label: `Exercise ${route.exerciseIndex}`, route: null });
+    }
+    if (route.view === "ielts-part3-types") crumbs.push({ label: "按題型練習", route: null });
+    if (route.view === "attempts") {
+      crumbs.push({ label: state.user?.role === "admin" ? "所有錄音" : "我的錄音", route: null });
+    }
+    if (route.view === "bookmarks") crumbs.push({ label: "書簽", route: null });
+    if (route.view === "admin") crumbs.push({ label: "Admin 控制台", route: null });
+
+    dom.breadcrumbs.innerHTML = crumbs.map((crumb, index) => {
+      const isLast = index === crumbs.length - 1;
+      const content = isLast || !crumb.route
+        ? `<span class="breadcrumb-current" aria-current="page">${escapeHtml(crumb.label)}</span>`
+        : `<button class="breadcrumb-button" type="button" data-breadcrumb-index="${index}">${escapeHtml(crumb.label)}</button>`;
+      const stopwatch = isLast && route.view === "exam-practice" && state.examSession
+        ? `<span class="exam-breadcrumb-stopwatch" aria-label="考試練習已用時間">時間 <strong data-exam-elapsed-clock>${formatStopwatchDuration(examElapsedMilliseconds())}</strong></span>`
+        : "";
+      return `${index ? '<span class="breadcrumb-separator" aria-hidden="true">/</span>' : ""}${content}${stopwatch}`;
+    }).join("");
+    dom.breadcrumbs._routes = crumbs.map(item => item.route);
+    dom.backButton.hidden = state.routeHistory.length === 0 && state.route.view === "exams";
+    syncHeaderBookmark();
+    syncExamElapsedTimer();
+  }
+
+  function renderRoute() {
+    renderBreadcrumbs();
+    switch (state.route.view) {
+      case "dse-sections":
+        renderDseSections();
+        break;
+      case "dse-themes": renderSpeakingThemes("dse"); break;
+      case "ielts-themes": renderSpeakingThemes("ielts"); break;
+      case "dse-types":
+        renderDseTypes();
+        break;
+      case "ielts-part3-types":
+        renderIeltsPart3Types();
+        break;
+      case "dse-question":
+        renderDseQuestion();
+        break;
+      case "dse-catalog":
+        renderDseCatalog();
+        break;
+      case "dse-modes":
+        renderDseModes();
+        break;
+      case "dse-practice":
+        renderDsePractice();
+        break;
+      case "parts":
+        renderParts();
+        break;
+      case "books":
+        renderBooks(state.route.part);
+        break;
+      case "exercises":
+        renderExercises();
+        break;
+      case "exercise":
+        renderExercise();
+        break;
+      case "exam-modes":
+        renderExamModes();
+        break;
+      case "exam-practice":
+        renderExamPractice();
+        break;
+      case "attempts":
+        renderAttemptsPage();
+        break;
+      case "bookmarks":
+        renderBookmarks();
+        break;
+      case "admin":
+        renderAdminPanel();
+        break;
+      default:
+        renderExams();
+    }
+  }
+
+  function applySpeakingPresentation() {
+    if(state.route.presentation !== "freestyle")return;
+    const wording=value=>String(value).replace(/IELTS\s*(?:Speaking)?/gi,"Freestyle Speaking").replace(/雅思/g,"自由會話").replace(/Band\s*9/gi,"Advanced").replace(/說話考試/g,"說話練習").replace(/考試練習模式/g,"自由會話練習模式").replace(/EXAM MODE/gi,"PRACTICE MODE").replace(/EXAM COMPLETE/gi,"PRACTICE COMPLETE");
+    for(const root of [dom.content,dom.breadcrumbs]) {
+      if(!root)continue;const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+      while(walker.nextNode()){const n=walker.currentNode;if(n.parentElement?.closest('script,style,textarea'))continue;const next=wording(n.nodeValue);if(next!==n.nodeValue)n.nodeValue=next;}
+      for(const el of root.querySelectorAll('[title],[alt],[aria-label]'))for(const attr of ['title','alt','aria-label'])if(el.hasAttribute(attr)){const old=el.getAttribute(attr),next=wording(old);if(next!==old)el.setAttribute(attr,next);}
+      for(const img of root.querySelectorAll('.exam-practice-cover img'))if(img.getAttribute('src')?.includes('ielts-exam-practice')){img.src='https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/speaking-system/freestyle-practice-mode.png';img.alt='Freestyle Speaking';}
+    }
+  }
+
+  function sectionHeader(title, description = "", chip = "") {
+    return `
+      <div class="section-heading">
+        <div>
+          <h1>${escapeHtml(title)}</h1>
+          ${description ? `<p>${escapeHtml(description)}</p>` : ""}
+        </div>
+        ${chip ? `<span class="${state.user?.role === "admin" ? "admin-chip" : "welcome-chip"}">${escapeHtml(chip)}</span>` : ""}
+      </div>
+    `;
+  }
+
+  function normalizeSearchText(value) {
+    return String(value || "")
+      .normalize("NFKC")
+      .replace(/[’]/g, "'")
+      .toLocaleLowerCase("en")
+      .replace(/[^a-z0-9一-鿿]+/g, " ")
+      .trim();
+  }
+
+  function searchTokens(value) {
+    return normalizeSearchText(value).split(/\s+/).filter(Boolean);
+  }
+
+  function searchMatches(haystack, tokens) {
+    if (!tokens.length) return false;
+    const normalized = normalizeSearchText(haystack);
+    return tokens.every(token => normalized.includes(token));
+  }
+
+  function bookmarkKey(bookmark) {
+    if (!bookmark || typeof bookmark !== "object") return "";
+    return [bookmark.kind, bookmark.exam, bookmark.part || "", bookmark.book || "", bookmark.exerciseId || "", bookmark.questionNumber || ""].join("|");
+  }
+
+  function normalizeBookmarks(value) {
+    if (!Array.isArray(value)) return [];
+    const seen = new Set();
+    return value.filter(item => {
+      const key = bookmarkKey(item);
+      if (!key || seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    }).slice(0, 200);
+  }
+
+  function bookmarkIsVisible(bookmark) {
+    return !["book", "exercise", "question"].includes(bookmark?.kind) || bookIsVisible(bookmark.book, bookmark.part);
+  }
+
+  function isBookmarked(bookmark) {
+    const key = bookmarkKey(bookmark);
+    return Boolean(key && state.bookmarks.some(item => bookmarkKey(item) === key));
+  }
+
+  function currentRouteBookmark() {
+    const route = state.route;
+    if (route.view === "parts") return { kind: "exam", exam: "ielts" };
+    if (route.view === "books") return { kind: "part", exam: "ielts", part: Number(route.part) };
+    if (route.view === "exercises") {
+      return { kind: "book", exam: "ielts", part: Number(route.part), book: Number(route.book) };
+    }
+    if (route.view === "exercise") {
+      const exercise = currentExercise();
+      if (!exercise) return null;
+      return {
+        kind: "exercise",
+        exam: "ielts",
+        part: Number(route.part),
+        book: Number(route.book),
+        exerciseId: exercise.id
+      };
+    }
+    return null;
+  }
+
+  function bookmarkTitle(bookmark) {
+    if (bookmark?.kind === "exam") return EXAMS.find(exam => exam.id === bookmark.exam)?.title || bookmark.exam;
+    if (bookmark?.kind === "part") return `IELTS 說話考試 · Part ${bookmark.part}`;
+    if (bookmark?.kind === "book") return `IELTS Part ${bookmark.part} · Book ${bookmark.book}`;
+    if (bookmark?.kind === "exercise") {
+      const exercise = speakingExercises(bookmark.part, bookmark.book).find(item => item.id === bookmark.exerciseId);
+      return exercise?.title || "Speaking exercise";
+    }
+    if (bookmark?.kind === "question") {
+      const exercise = speakingExercises(bookmark.part, bookmark.book).find(item => item.id === bookmark.exerciseId);
+      if (Number(bookmark.part) === 1) {
+        const question = exercise?.questions?.find(item => Number(item.number) === Number(bookmark.questionNumber));
+        return question?.questionEn || exercise?.title || "IELTS Speaking question";
+      }
+      return exercise?.title || "IELTS Speaking question";
+    }
+    return "Speaking 書簽";
+  }
+
+  function bookmarkSubtitle(bookmark) {
+    if (bookmark?.kind === "question") {
+      const exercise = speakingExercises(bookmark.part, bookmark.book).find(item => item.id === bookmark.exerciseId);
+      if (Number(bookmark.part) === 1) {
+        const question = exercise?.questions?.find(item => Number(item.number) === Number(bookmark.questionNumber));
+        return question?.questionZh || `IELTS Part 1 · Book ${bookmark.book} · Q${bookmark.questionNumber}`;
+      }
+      return exercise?.titleZh || `IELTS Part ${bookmark.part} · Book ${bookmark.book}`;
+    }
+    if (bookmark?.kind === "exercise") {
+      const exercise = speakingExercises(bookmark.part, bookmark.book).find(item => item.id === bookmark.exerciseId);
+      return exercise?.titleZh || `IELTS Part ${bookmark.part} · Book ${bookmark.book}`;
+    }
+    if (bookmark?.kind === "book") return "練習冊";
+    if (bookmark?.kind === "part") return "IELTS Speaking";
+    return "練習範疇";
+  }
+
+  function routeForBookmark(bookmark) {
+    if (!bookmarkIsVisible(bookmark)) return null;
+    if (bookmark?.kind === "exam" && bookmark.exam === "ielts") return { view: "parts", exam: "ielts" };
+    if (bookmark?.kind === "part") return { view: "books", exam: "ielts", part: Number(bookmark.part) };
+    if (bookmark?.kind === "book") {
+      return { view: "exercises", exam: "ielts", part: Number(bookmark.part), book: Number(bookmark.book) };
+    }
+    if (bookmark?.kind === "exercise") {
+      const exercise = speakingExercises(bookmark.part, bookmark.book).find(item => item.id === bookmark.exerciseId);
+      return exercise ? {
+        view: "exercise",
+        exam: "ielts",
+        part: Number(bookmark.part),
+        book: Number(bookmark.book),
+        exerciseIndex: exercise.index
+      } : null;
+    }
+    if (bookmark?.kind === "question") {
+      const exercise = speakingExercises(bookmark.part, bookmark.book).find(item => item.id === bookmark.exerciseId);
+      return exercise ? {
+        view: "exercise",
+        exam: "ielts",
+        part: Number(bookmark.part),
+        book: Number(bookmark.book),
+        exerciseIndex: exercise.index,
+        questionNumber: Number(bookmark.questionNumber)
+      } : null;
+    }
+    return null;
+  }
+
+  function bookmarkButtonHtml(bookmark, extraClass = "") {
+    if (state.user?.role === "admin" || !hasAccess(["bookmarks"])) return "";
+    const active = isBookmarked(bookmark);
+    const encoded = encodeURIComponent(JSON.stringify(bookmark));
+    return `
+      <button class="selection-bookmark-button${extraClass ? ` ${extraClass}` : ""}${active ? " active" : ""}" type="button"
+        data-bookmark="${escapeHtml(encoded)}" aria-pressed="${active}" aria-label="${active ? "移除書簽" : "加入書簽"}" title="${active ? "移除書簽" : "加入書簽"}">
+        <span aria-hidden="true">${active ? "★" : "☆"}</span>
+      </button>
+    `;
+  }
+
+  function bookmarkFromElement(element) {
+    try {
+      return JSON.parse(decodeURIComponent(element?.dataset?.bookmark || ""));
+    } catch {
+      return null;
+    }
+  }
+
+  function syncBookmarkButtons() {
+    document.querySelectorAll("[data-bookmark]").forEach(button => {
+      const active = isBookmarked(bookmarkFromElement(button));
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+      button.setAttribute("aria-label", active ? "移除書簽" : "加入書簽");
+      button.setAttribute("title", active ? "移除書簽" : "加入書簽");
+      const icon = button.querySelector("span");
+      if (icon) icon.textContent = active ? "★" : "☆";
+      button.disabled = state.bookmarksSaving;
+    });
+    syncHeaderBookmark();
+  }
+
+  function syncHeaderBookmark() {
+    const button = dom.headerBookmarkButton;
+    if (!button) return;
+    const bookmark = currentRouteBookmark();
+    const visible = state.user?.role === "student" && hasAccess(["bookmarks"]) && Boolean(bookmark);
+    button.hidden = !visible;
+    button.disabled = state.bookmarksSaving;
+    if (!visible) return;
+    const active = isBookmarked(bookmark);
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-pressed", String(active));
+    button.querySelector("span:first-child").textContent = active ? "★" : "☆";
+    const label = button.querySelector("[data-header-bookmark-label]");
+    if (label) label.textContent = active ? "已加入書簽" : "加入書簽";
+  }
+
+  async function loadBookmarks(options = {}) {
+    if (state.user?.role !== "student" || !hasAccess(["bookmarks"])) {
+      state.bookmarks = [];
+      state.bookmarksLoaded = true;
+      return;
+    }
+    try {
+      const payload = await apiJson(CONFIG.endpoints?.bookmarks || "/v1/bookmarks");
+      state.bookmarks = normalizeBookmarks(payload?.bookmarks);
+      state.bookmarksLoaded = true;
+      syncBookmarkButtons();
+    } catch (error) {
+      if (options.quiet) {
+        state.bookmarks = [];
+        state.bookmarksLoaded = false;
+        return;
+      }
+      toast(String(error?.message || "未能載入書簽。"), "error");
+      throw error;
+    }
+  }
+
+  async function toggleBookmark(bookmark) {
+    if (!bookmark || state.user?.role !== "student" || state.bookmarksSaving || !hasAccess(["bookmarks"])) return;
+    if (!state.bookmarksLoaded) {
+      state.bookmarksSaving = true;
+      syncBookmarkButtons();
+      try {
+        await loadBookmarks();
+      } catch {
+        return;
+      } finally {
+        state.bookmarksSaving = false;
+        syncBookmarkButtons();
+      }
+    }
+    const previous = [...state.bookmarks];
+    const key = bookmarkKey(bookmark);
+    state.bookmarks = isBookmarked(bookmark)
+      ? state.bookmarks.filter(item => bookmarkKey(item) !== key)
+      : [...state.bookmarks, bookmark];
+    state.bookmarksSaving = true;
+    syncBookmarkButtons();
+    try {
+      const payload = await apiJson(CONFIG.endpoints?.bookmarks || "/v1/bookmarks", {
+        method: "PUT",
+        body: JSON.stringify({ bookmarks: state.bookmarks })
+      });
+      state.bookmarks = normalizeBookmarks(payload?.bookmarks);
+      if (state.route.view === "bookmarks") renderBookmarks();
+      toast(isBookmarked(bookmark) ? "已加入書簽。" : "已移除書簽。", "info");
+    } catch (error) {
+      state.bookmarks = previous;
+      toast(String(error?.message || "未能儲存書簽。"), "error");
+    } finally {
+      state.bookmarksSaving = false;
+      syncBookmarkButtons();
+    }
+  }
+
+  function renderSpeakingSearchResults(query = "") {
+    const list = document.querySelector("[data-speaking-search-results]");
+    if (!list) return;
+    const tokens = searchTokens(query);
+    if (!tokens.length) {
+      list.innerHTML = "";
+      return;
+    }
+    const sections = EXAMS
+      .filter(exam => examAvailable(exam.id) && hasAccess([EXAM_ACCESS_KEYS[exam.id]]))
+      .filter(exam => searchMatches(`${exam.title} ${exam.description} ${exam.id}`, tokens))
+      .slice(0, SEARCH_RESULT_LIMITS.sections);
+    const exercises = allSpeakingExercises()
+      .filter(exercise => routeAllowed({ view: "exercise", exam: "ielts", part: exercise.part, book: exercise.book }))
+      .filter(exercise => !exercise.unavailable)
+      .filter(exercise => {
+        const part3Text = (exercise.responseModels || []).flatMap(model => (
+          model.steps.flatMap(step => [step.labelEn, step.labelZh, step.textEn, step.textZh])
+        )).join(" ");
+        const part2Text = (exercise.responses || []).flatMap(response => (
+          [response.headingEn, response.headingZh, response.textEn, response.textZh]
+        )).join(" ");
+        const part1Text = (exercise.questions || []).flatMap(question => (
+          [question.questionEn, question.questionZh, question.answerEn, question.answerZh]
+        )).join(" ");
+        return searchMatches(`${exercise.title} ${exercise.titleZh} ${exercise.cueText} ${exercise.themeTitle || ""} ${part1Text} ${part3Text} ${part2Text} IELTS Part ${exercise.part} Book ${exercise.book}`, tokens);
+      })
+      .slice(0, SEARCH_RESULT_LIMITS.exercises);
+    if (!sections.length && !exercises.length) {
+      list.innerHTML = '<p class="search-empty">找不到已開放練習內的相關範疇或題目。</p>';
+      return;
+    }
+    list.innerHTML = `
+      ${sections.length ? `<div class="search-section-label">練習範疇</div>${sections.map(exam => `
+        <button class="speaking-search-result" type="button" data-search-exam="${escapeHtml(exam.id)}">
+          <span><strong>${escapeHtml(exam.title)}</strong><small>${escapeHtml(exam.description)}</small></span><em>進入</em>
+        </button>`).join("")}` : ""}
+      ${exercises.length ? `<div class="search-section-label">題目</div>${exercises.map(exercise => `
+        <button class="speaking-search-result" type="button" data-search-exercise="${exercise.index}" data-search-part="${exercise.part}" data-search-book="${exercise.book}">
+          <span><strong>${escapeHtml(exercise.title)}</strong><small>${escapeHtml(exercise.titleZh ? `${exercise.titleZh} · IELTS Part ${exercise.part} · Book ${exercise.book}` : `IELTS Part ${exercise.part} · Book ${exercise.book}`)}</small></span><em>練習</em>
+        </button>`).join("")}` : ""}
+    `;
+  }
+
+  function speakingProgressDayKey(value) {
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return "";
+    return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
+  }
+
+  function speakingProgressRangeStart(range, attempts, now = new Date()) {
+    const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const addDays = (date, days) => {
+      const copy = new Date(date);
+      copy.setDate(copy.getDate() + days);
+      return copy;
+    };
+    if (range === "week") return addDays(end, -6);
+    if (range === "month") return addDays(end, -29);
+    if (range === "half-year") return addDays(end, -181);
+    if (range === "ytd") return new Date(end.getFullYear(), 0, 1);
+    if (range === "year") return addDays(end, -364);
+    if (range === "all") {
+      const times = attempts
+        .map(attempt => new Date(attempt.createdAt).getTime())
+        .filter(time => Number.isFinite(time) && time > 0 && time <= end.getTime() + 86_399_999);
+      if (times.length) {
+        const first = new Date(Math.min(...times));
+        return new Date(first.getFullYear(), first.getMonth(), first.getDate());
+      }
+    }
+    return addDays(end, -29);
+  }
+
+  function buildSpeakingProgressSeries(attempts, range = state.progressRange, now = new Date()) {
+    const validAttempts = (Array.isArray(attempts) ? attempts : [])
+      .map(attempt => ({ ...attempt, progressDate: new Date(attempt.createdAt) }))
+      .filter(attempt => !Number.isNaN(attempt.progressDate.getTime()));
+    const start = speakingProgressRangeStart(range, validAttempts, now);
+    const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const buckets = new Map();
+    let cumulativeBeforeStart = 0;
+    let allTime = 0;
+
+    validAttempts.forEach(attempt => {
+      const date = attempt.progressDate;
+      const day = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+      if (day > end) return;
+      allTime += 1;
+      if (day < start) {
+        cumulativeBeforeStart += 1;
+        return;
+      }
+      const key = speakingProgressDayKey(day);
+      buckets.set(key, (buckets.get(key) || 0) + 1);
+    });
+
+    const points = [];
+    let cumulative = cumulativeBeforeStart;
+    for (let cursor = new Date(start); cursor <= end; cursor.setDate(cursor.getDate() + 1)) {
+      const date = new Date(cursor);
+      const key = speakingProgressDayKey(date);
+      const daily = buckets.get(key) || 0;
+      cumulative += daily;
+      points.push({ date, key, daily, cumulative });
+    }
+    return {
+      points,
+      allTime,
+      visibleTotal: points.reduce((sum, point) => sum + point.daily, 0),
+      cumulativeBeforeStart
+    };
+  }
+
+  function speakingProgressNiceMaximum(value) {
+    const maximum = Math.max(5, Number(value || 0));
+    const magnitude = 10 ** Math.floor(Math.log10(maximum));
+    const normalized = maximum / magnitude;
+    const nice = normalized <= 1 ? 1 : normalized <= 2 ? 2 : normalized <= 5 ? 5 : 10;
+    return Math.max(5, nice * magnitude);
+  }
+
+  function speakingProgressPolyline(points, key, dimensions, yMax) {
+    const { width, height, left, right, top, bottom } = dimensions;
+    const chartWidth = width - left - right;
+    const chartHeight = height - top - bottom;
+    const denominator = Math.max(points.length - 1, 1);
+    return points.map((point, index) => {
+      const x = left + (chartWidth * index / denominator);
+      const y = top + chartHeight - (chartHeight * Number(point[key] || 0) / yMax);
+      return `${x.toFixed(2)},${y.toFixed(2)}`;
+    }).join(" ");
+  }
+
+  function speakingProgressDateLabel(date) {
+    return date.toLocaleDateString("en-HK", { month: "short", day: "numeric" });
+  }
+
+  function speakingProgressChartSvg(series) {
+    const width = 900;
+    const height = 340;
+    const dimensions = { width, height, left: 60, right: 28, top: 28, bottom: 54 };
+    const { left, right, top, bottom } = dimensions;
+    const points = series.points;
+    const chartWidth = width - left - right;
+    const chartHeight = height - top - bottom;
+    const maximum = Math.max(0, ...points.flatMap(point => (
+      state.progressShowCumulative ? [point.daily, point.cumulative] : [point.daily]
+    )));
+    const yMax = speakingProgressNiceMaximum(maximum);
+    const yFor = value => top + chartHeight - (chartHeight * Number(value || 0) / yMax);
+    const yLabels = [...new Set([0, Math.round(yMax / 2), yMax])];
+    const xLabels = points.length
+      ? [points[0], points[Math.floor((points.length - 1) / 2)], points[points.length - 1]]
+      : [];
+    const gridLines = yLabels.map(value => `
+      <line x1="${left}" y1="${yFor(value).toFixed(2)}" x2="${width - right}" y2="${yFor(value).toFixed(2)}" stroke="rgba(15, 143, 143, 0.15)" stroke-width="1" />
+      <text x="${left - 12}" y="${(yFor(value) + 4).toFixed(2)}" text-anchor="end" fill="#627085" font-size="13" font-weight="800">${value}</text>
+    `).join("");
+    const axisLabels = xLabels.map((point, index) => {
+      const x = left + (chartWidth * index / Math.max(xLabels.length - 1, 1));
+      return `<text x="${x.toFixed(2)}" y="${height - 18}" text-anchor="middle" fill="#627085" font-size="13" font-weight="800">${speakingProgressDateLabel(point.date)}</text>`;
+    }).join("");
+    const denominator = Math.max(points.length - 1, 1);
+    const hoverPoints = points.map((point, index) => {
+      if (!point.daily) return "";
+      const x = left + (chartWidth * index / denominator);
+      const y = yFor(point.daily);
+      const boxX = Math.min(Math.max(x - 62, left), width - right - 124);
+      const boxHeight = state.progressShowCumulative ? 52 : 38;
+      const boxY = Math.min(height - bottom - boxHeight - 4, Math.max(top + 4, y - boxHeight - 10));
+      const cumulativeDescription = state.progressShowCumulative
+        ? `，累積錄音 ${Number(point.cumulative || 0)}`
+        : "";
+      return `
+        <g class="speaking-chart-hover" tabindex="0" role="button" data-speaking-progress-day="${escapeHtml(point.key)}" aria-label="${escapeHtml(point.key)} 當日錄音 ${Number(point.daily || 0)}${escapeHtml(cumulativeDescription)}">
+          <circle class="speaking-chart-target" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="22" />
+          <circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="4" fill="#0f8f8f" />
+          <g class="speaking-chart-tooltip">
+            <line x1="${x.toFixed(2)}" y1="${top}" x2="${x.toFixed(2)}" y2="${height - bottom}" stroke="rgba(21, 43, 56, 0.22)" stroke-width="1" stroke-dasharray="4 5" />
+            <rect x="${boxX.toFixed(2)}" y="${boxY.toFixed(2)}" width="124" height="${boxHeight}" rx="9" fill="#153347" opacity="0.94" />
+            <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 16).toFixed(2)}" fill="#fff" font-size="11" font-weight="800">當日錄音：${Number(point.daily || 0)}</text>
+            ${state.progressShowCumulative ? `<text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 30).toFixed(2)}" fill="#eadcff" font-size="10" font-weight="800">累積錄音：${Number(point.cumulative || 0)}</text>` : ""}
+            <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + (state.progressShowCumulative ? 44 : 30)).toFixed(2)}" fill="#cfe8e8" font-size="10" font-weight="700">${escapeHtml(point.key)}</text>
+          </g>
+        </g>`;
+    }).join("");
+    const lastPoint = points[points.length - 1] || { daily: 0, cumulative: 0 };
+    const lastX = left + chartWidth;
+    return `
+      <svg viewBox="0 0 ${width} ${height}" role="group" aria-label="每日 Speaking 錄音進度圖；有錄音的日期可按 Enter 或空白鍵查看詳情">
+        <rect width="${width}" height="${height}" fill="rgba(255,255,255,0.66)" />
+        ${gridLines}
+        <line x1="${left}" y1="${top}" x2="${left}" y2="${height - bottom}" stroke="rgba(21,43,56,0.16)" stroke-width="1.4" />
+        <line x1="${left}" y1="${height - bottom}" x2="${width - right}" y2="${height - bottom}" stroke="rgba(21,43,56,0.16)" stroke-width="1.4" />
+        <polyline points="${speakingProgressPolyline(points, "daily", dimensions, yMax)}" fill="none" stroke="#0f8f8f" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        ${state.progressShowCumulative ? `<polyline points="${speakingProgressPolyline(points, "cumulative", dimensions, yMax)}" fill="none" stroke="#7e22ce" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />` : ""}
+        <circle cx="${lastX}" cy="${yFor(lastPoint.daily).toFixed(2)}" r="5" fill="#0f8f8f" />
+        ${state.progressShowCumulative ? `<circle cx="${lastX}" cy="${yFor(lastPoint.cumulative).toFixed(2)}" r="5" fill="#7e22ce" />` : ""}
+        ${hoverPoints}
+        ${axisLabels}
+        <text x="${left}" y="19" fill="#064b65" font-size="13" font-weight="900">錄音數量</text>
+        ${series.allTime ? "" : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" fill="#71828d" font-size="20" font-weight="900">暫時未有錄音紀錄</text>`}
+      </svg>`;
+  }
+
+  function buildSpeakingDurationSeries(attempts, range = state.durationProgressRange, now = new Date()) {
+    const validAttempts = (Array.isArray(attempts) ? attempts : [])
+      .map(attempt => ({
+        ...attempt,
+        progressDate: new Date(attempt.createdAt),
+        progressDurationMs: Math.max(0, Number.isFinite(Number(attempt.durationMs)) ? Number(attempt.durationMs) : 0)
+      }))
+      .filter(attempt => !Number.isNaN(attempt.progressDate.getTime()));
+    const start = speakingProgressRangeStart(range, validAttempts, now);
+    const end = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const buckets = new Map();
+    let cumulativeBeforeStartMs = 0;
+    let allTimeMs = 0;
+
+    validAttempts.forEach(attempt => {
+      const date = attempt.progressDate;
+      const day = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+      if (day > end) return;
+      allTimeMs += attempt.progressDurationMs;
+      if (day < start) {
+        cumulativeBeforeStartMs += attempt.progressDurationMs;
+        return;
+      }
+      const key = speakingProgressDayKey(day);
+      buckets.set(key, (buckets.get(key) || 0) + attempt.progressDurationMs);
+    });
+
+    const points = [];
+    let cumulativeMs = cumulativeBeforeStartMs;
+    for (let cursor = new Date(start); cursor <= end; cursor.setDate(cursor.getDate() + 1)) {
+      const date = new Date(cursor);
+      const key = speakingProgressDayKey(date);
+      const dailyMs = buckets.get(key) || 0;
+      cumulativeMs += dailyMs;
+      points.push({
+        date,
+        key,
+        dailyMs,
+        cumulativeMs,
+        dailySeconds: dailyMs / 1000,
+        cumulativeSeconds: cumulativeMs / 1000
+      });
+    }
+    return {
+      points,
+      allTimeMs,
+      visibleTotalMs: points.reduce((sum, point) => sum + point.dailyMs, 0),
+      cumulativeBeforeStartMs
+    };
+  }
+
+  function formatSpeakingProgressDuration(milliseconds) {
+    const totalSeconds = Math.max(0, Math.round(Number(milliseconds || 0) / 1000));
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const seconds = totalSeconds % 60;
+    if (hours) return `${hours}小時 ${pad(minutes)}分 ${pad(seconds)}秒`;
+    if (minutes) return `${minutes}分 ${pad(seconds)}秒`;
+    return `${seconds}秒`;
+  }
+
+  function speakingDurationAxisLabel(seconds) {
+    const value = Math.max(0, Number(seconds || 0));
+    if (value >= 3600 && value % 3600 === 0) return `${value / 3600}小時`;
+    if (value >= 60) return `${Math.round(value / 60)}分`;
+    return `${Math.round(value)}秒`;
+  }
+
+  function speakingDurationChartSvg(series) {
+    const width = 900;
+    const height = 340;
+    const dimensions = { width, height, left: 72, right: 28, top: 28, bottom: 54 };
+    const { left, right, top, bottom } = dimensions;
+    const points = series.points;
+    const chartWidth = width - left - right;
+    const chartHeight = height - top - bottom;
+    const maximum = Math.max(0, ...points.flatMap(point => (
+      state.durationProgressShowCumulative
+        ? [point.dailySeconds, point.cumulativeSeconds]
+        : [point.dailySeconds]
+    )));
+    const yMax = speakingProgressNiceMaximum(maximum);
+    const yFor = value => top + chartHeight - (chartHeight * Number(value || 0) / yMax);
+    const yLabels = [...new Set([0, Math.round(yMax / 2), yMax])];
+    const xLabels = points.length
+      ? [points[0], points[Math.floor((points.length - 1) / 2)], points[points.length - 1]]
+      : [];
+    const gridLines = yLabels.map(value => `
+      <line x1="${left}" y1="${yFor(value).toFixed(2)}" x2="${width - right}" y2="${yFor(value).toFixed(2)}" stroke="rgba(249, 115, 22, 0.18)" stroke-width="1" />
+      <text x="${left - 12}" y="${(yFor(value) + 4).toFixed(2)}" text-anchor="end" fill="#627085" font-size="12" font-weight="800">${speakingDurationAxisLabel(value)}</text>
+    `).join("");
+    const axisLabels = xLabels.map((point, index) => {
+      const x = left + (chartWidth * index / Math.max(xLabels.length - 1, 1));
+      return `<text x="${x.toFixed(2)}" y="${height - 18}" text-anchor="middle" fill="#627085" font-size="13" font-weight="800">${speakingProgressDateLabel(point.date)}</text>`;
+    }).join("");
+    const denominator = Math.max(points.length - 1, 1);
+    const hoverPoints = points.map((point, index) => {
+      if (!point.dailyMs) return "";
+      const x = left + (chartWidth * index / denominator);
+      const y = yFor(point.dailySeconds);
+      const boxWidth = 174;
+      const boxHeight = state.durationProgressShowCumulative ? 66 : 52;
+      const boxX = Math.min(Math.max(x - boxWidth / 2, left), width - right - boxWidth);
+      const boxY = Math.min(height - bottom - boxHeight - 4, Math.max(top + 4, y - boxHeight - 10));
+      const cumulativeDescription = state.durationProgressShowCumulative
+        ? `，累積 ${formatSpeakingProgressDuration(point.cumulativeMs)}`
+        : "";
+      return `
+        <g class="speaking-chart-hover" tabindex="0" role="button" data-speaking-duration-day="${escapeHtml(point.key)}" aria-label="${escapeHtml(point.key)} 當日錄音時間 ${escapeHtml(formatSpeakingProgressDuration(point.dailyMs))}${escapeHtml(cumulativeDescription)}">
+          <circle class="speaking-chart-target" cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="22" />
+          <circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="4" fill="#f97316" />
+          <g class="speaking-chart-tooltip">
+            <line x1="${x.toFixed(2)}" y1="${top}" x2="${x.toFixed(2)}" y2="${height - bottom}" stroke="rgba(21, 43, 56, 0.22)" stroke-width="1" stroke-dasharray="4 5" />
+            <rect x="${boxX.toFixed(2)}" y="${boxY.toFixed(2)}" width="${boxWidth}" height="${boxHeight}" rx="9" fill="#153347" opacity="0.94" />
+            <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 17).toFixed(2)}" fill="#fff" font-size="11" font-weight="800">當日：${escapeHtml(formatSpeakingProgressDuration(point.dailyMs))}</text>
+            ${state.durationProgressShowCumulative ? `<text x="${(boxX + 10).toFixed(2)}" y="${(boxY + 32).toFixed(2)}" fill="#eadcff" font-size="10" font-weight="800">累積：${escapeHtml(formatSpeakingProgressDuration(point.cumulativeMs))}</text>` : ""}
+            <text x="${(boxX + 10).toFixed(2)}" y="${(boxY + (state.durationProgressShowCumulative ? 50 : 35)).toFixed(2)}" fill="#cfe8e8" font-size="10" font-weight="700">${escapeHtml(point.key)}</text>
+          </g>
+        </g>`;
+    }).join("");
+    const lastPoint = points[points.length - 1] || { dailySeconds: 0, cumulativeSeconds: 0 };
+    const lastX = left + chartWidth;
+    return `
+      <svg viewBox="0 0 ${width} ${height}" role="group" aria-label="每日 Speaking 錄音總時間圖；有錄音的日期可按 Enter 或空白鍵查看詳情">
+        <rect width="${width}" height="${height}" fill="rgba(255,255,255,0.66)" />
+        ${gridLines}
+        <line x1="${left}" y1="${top}" x2="${left}" y2="${height - bottom}" stroke="rgba(21,43,56,0.16)" stroke-width="1.4" />
+        <line x1="${left}" y1="${height - bottom}" x2="${width - right}" y2="${height - bottom}" stroke="rgba(21,43,56,0.16)" stroke-width="1.4" />
+        <polyline points="${speakingProgressPolyline(points, "dailySeconds", dimensions, yMax)}" fill="none" stroke="#f97316" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+        ${state.durationProgressShowCumulative ? `<polyline points="${speakingProgressPolyline(points, "cumulativeSeconds", dimensions, yMax)}" fill="none" stroke="#7e22ce" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />` : ""}
+        <circle cx="${lastX}" cy="${yFor(lastPoint.dailySeconds).toFixed(2)}" r="5" fill="#f97316" />
+        ${state.durationProgressShowCumulative ? `<circle cx="${lastX}" cy="${yFor(lastPoint.cumulativeSeconds).toFixed(2)}" r="5" fill="#7e22ce" />` : ""}
+        ${hoverPoints}
+        ${axisLabels}
+        <text x="${left}" y="19" fill="#7c2d12" font-size="13" font-weight="900">錄音時間</text>
+        ${series.allTimeMs ? "" : `<text x="${width / 2}" y="${height / 2}" text-anchor="middle" fill="#71828d" font-size="20" font-weight="900">暫時未有錄音時間紀錄</text>`}
+      </svg>`;
+  }
+
+  function speakingProgressDayAttempts(dayKey) {
+    return state.progressAttempts
+      .filter(attempt => speakingProgressDayKey(attempt.createdAt) === dayKey)
+      .sort((left, right) => new Date(right.createdAt || 0) - new Date(left.createdAt || 0));
+  }
+
+  function speakingProgressDayPanel() {
+    if (!state.progressSelectedDay) return "";
+    const attempts = speakingProgressDayAttempts(state.progressSelectedDay);
+    return `
+      <section class="speaking-progress-day-panel">
+        <div class="speaking-progress-day-head">
+          <div><h3>${escapeHtml(state.progressSelectedDay)} · ${attempts.length} 段錄音</h3><p>按日期查看已成功儲存到「我的錄音」的內容。</p></div>
+          <div class="speaking-progress-day-actions">
+            <button class="secondary-button" type="button" data-close-speaking-progress-day>關閉</button>
+            <button class="primary-button" type="button" data-go="attempts">${state.user?.role === "admin" ? "查看所有錄音" : "查看我的錄音"}</button>
+          </div>
+        </div>
+        ${attempts.length ? `<div class="speaking-progress-day-list">${attempts.map(attempt => `
+          <div class="speaking-progress-day-row">
+            <strong>${state.user?.role === "admin" && attempt.studentName ? `${escapeHtml(attempt.studentName)} · ` : ""}${escapeHtml(attempt.exerciseTitle || "Speaking attempt")}</strong>
+            <span>${escapeHtml(formatDate(attempt.createdAt))}</span>
+            <span>${escapeHtml(attempt.durationMs ? formatDuration(attempt.durationMs) : "未提供長度")}</span>
+          </div>`).join("")}</div>` : '<p class="speaking-progress-empty">這一天沒有可列出的錄音。</p>'}
+      </section>`;
+  }
+
+  function speakingDurationDayPanel() {
+    if (!state.durationProgressSelectedDay) return "";
+    const attempts = speakingProgressDayAttempts(state.durationProgressSelectedDay);
+    const totalMs = attempts.reduce((sum, attempt) => {
+      const durationMs = Number(attempt.durationMs);
+      return sum + (Number.isFinite(durationMs) ? Math.max(0, durationMs) : 0);
+    }, 0);
+    return `
+      <section class="speaking-progress-day-panel">
+        <div class="speaking-progress-day-head">
+          <div><h3>${escapeHtml(state.durationProgressSelectedDay)} · ${escapeHtml(formatSpeakingProgressDuration(totalMs))}</h3><p>${attempts.length} 段已成功儲存的錄音。</p></div>
+          <div class="speaking-progress-day-actions">
+            <button class="secondary-button" type="button" data-close-speaking-duration-day>關閉</button>
+            <button class="primary-button" type="button" data-go="attempts">${state.user?.role === "admin" ? "查看所有錄音" : "查看我的錄音"}</button>
+          </div>
+        </div>
+        ${attempts.length ? `<div class="speaking-progress-day-list">${attempts.map(attempt => `
+          <div class="speaking-progress-day-row">
+            <strong>${state.user?.role === "admin" && attempt.studentName ? `${escapeHtml(attempt.studentName)} · ` : ""}${escapeHtml(attempt.exerciseTitle || "Speaking attempt")}</strong>
+            <span>${escapeHtml(formatDate(attempt.createdAt))}</span>
+            <span>${escapeHtml(formatSpeakingProgressDuration(attempt.durationMs))}</span>
+          </div>`).join("")}</div>` : '<p class="speaking-progress-empty">這一天沒有可列出的錄音。</p>'}
+      </section>`;
+  }
+
+  function speakingProgressDashboardMarkup() {
+    const series = buildSpeakingProgressSeries(state.progressAttempts, state.progressRange);
+    const adminDashboard = state.user?.role === "admin";
+    const chart = state.progressLoading && !state.progressAttempts.length
+      ? '<div class="speaking-progress-loading" role="status"><span class="spinner" aria-hidden="true"></span><span>正在同步「我的錄音」…</span></div>'
+      : state.progressError && !state.progressAttempts.length
+        ? `<div class="speaking-progress-loading"><strong>未能載入錄音進度</strong><span>${escapeHtml(state.progressError)}</span><button class="secondary-button" type="button" data-retry-speaking-progress>重新載入</button></div>`
+        : speakingProgressChartSvg(series);
+    const staleNotice = state.progressError && state.progressAttempts.length
+      ? `<div class="speaking-progress-stale" role="status"><span>暫時未能更新；現正顯示上次成功載入的錄音資料。</span><button class="secondary-button" type="button" data-retry-speaking-progress>重新載入</button></div>`
+      : "";
+    return `
+      <div class="speaking-progress-toolbar">
+        <div><span class="mini-kicker">${adminDashboard ? "ALL STUDENTS · SPEAKING PROGRESS" : "MY SPEAKING PROGRESS"}</span><h2>${adminDashboard ? "所有學生錄音進展" : "我的錄音進展"}</h2><p>只計算已成功儲存、仍然保留在${adminDashboard ? "錄音庫" : "「我的錄音」"}的錄音。</p></div>
+        <div class="speaking-progress-controls" aria-label="錄音進度日期範圍">
+          ${[
+            ["week", "Week"], ["month", "Month"], ["half-year", "Half a Year"],
+            ["ytd", "Year to Date"], ["year", "1 Year"], ["all", "All Time"]
+          ].map(([value, label]) => `<button class="speaking-progress-tab${state.progressRange === value ? " active" : ""}" type="button" data-speaking-progress-range="${value}" aria-pressed="${state.progressRange === value}">${label}</button>`).join("")}
+          <button class="speaking-progress-tab cumulative${state.progressShowCumulative ? " active" : ""}" type="button" data-toggle-speaking-cumulative aria-pressed="${state.progressShowCumulative}">${state.progressShowCumulative ? "隱藏累積線" : "顯示累積線"}</button>
+        </div>
+      </div>
+      ${staleNotice}
+      <div class="speaking-progress-chart-shell" data-speaking-progress-chart>${chart}</div>
+      <div class="speaking-progress-legend">
+        <span><i class="speaking-legend-dot daily"></i>每日錄音</span>
+        ${state.progressShowCumulative ? '<span><i class="speaking-legend-dot cumulative"></i>累積錄音（全部時間）</span>' : ""}
+      </div>
+      <div class="speaking-progress-stats">
+        <div><strong>${series.visibleTotal}</strong><span>所選期間錄音</span></div>
+        <div><strong>${series.allTime}</strong><span>全部時間錄音</span></div>
+      </div>
+      ${speakingProgressDayPanel()}`;
+  }
+
+  function renderSpeakingProgressDashboard() {
+    const dashboard = document.querySelector("[data-speaking-progress-dashboard]");
+    if (!dashboard || state.route.view !== "exams") return;
+    dashboard.innerHTML = speakingProgressDashboardMarkup();
+  }
+
+  function speakingDurationDashboardMarkup() {
+    const series = buildSpeakingDurationSeries(state.progressAttempts, state.durationProgressRange);
+    const adminDashboard = state.user?.role === "admin";
+    const chart = state.progressLoading && !state.progressAttempts.length
+      ? '<div class="speaking-progress-loading" role="status"><span class="spinner" aria-hidden="true"></span><span>正在同步錄音時間…</span></div>'
+      : state.progressError && !state.progressAttempts.length
+        ? `<div class="speaking-progress-loading"><strong>未能載入錄音時間</strong><span>${escapeHtml(state.progressError)}</span><button class="secondary-button" type="button" data-retry-speaking-progress>重新載入</button></div>`
+        : speakingDurationChartSvg(series);
+    const staleNotice = state.progressError && state.progressAttempts.length
+      ? `<div class="speaking-progress-stale" role="status"><span>暫時未能更新；現正顯示上次成功載入的錄音時間。</span><button class="secondary-button" type="button" data-retry-speaking-progress>重新載入</button></div>`
+      : "";
+    return `
+      <div class="speaking-progress-toolbar">
+        <div><span class="mini-kicker">${adminDashboard ? "ALL STUDENTS · RECORDING TIME" : "MY RECORDING TIME"}</span><h2>${adminDashboard ? "所有學生錄音時間" : "我的錄音時間"}</h2><p>按日期計算已成功儲存錄音的總長度。</p></div>
+        <div class="speaking-progress-controls" aria-label="錄音時間日期範圍">
+          ${[
+            ["week", "Week"], ["month", "Month"], ["half-year", "Half a Year"],
+            ["ytd", "Year to Date"], ["year", "1 Year"], ["all", "All Time"]
+          ].map(([value, label]) => `<button class="speaking-progress-tab${state.durationProgressRange === value ? " active" : ""}" type="button" data-speaking-duration-range="${value}" aria-pressed="${state.durationProgressRange === value}">${label}</button>`).join("")}
+          <button class="speaking-progress-tab cumulative${state.durationProgressShowCumulative ? " active" : ""}" type="button" data-toggle-speaking-duration-cumulative aria-pressed="${state.durationProgressShowCumulative}">${state.durationProgressShowCumulative ? "隱藏累積時間線" : "顯示累積時間線"}</button>
+        </div>
+      </div>
+      ${staleNotice}
+      <div class="speaking-progress-chart-shell" data-speaking-duration-chart>${chart}</div>
+      <div class="speaking-progress-legend">
+        <span><i class="speaking-legend-dot duration"></i>每日錄音時間</span>
+        ${state.durationProgressShowCumulative ? '<span><i class="speaking-legend-dot cumulative"></i>累積錄音時間（全部時間）</span>' : ""}
+      </div>
+      <div class="speaking-progress-stats">
+        <div><strong>${escapeHtml(formatSpeakingProgressDuration(series.visibleTotalMs))}</strong><span>所選期間錄音時間</span></div>
+        <div><strong>${escapeHtml(formatSpeakingProgressDuration(series.allTimeMs))}</strong><span>全部錄音時間</span></div>
+      </div>
+      ${speakingDurationDayPanel()}`;
+  }
+
+  function renderSpeakingDurationDashboard() {
+    const dashboard = document.querySelector("[data-speaking-duration-dashboard]");
+    if (!dashboard || state.route.view !== "exams") return;
+    dashboard.innerHTML = speakingDurationDashboardMarkup();
+  }
+
+  async function loadSpeakingProgressDashboard() {
+    if (!state.user || state.route.view !== "exams" || state.progressLoading) return;
+    state.progressController?.abort();
+    const controller = new AbortController();
+    state.progressController = controller;
+    const requestGeneration = ++state.progressRequestGeneration;
+    const authGeneration = state.authGeneration;
+    const owner = speakingProgressOwner();
+    state.progressLoading = true;
+    state.progressError = "";
+    renderSpeakingProgressDashboard();
+    renderSpeakingDurationDashboard();
+    try {
+      const result = await listAttempts({ signal: controller.signal });
+      if (
+        controller.signal.aborted
+        || requestGeneration !== state.progressRequestGeneration
+        || authGeneration !== state.authGeneration
+        || owner !== speakingProgressOwner()
+        || state.route.view !== "exams"
+      ) return;
+      state.progressAttempts = result.attempts.filter(attempt => Boolean(speakingProgressDayKey(attempt.createdAt)));
+    } catch (error) {
+      if (isAbortError(error) || requestGeneration !== state.progressRequestGeneration) return;
+      state.progressError = String(error?.message || "請檢查網絡後再試。");
+    } finally {
+      if (requestGeneration === state.progressRequestGeneration && owner === speakingProgressOwner()) {
+        state.progressLoading = false;
+        state.progressController = null;
+        renderSpeakingProgressDashboard();
+        renderSpeakingDurationDashboard();
+      }
+    }
+  }
+
+  function renderExams() {
+    hydrateSpeakingProgressPreferences();
+    const chip = state.user?.role === "admin"
+      ? `Admin · ${state.user.name}`
+      : `Welcome, ${state.user?.name || "Student"}`;
+    dom.content.innerHTML = `
+      <section class="content-panel">
+        ${sectionHeader("選擇練習範疇", "先選擇你想訓練的考試或說話情境。", chip)}
+        <div class="portal-search-area">
+          <form class="portal-search" data-speaking-search-form>
+            <label for="speaking-search-input">搜尋練習 / 題目</label>
+            <input id="speaking-search-input" type="search" data-speaking-search-input placeholder="輸入字眼，即可搜尋已開放練習">
+          </form>
+          <div class="speaking-search-results" data-speaking-search-results></div>
+        </div>
+        <div class="choice-grid">
+          ${[...EXAMS, {id:"freestyle",title:"Freestyle Speaking",description:"自由英語會話 · 日常話題、示範回答與完整練習模式"}].map((exam, index) => {
+            const available = examAvailable(exam.id);
+            const allowed = hasAccess([EXAM_ACCESS_KEYS[exam.id]]);
+            const bookmark = { kind: "exam", exam: exam.id === "freestyle" ? "ielts" : exam.id };
+            return `
+              <div class="selection-card-wrap choice-card-wrap">
+                <button class="choice-card${available ? "" : " coming-soon"}${allowed ? "" : " access-locked"}" type="button" data-exam="${escapeHtml(exam.id)}" ${allowed ? "" : 'aria-disabled="true"'}>
+                  <span class="card-number">0${exam.id === "freestyle" ? 7 : index + 1} · SPEAKING</span>
+                  <strong>${escapeHtml(exam.title)}</strong>
+                  <small>${escapeHtml(exam.description)}</small>
+                  ${allowed ? "" : '<span class="availability">尚未開放</span>'}
+                </button>
+                ${allowed ? bookmarkButtonHtml(bookmark) : ""}
+              </div>`;
+          }).join("")}
+          ${hasAccess(["bookmarks"]) && state.user?.role === "student" ? `
+            <div class="selection-card-wrap choice-card-wrap">
+              <button class="choice-card bookmarks-choice-card" type="button" data-go="bookmarks">
+                <span class="card-number">06 · SPEAKING</span>
+                <strong>書簽</strong>
+                <small>已收藏的練習範疇、練習冊及題目</small>
+              </button>
+            </div>` : ""}
+        </div>
+        <section class="speaking-progress-dashboard" data-speaking-progress-dashboard aria-label="${state.user?.role === "admin" ? "所有學生錄音進展" : "我的錄音進展"}"></section>
+        <section class="speaking-progress-dashboard speaking-duration-dashboard" data-speaking-duration-dashboard aria-label="${state.user?.role === "admin" ? "所有學生錄音時間" : "我的錄音時間"}"></section>
+      </section>
+    `;
+    renderSpeakingSearchResults("");
+    renderSpeakingProgressDashboard();
+    renderSpeakingDurationDashboard();
+    loadSpeakingProgressDashboard();
+  }
+
+  function renderParts() {
+    dom.content.innerHTML = `
+      <section class="content-panel">
+        ${sectionHeader("IELTS 說話考試")}
+        <div class="choice-grid parts-grid">
+          ${[1, 2, 3].map(part => {
+            const allowed = hasAccess(["exam.ielts", `ielts.part.${part}`]);
+            const bookmark = { kind: "part", exam: "ielts", part };
+            return `
+              <div class="selection-card-wrap choice-card-wrap">
+                <button class="choice-card${allowed ? "" : " access-locked"}" type="button" data-part="${part}" ${allowed ? "" : 'aria-disabled="true"'}>
+                  <span class="card-number">IELTS SPEAKING</span>
+                  <strong>Part ${part}</strong>
+                  <small>${part === 2 ? "Cue card 長答示範與錄音練習" : part === 1 ? "日常主題短答練習" : "延伸討論及分析練習"}</small>
+                  ${allowed ? "" : '<span class="availability">尚未開放</span>'}
+                </button>
+                ${allowed ? bookmarkButtonHtml(bookmark) : ""}
+              </div>`;
+          }).join("")}
+          <div class="selection-card-wrap choice-card-wrap exam-practice-card-wrap">
+            <button class="choice-card exam-practice-choice${hasAccess(["exam.ielts"]) ? "" : " access-locked"}" type="button" data-exam-practice-modes ${hasAccess(["exam.ielts"]) ? "" : 'aria-disabled="true"'}>
+              <span class="card-number">IELTS SPEAKING · EXAM MODE</span>
+              <strong>考試練習模式</strong>
+              <small>隨機抽題、限時準備及完整錄音流程</small>
+              ${hasAccess(["exam.ielts"]) ? "" : '<span class="availability">尚未開放</span>'}
+            </button>
+          </div>
+        </div>
+        <a class="theme-entry" href="speaking-system.html?view=ielts-themes" data-open-speaking-themes="ielts"><small>IELTS SPEAKING · THEME FINDER</small><strong>By Theme · 按主題練習</strong><span>按運動、文化、科技、健康等主題，搜尋所有題目。</span></a>
+        ${hasAccess(["exam.ielts", "ielts.part.3"]) ? '<a class="choice-card dse-type-entry" href="speaking-system.html?view=ielts-part3-types" data-open-ielts-part3-types><span class="card-number">IELTS PART 3 · QUESTION TYPE FINDER</span><strong>By Question Type · 按題型練習</strong><small>搜尋你的國家、應否、原因、影響、比較等常見問題。</small></a>' : ''}
+      </section>
+    `;
+  }
+
+  function dseStorageOwner() {
+    return speakingProgressOwner();
+  }
+
+  function readDseStore(key) {
+    try {
+      const value = JSON.parse(localStorage.getItem(key) || "{}");
+      return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+    } catch {
+      return {};
+    }
+  }
+
+  function hydrateDseSession() {
+    if (state.dseSession || !dseStorageOwner()) return;
+    const saved = readDseStore(DSE_SESSION_KEY)[dseStorageOwner()];
+    if (!saved || typeof saved !== "object" || !DSE_MODE.modeForId?.(saved.modeId) || !saved.set) return;
+    if (!saved.completedAt) {
+      state.dseSession = saved;
+      abandonDseSession("page-closed");
+      return;
+    }
+    state.dseSession = saved;
+  }
+
+  function persistDseSession() {
+    const owner = dseStorageOwner();
+    if (!owner) return;
+    try {
+      const store = readDseStore(DSE_SESSION_KEY);
+      if (state.dseSession) store[owner] = state.dseSession;
+      else delete store[owner];
+      localStorage.setItem(DSE_SESSION_KEY, JSON.stringify(store));
+    } catch {
+      // The locked set remains stable for the current page if storage is unavailable.
+    }
+  }
+
+  function saveDseHistory(session) {
+    const owner = dseStorageOwner();
+    if (!owner || !session?.completedAt) return;
+    try {
+      const store = readDseStore(DSE_HISTORY_KEY);
+      const history = Array.isArray(store[owner]) ? store[owner] : [];
+      if (!history.some(item => item?.id === session.id)) history.unshift({ ...session });
+      store[owner] = history.slice(0, 50);
+      localStorage.setItem(DSE_HISTORY_KEY, JSON.stringify(store));
+    } catch {
+      // Completion remains visible for the current page if storage is unavailable.
+    }
+  }
+
+  function abandonDseSession(reason = "left-practice") {
+    const session = state.dseSession;
+    if (!session || session.completedAt) return false;
+    const finishedAt = new Date().toISOString();
+    session.abandoned = true;
+    session.abandonReason = String(reason || "left-practice");
+    session.abandonedAt = finishedAt;
+    session.completedAt = finishedAt;
+    session.phase = "abandoned";
+    saveDseHistory(session);
+    state.dseSession = null;
+    state.dseVoiceAutoKey = "";
+    persistDseSession();
+    return true;
+  }
+
+  function clearDsePrepTimer() {
+    if (state.dsePrepTimer) window.clearInterval(state.dsePrepTimer);
+    state.dsePrepTimer = 0;
+  }
+
+  function dseModeLabel(modeId) {
+    const mode = DSE_MODE.modeForId?.(modeId);
+    return mode ? `${mode.label} · ${mode.labelZh}` : "DSE 考試練習";
+  }
+
+  function renderDseSections() {
+    hydrateDseSession();
+    const availableCount = Array.isArray(DSE_DATA.sets) ? DSE_DATA.sets.length : 0;
+    dom.content.innerHTML = `
+      <section class="content-panel dse-panel">${dseSearchMarkup()}
+        ${sectionHeader("DSE 說話考試", `${availableCount} 套歷屆題目，按年份瀏覽或進入隨機考試練習模式。`)}
+        <a class="theme-entry" href="speaking-system.html?view=dse-themes" data-open-speaking-themes="dse"><small>DSE SPEAKING · THEME FINDER</small><strong>By Theme · 按主題練習</strong><span>按運動、文化、科技、健康等主題，搜尋所有題目。</span></a>
+        <a class="choice-card dse-type-entry" href="speaking-system.html?view=dse-types" data-open-dse-types><span class="card-number">QUESTION TYPE FINDER</span><strong>By Question Type · 按題型練習</strong><small>按優點、缺點、原因、建議等題型，搜尋所有年份的小組討論及個人發言問題。</small></a>
+        <div class="choice-grid dse-section-grid">
+          <button class="choice-card dse-part-choice" type="button" data-dse-catalog="group">
+            <span class="card-number">DSE PAPER 4 · PART A</span>
+            <strong>Group Discussion<br><span lang="zh-Hant">小組討論</span></strong>
+            <small>每套列出 3 個討論重點</small>
+          </button>
+          <button class="choice-card dse-part-choice" type="button" data-dse-catalog="individual">
+            <span class="card-number">DSE PAPER 4 · PART B</span>
+            <strong>Individual Response<br><span lang="zh-Hant">個人發言</span></strong>
+            <small>每套列出 8–10 條個人發言問題</small>
+          </button>
+          <button class="choice-card exam-practice-choice dse-practice-choice" type="button" data-open-dse-modes>
+            <span class="card-number">DSE SPEAKING · EXAM MODE</span>
+            <strong>考試練習模式</strong>
+            <small>每次開始均隨機抽取一套題目，完成準備、討論及個人發言流程</small>
+          </button>
+        </div>
+      </section>`;
+  }
+
+  async function renderSpeakingThemes(kind) {
+    dom.content.innerHTML=`<section class="content-panel">${sectionHeader('By Theme · 按主題練習',kind.toUpperCase()+' Speaking')}<div data-speaking-themes>正在載入主題目錄…</div></section>`;
+    const root=dom.content.querySelector('[data-speaking-themes]');
+    try {
+      const [module,response]=await Promise.all([import('./theme-finder.mjs?v=20261028-grouped'),fetch(kind+'-speaking-themes.json?v=20261028')]);
+      if(!response.ok)throw Error('load');
+      const data=await response.json();
+      if(kind==='ielts')data.rows=data.rows.filter(r=>hasAccess(['exam.ielts',`ielts.part.${r.part}`,`ielts.part.${r.part}.book.${r.book}`]));
+      if(!root.isConnected)return;
+      module.mountThemeFinder(root,{data,onOpen:r=>navigate(kind==='dse'?{view:'dse-question',exam:'dse',paper:r.year+'-'+r.set,part:r.section,question:r.number}:{view:'exercise',exam:'ielts',part:r.part,book:r.book,exerciseIndex:r.exerciseIndex,questionNumber:r.number||0})});
+    } catch {if(root.isConnected)root.innerHTML=`<p>主題目錄未能載入。</p><button data-open-speaking-themes="${kind}">重試</button>`;}
+  }
+
+  async function renderDseTypes() {
+    dom.content.innerHTML = `<section class="content-panel dse-panel">${sectionHeader("By Question Type · 按題型練習", "搜尋所有年份的小組討論與個人發言。含多個要求的問題會列於相應題型，因此各類數量可能重疊。")}<div data-dse-type-finder>正在載入題型目錄…</div></section>`;
+    const root = dom.content.querySelector('[data-dse-type-finder]');
+    try {
+      const [module, response] = await Promise.all([import('./question-type-finder.mjs?v=20260911'),fetch('dse-speaking-question-types.json?v=20261021')]);
+      if (!response.ok) throw Error('load');
+      module.mountQuestionTypeFinder(root, { data:await response.json(), kind:'speaking', onOpen:row=>navigate({view:'dse-question',exam:'dse',paper:`${row.year}-${row.set}`,part:row.section,question:row.number}) });
+    } catch { if(root.isConnected) root.innerHTML='<p>題型目錄未能載入。</p><button class="secondary-button" data-open-dse-types>重試</button>'; }
+  }
+
+  async function renderIeltsPart3Types() {
+    dom.content.innerHTML = `<section class="content-panel">${sectionHeader('IELTS Speaking Part 3 · 按題型練習', '搜尋問題，或按題型、你的國家及應否作答篩選。')}<div data-ielts-part3-finder>正在載入題型目錄…</div></section>`;
+    const root = dom.content.querySelector('[data-ielts-part3-finder]');
+    try {
+      const [module, response] = await Promise.all([import('./ielts-speaking-part3-finder.mjs?v=20261021'), fetch('ielts-speaking-part3-question-types.json?v=20261021')]);
+      if (!response.ok) throw new Error('load');
+      module.mountIeltsPart3Finder(root, await response.json(), row => navigate({view:'exercise', exam:'ielts', part:3, book:row.book, exerciseIndex:row.number}));
+    } catch {
+      if (root.isConnected) root.innerHTML = '<p>題型目錄未能載入。</p><button class="secondary-button" data-open-ielts-part3-types>重試</button>';
+    }
+  }
+
+  function renderDseQuestion() {
+    const route=state.route, set=DSE_DATA.sets.find(s=>`${s.year}-${s.set}`===route.paper);
+    const key=route.part==='individual'?'individualResponse':'groupDiscussion';
+    const index=Number(route.question)-1;
+    if (!set || !Number.isInteger(index) || !set[key]?.[index]) { dom.content.innerHTML='<section class="content-panel"><h2>找不到這條題目</h2><button class="secondary-button" data-open-dse-types>返回題型目錄</button></section>';return; }
+    const translation=dseTranslationFor(set)[key]?.[index];
+    dom.content.innerHTML=`<section class="content-panel dse-panel"><button class="secondary-button" data-open-dse-types>← 返回題型目錄</button>${sectionHeader(`${set.year} DSE · ${set.set} · ${set.title}`,`${route.part==='individual'?'Individual Response · 個人發言':'Group Discussion · 小組討論'} · 第 ${index+1} 題`)}<article class="dse-selected-question"><span class="cue-label">QUESTION ${index+1}</span><h2 lang="en">${escapeHtml(set[key][index])}</h2>${translation?`<p lang="zh-Hant">${escapeHtml(translation)}</p>`:''}</article><details class="dse-question-context"><summary>查看完整題組與文章 · Full question set</summary><h3>Group Discussion · 小組討論</h3>${dseQuestionList(set.groupDiscussion,true,dseTranslationFor(set).groupDiscussion)}<h3>Individual Response · 個人發言</h3>${dseQuestionList(set.individualResponse,true,dseTranslationFor(set).individualResponse)}${dsePaperHostMarkup(set,true)}</details></section>`;
+  }
+
+  function openRequestedDseQuestion() {
+    if (state.requestedDseQuestionOpened || state.user?.role !== 'student') return false;
+    const params=new URLSearchParams(location.search), view=params.get('view');
+    if (['dse-themes','ielts-themes'].includes(view)) {
+      state.requestedDseQuestionOpened=true;
+      navigate({view,exam:view==='dse-themes'?'dse':'ielts'},{reset:true,skipGuard:true});return true;
+    }
+    if (view === 'ielts-part3-types') {
+      state.requestedDseQuestionOpened = true;
+      navigate({view,exam:'ielts',part:3},{reset:true,skipGuard:true});
+      return true;
+    }
+    if (!['dse-types','dse-question'].includes(view)) return false;
+    state.requestedDseQuestionOpened=true;
+    const route={view,exam:'dse',paper:params.get('paper'),part:params.get('part'),question:Number(params.get('question'))};
+    if(!routeAllowed(route)){toast('您的帳戶尚未開放 DSE Speaking。','error');return true;}
+    navigate(route,{reset:true,skipGuard:true});return true;
+  }
+
+  function dseQuestionList(questions, ordered = false, translations = []) {
+    const tag = ordered ? "ol" : "ul";
+    return `<${tag} class="dse-question-list">${questions.map((question, index) => `<li><span lang="en">${escapeHtml(question)}</span>${translations[index] ? `<small lang="zh-Hant">${escapeHtml(translations[index])}</small>` : ""}</li>`).join("")}</${tag}>`;
+  }
+
+  function dseTranslationFor(set) {
+    const key = typeof DSE_MODE.sourceKey === "function"
+      ? DSE_MODE.sourceKey(set)
+      : `${Number(set?.year || 0)}:${String(set?.set || "")}`;
+    const translation = DSE_TRANSLATIONS[key];
+    return translation && typeof translation === "object" ? translation : {};
+  }
+
+  // Retained only to preserve keys for words saved before the source-layout update.
+  function dseLegacySourceSegments(value, title = "") {
+    let source = String(value || "").replace(/\s+/g, " ").trim();
+    if (title && source.toLocaleLowerCase().startsWith(String(title).toLocaleLowerCase())) {
+      source = source.slice(String(title).length).trim();
+    }
+    source = source.replace(/\s*(?:Discuss with your group\.?\s*)?You may want to talk about:[\s\S]*$/i, "").trim();
+    const scenarioPattern = /\s(?=(?:You are members of|You and your group|You are on|You are a member|You are preparing|Your group|Your class|Your school|Your committee|Your club|Your form|The Student Union at your school)\b)/i;
+    const scenarioAt = source.search(scenarioPattern);
+    const article = scenarioAt >= 0 ? source.slice(0, scenarioAt).trim() : source;
+    const scenario = scenarioAt >= 0 ? source.slice(scenarioAt).trim() : "";
+    const segments = [];
+    const numberedAt = article.search(/\b1\.\s+/);
+    if (numberedAt >= 0) {
+      const lead = article.slice(0, numberedAt).trim();
+      if (lead) segments.push({ type: "paragraph", text: lead });
+      const items = article.slice(numberedAt).split(/\s+(?=\d{1,2}\.\s+)/).map(item => item.replace(/^\d{1,2}\.\s+/, "").trim()).filter(Boolean);
+      if (items.length > 1) segments.push({ type: "numbered", items });
+      else if (items[0]) segments.push({ type: "paragraph", text: items[0] });
+    } else {
+      const breaks = /\s+(?=(?:Indeed,|However,|Recently,|According to|For example,|On the other hand,|Nobody knows|Another (?:factor|reason|problem)|Despite this,|In contrast,|As a result,)\s)/g;
+      article.split(breaks).map(text => text.trim()).filter(Boolean).forEach(text => segments.push({ type: "paragraph", text }));
+    }
+    if (scenario) segments.push({ type: "task", text: scenario });
+    return segments;
+  }
+
+  function dseSourceSegments(set) {
+    return DSE_SOURCE.segmentsFor(set);
+  }
+
+  function dsePlainSourceMarkup(set) {
+    return DSE_SOURCE.render(dseSourceSegments(set), escapeHtml, false, DSE_SOURCE.illustrationsFor(set));
+  }
+
+  function dseSourceCard(set, open = false) {
+    const source = String(set?.sourceText || "").trim();
+    if (!source) return "";
+    return `<details class="dse-source-card" ${open ? "open" : ""}><summary><span>題目文章與任務資料</span><small>Source text &amp; task</small></summary><div class="dse-source-text" lang="en">${dsePlainSourceMarkup(set)}</div></details>`;
+  }
+
+  function hasNativeDsePaper(set) {
+    return Boolean(set?.paperPages?.student);
+  }
+
+  function dsePaperSetKey(set) {
+    return `${Number(set?.year || 0)}:${String(set?.set || "")}`;
+  }
+
+  function dsePaperWordMarkup(value, set, scope, sourceWords = null) {
+    let wordIndex = 0;
+    return (String(value || "").match(WORD_PATTERN) || []).map(token => {
+      if (!IS_WORD_PATTERN.test(token)) return escapeHtml(token);
+      const itemKey = sourceWords ? sourceWords.keys[sourceWords.index++] : `dse-paper:${dsePaperSetKey(set)}:${scope}:${wordIndex++}:${token.toLocaleLowerCase()}`.slice(0, 180);
+      const saved = state.dseWordBookmarks.has(itemKey);
+      return `<span class="dse-paper-word${saved ? " is-bookmarked" : ""}" role="button" tabindex="0" data-dse-word="${escapeHtml(token)}" data-dse-word-key="${escapeHtml(itemKey)}" aria-pressed="${saved}" title="按一下收藏此字 · Click to bookmark">${escapeHtml(token)}</span>`;
+    }).join("");
+  }
+
+  function dsePaperListMarkup(items, set, scope) {
+    return `<ol class="dse-native-paper-list">${(items || []).map((item, index) => `<li>${dsePaperWordMarkup(item, set, `${scope}-${index}`)}</li>`).join("")}</ol>`;
+  }
+
+  function dseNativeSourceMarkup(set) {
+    const segments = dseSourceSegments(set);
+    const sourceWords = {
+      keys: DSE_SOURCE.bookmarkKeys(dseLegacySourceSegments(set?.sourceText, set?.title), segments, dsePaperSetKey(set)),
+      index: 0
+    };
+    return DSE_SOURCE.render(segments, (text, scope) => dsePaperWordMarkup(text, set, scope, sourceWords), true, DSE_SOURCE.illustrationsFor(set));
+  }
+
+  function dseNativePaperMarkup(set) {
+    return `<article class="dse-native-paper" data-dse-paper data-paper-mode="student">
+      <nav class="dse-paper-mode-switch" aria-label="題紙模式">
+        <button class="is-active" type="button" data-dse-paper-mode="student" aria-pressed="true"><strong>學生題紙</strong><small>Student paper</small></button>
+        <button type="button" data-dse-paper-mode="examiner" aria-pressed="false"><strong>考官題紙</strong><small>Examiner paper</small></button>
+      </nav>
+      <header class="dse-native-paper-header">
+        <span>${escapeHtml(set.year)}-DSE · ENG LANG · PAPER 4 · ${escapeHtml(set.set)}</span>
+        <p>香港考試及評核局 · HONG KONG EXAMINATIONS AND ASSESSMENT AUTHORITY</p>
+        <h2>ENGLISH LANGUAGE · PAPER 4</h2>
+      </header>
+      <section class="dse-native-paper-part">
+        <div class="dse-native-paper-part-heading"><span>PART A</span><h3>Group Interaction</h3><small>小組討論</small></div>
+        <h4>${dsePaperWordMarkup(set.title, set, "title")}</h4>
+        <div class="dse-native-source" lang="en">${dseNativeSourceMarkup(set)}</div>
+        <p class="dse-native-instruction">Discuss with your group. You may want to talk about:</p>
+        ${dsePaperListMarkup(set.groupDiscussion, set, "group")}
+        <p class="dse-native-anything">• anything else you think is important</p>
+      </section>
+      <section class="dse-native-paper-part dse-examiner-only">
+        <div class="dse-native-paper-part-heading"><span>PART B</span><h3>Individual Response</h3><small>個人發言</small></div>
+        <p class="dse-native-instruction">The examiner may ask one or more questions based on Part A.</p>
+        ${dsePaperListMarkup(set.individualResponse, set, "individual")}
+      </section>
+      <section class="dse-student-only dse-native-student-note"><strong>PART B · Individual Response</strong><span>考官會在小組討論後提供個人發言問題。切換至「考官題紙」即可練習。</span></section>
+      <footer><span>所有文字均可選取及螢光標示。</span><strong>按一下任何英文單字即可加入私人書簽。</strong></footer>
+    </article>`;
+  }
+
+  function dsePaperHostMarkup(set, expanded = false) {
+    return `<div class="dse-native-paper-host" data-dse-paper-host="${escapeHtml(dsePaperSetKey(set))}"${expanded ? ' data-rendered="true"' : ""}>${expanded ? dseNativePaperMarkup(set) : '<button class="secondary-button dse-open-native-paper" type="button" data-open-native-dse-paper>開啟數碼題紙 · Open digital paper</button>'}</div>`;
+  }
+
+  function setDsePaperMode(paper, mode) {
+    if (!paper || !["student", "examiner"].includes(mode)) return;
+    paper.dataset.paperMode = mode;
+    paper.querySelectorAll("[data-dse-paper-mode]").forEach(button => {
+      const active = button.dataset.dsePaperMode === mode;
+      button.classList.toggle("is-active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+  }
+
+  async function ensureDseWordBookmarks() {
+    if (state.dseWordBookmarksLoaded || state.user?.role !== "student") return;
+    const helper = window.EdmundWordBookmarks;
+    if (!helper?.listWordBookmarks) return;
+    try {
+      const rows = await helper.listWordBookmarks({ rpc: learningWordRpc, token: state.authToken, systemKey: "speaking" });
+      state.dseWordBookmarks = new Set(rows.map(row => String(row.item_key || row.itemKey || "")).filter(key => key.startsWith("dse-paper:")));
+      state.dseWordBookmarksLoaded = true;
+      document.querySelectorAll("[data-dse-word-key]").forEach(word => {
+        const saved = state.dseWordBookmarks.has(word.dataset.dseWordKey);
+        word.classList.toggle("is-bookmarked", saved);
+        word.setAttribute("aria-pressed", String(saved));
+      });
+    } catch (error) {
+      console.warn("DSE paper bookmarks could not be loaded:", error);
+    }
+  }
+
+  function renderNativeDsePaper(host) {
+    if (!host || host.dataset.rendered === "true") return;
+    const set = DSE_DATA.sets.find(item => dsePaperSetKey(item) === host.dataset.dsePaperHost);
+    if (!set) return;
+    host.dataset.rendered = "true";
+    host.innerHTML = dseNativePaperMarkup(set);
+    ensureDseWordBookmarks();
+  }
+
+  async function toggleDseWordBookmark(word) {
+    if (state.user?.role !== "student") return toast("請以學生帳戶登入後收藏單字。", "info");
+    const helper = window.EdmundWordBookmarks;
+    if (!helper?.setWordBookmark || word.dataset.saving === "true") return;
+    const paper = word.closest("[data-dse-paper]");
+    const context = word.closest("p, li, h4")?.textContent?.trim() || "";
+    const itemKey = word.dataset.dseWordKey;
+    const bookmarked = !state.dseWordBookmarks.has(itemKey);
+    word.dataset.saving = "true";
+    try {
+      await helper.setWordBookmark({
+        rpc: learningWordRpc,
+        token: state.authToken,
+        systemKey: "speaking",
+        itemKey,
+        phrase: word.dataset.dseWord,
+        contextEn: context,
+        href: `speaking-system.html?view=dse&paper=${encodeURIComponent(itemKey.split(":").slice(1, 3).join("-"))}`,
+        bookmarked
+      });
+      if (bookmarked) state.dseWordBookmarks.add(itemKey); else state.dseWordBookmarks.delete(itemKey);
+      paper?.querySelectorAll(`[data-dse-word-key="${CSS.escape(itemKey)}"]`).forEach(match => {
+        match.classList.toggle("is-bookmarked", bookmarked);
+        match.setAttribute("aria-pressed", String(bookmarked));
+      });
+      toast(bookmarked ? `已收藏「${word.dataset.dseWord}」。` : `已移除「${word.dataset.dseWord}」。`, "info");
+    } catch (error) {
+      console.warn("DSE paper bookmark failed:", error);
+      toast("單字暫時未能收藏，請稍後再試。", "error");
+    } finally {
+      delete word.dataset.saving;
+    }
+  }
+
+  function dseSearchMarkup() {
+    return `<section class="dse-search-panel"><label>搜尋所有年份的文章、小組討論及個人發言<input type="search" data-dse-full-search placeholder="例如 Lego" autocomplete="off"></label><div data-dse-search-results aria-live="polite"></div></section>`;
+  }
+  function searchDseSpeaking(query, root) {
+    const target = root.querySelector('[data-dse-search-results]');
+    const term = String(query || '').normalize('NFKC').toLocaleLowerCase().trim();
+    if (!term) { target.innerHTML = ''; return; }
+    const sets = Object.values(DSE_DATA.catalog || {}).flat();
+    const matches = sets.filter(set => [set.title, set.sourceText, ...(set.groupDiscussion || []), ...(set.individualResponse || []), JSON.stringify(dseTranslationFor(set))].join(' ').normalize('NFKC').toLocaleLowerCase().includes(term));
+    target.innerHTML = `<p>${matches.length} 套題目</p>` + matches.map(set => `<details class="dse-set-card"><summary><span>${set.year} · ${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong></summary>${hasNativeDsePaper(set) ? dsePaperHostMarkup(set, true) : `${dseSourceCard(set, true)}<h3>Group Discussion 小組討論</h3>${dseQuestionList(set.groupDiscussion, true, dseTranslationFor(set).groupDiscussion)}<h3>Individual Response 個人發言</h3>${dseQuestionList(set.individualResponse, true, dseTranslationFor(set).individualResponse)}`}</details>`).join('');
+  }
+  document.addEventListener('input', event => {
+    if (event.target.matches('[data-dse-full-search]')) searchDseSpeaking(event.target.value, event.target.closest('.dse-search-panel'));
+  });
+  function renderDseCatalog() {
+    const part = state.route.part === "individual" ? "individual" : "group";
+    const years = Array.isArray(DSE_DATA.years) ? [...DSE_DATA.years] : [];
+    if (state.dseYearSort === "desc") years.reverse();
+    const partTitle = part === "individual" ? "Individual Response · 個人發言" : "Group Discussion · 小組討論";
+    dom.content.innerHTML = `
+      <section class="content-panel dse-panel">
+        <div class="dse-catalog-heading">
+          ${sectionHeader(partTitle, "選擇年份及題組；按下題目卡即可查看完整問題。")}
+          <button class="secondary-button dse-sort-button" type="button" data-dse-sort aria-label="切換年份排序">
+            年份：${state.dseYearSort === "asc" ? "2012 → 2025" : "2025 → 2012"} ↕
+          </button>
+        </div>
+        <a class="secondary-button" href="speaking-system.html?view=dse-types" data-open-dse-types>By Question Type · 按題型練習</a>
+        ${dseSearchMarkup()}
+        <div class="dse-year-list">
+          ${years.map(year => {
+            const sets = Array.isArray(DSE_DATA.catalog?.[year]) ? [...DSE_DATA.catalog[year]].sort((left, right) => {
+              const a = left.set.split(".").map(Number);
+              const b = right.set.split(".").map(Number);
+              return a[0] - b[0] || a[1] - b[1];
+            }) : [];
+            return `
+              <details class="dse-year-section" ${sets.length && year === (state.dseYearSort === "asc" ? 2012 : 2023) ? "open" : ""}>
+                <summary><span>${year}</span><small>${sets.length ? `${sets.length} 套題目` : "暫未提供題目"}</small></summary>
+                ${sets.length ? `<div class="dse-set-list">${sets.map(set => {
+                  const questions = part === "individual" ? set.individualResponse : set.groupDiscussion;
+                  const translatedSet = dseTranslationFor(set);
+                  const translations = part === "individual" ? translatedSet.individualResponse : translatedSet.groupDiscussion;
+                  const paperContent = part === "individual"
+                    ? `${dseQuestionList(questions, true, translations)}${dsePaperHostMarkup(set)}`
+                    : dsePaperHostMarkup(set, true);
+                  return `<details class="dse-set-card"><summary><span>${escapeHtml(set.set)}</span><strong>${escapeHtml(set.title)}</strong><small>${questions.length} 題</small></summary>${hasNativeDsePaper(set) ? paperContent : `${dseSourceCard(set)}${dseQuestionList(questions, true, translations)}`}</details>`;
+                }).join("")}</div>` : '<p class="dse-empty-year">這個年份的題目尚未加入。</p>'}
+              </details>`;
+          }).join("")}
+        </div>
+      </section>`;
+  }
+
+  function renderDseModes() {
+    hydrateDseSession();
+    const modes = Array.isArray(DSE_MODE.modes) ? DSE_MODE.modes : [];
+    dom.content.innerHTML = `
+      <section class="content-panel exam-mode-panel dse-panel">
+        ${sectionHeader("DSE 考試練習模式", "隨機抽取並鎖定同一套歷屆題目。DSE 模式不設考官自然交流。", "4 種模式")}
+        ${examCoverHtml()}
+        <div class="exam-mode-grid dse-mode-grid">
+          ${modes.map((mode, index) => `<button class="exam-mode-card" type="button" data-dse-mode="${escapeHtml(mode.id)}">
+            <span>${pad(index + 1)} · DSE PRACTICE</span>
+            <strong>${escapeHtml(mode.label)}<br><span lang="zh-Hant">${escapeHtml(mode.labelZh)}</span></strong>
+            <small>${mode.parts.includes("group") ? "10 分鐘準備時間 · 3 個討論重點" : ""}${mode.parts.length > 1 ? " · " : ""}${mode.parts.includes("individual") ? "同一題組 8–10 條問題" : ""}</small>
+          </button>`).join("")}
+          <a class="exam-mode-card" href="speaking-professional.html"><span>04 · DSE PRACTICE</span><strong>Full DSE Exam Practice — Professional Mode<br><span lang="zh-Hant">完整 DSE 考試練習 · 專業模式</span></strong><small>四位考生 · 逐輪計時與評估 · PDF / XLSX 報告</small></a>
+        </div>
+      </section>`;
+  }
+
+  function startDsePractice(modeId) {
+    hydrateDseSession();
+    if (state.dseSession && !state.dseSession.completedAt) abandonDseSession("restarted");
+    try {
+      const history = readDseStore(DSE_HISTORY_KEY)[dseStorageOwner()] || [];
+      state.dseSession = DSE_MODE.createSession(modeId, DSE_DATA.sets.filter(set => !(Number(set.year) === 2014 && String(set.set) === '9.1' && /police/i.test(String(set.title || '')))), { excludedKey: history[0]?.sourceKey || "" });
+      state.dseVoiceAutoKey = "";
+      persistDseSession();
+      navigate({ view: "dse-practice", exam: "dse", modeId });
+    } catch (error) {
+      console.warn("Could not create DSE speaking practice:", error);
+      toast("未能建立 DSE 考試練習，請重新整理後再試。", "error");
+    }
+  }
+
+  function dseSetHeader(session) {
+    return `<header class="dse-practice-header"><p class="eyebrow">${escapeHtml(dseModeLabel(session.modeId))}</p><h1>${escapeHtml(session.set.year)} · ${escapeHtml(session.set.set)}</h1><h2>${escapeHtml(session.set.title)}</h2></header>`;
+  }
+
+  function dseGroupCard(session, preparation = false) {
+    const translations = dseTranslationFor(session.set).groupDiscussion;
+    return `<section class="dse-practice-card${preparation ? "" : " is-entering"}"><span class="cue-label">PART A · GROUP DISCUSSION · 小組討論</span><h2>${preparation ? "準備以下 3 個討論重點" : "開始小組討論"}</h2>${dseQuestionList(session.set.groupDiscussion, true, translations)}${preparation ? "" : '<button class="dse-voice-button" type="button" data-dse-play-question-voice aria-pressed="false">▶ 聆聽讀題</button>'}</section>`;
+  }
+
+  function dseIndividualCard(session) {
+    const questions = Array.isArray(session.set.individualResponse) ? session.set.individualResponse : [];
+    const index = Math.min(Math.max(0, Number(session.individualIndex || 0)), Math.max(0, questions.length - 1));
+    const question = questions[index] || "";
+    const translation = dseTranslationFor(session.set).individualResponse?.[index] || "";
+    const progress = questions.length ? Math.round(((index + 1) / questions.length) * 100) : 0;
+    return `<section class="dse-individual-stage"><div class="dse-question-progress"><div><span>PART B · INDIVIDUAL RESPONSE</span><strong>第 ${index + 1} / ${questions.length} 題</strong></div><div class="dse-question-progress-track" aria-hidden="true"><i style="width:${progress}%"></i></div></div><section class="dse-single-question is-entering" aria-labelledby="dse-current-question"><span class="cue-label">QUESTION ${index + 1} · 個人發言</span><h2 id="dse-current-question" lang="en">${escapeHtml(question)}</h2>${translation ? `<p lang="zh-Hant">${escapeHtml(translation)}</p>` : ""}<button class="dse-voice-button" type="button" data-dse-play-question-voice aria-pressed="false">▶ 聆聽讀題</button></section></section>`;
+  }
+
+  function dseVoiceText(session = state.dseSession) {
+    if (!session) return "";
+    if (session.phase === "group") {
+      const points = Array.isArray(session.set?.groupDiscussion) ? session.set.groupDiscussion : [];
+      const labels = ["First", "Second", "Third"];
+      return points.map((point, index) => `${labels[index] || `Point ${index + 1}`}: ${String(point || "").trim()}.`).join(" ");
+    }
+    if (session.phase === "individual") {
+      return String(session.set?.individualResponse?.[Number(session.individualIndex || 0)] || "").trim();
+    }
+    return "";
+  }
+
+  function dseVoiceKey(session = state.dseSession) {
+    if (!session) return "";
+    return `${session.id}:${session.phase}:${session.phase === "individual" ? Number(session.individualIndex || 0) : 0}`;
+  }
+
+  function syncDseVoiceButtons(playing = false) {
+    document.querySelectorAll("[data-dse-play-question-voice]").forEach(button => {
+      button.classList.toggle("is-playing", playing);
+      button.setAttribute("aria-pressed", String(playing));
+      button.textContent = playing ? "■ 停止讀題" : "▶ 聆聽讀題";
+    });
+  }
+
+  function cancelDseVoice() {
+    state.dseVoiceGeneration += 1;
+    state.dseVoiceAbortController?.abort();
+    state.dseVoiceAbortController = null;
+    if (state.dseVoiceAudio) {
+      state.dseVoiceAudio.onended = null;
+      state.dseVoiceAudio.onerror = null;
+      try { state.dseVoiceAudio.pause(); } catch { /* Audio may already be stopped. */ }
+    }
+    state.dseVoiceAudio = null;
+    if ("speechSynthesis" in window) window.speechSynthesis.cancel();
+    syncDseVoiceButtons(false);
+  }
+
+
+  async function playDseVoice(options = {}) {
+    const automatic = options.automatic === true;
+    const text = dseVoiceText();
+    const key = dseVoiceKey();
+    if (!text || !key) return;
+    if (!automatic && state.dseVoiceAudio && !state.dseVoiceAudio.paused) {
+      cancelDseVoice();
+      return;
+    }
+    cancelDseVoice();
+    const generation = state.dseVoiceGeneration;
+    const controller = new AbortController();
+    state.dseVoiceAbortController = controller;
+    try {
+      let url = state.dseVoiceUrls.get(text);
+      if (!url) {
+        const response = await apiRaw("/v1/learning-voice", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ text }),
+          signal: controller.signal
+        });
+        const blob = await response.blob();
+        if (!blob.size || !/^audio\//i.test(blob.type)) throw new Error("DSE examiner voice returned invalid audio");
+        url = URL.createObjectURL(blob);
+        state.dseVoiceUrls.set(text, url);
+      }
+      if (controller.signal.aborted || generation !== state.dseVoiceGeneration || key !== dseVoiceKey()) return;
+      const audio = new Audio(url);
+      state.dseVoiceAudio = audio;
+      audio.onended = audio.onerror = () => {
+        if (state.dseVoiceAudio === audio) state.dseVoiceAudio = null;
+        syncDseVoiceButtons(false);
+      };
+      syncDseVoiceButtons(true);
+      await audio.play();
+    } catch (error) {
+      if (controller.signal.aborted) return;
+      console.warn("DSE examiner voice failed:", error);
+      syncDseVoiceButtons(false);
+
+      if (!automatic) {
+        state.dseVoiceErrorShown = true;
+        toast("讀題音訊暫時未能播放，請稍後再試。題目仍可照常作答。", "error");
+      }
+    } finally {
+      if (state.dseVoiceAbortController === controller) state.dseVoiceAbortController = null;
+    }
+  }
+
+  function autoPlayDseVoice(session) {
+    const key = dseVoiceKey(session);
+    if (!key || state.dseVoiceAutoKey === key) return;
+    state.dseVoiceAutoKey = key;
+    window.requestAnimationFrame(() => {
+      if (state.route.view === "dse-practice" && key === dseVoiceKey()) playDseVoice({ automatic: true });
+    });
+  }
+
+  function prepareDseRecorder() {
+    const context = currentRecordingContext();
+    if (state.pageRecordingContextKey && context?.key !== state.pageRecordingContextKey) clearPageRecordingHistory();
+  }
+
+  function finishDseRecorderRender() {
+    renderPageRecordingHistory();
+    syncRecorderControls();
+  }
+
+  function renderDsePractice() {
+    hydrateDseSession();
+    const session = state.dseSession;
+    if (!session || session.modeId !== state.route.modeId) {
+      dom.content.innerHTML = `<section class="notice-card"><h2>這次 DSE 練習尚未開始</h2><p>返回模式頁，系統會隨機抽取並鎖定一套題目。</p><button class="primary-button" type="button" data-open-dse-modes>選擇 DSE 模式</button></section>`;
+      return;
+    }
+    clearDsePrepTimer();
+    const mode = DSE_MODE.modeForId?.(session.modeId);
+    if (session.phase === "preparation") {
+      const remaining = Math.max(0, Math.ceil((Number(session.prepEndsAt) - Date.now()) / 1000));
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}<section class="exam-prep-timer dse-prep-timer"><span>準備時間 · PREPARATION</span><strong data-dse-prep-clock role="timer">${Math.floor(remaining / 60)}:${pad(remaining % 60)}</strong><button class="exam-prep-skip-button" type="button" data-dse-skip-prep>略過準備時間</button></section>${dsePaperHostMarkup(session.set, true)}${dseGroupCard(session, true)}</article>`;
+      startDsePrepTimer();
+      return;
+    }
+    if (session.phase === "group") {
+      prepareDseRecorder();
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}${dsePaperHostMarkup(session.set, true)}${dseGroupCard(session)}${renderRecorderCard()}<button class="primary-button dse-stage-action" type="button" data-dse-complete-group>${mode?.parts.includes("individual") ? "完成小組討論，進入個人發言 →" : "完成小組討論 →"}</button></article>`;
+      finishDseRecorderRender();
+      autoPlayDseVoice(session);
+      return;
+    }
+    if (session.phase === "individual") {
+      prepareDseRecorder();
+      const index = Math.min(Math.max(0, Number(session.individualIndex || 0)), Math.max(0, session.set.individualResponse.length - 1));
+      const finalQuestion = index >= session.set.individualResponse.length - 1;
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view">${examCoverHtml()}${dseSetHeader(session)}${dsePaperHostMarkup(session.set, true)}${dseIndividualCard(session)}${renderRecorderCard()}<button class="primary-button dse-stage-action" type="button" data-dse-next-individual>${finalQuestion ? "完成個人發言（不需錄音） →" : "跳過／下一題（不需錄音） →"}</button></article>`;
+      finishDseRecorderRender();
+      autoPlayDseVoice(session);
+      return;
+    }
+    if (session.phase === "rating") {
+      const selected = Number(session.selectedRating || 0);
+      dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view"><section class="exam-rating-card"><p class="eyebrow">DSE PRACTICE · SELF-EVALUATION</p><h1>How nervous were you in the whole process?</h1><p>請以 1 至 7 評分；1 代表最放鬆，7 代表最緊張。</p><div class="exam-rating-scale">${Array.from({ length: 7 }, (_, index) => index + 1).map(value => `<button class="exam-rating-circle${selected === value ? " is-selected" : ""}" type="button" data-dse-rating="${value}" aria-pressed="${selected === value}">${value}</button>`).join("")}</div><p class="exam-rating-status" role="status">${selected ? `你選擇了 ${selected} / 7。` : "請選擇 1 至 7。"}</p><button class="primary-button" type="button" data-submit-dse-rating ${selected ? "" : "disabled"}>完成練習</button></section></article>`;
+      return;
+    }
+    dom.content.innerHTML = `<article class="exam-practice-view dse-practice-view"><section class="exam-completion-card">${dseSetHeader(session)}<p class="exam-completion-lead">DSE 考試練習完成。</p><div class="saved-exam-rating"><span>緊張程度</span><strong>${escapeHtml(session.rating)} / 7</strong></div><div class="exam-complete-actions"><button class="secondary-button" type="button" data-new-dse>再做一次</button><button class="primary-button" type="button" data-dse-catalog="group">瀏覽歷屆題目</button></div></section></article>`;
+  }
+
+  function startDsePrepTimer() {
+    clearDsePrepTimer();
+    const update = () => {
+      const session = state.dseSession;
+      if (state.route.view !== "dse-practice" || session?.phase !== "preparation") return clearDsePrepTimer();
+      const seconds = Math.max(0, Math.ceil((Number(session.prepEndsAt) - Date.now()) / 1000));
+      const clock = document.querySelector("[data-dse-prep-clock]");
+      if (clock) clock.textContent = `${Math.floor(seconds / 60)}:${pad(seconds % 60)}`;
+      if (seconds === 0) beginDseGroup();
+    };
+    update();
+    if (state.dseSession?.phase === "preparation") state.dsePrepTimer = window.setInterval(update, 250);
+  }
+
+  function beginDseGroup() {
+    if (state.dseSession?.phase !== "preparation") return;
+    clearDsePrepTimer();
+    state.dseSession.phase = "group";
+    persistDseSession();
+    renderDsePractice();
+  }
+
+  function releasePracticeRecording() {
+    if (state.practiceUploadBusy || state.examSaving || state.examSkipSaving) { toast("正在儲存錄音，請稍候。", "info"); return false; }
+    const pending = (state.recordedMp3 && !state.recordingSaved) || state.recordingProcessing || state.recordingPermissionPending || ["recording", "paused"].includes(state.mediaRecorder?.state);
+    if (pending && !window.confirm("繼續將捨棄本題尚未儲存的錄音。已儲存的錄音會保留。確定繼續？")) return false;
+    cancelRecorder(); discardRecording(false); return true;
+  }
+
+  async function endPracticeEarly() {
+    if (!window.confirm("確定提前結束本次練習並前往自我評估？已儲存的錄音會保留。")) return;
+    if (!releasePracticeRecording()) return;
+    cancelDseVoice(); cancelExamSpeech(); clearExamPhaseTimer(); clearDsePrepTimer();
+    if (state.route.view === "dse-practice" && state.dseSession) {
+      state.dseSession.endedEarly = true; state.dseSession.phase = "rating"; persistDseSession(); renderDsePractice(); return;
+    }
+    const session = state.examSession;if (!session || state.examSkipSaving) return;
+    state.examSkipSaving = true;
+    try {
+      if (session.naturalExchange && !session.introItem?.saved && !session.introItem?.skipped) {
+        try { await apiJson(examAttemptsEndpoint(`/${session.id}/introduction/skip`), {method:"PUT"}); }
+        catch(error){if(error.code!=="EXAM_INTRODUCTION_HAS_RECORDING")throw error;}
+        if(session.introItem)session.introItem.skipped=true;
+      }
+      for (const item of session.items) {
+        if(item.saved || item.skipped)continue;
+        try { await apiJson(examAttemptsEndpoint(`/${session.id}/questions/${Number(item.globalOrder)}/skip`), {method:"PUT"});item.skipped=true; }
+        catch(error){if(error.code!=="EXAM_QUESTION_HAS_RECORDING")throw error;}
+      }
+      session.endedEarly=true;session.phase="rating";renderExamRating();
+    } catch(error){toast(error.message||"未能結束，請再試一次。", "error");}
+    finally{state.examSkipSaving=false;syncRecorderControls();}
+  }
+
+  function completeDseGroup() {
+    const session = state.dseSession;
+    if (session?.phase !== "group") return;
+    if (!releasePracticeRecording()) return;
+    const mode = DSE_MODE.modeForId?.(session.modeId);
+    cancelDseVoice();
+    clearPageRecordingHistory();
+    session.individualIndex = 0;
+    session.phase = mode?.parts.includes("individual") ? "individual" : "rating";
+    persistDseSession();
+    renderDsePractice();
+  }
+
+  function completeDseIndividual() {
+    const session = state.dseSession;
+    if (session?.phase !== "individual") return;
+    if (!releasePracticeRecording()) return;
+    cancelDseVoice();
+    clearPageRecordingHistory();
+    const finalIndex = Math.max(0, session.set.individualResponse.length - 1);
+    if (Number(session.individualIndex || 0) < finalIndex) session.individualIndex = Number(session.individualIndex || 0) + 1;
+    else session.phase = "rating";
+    persistDseSession();
+    renderDsePractice();
+  }
+
+  function submitDseRating() {
+    const session = state.dseSession;
+    const rating = Number(session?.selectedRating || 0);
+    if (session?.phase !== "rating" || !Number.isInteger(rating) || rating < 1 || rating > 7) return;
+    session.rating = rating;
+    session.completedAt = new Date().toISOString();
+    session.phase = "review";
+    persistDseSession();
+    saveDseHistory(session);
+    renderDsePractice();
+  }
+
+  function clearExamPhaseTimer() {
+    if (state.examPhaseTimer) window.clearInterval(state.examPhaseTimer);
+    state.examPhaseTimer = 0;
+    if (state.examMessageTimer) window.clearTimeout(state.examMessageTimer);
+    state.examMessageTimer = 0;
+    const finish = state.examMessageFinish;
+    state.examMessageFinish = null;
+    if (typeof finish === "function") finish(false);
+  }
+
+  function clearExamElapsedTimer() {
+    if (state.examElapsedTimer) window.clearInterval(state.examElapsedTimer);
+    state.examElapsedTimer = 0;
+  }
+
+  function examElapsedMilliseconds(session = state.examSession, now = Date.now()) {
+    const startedAt = Date.parse(String(session?.startedAt || ""));
+    if (!Number.isFinite(startedAt)) return 0;
+    const completedAt = Date.parse(String(session?.completedAt || ""));
+    const endpoint = Number.isFinite(completedAt)
+      ? completedAt
+      : state.idleBreakExamPausedAt || Number(now);
+    return Math.max(0, endpoint - startedAt - Math.max(0, Number(session?.idleBreakDurationMs || 0)));
+  }
+
+  function formatStopwatchDuration(milliseconds) {
+    const totalSeconds = Math.max(0, Math.floor(Number(milliseconds || 0) / 1000));
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const seconds = totalSeconds % 60;
+    return hours
+      ? `${hours}:${pad(minutes)}:${pad(seconds)}`
+      : `${pad(minutes)}:${pad(seconds)}`;
+  }
+
+  function updateExamElapsedClock() {
+    const value = formatStopwatchDuration(examElapsedMilliseconds());
+    document.querySelectorAll("[data-exam-elapsed-clock]").forEach(clock => {
+      clock.textContent = value;
+    });
+  }
+
+  function syncExamElapsedTimer() {
+    clearExamElapsedTimer();
+    updateExamElapsedClock();
+    if (
+      state.route.view === "exam-practice"
+      && state.examSession
+      && !state.examSession.completedAt
+      && !window.EdmundIdleBreak?.isPaused?.()
+    ) {
+      state.examElapsedTimer = window.setInterval(updateExamElapsedClock, 1000);
+    }
+  }
+
+  function clearExamSession() {
+    clearExamPhaseTimer();
+    clearExamElapsedTimer();
+    cancelExamSpeech();
+    state.examFlowGeneration += 1;
+    state.examSession = null;
+    state.examStartGeneration += 1;
+    state.examStarting = false;
+    state.examSaving = false;
+    state.examSkipSaving = false;
+    state.examRatingSaving = false;
+  }
+
+  function uniqueExamExercises(exercises, part) {
+    const seenTitles = new Set();
+    const seenQuestionSets = new Set();
+    return exercises.filter(exercise => {
+      const titleKey = normalizeSearchText(exercise.title);
+      const questionSetKey = Number(part) === 1
+        ? (exercise.questions || []).map(question => normalizeSearchText(question.questionEn)).join("|")
+        : "";
+      if (seenTitles.has(titleKey) || (questionSetKey && seenQuestionSets.has(questionSetKey))) return false;
+      seenTitles.add(titleKey);
+      if (questionSetKey) seenQuestionSets.add(questionSetKey);
+      return true;
+    });
+  }
+
+  function examQuestionPools() {
+    const pools = { 1: [], 2: [], 3: [] };
+    speakingBooks().forEach(book => {
+      const part = Number(book?.part || 0);
+      const bookNumber = Number(book?.book || 0);
+      if (![1, 2, 3].includes(part) || !bookIsVisible(bookNumber, part)) return;
+      if (!hasAccess(["exam.ielts", `ielts.part.${part}`, `ielts.part.${part}.book.${bookNumber}`])) return;
+      pools[part].push(...speakingExercises(part, bookNumber).filter(exercise => !exercise.unavailable));
+    });
+    pools[1] = uniqueExamExercises(pools[1], 1);
+    pools[3] = uniqueExamExercises(pools[3], 3);
+    return pools;
+  }
+
+  function examCoverHtml() {
+    const dse = state.route.exam === "dse" || state.route.view.startsWith("dse-");
+    const cover = dse ? "dse-exam-practice-mode-v1.png" : "ielts-exam-practice-mode.png";
+    return `
+      ${["dse-practice","exam-practice"].includes(state.route.view) ? '<button class="secondary-button" type="button" data-end-practice>結束本次練習 · End practice</button>' : ""}
+      <figure class="exam-practice-cover">
+        <img src="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/speaking-system/${cover}" width="1672" height="941" alt="${dse ? "DSE" : "IELTS"} Exam Mode Speaking：戴著耳機在咪高峰前練習的 Edmund 馬仔">
+      </figure>`;
+  }
+
+  function renderExamModes() {
+    const pools = examQuestionPools();
+    const modes = Array.isArray(EXAM_MODE.modes) ? EXAM_MODE.modes : [];
+    dom.content.innerHTML = `
+      <section class="content-panel exam-mode-panel">
+        ${sectionHeader("考試練習模式", "選擇要模擬的 IELTS Speaking 部分。每次開始都會從已開放的題庫重新隨機抽題。", "7 種模式")}
+        ${examCoverHtml()}
+        <button class="exam-natural-toggle${state.examNaturalExchange ? " is-on" : ""}" type="button"
+          data-natural-exchange-toggle aria-pressed="${state.examNaturalExchange}" ${state.examStarting ? "disabled" : ""}>
+          <span>考官自然交流 Mode</span>
+          <strong>${state.examNaturalExchange ? "on" : "off"}</strong>
+          <small>${state.examNaturalExchange ? "加入考官開場、姓名回答及各部分自然過場" : "直接顯示考題，不加入考官交流訊息"}</small>
+        </button>
+        <div class="exam-mode-grid">
+          ${modes.map((mode, index) => {
+            const available = typeof EXAM_MODE.modeIsFeasible === "function" && EXAM_MODE.modeIsFeasible(mode.id, pools);
+            const count = mode.parts.reduce((total, part) => total + (part === 1 ? 12 : part === 2 ? 1 : 6), 0);
+            return `
+              <button class="exam-mode-card${available ? "" : " access-locked"}" type="button" data-exam-mode="${escapeHtml(mode.id)}" ${available && !state.examStarting ? "" : 'aria-disabled="true"'}>
+                <span>${pad(index + 1)} · EXAM PRACTICE</span>
+                <strong>${escapeHtml(mode.label)}</strong>
+                <small>${available ? `最多 ${count + (state.examNaturalExchange ? 1 : 0)} 段錄音 · 雙語題目${state.examNaturalExchange ? " · 自然交流" : ""}` : "可用題目或帳戶權限不足"}</small>
+              </button>`;
+          }).join("")}
+        </div>
+      </section>`;
+  }
+
+  function examAttemptsEndpoint(suffix = "") {
+    const base = String(CONFIG.endpoints?.examAttempts || "/v1/exam-attempts").replace(/\/+$/, "");
+    return `${base}${suffix}`;
+  }
+
+  function examManifestFromItems(items) {
+    return (Array.isArray(items) ? items : []).map(item => ({
+      order: Number(item.globalOrder),
+      part: Number(item.part),
+      sourceId: String(item.sourceId || ""),
+      sourceBook: Number(item.sourceBook),
+      sourceIndex: Number(item.sourceIndex),
+      questionNumber: Number(item.part) === 1 ? Number(item.questionNumber) : null,
+      promptEn: String(item.title || ""),
+      promptZh: String(item.titleZh || "")
+    }));
+  }
+
+  function examIntroItem(sessionId, mode, items) {
+    const first = items[0] || {};
+    return {
+      kind: "intro",
+      part: Number(mode.parts[0]),
+      sourceBook: Number(first.sourceBook || 1),
+      sourceIndex: Number(first.sourceIndex || 1),
+      globalOrder: 0,
+      title: "Could you tell me your full name please?",
+      titleZh: "可否告訴我你的全名？",
+      attemptId: sessionId,
+      saved: false
+    };
+  }
+
+  async function createPersistedExamAttempt(mode, pools, naturalExchange) {
+    let latest = null;
+    for (let retry = 0; retry < 3; retry += 1) {
+      const latestPayload = await apiJson(examAttemptsEndpoint("/latest"));
+      latest = latestPayload?.attempt || null;
+      const previousQuestions = Array.isArray(latest?.questions) ? latest.questions : [];
+      const options = {
+        excludedSourceKeys: previousQuestions.map(item => String(item?.sourceKey || "")).filter(Boolean),
+        excludedContentKeys: previousQuestions.map(item => String(item?.contentKey || "")).filter(Boolean)
+      };
+      const items = EXAM_MODE.buildExamItems(mode.id, pools, options);
+      const id = EXAM_MODE.createAttemptId();
+      try {
+        const payload = await apiJson(examAttemptsEndpoint(`/${id}`), {
+          method: "PUT",
+          body: JSON.stringify({
+            modeId: mode.id,
+            naturalExchange,
+            questions: examManifestFromItems(items)
+          })
+        });
+        return { id, items, persisted: payload?.attempt || null };
+      } catch (error) {
+        if (error?.code !== "EXAM_COOLDOWN_CONFLICT" || retry >= 2) throw error;
+      }
+    }
+    throw new Error("未能鎖定這次考試題目，請再試一次。");
+  }
+
+  async function startExamPractice(modeId) {
+    if (state.user?.role === "admin") {
+      toast("考試錄音流程只供學生帳戶使用。", "error");
+      return;
+    }
+    if (state.examStarting) return;
+    const mode = examModeDefinition(modeId);
+    if (!mode || typeof EXAM_MODE.buildExamItems !== "function" || typeof EXAM_MODE.createAttemptId !== "function") {
+      toast("考試練習模組未能載入，請重新整理後再試。", "error");
+      return;
+    }
+    const pools = examQuestionPools();
+    const naturalExchange = state.examNaturalExchange;
+    const startGeneration = ++state.examStartGeneration;
+    const authGeneration = state.authGeneration;
+    const routeGeneration = state.routeGeneration;
+    state.examStarting = true;
+    renderExamModes();
+    try {
+      const created = await createPersistedExamAttempt(mode, pools, naturalExchange);
+      if (
+        startGeneration !== state.examStartGeneration
+        || authGeneration !== state.authGeneration
+        || routeGeneration !== state.routeGeneration
+        || state.route.view !== "exam-modes"
+        || !state.user
+      ) return;
+      const items = created.items;
+      state.examSession = {
+        id: created.id,
+        modeId: mode.id,
+        mode,
+        items,
+        introItem: naturalExchange ? examIntroItem(created.id, mode, items) : null,
+        currentIndex: 0,
+        phase: naturalExchange ? "opening" : "question",
+        naturalExchange,
+        selectedNervousness: null,
+        nervousness: null,
+        completed: false,
+        idleBreakDurationMs: 0,
+        startedAt: String(created.persisted?.startedAt || new Date().toISOString())
+      };
+      state.examFlowGeneration += 1;
+      state.examSaving = false;
+      state.examSkipSaving = false;
+      navigate({ view: "exam-practice", exam: "ielts", modeId: mode.id });
+    } catch (error) {
+      if (startGeneration !== state.examStartGeneration || authGeneration !== state.authGeneration) return;
+      console.warn("Could not create speaking exam:", error);
+      toast(String(error?.message || "未能建立考試練習。"), "error");
+    } finally {
+      if (startGeneration === state.examStartGeneration) {
+        state.examStarting = false;
+        if (state.route.view === "exam-modes") renderExamModes();
+      }
+    }
+  }
+
+  function currentExamItem() {
+    const session = state.examSession;
+    if (!session || session.phase !== "question") return null;
+    return session.items[Number(session.currentIndex || 0)] || null;
+  }
+
+  function currentExamRecordingItem() {
+    const session = state.examSession;
+    if (!session) return null;
+    if (session.phase === "intro-answer") return session.introItem || null;
+    return currentExamItem();
+  }
+
+  function examItemKey(item = currentExamRecordingItem()) {
+    return item && state.examSession ? `${state.examSession.id}:${item.kind === "intro" ? "intro" : item.globalOrder}` : "";
+  }
+
+  function examPartPosition(item) {
+    const samePart = state.examSession?.items?.filter(entry => entry.part === item.part) || [];
+    return {
+      position: samePart.findIndex(entry => entry.globalOrder === item.globalOrder) + 1,
+      total: samePart.length
+    };
+  }
+
+  function renderExamProgress(item) {
+    const session = state.examSession;
+    const complete = Math.max(0, Number(session?.currentIndex || 0));
+    const total = session?.items?.length || 1;
+    const part = examPartPosition(item);
+    return `
+      <header class="exam-progress-card">
+        <div>
+          <span>${escapeHtml(session?.mode?.label || "考試練習")} · 時間 <time data-exam-elapsed-clock>${formatStopwatchDuration(examElapsedMilliseconds(session))}</time></span>
+          <strong>Part ${item.part} · 第 ${part.position} / ${part.total} 題</strong>
+        </div>
+        <progress class="exam-progress-meter" max="${total}" value="${complete}" aria-label="考試整體進度">${complete} / ${total}</progress>
+        <small>整體 ${complete} / ${total}</small>
+      </header>`;
+  }
+
+  function examFlowIsCurrent(sessionId, generation = state.examFlowGeneration) {
+    return Boolean(
+      state.examSession?.id === sessionId
+      && state.route.view === "exam-practice"
+      && generation === state.examFlowGeneration
+    );
+  }
+
+  function waitForExamDelay(milliseconds, sessionId, generation = state.examFlowGeneration) {
+    return new Promise(resolve => {
+      if (!examFlowIsCurrent(sessionId, generation)) {
+        resolve(false);
+        return;
+      }
+      if (state.examMessageTimer) window.clearTimeout(state.examMessageTimer);
+      if (typeof state.examMessageFinish === "function") state.examMessageFinish(false);
+      let settled = false;
+      const finish = value => {
+        if (settled) return;
+        settled = true;
+        if (state.examMessageFinish === finish) state.examMessageFinish = null;
+        resolve(Boolean(value));
+      };
+      state.examMessageFinish = finish;
+      state.examMessageTimer = window.setTimeout(() => {
+        state.examMessageTimer = 0;
+        finish(examFlowIsCurrent(sessionId, generation));
+      }, Math.max(0, Number(milliseconds || 0)));
+    });
+  }
+
+  function examAudioManifest() {
+    const value = window.EDMUND_SPEAKING_EXAM_AUDIO;
+    return value && typeof value === "object" ? value : {};
+  }
+
+  function examAudioKeyForItem(item) {
+    return String(item?.sourceKey || (typeof EXAM_MODE.sourceKeyForItem === "function" ? EXAM_MODE.sourceKeyForItem(item) : ""));
+  }
+
+  function examAudioKeyForText(text) {
+    return EXAM_FIXED_AUDIO_KEYS.get(String(text || "").trim()) || "";
+  }
+
+  function ensureExamAudioContext() {
+    if (state.examAudioContext && state.examAudioContext.state !== "closed") return state.examAudioContext;
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContext) return null;
+    try {
+      state.examAudioContext = new AudioContext();
+      return state.examAudioContext;
+    } catch {
+      return null;
+    }
+  }
+
+  function unlockExamAudio() {
+    const context = ensureExamAudioContext();
+    if (!context) return;
+    try {
+      const source = context.createBufferSource();
+      source.buffer = context.createBuffer(1, 1, context.sampleRate);
+      source.connect(context.destination);
+      source.start(0);
+    } catch {
+      // A resumed context is enough when a browser rejects the silent source.
+    }
+    const resumed = context.resume();
+    if (resumed?.catch) resumed.catch(() => {});
+  }
+
+  function decodeExamAudio(context, bytes) {
+    return new Promise((resolve, reject) => {
+      let settled = false;
+      const done = value => {
+        if (settled) return;
+        settled = true;
+        resolve(value);
+      };
+      const fail = error => {
+        if (settled) return;
+        settled = true;
+        reject(error);
+      };
+      try {
+        const result = context.decodeAudioData(bytes, done, fail);
+        if (result?.then) result.then(done, fail);
+      } catch (error) {
+        fail(error);
+      }
+    });
+  }
+
+  function rememberExamAudioBuffer(key, buffer) {
+    state.examAudioBufferCache.delete(key);
+    state.examAudioBufferCache.set(key, buffer);
+    while (state.examAudioBufferCache.size > EXAM_AUDIO_CACHE_LIMIT) {
+      state.examAudioBufferCache.delete(state.examAudioBufferCache.keys().next().value);
+    }
+  }
+
+  async function loadExamAudioBuffer(key, signal) {
+    const cached = state.examAudioBufferCache.get(key);
+    if (cached) {
+      rememberExamAudioBuffer(key, cached);
+      return cached;
+    }
+    const entry = examAudioManifest()[key];
+    const path = String(entry?.path || "");
+    if (!path) throw new Error(`Exam audio manifest has no entry for ${key}`);
+    const url = typeof window.EDMUND_AUDIO_URL === "function" ? window.EDMUND_AUDIO_URL(path) : path;
+    const response = await fetch(url, { credentials: "omit", signal });
+    if (!response.ok) throw new Error(`Exam audio returned ${response.status}`);
+    const contentLength = Number(response.headers.get("Content-Length") || 0);
+    if (contentLength > EXAM_AUDIO_MAX_BYTES) throw new Error("Exam audio clip exceeds the safety limit");
+    const bytes = await response.arrayBuffer();
+    if (!bytes.byteLength || bytes.byteLength > EXAM_AUDIO_MAX_BYTES) throw new Error("Exam audio clip is empty or too large");
+    const context = ensureExamAudioContext();
+    if (!context) throw new Error("Web Audio is not available");
+    const buffer = await decodeExamAudio(context, bytes);
+    rememberExamAudioBuffer(key, buffer);
+    return buffer;
+  }
+
+  function cancelExamSpeech() {
+    state.examSpeechGeneration += 1;
+    if (state.examSpeechTimeout) window.clearTimeout(state.examSpeechTimeout);
+    state.examSpeechTimeout = 0;
+    const finish = state.examSpeechFinish;
+    state.examSpeechFinish = null;
+    state.examAudioAbortController?.abort();
+    state.examAudioAbortController = null;
+    if (state.examAudioSource) {
+      state.examAudioSource.onended = null;
+      try { state.examAudioSource.stop(); } catch { /* The source may not have started. */ }
+      try { state.examAudioSource.disconnect(); } catch { /* The source may already be detached. */ }
+    }
+    state.examAudioSource = null;
+    if (typeof finish === "function") finish(false);
+  }
+
+  function finishExamSpeechNow() {
+    const finish = state.examSpeechFinish;
+    if (typeof finish !== "function") return;
+    state.examAudioAbortController?.abort();
+    state.examAudioAbortController = null;
+    if (state.examAudioSource) {
+      state.examAudioSource.onended = null;
+      try { state.examAudioSource.stop(); } catch { /* The source may not have started. */ }
+      try { state.examAudioSource.disconnect(); } catch { /* The source may already be detached. */ }
+      state.examAudioSource = null;
+    }
+    finish(true);
+  }
+
+  function speakExamText(text, requestedKey = "", options = {}) {
+    cancelExamSpeech();
+    const value = String(text || "").trim();
+    const key = String(requestedKey || examAudioKeyForText(value));
+    const generation = state.examSpeechGeneration;
+    if (!value || !key || !examAudioManifest()[key]) {
+      if (value && !state.examVoiceErrorShown) {
+        state.examVoiceErrorShown = true;
+        toast("考官語音暫時未能載入；題目仍可照常作答。", "error");
+      }
+      return new Promise(resolve => {
+        let settled = false;
+        const finish = forced => {
+          if (settled) return;
+          settled = true;
+          if (state.examSpeechTimeout) window.clearTimeout(state.examSpeechTimeout);
+          state.examSpeechTimeout = 0;
+          if (state.examSpeechFinish === finish) state.examSpeechFinish = null;
+          resolve(Boolean(forced || generation === state.examSpeechGeneration));
+        };
+        state.examSpeechFinish = finish;
+        state.examSpeechTimeout = window.setTimeout(() => {
+          finish(false);
+        }, 250);
+      });
+    }
+    return new Promise(resolve => {
+      let settled = false;
+      const finish = forced => {
+        if (settled) return;
+        settled = true;
+        if (state.examSpeechTimeout) window.clearTimeout(state.examSpeechTimeout);
+        state.examSpeechTimeout = 0;
+        if (state.examSpeechFinish === finish) state.examSpeechFinish = null;
+        state.examAudioAbortController = null;
+        if (state.examAudioSource) {
+          state.examAudioSource.onended = null;
+          try { state.examAudioSource.disconnect(); } catch { /* Already detached. */ }
+          state.examAudioSource = null;
+        }
+        resolve(Boolean(forced || generation === state.examSpeechGeneration));
+      };
+      state.examSpeechFinish = finish;
+      const controller = new AbortController();
+      state.examAudioAbortController = controller;
+      (async () => {
+        try {
+          const buffer = await loadExamAudioBuffer(key, controller.signal);
+          if (settled || controller.signal.aborted || generation !== state.examSpeechGeneration) return;
+          const context = ensureExamAudioContext();
+          if (!context) throw new Error("Web Audio is not available");
+          await context.resume();
+          if (settled || controller.signal.aborted || generation !== state.examSpeechGeneration) return;
+          const source = context.createBufferSource();
+          source.buffer = buffer;
+          source.connect(context.destination);
+          const risingInflection = options.risingInflection === true || /[?？][\s”"’')\]]*$/.test(value);
+          if (
+            risingInflection
+            && source.playbackRate?.setValueAtTime
+            && source.playbackRate?.linearRampToValueAtTime
+            && Number.isFinite(context.currentTime)
+          ) {
+            const tail = Math.min(
+              EXAM_RISING_INFLECTION_TAIL_SECONDS,
+              Math.max(0.35, buffer.duration * 0.28)
+            );
+            const riseStart = Math.max(0, buffer.duration - tail);
+            const now = context.currentTime;
+            source.playbackRate.setValueAtTime(1, now);
+            source.playbackRate.setValueAtTime(1, now + riseStart);
+            source.playbackRate.linearRampToValueAtTime(
+              EXAM_RISING_INFLECTION_RATE,
+              now + riseStart + (tail / ((1 + EXAM_RISING_INFLECTION_RATE) / 2))
+            );
+          }
+          source.onended = () => finish(true);
+          state.examAudioSource = source;
+          state.examSpeechTimeout = window.setTimeout(() => {
+            try { source.stop(); } catch { /* Audio already ended. */ }
+            finish(true);
+          }, Math.min(120000, Math.max(5000, Math.ceil(buffer.duration * 1000) + 5000)));
+          source.start(0);
+        } catch (error) {
+          if (controller.signal.aborted || settled) return;
+          console.warn("Exam voice audio failed:", error);
+          if (!state.examVoiceErrorShown) {
+            state.examVoiceErrorShown = true;
+            toast("考官語音暫時未能載入；題目仍可照常作答。", "error");
+          }
+          finish(true);
+        }
+      })();
+    });
+  }
+
+  function examinerBubbleHtml(text, extraClass = "") {
+    return `
+      <article class="examiner-message${extraClass ? ` ${extraClass}` : ""}">
+        <p lang="en">${escapeHtml(text)}</p>
+      </article>`;
+  }
+
+  function examIntroductionSkipHtml() {
+    return `
+      <div class="exam-intro-skip-control">
+        <button type="button" data-exam-skip-intro>跳過姓名問題，開始正式考試 →</button>
+      </div>`;
+  }
+
+  function enableCurrentExamRecorder(message = "") {
+    const button = document.querySelector("[data-record-toggle]");
+    if (button) {
+      button.hidden = false;
+      button.disabled = Boolean(state.examSaving || state.examSkipSaving);
+      button.textContent = "● 開始回答";
+    }
+    if (message) recordingStatus(message, false);
+    syncRecorderControls();
+  }
+
+  function examQuestionSpeechText(item) {
+    return String(item?.title || "");
+  }
+
+  async function speakCurrentExamQuestion(item) {
+    if (!item || item.questionSpeechStarted) return;
+    const session = state.examSession;
+    if (!session) return;
+    item.questionSpeechStarted = true;
+    const sessionId = session.id;
+    const itemKey = examItemKey(item);
+    const generation = state.examFlowGeneration;
+    await speakExamText(
+      examQuestionSpeechText(item),
+      examAudioKeyForItem(item),
+      { risingInflection: true }
+    );
+    if (!examFlowIsCurrent(sessionId, generation) || examItemKey() !== itemKey) return;
+    if (item.prepBypassed || item.skipped) return;
+    item.questionSpeechDone = true;
+    enableCurrentExamRecorder();
+  }
+
+  function beginExamPart2Preparation(item) {
+    if (!item || item.part !== 2 || item.prepBypassed || item.skipped) return;
+    item.questionSpeechStarted = true;
+    item.questionSpeechDone = true;
+    if (!item.settleEndsAt || !item.prepEndsAt) {
+      const now = Date.now();
+      item.cueDisplayedAt = now;
+      item.prepPhase = "settling";
+      item.settleEndsAt = now + EXAM_PART2_SETTLE_MS;
+      item.prepEndsAt = item.settleEndsAt + EXAM_PART2_PREP_MS;
+    }
+  }
+
+  async function startExamOpeningSequence() {
+    const session = state.examSession;
+    if (!session || session.phase !== "opening" || session.openingStarted) return;
+    session.openingStarted = true;
+    const sessionId = session.id;
+    const generation = state.examFlowGeneration;
+    await speakExamText("Okay, let's begin.");
+    if (!await waitForExamDelay(EXAM_OPENING_GAP_MS, sessionId, generation)) return;
+    const second = document.querySelector("[data-exam-opening-name]");
+    if (second) {
+      second.hidden = false;
+      second.classList.add("is-entering");
+    }
+    await speakExamText("Could you tell me your full name please?");
+    if (!examFlowIsCurrent(sessionId, generation) || state.examSession?.phase !== "opening") return;
+    session.phase = "intro-answer";
+    const answer = document.querySelector("[data-exam-intro-answer]");
+    if (answer) answer.hidden = false;
+    enableCurrentExamRecorder();
+  }
+
+  async function runExamExchange() {
+    const session = state.examSession;
+    const exchange = session?.exchange;
+    if (!session || session.phase !== "exchange" || !exchange || exchange.started) return;
+    exchange.started = true;
+    const sessionId = session.id;
+    const generation = state.examFlowGeneration;
+    for (let index = 0; index < exchange.messages.length; index += 1) {
+      if (!examFlowIsCurrent(sessionId, generation) || state.examSession?.exchange !== exchange) return;
+      const bubble = document.querySelector(`[data-exam-exchange-message="${index}"]`);
+      if (bubble) {
+        bubble.hidden = false;
+        bubble.querySelector(".examiner-message")?.classList.add("is-entering");
+      }
+      await speakExamText(exchange.messages[index]);
+      if (index < exchange.messages.length - 1 && !await waitForExamDelay(EXAM_MESSAGE_GAP_MS, sessionId, generation)) return;
+    }
+    if (!examFlowIsCurrent(sessionId, generation) || state.examSession?.exchange !== exchange) return;
+    session.exchange = null;
+    if (exchange.completeAfter) {
+      session.phase = "rating";
+    } else {
+      session.currentIndex = exchange.nextIndex;
+      session.phase = "question";
+    }
+    renderExamPractice();
+  }
+
+  async function startExamPart2Opening(item) {
+    const session = state.examSession;
+    if (!session || !item || item.part2OpeningStarted) return;
+    item.part2OpeningStarted = true;
+    const sessionId = session.id;
+    const generation = state.examFlowGeneration;
+    await speakExamText("So here is your question. I'll give you a pencil there as well. I'll give you one minute to take some notes. Okay?");
+    if (!examFlowIsCurrent(sessionId, generation) || currentExamItem() !== item) return;
+    item.part2OpeningDone = true;
+    renderExamPractice();
+  }
+
+  function renderExamRecorder(item, ready = true) {
+    if (item.saved) {
+      return `
+        <section class="exam-answer-recorder is-saved">
+          <div><span class="cue-label">ANSWER SAVED · 答案已儲存</span><p>本題 MP3 已加入這次考試練習錄音。</p></div>
+          <div data-exam-proceed-slot>${examProceedButtonHtml()}</div>
+        </section>`;
+    }
+    return `
+      <section class="exam-answer-recorder" aria-labelledby="exam-recording-heading">
+        <div>
+          <span class="cue-label" id="exam-recording-heading">YOUR ANSWER · 你的回答</span>
+          ${item.part === 2 && item.kind !== "intro" ? "<p>錄音開始後有 2 分鐘；時間到會自動停止並儲存。</p>" : ""}
+          <div class="recording-status" data-recording-status><span role="status" aria-live="polite"></span></div>
+        </div>
+        <div class="recorder-controls">
+          <button class="record-button exam-record-button" type="button" data-record-toggle ${ready ? "" : "hidden disabled"}>● 開始回答</button>
+          <button class="secondary-button finish-recording-button" type="button" data-finish-recording hidden>■ 完成回答</button>
+          ${item.kind === "intro" ? "" : `<button class="secondary-button exam-skip-question-button" type="button" data-exam-skip-question ${state.examSkipSaving ? "disabled" : ""}>${state.examSkipSaving ? "正在跳過…" : "跳過此題 →"}</button>`}
+        </div>
+        <div class="recording-preview" data-recording-preview hidden></div>
+        <div data-exam-proceed-slot></div>
+      </section>`;
+  }
+
+  function renderExamPart1(item) {
+    return `
+      <section class="exam-question-card exam-part1-question is-entering">
+        <div class="exam-question-meta">
+          <span>THEME ${item.themeSlot} · ${escapeHtml(item.themeTitle)}</span>
+        </div>
+        <h1 lang="en" tabindex="-1" data-exam-focus>${escapeHtml(item.title)}</h1>
+        <p lang="zh-Hant">${escapeHtml(item.titleZh)}</p>
+      </section>
+      ${renderExamRecorder(item, Boolean(item.questionSpeechDone))}`;
+  }
+
+  function renderExamPart2(item) {
+    const ready = item.prepPhase === "ready" && (!state.examSession?.naturalExchange || item.readyPromptSpoken);
+    const timerLabel = item.prepPhase === "ready"
+      ? ready ? "準備時間完成" : "考官正在提示開始"
+      : item.prepPhase === "preparing"
+        ? "準備時間 · PREPARATION"
+        : "題目已顯示 · 倒數即將開始";
+    const timerClock = item.prepPhase === "ready"
+      ? "0:00"
+      : item.prepPhase === "preparing"
+        ? "1:00"
+        : "0:02";
+    return `
+      <section class="exam-prep-timer" data-exam-prep-timer>
+        <span data-exam-prep-label>${timerLabel}</span>
+        <strong data-exam-prep-clock role="timer" aria-live="off">${timerClock}</strong>
+        ${item.prepPhase === "ready" ? "" : '<button class="exam-prep-skip-button" type="button" data-exam-skip-prep>略過準備時間，立即回答</button>'}
+        <span class="visually-hidden" role="status" aria-live="polite" data-exam-phase-status></span>
+      </section>
+      <section class="exam-question-card exam-cue-card is-entering">
+        <div class="exam-question-meta"><span>IELTS SPEAKING · PART 2</span><img class="exam-cue-edmund-logo" src="Font%20Transparent.png" alt="Edmund Education"></div>
+        ${item.cueTitle ? `<p class="exam-cue-topic">${escapeHtml(item.cueTitle)}${item.cueTitleZh ? `<span>${escapeHtml(item.cueTitleZh)}</span>` : ""}</p>` : ""}
+        <h1 lang="en" tabindex="-1" data-exam-focus>${escapeHtml(item.title)}</h1>
+        <p class="exam-cue-prompt-zh" lang="zh-Hant">${escapeHtml(item.titleZh)}</p>
+        <div class="exam-cue-hints">
+          <strong>You should say: <span>你應該說明：</span></strong>
+          <ul>${item.hints.map(hint => `<li><span lang="en">${escapeHtml(hint.en)}</span>${hint.zh ? `<small lang="zh-Hant">${escapeHtml(hint.zh)}</small>` : ""}</li>`).join("")}</ul>
+        </div>
+        ${item.ppf ? `
+          <aside class="exam-ppf-hint">
+            <strong>PPF IDEA · 過去／現在／未來提示</strong>
+            ${item.ppf.en ? `<p>${escapeHtml(item.ppf.en)}</p>` : ""}
+            ${item.ppf.zh ? `<p lang="zh-Hant">${escapeHtml(item.ppf.zh)}</p>` : ""}
+          </aside>` : ""}
+      </section>
+      <div class="examiner-conversation exam-part2-ready-message" data-exam-part2-ready-message ${item.readyPromptSpoken ? "" : "hidden"}>
+        ${item.readyPromptSpoken ? examinerBubbleHtml("Okay, you can begin.") : ""}
+      </div>
+      ${renderExamRecorder(item, ready)}`;
+  }
+
+  function renderExamPart3(item) {
+    return `
+      <section class="exam-question-card exam-part3-question is-entering">
+        <div class="exam-question-meta"><span>IELTS SPEAKING · PART 3</span></div>
+        <h1 lang="en" tabindex="-1" data-exam-focus>${escapeHtml(item.title)}</h1>
+        <p lang="zh-Hant">${escapeHtml(item.titleZh)}</p>
+      </section>
+      ${renderExamRecorder(item, Boolean(item.questionSpeechDone))}`;
+  }
+
+  function renderExamOpening() {
+    const session = state.examSession;
+    const ready = session?.phase === "intro-answer";
+    const intro = session?.introItem;
+    dom.content.innerHTML = `
+      <article class="exam-practice-view exam-opening-view">
+        ${examCoverHtml()}
+        <section class="exam-examiner-panel" aria-labelledby="exam-opening-heading">
+          <p class="eyebrow">IELTS SPEAKING · NATURAL EXAMINER EXCHANGE</p>
+          <h1 id="exam-opening-heading" tabindex="-1" data-exam-focus>考官開場</h1>
+          <div class="examiner-conversation">
+            ${examinerBubbleHtml("Okay, let's begin.", "is-entering")}
+            <article class="examiner-message${ready ? "" : " is-waiting"}" data-exam-opening-name ${ready ? "" : "hidden"}>
+              <p lang="en"><strong>Could you tell me your full name please?</strong></p>
+            </article>
+          </div>
+          ${examIntroductionSkipHtml()}
+        </section>
+        <section class="exam-intro-answer" data-exam-intro-answer ${ready ? "" : "hidden"}>
+          <div class="exam-candidate-tip">
+            <span>回答提示 · ANSWER TIP</span>
+            <strong lang="en">My full name is XXX, but you can call me (English Name)</strong>
+            <p lang="zh-Hant">練習時毋須使用真實姓名。</p>
+          </div>
+          ${renderExamRecorder(intro, ready)}
+        </section>
+      </article>`;
+    syncRecorderControls();
+    renderExamProceedAction();
+    if (!ready) startExamOpeningSequence();
+    window.requestAnimationFrame(() => document.querySelector("[data-exam-focus]")?.focus({ preventScroll: true }));
+  }
+
+  function renderExamExchange() {
+    const session = state.examSession;
+    const exchange = session?.exchange;
+    if (!exchange) return;
+    dom.content.innerHTML = `
+      <article class="exam-practice-view exam-exchange-view">
+        ${examCoverHtml()}
+        <section class="exam-examiner-panel">
+          <p class="eyebrow">IELTS SPEAKING · EXAMINER</p>
+          <h1 tabindex="-1" data-exam-focus>考官自然過場</h1>
+          <div class="examiner-conversation">
+            ${exchange.messages.map((message, index) => `
+              <div data-exam-exchange-message="${index}" hidden>${examinerBubbleHtml(message)}</div>
+            `).join("")}
+          </div>
+        </section>
+      </article>`;
+    runExamExchange();
+    window.requestAnimationFrame(() => document.querySelector("[data-exam-focus]")?.focus({ preventScroll: true }));
+  }
+
+  function renderExamPart2Opening(item) {
+    dom.content.innerHTML = `
+      <article class="exam-practice-view exam-exchange-view">
+        ${examCoverHtml()}
+        ${renderExamProgress(item)}
+        <section class="exam-examiner-panel">
+          <p class="eyebrow">IELTS SPEAKING · PART 2</p>
+          <h1 tabindex="-1" data-exam-focus>考官正在交代準備方式</h1>
+          <div class="examiner-conversation">
+            ${examinerBubbleHtml("So here is your question. I'll give you a pencil there as well. I'll give you one minute to take some notes. Okay?", "is-entering")}
+          </div>
+        </section>
+      </article>`;
+    startExamPart2Opening(item);
+    window.requestAnimationFrame(() => document.querySelector("[data-exam-focus]")?.focus({ preventScroll: true }));
+  }
+
+  function examQuestionBookmark(item) {
+    return {
+      kind: "question",
+      exam: "ielts",
+      part: Number(item.part),
+      book: Number(item.sourceBook),
+      exerciseId: String(item.sourceId || ""),
+      questionNumber: Number(item.part) === 1 ? Number(item.questionNumber) : 1
+    };
+  }
+
+  function examQuestionSourceRoute(item) {
+    const liveExercise = speakingExercises(Number(item.part), Number(item.sourceBook))
+      .find(exercise => String(exercise?.id || "") === String(item.sourceId || ""));
+    return {
+      view: "exercise",
+      exam: "ielts",
+      part: Number(item.part),
+      book: Number(item.sourceBook),
+      exerciseIndex: Number(liveExercise?.index || item.sourceIndex),
+      questionNumber: Number(item.part) === 1 ? Number(item.questionNumber) : 1
+    };
+  }
+
+  function renderExamReviewQuestion(item) {
+    const bookmark = examQuestionBookmark(item);
+    const sourceRoute = examQuestionSourceRoute(item);
+    const sourceAllowed = routeAllowed(sourceRoute);
+    const route = encodeURIComponent(JSON.stringify(sourceRoute));
+    return `
+      <article class="exam-review-question">
+        <div class="exam-review-order"><span>Q</span><strong>${pad(item.globalOrder)}</strong></div>
+        <div class="exam-review-copy">
+          <span>Part ${item.part} · Book ${item.sourceBook}${item.part === 1 ? ` · 題庫 Q${item.questionNumber}` : ""}${item.skipped ? ' · <strong class="exam-skipped-badge">已跳過</strong>' : ""}</span>
+          <h3 lang="en">${escapeHtml(item.title)}</h3>
+          ${item.titleZh ? `<p lang="zh-Hant">${escapeHtml(item.titleZh)}</p>` : ""}
+          ${item.part === 2 && Array.isArray(item.hints) && item.hints.length ? `
+            <ul>${item.hints.map(hint => `<li>${escapeHtml(hint.en)}${hint.zh ? `<small>${escapeHtml(hint.zh)}</small>` : ""}</li>`).join("")}</ul>` : ""}
+        </div>
+        <div class="exam-review-actions">
+          <button class="exam-review-source-link" type="button" data-open-exam-source="${escapeHtml(route)}" ${sourceAllowed ? "" : "disabled"}>Book ${item.sourceBook} · ${sourceAllowed ? "查看 Band 9 答案 →" : "來源目前未開放"}</button>
+          ${sourceAllowed ? bookmarkButtonHtml(bookmark, "exam-review-bookmark") : ""}
+        </div>
+      </article>`;
+  }
+
+  function renderExamRating() {
+    const session = state.examSession;
+    const selected = Number(session?.selectedNervousness || 0);
+    dom.content.innerHTML = `
+      <article class="exam-practice-view exam-rating-view">
+        ${examCoverHtml()}
+        <section class="exam-rating-card">
+          <p class="eyebrow">SELF-EVALUATION · 自我評估</p>
+          <h1 tabindex="-1" data-exam-focus>How nervous were you in the whole process?</h1>
+          <p lang="zh-Hant">回想整個練習過程，選擇最符合你當時緊張程度的數字。</p>
+          <div class="exam-nervousness-scale" role="radiogroup" aria-label="Nervousness from 1 to 7">
+            ${Array.from({ length: 7 }, (_, index) => index + 1).map(value => `
+              <button class="exam-rating-circle${selected === value ? " is-selected" : ""}" type="button"
+                role="radio" aria-checked="${selected === value}" tabindex="${selected ? selected === value ? 0 : -1 : value === 1 ? 0 : -1}"
+                data-exam-rating="${value}" ${state.examRatingSaving ? "disabled" : ""}>${value}</button>
+            `).join("")}
+          </div>
+          <p class="exam-rating-status" role="status" aria-live="polite" data-exam-rating-status>${state.examRatingSaving ? "正在儲存自我評估…" : session?.ratingError ? escapeHtml(session.ratingError) : selected ? `你選擇了 ${selected} / 7。` : "請選擇 1 至 7。"}</p>
+          <button class="primary-button" type="button" data-submit-exam-rating ${selected && !state.examRatingSaving ? "" : "disabled"}>儲存並查看今次題目 →</button>
+        </section>
+      </article>`;
+    window.requestAnimationFrame(() => document.querySelector("[data-exam-focus]")?.focus({ preventScroll: true }));
+  }
+
+  function selectExamRating(value, options = {}) {
+    const rating = Number(value);
+    const session = state.examSession;
+    if (!session || session.phase !== "rating" || state.examRatingSaving || !Number.isInteger(rating) || rating < 1 || rating > 7) return;
+    session.selectedNervousness = rating;
+    session.ratingError = "";
+    document.querySelectorAll("[data-exam-rating]").forEach(button => {
+      const selected = Number(button.dataset.examRating) === rating;
+      button.classList.toggle("is-selected", selected);
+      button.setAttribute("aria-checked", String(selected));
+      button.tabIndex = selected ? 0 : -1;
+    });
+    const status = document.querySelector("[data-exam-rating-status]");
+    if (status) status.textContent = `你選擇了 ${rating} / 7。`;
+    const submit = document.querySelector("[data-submit-exam-rating]");
+    if (submit) submit.disabled = false;
+    if (options.focus) document.querySelector(`[data-exam-rating="${rating}"]`)?.focus();
+  }
+
+  function renderExamCompletion() {
+    const session = state.examSession;
+    const groups = session?.mode?.parts || [];
+    dom.content.innerHTML = `
+      <article class="exam-practice-view exam-review-view">
+        ${examCoverHtml()}
+        <section class="exam-complete-card exam-review-heading">
+          <span aria-hidden="true">✓</span>
+          <p class="eyebrow">IELTS SPEAKING · EXAM COMPLETE</p>
+          <h1 tabindex="-1" data-exam-focus>考試練習完成</h1>
+          <p>${escapeHtml(session?.mode?.label || "考試練習")} 已完成。你的緊張程度自評是 <strong>${Number(session?.nervousness || 0)} / 7</strong>。</p>
+          <p class="exam-total-duration">總練習時間：<strong data-exam-total-duration>${formatStopwatchDuration(examElapsedMilliseconds(session))}</strong></p>
+        </section>
+        <section class="exam-review-list" aria-labelledby="exam-review-list-heading">
+          <div class="exam-review-list-heading">
+            <div><span>RANDOM QUESTION REVIEW</span><h2 id="exam-review-list-heading">今次隨機抽到的題目</h2></div>
+            <p>可直接返回來源練習閱讀 Band 9 示範，或把原題加入書簽。</p>
+          </div>
+          ${groups.map(part => `
+            <section class="exam-review-part" aria-labelledby="exam-review-part-${part}">
+              <h2 id="exam-review-part-${part}">Part ${part}</h2>
+              <div>${session.items.filter(item => item.part === part).map(renderExamReviewQuestion).join("")}</div>
+            </section>
+          `).join("")}
+        </section>
+        <div class="exam-complete-actions">
+          <button class="primary-button" type="button" data-go="attempts">查看考試練習錄音</button>
+          <button class="secondary-button" type="button" data-new-exam>再做一次</button>
+        </div>
+      </article>`;
+    window.requestAnimationFrame(() => document.querySelector("[data-exam-focus]")?.focus({ preventScroll: true }));
+  }
+
+  async function submitExamRating() {
+    const session = state.examSession;
+    const rating = Number(session?.selectedNervousness || 0);
+    if (!session || session.phase !== "rating" || state.examRatingSaving || !Number.isInteger(rating) || rating < 1 || rating > 7) return;
+    session.ratingError = "";
+    state.examRatingSaving = true;
+    renderExamRating();
+    try {
+      const payload = await apiJson(examAttemptsEndpoint(`/${session.id}`), {
+        method: "PATCH",
+        body: JSON.stringify({ nervousness: rating })
+      });
+      if (state.examSession?.id !== session.id) return;
+      session.nervousness = Number(payload?.attempt?.nervousness || rating);
+      session.startedAt = String(payload?.attempt?.startedAt || session.startedAt || "");
+      session.completedAt = String(payload?.attempt?.completedAt || new Date().toISOString());
+      session.phase = "review";
+      session.completed = true;
+      clearExamElapsedTimer();
+      updateExamElapsedClock();
+      renderExamCompletion();
+      toast("自我評估已儲存。", "info");
+    } catch (error) {
+      console.warn("Could not save exam self-evaluation:", error);
+      session.ratingError = String(error?.message || "未能儲存自我評估，請再試一次。");
+      toast(String(error?.message || "未能儲存自我評估。"), "error");
+    } finally {
+      state.examRatingSaving = false;
+      if (state.examSession?.id === session.id && session.phase === "rating") renderExamRating();
+    }
+  }
+
+  function renderExamPractice() {
+    const modeId = state.route.modeId;
+    const session = state.examSession;
+    if (!session || session.modeId !== modeId) {
+      dom.content.innerHTML = `
+        <section class="notice-card">
+          <h2>這次考試尚未開始</h2>
+          <p>返回考試練習模式，選擇一個模式後便會重新隨機抽題。</p>
+          <button class="primary-button" type="button" data-open-exam-modes>選擇考試模式</button>
+        </section>`;
+      return;
+    }
+    if (["opening", "intro-answer"].includes(session.phase)) {
+      renderExamOpening();
+      return;
+    }
+    if (session.phase === "exchange") {
+      renderExamExchange();
+      return;
+    }
+    if (session.phase === "rating") {
+      renderExamRating();
+      return;
+    }
+    if (session.phase === "review" || session.completed) {
+      renderExamCompletion();
+      return;
+    }
+    const item = currentExamItem();
+    if (!item) {
+      session.phase = "rating";
+      renderExamRating();
+      return;
+    }
+    if (item.part === 2 && session.naturalExchange && !item.part2OpeningDone) {
+      renderExamPart2Opening(item);
+      return;
+    }
+    if (item.part === 2) beginExamPart2Preparation(item);
+    dom.content.innerHTML = `
+      <article class="exam-practice-view">
+        ${examCoverHtml()}
+        ${renderExamProgress(item)}
+        <div class="exam-question-stage">
+          ${item.part === 1 ? renderExamPart1(item) : item.part === 2 ? renderExamPart2(item) : renderExamPart3(item)}
+        </div>
+      </article>`;
+    if (item.part === 2 && item.prepPhase !== "ready" && !item.prepBypassed) startExamPart2Timer(item);
+    if (item.part !== 2 && !item.questionSpeechStarted) speakCurrentExamQuestion(item);
+    syncRecorderControls();
+    renderExamProceedAction();
+    window.requestAnimationFrame(() => document.querySelector("[data-exam-focus]")?.focus({ preventScroll: true }));
+  }
+
+  function startExamPart2Timer(item) {
+    clearExamPhaseTimer();
+    if (!item || item.prepBypassed || item.prepPhase === "ready" || window.EdmundIdleBreak?.isPaused?.()) return;
+    const key = examItemKey(item);
+    const update = () => {
+      if (state.route.view !== "exam-practice" || examItemKey() !== key) {
+        clearExamPhaseTimer();
+        return;
+      }
+      if (item.prepBypassed || item.prepPhase === "ready") {
+        clearExamPhaseTimer();
+        return;
+      }
+      const now = Date.now();
+      const label = document.querySelector("[data-exam-prep-label]");
+      const clock = document.querySelector("[data-exam-prep-clock]");
+      const phaseStatus = document.querySelector("[data-exam-phase-status]");
+      if (now < item.settleEndsAt) {
+        const seconds = Math.max(1, Math.ceil((item.settleEndsAt - now) / 1000));
+        if (label) label.textContent = "題目已顯示 · 準備倒數即將開始";
+        if (clock) clock.textContent = `0:0${seconds}`;
+        return;
+      }
+      if (now < item.prepEndsAt) {
+        item.prepPhase = "preparing";
+        if (item.announcedPrepPhase !== "preparing") {
+          item.announcedPrepPhase = "preparing";
+          if (phaseStatus) phaseStatus.textContent = "一分鐘準備時間已開始。";
+        }
+        const seconds = Math.max(0, Math.ceil((item.prepEndsAt - now) / 1000));
+        if (label) label.textContent = "準備時間 · PREPARATION";
+        if (clock) clock.textContent = `${Math.floor(seconds / 60)}:${pad(seconds % 60)}`;
+        return;
+      }
+      item.prepPhase = "ready";
+      item.announcedPrepPhase = "ready";
+      clearExamPhaseTimer();
+      if (label) label.textContent = state.examSession?.naturalExchange ? "準備時間完成 · 考官正在提示開始" : "準備時間完成 · 可以開始回答";
+      if (clock) clock.textContent = "0:00";
+      if (phaseStatus) phaseStatus.textContent = "準備時間完成。";
+      if (state.examSession?.naturalExchange) announceExamPart2Ready(item);
+      else enableCurrentExamRecorder();
+    };
+    update();
+    if (item.prepPhase !== "ready") state.examPhaseTimer = window.setInterval(update, 250);
+  }
+
+  async function announceExamPart2Ready(item) {
+    if (!item || item.readyPromptStarted) return;
+    const session = state.examSession;
+    if (!session) return;
+    item.readyPromptStarted = true;
+    const sessionId = session.id;
+    const generation = state.examFlowGeneration;
+    const slot = document.querySelector("[data-exam-part2-ready-message]");
+    if (slot) {
+      slot.hidden = false;
+      slot.innerHTML = examinerBubbleHtml("Okay, you can begin.", "is-entering");
+    }
+    await speakExamText("Okay, you can begin.");
+    if (!examFlowIsCurrent(sessionId, generation) || currentExamItem() !== item) return;
+    item.readyPromptSpoken = true;
+    const label = document.querySelector("[data-exam-prep-label]");
+    if (label) label.textContent = "準備時間完成 · 可以開始回答";
+    enableCurrentExamRecorder();
+  }
+
+  function examAnswerInteractionBusy() {
+    return Boolean(
+      state.examSaving
+      || state.examSkipSaving
+      || state.recordingPermissionPending
+      || state.recordingProcessing
+      || state.recordingTransition
+      || ["recording", "paused"].includes(state.mediaRecorder?.state)
+      || (state.recordedMp3 && !state.recordingSaved)
+    );
+  }
+
+  function syncExamBypassControls() {
+    const busy = examAnswerInteractionBusy();
+    const skipQuestion = document.querySelector("[data-exam-skip-question]");
+    if (skipQuestion) {
+      skipQuestion.disabled = busy;
+      skipQuestion.textContent = state.examSkipSaving ? "正在跳過…" : "跳過此題 →";
+    }
+    const skipPrep = document.querySelector("[data-exam-skip-prep]");
+    if (skipPrep) skipPrep.disabled = busy;
+    const skipIntro = document.querySelector("[data-exam-skip-intro]");
+    if (skipIntro) {
+      skipIntro.disabled = busy;
+      skipIntro.textContent = state.examSkipSaving ? "正在跳過姓名問題…" : "跳過姓名問題，開始正式考試 →";
+    }
+  }
+
+  async function skipExamIntroduction() {
+    const session = state.examSession;
+    const item = session?.introItem;
+    if (
+      !session
+      || !item
+      || !["opening", "intro-answer"].includes(session.phase)
+      || item.saved
+      || item.skipped
+      || examAnswerInteractionBusy()
+    ) return;
+    const sessionId = session.id;
+    const originalPhase = session.phase;
+    state.examSkipSaving = true;
+    state.examFlowGeneration += 1;
+    clearExamPhaseTimer();
+    cancelExamSpeech();
+    syncRecorderControls();
+    try {
+      const payload = await apiJson(examAttemptsEndpoint(`/${sessionId}/introduction/skip`), { method: "PUT" });
+      if (state.examSession?.id !== sessionId || state.examSession?.introItem !== item) return;
+      item.skipped = payload?.attempt?.introSkipped !== false;
+      item.skippedAt = new Date().toISOString();
+      state.examSkipSaving = false;
+      session.phase = "question";
+      session.currentIndex = 0;
+      renderExamPractice();
+      toast("已跳過姓名問題，現在開始正式考試。", "info");
+    } catch (error) {
+      if (state.examSession?.id !== sessionId) return;
+      console.warn("Could not skip exam introduction:", error);
+      state.examSkipSaving = false;
+      session.phase = originalPhase;
+      if (originalPhase === "opening") session.openingStarted = false;
+      renderExamPractice();
+      toast(String(error?.message || "未能跳過姓名問題，請再試一次。"), "error");
+    } finally {
+      if (state.examSession?.id === sessionId) {
+        state.examSkipSaving = false;
+        syncRecorderControls();
+      }
+    }
+  }
+
+  function skipExamPart2Prep() {
+    const item = currentExamItem();
+    if (!item || item.part !== 2 || item.prepPhase === "ready" || item.saved || item.skipped || examAnswerInteractionBusy()) return;
+    item.prepBypassed = true;
+    item.questionSpeechStarted = true;
+    item.questionSpeechDone = true;
+    item.prepPhase = "ready";
+    item.readyPromptStarted = true;
+    item.readyPromptSpoken = true;
+    item.settleEndsAt = Date.now();
+    item.prepEndsAt = item.settleEndsAt;
+    clearExamPhaseTimer();
+    cancelExamSpeech();
+    renderExamPractice();
+    enableCurrentExamRecorder();
+    syncExamBypassControls();
+  }
+
+  async function skipCurrentExamQuestion() {
+    const session = state.examSession;
+    const item = currentExamItem();
+    if (!session || !item || item.kind === "intro" || item.saved || item.skipped || examAnswerInteractionBusy()) return;
+    const sessionId = session.id;
+    const itemKey = examItemKey(item);
+    const order = Number(item.globalOrder);
+    state.examSkipSaving = true;
+    syncRecorderControls();
+    try {
+      await apiJson(examAttemptsEndpoint(`/${sessionId}/questions/${order}/skip`), { method: "PUT" });
+      if (state.examSession?.id !== sessionId || examItemKey() !== itemKey || currentExamItem() !== item) return;
+      item.skipped = true;
+      item.skippedAt = new Date().toISOString();
+      state.examSkipSaving = false;
+      advanceExamItem();
+      toast("已跳過這一題。", "info");
+    } catch (error) {
+      if (state.examSession?.id !== sessionId || examItemKey() !== itemKey) return;
+      console.warn("Could not skip exam question:", error);
+      toast(String(error?.message || "未能跳過這一題，請再試一次。"), "error");
+    } finally {
+      if (state.examSession?.id === sessionId) {
+        state.examSkipSaving = false;
+        syncRecorderControls();
+      }
+    }
+  }
+
+  function examProceedButtonHtml() {
+    const session = state.examSession;
+    const item = currentExamRecordingItem();
+    if (!session || !item?.saved) return "";
+    if (item.kind === "intro") {
+      return '<button class="primary-button exam-proceed-button" type="button" data-exam-proceed>開始正式考試 →</button>';
+    }
+    const next = session.items[session.currentIndex + 1] || null;
+    const label = !next ? "完成考試 →" : next.part !== item.part ? `前往 Part ${next.part} →` : "下一題 →";
+    return `<button class="primary-button exam-proceed-button" type="button" data-exam-proceed>${label}</button>`;
+  }
+
+  function renderExamProceedAction() {
+    const slot = document.querySelector("[data-exam-proceed-slot]");
+    if (slot) slot.innerHTML = examProceedButtonHtml();
+  }
+
+  function naturalMessagesAfterItem(item, next) {
+    if (!state.examSession?.naturalExchange || !item || item.kind === "intro") return [];
+    if (typeof EXAM_MODE.naturalTransitionMessages !== "function") return [];
+    return EXAM_MODE.naturalTransitionMessages(
+      state.examSession.modeId,
+      item.part,
+      next?.part ?? null,
+      { answered: !item.skipped }
+    );
+  }
+
+  function advanceExamItem() {
+    const session = state.examSession;
+    const item = currentExamRecordingItem();
+    if (!session || !(item?.saved || item?.skipped) || state.examSaving || state.examSkipSaving) return;
+    cancelRecorder();
+    clearExamPhaseTimer();
+    cancelExamSpeech();
+    if (item.kind === "intro") {
+      session.phase = "question";
+      session.currentIndex = 0;
+      renderExamPractice();
+      return;
+    }
+    const nextIndex = session.currentIndex + 1;
+    const next = session.items[nextIndex] || null;
+    const messages = naturalMessagesAfterItem(item, next);
+    if (messages.length) {
+      session.phase = "exchange";
+      session.exchange = {
+        messages,
+        nextIndex,
+        completeAfter: !next,
+        started: false
+      };
+      renderExamPractice();
+      return;
+    }
+    if (!next) session.phase = "rating";
+    else {
+      session.currentIndex = nextIndex;
+      session.phase = "question";
+    }
+    renderExamPractice();
+  }
+
+  function renderBooks(part) {
+    const validPart = [1, 2, 3].includes(Number(part)) ? Number(part) : 1;
+    const availableBooks = speakingBooks().filter(item => (
+      Number(item?.part) === validPart && bookIsVisible(item?.book, item?.part)
+    ));
+    const availableExercises = availableBooks.reduce((count, item) => count + Number(item?.exerciseCount || item?.exercises?.length || 0), 0);
+    dom.content.innerHTML = `
+      <section class="content-panel">
+        ${sectionHeader(`IELTS Speaking · Part ${validPart}`, availableBooks.length ? `選擇練習冊。${availableBooks.length} 本練習冊共有 ${availableExercises} 個完整 Band 9 示範。` : "選擇練習冊。")}
+        ${validPart === 3 ? '<a class="choice-card dse-type-entry" href="speaking-system.html?view=ielts-part3-types" data-open-ielts-part3-types><span class="card-number">QUESTION TYPE FINDER</span><strong>By Question Type · 按題型練習</strong><small>按你的國家、應否、原因、影響等題型搜尋所有 Part 3 問題。</small></a>' : ''}
+        <div class="book-grid">
+          ${Array.from({ length: visibleBookLimit(validPart) }, (_, index) => {
+            const book = index + 1;
+            const available = bookAvailable(validPart, book);
+            const allowed = hasAccess(["exam.ielts", `ielts.part.${validPart}`, `ielts.part.${validPart}.book.${book}`]);
+            const bookmark = { kind: "book", exam: "ielts", part: validPart, book };
+            return `
+              <div class="selection-card-wrap book-card-wrap">
+                <button class="book-card${available ? " available" : ""}${allowed ? "" : " access-locked"}" type="button" data-book="${book}" data-part="${validPart}" ${allowed ? "" : 'aria-disabled="true"'}>
+                  <strong>Book ${book}</strong>
+                  <span>${available ? `Book ${book} of Part ${validPart} · ${speakingBook(validPart, book)?.exerciseCount || speakingBook(validPart, book)?.exercises?.length || 0} exercises` : allowed ? "內容準備中" : "尚未開放"}</span>
+                </button>
+                ${allowed ? bookmarkButtonHtml(bookmark) : ""}
+              </div>
+            `;
+          }).join("")}
+        </div>
+      </section>
+    `;
+  }
+
+  function booksFromSpeakingPayload(data) {
+    if (!data) return [];
+    if (Array.isArray(data.books)) return data.books;
+    if (Array.isArray(data)) return [{ part: 2, book: 1, exerciseCount: data.length, exercises: data }];
+    if (Array.isArray(data.exercises)) {
+      return [{ part: Number(data.metadata?.part || 2), book: Number(data.metadata?.book || 1), exerciseCount: data.exercises.length, exercises: data.exercises }];
+    }
+    const nested = data.ielts?.parts?.[2]?.books?.[1]
+      || data.ielts?.part2?.book1
+      || data.part2?.book1
+      || data.book1;
+    return Array.isArray(nested?.exercises) ? [{ part: 2, book: 1, exerciseCount: nested.exercises.length, exercises: nested.exercises }] : [];
+  }
+
+  function speakingBooks() {
+    const books = [
+      ...booksFromSpeakingPayload(window.EDMUND_SPEAKING_PART1_DATA || {}),
+      ...booksFromSpeakingPayload(window.EDMUND_SPEAKING_DATA || {}),
+      ...booksFromSpeakingPayload(window.EDMUND_SPEAKING_PART3_DATA || {})
+    ];
+    const unique = new Map();
+    books.forEach(book => unique.set(`${Number(book?.part)}:${Number(book?.book)}`, book));
+    return [...unique.values()].sort((left, right) => (
+      Number(left?.part) - Number(right?.part) || Number(left?.book) - Number(right?.book)
+    ));
+  }
+
+  function speakingBook(part = state.route.part, book = state.route.book) {
+    return speakingBooks().find(item => Number(item?.part) === Number(part) && Number(item?.book) === Number(book)) || null;
+  }
+
+  function rawSpeakingExercises(part = state.route.part, book = state.route.book) {
+    const selected = speakingBook(part, book);
+    return Array.isArray(selected?.exercises) ? selected.exercises : [];
+  }
+
+  function normalizeResponse(section, index) {
+    const source = section || {};
+    return {
+      number: Number(source.number || source.index || index + 1),
+      headingEn: String(source.heading_en || source.headingEn || source.heading || source.title_en || source.title || `Response ${index + 1}`).replace(/^\s*\d+[.)]?\s*/, ""),
+      headingZh: String(source.heading_zh || source.headingZh || source.title_zh || source.subtitle || ""),
+      textEn: String(source.english_text || source.text_en || source.textEn || source.english || source.en || source.response_en || ""),
+      textZh: String(source.chinese_text || source.text_zh || source.textZh || source.chinese || source.zh || source.response_zh || "")
+    };
+  }
+
+  function normalizePart3Step(step, index) {
+    const source = step || {};
+    const fallbackStages = ["idea", "explanation", "example", "conclusion"];
+    const stage = String(source.stage || fallbackStages[index] || `step-${index + 1}`).toLocaleLowerCase("en");
+    const stageLabels = {
+      idea: ["Idea", "觀點"],
+      explanation: ["Explanation", "解釋"],
+      example: ["Example", "例子"],
+      conclusion: ["Conclusion", "總結"]
+    };
+    const labels = stageLabels[stage] || [`Step ${index + 1}`, `步驟 ${index + 1}`];
+    return {
+      stage,
+      labelEn: String(source.labelEn || source.label_en || source.sourceLabel || source.source_label || source.label || labels[0]).replace(/\s+2$/, ""),
+      labelZh: String(source.labelZh || source.label_zh || labels[1]),
+      textEn: String(source.textEn || source.text_en || source.english || source.english_text || source.response_en || ""),
+      textZh: String(source.textZh || source.text_zh || source.chinese || source.chinese_text || source.response_zh || "")
+    };
+  }
+
+  function normalizePart3Model(model, index) {
+    const source = model || {};
+    const steps = source.steps || source.components || source.sections || [];
+    return {
+      number: Number(source.number || source.modelNumber || source.model_number || index + 1),
+      steps: Array.isArray(steps) ? steps.map(normalizePart3Step) : []
+    };
+  }
+
+  function normalizePart1Question(question, index) {
+    const source = question || {};
+    return {
+      number: Number(source.number || index + 1),
+      questionEn: String(source.questionEn || source.question_en || source.english || ""),
+      questionZh: String(source.questionZh || source.question_zh || source.chinese || ""),
+      answerEn: String(source.answerEn || source.answer_en || source.responseEn || source.response_en || ""),
+      answerZh: String(source.answerZh || source.answer_zh || source.responseZh || source.response_zh || "")
+    };
+  }
+
+  function cueObjectText(cue, exercise) {
+    if (!cue || typeof cue !== "object") return "";
+    const lines = [];
+    const addPair = (en, zh) => {
+      if (en) lines.push(String(en));
+      if (zh) lines.push(String(zh));
+    };
+    addPair(cue.titleEn || cue.title_en || exercise.title, cue.titleZh || cue.title_zh);
+    addPair(cue.promptEn || cue.prompt_en || cue.questionEn || cue.question_en || cue.prompt, cue.promptZh || cue.prompt_zh || cue.questionZh || cue.question_zh);
+    addPair(cue.instructionEn || cue.instruction_en || "You should say:", cue.instructionZh || cue.instruction_zh || "你應該說明：");
+    const hints = cue.hints || cue.bullets || cue.points || [];
+    if (Array.isArray(hints)) {
+      hints.forEach(hint => {
+        if (typeof hint === "string") lines.push(`• ${hint}`);
+        else {
+          if (hint?.en || hint?.english || hint?.textEn) lines.push(`• ${hint.en || hint.english || hint.textEn}`);
+          if (hint?.zh || hint?.chinese || hint?.textZh) lines.push(`  ${hint.zh || hint.chinese || hint.textZh}`);
+        }
+      });
+    }
+    if (cue.noteEn || cue.note_en || cue.noteZh || cue.note_zh) {
+      addPair(cue.noteEn || cue.note_en, cue.noteZh || cue.note_zh);
+    }
+    return lines.filter(Boolean).join("\n");
+  }
+
+  function normalizeCueCard(source) {
+    const cue = source?.cue && typeof source.cue === "object" ? source.cue : {};
+    let cueTitle = String(cue.titleEn || cue.title_en || source?.title || "").trim();
+    let cueTitleZh = String(cue.titleZh || cue.title_zh || source?.titleZh || source?.title_zh || "").trim();
+    let promptEn = String(cue.promptEn || cue.prompt_en || cue.questionEn || cue.question_en || source?.title || "").trim();
+    let promptZh = String(cue.promptZh || cue.prompt_zh || cue.questionZh || cue.question_zh || source?.titleZh || source?.title_zh || "").trim();
+    let hints = Array.isArray(cue.hints) ? cue.hints.map(hint => ({
+      en: String(hint?.en || hint?.english || hint?.textEn || "").trim(),
+      zh: String(hint?.zh || hint?.chinese || hint?.textZh || "").trim()
+    })) : [];
+    const labelOnly = /^(?:please\s+(?:say|tell me)|you should\s+(?:say|mention))\s*:?[\s.]*$/i;
+    hints = hints.filter(hint => (hint.en || hint.zh) && !labelOnly.test(hint.en));
+
+    if (/^(?:describe|talk about|tell me about)\b/i.test(cueTitle) && !/^(?:describe|talk about|tell me about)\b/i.test(promptEn)) {
+      if (promptEn || promptZh) hints.unshift({ en: promptEn, zh: promptZh });
+      promptEn = cueTitle;
+      promptZh = cueTitleZh || promptZh;
+      cueTitle = "";
+      cueTitleZh = "";
+    } else if (normalizeSearchText(cueTitle) === normalizeSearchText(promptEn)) {
+      cueTitle = "";
+      cueTitleZh = "";
+    }
+
+    const ppfSource = cue.ppf && typeof cue.ppf === "object" ? cue.ppf : null;
+    const ppf = ppfSource ? {
+      en: String(ppfSource.en || ppfSource.english || "").trim(),
+      zh: String(ppfSource.zh || ppfSource.chinese || "").trim()
+    } : null;
+    return {
+      titleEn: cueTitle,
+      titleZh: cueTitleZh,
+      promptEn,
+      promptZh,
+      hints,
+      ppf: ppf?.en || ppf?.zh ? ppf : null
+    };
+  }
+
+  function normalizeExercise(raw, fallbackIndex, part = 2, book = 1) {
+    const source = raw || {};
+    const index = Number(source.index || source.number || fallbackIndex);
+    if (Number(part) === 1) {
+      const questionSource = source.questions || source.items || [];
+      const questions = Array.isArray(questionSource)
+        ? questionSource.map(normalizePart1Question).filter(question => question.questionEn && question.answerEn)
+        : [];
+      return {
+        id: String(source.id || source.slug || `ielts-part-1-book-${book}-module-${pad(index)}`),
+        part: 1,
+        book: Number(book),
+        index,
+        title: String(source.title || source.topic || source.name || `Module ${index}`),
+        titleZh: String(source.titleZh || source.title_zh || source.topicZh || source.topic_zh || ""),
+        cueText: "",
+        questions,
+        questionCount: questions.length,
+        responseModels: [],
+        responses: [],
+        unavailable: !raw || !questions.length
+      };
+    }
+    if (Number(part) === 3) {
+      const question = source.question && typeof source.question === "object" ? source.question : {};
+      const modelSource = source.responseModels || source.response_models || source.responsePaths || source.models || [];
+      const responseModels = Array.isArray(modelSource)
+        ? modelSource.map(normalizePart3Model).filter(model => model.steps.length)
+        : [];
+      const title = String(source.title || source.topic || question.english || question.en || source.question_en || `Exercise ${index}`);
+      const titleZh = String(source.titleZh || source.title_zh || question.chinese || question.zh || source.question_zh || "");
+      return {
+        id: String(source.id || source.slug || `ielts-part-3-book-${book}-exercise-${pad(index)}`),
+        part: 3,
+        book: Number(book),
+        index,
+        title,
+        titleZh,
+        cueText: String(source.cueText || source.cue_text || `${title}${titleZh ? `\n${titleZh}` : ""}`),
+        themeId: String(source.themeId || source.theme_id || source.categoryId || source.category_id || "discussion"),
+        themeTitle: String(source.themeTitle || source.theme_title || source.categoryTitle || source.category_title || "Discussion"),
+        responseModels,
+        responses: [],
+        unavailable: !raw || !responseModels.length
+      };
+    }
+    const sections = source.sections || source.responses || source.responseCards || source.answers || [];
+    const responses = Array.isArray(sections)
+      ? sections.slice(0, 4).map(normalizeResponse)
+      : [];
+    while (responses.length < 4) responses.push(normalizeResponse(null, responses.length));
+    const cueCard = normalizeCueCard(source);
+    return {
+      id: String(source.id || source.slug || `ielts-part-${part}-book-${book}-exercise-${pad(index)}`),
+      part: Number(part),
+      book: Number(book),
+      index,
+      title: String(source.title || source.topic || source.name || `Exercise ${index}`),
+      titleZh: String(source.title_zh || source.titleZh || source.topic_zh || source.cue?.titleZh || source.cue?.title_zh || ""),
+      cueText: String(source.cue_raw || source.cueRaw || source.question_raw || source.question || source.cue?.raw || cueObjectText(source.cue, source) || ""),
+      cueCard,
+      responses,
+      unavailable: !raw
+    };
+  }
+
+  function speakingExercises(part = state.route.part, book = state.route.book) {
+    const source = rawSpeakingExercises(part, book);
+    return source.map((exercise, index) => normalizeExercise(exercise, index + 1, part, book));
+  }
+
+  function allSpeakingExercises() {
+    return speakingBooks()
+      .filter(book => bookIsVisible(book?.book, book?.part))
+      .flatMap(book => speakingExercises(book.part, book.book));
+  }
+
+  function openRequestedHomeworkExercise() {
+    if (state.requestedHomeworkExerciseOpened || state.user?.role !== "student") return false;
+    const exerciseId = String(new URLSearchParams(window.location.search).get("exercise") || "").trim();
+    if (!exerciseId) return false;
+    state.requestedHomeworkExerciseOpened = true;
+    const exercise = exerciseId.length <= 240
+      ? allSpeakingExercises().find((item) => item.id === exerciseId)
+      : null;
+    if (!exercise) {
+      toast("這個 Speaking 練習目前不存在。", "error");
+      return false;
+    }
+    const route = {
+      view: "exercise",
+      exam: "ielts",
+      part: Number(exercise.part),
+      book: Number(exercise.book),
+      exerciseIndex: Number(exercise.index),
+      questionNumber: Math.max(0, Number(new URLSearchParams(location.search).get("question")) || 0)
+    };
+    if (!routeAllowed(route)) {
+      toast("您的帳戶尚未開放這個 Speaking 練習範圍。", "error");
+      return false;
+    }
+    navigate(route, { reset: true, skipGuard: true });
+    const answerIndex = new URLSearchParams(location.search).get('answer');
+    if (answerIndex !== null && /^\d+$/.test(answerIndex)) focusSpeakingAnswer(exercise,Number(answerIndex));
+    return true;
+  }
+
+  function focusSpeakingAnswer(exercise,answerIndex) {
+    requestAnimationFrame(() => {
+      const answers = dom.content.querySelectorAll('.part1-answer-message .part1-message-en,.response-card .response-en,.part3-step .part3-step-en');
+      if (Number(exercise.part) === 1) revealPart1Through(answerIndex * 2 + 1);
+      const answer = answers[answerIndex];
+      if (answer?.closest('[data-part3-model]')) openPart3Model(Number(answer.closest('[data-part3-model]').dataset.part3Model));
+      if (answer) { answer.id = `speaking-answer-${answerIndex}`; answer.closest('details')?.setAttribute('open',''); answer.classList.add('speaking-source-focus'); answer.scrollIntoView({block:'center'}); }
+    });
+  }
+
+  function openSpeakingWordSource(href) {
+    if (state.user?.role !== 'student') return false;
+    let url;try{url=new URL(href,location.href);}catch{return false;}
+    if(url.origin!==location.origin||!url.pathname.endsWith('/speaking-system.html'))return false;
+    const exerciseId=String(url.searchParams.get('exercise')||'');
+    const answerText=String(url.searchParams.get('answer')||'');
+    const exercise=allSpeakingExercises().find(item=>item.id===exerciseId);
+    if(!exercise||!/^\d+$/.test(answerText))return false;
+    const route={view:'exercise',exam:'ielts',part:Number(exercise.part),book:Number(exercise.book),exerciseIndex:Number(exercise.index)};
+    if(!routeAllowed(route))return false;
+    navigate(route,{skipGuard:true});
+    if(currentExercise()?.id!==exercise.id)return false;
+    focusSpeakingAnswer(exercise,Number(answerText));
+    history.replaceState(history.state,'',`${location.pathname}?exercise=${encodeURIComponent(exercise.id)}&answer=${Number(answerText)}#speaking-answer-${Number(answerText)}`);
+    return true;
+  }
+
+  function openRequestedHomeworkMockMode() {
+    if (state.requestedHomeworkMockModeOpened || state.user?.role !== "student") return false;
+    const parameters = new URLSearchParams(window.location.search);
+    const exam = String(parameters.get("exam") || "").trim();
+    const modeId = String(parameters.get("mode") || "").trim();
+    if (!exam && !modeId) return false;
+    state.requestedHomeworkMockModeOpened = true;
+    const mode = exam === "ielts"
+      ? examModeDefinition(modeId)
+      : exam === "dse"
+        ? DSE_MODE.modeForId?.(modeId)
+        : null;
+    const allowedIeltsModes = new Set(["p1", "p2", "p3", "p1-p2", "p1-p3", "p2-p3"]);
+    if (!mode || (exam === "ielts" && !allowedIeltsModes.has(modeId))) {
+      toast("這個 Speaking 模擬考試模式目前不存在。", "error");
+      return true;
+    }
+    const route = exam === "dse"
+      ? { view: "dse-modes", exam: "dse" }
+      : { view: "exam-modes", exam: "ielts" };
+    if (!routeAllowed(route)) {
+      toast("您的帳戶尚未開放這個 Speaking 模擬考試範圍。", "error");
+      return true;
+    }
+    navigate(route, { reset: true, skipGuard: true });
+    window.requestAnimationFrame(() => {
+      const button = document.querySelector(exam === "dse"
+        ? `[data-dse-mode="${modeId}"]`
+        : `[data-exam-mode="${modeId}"]`);
+      button?.scrollIntoView({ behavior: preferredScrollBehavior(), block: "center" });
+      button?.focus({ preventScroll: true });
+      toast(`已開啟 ${exam.toUpperCase()} ${mode.labelZh || mode.shortLabel || mode.label}。按所選模式即可開始。`);
+    });
+    return true;
+  }
+
+  function openRequestedRecordingLibrary() {
+    if (state.requestedRecordingLibraryOpened || state.user?.role !== "student") return false;
+    if (new URLSearchParams(window.location.search).get("library") !== "1") return false;
+    state.requestedRecordingLibraryOpened = true;
+    navigate({ view: "attempts" }, { reset: true, skipGuard: true });
+    return true;
+  }
+
+  function currentExercise() {
+    const index = Number(state.route.exerciseIndex || 0);
+    return speakingExercises().find(item => item.index === index) || speakingExercises()[index - 1] || null;
+  }
+
+  function exerciseCardHtml(exercise, part, book) {
+    const allowed = routeAllowed({ view: "exercise", exam: "ielts", part, book });
+    const bookmark = { kind: "exercise", exam: "ielts", part, book, exerciseId: exercise.id };
+    const subtitle = exercise.titleZh
+      ? escapeHtml(part === 1 ? `${exercise.titleZh} · ${exercise.questionCount || exercise.questions?.length || 0} questions` : exercise.titleZh)
+      : exercise.unavailable
+        ? "資料準備中"
+        : part === 1
+          ? `${exercise.questionCount || exercise.questions?.length || 0} question conversation`
+        : part === 3
+          ? "Two Band 9 response routes"
+          : "Cue card · Band 9 sample";
+    return `
+      <div class="selection-card-wrap exercise-card-wrap">
+        <button class="exercise-card${allowed ? "" : " access-locked"}" type="button" data-exercise-index="${exercise.index}"${exercise.unavailable || !allowed ? " disabled" : ""}>
+          <span class="exercise-index">${pad(exercise.index)}</span>
+          <span>
+            ${part === 3 ? `<em class="exercise-theme">${escapeHtml(exercise.themeTitle || "Discussion")}</em>` : ""}
+            <strong>${escapeHtml(exercise.title)}</strong>
+            <small>${subtitle}</small>
+          </span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </button>
+        ${allowed ? bookmarkButtonHtml(bookmark) : ""}
+      </div>`;
+  }
+
+  function renderExercises() {
+    const exercises = speakingExercises();
+    const part = Number(state.route.part || 2);
+    const book = Number(state.route.book || 1);
+    const description = part === 3
+      ? `選擇 ${exercises.length} 條討論題。每題以兩條清晰的 Idea → Explanation → Example → Conclusion 路線呈現。`
+      : part === 1
+        ? `選擇對話主題。每組以 Examiner 問題與 Band 9 答案交替呈現，並提供雙語字幕及錄音練習。`
+        : `選擇 ${exercises.length} 個題目之一，閱讀雙語 cue card 及四部分 Band 9 示範，然後錄下自己的答案。`;
+    const exerciseContent = part === 3
+      ? [...new Map(exercises.map(exercise => [exercise.themeId, exercise.themeTitle || "Discussion"])).entries()].map(([themeId, themeTitle]) => `
+          <section class="part3-theme-group" aria-labelledby="theme-${escapeHtml(themeId)}">
+            <div class="part3-theme-heading" id="theme-${escapeHtml(themeId)}">
+              <span>${escapeHtml(themeTitle)}</span>
+              <small>${exercises.filter(exercise => exercise.themeId === themeId).length} questions</small>
+            </div>
+            <div class="exercise-grid">
+              ${exercises.filter(exercise => exercise.themeId === themeId).map(exercise => exerciseCardHtml(exercise, part, book)).join("")}
+            </div>
+          </section>`).join("")
+      : `<div class="exercise-grid">${exercises.map(exercise => exerciseCardHtml(exercise, part, book)).join("")}</div>`;
+    dom.content.innerHTML = `
+      <section class="content-panel">
+        ${sectionHeader(`Book ${book} of Part ${part}`, description)}
+        ${part === 3 ? '<a class="secondary-button" href="speaking-system.html?view=ielts-part3-types" data-open-ielts-part3-types>按題型尋找 Part 3 問題</a>' : ''}
+        ${exerciseContent}
+      </section>
+    `;
+  }
+
+  function renderBookmarks() {
+    if (state.user?.role !== "student" || !hasAccess(["bookmarks"])) {
+      dom.content.innerHTML = '<section class="notice-card"><h2>書簽尚未開放</h2><p>請聯絡管理員開放這個範圍。</p></section>';
+      return;
+    }
+    if (!state.bookmarksLoaded) {
+      dom.content.innerHTML = `<section class="content-panel">${sectionHeader("書簽", "正在同步你的 Speaking 書簽。")}${dom.loadingTemplate?.innerHTML || '<div class="loading-state">載入中…</div>'}</section>`;
+      loadBookmarks().then(() => {
+        if (state.route.view === "bookmarks") renderBookmarks();
+      }).catch(() => {
+        if (state.route.view !== "bookmarks") return;
+        dom.content.innerHTML = '<section class="notice-card"><h2>未能載入書簽</h2><p>請檢查網絡後再試。</p><button class="secondary-button" type="button" data-retry-bookmarks>重新載入</button></section>';
+      });
+      return;
+    }
+    const visibleBookmarks = state.bookmarks.filter(bookmarkIsVisible);
+    dom.content.innerHTML = `
+      <section class="content-panel">
+        ${sectionHeader("書簽", "你收藏的練習範疇、Part、Book 及題目會跟隨帳戶同步。", `${visibleBookmarks.length} 個書簽`)}
+        ${visibleBookmarks.length ? `
+          <div class="bookmark-list">
+            ${visibleBookmarks.map(bookmark => {
+              const route = routeForBookmark(bookmark);
+              const available = Boolean(route) && routeAllowed(route)
+                && (bookmark.kind !== "book" || bookAvailable(bookmark.part, bookmark.book));
+              const encoded = encodeURIComponent(JSON.stringify(bookmark));
+              return `
+                <div class="bookmark-list-row">
+                  <button class="bookmark-open-button" type="button" data-open-saved-bookmark="${escapeHtml(encoded)}" ${available ? "" : "disabled"}>
+                    <span><strong>${escapeHtml(bookmarkTitle(bookmark))}</strong><small>${escapeHtml(bookmarkSubtitle(bookmark))}</small></span>
+                    <em>${available ? "進入" : "內容準備中"}</em>
+                  </button>
+                  ${bookmarkButtonHtml(bookmark, "bookmark-list-remove")}
+                </div>`;
+            }).join("")}
+          </div>` : `
+          <div class="empty-state">
+            <span class="empty-icon" aria-hidden="true">☆</span>
+            <h2>暫時未有書簽</h2>
+            <p>在任何選擇方塊右邊或練習頁首按 ☆，便可把它收藏到這裡。</p>
+          </div>`}
+      </section>
+    `;
+    syncBookmarkButtons();
+    speakingWordList?.mountList(dom.content);
+  }
+
+  function allAccessKeys() {
+    return ACCESS_SECTIONS.flatMap(section => [
+      section.key,
+      ...(section.children || []).flatMap(child => [child.key, ...(child.children || []).map(item => item.key)])
+    ]);
+  }
+
+  function canonicalAccess(value) {
+    const normalized = normalizeAccess(value);
+    return Object.fromEntries(allAccessKeys()
+      .filter(key => normalized[key] === false)
+      .map(key => [key, false]));
+  }
+
+  function accessValuesEqual(left, right) {
+    const leftValue = canonicalAccess(left);
+    const rightValue = canonicalAccess(right);
+    return allAccessKeys().every(key => leftValue[key] === rightValue[key]);
+  }
+
+  function effectiveAdminAccess(student) {
+    if (!student) return {};
+    return state.adminAccessDrafts.get(student.id) || student.access || {};
+  }
+
+  function setAdminAccessDraft(student, nextAccess) {
+    if (!student) return;
+    const draft = canonicalAccess(nextAccess);
+    if (accessValuesEqual(draft, student.access)) state.adminAccessDrafts.delete(student.id);
+    else state.adminAccessDrafts.set(student.id, draft);
+  }
+
+  function syncAdminDraftControls() {
+    const student = state.adminStudents.find(row => row.id === state.selectedAdminStudentId);
+    const dirty = Boolean(student && state.adminAccessDrafts.has(student.id));
+    const save = document.querySelector("[data-admin-save-access]");
+    const discard = document.querySelector("[data-admin-discard-access]");
+    if (save) save.disabled = state.adminAccessSaving || !dirty;
+    if (discard) discard.disabled = state.adminAccessSaving || !dirty;
+    const saveBar = document.querySelector(".admin-save-bar");
+    if (saveBar) saveBar.classList.toggle("is-dirty", dirty && !state.adminAccessSaving);
+    const status = document.querySelector("[data-admin-save-status]");
+    if (status) {
+      status.textContent = state.adminAccessSaving
+        ? "正在一次過儲存這位學生的全部權限改動…"
+        : dirty
+          ? "改動只保存在這個畫面，尚未寫入資料庫。確認後請按「儲存全部改動」。"
+          : "目前沒有未儲存的改動。開關不會自動寫入資料庫。";
+      status.classList.toggle("is-dirty", dirty && !state.adminAccessSaving);
+    }
+    document.querySelectorAll("[data-admin-unsaved-student]").forEach(badge => {
+      badge.hidden = !state.adminAccessDrafts.has(badge.dataset.adminUnsavedStudent);
+    });
+  }
+
+  function adminAccessBranchHtml(item, depth = 0) {
+    const student = state.adminStudents.find(row => row.id === state.selectedAdminStudentId);
+    const checked = effectiveAdminAccess(student)?.[item.key] !== false;
+    const children = item.children || [];
+    return `
+      <div class="admin-access-branch depth-${depth}">
+        <label class="admin-access-toggle">
+          <span>${escapeHtml(item.label)}</span>
+          <input type="checkbox" data-admin-access-key="${escapeHtml(item.key)}" ${checked ? "checked" : ""} ${state.adminAccessSaving ? "disabled" : ""}>
+        </label>
+        ${children.length ? `<details class="admin-access-children" ${depth === 0 && item.key === "exam.ielts" ? "open" : ""}>
+          <summary>細項（${children.length}）</summary>
+          <div>${children.map(child => adminAccessBranchHtml(child, depth + 1)).join("")}</div>
+        </details>` : ""}
+      </div>
+    `;
+  }
+
+  function filteredAdminStudents() {
+    const tokens = searchTokens(state.adminStudentQuery);
+    if (!tokens.length) return state.adminStudents;
+    return state.adminStudents.filter(student => searchMatches(student.name, tokens));
+  }
+
+  function renderAdminPanel() {
+    if (state.user?.role !== "admin") {
+      dom.content.innerHTML = '<section class="notice-card"><h2>管理員登入所需</h2></section>';
+      return;
+    }
+    if (!state.adminStudentsLoaded) {
+      dom.content.innerHTML = `<section class="content-panel">${sectionHeader("Admin 控制台", "讀取學生帳戶及 Speaking 權限。", "ADMIN")}${dom.loadingTemplate?.innerHTML || '<div class="loading-state">載入中…</div>'}</section>`;
+      if (!state.adminStudentsLoading) loadAdminStudents();
+      return;
+    }
+    const students = filteredAdminStudents();
+    const selected = state.adminStudents.find(student => student.id === state.selectedAdminStudentId) || null;
+    const selectedDirty = Boolean(selected && state.adminAccessDrafts.has(selected.id));
+    dom.content.innerHTML = `
+      <section class="content-panel admin-panel">
+        ${sectionHeader("Admin 控制台", "按學生開關 Speaking 範疇、IELTS Part 及每一本練習冊。帳戶及密碼繼續與其他 Edmund 系統共用。", "ADMIN · ACCESS")}
+        <p><a class="secondary-button" href="dse-argument-bank.html?view=recordings">DSE 論點大全 · 學生錄音</a></p>
+        <div class="admin-layout">
+          <aside class="admin-student-panel">
+            <label class="admin-student-search">
+              <span>搜尋學生</span>
+              <input type="search" data-admin-student-search value="${escapeHtml(state.adminStudentQuery)}" placeholder="輸入學生名稱">
+            </label>
+            <div class="admin-student-list">
+              ${students.length ? students.map(student => `
+                <button class="admin-student-row${student.id === state.selectedAdminStudentId ? " active" : ""}" type="button" data-admin-student-id="${escapeHtml(student.id)}">
+                  <strong>${escapeHtml(student.name)}</strong>
+                  <small>${student.accessUpdatedAt ? `權限更新：${escapeHtml(formatDate(student.accessUpdatedAt))}` : escapeHtml(formatDate(student.accountUpdatedAt || student.createdAt))}</small>
+                  <em class="admin-unsaved-badge" data-admin-unsaved-student="${escapeHtml(student.id)}" ${state.adminAccessDrafts.has(student.id) ? "" : "hidden"}>未儲存</em>
+                </button>`).join("") : '<p class="search-empty">找不到學生帳戶。</p>'}
+            </div>
+          </aside>
+          <div class="admin-access-panel">
+            ${selected ? `
+              <div class="admin-access-heading">
+                <div><h2>${escapeHtml(selected.name)}</h2><p>父層關閉後，其下所有 Part／Book 都會停止開放。</p></div>
+                <div class="admin-access-actions">
+                  <button class="secondary-button" type="button" data-admin-set-all="true" ${state.adminAccessSaving ? "disabled" : ""}>全部開啟</button>
+                  <button class="secondary-button" type="button" data-admin-set-all="false" ${state.adminAccessSaving ? "disabled" : ""}>全部關閉</button>
+                </div>
+              </div>
+              <div class="admin-access-tree">${ACCESS_SECTIONS.map(item => adminAccessBranchHtml(item)).join("")}</div>
+              <div class="admin-save-bar${selectedDirty ? " is-dirty" : ""}">
+                <p class="admin-save-status${selectedDirty ? " is-dirty" : ""}" data-admin-save-status role="status" aria-live="polite">${state.adminAccessSaving ? "正在一次過儲存這位學生的全部權限改動…" : selectedDirty ? "改動只保存在這個畫面，尚未寫入資料庫。確認後請按「儲存全部改動」。" : "目前沒有未儲存的改動。開關不會自動寫入資料庫。"}</p>
+                <div class="admin-save-actions">
+                  <button class="secondary-button" type="button" data-admin-discard-access ${state.adminAccessSaving || !selectedDirty ? "disabled" : ""}>取消改動</button>
+                  <button class="primary-button admin-save-button" type="button" data-admin-save-access ${state.adminAccessSaving || !selectedDirty ? "disabled" : ""}>${state.adminAccessSaving ? "正在儲存…" : "儲存全部改動"}</button>
+                </div>
+              </div>
+            ` : '<div class="empty-state"><h2>請選擇學生</h2><p>從左邊選擇帳戶以管理 Speaking 權限。</p></div>'}
+          </div>
+        </div>
+      </section>
+    `;
+  }
+
+  async function loadAdminStudents() {
+    if (state.user?.role !== "admin" || state.adminStudentsLoading) return;
+    const generation = ++state.adminRequestGeneration;
+    state.adminStudentsLoading = true;
+    try {
+      const payload = await apiJson(CONFIG.endpoints?.adminStudents || "/v1/admin/students");
+      if (generation !== state.adminRequestGeneration || state.user?.role !== "admin") return;
+      state.adminStudents = (Array.isArray(payload?.students) ? payload.students : []).map(student => ({
+        id: String(student.id || ""),
+        name: String(student.name || "Student"),
+        createdAt: String(student.createdAt || ""),
+        accountUpdatedAt: String(student.updatedAt || ""),
+        accessUpdatedAt: String(student.accessUpdatedAt || ""),
+        access: normalizeAccess(student.access)
+      })).filter(student => student.id);
+      state.adminStudentsLoaded = true;
+      if (!state.adminStudents.some(student => student.id === state.selectedAdminStudentId)) {
+        state.selectedAdminStudentId = state.adminStudents[0]?.id || "";
+      }
+      if (state.route.view === "admin") renderAdminPanel();
+    } catch (error) {
+      if (generation !== state.adminRequestGeneration) return;
+      console.warn("Could not load Speaking students:", error);
+      dom.content.innerHTML = `<section class="notice-card"><h2>未能載入學生</h2><p>${escapeHtml(error?.message || "請檢查網絡後再試。")}</p><button class="secondary-button" type="button" data-retry-admin-students>重新載入</button></section>`;
+    } finally {
+      if (generation === state.adminRequestGeneration) state.adminStudentsLoading = false;
+    }
+  }
+
+  async function saveAdminStudentAccess() {
+    const student = state.adminStudents.find(row => row.id === state.selectedAdminStudentId);
+    const draft = student ? state.adminAccessDrafts.get(student.id) : null;
+    if (!student || !draft || state.adminAccessSaving) return;
+    const studentId = student.id;
+    const snapshot = canonicalAccess(draft);
+    state.adminAccessSaving = true;
+    renderAdminPanel();
+    try {
+      const base = String(CONFIG.endpoints?.adminStudents || "/v1/admin/students").replace(/\/+$/, "");
+      const payload = await apiJson(`${base}/${encodeURIComponent(studentId)}/access`, {
+        method: "PUT",
+        body: JSON.stringify({ access: snapshot })
+      });
+      const savedStudent = state.adminStudents.find(row => row.id === studentId);
+      if (savedStudent) {
+        savedStudent.access = normalizeAccess(payload?.student?.access || payload?.access || snapshot);
+        savedStudent.accessUpdatedAt = String(payload?.updatedAt || new Date().toISOString());
+      }
+      if (accessValuesEqual(state.adminAccessDrafts.get(studentId), snapshot)) state.adminAccessDrafts.delete(studentId);
+      toast("學生 Speaking 權限已一次過儲存。", "info");
+    } catch (error) {
+      toast(String(error?.message || "未能儲存學生權限；你的改動仍保留在畫面內。"), "error");
+    } finally {
+      state.adminAccessSaving = false;
+      if (state.route.view === "admin") renderAdminPanel();
+    }
+  }
+
+  function audioManifestCandidates(part) {
+    const manifests = {
+      1: window.EDMUND_SPEAKING_PART1_AUDIO || {},
+      2: window.EDMUND_SPEAKING_AUDIO || {},
+      3: window.EDMUND_SPEAKING_PART3_AUDIO || {}
+    };
+    const manifest = manifests[Number(part)] || {};
+    const candidates = [manifest, manifest.exercises, manifest.entries, manifest.items];
+    return candidates.filter(Boolean);
+  }
+
+  function resolveAudioEntry(exercise) {
+    if (!exercise) return null;
+    const part = Number(exercise.part);
+    const keys = [exercise.id];
+    if (part === 2) keys.push(
+      `ielts-part2-book${exercise.book}-exercise-${pad(exercise.index)}`,
+      `ielts-part-${part}-book-${exercise.book}-exercise-${pad(exercise.index)}`,
+      `ielts-part${part}-book${exercise.book}-exercise-${pad(exercise.index)}`,
+      `part${part}-book${exercise.book}-exercise-${pad(exercise.index)}`,
+      `exercise-${pad(exercise.index)}`,
+      String(exercise.index)
+    );
+    for (const candidate of audioManifestCandidates(part)) {
+      if (Array.isArray(candidate)) {
+        const match = candidate.find(entry => keys.includes(String(entry?.id || entry?.exerciseId || entry?.index)));
+        if (match && audioPath(match)) return match;
+      } else if (typeof candidate === "object") {
+        for (const key of keys) {
+          if (candidate[key] && audioPath(candidate[key])) return candidate[key];
+        }
+      }
+    }
+    return null;
+  }
+
+  function audioPath(entry) {
+    return String(entry?.path || entry?.src || entry?.audio || entry?.file || entry?.url || "");
+  }
+
+  function audioUrl(entry) {
+    const path = audioPath(entry);
+    if (!path || /^(?:https?:)?\/\//i.test(path)) return path;
+    if (typeof window.EDMUND_AUDIO_URL === "function") return window.EDMUND_AUDIO_URL(path);
+    const base = String(window.EDMUND_SPEAKING_AUDIO_META?.baseUrl || "").replace(/\/+$/, "");
+    return base ? `${base}/${path.replace(/^\/+/, "")}` : path;
+  }
+
+  function timingRows(entry) {
+    const raw = entry?.words || entry?.timings || entry?.wordTimings || [];
+    if (!Array.isArray(raw)) return [];
+    return raw.map(row => {
+      if (Array.isArray(row)) return { word: String(row[0] || ""), start: Number(row[1]), end: Number(row[2]) };
+      return {
+        word: String(row?.word || row?.text || row?.token || ""),
+        start: Number(row?.start ?? row?.startTime ?? row?.from),
+        end: Number(row?.end ?? row?.endTime ?? row?.to)
+      };
+    }).filter(row => row.word && Number.isFinite(row.start) && Number.isFinite(row.end));
+  }
+
+  function normalizeWord(value) {
+    return String(value || "")
+      .normalize("NFKC")
+      .toLocaleLowerCase("en")
+      .replace(/[’]/g, "'")
+      .replace(/[^\p{L}\p{N}']/gu, "");
+  }
+
+  function renderTimedEnglish(text, matcher) {
+    const tokens = String(text || "").match(WORD_PATTERN) || [];
+    let firstFocusableWord = true;
+    return tokens.map(token => {
+      if (!IS_WORD_PATTERN.test(token) || !matcher.rows.length) return escapeHtml(token);
+      const wanted = normalizeWord(token);
+      let matchedIndex = -1;
+      for (let index = matcher.cursor; index < matcher.rows.length; index += 1) {
+        if (normalizeWord(matcher.rows[index].word) === wanted) {
+          matchedIndex = index;
+          break;
+        }
+      }
+      if (matchedIndex < 0) return escapeHtml(token);
+      matcher.cursor = matchedIndex + 1;
+      const tabIndex = firstFocusableWord ? 0 : -1;
+      firstFocusableWord = false;
+      return `<span class="timed-word" role="button" tabindex="${tabIndex}" data-timing-index="${matchedIndex}" title="Enter／空白鍵播放；左右鍵選字">${escapeHtml(token)}</span>`;
+    }).join("");
+  }
+
+  function renderAudioPanel(entry, exercise = currentExercise()) {
+    const available = Boolean(entry && audioPath(entry));
+    const voiceLabel = "可按空白鍵暫停／繼續";
+    return `
+      <section class="audio-panel" aria-label="示範錄音控制">
+        <div class="audio-main-controls">
+          <button class="audio-button" type="button" data-model-audio-toggle${available ? "" : " disabled"} aria-pressed="false">
+            <span data-audio-button-label>${available ? Number(exercise?.part) === 3 ? "▶ 播放目前路線" : "▶ 播放示範" : "音訊準備中"}</span>
+          </button>
+          <span class="audio-note">${voiceLabel}</span>
+        </div>
+        <div class="audio-options">
+          <div class="rate-selector" role="group" aria-label="播放速度">
+            ${AUDIO_RATES.map(rate => `<button class="rate-button${rate === state.selectedRate ? " active" : ""}" type="button" data-audio-rate="${rate}" aria-pressed="${rate === state.selectedRate}">${rate}X</button>`).join("")}
+          </div>
+          <button class="highlight-toggle${state.highlightEnabled ? " active" : ""}" type="button" data-highlight-toggle aria-pressed="${state.highlightEnabled}">
+            同步標示 <strong data-highlight-state>${state.highlightEnabled ? "ON" : "OFF"}</strong>
+          </button>
+        </div>
+      </section>
+    `;
+  }
+
+  function currentRecordingContext() {
+    if (state.route.view === "exam-practice") {
+      const item = currentExamRecordingItem();
+      const session = state.examSession;
+      if (!item || !session || typeof EXAM_MODE.recordingExerciseId !== "function") return null;
+      const intro = item.kind === "intro";
+      return {
+        key: examItemKey(item),
+        isExam: true,
+        item,
+        id: intro && typeof EXAM_MODE.recordingIntroId === "function"
+          ? EXAM_MODE.recordingIntroId(session.modeId, session.id, item.part)
+          : EXAM_MODE.recordingExerciseId(session.modeId, session.id, item.part, item.globalOrder),
+        title: String(item.title || `IELTS Part ${item.part} question`).slice(0, 240),
+        part: Number(item.part),
+        book: Number(item.sourceBook || 1),
+        index: Number(item.sourceIndex || item.globalOrder || 1),
+        globalOrder: Number(item.globalOrder),
+        intro,
+        modeId: session.modeId,
+        attemptId: session.id
+      };
+    }
+    if (state.route.view === "dse-practice") {
+      const session = state.dseSession;
+      if (!session || !["group", "individual"].includes(session.phase)) return null;
+      const group = session.phase === "group";
+      const index = group ? 1 : Math.max(1, Number(session.individualIndex || 0) + 1);
+      const question = group
+        ? `Group Discussion — ${session.set.title}`
+        : session.set.individualResponse?.[index - 1] || `Individual Response ${index}`;
+      return {
+        key: `dse:${session.id}:${group ? "group" : `individual:${index}`}`,
+        isExam: false,
+        isDse: true,
+        id: `dse:${session.id}:${group ? "group" : `individual:${index}`}`,
+        title: String(`DSE ${session.set.year} ${session.set.set} · ${question}`).slice(0, 240),
+        exam: "DSE",
+        part: group ? 1 : 2,
+        book: null,
+        index
+      };
+    }
+    const exercise = currentExercise();
+    if (!exercise || state.route.view !== "exercise") return null;
+    return {
+      key: `exercise:${exercise.id}`,
+      isExam: false,
+      item: exercise,
+      id: exercise.id,
+      title: exercise.title,
+      exam: "IELTS",
+      part: Number(state.route.part || exercise.part || 2),
+      book: Number(state.route.book || exercise.book || 1),
+      index: Number(exercise.index || 1)
+    };
+  }
+
+  function activeRecordingLimitSeconds() {
+    const context = currentRecordingContext();
+    if (context?.isExam && !context.intro && context.part === 2) return EXAM_PART2_RECORDING_SECONDS;
+    return Math.min(300, Math.max(30, Number(CONFIG.maxRecordingSeconds || 300)));
+  }
+
+  function clearPageRecordingHistory() {
+    state.pageRecordings.forEach(recording => {
+      if (recording.objectUrl) URL.revokeObjectURL(recording.objectUrl);
+    });
+    state.pageRecordings = [];
+    state.pageRecordingContextKey = "";
+  }
+
+  function stopFloatingRecorderListeners() {
+    if (state.floatingRecorderFrame) cancelAnimationFrame(state.floatingRecorderFrame);
+    state.floatingRecorderFrame = 0;
+    if (state.floatingRecorderScrollHandler) window.removeEventListener("scroll", state.floatingRecorderScrollHandler);
+    if (state.floatingRecorderResizeHandler) window.removeEventListener("resize", state.floatingRecorderResizeHandler);
+    state.floatingRecorderResizeObserver?.disconnect();
+    state.floatingRecorderScrollHandler = null;
+    state.floatingRecorderResizeHandler = null;
+    state.floatingRecorderResizeObserver = null;
+  }
+
+  function cleanupFloatingRecorder() {
+    stopFloatingRecorderListeners();
+    const card = document.querySelector("[data-recorder-card]");
+    const exercise = card?.closest(".exercise-view");
+    card?.classList.remove("is-floating");
+    card?.style.removeProperty("--recorder-floating-bottom");
+    exercise?.classList.remove("has-floating-recorder");
+    exercise?.style.removeProperty("--floating-recorder-reserve");
+    state.floatingRecorderPlaceholder?.remove();
+    state.floatingRecorderPlaceholder = null;
+  }
+
+  function updateFloatingRecorder() {
+    state.floatingRecorderFrame = 0;
+    const card = document.querySelector("[data-recorder-card]");
+    const placeholder = state.floatingRecorderPlaceholder;
+    const exercise = card?.closest(".exercise-view");
+    if (!card || !placeholder || !exercise || state.route.view !== "exercise") {
+      cleanupFloatingRecorder();
+      return;
+    }
+
+    const viewportHeight = Math.max(320, window.innerHeight || document.documentElement.clientHeight || 0);
+    const headerBottom = Math.max(0, document.querySelector("[data-site-header]")?.getBoundingClientRect().bottom || 0);
+    const safeTop = Math.min(viewportHeight - 160, Math.max(12, headerBottom + 12));
+    const anchorRect = placeholder.getBoundingClientRect();
+    const exerciseRect = exercise.getBoundingClientRect();
+    const shouldFloat = anchorRect.top < safeTop && exerciseRect.bottom > safeTop + 96;
+
+    if (!shouldFloat) {
+      card.classList.remove("is-floating");
+      card.style.removeProperty("--recorder-floating-bottom");
+      placeholder.classList.remove("is-reserving");
+      placeholder.style.removeProperty("height");
+      exercise.classList.remove("has-floating-recorder");
+      exercise.style.removeProperty("--floating-recorder-reserve");
+      return;
+    }
+
+    if (!card.classList.contains("is-floating")) {
+      placeholder.style.height = `${Math.ceil(card.getBoundingClientRect().height)}px`;
+      placeholder.classList.add("is-reserving");
+      card.classList.add("is-floating");
+    }
+
+    const floatingHeight = Math.min(viewportHeight - safeTop - 18, Math.ceil(card.getBoundingClientRect().height));
+    const safeBottom = 12;
+    const requiredBottom = Math.max(safeBottom, viewportHeight - exercise.getBoundingClientRect().bottom + 12);
+    const maximumBottom = Math.max(safeBottom, viewportHeight - safeTop - floatingHeight - 10);
+    card.style.setProperty("--recorder-floating-bottom", `${Math.min(requiredBottom, maximumBottom)}px`);
+    exercise.classList.add("has-floating-recorder");
+    exercise.style.setProperty("--floating-recorder-reserve", `${Math.min(viewportHeight * 0.55, floatingHeight + 28)}px`);
+  }
+
+  function queueFloatingRecorderUpdate() {
+    if (state.floatingRecorderFrame) return;
+    state.floatingRecorderFrame = requestAnimationFrame(updateFloatingRecorder);
+  }
+
+  function setupFloatingRecorder() {
+    cleanupFloatingRecorder();
+    const card = document.querySelector("[data-recorder-card]");
+    if (!card || state.route.view !== "exercise") return;
+    const placeholder = document.createElement("div");
+    placeholder.className = "recorder-card-anchor";
+    placeholder.setAttribute("aria-hidden", "true");
+    card.before(placeholder);
+    state.floatingRecorderPlaceholder = placeholder;
+    state.floatingRecorderScrollHandler = queueFloatingRecorderUpdate;
+    state.floatingRecorderResizeHandler = queueFloatingRecorderUpdate;
+    window.addEventListener("scroll", state.floatingRecorderScrollHandler, { passive: true });
+    window.addEventListener("resize", state.floatingRecorderResizeHandler, { passive: true });
+    if (typeof ResizeObserver === "function") {
+      state.floatingRecorderResizeObserver = new ResizeObserver(queueFloatingRecorderUpdate);
+      state.floatingRecorderResizeObserver.observe(card);
+    }
+    queueFloatingRecorderUpdate();
+  }
+
+  function renderPageRecordingHistory() {
+    const list = document.querySelector("[data-page-recording-list]");
+    const count = document.querySelector("[data-page-recording-count]");
+    if (!list || !count) return;
+    count.textContent = `${state.pageRecordings.length} 段`;
+    if (!state.pageRecordings.length) {
+      list.innerHTML = '<p class="page-recording-empty">可在同一練習連續錄音；每段成功儲存後會列在這裡。</p>';
+      return;
+    }
+    list.innerHTML = state.pageRecordings.map((recording, index) => `
+      <article class="page-recording-item">
+        <div class="page-recording-meta">
+          <strong>錄音 ${state.pageRecordings.length - index}</strong>
+          <span>${escapeHtml(formatDuration(recording.durationMs))} · ${escapeHtml(recording.savedAtLabel)}</span>
+        </div>
+        <audio controls preload="metadata" src="${escapeHtml(recording.objectUrl)}">你的瀏覽器不支援音訊預覽。</audio>
+        <button class="secondary-button" type="button" data-download-page-recording="${escapeHtml(recording.id)}">下載 MP3</button>
+      </article>
+    `).join("");
+  }
+
+  function archiveSavedPageRecording(recording, context) {
+    if (!state.recordedMp3 || !state.recordedMp3Url || !context || context.isExam) return 0;
+    if (state.pageRecordingContextKey && state.pageRecordingContextKey !== context.key) clearPageRecordingHistory();
+    state.pageRecordingContextKey = context.key;
+    const suppliedSavedAt = recording?.createdAt ? new Date(recording.createdAt) : new Date();
+    const savedAt = Number.isFinite(suppliedSavedAt.getTime()) ? suppliedSavedAt : new Date();
+    const stored = {
+      id: String(recording?.id || `page-${Date.now()}-${Math.random().toString(36).slice(2)}`),
+      blob: state.recordedMp3,
+      objectUrl: state.recordedMp3Url,
+      durationMs: state.recordedDurationMs,
+      filename: String(recording?.originalFilename || ""),
+      savedAtLabel: new Intl.DateTimeFormat("zh-HK", { hour: "2-digit", minute: "2-digit", hour12: false })
+        .format(savedAt)
+    };
+    state.pageRecordings.unshift(stored);
+    while (state.pageRecordings.length > PAGE_RECORDING_HISTORY_LIMIT) {
+      const removed = state.pageRecordings.pop();
+      if (removed?.objectUrl) URL.revokeObjectURL(removed.objectUrl);
+    }
+    state.recordedMp3 = null;
+    state.recordedMp3Url = "";
+    state.recordedDurationMs = 0;
+    state.recordingSaved = false;
+    const preview = document.querySelector("[data-recording-preview]");
+    if (preview) {
+      preview.hidden = true;
+      preview.innerHTML = "";
+    }
+    renderPageRecordingHistory();
+    return state.pageRecordings.length;
+  }
+
+  function renderRecorderCard(exercise) {
+    if (state.user?.role === "admin") {
+      return `
+        <section class="notice-card admin-recorder-notice">
+          <h2>管理員模式</h2>
+          <p>學生錄音及儲存功能只供學生帳戶使用。管理員可從頁首的「我的錄音」管理所有學生錄音。</p>
+        </section>
+      `;
+    }
+    return `
+      <section class="recorder-card" aria-labelledby="recording-heading" data-recorder-card>
+        <div>
+          <h2 id="recording-heading">輪到你練習</h2>
+          <p>允許瀏覽器使用咪高峰，完成後會在你的裝置上轉換成真正的單聲道 MP3，再安全儲存。</p>
+          <div class="recording-status" data-recording-status><span role="status" aria-live="polite">準備好便按「開始錄音」。</span></div>
+        </div>
+        <div class="recorder-controls">
+          ${exercise && state.route.view==='exercise' ? '<label data-reading-choice hidden>朗讀示範答案 <select data-reading-model></select></label>' : ''}
+          <button class="record-button" type="button" data-record-toggle>● 開始錄音</button>
+          <button class="secondary-button finish-recording-button" type="button" data-finish-recording hidden>■ 完成並製作 MP3</button>
+        </div>
+        <div class="recording-preview" data-recording-preview hidden></div>
+        <section class="page-recording-history" aria-label="本次開啟頁面的已儲存錄音">
+          <header><h3>本頁錄音</h3><span data-page-recording-count>0 段</span></header>
+          <div class="page-recording-list" data-page-recording-list>
+            <p class="page-recording-empty">可在同一練習連續錄音；每段成功儲存後會列在這裡。</p>
+          </div>
+        </section>
+      </section>
+    `;
+  }
+
+  function part1TurnRanges(entry) {
+    return Array.isArray(entry?.turnWordRanges) ? entry.turnWordRanges : [];
+  }
+
+  function renderPart1AudioPanel(entry) {
+    const available = Boolean(entry && audioPath(entry));
+    return `
+      <section class="audio-panel part1-audio-panel" aria-label="Part 1 對話錄音控制">
+        <div class="audio-main-controls">
+          <button class="audio-button part1-play-all" type="button" data-model-audio-toggle${available ? "" : " disabled"} aria-pressed="false">
+            <span data-audio-button-label>${available ? "▶ 播放完整 Q&A" : "音訊準備中"}</span>
+          </button>
+        </div>
+        <div class="audio-options">
+          <div class="rate-selector" role="group" aria-label="播放速度">
+            ${AUDIO_RATES.map(rate => `<button class="rate-button${rate === state.selectedRate ? " active" : ""}" type="button" data-audio-rate="${rate}" aria-pressed="${rate === state.selectedRate}">${rate}X</button>`).join("")}
+          </div>
+          <button class="highlight-toggle${state.highlightEnabled ? " active" : ""}" type="button" data-highlight-toggle aria-pressed="${state.highlightEnabled}">
+            同步標示 <strong data-highlight-state>${state.highlightEnabled ? "ON" : "OFF"}</strong>
+          </button>
+        </div>
+      </section>`;
+  }
+
+  function renderPart1Message(question, role, turnIndex, matcher, available) {
+    const isQuestion = role === "question";
+    const number = Number(question.number || Math.floor(turnIndex / 2) + 1);
+    const english = isQuestion ? question.questionEn : question.answerEn;
+    const chinese = isQuestion ? question.questionZh : question.answerZh;
+    const speaker = isQuestion ? "EXAMINER QUESTION" : "BAND 9 ANSWER";
+    const label = isQuestion ? `Q${number}` : `A${number}`;
+    return `
+      <li class="part1-row ${isQuestion ? "part1-question-row" : "part1-answer-row"}" id="part1-${isQuestion ? "question" : "answer"}-${pad(number)}" data-part1-turn="${turnIndex}" tabindex="-1">
+        <article class="part1-message ${isQuestion ? "part1-question-message" : "part1-answer-message"}" aria-label="${escapeHtml(`${label} ${speaker}`)}">
+          <header class="part1-message-header">
+            <span>${escapeHtml(label)} · ${escapeHtml(speaker)}</span>
+            <button class="part1-message-audio" type="button" data-part1-turn-play="${turnIndex}" data-audio-available="${available}" ${available ? "" : "disabled"} aria-label="播放 ${escapeHtml(label)}">
+              <span data-part1-turn-label>▶ 聆聽</span>
+            </button>
+          </header>
+          <p class="part1-message-en" lang="en">${renderTimedEnglish(english, matcher)}</p>
+          <p class="part1-message-zh" lang="zh-Hant">${escapeHtml(chinese)}</p>
+        </article>
+      </li>`;
+  }
+
+  function stopPart1RevealListeners() {
+    if (state.part1RevealFrame) cancelAnimationFrame(state.part1RevealFrame);
+    state.part1RevealFrame = 0;
+    if (state.part1RevealScrollHandler) window.removeEventListener("scroll", state.part1RevealScrollHandler);
+    if (state.part1RevealResizeHandler) window.removeEventListener("resize", state.part1RevealResizeHandler);
+    state.part1RevealScrollHandler = null;
+    state.part1RevealResizeHandler = null;
+  }
+
+  function cleanupPart1Reveal() {
+    stopPart1RevealListeners();
+    state.part1RevealMessages = [];
+    state.part1RevealNextIndex = 0;
+    state.part1RevealAll = false;
+    state.part1AnimationDisabled = false;
+  }
+
+  function setPart1MessageAvailable(message, available) {
+    if (!message) return;
+    message.inert = !available;
+    message.toggleAttribute("inert", !available);
+    const listen = message.querySelector("[data-part1-turn-play]");
+    if (listen) listen.disabled = !available || listen.dataset.audioAvailable !== "true";
+    const words = [...message.querySelectorAll("[data-timing-index]")];
+    words.forEach((word, index) => { word.tabIndex = available && index === 0 ? 0 : -1; });
+  }
+
+  function setPart1MessageRevealed(message) {
+    if (!message || message.classList.contains("is-revealed")) return;
+    message.classList.add("is-revealed");
+    setPart1MessageAvailable(message, true);
+    if (!state.part1AnimationDisabled && !window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
+      message.classList.add("is-entering");
+      window.setTimeout(() => message.classList.remove("is-entering"), 620);
+    }
+  }
+
+  function revealPart1Through(turnIndex) {
+    const messages = state.part1RevealMessages.length
+      ? state.part1RevealMessages
+      : [...document.querySelectorAll("[data-part1-turn]")];
+    const targetIndex = Math.min(messages.length - 1, Math.max(0, Number(turnIndex) || 0));
+    for (let index = state.part1RevealNextIndex; index <= targetIndex; index += 1) {
+      setPart1MessageRevealed(messages[index]);
+    }
+    state.part1RevealNextIndex = Math.max(state.part1RevealNextIndex, targetIndex + 1);
+    if (state.part1RevealNextIndex >= messages.length) stopPart1RevealListeners();
+  }
+
+  function revealAllPart1Messages() {
+    const messages = state.part1RevealMessages.length
+      ? state.part1RevealMessages
+      : [...document.querySelectorAll("[data-part1-turn]")];
+    messages.forEach(setPart1MessageRevealed);
+    state.part1RevealNextIndex = messages.length;
+    state.part1RevealAll = true;
+    stopPart1RevealListeners();
+  }
+
+  function syncPart1AnimationControl() {
+    const button = document.querySelector("[data-part1-disable-animation]");
+    if (!button) return;
+    const reducedMotion = Boolean(window.matchMedia?.("(prefers-reduced-motion: reduce)").matches);
+    const enabled = !state.part1AnimationDisabled && !reducedMotion;
+    button.setAttribute("aria-checked", String(enabled));
+    button.setAttribute("aria-disabled", String(reducedMotion));
+    button.innerHTML = enabled
+      ? "動畫 <strong>ON</strong><span>Disable animation</span>"
+      : `動畫 <strong>OFF</strong><span>${reducedMotion ? "Reduced motion" : "Enable animation"}</span>`;
+  }
+
+  function setPart1AnimationDisabled(disabled, { announce = true } = {}) {
+    const nextDisabled = Boolean(disabled);
+    const reducedMotion = Boolean(window.matchMedia?.("(prefers-reduced-motion: reduce)").matches);
+    if (!nextDisabled && reducedMotion) {
+      if (announce) toast("你的裝置已啟用減少動態效果，因此會保持顯示全部訊息。", "info");
+      syncPart1AnimationControl();
+      return;
+    }
+    const conversation = document.querySelector("[data-part1-conversation]");
+    const messages = state.part1RevealMessages.length
+      ? state.part1RevealMessages
+      : [...document.querySelectorAll("[data-part1-turn]")];
+    if (!conversation || !messages.length || state.part1AnimationDisabled === nextDisabled) {
+      syncPart1AnimationControl();
+      return;
+    }
+
+    if (nextDisabled) {
+      state.part1AnimationDisabled = true;
+      conversation.classList.add("part1-animation-disabled");
+      messages.forEach(message => {
+        message.classList.remove("is-entering");
+        setPart1MessageAvailable(message, true);
+      });
+    } else {
+      checkPart1RevealPosition();
+      if (Number(currentExercise()?.part) === 1 && state.modelAudio && state.modelAudioExerciseId === currentExercise()?.id) {
+        const { entry } = currentAudioContext();
+        revealPart1AudioTime(entry, state.modelAudio.currentTime);
+      }
+      const activeRow = document.activeElement?.closest?.("[data-part1-turn]");
+      if (activeRow && Number(activeRow.dataset.part1Turn) >= state.part1RevealNextIndex) {
+        document.querySelector("[data-part1-disable-animation]")?.focus({ preventScroll: true });
+      }
+      messages.forEach((message, index) => {
+        message.classList.remove("is-entering");
+        message.classList.toggle("is-revealed", index < state.part1RevealNextIndex);
+        setPart1MessageAvailable(message, index < state.part1RevealNextIndex);
+      });
+      state.part1AnimationDisabled = false;
+      conversation.classList.remove("part1-animation-disabled");
+      if (state.part1RevealNextIndex < messages.length) {
+        stopPart1RevealListeners();
+        state.part1RevealScrollHandler = schedulePart1RevealCheck;
+        state.part1RevealResizeHandler = schedulePart1RevealCheck;
+        window.addEventListener("scroll", state.part1RevealScrollHandler, { passive: true });
+        window.addEventListener("resize", state.part1RevealResizeHandler, { passive: true });
+        schedulePart1RevealCheck();
+      }
+    }
+    syncPart1AnimationControl();
+    if (announce) {
+      toast(nextDisabled
+        ? `動畫已關閉；全部 ${messages.length} 則訊息暫時顯示。`
+        : "動畫已開啟；未到達的訊息會再次等待你捲動或播放音訊。", "info");
+    }
+  }
+
+  function togglePart1Animation() {
+    setPart1AnimationDisabled(!state.part1AnimationDisabled);
+  }
+
+  function checkPart1RevealPosition() {
+    state.part1RevealFrame = 0;
+    const messages = state.part1RevealMessages;
+    const revealLine = window.innerHeight * .82;
+    while (
+      state.part1RevealNextIndex < messages.length
+      && messages[state.part1RevealNextIndex].getBoundingClientRect().top <= revealLine
+    ) {
+      revealPart1Through(state.part1RevealNextIndex);
+    }
+  }
+
+  function schedulePart1RevealCheck() {
+    if (state.part1RevealFrame || state.part1RevealAll) return;
+    state.part1RevealFrame = requestAnimationFrame(checkPart1RevealPosition);
+  }
+
+  function setupPart1Reveal() {
+    stopPart1RevealListeners();
+    state.part1RevealMessages = [...document.querySelectorAll("[data-part1-turn]")];
+    state.part1RevealNextIndex = 0;
+    state.part1RevealAll = false;
+    const conversation = document.querySelector("[data-part1-conversation]");
+    if (!conversation || !state.part1RevealMessages.length) return;
+    conversation.classList.add("part1-reveal-ready");
+    conversation.classList.remove("part1-animation-disabled");
+    state.part1RevealMessages.forEach(message => {
+      message.classList.remove("is-revealed", "is-entering");
+      setPart1MessageAvailable(message, false);
+    });
+    if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
+      setPart1AnimationDisabled(true, { announce: false });
+      return;
+    }
+    state.part1RevealScrollHandler = schedulePart1RevealCheck;
+    state.part1RevealResizeHandler = schedulePart1RevealCheck;
+    window.addEventListener("scroll", state.part1RevealScrollHandler, { passive: true });
+    window.addEventListener("resize", state.part1RevealResizeHandler, { passive: true });
+    syncPart1AnimationControl();
+    schedulePart1RevealCheck();
+  }
+
+  function renderPart1Exercise(exercise, entry) {
+    const matcher = { rows: timingRows(entry), cursor: 0 };
+    const available = Boolean(entry && audioPath(entry));
+    const questions = exercise.questions || [];
+    cleanupPart1Reveal();
+    dom.content.innerHTML = `
+      <article class="exercise-view part1-exercise">
+        <header class="exercise-hero part1-exercise-hero" data-exercise-number="${pad(exercise.index)}">
+          <div class="part1-hero-meta">
+            <p class="eyebrow">IELTS SPEAKING · PART 1 · BOOK ${exercise.book}</p>
+            <span>${questions.length} QUESTIONS · Q&amp;A</span>
+          </div>
+          <h1>${escapeHtml(exercise.title)}</h1>
+          ${exercise.titleZh ? `<p>${escapeHtml(exercise.titleZh)}</p>` : ""}
+        </header>
+
+        <section class="part1-directory" aria-labelledby="part1-directory-heading">
+          <div class="part1-directory-heading">
+            <div><span class="cue-label">QUESTION DIRECTORY · 題目目錄</span><h2 id="part1-directory-heading">先看本組全部問題</h2></div>
+            <button class="part1-animation-toggle" type="button" role="switch" data-part1-disable-animation aria-controls="part1-conversation" aria-checked="true" aria-disabled="false">動畫 <strong>ON</strong><span>Disable animation</span></button>
+          </div>
+          <ol class="part1-question-index">
+            ${questions.map((question, index) => `
+              <li><a href="#part1-question-${pad(question.number)}" data-part1-question-link="${index * 2}"><span>Q${pad(question.number)}</span>${escapeHtml(question.questionEn)}</a></li>
+            `).join("")}
+          </ol>
+        </section>
+
+        ${renderPart1AudioPanel(entry)}
+        ${renderRecorderCard(exercise)}
+
+        <section class="part1-dialogue-stage" aria-labelledby="part1-dialogue-heading">
+          <header class="part1-dialogue-heading">
+            <div><span class="cue-label">SCROLL TO POP · 向下捲動</span><h2 id="part1-dialogue-heading">Examiner 與你的 Band 9 對話</h2></div>
+            <p>問題從右、答案從左逐一彈出；你可隨時關閉或重新開啟動畫。</p>
+          </header>
+          <ol class="part1-conversation" id="part1-conversation" data-part1-conversation>
+            ${questions.map((question, index) => (
+              renderPart1Message(question, "question", index * 2, matcher, available)
+              + renderPart1Message(question, "answer", index * 2 + 1, matcher, available)
+            )).join("")}
+          </ol>
+        </section>
+      </article>
+    `;
+    setupPart1Reveal();
+    syncAudioControls();
+    renderPageRecordingHistory();
+    setupFloatingRecorder();
+  }
+
+  function renderPart3Model(model, index, matcher, entry) {
+    const letter = String.fromCharCode(65 + index);
+    const firstIdea = model.steps.find(step => step.stage === "idea") || model.steps[0];
+    const available = Boolean(entry && audioPath(entry));
+    return `
+      <section class="part3-model-card${index === 0 ? " is-open" : ""}" data-part3-model="${index}">
+        <button class="part3-model-toggle" type="button" data-part3-model-toggle="${index}" aria-expanded="${index === 0}" aria-controls="part3-model-panel-${index}">
+          <span class="part3-model-letter">${letter}</span>
+          <span class="part3-model-title">
+            <small>RESPONSE ROUTE ${letter} · 回答路線 ${index + 1}</small>
+            <strong>${escapeHtml(firstIdea?.textEn || `Band 9 response ${index + 1}`)}</strong>
+            <em>${model.steps.length} steps · Idea → Explanation → Example → Conclusion</em>
+          </span>
+          <span class="part3-model-chevron" aria-hidden="true">⌄</span>
+        </button>
+        <div class="part3-model-panel" id="part3-model-panel-${index}" ${index === 0 ? "" : "hidden"}>
+          <div class="part3-model-toolbar">
+            <button class="part3-listen-button" type="button" data-part3-model-play="${index}" ${available ? "" : "disabled"}>
+              <span data-part3-model-play-label>${available ? `▶ 聆聽路線 ${letter}` : "音訊準備中"}</span>
+            </button>
+            <span>每一步逐層建立論點；按任何英文字可從該處播放。</span>
+          </div>
+          <ol class="part3-step-list">
+            ${model.steps.map((step, stepIndex) => {
+              const stageClass = String(step.stage || "step").replace(/[^a-z0-9-]/g, "");
+              return `
+                <li class="part3-step stage-${stageClass}">
+                  <div class="part3-step-marker"><span>${stepIndex + 1}</span></div>
+                  <div class="part3-step-copy">
+                    <div class="part3-step-heading"><strong>${escapeHtml(step.labelEn)}</strong><span>${escapeHtml(step.labelZh)}</span></div>
+                    <p class="part3-step-en" lang="en">${renderTimedEnglish(step.textEn, matcher)}</p>
+                    <details class="part3-translation">
+                      <summary>查看中文翻譯</summary>
+                      <p lang="zh-Hant">${escapeHtml(step.textZh)}</p>
+                    </details>
+                  </div>
+                </li>`;
+            }).join("")}
+          </ol>
+        </div>
+      </section>`;
+  }
+
+  function renderPart3Exercise(exercise, entry) {
+    const matcher = { rows: timingRows(entry), cursor: 0 };
+    const exercises = speakingExercises(exercise.part, exercise.book);
+    const position = exercises.findIndex(item => item.id === exercise.id);
+    const previous = position > 0 ? exercises[position - 1] : null;
+    const next = position >= 0 && position < exercises.length - 1 ? exercises[position + 1] : null;
+    dom.content.innerHTML = `
+      <article class="exercise-view part3-exercise">
+        <header class="exercise-hero part3-exercise-hero" data-exercise-number="${pad(exercise.index)}">
+          <div class="part3-hero-meta">
+            <p class="eyebrow">IELTS SPEAKING · PART 3 · BOOK ${exercise.book}</p>
+            <span>${escapeHtml(exercise.themeTitle || "Discussion")}</span>
+          </div>
+          <h1>${escapeHtml(exercise.title)}</h1>
+          ${exercise.titleZh ? `<p>${escapeHtml(exercise.titleZh)}</p>` : ""}
+        </header>
+
+        <section class="part3-reading-guide" aria-label="練習方法">
+          <div><span>01</span><p><strong>Compare both ideas</strong>先比較兩個 Idea。</p></div>
+          <div><span>02</span><p><strong>Follow the logic</strong>沿著解釋、例子及總結逐步建立完整答案。</p></div>
+          <div><span>03</span><p><strong>Listen and speak</strong>聆聽示範後，錄下自己的 Part 3 回答。</p></div>
+        </section>
+
+        ${renderAudioPanel(entry, exercise)}
+        ${renderRecorderCard(exercise)}
+
+        <section class="part3-response-section" aria-labelledby="part3-response-heading">
+          <div class="part3-response-heading">
+            <div><span class="cue-label">BAND 9 ANSWER MAP</span><h2 id="part3-response-heading">兩條回答路線，逐步閱讀</h2></div>
+            <p>一次只展開一條長答，減少視覺疲勞。中文翻譯亦可按需要逐段開啟。</p>
+          </div>
+          <div class="part3-model-list">
+            ${exercise.responseModels.map((model, index) => renderPart3Model(model, index, matcher, entry)).join("")}
+          </div>
+        </section>
+
+        <nav class="part3-exercise-nav" aria-label="Part 3 題目導覽">
+          <button class="secondary-button" type="button" data-part3-previous ${previous ? "" : "disabled"}>← 上一題</button>
+          <button class="secondary-button" type="button" data-part3-book>返回 Book ${exercise.book}</button>
+          <button class="primary-button" type="button" data-part3-next ${next ? "" : "disabled"}>下一題 →</button>
+        </nav>
+      </article>
+    `;
+    syncAudioControls();
+    renderPageRecordingHistory();
+    setupFloatingRecorder();
+  }
+
+  function focusRoutedQuestion() {
+    const questionNumber = Number(state.route.questionNumber || 0);
+    if (!questionNumber) return;
+    window.requestAnimationFrame(() => {
+      const isPart1 = Number(state.route.part) === 1;
+      if (isPart1) {
+        const questionIndex = currentExercise()?.questions?.findIndex(question => Number(question.number) === questionNumber) ?? -1;
+        if (questionIndex >= 0) revealPart1Through(questionIndex * 2);
+      }
+      const target = isPart1
+        ? document.querySelector(`#part1-question-${pad(questionNumber)}`)
+        : document.querySelector(".exercise-hero h1");
+      if (!target) return;
+      target.setAttribute("tabindex", "-1");
+      target.scrollIntoView({ behavior: preferredScrollBehavior(), block: "center" });
+      target.focus({ preventScroll: true });
+    });
+  }
+
+  function renderExercise() {
+    const exercise = currentExercise();
+    if (!exercise || exercise.unavailable) {
+      dom.content.innerHTML = `
+        <section class="notice-card">
+          <h2>練習內容準備中</h2>
+          <p>這個練習的資料檔尚未載入，請返回後稍後再試。</p>
+        </section>
+      `;
+      return;
+    }
+    const entry = resolveAudioEntry(exercise);
+    if (exercise.part === 1) {
+      renderPart1Exercise(exercise, entry);
+      focusRoutedQuestion();
+      return;
+    }
+    if (exercise.part === 3) {
+      renderPart3Exercise(exercise, entry);
+      focusRoutedQuestion();
+      return;
+    }
+    const matcher = { rows: timingRows(entry), cursor: 0 };
+    dom.content.innerHTML = `
+      <article class="exercise-view">
+        <header class="exercise-hero" data-exercise-number="${pad(exercise.index)}">
+          <p class="eyebrow">IELTS SPEAKING · PART ${exercise.part} · BOOK ${exercise.book}</p>
+          <h1>${escapeHtml(exercise.title)}</h1>
+          ${exercise.titleZh ? `<p>${escapeHtml(exercise.titleZh)}</p>` : ""}
+        </header>
+
+        <section class="cue-card" aria-labelledby="cue-heading">
+          <span class="cue-label" id="cue-heading">QUESTION · 題目與提示</span>
+          <p class="cue-copy">${escapeHtml(exercise.cueText || "題目內容準備中")}</p>
+        </section>
+
+        ${renderAudioPanel(entry, exercise)}
+        ${renderRecorderCard(exercise)}
+
+        <div class="response-grid" aria-label="Band 9 四部分示範答案">
+          ${exercise.responses.slice(0, 4).map((response, index) => `
+            <section class="response-card">
+              <span class="response-number">PART ${index + 1} · 第 ${index + 1} 部分</span>
+              <h2>${escapeHtml(response.headingEn || `Response ${index + 1}`)}</h2>
+              ${response.headingZh ? `<p class="heading-zh">${escapeHtml(response.headingZh)}</p>` : '<p class="heading-zh">高分示範答案</p>'}
+              <p class="response-en" lang="en">${renderTimedEnglish(response.textEn, matcher)}</p>
+              <p class="response-zh" lang="zh-Hant">${escapeHtml(response.textZh)}</p>
+            </section>
+          `).join("")}
+        </div>
+      </article>
+    `;
+    syncAudioControls();
+    renderPageRecordingHistory();
+    setupFloatingRecorder();
+    focusRoutedQuestion();
+  }
+
+  function currentAudioContext() {
+    const exercise = currentExercise();
+    return { exercise, entry: resolveAudioEntry(exercise) };
+  }
+
+  function clearHighlight() {
+    if (state.highlightFrame) cancelAnimationFrame(state.highlightFrame);
+    state.highlightFrame = 0;
+    document.querySelector(".timed-word.is-spoken")?.classList.remove("is-spoken");
+    state.activeWordIndex = -1;
+  }
+
+  function timingIndexAtTime(rows, currentTime) {
+    let low = 0;
+    let high = rows.length - 1;
+    let result = -1;
+    while (low <= high) {
+      const middle = Math.floor((low + high) / 2);
+      if (rows[middle].start <= currentTime) {
+        result = middle;
+        low = middle + 1;
+      } else {
+        high = middle - 1;
+      }
+    }
+    if (result < 0) return -1;
+    return currentTime > rows[result].end + .08 ? -1 : result;
+  }
+
+  function part1TrailingTimingIndex(entry, currentTime) {
+    const ranges = part1TurnRanges(entry);
+    for (const range of ranges) {
+      const audioEnd = Number(range?.audioEnd);
+      const playbackEnd = Number(range?.playbackEnd);
+      const wordEnd = Number(range?.wordEnd);
+      if (
+        Number.isFinite(audioEnd)
+        && Number.isFinite(playbackEnd)
+        && Number.isInteger(wordEnd)
+        && currentTime > audioEnd
+        && currentTime <= playbackEnd
+      ) return Math.max(0, wordEnd - 1);
+    }
+    return -1;
+  }
+
+  function updateHighlight() {
+    if (!state.highlightEnabled || !state.modelAudio) {
+      clearHighlight();
+      return;
+    }
+    const { entry } = currentAudioContext();
+    const rows = timingRows(entry);
+    let index = timingIndexAtTime(rows, state.modelAudio.currentTime);
+    if (index < 0 && Number(currentExercise()?.part) === 1) {
+      index = part1TrailingTimingIndex(entry, state.modelAudio.currentTime);
+    }
+    if (index === state.activeWordIndex) return;
+    document.querySelector(".timed-word.is-spoken")?.classList.remove("is-spoken");
+    state.activeWordIndex = index;
+    if (index < 0) return;
+    const word = document.querySelector(`[data-timing-index="${index}"]`);
+    if (!word) return;
+    word.classList.add("is-spoken");
+    const part1Turn = word.closest("[data-part1-turn]");
+    if (part1Turn) revealPart1Through(Number(part1Turn.dataset.part1Turn));
+  }
+
+  function startHighlightLoop() {
+    if (state.highlightFrame) cancelAnimationFrame(state.highlightFrame);
+    const part1AudioActive = Number(currentExercise()?.part) === 1;
+    if (!state.highlightEnabled && !part1AudioActive) return;
+    const tick = () => {
+      if (!state.modelAudio || state.modelAudio.paused || state.modelAudio.ended) {
+        state.highlightFrame = 0;
+        return;
+      }
+      if (
+        state.modelAudioSegmentIndex >= 0
+        && state.modelAudioSegmentEnd
+        && state.modelAudio.currentTime >= state.modelAudioSegmentEnd
+      ) {
+        stopModelAudio();
+        return;
+      }
+      if (Number(currentExercise()?.part) === 1) {
+        const { entry } = currentAudioContext();
+        revealPart1AudioTime(entry, state.modelAudio.currentTime);
+      }
+      if (state.highlightEnabled) updateHighlight();
+      state.highlightFrame = requestAnimationFrame(tick);
+    };
+    tick();
+  }
+
+  function syncAudioControls() {
+    document.querySelectorAll("[data-audio-rate]").forEach(button => {
+      const active = Number(button.dataset.audioRate) === state.selectedRate;
+      button.classList.toggle("active", active);
+      button.setAttribute("aria-pressed", String(active));
+    });
+    const toggle = document.querySelector("[data-highlight-toggle]");
+    if (toggle) {
+      toggle.classList.toggle("active", state.highlightEnabled);
+      toggle.setAttribute("aria-pressed", String(state.highlightEnabled));
+      const label = toggle.querySelector("[data-highlight-state]");
+      if (label) label.textContent = state.highlightEnabled ? "ON" : "OFF";
+    }
+    const exercise = currentExercise();
+    const isCurrent = state.modelAudioExerciseId === exercise?.id;
+    const pendingStart = Boolean(isCurrent && state.modelAudio && state.modelAudioPendingStart);
+    const playing = Boolean(isCurrent && state.modelAudio && !state.modelAudio.paused && !state.modelAudio.ended);
+    const resumable = Boolean(isCurrent && state.modelAudio && state.modelAudio.paused && state.modelAudio.currentTime > 0 && !state.modelAudio.ended);
+    const button = document.querySelector("[data-model-audio-toggle]");
+    if (button) {
+      const isPart1 = Number(exercise?.part) === 1;
+      const isPart3 = Number(exercise?.part) === 3;
+      const wholePart1 = isPart1 && state.modelAudioSegmentIndex < 0;
+      const buttonPlaying = isPart1 ? (playing || pendingStart) && wholePart1 : playing || pendingStart;
+      const buttonResumable = isPart1 ? resumable && wholePart1 : resumable;
+      const text = buttonPlaying
+        ? isPart1 ? "❚❚ 暫停完整 Q&A" : isPart3 ? "❚❚ 暫停目前路線" : "❚❚ 暫停示範"
+        : buttonResumable
+          ? isPart1 ? "▶ 繼續完整 Q&A" : isPart3 ? "▶ 繼續目前路線" : "▶ 繼續示範"
+          : isPart1 ? "▶ 播放完整 Q&A" : isPart3 ? "▶ 播放目前路線" : "▶ 播放示範";
+      const label = button.querySelector("[data-audio-button-label]");
+      if (label && !button.disabled) label.textContent = text;
+      button.classList.toggle("is-playing", buttonPlaying);
+      button.setAttribute("aria-pressed", String(buttonPlaying));
+    }
+    document.querySelectorAll("[data-part1-turn-play]").forEach(turnButton => {
+      const index = Number(turnButton.dataset.part1TurnPlay);
+      const active = Number(exercise?.part) === 1 && isCurrent && state.modelAudioSegmentIndex === index;
+      const activePlaying = active && (playing || pendingStart);
+      const label = turnButton.querySelector("[data-part1-turn-label]");
+      if (label && turnButton.dataset.audioAvailable === "true") {
+        label.textContent = activePlaying ? "❚❚ 暫停" : active && resumable ? "▶ 繼續" : "▶ 聆聽";
+      }
+      turnButton.classList.toggle("is-playing", activePlaying);
+      turnButton.setAttribute("aria-pressed", String(activePlaying));
+    });
+    document.querySelectorAll("[data-part3-model-play]").forEach(modelButton => {
+      const index = Number(modelButton.dataset.part3ModelPlay);
+      const active = isCurrent && state.modelAudioSegmentIndex === index;
+      const activePlaying = active && (playing || pendingStart);
+      const label = modelButton.querySelector("[data-part3-model-play-label]");
+      const letter = String.fromCharCode(65 + index);
+      if (label && !modelButton.disabled) label.textContent = activePlaying
+        ? `❚❚ 暫停路線 ${letter}`
+        : active && resumable
+          ? `▶ 繼續路線 ${letter}`
+          : `▶ 聆聽路線 ${letter}`;
+      modelButton.classList.toggle("is-playing", activePlaying);
+      modelButton.setAttribute("aria-pressed", String(activePlaying));
+    });
+  }
+
+  function stopModelAudio() {
+    state.modelAudioGeneration += 1;
+    clearHighlight();
+    if (state.modelAudio) {
+      state.modelAudio.onloadedmetadata = null;
+      state.modelAudio.onplay = null;
+      state.modelAudio.onpause = null;
+      state.modelAudio.onended = null;
+      state.modelAudio.ontimeupdate = null;
+      state.modelAudio.onerror = null;
+      state.modelAudio.pause();
+      state.modelAudio.removeAttribute("src");
+      state.modelAudio.load();
+    }
+    state.modelAudio = null;
+    state.modelAudioExerciseId = "";
+    state.modelAudioSegmentStart = 0;
+    state.modelAudioSegmentEnd = 0;
+    state.modelAudioSegmentIndex = -1;
+    state.modelAudioPendingStart = false;
+    syncAudioControls();
+  }
+
+  function startModelAudio(exercise, entry, startAt = 0, stopAt = 0, segmentIndex = -1) {
+    if (!exercise || !entry || !audioPath(entry)) return;
+    stopAttemptPlayback();
+    stopModelAudio();
+    const generation = state.modelAudioGeneration;
+    const audio = new Audio();
+    state.modelAudio = audio;
+    state.modelAudioExerciseId = exercise.id;
+    state.modelAudioSegmentStart = Math.max(0, Number(startAt) || 0);
+    state.modelAudioSegmentEnd = Math.max(0, Number(stopAt) || 0);
+    state.modelAudioSegmentIndex = Number.isInteger(segmentIndex) ? segmentIndex : -1;
+    state.modelAudioPendingStart = true;
+    audio.preload = "metadata";
+    audio.src = audioUrl(entry);
+    audio.defaultPlaybackRate = state.selectedRate;
+    audio.playbackRate = state.selectedRate;
+    audio.preservesPitch = true;
+    audio.onplay = () => {
+      state.modelAudioPendingStart = false;
+      syncAudioControls();
+      startHighlightLoop();
+    };
+    audio.onpause = () => {
+      if (state.highlightFrame) cancelAnimationFrame(state.highlightFrame);
+      state.highlightFrame = 0;
+      syncAudioControls();
+    };
+    audio.onended = () => {
+      clearHighlight();
+      if (state.modelAudioSegmentIndex >= 0) {
+        stopModelAudio();
+        return;
+      }
+      if (Number(exercise.part) === 1) revealAllPart1Messages();
+      audio.currentTime = 0;
+      syncAudioControls();
+    };
+    audio.ontimeupdate = () => {
+      if (Number(exercise.part) === 1) revealPart1AudioTime(entry, audio.currentTime);
+      if (
+        state.modelAudioSegmentIndex < 0
+        || !state.modelAudioSegmentEnd
+        || audio.currentTime < state.modelAudioSegmentEnd
+      ) return;
+      stopModelAudio();
+    };
+    audio.onerror = () => {
+      toast("示範音訊未能載入，請檢查連線後再試。", "error");
+      stopModelAudio();
+    };
+    const play = () => {
+      if (generation !== state.modelAudioGeneration || state.modelAudio !== audio || !state.user) return;
+      const result = audio.play();
+      if (result?.catch) result.catch(error => {
+        if (generation !== state.modelAudioGeneration || state.modelAudio !== audio) return;
+        state.modelAudioPendingStart = false;
+        console.warn("Speaking sample playback failed:", error);
+        toast("瀏覽器未能開始播放，請再按一次播放鍵。", "error");
+        syncAudioControls();
+      });
+    };
+    const begin = () => {
+      if (generation !== state.modelAudioGeneration || state.modelAudio !== audio || !state.user) return;
+      if (Number(exercise.part) === 1) revealPart1Through(state.modelAudioSegmentIndex >= 0 ? state.modelAudioSegmentIndex : 0);
+      try {
+        audio.currentTime = Math.max(0, Number(startAt) || 0);
+      } catch {
+        // A small number of browsers reject a seek before metadata is ready.
+      }
+      play();
+    };
+    const eagerPart1Conversation = Number(exercise.part) === 1
+      && state.modelAudioSegmentIndex < 0
+      && Math.max(0, Number(startAt) || 0) < .01;
+    if (eagerPart1Conversation) {
+      revealPart1Through(0);
+      play();
+    } else if (audio.readyState >= 1) begin();
+    else audio.onloadedmetadata = begin;
+    syncAudioControls();
+  }
+
+  function toggleModelAudio() {
+    if (state.recordingPermissionPending || state.recordingTransition || state.mediaRecorder?.state === "recording") {
+      toast("請先暫停錄音，才播放示範音訊。", "error");
+      return;
+    }
+    const { exercise, entry } = currentAudioContext();
+    if (!exercise || !entry) return;
+    if (Number(exercise.part) === 1) {
+      if (state.modelAudio && state.modelAudioExerciseId === exercise.id && state.modelAudioSegmentIndex < 0) {
+        if (state.modelAudioPendingStart) {
+          stopModelAudio();
+          return;
+        }
+        if (!state.modelAudio.paused && !state.modelAudio.ended) state.modelAudio.pause();
+        else {
+          const result = state.modelAudio.play();
+          if (result?.catch) result.catch(error => console.warn("Part 1 conversation resume failed:", error));
+        }
+        return;
+      }
+      revealPart1Through(0);
+      startModelAudio(exercise, entry, 0, 0, -1);
+      return;
+    }
+    if (Number(exercise.part) === 3) {
+      const openModel = document.querySelector("[data-part3-model].is-open");
+      playPart3Model(Number(openModel?.dataset.part3Model || 0));
+      return;
+    }
+    if (state.modelAudio && state.modelAudioExerciseId === exercise.id) {
+      if (state.modelAudioPendingStart) {
+        stopModelAudio();
+        return;
+      }
+      if (!state.modelAudio.paused && !state.modelAudio.ended) {
+        state.modelAudio.pause();
+        return;
+      }
+      const result = state.modelAudio.play();
+      if (result?.catch) result.catch(error => console.warn("Speaking sample resume failed:", error));
+      return;
+    }
+    startModelAudio(exercise, entry, 0, 0, -1);
+  }
+
+  function part1TurnAudioRange(entry, turnIndex) {
+    const ranges = part1TurnRanges(entry);
+    const index = Number(turnIndex);
+    const range = ranges[index];
+    if (!range) return null;
+    const audioStart = Number(range.audioStart);
+    const revealAt = Number(range.revealAt);
+    const playbackEnd = Number(range.playbackEnd);
+    if (!Number.isFinite(audioStart) || !Number.isFinite(playbackEnd) || playbackEnd <= audioStart) return null;
+    const start = Number.isFinite(revealAt) && revealAt <= audioStart
+      ? Math.max(0, revealAt)
+      : Math.max(0, audioStart - .28);
+    const nextReveal = Number(ranges[index + 1]?.revealAt);
+    const end = Number.isFinite(nextReveal)
+      ? Math.min(playbackEnd + PART1_SEGMENT_TAIL_SECONDS, nextReveal - .08)
+      : 0;
+    return { start, end };
+  }
+
+  function revealPart1AudioTime(entry, currentTime) {
+    const ranges = part1TurnRanges(entry);
+    const segmentIndex = Number(state.modelAudioSegmentIndex);
+    const maximumIndex = segmentIndex >= 0 ? Math.min(segmentIndex, ranges.length - 1) : ranges.length - 1;
+    const playbackRate = Math.max(0.25, Number(state.modelAudio?.playbackRate || state.selectedRate || 1));
+    const animationLead = (PART1_POP_DURATION_SECONDS + PART1_POP_SAFETY_SECONDS) * playbackRate;
+    for (let index = state.part1RevealNextIndex; index <= maximumIndex; index += 1) {
+      const range = ranges[index] || {};
+      const revealAt = Number(range.revealAt);
+      const audioStart = Number(range.audioStart);
+      const audioTrigger = Number.isFinite(audioStart) ? audioStart - animationLead : revealAt;
+      const trigger = Number.isFinite(revealAt) ? Math.min(revealAt, audioTrigger) : audioTrigger;
+      if (!Number.isFinite(trigger) || trigger > Number(currentTime) + .03) break;
+      revealPart1Through(index);
+    }
+  }
+
+  function playPart1Turn(turnIndex) {
+    if (state.recordingPermissionPending || state.recordingTransition || state.mediaRecorder?.state === "recording") {
+      toast("請先暫停錄音，才播放示範音訊。", "error");
+      return;
+    }
+    const { exercise, entry } = currentAudioContext();
+    const index = Number(turnIndex);
+    const range = part1TurnAudioRange(entry, index);
+    if (!exercise || Number(exercise.part) !== 1 || !entry || !range) return;
+    revealPart1Through(index);
+    if (state.modelAudio && state.modelAudioExerciseId === exercise.id && state.modelAudioSegmentIndex === index) {
+      if (state.modelAudioPendingStart) {
+        stopModelAudio();
+        return;
+      }
+      if (!state.modelAudio.paused) state.modelAudio.pause();
+      else {
+        const result = state.modelAudio.play();
+        if (result?.catch) result.catch(error => console.warn("Part 1 turn resume failed:", error));
+      }
+      return;
+    }
+    startModelAudio(exercise, entry, range.start, range.end, index);
+  }
+
+  function part3ModelAudioRange(exercise, entry, modelIndex) {
+    const ranges = Array.isArray(entry?.sectionWordRanges) ? entry.sectionWordRanges : [];
+    const rows = timingRows(entry);
+    const models = exercise?.responseModels || [];
+    const startSection = models.slice(0, modelIndex).reduce((count, model) => count + model.steps.length, 0);
+    const sectionCount = models[modelIndex]?.steps?.length || 0;
+    const first = ranges[startSection];
+    const last = ranges[startSection + sectionCount - 1];
+    if (!first || !last || !sectionCount) return null;
+    const firstWord = rows[Number(first.wordStart)];
+    const lastWord = rows[Math.max(0, Number(last.wordEnd) - 1)];
+    if (!firstWord || !lastWord) return null;
+    return { start: firstWord.start, end: lastWord.end + 0.08 };
+  }
+
+  function openPart3Model(modelIndex) {
+    document.querySelectorAll("[data-part3-model]").forEach(card => {
+      const open = Number(card.dataset.part3Model) === Number(modelIndex);
+      card.classList.toggle("is-open", open);
+      const toggle = card.querySelector("[data-part3-model-toggle]");
+      const panel = card.querySelector(".part3-model-panel");
+      if (toggle) toggle.setAttribute("aria-expanded", String(open));
+      if (panel) panel.hidden = !open;
+    });
+  }
+
+  function togglePart3Model(modelIndex) {
+    const card = document.querySelector(`[data-part3-model="${Number(modelIndex)}"]`);
+    if (!card) return;
+    const opening = !card.classList.contains("is-open");
+    if (state.modelAudio && state.modelAudioSegmentIndex >= 0) stopModelAudio();
+    if (opening) openPart3Model(modelIndex);
+    else {
+      card.classList.remove("is-open");
+      card.querySelector("[data-part3-model-toggle]")?.setAttribute("aria-expanded", "false");
+      const panel = card.querySelector(".part3-model-panel");
+      if (panel) panel.hidden = true;
+    }
+  }
+
+  function playPart3Model(modelIndex) {
+    if (state.recordingPermissionPending || state.recordingTransition || state.mediaRecorder?.state === "recording") {
+      toast("請先暫停錄音，才播放示範音訊。", "error");
+      return;
+    }
+    const { exercise, entry } = currentAudioContext();
+    const range = part3ModelAudioRange(exercise, entry, Number(modelIndex));
+    if (!exercise || !entry || !range) return;
+    openPart3Model(modelIndex);
+    if (state.modelAudio && state.modelAudioExerciseId === exercise.id && state.modelAudioSegmentIndex === Number(modelIndex)) {
+      if (state.modelAudioPendingStart) {
+        stopModelAudio();
+        return;
+      }
+      if (!state.modelAudio.paused) state.modelAudio.pause();
+      else {
+        const result = state.modelAudio.play();
+        if (result?.catch) result.catch(error => console.warn("Part 3 response playback failed:", error));
+      }
+      return;
+    }
+    startModelAudio(exercise, entry, range.start, range.end, Number(modelIndex));
+  }
+
+  function playFromTiming(index) {
+    if (state.recordingPermissionPending || state.recordingTransition || state.mediaRecorder?.state === "recording") {
+      toast("請先暫停錄音，才從指定文字播放。", "error");
+      return;
+    }
+    const { exercise, entry } = currentAudioContext();
+    const row = timingRows(entry)[Number(index)];
+    if (!exercise || !entry || !row) return;
+    const timedElement = document.querySelector(`[data-timing-index="${Number(index)}"]`);
+    const part1TurnElement = Number(exercise.part) === 1 ? timedElement?.closest("[data-part1-turn]") : null;
+    const part1Turn = part1TurnElement ? Number(part1TurnElement.dataset.part1Turn) : -1;
+    const part1Range = part1Turn >= 0 ? part1TurnAudioRange(entry, part1Turn) : null;
+    const part3Model = Number(exercise.part) === 3
+      ? Number(timedElement?.closest("[data-part3-model]")?.dataset.part3Model)
+      : -1;
+    const part3Range = part3Model >= 0 ? part3ModelAudioRange(exercise, entry, part3Model) : null;
+    if (state.modelAudio && state.modelAudioExerciseId === exercise.id) {
+      const preserveFullPart1 = Number(exercise.part) === 1 && state.modelAudioSegmentIndex < 0;
+      const nextSegmentStart = preserveFullPart1 ? 0 : part1Range?.start || part3Range?.start || 0;
+      const nextSegmentEnd = preserveFullPart1 ? 0 : part1Range?.end || part3Range?.end || 0;
+      const nextSegmentIndex = preserveFullPart1 ? -1 : part1Range ? part1Turn : part3Range ? part3Model : -1;
+      if (state.modelAudioPendingStart && state.modelAudio.readyState < 1) {
+        if (part1Range) revealPart1Through(part1Turn);
+        startModelAudio(exercise, entry, row.start, nextSegmentEnd, nextSegmentIndex);
+        return;
+      }
+      state.modelAudioSegmentStart = nextSegmentStart;
+      state.modelAudioSegmentEnd = nextSegmentEnd;
+      state.modelAudioSegmentIndex = nextSegmentIndex;
+      if (part1Range) revealPart1Through(part1Turn);
+      state.modelAudio.currentTime = Math.max(0, row.start);
+      updateHighlight();
+      syncAudioControls();
+      if (state.modelAudio.paused) {
+        state.modelAudioPendingStart = true;
+        syncAudioControls();
+        const result = state.modelAudio.play();
+        if (result?.catch) result.catch(error => {
+          state.modelAudioPendingStart = false;
+          console.warn("Word seek playback failed:", error);
+          syncAudioControls();
+        });
+      }
+      return;
+    }
+    startModelAudio(
+      exercise,
+      entry,
+      row.start,
+      part1Range?.end || part3Range?.end || 0,
+      part1Range ? part1Turn : part3Range ? part3Model : -1
+    );
+  }
+
+  function recorderMimeTypes() {
+    const choices = [
+      "audio/webm;codecs=opus",
+      "audio/mp4;codecs=mp4a.40.2",
+      "audio/mp4",
+      "audio/webm",
+      "audio/ogg;codecs=opus"
+    ];
+    return choices.filter(type => window.MediaRecorder?.isTypeSupported?.(type));
+  }
+
+  function createMediaRecorder(stream) {
+    let lastError = null;
+    for (const mimeType of recorderMimeTypes()) {
+      try {
+        return new MediaRecorder(stream, { mimeType });
+      } catch (error) {
+        lastError = error;
+      }
+    }
+    try {
+      return new MediaRecorder(stream);
+    } catch (error) {
+      throw lastError || error;
+    }
+  }
+
+  async function requestMicrophoneStream() {
+    try {
+      return await navigator.mediaDevices.getUserMedia({
+        audio: {
+          channelCount: { ideal: 1 },
+          echoCancellation: { ideal: true },
+          noiseSuppression: { ideal: true },
+          autoGainControl: { ideal: true }
+        },
+        video: false
+      });
+    } catch (error) {
+      const name = String(error?.name || "");
+      if (name !== "OverconstrainedError" && name !== "ConstraintNotSatisfiedError") throw error;
+      return navigator.mediaDevices.getUserMedia({ audio: true, video: false });
+    }
+  }
+
+  function microphoneErrorMessage(error) {
+    const name = String(error?.name || "");
+    const firefox = /Firefox\//i.test(navigator.userAgent || "");
+    const macFirefoxHelp = "請在 Firefox 網址列左邊的權限圖示清除已封鎖設定，再到 macOS「系統設定 → 私隱與保安 → 咪高峰」開啟 Firefox，然後重新啟動 Firefox。";
+    if (name === "NotAllowedError" || name === "SecurityError" || name === "PermissionDeniedError") {
+      return firefox
+        ? `Firefox 未允許使用咪高峰。${macFirefoxHelp}`
+        : "咪高峰權限被拒絕。請在瀏覽器及裝置設定允許咪高峰，再重新嘗試。";
+    }
+    if (name === "NotFoundError" || name === "DevicesNotFoundError") {
+      return firefox
+        ? `找不到可用咪高峰。請確認 Mac 已連接或啟用輸入裝置。${macFirefoxHelp}`
+        : "找不到可用咪高峰。請接駁或啟用咪高峰，再重新嘗試。";
+    }
+    if (name === "NotReadableError" || name === "AbortError" || name === "TrackStartError") {
+      return firefox
+        ? `Firefox 暫時無法讀取咪高峰。請關閉其他正在使用咪高峰的程式。${macFirefoxHelp}`
+        : "咪高峰正被其他程式使用或暫時無法讀取。請關閉其他錄音程式，再重新嘗試。";
+    }
+    if (name === "OverconstrainedError" || name === "ConstraintNotSatisfiedError") {
+      return "目前的咪高峰不支援所需錄音設定。請改用另一個輸入裝置，再重新嘗試。";
+    }
+    if (name === "InvalidStateError") {
+      return "網頁目前未能啟動咪高峰。請重新載入此頁，再按「開始錄音」。";
+    }
+    return firefox
+      ? `未能啟動咪高峰。${macFirefoxHelp}`
+      : "未能啟動咪高峰，請檢查裝置及瀏覽器權限後再試。";
+  }
+
+  let stopMicrophoneCheck = null;
+
+  function stopMediaTracks() {
+    stopMicrophoneCheck?.();
+    stopMicrophoneCheck = null;
+    window.EdmundSpeakingRecordingStream=null;
+    state.mediaStream?.getTracks().forEach(track => track.stop());
+    state.mediaStream = null;
+  }
+
+  function clearRecordingTimer() {
+    if (state.recordingTimer) window.clearInterval(state.recordingTimer);
+    if (state.recordingDeadlineTimer) window.clearTimeout(state.recordingDeadlineTimer);
+    state.recordingTimer = 0;
+    state.recordingDeadlineTimer = 0;
+  }
+
+  function scheduleRecordingTimers() {
+    clearRecordingTimer();
+    if (window.EdmundIdleBreak?.isPaused?.()) return;
+    const recorder = state.mediaRecorder;
+    const generation = state.recordingGeneration;
+    const remaining = Math.max(0, activeRecordingLimitSeconds() * 1000 - activeRecordingDuration());
+    const deadline = recordingNow() + remaining;
+    let deadlineTimer = 0;
+    const stopAtDeadline = () => {
+      if (state.recordingDeadlineTimer !== deadlineTimer) return;
+      if (generation !== state.recordingGeneration || state.mediaRecorder !== recorder || recorder?.state !== "recording") return;
+      const retryIn = Math.ceil(deadline - recordingNow());
+      if (retryIn > 0) {
+        deadlineTimer = window.setTimeout(stopAtDeadline, retryIn);
+        state.recordingDeadlineTimer = deadlineTimer;
+        return;
+      }
+      state.recordingDeadlineTimer = 0;
+      finishRecording();
+    };
+    state.recordingTimer = window.setInterval(updateRecordingClock, 500);
+    deadlineTimer = window.setTimeout(stopAtDeadline, remaining);
+    state.recordingDeadlineTimer = deadlineTimer;
+    updateRecordingClock();
+  }
+
+  function recordingStatus(message, mode = "") {
+    const status = document.querySelector("[data-recording-status]");
+    if (!status) return;
+    const recording = mode === true || mode === "recording";
+    const paused = mode === "paused";
+    status.innerHTML = `
+      ${recording || paused ? `<span class="recording-dot${paused ? " paused" : ""}" aria-hidden="true"></span>` : ""}
+      <span role="status" aria-live="polite">${escapeHtml(message)}</span>
+      ${recording || paused ? '<span class="recording-clock" aria-hidden="true" data-recording-clock></span>' : ""}
+    `;
+  }
+
+  function formatDuration(milliseconds) {
+    const seconds = Math.max(0, Math.round(Number(milliseconds || 0) / 1000));
+    const minutes = Math.floor(seconds / 60);
+    return `${minutes}:${pad(seconds % 60)}`;
+  }
+
+  function recordingNow() {
+    return typeof window.performance?.now === "function" ? window.performance.now() : Date.now();
+  }
+
+  function activeRecordingDuration() {
+    const activeSegment = state.mediaRecorder?.state === "recording" && state.recordingActiveStartedAt
+      ? Math.max(0, recordingNow() - state.recordingActiveStartedAt)
+      : 0;
+    return Math.max(0, state.recordingElapsedMs + activeSegment);
+  }
+
+  function commitActiveRecordingDuration() {
+    const activeSegment = state.recordingActiveStartedAt
+      ? Math.max(0, recordingNow() - state.recordingActiveStartedAt)
+      : 0;
+    state.recordingElapsedMs = Math.max(0, state.recordingElapsedMs + activeSegment);
+    state.recordingActiveStartedAt = 0;
+    return state.recordingElapsedMs;
+  }
+
+  function updateRecordingClock() {
+    if (!state.mediaRecorder || !["recording", "paused"].includes(state.mediaRecorder.state)) return;
+    window.EdmundIdleBreak?.markActivity?.();
+    const elapsed = activeRecordingDuration();
+    const maxSeconds = activeRecordingLimitSeconds();
+    const clock = document.querySelector("[data-recording-clock]");
+    const context = currentRecordingContext();
+    const remaining = Math.max(0, maxSeconds * 1000 - elapsed);
+    if (clock) clock.textContent = context?.isExam && !context.intro && context.part === 2
+      ? `剩餘 ${formatDuration(remaining)}`
+      : `${formatDuration(elapsed)} / ${formatDuration(maxSeconds * 1000)}`;
+    if (context?.isExam && !context.intro && context.part === 2) {
+      const examClock = document.querySelector("[data-exam-prep-clock]");
+      const examLabel = document.querySelector("[data-exam-prep-label]");
+      if (examClock) examClock.textContent = formatDuration(remaining);
+      if (examLabel) examLabel.textContent = "回答時間 · SPEAKING TIME";
+    }
+    if (state.mediaRecorder.state === "recording" && elapsed >= maxSeconds * 1000) finishRecording();
+  }
+
+  function syncRecorderControls() {
+    const button = document.querySelector("[data-record-toggle]");
+    const finish = document.querySelector("[data-finish-recording]");
+    if (!button) return;
+    const recorderState = state.mediaRecorder?.state || "inactive";
+    const examRecording = Boolean(currentRecordingContext()?.isExam);
+    const examMutationBusy = examRecording && (state.examSaving || state.examSkipSaving);
+    const busy = Boolean(state.recordingTransition || state.recordingQuotaChecking || state.recordingPermissionPending || state.recordingProcessing || examMutationBusy);
+    button.disabled = busy;
+    button.classList.toggle("is-recording", recorderState === "recording");
+    button.classList.toggle("is-paused", recorderState === "paused");
+    if (examRecording && state.examSkipSaving) button.textContent = "正在跳過題目…";
+    else if (examRecording && state.examSaving) button.textContent = "正在安全上載…";
+    else if (state.recordingQuotaChecking) button.textContent = "正在檢查錄音容量…";
+    else if (state.recordingPermissionPending) button.textContent = "正在連接咪高峰…";
+    else if (state.recordingProcessing) button.textContent = "正在製作 MP3…";
+    else if (state.recordingTransition === "pausing") button.textContent = "正在暫停…";
+    else if (state.recordingTransition === "resuming") button.textContent = "正在繼續…";
+    else if (state.recordingTransition === "stopping") button.textContent = "正在完成…";
+    else if (recorderState === "paused" && examRecording) button.textContent = "■ 完成回答";
+    else if (recorderState === "paused") button.textContent = "● 繼續錄音";
+    else if (recorderState === "recording" && examRecording) button.textContent = "■ 完成回答";
+    else if (recorderState === "recording" && state.recordingPauseSupported) button.textContent = "❚❚ 暫停錄音";
+    else if (recorderState === "recording") button.textContent = "■ 完成錄音";
+    else if (examRecording) button.textContent = state.recordedMp3 ? "● 重新回答" : "● 開始回答";
+    else if (state.recordedMp3) button.textContent = "● 重新錄音";
+    else button.textContent = state.pageRecordings.length ? "＋ 再錄一段" : "● 開始錄音";
+    if (finish) {
+      finish.hidden = examRecording || !state.recordingPauseSupported || !["recording", "paused"].includes(recorderState);
+      finish.disabled = busy;
+    }
+    syncExamBypassControls();
+  }
+
+  function recordingQuotaFullMessage(payload) {
+    const usage = payload?.usage || {};
+    const quota = payload?.quota || {};
+    const usedBytes = Math.max(0, Number(usage.storageBytes || 0));
+    const maxBytes = Math.max(0, Number(quota.maxBytes || 150 * 1024 * 1024));
+    const fileCount = Math.max(0, Number(usage.fileCount || 0));
+    const maxFiles = Math.max(0, Number(quota.maxFiles || 500));
+    if (maxFiles && fileCount >= maxFiles) {
+      return `您的錄音數量已達上限（${fileCount}/${maxFiles}）。請先在「我的錄音」匯出並刪除舊錄音，才可繼續錄音。`;
+    }
+    return `您的錄音儲存空間已滿（${formatBytes(usedBytes)} / ${formatBytes(maxBytes)}）。請先在「我的錄音」匯出並刪除舊錄音，才可繼續錄音。`;
+  }
+
+  async function preflightRecordingQuota() {
+    if (state.user?.role === "admin") return true;
+    const endpoint = CONFIG.endpoints?.recordingQuota || "/v1/recordings/quota";
+    state.recordingQuotaChecking = true;
+    syncRecorderControls();
+    recordingStatus("正在檢查 Listening 與 Speaking 共用的 150 MB 錄音儲存空間…");
+    try {
+      const payload = await apiJson(endpoint, { method: "GET" });
+      state.recordingQuota = payload;
+      if (payload?.canRecord !== true) {
+        const message = recordingQuotaFullMessage(payload);
+        recordingStatus(message);
+        toast(message, "error");
+        return false;
+      }
+      return true;
+    } catch (error) {
+      const message = error?.code === "STUDENT_STORAGE_QUOTA_REACHED" || error?.code === "STUDENT_FILE_QUOTA_REACHED"
+        ? "您的錄音儲存空間已滿。請先在「我的錄音」匯出並刪除舊錄音，才可繼續錄音。"
+        : "暫時未能確認錄音儲存空間，因此未有啟動咪高峰。請稍後再試。";
+      recordingStatus(message);
+      toast(message, "error");
+      return false;
+    } finally {
+      state.recordingQuotaChecking = false;
+      syncRecorderControls();
+    }
+  }
+
+  async function startRecording() {
+    if (!navigator.mediaDevices?.getUserMedia || !window.MediaRecorder) {
+      recordingStatus("這個瀏覽器不支援咪高峰錄音。請使用最新版本 Safari、Chrome、Firefox 或 Edge。");
+      return;
+    }
+    if (!window.isSecureContext && location.hostname !== "localhost") {
+      recordingStatus("咪高峰只可在 HTTPS 安全網頁上使用。");
+      return;
+    }
+    const requestedContext = currentRecordingContext();
+    if (!requestedContext) {
+      recordingStatus("未能辨認目前的錄音題目，請重新載入後再試。");
+      return;
+    }
+    if (requestedContext.isExam && (state.examSaving || state.examSkipSaving)) {
+      recordingStatus(state.examSkipSaving ? "正在跳過這一題，請稍候。" : "本題錄音正在安全上載，請稍候。");
+      syncRecorderControls();
+      return;
+    }
+    if (!(await preflightRecordingQuota())) return;
+    if (!state.user || currentRecordingContext()?.key !== requestedContext.key) return;
+    stopModelAudio();
+    finishExamSpeechNow();
+    discardRecording(false);
+    const requestGeneration = ++state.recordingGeneration;
+    state.recordingPermissionPending = true;
+    state.recordingProcessing = false;
+    const authGeneration = state.authGeneration;
+    const requestedContextKey = requestedContext.key;
+    state.recordingContextKey = requestedContextKey;
+    syncRecorderControls();
+    recordingStatus("正在請求咪高峰權限…");
+    let stream;
+    try {
+      stream = await requestMicrophoneStream();
+    } catch (error) {
+      if (requestGeneration !== state.recordingGeneration) return;
+      state.recordingPermissionPending = false;
+      console.warn("Microphone permission failed:", error);
+      recordingStatus(microphoneErrorMessage(error));
+      clearRecordingTimer();
+      stopMediaTracks();
+      state.mediaRecorder = null;
+      state.recordingActiveStartedAt = 0;
+      state.recordingElapsedMs = 0;
+      syncRecorderControls();
+      return;
+    }
+    if (
+      requestGeneration !== state.recordingGeneration
+      || authGeneration !== state.authGeneration
+      || !state.user
+      || currentRecordingContext()?.key !== requestedContextKey
+    ) {
+      stream.getTracks().forEach(track => track.stop());
+      return;
+    }
+    state.recordingPermissionPending = false;
+    state.mediaStream = stream;
+    window.EdmundSpeakingRecordingStream=stream;
+    window.EdmundSpeakingRecordingKey=requestedContextKey;
+    window.EdmundSpeakingTranscription?.start(stream, requestedContextKey);
+    try {
+      const recorder = createMediaRecorder(stream);
+      state.mediaRecorder = recorder;
+      state.recordingChunks = [];
+      state.recordingElapsedMs = 0;
+      state.recordingActiveStartedAt = 0;
+      state.recordingTransition = "";
+      state.recordingPauseSupported = typeof recorder.pause === "function" && typeof recorder.resume === "function";
+      state.recordingBackgroundPaused = false;
+      const generation = requestGeneration;
+      recorder.ondataavailable = event => {
+        if (event.data?.size) state.recordingChunks.push(event.data);
+      };
+      recorder.onerror = event => {
+        if (generation !== state.recordingGeneration) return;
+        console.warn("MediaRecorder error:", event.error || event);
+        state.recordingGeneration += 1;
+        clearRecordingTimer();
+        recorder.ondataavailable = null;
+        recorder.onstop = null;
+        try {
+          if (recorder.state !== "inactive") recorder.stop();
+        } catch {
+          // The recorder has already stopped after reporting the error.
+        }
+        recordingStatus("錄音時發生錯誤，請重新嘗試。");
+        stopMediaTracks();
+        state.mediaRecorder = null;
+        state.recordingChunks = [];
+        state.recordingActiveStartedAt = 0;
+        state.recordingElapsedMs = 0;
+        state.recordingTransition = "";
+        state.recordedDurationMs = 0;
+        state.recordingProcessing = false;
+        resetRecordButton();
+      };
+      recorder.onpause = () => {
+        if (generation !== state.recordingGeneration || state.mediaRecorder !== recorder) return;
+        commitActiveRecordingDuration();
+        state.recordingTransition = "";
+        clearRecordingTimer();
+        state.mediaStream?.getAudioTracks().forEach(track => { track.enabled = false; });
+        recordingStatus("錄音已暫停；現在可播放示範或按文字重聽，準備好後按「繼續錄音」。", "paused");
+        updateRecordingClock();
+        syncRecorderControls();
+      };
+      recorder.onresume = () => {
+        if (generation !== state.recordingGeneration || state.mediaRecorder !== recorder) return;
+        state.recordingActiveStartedAt = recordingNow();
+        state.recordingTransition = "";
+        state.recordingBackgroundPaused = false;
+        recordingStatus("錄音已繼續，完成後請按「完成並製作 MP3」。", "recording");
+        scheduleRecordingTimers();
+        syncRecorderControls();
+      };
+      recorder.onstop = () => finaliseRecording(generation, recorder.mimeType || "audio/webm");
+      recorder.start(1000);
+      const selected=document.querySelector('[data-reading-model]');
+      if(!currentRecordingContext()?.isExam && selected?.value)window.CourseReading?.attachRecorder(recorder,selected.value,selected.parentElement);
+      if (requestedContext.isExam) {
+        stopMicrophoneCheck = window.EdmundSpeakingMicrophoneCheck?.(stream, {
+          isActive: () => generation === state.recordingGeneration && state.mediaRecorder === recorder && recorder.state === "recording",
+          onQuiet: () => {
+            if (generation !== state.recordingGeneration || state.mediaRecorder !== recorder || recorder.state !== "recording") return;
+            const proceed = window.confirm("咪高峰檢查：首兩秒未偵測到明顯聲音變化。\n可能尚未開始說話，或咪高峰已靜音、未接妥。\n\n仍要繼續錄音嗎？\n按「確定」繼續；按「取消」停止本次錄音，檢查咪高峰後重新開始。");
+            if (!proceed) {
+              cancelRecorder();
+              recordingStatus("本次錄音已停止，未提交答案。請檢查咪高峰，準備好後重新開始回答。");
+            }
+          }
+        });
+      }
+      state.recordingActiveStartedAt = recordingNow();
+      recordingStatus(state.recordingPauseSupported
+        ? (requestedContext.isExam ? "錄音已開始；完成回答後請按「完成回答」。" : "錄音已開始；需要重聽示範時可先暫停，完成後按「完成並製作 MP3」。")
+        : "錄音已開始；此瀏覽器不支援中途暫停，完成後請按停止。", true);
+      scheduleRecordingTimers();
+      syncRecorderControls();
+    } catch (error) {
+      if (requestGeneration !== state.recordingGeneration) return;
+      console.warn("MediaRecorder startup failed:", error);
+      recordingStatus("咪高峰已連接，但瀏覽器未能開始錄音。請更新瀏覽器或改用另一個瀏覽器後再試。");
+      clearRecordingTimer();
+      stopMediaTracks();
+      state.mediaRecorder = null;
+      state.recordingChunks = [];
+      state.recordingActiveStartedAt = 0;
+      state.recordingElapsedMs = 0;
+      state.recordingTransition = "";
+      syncRecorderControls();
+    }
+  }
+
+  function pauseRecording(options = {}) {
+    const recorder = state.mediaRecorder;
+    if (!recorder || recorder.state !== "recording" || state.recordingTransition) return;
+    if (!state.recordingPauseSupported) {
+      finishRecording();
+      return;
+    }
+    state.recordingTransition = "pausing";
+    state.recordingBackgroundPaused = Boolean(options.background);
+    syncRecorderControls();
+    try {
+      recorder.pause();
+      window.EdmundSpeakingTranscription?.pause(true);
+    } catch (error) {
+      state.recordingTransition = "";
+      state.recordingBackgroundPaused = false;
+      syncRecorderControls();
+      toast("瀏覽器未能暫停錄音，請按完成後重新嘗試。", "error");
+    }
+  }
+
+  function resumeRecording() {
+    const recorder = state.mediaRecorder;
+    if (!recorder || recorder.state !== "paused" || state.recordingTransition) return;
+    stopModelAudio();
+    state.recordingTransition = "resuming";
+    state.mediaStream?.getAudioTracks().forEach(track => { track.enabled = true; });
+    syncRecorderControls();
+    try {
+      recorder.resume();
+      window.EdmundSpeakingTranscription?.pause(false);
+    } catch (error) {
+      state.recordingTransition = "";
+      state.mediaStream?.getAudioTracks().forEach(track => { track.enabled = false; });
+      syncRecorderControls();
+      toast("瀏覽器未能繼續錄音，請先完成並保留現有內容。", "error");
+    }
+  }
+
+  function finishRecording() {
+    window.EdmundSpeakingTranscription?.stop();
+    if (!state.mediaRecorder || !["recording", "paused"].includes(state.mediaRecorder.state) || state.recordingTransition) return;
+    if (state.mediaRecorder.state === "recording") commitActiveRecordingDuration();
+    state.recordedDurationMs = Math.min(state.recordingElapsedMs, activeRecordingLimitSeconds() * 1000);
+    state.recordingProcessing = true;
+    state.recordingTransition = "stopping";
+    clearRecordingTimer();
+    stopModelAudio();
+    state.mediaRecorder.stop();
+    stopMediaTracks();
+    syncRecorderControls();
+    recordingStatus("錄音完成，正在轉換成真正的單聲道 MP3…");
+  }
+
+  function sampleToInt16(value) {
+    const sample = Math.max(-1, Math.min(1, value));
+    return sample < 0 ? sample * 32768 : sample * 32767;
+  }
+
+  async function decodeAudioBlob(blob) {
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContextClass) throw new Error("AudioContext is unavailable.");
+    const context = new AudioContextClass();
+    try {
+      const bytes = await blob.arrayBuffer();
+      return await new Promise((resolve, reject) => {
+        context.decodeAudioData(bytes, resolve, reject);
+      });
+    } finally {
+      context.close().catch(() => {});
+    }
+  }
+
+  async function encodeGenuineMonoMp3(sourceBlob, maxDurationMs) {
+    if (!window.lamejs?.Mp3Encoder) throw new Error("MP3 encoder did not load.");
+    const audioBuffer = await decodeAudioBlob(sourceBlob);
+    const sampleRate = audioBuffer.sampleRate;
+    const durationLimitMs = Math.max(1, Number(maxDurationMs || 300000));
+    const sampleLimit = Math.min(audioBuffer.length, Math.floor(sampleRate * durationLimitMs / 1000));
+    const channels = Array.from({ length: audioBuffer.numberOfChannels }, (_, channel) => audioBuffer.getChannelData(channel));
+    const encoder = new window.lamejs.Mp3Encoder(1, sampleRate, 64);
+    const blocks = [];
+    const frameSize = 1152;
+    const pcm = new Int16Array(frameSize);
+    for (let offset = 0; offset < sampleLimit; offset += frameSize) {
+      const blockLength = Math.min(frameSize, sampleLimit - offset);
+      for (let index = 0; index < blockLength; index += 1) {
+        let sample = 0;
+        for (const channel of channels) sample = Math.fround(sample + channel[offset + index] / channels.length);
+        pcm[index] = sampleToInt16(sample);
+      }
+      const encoded = encoder.encodeBuffer(blockLength === frameSize ? pcm : pcm.subarray(0, blockLength));
+      if (encoded.length) blocks.push(new Uint8Array(encoded));
+      if (offset && offset % (frameSize * 200) === 0) await new Promise(resolve => window.setTimeout(resolve, 0));
+    }
+    const flushed = encoder.flush();
+    if (flushed.length) blocks.push(new Uint8Array(flushed));
+    const mp3 = new Blob(blocks, { type: "audio/mpeg" });
+    if (!mp3.size) throw new Error("The MP3 encoder produced an empty file.");
+    return {
+      mp3,
+      durationMs: Math.max(1, Math.min(durationLimitMs, Math.round(sampleLimit / sampleRate * 1000)))
+    };
+  }
+
+  async function finaliseRecording(generation, sourceMime) {
+    if (generation !== state.recordingGeneration) return;
+    const durationLimitMs = activeRecordingLimitSeconds() * 1000;
+    const source = new Blob(state.recordingChunks, { type: sourceMime });
+    state.recordingChunks = [];
+    state.mediaRecorder = null;
+    state.recordingActiveStartedAt = 0;
+    state.recordingTransition = "";
+    if (!source.size) {
+      state.recordingProcessing = false;
+      recordingStatus("未有錄到聲音，請重新嘗試。");
+      resetRecordButton();
+      return;
+    }
+    state.recordingProcessing = true;
+    try {
+      const encoded = await encodeGenuineMonoMp3(source, durationLimitMs);
+      if (generation !== state.recordingGeneration) return;
+      const mp3 = encoded.mp3;
+      state.recordedDurationMs = encoded.durationMs;
+      state.recordedMp3 = mp3;
+      state.recordedMp3Url = URL.createObjectURL(mp3);
+      state.recordingSaved = false;
+      renderRecordingPreview();
+      recordingStatus(`MP3 已準備完成（${formatBytes(mp3.size)}，${formatDuration(state.recordedDurationMs)}）。`, false);
+      if (currentRecordingContext()?.isExam) await saveRecording({ automatic: true });
+    } catch (error) {
+      if (generation !== state.recordingGeneration) return;
+      console.warn("MP3 conversion failed:", error);
+      recordingStatus("未能轉換成 MP3。錄音不會以其他格式冒充 MP3，請更新瀏覽器後再試。");
+      toast("MP3 轉換失敗；原始 WebM／MP4 不會被錯誤改名上載。", "error");
+    } finally {
+      if (generation === state.recordingGeneration) {
+        state.recordingProcessing = false;
+        resetRecordButton();
+      }
+    }
+  }
+
+  function resetRecordButton(label = "● 重新錄音") {
+    const button = document.querySelector("[data-record-toggle]");
+    if (!button) return;
+    const context = currentRecordingContext();
+    state.recordingTransition = "";
+    state.recordingPermissionPending = false;
+    button.disabled = Boolean(context?.isExam && (context.item?.saved || state.examSaving || state.examSkipSaving));
+    button.hidden = Boolean(context?.isExam && context.item?.saved);
+    button.classList.remove("is-recording", "is-paused");
+    button.textContent = context?.isExam ? "● 重新回答" : label;
+    const finish = document.querySelector("[data-finish-recording]");
+    if (finish) finish.hidden = true;
+    syncExamBypassControls();
+  }
+
+  function renderRecordingPreview() {
+    const preview = document.querySelector("[data-recording-preview]");
+    if (!preview || !state.recordedMp3Url) return;
+    const context = currentRecordingContext();
+    preview.hidden = false;
+    preview.innerHTML = context?.isExam ? `
+      <audio controls preload="metadata" src="${escapeHtml(state.recordedMp3Url)}">你的瀏覽器不支援音訊預覽。</audio>
+      <div class="recorder-actions">
+        <button class="primary-button" type="button" data-save-recording disabled>正在儲存本題…</button>
+        <button class="secondary-button" type="button" data-download-current>下載這次 MP3</button>
+      </div>
+      <p class="save-note">本題儲存完成後才可前往下一題，避免遺失考試錄音。</p>
+    ` : `
+      <audio controls preload="metadata" src="${escapeHtml(state.recordedMp3Url)}">你的瀏覽器不支援音訊預覽。</audio>
+      <div class="recorder-actions">
+        <button class="primary-button" type="button" data-save-recording>儲存這段錄音</button>
+        <button class="secondary-button" type="button" data-download-current>下載這次 MP3</button>
+        <button class="danger-button" type="button" data-discard-recording>捨棄並重錄</button>
+      </div>
+      <p class="save-note">儲存後可從頁首的「我的錄音」隨時播放、下載、刪除或匯出全部 MP3 ZIP。</p>
+    `;
+  }
+
+  function discardRecording(showMessage = true) {
+    if (state.recordedMp3Url) URL.revokeObjectURL(state.recordedMp3Url);
+    state.recordedMp3 = null;
+    state.recordedMp3Url = "";
+    state.recordedDurationMs = 0;
+    state.recordingSaved = false;
+    const preview = document.querySelector("[data-recording-preview]");
+    if (preview) {
+      preview.hidden = true;
+      preview.innerHTML = "";
+    }
+    if (showMessage) recordingStatus("錄音已捨棄，可以重新錄音。");
+    syncExamBypassControls();
+  }
+
+  function cancelRecorder() {
+    window.EdmundSpeakingTranscription?.stop();
+    const hadPendingPermission = state.recordingPermissionPending;
+    state.recordingGeneration += 1;
+    state.recordingPermissionPending = false;
+    state.recordingProcessing = false;
+    state.recordingTransition = "";
+    clearRecordingTimer();
+    if (state.mediaRecorder && ["recording", "paused"].includes(state.mediaRecorder.state)) {
+      state.mediaRecorder.ondataavailable = null;
+      state.mediaRecorder.onstop = null;
+      try { state.mediaRecorder.stop(); } catch { /* Recorder already stopped. */ }
+    }
+    state.mediaRecorder = null;
+    state.recordingChunks = [];
+    state.recordingActiveStartedAt = 0;
+    state.recordingElapsedMs = 0;
+    state.recordingPauseSupported = false;
+    state.recordingBackgroundPaused = false;
+    state.recordingContextKey = "";
+    stopMediaTracks();
+    discardRecording(false);
+    if (document.querySelector("[data-record-toggle]")) {
+      resetRecordButton(hadPendingPermission ? "● 開始錄音" : "● 重新錄音");
+      if (hadPendingPermission) recordingStatus("咪高峰請求已取消，可以重新錄音。");
+    }
+  }
+
+  function formatBytes(value) {
+    const bytes = Math.max(0, Number(value || 0));
+    if (bytes < 1024) return `${bytes} B`;
+    if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
+    return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+  }
+
+  function downloadBlob(blob, filename) {
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename;
+    link.hidden = true;
+    document.body.append(link);
+    link.click();
+    link.remove();
+    window.setTimeout(() => URL.revokeObjectURL(url), 2000);
+  }
+
+  function markExamItemSaved(context, recording = null) {
+    if (!context?.isExam || currentRecordingContext()?.key !== context.key) return false;
+    context.item.saved = true;
+    context.item.uploadAttempted = false;
+    context.item.recordingId = String(recording?.id || "");
+    state.recordingSaved = true;
+    renderExamProceedAction();
+    return true;
+  }
+
+  async function findExistingExamRecording(exerciseId) {
+    const result = await listAttempts();
+    return result.attempts.find(attempt => attempt.exerciseId === exerciseId) || null;
+  }
+
+  async function saveRecording(options = {}) {
+    if (!state.recordedMp3 || !state.user) return false;
+    const context = currentRecordingContext();
+    if (!context) return false;
+    if (context.isExam && (state.examSaving || state.examSkipSaving)) return false;
+    const contextKey = context.key;
+    let autoAdvancePart2 = false;
+    const button = document.querySelector("[data-save-recording]");
+    if (button) button.disabled = true;
+    if (context.isExam) {
+      state.examSaving = true;
+      syncRecorderControls();
+    }
+    state.practiceUploadBusy=true;
+    recordingStatus("正在安全上載 MP3…");
+    try {
+      if (context.isExam && context.item.uploadAttempted) {
+        recordingStatus("正在確認本題是否已經儲存…");
+        const existing = await findExistingExamRecording(context.id);
+        if (currentRecordingContext()?.key !== contextKey) return false;
+        if (existing) {
+          markExamItemSaved(context, existing);
+          autoAdvancePart2 = Boolean(context.item.part === 2 && context.item.kind !== "intro" && state.examSession?.naturalExchange);
+          recordingStatus("已確認本題早前已成功儲存。", false);
+          if (button) {
+            button.textContent = "✓ 本題已儲存";
+            button.disabled = true;
+          }
+          toast("本題錄音已在錄音庫中確認。", "info");
+          return true;
+        }
+      }
+      const now = new Date();
+      const filename = context.isExam
+        ? `${safeFilePart(state.user.name, "student")}-exam-${context.modeId}-${context.intro ? "name-introduction" : `part-${context.part}-question-${pad(context.globalOrder)}`}-${now.toISOString().replace(/[:.]/g, "-")}.mp3`
+        : context.isDse
+        ? `${safeFilePart(state.user.name, "student")}-dse-${state.dseSession?.set?.year || "set"}-${safeFilePart(state.dseSession?.set?.set, "practice")}-part-${context.part}-item-${pad(context.index)}-${now.toISOString().replace(/[:.]/g, "-")}.mp3`
+        : `${safeFilePart(state.user.name, "student")}-book-${context.book}-exercise-${pad(context.index)}-${now.toISOString().replace(/[:.]/g, "-")}.mp3`;
+      const performanceChecklist = window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR?.snapshot?.() || null;
+      const metadata = {
+        exerciseId: context.id,
+        exerciseIndex: context.index,
+        exerciseTitle: context.title,
+        exam: context.exam || "IELTS",
+        part: context.part,
+        book: context.book,
+        durationMs: state.recordedDurationMs,
+        mimeType: "audio/mpeg",
+        ...(performanceChecklist ? { performanceChecklist } : {})
+      };
+      const form = new FormData();
+      form.append("file", state.recordedMp3, filename);
+      Object.entries(metadata).forEach(([key, value]) => {
+        if (typeof value !== "object" && value !== null && value !== undefined && value !== "") {
+          form.append(key, String(value));
+        }
+      });
+      if (performanceChecklist) form.append("performanceChecklist", JSON.stringify(performanceChecklist));
+      form.append("metadata", JSON.stringify(metadata));
+      const maxUploadBytes = Math.max(512, Number(CONFIG.maxUploadBytes || 3 * 1024 * 1024));
+      if (state.recordedMp3.size > maxUploadBytes) {
+        throw new Error(`錄音超過 ${formatBytes(maxUploadBytes)} 上載上限。答案請控制在 ${formatDuration(activeRecordingLimitSeconds() * 1000)} 內，再重新錄音。`);
+      }
+      const endpoint = CONFIG.endpoints?.recordings || "/v1/recordings";
+      if (context.isExam) context.item.uploadAttempted = true;
+      const response = await apiJson(endpoint, { method: "POST", body: form });
+      if (!state.user || currentRecordingContext()?.key !== contextKey) return false;
+      state.recordingQuota = response?.usage || response?.quota
+        ? { usage: response?.usage || {}, quota: response?.quota || {}, canRecord: true }
+        : state.recordingQuota;
+      state.recordingSaved = true;
+      if (context.isExam) markExamItemSaved(context, response?.recording);
+      autoAdvancePart2 = Boolean(context.isExam && context.item.part === 2 && context.item.kind !== "intro" && state.examSession?.naturalExchange);
+      if (!context.isExam) {
+        const savedCount = archiveSavedPageRecording(response?.recording, context);
+        recordingStatus(`第 ${savedCount} 段錄音已儲存；可按「再錄一段」繼續。`, false);
+        resetRecordButton("＋ 再錄一段");
+        toast("錄音已安全儲存，可繼續錄製下一段。", "info");
+        return true;
+      }
+      recordingStatus(context.isExam ? "本題已儲存，可以前往下一題。" : "已儲存！可在「我的錄音」隨時取回。", false);
+      if (button) {
+        button.textContent = context.isExam ? "✓ 本題已儲存" : "✓ 已儲存";
+        button.disabled = true;
+      }
+      toast(context.isExam ? "本題已加入考試練習錄音。" : "錄音已安全儲存。", "info");
+      return true;
+    } catch (error) {
+      console.warn("Recording upload failed:", error);
+      const unavailable = error?.code === "RECORDING_SERVICE_UNREACHABLE"
+        || /(?:load failed|failed to fetch|networkerror|error code:\s*1042)/i.test(String(error?.message || ""));
+      const message = error?.code === "STUDENT_STORAGE_QUOTA_REACHED" || error?.code === "STUDENT_FILE_QUOTA_REACHED"
+        ? "您的 Listening 與 Speaking 共用 150 MB 錄音儲存空間已滿。請先在「我的錄音」匯出並刪除舊錄音，才可繼續儲存新錄音。"
+        : error?.code === "RECORDING_UPLOAD_IN_PROGRESS"
+        ? "本題前一次上載仍在處理中，請稍後按「重新檢查並儲存本題」。若 10 分鐘後仍未完成，請聯絡管理員整理錄音狀態。"
+        : unavailable
+        ? "未能連接錄音儲存服務。這次錄音仍保留在此頁；請先按「下載這次 MP3」備份，再稍後重新儲存。"
+        : String(error?.message || "錄音上載失敗，請稍後再試。");
+      recordingStatus(message);
+      toast(message, "error");
+      if (button) {
+        button.disabled = false;
+        if (context.isExam) button.textContent = "重新檢查並儲存本題";
+      }
+      return false;
+    } finally {
+      state.practiceUploadBusy=false;
+      if (context.isExam) {
+        state.examSaving = false;
+        syncRecorderControls();
+      }
+      if (autoAdvancePart2 && currentRecordingContext()?.key === contextKey) {
+        window.setTimeout(() => {
+          if (currentRecordingContext()?.key === contextKey && context.item.saved) advanceExamItem();
+        }, 350);
+      }
+    }
+  }
+
+  function normaliseAttempt(raw, index) {
+    const item = raw || {};
+    const exerciseId = String(item.exerciseId || item.exercise_id || item.metadata?.exerciseId || "");
+    const exam = String(item.exam || item.metadata?.exam || "");
+    const rawPart = item.part ?? item.part_number ?? item.metadata?.part;
+    const rawBook = item.book ?? item.book_number ?? item.metadata?.book;
+    const part = rawPart === null || rawPart === undefined || rawPart === "" ? null : Number(rawPart);
+    const book = rawBook === null || rawBook === undefined || rawBook === "" ? null : Number(rawBook);
+    const parsedExamRecording = typeof EXAM_MODE.parseRecordingExerciseId === "function"
+      ? EXAM_MODE.parseRecordingExerciseId(exerciseId)
+      : null;
+    const rawPerformanceChecklist = item.performanceChecklist
+      ?? item.performance_checklist
+      ?? item.metadata?.performanceChecklist
+      ?? null;
+    const normalizedPerformanceChecklist = rawPerformanceChecklist && window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR?.normalize
+      ? window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR.normalize(rawPerformanceChecklist)
+      : null;
+    return {
+      id: String(item.id || item.recordingId || item.key || index),
+      studentId: String(item.studentId || item.student_id || ""),
+      studentName: String(item.studentName || item.student_name || item.ownerName || item.owner_name || state.user?.name || "Student"),
+      exerciseId,
+      exam,
+      examRecording: parsedExamRecording?.part === part ? parsedExamRecording : null,
+      exerciseTitle: String(item.exerciseTitle || item.exercise_title || item.metadata?.exerciseTitle || item.title || "Speaking attempt"),
+      exerciseIndex: Number(item.exerciseIndex || item.exercise_index || item.metadata?.exerciseIndex || 0),
+      part,
+      book,
+      createdAt: String(item.createdAt || item.created_at || item.uploadedAt || item.uploaded_at || ""),
+      durationMs: Number(item.durationMs || item.duration_ms || item.metadata?.durationMs || 0),
+      size: Number(item.size || item.sizeBytes || item.size_bytes || 0),
+      downloadUrl: String(item.downloadUrl || item.download_url || item.fileUrl || item.file_url || item.signedUrl || item.signed_url || ""),
+      filename: String(item.filename || item.fileName || item.file_name || item.originalFilename || item.original_filename || ""),
+      performanceChecklist: normalizedPerformanceChecklist
+        ? { version: 1, content: normalizedPerformanceChecklist.content, language: normalizedPerformanceChecklist.language }
+        : null
+    };
+  }
+
+  function invalidateAttemptRequests() {
+    state.attemptRequestGeneration += 1;
+    state.attemptPlaybackGeneration += 1;
+    for (const controller of state.attemptAbortControllers) controller.abort();
+    state.attemptAbortControllers.clear();
+    state.attemptPlaybackController = null;
+  }
+
+  function blockAttemptMutationNavigation() {
+    if (!state.attemptMutationInProgress) return false;
+    toast("正在永久刪除整次考試練習，完成前請留在此頁。", "info");
+    return true;
+  }
+
+  function beginAttemptMutation() {
+    if (state.attemptMutationInProgress) return null;
+    const controller = new AbortController();
+    state.attemptMutationInProgress = true;
+    state.attemptMutationController = controller;
+    return controller;
+  }
+
+  function finishAttemptMutation(controller) {
+    if (state.attemptMutationController !== controller) return;
+    state.attemptMutationController = null;
+    state.attemptMutationInProgress = false;
+  }
+
+  function cancelAttemptMutation() {
+    const controller = state.attemptMutationController;
+    state.attemptMutationController = null;
+    state.attemptMutationInProgress = false;
+    if (controller) controller.abort();
+  }
+
+  function createAttemptController() {
+    const controller = new AbortController();
+    state.attemptAbortControllers.add(controller);
+    return controller;
+  }
+
+  function releaseAttemptController(controller) {
+    if (!controller) return;
+    state.attemptAbortControllers.delete(controller);
+    if (state.attemptPlaybackController === controller) state.attemptPlaybackController = null;
+  }
+
+  function isAbortError(error) {
+    return error?.name === "AbortError" || /abort/i.test(String(error?.message || ""));
+  }
+
+  function attemptRequestIsCurrent(generation, authGeneration) {
+    return generation === state.attemptRequestGeneration
+      && authGeneration === state.authGeneration
+      && Boolean(state.user);
+  }
+
+  async function listAttempts(options = {}) {
+    const endpoint = CONFIG.endpoints?.recordings || "/v1/recordings";
+    const scope = state.user?.role === "admin" ? "all" : "mine";
+    const pageSize = 200;
+    const collected = [];
+    let total = null;
+    let page = 1;
+    while (true) {
+      const separator = endpoint.includes("?") ? "&" : "?";
+      const payload = await apiJson(
+        `${endpoint}${separator}scope=${scope}&page=${page}&pageSize=${pageSize}`,
+        { signal: options.signal }
+      );
+      const rows = Array.isArray(payload)
+        ? payload
+        : payload?.recordings || payload?.items || payload?.data || [];
+      const pageRows = Array.isArray(rows) ? rows : [];
+      collected.push(...pageRows);
+      const rawTotal = payload?.total;
+      const reportedTotal = rawTotal === null || rawTotal === undefined || rawTotal === ""
+        ? null
+        : Number(rawTotal);
+      if (Number.isSafeInteger(reportedTotal) && reportedTotal >= 0) total = reportedTotal;
+      if (!pageRows.length || pageRows.length < pageSize || (total !== null && collected.length >= total)) break;
+      page += 1;
+      if (page > 100) throw new Error("錄音數量太多，未能一次載入。請聯絡管理員。");
+    }
+    const attemptsById = new Map();
+    collected.map(normaliseAttempt).forEach(attempt => {
+      if (!attemptsById.has(attempt.id)) attemptsById.set(attempt.id, attempt);
+    });
+    const attempts = [...attemptsById.values()]
+      .sort((a, b) => new Date(b.createdAt || 0) - new Date(a.createdAt || 0));
+    return { attempts, total: total === null ? attempts.length : total };
+  }
+
+  function normaliseExamAttempt(raw) {
+    const item = raw || {};
+    const id = String(item.id || "").toLowerCase();
+    const modeId = String(item.modeId || item.mode_id || "");
+    if (!id || !examModeDefinition(modeId)) return null;
+    const maximumOrder = expectedExamRecordingCount(modeId);
+    const skippedOrders = [...new Set((Array.isArray(item.skippedOrders) ? item.skippedOrders : item.skipped_question_orders || [])
+      .map(Number)
+      .filter(order => Number.isInteger(order) && order >= 1 && order <= maximumOrder))].sort((left, right) => left - right);
+    const skippedSet = new Set(skippedOrders);
+    const questions = (Array.isArray(item.questions) ? item.questions : item.question_manifest || [])
+      .map(question => ({
+        globalOrder: Number(question.order || question.globalOrder),
+        part: Number(question.part),
+        sourceKey: String(question.sourceKey || ""),
+        contentKey: String(question.contentKey || ""),
+        sourceId: String(question.sourceId || ""),
+        sourceBook: Number(question.sourceBook),
+        sourceIndex: Number(question.sourceIndex),
+        questionNumber: question.questionNumber === null ? null : Number(question.questionNumber),
+        title: String(question.promptEn || question.title || ""),
+        titleZh: String(question.promptZh || question.titleZh || ""),
+        skipped: skippedSet.has(Number(question.order || question.globalOrder))
+      }))
+      .filter(question => question.globalOrder >= 1 && [1, 2, 3].includes(question.part) && question.sourceId && question.title);
+    return {
+      id,
+      modeId,
+      attemptNumber: Number(item.attemptNumber || item.attempt_number || 0),
+      naturalExchange: item.naturalExchange === true || item.natural_exchange === true,
+      introSkipped: item.introSkipped === true || item.intro_skipped === true,
+      questions,
+      skippedOrders,
+      nervousness: item.nervousness === null || item.nervousness === undefined ? null : Number(item.nervousness),
+      startedAt: String(item.startedAt || item.started_at || ""),
+      completedAt: String(item.completedAt || item.completed_at || ""),
+      updatedAt: String(item.updatedAt || item.updated_at || "")
+    };
+  }
+
+  async function listExamAttemptMetadata(options = {}) {
+    if (state.user?.role !== "student") return { attempts: [], total: 0 };
+    const endpoint = examAttemptsEndpoint();
+    const pageSize = 200;
+    const collected = [];
+    let total = null;
+    let page = 1;
+    while (true) {
+      const separator = endpoint.includes("?") ? "&" : "?";
+      const payload = await apiJson(`${endpoint}${separator}page=${page}&pageSize=${pageSize}`, { signal: options.signal });
+      const rows = Array.isArray(payload?.attempts) ? payload.attempts : [];
+      collected.push(...rows);
+      const reportedTotal = Number(payload?.total);
+      if (Number.isSafeInteger(reportedTotal) && reportedTotal >= 0) total = reportedTotal;
+      if (!rows.length || rows.length < pageSize || (total !== null && collected.length >= total)) break;
+      page += 1;
+      if (page > 100) throw new Error("考試練習次數太多，未能一次載入。");
+    }
+    const attempts = collected.map(normaliseExamAttempt).filter(Boolean);
+    return { attempts, total: total === null ? attempts.length : total };
+  }
+
+  function formatDate(value) {
+    if (!value) return "日期未提供";
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return String(value);
+    return new Intl.DateTimeFormat("zh-HK", {
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit"
+    }).format(date);
+  }
+
+  function formatExamAttemptDate(value) {
+    if (!value) return "日期未提供";
+    const date = new Date(value);
+    if (Number.isNaN(date.getTime())) return "日期未提供";
+    return `${pad(date.getDate())}-${pad(date.getMonth() + 1)}-${date.getFullYear()}`;
+  }
+
+  function examAttemptElapsedMilliseconds(attempt) {
+    const startedAt = Date.parse(String(attempt?.startedAt || ""));
+    const completedAt = Date.parse(String(attempt?.completedAt || ""));
+    if (!Number.isFinite(startedAt) || !Number.isFinite(completedAt)) return null;
+    return Math.max(0, completedAt - startedAt);
+  }
+
+  function expectedExamRecordingCount(modeId) {
+    if (typeof EXAM_MODE.expectedRecordingCount === "function") {
+      return EXAM_MODE.expectedRecordingCount(modeId);
+    }
+    const mode = examModeDefinition(modeId);
+    return mode?.parts?.reduce((total, part) => total + (part === 1 ? 12 : part === 2 ? 1 : 6), 0) || 0;
+  }
+
+  function renderAttemptPerformanceChecklist(attempt) {
+    const checklist = attempt.performanceChecklist;
+    const indicator = window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR;
+    if (!checklist || !indicator?.content || !indicator?.language) return "";
+    const selected = {
+      content: new Set(checklist.content),
+      language: new Set(checklist.language),
+      mistakes:new Set(checklist.mistakes||[])
+    };
+    const section = (kind, titleEn, titleZh, items) => `
+      <section class="attempt-checklist-section attempt-checklist-${kind}">
+        <header><span>${titleEn}</span><strong>${titleZh} · ${selected[kind].size} / ${items.length}</strong></header>
+        <ul>${items.map(item => `<li class="${selected[kind].has(item.id) ? "is-demonstrated" : ""}"><span aria-hidden="true">${selected[kind].has(item.id) ? "✓" : "—"}</span><span>${escapeHtml(item.label)}</span></li>`).join("")}</ul>
+      </section>`;
+    return `
+      <details class="attempt-performance-record">
+        <summary>
+          <span>進階說話表現指標</span>
+          <strong>內容 ${selected.content.size} / ${indicator.content.length} · 語言 ${selected.language.size} / ${indicator.language.length}</strong>
+        </summary>
+        <div class="attempt-checklist-grid">
+          ${section("content", "CONTENT CHECKLIST", "內容", indicator.content)}
+          ${section("language", "LANGUAGE CHECKLIST", "語言", indicator.language)}
+          ${section("mistakes", "MISTAKES", "待改善", indicator.mistakes)}
+        </div>
+      </details>`;
+  }
+
+  function renderAttemptCard(attempt) {
+    const exam = attempt.examRecording;
+    const locationLabel = attempt.exam === "learning-practice"
+      ? "其他學習系統 · 口語練習"
+      : exam
+        ? exam.intro ? "考試開場 · 姓名回答" : `IELTS Part ${attempt.part} · Book ${attempt.book} · 第 ${exam.globalOrder} 段`
+        : `IELTS Part ${attempt.part} · Book ${attempt.book}${attempt.exerciseIndex ? ` · Exercise ${attempt.exerciseIndex}` : ""}`;
+    return `
+      <article class="attempt-card${exam ? " exam-recording-card" : ""}" data-attempt-card="${escapeHtml(attempt.id)}">
+        <div>
+          <h3>${escapeHtml(attempt.exerciseTitle)}</h3>
+          <div class="attempt-meta">
+            ${state.user?.role === "admin" ? `<strong>${escapeHtml(attempt.studentName)}</strong>` : ""}
+            <span>${escapeHtml(locationLabel)}</span>
+            <span>${escapeHtml(formatDate(attempt.createdAt))}</span>
+            ${attempt.durationMs ? `<span>${escapeHtml(formatDuration(attempt.durationMs))}</span>` : ""}
+            ${attempt.size ? `<span>${escapeHtml(formatBytes(attempt.size))}</span>` : ""}
+          </div>
+        </div>
+        <div class="attempt-actions">
+          <button class="attempt-action" type="button" data-attempt-play="${escapeHtml(attempt.id)}">播放</button>
+          <button class="attempt-action" type="button" data-attempt-download="${escapeHtml(attempt.id)}">下載 MP3</button>
+          <button class="attempt-action danger" type="button" data-attempt-delete="${escapeHtml(attempt.id)}">刪除</button>
+        </div>
+        ${renderAttemptPerformanceChecklist(attempt)}
+        <div data-attempt-audio-slot></div>
+      </article>`;
+  }
+
+  function examAttemptGroups(attempts) {
+    const groups = new Map();
+    if (state.user?.role === "student") {
+      state.examAttempts.forEach(examAttempt => {
+        const key = `mine:${examAttempt.modeId}:${examAttempt.id}`;
+        groups.set(key, {
+          key,
+          modeId: examAttempt.modeId,
+          owner: "mine",
+          examAttempt,
+          attempts: []
+        });
+      });
+    }
+    attempts.forEach(attempt => {
+      const exam = attempt.examRecording;
+      if (!exam) return;
+      const owner = state.user?.role === "admin" ? (attempt.studentId || attempt.studentName) : "mine";
+      const key = `${owner}:${exam.modeId}:${exam.attemptId}`;
+      if (!groups.has(key)) groups.set(key, { key, modeId: exam.modeId, owner, attempts: [] });
+      groups.get(key).attempts.push(attempt);
+    });
+    return [...groups.values()].map(group => {
+      group.attempts.sort((left, right) => (
+        Number(left.examRecording?.globalOrder || 0) - Number(right.examRecording?.globalOrder || 0)
+        || new Date(left.createdAt || 0) - new Date(right.createdAt || 0)
+      ));
+      const firstRecordingAt = group.attempts.reduce((earliest, attempt) => {
+        const time = Date.parse(attempt.createdAt || "");
+        return !Number.isFinite(time) ? earliest : Math.min(earliest, time);
+      }, Number.POSITIVE_INFINITY);
+      const metadataStartedAt = Date.parse(group.examAttempt?.startedAt || "");
+      group.startedAt = Number.isFinite(metadataStartedAt) ? metadataStartedAt : firstRecordingAt;
+      const hasIntro = group.examAttempt?.naturalExchange === true || group.attempts.some(attempt => attempt.examRecording?.intro === true);
+      group.expected = typeof EXAM_MODE.expectedStoredRecordingCount === "function"
+        ? EXAM_MODE.expectedStoredRecordingCount(group.modeId, hasIntro)
+        : expectedExamRecordingCount(group.modeId) + (hasIntro ? 1 : 0);
+      const actualExpected = expectedExamRecordingCount(group.modeId);
+      const slots = new Set(group.attempts
+        .map(attempt => attempt.examRecording?.globalOrder)
+        .filter(order => Number.isInteger(order) && order >= 1 && order <= actualExpected));
+      const skipped = new Set((group.examAttempt?.skippedOrders || [])
+        .filter(order => Number.isInteger(order) && order >= 1 && order <= actualExpected));
+      slots.forEach(order => skipped.delete(order));
+      group.introSaved = group.attempts.some(attempt => attempt.examRecording?.intro === true);
+      group.introSkipped = group.examAttempt?.introSkipped === true;
+      group.saved = slots.size + (group.introSaved ? 1 : 0);
+      group.skipped = skipped.size + (group.introSkipped ? 1 : 0);
+      group.covered = group.saved + group.skipped;
+      group.duplicateCount = Math.max(0, group.attempts.length - group.saved);
+      return group;
+    }).sort((left, right) => right.startedAt - left.startedAt);
+  }
+
+  function renderSavedExamReflection(examAttempt) {
+    if (!examAttempt) return "";
+    const rating = Number(examAttempt.nervousness || 0);
+    return `
+      <section class="saved-exam-reflection">
+        <div class="saved-exam-rating">
+          <span>SELF-EVALUATION · 自我評估</span>
+          <strong>${rating ? `緊張程度 ${rating} / 7` : "尚未完成緊張程度自評"}</strong>
+        </div>
+        ${examAttempt.questions.length ? `
+          <details class="saved-exam-questions">
+            <summary>查看今次隨機題目及來源</summary>
+            <div class="exam-review-question-stack">${examAttempt.questions.map(renderExamReviewQuestion).join("")}</div>
+          </details>` : ""}
+      </section>`;
+  }
+
+  function renderExamRecordingBox(groups) {
+    return `
+      <section class="recording-library-box exam-recording-library" aria-labelledby="exam-recordings-heading">
+        <div class="recording-library-heading">
+          <div><span class="cue-label">EXAM PRACTICE RECORDINGS</span><h2 id="exam-recordings-heading">考試練習錄音</h2></div>
+          <span>${groups.length} 次考試練習</span>
+        </div>
+        ${groups.length ? `<div class="exam-attempt-groups">${groups.map(group => {
+          const mode = examModeDefinition(group.modeId);
+          const dateValue = Number.isFinite(group.startedAt) ? group.startedAt : "";
+          const complete = Boolean(group.examAttempt?.completedAt) || (group.expected > 0 && group.covered >= group.expected);
+          const elapsedMs = examAttemptElapsedMilliseconds(group.examAttempt);
+          const first = group.attempts[0];
+          const attemptNumber = Number(group.examAttempt?.attemptNumber || 0);
+          return `
+            <details class="exam-attempt-group">
+              <summary>
+                <span><strong>${attemptNumber ? `第 ${attemptNumber} 次 · ` : ""}${escapeHtml(formatExamAttemptDate(dateValue))} · ${escapeHtml(mode?.label || "考試練習")}</strong><small>${state.user?.role === "admin" ? `${escapeHtml(first?.studentName || "Student")} · ` : ""}${complete ? "完整" : "進行中"} · 用時 <span data-exam-total-duration>${elapsedMs === null ? "尚未完成" : formatStopwatchDuration(elapsedMs)}</span> · 錄音 ${group.saved} 段${group.skipped ? ` · 跳過 ${group.skipped} 題` : ""} · 已處理 ${group.covered}/${group.expected || group.covered}${group.examAttempt?.nervousness ? ` · 緊張程度 ${group.examAttempt.nervousness}/7` : ""}${group.duplicateCount ? ` · ${group.duplicateCount} 個重複上載` : ""}</small></span>
+                <em>查看錄音</em>
+              </summary>
+              ${renderSavedExamReflection(group.examAttempt)}
+              ${state.user?.role === "student" && group.examAttempt ? `
+                <div class="exam-attempt-group-tools">
+                  <button class="attempt-action danger" type="button" data-exam-attempt-delete="${escapeHtml(group.examAttempt.id)}">刪除整次練習</button>
+                </div>` : ""}
+              <div class="exam-attempt-recordings">${group.attempts.length ? group.attempts.map(renderAttemptCard).join("") : '<p class="recording-library-empty">這次練習尚未有已儲存錄音。</p>'}</div>
+            </details>`;
+        }).join("")}</div>` : `
+          <div class="recording-library-empty"><span aria-hidden="true">🎧</span><p>完成考試練習後，整套錄音會按日期及模式顯示在這裡。</p></div>`}
+      </section>`;
+  }
+
+  function renderRegularRecordingBox(attempts) {
+    return `
+      <section class="recording-library-box" aria-labelledby="regular-recordings-heading">
+        <div class="recording-library-heading">
+          <div><span class="cue-label">REGULAR PRACTICE RECORDINGS</span><h2 id="regular-recordings-heading">一般練習錄音</h2></div>
+          <span>${attempts.length} 段錄音</span>
+        </div>
+        ${attempts.length ? `<div class="regular-attempt-list">${attempts.map(renderAttemptCard).join("")}</div>` : `
+          <div class="recording-library-empty"><span aria-hidden="true">🎙</span><p>Part 1、2 或 3 的一般練習錄音會顯示在這裡。</p></div>`}
+      </section>`;
+  }
+
+  function renderAttemptList() {
+    const container = document.querySelector("[data-attempt-list]");
+    const summary = document.querySelector("[data-attempts-summary]");
+    if (!container) return;
+    if (summary) summary.textContent = `共 ${state.attemptTotal || state.attempts.length} 次錄音`;
+    const groups = examAttemptGroups(state.attempts);
+    const regular = state.attempts.filter(attempt => !attempt.examRecording);
+    container.innerHTML = `${renderExamRecordingBox(groups)}${renderRegularRecordingBox(regular)}<section class="recording-library-box" data-professional-records><h2>Professional Practice · 專業口試紀錄</h2><p>Loading…</p></section>`;
+    import("./speaking-professional-library.mjs?v=20260908-layout1").then(m=>m.mountProfessionalLibrary(container.querySelector("[data-professional-records]"))).catch(console.error);
+  }
+
+  async function renderAttemptsPage() {
+    if (blockAttemptMutationNavigation()) return;
+    invalidateAttemptRequests();
+    state.attempts = [];
+    state.attemptTotal = 0;
+    state.attemptsById.clear();
+    state.examAttempts = [];
+    state.examAttemptsById.clear();
+    const requestGeneration = state.attemptRequestGeneration;
+    const authGeneration = state.authGeneration;
+    const controller = createAttemptController();
+    dom.content.innerHTML = `
+      <section class="content-panel">
+        ${sectionHeader(state.user?.role === "admin" ? "所有錄音嘗試" : "我的錄音", state.user?.role === "admin" ? "管理、播放、逐一下載或刪除所有學生的 Speaking 錄音。" : "你的錄音會安全同步至帳戶，可隨時播放、下載、匯出或刪除。", state.user?.role === "admin" ? "ADMIN · ALL STUDENTS" : "你的私人錄音庫")}
+        <div class="attempts-toolbar">
+          <span class="attempts-summary" data-attempts-summary>正在讀取錄音…</span>
+          ${state.user?.role === "admin" ? "" : '<button class="primary-button" type="button" data-export-zip>匯出全部 MP3（ZIP）</button>'}
+        </div>
+        <div class="attempt-list" data-attempt-list>
+          ${dom.loadingTemplate?.innerHTML || '<div class="loading-state">載入中…</div>'}
+        </div>
+      </section>
+    `;
+    try {
+      const [recordingResult, examMetadataResult] = await Promise.allSettled([
+        listAttempts({ signal: controller.signal }),
+        listExamAttemptMetadata({ signal: controller.signal })
+      ]);
+      if (recordingResult.status === "rejected") throw recordingResult.reason;
+      if (!attemptRequestIsCurrent(requestGeneration, authGeneration) || state.route.view !== "attempts") return;
+      const result = recordingResult.value;
+      state.attempts = result.attempts;
+      state.attemptTotal = result.total;
+      state.attemptsById = new Map(state.attempts.map(item => [item.id, item]));
+      if (examMetadataResult.status === "fulfilled") {
+        state.examAttempts = examMetadataResult.value.attempts;
+        state.examAttemptsById = new Map(state.examAttempts.map(item => [item.id, item]));
+      } else if (!isAbortError(examMetadataResult.reason)) {
+        console.warn("Could not load exam-attempt reflections:", examMetadataResult.reason);
+        toast("錄音已載入，但考試題目清單及自評暫時未能同步。", "error");
+      }
+      renderAttemptList();
+      if(state.restoreExamSource&&state.examSourceReturn){const snapshot=state.examSourceReturn;state.restoreExamSource=false;dom.content.querySelectorAll('details').forEach((d,i)=>d.open=snapshot.open.includes(i));requestAnimationFrame(()=>window.scrollTo({top:snapshot.scroll,behavior:'auto'}));}
+      setConnection("錄音庫已同步", "live");
+    } catch (error) {
+      if (isAbortError(error) || !attemptRequestIsCurrent(requestGeneration, authGeneration)) return;
+      console.warn("Could not list recordings:", error);
+      const container = document.querySelector("[data-attempt-list]");
+      if (container) {
+        container.innerHTML = `
+          <div class="notice-card">
+            <h2>未能載入錄音</h2>
+            <p>${escapeHtml(error?.message || "請檢查網絡後再試。")}</p>
+            <button class="secondary-button" type="button" data-retry-attempts>重新載入</button>
+          </div>
+        `;
+      }
+      setConnection("錄音庫連接失敗", "error");
+    } finally {
+      releaseAttemptController(controller);
+    }
+  }
+
+  function recordingFilePath(attempt) {
+    const endpoint = String(CONFIG.endpoints?.recordings || "/v1/recordings").replace(/\/+$/, "");
+    const suffix = String(CONFIG.endpoints?.recordingFileSuffix || "");
+    const normalizedSuffix = suffix ? (suffix.startsWith("/") ? suffix : `/${suffix}`) : "";
+    return `${endpoint}/${encodeURIComponent(attempt.id)}${normalizedSuffix}`;
+  }
+
+  async function looksLikeMp3(blob) {
+    if (!blob?.size) return false;
+    const bytes = new Uint8Array(await blob.slice(0, 4).arrayBuffer());
+    const id3 = bytes[0] === 0x49 && bytes[1] === 0x44 && bytes[2] === 0x33;
+    const frame = bytes[0] === 0xff && (bytes[1] & 0xe0) === 0xe0;
+    return id3 || frame;
+  }
+
+  async function fetchAttemptBlob(attempt, options = {}) {
+    if (state.attemptBlobCache.has(attempt.id)) return state.attemptBlobCache.get(attempt.id);
+    let response;
+    if (attempt.downloadUrl) {
+      try {
+        const headers = new Headers();
+        const target = new URL(
+          /^https?:\/\//i.test(attempt.downloadUrl) ? attempt.downloadUrl : workerEndpoint(attempt.downloadUrl)
+        );
+        const workerOrigin = new URL(workerBaseUrl()).origin;
+        if (target.protocol !== "https:") throw new Error("Recording download URL must use HTTPS.");
+        if (target.origin === workerOrigin) headers.set("Authorization", `Bearer ${state.authToken}`);
+        response = await fetch(target, { credentials: "omit", headers, signal: options.signal });
+        if (!response.ok) response = null;
+      } catch (error) {
+        if (isAbortError(error)) throw error;
+        response = null;
+      }
+    }
+    if (!response) response = await apiRaw(recordingFilePath(attempt), { signal: options.signal });
+    const rawBlob = await response.blob();
+    if (!(await looksLikeMp3(rawBlob))) throw new Error("伺服器回傳的檔案不是有效 MP3，下載已停止。");
+    const blob = rawBlob.type === "audio/mpeg" ? rawBlob : new Blob([rawBlob], { type: "audio/mpeg" });
+    return blob;
+  }
+
+  function attemptFilename(attempt, ordinal = 0) {
+    if (attempt.filename && /\.mp3$/i.test(attempt.filename)) return safeFilePart(attempt.filename).replace(/\.mp3$/i, "") + ".mp3";
+    const date = attempt.createdAt ? new Date(attempt.createdAt) : new Date();
+    const datePart = Number.isNaN(date.getTime()) ? pad(ordinal + 1, 3) : date.toISOString().replace(/[:.]/g, "-");
+    return `${safeFilePart(attempt.studentName, "student")}-${safeFilePart(attempt.exerciseTitle, "speaking")}-${datePart}.mp3`;
+  }
+
+  function stopAttemptPlayback() {
+    state.attemptPlaybackGeneration += 1;
+    if (state.attemptPlaybackController) state.attemptPlaybackController.abort();
+    state.attemptPlaybackController = null;
+    document.querySelectorAll("[data-attempt-audio-slot] audio").forEach(audio => {
+      audio.pause();
+      audio.removeAttribute("src");
+      audio.load();
+    });
+    document.querySelectorAll("[data-attempt-audio-slot]").forEach(slot => { slot.innerHTML = ""; });
+    state.activeAttemptAudioId = "";
+  }
+
+  async function playAttempt(id) {
+    const attempt = state.attemptsById.get(String(id));
+    if (!attempt) return;
+    if (state.activeAttemptAudioId === attempt.id) {
+      stopAttemptPlayback();
+      return;
+    }
+    stopModelAudio();
+    stopAttemptPlayback();
+    const requestGeneration = state.attemptRequestGeneration;
+    const playbackGeneration = state.attemptPlaybackGeneration;
+    const authGeneration = state.authGeneration;
+    const controller = createAttemptController();
+    state.attemptPlaybackController = controller;
+    const card = document.querySelector(`[data-attempt-card="${CSS.escape(attempt.id)}"]`);
+    const slot = card?.querySelector("[data-attempt-audio-slot]");
+    if (!slot) {
+      releaseAttemptController(controller);
+      return;
+    }
+    slot.textContent = "正在載入 MP3…";
+    try {
+      const blob = await fetchAttemptBlob(attempt, { signal: controller.signal });
+      if (
+        !attemptRequestIsCurrent(requestGeneration, authGeneration)
+        || playbackGeneration !== state.attemptPlaybackGeneration
+        || state.route.view !== "attempts"
+        || !slot.isConnected
+        || !state.attemptsById.has(attempt.id)
+      ) return;
+      state.attemptBlobCache.set(attempt.id, blob);
+      const url = state.attemptObjectUrls.get(attempt.id) || URL.createObjectURL(blob);
+      state.attemptObjectUrls.set(attempt.id, url);
+      const audio = document.createElement("audio");
+      audio.controls = true;
+      audio.preload = "metadata";
+      audio.src = url;
+      audio.textContent = "你的瀏覽器不支援音訊播放。";
+      slot.replaceChildren(audio);
+      state.activeAttemptAudioId = attempt.id;
+      audio.addEventListener("ended", () => { state.activeAttemptAudioId = ""; }, { once: true });
+      const result = audio.play();
+      if (result?.catch) result.catch(() => {
+        if (slot.isConnected) toast("錄音已載入，請按播放器的播放鍵。", "info");
+      });
+    } catch (error) {
+      if (isAbortError(error) || !attemptRequestIsCurrent(requestGeneration, authGeneration)) return;
+      if (slot.isConnected) slot.textContent = "";
+      toast(String(error?.message || "錄音未能載入。"), "error");
+    } finally {
+      releaseAttemptController(controller);
+    }
+  }
+
+  async function downloadAttempt(id) {
+    const attempt = state.attemptsById.get(String(id));
+    if (!attempt) return;
+    const requestGeneration = state.attemptRequestGeneration;
+    const authGeneration = state.authGeneration;
+    const controller = createAttemptController();
+    try {
+      const blob = await fetchAttemptBlob(attempt, { signal: controller.signal });
+      if (!attemptRequestIsCurrent(requestGeneration, authGeneration)) return;
+      downloadBlob(blob, attemptFilename(attempt));
+    } catch (error) {
+      if (isAbortError(error) || !attemptRequestIsCurrent(requestGeneration, authGeneration)) return;
+      toast(String(error?.message || "錄音未能下載。"), "error");
+    } finally {
+      releaseAttemptController(controller);
+    }
+  }
+
+  async function deleteAttempt(id) {
+    if (blockAttemptMutationNavigation()) return;
+    const attempt = state.attemptsById.get(String(id));
+    if (!attempt) return;
+    if (!window.confirm(`確定永久刪除「${attempt.exerciseTitle}」的錄音嗎？刪除後不能復原。`)) return;
+    const requestGeneration = state.attemptRequestGeneration;
+    const authGeneration = state.authGeneration;
+    const controller = createAttemptController();
+    try {
+      const endpoint = String(CONFIG.endpoints?.recordings || "/v1/recordings").replace(/\/+$/, "");
+      await apiRaw(`${endpoint}/${encodeURIComponent(attempt.id)}`, { method: "DELETE", signal: controller.signal });
+      if (!attemptRequestIsCurrent(requestGeneration, authGeneration)) return;
+      stopAttemptPlayback();
+      state.attempts = state.attempts.filter(item => item.id !== attempt.id);
+      state.attemptTotal = Math.max(0, state.attemptTotal - 1);
+      state.attemptsById.delete(attempt.id);
+      state.attemptBlobCache.delete(attempt.id);
+      const objectUrl = state.attemptObjectUrls.get(attempt.id);
+      if (objectUrl) URL.revokeObjectURL(objectUrl);
+      state.attemptObjectUrls.delete(attempt.id);
+      renderAttemptList();
+      toast("錄音已永久刪除。", "info");
+    } catch (error) {
+      if (isAbortError(error) || !attemptRequestIsCurrent(requestGeneration, authGeneration)) return;
+      toast(String(error?.message || "未能刪除錄音。"), "error");
+    } finally {
+      releaseAttemptController(controller);
+    }
+  }
+
+  async function deleteExamAttemptLog(id) {
+    if (blockAttemptMutationNavigation()) return;
+    const examAttempt = state.examAttemptsById.get(String(id).toLowerCase());
+    if (!examAttempt || state.user?.role !== "student") return;
+    const group = examAttemptGroups(state.attempts).find(candidate => candidate.examAttempt?.id === examAttempt.id);
+    const recordings = group?.attempts || [];
+    if (!window.confirm(`確定永久刪除第 ${examAttempt.attemptNumber || "這"} 次考試練習，以及其中 ${recordings.length} 段錄音嗎？刪除後不能復原。`)) return;
+    const controller = beginAttemptMutation();
+    if (!controller) return;
+    const requestGeneration = state.attemptRequestGeneration;
+    const authGeneration = state.authGeneration;
+    let refreshAfterFailure = false;
+    const button = document.querySelector(`[data-exam-attempt-delete="${CSS.escape(examAttempt.id)}"]`);
+    if (button) {
+      button.disabled = true;
+      button.textContent = "正在永久刪除…";
+    }
+    try {
+      const recordingsEndpoint = String(CONFIG.endpoints?.recordings || "/v1/recordings").replace(/\/+$/, "");
+      for (let index = 0; index < recordings.length; index += 1) {
+        const recording = recordings[index];
+        if (button?.isConnected) button.textContent = `正在刪除錄音 ${index + 1}/${recordings.length}…`;
+        let response = null;
+        try {
+          response = await apiRaw(`${recordingsEndpoint}/${encodeURIComponent(recording.id)}`, { method: "DELETE", signal: controller.signal });
+          if (response.status === 202) {
+            response = await apiRaw(`${recordingsEndpoint}/${encodeURIComponent(recording.id)}`, { method: "DELETE", signal: controller.signal });
+          }
+        } catch (error) {
+          if (Number(error?.status) !== 404) throw error;
+        }
+        if (response?.status === 202) throw new Error("部分錄音已從儲存空間移除，但資料整理仍在進行；請稍後再按一次刪除整次練習。");
+      }
+      if (button?.isConnected) button.textContent = "正在刪除練習紀錄…";
+      try {
+        await apiRaw(examAttemptsEndpoint(`/${examAttempt.id}`), { method: "DELETE", signal: controller.signal });
+      } catch (error) {
+        if (Number(error?.status) !== 404) throw error;
+      }
+      if (!attemptRequestIsCurrent(requestGeneration, authGeneration)) return;
+      stopAttemptPlayback();
+      const removedIds = new Set(recordings.map(recording => recording.id));
+      recordings.forEach(recording => {
+        state.attemptBlobCache.delete(recording.id);
+        const objectUrl = state.attemptObjectUrls.get(recording.id);
+        if (objectUrl) URL.revokeObjectURL(objectUrl);
+        state.attemptObjectUrls.delete(recording.id);
+        state.attemptsById.delete(recording.id);
+      });
+      state.attempts = state.attempts.filter(recording => !removedIds.has(recording.id));
+      state.attemptTotal = Math.max(0, state.attemptTotal - removedIds.size);
+      state.examAttempts = state.examAttempts.filter(attempt => attempt.id !== examAttempt.id);
+      state.examAttemptsById.delete(examAttempt.id);
+      renderAttemptList();
+      toast("整次考試練習及所有錄音已永久刪除。", "info");
+    } catch (error) {
+      if (isAbortError(error) || !attemptRequestIsCurrent(requestGeneration, authGeneration)) return;
+      console.warn("Could not delete full exam attempt:", error);
+      toast(String(error?.message || "未能刪除整次考試練習。"), "error");
+      refreshAfterFailure = true;
+    } finally {
+      finishAttemptMutation(controller);
+      if (button?.isConnected) {
+        button.disabled = false;
+        button.textContent = "刪除整次練習";
+      }
+      if (refreshAfterFailure && state.user && state.route.view === "attempts") renderAttemptsPage();
+    }
+  }
+
+  function exportFilename(response, page, totalPages) {
+    const disposition = response.headers.get("Content-Disposition") || "";
+    const encoded = disposition.match(/filename\*=UTF-8''([^;]+)/i)?.[1];
+    if (encoded) {
+      try {
+        const decoded = decodeURIComponent(encoded);
+        if (/\.zip$/i.test(decoded)) return safeFilePart(decoded, `Speaking-Recordings-Batch-${page}-of-${totalPages}.zip`);
+      } catch {
+        // Use the deterministic fallback name.
+      }
+    }
+    return `My-Edmund-Speaking-Attempts-Batch-${page}-of-${totalPages}.zip`;
+  }
+
+  async function tryServerZip(page = 1, pageSize = 10, options = {}) {
+    if (state.user?.role === "admin") return null;
+    const endpoint = CONFIG.endpoints?.recordingsZip;
+    if (!endpoint) return null;
+    const separator = String(endpoint).includes("?") ? "&" : "?";
+    try {
+      const response = await apiRaw(
+        `${endpoint}${separator}scope=mine&page=${page}&pageSize=${pageSize}`,
+        { signal: options.signal }
+      );
+      const responsePage = Number(response.headers.get("X-Export-Page"));
+      const responsePageSize = Number(response.headers.get("X-Export-Page-Size"));
+      const totalPages = Number(response.headers.get("X-Export-Total-Pages"));
+      const fileCount = Number(response.headers.get("X-Export-File-Count"));
+      const totalFiles = Number(response.headers.get("X-Export-Total-Files"));
+      const hasMore = response.headers.get("X-Export-Has-More");
+      if (
+        !Number.isSafeInteger(responsePage)
+        || responsePage !== page
+        || !Number.isSafeInteger(responsePageSize)
+        || responsePageSize < 1
+        || responsePageSize > pageSize
+        || !Number.isSafeInteger(totalPages)
+        || totalPages < page
+        || totalPages > 500
+        || !Number.isSafeInteger(fileCount)
+        || fileCount < 1
+        || fileCount > pageSize
+        || !Number.isSafeInteger(totalFiles)
+        || totalFiles < fileCount
+        || !["true", "false"].includes(hasMore)
+        || (hasMore === "true") !== (page < totalPages)
+      ) {
+        throw new Error("錄音服務回傳了無效的 ZIP 批次資料。");
+      }
+      const blob = await response.blob();
+      if (blob.size && /zip|octet-stream/i.test(blob.type || response.headers.get("content-type") || "")) {
+        return {
+          blob,
+          page: responsePage,
+          totalPages,
+          fileCount,
+          totalFiles,
+          filename: exportFilename(response, responsePage, totalPages)
+        };
+      }
+      return null;
+    } catch (error) {
+      if (page === 1 && [404, 405, 501].includes(Number(error?.status))) return null;
+      throw error;
+    }
+  }
+
+  async function exportZip() {
+    if (!state.attempts.length) {
+      toast("暫時未有錄音可以匯出。", "error");
+      return;
+    }
+    const button = document.querySelector("[data-export-zip]");
+    const requestGeneration = state.attemptRequestGeneration;
+    const authGeneration = state.authGeneration;
+    const controller = createAttemptController();
+    if (button) {
+      button.disabled = true;
+      button.textContent = "正在準備 ZIP…";
+    }
+    try {
+      let serverBatch = await tryServerZip(1, 10, { signal: controller.signal });
+      if (serverBatch) {
+        const totalPages = serverBatch.totalPages;
+        for (let page = 1; page <= totalPages; page += 1) {
+          if (!attemptRequestIsCurrent(requestGeneration, authGeneration) || state.route.view !== "attempts") return;
+          if (page > 1) serverBatch = await tryServerZip(page, 10, { signal: controller.signal });
+          if (!attemptRequestIsCurrent(requestGeneration, authGeneration) || state.route.view !== "attempts") return;
+          if (!serverBatch || serverBatch.totalPages !== totalPages) {
+            throw new Error("匯出期間錄音批次有所變更，請重新整理後再試。");
+          }
+          if (button) button.textContent = `下載 ZIP ${page}/${totalPages}…`;
+          downloadBlob(serverBatch.blob, serverBatch.filename);
+          if (page < totalPages) await new Promise(resolve => window.setTimeout(resolve, 250));
+        }
+        toast(totalPages === 1 ? "ZIP 已準備完成。" : `${totalPages} 個 ZIP 批次已準備完成。`, "info");
+        return;
+      }
+      if (!window.JSZip) throw new Error("ZIP 工具未能載入，請重新整理頁面後再試。");
+      const fallbackMaxFiles = Math.min(100, Math.max(1, Number(CONFIG.clientZipMaxFiles || 40)));
+      const fallbackMaxBytes = Math.min(64 * 1024 * 1024, Math.max(1024 * 1024, Number(CONFIG.clientZipMaxBytes || 32 * 1024 * 1024)));
+      if (state.attempts.length > fallbackMaxFiles) {
+        throw new Error(`瀏覽器後備匯出每次最多 ${fallbackMaxFiles} 個檔案；請稍後再試伺服器 ZIP。`);
+      }
+      const zip = new window.JSZip();
+      let fallbackBytes = 0;
+      for (let index = 0; index < state.attempts.length; index += 1) {
+        if (!attemptRequestIsCurrent(requestGeneration, authGeneration) || state.route.view !== "attempts") return;
+        const attempt = state.attempts[index];
+        if (button) button.textContent = `讀取 MP3 ${index + 1}/${state.attempts.length}…`;
+        const blob = await fetchAttemptBlob(attempt, { signal: controller.signal });
+        fallbackBytes += blob.size;
+        if (fallbackBytes > fallbackMaxBytes) {
+          throw new Error("瀏覽器後備 ZIP 超過安全記憶體上限；請稍後再試伺服器 ZIP。");
+        }
+        zip.file(attemptFilename(attempt, index), blob, { binary: true });
+      }
+      if (button) button.textContent = "正在壓縮 ZIP…";
+      const blob = await zip.generateAsync({ type: "blob", compression: "STORE", mimeType: "application/zip" });
+      if (!attemptRequestIsCurrent(requestGeneration, authGeneration) || state.route.view !== "attempts") return;
+      downloadBlob(blob, state.user?.role === "admin" ? "Edmund-Speaking-All-Recordings.zip" : "My-Edmund-Speaking-Attempts.zip");
+      toast("全部 MP3 已匯出為 ZIP。", "info");
+    } catch (error) {
+      if (isAbortError(error) || !attemptRequestIsCurrent(requestGeneration, authGeneration)) return;
+      console.warn("ZIP export failed:", error);
+      toast(String(error?.message || "未能匯出 ZIP。"), "error");
+    } finally {
+      releaseAttemptController(controller);
+      if (button?.isConnected) {
+        button.disabled = false;
+        button.textContent = "匯出全部 MP3（ZIP）";
+      }
+    }
+  }
+
+  function cleanupAttemptAudio() {
+    invalidateAttemptRequests();
+    stopAttemptPlayback();
+    for (const url of state.attemptObjectUrls.values()) URL.revokeObjectURL(url);
+    state.attemptObjectUrls.clear();
+    state.attemptBlobCache.clear();
+  }
+
+  function setupEvents() {
+    dom.loginForm?.addEventListener("submit", event => {
+      event.preventDefault();
+      handleLogin(event.currentTarget);
+    });
+
+    document.addEventListener("edmund:idle-break-start", event => {
+      const pausedAt = Number(event.detail?.pausedAt) || Date.now();
+      state.idleBreakExamPausedAt = pausedAt;
+      state.idleBreakExamTimerWasRunning = Boolean(state.examElapsedTimer);
+      state.idleBreakPrepTimerWasRunning = Boolean(state.examPhaseTimer);
+      const item = currentExamItem();
+      if (state.idleBreakPrepTimerWasRunning && item?.part === 2 && item.prepPhase !== "ready") {
+        clearExamPhaseTimer();
+      }
+      clearExamElapsedTimer();
+      state.idleBreakRecordingWasRunning = state.mediaRecorder?.state === "recording";
+      if (state.idleBreakRecordingWasRunning) {
+        if (state.recordingPauseSupported) pauseRecording({ background: true });
+        else finishRecording();
+      }
+      updateExamElapsedClock();
+    });
+
+    document.addEventListener("edmund:idle-break-resume", event => {
+      const pausedAt = state.idleBreakExamPausedAt || Number(event.detail?.pausedAt) || Date.now();
+      const resumedAt = Number(event.detail?.resumedAt) || Date.now();
+      const pauseDuration = Math.max(0, resumedAt - pausedAt);
+      const session = state.examSession;
+      if (session && pauseDuration) {
+        session.idleBreakDurationMs = Math.max(0, Number(session.idleBreakDurationMs || 0)) + pauseDuration;
+        const item = currentExamItem();
+        if (item && state.idleBreakPrepTimerWasRunning && item.prepPhase !== "ready") {
+          if (Number.isFinite(Number(item.settleEndsAt))) item.settleEndsAt += pauseDuration;
+          if (Number.isFinite(Number(item.prepEndsAt))) item.prepEndsAt += pauseDuration;
+        }
+      }
+      state.idleBreakExamPausedAt = 0;
+      const resumeExamClock = state.idleBreakExamTimerWasRunning;
+      const resumePrepClock = state.idleBreakPrepTimerWasRunning;
+      const resumeRecordingAfterBreak = state.idleBreakRecordingWasRunning;
+      state.idleBreakExamTimerWasRunning = false;
+      state.idleBreakPrepTimerWasRunning = false;
+      state.idleBreakRecordingWasRunning = false;
+      if (resumeExamClock) syncExamElapsedTimer();
+      const currentItem = currentExamItem();
+      if (resumePrepClock && currentItem?.part === 2 && currentItem.prepPhase !== "ready") {
+        startExamPart2Timer(currentItem);
+      }
+      if (resumeRecordingAfterBreak && state.mediaRecorder?.state === "paused" && state.recordingBackgroundPaused) {
+        resumeRecording();
+      }
+    });
+
+    document.addEventListener("edmund:idle-break-logout", () => {
+      state.idleBreakExamPausedAt = 0;
+      state.idleBreakExamTimerWasRunning = false;
+      state.idleBreakPrepTimerWasRunning = false;
+      state.idleBreakRecordingWasRunning = false;
+      clearExamPhaseTimer();
+      clearExamElapsedTimer();
+      if (["recording", "paused"].includes(state.mediaRecorder?.state)) finishRecording();
+    });
+
+    document.addEventListener("click", event => {
+      const passwordToggle = event.target.closest("[data-toggle-password]");
+      if (passwordToggle) {
+        const input = dom.loginForm?.elements?.password;
+        if (!input) return;
+        const opening = input.type === "password";
+        input.type = opening ? "text" : "password";
+        passwordToggle.textContent = opening ? "Close Eye" : "Open Eye";
+        passwordToggle.setAttribute("aria-label", opening ? "隱藏密碼" : "顯示密碼");
+        return;
+      }
+
+      if (event.target.closest("[data-logout]")) {
+        handleLogout();
+        return;
+      }
+
+      if (event.target.closest("[data-back]")) {
+        goBack();
+        return;
+      }
+
+      const speakingProgressRange = event.target.closest("[data-speaking-progress-range]");
+      if (speakingProgressRange) {
+        state.progressRange = speakingProgressRange.dataset.speakingProgressRange || "month";
+        state.progressSelectedDay = "";
+        saveSpeakingProgressPreferences();
+        renderSpeakingProgressDashboard();
+        return;
+      }
+
+      if (event.target.closest("[data-toggle-speaking-cumulative]")) {
+        state.progressShowCumulative = !state.progressShowCumulative;
+        saveSpeakingProgressPreferences();
+        renderSpeakingProgressDashboard();
+        return;
+      }
+
+      const speakingProgressDay = event.target.closest("[data-speaking-progress-day]");
+      if (speakingProgressDay) {
+        state.progressSelectedDay = speakingProgressDay.dataset.speakingProgressDay || "";
+        renderSpeakingProgressDashboard();
+        return;
+      }
+
+      if (event.target.closest("[data-close-speaking-progress-day]")) {
+        state.progressSelectedDay = "";
+        renderSpeakingProgressDashboard();
+        return;
+      }
+
+      const speakingDurationRange = event.target.closest("[data-speaking-duration-range]");
+      if (speakingDurationRange) {
+        state.durationProgressRange = speakingDurationRange.dataset.speakingDurationRange || "month";
+        state.durationProgressSelectedDay = "";
+        saveSpeakingProgressPreferences();
+        renderSpeakingDurationDashboard();
+        return;
+      }
+
+      if (event.target.closest("[data-toggle-speaking-duration-cumulative]")) {
+        state.durationProgressShowCumulative = !state.durationProgressShowCumulative;
+        saveSpeakingProgressPreferences();
+        renderSpeakingDurationDashboard();
+        return;
+      }
+
+      const speakingDurationDay = event.target.closest("[data-speaking-duration-day]");
+      if (speakingDurationDay) {
+        state.durationProgressSelectedDay = speakingDurationDay.dataset.speakingDurationDay || "";
+        renderSpeakingDurationDashboard();
+        return;
+      }
+
+      if (event.target.closest("[data-close-speaking-duration-day]")) {
+        state.durationProgressSelectedDay = "";
+        renderSpeakingDurationDashboard();
+        return;
+      }
+
+      if (event.target.closest("[data-retry-speaking-progress]")) {
+        state.progressError = "";
+        loadSpeakingProgressDashboard();
+        return;
+      }
+
+      const go = event.target.closest("[data-go]");
+      if (go?.dataset.go === "attempts") {
+        navigate({ view: "attempts" });
+        return;
+      }
+      if (go?.dataset.go === "bookmarks") {
+        navigate({ view: "bookmarks" });
+        return;
+      }
+      if (go?.dataset.go === "admin" && state.user?.role === "admin") {
+        navigate({ view: "admin" });
+        return;
+      }
+
+      const bookmarkButton = event.target.closest("[data-bookmark]");
+      if (bookmarkButton) {
+        toggleBookmark(bookmarkFromElement(bookmarkButton));
+        return;
+      }
+
+      if (event.target.closest("[data-toggle-route-bookmark]")) {
+        toggleBookmark(currentRouteBookmark());
+        return;
+      }
+
+      const savedBookmark = event.target.closest("[data-open-saved-bookmark]");
+      if (savedBookmark) {
+        let bookmark = null;
+        try { bookmark = JSON.parse(decodeURIComponent(savedBookmark.dataset.openSavedBookmark || "")); } catch { /* Ignore malformed DOM data. */ }
+        const route = routeForBookmark(bookmark);
+        if (route) navigate(route);
+        return;
+      }
+
+      const searchExam = event.target.closest("[data-search-exam]");
+      if (searchExam) {
+        const examId = searchExam.dataset.searchExam;
+        navigate(examId === "dse" ? { view: "dse-sections", exam: "dse" } : { view: "parts", exam: examId });
+        return;
+      }
+
+      const searchExercise = event.target.closest("[data-search-exercise]");
+      if (searchExercise) {
+        navigate({ view: "exercise", exam: "ielts", part: Number(searchExercise.dataset.searchPart || 2), book: Number(searchExercise.dataset.searchBook || 1), exerciseIndex: Number(searchExercise.dataset.searchExercise) });
+        return;
+      }
+
+      const crumb = event.target.closest("[data-breadcrumb-index]");
+      if (crumb) {
+        const route = dom.breadcrumbs._routes?.[Number(crumb.dataset.breadcrumbIndex)];
+        if (route) directRoute(route);
+        return;
+      }
+
+      const exam = event.target.closest("[data-exam]");
+      if (exam) {
+        if (exam.getAttribute("aria-disabled") === "true") {
+          toast("你的帳戶尚未開放這個練習範圍。", "error");
+        } else if (!examAvailable(exam.dataset.exam)) {
+          toast("這個練習範疇正在準備中。", "info");
+        } else navigate(exam.dataset.exam === "dse" ? { view: "dse-sections", exam: "dse" } : { view: "parts", exam: "ielts", presentation: exam.dataset.exam === "freestyle" ? "freestyle" : "" });
+        return;
+      }
+
+      const themeEntry=event.target.closest('[data-open-speaking-themes]');
+      if(themeEntry){event.preventDefault();const kind=themeEntry.dataset.openSpeakingThemes;navigate({view:kind+'-themes',exam:kind});return;}
+      if (event.target.closest('[data-open-dse-types]')) { event.preventDefault(); navigate({view:'dse-types',exam:'dse'});return; }
+      if (event.target.closest('[data-open-ielts-part3-types]')) { event.preventDefault(); navigate({view:'ielts-part3-types',exam:'ielts',part:3});return; }
+      const dseCatalog = event.target.closest("[data-dse-catalog]");
+      if (dseCatalog) {
+        navigate({ view: "dse-catalog", exam: "dse", part: dseCatalog.dataset.dseCatalog === "individual" ? "individual" : "group" });
+        return;
+      }
+
+      if (event.target.closest("[data-open-dse-modes]")) {
+        navigate({ view: "dse-modes", exam: "dse" });
+        return;
+      }
+
+      if (event.target.closest("[data-resume-dse]")) {
+        hydrateDseSession();
+        if (state.dseSession) navigate({ view: "dse-practice", exam: "dse", modeId: state.dseSession.modeId });
+        return;
+      }
+
+      if (event.target.closest("[data-dse-sort]")) {
+        state.dseYearSort = state.dseYearSort === "asc" ? "desc" : "asc";
+        renderDseCatalog();
+        return;
+      }
+
+      const nativeDsePaperOpener = event.target.closest("[data-open-native-dse-paper]");
+      if (nativeDsePaperOpener) {
+        renderNativeDsePaper(nativeDsePaperOpener.closest("[data-dse-paper-host]"));
+        return;
+      }
+
+      const dsePaperMode = event.target.closest("[data-dse-paper-mode]");
+      if (dsePaperMode) {
+        const paper = dsePaperMode.closest("[data-dse-paper]");
+        setDsePaperMode(paper, dsePaperMode.dataset.dsePaperMode);
+        return;
+      }
+
+      const dsePaperWord = event.target.closest("[data-dse-word-key]");
+      if (dsePaperWord) {
+        toggleDseWordBookmark(dsePaperWord);
+        return;
+      }
+
+      const dseMode = event.target.closest("[data-dse-mode]");
+      if (dseMode) {
+        if (dseMode.getAttribute("aria-disabled") === "true") toast("請先完成目前已鎖定的 DSE 題組。", "info");
+        else startDsePractice(dseMode.dataset.dseMode);
+        return;
+      }
+
+      if (event.target.closest("[data-end-practice]")) { void endPracticeEarly(); return; }
+
+      if (event.target.closest("[data-dse-skip-prep]")) {
+        beginDseGroup();
+        return;
+      }
+
+      if (event.target.closest("[data-dse-complete-group]")) {
+        completeDseGroup();
+        return;
+      }
+
+      if (event.target.closest("[data-dse-play-question-voice]")) {
+        playDseVoice();
+        return;
+      }
+
+      if (event.target.closest("[data-dse-next-individual]")) {
+        completeDseIndividual();
+        return;
+      }
+
+      const dseRating = event.target.closest("[data-dse-rating]");
+      if (dseRating && state.dseSession?.phase === "rating") {
+        const value = Number(dseRating.dataset.dseRating);
+        if (Number.isInteger(value) && value >= 1 && value <= 7) {
+          state.dseSession.selectedRating = value;
+          persistDseSession();
+          renderDsePractice();
+        }
+        return;
+      }
+
+      if (event.target.closest("[data-submit-dse-rating]")) {
+        submitDseRating();
+        return;
+      }
+
+      if (event.target.closest("[data-new-dse]")) {
+        state.dseSession = null;
+        persistDseSession();
+        navigate({ view: "dse-modes", exam: "dse" });
+        return;
+      }
+
+      if (event.target.closest("[data-exam-practice-modes], [data-open-exam-modes], [data-new-exam]")) {
+        if (!hasAccess(["exam.ielts"])) toast("你的帳戶尚未開放 IELTS 考試練習。", "error");
+        else {
+          if (event.target.closest("[data-new-exam]")) clearExamSession();
+          navigate({ view: "exam-modes", exam: "ielts" });
+        }
+        return;
+      }
+
+      if (event.target.closest("[data-natural-exchange-toggle]")) {
+        setNaturalExchange(!state.examNaturalExchange);
+        return;
+      }
+
+      const examMode = event.target.closest("[data-exam-mode]");
+      if (examMode) {
+        if (examMode.getAttribute("aria-disabled") === "true") toast("這個模式目前沒有足夠已開放題目。", "error");
+        else {
+          unlockExamAudio();
+          startExamPractice(examMode.dataset.examMode);
+        }
+        return;
+      }
+
+      if (event.target.closest("[data-exam-skip-prep]")) {
+        skipExamPart2Prep();
+        return;
+      }
+
+      if (event.target.closest("[data-exam-skip-intro]")) {
+        skipExamIntroduction();
+        return;
+      }
+
+      if (event.target.closest("[data-exam-skip-question]")) {
+        skipCurrentExamQuestion();
+        return;
+      }
+
+      const examRating = event.target.closest("[data-exam-rating]");
+      if (examRating && state.examSession?.phase === "rating" && !state.examRatingSaving) {
+        selectExamRating(examRating.dataset.examRating);
+        return;
+      }
+
+      if (event.target.closest("[data-submit-exam-rating]")) {
+        submitExamRating();
+        return;
+      }
+
+      const examSource = event.target.closest("[data-open-exam-source]");
+      if (examSource) {
+        let route = null;
+        try { route = JSON.parse(decodeURIComponent(examSource.dataset.openExamSource || "")); } catch { /* Ignore malformed DOM data. */ }
+        if (route && routeAllowed(route)) {
+          if(state.route.view==='attempts')state.examSourceReturn={route:{...state.route},scroll:window.scrollY,open:[...dom.content.querySelectorAll('details')].map((d,i)=>d.open?i:-1).filter(i=>i>=0)};
+          navigate(route);
+          if(state.examSourceReturn){const back=document.createElement('button');back.className='secondary-button exam-source-return';back.textContent='← 返回本次練習題目 · Back to exam questions';back.onclick=()=>{state.restoreExamSource=true;navigate(state.examSourceReturn.route);};dom.content.prepend(back);}
+        }
+        else toast("這條題目的來源目前未開放。", "error");
+        return;
+      }
+
+      if (event.target.closest("[data-exam-proceed]")) {
+        advanceExamItem();
+        return;
+      }
+
+      const part = event.target.closest("[data-part]:not([data-book])");
+      if (part) {
+        if (part.getAttribute("aria-disabled") === "true") {
+          toast("你的帳戶尚未開放這個 IELTS Part。", "error");
+          return;
+        }
+        navigate({ view: "books", exam: "ielts", part: Number(part.dataset.part) });
+        return;
+      }
+
+      const book = event.target.closest("[data-book]");
+      if (book) {
+        const partNumber = Number(book.dataset.part);
+        const bookNumber = Number(book.dataset.book);
+        if (book.getAttribute("aria-disabled") === "true") {
+          toast("你的帳戶尚未開放這本練習冊。", "error");
+          return;
+        }
+        if (!bookAvailable(partNumber, bookNumber)) {
+          toast(`Part ${partNumber} · Book ${bookNumber} 的內容正在準備中。`, "info");
+          return;
+        }
+        navigate({ view: "exercises", exam: "ielts", part: partNumber, book: bookNumber });
+        return;
+      }
+
+      const exercise = event.target.closest("[data-exercise-index]");
+      if (exercise && !exercise.disabled) {
+        navigate({ view: "exercise", exam: "ielts", part: Number(state.route.part || 2), book: Number(state.route.book || 1), exerciseIndex: Number(exercise.dataset.exerciseIndex) });
+        return;
+      }
+
+      const part3ModelToggle = event.target.closest("[data-part3-model-toggle]");
+      if (part3ModelToggle) {
+        togglePart3Model(Number(part3ModelToggle.dataset.part3ModelToggle));
+        return;
+      }
+
+      const part3ModelPlay = event.target.closest("[data-part3-model-play]");
+      if (part3ModelPlay) {
+        playPart3Model(Number(part3ModelPlay.dataset.part3ModelPlay));
+        return;
+      }
+
+      if (event.target.closest("[data-part3-book]")) {
+        navigate({ view: "exercises", exam: "ielts", part: 3, book: Number(state.route.book || 1) });
+        return;
+      }
+
+      if (event.target.closest("[data-part3-previous], [data-part3-next]")) {
+        const direction = event.target.closest("[data-part3-previous]") ? -1 : 1;
+        const exercises = speakingExercises();
+        const currentIndex = exercises.findIndex(item => item.id === currentExercise()?.id);
+        const target = exercises[currentIndex + direction];
+        if (target) navigate({ view: "exercise", exam: "ielts", part: 3, book: Number(state.route.book || 1), exerciseIndex: target.index });
+        return;
+      }
+
+      if (event.target.closest("[data-part1-disable-animation]")) {
+        togglePart1Animation();
+        return;
+      }
+
+      const part1QuestionLink = event.target.closest("[data-part1-question-link]");
+      if (part1QuestionLink) {
+        event.preventDefault();
+        const turnIndex = Number(part1QuestionLink.dataset.part1QuestionLink);
+        revealPart1Through(turnIndex);
+        const href = part1QuestionLink.getAttribute("href");
+        const target = document.querySelector(href);
+        if (target) {
+          target.scrollIntoView({ behavior: "auto", block: "start" });
+          target.focus({ preventScroll: true });
+          window.history.replaceState(window.history.state, "", href);
+        }
+        return;
+      }
+
+      const part1TurnPlay = event.target.closest("[data-part1-turn-play]");
+      if (part1TurnPlay) {
+        playPart1Turn(Number(part1TurnPlay.dataset.part1TurnPlay));
+        return;
+      }
+
+      if (event.target.closest("[data-model-audio-toggle]")) {
+        toggleModelAudio();
+        return;
+      }
+
+      const rate = event.target.closest("[data-audio-rate]");
+      if (rate) {
+        setRate(rate.dataset.audioRate);
+        return;
+      }
+
+      if (event.target.closest("[data-highlight-toggle]")) {
+        setHighlight(!state.highlightEnabled);
+        return;
+      }
+
+      const timedWord = event.target.closest("[data-timing-index]");
+      if (timedWord) {
+        playFromTiming(timedWord.dataset.timingIndex);
+        return;
+      }
+
+      if (event.target.closest("[data-record-toggle]")) {
+        const examRecording = Boolean(currentRecordingContext()?.isExam);
+        if (examRecording && ["recording", "paused"].includes(state.mediaRecorder?.state)) finishRecording();
+        else if (state.mediaRecorder?.state === "recording") pauseRecording();
+        else if (state.mediaRecorder?.state === "paused") resumeRecording();
+        else startRecording();
+        return;
+      }
+
+      if (event.target.closest("[data-finish-recording]")) {
+        finishRecording();
+        return;
+      }
+
+      if (event.target.closest("[data-discard-recording]")) {
+        discardRecording();
+        resetRecordButton();
+        return;
+      }
+
+      if (event.target.closest("[data-download-current]")) {
+        if (state.recordedMp3) {
+          const context = currentRecordingContext();
+          downloadBlob(state.recordedMp3, `${safeFilePart(state.user?.name, "student")}-${safeFilePart(context?.title, "speaking-attempt")}.mp3`);
+        }
+        return;
+      }
+
+      const pageRecordingDownload = event.target.closest("[data-download-page-recording]");
+      if (pageRecordingDownload) {
+        const recording = state.pageRecordings.find(item => item.id === pageRecordingDownload.dataset.downloadPageRecording);
+        if (recording?.blob) {
+          const context = currentRecordingContext();
+          const fallback = `${safeFilePart(state.user?.name, "student")}-${safeFilePart(context?.title, "speaking-attempt")}-${safeFilePart(recording.id, "recording")}.mp3`;
+          downloadBlob(recording.blob, recording.filename || fallback);
+        }
+        return;
+      }
+
+      if (event.target.closest("[data-save-recording]")) {
+        saveRecording();
+        return;
+      }
+
+      const attemptPlay = event.target.closest("[data-attempt-play]");
+      if (attemptPlay) {
+        playAttempt(attemptPlay.dataset.attemptPlay);
+        return;
+      }
+
+      const attemptDownload = event.target.closest("[data-attempt-download]");
+      if (attemptDownload) {
+        downloadAttempt(attemptDownload.dataset.attemptDownload);
+        return;
+      }
+
+      const attemptDelete = event.target.closest("[data-attempt-delete]");
+      if (attemptDelete) {
+        deleteAttempt(attemptDelete.dataset.attemptDelete);
+        return;
+      }
+
+      const examAttemptDelete = event.target.closest("[data-exam-attempt-delete]");
+      if (examAttemptDelete) {
+        deleteExamAttemptLog(examAttemptDelete.dataset.examAttemptDelete);
+        return;
+      }
+
+      if (event.target.closest("[data-export-zip]")) {
+        exportZip();
+        return;
+      }
+
+      if (event.target.closest("[data-retry-attempts]")) {
+        renderAttemptsPage();
+        return;
+      }
+
+      if (event.target.closest("[data-retry-bookmarks]")) {
+        state.bookmarksLoaded = false;
+        renderBookmarks();
+        return;
+      }
+
+      if (event.target.closest("[data-retry-admin-students]")) {
+        state.adminStudentsLoaded = false;
+        state.adminStudentsLoading = false;
+        renderAdminPanel();
+        return;
+      }
+
+      const adminStudent = event.target.closest("[data-admin-student-id]");
+      if (adminStudent) {
+        state.selectedAdminStudentId = adminStudent.dataset.adminStudentId;
+        renderAdminPanel();
+        return;
+      }
+
+      const setAllAccess = event.target.closest("[data-admin-set-all]");
+      if (setAllAccess) {
+        const student = state.adminStudents.find(row => row.id === state.selectedAdminStudentId);
+        if (!student) return;
+        const enabled = setAllAccess.dataset.adminSetAll === "true";
+        const next = enabled ? {} : Object.fromEntries(allAccessKeys().map(key => [key, false]));
+        setAdminAccessDraft(student, next);
+        document.querySelectorAll("[data-admin-access-key]").forEach(input => { input.checked = enabled; });
+        syncAdminDraftControls();
+        return;
+      }
+
+      if (event.target.closest("[data-admin-save-access]")) {
+        saveAdminStudentAccess();
+        return;
+      }
+
+      if (event.target.closest("[data-admin-discard-access]")) {
+        state.adminAccessDrafts.delete(state.selectedAdminStudentId);
+        renderAdminPanel();
+        return;
+      }
+    });
+
+    document.addEventListener("submit", event => {
+      const searchForm = event.target.closest("[data-speaking-search-form]");
+      if (!searchForm) return;
+      event.preventDefault();
+      document.querySelector("[data-speaking-search-results] button")?.click();
+    });
+
+    document.addEventListener("input", event => {
+      const speakingSearch = event.target.closest("[data-speaking-search-input]");
+      if (speakingSearch) {
+        renderSpeakingSearchResults(speakingSearch.value);
+        return;
+      }
+      const adminSearch = event.target.closest("[data-admin-student-search]");
+      if (adminSearch) {
+        state.adminStudentQuery = adminSearch.value;
+        renderAdminPanel();
+        const replacement = document.querySelector("[data-admin-student-search]");
+        if (replacement) {
+          replacement.focus({ preventScroll: true });
+          replacement.setSelectionRange(replacement.value.length, replacement.value.length);
+        }
+      }
+    });
+
+    document.addEventListener("change", event => {
+      const accessToggle = event.target.closest("[data-admin-access-key]");
+      if (!accessToggle) return;
+      const student = state.adminStudents.find(row => row.id === state.selectedAdminStudentId);
+      if (!student) return;
+      const next = { ...effectiveAdminAccess(student) };
+      if (accessToggle.checked) delete next[accessToggle.dataset.adminAccessKey];
+      else next[accessToggle.dataset.adminAccessKey] = false;
+      setAdminAccessDraft(student, next);
+      syncAdminDraftControls();
+    });
+
+    document.addEventListener("pointerdown", event => {
+      const paper = event.target.closest?.("[data-dse-paper]");
+      if (!paper || event.target.closest("button, [data-dse-word-key], a, input, textarea, select")) return;
+      dsePaperSwipe = { paper, pointerId: event.pointerId, x: event.clientX, y: event.clientY };
+    });
+
+    document.addEventListener("pointerup", event => {
+      if (!dsePaperSwipe || dsePaperSwipe.pointerId !== event.pointerId) return;
+      const { paper, x, y } = dsePaperSwipe;
+      dsePaperSwipe = null;
+      const dx = event.clientX - x;
+      const dy = event.clientY - y;
+      if (Math.abs(dx) < 70 || Math.abs(dx) <= Math.abs(dy) * 1.2) return;
+      setDsePaperMode(paper, paper.dataset.paperMode === "student" ? "examiner" : "student");
+      paper.classList.remove("is-swipe-confirmed");
+      window.requestAnimationFrame(() => paper.classList.add("is-swipe-confirmed"));
+    });
+
+    document.addEventListener("pointercancel", () => { dsePaperSwipe = null; });
+
+    document.addEventListener("keydown", event => {
+      const dsePaperWord = event.target.closest?.("[data-dse-word-key]");
+      if (dsePaperWord && ["Enter", " "].includes(event.key)) {
+        event.preventDefault();
+        toggleDseWordBookmark(dsePaperWord);
+        return;
+      }
+      const speakingProgressPoint = event.target.closest?.("[data-speaking-progress-day]");
+      if (speakingProgressPoint && (event.key === "Enter" || event.key === " ")) {
+        event.preventDefault();
+        speakingProgressPoint.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+        return;
+      }
+      const speakingDurationPoint = event.target.closest?.("[data-speaking-duration-day]");
+      if (speakingDurationPoint && (event.key === "Enter" || event.key === " ")) {
+        event.preventDefault();
+        speakingDurationPoint.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+        return;
+      }
+      const ratingButton = event.target.closest?.("[data-exam-rating]");
+      if (ratingButton && ["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown", "Home", "End"].includes(event.key)) {
+        event.preventDefault();
+        const current = Number(ratingButton.dataset.examRating || 1);
+        const next = event.key === "Home"
+          ? 1
+          : event.key === "End"
+            ? 7
+            : Math.min(7, Math.max(1, current + (["ArrowRight", "ArrowDown"].includes(event.key) ? 1 : -1)));
+        selectExamRating(next, { focus: true });
+        return;
+      }
+      const timedWord = event.target.closest?.("[data-timing-index]");
+      if (timedWord && (event.key === "ArrowLeft" || event.key === "ArrowRight")) {
+        event.preventDefault();
+        const paragraph = timedWord.closest(".response-en, .part3-step-en, .part1-message-en");
+        const words = [...(paragraph?.querySelectorAll("[data-timing-index]") || [])];
+        const currentIndex = words.indexOf(timedWord);
+        const direction = event.key === "ArrowRight" ? 1 : -1;
+        const target = words[currentIndex + direction];
+        if (target) {
+          timedWord.tabIndex = -1;
+          target.tabIndex = 0;
+          target.focus();
+        }
+        return;
+      }
+      if (timedWord && (event.key === "Enter" || event.key === " ")) {
+        event.preventDefault();
+        playFromTiming(timedWord.dataset.timingIndex);
+        return;
+      }
+      if (event.code !== "Space" || event.repeat || !state.modelAudio) return;
+      if (event.target.closest?.("input, textarea, select, button, a, [contenteditable='true'], audio")) return;
+      event.preventDefault();
+      if (Number(currentExercise()?.part) === 1 && state.modelAudioSegmentIndex >= 0) {
+        playPart1Turn(state.modelAudioSegmentIndex);
+      } else toggleModelAudio();
+    });
+
+    window.addEventListener("beforeunload", event => {
+      if (!navigationHasUnsavedRecording() && !state.adminAccessDrafts.size && !state.attemptMutationInProgress) return;
+      event.preventDefault();
+      event.returnValue = "";
+    });
+
+    window.addEventListener("pagehide", () => {
+      if (state.dseSession && !state.dseSession.completedAt) abandonDseSession("page-closed");
+      stopModelAudio();
+      clearExamPhaseTimer();
+      clearExamElapsedTimer();
+      clearDsePrepTimer();
+      cancelExamSpeech();
+      cancelDseVoice();
+      cleanupPart1Reveal();
+      cleanupFloatingRecorder();
+      cancelRecorder();
+      clearPageRecordingHistory();
+      cleanupAttemptAudio();
+    });
+
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState !== "hidden") return;
+      stopModelAudio();
+      stopAttemptPlayback();
+      if (state.recordingPermissionPending) cancelRecorder();
+      else if (state.mediaRecorder?.state === "recording" && currentRecordingContext()?.isExam) finishRecording();
+      else if (state.mediaRecorder?.state === "recording") pauseRecording({ background: true });
+    });
+  }
+
+  async function init() {
+  new MutationObserver(applySpeakingPresentation).observe(dom.content,{subtree:true,childList:true,characterData:true});
+  new MutationObserver(applySpeakingPresentation).observe(dom.breadcrumbs,{subtree:true,childList:true});
+
+    setupEvents();
+    initializeSpeakingWordBrush();
+    const adminSignIn = new URLSearchParams(location.search).get("admin") === "1";
+    const restored = adminSignIn ? false : restoreSession();
+    if (adminSignIn && dom.loginForm) {
+      dom.loginForm.elements.username.value = CONFIG.adminUsername || "Sam Admin Speaking";
+      dom.loginForm.elements.password.value = "";
+    }
+    if (restored) {
+      setConnection("驗證登入時段", "connecting");
+      try {
+        await validateRestoredSession();
+        if (!state.user) return;
+        showPortal();
+        navigate({ view: state.user.role === "admin" ? "admin" : "exams" }, { reset: true, skipGuard: true });
+        if (state.user.role === "student") {
+          setConnection("已登入 · 正在載入紀錄", "connecting");
+          try {
+            await loadBookmarks({ quiet: true });
+          } catch (bookmarkError) {
+            if (!state.user) return;
+            console.warn("Speaking bookmark restore failed after session validation:", bookmarkError);
+            setConnection("已登入 · 書簽稍後同步", "warning");
+            toast("已進入 Speaking 首頁；舊有書簽暫時未能載入。", "error");
+            return;
+          }
+          if (!state.user) return;
+          setConnection("已安全連接", "live");
+          if (!openRequestedDseQuestion() && !openRequestedRecordingLibrary() && !openRequestedHomeworkMockMode()) openRequestedHomeworkExercise();
+        } else {
+          setConnection("Admin 已連接", "live");
+        }
+      } catch (error) {
+        if (state.user) resetAuthenticatedState("未能驗證登入時段，請重新登入。");
+        console.warn("Speaking session restoration failed:", error);
+      }
+    } else {
+      showLogin();
+    }
+
+    try {
+      await ensureSupabaseSession();
+      if (!state.user) setConnection("登入服務已準備", "live");
+    } catch (error) {
+      console.warn("Account service startup failed:", error);
+      if (!state.user) setConnection("登入服務連接失敗", "error");
+    }
+  }
+
+  init();
+})();

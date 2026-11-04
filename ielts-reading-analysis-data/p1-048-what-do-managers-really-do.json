@@ -1,0 +1,1923 @@
+{
+  "id": "p1-048-what-do-managers-really-do",
+  "catalogueId": "p1-048",
+  "catalogueIds": [
+    "p1-048"
+  ],
+  "passage": 1,
+  "title": "What do Managers Really Do?",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "C",
+    "A",
+    "C",
+    "B",
+    "B",
+    "A",
+    "B",
+    "E",
+    "FALSE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "C — DECISIONAL ROLES",
+      "answerKey": "C — DECISIONAL ROLES",
+      "type": "Matching Categories",
+      "prompt": "“developing a business strategy”",
+      "translation": "制定業務策略。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要把一個管理行為配到 Mintzberg 的三大類別。題目核心是 “business strategy”，所以要找哪一類角色負責 strategy、planning、resource decisions。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Category 3: DECISIONAL ROLES. Decisional roles require managers to plan strategy and allocate resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三類：決策角色。決策角色要求 managers 規劃策略和分配資源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, the negotiator works with suppliers, distributors, labour unions and others to reach agreements about products and services.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，negotiator 會與供應商、分銷商、工會和其他人合作，就產品和服務達成協議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph 5 專門處理決策活動。首句直接有 “plan strategy”，與題目"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“developing a business strategy” 高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的是 “strategy”。原文直接出現：“Decisional roles require managers to plan strategy and allocate resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "決策角色要求 managers 規劃策略和分配資源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Decisional roles”。核心動詞是 “require”。它要求 managers 做兩件事：plan strategy 和 allocate resources。題目中的 “developing a business strategy” 是 “plan strategy” 的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“developing a business strategy”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“plan strategy”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： developing = planning / forming business strategy = strategy因此，這個行為屬於 Category 3，即 C — DECISIONAL ROLES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“strategy” 有時也會令人想到 planning，而 planning 是 Paragraph 1 提到的四大管理功能之一。不過 Questions 1–6 要在 A、B、C 三個 Mintzberg 類別中選，而 Paragraph 5 清楚把 plan strategy 放在 decisional roles 之下，所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A — INTERPERSONAL ROLES",
+      "answerKey": "A — INTERPERSONAL ROLES",
+      "type": "Matching Categories",
+      "prompt": "“presiding at formal events”",
+      "translation": "主持或出席正式場合。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找正式場合、代表性活動屬於哪一類管理角色。題目中的 “formal events” 可能對應原文的 ceremonies、receptions、presentations。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Category 1: INTERPERSONAL ROLES. Interpersonal roles require managers to direct and supervise employees and the organisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一類：人際角色。人際角色要求 managers 指導和監督員工及組織。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This role is particularly important for middle managers, who often compete with one another for resources while maintaining successful working relationships over long periods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個角色對 middle managers 特別重要，因為他們經常一方面競爭資源，一方面長期維持成功的工作關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 處理 managers 與人、組織和外部場合的關係。formal events 很可能在這段的 figurehead role 中出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “formal events”。原文沒有 formal 這個字，但有一串正式場合："
+            },
+            {
+              "kind": "quote",
+              "text": "“This manager may communicate future organisational goals or ethical guidelines to employees at company meetings and attend ribbon-cutting ceremonies, receptions, presentations and other events associated with the figurehead role.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這位 manager 可能會在公司會議中向員工傳達未來組織目標或道德指引，也會出席剪綵儀式、招待會、簡報和其他與 figurehead role 相關的活動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句中的 figurehead role 屬於 Paragraph 3 的 interpersonal roles。題目說 “presiding at formal events”，原文說 attend ribbon-cutting ceremonies, receptions, presentations and other events。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "formal events 被具體化為剪綵、招待會、簡報等。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“presiding at formal events”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“attend ribbon-cutting ceremonies, receptions, presentations and other events”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： formal events = ceremonies / receptions / presentations presiding at = taking part in a formal representative role答案是 A — INTERPERSONAL ROLES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能把 “communicate future organisational goals” 連到 informational roles。不過這一句的核心角色名稱是 figurehead，而 figurehead 被放在 interpersonal roles 之下。這題真正控制答案的是 formal representative events，而非單純傳遞資訊。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "C — DECISIONAL ROLES",
+      "answerKey": "C — DECISIONAL ROLES",
+      "type": "Matching Categories",
+      "prompt": "“allocating employees and funds”",
+      "translation": "分配員工和資金。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目核心是 “allocating”。要找哪一類角色負責分配 resources。funds 可對應 budget decisions； employees 和 funds 都可視為 organisational resources 的一部分。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Category 3: DECISIONAL ROLES. Decisional roles require managers to plan strategy and allocate resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三類：決策角色。決策角色要求 managers 規劃策略和分配資源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, the negotiator works with suppliers, distributors, labour unions and others to reach agreements about products and services.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，negotiator 會與供應商、分銷商、工會和其他人合作，就產品和服務達成協議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 明顯與 resource allocation 有關。題目的 “funds” 和 “allocating” 都指向這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “allocating” 直接對應原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“allocate resources”"
+            },
+            {
+              "kind": "label",
+              "text": "再往下看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The third role, resource allocator, involves deciding which work units receive particular resources.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個角色 resource allocator 涉及決定哪些工作單位獲得特定資源。"
+            },
+            {
+              "kind": "label",
+              "text": "同段也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Top managers are likely to make large, organisation-wide budget decisions, while middle managers make more specific allocations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高層 managers 可能作出大型、全組織範圍的預算決定，而中層 managers 則作出更具體的分配。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這組證據很清楚。Paragraph 5 先說 decisional roles 包括 allocate resources，再具體列出resource allocator。budget decisions 對應題目中的 funds；which work units receive particular resources 對應分配不同資源。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“allocating employees and funds”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“allocate resources”"
+            },
+            {
+              "kind": "quote",
+              "text": "“resource allocator”"
+            },
+            {
+              "kind": "quote",
+              "text": "“budget decisions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“specific allocations”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： funds = budget / financial resources employees and funds = organisational resources allocating = deciding which units receive resources答案是 C — DECISIONAL ROLES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“employees” 也可能令人想到 interpersonal roles，因為 interpersonal roles 會指導和監督employees。不過題目動作是 allocating，不是 supervising 或 training。動作控制答案，所以應選C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "B — INFORMATIONAL ROLES",
+      "answerKey": "B — INFORMATIONAL ROLES",
+      "type": "Matching Categories",
+      "prompt": "“obtaining and transmitting information”",
+      "translation": "獲取和傳遞資訊。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很直接，題目中的 “obtaining and transmitting information” 幾乎就是原文 Category 2 的定義。要把這個描述配到正確類別。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Category 2: INFORMATIONAL ROLES. Informational roles are those in which managers obtain and transmit information.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二類：資訊角色。資訊角色是 managers 獲取和傳遞資訊的角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Managers also communicate the company’s vision and purpose.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Managers 也會傳達公司的願景和目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 的主題非常清楚：資訊取得、傳遞和溝通。Question 4 的 wording 直接對應第一句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “obtaining” 和 “transmitting information”。Paragraph 4 第一個句子直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“managers obtain and transmit information”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的類別名稱是 “INFORMATIONAL ROLES”。句子用 “are those in which” 直接定義這一類角色。因此，只要題目描述為 obtaining and transmitting information，就應配到 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“obtaining and transmitting information”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“obtain and transmit information”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是近乎原字重現。答案是 B — INFORMATIONAL ROLES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題中伏位較少，但仍要留意：information 可能在其他段落中出現，例如 figurehead 也會communicate goals。不過 Category 2 的首句就是完整定義，最直接支援 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "B — INFORMATIONAL ROLES",
+      "answerKey": "B — INFORMATIONAL ROLES",
+      "type": "Matching Categories",
+      "prompt": "“communicating information to employees and the organisation”",
+      "translation": "向員工和組織傳達資訊。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 “communicating information” 屬於哪一類角色。題目中的 employees、organisation和 information 指向 disseminator role。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Category 2: INFORMATIONAL ROLES. Informational roles are those in which managers obtain and transmit information.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二類：資訊角色。資訊角色是 managers 獲取和傳遞資訊的角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Managers also communicate the company’s vision and purpose.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Managers 也會傳達公司的願景和目的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph 4 是最合適目標段落。它不只講取得資訊，也講把資訊傳給員工和組織。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “communicating information” 和 “employees”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The disseminator role requires managers to inform employees about changes that affect them and the organisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "disseminator 角色要求 managers 告知員工那些會影響他們和組織的變化。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的角色名稱是 “disseminator role”。disseminate 意思是傳播、散布資訊。它要求 managers inform employees，內容是 changes that affect them and the organisation。題目把 inform employees about changes 改寫成 communicating information to employees and the organisation。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“communicating information”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“inform employees”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“to employees and the organisation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“employees about changes that affect them and the organisation”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 B — INFORMATIONAL ROLES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 的 figurehead 也會 communicate organisational goals。可是 Question 5 以information transmission 為核心，且原文中的 disseminator role 明確屬於 Category 2。若題目強調 formal ceremonies，才會回到 interpersonal roles。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "A — INTERPERSONAL ROLES",
+      "answerKey": "A — INTERPERSONAL ROLES",
+      "type": "Matching Categories",
+      "prompt": "“recruiting staff”",
+      "translation": "招聘或挑選員工。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “recruiting staff” 不一定原字重現。要找 selecting employees、training employees 或leader role。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Category 1: INTERPERSONAL ROLES. Interpersonal roles require managers to direct and supervise employees and the organisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一類：人際角色。人際角色要求 managers 指導和監督員工及組織。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This role is particularly important for middle managers, who often compete with one another for resources while maintaining successful working relationships over long periods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個角色對 middle managers 特別重要，因為他們經常一方面競爭資源，一方面長期維持成功的工作關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段處理 managers 與員工、下屬和其他部門之間的人際管理。招聘員工屬於與人有關的管理工作，因此這段最值得掃描。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “staff”。原文多用 “employees” 和 “subordinates”。在 Paragraph 3 中可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Leaders are also responsible for selecting and training employees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leaders 也負責挑選和訓練員工。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“selecting employees” 對應 recruiting staff。它位於 leader role 的描述中，而 leader role 被放在Category 1: INTERPERSONAL ROLES 下。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“recruiting staff”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“selecting … employees”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： recruiting = selecting / hiring staff = employees答案是 A — INTERPERSONAL ROLES。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“training employees” 也在同一句出現。雖然 training 不等於 recruiting，但 selecting employees已足夠支援題目。這題不能只看到 employees 就選；要看動作 selecting 是否對應 recruiting。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "B and E",
+      "answerKey": "B and E",
+      "type": "Choose TWO Letters",
+      "prompt": "“Which TWO positive functions of Mintzberg’s research are mentioned in the last two paragraphs?”",
+      "translation": "最後兩段提到 Mintzberg 研究有哪兩項正面功能？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple-answer Questions。題目限定 “last two paragraphs”，所以應集中看 Paragraph 9和 Paragraph 10。每個正確選項都要有獨立原文證據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9 and Paragraph 10 Paragraph 9 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first benefit is that Mintzberg provided a useful functional approach to analysing management and used it to give researchers a clear definition of the manager’s role.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一個好處是，Mintzberg 提供了一種有用的功能取向來分析管理，並用它給 researchers 一個清楚的 manager role definition。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 10 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second benefit is that Mintzberg’s work offered a valuable starting point and fresh direction for future research in this field.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個好處是，Mintzberg 的作品為這個領域的未來研究提供了有價值的起點和新方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看兩段首句，答案方向已很清楚：第一個 benefit 是清楚定義 manager role；第二個 benefit 是future research 的起點和方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “positive functions”、“last two paragraphs”。原文直接用 “first benefit” 和 “second benefit”。這兩個短語就是答案標記。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項分析選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “provides watertight categories for managers”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：為 managers 提供滴水不漏的分類。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯。Paragraph 7 的 criticism 剛好說 manager’s role remains more complex than the model suggests，很多 less traditional roles 沒有被 original three categories 捕捉。原文沒有說categories watertight。這個選項把模型說得過於完美。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “provides a clear concept to define the role of a manager”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：提供清楚概念來界定 manager 的角色。"
+            },
+            {
+              "kind": "label",
+              "text": "正確。Paragraph 9 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“give researchers a clear definition of the manager’s role.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "給 researchers 一個清楚的 manager role definition。"
+            },
+            {
+              "kind": "label",
+              "text": "又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“His definitions brought clarity and precision to subsequent research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的定義為後續研究帶來清晰度和準確性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此 B 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “helps new graduates to design their career”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：幫助新畢業生設計職涯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯。文章開頭提到 young professionals 和 entry-level position，但最後兩段沒有說 Mintzberg 的研究能幫助畢業生設計職涯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “suggests ways for managers to do their job better”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：提出 managers 更好完成工作的方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯。Paragraph 7 還說他的研究 “did not consistently improve management practice”。最後兩段的正面功能在 research definition 和 future research，不在直接教 managers 做事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E “offers a fresh direction for further research”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：為後續研究提供新方向。"
+            },
+            {
+              "kind": "label",
+              "text": "正確。Paragraph 10 直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“a valuable starting point and fresh direction for future research”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個有價值的起點和未來研究的新方向。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "B："
+            },
+            {
+              "kind": "quote",
+              "text": "“clear concept to define the role of a manager”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “clear definition of the manager’s role” / “clarify what a ‘manager’ is” E："
+            },
+            {
+              "kind": "quote",
+              "text": "“fresh direction for further research”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= “fresh direction for future research”所以答案是 B and E。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        7,
+        8
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Young professionals can easily gain management experience in the workplace.”",
+      "translation": "年輕專業人士可以輕易在職場中取得管理經驗。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN 題。題目最重要的控制詞是 “easily”。要看文章是否說 young professionals 容易得到 managerial experience。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When students graduate and first enter the workforce, the most common choice is to find an entry-level position.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學生畢業並初次進入職場時，最常見的選擇是找一份入門職位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Managers at different levels of the organisation spend different amounts of time performing the four managerial functions of planning, organising, leading, and controlling.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "組織中不同層級的 managers 會花不同時間執行 planning、organising、leading 和 controlling 四項管理功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 1 由年輕人入職講到 manager 的角色。題目問 young professionals 的 management experience，應在段落中部尋找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Young professionals” 和 “management experience”。原文中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, these promotions can be few and far between, leaving many young professionals without managerial experience.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這些晉升可能很少且相隔很久，令許多年輕專業人士沒有管理經驗。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “these promotions”，指升到 senior partners、associates 或 managers 的機會。核心短語是 “few and far between”，意思是數量少，而且很久才出現一次。結果是 “leaving many young professionals without managerial experience”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 young professionals can easily gain management experience。原文說 many young professionals are left without managerial experience。兩者方向相反，尤其 “easily” 被 “few and far between” 直接推翻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較：題目命題：年輕專業人士容易獲得管理經驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：晉升機會少且不常出現，很多年輕專業人士缺乏管理經驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：原文提供相反資訊，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章開頭確實說 young professionals start out with a plan to become managers。可是有計劃或願望，不代表能輕易取得經驗。真正控制答案的是 “few and far between” 和 “without managerial experience”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Mintzberg’s theory broke well-established notions about managing styles.”",
+      "translation": "Mintzberg 的理論打破了既有而穩固的管理風格觀念。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章是否說 Mintzberg 的 theory 打破舊觀念。關鍵詞是 “broke”、“well-established notions” 和 “managing styles”。原文有說他的 model 很重要，但是否涉及推翻傳統觀念，需要細讀。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, as many professionals already know, management styles can be very different depending on where you work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，正如許多專業人士已知道的，管理風格會因工作地點不同而有很大差異。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These categories represent three major functional approaches, which are designated as interpersonal, informational and decisional.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 categories 代表三種主要功能取向，分別稱為 interpersonal、informational 和 decisional。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 2 的功能是介紹管理風格差異，以及 Mintzberg 如何將管理角色分類。它沒有立即顯示“打破既有觀念”的語氣。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Mintzberg” 和 “managing styles”。Paragraph 2 中找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1960s, researcher Henry Mintzberg created a seminal organisational model using three categories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1960 年代，研究者 Henry Mintzberg 用三個類別建立了一個具有開創性的重要組織模型。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“seminal” 表示重要、具影響力、對後續研究有啟發作用。可是題目說 “broke well-established notions”，需要原文提供舊觀念存在、Mintzberg 推翻它們、或改變既有共識的證據。原文提供的資訊有：他 created a seminal organisational model。他使用 three categories。三類是 interpersonal、informational 和 decisional。原文缺少的資訊有：當時已有甚麼 well-established notions。 Mintzberg 是否反駁或打破它們。管理風格觀念是否因此被推翻。命題比較：題目命題： Mintzberg 的理論打破既有管理風格觀念。原文命題： Mintzberg 建立了重要模型，把管理角色分成三類。比較結果：原文提供相關背景，但沒有提供“打破既有觀念”這個核心關係。因此答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“seminal organisational model” 很容易令人聯想到 revolutionary 或 groundbreaking。不過“seminal” 只能支援「重要、具影響力」，無法自動推出「打破既有觀念」。IELTS 判斷要依靠文章明示或嚴格可推內容。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Mintzberg got a large amount of research funds for his contribution.”",
+      "translation": "Mintzberg 因其貢獻獲得大量研究資金。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 research funds。要看文章有沒有提到 Mintzberg 得到資金、資助、grant 或 monetary support。題目中的 “large amount” 也是強限制。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看相關段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2, Paragraph 8–10 Paragraph 2 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, as many professionals already know, management styles can be very different depending on where you work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，正如許多專業人士已知道的，管理風格會因工作地點不同而有很大差異。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 10 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second benefit is that Mintzberg’s work offered a valuable starting point and fresh direction for future research in this field.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個好處是，Mintzberg 的作品為這個領域的未來研究提供了有價值的起點和新方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看相關段落首句，可以看到文章討論 Mintzberg 的模型、批評和研究價值。題目提到 funds，因此需要掃描是否有 money / funding 類資訊。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “research funds”。掃描全文，原文沒有 funds、grant、money、financial support 等與 Mintzberg 本人獲資助相關的資訊。文章只提到 organisational resources、budget decisions等管理情境下的資源，不是 Mintzberg 的研究經費。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀可用證據"
+            },
+            {
+              "kind": "label",
+              "text": "原文對 Mintzberg 的貢獻有以下描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the 1960s, researcher Henry Mintzberg created a seminal organisational model using three categories.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1960 年代，研究者 Henry Mintzberg 用三個類別建立了一個重要組織模型。"
+            },
+            {
+              "kind": "label",
+              "text": "最後兩段又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“His definitions brought clarity and precision to subsequent research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的定義為後續研究帶來清晰度和準確性。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mintzberg’s work offered a valuable starting point and fresh direction for future research in this field.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mintzberg 的作品為這個領域的未來研究提供了有價值的起點和新方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子支援他的研究有學術價值，但沒有提到他本人獲得大量 research funds。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較：題目命題： Mintzberg 獲得大量研究資金。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題： Mintzberg 建立重要模型；他的研究幫助定義 manager，並為後續研究提供方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：原文沒有明確衝突，也沒有支持資金資訊。缺少核心資料，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 有 “budget decisions”，Question 3 也出現 funds，但那是 managers 分配組織資源的內容，與 Mintzberg 個人的研究資助無關。看到 funds 類概念時，要確認主體是否仍然是Mintzberg。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“All managers do the same work.”",
+      "translation": "所有 managers 都做相同工作。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 “All” 和 “same”。只要原文指出不同層級 managers 的工作時間、決策範圍或角色重點不同，就會與題目相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When students graduate and first enter the workforce, the most common choice is to find an entry-level position.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "學生畢業並初次進入職場時，最常見選擇是找一份入門職位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Managers at different levels of the organisation spend different amounts of time performing the four managerial functions of planning, organising, leading, and controlling.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "組織中不同層級的 managers 會花不同時間執行 planning、organising、leading 和 controlling 四項管理功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經能看出 managers 並非完全做一樣的工作。不同層級會用不同時間比例處理四大功能。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “All managers” 和 “same work”。原文最直接的對應是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Managers at different levels of the organisation spend different amounts of time performing the four managerial functions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "組織中不同層級的 managers 會花不同時間執行四項管理功能。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 也補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Top managers are likely to make large, organisation-wide budget decisions, while middle managers make more specific allocations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "高層 managers 可能作出大型、全組織範圍的預算決定，而中層 managers 作出更具體的分配。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 的句子中，真正控制答案的是 “different levels” 和 “different amounts of time”。這表示 managers 可能都涉及 planning、organising、leading、controlling，但各層級投入比例不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 進一步說 top managers 和 middle managers 的 allocation decisions 範圍不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "命題比較：題目命題：所有 managers 做相同工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：不同層級 managers 花不同時間做管理功能；高層和中層的資源分配決策範圍也不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：題目把差異抹平，原文明確指出差異。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文的確說 managers perform four managerial functions。這可能讓人覺得所有 managers 都做同一套工作。可是句子前面有 “different levels” 和 “different amounts of time”，所以重點在不同層級的工作重心有差異。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Mintzberg’s theory is valuable for future studies.”",
+      "translation": "Mintzberg 的理論對未來研究有價值。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章是否承認 Mintzberg 的研究仍有 future research value。定位詞是 “valuable” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“future studies”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 10第一句：“The second benefit is that Mintzberg’s work offered a valuable starting point and fresh direction for future research in this field.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個好處是，Mintzberg 的作品為這個領域的未來研究提供了有價值的起點和新方向。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As more young professionals enter the job market, research will continue to examine and change how we understand the modern workplace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著更多年輕專業人士進入就業市場，研究會繼續檢視並改變我們對現代職場的理解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 10 專門說 Mintzberg 研究對未來研究的延續價值。Question 13 的 wording 幾乎直接對應首句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “valuable” 和 “future studies”。原文第一句直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“valuable starting point and fresh direction for future research”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The second benefit is that Mintzberg’s work offered a valuable starting point and fresh direction for future research in this field.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二個好處是，Mintzberg 的作品為這個領域的未來研究提供了有價值的起點和新方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Mintzberg’s work”。核心動詞是 “offered”。受詞是 “a valuable starting point and fresh direction”。對象是 “future research in this field”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “theory” 概括原文的 “Mintzberg’s work”；“future studies” 對應 “future research”。兩者意思一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mintzberg’s theory is valuable for future studies.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mintzberg’s work offered a valuable starting point and fresh direction for future research.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： theory = work / research model valuable for future studies = valuable starting point and fresh direction for future research答案判斷：原文清楚支持題目，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 有不少 criticism，說他的 model 不夠完整，也未必改善 practice。可是 Paragraph 8明確轉折，說 criticisms do not make the original research entirely useless，並列出 two benefits。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 13 問的是 future studies value，所以應看最後一項 benefit。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "_Question Analysis Website Free Resource - Passage 1 - What the Managers Really Do_ _.pdf",
+    "sha256": "90fdc412b504db786478f5e80856393856ee284a26792a9a903f9374a27774a2",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可建立的粗略地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說學生畢業後進入職場，最常見選擇是找 entry-level position；末句說不同層級的 managers會花不同時間執行 planning、organising、leading 和 controlling 四項管理功能。只看首尾句，可以估計這段是全文引入：從年輕專業人士的職涯晉升困難，轉到 manager 的基本定義、正式權力、資源使用和四大功能。"
+      },
+      {
+        "number": "2",
+        "summary": "首句用 “However” 轉折，指出 management styles 會因工作地點而很不同；末句說 Mintzberg 的三大 categories 代表 interpersonal、informational 和 decisional 三種功能取向。只看首尾句，可以判斷這段在引入 Henry Mintzberg 的管理角色模型。它先說管理風格差異，再說研究者如何用較科學方式分類這些差異。"
+      },
+      {
+        "number": "3",
+        "summary": "首句標示 Category 1: INTERPERSONAL ROLES，說 interpersonal roles 要求 managers 指導和監督員工及組織；末句說 liaison 角色對 middle managers 特別重要，因為他們既競爭資源，也要長期維持良好工作關係。只看首尾句，可以估計這段集中講人際角色，包括 figurehead、leader 和liaison，重點是正式代表、帶領員工、協調不同單位。"
+      },
+      {
+        "number": "4",
+        "summary": "首句標示 Category 2: INFORMATIONAL ROLES，說 informational roles 是 managers 獲取和傳遞資訊的角色；末句說 managers 也會傳達公司的 vision 和 purpose。只看首尾句，可以看出這段專門處理資訊流動。中間應會解釋 monitor 如何評估表現和觀察環境變化，以及 disseminator 如何把影響員工和組織的變化傳達出去。"
+      },
+      {
+        "number": "5",
+        "summary": "首句標示 Category 3: DECISIONAL ROLES，說 decisional roles 要求 managers 規劃策略和分配資源；末句說 negotiator 會與 suppliers、distributors、labour unions 等人合作，以達成產品和服務方面的協議。只看首尾句，可以判斷這段講決策角色，包括 entrepreneur、disturbance handler、resource allocator 和 negotiator。strategy、resources、budget 和 agreements 是核心字。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 Mintzberg 1960s 的初始研究有助於分類 managerial approaches，但他仍對工作場域中的其他 roles 感興趣；末句說每個 role 都有 distinct characteristics，需要獨立分類系統才能充分理解。只看首尾句，可以估計這段承接 Mintzberg 研究，指出原模型之外還可能有其他角色值得研究，例如 disseminator、figurehead、liaison 和 spokesperson。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說雖然 Mintzberg 的初始研究開啟了討論，後來研究者批評了他的方法；末句說他的研究套用到真實情境時不一定有效，也沒有穩定改善 management practice。只看首尾句，可以判斷這段是批評段。重點應包括：管理角色比三類模型更複雜、很多非傳統角色未被捕捉，以及模型實用效果有限。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說這些批評引出一個問題：Mintzberg 的方法今天是否仍有助理解 managers；末句說他的研究為後續研究提供兩項 benefits。只看首尾句，可以估計這段是轉折過渡。它承認 criticism 可能有效，但不把原研究完全否定，接著引出最後兩段的兩個正面功能。"
+      },
+      {
+        "number": "9",
+        "summary": "首句說第一個 benefit 是 Mintzberg 提供了 useful functional approach 來分析 management，並給 researchers 一個清楚的 manager role definition；末句說他的 definitions 為後續研究帶來clarity and precision。只看首尾句，可以判斷這段集中講定義價值：研究 human behaviour 前，必須先清楚界定研究對象，而 Mintzberg 幫助後人釐清 manager 是甚麼。"
+      },
+      {
+        "number": "10",
+        "summary": "首句說第二個 benefit 是 Mintzberg 的作品為 future research 提供 valuable starting point 和fresh direction；末句說隨著更多 young professionals 進入 job market，研究會繼續檢視並改變我們對 modern workplace 的理解。只看首尾句，可以估計這段講研究延續價值：後人可借助早期研究，不必從零開始，也能分辨哪些方法適合 workplace dynamics。"
+      }
+    ]
+  }
+}

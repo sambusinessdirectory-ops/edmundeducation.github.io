@@ -1,0 +1,2045 @@
+{
+  "id": "p1-148-copy-your-neighbor",
+  "catalogueId": "p1-148",
+  "catalogueIds": [
+    "p1-148"
+  ],
+  "passage": 1,
+  "title": "Copy your neighbor",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "E",
+    "B",
+    "G",
+    "F",
+    "D",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "D",
+    "B"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“Criticism of the butterfly flight-height theory”",
+      "translation": "對蝴蝶飛行高度理論的批評。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找的是「某段包含一項批評」，所以不能只找 “flight height” 或"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“theory”；真正要找的訊號是 criticism，即質疑、反駁、問題、不能解釋等語氣。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E第一句：“But why are there so many different mimicry rings?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但為甚麼會有這麼多不同的模仿環？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Worse still, according to DeVries, this theory doesn’t explain why the model species is flying at that particular height in the first place.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：更糟的是，根據 DeVries 的說法，這個理論無法解釋為甚麼模型物種一開始會在那個"
+            },
+            {
+              "kind": "paragraph",
+              "text": "特定高度飛行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 Paragraph E 會先提出「多個 mimicry rings」的問題，再介紹一個解釋，最後指出這個解釋的不足。最後一句的 “doesn’t explain” 已經帶有明顯批評功能。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “criticism” 和 “flight-height theory”。原文未必用 criticism 這個字，所以要掃描以下訊號："
+            },
+            {
+              "kind": "quote",
+              "text": "“doesn’t explain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“don’t match very well”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Worse still”"
+            },
+            {
+              "kind": "quote",
+              "text": "“this theory”"
+            },
+            {
+              "kind": "label",
+              "text": "在 Paragraph E 可以找到多句批評："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“But the light patterns and wing patterns don’t match very well,” he says."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但他說，光線圖案和翅膀圖案並不十分吻合。"
+            },
+            {
+              "kind": "quote",
+              "text": "“And observations show that the insects do not shift in height as the day progresses and the light patterns change.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：而觀察顯示，隨著一天過去、光線圖案改變，昆蟲並沒有改變飛行高度。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Worse still… this theory doesn’t explain why the model species is flying at that particular height in the first place.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：更糟的是，這個理論無法解釋模型物種一開始為甚麼在該高度飛行。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這三句共同形成批評鏈。第一句指出 light patterns 和 wing patterns 不吻合；第二句指出昆蟲行為不支持這個理論，因為牠們沒有隨光線變化改變高度；第三句指出理論解釋力不足，無法說明model species 原先的高度選擇。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Criticism”= 原文 “don’t match very well” / “do not shift” / “doesn’t explain”題目 “flight-height theory”= 原文 “mimicry complexes were stratified by flight height” 及後文 “this theory”所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也出現 “I didn’t believe the flight height hypothesis”，看似有批評意味。不過 F 的重點是 Beccaloni 自己起初懷疑，後來被實地採集說服；真正集中列出理論缺陷的是 Paragraph E。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "遇到 matching information，要找完整資訊功能，不要只找一個負面動詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“An explanation of why Beccaloni carried out research in Ecuador”",
+      "translation": "解釋 Beccaloni 為甚麼在 Ecuador 進行研究。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找的是 research purpose。定位詞 Beccaloni 和 Ecuador 很強，但題目真正問 why，所以要找 “in pursuit of”, “solution”, “mystery”, “because”, “rich”, “well collected” 等原因線索。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But here’s the conundrum.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但問題就在這裡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trick was to work out how all the butterflies were organised and how this related to mimicry.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：關鍵在於弄清楚所有蝴蝶如何被組織起來，以及這和模仿有甚麼關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜 Paragraph B 會提出 mimicry theory 的難題，並引出 Beccaloni 的研究任務。首句 “conundrum” 表示有未解問題；尾句 “work out” 表示研究目標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Beccaloni”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Ecuador”"
+            },
+            {
+              "kind": "quote",
+              "text": "“why”"
+            },
+            {
+              "kind": "quote",
+              "text": "“carried out research”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“In pursuit of a solution to the mystery of mimetic exuberance, Beccaloni set off for one of the megacentres for butterfly diversity, the point where the western edge of the Amazon basin meets the foothills of the Andes in Ecuador.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：為了尋找「模仿多樣性之謎」的答案，Beccaloni 前往蝴蝶多樣性的其中一個大型中心"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，即 Amazon basin 西部邊緣和 Ecuador 安第斯山山麓交會的地方。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句的核心是 “In pursuit of a solution”。這表示他去 Ecuador 的原因，是要解開 mimetic exuberance，即為甚麼同一地區有這麼多不同 mimicry rings。後文又補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s exceptionally rich, but comparatively well collected, so I pretty much knew what was there.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：那裡物種極其豐富，但相對而言已有良好採集紀錄，所以我大致知道那裡有甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句補充了地點選擇的實際原因：Ecuador 該地區既有很高蝴蝶多樣性，又有足夠既有資料支援研究。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “why Beccaloni carried out research in Ecuador”= 原文 “In pursuit of a solution to the mystery…” + “exceptionally rich, but comparatively well collected”所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 也出現 “When I first went out to Ecuador”，但那段重點是他如何測試 flight-height hypothesis 和採集標本。Question 2 問的是為何選 Ecuador 作研究地點，Paragraph B 給出的原因更完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“Different mimicry rings flying at different heights”",
+      "translation": "不同模仿環在不同高度飛行。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找的是研究結果，不是理論假設。定位詞是 “different mimicry rings” 和 “different heights”。如果只看到 Paragraph E 的 hypothesis，仍要小心，因為題目問實際發現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The attention to detail paid off.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這種對細節的重視有了回報。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each mimicry ring had its own characteristic flight height.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：每一個模仿環都有自己的典型飛行高度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph G 明顯是結果段。首句說詳細紀錄有成果；尾句直接總結每個 mimicry ring 有自己的 characteristic flight height。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Different mimicry rings”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flying”"
+            },
+            {
+              "kind": "quote",
+              "text": "“different heights”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Beccaloni found that the mimicry rings were flying at two quite separate altitudes.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Beccaloni 發現這些模仿環在兩個相當分明的高度飛行。"
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, most members of the clear-winged mimicry ring would fly close to the forest floor, while the majority of the 12 species in the tiger-winged ring flew high up.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：例如，大多數 clear-winged mimicry ring 的成員會貼近森林地面飛行，而 tiger-winged"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ring 的 12 個物種中，大多數會在較高處飛行。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“two quite separate altitudes” 直接表示不同高度。例子中的 clear-winged ring 和 tiger-winged ring 分別對應低處和高處。最後一句 “Each mimicry ring had its own characteristic flight height”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是最直接的總結句。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Different mimicry rings flying at different heights”= 原文 “the mimicry rings were flying at two quite separate altitudes”= 原文 “Each mimicry ring had its own characteristic flight height”所以答案是 G。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph H 也談高度，但它主要補充說實際情況有點 fuzzy，物種有偏好高度但不完全固定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 3 只問「不同 rings 在不同高度飛行」這項發現，Paragraph G 最直接。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“Beccaloni’s method of catching butterflies”",
+      "translation": "Beccaloni 捕捉蝴蝶的方法。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找的是 method，尤其是 catching butterflies。定位詞 “catching” 可能改寫成 capture, collecting net, specimens, prey, sample。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“When I first went out to Ecuador, I didn’t believe the flight height hypothesis and set out to test it,” says Beccaloni."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Beccaloni 說：「我第一次去 Ecuador 時，並不相信飛行高度假說，於是出發去測試"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它。」最後一句：“Unlike many previous workers, he kept very precise notes on exactly where he caught his specimens.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：與許多前人不同，他非常精確地記錄每個標本到底在哪裡被捕捉到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph F 會講 Beccaloni 如何測試假說，並描述他的採集和紀錄方法。尾句的 “caught his specimens” 直接連到題目的 catching butterflies。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“method”"
+            },
+            {
+              "kind": "quote",
+              "text": "“catching butterflies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Beccaloni”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Like many entomologists before him, Beccaloni used a large bag-like net to capture his prey.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：和他之前許多昆蟲學家一樣，Beccaloni 使用一個大型袋狀捕蟲網來捕捉獵物。"
+            },
+            {
+              "kind": "quote",
+              "text": "“This allowed him to sample the 2.5 metres immediately above the forest floor.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這讓他能夠在森林地面上方 2.5 米範圍內採樣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“used a large bag-like net” 是方法；“to capture his prey” 說明用途是捕捉蝴蝶或昆蟲標本。下一句 “sample the 2.5 metres” 進一步說明這個工具能採樣的垂直範圍。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “method of catching butterflies”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “used a large bag-like net to capture his prey”所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 和 H 都有研究結果，Paragraph I 有養幼蟲的方法，但 Question 4 問的是捕捉成蟲標本的方式。看見 method 時，要先分清是 catching、recording、raising larvae，還是 analysing results。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“The information that not all insects in mimicry patterns are toxic”",
+      "translation": "模仿圖案中的昆蟲並非全部有毒。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找的是「有些模仿者無毒」。定位詞是 “not all”, “insects”, “toxic”, “mimicry patterns”。原文可能用 “not toxic”, “gain protection”, “model species”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even though all ithomiines are poisonous, it is in their interests to evolve to look like one another because predators that learn to avoid one species will also avoid others that resemble it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：即使所有 ithomiines 都有毒，牠們演化成彼此相似仍然符合自身利益，因為捕食者學"
+            },
+            {
+              "kind": "paragraph",
+              "text": "會避開一個物種後，也會避開其他相似物種。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to colour, many mimics copy behaviours and even the flight pattern of their model species.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：除了顏色之外，許多模仿者還會模仿其模型物種的行為，甚至飛行模式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph D 會解釋 mimicry 的保護原理，以及模仿不只包含顏色，也包括行為和飛行方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“not all”"
+            },
+            {
+              "kind": "quote",
+              "text": "“insects”"
+            },
+            {
+              "kind": "quote",
+              "text": "“toxic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“mimicry patterns”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mimicry rings may also contain insects that are not toxic but gain protection by looking like a model species that is: an adaptation called Batesian mimicry.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：模仿環也可能包含本身無毒的昆蟲；牠們透過看似某個有毒模型物種來得到保護，這"
+            },
+            {
+              "kind": "paragraph",
+              "text": "種適應稱為 Batesian mimicry。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一句直接說 “insects that are not toxic”。題目 “not all insects in mimicry patterns are toxic” 是同一意思的概括。原文中的 “may also contain” 表示 mimicry rings 可能包含這類無毒昆蟲。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “not all insects … are toxic”= 原文 “may also contain insects that are not toxic”題目 “mimicry patterns”= 原文 “mimicry rings”所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本段開頭說 “all ithomiines are poisonous”，容易令人誤以為整個 mimicry ring 內所有昆蟲都有毒。細讀時要看主語範圍：all ithomiines 只限 ithomiines；後一句 “mimicry rings may also contain insects that are not toxic” 才回答題目。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“All butterfly wing colours serve as warning signals to predators.”",
+      "translation": "所有蝴蝶翅膀顏色都是對捕食者發出的警告訊號。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有 “All”，範圍很強；如果原文只說 some 或 others，就要小心。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There’s no animal that symbolises rainforest diversity quite as spectacularly as the tropical butterfly.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：沒有哪種動物能像熱帶蝴蝶那樣壯觀地象徵雨林多樣性。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Biologists use the term ‘mimicry rings’ for these clusters of impostors and their evolutionary models.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：生物學家用 “mimicry rings” 這個術語，稱呼這些模仿者及其演化模型所形成的群組。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph A 會介紹蝴蝶顏色多樣性，並帶出 mimicry rings 的概念。題目談 wing colours and warning signals，最可能在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“All”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wing colours”"
+            },
+            {
+              "kind": "quote",
+              "text": "“warning signals”"
+            },
+            {
+              "kind": "quote",
+              "text": "“predators”"
+            },
+            {
+              "kind": "label",
+              "text": "原文找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“These early explorers soon realised that although some of the butterflies’ bright colours are there to attract a mate, others are warning signals.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些早期探索者很快意識到，雖然有些蝴蝶的鮮明顏色是為了吸引配偶，另一些則是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "警告訊號。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文清楚分成兩類："
+            },
+            {
+              "kind": "quote",
+              "text": "“some … are there to attract a mate”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些顏色是為了吸引配偶。"
+            },
+            {
+              "kind": "quote",
+              "text": "“others are warning signals”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一些才是警告訊號。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “All butterfly wing colours serve as warning signals”。“All” 和原文 “some / others” 衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供相反資料，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “All … warning signals”原文 “some … attract a mate, others … warning signals”題目把部分功能擴大成全部功能，範圍過大。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目有 “warning signals”，原文也有相同字眼。相同字只負責定位，真正控制答案的是 “All” 對"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“some / others” 的範圍差異。下次見到 all、every、only，要優先檢查原文量詞。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Other insects may imitate butterflies’ wing patterns.”",
+      "translation": "其他昆蟲可能模仿蝴蝶的翅膀圖案。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷其他昆蟲是否會模仿蝴蝶圖案。關鍵在 “Other insects” 和 “imitate”。原文可能用mimic, mimicked, copy。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Working at the Jatun Sacha Biological Research Station on the banks of the Rio Napo, Beccaloni focused his attention on a group of butterflies called ithomiines.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在 Rio Napo 河岸的 Jatun Sacha 生物研究站工作時，Beccaloni 把注意力集中在一群"
+            },
+            {
+              "kind": "paragraph",
+              "text": "稱為 ithomiines 的蝴蝶上。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They can comprise up to 85 per cent of the individuals in a mimicry ring and their patterns are mimicked not just by butterflies, but by other insects as diverse as damselflies and true bugs,”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "says Philip DeVries."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Philip DeVries 說，牠們可佔一個模仿環內個體數量高達 85%，並且牠們的圖案不只"
+            },
+            {
+              "kind": "paragraph",
+              "text": "被蝴蝶模仿，也被豆娘和 true bugs 等其他昆蟲模仿。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph C 會介紹 ithomiines 在 mimicry rings 中的重要性，以及牠們被不同昆蟲模仿的情況。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other insects”"
+            },
+            {
+              "kind": "quote",
+              "text": "“imitate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wing patterns”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“their patterns are mimicked not just by butterflies, but by other insects as diverse as damselflies and true bugs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：牠們的圖案不只被蝴蝶模仿，也被豆娘和 true bugs 等不同昆蟲模仿。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“their patterns” 指 ithomiines 的圖案，即蝴蝶身上的圖案。題目說 “butterflies’ wing patterns”，雖然原文只說 patterns，語境中正在討論蝴蝶圖案，所以意思相符。題目 “Other insects may imitate”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 原文 “patterns are mimicked … by other insects”因此答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “may imitate”，原文用被動式 “are mimicked”。一個是主動，一個是被動，但主語和動作關係一致：其他昆蟲模仿蝴蝶圖案。看到被動式時，要把動作方向還原。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“A butterfly’s flight altitude is determined by its food.”",
+      "translation": "蝴蝶的飛行高度由牠的食物決定。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易中伏，因為 Paragraph I 確實出現 “larval food plants”。可是題目不只說 Beccaloni 研究食物植物；它說 flight altitude is determined by food。關鍵字是 “determined”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then Beccaloni had a bright idea.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：然後 Beccaloni 有了一個聰明的想法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once I got them back to the field station’s lab, it was just a matter of keeping them alive until they pupated and then hatched into adults that I could identify.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一旦我把牠們帶回野外研究站的實驗室，接下來要做的就是讓牠們活下來，直到牠們"
+            },
+            {
+              "kind": "paragraph",
+              "text": "化蛹，再羽化成我能識別的成蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph I 會講新研究方向：從成蟲飛行高度轉去看幼蟲、卵、食物植物和成年個體識別。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“flight altitude”"
+            },
+            {
+              "kind": "quote",
+              "text": "“determined”"
+            },
+            {
+              "kind": "quote",
+              "text": "“food”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有 food 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I started looking at the distribution of ithomiine larval food plants within the canopy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：我開始研究 ithomiine 幼蟲食物植物在樹冠層中的分布。"
+            },
+            {
+              "kind": "quote",
+              "text": "“For each one, I’d record the height to which the host plant grew and the height above the ground at which the eggs or larvae were found.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：對每一種植物，我會記錄宿主植物長到的高度，以及卵或幼蟲在離地多高處被發現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子只說 Beccaloni 研究幼蟲食物植物、宿主植物高度、卵和幼蟲所在高度。原文沒有明確說：食物決定成蟲飛行高度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不同食物植物造成不同 flight altitude。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "adult butterfly flight altitude is determined by larval food.題目把「研究 larval food plants」推進成「食物決定飛行高度」。在目前提供的文章中，這一步沒有被明示，也沒有被直接證明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有相關背景，但缺少 “determined by its food” 這個核心因果關係，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最大中伏位是 “food plants”。看到 food，就容易以為題目是 TRUE。可是 IELTS 的 TRUE 需要整個命題成立；這裡缺少因果動詞 determine。下次遇到 cause、determine、lead to、because，要檢查原文是否真的建立因果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Beccaloni accepted the flight-height hypothesis before going to Ecuador and set out to confirm it.”",
+      "translation": "Beccaloni 去 Ecuador 之前已接受飛行高度假說，並出發去證實它。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題包含兩部分：accepted the hypothesis 和 set out to confirm it。只要核心方向和原文相反，就判 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“When I first went out to Ecuador, I didn’t believe the flight height hypothesis and set out to test it,” says Beccaloni."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Beccaloni 說：「我第一次去 Ecuador 時，並不相信飛行高度假說，於是出發去測試"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它。」最後一句：“Unlike many previous workers, he kept very precise notes on exactly where he caught his specimens.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：與許多前人不同，他非常精確地記錄每個標本到底在哪裡被捕捉到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首句已經很有方向：原文直接說 “I didn’t believe”。這和題目 “accepted” 相反。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“accepted”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flight-height hypothesis”"
+            },
+            {
+              "kind": "quote",
+              "text": "“before going to Ecuador”"
+            },
+            {
+              "kind": "quote",
+              "text": "“confirm”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“I didn’t believe the flight height hypothesis and set out to test it.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：我並不相信飛行高度假說，於是出發去測試它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “accepted”，原文說 “didn’t believe”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “confirm”，原文說 “test”。"
+            },
+            {
+              "kind": "quote",
+              "text": "“test” 表示檢驗，可能證實，也可能推翻；“confirm” 則表示證實。原文還補充：“A few weeks with the collecting net convinced me otherwise.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：用捕蟲網採集幾週後，我被說服，改變了原來的看法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這說明他是一開始不相信，後來才改變看法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目和原文方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "有些學生看到 “convinced me otherwise” 可能只記得他後來接受了 flight-height idea，忽略時間。題目說 “before going to Ecuador”，原文說他去之前 “didn’t believe”。時間詞 before 是本題控制點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Jatun Sacha has the greatest diversity of butterfly species in the world.”",
+      "translation": "Jatun Sacha 擁有世界上最高的蝴蝶物種多樣性。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題關鍵是 “the greatest” 和 “in the world”。這是最高級，需要非常明確的全球比較證據。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "相關段落：Paragraph B 和 Paragraph F"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But here’s the conundrum.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但問題就在這裡。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The trick was to work out how all the butterflies were organised and how this related to mimicry.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：關鍵在於弄清楚所有蝴蝶如何被組織起來，以及這和模仿有甚麼關係。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“When I first went out to Ecuador, I didn’t believe the flight height hypothesis and set out to test it,” says Beccaloni."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Beccaloni 說：「我第一次去 Ecuador 時，並不相信飛行高度假說，於是出發去測試"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它。」Paragraph F 最後一句：“Unlike many previous workers, he kept very precise notes on exactly where he caught his specimens.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：與許多前人不同，他非常精確地記錄每個標本到底在哪裡被捕捉到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Jatun Sacha”"
+            },
+            {
+              "kind": "quote",
+              "text": "“greatest diversity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“butterfly species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in the world”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關內容："
+            },
+            {
+              "kind": "quote",
+              "text": "“one of the megacentres for butterfly diversity”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：蝴蝶多樣性的其中一個大型中心。"
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s exceptionally rich, but comparatively well collected…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：那裡物種極其豐富，但相對而言已有良好採集紀錄。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The job was complicated by the sheer diversity of species involved at Jatun Sacha.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Jatun Sacha 涉及的物種極多，令工作變得複雜。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文支援 Jatun Sacha / Ecuador 研究地區很豐富、物種很多、是蝴蝶多樣性大型中心之一。可是題目需要：全球範圍比較；證明 Jatun Sacha 是第一；證明它比所有其他地方都多樣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有提供這些資料。“one of the megacentres” 只表示其中一個重要中心；“exceptionally rich”表示非常豐富；“sheer diversity” 表示多樣性很高。這些都未達到 “the greatest in the world”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：文章沒有足夠資料判斷 Jatun Sacha 是否全球第一，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“exceptionally rich” 很容易令人聯想到最高級，但 rich 不等於 greatest。IELTS 常用形容詞強度製造干擾；只要題目是最高級，就要找明確排名或全球比較。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Beccaloni kept more detailed records of where butterflies were caught than previous researchers did.”",
+      "translation": "相比之前的研究者，Beccaloni 更詳細地記錄蝴蝶被捕捉的位置。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題關鍵是比較：Beccaloni vs previous researchers。定位詞是 “records”, “where”, “caught”,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“previous researchers”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F第一句：“When I first went out to Ecuador, I didn’t believe the flight height hypothesis and set out to test it,” says Beccaloni."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Beccaloni 說：「我第一次去 Ecuador 時，並不相信飛行高度假說，於是出發去測試"
+            },
+            {
+              "kind": "paragraph",
+              "text": "它。」最後一句：“Unlike many previous workers, he kept very precise notes on exactly where he caught his specimens.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：與許多前人不同，他非常精確地記錄每個標本到底在哪裡被捕捉到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看尾句，已經直接對應題目。這段不只講捕捉方法，也講紀錄方式和前人差異。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“more detailed records”"
+            },
+            {
+              "kind": "quote",
+              "text": "“where”"
+            },
+            {
+              "kind": "quote",
+              "text": "“caught”"
+            },
+            {
+              "kind": "quote",
+              "text": "“previous researchers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike many previous workers, he kept very precise notes on exactly where he caught his specimens.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：與許多前人不同，他非常精確地記錄每個標本到底在哪裡被捕捉到。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Unlike many previous workers” 對應題目 “than previous researchers did”。“very precise notes” 對應 “more detailed records”。“exactly where he caught his specimens” 對應 “where butterflies were caught”。題目把原文的 “specimens” 改成 “butterflies”，在語境中可接受，因為本段講 Beccaloni 捕捉butterflies / insects specimens。判斷：題目和原文方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題看似簡單，但要注意 “more detailed” 沒有逐字出現。原文用 “Unlike many previous workers” 加 “very precise notes” 建立比較。這是比較關係的改寫，不是單字配對題。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "D — Each mimicry ring has a preferred flight height.",
+      "answerKey": "D — Each mimicry ring has a preferred flight height.",
+      "type": "Multiple Choice",
+      "prompt": "“Which statement about butterflies’ flight altitudes is correct?”",
+      "translation": "關於蝴蝶飛行高度，哪一項說法正確？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問整體正確說法，所以要讀 Paragraph G 的發現，再用 Paragraph H的限制排除過度絕對的選項。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G and Paragraph H Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The attention to detail paid off.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這種對細節的重視有了回報。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each mimicry ring had its own characteristic flight height.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：每一個模仿環都有自己的典型飛行高度。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in practice rather than in theory, things were a bit fuzzy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：然而，在實際情況中，事情有點模糊，並不像理論那樣整齊。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far, so good, but he still hadn’t explained what caused the various groups of ithomiines and their chromatic consorts to fly in formations at these particular heights.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：到目前為止還算順利，但他仍未解釋是甚麼令各組 ithomiines 和牠們的同色夥伴在這"
+            },
+            {
+              "kind": "paragraph",
+              "text": "些特定高度形成飛行群。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩段首尾句，可以看到：G 是結果，H 是限制。結果是每個 mimicry ring 有典型高度；限制是牠們並非機械式固定在單一高度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“flight altitudes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“correct”"
+            },
+            {
+              "kind": "quote",
+              "text": "“fixed height”"
+            },
+            {
+              "kind": "quote",
+              "text": "“preferred flight height”"
+            },
+            {
+              "kind": "label",
+              "text": "核心原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each mimicry ring had its own characteristic flight height.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：每一個模仿環都有自己的典型飛行高度。"
+            },
+            {
+              "kind": "quote",
+              "text": "“But they’d also spend a smaller proportion of their time flying at other heights.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：但牠們也會花較小比例的時間在其他高度飛行。"
+            },
+            {
+              "kind": "quote",
+              "text": "“Species weren’t stacked rigidly like passenger jets waiting to land, but they did appear to have preferred airspace in the forest.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：物種並非像等待降落的客機那樣僵硬地一層層排列，但牠們似乎確實在森林中有偏好"
+            },
+            {
+              "kind": "paragraph",
+              "text": "的空域。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項分析"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A The flight-height theory has been fully established.錯。Paragraph H 說 “he still hadn’t explained what caused…”；也就是原因仍未解釋清楚，所以fully established 太絕對。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Butterflies always fly at one fixed height.錯。原文說牠們多數時間在某高度飛行，也會花較少時間在其他高度。always 和 one fixed height 過度絕對。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Their flight resembles passenger jets waiting to land.錯。原文說 “Species weren’t stacked rigidly like passenger jets waiting to land”。這是明確否定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Each mimicry ring has a preferred flight height.正確。原文 “Each mimicry ring had its own characteristic flight height” 和 “preferred airspace” 直接支持 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 “characteristic flight height”= 選項 “preferred flight height”原文 “preferred airspace”= 選項 “preferred flight height”所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 和 D 很相似。B 的問題在 “always” 和 “one fixed height”；D 用 “preferred”，保留了原文的彈性。IELTS MCQ 很常用絕對詞製造錯項，看到 always、fully、only，要特別小心。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "B — The relationship between the height of larvae and that of the adults.",
+      "answerKey": "B — The relationship between the height of larvae and that of the adults.",
+      "type": "Multiple Choice",
+      "prompt": "“What did Beccaloni investigate after studying flight height?”",
+      "translation": "研究飛行高度之後，Beccaloni 調查了甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 after studying flight height，所以要看 Paragraph H 到 Paragraph I的轉接。H 說原因未解釋；I 說他有新想法，開始看 larval food plants。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph I第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Then Beccaloni had a bright idea.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：然後 Beccaloni 有了一個聰明的想法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once I got them back to the field station’s lab, it was just a matter of keeping them alive until they pupated and then hatched into adults that I could identify.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一旦我把牠們帶回野外研究站的實驗室，接下來要做的就是讓牠們活下來，直到牠們"
+            },
+            {
+              "kind": "paragraph",
+              "text": "化蛹，再羽化成我能識別的成蟲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段會講 Beccaloni 下一步研究：他從幼蟲或卵開始，記錄牠們的位置，然後養成成蟲以識別物種。這和 larvae height 以及 adult identification 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“after studying flight height”"
+            },
+            {
+              "kind": "quote",
+              "text": "“investigate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“larvae”"
+            },
+            {
+              "kind": "quote",
+              "text": "“adults”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“I started looking at the distribution of ithomiine larval food plants within the canopy.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：我開始研究 ithomiine 幼蟲食物植物在樹冠層中的分布。"
+            },
+            {
+              "kind": "quote",
+              "text": "“For each one, I’d record the height to which the host plant grew and the height above the ground at which the eggs or larvae were found.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：對每一種植物，我會記錄宿主植物長到的高度，以及卵或幼蟲在離地多高處被發現。"
+            },
+            {
+              "kind": "quote",
+              "text": "“keeping them alive until they pupated and then hatched into adults that I could identify.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：讓牠們活到化蛹，再羽化成我能識別的成蟲。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項分析"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A Whether all necessary statistics had already been collected錯。原文沒有說他檢查統計資料是否已收集完成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B The relationship between the height of larvae and that of the adults正確。原文記錄 eggs or larvae 的高度，並把牠們養成 adults 以識別；前文已建立 adult flight height 的資料，因此這一步是在把幼蟲位置和成蟲身份／高度模式連起來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Whether butterfly larvae were difficult to raise錯。原文說 “keeping them alive” 是實驗操作，不是研究問題。題目問 investigate what，不是問飼養難度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Whether different larvae favoured different types of trees錯。原文看的是 host plant grew to what height 和 eggs/larvae found at what height。重點是高度和分布，不是 tree types。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 “height above the ground at which the eggs or larvae were found”= 選項 “height of larvae”原文 “hatched into adults that I could identify”= 選項 “adults”所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 很有迷惑性，因為原文有 larval food plants 和 host plant。但文章沒有說 different types of trees；它強調的是植物和幼蟲所在高度。遇到 MCQ，要看選項中的名詞是否準確：types 和heights 是兩種不同資訊。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Copy your neighbor.pdf",
+    "sha256": "502c63b33334479a35a4260282726ad41642b5c44d97c84387e95da7fa531a14",
+    "pageCount": 21
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句和尾句，可以先看到文章由熱帶蝴蝶的色彩多樣性入手，再帶出 mimicry rings 這個核心概念。首句說蝴蝶最能象徵雨林多樣性；尾句說生物學家把一群模仿者和牠們的演化模型稱為mimicry rings。因此本段功能是介紹背景：蝴蝶顏色有求偶和警告作用，部分物種因保護效果而互相模仿。"
+      },
+      {
+        "number": "B",
+        "summary": "本段首句直接提出 conundrum，即理論和現實不一致。尾句說研究的技巧在於弄清楚所有蝴蝶如何被組織起來，以及這和 mimicry 有何關係。只看首尾句，可以估計本段會解釋研究問題：古典理論預測同一地區只應有一種保護圖案，但現實中有多個 mimicry rings，因此 Beccaloni 前往Ecuador 尋找答案。"
+      },
+      {
+        "number": "C",
+        "summary": "首句交代研究地點 Jatun Sacha 以及研究對象 ithomiines。尾句說牠們的圖案不只被其他蝴蝶模仿，也被豆娘和 true bugs 等其他昆蟲模仿。只看首尾句，可以猜本段會介紹為何 ithomiines 適合研究 mimicry：牠們數量多、有毒、顏色鮮明，並且在模仿環中常常扮演重要模型角色。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說所有 ithomiines 都有毒，牠們演化成彼此相似，因為捕食者學會避開一種後，也會避開相似物種。尾句補充模仿不只限於顏色，還包括行為和飛行模式。只看首尾句，可以看到本段功能是解釋 mimicry 的類型和保護原理，包括 Müllerian mimicry 和 Batesian mimicry。"
+      },
+      {
+        "number": "E",
+        "summary": "首句提出新問題：為甚麼會有這麼多不同 mimicry rings？尾句指出 flight-height theory 的重大弱點：它不能解釋 model species 為何一開始就在特定高度飛行。只看首尾句，可以估計本段會介紹「飛行高度」假說，然後集中提出批評，例如光影圖案不吻合、昆蟲不隨光線變化改變高度。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 Beccaloni 起初不相信 flight-height hypothesis，前往 Ecuador 是為了測試它。尾句說他和很多前人不同，精確記錄每隻標本被捕捉的位置。只看首尾句，可以估計本段會講他的實地研究方法：他用捕蟲網採樣，面對大量物種和多個 mimicry rings，並以精準位置紀錄支持後續分析。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說這種細緻紀錄有了回報。尾句說每個 mimicry ring 都有自己的 characteristic flight height。只看首尾句，可以清楚看到本段是研究結果段：Beccaloni 發現不同模仿環在森林中使用不同高度，例如 clear-winged ring 較接近地面，tiger-winged ring 較高處飛行。這段很可能回答高度分布題。"
+      },
+      {
+        "number": "H",
+        "summary": "首句用 However 轉折，說實際情況比理論模糊。尾句說他仍未解釋為甚麼各組 ithomiines 和其他相同圖案昆蟲會在特定高度形成飛行群。只看首尾句，可以估計本段功能是限制上一段結論：牠們有偏好高度，但並非固定分層；結果成立，原因仍未解釋。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說 Beccaloni 有了一個新想法。尾句說他把卵或幼蟲帶回實驗室養到蛹化和羽化，讓牠能識別成年個體。只看首尾句，可以看到研究方向從成蟲飛行高度轉向 larval food plants、host plants、eggs 和 larvae 的高度。本段很可能回答「之後研究甚麼」和「食物植物高度」相關題目。 Answer Key Questio Answer n 1 E 2 B 3 G 4 F 5 D 6 FALSE 7 TRUE 8 NOT GIVEN 9 FALSE 10 NOT GIVEN 11 TRUE 12 D 13 B"
+      }
+    ]
+  }
+}

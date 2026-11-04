@@ -1,0 +1,1393 @@
+{
+  "id": "p2-133-museum-blockbuster",
+  "catalogueId": "p2-133",
+  "catalogueIds": [
+    "p2-133"
+  ],
+  "passage": 2,
+  "title": "Museum Blockbuster",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "C",
+    "A",
+    "B",
+    "B",
+    "customers",
+    "public-relations skills",
+    "The new museology",
+    "tourist attractions",
+    "A",
+    "D",
+    "B",
+    "C",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“A reason for changing the exhibition programs.”",
+      "translation": "改變展覽節目的原因。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Maintaining and increasing visitor levels is paramount in the new museology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 new museology 中，維持和增加參觀人數是最重要的事情。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the Economist succinctly summarised in 1994, essential requirements for a director included ‘business nous and public-relations skills’, along with the ability to compete with other museums to stage travelling exhibitions that draw huge crowds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如 Economist 在 1994 年簡潔總結，館長的必要條件包括商業頭腦和公關技巧，以及與其他博物館競爭、舉辦能吸引大量人潮的巡迴展覽的能力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的定位詞是 “reason”、“changing” 和 “exhibition programs”。原文對應 “Maintaining and increasing visitor levels” 以及 “regular exhibition changes and innovations”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This requires continued product development: not only the creation or hiring of blockbuster exhibitions, but also regular exhibition changes and innovations.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這需要持續開發產品：包括創造或租用 blockbuster exhibitions，也包括定期更換展覽和創新。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "changing the exhibition programs= regular exhibition changes and innovations reason= maintaining and increasing visitor levels判斷：題目問「為何要改變展覽節目」。Paragraph C 先提出原因：要維持和增加 visitor levels；再說因此需要 regular exhibition changes and innovations。答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“The time people are prepared to wait in a queue to see an exhibition.”",
+      "translation": "人們願意排隊多久去看一個展覽。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the 1980s, the term ‘blockbuster’ has become fashionable for spectacular exhibitions at museums, art galleries and science centres.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 1980 年代起，“blockbuster” 這個詞開始流行，用來形容博物館、美術館和科學中心的壯觀大型展覽。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What both Elsen and Rosenfield omit in their descriptions of a blockbuster is that people are prepared to pay a fee to see a blockbuster and that the term blockbuster can just as easily apply to a movie or a museum exhibition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Elsen 和 Rosenfield 在描述 blockbuster 時漏掉了兩點：人們願意付費觀看 blockbuster，而且blockbuster 這個詞同樣可以用於電影或博物館展覽。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的強定位詞是 “wait in a queue”。原文使用美式說法 “stand in line”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“a blockbuster is a ‘… large-scale loan exhibition that people who normally don’t go to museums will stand in line for hours to see …’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "blockbuster 是一種大型借展，甚至平日通常不去博物館的人也會排隊數小時去看。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "wait in a queue= stand in line the time= for hours判斷：題目問排隊時間，Paragraph A 直接寫 “for hours”。答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Terms used to refer to blockbusters.”",
+      "translation": "用來描述 blockbusters 的詞語。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Merely naming an exhibition or movie a blockbuster, however, does not make it a blockbuster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單純把一個展覽或電影稱為 blockbuster，並不會令它真正成為 blockbuster。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Detractors argue that blockbusters are designed to appeal to the lowest common denominator, while others extol the virtues of encouraging scholars to cooperate on projects and to provide exhibitions that cater for a broad selection of the community rather than an elite sector.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "批評者認為 blockbusters 是為了迎合最低層次的大眾口味；支持者則讚揚它能鼓勵學者合作，並為廣泛社群提供展覽，而非只服務精英群體。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “terms used” 不一定逐字出現。應掃描引號詞、形容詞和評價詞。Paragraph B 中間正好有一串描述詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in literature from both the UK and the USA, other words that also appear in descriptions of a blockbuster are ‘less scholarly’, ‘non-elitist’ and ‘populist’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，在英國和美國的相關文獻中，描述 blockbuster 時也會出現其他詞語，例如 “less scholarly”、“non-elitist” 和 “populist”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "terms used to refer to blockbusters= other words that also appear in descriptions of a blockbuster判斷：題目問描述 blockbusters 的詞語，Paragraph B 直接列出三個 terms，所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Controversy over the target audience for a blockbuster.”",
+      "translation": "blockbuster 目標觀眾所引起的爭議。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Merely naming an exhibition or movie a blockbuster, however, does not make it a blockbuster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單純把一個展覽或電影稱為 blockbuster，並不會令它真正成為 blockbuster。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Detractors argue that blockbusters are designed to appeal to the lowest common denominator, while others extol the virtues of encouraging scholars to cooperate on projects and to provide exhibitions that cater for a broad selection of the community rather than an elite sector.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "批評者認為 blockbusters 是為了迎合最低層次的大眾口味；支持者則讚揚它能鼓勵學者合作，並為廣泛社群提供展覽，而非只服務精英群體。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的定位概念是 “controversy” 和 “target audience”。原文沒有直接用 target audience，但有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“lowest common denominator”、“broad selection of the community” 和 “elite sector”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Detractors argue that blockbusters are designed to appeal to the lowest common denominator, while others extol the virtues of encouraging scholars to cooperate on projects and to provide exhibitions that cater for a broad selection of the community rather than an elite sector.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "批評者認為 blockbusters 是為了迎合最低層次的大眾口味；另一些人則讚賞它能鼓勵學者合作，並提供服務廣泛社群、非只限精英的展覽。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "controversy= detractors argue … while others extol …target audience= lowest common denominator / broad selection of the community / elite sector判斷：這句同時有兩邊看法，並且爭論焦點正是展覽應服務哪類觀眾。答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "customers",
+      "answerKey": "customers",
+      "type": "Summary Completion",
+      "prompt": "“Rather than being treated simply as visitors, members of the public have become 18______…”",
+      "translation": "公眾不再只被視為 visitors，而變成了 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Maintaining and increasing visitor levels is paramount in the new museology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 new museology 中，維持和增加參觀人數非常重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the Economist succinctly summarised in 1994, essential requirements for a director included ‘business nous and public-relations skills’, along with the ability to compete with other museums to stage travelling exhibitions that draw huge crowds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Economist 在 1994 年總結，館長需要商業頭腦、公關技巧，以及舉辦吸引大量人潮的巡迴展覽的能力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有 “Rather than being treated simply as visitors”，原文幾乎直接出現 “customers rather than visitors”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, members of the visiting public have become customers rather than visitors…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，前來參觀的公眾已經變成 customers，而不再只是 visitors。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：空格前是 “have become”，後面需要名詞。customers 是一個詞，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "public-relations skills",
+      "answerKey": "public-relations skills",
+      "type": "Summary Completion",
+      "prompt": "“A magazine summarised 19 ______ and business acumen as important qualities for directors…”",
+      "translation": "一本雜誌總結說，館長的重要條件包括 ______ 和商業頭腦。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Maintaining and increasing visitor levels is paramount in the new museology.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 new museology 中，維持和增加參觀人數非常重要。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the Economist succinctly summarised in 1994, essential requirements for a director included ‘business nous and public-relations skills’, along with the ability to compete with other museums to stage travelling exhibitions that draw huge crowds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Economist 在 1994 年簡潔總結，館長的必要條件包括 “business nous” 和 “public-relations skills”，以及與其他博物館競爭大型巡迴展的能力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “magazine” 對應 “the Economist”。“business acumen” 對應 “business nous”。因此另一項質素就是 “public-relations skills”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“business nous and public-relations skills”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "商業頭腦和公關技巧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： public-relations skills 是兩個詞或一個連字詞加一個詞，符合三字限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "business acumen= business nous important qualities= essential requirements"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "The new museology",
+      "answerKey": "The new museology",
+      "type": "Summary Completion",
+      "prompt": "“20 ______ has contributed to the convergence of museums, the heritage industry, tourism and the pursuit of profit and pleasure.”",
+      "translation": "______ 促成了 museums、heritage industry、tourism，以及 profit and pleasure 的融合。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new museology has resulted in the convergence of museums, the heritage industry, tourism, and the pursuits of profit and pleasure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "new museology 造成了 museums、heritage industry、tourism，以及 profit and pleasure 的融合。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But while blockbusters are all part of the new museology, there is proof that you don’t need a museum, science centre or art gallery to benefit from the drawing power of a blockbuster or to stage a blockbuster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 blockbusters 都屬於 new museology 的一部分，但有證據顯示，即使沒有 museum、science centre 或 art gallery，也可以受惠於 blockbuster 的吸引力或舉辦 blockbuster。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “convergence” 幾乎原字重現。空格應回到句首主語。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new museology has resulted in the convergence…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "new museology 造成了這種融合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： The new museology 是三個詞，符合 NO MORE THAN THREE WORDS。若考場答案格較保守，也可寫 new museology；但原文完整主語包含 The。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "tourist attractions",
+      "answerKey": "tourist attractions",
+      "type": "Summary Completion",
+      "prompt": "“This has led to debate over whether museums should primarily be regarded as 21 ______.”",
+      "translation": "這引起爭論：museums 是否應主要被視為 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The new museology has resulted in the convergence of museums, the heritage industry, tourism, and the pursuits of profit and pleasure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "new museology 造成 museums、heritage industry、tourism、profit and pleasure 的融合。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But while blockbusters are all part of the new museology, there is proof that you don’t need a museum, science centre or art gallery to benefit from the drawing power of a blockbuster or to stage a blockbuster.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 blockbusters 屬於 new museology，但不一定要有 museum、science centre 或 art gallery才能利用 blockbuster 的吸引力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “debate” 和 “primarily be regarded as” 對應原文 “much debate” 和 “see museums primarily as”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This has given rise to much debate about … whether it is appropriate to see museums primarily as tourist attractions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這引起大量爭論：是否適合主要把 museums 視為 tourist attractions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： tourist attractions 是兩個詞，符合三字限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "A, D",
+      "answerKey": "A, D",
+      "type": "Choose TWO",
+      "prompt": "Questions 22–23",
+      "translation": "提供足夠金錢去修葺建築物。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "advantages"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A A To provide enough money to repair buildings."
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But do blockbusters held in public institutions really create a surplus to fund other activities?”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在公共機構舉辦的 blockbusters 是否真的能創造盈餘，用來資助其他活動？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is also unlikely that the accounting systems of most institutions will recognise the real cost of either creating or hiring a blockbuster.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數機構的會計系統也不太可能辨認出創辦或租用 blockbuster 的真實成本。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "repair buildings 是強定位詞。Paragraph E 中直接有 “repair buildings”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For some museums overseas, it may be the money that they need to update parts of their collections or to repair buildings that are in need of attention.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對海外一些博物館來說，這筆錢可能正是它們更新部分藏品或修葺需要關注的建築所需要的資金。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：選項 A 把 “the money that they need … to repair buildings” 概括成 “provide enough money to repair buildings”。這是文章明確提到的好處，所以 A 正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D D To benefit local businesses."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令本地商業受益。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, when the bottom line is the most important objective in mounting blockbuster exhibitions, this same objective can be hard to maintain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可惜，當財政底線成為舉辦 blockbuster exhibitions 的最重要目標時，這個目標本身可能很難維持。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the new museology and the apparent trend towards blockbusters make it likely that museums, art galleries and particularly science centres will be seen as part of the entertainment and tourism industry, rather than as cultural icons deserving of government and philanthropic support.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，new museology 和 blockbuster 趨勢可能令 museums、art galleries，尤其 science centres，被視為娛樂和旅遊業的一部分，失去作為文化象徵而值得政府及慈善支持的形象。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "local businesses 在原文中不一定逐字出現，要找 shops、hotels、restaurants、transport industry、retailers。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Blockbusters mean crowds, and crowds are good for the local economy, providing increased employment for shops, hotels, restaurants, the transport industry and retailers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Blockbusters 帶來人潮，而人潮有利於本地經濟，為商店、酒店、餐廳、交通業和零售商增加就業。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "benefit local businesses= good for the local economy= increased employment for shops, hotels, restaurants, transport industry and retailers判斷： D 是明確提到的優點，所以正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼 B、C、E 不選？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “To maintain and increase visitor numbers” 確實出現在 Paragraph C，但它更像 new museology 下改變展覽節目的理由，已對應 Question 14。這一組題問 advantages；A 和 D 提供更直接的具體好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “blend culture and commerce” 出現在 Paragraph D，但原文說 managers are looking for ways to blend culture and commerce。這是管理策略方向，沒有清楚呈現為 blockbuster 的具體好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E “benefit museum directors” 原文沒有這個意思。Paragraph G 說 museum 可能在 budget time被看得更正面，受益主體是機構形象和預算處境，並非 directors 個人。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        22,
+        23
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "B, C, D",
+      "answerKey": "B, C, D",
+      "type": "Choose THREE",
+      "prompt": "Questions 24–26",
+      "translation": "員工因額外工作量而變得疲累。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "disadvantages"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B B Workers become tired because of the additional workload."
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, when the bottom line is the most important objective in mounting blockbuster exhibitions, this same objective can be hard to maintain.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可惜，當財政底線成為舉辦 blockbuster exhibitions 的最重要目標時，這個目標本身可能很難維持。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the new museology and the apparent trend towards blockbusters make it likely that museums, art galleries and particularly science centres will be seen as part of the entertainment and tourism industry, rather than as cultural icons deserving of government and philanthropic support.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，new museology 和 blockbuster 趨勢可能令這些文化機構被視為娛樂和旅遊業的一部分，削弱其文化象徵地位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "tired / workload 可對應 exhausting、staff、real costs、additional tasks。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Creating, mounting or hiring blockbusters is exhausting for staff, with the real costs throughout an institution difficult to calculate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "創造、布置或租用 blockbusters 會令員工十分疲累，而且整個機構內的真實成本很難計算。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "workers become tired= exhausting for staff additional workload= creating, mounting or hiring blockbusters判斷： B 有直接證據，所以正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C C The content becomes more entertaining than cultural."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "內容或機構定位變得偏向娛樂，多於文化。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unfortunately, when the bottom line is the most important objective in mounting blockbuster exhibitions, this same objective can be hard to maintain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當財政底線成為舉辦 blockbuster 的最重要目標時，這個目標本身很難維持。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, the new museology and the apparent trend towards blockbusters make it likely that museums, art galleries and particularly science centres will be seen as part of the entertainment and tourism industry, rather than as cultural icons deserving of government and philanthropic support.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "new museology 和 blockbuster 趨勢可能令 museums、art galleries，尤其 science centres，被視為娛樂和旅遊業的一部分，削弱它們作為文化象徵、值得政府和慈善支持的地位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "entertaining 對應 “entertainment and tourism industry”；cultural 對應 “cultural icons”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“seen as part of the entertainment and tourism industry”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被視為娛樂和旅遊業的一部分。"
+            },
+            {
+              "kind": "label",
+              "text": "原文另一關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“rather than as cultural icons deserving of government and philanthropic support”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相對於作為值得政府和慈善支持的文化象徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：選項 C 把這種機構定位危機概括為 entertainment over culture。嚴格來說，原文重點是museums 等機構會被這樣看待，選項用 “content” 稍作概括；在三個較有證據的 disadvantages中，C 仍然最接近這個負面後果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D D General labourers are required to perform additional tasks."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "普通工人也需要執行額外工作。"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Blockbusters require large capital expenditure, and draw on resources across all branches of an organisation; however, the costs don’t end there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Blockbusters 需要大量資本開支，並會動用組織各部門資源；不過，成本不止於此。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are only so many consumer dollars to go around, and visitors will need to choose between blockbuster products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "消費者可花的錢有限，訪客需要在不同 blockbuster products 之間作出選擇。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "General labourers 和 additional tasks 都是強定位詞，Paragraph F 直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“General labourers, building-services staff, front-of-house staff, technicians, and promotion, education and administration staff are all required to perform additional tasks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "普通工人、樓宇服務員工、前台員工、技術人員，以及推廣、教育和行政員工，全都需要執行額外工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： D 幾乎原字重現，而且放在人力資源成本和額外負擔的語境中，所以正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼 A、E、F 不選？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “Visitors are left unsure which exhibitions to choose” 很接近 Paragraph F 的 “visitors will need to choose between blockbuster products”。不過，原文說的是消費者資金有限、需要選擇；它沒有建立 “unsure” 這種心理狀態，所以證據較弱。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E “Huge amounts of capital must be invested in specialists” 有一半像原文，因為 Paragraph F 說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“large capital expenditure”。問題在於 “specialists” 沒有出現；資源消耗也不只投向 specialists。 F “Staff are exposed to the vagaries and pressures of the marketplace” 原文確實出現，但所在句子是 positive spin-offs 的一部分：“may lead to creative excellence”。題目問 disadvantages，因此F 的分類不合適。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        24,
+        25,
+        26
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Museum Blockbuster.pdf",
+    "sha256": "1f01465f4cfd95bdecc34227d8164b13a98de0c24f27273c56ef41f468047b2e",
+    "pageCount": 17
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：Paragraph A–H",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說 “blockbuster” 自 1980s 起成為博物館、美術館和科學中心大型展覽的流行說法；末句補充，Elsen 和 Rosenfield 的定義漏了觀眾願意付費，而且 blockbuster 也可用於電影或博物館展覽。只看首尾句，可見本段功能是定義 blockbuster：大型、受歡迎、高知名度、限期展出、能吸引排隊和付費觀眾。題目若問 definition、queue、fee、hours、movie / museum exhibition，優先看 A。"
+      },
+      {
+        "number": "B",
+        "summary": "首句提醒，單靠把展覽或電影命名為 blockbuster，並不會令它真正成為 blockbuster；末句比較批評者和支持者的看法，一方認為它迎合最低大眾口味，另一方讚賞它服務更廣泛社群。只看首尾句，可估計本段功能是討論 blockbuster 的評價爭議。中間的 “less scholarly”、“non-elitist”、“populist” 是重要詞組，適合處理 terms 和 target audience controversy。"
+      },
+      {
+        "number": "C",
+        "summary": "首句指出，在 new museology 中，維持和增加參觀人數非常重要；末句引用 Economist，說館長需要 business nous、public-relations skills，以及與其他博物館競爭大型巡迴展的能力。只看首尾句，可判斷本段主題是博物館管理轉向市場和觀眾數字。它解釋為何展覽節目要改變，也直接提供 customers、regular exhibition changes、business / marketing skills 等 summary 答案。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說 new museology 令 museums、heritage industry、tourism、profit and pleasure 匯合；末句說即使沒有 museum、science centre 或 art gallery，也可從 blockbuster 的吸引力中受益。只看首尾句，本段功能是講文化機構和商業旅遊的融合，以及由此引起的爭議。中間有 marketplace、tourist attractions、blend culture and commerce，是第 20、21 題的核心段落。"
+      },
+      {
+        "number": "E",
+        "summary": "首句提出問題：公共機構舉辦 blockbusters 是否真的能產生盈餘，資助其他活動？末句指出，大多數機構的會計系統很可能無法辨認創辦或租用 blockbuster 的真實成本。只看首尾句，可看出本段功能是討論財政效益與成本盲點。它一方面說 blockbusters 可以賺錢、修葺建築或更新藏品，另一方面提醒不是所有大型展都真正盈利，成本也可能被低估。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 blockbusters 需要大量資本開支，並會動用組織各部門資源；末句說市場競爭下，訪客要在不同 blockbuster products 之間選擇。只看首尾句，可估計本段集中處理成本和競爭壓力。中間列出 human-resource management cost、staff additional tasks、front-of-house、technicians、administration 等，適合處理 disadvantages，尤其是額外工作量和人力資源成本。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說當財政底線成為舉辦 blockbuster 的最重要目標時，這個目標本身很難維持；末句警告，博物館和科學中心可能被視為娛樂及旅遊業的一部分，失去文化象徵地位。只看首尾句，可見本段是平衡評估：blockbusters 令員工疲累、成本難算，但也提升機構形象、刺激本地經濟、創造就業，並可能促成策略反思。優缺點題都會用到這段。"
+      },
+      {
+        "number": "H",
+        "summary": "首句提出較理想路線：在 blockbusters 和 regular exhibitions 之間取得平衡；末句說很多博物館和科學中心現在會問：哪些 blockbusters 可巡迴到海外場地，且是否划算？只看首尾句，可判斷本段是結論和建議段。作者不完全否定 blockbusters，但提醒中間路線需要空間、資金和對本地社群需求的理解。這段多用於總結，不太像細節答案段。"
+      }
+    ]
+  }
+}

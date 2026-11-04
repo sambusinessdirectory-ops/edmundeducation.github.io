@@ -1,0 +1,2142 @@
+{
+  "id": "p1-106-twist-in-the-tale",
+  "catalogueId": "p1-106",
+  "catalogueIds": [
+    "p1-106"
+  ],
+  "passage": 1,
+  "title": "Twist in the Tale",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "D",
+    "A",
+    "B",
+    "C",
+    "D",
+    "B",
+    "A",
+    "eight to fourteen-year-olds",
+    "Scholastic",
+    "Rowling / J. K. Rowling",
+    "D",
+    "H",
+    "C",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D — Jacqueline Wilson",
+      "answerKey": "D — Jacqueline Wilson",
+      "type": "Matching People",
+      "prompt": "“Children take pleasure in giving books to each other.”",
+      "translation": "孩子喜歡互相送書。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features。題目問的是「哪一位人物提到孩子把書送給別人或互相傳書」。定位時要找 give books、present、pass on、children social behaviour 這一組概念。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It helps that once smitten, children are loyal and even fanatical consumers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有利的一點是，孩子一旦著迷，就會成為忠誠甚至狂熱的消費者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She has sold more than three million books, but remains virtually invisible to adults, although most ten-year-old girls know about her.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她已售出超過三百萬本書，雖然大多數十歲女孩都知道她，但成年人幾乎看不見她的存在。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜本段講兒童讀者的忠誠、消費和社交傳播，以及 Jacqueline Wilson 的銷售成功。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“giving books”"
+            },
+            {
+              "kind": "quote",
+              "text": "“each other”"
+            },
+            {
+              "kind": "quote",
+              "text": "“take pleasure”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They have parties—where books are a good present. If they like something, they have to pass it on.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她們會舉辦派對，而書是很好的禮物。如果她們喜歡某樣東西，就一定要把它傳給別人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句來自 Jacqueline Wilson 的說法。她說自己的 average reader 是十歲女孩，並補充她們sociable and acquisitive，會 collect，會有 parties，在派對中 books are a good present。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“giving books to each other” 對應原文 “books are a good present”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "take pleasure in giving books= books are a good present to each other= parties / pass it on人物來源：整段由 “Author Jacqueline Wilson says…” 引出，所以答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也提到 book clubs，但 book clubs 只表示兒童書活動增加，沒有提到孩子互相送書。Q1 的定案詞是 present 和 pass it on。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A — Wendy Cooling",
+      "answerKey": "A — Wendy Cooling",
+      "type": "Matching People",
+      "prompt": "“Reading in public is an activity that children have not always felt comfortable about doing.”",
+      "translation": "孩子過去未必一直覺得在公共場合閱讀是自在的事。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找誰提到 children being seen reading in public。定位詞是 reading in public、seen、bus、comfortable / OK。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The main growth area has been the market for eight to fourteen-year-olds, and there is little doubt that the boom has been fuelled by the bespectacled apprentice, Harry Potter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要增長區域是八至十四歲讀者市場，而且毫無疑問，這股熱潮由戴眼鏡的學徒 Harry Potter 推動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The current buzz around the publication of the fourth Harry Potter book beats anything in the world of adult literature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "目前第四本 Harry Potter 出版所引起的熱潮，超越成人文學世界中的任何事情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 Harry Potter 如何令兒童閱讀市場升溫。若題目談孩子是否敢在公眾面前閱讀，答案很可能在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“reading in public”"
+            },
+            {
+              "kind": "quote",
+              "text": "“comfortable”"
+            },
+            {
+              "kind": "quote",
+              "text": "“children”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Harry made it OK to be seen on a bus reading a book,’ says Cooling. ‘To a child, that is important.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cooling 說：「Harry 令人在巴士上被看見讀書變得可以接受。對孩子來說，這很重要。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“made it OK” 表示原本未必 OK，現在變得可以接受。題目說 children have not always felt comfortable about reading in public，正好是從 “made it OK to be seen on a bus reading a book”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "推出來的。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "reading in public= seen on a bus reading a book have not always felt comfortable= Harry made it OK人物來源：引文後面清楚寫 “says Cooling”，即 Wendy Cooling。答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Harry Potter 是 fictional character，不是選項人物。題目要配對的是說話者，所以要看 reporting phrase “says Cooling”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "B — David Almond",
+      "answerKey": "B — David Almond",
+      "type": "Matching People",
+      "prompt": "“Some well-known writers of adult literature regret that they earn less than popular children’s writers.”",
+      "translation": "一些著名成人文學作家會羨慕或懊惱自己賺得比受歡迎兒童作家少。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 adult writers、sales 或 earnings 的比較。定位詞是 adult writers、sales、children’s writers。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No longer are children’s authors considered mere sentimentalists or failed adult writers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童作家不再被視為單純的感傷主義者或失敗的成人作家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And advances seem to be growing too: UK publishing outfit Orion recently negotiated a six-figure sum from US company Scholastic for The Seeing Stone, a children’s novel by Kevin Crossley-Holland, the majority of which will go to the author.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "預付款似乎也在上升：英國出版機構 Orion 最近為 Kevin Crossley-Holland 的兒童小說 The Seeing Stone，從美國 Scholastic 談得一筆六位數金額，其中大部分會給作者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出本段講兒童作家地位和收入上升，這和成人作家比較收入的題目很吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“well-known writers of adult literature”"
+            },
+            {
+              "kind": "quote",
+              "text": "“earn less”"
+            },
+            {
+              "kind": "quote",
+              "text": "“popular children’s writers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Some feted adult writers would kill for the sales,’ says Almond, who sold 42,392 copies of Skellig in 1999 alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Almond 說：「一些備受推崇的成人作家會非常想要這種銷量。」他自己的 Skellig 單在 1999 年就售出 42,392 本。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“feted adult writers” 指受人讚賞、有名氣的成人作家。“would kill for the sales” 是誇張說法，意思是非常渴望擁有這種銷量。題目把 “sales” 轉成 “earn less”，因為在出版語境中銷量高通常帶來更高收入和更大市場價值。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "well-known writers of adult literature= feted adult writers regret / envy= would kill for earn less than popular children’s writers= would kill for the sales of children’s authors人物來源：引文後寫 “says Almond”，所以答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “earn less” 不等於原文逐字寫 income lower。這裡是根據 sales 和 advances 的上下文作合理改寫，尤其本段最後又提到 six-figure sum。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "C — Julia Eccleshare",
+      "answerKey": "C — Julia Eccleshare",
+      "type": "Matching People",
+      "prompt": "“Children are quick to decide whether they like or dislike a book.”",
+      "translation": "孩子會很快決定自己喜不喜歡一本書。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找誰說孩子很快放棄一本書。定位詞是 quick decide、like or dislike、drop it、two pages。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘A few years ago, publishers lost confidence and wanted to make books more like television, the medium that frightened them most,’ says children’s book critic Julia Eccleshare.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童書評論家 Julia Eccleshare 說：「幾年前，出版社失去信心，想把書變得更像它們最害怕的媒介——電視。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘If they don’t get it in two pages, they’ll drop it.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「如果孩子在兩頁之內抓不到它的吸引力，他們就會放下它。」只看首尾句，可以看出本段講 Julia Eccleshare 對兒童閱讀的看法，尤其強調孩子讀書時判斷很快。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“quick”"
+            },
+            {
+              "kind": "quote",
+              "text": "“decide”"
+            },
+            {
+              "kind": "quote",
+              "text": "“like or dislike”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children are demanding readers,” she says. “If they don’t get it in two pages, they’ll drop it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說：「孩子是要求很高的讀者。如果他們在兩頁之內抓不到它的吸引力，他們就會放下它。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“in two pages” 是時間和速度訊號，表示孩子很快作出判斷。“drop it” 表示停止閱讀，反映他們不喜歡或不被吸引。題目用 “decide whether they like or dislike” 概括原文中的 demanding readers和 drop it。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "quick to decide= in two pages dislike a book= drop it人物來源：這段第一句已點名 Julia Eccleshare，後面 “she says” 延續同一位說話者。答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 的 Almond 也說孩子會問 sophisticated questions，但那是說孩子能深入閱讀；Q4問的是孩子判斷一本書是否吸引的速度，證據在 Paragraph E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D — Jacqueline Wilson",
+      "answerKey": "D — Jacqueline Wilson",
+      "type": "Matching People",
+      "prompt": "“Children will read many books by an author that they like.”",
+      "translation": "孩子如果喜歡某位作者，會讀那位作者的很多本書。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 loyalty、fanatical consumers、collect 這一組概念。題目沒有直接說 sales，所以不能只找銷量；要找孩子對作者的持續追隨。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It helps that once smitten, children are loyal and even fanatical consumers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有利的一點是，孩子一旦著迷，就會成為忠誠甚至狂熱的消費者。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She has sold more than three million books, but remains virtually invisible to adults, although most ten-year-old girls know about her.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她已售出超過三百萬本書，雖然對成年人幾乎看不見，但大多數十歲女孩都知道她。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段講孩子對喜愛作者的忠誠和 Jacqueline Wilson 的強大兒童讀者群。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“many books”"
+            },
+            {
+              "kind": "quote",
+              "text": "“author they like”"
+            },
+            {
+              "kind": "quote",
+              "text": "“children will read”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It helps that once smitten, children are loyal and even fanatical consumers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子一旦著迷，就會成為忠誠甚至狂熱的消費者。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“They’re sociable and acquisitive. They collect.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她們愛社交，也喜歡收集。她們會收集。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“once smitten” 表示一旦喜歡上。“loyal and even fanatical consumers” 表示會持續追隨和購買。“They collect” 更直接支援「會讀很多本」或「會收集同一作者的書」這個概念。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "author that they like= once smitten read many books= loyal / fanatical consumers / collect人物來源：“Author Jacqueline Wilson says…” 引出本段。答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "本題和 Q1 都在 Paragraph G，都屬於 Jacqueline Wilson。Q1 抓的是送書和傳播；Q5 抓的是忠誠和收集。兩題證據相鄰，但控制點不同。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "B — David Almond",
+      "answerKey": "B — David Almond",
+      "type": "Matching People",
+      "prompt": "“The public do not realise how much children read today.”",
+      "translation": "大眾沒有意識到今天孩子其實讀得很多。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 public misconception。定位詞是 public、children don’t read nowadays、truth。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘People still tell me, “Children don’t read nowadays”,’ says David Almond, the award-winning author of children’s books such as Skellig.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "得獎兒童作家 David Almond 說：「人們仍然告訴我：『現在的孩子不閱讀。』」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No one is denying that books are competing with other forms of entertainment for children’s attention, but it seems as though children find a special kind of mental nourishment within the printed page.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有人否認書本要和其他娛樂形式爭奪孩子的注意力，但孩子似乎在印刷頁面中找到一種特殊的精神滋養。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段會反駁「孩子不讀書」的流行看法，這與題目完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“public do not realise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“how much children read”"
+            },
+            {
+              "kind": "quote",
+              "text": "“today”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People still tell me, ‘Children don’t read nowadays,’ says David Almond…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "David Almond 說，人們仍然告訴他：「現在的孩子不閱讀。」再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The truth is that they are skilled, creative readers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "真相是，他們是有技巧、有創意的讀者。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“People still tell me” 對應題目中的 public。“Children don’t read nowadays” 是大眾誤解。Almond用 “The truth is…” 反駁，指出孩子其實是 skilled, creative readers，並會問 sophisticated questions。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "public do not realise= People still tell me “Children don’t read nowadays”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "how much children read today= The truth is that they are skilled, creative readers人物來源：句中直接寫 “says David Almond”。答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也有調查數字，說孩子每週平均讀四小時。可是 Q6 問的是哪一位人物指出大眾誤解，真正人物證據在 David Almond 的引文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "A — Wendy Cooling",
+      "answerKey": "A — Wendy Cooling",
+      "type": "Matching People",
+      "prompt": "“We are experiencing a rise in the popularity of children’s literature.”",
+      "translation": "兒童文學的受歡迎程度正在上升。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 rise / popularity / buzz / sales good / fertile period。定位詞是 popularity、children’s literature、rise。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moreover, the children’s book market, which traditionally was seen as a poor cousin to the more lucrative and successful adult market, has come into its own.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，兒童書市場過去傳統上被視為比更有利可圖、更成功的成人市場低一等，如今已經有了自己的地位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There’s a real buzz around them. Book clubs are happening, sales are good, and people are much more willing to listen to children’s authors.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「它們周圍有真正的熱度。讀書會正在出現，銷售很好，人們也更願意聽兒童作家的聲音。」首尾句顯示本段講兒童書市場地位上升和人氣上升。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“rise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“popularity”"
+            },
+            {
+              "kind": "quote",
+              "text": "“children’s literature”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Children’s books are going through an incredibly fertile period,’ says Wendy Cooling, a children’s literature consultant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童文學顧問 Wendy Cooling 說：「兒童書正經歷一個極其豐盛的時期。」再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“There’s a real buzz around them. Book clubs are happening, sales are good…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它們正有真正的熱度。讀書會正在出現，銷售很好……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“incredibly fertile period” 表示一個創作、銷售和市場活力都很旺盛的階段。“real buzz” 和 “sales are good” 直接支援 popularity rising。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "rise in popularity= real buzz / sales are good / people more willing to listen children’s literature= children’s books人物來源：引文後面寫 “says Wendy Cooling”。答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph J 也說市場前景好，但 Q7 要配對人物；Paragraph B 直接引用 Wendy Cooling，是最準確證據。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "eight to fourteen-year-olds",
+      "answerKey": "eight to fourteen-year-olds",
+      "type": "Short-answer Questions",
+      "prompt": "“For which age group have sales of books risen the most?”",
+      "translation": "哪一個年齡組別的書本銷售增長最大？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Short-answer Question。題目問 age group，所以答案應該是一個年齡範圍。定位詞是sales risen the most / main growth area。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The main growth area has been the market for eight to fourteen-year-olds, and there is little doubt that the boom has been fuelled by the bespectacled apprentice, Harry Potter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要增長區域是八至十四歲讀者市場，而且毫無疑問，這股熱潮由戴眼鏡的學徒 Harry Potter 推動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The current buzz around the publication of the fourth Harry Potter book beats anything in the world of adult literature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第四本 Harry Potter 出版所引起的熱潮，超越成人文學界任何事情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，已經能把答案範圍縮到 Paragraph C，因為首句直接出現 growth area 和年齡組別。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“age group”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sales risen the most”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The main growth area has been the market for eight to fourteen-year-olds…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要增長區域是八至十四歲讀者市場……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目用 “sales of books risen the most” 改寫原文 “main growth area”。“market for eight to fourteen-year-olds” 指這個年齡層的兒童書市場增長最大。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： eight to fourteen-year-olds字數計算可視為三個詞：eight / to / fourteen-year-olds，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "sales risen the most= main growth area age group= eight to fourteen-year-olds"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也提到 children up to the age of 11，但那是閱讀時間調查，不是銷售增長最大年齡組別。Q8 的控制詞是 sales risen the most，對應 main growth area。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "Scholastic",
+      "answerKey": "Scholastic",
+      "type": "Short-answer Questions",
+      "prompt": "“Which company has just invested heavily in an unpublished children’s book?”",
+      "translation": "哪一間公司剛剛重金投資了一本尚未出版的兒童書？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 Which company，所以答案應是公司名稱。定位詞是 invested heavily、unpublished children’s book、company。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No longer are children’s authors considered mere sentimentalists or failed adult writers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童作家已不再被視為單純的感傷主義者或失敗的成人作家。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“And advances seem to be growing too: UK publishing outfit Orion recently negotiated a six-figure sum from US company Scholastic for The Seeing Stone, a children’s novel by Kevin Crossley-Holland, the majority of which will go to the author.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "預付款似乎也在上升：英國出版機構 Orion 最近為 Kevin Crossley-Holland 的兒童小說 The Seeing Stone，從美國公司 Scholastic 談得一筆六位數金額，當中大部分會給作者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段講兒童作家收入和 advance 提升。重金投資的公司必然在末句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“company”"
+            },
+            {
+              "kind": "quote",
+              "text": "“invested heavily”"
+            },
+            {
+              "kind": "quote",
+              "text": "“children’s book”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Orion recently negotiated a six-figure sum from US company Scholastic for The Seeing Stone…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Orion 最近為 The Seeing Stone 從美國公司 Scholastic 談得一筆六位數金額……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“six-figure sum” 表示金額達六位數，即重金。這筆錢是 “from US company Scholastic”，所以投資或支付這筆巨額款項的公司是 Scholastic。題目沒有問 book title，所以不能填 The Seeing Stone。題目問 company，因此答案是 Scholastic。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "invested heavily= negotiated a six-figure sum company= US company Scholastic unpublished children’s book= The Seeing Stone, a children’s novel答案形式： Scholastic = 1 word，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Orion 也出現在同一句，但它是 negotiated a six-figure sum from Scholastic 的一方。題目問投入資金的公司，答案要看 from US company Scholastic。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "Rowling / J. K. Rowling",
+      "answerKey": "Rowling / J. K. Rowling",
+      "type": "Short-answer Questions",
+      "prompt": "“Who is currently the best-selling children’s writer?”",
+      "translation": "目前最暢銷的兒童作家是誰？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Who 問題，答案應是人名。定位詞是 currently、best-selling、children’s writer。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It helps that once smitten, children are loyal and even fanatical consumers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子一旦著迷，就會成為忠誠甚至狂熱的消費者，這很有幫助。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She has sold more than three million books, but remains virtually invisible to adults, although most ten-year-old girls know about her.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她已售出超過三百萬本書，雖然對成年人幾乎看不見，但大多數十歲女孩都知道她。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 講兒童讀者忠誠和 Jacqueline Wilson 的銷量，所以 best-selling writer 的資訊在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“currently”"
+            },
+            {
+              "kind": "quote",
+              "text": "“best-selling”"
+            },
+            {
+              "kind": "quote",
+              "text": "“children’s writer”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After Rowling, Wilson is currently the best-selling children’s writer, and her sales have boomed over the past three years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Rowling 之後，Wilson 目前是最暢銷的兒童作家之一，而且她的銷量在過去三年急升。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句最容易令人誤填 Wilson。關鍵在 “After Rowling”。這個短語表示 Rowling 排在 Wilson 之前。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 currently the best-selling children’s writer，即最高位置的人；所以答案應填 Rowling。若答案表要求完整姓名，可用前文 Paragraph C 的 “J. K. Rowling”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "best-selling children’s writer= Rowling is the writer ahead of Wilson in sales ranking currently= currently答案形式： Rowling = 1 word；J. K. Rowling = 不超過三個詞，也符合題目限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Wilson 的名字和 “currently the best-selling children’s writer” 連在同一句，視覺上很吸引。判斷時要先處理句首 “After Rowling”，它把銷量排名的最前位置留給 Rowling。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Paragraphs",
+      "prompt": "“the fact that children are able to identify and discuss the important elements of fiction”",
+      "translation": "孩子能夠辨認並討論小說的重要元素。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目問哪一段提到 children 能討論 fiction elements。定位詞是important elements of fiction，應預期原文出現 language、story structure、chapters、dialogue 這類詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘People still tell me, “Children don’t read nowadays”,’ says David Almond, the award-winning author of children’s books such as Skellig.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "得獎兒童作家 David Almond 說：「人們仍然告訴我：『現在的孩子不閱讀。』」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“No one is denying that books are competing with other forms of entertainment for children’s attention, but it seems as though children find a special kind of mental nourishment within the printed page.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有人否認書本要和其他娛樂形式爭奪孩子的注意力，但孩子似乎在印刷頁面中找到一種特殊的精神滋養。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會反駁「孩子不閱讀」的說法，並證明孩子其實能深入閱讀。這和fiction elements 很相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“identify and discuss”"
+            },
+            {
+              "kind": "quote",
+              "text": "“important elements of fiction”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When I do classroom visits, they ask me very sophisticated questions about use of language, story structure, chapters and dialogue.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當我到課室探訪時，他們會問我非常成熟的問題，內容涉及語言運用、故事結構、章節和對話。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "use of language、story structure、chapters、dialogue 都是 fiction 的重要元素。孩子能提出sophisticated questions，表示他們不只讀故事情節，也能辨認和討論寫作技巧。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "important elements of fiction= use of language, story structure, chapters and dialogue identify and discuss= ask sophisticated questions about所以答案是 Paragraph D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也談孩子是 demanding readers，但沒有列出小說元素。Q11 的定案證據是Paragraph D 中那串具體元素。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Paragraphs",
+      "prompt": "“the undervaluing of children’s society”",
+      "translation": "兒童文化或兒童社群被低估。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目中的 children’s society 不是指兒童組織，較接近 children’s culture。定位詞是 undervaluing、ignore、children’s culture。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children’s books are surprisingly relevant to contemporary life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "兒童書出人意料地與當代生活相關。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But Anne Fine, author of many award-winning children’s books, is concerned that the British literati still ignore children’s culture. ‘It’s considered worthy but boring,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但多本得獎兒童書的作者 Anne Fine 擔心，英國文學精英仍然忽視兒童文化。她說：「它被認為有價值，但沉悶。」首尾句顯示本段一方面肯定兒童書的當代相關性，另一方面指出文學圈仍低估兒童文化。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“undervaluing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“children’s society”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the British literati still ignore children’s culture.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "英國文學精英仍然忽視兒童文化。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s considered worthy but boring.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它被認為有價值，但沉悶。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“ignore children’s culture” 直接表示兒童文化未得到充分重視。“worthy but boring” 也反映一種低估：主流文學圈承認它有教育或道德價值，卻沒有把它視為真正有文學活力的文化。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "children’s society= children’s culture undervaluing= ignore / considered worthy but boring所以答案是 Paragraph H。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph I 也說 children’s books should be taken more seriously as literature。可是 Q12 的“children’s society / culture” 對應最直接的是 Paragraph H 的 “children’s culture”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Paragraphs",
+      "prompt": "“the impact of a particular fictional character on the sales of children’s books”",
+      "translation": "某個虛構角色對兒童書銷售的影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 particular fictional character，不是問 author。最有定位力的詞是 Harry Potter。還要找sales / boom / market growth。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The main growth area has been the market for eight to fourteen-year-olds, and there is little doubt that the boom has been fuelled by the bespectacled apprentice, Harry Potter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要增長區域是八至十四歲市場，而且毫無疑問，這股熱潮由戴眼鏡的學徒 Harry Potter 推動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The current buzz around the publication of the fourth Harry Potter book beats anything in the world of adult literature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第四本 Harry Potter 出版造成的熱潮，超越成人文學界任何事情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 明顯處理 Harry Potter 對兒童書市場和銷售熱潮的影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“fictional character”"
+            },
+            {
+              "kind": "quote",
+              "text": "“impact”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sales of children’s books”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“the boom has been fuelled by the bespectacled apprentice, Harry Potter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這股熱潮由戴眼鏡的學徒 Harry Potter 推動。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“So influential has J. K. Rowling’s series of books been that they have helped to make reading fashionable for pre-teens.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "J. K. Rowling 這套書影響如此大，以至它們幫助閱讀在十來歲前的兒童之間變得時尚。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Harry Potter 是 particular fictional character。原文的 “boom has been fuelled by” 表示這個角色推動了市場熱潮。題目用 “impact on sales” 概括 “main growth area”、“boom” 和 “buzz”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "particular fictional character= Harry Potter impact on sales= boom has been fuelled by / current buzz children’s books= market for eight to fourteen-year-olds / Harry Potter book所以答案是 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "J. K. Rowling 是作者，Harry Potter 是角色。題目說 particular fictional character，所以定位應落在 Harry Potter，不是 Rowling 本人。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Paragraphs",
+      "prompt": "“an inaccurate forecast regarding the reading habits of children”",
+      "translation": "一個關於兒童閱讀習慣的不準確預測。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。定位詞是 inaccurate forecast、predicting、reading habits、children."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Less than three years ago, doom merchants were predicting that the growth in video games and the rise of the Internet would sound the death knell for children’s literature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不到三年前，悲觀預言者仍在預測，video games 的增長和 Internet 的興起會為兒童文學敲響喪鐘。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A recent survey by Books Marketing found that children up to the age of 11—girls in particular—read for an average of four hours a week.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Books Marketing 最近一項調查發現，11 歲或以下兒童，尤其是女孩，平均每週閱讀四小時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句形成明顯對比：有人預測兒童文學會死亡，但調查顯示孩子仍然閱讀不少。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“inaccurate forecast”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reading habits”"
+            },
+            {
+              "kind": "quote",
+              "text": "“children”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“doom merchants were predicting that the growth in video games and the rise of the Internet would sound the death knell for children’s literature.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "悲觀預言者曾預測，video games 和 Internet 會令兒童文學走向死亡。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“But contrary to popular myth, children are reading more books than ever.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但與流行迷思相反，孩子讀的書比以往更多。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“were predicting” 對應 forecast。“contrary to popular myth” 表示這個預測不準確。預測內容是兒童文學會被科技娛樂殺死；實際情況是 children are reading more books than ever。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "inaccurate forecast= doom merchants were predicting… / contrary to popular myth reading habits of children= children are reading more books than ever所以答案是 Paragraph A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章標題下的導語也說 fears were wrong，但題目要求選 A–J 段落。A 段首句和中間句提供完整證據，因此答案填 A。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Twist in the Tale.pdf",
+    "sha256": "c71170189763297740728abe1b12ab59f693f10b19dc5730d71322dd2b8b8aaa",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說三年前仍有人預測 video games 和 Internet 會令兒童文學走向死亡。末句引用 Books Marketing 的調查，指出 11 歲或以下兒童，尤其是女孩，每週平均閱讀四小時。只看首尾句，可以先判斷本段功能是推翻錯誤預測：科技娛樂沒有殺死兒童閱讀，實際情況剛好相反，兒童閱讀量仍然可觀。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說兒童書市場過去常被視為成人書市場的 poor cousin，即較不重要、利潤較低的一方。末句引用 Wendy Cooling，說兒童書有 real buzz，book clubs 正在出現，sales good，而且大眾更願意聽兒童作家的聲音。只看首尾句，可以判斷本段重點是兒童文學市場地位上升，出版社和讀者都開始重視這個領域。"
+      },
+      {
+        "number": "C",
+        "summary": "首句指出主要增長區域是八至十四歲讀者市場，並說 Harry Potter 無疑推動了這個 boom。末句說第四本 Harry Potter 出版造成的 buzz，超越成人文學界任何事情。只看首尾句，可以看出本段會集中講 Harry Potter 的市場影響：它令 pre-teens 覺得閱讀變 fashionable，也帶動兒童書銷售和社會討論熱度。"
+      },
+      {
+        "number": "D",
+        "summary": "首句引用 David Almond，說仍有人告訴他「現在的孩子不閱讀」。末句說兒童似乎在 printed page之中找到一種特殊的 mental nourishment。只看首尾句，可以判斷本段用 Almond 的觀察反駁大眾誤解：孩子其實是有技巧、有創意的讀者，並能深入討論語言、結構、章節和對話等小說元素。"
+      },
+      {
+        "number": "E",
+        "summary": "首句引用 Julia Eccleshare，說幾年前出版社失去信心，想把書變得像它們最害怕的媒介television。末句說如果孩子在兩頁內得不到吸引，他們就會放下那本書。只看首尾句，可以判斷本段講兒童讀者的要求很高：書不應模仿電視，因為閱讀的優勢是能在腦中想像；同時，兒童很快判斷一本書是否吸引。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說兒童作家不再被視為 mere sentimentalists 或 failed adult writers。末句說 Orion 從美國Scholastic 為 Kevin Crossley-Holland 的兒童小說 The Seeing Stone 談得六位數金額，當中大部分會給作者。只看首尾句，可以判斷本段講兒童作家地位和收入提升：銷量、advance 和市場重視程度都已大幅提高。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說一旦孩子愛上一位作者，他們會成為忠誠甚至狂熱的消費者。末句說 Wilson 已售出超過三百萬本書，雖然對成年人幾乎 invisible，但大多數十歲女孩都知道她。只看首尾句，可以判斷本段講兒童讀者的社交傳播力和忠誠度：孩子會收集、送書、互相推薦，令 Jacqueline Wilson 的銷量急升。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說兒童書對當代生活 surprisingly relevant。末句引用 Anne Fine，說兒童文化仍被 British literati 忽視，被視為 worthy but boring。只看首尾句，可以判斷本段焦點是兒童文學的題材其實很廣，也很貼近現代生活；可是主流文學圈仍低估兒童文化，把它看得有價值但沉悶。"
+      },
+      {
+        "number": "I",
+        "summary": "首句引用 Almond，說兒童書要被認真視為 literature，仍有一段路要走。末句說兒童書讓人進入神話和古老故事的寶庫，接觸 love、loss、death、redemption 等重大主題。只看首尾句，可以判斷本段延續「兒童文學仍未被充分重視」這點，同時強調兒童讀者擁有強大的 literary culture，兒童書能處理深層人類主題。"
+      },
+      {
+        "number": "J",
+        "summary": "首句說目前出版界正在競逐尋找下一個 Harry Potter。末句說這對市場長遠未來和兒童作家都有好兆頭，因為兒童作家雖責任重大，過去在文學界 profile 最低。只看首尾句，可以判斷結尾段總結市場前景：出版界高度投入兒童書競標，兒童文學市場看來會繼續強勢發展。"
+      }
+    ]
+  }
+}

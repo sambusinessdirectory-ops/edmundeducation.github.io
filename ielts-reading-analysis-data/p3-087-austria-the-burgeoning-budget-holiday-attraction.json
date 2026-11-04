@@ -1,0 +1,1931 @@
+{
+  "id": "p3-087-austria-the-burgeoning-budget-holiday-attraction",
+  "catalogueId": "p3-087",
+  "catalogueIds": [
+    "p3-087"
+  ],
+  "passage": 3,
+  "title": "Austria: The burgeoning budget holiday attraction",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "D",
+    "B",
+    "D",
+    "A",
+    "C",
+    "C",
+    "C — Nora Korton",
+    "B — Ed Brown",
+    "A — Mark Jones",
+    "A — Mark Jones",
+    "B — Ed Brown",
+    "YES",
+    "NOT GIVEN",
+    "NO"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "D — Austria has traditionally attracted more foreign tourists in winter.",
+      "answerKey": "D — Austria has traditionally attracted more foreign tourists in winter.",
+      "type": "Multiple Choice",
+      "prompt": "Question 27",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問哪一個 statement 準確。這題要找奧地利傳統旅遊形象，以及近年夏季旅遊新趨勢。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Trips to Austria are more commonly associated with commerce or winter skiing than they are with summertime fun and entertainment, but, in the last year or so, a surprising trend has begun to develop in the British foreign holiday market.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去奧地利通常較常令人想到商務或冬季滑雪，而較少令人想到夏日娛樂；但在過去一年左右，英國海外假期市場開始出現一個令人意外的新趨勢。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the summer, however, tourists – foreign tourists especially – neglect her lush mountain meadows, fresh air and wildlife in favour of cheap beach holidays…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是到了夏天，遊客，尤其是外國遊客，通常忽略奧地利青翠的山地草甸、新鮮空氣和野生動物，轉而選擇廉價海灘假期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段已經顯示：奧地利過去主要和 winter skiing 連在一起，夏季外國旅客較少選擇它。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“traditionally”"
+            },
+            {
+              "kind": "quote",
+              "text": "“foreign tourists”"
+            },
+            {
+              "kind": "quote",
+              "text": "“winter”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Austria, for all its natural beauty, has traditionally fared well in attracting tourists only during the winter ski season.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "奧地利雖然自然景色優美，但傳統上只有在冬季滑雪季節才較能成功吸引遊客。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說奧地利傳統上在冬季吸引較多外國遊客。原文說 “traditionally fared well … only during the winter ski season”，再加上夏天 “foreign tourists especially” 會忽略它，所以 D 和原文方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 說奧地利一向以夏季富人度假地聞名，原文說它傳統上和 winter skiing 較相關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說奧地利比以前更 seasonal，問題在於現在夏季市場正在發展，奧地利其實正在擺脫只靠冬季的局面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說奧地利一直被視為 good-value destination，原文第二段反而說人們會覺得 Austria expensive。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "B — Package holidays typically offer very few and very similar choices of",
+      "answerKey": "B — Package holidays typically offer very few and very similar choices of",
+      "type": "Multiple Choice",
+      "prompt": "Question 28",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "destination.題目問 writer 說 package holiday 有 “narrow horizons” 是甚麼意思。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ‘cheap and cheerful’ package holiday has always had narrow horizons and members of the ordinary public, traumatised by years spent holidaying on a meaningless beach somewhere in Malaga, have sand coming out of their ears at this stage.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種「便宜又開心」的套票假期一直視野狹窄；普通大眾多年來在 Malaga 某個沒有太大意義的海灘度假，已經被這種經驗折磨到厭倦。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Don’t you have to pay a small fortune on flights just to get there?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "單是飛去那裡，不是也要花一大筆錢嗎？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段在說傳統套票假期選擇太單調，同時提出奧地利看似昂貴的疑問。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“narrow horizons”"
+            },
+            {
+              "kind": "label",
+              "text": "這是原文直接出現的短語。要理解意思，就要看前後文："
+            },
+            {
+              "kind": "quote",
+              "text": "“years spent holidaying on a meaningless beach somewhere in Malaga”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Clearly a change was needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多年來都在 Malaga 某個無甚意義的海灘度假；很明顯，需要改變。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Narrow horizons” 字面是「視野狹窄」。在旅遊語境中，它指選擇範圍狹小、目的地重複、體驗單一。文章前一段也說旅客想離開 “traditional haunts of Spain and the Canary Islands”，即傳統常去地點。選項 B 說 package holidays 通常提供很少且很相似的目的地選擇，正好概括這個意思。 A 說只針對沒錢的人，原文雖談 budget travellers，但 “narrow horizons” 的重點在目的地和體驗單調。 C 說很少提供遠程目的地，原文沒有把遠近作為核心。 D 說規劃欠佳，文章批評的是假期內容無聊，不是組織混亂。所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "D — a standard half-board basis (and full board in some cases) for seven nights",
+      "answerKey": "D — a standard half-board basis (and full board in some cases) for seven nights",
+      "type": "Multiple Choice",
+      "prompt": "Question 29",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：現在典型的奧地利夏季套票提供甚麼？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s true that, in winter, Austrian mountain resorts charge a pretty penny for accommodation, but what, in snowier times, costs an arm and several legs, costs nothing in comparison come spring and summer when the snow has melted and the ‘rich kids’ have returned home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冬季時，奧地利山區度假村住宿確實收費昂貴；但當春夏雪融、富家子弟回家後，原本雪季貴得驚人的東西，相比之下就便宜很多。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was no need to be too greedy or demanding with prices as that would put people off coming and, besides, their winter business was their bread and butter and it wasn’t going anywhere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們沒有必要在價格上過分貪心或要求太高，因為這會令人卻步；再加上冬季生意才是他們的主要收入來源，而且這門生意仍然穩定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出這段講奧地利夏季價格下降，以及酒店餐飲業者為何願意配合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“typical summer holiday package”"
+            },
+            {
+              "kind": "quote",
+              "text": "“offer”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Suddenly, the internet was awash with cheap summer holiday alternatives offering seven nights in the Austrian Alps in three- and four-star hotels, some even offering full board, with half board typically provided as standard.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "突然之間，網上充滿便宜的夏季假期替代方案，提供在奧地利阿爾卑斯山三至四星酒店住七晚；有些甚至提供 full board，而 half board 通常作為標準配套。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供四個重點： seven nights= 七晚Austrian Alps= 奧地利阿爾卑斯山three- and four-star hotels= 三至四星酒店some even offering full board, with half board typically provided as standard= 有些 full board；一般標準是 half board Question 29 問 “typical”，所以要抓 “typically provided as standard”。D 同時保留七晚、half board標準、部分 full board 的細節，最完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “luxury accommodation” 太強，三至四星不等於 luxury。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 只說 breakfast and dinner，雖可理解成 half board，但漏了 seven nights 和部分 full board。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 all meals included 是標準，原文只說 some even offering full board。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 最精確，所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — Business was usually slow at that time of year so any extra custom was to be",
+      "answerKey": "A — Business was usually slow at that time of year so any extra custom was to be",
+      "type": "Multiple Choice",
+      "prompt": "Question 30",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "welcomed.題目問：奧地利酒店和餐廳老闆為何願意夏季降價？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s true that, in winter, Austrian mountain resorts charge a pretty penny for accommodation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "冬季時，奧地利山區住宿確實收費昂貴。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There was no need to be too greedy or demanding with prices as that would put people off coming and, besides, their winter business was their bread and butter and it wasn’t going anywhere.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們沒有必要價格過高，因為這會令人卻步；而且冬季生意才是主要收入來源，並且仍然穩定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句顯示：冬季才是主要旺季，夏季可以用低價吸引額外客人。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“hotel and restaurant owners”"
+            },
+            {
+              "kind": "quote",
+              "text": "“willing to lower their prices”"
+            },
+            {
+              "kind": "quote",
+              "text": "“summer”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Austrian hoteliers and restaurateurs, having geared up for seasonal winter trade, were only too happy to satisfy this new summertime demand at reduced prices – after all, anything is better than vacant rooms and they looked on any profit to be made from this opportunity as, well, a bonus.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "奧地利酒店和餐廳業者原本已為冬季季節性生意作準備；他們很樂意用較低價格滿足新的夏季需求，畢竟有客總比房間空置好，而這個機會帶來的任何利潤都可視作額外收益。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的因果鏈很清楚： summer rooms may be vacant→ reduced prices attract demand→ any profit is a bonus→ winter business remains bread and butter選項 A 說該時段生意通常較慢，所以任何額外客人都值得歡迎。這正好對應 “anything is better than vacant rooms” 和 “any profit … a bonus”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說夏季營運會虧損，再由冬季補回，原文沒有說 summer loss。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說冬季生意不如以往，原文說 winter business “wasn’t going anywhere”，即仍然穩定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說全年降價更賺錢，原文只談夏季 reduced prices。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C — He finds traditional package holidays very unimaginative and boring.",
+      "answerKey": "C — He finds traditional package holidays very unimaginative and boring.",
+      "type": "Multiple Choice",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：從文章可推斷 writer 對傳統 package holidays 的經驗或態度如何？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1–2 Paragraph 1 第一有力句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the summer, however, tourists – foreign tourists especially – neglect her lush mountain meadows, fresh air and wildlife in favour of cheap beach holidays…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "夏天時，遊客，尤其外國遊客，忽略奧地利的山地草甸、新鮮空氣和野生動物，選擇廉價海灘假期。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 第一有力句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The ‘cheap and cheerful’ package holiday has always had narrow horizons…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種「便宜又開心」的套票假期一直視野狹窄。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段的語氣十分鮮明：writer 不欣賞傳統廉價海灘套票假期，並用誇張和諷刺描寫它的單調。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“writer’s experience”"
+            },
+            {
+              "kind": "quote",
+              "text": "“traditional package holidays”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接說 “I experienced”，但作者語氣很明顯："
+            },
+            {
+              "kind": "quote",
+              "text": "“meaningless beach somewhere in Malaga”"
+            },
+            {
+              "kind": "quote",
+              "text": "“same old sandy monotony”"
+            },
+            {
+              "kind": "quote",
+              "text": "“drench themselves in equal measures of drink and suntan”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Malaga 某個沒有意義的海灘；一成不變的沙灘單調感；沉浸在飲酒和曬太陽之中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 31 是 inference 題，要從語氣判斷。作者用 “narrow horizons”、“meaningless beach”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“same old sandy monotony” 等語言，明顯把傳統套票假期描寫成缺乏想像力、選擇少、體驗重複。選項 C “very unimaginative and boring” 最貼近這種語氣。 A 說 pleasant and good value，和作者諷刺語氣不合。 B 說他特別喜歡 seaside destinations，文章剛好反方向。 D 把傳統 package holidays 和奧地利富人假期混在一起，文章談的是奧地利過去被視為富裕滑雪族群地點，不是傳統 beach package holiday 一直由富人享受。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "C — They showed that they had good taste, which is something they are not often",
+      "answerKey": "C — They showed that they had good taste, which is something they are not often",
+      "type": "Multiple Choice",
+      "prompt": "Question 32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "credited with having.題目問：budget travellers 願意嘗試奧地利新假期，為何令人意外？"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Numerous new budget flights were also appearing, with airlines such as Ryanair offering direct return flights to Salzburg for little more than £50, including taxes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大量新的廉價航班也開始出現，例如 Ryanair 提供飛 Salzburg 的直航來回機票，連稅只需五十多英鎊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thousands of Britons discarded their sandals and lilos and donned their hiking boots instead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數以千計的英國人脫下涼鞋和充氣浮床，改穿上 hiking boots。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段說廉價航班打開選擇，budget travellers 真的接受了這種新式 active holiday。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“surprising”"
+            },
+            {
+              "kind": "quote",
+              "text": "“budget travellers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“welcomed the opportunity”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What is perhaps more surprising given how budget travellers are depicted in the media – as ignorant, undiscerning folk – is how many wanted to embrace this new opportunity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "考慮到媒體常把 budget travellers 描寫成無知、沒有鑑賞力的一群人，更令人意外的是，竟然有這麼多人想接受這個新機會。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文把媒體 stereotype 寫得很清楚： ignorant= 無知undiscerning= 缺乏判斷力、沒有鑑賞力但實際上，很多 budget travellers 願意 embrace this new opportunity，即願意嘗試奧地利山區活動假期。這表示他們不符合媒體描述的低品味刻板印象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 說他們展示出 good taste，而這通常不是別人會給他們的評價。這正好概括 “depicted in the media as ignorant, undiscerning folk” 和 “wanted to embrace this new opportunity”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 方向相反；他們沒有符合 stereotype。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說願意付更多錢，原文主線是低價航班和低價套票。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 說他們一般很 health-conscious，原文沒有說 as a rule。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "C — Nora Korton",
+      "answerKey": "C — Nora Korton",
+      "type": "Matching People",
+      "prompt": "“This person believes the experiences people have on holiday in Austria might encourage them to permanently alter the way in which they live.”",
+      "translation": "這個人認為，人在奧地利假期中的體驗，可能鼓勵他們永久改變生活方式。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Should the popularity of Austria as a summer holiday destination for budget travellers continue to grow over the coming years, health experts claim this could be a huge turning point in the health of our nation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果奧地利作為 budget travellers 夏季度假地的受歡迎程度在未來幾年繼續增長，健康專家稱這可能成為本國健康狀況的一個巨大轉折點。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“That people are being encouraged to try out such healthy activities is fantastic and hopefully the experience will give more people the desire to make more permanent lifestyle changes and continue to be active when they return home from their holidays.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們被鼓勵嘗試這些健康活動，這非常好；希望這種體驗會令更多人想作出更持久的生活方式改變，並在假期後回家仍繼續保持活躍。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“permanently alter the way in which they live”"
+            },
+            {
+              "kind": "quote",
+              "text": "“experiences”"
+            },
+            {
+              "kind": "quote",
+              "text": "“holiday in Austria”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“more permanent lifestyle changes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the experience”"
+            },
+            {
+              "kind": "quote",
+              "text": "“when they return home”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "label",
+              "text": "這段引用 Nora Korton："
+            },
+            {
+              "kind": "quote",
+              "text": "“claims Nora Korton of Medicare Analysis.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說奧地利假期提供 hiking、horse riding、mountain biking 等戶外活動，並希望這種 holiday experience 使人回家後也願意繼續 active。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “permanently alter the way in which they live” 對應原文 “make more permanent lifestyle changes”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“experiences people have on holiday” 對應 “the experience”。“continue to be active when they return home” 進一步說明改變不只限於假期期間。所以答案是 C — Nora Korton。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "B — Ed Brown",
+      "answerKey": "B — Ed Brown",
+      "type": "Matching People",
+      "prompt": "“The reason this person always used to go on another type of holiday was not because they liked it but because they couldn’t afford the alternatives.”",
+      "translation": "這個人過去總是去另一類假期，原因並非喜歡，而是因為負擔不起其他選擇。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An East Ender, Ed Brown, a local musician and teacher, says of his holiday experience…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一位來自 East End 的本地音樂人兼教師 Ed Brown 談到他的假期經驗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We… well, it was just amazing. What a good time!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們……嗯，真的太棒了。玩得非常開心！"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段是 Ed Brown 的個人見證，講他如何從過去受 budget 限制的假期，轉到奧地利active holiday。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“couldn’t afford”"
+            },
+            {
+              "kind": "quote",
+              "text": "“didn’t like”"
+            },
+            {
+              "kind": "quote",
+              "text": "“another type of holiday”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On my salary, I could never afford to go on anything but a package trip in the past.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“We didn’t even like the beach, but those package holidays were the only thing within budget, so we used to just go on them anyway.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以我的薪水，過去我除了套票旅行外，根本負擔不起其他假期。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們甚至不喜歡海灘，但那些套票假期是唯一在預算內的選擇，所以我們還是照樣去。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說這個人過去去另一類假期，不因為喜歡，而是出於預算限制。Ed Brown 的話直接支持："
+            },
+            {
+              "kind": "quote",
+              "text": "“could never afford”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 負擔不起其他選擇"
+            },
+            {
+              "kind": "quote",
+              "text": "“didn’t even like the beach”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 並不喜歡那種海灘假期"
+            },
+            {
+              "kind": "quote",
+              "text": "“only thing within budget”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 唯一合乎預算所以答案是 B — Ed Brown。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "A — Mark Jones",
+      "answerKey": "A — Mark Jones",
+      "type": "Matching People",
+      "prompt": "“This person enjoys relaxing by the sea but wanted to illustrate to their children that there are other types of holidays they can go on, too.”",
+      "translation": "這個人享受海邊放鬆，但想讓孩子知道也有其他類型的假期。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As he stepped off the plane, Mark Jones, another holiday-goer impressed by Austria, pointed back towards it and said: ‘My children love this.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一位對奧地利印象深刻的旅客 Mark Jones 下機時指著飛機說：「我的孩子喜歡這個。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But, stranger still, so did I; I have been running around all week and yet, strangely, I feel more refreshed than I ever got sitting on my sunbed. Brilliant!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更奇怪的是，我也喜歡；我整星期到處跑，但奇怪地，比我坐在日光浴床上時更覺得精神。太棒了！"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“relaxing by the sea”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other types of holidays”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“I didn’t use to mind the beach, to tell you the truth. After a long week at work, it’s nice to lounge around and relax. But I wanted to do this for the kids; to show them there was more to life than sunbathing…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "老實說，我以前不介意海灘。工作了一星期後，躺著放鬆也不錯。但我想為孩子做這件事，想讓他們知道生活不只曬太陽。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “enjoys relaxing by the sea” 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“didn’t use to mind the beach”"
+            },
+            {
+              "kind": "quote",
+              "text": "“it’s nice to lounge around and relax”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “wanted to illustrate to their children” 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“I wanted to do this for the kids”"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “other types of holidays” 對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“there was more to life than sunbathing”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些全部來自 Mark Jones，所以答案是 A — Mark Jones。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "A — Mark Jones",
+      "answerKey": "A — Mark Jones",
+      "type": "Matching People",
+      "prompt": "“This person found it hard to explain how he did not feel drained despite how busy his week was.”",
+      "translation": "這個人覺得難以解釋，為何自己整星期很忙，卻沒有覺得疲累。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As he stepped off the plane, Mark Jones, another holiday-goer impressed by Austria, pointed back towards it and said: ‘My children love this.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mark Jones 下機時說他的孩子很喜歡這趟奧地利假期。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But, stranger still, so did I; I have been running around all week and yet, strangely, I feel more refreshed than I ever got sitting on my sunbed. Brilliant!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "更奇怪的是，我也喜歡；我整星期到處跑，但奇怪地，比坐在日光浴床上時更感到精神。太棒了！"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“hard to explain”"
+            },
+            {
+              "kind": "quote",
+              "text": "“did not feel drained”"
+            },
+            {
+              "kind": "quote",
+              "text": "“busy week”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“stranger still”"
+            },
+            {
+              "kind": "quote",
+              "text": "“running around all week”"
+            },
+            {
+              "kind": "quote",
+              "text": "“feel more refreshed”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “hard to explain” 不是要求原文出現 explain，而是看語氣。Mark 用 “stranger still” 和"
+            },
+            {
+              "kind": "quote",
+              "text": "“strangely” 表示這件事令他自己也意外。“running around all week”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 整星期很忙、到處活動"
+            },
+            {
+              "kind": "quote",
+              "text": "“feel more refreshed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 更精神，沒有 drained"
+            },
+            {
+              "kind": "quote",
+              "text": "“than I ever got sitting on my sunbed”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 比傳統曬太陽放鬆更有效所以答案是 A — Mark Jones。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "B — Ed Brown",
+      "answerKey": "B — Ed Brown",
+      "type": "Matching People",
+      "prompt": "“This person found the weather conditions they experienced while on holiday more favourable than expected.”",
+      "translation": "這個人覺得假期期間的天氣比預期更好。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An East Ender, Ed Brown, a local musician and teacher, says of his holiday experience…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Ed Brown 談到自己的假期經驗。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We… well, it was just amazing. What a good time!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們……真的太棒了。玩得非常開心！"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“weather conditions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more favourable than expected”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We went hill walking and brought a picnic and I couldn’t get over the weather – 29 degrees yesterday.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們去 hill walking，還帶了野餐；我簡直不敢相信天氣這麼好，昨天有 29 度。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“I couldn’t get over the weather” 是口語，表示對天氣感到驚喜、難以置信。後面 “29 degrees yesterday” 顯示天氣溫暖宜人，對奧地利山區假期來說比他原先想像更好。這句出自 Ed Brown 的段落，所以答案是 B — Ed Brown。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“A reduction in the cost of flying to Austria played a role in making it a popular holiday destination with budget travellers.”",
+      "translation": "飛往奧地利的成本降低，對它成為 budget travellers 喜歡的度假地起了一定作用。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Numerous new budget flights were also appearing, with airlines such as Ryanair offering direct return flights to Salzburg for little more than £50, including taxes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大量新的廉價航班也開始出現，例如 Ryanair 提供飛 Salzburg 的直航來回機票，連稅只需五十多英鎊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thousands of Britons discarded their sandals and lilos and donned their hiking boots instead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數以千計的英國人脫下涼鞋和充氣浮床，改穿 hiking boots。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段顯示 cheap flights 和大量英國旅客轉向奧地利之間存在關聯。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“reduction in the cost of flying”"
+            },
+            {
+              "kind": "quote",
+              "text": "“popular holiday destination”"
+            },
+            {
+              "kind": "quote",
+              "text": "“budget travellers”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“budget flights”"
+            },
+            {
+              "kind": "quote",
+              "text": "“little more than £50”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Suddenly, vacationers had a choice”"
+            },
+            {
+              "kind": "quote",
+              "text": "“how many wanted to embrace this new opportunity”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先說廉價航班出現，Ryanair 的 Salzburg 來回票只需五十多英鎊。接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Suddenly, vacationers had a choice; an alternative to the same old sandy monotony.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "突然間，度假者有了選擇；有了一個取代一成不變沙灘單調感的選項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好支持題目中的 “played a role”。題目沒有說機票變便宜是唯一原因，只說它起了一定作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文同段也說很多 budget travellers embrace this new opportunity，並有數以千計的英國人改去hiking。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Austrian package holidays have now overtaken traditional beach package holidays in terms of popularity, with thousands of Britons holidaying in Austria each year.”",
+      "translation": "奧地利套票假期現在在受歡迎程度上已經超越傳統海灘套票假期，並且每年有數以千計英國人到奧地利度假。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Numerous new budget flights were also appearing…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大量新的廉價航班也開始出現。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thousands of Britons discarded their sandals and lilos and donned their hiking boots instead.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "數以千計英國人脫下涼鞋和充氣浮床，改穿 hiking boots。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段支援「很多英國人開始選擇奧地利 active holiday」，但不一定支援「已經超越海灘假期」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“overtaken”"
+            },
+            {
+              "kind": "quote",
+              "text": "“traditional beach package holidays”"
+            },
+            {
+              "kind": "quote",
+              "text": "“thousands of Britons”"
+            },
+            {
+              "kind": "quote",
+              "text": "“each year”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有 “Thousands of Britons”，但沒有："
+            },
+            {
+              "kind": "quote",
+              "text": "“overtaken”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more popular than beach holidays”"
+            },
+            {
+              "kind": "quote",
+              "text": "“each year”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目其實包含兩個命題：第一，奧地利套票假期已經比傳統 beach package holidays 更受歡迎。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，每年都有數以千計英國人到奧地利度假。"
+            },
+            {
+              "kind": "label",
+              "text": "原文只支援較弱的說法："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thousands of Britons discarded their sandals and lilos and donned their hiking boots instead.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示數以千計英國人選擇了新假期，但沒有建立 yearly pattern，也沒有提供 beach holidays 和Austrian holidays 的 popularity ranking。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章還說這是一個 “surprising trend” 和 “in the last year or so”，表示趨勢正在發展中。題目中的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“overtaken” 需要明確比較數據，例如 Austria > beach holidays。原文沒有這種資料。因此答案是 NOT GIVEN。這題不能選 NO，因為文章沒有明確說奧地利沒有超越海灘假期；它只是沒有足夠證據判斷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "YES / NO / NOT GIVEN",
+      "prompt": "“Beach package holidays tend to be less focused on drinking and other unhealthy activities and are known for providing a wider choice of holiday activities in general.”",
+      "translation": "海灘套票假期通常較少集中於飲酒和其他不健康活動，並且普遍以提供更多活動選擇著稱。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 / Paragraph 5 Paragraph 1 有力句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the summer, however, tourists … drench themselves in equal measures of drink and suntan…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "夏季遊客沉浸在飲酒和曬太陽之中。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 第一有力句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘There is really no comparison between a drink-fuelled static beach holiday and what the Alps have to offer,’ claims Nora Korton of Medicare Analysis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nora Korton 說，充滿飲酒、靜態不動的海灘假期，和阿爾卑斯山能提供的體驗，根本無法相比。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩段都把 beach holiday 描寫成偏飲酒、靜態、活動少。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“drinking”"
+            },
+            {
+              "kind": "quote",
+              "text": "“unhealthy activities”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wider choice of holiday activities”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“drink-fuelled static beach holiday”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hiking, hill walking, horse riding, mountain biking, fishing, boating…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 beach package holidays “less focused on drinking” 和 “wider choice”。原文方向明顯相反。"
+            },
+            {
+              "kind": "label",
+              "text": "原文把 beach holiday 描寫為："
+            },
+            {
+              "kind": "quote",
+              "text": "“drink-fuelled”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "= 由飲酒推動、充滿飲酒"
+            },
+            {
+              "kind": "quote",
+              "text": "“static”"
+            },
+            {
+              "kind": "label",
+              "text": "= 靜態、不活躍相對地，奧地利假期提供一系列活動："
+            },
+            {
+              "kind": "quote",
+              "text": "“hiking, hill walking, horse riding, mountain biking, fishing, boating”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，更多活動選擇屬於 Alps / Austrian holiday 的特點，而非 beach package holiday 的特點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把文章對兩類假期的描述調轉了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Austria_ The burgeoning budget holiday attraction.pdf",
+    "sha256": "e1b770501244cac11017204b1a391661c107b4ca3c48869d9c0a3fbbc27a5396",
+    "pageCount": 22
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "第一句說奧地利旅遊通常令人想到商務或冬季滑雪，多於夏日娛樂；最後一句用諷刺語氣批評傳統廉價海灘假期，只帶來飲酒、曬太陽和很少文化體驗。只看首尾句，可以先估計這段是全篇引入：英國外遊市場正在出現新趨勢，旅客開始離開西班牙、Canary Islands 等傳統海灘路線，奧地利夏季套票假期開始被包裝成新選擇。Questions 27、31 會用到這段。"
+      },
+      {
+        "number": "2",
+        "summary": "第一句說傳統 cheap and cheerful package holiday 一直視野狹窄；最後一句問：去奧地利是否要花很多錢買機票？只看首尾句，這段的功能是提出讀者對奧地利的疑慮：奧地利聽起來昂貴、屬於富裕滑雪族群，似乎不像 budget holiday。段落中間用 Malaga beach 代表傳統套票假期的單調。Question 28 和 31 很可能來自這段，因為題目問 narrow horizons 和 writer 對傳統 package holidays 的看法。"
+      },
+      {
+        "number": "3",
+        "summary": "第一句承認冬季奧地利山區住宿昂貴；最後一句說奧地利業者不用過分貪心，因為冬季生意仍是bread and butter。只看首尾句，可以估計這段解釋為何夏季奧地利突然變得便宜：冬季雪季過後，房間空置，酒店和餐廳樂意以較低價格吸引夏季旅客。中間會有 seven nights、three- and four-star hotels、full board、half board 等套票內容。Questions 29、30 會集中在這段。"
+      },
+      {
+        "number": "4",
+        "summary": "第一句說大量新的 budget flights 也出現，例如 Ryanair 提供飛 Salzburg 的便宜來回機票；最後一句說數以千計的英國人脫下涼鞋和充氣浮床，改穿 hiking boots。只看首尾句，可以估計這段解釋交通成本下降如何配合奧地利套票興起，也指出 budget travellers 的反應比媒體刻板印象更開放。Questions 32、38、39 都會定位到這段，因為它有 budget flights、budget travellers、thousands of Britons。"
+      },
+      {
+        "number": "5",
+        "summary": "第一句說如果奧地利作為夏季 budget destination 的人氣繼續增長，健康專家認為這可能成為國民健康的重要轉折點；最後一句說這種體驗或許會令人回家後也想繼續保持活躍。只看首尾句，這段主題是健康價值。Nora Korton 把 drink-fuelled static beach holiday 和 Alps 的戶外活動作比較，並列出 hiking、horse riding、mountain biking 等活動。Questions 33、40 會來自這段。"
+      },
+      {
+        "number": "6",
+        "summary": "第一句介紹 East Ender Ed Brown，一位本地 musician and teacher，談他的 holiday experience；最後一句說整個旅程令人驚嘆，玩得非常開心。只看首尾句，可以估計這段是旅客個案，重點是Ed 過去因薪水限制只能參加普通 package trip，但現在能帶家人到 Alps 體驗騎馬、冰川健行、湖上划船等活動。Questions 34、37 會用到這段，因為它提到 budget limitation 和 unexpectedly good weather。"
+      },
+      {
+        "number": "7",
+        "summary": "第一句說另一位 holiday-goer Mark Jones 下機時指著飛機，說他的孩子喜歡這種旅程；最後一句說他雖然整星期到處跑，卻比坐在 sunbed 上更精神。只看首尾句，可以估計這段也是旅客見證，但人物重點不同：Mark 原本不抗拒海灘休息，但想讓孩子知道生活不只 sunbathing。這段會回答Questions 35、36，也支援全文對奧地利 active holiday 的正面評價。"
+      }
+    ]
+  }
+}

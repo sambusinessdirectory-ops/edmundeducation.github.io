@@ -1,0 +1,373 @@
+// Model Essay 25 · Opinion: whether character is fixed before birth.
+const simple=[
+  'People often talk about personality as if it was decided before a person was born, like a hidden story that can never be changed.',
+  'I do not agree with this idea at all.',
+  'Although genes may give us some natural ways of acting, our character is not decided at birth; family life, what happens to us and our own effort keep changing it.',
+  'The first reason is that the place and people around someone strongly affect how their personality develops.',
+  'A child may naturally be quiet, but this does not mean he has to be shy or worried for his whole life.',
+  'If he grows up with a caring family and goes to a school where teachers encourage talking, working together and speaking to groups, he will probably become more confident as time passes.',
+  'On the other hand, a hard and unkind place can make even a happy child careful or unwilling to talk to others.',
+  'This shows that genes may give us the starting materials, but the world around us helps shape what our character becomes.',
+  'A second reason is that people can change what they do through practice, thinking about their actions and learning from things that happen again and again.',
+  'Being patient, getting through hard times and controlling ourselves are not only things we are born with; we can make them stronger through practice, like muscles.',
+  'For example, a person who gets angry easily may learn to wait before answering, listen to what others say about their behaviour and practise calmer ways to deal with arguments.',
+  'After some time, these new habits can become part of the way that person usually acts.',
+  'In the same way, young adults in difficult jobs often become more careful about their duties and better at handling feelings because daily problems make them change.',
+  'If our personality was already completely decided, such change could not happen, yet we see it in ordinary life.',
+  'In short, I completely reject the idea that personality is fixed before a person is born.',
+  'Genes may affect where we begin, but family, school, relationships and choices we make with care can change our character throughout life.',
+  'Personality is not a statue made of stone; it is more like a growing tree, shaped by its roots and by the place where it grows.',
+];
+const vocabulary=[
+  [['Personality','personality','性格'],['before birth','before a person was born','出生前'],['invisible script','hidden story','無形劇本'],['cannot be revised','can never be changed','無法修改']],
+  [['completely','at all','完全'],['disagree with this view','do not agree with this idea','不同意這觀點']],
+  [['genes','genes','基因'],['certain tendencies','some natural ways of acting','某些傾向'],['not fixed at birth','not decided at birth','非出生時固定'],['upbringing','family life','成長環境'],['experience','what happens to us','經歷'],['deliberate effort','our own effort','有意識努力']],
+  [['environment','place and people around someone','環境'],['strongly influences','strongly affect','強烈影響'],['traits develop','personality develops','特質發展']],
+  [['naturally quiet','naturally be quiet','天生安靜'],['passive or anxious for life','shy or worried for his whole life','一生被動或焦慮']],
+  [['supportive family','caring family','支持性的家庭'],['encourage discussion, teamwork and public speaking','encourage talking, working together and speaking to groups','鼓勵討論、團隊合作、公開發言'],['likely to become more confident over time','probably become more confident as time passes','很可能隨時間更自信']],
+  [['By contrast','On the other hand','相比之下'],['harsh environment','hard and unkind place','嚴苛環境'],['cheerful child','happy child','開朗孩子'],['defensive or withdrawn','careful or unwilling to talk to others','防備或退縮']],
+  [['This suggests','This shows','這說明'],['raw material','starting materials','原材料'],['surroundings','world around us','周圍環境'],['mold the final shape of a person\'s character','shape what our character becomes','塑造性格最終形態']],
+  [['behaviour','what they do','行為'],['reflection','thinking about their actions','反思'],['repeated experience','learning from things that happen again and again','反覆經驗']],
+  [['patience','Being patient','耐性'],['resilience','getting through hard times','韌性'],['self-control','controlling ourselves','自制力'],['inherited gifts','things we are born with','遺傳天賦'],['strengthened like muscles','make them stronger through practice, like muscles','如肌肉般強化']],
+  [['easily angered','gets angry easily','容易生氣'],['pause before reacting','wait before answering','回應前停下'],['listen to feedback','listen to what others say about their behaviour','聆聽回饋'],['handling conflict','deal with arguments','處理衝突']],
+  [['Over time','After some time','隨時間'],['these habits','these new habits','這些習慣'],['normal character','the way that person usually acts','平常性格']],
+  [['Similarly','In the same way','同樣地'],['demanding workplaces','difficult jobs','高要求職場'],['disciplined','careful about their duties','有紀律'],['emotionally mature','better at handling feelings','情緒成熟'],['adapt','change','適應']],
+  [['entirely predetermined','already completely decided','完全預定'],['such growth would be impossible','such change could not happen','這種成長不可能'],['ordinary life shows the opposite','we see it in ordinary life','日常顯示相反']],
+  [['In conclusion','In short','總結來說'],['completely reject','completely reject','完全否定'],['locked in place before birth','fixed before a person is born','出生前鎖定']],
+  [['starting points','where we begin','起點'],['education','school','教育'],['conscious effort','choices we make with care','有意識努力'],['reshape character throughout life','change our character throughout life','一生重塑性格']],
+  [['stone statue','statue made of stone','石像'],['living tree','growing tree','活樹'],['roots','roots','根'],['conditions in which it grows','place where it grows','生長條件']],
+];
+const chunkOverrides=[
+  ['Personality is often discussed as if it were written into a person before birth,','like an invisible script that cannot be revised.'],
+  ['I completely','disagree with this view.'],
+  ['Although genes may create certain tendencies,','character is not fixed at birth;','it is continually shaped by upbringing, experience and deliberate effort.'],
+  ['The first reason is that a person\'s environment','strongly influences how their traits develop.'],
+  ['A child may be naturally quiet,','but this does not mean he must remain passive or anxious for life.'],
+  ['If he grows up in a supportive family','and attends a school where teachers encourage discussion, teamwork and public speaking,','he is likely to become more confident over time.'],
+  ['By contrast, a harsh environment','can make even a cheerful child defensive or withdrawn.'],
+  ['This suggests that genes may provide the raw material,','but surroundings help mold the final shape of a person\'s character.'],
+  ['A second reason is that people can change their behaviour','through practice, reflection and repeated experience.'],
+  ['Traits such as patience, resilience and self-control are not simply inherited gifts;','they can be strengthened like muscles.'],
+  ['For example, someone who is easily angered may learn to pause before reacting,','listen to feedback','and practise calmer ways of handling conflict.'],
+  ['Over time, these habits can become part','of that person\'s normal character.'],
+  ['Similarly, young adults who enter demanding workplaces often become more disciplined and emotionally mature','because daily pressure forces them to adapt.'],
+  ['If personality were entirely predetermined,','such growth would be impossible,','yet ordinary life shows the opposite.'],
+  ['In conclusion, I completely reject the idea','that personality is locked in place before birth.'],
+  ['Genes may influence people\'s starting points,','but family, education, relationships and conscious effort','can reshape character throughout life.'],
+  ['Human personality is not a stone statue;','it is more like a living tree,','shaped by both its roots and the conditions in which it grows.'],
+];
+const simpleChunkOverrides=[
+  ['People often talk about personality as if it was decided before a person was born,','like a hidden story that can never be changed.'],
+  ['I do not agree with this idea','at all.'],
+  ['Although genes may give us some natural ways of acting,','our character is not decided at birth;','family life, what happens to us and our own effort keep changing it.'],
+  ['The first reason is that the place and people around someone','strongly affect how their personality develops.'],
+  ['A child may naturally be quiet,','but this does not mean he has to be shy or worried for his whole life.'],
+  ['If he grows up with a caring family','and goes to a school where teachers encourage talking, working together and speaking to groups,','he will probably become more confident as time passes.'],
+  ['On the other hand, a hard and unkind place','can make even a happy child careful or unwilling to talk to others.'],
+  ['This shows that genes may give us the starting materials,','but the world around us helps shape what our character becomes.'],
+  ['A second reason is that people can change what they do','through practice, thinking about their actions and learning from things that happen again and again.'],
+  ['Being patient, getting through hard times and controlling ourselves are not only things we are born with;','we can make them stronger through practice, like muscles.'],
+  ['For example, a person who gets angry easily may learn to wait before answering,','listen to what others say about their behaviour','and practise calmer ways to deal with arguments.'],
+  ['After some time, these new habits can become part','of the way that person usually acts.'],
+  ['In the same way, young adults in difficult jobs often become more careful about their duties and better at handling feelings','because daily problems make them change.'],
+  ['If our personality was already completely decided,','such change could not happen,','yet we see it in ordinary life.'],
+  ['In short, I completely reject the idea','that personality is fixed before a person is born.'],
+  ['Genes may affect where we begin,','but family, school, relationships and choices we make with care','can change our character throughout life.'],
+  ['Personality is not a statue made of stone;','it is more like a growing tree,','shaped by its roots and by the place where it grows.'],
+];
+const F=(formula,meaning,usage,parts)=>({formula,meaning,usage,parts});
+const S=(example,answerReason,distractorReason,distractors,frame)=>({example,answerReason,distractorReason,distractors,frame});
+const structures=[
+  S('Ability is sometimes described as if it were written into a child before school, like a script nobody can change.','as if...like... 把「出生前已固定」寫成可反駁的劇本比喻。','這是別人的固定論想像，不是作者的立場。',[1,2,7],
+    F('[性格] is often discussed as if it were [出生前已寫好], like [不能修改的無形劇本]','用劇本圖像呈現題目的先天決定論，讓後文說明可改變的因素。','引言要形象化一項強主張，讓讀者知道後面會檢驗甚麼時。',[['Personality','slot','性格'],[' is often discussed as if it were ','link','被說得好像'],['written into a person before birth','slot','出生前已寫好'],[', like ','link','引出比喻'],['an invisible script that cannot be revised.','slot','不能修改的無形劇本']])),
+  S('I completely disagree with this claim.','簡短句直接反對完全固定論；下一句補出基因與環境的限定關係。','這句不等於否認基因可帶來初始傾向。',[0,2,14],
+    F('I completely [不同意此看法]','在轉述先天劇本比喻後，立即表明反對。','引言要以明確立場回應題目的預定論主張時。',[['I completely ','link','立場強度'],['disagree with this view.','slot','不同意此看法']])),
+  S('Although genes may create certain tendencies, confidence is not fixed at birth; it can grow through support and practice.','Although 承認基因可有起點；分號對照非固定與持續塑造。','作者不是說基因完全無影響，而是拒絕它鎖定終局。',[0,1,3],
+    F('Although [基因可造成傾向], [性格] is not [出生時固定]; it is [由環境、經歷及努力持續塑造]','提出整篇的限定立場：先天影響起點，後天仍有改變空間。','反對一個極端後，要避免滑向相反極端時。',[['Although ','link','承認有限影響'],['genes may create certain tendencies','slot','基因可造成傾向'],[', ','link','轉入主張'],['character','slot','性格'],[' is not ','link','否定固定'],['fixed at birth','slot','出生時固定'],['; it is continually shaped by ','link','指出持續塑造'],['upbringing, experience and deliberate effort.','slot','環境、經歷及努力']])),
+  S('The first reason is that a child’s environment strongly influences how confidence develops.','The first reason is that 提第一因；how...develop 把特質視為形成過程。','不是說環境能無條件決定每個結果，而是它有強影響。',[2,4,8],
+    F('The first reason is that [個人環境] strongly influences [特質如何發展]','第一主體段轉向家與學校如何塑造性格特質。','引言已提一項成因，首段要展開其中一條具體理由時。',[['The first reason is that ','link','提出第一理由'],["a person's environment",'slot','個人環境'],[' strongly influences ','link','強烈影響'],['how their traits develop.','slot','特質如何發展']])),
+  S('A child may be naturally quiet, but this does not mean she must remain anxious for life.','may...but does not mean... 區分先天安靜與一生被動焦慮的必然推論。','安靜不等於缺點，也不必然預示一生情緒狀態。',[3,5,6],
+    F('A child may be [天生安靜], but this does not mean [一生必然被動或焦慮]','以可能的先天傾向，直接否定「傾向＝命運」。','由抽象成因轉到一個可追蹤的人物例子時。',[['A child may be ','link','承認初始傾向'],['naturally quiet','slot','天生安靜'],[', but this does not mean ','link','否定必然結果'],['he must remain passive or anxious for life.','slot','一生必然被動或焦慮']])),
+  S('If a quiet child grows up with support and practises speaking in class, she is likely to gain confidence over time.','If 條件；likely to 保留概率；over time 說明環境影響逐漸形成。','這是較可能的成長路徑，非保證每個孩子都變外向。',[4,6,7],
+    F('If [支持家庭和鼓勵發言的學校], [孩子] is likely to become [更自信] over time','用具體支持條件與可能結果，顯示環境如何改變初始傾向。','已說早期表現不決定一生，要列出可促進改變的條件時。',[['If ','link','提出成長條件'],['he grows up in a supportive family and attends a school where teachers encourage discussion, teamwork and public speaking','slot','支持家庭和鼓勵發言的學校'],[', ','link','接可能結果'],['he','slot','孩子'],[' is likely to become ','link','很可能變得'],['more confident','slot','更自信'],[' over time.','link','隨時間']])),
+  S('By contrast, an unkind environment can make even a cheerful child defensive or withdrawn.','By contrast 換條件；even 突出原本開朗也可能被環境改變。','兩個方向的環境影響共同反駁完全固定論。',[5,7,8],
+    F('By contrast, [嚴苛環境] can make even [開朗孩子] [防備或退縮]','與支持環境並列反例，證明環境可能朝不同方向塑造特質。','正面例子後，要用反向情況避免單向樂觀時。',[['By contrast, ','link','提出反向情況'],['a harsh environment','slot','嚴苛環境'],[' can make even ','link','甚至可使'],['a cheerful child','slot','開朗孩子'],[' ','link','出現結果'],['defensive or withdrawn.','slot','防備或退縮']])),
+  S('This suggests that genes may provide the raw material, but surroundings help shape the final result.','raw material 與 final shape 比喻基因是起點，周圍環境參與塑造。','不是把基因排除，而是拒絕基因獨自決定最後形態。',[2,5,6],
+    F('This suggests that [基因] may provide [原材料], but [環境] help mold [性格的最終形態]','從兩種環境的對照抽出基因與後天的分工。','首段末要概括為何一項初始條件不是唯一決定因素時。',[['This suggests that ','link','從例子推論'],['genes','slot','基因'],[' may provide ','link','提供'],['the raw material','slot','原材料'],[', but ','link','轉向塑造'],['surroundings','slot','環境'],[' help mold ','link','幫助塑造'],["the final shape of a person's character.",'slot','性格的最終形態']])),
+  S('A second reason is that people can change how they respond through practice, reflection and repeated experience.','第二理由由環境影響轉到個人可練習、反思及累積經驗。','這不是說改變必然容易，而是說行為可以被培養。',[7,9,10],
+    F('A second reason is that people can change [行為] through [練習、反思和反覆經驗]','另起一條由個人行動出發的論證，避免只把變化歸於外部環境。','首段論環境可塑造，次段要指出人亦可主動改變時。',[['A second reason is that people can change ','link','引出第二理由'],['their behaviour','slot','行為'],[' through ','link','改變途徑'],['practice, reflection and repeated experience.','slot','練習、反思和反覆經驗']])),
+  S('Patience and self-control are not only gifts we are born with; they can become stronger through practice like muscles.','not simply...; can... 對照遺傳與可訓練；muscles 是漸進強化的比喻。','比喻不保證每人練習相同時間便得到相同特質。',[8,10,11],
+    F('Traits such as [耐性、韌性與自制力] are not simply [遺傳天賦]; they can be [像肌肉般強化]','將抽象的性格改變說成可練習的過程，為下一句舉例。','指出某種品質可培養後，要列出可觀察的具體品質時。',[['Traits such as ','link','列具體特質'],['patience, resilience and self-control','slot','耐性、韌性與自制力'],[' are not simply ','link','不只是'],['inherited gifts','slot','遺傳天賦'],['; they can be ','link','也能被'],['strengthened like muscles.','slot','像肌肉般強化']])),
+  S('For example, an impatient person may learn to pause, hear feedback and practise calmer responses.','may learn to 並列三個可練行為；不是單靠願望便改變脾氣。','例子具體展示由反應前停頓、接收回饋到重複練習。',[8,9,11],
+    F('For example, [容易生氣的人] may learn to [回應前停頓], [聽回饋] and [練習冷靜處理衝突]','把「像肌肉般練習」落到可操作的三個行為。','提出某些品質可培養後，要展示逐步練習的鏈條時。',[['For example, ','link','引出例子'],['someone who is easily angered','slot','容易生氣的人'],[' may learn to ','link','可學習'],['pause before reacting','slot','回應前停頓'],[', ','link','接第二動作'],['listen to feedback','slot','聽回饋'],[' and ','link','接第三動作'],['practise calmer ways of handling conflict.','slot','練習冷靜處理衝突']])),
+  S('Over time, practising these responses can become part of someone’s usual character.','Over time 指持續過程；can become 說習慣可能融入性格。','不是一次停頓就永久改變性格，而是反覆習慣的累積。',[9,10,12],
+    F('Over time, [新習慣] can become part of [平常性格]','把單次練習與較穩定性格變化連接起來。','具體行為例子後，要解釋反覆練習如何帶來較深改變時。',[['Over time, ','link','指出累積'],['these habits','slot','新習慣'],[' can become part of ','link','可能成為一部分'],["that person's normal character.",'slot','平常性格']])),
+  S('Similarly, young adults in demanding jobs may become more disciplined because they must adapt each day.','Similarly 用另一情境驗證；because 清楚指出日常壓力促成適應。','職場例子是可能的成長路徑，不是讚美所有壓力。',[8,11,13],
+    F('Similarly, [進入高要求職場的年輕人] often become [更有紀律及成熟] because [日常壓力迫使適應]','用成年人的職場經驗補足前面的個人情緒例子。','一個練習例子後，要補充生活環境的長期作用時。',[['Similarly, ','link','接另一例子'],['young adults who enter demanding workplaces','slot','進入高要求職場的年輕人'],[' often become ','link','往往變得'],['more disciplined and emotionally mature','slot','更有紀律及成熟'],[' because ','link','指出原因'],['daily pressure forces them to adapt.','slot','日常壓力迫使適應']])),
+  S('If character were fixed before birth, learning these habits would be impossible, yet daily life shows change.','If...were...would... 是反事實檢驗；yet 對照可觀察到的成長。','這句用可能觀察到的變化挑戰完全預定論。',[2,11,12],
+    F('If [性格完全預定], [成長] would be impossible, yet [日常生活顯示相反]','把固定論的預測與已列舉的成長例子直接比較。','完成第二段後，要檢驗絕對化主張能否解釋實際生活時。',[['If ','link','假設固定論'],['personality were entirely predetermined','slot','性格完全預定'],[', ','link','推出後果'],['such growth','slot','成長'],[' would be impossible, yet ','link','與觀察相反'],['ordinary life shows the opposite.','slot','日常生活顯示相反']])),
+  S('In conclusion, I completely reject the idea that patience was locked in place before birth.','結論明確否定出生前鎖定論，呼應引言無形劇本。','否定鎖定不等於否定先天傾向。',[1,13,15],
+    F('In conclusion, I completely reject the idea that [性格] is [出生前鎖定]','結論回到題目的核心強主張，直接表態。','兩條理由完成後，要直接重答題目時。',[['In conclusion, I completely reject the idea that ','link','總結立場'],['personality','slot','性格'],[' is ','link','被聲稱'],['locked in place before birth.','slot','出生前鎖定']])),
+  S('Genes may influence a child’s starting point, but family, education and effort can shape character through life.','may...but can... 保留基因對起點的影響，並列後天改變因素。','結論不是只有環境或只有基因，而是起點與成長皆有作用。',[2,7,14],
+    F('[基因] may influence [起點], but [家庭、教育、關係及努力] can reshape [一生的性格]','將兩段證據合併成先天起點與後天塑造的關係。','結論要避免把反對決定論誤寫成否定先天因素所有作用時。',[['Genes','slot','基因'],[' may influence ','link','可能影響'],["people's starting points",'slot','起點'],[', but ','link','轉入後天塑造'],['family, education, relationships and conscious effort','slot','家庭、教育、關係及努力'],[' can reshape ','link','可重塑'],['character throughout life.','slot','一生的性格']])),
+  S('Personality is not a stone statue; it is like a growing tree shaped by roots and its environment.','not...; more like... 以石像對比活樹；根與生長條件共同塑形。','比喻留下可塑性，但不否認根部即先天起點。',[0,7,15],
+    F('[人的性格] is not [石像]; it is more like [活樹], shaped by both [根] and [生長條件]','最後用對照比喻總結：性格有起點，也持續受生活條件塑造。','文章末尾要用可記住且不失準確的圖像收束時。',[['Human personality','slot','人的性格'],[' is not ','link','否定固定圖像'],['a stone statue','slot','石像'],['; it is more like ','link','提出活的圖像'],['a living tree','slot','活樹'],[', shaped by both ','link','同時受兩者影響'],['its roots','slot','根'],[' and ','link','並列'],['the conditions in which it grows.','slot','生長條件']])),
+];
+const Q=(prompt,options,why)=>({type:'quiz',prompt,options,correct:0,why});
+const sequence=(prompt,rows,why)=>({type:'sequence',prompt,detail:'依照原文的推進次序，逐一點選下一步。',items:rows.map(([title,body])=>({title,body})),why});
+const intro=[
+  Q('作者是否認為性格在出生前已完全定型？',[
+    '完全不同意：基因可影響起點，環境、經歷與有意識努力仍能塑造性格',
+    '完全同意：基因決定人生每個反應，後天無任何作用',
+    '認為基因完全沒有影響，任何人都沒有先天傾向',
+    '沒有立場：只談樹木和石像的外形',
+  ],'引言與結論都完全反對鎖定論，同時承認 genes may create tendencies / influence starting points。'),
+  {type:'multi',prompt:'選出兩條不同的反駁理由',detail:'選兩項，再按「確認」。',options:[
+    '家庭、學校和嚴苛或支持性的環境，可把初始傾向引向不同發展',
+    '人可經練習、反思和反覆經驗培養耐性、自制力等習慣',
+    '安靜的孩子必定一生被動和焦慮',
+    '只要基因提供起點，所有職場經歷便不能再影響人',
+  ],correct:[0,1],why:'第一段重環境，第二段重個人練習與適應，兩者共同否定完全預定。'},
+];
+const route=[sequence('先排好全文四段',[
+  ['引言 · 反對出生前劇本','作者承認基因可有傾向，卻反對性格一出生便固定。'],
+  ['主體段一 · 環境塑造','支持家庭與鼓勵發言的學校可增自信；嚴苛環境則可能令開朗孩子退縮。'],
+  ['主體段二 · 練習改變','耐性與自制力可像肌肉般強化；習慣與職場適應展示成長。'],
+  ['結論 · 活樹比喻','基因影響起點，家庭、教育、關係及努力可持續重塑性格。'],
+],'先天劇本說 → 環境的兩個方向 → 練習與經驗 → 根與生長條件共同塑造活樹。')];
+const evidence=[
+  Q('作者如何限定基因的作用？',[
+    '基因可形成某些傾向或起點，但不會獨自鎖定最終性格',
+    '基因完全沒有任何影響',
+    '基因已決定每次行為與人生每段經歷',
+    '基因只影響服裝，不影響性格',
+  ],'Although genes may create certain tendencies 與 starting points 都把基因放在起點而非終局。'),
+  Q('安靜孩子在支持家庭與鼓勵發言的學校中，可能如何發展？',[
+    '隨時間更有自信，因環境提供討論、合作和公開發言的練習',
+    '因天生安靜，必然終生焦慮且無法練習',
+    '只要入學一天，便一定立即變成最外向的人',
+    '家庭與學校只決定衣着，與自信完全無關',
+  ],'If...is likely to...over time 是條件下的可能成長，不是保證。'),
+  Q('嚴苛環境使開朗孩子變得防備或退縮，有甚麼論證作用？',[
+    '由反方向顯示環境能改變初始氣質，並非只有支持環境才有影響',
+    '證明開朗孩子天生便必然退縮',
+    '證明嚴苛環境永遠會令每個人變得自信',
+    '證明基因已完全決定孩子下次說甚麼',
+  ],'By contrast 與前句支持環境構成雙向對照。'),
+  Q('「基因是原材料，環境塑造最後形態」表示甚麼？',[
+    '先天可提供起點，後天環境參與塑造性格發展',
+    '原材料已是一件完成品，環境不能再改變',
+    '只有環境存在，基因完全沒有作用',
+    '性格真的由工廠材料製成，與生活經驗無關',
+  ],'raw material / final shape 是基因與環境共同作用的比喻。'),
+  Q('容易生氣的人學習停頓、聽回饋和練習冷靜應對，說明甚麼？',[
+    '自制力可透過反覆具體行為逐步培養，不只是天生禮物',
+    '只要停頓一次，便永遠不會再生氣',
+    '聽取回饋會令所有人失去性格',
+    '性格既然固定，這些練習一定不可能開始',
+  ],'練習鏈接到 Over time, these habits can become part...；這是可能的累積過程。'),
+  Q('「石像」與「活樹」比喻的核心差別是甚麼？',[
+    '石像象徵固定；活樹既有根，也隨生長條件繼續改變',
+    '活樹完全沒有根，因此基因毫無作用',
+    '石像會自然成長，活樹永遠不變',
+    '兩者只比較外觀，與性格如何形成無關',
+  ],'結尾以 roots 與 conditions in which it grows 保留先天及環境兩方。'),
+];
+const logic=[
+  sequence('第一主體段：環境如何改變初始傾向？',[
+    ['第一理由','個人環境強烈影響特質如何發展。'],
+    ['起點','孩子可能天生安靜，但不必一生被動或焦慮。'],
+    ['支持條件','家庭支持及學校鼓勵討論、合作和發言。'],
+    ['可能結果','孩子隨時間可能變得更自信。'],
+    ['反向對照','嚴苛環境甚至可使開朗孩子防備或退縮。'],
+    ['歸納','基因提供原材料，環境參與塑造最終形態。'],
+  ],'初始傾向相同也可有不同發展 → 支持與嚴苛環境的對照 → 性格不是基因單獨定稿。'),
+  sequence('第二主體段：練習和經驗如何形成性格？',[
+    ['第二理由','人可透過練習、反思與反覆經驗改變行為。'],
+    ['可練特質','耐性、韌性和自制力可像肌肉一樣變強。'],
+    ['易怒例子','回應前停頓、聽回饋、練習冷靜處理衝突。'],
+    ['習慣累積','新行為隨時間可成為平常性格一部分。'],
+    ['職場例子','高要求工作可促使年輕人更有紀律並學會適應。'],
+    ['反事實檢驗','若性格完全預定，這些普通成長便不可能發生。'],
+  ],'可練行為 → 重複習慣 → 性格改變；日常觀察反駁完全預定。'),
+];
+const T=(context,question,options,explanations,sourceSentenceIndices,modelLink)=>({type:'quiz',prompt:question,context,question,options,correct:0,explanations,why:explanations[0],sourceSentenceIndices,modelLink});
+const transfer=[
+  T('一名學生天生較安靜，老師便說他永遠不可能在小組中有自信。','哪項最能轉用安靜孩子的例子？',[
+    '安靜是可能的起點；支持、練習和時間仍可幫助他發展自信',
+    '天生安靜便必定終生無法在小組說話',
+    '只要老師鼓勵一次，學生便一定即時變得外向',
+    '基因完全沒有任何影響，所以安靜也不可能存在',
+  ],[
+    '範文承認初始傾向，否定它必然決定一生，並提出支持條件。',
+    '這是被作者反對的固定推論。',
+    'likely over time 不是即時保證。',
+    '文章沒有否定先天傾向。',
+  ],[2,4,5],'範文說 naturally quiet 不等於 must remain passive or anxious for life。'),
+  T('兩個孩子原本都愛笑，一人得到支持，另一人長期受嚴厲批評。','哪項最符合第一主體段的預測範圍？',[
+    '環境差異可能使性格朝不同方向發展，不能只憑早期氣質判終局',
+    '兩人都愛笑，便保證日後性格完全相同',
+    '受嚴厲批評者一定永遠快樂且毫無防備',
+    '家庭與學校環境不可能影響任何習慣',
+  ],[
+    '範文用支持與嚴苛環境的對照展示可變發展。',
+    '早期相似不保證最後相同。',
+    '範文指出可能變得防備或退縮。',
+    '環境正是第一段的核心。',
+  ],[3,5,6,7],'範文正反兩例共同指出 surroundings help mold final shape。'),
+  T('一名容易生氣的學生開始在回答前數三秒，之後聽同學回饋並重試。','哪項最能轉用「像肌肉一樣」的比喻？',[
+    '反覆練習停頓和聽回饋，可能逐步增強自制力',
+    '只做一次便必然永遠不再生氣',
+    '容易生氣證明自制力完全不能改善',
+    '聽回饋與處理衝突毫無關係',
+  ],[
+    '具體行動與重複練習是範文中性格可被強化的機制。',
+    '練習不是一次性的保證。',
+    '範文正以易怒者示範可學習。',
+    '回饋是練習鏈的一環。',
+  ],[8,9,10,11],'範文說耐性與自制力可 like muscles 強化，並列 pause、feedback、practise。'),
+  T('一名青年入職時不善安排工作，半年後能穩定計劃時間並處理壓力。','哪項最貼近高要求職場的例子？',[
+    '日常要求可促使人適應，並逐步形成較有紀律的習慣',
+    '入職前的性格既已固定，半年變化必定不可能',
+    '只要有壓力，所有人都必然以相同速度成熟',
+    '工作要求只能改變衣服，不會影響任何行為',
+  ],[
+    '範文指出日常壓力可迫使適應，帶來紀律與情緒成熟。',
+    '這與觀察到的改變相反。',
+    '範文用 often，不保證人人一樣。',
+    '職場例子正談行為與情緒。',
+  ],[8,11,12,13],'範文用 young adults in demanding workplaces 支持性格可變。'),
+  T('有人說：「基因影響性格，所以教育和人際關係一定沒有作用。」','哪項最忠實於文章的限定？',[
+    '基因可影響起點，教育與關係仍可在一生中重塑性格',
+    '基因存在便令所有環境效果歸零',
+    '既然教育有用，基因便完全不存在',
+    '環境只能影響考試成績，絕不影響性格',
+  ],[
+    '範文的起點與塑造框架保留兩方作用。',
+    '基因影響不等於獨佔結果。',
+    '作者並未否認基因。',
+    '關係和教育被明列為塑造因素。',
+  ],[2,7,15,16],'範文說 genes may influence starting points, but...can reshape character。'),
+  T('一名學生說：「性格一旦決定，就像石像；我不必再練習耐性。」','哪項最能用結尾比喻回應？',[
+    '性格更像有根的活樹，既有起點，也可隨練習和環境改變',
+    '性格既像石像，任何習慣都不可能學會',
+    '活樹完全沒有根，所以先天傾向不存在',
+    '石像與活樹只在顏色上不同，與可塑性無關',
+  ],[
+    '範文用根與生長環境同時呈現先天及後天。',
+    '這是文章否定的固定論。',
+    '樹根正象徵起點。',
+    '比喻重點是是否持續生長。',
+  ],[9,11,15,16],'範文最後把 personality 對照 stone statue 和 living tree。'),
+  T('一間學校要幫害羞學生練習公開發言，計劃包括小組討論、同伴支持和逐步上台。','哪項最符合第一主體段的因果鏈？',[
+    '提供支持和反覆發言機會，讓自信有可能隨時間增長',
+    '只因學生現在害羞，便放棄所有發言練習',
+    '上台一次便保證每個學生變得完全不害羞',
+    '只給學生看基因報告，便不需安排任何練習',
+  ],[
+    '範文的支持家庭與鼓勵發言學校，正以長期條件提高自信。',
+    '這把起點錯當終局。',
+    '範文說 likely over time，不是一次保證。',
+    '文章強調環境與練習的作用。',
+  ],[4,5,7],'範文列 discussion, teamwork and public speaking 作自信發展的環境條件。'),
+  T('一位經常在爭執中發火的人學會先停下，但一週後又有一次失控，便說「我永遠不可能改變」。','哪項最能運用習慣累積的時間觀？',[
+    '一次失誤不能判定終局；持續練習與反思才可能逐步形成新習慣',
+    '只要一週內失控一次，所有之前的練習便必定無效',
+    '性格一出生便固定，所以任何停頓都不可能發生',
+    '不需回顧衝突，只等時間流逝便保證自制力增加',
+  ],[
+    '範文強調 practice、reflection、repeated experience 和 Over time。',
+    '單次失誤不取消累積可能性。',
+    '他已能停頓，固定論無法解釋。',
+    '時間須配合行為練習。',
+  ],[8,9,10,11],'範文以易怒者反覆練習後的習慣形成，說明性格可改變。'),
+  T('一名家長見孩子天生活潑，便以為他在任何環境都會保持樂觀，無須留意家中壓力。','哪項最能利用嚴苛環境的反例？',[
+    '即使起初開朗，嚴苛環境也可能令孩子變得防備或退縮',
+    '天生活潑便保證所有家庭壓力完全無影響',
+    '環境只影響安靜孩子，不會影響開朗孩子',
+    '每個開朗孩子都必定在嚴苛環境中更加外向',
+  ],[
+    '範文特別用 even a cheerful child 顯示環境影響不限於安靜者。',
+    '這正是被反例挑戰的推論。',
+    '環境可影響不同起點的人。',
+    '範文說可能防備或退縮。',
+  ],[3,6,7],'範文的 By contrast 例子指出 harsh environment 可改變 cheerful child。'),
+  T('一名青年在新工作中學會更有耐心，但朋友說那只是工作表現，不可能慢慢變成性格的一部分。','哪項最能回應？',[
+    '若同樣的耐心行為反覆出現，習慣可能逐步成為平常性格的一部分',
+    '職場出現一次耐心行為，便必然永久改變性格',
+    '行為和習慣永遠沒有任何關係',
+    '只有家庭能影響性格，工作不可能帶來適應',
+  ],[
+    '範文把反覆練習的行為接到 Over time, these habits can become part...。',
+    '改變需時間，不是一事即定。',
+    '習慣正是文章的中介環節。',
+    '範文另舉高要求職場。',
+  ],[8,10,11,12],'範文由具體練習推到 habits 成為 normal character。'),
+  T('兩名同學爭論：「有先天傾向」是否等於「人生發展完全預定」。','哪項論證最能指出兩者不同？',[
+    '先天傾向只是起點；若一切預定，日常可觀察的習慣成長就無法解釋',
+    '只要人會成長，基因便不可能影響任何起點',
+    '一旦有先天傾向，後天學習便一定無效',
+    '日常成長必然證明每個人天生完全一樣',
+  ],[
+    '範文用反事實句檢驗「完全預定」，又保留基因對起點的影響。',
+    '成長與先天起點可共存。',
+    '這把傾向誤推成終局。',
+    '成長不證明人人起點相同。',
+  ],[2,7,13,15],'範文說 If personality were entirely predetermined, such growth would be impossible。'),
+  T('學校生涯課介紹性格發展：既談天生差異，也談家庭支持、同儕和長期練習。','哪項總結最忠實於全文？',[
+    '先天可能影響起點，後天關係、環境與有意識努力仍可持續塑造性格',
+    '只要有基因，家庭與教育便必定不再有作用',
+    '只要努力，便可保證每個人的性格在一天內完全相同',
+    '性格如石像，一旦形成便永遠不受生長條件影響',
+  ],[
+    '這合併兩段證據和活樹比喻，保留起點與後續塑造。',
+    '範文明列家與教育的影響。',
+    '改變不保證快速或完全同一。',
+    '結尾明確否定石像圖像。',
+  ],[2,3,8,15,16],'範文結論列 genes 的 starting points 與 family, education, relationships and effort。'),
+];
+const reviewedTransferOptions=[
+  ['安靜或是起點，支持與練習仍可幫人建立自信','天生安靜，便終生無法在小組開口說話','老師鼓勵一次，學生便即時變得完全外向','基因完全無影響，所以安靜也不可能存在'],
+  ['環境不同，性格仍可能沿不同方向發展','兩人都愛笑，便保證日後性格完全相同','受嚴厲批評者，必然永遠快樂而無防備','家庭與學校環境不可能影響任何習慣'],
+  ['反覆停頓並聽回饋，可能逐步增強自制','只練習一次，便必定永遠不再生氣','容易生氣，便證明自制力全無改善空間','聽取回饋與處理衝突完全沒有關係'],
+  ['日常要求或促使人適應，逐步形成較好紀律','性格入職前已固定，半年變化必定不可能','有壓力，所有人便以相同速度變得成熟','工作要求只改衣服，不會影響任何行為'],
+  ['基因影響起點，教育與關係仍可重塑性格','基因存在，便令所有環境影響完全歸零','教育有用，便表示基因根本完全不存在','環境只影響成績，絕對不會影響性格'],
+  ['性格像有根活樹，仍可隨練習與環境改變','性格像石像，任何新習慣都不可能學會','活樹完全沒有根，先天傾向便不存在','石像與活樹只在顏色不同，與改變無關'],
+  ['給支持及反覆發言機會，讓自信慢慢增長','學生如今害羞，便放棄所有發言練習','只上台一次，便保證人人不再害羞','只看基因報告，不安排任何實際練習'],
+  ['一次失誤不定終局，持續練習或形成新習慣','一週失控一次，便斷定此前練習全部無效','性格出生已固定，任何停頓都不能發生','不反思衝突，只等時間過去便增加自制'],
+  ['起初開朗者，也可能因嚴苛環境變得防備','天生活潑，便保證家庭壓力完全沒有影響','環境只影響安靜者，絕不影響開朗者','每個開朗孩子在嚴苛環境都更加外向'],
+  ['耐心行為反覆出現，習慣或成為性格一部分','職場耐心一次，便斷定性格已永久改變','行為與養成習慣，永遠沒有任何關係','只有家庭影響性格，職場不會帶來適應'],
+  ['先天是起點；可觀察的習慣成長反駁全然預定','人會成長，便否定基因對起點的所有影響','有先天傾向，後天學習便必然毫無作用','日常有成長，便斷定人人天生完全一樣'],
+  ['先天或影響起點，後天環境與努力仍塑造性格','既然有基因，家庭教育便必然沒有作用','只要努力，一天內人人性格便完全相同','性格像石像，永遠不受任何生長條件影響'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+const plausibleAlternatives=[
+  [['先讓安靜學生只寫意見，不安排小組口頭練習','憑一次上台反應，便判斷自信已經穩固','既然能練習，就不必考慮個別起點差異'],['只用書面方式，沒有提供題目所需的發言練習。','一次反應不足以證明持續改變。','後天可塑不等於人人起點相同。']],
+  [['按兩人起初都愛笑，先預測後續性格相近','只問孩子是否愛笑，不查後續家庭經歷','把支持或批評當短期情緒，不追蹤長期改變'],['早期相似不能代替成長環境的比較。','這略去了題目中最重要的經歷差異。','反覆經歷可能累積為習慣和性格。']],
+  [['只看練習首日表現，便決定自制能否改善','把易怒當固定特質，只教他避開與同學爭執','只記數三秒，不查他有否吸收同學回饋'],['肌肉比喻着重反覆練習，不是一日見效。','避開情境不等於練習調整反應。','回饋與重試是題目的重要環節。']],
+  [['把半年改善只歸因熟悉流程，不查紀律變化','用一人進步，推定其他新人也會同速成熟','只記完成任務量，不看工作習慣與壓力處理'],['範文指出高要求工作可促使習慣改變。','一個例子不能保證每人相同。','成果數量不能代替習慣的觀察。']],
+  [['只研究基因差異，不查家庭支持或學校經歷','看到教育有效，便忽略可能存在的先天起點','把環境影響限於成績，不問處事習慣變化'],['基因不是作者提出的唯一塑造力量。','後天影響與先天傾向可以並存。','範文談的是性格，不只考試分數。']],
+  [['既有安靜起點，便把後續耐性練習放到次要','用活樹比喻，只談枝葉卻不看根和生長條件','只比較石像與樹的外觀，不討論持續改變'],['起點不應被當成終局。','比喻同時包含起點與生長環境。','比喻重點是可塑性。']],
+  [['先按現在是否害羞分組，減少部分學生發言機會','只憑首次上台，就判斷後續練習是否有用','只提供支持語句，不安排實際發言的練習'],['這把目前狀態當成限制後續機會的理由。','一次經驗不足以判斷長期進展。','支持須配合實際練習。']],
+  [['把一週失誤當主要判據，較少看此前的進步','只記錄失控次數，不看是否學會先停頓','認為時間過去已足夠，不再反思爭執經過'],['單次失誤不取消累積的練習。','新習慣的早期跡象也值得觀察。','時間須配合有意識的調整。']],
+  [['先以天生活潑評估，暫不查持續家庭壓力','只把嚴厲環境與安靜孩子連在一起','按孩子現在開朗，就推定日後仍會外向'],['先天傾向不能取代環境評估。','不同起點的人都可能受環境影響。','當前表現不保證長期結果。']],
+  [['只看一次耐心表現，不查往後是否反覆出現','把職場行為與日常習慣分開，不追蹤轉變','先查家庭經歷，略過新工作帶來的適應'],['一事不足以證明習慣已形成。','文章以反覆行為連結習慣與性格。','高要求職場也是可能的塑造力量。']],
+  [['見到後天成長，便先忽略兩人的起點差別','把先天傾向用作預測，少查日常練習成果','見到相似進步，就推定兩人起點也相同'],['後天可變不排除先天影響。','傾向不等於固定終局。','進步相似不證明起點相同。']],
+  [['性格有先天差異，便把家庭與教育列為次要','只講努力的作用，不追蹤改變需要多久','用石像比喻性格，不查後續成長的條件'],['範文明列家庭和教育的塑造作用。','改變需要時間，不能只說努力便算解釋。','石像圖像忽略可塑性。']],
+];
+plausibleAlternatives.forEach(([options,explanations],i)=>{transfer[i].options.splice(1,3,...options);transfer[i].explanations.splice(1,3,...explanations);});
+structures[0].example='Ability is often discussed as if it were written into a child before school, like a script nobody can change.';
+structures[2].example='Although genes may create certain tendencies, confidence is not fixed at birth; it is continually shaped by support and practice.';
+structures[5].example='If a quiet child grows up with support and practises speaking in class, she is likely to become more confident over time.';
+structures[7].example='This suggests that genes may provide the raw material, but surroundings help mold the final shape of a person’s character.';
+structures[9].example='Traits such as patience and self-control are not simply gifts we are born with; they can be strengthened through practice like muscles.';
+structures[12].example='Similarly, young adults in demanding jobs often become more disciplined because they must adapt each day.';
+structures[14].example='In conclusion, I completely reject the idea that patience is locked in place before birth.';
+structures[15].example='Genes may influence a child’s starting point, but family, education and effort can reshape character through life.';
+structures[16].example='Personality is not a stone statue; it is more like a growing tree, shaped by both roots and its environment.';
+export default {
+  key:'opinion:25',
+  meta:{topic:'性格、基因起點與後天塑造',summary:'作者完全反對性格出生前已鎖定。基因可能帶來初始傾向，但支持或嚴苛環境可改變發展；練習、反思與反覆經驗也能把新行為逐漸變成性格的一部分。'},
+  simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer,
+  mediumExtras:[],
+};

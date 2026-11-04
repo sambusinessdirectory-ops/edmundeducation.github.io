@@ -1,0 +1,1649 @@
+{
+  "id": "p2-097-childhood-obesity",
+  "catalogueId": "p2-097",
+  "catalogueIds": [
+    "p2-097"
+  ],
+  "passage": 2,
+  "title": "Childhood Obesity",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "C",
+    "G",
+    "H",
+    "A",
+    "A",
+    "C",
+    "D",
+    "F",
+    "H",
+    "A, B",
+    "A, B",
+    "A",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Headings",
+      "prompt": "Question 14",
+      "translation": "對自己感覺很差；自我形象差；自尊低落。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Feeling bad about yourself”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Negative body image can cause depression and social problems – overweight children are often teased.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "負面的身體形象可以造成抑鬱和社交問題；超重兒童常常被取笑。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If modern-day culture placed less emphasis on the ‘perfect body’, then at least one set of problems associated with obesity would disappear.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果現代文化少一點強調「完美身形」，那麼至少有一類與肥胖相關的問題會消失。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading 中的 “Feeling bad about yourself” 不會原字出現，要找 self-esteem、negative body image、depression、teased 這組心理詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Low self-esteem may not directly affect physical health, but it is actually the biggest problem obese children face in everyday life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "低自尊未必直接影響身體健康，但它其實是肥胖兒童在日常生活中面對的最大問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Feeling bad about yourself= negative body image= low self-esteem= feeling upset about one’s weight判斷： Paragraph C 全段都在講肥胖兒童的心理感受、社交壓力和自我形象問題，所以 heading 14 配C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Headings",
+      "prompt": "Question 15",
+      "translation": "減重；控制體重；處理肥胖。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Reducing weight”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Weight management camps can be a good way to treat obesity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "體重管理營可以是治療肥胖的一種好方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This option should really only be considered when all others have been exhausted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個選項真的只應在所有其他方法都已用盡後才考慮。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading 的 “Reducing weight” 對應原文的 weight management camps、keeping off the weight、tackle obesity、surgery、liposuction。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the problems is keeping off the weight that kids lose at such camps.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中一個問題是，孩子在這些營中減掉的體重，之後要維持不反彈並不容易。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An increasing number of parents ask their doctors about surgery (e.g. liposuction) to tackle obesity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "越來越多父母向醫生詢問用手術，例如抽脂，來處理肥胖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph G 不只講一種方法，還講減重營、減重後維持、家庭習慣配合、手術風險。整段最適合用 “Reducing weight” 概括。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "H",
+      "answerKey": "H",
+      "type": "Matching Headings",
+      "prompt": "Question 16",
+      "translation": "年齡是一個因素；年齡會影響肥胖是否持續和如何處理。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Age is a factor”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Parents of even young children can make sure the family changes to a healthy lifestyle rather than targeting weight loss specifically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使孩子年紀很小，父母也可以確保全家改為健康生活方式，而不用特別針對減重。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A 15-year-old who is overweight is likely to remain so in adulthood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個 15 歲仍然超重的人，很可能成年後仍然超重。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading 的 “Age” 對應原文的 young children、under the age of seven、age eight to ten、older、15-year-old。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The older your child is, the less likely they are to grow out of it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子年紀越大，越不可能自然長高後擺脫超重問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Age is a factor= younger children may grow out of it= older children are less likely to grow out of it= 15-year-old overweight child likely remains overweight in adulthood判斷： Paragraph H 幾乎每一部分都與年齡有關，所以 heading 16 配 H。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Headings",
+      "prompt": "Question 17",
+      "translation": "脂肪細胞。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Heading："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fat cells”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a child becomes obese, their body processes can change.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果一個孩子變得肥胖，他們的身體運作過程可能會改變。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This does not mean that you cannot lose weight through diet and exercise, but it will be harder.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這並不代表你不能透過飲食和運動減重，但過程會更困難。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用 heading 定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading 是 “Fat cells”，原文在 Paragraph A 中密集出現 fat cells、created、multiplying、fixed number、swell、shrink。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fat cells are created in the first few years of life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "脂肪細胞是在生命最初幾年形成的。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So an obese child can have up to three times as many fat cells as a child of normal weight.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，一個肥胖兒童的脂肪細胞數量可以多達正常體重兒童的三倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： Paragraph A 的核心概念就是脂肪細胞如何在童年形成，並影響成年後減重難度。因此答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "FIVE True Statements",
+      "prompt": "Questions 18–22",
+      "translation": "成年人不會增加脂肪細胞數量。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這組題要求在八個選項中找出五個 true statements。Multiple-answer 題要逐項檢查選項是否被文章支持、限制或否定，並確認每個正確選項都有獨立證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確答案：A, C, D, F, H Option A"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Adults do not gain fat cells.”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A。首句說肥胖兒童的身體過程會改變；末句說成年後即使能減重，也更困難。這段明顯處理 fat cells 的長期設定。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 adults、fat cells、gain。原文沒有用 gain，但有 stop multiplying、fixed number。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eventually, fat cells stop multiplying, and an adult has a fixed number for the rest of their life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，脂肪細胞會停止增生，而成年人在餘生中會有固定數量的脂肪細胞。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "do not gain fat cells= fat cells stop multiplying= adult has a fixed number判斷：選項 A 符合原文。要留意原文說成年人脂肪細胞「數量」固定；後文說 existing cells can swell or shrink，即已有細胞可以變大或變小。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option C"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Low self-esteem is a major problem.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "低自尊是一個主要問題。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C。首句講 negative body image、depression 和 social problems；末句講文化對 perfect body 的強調造成一組肥胖相關問題。整段都是心理壓力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞 low self-esteem 原文直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Low self-esteem may not directly affect physical health, but it is actually the biggest problem obese children face in everyday life.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "低自尊未必直接影響身體健康，但它其實是肥胖兒童日常生活中面對的最大問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "major problem= the biggest problem判斷： C 正確。原文甚至說 low self-esteem 是 everyday life 中 biggest problem，程度比 major 更強。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option D"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Being obese is generally considered to be partly genetic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "肥胖一般被認為部分與基因有關。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。首句直接處理 causes，末句仍在列成因。這段是 obesity causes 的主段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞 genetic 對應 genes；partly 對應 both genes and environment。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the causes are not yet completely understood, it is clear to scientists that both genes and the environment play a role.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然成因尚未完全被理解，但科學家清楚知道基因和環境都發揮作用。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "partly genetic= genes play a role= both genes and environment判斷： D 正確。題目用 “partly” 很準確，因為原文同時提到 genes 和 environment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option F"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Parents should take the lead by buying healthy foods.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "父母應透過購買健康食物來帶頭。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F。首句講不要禁止致肥食物，末句講食物選擇要減到最低。整段焦點是家中食物環境和父母榜樣。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞 parents / take the lead / buying healthy foods。原文用 your child is likely to model their behaviour on yours，以及 fill up the fruit bowl instead of buying biscuits and crisps。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Make your home a healthy food zone. Fill up the fruit bowl instead of buying biscuits and crisps.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "把你的家變成健康食物區。把水果碗填滿，不要買餅乾和薯片。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Remember that your child is likely to model their behaviour on yours, so choose healthy food options whenever possible.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "記住，你的孩子很可能模仿你的行為，所以只要可能，就選擇健康食物。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "take the lead= child is likely to model their behaviour on yours buying healthy foods= fill up the fruit bowl instead of buying biscuits and crisps判斷： F 正確。父母的購買和選擇會塑造家庭食物環境，也會成為孩子模仿的對象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option H"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE"
+            },
+            {
+              "kind": "label",
+              "text": "選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some young children appear overweight when they are short.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些年幼孩子在身高較矮時會看起來超重。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H。首句講 young children 和 healthy lifestyle；末句講 15-year-old overweight child likely remains overweight in adulthood。整段核心是年齡和生長階段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞 young children、overweight、short。原文沒有 short，但有 grow taller 和 grow out of it。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children grow at different rates, and many overweight children will ‘grow out of it’ as they grow taller.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子成長速度不同，而很多超重兒童會隨著長高而自然擺脫這個問題。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "appear overweight when they are short= may grow out of it as they grow taller判斷： H 是這組題中的第五個正確選項。這是一個短距離推論：如果孩子長高後可以 “grow out of it”，表示部分兒童的超重狀態和當前身高、生長階段有關。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼 B、E、G 不選？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option B"
+            },
+            {
+              "kind": "quote",
+              "text": "“Diabetes is not a permanent problem for a person.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Diabetes cannot be cured, but it can be treated.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "糖尿病不能治癒，但可以治療。"
+            },
+            {
+              "kind": "label",
+              "text": "又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children with this condition will have to live with it all their lives…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "患有這種病的兒童必須終身與它共處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： B 與原文方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option E"
+            },
+            {
+              "kind": "quote",
+              "text": "“Messages about how much food is required go from the stomach to the brain instantly.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It takes some time for the messages that tell us we have had enough to eat to reach the brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "告訴我們已經吃夠的訊息，需要一些時間才到達大腦。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： E 的 instantly 和原文 “takes some time” 衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Option G"
+            },
+            {
+              "kind": "quote",
+              "text": "“Performing liposuction on children is a good idea.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surgical treatments have shown good results in adults, but there are serious risks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "手術治療在成年人身上顯示良好結果，但存在嚴重風險。"
+            },
+            {
+              "kind": "label",
+              "text": "又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This option should really only be considered when all others have been exhausted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個選項真的只應在所有其他方法已經用盡後才考慮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： G 過度肯定。原文態度非常保留，只說極端情況下才可考慮。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "A, B",
+      "answerKey": "A, B",
+      "type": "Choose the correct",
+      "prompt": "“People with obesity may suffer from…”",
+      "translation": "肥胖人士可能患有……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Few health problems are observed in obese children, but they may develop conditions that cause problems later in life, such as high blood pressure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "肥胖兒童身上可觀察到的健康問題不多，但他們可能發展出日後造成問題的疾病，例如高血壓。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children with this condition will have to live with it all their lives, increasing the chance of problems.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "患有這種病的兒童必須終身與它共處，增加其他問題的機會。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A sleep apnoea 原文直接出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B diabetes 原文直接出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C low blood pressure 原文沒有；原文是 high blood pressure。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“They may also suffer from ‘sleep apnoea’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們也可能患有 sleep apnoea，即睡眠窒息症。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some obese children may develop diabetes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些肥胖兒童可能患上糖尿病。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確，sleep apnoea 原文直接支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確，diabetes 原文直接支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯，原文提到 high blood pressure，即高血壓；low blood pressure 方向相反。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A, B",
+      "answerKey": "A, B",
+      "type": "Choose the correct",
+      "prompt": "“Environmental factors contributing to obesity include…”",
+      "translation": "導致肥胖的環境因素包括……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the causes are not yet completely understood, it is clear to scientists that both genes and the environment play a role.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然成因尚未完全清楚，但科學家清楚知道基因和環境都發揮作用。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fourthly, calories per mouthful of food have increased.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第四，每一口食物中的熱量增加了。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A lack of exercise 對應 less physically active。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B larger portions at restaurants 對應 restaurants serve larger portions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C comfort eating 出現在 Paragraph C，但那是 low self-esteem 的後果，不在 Paragraph D 的environmental factors 清單內。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Firstly, many people are much less physically active nowadays.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，現在很多人的體力活動量大幅減少。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thirdly, average portion sizes have become larger as people have more food to eat and restaurants, particularly fast-food restaurants, serve larger portions for relatively little extra money.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，平均食物份量變大，因為人們有更多食物可吃，餐廳，尤其是快餐店，只要加很少錢就提供更大份量。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。lack of exercise = less physically active。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。larger portions of food at restaurants = restaurants serve larger portions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 不選。comfort eating 出現在心理問題段，並非 Paragraph D 列出的 environmental factors。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Choose the correct",
+      "prompt": "“Bad things that parents do include…”",
+      "translation": "父母做的不良做法包括……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Traditionally, children all over the world have been forced by their parents to finish all the food that is on their plate.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳統上，世界各地的孩子都被父母強迫吃完碟上的所有食物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This way, everyone can make healthy changes to their lifestyle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這樣，每個人都可以對自己的生活方式作出健康改變。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A using food as a reward 原文直接出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B not telling children to finish their dinners 對應 “Don’t force children…”；這是建議做法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C waiting before second portions 對應 “Wait a few minutes…”；這也是建議做法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using food as a reward is never a good idea because your child will learn to value these particular ‘treat’ foods and may turn to food for comfort.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用食物作獎勵從來都不是好主意，因為孩子會學會重視這些特別的「獎賞食物」，也可能轉向食物尋求安慰。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 正確。原文直接說 using food as a reward is never a good idea。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯。原文建議 “Don’t force children to eat more when they say they are full.” 所以不要求孩子吃完，反而是正確做法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 錯。原文建議 “Wait a few minutes before serving a second portion of food.” 所以等一會才給第二份，也是正確做法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Choose the correct",
+      "prompt": "“Forbidding foods is bad because children…”",
+      "translation": "禁止某些食物是不好的，因為孩子……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is not worth forbidding fattening foods, because forbidding certain foods can make them seem more attractive to children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "禁止致肥食物並不值得，因為禁止某些食物會令它們對孩子看起來更有吸引力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you do decide to offer your child a choice, keep the options to an absolute minimum.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你真的決定給孩子選擇，就把選項減至絕對最少。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 forbidding foods 原字重現於 Paragraph F 第一句。答案句緊接著解釋原因。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is not worth forbidding fattening foods, because forbidding certain foods can make them seem more attractive to children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "禁止致肥食物並不值得，因為禁止某些食物會令它們對孩子看起來更有吸引力。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A will want them even more.正確。seem more attractive to children = children will want them more。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B should be offered a choice of food.錯。Paragraph F 後文說 offering a child a choice of food is generally not a good idea，因為選擇越多，我們往往吃得越多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C should be treated equally.錯。這個概念不在原文中。Paragraph E 說不要 single out your child，意思是不要把某個孩子標籤為問題人物；那不是 forbidding foods 的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Final Answers 14 C 15 G 16 H 17 A 18–22 A, C, D, F, H 23 A, B 24 A, B 25 A 26 A"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Childhood Obesity.pdf",
+    "sha256": "a16defb4a552d08c63e69c9f77336fd352f01ef3df9de5f0ef28a68b7d4e604f",
+    "pageCount": 17
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：Paragraph A–H",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說，如果兒童變得肥胖，身體運作過程可能會改變；末句說即使可以靠飲食和運動減重，過程也會更困難。只看首尾句，可以先估計本段主題是 childhood obesity 對身體長期設定的影響。中間反覆出現 fat cells、created、multiplying、fixed number、swell or shrink，顯示這段核心在脂肪細胞數量如何於童年形成，並影響成年後儲存脂肪的傾向。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說肥胖兒童身上未必立刻看到很多健康問題，但可能發展出日後造成麻煩的情況，例如 high blood pressure。末段說糖尿病不能治癒，只能治療，兒童要終身與它共處，並增加其他問題的風險。只看首尾句，可以判斷本段集中處理 medical consequences，包括 sleep apnoea、heart disease、diabetes、nerve damage、kidney disease 和 blindness，適合定位疾病類題目。"
+      },
+      {
+        "number": "C",
+        "summary": "首句指出 negative body image 可造成 depression 和 social problems，肥胖兒童常被取笑。末句說如果現代文化少一點強調 “perfect body”，至少一組與肥胖相關的問題會消失。只看首尾句，可以先判斷本段處理心理和社交層面的影響。中間的 low self-esteem、biggest problem、comfort eating 是核心，特別適合配 heading “Feeling bad about yourself” 和判斷 low self-esteem 是否重要。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說肥胖成因尚未完全清楚，但科學家清楚知道 genes 和 environment 都有作用。末句說每一口食物中的 calories 增加了。只看首尾句，可估計本段在解釋 obesity 的成因，尤其是近年肥胖增加與環境因素的關係。中間以 firstly、secondly、thirdly、fourthly 列出四個因素：活動量下降、油糖食物更易取得、份量變大、每口熱量增加。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說傳統上，世界各地孩子都被父母要求吃完碟上的所有食物。末句說不要只把某個孩子標籤為有問題，應讓整個家庭一起作出健康生活改變。只看首尾句，可以先判斷本段是 parents’ behaviour advice：不要強迫孩子吃、不要用食物作獎勵、不要責罵孩子肥胖，並應以家庭整體改變取代個別指責。這段對 parent mistakes 題非常重要。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說不值得禁止致肥食物，因為禁止某些食物會令它們對兒童更有吸引力。末句說如果真的要給孩子選擇，選項應減至最少。只看首尾句，可見本段集中講 food environment and choices：教孩子理解食物健康價值，家中建立 healthy food zone，父母自己也要選健康食物。這段很適合處理 forbidding foods、healthy foods、choice of food 等題目。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 weight management camps 可以是治療肥胖的好方法。末句說手術這個選項應該只在所有其他方法都用盡後才考慮。只看首尾句，可以判斷本段主題是 weight reduction / obesity treatment。它同時講 camps 的問題、家庭飲食習慣需要配合、父母詢問 surgery 或 liposuction，以及兒童手術的 serious risks 和 difficult issues，因此 heading “Reducing weight” 最貼近。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說即使孩子年紀很小，父母也可以確保全家改為健康生活方式，毋須特別鎖定減重。末句說15 歲仍超重的人，很可能成年後仍然如此。只看首尾句，可以判斷本段主題是 age and obesity outcome。中間提到 under seven、age eight to ten、older child、15-year-old，清楚顯示年齡會影響治療方式、評估時機和是否會自然長高後改善。"
+      }
+    ]
+  }
+}

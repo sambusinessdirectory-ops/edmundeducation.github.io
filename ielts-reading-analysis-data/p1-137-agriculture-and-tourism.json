@@ -1,0 +1,1606 @@
+{
+  "id": "p1-137-agriculture-and-tourism",
+  "catalogueId": "p1-137",
+  "catalogueIds": [
+    "p1-137"
+  ],
+  "passage": 1,
+  "title": "Agriculture and Tourism",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "answerKey": [
+    "B",
+    "A",
+    "E",
+    "D",
+    "B",
+    "A",
+    "A",
+    "C",
+    "A",
+    "animal rights",
+    "several workshops",
+    "picnic lunch",
+    "Dominican Sisters",
+    "income"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "About half of the tourists would spend several days in Monroe.",
+      "translation": "約有一半遊客會在 Monroe 停留數天。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找哪一段提到「約一半遊客」和「在 Monroe 停留幾天」。定位詞是 “about half”, “several days”, “Monroe”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 40 per cent of the visitors came to Monroe for two- or three-day visits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過 40% 的遊客到 Monroe 進行兩至三天的旅程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They showed less interest in a proposed agricultural tour than Cheese Day visitors, but more interest in a picnic dinner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們對建議中的農業 tour 興趣低於 Cheese Day visitors，但對 picnic dinner 較感興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 很明顯處理 visitor behaviour，包括停留日數、目的、活動興趣和不同visitor groups 的差異。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “several days” 會對應原文 “two- or three-day visits”。“about half” 則對應 “More than 40 per cent”。雖然 40% 多一點未必精確等於 50%，但 IELTS 中 “about half” 可以概括接近一半的比例。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 40 per cent of the visitors came to Monroe for two- or three-day visits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過 40% 的遊客到 Monroe 進行兩至三天的旅程。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "about half = more than 40 per cent several days = two- or three-day visits spend several days in Monroe = came to Monroe for two- or three-day visits"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 有很多 survey 數字，例如 290 visitors、164 visitors、more than one-half、75 per cent，但 Question 1 問停留數天，真正證據在 Paragraph B 的第一句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "Most visitors responded positively to a survey about farm tours.",
+      "translation": "大多數遊客對有關 farm tours 的調查反應正面。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪一段提到 survey，以及多數受訪者對 farm tours 有正面反應。定位詞是 “survey”,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“responded positively”, “farm tours”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A第一句：“Linkages between the Agri-Food Sector and Tourism offer significant opportunities for the development of both sectors within the region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "農產食品業和旅遊業之間的聯繫，為區內兩個產業的發展提供重要機會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 75 per cent of the Cheese Day visitors planned ahead for the trip, with 37 per cent planning at least two months in advance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過 75% 的 Cheese Day visitors 會預先計劃行程，其中 37% 至少提前兩個月計劃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph A 會介紹農業和旅遊結合的市場潛力，並用遊客數據作證。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “responded positively” 在原文改寫成 “responded favourably”。“farm tours” 對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“agricultural tour”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“More than one-half of those surveyed responded favourably to a proposed tour, saying they would be interested in participating in some type of agricultural tour in southwestern Wisconsin.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過一半受訪者對建議中的 tour 反應正面，表示他們有興趣參加 southwestern Wisconsin 某種agricultural tour。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Most visitors = more than one-half of those surveyed responded positively = responded favourably farm tours = agricultural tour"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Most visitors” 在這裡不是指所有 Wisconsin 遊客，而是指 survey 中的 visitors。題目用比較概括的說法，原文用 “those surveyed” 限定範圍。這個範圍仍足以支援題目，因為題目本身也提到survey。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "Cooperation among organisations conducting research on agricultural tours has taken place.",
+      "translation": "研究 agricultural tours 的不同組織之間已經有合作。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找哪一段提到不同 organisations 合作做研究或籌備。定位詞是 “cooperation”,"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“organisations”, “conducting research”, “agricultural tours”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E第一句：“Lewis is conducting the study with Jean Murphy, assistant community development agent.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lewis 正與 assistant community development agent Jean Murphy 一起進行這項研究。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The tours will combine a farm visit with a visit to a local cheese factory and a picnic lunch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 tours 會把 farm visit、local cheese factory visit 和 picnic lunch 結合起來。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph E 從研究團隊開始，最後落到具體 tour 設計，因此本段很可能有合作、籌備和組織參與。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “organisations” 對應原文 “Other participants include...” 後面一串機構名稱。這種題不要只找 “cooperation” 原字，因為原文用列名單的方式表達合作。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other participants include UW-Platteville Agricultural Economist Bob Acton, the Center for Integrated Agricultural Systems, UW-Extension Recreation Resources Center, the Wisconsin Rural Development Center, and Hidden Valleys, a Southwestern Wisconsin regional tourism organisation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他參與者包括 UW-Platteville 的 Agricultural Economist Bob Acton、Center for Integrated Agricultural Systems、UW-Extension Recreation Resources Center、Wisconsin Rural Development Center，以及 Hidden Valleys 這個 southwestern Wisconsin regional tourism organisation。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cooperation among organisations = other participants include several centres / organisations conducting research = Lewis is conducting the study with Jean Murphy agricultural tours = workshops and committees to organise farm tours"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 也提到 lack of a concerted effort，但那裡說的是目前整個行業缺乏協調推廣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 3 問研究和籌備上的組織合作，真正答案在 Paragraph E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "Agricultural tours help tourists understand issues concerning animals and the environment.",
+      "translation": "Agricultural tours 幫助遊客理解與動物和環境有關的議題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要找哪一段提到 animal-related issues 和 environment，並說 farm tours 能幫助 tourists 或consumers 理解農民觀點。定位詞是 “animals”, “environment”, “understand issues”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Farmers feel that urban consumers are out of touch with farming,” Lewis says."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lewis 說，農民覺得城市消費者已經和農業脫節。最後一句：“However, most agricultural tourism enterprises currently market their businesses independently, leading to a lack of a concerted effort to promote agricultural tourism as an industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，目前大多數 agricultural tourism enterprises 都各自獨立推廣業務，導致缺乏把 agricultural tourism 作為一個行業整體推廣的合力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段一方面講城市消費者與農業脫節，另一方面講農業旅遊行業推廣不足。中間很可能解釋 farm tours 的教育作用。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “animals” 對應原文 “Animal rights”。“environment” 原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Animal rights and the environment are examples of two issues that concern both urban consumers and farmers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Animal rights 和 environment 是兩個同時令城市消費者和農民關注的議題例子。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Farm tours could help consumers get the farmer’s perspective on these issues, Lewis notes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Lewis 指出，farm tours 可以幫助消費者了解農民對這些議題的觀點。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "issues concerning animals = animal rights tourists understand = consumers get the farmer’s perspective agricultural tours = farm tours"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “tourists”，原文用 “consumers”。在這段語境中，farm tours 的參加者就是城市consumers / tourists，因此這個概括可以成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "B — Picnic visitors",
+      "answerKey": "B — Picnic visitors",
+      "type": "Visitor Categories",
+      "prompt": "have a specific destination",
+      "translation": "有一個特定目的地／特定前往目的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 40 per cent of the visitors came to Monroe for two- or three-day visits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過 40% 的遊客到 Monroe 作兩至三天旅程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They showed less interest in a proposed agricultural tour than Cheese Day visitors, but more interest in a picnic dinner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們對建議中的 agricultural tour 興趣低於 Cheese Day visitors，但對 picnic dinner 較感興趣。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “specific destination” 可用原文 “came specifically” 定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Picnic visitors came specifically to see the Chicago Bears practice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Picnic visitors 是特地來看 Chicago Bears practice 的。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "have a specific destination / purpose = came specifically to see Picnic visitors = B"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Cheese Day visitors 也到 Monroe，但原文特別用 “specifically” 描述 Picnic visitors。這個副詞正是控制答案的訊號。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "A — Cheese Festival visitors",
+      "answerKey": "A — Cheese Festival visitors",
+      "type": "Visitor Categories",
+      "prompt": "mostly plan well before travelling",
+      "translation": "大多會在出發前提早計劃。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Linkages between the Agri-Food Sector and Tourism offer significant opportunities for the development of both sectors within the region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "農產食品業和旅遊業之間的聯繫，為區內兩個產業提供重要發展機會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 75 per cent of the Cheese Day visitors planned ahead for the trip, with 37 per cent planning at least two months in advance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過 75% 的 Cheese Day visitors 會預先計劃行程，其中 37% 至少提前兩個月計劃。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mostly” 對應 “More than 75 per cent”。“plan well before travelling” 對應 “planned ahead” 和 “at least two months in advance”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文最後一句已直接給出答案。 More than 75 per cent 是大多數；planned ahead 表示提早計劃；Cheese Day visitors 對應Cheese Festival visitors。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "mostly = more than 75 per cent well before travelling = planned ahead / at least two months in advance Cheese Festival visitors = Cheese Day visitors"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 也講 visitors 的 trips，但沒有說 Picnic visitors 多數提前計劃。這題要回到Paragraph A 的最後一句。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "A — Cheese Festival visitors",
+      "answerKey": "A — Cheese Festival visitors",
+      "type": "Visitor Categories",
+      "prompt": "are comparatively less interested in a picnic meal",
+      "translation": "相對較不感興趣於 picnic meal。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 40 per cent of the visitors came to Monroe for two- or three-day visits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過 40% 的遊客到 Monroe 作兩至三天旅程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They showed less interest in a proposed agricultural tour than Cheese Day visitors, but more interest in a picnic dinner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們對建議中的 agricultural tour 興趣低於 Cheese Day visitors，但對 picnic dinner 較感興趣。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “comparatively less interested” 表示要找兩組比較。原文 “but more interest in a picnic dinner” 顯示 Picnic visitors 對 picnic dinner 較感興趣。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “They” 指前一句的 Picnic visitors。句子說 Picnic visitors 對 picnic dinner 有 more interest。題目問哪一組 comparatively less interested in a picnic meal。既然 Picnic visitors 較有興趣，相對較低興趣的一組就是 Cheese Festival visitors。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "picnic meal = picnic dinner comparatively less interested = the other group is more interested Cheese Festival visitors = A"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易直接看到 “picnic dinner” 就選 Picnic visitors。可是題目問的是 less interested，不是more interested。要先看比較方向。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "C — Both groups",
+      "answerKey": "C — Both groups",
+      "type": "Visitor Categories",
+      "prompt": "show interest in activities such as touring factories and visiting fruit farms",
+      "translation": "對參觀工廠和水果農場等活動有興趣。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Linkages between the Agri-Food Sector and Tourism offer significant opportunities for the development of both sectors within the region.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "農產食品業和旅遊業之間的聯繫，為兩個產業帶來重要機會。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 75 per cent of the Cheese Day visitors planned ahead for the trip, with 37 per cent planning at least two months in advance.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過 75% 的 Cheese Day visitors 會預先計劃行程，其中 37% 至少提前兩個月計劃。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“touring factories” 對應 “visit cheese factories” 和 “sausage processing plants”。“fruit farms” 對應 “speciality farms (strawberries, cranberries...)”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文先說：“In 1990, agricultural tourism project members surveyed 290 visitors to the annual Monroe Cheese Festival and 164 visitors to the Picnic on the Farm...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1990 年，agricultural tourism project members 調查了 290 名 Monroe Cheese Festival 遊客和164 名 Picnic on the Farm 遊客。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Survey respondents reported that they would prefer to visit cheese factories, sausage processing plants, dairy farms, and historical farm sites...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "受訪者表示，他們較想參觀 cheese factories、sausage processing plants、dairy farms 和historical farm sites。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The study also found strong interest in visiting speciality farms (strawberries, cranberries, poultry, etc.).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究也發現受訪者對參觀 speciality farms 有強烈興趣，例如 strawberries、cranberries、poultry等。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "touring factories = visit cheese factories / sausage processing plants fruit farms = speciality farms such as strawberries and cranberries survey respondents = visitors from both surveyed events所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "如果只看 Cheese Day 的名稱，可能以為只有 Cheese Festival visitors 對 factories 有興趣。但原文的 survey respondents 來自兩組活動，因此本題選 Both groups 更穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "A — Cheese Festival visitors",
+      "answerKey": "A — Cheese Festival visitors",
+      "type": "Visitor Categories",
+      "prompt": "are willing to consider a variety of tour proposals",
+      "translation": "願意考慮多種 tour proposals。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than 40 per cent of the visitors came to Monroe for two- or three-day visits.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "超過 40% 的遊客到 Monroe 作兩至三天旅程。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They showed less interest in a proposed agricultural tour than Cheese Day visitors, but more interest in a picnic dinner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們對建議中的 agricultural tour 興趣低於 Cheese Day visitors，但對 picnic dinner 較感興趣。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“variety of tour proposals” 直接對應原文 “various tour proposals”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：“For example, visitors to Cheese Days said they were on a holiday and appeared to be more open to various tour proposals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，Cheese Days 的遊客說他們正在度假，而且似乎更願意接受不同 tour proposals。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "willing to consider = more open to a variety of tour proposals = various tour proposals Cheese Festival visitors = Cheese Days visitors"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Picnic visitors 也對 picnic dinner 有興趣，但原文說他們對 proposed agricultural tour 較低興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 various tour proposals，因此答案落在 Cheese Festival visitors。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "animal rights",
+      "answerKey": "animal rights",
+      "type": "Summary Completion",
+      "prompt": "“Through farm tours, visitors can better understand significant issues such as 10_________________ and the environment.”",
+      "translation": "透過 farm tours，遊客可以更理解重要議題，例如 ____________ 和環境。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “such as ___ and the environment” 中，應填一個名詞短語，和 “the environment” 並列。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制是 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D。首句說 farmers feel urban consumers are out of touch with farming，尾句說 agricultural tourism 缺乏整體推廣。這段中間自然會講 farm tours 如何讓城市消費者理解農業議題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目有 “issues” 和 “environment”。原文直接有 “Animal rights and the environment are examples of two issues...”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Animal rights and the environment are examples of two issues that concern both urban consumers and farmers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Animal rights 和 environment 是兩個同時令城市消費者和農民關注的議題例子。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "significant issues = issues that concern both urban consumers and farmers visitors can better understand = consumers get the farmer’s perspective答案是 animal rights。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式animal rights 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "several workshops",
+      "answerKey": "several workshops",
+      "type": "Summary Completion",
+      "prompt": "“In autumn, Murphy organised 11 _________________ and brought other participants together to develop the local tourism market.”",
+      "translation": "在秋天，Murphy 組織了 ____________，並把其他參與者聚在一起發展本地旅遊市場。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “organised ___” 後，需要名詞或名詞短語。字數限制是兩字內。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。首句說 Lewis 和 Jean Murphy conducting the study，尾句說 tours 會結合 farm visit、cheese factory 和 picnic lunch。本段重點是研究合作和具體籌備。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “In autumn” 對應原文 “This past fall”。“Murphy organised” 原字重現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“This past fall, Murphy organised several workshops with some Green and Grant County farmers, local business leaders, and motor coach tour operators...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年秋天，Murphy 與一些 Green and Grant County farmers、local business leaders 和 motor coach tour operators 組織了幾場 workshops。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "In autumn = This past fall organised = organised brought other participants together = with farmers, business leaders, and tour operators答案是 several workshops。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式several workshops 是兩個字，符合 NO MORE THAN TWO WORDS。只填 workshops 也能通，但 several workshops 更貼近原文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "picnic lunch",
+      "answerKey": "picnic lunch",
+      "type": "Summary Completion",
+      "prompt": "“Larry Lindgren said the farmers already had experience of farm tours involving a factory visit and a 12 _________________.”",
+      "translation": "Larry Lindgren 說，這些農民已經有 farm tours 經驗，內容包括 factory visit 和一個____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 “a”，後面要填單數名詞短語。題目中的 “factory visit” 對應 “visit to a local cheese factory”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E。這段後半講 Green County farmers 已有 hosting visitors 的經驗，也準備明年推行更正式的 agricultural tours。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Larry Lindgren”, “factory visit”。原文直接出現 “Green County Tourism Director Larry Lindgren” 和 “local cheese factory”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The tours will combine a farm visit with a visit to a local cheese factory and a picnic lunch.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些 tours 會把 farm visit、local cheese factory visit 和 picnic lunch 結合起來。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "factory visit = visit to a local cheese factory a picnic meal = a picnic lunch答案是 picnic lunch。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式picnic lunch 是兩個字，前面可接 “a”：a picnic lunch。符合字數限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "Dominican Sisters",
+      "answerKey": "Dominican Sisters",
+      "type": "Summary Completion",
+      "prompt": "“At Sinsinawa, a large farm containing an orchard, cows and other livestock is managed and operated by 13 _________________.”",
+      "translation": "在 Sinsinawa，一個有 orchard、cows 和其他 livestock 的大農場，由 ____________ 管理和營運。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “by” 後，需要人或組織名稱。題目有強定位詞 “Sinsinawa”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F。首句介紹 Sinsinawa farm，尾句說 farmers 可以從 products、crafts 和recreational activities 中得到額外收入。這段會提供 Sinsinawa 的基本資料和農業旅遊收入潛力。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “Sinsinawa” 原字重現。原文第一句直接說明由誰經營。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another farm interested in hosting an organised tour is Sinsinawa, a 200-acre Grant County farm devoted to sustainable agriculture and run by the Dominican Sisters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一個有興趣舉辦 organised tour 的農場是 Sinsinawa，這是一個 200-acre 的 Grant County farm，致力於 sustainable agriculture，並由 Dominican Sisters 經營。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "managed and operated by = run by large farm = 200-acre farm答案是 Dominican Sisters。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式Dominican Sisters 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "answer": "income",
+      "answerKey": "income",
+      "type": "Summary Completion",
+      "prompt": "“Lewis said the project would probably provide local farmers with extra 14_________________.”",
+      "translation": "Lewis 說，這個 project 可能會為本地 farmers 提供額外 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “extra ___” 後，需要名詞。題目中的 “extra” 很可能改寫原文的 “additional” 或"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“supplement”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F。段落前半介紹 Sinsinawa 和可結合的周邊活動；後半轉到 farm tours 對farmers 的收入幫助。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Lewis”, “project”, “local farmers”, “extra”。原文有 “supplement incomes” 和“additional income”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：“The project will help expose farmers to the tourism industry and farm vacations as a way to possibly supplement incomes, he adds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他補充說，這個 project 會幫助 farmers 接觸旅遊業和 farm vacations，作為可能補充收入的一種方式。"
+            },
+            {
+              "kind": "label",
+              "text": "後面又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Farmers could earn additional income through the sale of farm products, crafts, and recreational activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Farmers 可以透過銷售 farm products、crafts 和 recreational activities 賺取 additional income。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "extra = additional provide farmers with extra income = supplement incomes / earn additional income答案是 income。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式income 是一個字，放入 “extra income” 後文法自然，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Agriculture and Tourism.pdf",
+    "sha256": "e3478c07381fb41629da1fac9fe6bb27d86d0cf741251173c345835edc64c1d2",
+    "pageCount": 16
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句先提出 agri-food sector 和 tourism 之間的 linkage 可以為區內兩個產業帶來重要發展機會。段尾轉到 Cheese Day visitors 的行前規劃，說超過 75% 會預先計劃行程，37% 更至少提前兩個月。只看首尾句，可以先估計本段會介紹農業旅遊的潛力，並用 Wisconsin 的遊客調查證明市場有興趣、有計劃能力，也有可開發的旅遊需求。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說超過 40% 的 visitors 到 Monroe 會停留兩至三天。段尾比較 Picnic visitors 和 Cheese Day visitors：前者主要為了 Chicago Bears practice 而來，對農業 tour 興趣較低，但對 picnic dinner 較感興趣。只看首尾句，可見本段重點是分析不同活動遊客的旅遊目的、停留時間、消費意願，以及不同 visitor groups 對 tour proposals 的反應差異。"
+      },
+      {
+        "number": "C",
+        "summary": "首句直接列出 agricultural tourism 的三個主要 audience：老人巴士團、家庭，以及本身與農業有關的人，包括國際遊客。段尾說 farmers 對 agricultural tours 的教育功能和財務回報同樣感興趣。只看首尾句，可以判斷本段會由「目標客群」轉到「教育意義」：農業旅遊可讓城市遊客理解農民面對的問題，也讓農民有機會解釋自己的行業處境。"
+      },
+      {
+        "number": "D",
+        "summary": "首句引用 Lewis 的說法：farmers 覺得 urban consumers 已經和 farming 脫節。段尾指出，現時多數 agricultural tourism enterprises 各自獨立推廣，因此缺乏整體行業推廣力量。只看首尾句，可以估計本段先講 farm tours 的教育和政策意義，再指出現有農業旅遊欠缺 coordinated marketing。中間的 animal rights 和 environment 會是城市消費者與農民共同關注的議題例子。"
+      },
+      {
+        "number": "E",
+        "summary": "首句交代 Lewis 和 Jean Murphy 正在進行研究，並列出其他參與者。段尾說 Green County farmers 明年準備推行更正式的 agricultural tours，內容會結合 farm visit、local cheese factory 和picnic lunch。只看首尾句，可以先判斷本段主要講研究合作和實際籌備：不同機構、農民、商界和旅遊業者一起設計 farm tours，並成立 committees 研究景點、資源、行銷和導賞熟悉行程。"
+      },
+      {
+        "number": "F",
+        "summary": "首句介紹 Sinsinawa，這是一個 200-acre、由 Dominican Sisters 經營、重視 sustainable agriculture 的 Grant County farm。段尾說 farmers 可透過 farm products、crafts 和 recreational activities 賺取額外收入。只看首尾句，可以判斷本段用 Sinsinawa 作例子，說明 farm tours 可結合附近景點，也可讓農民接觸旅遊業，雖然收入未必很高，但仍可補充家庭收入。"
+      }
+    ]
+  }
+}

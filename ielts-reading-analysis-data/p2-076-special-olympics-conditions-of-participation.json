@@ -1,0 +1,1537 @@
+{
+  "id": "p2-076-special-olympics-conditions-of-participation",
+  "catalogueId": "p2-076",
+  "catalogueIds": [
+    "p2-076"
+  ],
+  "passage": 2,
+  "title": "Special Olympics Conditions of Participation",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "TRUE",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "B",
+    "C",
+    "D",
+    "A",
+    "C",
+    "F"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“To be eligible to take part in the Special Olympics, an athlete must have below-average intellectual functioning and limitations in at least two adaptive-skill areas.”",
+      "translation": "要符合 Special Olympics 參加資格，運動員必須有低於平均的智力功能，並且在至少兩個適應技能範疇有局限。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。這題要判斷 eligibility 條件和 intellectual disability 定"
+            },
+            {
+              "kind": "paragraph",
+              "text": "義是否一致。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Opening Paragraph"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To be eligible for participation in the Special Olympics, an individual with an intellectual disability must agree to observe and abide by the SOC Sports Rules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要符合 Special Olympics 參加資格，intellectual disability 參加者必須同意遵守 SOC Sports Rules。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The following four assumptions are essential to the application of the definition:”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以下四個假設，對應用這個定義十分重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段在講 eligibility 和 definition。題目問 “eligible” 和 intellectual functioning，所以這段是最合理的目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “below-average intellectual functioning” 和 “two adaptive-skill areas”。原文對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "是 “significantly sub-average intellectual functioning” 以及 “limitations in two or more ... adaptive skill areas”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is characterised by significantly sub-average intellectual functioning, existing concurrently with related limitations in two or more of the following applicable adaptive skill areas...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它的特徵是明顯低於平均的智力功能，並同時在以下適用的適應技能範疇中，有兩項或以上相關限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "below-average intellectual functioning= significantly sub-average intellectual functioning at least two adaptive-skill areas= two or more adaptive skill areas題目沒有把原文所有條件全部列出，例如 age 18 前出現和遵守 sports rules，但它列出的兩個條件都得到原文支援。題目方向和原文一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“People with intellectual disabilities never improve their lives.”",
+      "translation": "有 intellectual disabilities 的人永遠不會改善自己的生活。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。控制詞是 “never”，非常絕對。要找原文有沒有直接相"
+            },
+            {
+              "kind": "paragraph",
+              "text": "反的改善可能。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Assumptions 1–4"
+            },
+            {
+              "kind": "label",
+              "text": "第一點："
+            },
+            {
+              "kind": "quote",
+              "text": "“Valid assessment considers cultural and linguistic diversity as well as differences in communication and behavioural factors.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有效評估會考慮文化和語言多樣性，也會考慮溝通和行為因素上的差異。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一點："
+            },
+            {
+              "kind": "quote",
+              "text": "“With appropriate support over a sustained period, the life functioning of the person with mental retardation will generally improve.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在持續一段時間的適當支援下，這類人士的生活功能一般會改善。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看第一和最後一點，可以知道這部分在說如何正確理解限制，以及人可以在支援下改善。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “improve their lives”。原文沒有用 lives improve，但有 “life functioning ... will"
+            },
+            {
+              "kind": "paragraph",
+              "text": "generally improve”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“With appropriate support over a sustained period, the life functioning of the person with mental retardation will generally improve.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在適當而持續的支援下，這類人士的生活功能一般會改善。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “never improve”，原文說 “will generally improve”。這是明確相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "never = 永遠不會； will generally improve = 一般會改善。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “never” 製造絕對化陷阱。IELTS Reading 中，never、always、all 這類字要特別小"
+            },
+            {
+              "kind": "paragraph",
+              "text": "心；只要原文提供一個相反方向，答案通常就會變成 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“All people with intellectual disabilities need the written permission of a parent or guardian in order to participate.”",
+      "translation": "所有有 intellectual disabilities 的人，都需要父母或監護人的書面許可才可以參加。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。控制詞是 “All people”。要檢查 written permission 是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "否適用於所有 intellectual disabilities participants，還是只適用於某些特殊情況。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：General Participation Policy Paragraph + Section B"
+            },
+            {
+              "kind": "label",
+              "text": "General policy paragraph 第一相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Special Olympics was created and developed to give individuals with an intellectual disability the opportunity to train and compete in sporting activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Special Olympics 的創立和發展，是為了給 intellectual disability individuals 訓練和參與體育比賽的機會。"
+            },
+            {
+              "kind": "label",
+              "text": "Section B 第 3 點相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...such athlete shall be allowed to participate in the activities listed in 1) above only if the athlete submits written certification from two physicians combined with an acknowledgment of the risks signed by the adult athlete or their parent or guardian if the athlete is a minor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這名運動員只有在提交兩名醫生的書面證明，並連同風險確認書後，才可參與第 1 點列出的活動；若運動員是成年人，由本人簽署；若是未成年人，則由父母或監護人簽署。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “written permission”、“parent or guardian”、“All people”。原文最接近的是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section B 第 3 點的 “acknowledgment of the risks signed by ... parent or guardian if the athlete is a minor”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文的條件有幾層限制："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一，這只針對 “any individual diagnosed as having atlantoaxial instability”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，只針對 Section B 第 1 點列出的高風險活動，例如 soccer、artistic gymnastics、diving 等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，若 athlete 是 adult，風險確認由 adult athlete 自己簽署；只有 minor 才由 parent or guardian 簽署。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把這個特殊規則擴大成 “All people with intellectual disabilities”。原文範圍較窄，題目範圍過大，並且 adult athlete 可自行簽署。答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Participants with Down syndrome often excel in their chosen field of athletic activity.”",
+      "translation": "Down syndrome 參加者經常在自己選擇的運動領域表現優秀。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。要找原文有沒有談 Down syndrome participants 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "athletic performance，例如 excel、perform well、win、achieve 等。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section A"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is evidence from medical research that up to 15 per cent of individuals with Down syndrome have a defect in the cervical vertebrae C-1 and C-2 in the neck.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "醫學研究證據顯示，最多 15% 的 Down syndrome individuals，在頸部 C-1 和 C-2 頸椎有缺陷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This condition exposes individuals with Down syndrome to a heightened risk of a neck injury if they participate in activities that hyperextend or radically flex the neck or upper spine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果他們參與會令頸部或上脊椎過度伸展或劇烈彎曲的活動，這種情況會使 Down syndrome individuals 面對更高頸部受傷風險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Section A 的功能是醫療風險說明，並非運動表現評價。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Down syndrome” 和 “excel”。Down syndrome 在 Section A / B 出現很多次，但"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“excel” 或同義詞如 outstanding、perform better、successful、win 沒有出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "文章只提供以下資訊："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Down syndrome individuals 中有一部分可能有 atlantoaxial instability；某些運動可能增加 neck injury 風險；部分活動需要暫時限制或醫生證明。這些資料都和安全、限制、醫療檢查有關。題目加入了 “often excel in their chosen field”，原文沒有提供這項運動表現資料。原文也沒有說他們不會 excel，所以不能判 FALSE。資料缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“People with Down syndrome cannot participate in any swimming events.”",
+      "translation": "Down syndrome 人士不能參加任何游泳項目。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。控制詞是 “any swimming events”。要檢查原文是否"
+            },
+            {
+              "kind": "paragraph",
+              "text": "禁止所有 swimming，還是只限制某些 swimming activities。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section B, point 1"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Accredited Programmes may allow all individuals with Down syndrome to continue in most Special Olympics sports training and competition activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "認可項目可以容許所有 Down syndrome individuals 繼續參與大部分 Special Olympics 體育訓練和比賽活動。"
+            },
+            {
+              "kind": "label",
+              "text": "相關限制句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such sports training and competition activities include: the butterfly stroke and diving starts in swimming, diving, pentathlon, high jump, equestrian sports, artistic gymnastics, soccer, alpine skiing and any warm-up exercise placing undue stress on the head and neck.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這類受限制的訓練和比賽活動包括：游泳中的蝶式和跳水式出發、跳水、五項全能、跳高、馬術、藝術體操、足球、高山滑雪，以及任何對頭部和頸部造成過度壓力的熱身活動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Down syndrome”、“swimming events”。原文出現 “the butterfly stroke and diving"
+            },
+            {
+              "kind": "paragraph",
+              "text": "starts in swimming”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文沒有禁止所有 swimming events。它只列出 “butterfly stroke and diving starts in"
+            },
+            {
+              "kind": "paragraph",
+              "text": "swimming” 作為可能導致 neck / upper spine 風險的活動。前一句還說 Down syndrome individuals 可以繼續大部分 Special Olympics sports training and competition activities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把部分 swimming activities 擴大成 “any swimming events”。這和原文不一致，所以答案是FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“If you have Down syndrome, your neck may be at risk of damage in certain sports.”",
+      "translation": "如果你有 Down syndrome，在某些運動中頸部可能有受傷風險。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。關鍵詞是 “may be at risk”、“neck”、“certain sports”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section A"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is evidence from medical research that up to 15 per cent of individuals with Down syndrome have a defect in the cervical vertebrae C-1 and C-2 in the neck.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "醫學研究證據顯示，最多 15% 的 Down syndrome individuals 在頸部 C-1 和 C-2 頸椎有缺陷。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This condition exposes individuals with Down syndrome to a heightened risk of a neck injury if they participate in activities that hyperextend or radically flex the neck or upper spine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果他們參與會令頸部或上脊椎過度伸展或劇烈彎曲的活動，這種情況會令 Down syndrome individuals 面對較高頸部受傷風險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Down syndrome”、“neck”、“risk”。原文三個元素都直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “may be at risk”，語氣較保守。原文說 “heightened risk of a neck injury”，意思更明"
+            },
+            {
+              "kind": "paragraph",
+              "text": "確。題目中的 “certain sports” 對應 Section B 列出的特定項目，例如 butterfly stroke、diving starts、artistic gymnastics、soccer、alpine skiing 等。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "neck may be at risk of damage= heightened risk of a neck injury certain sports= activities that hyperextend or radically flex the neck or upper spine題目方向和原文一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Participation in sports helps people with intellectual disabilities to improve their communication and social skills.”",
+      "translation": "參與運動能幫助 intellectual disabilities 人士改善溝通和社交技能。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN。這題看起來合理，但要檢查文章有沒有把 sports"
+            },
+            {
+              "kind": "paragraph",
+              "text": "participation 和 communication / social skills improvement 連成因果。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Opening Paragraph + General Participation Policy Paragraph"
+            },
+            {
+              "kind": "label",
+              "text": "Opening Paragraph 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“...related limitations in two or more of the following applicable adaptive skill areas: communication, self-care, home living, social skills...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在以下適用的適應技能範疇中，有兩項或以上相關限制：溝通、自我照顧、家居生活、社交技能等。"
+            },
+            {
+              "kind": "label",
+              "text": "General policy 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Special Olympics was created and developed to give individuals with an intellectual disability the opportunity to train and compete in sporting activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Special Olympics 的創立和發展，是為了給 intellectual disability individuals 訓練和參與體育活動的機會。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “sports helps”、“improve communication and social skills”。原文有 sports"
+            },
+            {
+              "kind": "paragraph",
+              "text": "opportunity，也有 communication / social skills，但沒有 “sports improves these skills” 這條因果鏈。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "文章確實說 communication 和 social skills 是 adaptive skill areas，也說 Special Olympics"
+            },
+            {
+              "kind": "paragraph",
+              "text": "提供 training and competition opportunities。另外，assumption 4 提到適當支援可改善 life functioning。可是題目需要更具體的結論：參與運動會改善 communication and social skills。原文沒有直接說明這點，也沒有用研究結果或政策目標建立這條關係。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易用常識補答案。現實中運動可能促進社交，但 IELTS Reading 要依文章證據。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章有相關背景，缺少題目要求的因果結論。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "B — to provide information for future candidates.",
+      "answerKey": "B — to provide information for future candidates.",
+      "type": "Multiple Choice",
+      "prompt": "Question 21",
+      "translation": "這份 Special Olympics 文件其中一個目的，是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“What was one objective of the Special Olympics document?”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple Choice。這題問整份文件目的，要看文章的功能：它主要解釋誰有資格參"
+            },
+            {
+              "kind": "paragraph",
+              "text": "加、參加規則、醫療限制和用語說明。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標範圍：全文，尤其 Opening Paragraph 和 Section B"
+            },
+            {
+              "kind": "label",
+              "text": "Opening Paragraph 第一相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“To be eligible for participation in the Special Olympics, an individual with an intellectual disability must agree to observe and abide by the SOC Sports Rules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要符合 Special Olympics 參加資格，intellectual disability 參加者必須同意遵守 SOC Sports Rules。"
+            },
+            {
+              "kind": "label",
+              "text": "Section B 相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“SOC temporarily restricts individuals with Down syndrome from participation in certain activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "SOC 暫時限制 Down syndrome individuals 參與某些活動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “objective” 要找文件整體功能。全文大量使用 eligible、participation、may"
+            },
+            {
+              "kind": "paragraph",
+              "text": "participate、shall not be permitted、restriction、certification、parents / guardians 等規則詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這份文件的主要作用是提供參加條件和限制，例如 intellectual disability 定義、不得歧視、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "eligibility 可由地方機構判斷、Down syndrome 參加者在某些活動前需檢查或文件。這些資訊對future candidates 或其家長、教練、機構最有用。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “inform the public about what they are to expect from the Special Olympics” 太籠統；文章焦點不是觀眾或一般公眾的期待。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確，因為全文圍繞 eligibility and participation conditions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “promote awareness...” 有部分背景味道，但文章主要不是宣傳社會意識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “list the problems...” 太狹窄，文章有定義和限制，不只是列問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "C — In most cases, the cause of the condition cannot be determined.",
+      "answerKey": "C — In most cases, the cause of the condition cannot be determined.",
+      "type": "Multiple Choice",
+      "prompt": "Question 22",
+      "translation": "文章對 intellectual disability 說了甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“What does the passage say about intellectual disability?”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple Choice。定位詞是 intellectual disability、cause、inherited、race、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "background。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Final Paragraph"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People with intellectual disabilities constitute one of the largest groups of citizens with disabilities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有 intellectual disabilities 的人士構成 disabled citizens 中最大群體之一。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“About 87 per cent of people with intellectual disabilities have mild disabilities and in many respects are indistinguishable from people who do not have intellectual disabilities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "約 87% 的 intellectual disabilities 人士屬 mild disabilities，在很多方面和沒有 intellectual disabilities 的人難以分辨。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段處理規模、分布、成因和嚴重程度。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 C 的定位詞是 “cause cannot be determined”。原文對應 “in three-quarters of the"
+            },
+            {
+              "kind": "paragraph",
+              "text": "cases the specific cause is unknown”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are well over 350 causes of intellectual disability and in three-quarters of the cases the specific cause is unknown.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "intellectual disability 的原因超過 350 種，而在四分之三的個案中，具體原因不明。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "in most cases= in three-quarters of the cases cause cannot be determined= the specific cause is unknown錯項分析： A 錯，因為原文說 hereditary components 只解釋 a fraction of cases。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 錯，因為 “one of the largest groups” 不等於多於 physical disabilities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 錯，因為原文說它 cuts across race、education、social or economic background，意思是不限於這些背景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "D — non-discriminatory.",
+      "answerKey": "D — non-discriminatory.",
+      "type": "Multiple Choice",
+      "prompt": "Question 23",
+      "translation": "哪個詞最能形容 Special Olympics 的參與政策？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“What word best describes the Special Olympics participation policy?”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple Choice。要找政策態度。定位詞是 participation policy，最可能在 general"
+            },
+            {
+              "kind": "paragraph",
+              "text": "participation paragraph。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：General Participation Policy Paragraph"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The term ‘mental retardation’ is a diagnostic term used to describe the condition defined above.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“mental retardation” 是一個診斷詞，用來描述上文定義的情況。最後一句：“Individuals who have both an intellectual disability and multiple disabilities may participate in Special Olympics programmes and competitions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時有 intellectual disability 和 multiple disabilities 的人士，可以參加 Special Olympics programmes and competitions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段討論用語、參加資格和參與政策。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “policy”。原文中最強政策句是 “No person shall ... be excluded...” 以及"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Inclusion is preferred to exclusion”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“No person shall, on the grounds of gender, race, religion, colour, national origin or financial constraint be excluded from participation in, or be denied the benefits of, or otherwise be subjected to discrimination under any programme or activity of Special Olympics.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何人不得因性別、種族、宗教、膚色、國籍或經濟限制，而被排除參與、被剝奪利益，或在任何Special Olympics 項目或活動中受到歧視。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Inclusion is preferred to exclusion when eligibility is in question.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當參加資格有疑問時，優先採取包含，而非排除。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句清楚顯示政策是 non-discriminatory，即非歧視、包容取向。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A inconsistent：原文說地方有彈性，但不代表政策前後矛盾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B ambiguous：有些 eligibility 交由地方判斷，但文章仍列出清楚原則。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C controversial：文章沒有說有爭議。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 最貼近 no discrimination 和 inclusion preferred。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "A、C、F",
+      "answerKey": "A、C、F",
+      "type": "Choose THREE",
+      "prompt": "Questions 24–26",
+      "translation": "以下哪三項關於 Down syndrome 的事實在文中被提到？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目問："
+            },
+            {
+              "kind": "quote",
+              "text": "“Which THREE of the following facts relating to Down syndrome are mentioned?”"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型與任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Choose THREE。每個正確選項都要獨立有原文支持。目標段落主要是 Section A 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Section B。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Section A + Section B"
+            },
+            {
+              "kind": "label",
+              "text": "Section A 第一相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is evidence from medical research that up to 15 per cent of individuals with Down syndrome have a defect in the cervical vertebrae C-1 and C-2 in the neck.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "醫學研究證據顯示，最多 15% 的 Down syndrome individuals 在頸部 C-1 和 C-2 頸椎有缺陷。"
+            },
+            {
+              "kind": "label",
+              "text": "Section B 第一相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“SOC temporarily restricts individuals with Down syndrome from participation in certain activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "SOC 暫時限制 Down syndrome individuals 參與某些活動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩句，可以估計答案會和比例、頸椎風險、限制活動、醫生檢查、風險確認有關。"
+            },
+            {
+              "kind": "label",
+              "text": "Option A A："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is thought that about one person with Down syndrome in every seven has atlantoaxial instability.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據認為，大約每七名 Down syndrome 人士中有一人有 atlantoaxial instability。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is evidence from medical research that up to 15 per cent of individuals with Down syndrome have a defect in the cervical vertebrae C-1 and C-2 in the neck.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "醫學研究證據顯示，最多 15% 的 Down syndrome individuals 在頸部 C-1 和 C-2 頸椎有缺陷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "15% 約等於每 6.7 人中 1 人，所以 “about one person ... in every seven” 是合理改寫。選項 A 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "Option C C："
+            },
+            {
+              "kind": "quote",
+              "text": "“Minors with Down syndrome and atlantoaxial instability need permission from a guardian to play soccer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有 Down syndrome 且有 atlantoaxial instability 的未成年人，要參加 soccer，需要監護人同意。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such sports training and competition activities include: ... soccer...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "這類受限制的訓練和比賽活動包括……足球……原文證據二："
+            },
+            {
+              "kind": "quote",
+              "text": "“...such athlete shall be allowed to participate in the activities listed in 1) above only if the athlete submits written certification from two physicians combined with an acknowledgment of the risks signed by the adult athlete or their parent or guardian if the athlete is a minor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這名運動員只有在提交兩名醫生的書面證明，並有風險確認書後，才可參與第 1 點列出的活動；若運動員是未成年人，風險確認書由父母或監護人簽署。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "soccer 在第 1 點列表中，minor 需要 parent or guardian 簽署風險確認。選項 C 正確。要留意，原文還要求兩名醫生的 written certification；選項 C 只抽出 guardian permission 這一部分，但沒有和原文衝突。"
+            },
+            {
+              "kind": "label",
+              "text": "Option F F："
+            },
+            {
+              "kind": "quote",
+              "text": "“Athletes with Down syndrome can take part in sports that do not directly affect the neck or spine without any preconditions being fulfilled.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Down syndrome 運動員可以參與不會直接影響頸部或脊椎的運動，不需要先完成那些特別條件。"
+            },
+            {
+              "kind": "label",
+              "text": "原文證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“Accredited Programmes may allow all individuals with Down syndrome to continue in most Special Olympics sports training and competition activities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "認可項目可以容許所有 Down syndrome individuals 繼續參與大部分 Special Olympics 體育訓練和比賽活動。"
+            },
+            {
+              "kind": "label",
+              "text": "再看限制："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, such individuals shall not be permitted to participate in sports training and competitions which, by their nature, result in hyperextension, radical flexion or direct pressure on the neck or upper spine.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，他們不得參與那些本質上會導致頸部或上脊椎過度伸展、劇烈彎曲或受到直接壓力的訓練和比賽。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示特別限制針對 neck / upper spine 受壓的活動。其他大部分活動可繼續參與。選項 F 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "Incorrect Options B："
+            },
+            {
+              "kind": "quote",
+              "text": "“A person with Down syndrome cannot participate in any winter competitions.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文只列出 alpine skiing，沒有禁止所有 winter competitions。這是過度概括。"
+            },
+            {
+              "kind": "label",
+              "text": "D："
+            },
+            {
+              "kind": "quote",
+              "text": "“People with Down syndrome are unable to flex the upper spine.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說某些活動會 radically flex the neck or upper spine，並造成風險；它沒有說 Down syndrome 人士不能彎曲上脊椎。"
+            },
+            {
+              "kind": "label",
+              "text": "E："
+            },
+            {
+              "kind": "quote",
+              "text": "“Athletes with Down syndrome need to wear a neck brace to participate in the Special Olympics.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 neck brace 這項要求。文章提到的是 X-ray views、physician examination、written certification 和 risk acknowledgment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Questions 24–26 的答案是 A、C、F。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        24,
+        25,
+        26
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Special Olympics Conditions of Participation.pdf",
+    "sha256": "59f2b8c9650439f56aa214e574181aa4d78584ac8ba2eb98f655105f7c45df42",
+    "pageCount": 17
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Step 1：全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "四個 assumptions 補充如何正確理解 intellectual disability。第一點說評估要考慮 cultural and linguistic diversity，以及 communication 和 behavioural factors；最後一點說在持續且合適支援下，個人的 life functioning 一般會改善。只看第一和最後一點，可以知道這部分不是新增比賽項目規則，而是提醒讀者：評估限制時要看個人環境、支援需要、能力強項，以及改善可能。題目若問improvement、assessment 或 adaptive limitations，應回到這部分。 General Participation Policy Paragraph這段先說 “mental retardation” 是舊診斷詞，現時較理想說法是 “a person with an intellectual disability”。中段說 Special Olympics 的創立目的，是給 intellectual disability individuals 訓練和參賽機會。後段強調不得因 gender、race、religion、colour、national origin 或 financial constraint 排除參加者，並且 eligibility 有疑問時偏向 inclusion。只看首尾句，可以估計本段重點是用語更新、非歧視政策、地方彈性和包含原則。 Section A：Down syndrome and neck risk Section A 首句說，medical research 顯示最多 15% 的 Down syndrome individuals，在頸部 C-1和 C-2 cervical vertebrae 有缺陷。末句說，若他們參與會令頸部或上脊椎 hyperextend 或radically flex 的活動，會面對較高 neck injury 風險。只看首尾句，可以知道這段不是討論 Down syndrome 參加者的運動能力，而是醫療風險，尤其是 atlantoaxial instability 和頸椎安全。 Section B：Temporary restriction and medical clearance Section B 先說 SOC 暫時限制 Down syndrome individuals 參與某些活動。第 1 點容許他們繼續參與大部分 Special Olympics sports，但列明不能參與會壓迫、過度伸展或劇烈彎曲 neck /upper spine 的項目。第 2 至第 4 點說，限制會持續到醫生檢查證明沒有 atlantoaxial instability；若已確診，需兩名醫生證明及風險確認。這部分很適合處理 swimming、soccer、guardian permission、medical certificate 等題目。",
+        "label": "Assumptions 1–4"
+      },
+      {
+        "number": "2",
+        "summary": "Terminology note 先說 intellectual disability 用來取代舊臨床詞，並強調 intellectual disability 不是 disease，也不應和 mental illness 混淆。後段說，這類人士學習速度較慢、學習容量有限，也可能在 daily living、理解他人行為和作出適當社交反應方面有困難。末句強調 children with intellectual disabilities 會長成 adults with intellectual disabilities，不會停留成 “eternal children”。這段主要處理概念澄清和生活功能描述。 Final Paragraph：Scale, causes and severity最後一段先說 intellectual disabilities 是最大 disabled citizens groups 之一，全球估計有 156 million individuals。中段說 intellectual disability 跨越 race、education、social 或 economic background，任何人都可能出現。後段說 hereditary components 只解釋少部分個案，已知原因超過 350 種，但三分之四個案原因不明。末句說約 87% 屬 mild disabilities，很多方面和沒有intellectual disabilities 的人難以分辨。這段適合處理原因、比例和普遍性題目。",
+        "label": "Terminology Note"
+      },
+      {
+        "number": "3",
+        "summary": "Questions 24–26 的 A / C / F 可互換次序。 Step 3：逐題分析Question 14答案：TRUE題目句子：“To be eligible to take part in the Special Olympics, an athlete must have below-average intellectual functioning and limitations in at least two adaptive-skill areas.”中文意思：要符合 Special Olympics 參加資格，運動員必須有低於平均的智力功能，並且在至少兩個適應技能範疇有局限。題型與任務：TRUE / FALSE / NOT GIVEN。這題要判斷 eligibility 條件和 intellectual disability 定義是否一致。 Skim：目標段落：Opening Paragraph第一句：“To be eligible for participation in the Special Olympics, an individual with an intellectual disability must agree to observe and abide by the SOC Sports Rules.”中文意思：要符合 Special Olympics 參加資格，intellectual disability 參加者必須同意遵守 SOC Sports Rules。最後一句：“The following four assumptions are essential to the application of the definition:”中文意思：以下四個假設，對應用這個定義十分重要。只看首尾句，可以先估計本段在講 eligibility 和 definition。題目問 “eligible” 和 intellectual functioning，所以這段是最合理的目標段落。 Scan：定位詞是 “below-average intellectual functioning” 和 “two adaptive-skill areas”。原文對應是 “significantly sub-average intellectual functioning” 以及 “limitations in two or more ... adaptive skill areas”。 Read：關鍵句是：“It is characterised by significantly sub-average intellectual functioning, existing concurrently with related limitations in two or more of the following applicable adaptive skill areas...”中文意思：它的特徵是明顯低於平均的智力功能，並同時在以下適用的適應技能範疇中，有兩項或以上相關限制。同義改寫： below-average intellectual functioning= significantly sub-average intellectual functioning",
+        "label": "26 F"
+      },
+      {
+        "number": "5",
+        "summary": "題目沒有把原文所有條件全部列出，例如 age 18 前出現和遵守 sports rules，但它列出的兩個條件都得到原文支援。題目方向和原文一致，所以答案是 TRUE。 Question 15答案：FALSE題目句子：“People with intellectual disabilities never improve their lives.”中文意思：有 intellectual disabilities 的人永遠不會改善自己的生活。題型與任務：TRUE / FALSE / NOT GIVEN。控制詞是 “never”，非常絕對。要找原文有沒有直接相反的改善可能。 Skim：目標段落：Assumptions 1–4第一點：“Valid assessment considers cultural and linguistic diversity as well as differences in communication and behavioural factors.”中文意思：有效評估會考慮文化和語言多樣性，也會考慮溝通和行為因素上的差異。最後一點：“With appropriate support over a sustained period, the life functioning of the person with mental retardation will generally improve.”中文意思：在持續一段時間的適當支援下，這類人士的生活功能一般會改善。只看第一和最後一點，可以知道這部分在說如何正確理解限制，以及人可以在支援下改善。 Scan：定位詞是 “improve their lives”。原文沒有用 lives improve，但有 “life functioning ... will generally improve”。 Read：關鍵句是：“With appropriate support over a sustained period, the life functioning of the person with mental retardation will generally improve.”中文意思：在適當而持續的支援下，這類人士的生活功能一般會改善。題目說 “never improve”，原文說 “will generally improve”。這是明確相反。",
+        "label": "= two or more adaptive skill areas"
+      },
+      {
+        "number": "6",
+        "summary": "will generally improve = 一般會改善。所以答案是 FALSE。中伏位：題目用 “never” 製造絕對化陷阱。IELTS Reading 中，never、always、all 這類字要特別小心；只要原文提供一個相反方向，答案通常就會變成 FALSE。 Question 16答案：FALSE題目句子：“All people with intellectual disabilities need the written permission of a parent or guardian in order to participate.”中文意思：所有有 intellectual disabilities 的人，都需要父母或監護人的書面許可才可以參加。題型與任務：TRUE / FALSE / NOT GIVEN。控制詞是 “All people”。要檢查 written permission 是否適用於所有 intellectual disabilities participants，還是只適用於某些特殊情況。 Skim：目標段落：General Participation Policy Paragraph + Section B General policy paragraph 第一相關句：“Special Olympics was created and developed to give individuals with an intellectual disability the opportunity to train and compete in sporting activities.”中文意思： Special Olympics 的創立和發展，是為了給 intellectual disability individuals 訓練和參與體育比賽的機會。 Section B 第 3 點相關句：“...such athlete shall be allowed to participate in the activities listed in 1) above only if the athlete submits written certification from two physicians combined with an acknowledgment of the risks signed by the adult athlete or their parent or guardian if the athlete is a minor.”中文意思：這名運動員只有在提交兩名醫生的書面證明，並連同風險確認書後，才可參與第 1 點列出的活動；若運動員是成年人，由本人簽署；若是未成年人，則由父母或監護人簽署。 Scan：定位詞是 “written permission”、“parent or guardian”、“All people”。原文最接近的是Section B 第 3 點的 “acknowledgment of the risks signed by ... parent or guardian if the athlete is a minor”。 Read：原文的條件有幾層限制：第一，這只針對 “any individual diagnosed as having atlantoaxial instability”。第二，只針對 Section B 第 1 點列出的高風險活動，例如 soccer、artistic gymnastics、diving 等。第三，若 athlete 是 adult，風險確認由 adult athlete 自己簽署；只有 minor 才由 parent or guardian 簽署。題目把這個特殊規則擴大成 “All people with intellectual disabilities”。原文範圍較窄，題目範圍過大，並且 adult athlete 可自行簽署。答案是 FALSE。 Question 17答案：NOT GIVEN題目句子：“Participants with Down syndrome often excel in their chosen field of athletic activity.”中文意思： Down syndrome 參加者經常在自己選擇的運動領域表現優秀。題型與任務：TRUE / FALSE / NOT GIVEN。要找原文有沒有談 Down syndrome participants 的athletic performance，例如 excel、perform well、win、achieve 等。 Skim：目標段落：Section A第一句：“There is evidence from medical research that up to 15 per cent of individuals with Down syndrome have a defect in the cervical vertebrae C-1 and C-2 in the neck.”中文意思：醫學研究證據顯示，最多 15% 的 Down syndrome individuals，在頸部 C-1 和 C-2 頸椎有缺陷。最後一句：“This condition exposes individuals with Down syndrome to a heightened risk of a neck injury if they participate in activities that hyperextend or radically flex the neck or upper spine.”中文意思：如果他們參與會令頸部或上脊椎過度伸展或劇烈彎曲的活動，這種情況會使 Down syndrome individuals 面對更高頸部受傷風險。只看首尾句，Section A 的功能是醫療風險說明，並非運動表現評價。 Scan：定位詞是 “Down syndrome” 和 “excel”。Down syndrome 在 Section A / B 出現很多次，但“excel” 或同義詞如 outstanding、perform better、successful、win 沒有出現。 Read：文章只提供以下資訊： Down syndrome individuals 中有一部分可能有 atlantoaxial instability；某些運動可能增加 neck injury 風險；部分活動需要暫時限制或醫生證明。這些資料都和安全、限制、醫療檢查有關。題目加入了 “often excel in their chosen field”，原文沒有提供這項運動表現資料。原文也沒有說他們不會 excel，所以不能判 FALSE。資料缺失，所以答案是 NOT GIVEN。 Question 18答案：FALSE題目句子：“People with Down syndrome cannot participate in any swimming events.”中文意思： Down syndrome 人士不能參加任何游泳項目。題型與任務：TRUE / FALSE / NOT GIVEN。控制詞是 “any swimming events”。要檢查原文是否禁止所有 swimming，還是只限制某些 swimming activities。 Skim：目標段落：Section B, point 1第一句：“Accredited Programmes may allow all individuals with Down syndrome to continue in most Special Olympics sports training and competition activities.”中文意思：認可項目可以容許所有 Down syndrome individuals 繼續參與大部分 Special Olympics 體育訓練和比賽活動。相關限制句：“Such sports training and competition activities include: the butterfly stroke and diving starts in swimming, diving, pentathlon, high jump, equestrian sports, artistic gymnastics, soccer, alpine skiing and any warm-up exercise placing undue stress on the head and neck.”中文意思：這類受限制的訓練和比賽活動包括：游泳中的蝶式和跳水式出發、跳水、五項全能、跳高、馬術、藝術體操、足球、高山滑雪，以及任何對頭部和頸部造成過度壓力的熱身活動。 Scan：定位詞是 “Down syndrome”、“swimming events”。原文出現 “the butterfly stroke and diving starts in swimming”。 Read：原文沒有禁止所有 swimming events。它只列出 “butterfly stroke and diving starts in swimming” 作為可能導致 neck / upper spine 風險的活動。前一句還說 Down syndrome individuals 可以繼續大部分 Special Olympics sports training and competition activities。題目把部分 swimming activities 擴大成 “any swimming events”。這和原文不一致，所以答案是FALSE。 Question 19答案：TRUE題目句子：“If you have Down syndrome, your neck may be at risk of damage in certain sports.”中文意思：如果你有 Down syndrome，在某些運動中頸部可能有受傷風險。題型與任務：TRUE / FALSE / NOT GIVEN。關鍵詞是 “may be at risk”、“neck”、“certain sports”。 Skim：目標段落：Section A第一句：“There is evidence from medical research that up to 15 per cent of individuals with Down syndrome have a defect in the cervical vertebrae C-1 and C-2 in the neck.”中文意思：醫學研究證據顯示，最多 15% 的 Down syndrome individuals 在頸部 C-1 和 C-2 頸椎有缺陷。最後一句：“This condition exposes individuals with Down syndrome to a heightened risk of a neck injury if they participate in activities that hyperextend or radically flex the neck or upper spine.”中文意思：如果他們參與會令頸部或上脊椎過度伸展或劇烈彎曲的活動，這種情況會令 Down syndrome individuals 面對較高頸部受傷風險。 Scan：定位詞是 “Down syndrome”、“neck”、“risk”。原文三個元素都直接出現。 Read：題目說 “may be at risk”，語氣較保守。原文說 “heightened risk of a neck injury”，意思更明確。題目中的 “certain sports” 對應 Section B 列出的特定項目，例如 butterfly stroke、diving starts、artistic gymnastics、soccer、alpine skiing 等。同義改寫：",
+        "label": "never = 永遠不會；"
+      },
+      {
+        "number": "7",
+        "summary": "= heightened risk of a neck injury",
+        "label": "neck may be at risk of damage"
+      },
+      {
+        "number": "8",
+        "summary": "= activities that hyperextend or radically flex the neck or upper spine題目方向和原文一致，所以答案是 TRUE。 Question 20答案：NOT GIVEN題目句子：“Participation in sports helps people with intellectual disabilities to improve their communication and social skills.”中文意思：參與運動能幫助 intellectual disabilities 人士改善溝通和社交技能。題型與任務：TRUE / FALSE / NOT GIVEN。這題看起來合理，但要檢查文章有沒有把 sports participation 和 communication / social skills improvement 連成因果。 Skim：目標段落：Opening Paragraph + General Participation Policy Paragraph Opening Paragraph 相關句：“...related limitations in two or more of the following applicable adaptive skill areas: communication, self-care, home living, social skills...”中文意思：在以下適用的適應技能範疇中，有兩項或以上相關限制：溝通、自我照顧、家居生活、社交技能等。 General policy 相關句：“Special Olympics was created and developed to give individuals with an intellectual disability the opportunity to train and compete in sporting activities.”中文意思： Special Olympics 的創立和發展，是為了給 intellectual disability individuals 訓練和參與體育活動的機會。 Scan：定位詞是 “sports helps”、“improve communication and social skills”。原文有 sports opportunity，也有 communication / social skills，但沒有 “sports improves these skills” 這條因果鏈。 Read：文章確實說 communication 和 social skills 是 adaptive skill areas，也說 Special Olympics提供 training and competition opportunities。另外，assumption 4 提到適當支援可改善 life functioning。可是題目需要更具體的結論：參與運動會改善 communication and social skills。原文沒有直接說明這點，也沒有用研究結果或政策目標建立這條關係。所以答案是 NOT GIVEN。中伏位：這題很容易用常識補答案。現實中運動可能促進社交，但 IELTS Reading 要依文章證據。文章有相關背景，缺少題目要求的因果結論。",
+        "label": "certain sports"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "Opening Paragraph：Eligibility and definition開首段先說，要參加 Special Olympics，intellectual disability 參加者必須同意遵守 SOC Sports Rules。之後文章解釋舊臨床詞 “mental retardation” 的定義：現時功能有重大限制，並涉及significantly sub-average intellectual functioning，以及至少兩項 adaptive skill areas 的限制。末句引出四個應用定義時的 assumptions。只看首尾句，可以估計本段主要處理 eligibility、diagnostic definition、adaptive skills 和 age 18 前出現等基本條件。"
+  ]
+}

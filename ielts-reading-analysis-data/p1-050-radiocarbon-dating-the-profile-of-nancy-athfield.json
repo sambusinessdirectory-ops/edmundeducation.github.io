@@ -1,0 +1,2150 @@
+{
+  "id": "p1-050-radiocarbon-dating-the-profile-of-nancy-athfield",
+  "catalogueId": "p1-050",
+  "catalogueIds": [
+    "p1-050"
+  ],
+  "passage": 1,
+  "title": "Radiocarbon Dating – The Profile of Nancy Athfield",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "FALSE",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "FALSE",
+    "university",
+    "rat",
+    "diet",
+    "archaeologist",
+    "funding",
+    "database"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Nancy Athfield first discovered the ancient remains in Cambodia.”",
+      "translation": "Nancy Athfield 是第一個在柬埔寨發現這些古代遺骸的人。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心是 first discovered，也就是「誰首先發現 ancient remains」。要檢查原文把 discovered 這個動作歸給 Nancy，還是歸給其他人。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Have you ever picked up a small stone off the ground and wondered how old it was?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你有沒有曾經從地上撿起一塊小石頭，然後想知道它有多古老？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The remains had never been scientifically studied, so Nancy was greatly intrigued by the opportunity to use modern methods to discover the true age of these ancient objects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些遺骸從未被科學研究過，所以 Nancy 對有機會使用現代方法查明這些古物的真實年代非常感興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 會從「如何知道物件年齡」帶到 Nancy 的研究機會。題目問ancient remains 的發現者，所以本段很可能有直接證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“first discovered”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ancient remains”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Cambodia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many prehistoric remains were discovered by local people in Cambodia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多史前遺骸是由柬埔寨當地人發現的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “Many prehistoric remains”。核心動詞是 “were discovered”。真正執行發現動作的人是 “local people in Cambodia”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把發現者寫成 Nancy Athfield。原文清楚說是 local people discovered remains，Nancy 的角色是後來用 modern methods 查明 true age。她對研究機會感興趣，但 discovery 本身已經由local people 完成。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向對比",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：Nancy first discovered the remains"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：remains were discovered by local people題目中的 “first” 也沒有原文支持。文章只說 remains had never been scientifically studied，意思是它們之前沒有接受科學研究；這不等於 Nancy 是第一位發現者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文提供了不同發現者，因此題目和文章衝突，答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤判的是 “had never been scientifically studied”。這句只說沒有被科學研究過，並沒有說沒有人發現過。發現 ancient remains 和 scientifically study remains 是兩個不同動作。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The remains found in Cambodia were in good condition.”",
+      "translation": "在柬埔寨發現的遺骸保存狀況良好。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章有沒有提到 remains 的 condition。定位詞是 remains、Cambodia、good condition。若原文只說發現、研究或年代，沒有保存狀態資料，就要選 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Have you ever picked up a small stone off the ground and wondered how old it was?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你有沒有曾經從地上撿起一塊小石頭，然後想知道它有多古老？"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The remains had never been scientifically studied, so Nancy was greatly intrigued by the opportunity to use modern methods to discover the true age of these ancient objects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些遺骸從未被科學研究過，所以 Nancy 對有機會使用現代方法查明這些古物的真實年代非常感興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段重點在 age 和 scientific study。題目問 condition，因此需要檢查中間有沒有 good condition、well preserved、damaged 這類字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“remains”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Cambodia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“good condition”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many prehistoric remains were discovered by local people in Cambodia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "許多史前遺骸是由柬埔寨當地人發現的。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“These objects were thought to belong to some of the original groups of humans that first came to Cambodia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些物件被認為屬於最早來到柬埔寨的一些人類群體。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供了三類資訊：第一，remains 由 local people discovered。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，objects 可能屬於 early human groups。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三，remains had never been scientifically studied。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的核心資料是 condition，也就是保存是否良好。文章沒有出現： good condition well preserved damaged broken complete poor condition因此，雖然文章提到同一批 remains，仍然沒有提供保存狀況。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文沒有支持它，也沒有清楚否定它。資料缺失，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易覺得「能做 radiocarbon dating」代表物件應該保存良好。這屬於常識推測。IELTS 判斷要依文章，不可用實驗可行性補出保存狀況。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Nancy took time away from her regular work to conduct research in Cambodia.”",
+      "translation": "Nancy 暫時離開自己的常規工作，去柬埔寨做研究。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章是否說 Nancy 是「抽時間離開 regular work」去 Cambodia。核心不只在Cambodia research，也在 regular work 和 took time away 這個方式。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Laboratory science was not Athfield’s only interest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "實驗室科學並不是 Athfield 唯一的興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even after the filmmakers ran out of money and left Cambodia, Athfield remained to continue the research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使電影製作人經費用盡並離開柬埔寨，Athfield 仍留下來繼續研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 6 講她由 laboratory science 擴展到 anthropology、archaeology 和 Cambodian project。題目問她是否離開 regular work，要看原文有沒有明確說leave、take time off、regular job。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“regular work”"
+            },
+            {
+              "kind": "quote",
+              "text": "“conduct research in Cambodia”"
+            },
+            {
+              "kind": "quote",
+              "text": "“took time away”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rather than settle permanently in New Zealand, she broadened her expertise, entered anthropology—the study of human societies—and became a qualified archaeologist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她沒有永久安頓在新西蘭，而是拓寬自己的專業，進入人類學，也就是研究人類社會的學科，並成為合資格的考古學家。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“During this flourishing archaeological career, she joined the well-known Cambodian project.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這段蓬勃發展的考古生涯中，她加入了著名的柬埔寨項目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說她加入 Cambodian project，也說她在 filmmakers 離開後仍留在 Cambodia 繼續研究。不過題目多了一個方式：took time away from her regular work。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章沒有說：她請假；她暫停原本工作；她離開 regular job； Cambodia research 只是她正職以外的短期安排。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，原文把它放在 “flourishing archaeological career” 之中，說明這已是她考古事業的一部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但文章仍沒有直接說她是否有一份 regular work，也沒有交代她是否從那份工作中抽身。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：題目涉及一個文章沒有明確交代的工作安排，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“Laboratory science was not Athfield’s only interest” 很容易令人理解成她從實驗室工作抽空去做 Cambodia research。可是這句只說她興趣和專業擴展，不足以證明 took time away from regular work。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Cambodian government asked Nancy to date the remains using radiocarbon.”",
+      "translation": "柬埔寨政府要求 Nancy 使用 radiocarbon dating 為遺骸測年。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查 action 主體：是 Cambodian government asked Nancy，還是 Nancy 和團隊自己有機會研究。定位詞是 Cambodian government、asked、radiocarbon。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2 和 Paragraph 7 Paragraph 2 第一個句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Athfield had this unique opportunity because her team, composed of scientists and filmmakers, were in Cambodia working on a documentary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Athfield 得到這個特別機會，是因為她的團隊由科學家和電影製作人組成，當時正在柬埔寨拍攝紀錄片。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 相關首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2003, the film ended without firm conclusions, but Athfield continued to study the ruins of Angkor Wat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2003 年，電影沒有得出確定結論便結束，但 Athfield 繼續研究 Angkor Wat 的遺址。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這些句子，可以先看到 Cambodia project 和 documentary 有關。政府可能出現在 paperwork位置，但是否「要求 Nancy 測年」需要細讀。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cambodian government”"
+            },
+            {
+              "kind": "quote",
+              "text": "“asked”"
+            },
+            {
+              "kind": "quote",
+              "text": "“radiocarbon”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有 government 的位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“The work was often delayed by insufficient funding and government paperwork, yet she remained committed to completing it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項工作常因資金不足和政府文件程序而延誤，但她仍致力完成它。"
+            },
+            {
+              "kind": "label",
+              "text": "原文有 radiocarbon 的位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“For the first time, Athfield and her team had a chance to use radiocarbon dating to find new evidence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Athfield 和她的團隊第一次有機會使用 radiocarbon dating 尋找新證據。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 Athfield had a chance to use radiocarbon dating，原因是她的 team 在 Cambodia working on a documentary。這說明機會來自 documentary project。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "政府只在 Paragraph 7 中以 “government paperwork” 出現。這表示研究受政府文件程序延誤，但沒有說 Cambodian government asked Nancy to date remains。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題需要：主體：Cambodian government動作：asked Nancy方法：using radiocarbon對象：the remains原文提供： team had a chance to use radiocarbon dating government paperwork delayed the work兩者相關，但關係不相同。文章沒有說政府提出委託、要求、邀請或命令。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：缺少 “asked Nancy” 這個核心動作，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "government paperwork 很容易令學生以為政府參與了研究委託。其實 paperwork 只代表行政程序，不能推出 government asked her to do the dating。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The filmmakers aimed to discover how Angkor was rebuilt.”",
+      "translation": "電影製作人的目標是發現 Angkor 如何被重建。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問 documentary / filmmakers 的目的。定位詞是 filmmakers、aimed、discover。要看原文中"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“trying to discover” 後面的真正內容。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2第一句：“Athfield had this unique opportunity because her team, composed of scientists and filmmakers, were in Cambodia working on a documentary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Athfield 得到這個特別機會，是因為她的團隊由科學家和電影製作人組成，當時正在柬埔寨拍攝紀錄片。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They had a chance to solve the historic mystery that many had been arguing over for years.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們有機會解開多年來許多人一直爭論的歷史謎團。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 2 會說明 documentary project 要解決的 mystery。題目說rebuilt，所以要看這個 mystery 究竟是重建問題，還是 royal family resting place。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“filmmakers”"
+            },
+            {
+              "kind": "quote",
+              "text": "“aimed to discover”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Angkor was rebuilt”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The team was trying to discover evidence to prove a controversial claim in history: that Cambodia was the resting place of the famous royal family of Angkor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個團隊試圖尋找證據，以證明歷史上一個具爭議的說法：柬埔寨是著名 Angkor royal family 的安葬地。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “The team”，包括 scientists and filmmakers。核心動作是 “was trying to discover evidence”。目的不是 how Angkor was rebuilt，而是 prove a controversial claim。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 claim 的內容是： Cambodia was the resting place of the famous royal family of Angkor柬埔寨是 Angkor 著名王室家族的安葬地。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把研究目的改成 “how Angkor was rebuilt”。文章沒有談 Angkor 重建過程，也沒有 rebuild、restore、construction 之類資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文清楚提供不同目的，所以題目與原文衝突，答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Angkor 這個地名相同，但題目更換了研究問題。文章關注 resting place / royal family identity，沒有處理 how Angkor was rebuilt。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Nancy initially doubted that the royal family had been buried in Cambodia.”",
+      "translation": "Nancy 起初懷疑王室家族是否被埋葬在柬埔寨。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要分清「研究結果後產生疑問」和「Nancy 起初的個人看法」。題目核心是 initially doubted，涉及時間和個人態度。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2 和 Paragraph 3 Paragraph 2 第一個句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Athfield had this unique opportunity because her team, composed of scientists and filmmakers, were in Cambodia working on a documentary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Athfield 得到這個特別機會，是因為她的團隊由科學家和電影製作人組成，當時正在柬埔寨拍攝紀錄片。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Athfield hoped to return one day to continue her research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Athfield 希望有一天能回去繼續她的研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 2 講研究目的，Paragraph 3 講研究結果和未解問題。題目問initially doubted，所以要找研究開始前 Nancy 的個人想法。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“initially”"
+            },
+            {
+              "kind": "quote",
+              "text": "“doubted”"
+            },
+            {
+              "kind": "quote",
+              "text": "“royal family”"
+            },
+            {
+              "kind": "quote",
+              "text": "“buried in Cambodia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The team was trying to discover evidence to prove a controversial claim in history: that Cambodia was the resting place of the famous royal family of Angkor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊試圖尋找證據，證明一個具爭議的歷史說法：柬埔寨是 Angkor 著名王室家族的安葬地。"
+            },
+            {
+              "kind": "label",
+              "text": "再看 Paragraph 3："
+            },
+            {
+              "kind": "quote",
+              "text": "“Historical records suggested that the remains of the Angkor royal family were much younger, so the evidence cast considerable doubt on the identity of the ancient remains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歷史記錄顯示 Angkor 王室家族的遺骸應該年輕得多，所以這些證據大大動搖了人們對古代遺骸身份的判斷。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文有 “doubt”，但它出現在研究結果之後：radiocarbon dating 的 evidence cast considerable doubt on the identity of the ancient remains。這是證據造成的後續疑問。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 Nancy initially doubted，要求文章顯示她在一開始便懷疑 royal family burial claim。原文沒有直接交代 Nancy 的初始態度。Paragraph 2 說 team was trying to discover evidence to prove the claim，這是 project aim，仍不能完全等同於 Nancy 個人相信或不相信。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文提供的是後來 evidence 造成 doubt，缺少 Nancy initially doubted 的資料，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“cast considerable doubt” 很吸引眼球，但它是研究結果，不是 Nancy 的起初心態。遇到 initially、later、after 等時間詞，要先把時間順序分清楚。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Nancy disproved the possibility that the remains belonged to the Angkor royal family.”",
+      "translation": "Nancy 證明這些遺骸不可能屬於 Angkor 王室家族。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看研究結論的強度。題目用 disproved the possibility，表示完全推翻。原文若只說 cast doubt、raised questions、unanswered，就不能支持這種絕對結論。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Athfield and her team conducted radiocarbon dating on many ancient objects found at Angkor Wat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Athfield 和她的團隊對 Angkor Wat 發現的許多古代物件進行 radiocarbon dating。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Athfield hoped to return one day to continue her research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Athfield 希望有一天能回去繼續她的研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道 Paragraph 3 是 research results 段。最後一句說她希望繼續研究，暗示結論未完全收束。題目說 disproved，要檢查原文是否真的有終局性結論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“disproved”"
+            },
+            {
+              "kind": "quote",
+              "text": "“possibility”"
+            },
+            {
+              "kind": "quote",
+              "text": "“remains”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Angkor royal family”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Historical records suggested that the remains of the Angkor royal family were much younger, so the evidence cast considerable doubt on the identity of the ancient remains.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歷史記錄顯示 Angkor 王室家族的遺骸應該年輕得多，所以這些證據大大動搖了人們對古代遺骸身份的判斷。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“The research ultimately raised more questions: if these were not the remains of the royal family, whose remains were interred at the site?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項研究最後提出了更多問題：如果這些不是王室家族的遺骸，那麼埋在這個地點的究竟是誰的遺骸？"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Athfield’s team left Cambodia with many questions unanswered.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Athfield 的團隊離開柬埔寨時，仍有許多問題沒有答案。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文的結論強度有三個層次："
+            },
+            {
+              "kind": "quote",
+              "text": "“cast considerable doubt”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "大大引起懷疑。"
+            },
+            {
+              "kind": "quote",
+              "text": "“raised more questions”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "提出更多問題。"
+            },
+            {
+              "kind": "quote",
+              "text": "“many questions unanswered”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "仍有很多問題未解。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都表示研究削弱了原有身份判斷，但沒有完全證明不可能。題目使用 “disproved the possibility”，語氣強得多，意思是排除了 remains belonged to royal family 的可能。"
+            },
+            {
+              "kind": "label",
+              "text": "另外，原文還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the study, further remains have been unearthed at Angkor Wat, and these may prove to be the true remains of the royal family.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究之後，Angkor Wat 又出土了更多遺骸，而這些可能證明是真正的王室家族遺骸。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這也顯示整個 royal family remains 問題仍在研究中，沒有被 Nancy 完全定案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：原文給出的是「強烈懷疑和未解問題」，題目說成「已完全推翻可能性」。兩者強度不合，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“cast considerable doubt” 很容易被讀成 disproved。其實 doubt 是懷疑，disprove 是證明錯誤。 IELTS 很常用這種程度差異考判斷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "university",
+      "answerKey": "university",
+      "type": "Flow-chart Completion",
+      "prompt": "“During her mid-teens, Nancy wasn’t expected to attend 8 __________”",
+      "translation": "在 Nancy 十多歲中期時，人們不預期她會入讀 8 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Flow-chart Completion。空格前是 attend，所以答案通常是 school、college、university 這類教育機構。題目中的 “During her mid-teens” 在你貼出的文章中沒有直接明文支援；因此不能把這個時間當作原文證據。空格答案仍可由 education path 定位。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Athfield’s early career was highly unconventional.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Athfield 的早期職業生涯非常不尋常。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After graduating, she quickly found work at a research institution.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "畢業後，她很快在一間研究機構找到工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 4 講 Nancy 早期從不確定職業方向，到接受高等教育，再進入研究工作的過程。題目問 attend 甚麼，應在這段中間找 education 相關字。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“attend”"
+            },
+            {
+              "kind": "quote",
+              "text": "“expected”"
+            },
+            {
+              "kind": "quote",
+              "text": "“degree”"
+            },
+            {
+              "kind": "quote",
+              "text": "“university”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Eventually, a friend suggested that she pursue a degree at a nearby university.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，一位朋友建議她在附近一所大學修讀學位。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although doubtful about her qualifications, Athfield applied and was accepted.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然她懷疑自己的資格是否足夠，Athfield 仍然申請，並獲得錄取。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Flow-chart 的 “wasn’t expected to attend” 對應原文中她 “doubtful about her qualifications”。這表示她對自己能否進入大學沒有信心。原文接著說 she applied and was accepted，表示她最後真的進了 university。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格需要一個地點或教育機構。原文可直接抄出的 one word 是 university。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "attend university= pursue a degree at a nearby university wasn’t expected= doubtful about her qualifications答案形式： university = 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 degree。degree 是她追求的學位，不是 attend 的對象。英文可以 pursue a degree，但通常 attend university；題目空格放在 attend 後面，所以 university 最自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "rat",
+      "answerKey": "rat",
+      "type": "Flow-chart Completion",
+      "prompt": "“Her PhD research examined when a species of 9 __________ first appeared in New Zealand.”",
+      "translation": "她的博士研究考察一種 9 __________ 最早何時出現在 New Zealand。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Flow-chart Completion。空格前有 “a species of”，所以答案應是一種動物或生物名稱。定位詞是 PhD research、species、New Zealand。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After university, Athfield’s scientific career blossomed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大學之後，Athfield 的科學生涯蓬勃發展。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She had come a long way from working odd jobs; her career was finally taking off.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她已經從做零散工作的階段走了很遠；她的事業終於開始起飛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 5 講她大學後的科學事業和專業成果。PhD research 明顯會在這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“PhD research”"
+            },
+            {
+              "kind": "quote",
+              "text": "“species”"
+            },
+            {
+              "kind": "quote",
+              "text": "“first appeared”"
+            },
+            {
+              "kind": "quote",
+              "text": "“New Zealand”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Her PhD research examined when a species of rat first appeared in New Zealand.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她的博士研究考察一種老鼠最早何時出現在新西蘭。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句和題目幾乎完全一致。題目保留句子大部分，只挖走 “rat”。空格前的 “a species of” 也提醒答案要填生物名稱。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "examined when= examined when first appeared= first appeared a species of ___= a species of rat答案形式： rat = 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “New Zealand”。題目已經把 New Zealand 放在後面，空格問 species of 甚麼。文法可直接排除地名。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "diet",
+      "answerKey": "diet",
+      "type": "Flow-chart Completion",
+      "prompt": "“Her research showed that the subject’s 10 __________ accounted for the errors in the earlier research.”",
+      "translation": "她的研究顯示，研究對象的 10 __________ 解釋了早期研究中的錯誤。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Flow-chart Completion。空格前是 “the subject’s”，後面是 “accounted for the errors”，所以答案應是造成誤差的因素。定位詞是 errors、earlier research、subject’s。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After university, Athfield’s scientific career blossomed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大學之後，Athfield 的科學生涯蓬勃發展。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She had come a long way from working odd jobs; her career was finally taking off.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她已經從做零散工作的階段走了很遠；她的事業終於開始起飛。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段會列出她在科學事業中的重要成果。題目問 PhD research 的錯誤來源，應在本段中部。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“errors”"
+            },
+            {
+              "kind": "quote",
+              "text": "“earlier research”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accounted for”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She produced original work and identified several flaws in methods used by New Zealand laboratories, showing that the subject’s diet accounted for errors in earlier research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她做出了原創研究，並指出新西蘭實驗室所用方法中的幾個缺陷，顯示研究對象的 diet 解釋了早期研究中的錯誤。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中的 “the subject’s diet” 是一個所有格短語，意思是研究對象的飲食。這裡的 subject 應指她研究的 rat species 或相關樣本。她指出 earlier research 的 errors 由 diet 造成或解釋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句和原文高度重合： subject’s ___= subject’s diet accounted for the errors= accounted for errors earlier research= earlier research答案形式： diet = 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 flaws。flaws 是她指出的方法缺陷；題目問造成 earlier research errors 的因素，原文定案詞是 diet。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "archaeologist",
+      "answerKey": "archaeologist",
+      "type": "Flow-chart Completion",
+      "prompt": "“She was a professional 11 __________ before she returned to Cambodia in 2003.”",
+      "translation": "她在 2003 年回到柬埔寨之前，已是一名專業 11 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Flow-chart Completion。空格前是 “a professional”，答案應是職業名詞。定位詞是professional、returned to Cambodia、2003。不過你貼出的文章用的是 became a qualified archaeologist 和 joined Cambodian project，沒有直接寫 “returned to Cambodia in 2003”。答案仍可由她進入 archaeology 的句子取得。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Laboratory science was not Athfield’s only interest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "實驗室科學並不是 Athfield 唯一的興趣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Even after the filmmakers ran out of money and left Cambodia, Athfield remained to continue the research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使電影製作人經費用盡並離開柬埔寨，Athfield 仍留下來繼續研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出本段講她超出 laboratory science 的另一條路線。這段很可能交代她取得的 archaeology 身份。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“professional”"
+            },
+            {
+              "kind": "quote",
+              "text": "“archaeology”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Cambodian project”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rather than settle permanently in New Zealand, she broadened her expertise, entered anthropology—the study of human societies—and became a qualified archaeologist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她沒有永久安頓在新西蘭，而是拓寬自己的專業，進入人類學，也就是研究人類社會的學科，並成為一名合資格的考古學家。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“During this flourishing archaeological career, she joined the well-known Cambodian project.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這段蓬勃發展的考古生涯中，她加入了著名的柬埔寨項目。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “professional” 對應原文 “qualified”。qualified 表示具備資格、合資格，放在職業語境中可理解為專業身份。原文職業名詞是 archaeologist。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 before she returned to Cambodia in 2003。文章沒有直接使用 returned 這個動作，但flow-chart 的順序是先講她成為 archaeologist，再講 2003 年後繼續 Angkor Wat research。空格答案仍然由 “became a qualified archaeologist” 定案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "professional= qualified archaeologist= archaeologist答案形式： archaeologist = 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 anthropology。anthropology 是學科；題目要的是 “a professional ___”，需要職業身份。原文中合適的職業名詞是 archaeologist。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "funding",
+      "answerKey": "funding",
+      "type": "Flow-chart Completion",
+      "prompt": "“When she returned to Cambodia, the lack of 12 __________ was a barrier to her research.”",
+      "translation": "她回到柬埔寨時，缺乏 12 __________ 成為研究障礙。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Flow-chart Completion。空格前是 lack of，所以答案應是不可數名詞或抽象名詞。定位詞是lack、barrier、research、Cambodia / Angkor Wat。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2003, the film ended without firm conclusions, but Athfield continued to study the ruins of Angkor Wat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2003 年，電影沒有得出確定結論便結束，但 Athfield 繼續研究 Angkor Wat 的遺址。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radiocarbon dating will continue to be a valuable research method, and Athfield will be remembered as one of the first people to apply it to the ancient ruins of Angkor Wat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Radiocarbon dating 將繼續是一種有價值的研究方法，而 Athfield 會被記住為最早把它應用於Angkor Wat 古代遺址的人之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph 7 講 2003 年後她如何繼續研究，並總結她的貢獻。題目問research barrier，應在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“lack of”"
+            },
+            {
+              "kind": "quote",
+              "text": "“barrier”"
+            },
+            {
+              "kind": "quote",
+              "text": "“research”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The work was often delayed by insufficient funding and government paperwork, yet she remained committed to completing it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項工作常因 funding 不足和政府文件程序而延誤，但她仍致力完成它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “lack of ___ was a barrier”。原文用 “insufficient funding” 表示 funding 不足，並說它caused delay。delay 是研究障礙的一種表現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ONE WORD ONLY 要求下，答案不能填 insufficient funding，因為那是兩個詞；而且題目已有"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“lack of”，意思上已包含 insufficient。因此只填 funding 最合適。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "lack of funding= insufficient funding was a barrier= work was often delayed by research= the work / study of Angkor Wat答案形式： funding = 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "government paperwork 也是障礙，但題目空格前是 “lack of”。可以說 lack of funding，但不自然說 lack of paperwork，因為原文問題是 government paperwork 本身造成延誤，不是缺乏paperwork。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "database",
+      "answerKey": "database",
+      "type": "Flow-chart Completion",
+      "prompt": "“She then compiled a 13 __________ of radiocarbon dates for ancient materials found in Cambodia.”",
+      "translation": "她接著為柬埔寨古代材料的 radiocarbon dates 編製了一個 13 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Flow-chart Completion。空格前是 “compiled a”，答案應是單數名詞。定位詞是 compiled、radiocarbon dates、materials found in Cambodia。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 2003, the film ended without firm conclusions, but Athfield continued to study the ruins of Angkor Wat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "2003 年，電影沒有得出確定結論便結束，但 Athfield 繼續研究 Angkor Wat 的遺址。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Radiocarbon dating will continue to be a valuable research method, and Athfield will be remembered as one of the first people to apply it to the ancient ruins of Angkor Wat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Radiocarbon dating 將繼續是有價值的研究方法，而 Athfield 會被記住為最早把它應用於Angkor Wat 古代遺址的人之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段講她在 2003 年後的持續研究與最終貢獻。Question 13 問 compiled something，應在 breakthrough 句附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“compiled”"
+            },
+            {
+              "kind": "quote",
+              "text": "“radiocarbon dates”"
+            },
+            {
+              "kind": "quote",
+              "text": "“materials found in Cambodia”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, she made a breakthrough by compiling a database of radiocarbon dates for materials found in Cambodia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後，她透過編製一個 database，收錄柬埔寨出土材料的 radiocarbon dates，取得了突破。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文和題目幾乎逐字對應："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：She then compiled a ___ of radiocarbon dates"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：by compiling a database of radiocarbon dates"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：for ancient materials found in Cambodia"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：for materials found in Cambodia答案是 database。題目加入 ancient 只是根據 passage 上下文概括這些 materials 的性質，不影響答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： database = 1 word，符合 ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 dates。題目已有 “radiocarbon dates”，空格問的是她把這些 dates 編成甚麼。動詞compiled 也提示答案應是一種資料集合，因此 database 最準確。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Radiocarbon Dating – The Profile of Nancy Athfield.pdf",
+    "sha256": "f8607d97b543a0e349d6712bb1eccb2488c2e91fc6ee5c6fbce45832b29d5f76",
+    "pageCount": 26
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句用「撿起一塊小石頭」引入人類對物件年齡的好奇。末句說 Nancy Athfield 對用現代方法查明柬埔寨古物真實年代的機會感到非常有興趣。只看首尾句，可以先判斷本段是背景介紹：先說radiocarbon dating 的用途，再引出 Nancy Athfield 和 Cambodia ancient remains。重點包括史前歷史、物件年代、local people discovered remains，以及 Athfield 想用科學方法驗證。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 Athfield 得到這個特別機會，是因為她的科學家和電影製作人團隊正在柬埔寨拍紀錄片。末句說他們有機會解開多年來爭論不休的歷史謎團。只看首尾句，可以判斷本段說明 Cambodia project 的目的：團隊想用 radiocarbon dating 為一個具爭議的歷史說法尋找新證據，也就是Angkor royal family 的真正安葬地。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 Athfield 和團隊對 Angkor Wat 出土的許多古物進行 radiocarbon dating。末句說 Athfield希望有一天能回去繼續研究。只看首尾句，可以判斷本段是研究結果段：測年結果顯示 Angkor 的歷史至少可追溯至 1620，但這與原有歷史記錄不完全吻合，因此留下更多疑問。這段對 royal family remains 是否被證實特別重要。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 Athfield 的早期職業生涯非常 unconventional。末句說她畢業後很快在研究機構找到工作。只看首尾句，可以判斷本段是 career origin：她起初沒有作為 scientist 開始，只做不同工作維生，後來朋友建議她讀 university。她在大學遇到 Willard Libby，接觸 radiocarbon dating，並發現science 是自己的熱情所在。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說大學畢業後，Athfield 的科學生涯蓬勃發展。末句說她已從 odd jobs 走了很遠，事業終於起飛。只看首尾句，可以判斷本段講她成為專業研究者的過程：她到 GNS 工作，成為 laboratory manager，PhD 研究 New Zealand 一種 rat 的出現時間，並指出 earlier research 的錯誤與subject’s diet 有關。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說 laboratory science 並非 Athfield 唯一興趣。末句說即使電影製作人沒錢並離開Cambodia，Athfield 仍留下繼續研究。只看首尾句，可以判斷本段講她從實驗室科學擴展到anthropology 和 archaeology。她成為 qualified archaeologist，加入 Cambodian project，並顯示出對 Angkor research 的長期投入，不只依附於 film project。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 2003 年電影沒有得出確定結論便結束，但 Athfield 繼續研究 Angkor Wat ruins。末句說radiocarbon dating 仍會是有價值的研究方法，而 Athfield 會被記住為最早把它應用於 Angkor Wat 古代遺址的人之一。只看首尾句，可以判斷本段是收束：她面對 funding、government paperwork 和 geology knowledge 的阻礙，最後完成 database。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "小提醒：Question 8 的 “During her mid-teens” 在你貼出的 passage 中沒有直接明文支援；不過空格本身問 Nancy 當時不被預期會 attend 甚麼，答案仍可由 “pursue a degree at a nearby university” 定位為 university。"
+  ]
+}

@@ -1,0 +1,1729 @@
+{
+  "keyPositions": {
+    "A": 1134,
+    "B": 1163,
+    "D": 1140,
+    "C": 1183
+  },
+  "lengthFlags": [
+    {
+      "id": "idiom-32-q46",
+      "wordCounts": [
+        14,
+        24,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "idiom-33-q14",
+      "wordCounts": [
+        14,
+        24,
+        14,
+        14
+      ]
+    },
+    {
+      "id": "idiom-34-q02",
+      "wordCounts": [
+        11,
+        13,
+        12,
+        8
+      ]
+    },
+    {
+      "id": "idiom-34-q07",
+      "wordCounts": [
+        9,
+        8,
+        10,
+        15
+      ]
+    },
+    {
+      "id": "idiom-34-q08",
+      "wordCounts": [
+        10,
+        11,
+        9,
+        14
+      ]
+    },
+    {
+      "id": "idiom-34-q15",
+      "wordCounts": [
+        19,
+        13,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "idiom-34-q17",
+      "wordCounts": [
+        17,
+        12,
+        13,
+        11
+      ]
+    },
+    {
+      "id": "idiom-34-q18",
+      "wordCounts": [
+        10,
+        17,
+        12,
+        12
+      ]
+    },
+    {
+      "id": "idiom-34-q22",
+      "wordCounts": [
+        11,
+        12,
+        11,
+        21
+      ]
+    },
+    {
+      "id": "idiom-34-q23",
+      "wordCounts": [
+        14,
+        15,
+        13,
+        20
+      ]
+    },
+    {
+      "id": "idiom-34-q24",
+      "wordCounts": [
+        11,
+        12,
+        13,
+        21
+      ]
+    },
+    {
+      "id": "idiom-34-q34",
+      "wordCounts": [
+        22,
+        20,
+        22,
+        13
+      ]
+    },
+    {
+      "id": "idiom-34-q39",
+      "wordCounts": [
+        12,
+        12,
+        10,
+        23
+      ]
+    },
+    {
+      "id": "idiom-34-q41",
+      "wordCounts": [
+        14,
+        13,
+        13,
+        22
+      ]
+    },
+    {
+      "id": "idiom-34-q42",
+      "wordCounts": [
+        21,
+        13,
+        14,
+        12
+      ]
+    },
+    {
+      "id": "idiom-34-q49",
+      "wordCounts": [
+        15,
+        13,
+        14,
+        22
+      ]
+    },
+    {
+      "id": "idiom-36-q12",
+      "wordCounts": [
+        17,
+        11,
+        12,
+        12
+      ]
+    },
+    {
+      "id": "idiom-36-q22",
+      "wordCounts": [
+        10,
+        19,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "idiom-36-q23",
+      "wordCounts": [
+        11,
+        10,
+        23,
+        11
+      ]
+    },
+    {
+      "id": "idiom-36-q27",
+      "wordCounts": [
+        10,
+        18,
+        10,
+        9
+      ]
+    },
+    {
+      "id": "idiom-36-q46",
+      "wordCounts": [
+        13,
+        12,
+        19,
+        13
+      ]
+    },
+    {
+      "id": "idiom-36-q50",
+      "wordCounts": [
+        13,
+        15,
+        15,
+        22
+      ]
+    },
+    {
+      "id": "idiom-37-q13",
+      "wordCounts": [
+        24,
+        14,
+        13,
+        13
+      ]
+    },
+    {
+      "id": "idiom-37-q14",
+      "wordCounts": [
+        16,
+        15,
+        23,
+        16
+      ]
+    },
+    {
+      "id": "idiom-37-q28",
+      "wordCounts": [
+        12,
+        13,
+        19,
+        12
+      ]
+    },
+    {
+      "id": "idiom-37-q50",
+      "wordCounts": [
+        23,
+        14,
+        15,
+        14
+      ]
+    },
+    {
+      "id": "idiom-38-q21",
+      "wordCounts": [
+        13,
+        15,
+        14,
+        20
+      ]
+    },
+    {
+      "id": "idiom-38-q28",
+      "wordCounts": [
+        13,
+        20,
+        14,
+        12
+      ]
+    },
+    {
+      "id": "idiom-38-q36",
+      "wordCounts": [
+        16,
+        17,
+        24,
+        15
+      ]
+    },
+    {
+      "id": "idiom-40-q21",
+      "wordCounts": [
+        12,
+        20,
+        10,
+        12
+      ]
+    },
+    {
+      "id": "idiom-40-q23",
+      "wordCounts": [
+        9,
+        11,
+        21,
+        11
+      ]
+    },
+    {
+      "id": "idiom-42-q20",
+      "wordCounts": [
+        20,
+        12,
+        14,
+        14
+      ]
+    },
+    {
+      "id": "idiom-42-q23",
+      "wordCounts": [
+        15,
+        24,
+        13,
+        15
+      ]
+    },
+    {
+      "id": "idiom-42-q30",
+      "wordCounts": [
+        15,
+        14,
+        22,
+        15
+      ]
+    },
+    {
+      "id": "idiom-42-q42",
+      "wordCounts": [
+        10,
+        11,
+        18,
+        11
+      ]
+    },
+    {
+      "id": "idiom-42-q51",
+      "wordCounts": [
+        12,
+        12,
+        7,
+        10
+      ]
+    },
+    {
+      "id": "idiom-42-q57",
+      "wordCounts": [
+        9,
+        12,
+        14,
+        14
+      ]
+    },
+    {
+      "id": "idiom-44-q08",
+      "wordCounts": [
+        9,
+        10,
+        7,
+        11
+      ]
+    },
+    {
+      "id": "idiom-44-q09",
+      "wordCounts": [
+        3,
+        7,
+        6,
+        5
+      ]
+    },
+    {
+      "id": "idiom-44-q17",
+      "wordCounts": [
+        8,
+        7,
+        7,
+        5
+      ]
+    },
+    {
+      "id": "idiom-44-q18",
+      "wordCounts": [
+        6,
+        10,
+        9,
+        8
+      ]
+    },
+    {
+      "id": "idiom-45-q24",
+      "wordCounts": [
+        7,
+        5,
+        7,
+        10
+      ]
+    },
+    {
+      "id": "idiom-45-q33",
+      "wordCounts": [
+        7,
+        5,
+        9,
+        9
+      ]
+    },
+    {
+      "id": "idiom-47-q02",
+      "wordCounts": [
+        12,
+        14,
+        9,
+        14
+      ]
+    },
+    {
+      "id": "idiom-47-q05",
+      "wordCounts": [
+        12,
+        9,
+        14,
+        14
+      ]
+    },
+    {
+      "id": "idiom-48-q17",
+      "wordCounts": [
+        9,
+        10,
+        13,
+        8
+      ]
+    },
+    {
+      "id": "idiom-48-q21",
+      "wordCounts": [
+        19,
+        14,
+        14,
+        12
+      ]
+    },
+    {
+      "id": "idiom-48-q34",
+      "wordCounts": [
+        19,
+        18,
+        20,
+        13
+      ]
+    },
+    {
+      "id": "idiom-51-q08",
+      "wordCounts": [
+        23,
+        15,
+        24,
+        22
+      ]
+    },
+    {
+      "id": "idiom-51-q17",
+      "wordCounts": [
+        22,
+        15,
+        23,
+        22
+      ]
+    },
+    {
+      "id": "idiom-51-q20",
+      "wordCounts": [
+        17,
+        26,
+        25,
+        24
+      ]
+    },
+    {
+      "id": "idiom-52-q48",
+      "wordCounts": [
+        16,
+        15,
+        16,
+        23
+      ]
+    },
+    {
+      "id": "idiom-53-q15",
+      "wordCounts": [
+        18,
+        10,
+        11,
+        10
+      ]
+    },
+    {
+      "id": "idiom-53-q26",
+      "wordCounts": [
+        12,
+        18,
+        12,
+        10
+      ]
+    },
+    {
+      "id": "idiom-53-q27",
+      "wordCounts": [
+        20,
+        14,
+        12,
+        14
+      ]
+    },
+    {
+      "id": "idiom-53-q45",
+      "wordCounts": [
+        13,
+        11,
+        13,
+        22
+      ]
+    },
+    {
+      "id": "idiom-54-q08",
+      "wordCounts": [
+        8,
+        6,
+        10,
+        10
+      ]
+    },
+    {
+      "id": "idiom-54-q21",
+      "wordCounts": [
+        9,
+        8,
+        13,
+        7
+      ]
+    },
+    {
+      "id": "idiom-54-q22",
+      "wordCounts": [
+        19,
+        8,
+        9,
+        9
+      ]
+    },
+    {
+      "id": "idiom-54-q28",
+      "wordCounts": [
+        22,
+        15,
+        15,
+        14
+      ]
+    },
+    {
+      "id": "idiom-54-q42",
+      "wordCounts": [
+        9,
+        9,
+        17,
+        9
+      ]
+    },
+    {
+      "id": "idiom-54-q50",
+      "wordCounts": [
+        11,
+        14,
+        17,
+        14
+      ]
+    },
+    {
+      "id": "idiom-56-q01",
+      "wordCounts": [
+        12,
+        10,
+        12,
+        6
+      ]
+    },
+    {
+      "id": "idiom-56-q02",
+      "wordCounts": [
+        8,
+        14,
+        12,
+        14
+      ]
+    },
+    {
+      "id": "idiom-56-q04",
+      "wordCounts": [
+        16,
+        16,
+        14,
+        10
+      ]
+    },
+    {
+      "id": "idiom-56-q05",
+      "wordCounts": [
+        9,
+        15,
+        15,
+        13
+      ]
+    },
+    {
+      "id": "idiom-56-q07",
+      "wordCounts": [
+        16,
+        16,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "idiom-56-q08",
+      "wordCounts": [
+        13,
+        7,
+        13,
+        11
+      ]
+    },
+    {
+      "id": "idiom-56-q09",
+      "wordCounts": [
+        10,
+        16,
+        14,
+        16
+      ]
+    },
+    {
+      "id": "idiom-56-q10",
+      "wordCounts": [
+        9,
+        11,
+        5,
+        11
+      ]
+    },
+    {
+      "id": "idiom-56-q13",
+      "wordCounts": [
+        8,
+        14,
+        12,
+        14
+      ]
+    },
+    {
+      "id": "idiom-56-q15",
+      "wordCounts": [
+        10,
+        16,
+        14,
+        16
+      ]
+    },
+    {
+      "id": "idiom-56-q16",
+      "wordCounts": [
+        13,
+        15,
+        15,
+        9
+      ]
+    },
+    {
+      "id": "idiom-56-q17",
+      "wordCounts": [
+        13,
+        7,
+        13,
+        11
+      ]
+    },
+    {
+      "id": "idiom-56-q18",
+      "wordCounts": [
+        6,
+        12,
+        12,
+        10
+      ]
+    },
+    {
+      "id": "idiom-56-q19",
+      "wordCounts": [
+        9,
+        15,
+        13,
+        15
+      ]
+    },
+    {
+      "id": "idiom-56-q21",
+      "wordCounts": [
+        11,
+        5,
+        10,
+        9
+      ]
+    },
+    {
+      "id": "idiom-56-q23",
+      "wordCounts": [
+        10,
+        14,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "idiom-56-q25",
+      "wordCounts": [
+        17,
+        11,
+        17,
+        15
+      ]
+    },
+    {
+      "id": "idiom-56-q26",
+      "wordCounts": [
+        13,
+        13,
+        11,
+        7
+      ]
+    },
+    {
+      "id": "idiom-56-q29",
+      "wordCounts": [
+        15,
+        17,
+        17,
+        11
+      ]
+    },
+    {
+      "id": "idiom-56-q38",
+      "wordCounts": [
+        11,
+        11,
+        5,
+        9
+      ]
+    },
+    {
+      "id": "idiom-56-q51",
+      "wordCounts": [
+        12,
+        6,
+        12,
+        10
+      ]
+    },
+    {
+      "id": "idiom-56-q52",
+      "wordCounts": [
+        12,
+        10,
+        6,
+        12
+      ]
+    },
+    {
+      "id": "idiom-56-q53",
+      "wordCounts": [
+        12,
+        14,
+        8,
+        14
+      ]
+    },
+    {
+      "id": "idiom-56-q55",
+      "wordCounts": [
+        10,
+        12,
+        6,
+        12
+      ]
+    },
+    {
+      "id": "idiom-56-q56",
+      "wordCounts": [
+        14,
+        12,
+        14,
+        8
+      ]
+    },
+    {
+      "id": "idiom-56-q57",
+      "wordCounts": [
+        9,
+        13,
+        15,
+        15
+      ]
+    },
+    {
+      "id": "idiom-56-q58",
+      "wordCounts": [
+        13,
+        11,
+        7,
+        13
+      ]
+    },
+    {
+      "id": "idiom-56-q59",
+      "wordCounts": [
+        13,
+        11,
+        7,
+        13
+      ]
+    },
+    {
+      "id": "idiom-57-q11",
+      "wordCounts": [
+        21,
+        22,
+        14,
+        22
+      ]
+    },
+    {
+      "id": "idiom-57-q21",
+      "wordCounts": [
+        13,
+        23,
+        15,
+        14
+      ]
+    },
+    {
+      "id": "idiom-57-q26",
+      "wordCounts": [
+        11,
+        17,
+        12,
+        11
+      ]
+    },
+    {
+      "id": "idiom-57-q36",
+      "wordCounts": [
+        16,
+        15,
+        17,
+        11
+      ]
+    },
+    {
+      "id": "idiom-58-q07",
+      "wordCounts": [
+        8,
+        10,
+        6,
+        10
+      ]
+    },
+    {
+      "id": "idiom-58-q15",
+      "wordCounts": [
+        10,
+        11,
+        14,
+        9
+      ]
+    },
+    {
+      "id": "idiom-58-q17",
+      "wordCounts": [
+        8,
+        9,
+        9,
+        14
+      ]
+    },
+    {
+      "id": "idiom-58-q21",
+      "wordCounts": [
+        10,
+        15,
+        9,
+        11
+      ]
+    },
+    {
+      "id": "idiom-58-q22",
+      "wordCounts": [
+        10,
+        15,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "idiom-58-q27",
+      "wordCounts": [
+        12,
+        11,
+        12,
+        18
+      ]
+    },
+    {
+      "id": "idiom-58-q41",
+      "wordCounts": [
+        9,
+        10,
+        16,
+        9
+      ]
+    },
+    {
+      "id": "idiom-62-q48",
+      "wordCounts": [
+        13,
+        11,
+        17,
+        13
+      ]
+    },
+    {
+      "id": "idiom-63-q01",
+      "wordCounts": [
+        22,
+        22,
+        13,
+        20
+      ]
+    },
+    {
+      "id": "idiom-63-q02",
+      "wordCounts": [
+        29,
+        27,
+        19,
+        29
+      ]
+    },
+    {
+      "id": "idiom-63-q07",
+      "wordCounts": [
+        24,
+        24,
+        22,
+        15
+      ]
+    },
+    {
+      "id": "idiom-63-q35",
+      "wordCounts": [
+        15,
+        23,
+        24,
+        22
+      ]
+    },
+    {
+      "id": "idiom-63-q45",
+      "wordCounts": [
+        23,
+        13,
+        23,
+        23
+      ]
+    },
+    {
+      "id": "idiom-64-q02",
+      "wordCounts": [
+        11,
+        16,
+        18,
+        18
+      ]
+    },
+    {
+      "id": "idiom-64-q10",
+      "wordCounts": [
+        12,
+        19,
+        17,
+        19
+      ]
+    },
+    {
+      "id": "idiom-64-q44",
+      "wordCounts": [
+        12,
+        24,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "idiom-65-q52",
+      "wordCounts": [
+        7,
+        10,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "idiom-65-q56",
+      "wordCounts": [
+        7,
+        6,
+        10,
+        7
+      ]
+    },
+    {
+      "id": "idiom-66-q22",
+      "wordCounts": [
+        14,
+        13,
+        14,
+        21
+      ]
+    },
+    {
+      "id": "idiom-66-q25",
+      "wordCounts": [
+        17,
+        16,
+        15,
+        24
+      ]
+    },
+    {
+      "id": "idiom-69-q17",
+      "wordCounts": [
+        14,
+        11,
+        9,
+        11
+      ]
+    },
+    {
+      "id": "idiom-71-q06",
+      "wordCounts": [
+        17,
+        18,
+        11,
+        18
+      ]
+    },
+    {
+      "id": "idiom-71-q09",
+      "wordCounts": [
+        11,
+        19,
+        19,
+        18
+      ]
+    },
+    {
+      "id": "idiom-71-q11",
+      "wordCounts": [
+        10,
+        12,
+        11,
+        19
+      ]
+    },
+    {
+      "id": "idiom-71-q28",
+      "wordCounts": [
+        17,
+        17,
+        11,
+        16
+      ]
+    },
+    {
+      "id": "idiom-71-q36",
+      "wordCounts": [
+        18,
+        17,
+        10,
+        18
+      ]
+    },
+    {
+      "id": "idiom-71-q37",
+      "wordCounts": [
+        18,
+        19,
+        19,
+        12
+      ]
+    },
+    {
+      "id": "idiom-72-q23",
+      "wordCounts": [
+        15,
+        17,
+        23,
+        16
+      ]
+    },
+    {
+      "id": "idiom-72-q34",
+      "wordCounts": [
+        16,
+        17,
+        25,
+        18
+      ]
+    },
+    {
+      "id": "idiom-72-q37",
+      "wordCounts": [
+        26,
+        19,
+        19,
+        17
+      ]
+    },
+    {
+      "id": "idiom-72-q48",
+      "wordCounts": [
+        18,
+        29,
+        16,
+        18
+      ]
+    },
+    {
+      "id": "idiom-72-q54",
+      "wordCounts": [
+        11,
+        11,
+        17,
+        9
+      ]
+    },
+    {
+      "id": "idiom-74-q15",
+      "wordCounts": [
+        24,
+        16,
+        14,
+        16
+      ]
+    },
+    {
+      "id": "idiom-74-q23",
+      "wordCounts": [
+        12,
+        14,
+        20,
+        14
+      ]
+    },
+    {
+      "id": "idiom-74-q37",
+      "wordCounts": [
+        23,
+        24,
+        14,
+        22
+      ]
+    },
+    {
+      "id": "idiom-78-q14",
+      "wordCounts": [
+        9,
+        17,
+        13,
+        11
+      ]
+    },
+    {
+      "id": "idiom-79-q02",
+      "wordCounts": [
+        5,
+        7,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "idiom-79-q05",
+      "wordCounts": [
+        6,
+        8,
+        8,
+        5
+      ]
+    },
+    {
+      "id": "idiom-79-q07",
+      "wordCounts": [
+        13,
+        8,
+        8,
+        16
+      ]
+    },
+    {
+      "id": "idiom-79-q12",
+      "wordCounts": [
+        13,
+        15,
+        10,
+        9
+      ]
+    },
+    {
+      "id": "idiom-81-q15",
+      "wordCounts": [
+        20,
+        11,
+        11,
+        10
+      ]
+    },
+    {
+      "id": "idiom-81-q16",
+      "wordCounts": [
+        10,
+        12,
+        21,
+        12
+      ]
+    },
+    {
+      "id": "idiom-81-q21",
+      "wordCounts": [
+        20,
+        14,
+        13,
+        15
+      ]
+    },
+    {
+      "id": "idiom-81-q22",
+      "wordCounts": [
+        12,
+        13,
+        20,
+        13
+      ]
+    },
+    {
+      "id": "idiom-81-q25",
+      "wordCounts": [
+        10,
+        11,
+        11,
+        21
+      ]
+    },
+    {
+      "id": "idiom-81-q42",
+      "wordCounts": [
+        9,
+        18,
+        10,
+        10
+      ]
+    },
+    {
+      "id": "idiom-82-q51",
+      "wordCounts": [
+        10,
+        8,
+        15,
+        9
+      ]
+    },
+    {
+      "id": "idiom-82-q55",
+      "wordCounts": [
+        10,
+        11,
+        14,
+        9
+      ]
+    },
+    {
+      "id": "idiom-82-q56",
+      "wordCounts": [
+        11,
+        17,
+        11,
+        10
+      ]
+    },
+    {
+      "id": "idiom-82-q57",
+      "wordCounts": [
+        13,
+        17,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "idiom-84-q07",
+      "wordCounts": [
+        19,
+        17,
+        19,
+        10
+      ]
+    },
+    {
+      "id": "idiom-84-q10",
+      "wordCounts": [
+        17,
+        17,
+        15,
+        11
+      ]
+    },
+    {
+      "id": "idiom-84-q14",
+      "wordCounts": [
+        19,
+        20,
+        13,
+        18
+      ]
+    },
+    {
+      "id": "idiom-84-q23",
+      "wordCounts": [
+        19,
+        13,
+        20,
+        18
+      ]
+    },
+    {
+      "id": "idiom-86-q18",
+      "wordCounts": [
+        13,
+        18,
+        11,
+        13
+      ]
+    },
+    {
+      "id": "idiom-87-q22",
+      "wordCounts": [
+        20,
+        13,
+        13,
+        13
+      ]
+    },
+    {
+      "id": "idiom-89-q21",
+      "wordCounts": [
+        11,
+        10,
+        10,
+        22
+      ]
+    },
+    {
+      "id": "idiom-89-q23",
+      "wordCounts": [
+        15,
+        9,
+        11,
+        11
+      ]
+    },
+    {
+      "id": "idiom-90-q04",
+      "wordCounts": [
+        11,
+        14,
+        11,
+        9
+      ]
+    },
+    {
+      "id": "idiom-90-q06",
+      "wordCounts": [
+        9,
+        11,
+        14,
+        11
+      ]
+    },
+    {
+      "id": "idiom-90-q13",
+      "wordCounts": [
+        13,
+        13,
+        21,
+        13
+      ]
+    },
+    {
+      "id": "idiom-90-q15",
+      "wordCounts": [
+        10,
+        11,
+        11,
+        17
+      ]
+    },
+    {
+      "id": "idiom-90-q19",
+      "wordCounts": [
+        9,
+        8,
+        8,
+        16
+      ]
+    },
+    {
+      "id": "idiom-90-q21",
+      "wordCounts": [
+        9,
+        9,
+        21,
+        10
+      ]
+    },
+    {
+      "id": "idiom-90-q22",
+      "wordCounts": [
+        9,
+        9,
+        23,
+        10
+      ]
+    },
+    {
+      "id": "idiom-90-q26",
+      "wordCounts": [
+        11,
+        13,
+        13,
+        18
+      ]
+    },
+    {
+      "id": "idiom-90-q27",
+      "wordCounts": [
+        16,
+        16,
+        14,
+        22
+      ]
+    },
+    {
+      "id": "idiom-90-q36",
+      "wordCounts": [
+        14,
+        22,
+        15,
+        14
+      ]
+    },
+    {
+      "id": "idiom-90-q44",
+      "wordCounts": [
+        14,
+        14,
+        13,
+        21
+      ]
+    },
+    {
+      "id": "idiom-91-q52",
+      "wordCounts": [
+        13,
+        10,
+        10,
+        8
+      ]
+    },
+    {
+      "id": "idiom-92-q45",
+      "wordCounts": [
+        6,
+        7,
+        18,
+        8
+      ]
+    },
+    {
+      "id": "idiom-96-q22",
+      "wordCounts": [
+        15,
+        15,
+        9,
+        13
+      ]
+    },
+    {
+      "id": "idiom-96-q27",
+      "wordCounts": [
+        15,
+        9,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "idiom-96-q45",
+      "wordCounts": [
+        14,
+        23,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "idiom-96-q60",
+      "wordCounts": [
+        12,
+        18,
+        12,
+        11
+      ]
+    },
+    {
+      "id": "idiom-97-q07",
+      "wordCounts": [
+        12,
+        14,
+        14,
+        20
+      ]
+    },
+    {
+      "id": "idiom-97-q21",
+      "wordCounts": [
+        23,
+        12,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "idiom-97-q27",
+      "wordCounts": [
+        13,
+        12,
+        23,
+        13
+      ]
+    },
+    {
+      "id": "idiom-97-q37",
+      "wordCounts": [
+        17,
+        24,
+        17,
+        15
+      ]
+    },
+    {
+      "id": "idiom-99-q25",
+      "wordCounts": [
+        15,
+        17,
+        24,
+        16
+      ]
+    },
+    {
+      "id": "idiom-99-q30",
+      "wordCounts": [
+        11,
+        12,
+        12,
+        20
+      ]
+    },
+    {
+      "id": "idiom-99-q42",
+      "wordCounts": [
+        14,
+        13,
+        22,
+        15
+      ]
+    },
+    {
+      "id": "idiom-100-q08",
+      "wordCounts": [
+        14,
+        10,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "idiom-103-q38",
+      "wordCounts": [
+        12,
+        19,
+        19,
+        18
+      ]
+    },
+    {
+      "id": "idiom-103-q45",
+      "wordCounts": [
+        21,
+        15,
+        13,
+        15
+      ]
+    },
+    {
+      "id": "idiom-104-q10",
+      "wordCounts": [
+        10,
+        9,
+        13,
+        16
+      ]
+    },
+    {
+      "id": "idiom-104-q57",
+      "wordCounts": [
+        12,
+        16,
+        11,
+        10
+      ]
+    },
+    {
+      "id": "idiom-106-q06",
+      "wordCounts": [
+        11,
+        16,
+        11,
+        10
+      ]
+    },
+    {
+      "id": "idiom-106-q17",
+      "wordCounts": [
+        11,
+        11,
+        18,
+        10
+      ]
+    },
+    {
+      "id": "idiom-106-q27",
+      "wordCounts": [
+        11,
+        12,
+        23,
+        12
+      ]
+    },
+    {
+      "id": "idiom-106-q30",
+      "wordCounts": [
+        22,
+        16,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "idiom-106-q48",
+      "wordCounts": [
+        14,
+        22,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "idiom-107-q22",
+      "wordCounts": [
+        11,
+        20,
+        12,
+        12
+      ]
+    },
+    {
+      "id": "idiom-107-q26",
+      "wordCounts": [
+        14,
+        13,
+        12,
+        21
+      ]
+    },
+    {
+      "id": "idiom-107-q27",
+      "wordCounts": [
+        16,
+        15,
+        14,
+        23
+      ]
+    },
+    {
+      "id": "idiom-108-q02",
+      "wordCounts": [
+        12,
+        21,
+        14,
+        13
+      ]
+    },
+    {
+      "id": "idiom-108-q05",
+      "wordCounts": [
+        15,
+        18,
+        10,
+        18
+      ]
+    }
+  ]
+}

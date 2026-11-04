@@ -1,0 +1,1995 @@
+{
+  "id": "p2-121-a-decibel-hell-the-effects-of-living-in-a-noisy-world",
+  "catalogueId": "p2-121",
+  "catalogueIds": [
+    "p2-121"
+  ],
+  "passage": 2,
+  "title": "A decibel Hell (The Effects of Living in a Noisy World)",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "85 dBA",
+    "hearing impairment",
+    "high-frequency",
+    "stomach contractions",
+    "noise maps",
+    "B",
+    "D",
+    "C",
+    "E",
+    "A",
+    "C",
+    "D",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "85 dBA",
+      "answerKey": "85 dBA",
+      "type": "Summary Completion",
+      "prompt": "“According to NIOSH, hazardous noise exceeds a time-weighted average of 14 ______.”",
+      "translation": "根據 NIOSH，危險噪音超過一個 time-weighted average，即時間加權平均值：______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Summary Completion，答案不可超過兩個詞。空格前是 “average of”，後面需要數字或數值單位。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s not difficult for a person to encounter sound at levels that can cause adverse health effects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個人遇到可能造成不良健康影響的聲量，其實並不困難。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other measures and definitions are used for other purposes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他用途會採用其他測量方法和定義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph A 的功能：它先說現代人難以避開有害聲音，再引入噪音測量和定義。題目有 NIOSH、hazardous noise、time-weighted average，這些都是定義型訊號，所以 Paragraph A 是合理目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最強定位詞是 “NIOSH” 和 “time-weighted average”。掃描 Paragraph A 後段，可以找到 Mark Stephenson 對 NIOSH 定義的說明。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Mark Stephenson, a Cincinnati, Ohio-based senior research audiologist at the National Institute for Occupational Safety and Health (NIOSH), says his agency’s definition of hazardous noise is sound that exceeds the time-weighted average of 85 dBA, meaning the average noise exposure measured over a typical eight-hour workday.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Mark Stephenson 是位於 Ohio Cincinnati 的 NIOSH 高級研究聽力學家。他說，該機構對危險噪音的定義是：聲音超過 85 dBA 的時間加權平均值，即在典型八小時工作日中測量到的平均噪音暴露量。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“hazardous noise exceeds a time-weighted average of ______”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“hazardous noise is sound that exceeds the time-weighted average of 85 dBA”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格只需要抄原文數值。答案是 85 dBA，符合兩詞限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “eight-hour workday”。這是解釋 time-weighted average 怎樣量度的時間背景；題目問的是超過多少平均聲量，真正答案是 85 dBA。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "hearing impairment",
+      "answerKey": "hearing impairment",
+      "type": "Summary Completion",
+      "prompt": "“Studies from the mid to late 1990s confirmed that exposure to certain sound levels can cause 15 ______ by a certain age.”",
+      "translation": "1990 年代中後期的研究確認，暴露於某些聲量會在某個年齡前造成 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “can cause”，後面需要名詞短語。題目中的 “mid to late 1990s” 是非常強的時間定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Numerous scientific studies over the years have confirmed that exposure to certain levels of sound can damage hearing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多年來大量科學研究已確認，暴露於某些聲量會損害聽力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The report listed stereos, music concerts, toys (such as toy telephones and certain rattles), lawnmowers, and fireworks as producing potentially harmful sounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "報告列出 stereos、音樂會、玩具、割草機和煙花等會產生潛在有害聲音的來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph C 集中處理聲音對聽力的傷害。題目有 “Studies from the mid to late 1990s”，這會把我們帶到本段中間的 NIOSH studies。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“mid to late 1990s”"
+            },
+            {
+              "kind": "quote",
+              "text": "“by a certain age”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exposure to certain sound levels”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“NIOSH studies from the mid to late 1990s show that 90 per cent of coal miners have hearing impairment by age 52…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“NIOSH studies from the mid to late 1990s show that 90 per cent of coal miners have hearing impairment by age 52 – compared to 9 per cent of the general population – and 70 per cent of male metal/nonmetal miners will experience hearing impairment by age 60…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "NIOSH 在 1990 年代中後期的研究顯示，90% 煤礦工人在 52 歲前已有聽力損害；相比之下，一般人口只有 9%。此外，70% 男性金屬或非金屬礦工會在 60 歲前經歷聽力損害。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“can cause ______ by a certain age”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“have hearing impairment by age 52”"
+            },
+            {
+              "kind": "quote",
+              "text": "“experience hearing impairment by age 60”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 hearing impairment。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 開頭也有 “hearing loss”，意思接近。不過題目特別提到 “mid to late 1990s” 和 “by a certain age”，這兩個訊號直接對應 NIOSH studies 句中的 “hearing impairment by age 52 / by age 60”。所以 hearing impairment 最貼原文。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "high-frequency",
+      "answerKey": "high-frequency",
+      "type": "Summary Completion",
+      "prompt": "“Children who are continually exposed to excessive noise may have difficulty with 16 ______sound discrimination.”",
+      "translation": "持續暴露於過量噪音的兒童，可能在 ______ 聲音辨別方面遇到困難。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “sound discrimination” 前面，需要形容詞或形容詞短語，用來修飾 sound discrimination。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Numerous scientific studies over the years have confirmed that exposure to certain levels of sound can damage hearing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多年來大量科學研究已確認，暴露於某些聲量會損害聽力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The report listed stereos, music concerts, toys (such as toy telephones and certain rattles), lawnmowers, and fireworks as producing potentially harmful sounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該報告列出 stereos、音樂會、玩具、割草機和煙花等可能產生有害聲音的來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半轉到 children 和 CDC research。題目提到 children、continued exposure、excessive noise、sound discrimination，應掃描 Paragraph C 後段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“children”"
+            },
+            {
+              "kind": "quote",
+              "text": "“continued exposure”"
+            },
+            {
+              "kind": "quote",
+              "text": "“excessive noise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sound discrimination”"
+            },
+            {
+              "kind": "label",
+              "text": "原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“continued exposure to excessive noise can lead to difficulties with high-frequency sound discrimination.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most children with noise-induced hearing threshold shifts have only limited hearing damage, but continued exposure to excessive noise can lead to difficulties with high-frequency sound discrimination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大多數有噪音引致聽閾轉移的兒童只有有限程度的聽力損害；但持續暴露於過量噪音，可能導致高頻聲音辨別困難。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Children who are continually exposed to excessive noise may have difficulty with ______sound discrimination.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“continued exposure to excessive noise can lead to difficulties with high-frequency sound discrimination.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式： high-frequency 放在 sound discrimination 前面，文法正確，也符合兩詞限制。連字詞high-frequency 一般視作一個詞。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “noise-induced”。原文有 “noise-induced hearing threshold shifts”，但它修飾的是 hearing threshold shifts，不是 sound discrimination。空格後面固定是 “sound discrimination”，所以答案要能自然接在它前面。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "stomach contractions",
+      "answerKey": "stomach contractions",
+      "type": "Summary Completion",
+      "prompt": "“Noise can also cause 17 ______ in healthy people.”",
+      "translation": "噪音也可以在健康人士身上造成 ______。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “cause”，後面需要名詞短語。題目中的 “healthy people” 是強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The effects of sound don’t stop with the ears.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聲音的影響不止於耳朵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A follow-up study published in the September 1981 issue of the Journal of Environmental Psychology found that children’s reading scores improved after these interventions were put in place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1981 年 9 月刊於 Journal of Environmental Psychology 的跟進研究發現，這些干預措施實施後，兒童閱讀成績改善了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph D 的功能是說明噪音的非聽覺影響，並以學校研究作例子。題目問健康人士的身體反應，應在本段前半找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“healthy people”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cause”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Noise can also”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中相近表達是："
+            },
+            {
+              "kind": "quote",
+              "text": "“exposure to noise caused stomach contractions in healthy human beings.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The results showed that exposure to noise caused stomach contractions in healthy human beings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究結果顯示，暴露於噪音會令健康人出現胃部收縮。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Noise can also cause ______ in healthy people.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“exposure to noise caused stomach contractions in healthy human beings.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "healthy people = healthy human beings Noise can cause = exposure to noise caused答案 = stomach contractions"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "同段前面列出 elevated blood pressure、loss of sleep、increased heart rate 等多個 nonauditory effects，但題目有 “healthy people”，這直接對應 Smith and Laird 的研究句。不要從前面清單任選一個。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "noise maps",
+      "answerKey": "noise maps",
+      "type": "Summary Completion",
+      "prompt": "“In Europe, cities with more than 250,000 residents are creating 18 ______ to help determine noise-pollution policies.”",
+      "translation": "在歐洲，人口超過 250,000 的城市正在製作 ______，以協助制定噪音污染政策。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “creating”，後面需要名詞短語。題目中的 250,000 是強數字定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Anti-noise activists say that Europe and several countries in Asia are more advanced than the United States in terms of combating noise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "反噪音人士說，Europe 和亞洲若干國家在對抗噪音方面比 United States 更先進。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Governments have a responsibility to protect their citizens by curbing noise pollution,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說，政府有責任透過控制噪音污染來保護市民。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph E 是政策行動段。題目說 Europe、250,000 residents、noise-pollution policies，全部都在本段前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Europe”"
+            },
+            {
+              "kind": "quote",
+              "text": "“250,000”"
+            },
+            {
+              "kind": "quote",
+              "text": "“policies”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the European Union, countries with cities of at least 250,000 people are creating noise maps of those cities to help leaders determine noise pollution policies.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the European Union, countries with cities of at least 250,000 people are creating noise maps of those cities to help leaders determine noise pollution policies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 European Union，擁有人口至少 250,000 城市的國家，正在為這些城市製作 noise maps，以幫助領導者制定噪音污染政策。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "cities with more than 250,000 residents= cities of at least 250,000 people to help determine policies= to help leaders determine noise pollution policies答案形式： noise maps 是兩個詞，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要只填 maps。原文特別說 noise maps，這是政策工具的完整名稱。只寫 maps 太籠統，容易失去精準度。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "B — William Luxford",
+      "answerKey": "B — William Luxford",
+      "type": "Matching Features",
+      "prompt": "“Changing the environment can improve hearing health.”",
+      "translation": "改變環境可以改善聽力健康。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Features，要把 finding 配對到正確人物或機構。最強定位詞是 “change environment” 和 “hearing health”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Numerous scientific studies over the years have confirmed that exposure to certain levels of sound can damage hearing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多年來大量科學研究已確認，暴露於某些聲量會損害聽力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The report listed stereos, music concerts, toys (such as toy telephones and certain rattles), lawnmowers, and fireworks as producing potentially harmful sounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "報告列出多種可能產生有害聲音的來源，包括 stereos、音樂會、玩具、割草機和煙花。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 談聽力傷害和相關專家。題目有 “environment” 和 “hearing health”，應掃描中段專家引述。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "掃描人名時可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“William Luxford, medical director of the House Ear Clinic…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“William Luxford, medical director of the House Ear Clinic of St. Vincent Medical Center in Los Angeles, points out one piece of good news: ‘It’s true that continuous noise exposure will lead to the continuation of hearing loss, but as soon as the exposure is stopped, the hearing loss stops. So a change in environment can improve a person’s hearing health.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Los Angeles 的 St. Vincent Medical Center House Ear Clinic 醫務主任 William Luxford 指出一項好消息：持續噪音暴露確實會令聽力損失繼續，但只要暴露停止，聽力損失也會停止。因此，改變環境可以改善一個人的聽力健康。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Changing the environment can improve hearing health.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“a change in environment can improve a person’s hearing health.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是幾乎原字重現。答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要選 NIOSH。NIOSH 提供大量聽力損害數據，但 “change in environment can improve…” 這個 finding 是 William Luxford 的引述。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "D — Arline Bronzaft",
+      "answerKey": "D — Arline Bronzaft",
+      "type": "Matching Features",
+      "prompt": "“Governments should fund continued research into controlling noise.”",
+      "translation": "政府應資助持續研究，以控制噪音。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要找出哪位人物提出政府責任和研究資金。定位詞是 Governments、fund、research、controlling noise。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Anti-noise activists say that Europe and several countries in Asia are more advanced than the United States in terms of combating noise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "反噪音人士說，Europe 和亞洲若干國家在對抗噪音方面比 United States 更先進。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Governments have a responsibility to protect their citizens by curbing noise pollution,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說，政府有責任透過控制噪音污染來保護市民。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，本段明顯與政策和政府行動有關。題目也問 governments，所以 Paragraph E 是目標段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "掃描 Paragraph E 後段，找到 “Bronzaft stresses”："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bronzaft stresses that governments worldwide need to increase funding for noise research…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bronzaft stresses that governments worldwide need to increase funding for noise research and do a better job coordinating their noise pollution efforts so they can establish health and environmental policies based on solid scientific research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bronzaft 強調，全球各地政府需要增加噪音研究資金，並更好地協調噪音污染處理工作，這樣才能根據扎實科學研究建立健康和環境政策。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Governments should fund continued research= governments worldwide need to increase funding for noise research controlling noise= coordinating their noise pollution efforts / curbing noise pollution答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有直接出現 “Bronzaft”，但原文 reporting verb “stresses” 表示她在提出主張。這類題要留意人名後的動詞，例如 says、points out、stresses，因為它們標示觀點來源。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "C — Craig Moulton",
+      "answerKey": "C — Craig Moulton",
+      "type": "Matching Features",
+      "prompt": "“Companies should protect employees from harmful noise.”",
+      "translation": "公司應保護員工免受有害噪音影響。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 Companies、employees、protect、harmful noise。文章可能把 companies 改寫成employers，把 employees 改寫成 workers。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the United States, about 30 million workers are exposed to hazardous sound levels on the job, according to NIOSH.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據 NIOSH，在 United States 約有 3,000 萬工人在工作中暴露於危險聲量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Additionally, employers must implement a continuing, effective hearing conservation program as outlined in OSHA’s Noise Standard.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，僱主必須按照 OSHA 的 Noise Standard，推行持續而有效的聽力保護計劃。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph B 是 workplace noise 段，重點是職場噪音與僱主責任。題目中的 companies / employees 對應 employers / workers。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "掃描人名可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Craig Moulton, a senior industrial hygienist for the Occupational Safety and Health Administration (OSHA).”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Still,’ he says, ‘OSHA does require that any employer with workers overexposed to noise provide protection for those employees against the harmful effects of noise.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他說：「儘管如此，OSHA 確實要求任何有員工過度暴露於噪音的僱主，為這些員工提供保護，使他們免受噪音的有害影響。」"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Companies= employers employees= workers / those employees protect employees from harmful noise= provide protection for those employees against the harmful effects of noise答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "OSHA 是機構，Craig Moulton 是發言者。選項列表中 C 寫的是 Craig Moulton (OSHA)，所以配C。不要只因 OSHA 是制度來源就忽略人名。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "E — Centers for Disease Control and Prevention",
+      "answerKey": "E — Centers for Disease Control and Prevention",
+      "type": "Matching Features",
+      "prompt": "“Noise affects American children’s hearing.”",
+      "translation": "噪音影響美國兒童的聽力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 American children、hearing。文章中的機構名可能很長，應掃描 CDC 和 Pediatrics。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Numerous scientific studies over the years have confirmed that exposure to certain levels of sound can damage hearing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "多年來大量科學研究確認，暴露於某些聲量會損害聽力。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The report listed stereos, music concerts, toys (such as toy telephones and certain rattles), lawnmowers, and fireworks as producing potentially harmful sounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "該報告列出 stereos、音樂會、玩具、割草機和煙花等會產生潛在有害聲音的來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 後半提到 children 和一份 report。題目說 American children，所以應找 “American children” 或相關調查機構。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "原文中找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“researchers from the Centers for Disease Control and Prevention reported…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“an estimated 12.5 per cent of American children…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the July 2001 issue of Pediatrics, researchers from the Centers for Disease Control and Prevention reported that, based on audiometric testing of 5,249 children as part of the Third National Health and Nutrition Examination Survey, an estimated 12.5 per cent of American children have noise-induced hearing threshold shifts – or dulled hearing – in one or both ears.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 2001 年 7 月的 Pediatrics 中，Centers for Disease Control and Prevention 的研究人員報告，根據 Third National Health and Nutrition Examination Survey 中 5,249 名兒童的聽力測試，估計12.5% 美國兒童在一邊或兩邊耳朵有噪音引致的聽閾轉移，也就是聽力變鈍。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Noise affects American children’s hearing= American children have noise-induced hearing threshold shifts / dulled hearing答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不要選 NIOSH。NIOSH 的數據主要是 miners、construction workers、carpenters。American children 的具體比例來自 CDC report。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "A — World Health Organization (WHO)",
+      "answerKey": "A — World Health Organization (WHO)",
+      "type": "Matching Features",
+      "prompt": "“Noise seriously affects hearing worldwide.”",
+      "translation": "噪音在全球範圍嚴重影響聽力。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 worldwide、hearing、seriously affects。這題應找全球性機構和全球數字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s not difficult for a person to encounter sound at levels that can cause adverse health effects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個人遇到可能造成不良健康影響的聲量並不困難。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Other measures and definitions are used for other purposes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他用途會使用其他測量方法和定義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 先從全球和一般健康風險入手，再引用 WHO。題目有 worldwide，最可能對應World Health Organization。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph A，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Worldwide, noise-induced hearing impairment…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "以及 “120 million people worldwide…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In its 1999 Guidelines for Community Noise, the World Health Organization (WHO) declared,‘Worldwide, noise-induced hearing impairment is the most prevalent irreversible occupational hazard, and it is estimated that 120 million people worldwide have disabling hearing difficulties.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1999 年的 Guidelines for Community Noise 中，World Health Organization 宣稱：「在全球範圍，噪音引致的聽力損害是最普遍的不可逆職業危害；估計全球有 1.2 億人有致殘性聽力困難。」"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Noise seriously affects hearing worldwide= worldwide, noise-induced hearing impairment is the most prevalent irreversible occupational hazard= 120 million people worldwide have disabling hearing difficulties答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 23 的 “worldwide” 是最強訊號。Paragraph C 有許多嚴重聽力損害數據，但範圍多是美國職業群體。全球性聲明和 1.2 億人數字屬於 WHO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "C — install special material in classrooms to reduce outside noise.",
+      "answerKey": "C — install special material in classrooms to reduce outside noise.",
+      "type": "Multiple Choice",
+      "prompt": "“The school board was persuaded to…”",
+      "translation": "校董會被說服去做甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 Multiple Choice。定位詞是 school board、persuaded。答案要找校董會被說服採取的具體行動。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The effects of sound don’t stop with the ears.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "聲音的影響不止於耳朵。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A follow-up study published in the September 1981 issue of the Journal of Environmental Psychology found that children’s reading scores improved after these interventions were put in place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1981 年 9 月刊於 Journal of Environmental Psychology 的跟進研究發現，這些干預措施實施後，兒童閱讀成績改善了。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷 Paragraph D 處理噪音對學習的影響，以及後續干預措施。題目有 school board，應看本段學校研究後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 “school board”："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bronzaft and the school principal persuaded the school board to have acoustical tile installed…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Bronzaft and the school principal persuaded the school board to have acoustical tile installed in the classrooms adjacent to the tracks.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Bronzaft 和校長說服校董會，在靠近鐵軌的課室安裝吸音磚。"
+            },
+            {
+              "kind": "label",
+              "text": "補充句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Transit Authority also treated the tracks near the school to make them less noisy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Transit Authority 也處理學校附近的路軌，使其噪音減少。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A move the classrooms away from the noisy tracks.原文沒有說搬走課室。課室仍在 tracks 附近，只是加裝材料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B reduce the use of the tracks.減少路軌使用量沒有出現。Transit Authority 處理路軌以降低噪音，但沒有減少使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C install special material in classrooms to reduce outside noise.正確。acoustical tile 是吸音材料，installed in classrooms 對應 install special material。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D organise a team for a follow-up study.原文說後來有 follow-up study，但校董會被說服做的是安裝 acoustical tile，不是組織研究團隊。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "acoustical tile= special material to reduce noise classrooms adjacent to the tracks= classrooms affected by outside train noise"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 很有吸引力，因為原文下一句提到 Transit Authority treated the tracks。可是題目問的是school board was persuaded to do what；主體要對準 school board，不可把 Transit Authority 的行動放到校董會身上。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "D — help authorities make better decisions about city management.",
+      "answerKey": "D — help authorities make better decisions about city management.",
+      "type": "Multiple Choice",
+      "prompt": "“In European cities, research into noise is intended to…”",
+      "translation": "在歐洲城市中，噪音研究的目的在於甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 European cities、research into noise、intended to。原文可能用 noise maps、leaders、policies、street designs、new buildings 表示目的。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Anti-noise activists say that Europe and several countries in Asia are more advanced than the United States in terms of combating noise.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "反噪音人士說，Europe 和亞洲若干國家在對抗噪音方面比 United States 更先進。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Governments have a responsibility to protect their citizens by curbing noise pollution,’ she says.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說，政府有責任透過控制噪音污染來保護市民。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 是政策和城市管理段。題目問 European cities 的噪音研究目的，應看 noise maps句群。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞： European cities noise maps policies leaders原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“countries with cities of at least 250,000 people are creating noise maps…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“to help leaders determine noise pollution policies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“will be fed into computer models that will help test the sound impact of street designs or new buildings before construction begins.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the European Union, countries with cities of at least 250,000 people are creating noise maps of those cities to help leaders determine noise pollution policies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 European Union，擁有人口至少 250,000 城市的國家正在為這些城市製作 noise maps，以幫助領導者制定噪音污染政策。"
+            },
+            {
+              "kind": "label",
+              "text": "後續證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“The map data, which must be finished by 2007, will be fed into computer models that will help test the sound impact of street designs or new buildings before construction begins.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些地圖數據必須在 2007 年前完成，並會輸入電腦模型，用來在施工前測試街道設計或新建築的聲音影響。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A record every detail of urban pollution on maps.過度擴張。原文是 noise maps，不是所有 urban pollution，更沒有 “every detail”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B measure the effect of noise on population movement.原文有 population pressure，但那是 Europe 行動較快的原因；沒有說測量人口流動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C determine how large a city can be without noise pollution. 250,000 是需要製作 noise maps 的城市人口門檻，並非研究城市可以多大而沒有噪音污染。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D help authorities make better decisions about city management.正確。leaders determine policies、test street designs and new buildings before construction，正是幫助城市管理決策。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "authorities= leaders / governments make better decisions about city management= determine noise pollution policies and test street designs or new buildings before construction"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目用 “research into noise” 概括 noise maps 和 computer models。不要只盯住 map 這個工具；真正目的在 “help leaders determine policies”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "C — The Effects of Living in a Noisy World",
+      "answerKey": "C — The Effects of Living in a Noisy World",
+      "type": "Multiple Choice",
+      "prompt": "“Which is the best title for the passage?”",
+      "translation": "哪一個標題最能概括全文？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Best title 題要看全文主線，不可只用某一段細節。要比較選項是否覆蓋 Paragraph A–E 的整體內容。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看全文功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 介紹現代噪音難以避開，並引用 WHO 和 NIOSH 定義危險噪音。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 講工作場所中大量工人暴露於危險聲量，以及僱主保護責任。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 講噪音對聽力的損害，包括成人職業群體和兒童。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 講非聽覺影響，例如血壓、睡眠、心率、胃部收縮和學習能力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 講反噪音政策、noise maps、政府研究和責任。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項範圍比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A How People Cope with Noise Pollution全文有 policy 和 protection，但主要不是描述個人如何 cope。篇章重點在噪音造成的健康和學習影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Fighting Noise with Powerful Technology只有 Paragraph E 提到 computer models 和 noise maps；technology 不是全文中心。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C The Effects of Living in a Noisy World正確。文章由 noisy urban environment 開始，逐步講 hearing impairment、tinnitus、children’s hearing、blood pressure、sleep、stomach contractions、reading ability，再講政策回應。這個標題覆蓋全文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D The Effects of Noise on Children’s Learning Paragraph D 有兒童閱讀研究，但這只是其中一部分。全文還有職業性聽力損害、WHO 全球數據、兒童聽力、非聽覺身體反應和政策行動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "回到文章標題和主線"
+            },
+            {
+              "kind": "label",
+              "text": "文章原標題已經是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A Decibel Hell: The Effects of Living in a Noisy World”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "分貝地獄：生活在嘈雜世界中的影響。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C 完整保留了主題核心："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Effects of Living in a Noisy World”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷： C 最全面，因為它能同時包含 auditory effects、nonauditory effects、children、workers、urban residents 和 government responses。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 很容易吸引人，因為 Paragraph D 的學校研究很具體，也有清楚前後成績對比。不過 best title要概括全文，不可把一個醒目的例子當成全篇標題。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - A decibel Hell (The Effects of Living in a Noisy World).pdf",
+    "sha256": "6c5453ff74f5eda9a965049d7f55105c815efba6dfc94d08175e59af1ed19edd",
+    "pageCount": 22
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：Paragraph A–E",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句指出，在現代城市生活中，人很容易遇到會損害健康的聲量；中段引用 WHO，指出噪音引致的聽力損害是全球嚴重職業危害。末段轉到 NIOSH 的定義，說 hazardous noise 是超過 85 dBA的八小時工作日平均聲量。只看首尾句，可先判斷本段功能是介紹 noisy world 的普遍性、健康風險，以及 hazardous noise 的量化標準。",
+        "label": "Paragraph A — Decibel Hell"
+      },
+      {
+        "number": "2",
+        "summary": "首句說美國約 3,000 萬工人在工作中暴露於危險聲量，並列出 construction、agriculture、mining、manufacturing 等高風險行業。末句引用 Craig Moulton，說 OSHA 要求僱主保護過度暴露於噪音的員工，並推行 hearing conservation program。只看首尾句，可估計本段重點是 workplace noise：噪音監察困難，但公司仍有責任保護員工。",
+        "label": "Paragraph B — Growing Volume"
+      },
+      {
+        "number": "3",
+        "summary": "首句指出，多年科學研究確認特定聲量會損害聽力；段落後面用煤礦工人、金屬礦工、建築工人、木匠和兒童數據作例子。末句列出 stereos、music concerts、toys、lawnmowers、fireworks 等可能有害聲源。只看首尾句，可見本段集中處理 auditory effects，即聽覺傷害，包括 hearing loss、tinnitus、hearing impairment 和兒童聽力變鈍。",
+        "label": "Paragraph C — Scary Sound Effects"
+      },
+      {
+        "number": "4",
+        "summary": "首句明確說聲音的影響不止於耳朵；它還會造成 blood pressure、sleep loss、heart rate、breathing、brain chemistry 等非聽覺影響。末段以 Bronzaft 的學校研究作結，指出噪音會影響兒童閱讀能力，而隔音和軌道降噪後，閱讀成績改善。只看首尾句，可判斷本段功能是擴展噪音傷害範圍：由身體反應到學習能力。",
+        "label": "Paragraph D — Beyond the Ears"
+      },
+      {
+        "number": "5",
+        "summary": "首句指出反噪音人士認為 Europe 和亞洲若干國家比美國更積極處理噪音問題；中段提到 EU 城市製作 noise maps，幫助制定政策和測試城市設計聲音影響。末句引用 Bronzaft，說政府有責任透過控制噪音污染來保護市民。只看首尾句，可估計本段是 policy and action 段，重點在噪音地圖、研究資金、政府責任。",
+        "label": "Paragraph E — Fighting for Quiet"
+      }
+    ]
+  }
+}

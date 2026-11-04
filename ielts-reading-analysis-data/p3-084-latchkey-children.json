@@ -1,0 +1,1214 @@
+{
+  "id": "p3-084-latchkey-children",
+  "catalogueId": "p3-084",
+  "catalogueIds": [
+    "p3-084"
+  ],
+  "passage": 3,
+  "title": "LATCHKEY CHILDREN",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "A",
+    "F",
+    "H",
+    "A",
+    "C",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "TRUE",
+    "industry",
+    "response",
+    "adult supervision",
+    "physically aggressive",
+    "personality characteristics"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "A, F, H",
+      "answerKey": "A, F, H",
+      "type": "題型：Multiple-answer Questions",
+      "prompt": "Questions 27–29",
+      "translation": "青少年犯罪已不能再只歸因於經濟背景。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目要求從 A–H 中選出 三個文章有提及的說法。這類題要逐一檢查每個選項是否真正獲原文支援，不能只因為選項聽起來合理就選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正確答案：A, F, H A — Youth crime is no longer attributable to economic background."
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sadly, finding young children at home without adult supervision has become much too commonplace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人難過的是，年幼孩子在沒有成人看管下獨自在家的情況，已變得過於普遍。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An increase in the number of working mothers, as well as single-parent families, combined with a decrease in extended families that once helped with childcare, has contributed to the growing ranks of latchkey kids.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "working mothers 和 single-parent families 增加，加上過去曾協助照顧孩子的 extended families減少，都令 latchkey kids 數量上升。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的功能是說 latchkey children 和 teen violence 已不再局限於某一社會階層。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Youth crime”、“economic background”。原文沒有直接說 youth crime，但有 “teen violence epidemic” 和 “every economic level”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, in recent times, the ‘teen violence’ epidemic has penetrated society at every economic level.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是近年來，青少年暴力的流行已滲透到社會每一個經濟階層。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “Youth crime” ≈ “teen violence”● “no longer attributable to economic background” ≈ “penetrated society at every economic level”所以 A 有提及。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F — Latchkey children are not only drawn to crime; they are victims of crime, too."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：Latchkey children 不只可能牽涉犯罪，也可能成為犯罪受害者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 5–6"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 第一眼可見 school failure、juvenile crime 和 drug abuse。Paragraph 6 則直接講depressed、smoking、alcohol 和 victims of crimes。因此 F 需要跨兩段確認。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “crime” 和 “victims”。Paragraph 5 有 “juvenile crime”；Paragraph 6 有 “victims of crimes”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph 5："
+            },
+            {
+              "kind": "quote",
+              "text": "“The afternoon hours are the peak time for juvenile crime.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "下午時段是青少年犯罪的高峰時間。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6："
+            },
+            {
+              "kind": "quote",
+              "text": "“They are also more likely to be the victims of crimes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們也較可能成為犯罪的受害者。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “drawn to crime” 對應 juvenile crime / crime risk● “victims of crime” 直接對應 “victims of crimes”所以 F 有提及。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "H — Knowing how to say no to one’s peers is a sign of an adolescent’s maturity."
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：懂得拒絕同輩壓力，是青少年成熟的標誌之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 9"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這一段是 readiness checklist，列出孩子是否準備好獨自在家的特質。最後一點特別提到resisting pressure。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “say no to peers”。原文沒有 say no，但有 “resist pressure from friends and others”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“has courage enough to resist pressure from friends and others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有足夠勇氣抵抗朋友和其他人的壓力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句在 “A child who is ready to be home alone” 清單內，而 Paragraph 8 已說 readiness 由personality characteristics、skills 和 maturity 判斷。因此 resisting peer pressure 可視為 maturity/ readiness 的一項表現。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “say no to one’s peers” = “resist pressure from friends”● “a sign of maturity” = readiness criteria connected with maturity所以 H 有提及。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除B 錯在 “greatest cause for concern”。原文只說 9% at night，並推測父母上夜班，沒有說夜班家庭是最大憂慮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 加入 “parents have alcohol-abuse problems”。原文說 unsupervised children 較可能 drink alcohol，沒有連到父母酗酒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 把 safer neighbourhood 和 adolescent crime rate 建立因果。原文只說 very poor families 較少讓孩子獨自在家，可能因為 neighbourhoods less safe，沒有比較安全社區和青少年犯罪率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 說 middle / upper class children 因金錢因素有更多 community activities。原文說活動費用不同，有些免費，但沒有作階層比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G 說 expense should not be a factor。原文說活動有免費也有收費，全部比在家看電視好，但沒有直接說費用不應成為考慮因素。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — children whose parents were absent from the home were better looked after than",
+      "answerKey": "A — children whose parents were absent from the home were better looked after than",
+      "type": "題型：Multiple-answer Questions",
+      "prompt": "Question 30",
+      "translation": "戰時父母不在家的孩子，和今天同類情況的孩子相比，得到較好照顧。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "present-day children in the same situation.題目問：作者說戰爭期間的情況是甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The term ‘latchkey child’ was coined to describe children who wore or carried house keys to school so that they could let themselves into their home when they returned from school.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "quote",
+              "text": "“latchkey child” 這個詞被創造出來，用來描述那些帶著家門鎖匙上學、放學後自行開門回家的孩子。最後一句：“More than sixty years on, there are large numbers of working mothers, but unlike in wartime, the country isn’t organised to care for their children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "六十多年後，有大量 working mothers，但與戰時相比，國家並沒有組織起來照顧她們的孩子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段首尾句已經把戰時與現代作對比。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “during the war”。原文有 “Second World War”、“war effort”、“when the war ended”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The country’s response was prompt and comprehensive. Programmes were set up in factories, in schools and community centres to care for all the children whose parents were busy with the war effort.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "國家的回應迅速而全面。工廠、學校和社區中心都設立了照顧項目，照顧所有父母忙於戰爭工作的孩子。"
+            },
+            {
+              "kind": "label",
+              "text": "再看段尾："
+            },
+            {
+              "kind": "quote",
+              "text": "“More than sixty years on, there are large numbers of working mothers, but unlike in wartime, the country isn’t organised to care for their children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "六十多年後，有大量 working mothers，但與戰時相比，國家並沒有組織起來照顧她們的孩子。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “better looked after” = “programmes were set up … to care for all the children”● “present-day children in the same situation” = “More than sixty years on … the country isn’t organised to care”所以答案是 A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項方面，B 與 “prompt and comprehensive” 相反；C 說 housewife role changed forever，但原文說 women resumed their roles as housewives；D 的 “all wives” 太絕對，原文只說 mothers had gone into industry，沒有說所有妻子都被要求工作。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C — in the afternoon",
+      "answerKey": "C — in the afternoon",
+      "type": "題型：Multiple-answer Questions",
+      "prompt": "Question 31",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：根據 Census Bureau，大多數孩子在甚麼時候獨自在家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to one census, one-third of all school-age children in the United States are, for some part of the week, latchkey kids, that is, they go home to an empty house or apartment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "根據一項 census，美國三分之一學齡兒童每週有部分時間屬於 latchkey kids，也就是回到空無一人的房子或公寓。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Presumably, the 9% have parents who work night shifts.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可以推測，這 9% 的孩子父母是上夜班。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段功能是提供統計數字，因此 Question 31 明顯要在這段找百分比。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Census Bureau” 和 “most children”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Census Bureau found that 15% were home alone before school, 76% after school and 9%at night.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Census Bureau 發現，15% 的孩子上學前獨自在家，76% 放學後獨自在家，9% 夜間獨自在家。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最大比例是 76% after school，即下午放學後。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C — in the afternoon。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 32–35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "題型：Multiple-answer Questions",
+      "prompt": "“Latchkey children can be experts at hiding the truth about their situation.”",
+      "translation": "Latchkey children 可能很擅長隱藏自己真實的生活情況。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Adolescents who fall under the classification of latchkey children are more likely than others of the same age group to experience feelings of rage and isolation and to express those emotions in a physically aggressive manner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "屬於 latchkey children 的青少年，比同齡人更可能經歷憤怒和孤立感，並以身體攻擊方式表達這些情緒。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“These are skills that can be easily and directly used to portray a false picture of themselves and their living situation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些技能可以容易且直接地用來塑造一個關於自己和生活情況的虛假畫面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段最後一句已直接支援題目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “hiding the truth”。原文對應 “portray a false picture”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They often instinctively develop a sense of timing and an ability to manage their emotions. These are skills that can be easily and directly used to portray a false picture of themselves and their living situation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們常本能地發展出時間感和管理情緒的能力。這些技能可以容易且直接地用來塑造一個關於自己和生活情況的虛假畫面。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “hiding the truth” = “portray a false picture”● “about their situation” = “their living situation”● “can be experts at” 是對 “skills … easily and directly used” 的合理概括所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "題型：Multiple-answer Questions",
+      "prompt": "“Latchkey children leave home at a very early age.”",
+      "translation": "Latchkey children 很早就離家生活。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 / Paragraph 3"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 解釋 latchkey child 的定義；Paragraph 3 解釋他們 go home to an empty house or apartment。這些段落與 “home” 有關，但要小心題目中的 “leave home”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “leave home” 和 “early age”。原文有 “let themselves into their home”、“go home to an empty house”，但沒有 “leave home” 作為搬離家庭或離家生活的意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文定義是："
+            },
+            {
+              "kind": "quote",
+              "text": "“children who wore or carried house keys to school so that they could let themselves into their home when they returned from school.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "孩子帶著家門鎖匙上學，放學回來時可以自行開門入屋。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“they go home to an empty house or apartment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們回到空無一人的房子或公寓。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子說的是孩子放學後回家時家中沒有人，沒有說他們在很小年紀搬離家庭或離家生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：● 原文有 “go home”● 題目是 “leave home”● 原文沒有提供 “very early age” 這個資訊所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "題型：Multiple-answer Questions",
+      "prompt": "“Latchkey children’s aggressive emotional responses are due principally to their biological make-up.”",
+      "translation": "Latchkey children 的攻擊性情緒反應主要由生理構成造成。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "第一句說 latchkey adolescents 更可能有 rage、isolation 和 physically aggressive 表達；段落中間解釋原因時，同時提到 biological factors 和 environment。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “biological make-up”、“aggressive emotional responses”。原文有 “genetic and biological factors” 和 “environment also plays a key role”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While there are certainly genetic and biological factors involved in the development of an adolescent’s propensity towards acting out their feelings of rage and isolation, environment also plays a key role in this arena.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然青少年把憤怒和孤立感用行為表現出來的傾向，確實涉及 genetic and biological factors，但environment 在這方面也扮演關鍵角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “due principally to their biological make-up”，即主要由生物因素造成。原文承認 biological factors involved，但隨即強調 environment also plays a key role，後文更集中講 dysfunctional families 的影響。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與衝突",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● 題目：principal cause = biological make-up● 原文：biological factors involved + environment key role● 題目把其中一項因素提升成主要原因，原文沒有支持這種重心，還明確把 environment 放到 key role所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "題型：Multiple-answer Questions",
+      "prompt": "“Good communication skills are a measure of a child’s ability to be left unsupervised.”",
+      "translation": "良好溝通能力是判斷孩子是否適合獨自在家的其中一項標準。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 8–9"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 第一段提出 “When is a child ready to be home alone?”，並說 personality characteristics、skills and maturity 是 useful criteria。Paragraph 9 則列出 ready child 的具體特質。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “communication skills”。原文沒有這個短語，但有 “talks about his or her feelings and thoughts readily”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph 8："
+            },
+            {
+              "kind": "quote",
+              "text": "“Personality characteristics, skills, and maturity are useful criteria for determining a child’s readiness to be home alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "personality characteristics、skills 和 maturity 是判斷孩子是否準備好獨自在家的有用標準。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 9："
+            },
+            {
+              "kind": "quote",
+              "text": "“is outgoing and talks about his or her feelings and thoughts readily with parents and others”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "性格外向，並且願意與父母和其他人談自己的感受和想法。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “Good communication skills” = “talks about his or her feelings and thoughts readily”● “a measure” = “useful criteria”● “ability to be left unsupervised” = “readiness to be home alone”所以答案是 TRUE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 36–40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "industry",
+      "answerKey": "industry",
+      "type": "題型：Multiple-answer Questions",
+      "prompt": "“The Second World War gave rise to the phenomenon of the latchkey child, as mothers had to abandon their traditional duties and fill the places of men in 36 ______.”",
+      "translation": "第二次世界大戰造成 latchkey child 現象，因為母親要放下傳統職責，填補男性在 ______ 中留下的位置。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan / Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The term came into use during the Second World War, when fathers had gone off to war, and mothers had gone into industry, making the tanks, planes, uniforms and bullets the soldiers needed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個詞在第二次世界大戰期間開始使用，當時父親上戰場，母親進入工業界，製造士兵需要的坦克、飛機、制服和子彈。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “in”，需要一個地方／領域名詞。原文是 “mothers had gone into industry”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 industry。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "response",
+      "answerKey": "response",
+      "type": "題型：Multiple-answer Questions",
+      "prompt": "“Fortunately, there was a quick 37 ______ to this by the authorities…”",
+      "translation": "幸好，當局對此有迅速的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan / Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The country’s response was prompt and comprehensive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "國家的回應迅速而全面。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “quick” 對應原文 “prompt”。空格前有 “a quick”，後面需要名詞。原文名詞是 “response”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 response。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "adult supervision",
+      "answerKey": "adult supervision",
+      "type": "題型：Multiple-answer Questions",
+      "prompt": "“…the problem of having children alone at home without 38 ______ is very common.”",
+      "translation": "孩子在沒有 ______ 的情況下獨自在家的問題非常普遍。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan / Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Sadly, finding young children at home without adult supervision has become much too commonplace.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "令人難過的是，年幼孩子在沒有成人看管下獨自在家的情況，已變得過於普遍。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "● “is very common” = “has become much too commonplace”● “children alone at home without …” = “young children at home without adult supervision”答案是 adult supervision。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：adult supervision = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "physically aggressive",
+      "answerKey": "physically aggressive",
+      "type": "題型：Multiple-answer Questions",
+      "prompt": "“These children generally perform poorly at school, display 39 ______ behaviour and may take up smoking and drinking alcohol.”",
+      "translation": "這些孩子通常學校表現差，表現出 ______ 行為，並可能開始吸煙和飲酒。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan / Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Adolescents who fall under the classification of latchkey children are more likely than others of the same age group to experience feelings of rage and isolation and to express those emotions in a physically aggressive manner.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "屬於 latchkey children 的青少年，比同齡人更可能經歷憤怒和孤立感，並以身體攻擊方式表達這些情緒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “express those emotions in a physically aggressive manner” 改成 “display physically aggressive behaviour”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 physically aggressive。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：physically aggressive = 2 words，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "personality characteristics",
+      "answerKey": "personality characteristics",
+      "type": "題型：Multiple-answer Questions",
+      "prompt": "“While 40 ______ and level of maturity play a part in how a child copes with being a latchkey child…”",
+      "translation": "雖然 ______ 和成熟程度會影響孩子如何應對 latchkey child 的情況……目標段落：Paragraph 8",
+      "sections": [
+        {
+          "id": "scan",
+          "title": "Scan / Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Personality characteristics, skills, and maturity are useful criteria for determining a child’s readiness to be home alone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "personality characteristics、skills 和 maturity 是判斷孩子是否準備好獨自在家的有用標準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “level of maturity” 對應原文 “maturity”。空格要填另一項與 maturity 並列的因素，最自然是 “personality characteristics”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 personality characteristics。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查：personality characteristics = 2 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -LATCHKEY CHILDREN.pdf",
+    "sha256": "7a02f37c21cfc685b89c81896f865b922fd3de1dfa29440538feb2f86ae7fb0c",
+    "pageCount": 16
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首尾句，可以見到文章先解釋 “latchkey child” 一詞的來源：孩子帶著家門鎖匙上學，放學後自行開門回家。段尾則把二戰時期和現代作對比：戰時國家曾組織照顧兒童的安排，但六十多年後，雖然大量母親工作，國家已沒有同樣的照顧系統。這段功能是交代歷史背景、戰時成因、政府支援，以及今天問題重現的落差。"
+      },
+      {
+        "number": "2",
+        "summary": "第二段首句說，年幼孩子在沒有成人看管下獨自在家的情況已變得過於普遍；尾句則指出working mothers、single-parent families 和 extended families 減少，都令 latchkey kids 數量增加。這段功能是把問題由戰時拉到現代社會，並指出問題已由 lower classes 擴散至 middle and upper classes。段中還把 latchkey children 和 adolescent violence 放在一起，說明青少年暴力也已穿透所有經濟階層。"
+      },
+      {
+        "number": "3",
+        "summary": "第三段首句引用 census，說美國三分之一學齡兒童一星期部分時間屬於 latchkey kids；尾句推測夜間獨自在家的 9% 兒童，其父母大概上夜班。這段功能是提供數字規模：五至十三歲兒童可能有五百萬至七百萬，Marian Wright Edelman 估計接近一千六百萬。段尾的 15%、76%、9% 是Question 31 的核心，尤其 76% after school。"
+      },
+      {
+        "number": "4",
+        "summary": "第四段首句說全國 12 至 14 歲兒童中，有一半每週平均七小時獨自在家；尾句補充，雖然working mothers 工作時間長，她們平均每天仍花五個半小時與孩子相處。這段功能是補充年齡層、家庭收入和安全社區的差異。中間指出 very poor families 較少讓孩子獨自在家，原因可能是社區較不安全，也較少親友能在緊急時幫忙。"
+      },
+      {
+        "number": "5",
+        "summary": "第五段首句說，如果 latchkey children 運作良好，社會通常不會聽到他們；尾句說一星期獨自在家 11 小時的八年級學生，濫用藥物的可能性是放學後有事做學生的兩倍。這段功能是講問題後果：child welfare complaints、school failure、juvenile crime 和 drug abuse。段中有 51% school performance、teachers’ belief、juvenile crime peak time 和 48% increase 等重要數字。"
+      },
+      {
+        "number": "6",
+        "summary": "第六段首句直接說，沒有看管的孩子較容易 depressed、smoke cigarettes and marijuana、drink alcohol；尾句列出他們在家通常做甚麼：看電視、吃零食、玩寵物、與兄弟姊妹打架。這段功能是補充 latchkey children 的心理、健康和安全風險。它還明確說他們較容易成為 crimes 的 victims，這支援 Questions 27–29 中關於「既可能涉及犯罪，也可能成為受害者」的選項。"
+      },
+      {
+        "number": "7",
+        "summary": "第七段首句說，屬於 latchkey children 的青少年，比同齡人更可能經歷 rage and isolation，並以physically aggressive manner 表達這些情緒；尾句說他們可能利用情緒管理能力，塑造關於自己和生活情況的 false picture。這段功能是分析心理和行為層面的深層風險：基因與生理因素有份，但 environment 也扮演 key role，特別是 dysfunctional families 可能教出 manipulative、secretive、unpredictable 的行為模式。"
+      },
+      {
+        "number": "8",
+        "summary": "第八段首句提出核心問題：孩子何時準備好獨自在家；尾句說有些孩子很容易適應獨處。這段功能是從問題後果轉向判斷標準。作者列出三類 readiness criteria：personality characteristics、skills 和 maturity。段中也提醒，personality 不會隨年齡大幅改變，但孩子可以學習調整反應。這段對 Question 40 很重要，因為 summary 提到 personality 和 maturity。"
+      },
+      {
+        "number": "9",
+        "summary": "第九段是一個 readiness checklist，開頭說 “A child who is ready to be home alone”，最後一點說孩子要有足夠勇氣抵抗朋友和其他人的壓力。這段功能是具體列出適合獨自在家的孩子特質：不害怕、有自信、冷靜、不容易因突發情況興奮、外向、願意與父母和他人談感受與想法、會承認錯誤，也能抵抗同伴壓力。Questions 27–29 的 H 和 Question 35 都定位到這裡。"
+      },
+      {
+        "number": "10",
+        "summary": "第十段首句說，很多社區有活動給父母下午不能在家的學齡兒童；尾句引用 James Comer，說 10至 15 歲是年輕人重新檢視 attitudes and values 的時期，需要 responsible adults 保護和引導。這段功能是提出替代方案：放學後不應讓孩子孤立無援，社區活動和成人引導可幫助他們面對peer pressure。這也和前面 readiness checklist 的 resisting pressure 互相呼應。"
+      },
+      {
+        "number": "11",
+        "summary": "第十一段首句說，活動種類和費用各有不同；尾句引用 T. Berry Brazelton，強調孩子在 childhood和 adulthood 之間的 bridge years，需要 constructive activities、supervision，也需要知道父母關心並參與他們的生活。這段功能是總結解決方向：活動可能有免費或收費之分，但全部都比獨自在家看電視好。它強調 skills、knowledge、enriching activities、supervised activities 和 parental involvement。"
+      }
+    ]
+  }
+}

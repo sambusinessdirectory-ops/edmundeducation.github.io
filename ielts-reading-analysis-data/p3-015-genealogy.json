@@ -1,0 +1,876 @@
+{
+  "id": "p3-015-genealogy",
+  "catalogueId": "p3-015",
+  "catalogueIds": [
+    "p3-015"
+  ],
+  "passage": 3,
+  "title": "GENEALOGY",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "iii",
+    "viii",
+    "ix",
+    "vi",
+    "ii",
+    "FALSE",
+    "FALSE",
+    "NOT GIVEN",
+    "TRUE",
+    "D",
+    "B",
+    "C",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "iii, viii, ix, vi, ii",
+      "answerKey": "iii, viii, ix, vi, ii",
+      "type": "Matching Headings",
+      "prompt": "Questions 28–32",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "28 Paragraph B — iii Diversity of Application"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "首尾句段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Originally, prior to developing a more mainstream following, the practice of genealogy focused on establishing the ancestral links of rulers and noblemen…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初，在族譜研究變得更大眾化之前，它主要用來建立統治者和貴族的祖先連繫。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 尾句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Genealogy searches may also result in location of living relatives and consequently family reunions…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "族譜搜尋也可能找到仍在世的親屬，因而促成家庭團聚。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "為何選 iii"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段從 genealogy 的早期用途講起：確認或質疑貴族、統治者繼承財富和地位的合法性。之後轉到現代用途：了解祖先生活方式、動機、法律限制、移民、社會環境，甚至尋找在世親屬和促成家庭重聚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以全段重點是 genealogy 的用途很多元，由政治繼承、社會歷史，到家庭重聚都有涉及。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：iii Diversity of Application"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "v “Past Usage” 只符合段落開頭的早期用途，但 Paragraph B 後半明顯擴展到現代用途，所以不能概括全段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "29 Paragraph D — viii Changing Viewpoints"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "首尾句段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Genealogy research has led to a shift in attitudes towards convict heritage amongst contemporary Australian society…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "族譜研究令當代澳洲社會對罪犯祖先背景的態度出現轉變。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 尾句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Details about the former… and the latter… are now available on the internet for eager descendants to track.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於 Margaret Dawson 和 Elizabeth Thackeray 這些人的資料，現在已可在網上找到，供熱切的後代追查。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "為何選 viii"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的核心詞是 “a shift in attitudes”。以前有罪犯祖先可能令人尷尬；現在研究發現，很多被流放者其實只因小罪、貧困或絕望而被嚴懲。結果，與 First Fleet 乘客有家族連繫，今日甚至被視為prestigious，即有地位、值得自豪。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以這段講的是社會觀點改變。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：viii Changing Viewpoints"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "i “An Embarrassing Heritage” 只符合舊有態度。段落真正強調的是態度已經轉變，現在甚至成為值得自豪的家族背景。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "30 Paragraph E — ix Significant Roles"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "首尾句段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although many of the deported convicts were forbidden to return to Britain…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "雖然許多被流放的罪犯被禁止返回英國……Paragraph E 尾句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…Francis Greenway… went on to design many of Sydney’s most prominent colonial buildings, and Alexander Munro… would later build Australia’s first gas works and hold the position of Town Mayor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Francis Greenway 後來設計了悉尼多座重要殖民時期建築；Alexander Munro 後來建成澳洲第一座煤氣廠，並擔任市長。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "為何選 ix"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段重點在於 ex-convicts，即前罪犯，如何在刑期完結後對澳洲早期社會發展作出貢獻。原文說genealogists attribute the successful early development of Australia to such ex-convicts，並列出土地、工具、勞力等獎勵，也舉出 Greenway 和 Munro 兩個後來成就重要的人。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 heading 要概括這些人的重要角色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：ix Significant Roles"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這段雖然開頭提到 deported convicts 不能回英國，但重點很快轉向他們留在澳洲後的貢獻和社會地位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "31 Paragraph F — vi Useful Sources"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "首尾句段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In North America, the Mormon Church… holds two major genealogical databases…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在北美，摩門教會擁有兩個主要族譜資料庫。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 尾句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The global level of interest in and demand for such information has proven so intense, that traffic load… led to temporary collapse of the host servers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球對這類資料的興趣和需求非常強烈，以致某些資料公開時，伺服器曾因流量負荷而暫時崩潰。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "為何選 vi"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段列出多種 genealogy resources：International Genealogical Index、Ancestral File、Family History Library、4000 多個分部、microfilms、microfiches、Family Search 網站，以及網上資料庫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都是族譜研究者可使用的資料來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：vi Useful Sources"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段尾提到伺服器崩潰，但這只是說明資料需求龐大。全段主題仍是各種可用資料來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "32 Paragraph G — ii Assessing Validity"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "首尾句段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts advise that reliability of sources used for genealogical research should be evaluated in light of four factors…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "專家建議，族譜研究資料來源的可靠性應根據四項因素來評估。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 尾句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…there may have been motivation to be untruthful – continuing to claim a government benefit or avoidance of taxation, for example.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使資料看似來自可靠來源，提供資料者也可能有不誠實的動機，例如繼續領取政府福利或逃稅。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "為何選 ii"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段明確講 source reliability，即資料來源可靠性。四項因素包括：提供資料者的知識、偏見和精神狀態、時間流逝，以及整理資料時可能出錯。這些都屬於評估資料是否可信。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：ii Assessing Validity"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "iv “Interpretation Errors” 更適合 Paragraph H，因為 Paragraph H 集中講 derivative sources，如photocopies、transcriptions、translations 等可能出現誤讀、打字錯誤或資料流失。Paragraph G的範圍較廣，主題是 validity。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Early applications of genealogy focused on behaviour, movement and settlement of populations.",
+      "translation": "族譜研究的早期用途集中於人口行為、遷移和定居。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "33 FALSE"
+            },
+            {
+              "kind": "label",
+              "text": "定位：Paragraph B原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Originally… the practice of genealogy focused on establishing the ancestral links of rulers and noblemen often with the purpose of disputing or confirming the legitimacy of inherited rights to wealth or position.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最初，族譜研究主要集中於建立統治者和貴族的祖先關係，目的通常是質疑或確認繼承財富或地位的合法性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說 early applications focused on behaviour, movement and settlement。原文說 early genealogy focused on rulers and noblemen 的 ancestral links，以及 inherited rights to wealth or position。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "行為、遷移、定居這類內容出現在後面較新的研究興趣中，例如 lifestyle、motivations、immigration、social conditions。題目把後來用途放到早期用途上，時間錯配。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "34 FALSE"
+            },
+            {
+              "kind": "paragraph",
+              "text": "The punishment of deportation was reserved for those who posed a serious threat to British society."
+            },
+            {
+              "kind": "paragraph",
+              "text": "流放這種懲罰只留給那些對英國社會構成嚴重威脅的人。"
+            },
+            {
+              "kind": "label",
+              "text": "定位：Paragraph D原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“…their ancestors were, in fact, not hardened and dangerous criminals, but had, in most cases, been harshly punished for minor crimes inspired by desperation and dire economic circumstances.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的祖先其實並非頑固危險的罪犯；大多數情況下，他們只是因絕望和嚴峻經濟環境而犯下小罪，卻受到嚴厲懲罰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目說 deportation reserved for serious threat。原文方向相反：這些人多數不是 hardened and dangerous criminals，而是因 minor crimes 被嚴懲。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "serious threat 對應 hardened and dangerous criminals，但原文清楚否定這種形象。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "35 NOT GIVEN"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Some ex-convicts chose to stay in Australia due to the opportunities it presented."
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些前罪犯因澳洲提供機會而選擇留在當地。"
+            },
+            {
+              "kind": "label",
+              "text": "定位：Paragraph E原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although many of the deported convicts were forbidden to return to Britain, others such as Dawson, were, in theory, expelled for a given term. In reality, however, the costs of attempting to return to the mother country were well beyond the means of the majority.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然許多被流放罪犯被禁止返回英國，但像 Dawson 這類人理論上只是被流放一段指定時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "實際上，嘗試返回祖國的費用遠超大多數人的能力。"
+            },
+            {
+              "kind": "label",
+              "text": "原文也說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Many rewards were available to prisoners who displayed exemplary behaviour, including land grants…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表現良好的囚犯可獲多種獎勵，包括土地授予等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：文章提供兩類資料：第一，很多人不能回去，或者負擔不起回英國的費用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，澳洲確實有一些獎勵和發展機會。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但題目要求的是因果關係：chose to stay due to the opportunities。原文沒有說「他們因為機會而選擇留下」。文章只明確說很多人因禁令或費用問題難以回英國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以原文資料不足以判斷題目真假。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看到 land grants、tools、powerful positions，容易推想他們因機會而留下。這是合理想像，但文章沒有建立這個因果。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "36 TRUE"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Overwhelming interest in obtaining genealogical information has led to technological difficulties."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們對取得族譜資料的巨大興趣曾導致技術困難。"
+            },
+            {
+              "kind": "label",
+              "text": "定位：Paragraph F原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The global level of interest in and demand for such information has proven so intense, that traffic load on release of sources such as Family Search and the British Census for 1901 led to temporary collapse of the host servers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "全球對這類資料的興趣和需求非常強烈，以致 Family Search 和 1901 年英國人口普查等資料公開時，流量負荷曾導致主機伺服器暫時崩潰。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目中的 overwhelming interest 對應原文的 global level of interest and demand… so intense。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "technological difficulties 對應 temporary collapse of the host servers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：TRUE"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "D — Because it no longer requires so much effort.",
+      "answerKey": "D — Because it no longer requires so much effort.",
+      "type": "Multiple Choice",
+      "prompt": "Why has recreational genealogy become more popular?",
+      "translation": "為甚麼作為興趣的族譜研究變得更流行？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "37 D"
+            },
+            {
+              "kind": "label",
+              "text": "定位：Paragraph A原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“The introduction of the Internet has, in many ways, spurred interest levels since historical information has been made far more accessible than previously.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "互聯網的出現在很多方面刺激了人們的興趣，因為歷史資料比以前容易取得得多。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Because it is now a fashionable hobby.原文說它 increasingly popular，但沒有說原因是 fashionable。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Because more people wish to trace missing relatives.找回失散親屬是 genealogy 的其中一個可能用途，並非 Paragraph A 解釋 popularity 的主因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Because there are less political barriers.文章沒有說政治障礙減少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Because it no longer requires so much effort.正確。historical information far more accessible than previously 表示資料更容易取得，所以研究門檻降低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "38 B"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Whose original sentence for breaking the law was reduced?"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "誰原本因犯法而被判的刑罰被減輕？"
+            },
+            {
+              "kind": "label",
+              "text": "定位：Paragraph D原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Details about the former, whose initial death sentence passed for stealing clothes from her employer was commuted to deportation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "關於前者的資料顯示，她因偷取僱主衣服而原本被判死刑，後來被減為流放。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 the former 指前一句中的 Margaret Dawson；the latter 才是 Elizabeth Thackeray。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：B — Margaret Dawson"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Elizabeth Thackeray 也在同一句附近出現，但被 commuted 的 initial death sentence 屬於 the former，即 Margaret Dawson。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "39 C"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "What is fundamental to genealogical research?"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "甚麼對族譜研究是根本重要的？"
+            },
+            {
+              "kind": "label",
+              "text": "定位：Paragraph F原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Such data sharing practices are central and crucial to genealogical research…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種資料分享做法對族譜研究而言是核心且關鍵的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：C — Pooling of information."
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Original records.原始記錄很有用，但這句的 central and crucial 指向 data sharing practices。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Electronic transfer.網絡和電郵有助資料轉移，但根本重點是資料共享。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Pooling of information.正確。Pooling of information 就是把資料集中、共享，對應 data sharing practices。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D The IG Index. International Genealogical Index 是其中一個資料庫，不是整個研究的根本原則。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "40 A"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Why does census information need to be approached with caution?"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為甚麼人口普查資料需要小心處理？"
+            },
+            {
+              "kind": "label",
+              "text": "定位：Paragraph G原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, a census record alone is considered unreliable as no named source for the information is likely to be found.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，單靠人口普查記錄會被視為不可靠，因為很可能找不到提供該資料的具名來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：A — Because it cannot easily be attributed to a particular individual."
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Because it cannot easily be attributed to a particular individual.正確。no named source 對應 cannot easily be attributed to a particular individual。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Because it is often not validated by a physician. physician / doctor 是 death certificate 的例子，不是 census record 的問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Because administration practices in the past were unreliable.文章沒有這樣說。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Because informants may not have been truthful due to financial motivations.這是 bias or mental state 的一般例子，例如福利或逃稅動機；但題目問 census information 的具體原因，原文指向 no named source。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        37,
+        38,
+        39,
+        40
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -GENEALOGY.pdf",
+    "sha256": "78a5fc6ccdd4c1ab84af9e4217df2d9d6a6234d862390597f9c87fd58b2871dc",
+    "pageCount": 11
+  },
+  "version": "2026-08-22.1",
+  "overviewUnavailable": true
+}

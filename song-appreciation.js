@@ -1,0 +1,2346 @@
+(function initialiseSongAppreciation() {
+  "use strict";
+
+  const CONFIG = window.EDMUND_SONG_APPRECIATION_CONFIG || {};
+  const SUPABASE = window.EDMUND_SUPABASE || {};
+  const CHART_RANGES = [7, 30, 90, 0];
+  const PAGE_SIZE = 500;
+  const MODE_ACCENTS = Object.freeze({ standard: "STANDARD", medium: "MEDIUM", hard: "HARD", hell: "HELL" });
+  const SYNC_PRESETS = Object.freeze({
+    jYa1eI1hpDE: Object.freeze([
+      [1.09,3.68],[3.68,6.67],[6.67,10.85],[10.85,12.70],[12.70,16.53],[16.53,18.84],[18.84,22.59],
+      [25.26,27.69],[27.69,32.78],[32.78,36.11],[36.11,41.69],[41.69,47.56],[47.56,53.04],[53.04,57.89],[57.89,62.14],
+      [65.59,68.03],[68.03,71.20],[71.20,75.16],[75.16,77.69],[77.69,79.57],[79.57,83.09],[83.09,88.84],
+      [88.84,92.20],[92.20,94.81],[94.81,97.39],[97.39,100.21],[100.21,103.52],[103.52,109.00],[109.00,114.73],
+      [114.73,120.55],[120.55,125.20],[125.20,128.89],[137.32,141.62],[141.62,144.65],[144.65,147.22],
+      [147.22,150.56],[150.56,156.48],[159.00,164.99],[164.99,169.85],[169.85,173.28],[173.28,177.69],
+      [177.69,183.25],[183.25,189.24],[189.24,195.44],[195.44,201.04],[201.04,205.54],[205.54,207.48],
+      [207.48,211.94],[211.94,213.01],[213.01,217.27],[217.27,219.12],[219.12,223.82],[223.82,224.84],
+      [224.84,229.06],[229.06,231.05]
+    ])
+  });
+  let liveSync, liveClient;
+  const state = {
+    client: null,
+    session: null,
+    songs: [],
+    lessonExtras: {},
+    vocabularyIndex: 0,
+    activeSong: null,
+    activeRoute: "library",
+    activeTab: "description",
+    bookmarks: [],
+    attempts: [],
+    playbackDaily: [],
+    drafts: {},
+    textSizes: {translation:1,exercise:1},
+    showChinese: false,
+    favoritesOnly: false,
+    selectedTags: [],
+    wordAscending:false, wordPage:0,
+    draftSaveTimer: 0,
+    playerGeneration: 0,
+    bookmarkFilter: "all",
+    questionRange: 30,
+    timeRange: 30,
+    selectedPhrase: null,
+    exercise: null,
+    player: null,
+    playerReady: false,
+    playerState: null,
+    playerSyncTimer: 0,
+    playbackStarted: 0,
+    playbackPending: 0,
+    playbackSave: null,
+    countdownTimer: 0,
+    exerciseTimer: 0,
+    adminSongs: [],
+    adminSong: null,
+    adminStudents: []
+  };
+
+  const $ = (selector, root = document) => root.querySelector(selector);
+  const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
+  const views = Object.fromEntries($$("[data-view]").map(node => [node.dataset.view, node]));
+  const pages = Object.fromEntries($$("[data-page]").map(node => [node.dataset.page, node]));
+
+  function text(value) { return String(value == null ? "" : value); }
+  function displayText(value) { return text(value).replace(/\p{Extended_Pictographic}|\uFE0F/gu, ""); }
+  function asArray(value) { return Array.isArray(value) ? value : []; }
+  function firstRow(value) { return Array.isArray(value) ? (value[0] || null) : (value || null); }
+  function clamp(value, min, max) { return Math.min(max, Math.max(min, Number(value) || 0)); }
+  function normalizeSpace(value) { return text(value).replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim(); }
+  function safeDate(value) { const date = new Date(value); return Number.isNaN(date.valueOf()) ? null : date; }
+  function localDayKey(value) {
+    const date = safeDate(value);
+    if (!date) return "";
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, "0");
+    const day = String(date.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
+  }
+  function displayDate(value) {
+    const date = safeDate(value);
+    return date ? new Intl.DateTimeFormat("zh-HK", { year: "numeric", month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }).format(date) : "—";
+  }
+  function formatDuration(seconds) {
+    const total = Math.max(0, Math.round(Number(seconds) || 0));
+    const hours = Math.floor(total / 3600);
+    const minutes = Math.floor((total % 3600) / 60);
+    const rest = total % 60;
+    if (hours) return `${hours} 小時 ${minutes} 分`;
+    if (minutes) return `${minutes} 分 ${rest} 秒`;
+    return `${rest} 秒`;
+  }
+  function median(values) {
+    const sorted = values.filter(Number.isFinite).slice().sort((a, b) => a - b);
+    if (!sorted.length) return 0;
+    const middle = Math.floor(sorted.length / 2);
+    return sorted.length % 2 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
+  }
+
+  function showView(name) {
+    Object.entries(views).forEach(([key, node]) => { node.hidden = key !== name; });
+  }
+
+  function setConnection(status, label) {
+    const pill = $("[data-connection-state]");
+    if (!pill) return;
+    pill.dataset.state = status;
+    pill.textContent = label;
+  }
+
+  function toast(message, kind = "success") {
+    const node = document.createElement("div");
+    node.className = `toast${kind === "error" ? " is-error" : ""}`;
+    node.textContent = text(message);
+    $("[data-toast-region]")?.append(node);
+    window.setTimeout(() => node.remove(), 3600);
+  }
+
+  function readSession() {
+    try {
+      const value = JSON.parse(sessionStorage.getItem(CONFIG.sessionKey) || "null");
+      return value && ["student", "admin"].includes(value.role) && value.token ? value : null;
+    } catch { return null; }
+  }
+
+  function saveSession(value) {
+    state.session = value;
+    try { sessionStorage.setItem(CONFIG.sessionKey, JSON.stringify(value)); } catch { /* Private browsing may reject storage. */ }
+    if (value?.role === "student") window.EdmundSystemNav?.rememberStudentSession?.(value);
+  }
+
+  function clearSession() {
+    if (state.session?.role === "student") window.EdmundSystemNav?.forgetStudentSession?.();
+    state.session = null;
+    try { sessionStorage.removeItem(CONFIG.sessionKey); } catch { /* Best effort. */ }
+  }
+
+  async function rpc(name, args = {}) {
+    if (!state.client || !name) throw new Error("資料服務尚未連接。");
+    const { data, error } = await state.client.rpc(name, args);
+    if (error) throw error;
+    return data;
+  }
+
+  async function fetchAllPages(name, args = {}) {
+    const rows = [];
+    for (let page = 0; page <= 200; page += 1) {
+      const batch = asArray(await rpc(name, { ...args, p_offset: page * PAGE_SIZE, p_limit: PAGE_SIZE }));
+      rows.push(...batch);
+      if (batch.length < PAGE_SIZE) return rows;
+    }
+    throw new Error("資料量超過可安全載入的上限。");
+  }
+
+  function normalizeTranslationRows(value) {
+    return asArray(value).map((row, index) => {
+      if (row?.break === true || row?.intentionalBreak === true || row?.intentional_break === true) return { break: true, lineId: `break-${index}` };
+      const rawStart = row?.startSeconds ?? row?.start_seconds ?? row?.start ?? row?.time;
+      const rawEnd = row?.endSeconds ?? row?.end_seconds ?? row?.end;
+      const startSeconds = Number(rawStart);
+      const endSeconds = Number(rawEnd);
+      return {
+        lineId: text(row?.lineId || row?.line_id || `line-${index + 1}`),
+        english: text(row?.english),
+        chinese: text(row?.chinese),
+        startSeconds: rawStart != null && Number.isFinite(startSeconds) && startSeconds >= 0 ? startSeconds : null,
+        endSeconds: Number.isFinite(endSeconds) && endSeconds > startSeconds ? endSeconds : null
+      };
+    });
+  }
+
+  function normalizeQuestion(question, index, includeAnswers) {
+    const options = asArray(question?.options).map(text);
+    return {
+      number: Number(question?.number) || index + 1,
+      lineId: text(question?.lineId),
+      prompt: text(question?.prompt || "{{blank}}"),
+      options,
+      promptZh: text(question?.promptZh || question?.prompt_zh),
+      optionsZh: asArray(question?.optionsZh || question?.options_zh).map(text),
+      answer: includeAnswers ? text(question?.answer) : ""
+    };
+  }
+
+  function normalizeMode(mode, index, includeAnswers) {
+    const id = text(mode?.id || mode?.key || `mode-${index + 1}`).toLowerCase();
+    const questions = asArray(mode?.questions).map((question, questionIndex) => normalizeQuestion(question, questionIndex, includeAnswers));
+    return {
+      id,
+      label: text(mode?.label || mode?.title || id),
+      title: text(mode?.title || mode?.label || id),
+      questionCount: Number(mode?.questionCount || mode?.question_count) || questions.length,
+      version: Number(mode?.version) || 1,
+      listeningLines: asArray(mode?.listeningLines).map(line => ({lineId:text(line.lineId),prompt:text(line.prompt)})),
+      questions
+    };
+  }
+
+  function normalizeSong(raw, { includeAnswers = true } = {}) {
+    const translations = raw?.translations || raw?.translationRows || raw?.translation_rows || raw?.translation || [];
+    const modes = raw?.modes || raw?.exercises || [];
+    return {
+      id: text(raw?.id || raw?.slug),
+      slug: text(raw?.slug || raw?.id),
+      title: text(raw?.title),
+      singer: text(raw?.singer || raw?.artist),
+      exerciseName: text(raw?.exerciseName || raw?.exercise_name || `${raw?.title || "Song"} Listening Practice`),
+      description: text(raw?.description),
+      youtubeUrl: text(raw?.youtubeUrl || raw?.youtube_url),
+      coverUrl: safeMediaUrl(raw?.coverUrl || raw?.cover_url, true),
+      audioUrl: safeMediaUrl(raw?.audioUrl || raw?.audio_url),
+      vocabulary: asArray(raw?.vocabulary),
+      learningSections: raw?.learning_sections || {},
+      sectionProgress: raw?.section_progress || {},
+      vocabularyProgress: raw?.vocabularyProgress || raw?.vocabulary_progress || {},
+      tags: asArray(raw?.tags).map(text).filter(Boolean),
+      translations: normalizeTranslationRows(translations),
+      modes: asArray(modes).map((mode, index) => normalizeMode(mode, index, includeAnswers)),
+      published: raw?.published !== false,
+      sortOrder: Number(raw?.sortOrder ?? raw?.sort_order ?? 0),
+      createdAt: raw?.createdAt || raw?.created_at || "",
+      updatedAt: raw?.updatedAt || raw?.updated_at || ""
+    };
+  }
+
+  function normalizePlayback(row) {
+    return { day: text(row?.activity_date || row?.day), seconds: Number(row?.seconds || row?.duration_seconds || 0) };
+  }
+
+  function validateSong(song, { requireAnswers = false } = {}) {
+    if (!song.id || !song.title || !song.singer) throw new Error("歌曲資料缺少 ID、歌名或歌手。");
+    song.modes.forEach(mode => {
+      if (mode.questionCount !== mode.questions.length) throw new Error(`${song.title} ${mode.label} 題目數量不一致。`);
+      mode.questions.forEach(question => {
+        if (question.options.length !== 3 || (requireAnswers && !question.options.includes(question.answer))) throw new Error(`${song.title} ${mode.label} Q${question.number} 選項或答案無效。`);
+      });
+    });
+    return song;
+  }
+
+  function youtubeVideoId(value) {
+    let source = text(value).trim();
+    if (!source) return "";
+    if (/^(?:www\.)?(?:youtube\.com|youtu\.be)\//i.test(source)) source = `https://${source}`;
+    try {
+      const url = new URL(source);
+      const host = url.hostname.toLowerCase().replace(/^www\./, "");
+      let id = "";
+      if (host === "youtu.be") id = url.pathname.split("/").filter(Boolean)[0] || "";
+      else if (host === "youtube.com" || host.endsWith(".youtube.com") || host === "youtube-nocookie.com" || host.endsWith(".youtube-nocookie.com")) {
+        const parts = url.pathname.split("/").filter(Boolean);
+        if (["embed", "shorts", "live", "v"].includes(parts[0])) id = parts[1] || "";
+        else id = url.searchParams.get("v") || "";
+      }
+      return /^[A-Za-z0-9_-]{11}$/.test(id) ? id : "";
+    } catch { return ""; }
+  }
+
+  function safeMediaUrl(value, image = false) {
+    const url = text(value).trim();
+    return /^(https:\/\/(edmundeducation\.com|edmund-speaking-system\.edmundeducation\.workers\.dev)\/|assets\/)/i.test(url) || (image && /^data:image\/(webp|png|jpeg);base64,/i.test(url)) ? url : "";
+  }
+  function thumbnailUrl(song) { return song?.coverUrl || ""; }
+  function hasSongAudio(song) { return Boolean(song?.audioUrl || youtubeVideoId(song?.youtubeUrl)); }
+  async function loadLessonExtras() {
+    const session = state.session;
+    const rows = await rpc("song_appreciation_lesson_extras", {p_token:session.token, p_admin:session.role === "admin"});
+    if (state.session !== session) return;
+    const extensions = await rpc("song_appreciation_learning_sections", {p_token:session.token,p_admin:session.role === "admin"});
+    if (state.session !== session) return;
+    state.lessonExtras = Object.fromEntries(asArray(rows).map(row => [row.id, {...row,...asArray(extensions).find(item=>item.id===row.id)}]));
+  }
+  function withLessonExtras(row) { const song = row.song || row; return {...song, ...state.lessonExtras[song.id]}; }
+
+
+  function tagElements(tags, container) {
+    container.replaceChildren();
+    asArray(tags).forEach(tag => {
+      const node = document.createElement("span");
+      node.textContent = tag;
+      container.append(node);
+    });
+  }
+
+  function songHaystack(song) {
+    return normalizeSpace([song.title, song.singer, song.exerciseName, ...song.tags,...song.translations.map(row=>`${row.english} ${row.chinese}`)].join(" ")).toLocaleLowerCase("en");
+  }
+
+  function showAuthenticatedHeader(session) {
+    const user = $("[data-signed-in-user]");
+    user.textContent = session.name;
+    user.hidden = false;
+    $("[data-logout]").hidden = false;
+    $("[data-student-nav]").hidden = session.role !== "student";
+  }
+
+  async function studentLogin(username, password) {
+    const rows = await rpc(CONFIG.studentLoginRpc, { p_name: username, p_password: password });
+    const row = firstRow(rows);
+    if (!row?.session_token) throw new Error("用戶名稱或密碼不正確。");
+    return { role: "student", token: text(row.session_token), id: text(row.id), name: text(row.name) };
+  }
+
+  async function adminLogin(username, password) {
+    const rows = await rpc(CONFIG.rpc.adminLogin, { p_name: username, p_password: password });
+    const row = firstRow(rows);
+    if (!row?.admin_token) throw new Error("管理員名稱或密碼不正確。");
+    return { role: "admin", token: text(row.admin_token), id: text(row.admin_id), name: text(row.name || username) };
+  }
+
+  async function validateSession(session) {
+    if (!session?.token) return null;
+    const name = session.role === "admin" ? CONFIG.rpc.adminMe : CONFIG.rpc.studentMe;
+    const args = session.role === "admin" ? { p_admin_token: session.token } : { p_student_token: session.token };
+    const row = firstRow(await rpc(name, args));
+    if (!row?.name) return null;
+    return { ...session, id: text(row.id || session.id), name: text(row.name), role: session.role };
+  }
+
+  function loginTabs() {
+    $$("[data-login-tab]").forEach(button => {
+      button.addEventListener("click", () => {
+        const role = button.dataset.loginTab;
+        $$("[data-login-tab]").forEach(tab => {
+          const active = tab === button;
+          tab.setAttribute("aria-selected", String(active));
+          tab.tabIndex = active ? 0 : -1;
+        });
+        $$("[data-login-panel]").forEach(panel => { panel.hidden = panel.dataset.loginPanel !== role; });
+      });
+    });
+    $$("[data-password-toggle]").forEach(button => button.addEventListener("click", () => {
+      const input = button.closest(".password-field")?.querySelector("input");
+      if (!input) return;
+      input.type = input.type === "password" ? "text" : "password";
+      button.textContent = input.type === "password" ? "顯示" : "隱藏";
+      button.setAttribute("aria-label", input.type === "password" ? "顯示密碼" : "隱藏密碼");
+    }));
+  }
+
+  function offerUniversalSession() {
+    const candidate = window.EdmundSystemNav?.getStudentSession?.();
+    const panel = $("[data-universal-session]");
+    if (!panel || !candidate?.token || !candidate?.name) return;
+    panel.hidden = false;
+    $("[data-universal-name]", panel).textContent = candidate.name;
+    $("[data-use-universal-session]", panel).onclick = async () => {
+      try {
+        const session = await validateSession({ role: "student", token: candidate.token, id: candidate.id, name: candidate.name });
+        if (!session) throw new Error("這個登入已過期，請重新登入。");
+        saveSession(session);
+        await enterStudent();
+      } catch (error) { toast(error.message, "error"); }
+    };
+  }
+
+  function bindLoginForms() {
+    $$("[data-login-form]").forEach(form => form.addEventListener("submit", async event => {
+      event.preventDefault();
+      const role = form.dataset.loginForm;
+      const status = $(`[data-login-status="${role}"]`);
+      const submit = $("button[type=submit]", form);
+      const username = normalizeSpace(form.elements.username.value);
+      const password = text(form.elements.password.value);
+      status.textContent = "";
+      if (!username || !password) { status.textContent = "請輸入用戶名稱及密碼。"; return; }
+      submit.disabled = true;
+      status.textContent = "正在驗證⋯";
+      try {
+        const session = role === "admin" ? await adminLogin(username, password) : await studentLogin(username, password);
+        saveSession(session);
+        form.reset();
+        if (role === "admin") await enterAdmin(); else await enterStudent();
+      } catch (error) {
+        status.textContent = text(error?.message || "登入失敗，請再試一次。");
+      } finally { submit.disabled = false; }
+    }));
+  }
+
+  async function logout(skipSave = false) {
+    window.SongPreview?.stop();
+    if (skipSave !== true && state.exercise && !state.exercise.submitted) { pauseExerciseClock(); storeLocalDraft(); try { await flushDraft(); } catch { /* Scoped local backup retries on return. */ } }
+    if (state.session?.role === "admin") {
+      try { await rpc(CONFIG.rpc.adminLogout, { p_admin_token: state.session.token }); } catch { /* Local logout still applies. */ }
+    }
+    stopExerciseTimers();
+    destroyPlayer();
+    clearSession();
+    window.dispatchEvent(new Event('edmund:song-appreciation-student-closed'));
+    state.songs = [];
+    state.activeSong = null;
+    state.bookmarks = [];
+    state.attempts = [];
+    state.drafts = {};
+    state.exercise = null;
+    state.selectedPhrase = null;
+    clearTimeout(state.draftSaveTimer);state.draftSaveTimer=0;
+    updateFloatingPlayer();
+    $("[data-signed-in-user]").hidden = true;
+    $("[data-logout]").hidden = true;
+    $("[data-student-nav]").hidden = true;
+    showView("login");
+    offerUniversalSession();
+  }
+
+  function libraryProgress(percent, message) {
+    const bar = $("[data-library-progress]");
+    if (!bar) return;
+    bar.setAttribute("aria-valuenow", String(percent));
+    $("[data-library-progress-fill]").style.width = `${percent}%`;
+    $("[data-library-progress-label]").textContent = message;
+  }
+
+  async function loadStudentData() {
+    const token = state.session.token;
+    libraryProgress(10, "正在取回歌曲清單…");
+    const extrasPromise = loadLessonExtras().catch(error => { console.warn("Optional song sections could not load:", error); });
+    const bookmarksPromise = fetchAllPages(CONFIG.rpc.listBookmarks, { p_student_token: token, p_song_id: null });
+    const attemptsPromise = fetchAllPages(CONFIG.rpc.listAttempts, { p_student_token: token, p_song_id: null });
+    const draftsPromise = rpc(CONFIG.rpc.listDrafts, {p_student_token:token});
+    const playbackPromise = rpc(CONFIG.rpc.listPlayback, {p_student_token:token});
+    const secondaryPromise = Promise.allSettled([bookmarksPromise, attemptsPromise, draftsPromise, playbackPromise]);
+    const songRows = await rpc(CONFIG.rpc.listSongs, { p_student_token: token });
+    if (state.session?.token !== token) return;
+    state.songs = asArray(songRows)
+      .map(row => normalizeSong(row.song || row, { includeAnswers: false }))
+      .map(song => validateSong(song, { requireAnswers: false }))
+      .sort((a, b) => a.sortOrder - b.sortOrder || a.title.localeCompare(b.title));
+    libraryProgress(45, `已載入 ${state.songs.length} 首歌曲，正在顯示…`);
+    routeStudent("library", { skipLibraryRender: true });
+    renderLibrary(12, true);
+    await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    renderLibrary();
+    await extrasPromise;
+    if (state.session?.token !== token) return;
+    state.songs = asArray(songRows)
+      .map(row => normalizeSong(withLessonExtras(row), { includeAnswers: false }))
+      .map(song => validateSong(song, { requireAnswers: false }))
+      .sort((a, b) => a.sortOrder - b.sortOrder || a.title.localeCompare(b.title));
+    renderLibrary();
+    libraryProgress(70, "歌曲已可使用，正在同步收藏與學習紀錄…");
+    const results = await secondaryPromise;
+    if (state.session?.token !== token) return;
+    const [bookmarkRows, attemptRows, draftRows, playbackRows] = results.map(result => result.status === "fulfilled" ? result.value : []);
+    for (const result of results) if (result.status === "rejected") console.warn("Optional song account data could not load:", result.reason);
+    state.drafts = Object.fromEntries(asArray(draftRows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));
+    state.bookmarks = asArray(bookmarkRows).map(normalizeBookmark);
+    state.attempts = asArray(attemptRows).map(normalizeAttempt);
+    state.playbackDaily = asArray(playbackRows).map(normalizePlayback);
+    libraryProgress(100, "歌曲及學習紀錄已載入");
+  }
+
+  async function enterStudent() {
+    showAuthenticatedHeader(state.session);
+    showView("student");
+    window.dispatchEvent(new CustomEvent('edmund:song-appreciation-student-opened', {
+      detail: { studentId: String(state.session.id || '') }
+    }));
+    setConnection("online", "已連接");
+    $("[data-library-state]").hidden = false;
+    $("[data-song-grid]").hidden = true;
+    try {
+      await loadStudentData();
+      renderLibrary();
+      renderBookmarks();
+      renderAttempts();
+      renderDashboard();
+      setDashboardExpanded(readDashboardExpanded());
+      const requestedSong = new URL(location.href).searchParams.get('song');
+      if (requestedSong) {
+        const target = state.songs.find(song => song.slug === requestedSong || song.id === requestedSong);
+        if (target) await openSong(target.id);
+        else toast('找不到這首歌曲，或你目前未獲授權開啟。', 'error');
+      }
+    } catch (error) {
+      setConnection("offline", "未能載入");
+      $("[data-library-load-message]").textContent = text(error?.message || "未能載入歌曲庫。");
+      toast(error?.message || "未能載入歌曲庫。", "error");
+    }
+  }
+
+  function routeStudent(route, { skipLibraryRender = false } = {}) {
+    window.SongPreview?.stop();
+    stopMistakeNavigation();
+    if (state.session?.role !== "student") return;
+    const valid = pages[route] ? route : "library";
+    state.activeRoute = valid;
+    Object.entries(pages).forEach(([key, node]) => { node.hidden = key !== valid; });
+    $$("[data-route]").forEach(button => {
+      if (!button.closest(".student-nav")) return;
+      if (button.dataset.route === valid) button.setAttribute("aria-current", "page");
+      else button.removeAttribute("aria-current");
+    });
+    if (valid !== "song") { cancelReadCountdown(); pausePlayer(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
+    else if (state.activeTab === "exercise") startExerciseClock();
+    if (valid === "bookmarks") renderBookmarks();
+    if (valid === "progress") renderAttempts();
+    if (valid === "library" && !skipLibraryRender) renderLibrary();
+    if (valid === "big-data") renderBigData();
+    updateFloatingPlayer();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function renderLibrary(limit = Infinity, keepProgress = false) {
+    window.SongPreview?.stop();
+    const query = normalizeSpace($("[data-song-search]")?.value).toLocaleLowerCase("en");
+    let songs = state.songs.filter(song => (!query || songHaystack(song).includes(query)) && (!state.favoritesOnly || songIsFavorite(song.id)) && (!state.selectedTags.length || state.selectedTags.some(tag => song.tags.includes(tag))));
+    songs = window.SongDifficulty?.sortSongs(songs, $("[data-song-sort]")?.value) || songs;
+    renderSelectedTags();
+    const grid = $("[data-song-grid]");
+    grid.replaceChildren();
+    songs.slice(0, limit).forEach((song, index) => grid.append(createSongCard(song, index)));
+    $("[data-library-count]").textContent = String(state.songs.length);
+    $("[data-search-status]").textContent = query || state.selectedTags.length || state.favoritesOnly ? `找到 ${songs.length} 首歌曲。` : `共 ${state.songs.length} 首歌曲。`;
+    $("[data-library-state]").hidden = !keepProgress;
+    grid.hidden = false;
+  }
+
+  function createSongCard(song, index) {
+    const article = document.createElement("article");
+    article.className = "song-card";
+    article.tabIndex = 0;
+    article.setAttribute("role", "link");
+    article.setAttribute("aria-label", `開啟 ${song.title}`);
+    article.addEventListener("click", event => { if (!event.target.closest("button")) openSong(song.id); });
+    article.addEventListener("keydown", event => { if (event.target === article && (event.key === "Enter" || event.key === " ")) { event.preventDefault(); openSong(song.id); } });
+    const progress=songProgress(song.id); if(progress)article.classList.add(`is-${progress}`);
+    const thumb = document.createElement("div");
+    thumb.className = "song-card__thumb";
+    const source = thumbnailUrl(song);
+    if (source) {
+      const image = new Image();
+      image.src = source;
+      image.alt = `${song.title} 專輯封面`;
+      image.loading = "lazy";
+      image.referrerPolicy = "no-referrer";
+      thumb.prepend(image);
+    }
+    const body = document.createElement("div");
+    body.className = "song-card__body";
+    const lesson = document.createElement("span");
+    lesson.textContent = `SONG ${String(index + 1).padStart(2, "0")}`;
+    const title = document.createElement("h3"); title.textContent = song.title;
+    const singer = document.createElement("p"); singer.textContent = song.singer;
+    const tags = document.createElement("div"); tags.className = "tag-row"; tagElements(song.tags.slice(0, 4), tags);
+    body.append(lesson, title, singer);
+    const difficulty = window.SongDifficulty?.card(song);
+    if (difficulty) body.append(difficulty);
+    body.append(tags);
+    if(progress){const status=document.createElement("small");status.className="song-card__status";setLabel(status,progress==="completed"?"✓ 已完成練習":"◷ 練習進行中");body.append(status);}
+    const favorite=document.createElement("button");favorite.type="button";favorite.className="song-favorite";setLabel(favorite,songIsFavorite(song.id)?"★ 已收藏":"☆ 收藏歌曲");favorite.setAttribute("aria-pressed",String(songIsFavorite(song.id)));favorite.addEventListener("click",event=>{event.stopPropagation();toggleFavorite(song);});
+    const open = document.createElement("button");
+    open.type = "button";
+    setLabel(open,"開始賞析 →");
+    open.addEventListener("click", event => { event.stopPropagation(); openSong(song.id); });
+    article.append(thumb, favorite, body, open);
+    window.SongPreview?.bind(article, song, {
+      allowed: () => state.session?.role === 'student' && state.activeRoute === 'library',
+      pause: pausePlayer,
+      load: async () => {
+        const token = state.session?.token;
+        if (!token || state.session?.role !== 'student') throw new Error('請先登入。');
+        const row = firstRow(await rpc(CONFIG.rpc.getSong, {p_student_token:token,p_song_id:song.id}));
+        if (!row || state.session?.token !== token) throw new Error('未能載入歌曲。');
+        return normalizeSong(withLessonExtras(row), {includeAnswers:false});
+      }
+    });
+    return article;
+  }
+
+  async function openSong(songId, tab = "description") {
+    window.SongPreview?.stop();
+    stopMistakeNavigation();
+    const requestId=state.songOpenGeneration=(state.songOpenGeneration||0)+1;
+    if (state.session?.role !== "student" || !state.session.token) {
+      toast("請先登入學生帳戶。", "error");
+      return;
+    }
+    if (!state.songs.some(item => item.id === songId)) return;
+    try {
+      if(state.exercise && !state.exercise.submitted) await flushDraft();
+      const token=state.session.token;
+      // Always re-authorize and fetch protected translations/questions from the
+      // server. The public catalogue and shipped JavaScript contain metadata only.
+      const row = firstRow(await rpc(CONFIG.rpc.getSong, { p_student_token: state.session.token, p_song_id: songId }));
+      if(state.session?.token!==token || state.songOpenGeneration!==requestId)return;
+      if (!row) throw new Error("你目前未獲授權開啟這首歌。");
+      const song = validateSong(normalizeSong(withLessonExtras(row), { includeAnswers: false }), { requireAnswers: false });
+      if (!song.translations.length || !song.modes.some(mode => mode.questions.length)) throw new Error("這首歌的練習資料尚未完成。");
+      pausePlayer();
+      await flushPlayback();
+      state.activeSong = song;
+      renderSong(song);
+      routeStudent("song");
+      switchSongTab(tab);
+    } catch (error) { toast(error.message || "未能開啟這首歌。", "error"); }
+  }
+
+  function renderSong(song) {
+    $("[data-song-title]").textContent = song.title;
+    $("[data-song-singer]").textContent = song.singer;
+    $("[data-exercise-name]").textContent = song.exerciseName;
+    $("[data-song-description]").replaceChildren(safeIntroduction(song.description));
+    const difficultyPanel = window.SongDifficulty?.panel(song);
+    $("[data-song-difficulty]").replaceChildren(...(difficultyPanel ? [difficultyPanel] : []));
+    tagElements(song.tags, $("[data-song-tags]"));
+    const cover = $("[data-song-cover]");
+    $("img", cover)?.remove();
+    const source = thumbnailUrl(song);
+    if (source) {
+      const image = new Image(); image.src = source; image.alt = `${song.title} 專輯封面`; image.referrerPolicy = "no-referrer";
+      cover.prepend(image);
+    }
+    $("[data-cover-fallback]", cover).hidden = Boolean(source);
+    renderTranslations(song);
+    renderModes(song);
+    state.vocabularyIndex = 0;
+    state.sectionIndexes = {};
+    for(const name of ["advanced","structure","analysis"]) {
+      const tab = $(`[data-song-tab="${name}"]`);
+      if(tab) tab.hidden = !song.learningSections[name];
+      renderLearningSection(name);
+    }
+    renderVocabulary();
+    resetExercise();
+    destroyPlayer();
+    if (song.audioUrl) mountAudioPlayer(song);
+    else if (youtubeVideoId(song.youtubeUrl)) mountPlayer(song.youtubeUrl);
+  }
+
+  function switchSongTab(tab) {
+    stopMistakeNavigation();
+    const valid = ["description", "translation", "exercise", "vocabulary", "advanced", "structure", "analysis"].includes(tab) ? tab : "description";
+    state.activeTab = valid;
+    $$("[data-song-tab]").forEach(button => {
+      const active = button.dataset.songTab === valid;
+      button.setAttribute("aria-selected", String(active));
+      button.tabIndex = active ? 0 : -1;
+    });
+    $$("[data-tab-panel]").forEach(panel => { panel.hidden = panel.dataset.tabPanel !== valid; });
+    $("[data-song-player]").hidden = valid === "description";
+    if (valid === "description") { cancelReadCountdown(); pausePlayer(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
+    else if (valid !== "exercise") { cancelReadCountdown(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
+    else {
+      if (state.exercise?.locked && hasSongAudio(state.activeSong) && !state.countdownTimer) startReadCountdown();
+      startExerciseClock();
+    }
+    updateFloatingPlayer();
+  }
+
+  function splitTranslationRows(rows) {
+    if (!rows.length) return [[], []];
+    const middle = Math.ceil(rows.length / 2);
+    let cut = middle;
+    for (let offset = 0; offset < 5; offset += 1) {
+      if (rows[middle + offset]?.break) { cut = middle + offset + 1; break; }
+      if (rows[middle - offset]?.break) { cut = middle - offset + 1; break; }
+    }
+    return [rows.slice(0, cut), rows.slice(cut)];
+  }
+
+  function tokenizeEnglish(value, lineId) {
+    const fragment = document.createDocumentFragment();
+    const pieces = text(value).split(/(\s+|(?=[,?.!;:()'’—-])|(?<=[,?.!;:()'’—-]))/u).filter(Boolean);
+    let wordIndex = 0;
+    pieces.forEach(piece => {
+      if (/^[\p{L}\p{N}'’“-]+$/u.test(piece) && /[\p{L}\p{N}]/u.test(piece)) {
+        const span = document.createElement("span");
+        span.className = "lyric-word";
+        span.dataset.word = piece;
+        span.dataset.lineId = lineId;
+        span.dataset.wordIndex = String(wordIndex++);
+        span.tabIndex = 0;
+        span.setAttribute("role", "button");
+        span.setAttribute("aria-label", `收藏單字 ${piece}`);
+        span.textContent = piece;
+        if (state.bookmarks.some(item => item.songId === state.activeSong?.id && item.kind === "word" && item.normalizedText === normalizeSpace(piece).toLocaleLowerCase("en"))) span.classList.add("is-bookmarked");
+        span.addEventListener("click", () => { if(window.getSelection?.()?.toString().trim()) {updateSelectedPhrase();return;} addBookmark({kind:"word",excerpt:piece,lineId}); });
+        span.addEventListener("keydown", event => {
+          if (event.key === "Enter" || event.key === " ") { event.preventDefault(); addBookmark({ kind: "word", excerpt: piece, lineId }); }
+        });
+        fragment.append(span);
+      } else fragment.append(document.createTextNode(piece));
+    });
+    const spans = Array.from(fragment.querySelectorAll(".lyric-word"));
+    const lineTokens = spans.map(span => normalizeSpace(span.dataset.word).toLocaleLowerCase("en"));
+    state.bookmarks.filter(item => item.songId === state.activeSong?.id && item.kind === "phrase").forEach(item => {
+      if (item.lineIds.length && !item.lineIds.includes(lineId)) return;
+      if (!item.lineIds.length && item.lineId && item.lineId !== lineId) return;
+      const phraseTokens = item.normalizedText.match(/[\p{L}\p{N}'’]+/gu) || [];
+      let bestStart = -1, bestLength = 0;
+      for (let lineStart = 0; lineStart < lineTokens.length; lineStart += 1) {
+        for (let phraseStart = 0; phraseStart < phraseTokens.length; phraseStart += 1) {
+          let length = 0;
+          while (lineTokens[lineStart + length] && phraseTokens[phraseStart + length] === lineTokens[lineStart + length]) length += 1;
+          if (length > bestLength) { bestStart = lineStart; bestLength = length; }
+        }
+      }
+      if (bestStart >= 0 && bestLength) spans.slice(bestStart, bestStart + bestLength).forEach(span => span.classList.add("is-phrase-bookmarked"));
+    });
+    return fragment;
+  }
+
+  function translationTable(rows, tableIndex) {
+    const table = document.createElement("table");
+    table.className = "translation-table";
+    table.setAttribute("aria-label", `歌詞及翻譯第 ${tableIndex + 1} 部分`);
+    const head = document.createElement("thead");
+    const headerRow = document.createElement("tr");
+    ["English", "繁體中文"].forEach(label => { const th = document.createElement("th"); th.scope = "col"; th.textContent = label; headerRow.append(th); });
+    head.append(headerRow);
+    const body = document.createElement("tbody");
+    rows.forEach(row => {
+      const tr = document.createElement("tr");
+      if (row.break) {
+        tr.className = "is-break";
+        const td = document.createElement("td"); td.colSpan = 2; td.setAttribute("aria-label", "段落分隔"); tr.append(td);
+      } else {
+        tr.dataset.lineId = row.lineId;
+        tr.dataset.syncIndex = String(body.querySelectorAll("tr:not(.is-break)").length);
+        if (Number.isFinite(row.startSeconds)) tr.dataset.startSeconds = String(row.startSeconds);
+        if (Number.isFinite(row.endSeconds)) tr.dataset.endSeconds = String(row.endSeconds);
+        const english = document.createElement("td");
+        english.dataset.translationEnglish = "";
+        english.dataset.lineId = row.lineId;
+        english.append(tokenizeEnglish(row.english, row.lineId));
+        const chinese = document.createElement("td"); chinese.textContent = row.chinese;
+        tr.append(english, chinese);
+      }
+      body.append(tr);
+    });
+    table.append(head, body);
+    return table;
+  }
+
+  function renderTranslations(song) {
+    const columns = $("[data-translation-columns]");
+    columns.replaceChildren();
+    columns.append(translationTable(song.translations, 0));
+    $("[data-bookmark-selection]").disabled = true;
+    $("[data-bookmark-selection]").hidden = true;
+    $("[data-selection-status]").textContent = "";
+    state.selectedPhrase = null;
+  }
+
+  function selectedPhrase() {
+    const selection=window.getSelection?.();
+    if(!selection || selection.isCollapsed || !selection.rangeCount)return null;
+    const range=selection.getRangeAt(0), panel=$('[data-translation-columns]');
+    if(!panel.contains(range.startContainer)||!panel.contains(range.endContainer))return null;
+    const parts=[],lineIds=[];
+    $$('[data-translation-english]',panel).forEach(cell=>{
+      if(!range.intersectsNode(cell))return;
+      const words=$$('.lyric-word',cell).filter(word=>range.intersectsNode(word));
+      const part=normalizeSpace(words.map(word=>word.dataset.word).join(' '));if(part){parts.push(part);lineIds.push(cell.dataset.lineId);}
+    });
+    const excerpt=parts.join(' ');return excerpt && excerpt.length<=20000?{excerpt,lineId:lineIds[0],lineIds}:null;
+  }
+
+  function updateSelectedPhrase(point) {
+    const phrase = selectedPhrase();
+    state.selectedPhrase = phrase;
+    const button = $("[data-bookmark-selection]");
+    button.disabled = !phrase;
+    button.hidden = !phrase;
+    if (phrase) {
+      const range=window.getSelection().getRangeAt(0),rect=range.getBoundingClientRect();
+      const x=point?.clientX ?? rect.right, y=point?.clientY ?? rect.bottom;
+      button.style.left=`${clamp(x,70,window.innerWidth-70)}px`;
+      button.style.top=`${clamp(y+14,18,window.innerHeight-50)}px`;
+    }
+    $("[data-selection-status]").textContent = phrase ? `已選取：「${phrase.excerpt}」` : "";
+  }
+
+  function normalizeBookmark(row) {
+    const sourceLocator = row?.source_locator || {};
+    const lineIds = asArray(sourceLocator.lineIds || sourceLocator.line_ids).map(text).filter(Boolean);
+    return {
+      id: text(row?.id),
+      songId: text(row?.song_id || row?.songId),
+      songTitle: text(row?.song_title || row?.songTitle),
+      singer: text(row?.singer),
+      lineId: text(row?.line_id || row?.lineId || sourceLocator.lineId || sourceLocator.line_id),
+      lineIds,
+      kind: ["phrase","song"].includes(row?.kind) ? row.kind : "word",
+      excerpt: text(row?.excerpt || row?.selected_text || row?.bookmark_text),
+      normalizedText: text(row?.normalized_text || normalizeSpace(row?.excerpt || row?.selected_text || row?.bookmark_text).toLocaleLowerCase("en")),
+      createdAt: row?.created_at || new Date().toISOString()
+    };
+  }
+
+  async function addBookmark(input) {
+    const song = input.song || state.activeSong;
+    const token=state.session?.token;
+    const excerpt = normalizeSpace(input.excerpt);
+    if (!song || !excerpt) return;
+    const normalized = excerpt.toLocaleLowerCase("en");
+    if (state.bookmarks.some(item => item.songId === song.id && item.kind === input.kind && item.normalizedText === normalized)) {
+      toast("這項內容已在你的書籤內。", "error");
+      return;
+    }
+    try {
+      const sourceText = (song.translations.find(row => !row.break && row.lineId === text(input.lineId))?.english || "").slice(0,1500);
+      const row = firstRow(await rpc(CONFIG.rpc.addBookmark, {
+        p_student_token: state.session.token,
+        p_song_id: song.id,
+        p_kind: input.kind,
+        p_bookmark_text: excerpt,
+        p_source_text: sourceText,
+        p_source_locator: { lineId: text(input.lineId), lineIds:input.lineIds||[] }
+      }));
+      if (!row?.id || text(row.song_id) !== song.id) throw new Error("資料服務未確認書籤已儲存。");
+      if(state.session?.token!==token)return;
+      state.bookmarks=state.bookmarks.filter(b=>b.id!==text(row.id));
+      state.bookmarks.unshift(normalizeBookmark({ ...row, song_title: song.title, singer: song.singer }));
+      if(state.activeSong?.id===song.id)renderTranslations(song);
+      renderBookmarks(); renderLibrary();
+      window.getSelection?.().removeAllRanges?.();
+      toast(input.kind === "song" ? "歌曲已加入收藏。" : input.kind === "phrase" ? "片語已加入書籤。" : "單字已加入書籤。");
+    } catch (error) { toast(error.message || "未能儲存書籤。", "error"); }
+  }
+
+  async function deleteBookmark(id) {
+    const token=state.session?.token;
+    try {
+      const deleted = await rpc(CONFIG.rpc.deleteBookmark, { p_student_token: state.session.token, p_bookmark_id: id });
+      if (deleted !== true) throw new Error("資料服務未確認書籤已移除。");
+      if(state.session?.token!==token)return;
+      state.bookmarks = state.bookmarks.filter(item => item.id !== id);
+      renderLibrary();
+      renderBookmarks();
+      if (state.activeSong) renderTranslations(state.activeSong);
+      toast("書籤已移除。");
+    } catch (error) { toast(error.message || "未能移除書籤。", "error"); }
+  }
+
+  function renderBookmarks() {
+    const list = state.bookmarks.filter(item => state.bookmarkFilter === "all" || item.kind === state.bookmarkFilter);
+    const grid = $("[data-bookmark-grid]");
+    grid.replaceChildren();
+    list.forEach(item => {
+      const card = document.createElement("article"); card.className = "bookmark-card";
+      const kind = document.createElement("span"); kind.textContent = item.kind === "song" ? "SONG · 歌曲" : item.kind === "phrase" ? "PHRASE · 片語" : "WORD · 單字";
+      const excerpt = document.createElement("strong"); excerpt.textContent = item.excerpt;
+      const source = document.createElement("p"); source.textContent = `來源：${item.songTitle || state.songs.find(song => song.id === item.songId)?.title || "歌曲"}${item.singer ? ` · ${item.singer}` : ""}`;
+      const footer = document.createElement("footer");
+      const open = document.createElement("button"); open.type = "button"; open.textContent = "查看原文"; open.onclick = () => openSong(item.songId, item.kind === "song" ? "exercise" : "translation");
+      const remove = document.createElement("button"); remove.type = "button"; remove.textContent = "移除"; remove.onclick = () => deleteBookmark(item.id);
+      footer.append(open, remove); card.append(kind, excerpt, source, footer); grid.append(card);
+    });
+    $("[data-bookmark-empty]").hidden = Boolean(list.length);
+  }
+
+  function normalizeAttempt(row) {
+    return {
+      id: text(row?.id),
+      songId: text(row?.song_id || row?.songId),
+      songTitle: text(row?.song_title || row?.songTitle),
+      mode: text(row?.mode_id || row?.mode || row?.difficulty),
+      exerciseVersion: Number(row?.exercise_version || row?.exerciseVersion || 1),
+      answers: row?.answers && typeof row.answers === "object" ? row.answers : {},
+      results: (row?.results || row?.result) && typeof (row?.results || row?.result) === "object" ? (row.results || row.result) : {},
+      correctCount: Number(row?.correct_count || row?.correctCount || 0),
+      totalQuestions: Number(row?.total_questions || row?.totalQuestions || row?.total_count || 0),
+      durationSeconds: Number(row?.duration_seconds || row?.durationSeconds || 0) || (Number(row?.duration_ms) || 0) / 1000,
+      startedAt: row?.started_at || row?.startedAt || "",
+      completedAt: row?.completed_at || row?.completedAt || row?.created_at || ""
+    };
+  }
+
+  function renderAttempts() {
+    const list = $("[data-attempt-list]");
+    list.replaceChildren();
+    state.attempts.slice().sort((a, b) => new Date(b.completedAt) - new Date(a.completedAt)).forEach(attempt => {
+      const details = document.createElement("details"); details.className = "attempt-card";
+      const summary = document.createElement("summary");
+      const title = document.createElement("strong"); title.textContent = attempt.songTitle || state.songs.find(song => song.id === attempt.songId)?.title || "歌曲練習";
+      const date = document.createElement("span"); date.textContent = displayDate(attempt.completedAt);
+      const score = document.createElement("b"); score.textContent = `${attempt.correctCount} / ${attempt.totalQuestions}`;
+      const level = document.createElement("span"); level.className="difficulty-badge"; level.textContent=`難度 · ${MODE_ACCENTS[attempt.mode] || attempt.mode || "未指定"}`;
+      summary.append(title, level, date, score);
+      const body = document.createElement("div"); body.className = "attempt-card__detail";
+      body.textContent = `${MODE_ACCENTS[attempt.mode] || attempt.mode} · 練習時間 ${formatDuration(attempt.durationSeconds)} · 正確率 ${attempt.totalQuestions ? Math.round(attempt.correctCount / attempt.totalQuestions * 100) : 0}%`;
+      details.append(summary, body); list.append(details);
+    });
+    $("[data-attempt-empty]").hidden = Boolean(state.attempts.length);
+  }
+
+  function dateRangeStart(days) {
+    if (!days) return null;
+    const date = new Date(); date.setHours(0, 0, 0, 0); date.setDate(date.getDate() - days + 1); return date;
+  }
+
+  function dailyAttemptSeries(days, field) {
+    const start = dateRangeStart(days);
+    const grouped = new Map();
+    if (field === "time") {
+      state.playbackDaily.forEach(item => {
+        const date = safeDate(`${item.day}T12:00:00`);
+        if (!date || (start && date < start)) return;
+        grouped.set(item.day, (grouped.get(item.day) || 0) + item.seconds);
+      });
+    } else state.attempts.forEach(attempt => {
+      const date = safeDate(attempt.completedAt);
+      if (!date || (start && date < start)) return;
+      const key = localDayKey(date);
+      grouped.set(key, (grouped.get(key) || 0) + attempt.totalQuestions);
+    });
+    return [...grouped.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([day, value]) => ({ day, value }));
+  }
+
+  function renderRangePills(container, current, handler) {
+    container.replaceChildren();
+    CHART_RANGES.forEach(days => {
+      const button = document.createElement("button"); button.type = "button"; button.textContent = days ? `${days}日` : "全部";
+      button.classList.toggle("is-active", current === days);
+      button.addEventListener("click", () => handler(days));
+      container.append(button);
+    });
+  }
+
+  function renderLineChart(container, series, field, detail) {
+    container.replaceChildren();
+    if (!series.length) {
+      const empty = document.createElement("div"); empty.className = "chart-empty"; empty.textContent = "完成練習後，圖表會顯示在這裡。"; container.append(empty); return;
+    }
+    const width = 600, height = 150, left = 28, right = 12, top = 12, bottom = 28;
+    const max = Math.max(...series.map(item => item.value), 1);
+    const x = index => left + (series.length === 1 ? (width - left - right) / 2 : index * (width - left - right) / (series.length - 1));
+    const y = value => top + (height - top - bottom) * (1 - value / max);
+    const ns = "http://www.w3.org/2000/svg";
+    const svg = document.createElementNS(ns, "svg"); svg.setAttribute("viewBox", `0 0 ${width} ${height}`); svg.setAttribute("role", "img");
+    [0, .5, 1].forEach(ratio => { const line = document.createElementNS(ns, "line"); line.setAttribute("x1", left); line.setAttribute("x2", width - right); line.setAttribute("y1", top + (height - top - bottom) * ratio); line.setAttribute("y2", top + (height - top - bottom) * ratio); line.setAttribute("class", "chart-grid"); svg.append(line); });
+    const points = series.map((item, index) => `${x(index)},${y(item.value)}`).join(" ");
+    const area = document.createElementNS(ns, "path"); area.setAttribute("class", "chart-area"); area.setAttribute("d", `M ${x(0)} ${height - bottom} L ${points.replaceAll(" ", " L ")} L ${x(series.length - 1)} ${height - bottom} Z`); svg.append(area);
+    const path = document.createElementNS(ns, "polyline"); path.setAttribute("class", "chart-line"); path.setAttribute("points", points); svg.append(path);
+    series.forEach((item, index) => {
+      const circle = document.createElementNS(ns, "circle"); circle.setAttribute("class", "chart-point"); circle.setAttribute("cx", x(index)); circle.setAttribute("cy", y(item.value)); circle.setAttribute("r", "5"); circle.setAttribute("tabindex", "0"); circle.setAttribute("role", "button"); circle.setAttribute("aria-label", `${item.day}：${field === "questions" ? `${item.value} 題` : formatDuration(item.value)}`);
+      const activate = () => { detail.textContent = `${item.day} · ${field === "questions" ? `完成 ${item.value} 題` : `練習 ${formatDuration(item.value)}`}`; };
+      circle.addEventListener("click", activate); circle.addEventListener("keydown", event => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); activate(); } }); svg.append(circle);
+      if (index === 0 || index === series.length - 1) { const label = document.createElementNS(ns, "text"); label.setAttribute("class", "chart-label"); label.setAttribute("x", x(index)); label.setAttribute("y", height - 7); label.setAttribute("text-anchor", index === 0 ? "start" : "end"); label.textContent = item.day.slice(5); svg.append(label); }
+    });
+    container.append(svg);
+  }
+
+  function renderDashboard() {
+    renderRangePills($("[data-question-ranges]"), state.questionRange, days => { state.questionRange = days; renderDashboard(); });
+    renderRangePills($("[data-time-ranges]"), state.timeRange, days => { state.timeRange = days; renderDashboard(); });
+    renderLineChart($("[data-question-chart]"), dailyAttemptSeries(state.questionRange, "questions"), "questions", $("[data-question-detail]"));
+    const timeSeries = dailyAttemptSeries(state.timeRange, "time");
+    renderLineChart($("[data-time-chart]"), timeSeries, "time", $("[data-time-detail]"));
+    const values = timeSeries.map(item => item.value);
+    const stats = [
+      [formatDuration(values.reduce((sum, value) => sum + value, 0)), "範圍總時間"],
+      [formatDuration(values.length ? values.reduce((sum, value) => sum + value, 0) / values.length : 0), "每日平均"],
+      [formatDuration(median(values)), "每日中位數"],
+      [formatDuration(Math.max(0, ...values)), "單日最多"]
+    ];
+    const holder = $("[data-time-stats]"); holder.replaceChildren();
+    stats.forEach(([value, label]) => { const node = document.createElement("div"); const strong = document.createElement("strong"); strong.textContent = value; const span = document.createElement("span"); span.textContent = label; node.append(strong, span); holder.append(node); });
+  }
+
+  function dashboardPreferenceKey() { return `${CONFIG.dashboardPreferenceKey}:${state.session?.id || state.session?.name || "guest"}`; }
+  function readDashboardExpanded() { try { return localStorage.getItem(dashboardPreferenceKey()) === "expanded"; } catch { return false; } }
+  function setDashboardExpanded(expanded) {
+    const body = $("[data-dashboard-body]"); const button = $("[data-dashboard-toggle]");
+    body.hidden = !expanded; button.setAttribute("aria-expanded", String(expanded)); $("[data-dashboard-toggle-label]").textContent = expanded ? "收合" : "展開";
+    try { localStorage.setItem(dashboardPreferenceKey(), expanded ? "expanded" : "collapsed"); } catch { /* Best effort. */ }
+  }
+
+  function renderModes(song) {
+    const grid = $("[data-mode-grid]"); grid.replaceChildren();
+    song.modes.forEach(mode => {
+      const button = document.createElement("button"); button.type = "button"; button.className = "mode-card";
+      const eyebrow = document.createElement("span"); eyebrow.textContent = MODE_ACCENTS[mode.id] || mode.id.toUpperCase();
+      const title = document.createElement("strong"); title.textContent = mode.label;
+      const count = document.createElement("small"); count.textContent = `${mode.questionCount} 題 · 三選一`;
+      button.append(eyebrow, title, count); button.addEventListener("click", () => startExercise(mode.id)); grid.append(button);
+    });
+  }
+
+  function promptParts(prompt) {
+    const parts = text(prompt).split("{{blank}}");
+    return parts.length === 2 ? parts : [text(prompt), ""];
+  }
+
+  function normalizedLyricWords(value) {
+    return (text(value).toLocaleLowerCase("en").match(/[\p{L}\p{N}'’]+/gu) || []).join(" ");
+  }
+
+  function questionMatchesLine(question, row) {
+    const line = normalizedLyricWords(row?.english);
+    const [before, after] = promptParts(question?.prompt).map(normalizedLyricWords);
+    if (before || after) return Boolean(line && (!before || line.includes(before)) && (!after || line.includes(after)));
+    const questionZh = normalizeSpace(question?.promptZh);
+    const lineZh = normalizeSpace(row?.chinese);
+    return Boolean(questionZh && lineZh && (lineZh.includes(questionZh) || questionZh.includes(lineZh)));
+  }
+
+  function lyricTimeline(song, duration) {
+    const sourceRows = asArray(song?.translations);
+    const lyricRows = sourceRows.filter(row => !row.break);
+    if (!lyricRows.length) return [];
+    const preset = SYNC_PRESETS[youtubeVideoId(song?.youtubeUrl)];
+    if (preset?.length === lyricRows.length) return lyricRows.map((row, index) => ({ row, start: preset[index][0], end: preset[index][1] }));
+    const explicitCount = lyricRows.filter(row => Number.isFinite(row.startSeconds)).length;
+    if (explicitCount > 0) {
+      const timedRows = lyricRows.filter(row => Number.isFinite(row.startSeconds));
+      return timedRows.map((row, index) => ({
+        row,
+        start: row.startSeconds,
+        end: Number.isFinite(row.endSeconds) ? row.endSeconds : (timedRows[index + 1]?.startSeconds ?? Math.min(duration || row.startSeconds + 5, row.startSeconds + 5))
+      }));
+    }
+    if (!(duration > 0)) return [];
+    const intro = clamp(duration * .045, 8, 14);
+    const outro = clamp(duration * .035, 7, 13);
+    const available = Math.max(1, duration - intro - outro);
+    const weights = lyricRows.map(row => {
+      const wordCount = normalizedLyricWords(row.english).split(" ").filter(Boolean).length;
+      const sourceIndex = sourceRows.indexOf(row);
+      const stanzaPause = sourceRows[sourceIndex + 1]?.break ? 1.15 : 0;
+      return clamp(wordCount * .44, 1.75, 5.6) + stanzaPause;
+    });
+    const totalWeight = weights.reduce((sum, weight) => sum + weight, 0) || 1;
+    let cursor = intro;
+    return lyricRows.map((row, index) => {
+      const length = available * weights[index] / totalWeight;
+      const item = { row, start: cursor, end: cursor + length };
+      cursor += length;
+      return item;
+    });
+  }
+
+  function questionTimeline(questions, timeline) {
+    let cursor = 0;
+    let previousIndex = -1;
+    return asArray(questions).map(question => {
+      const explicit = question.lineId && timeline.find(item => item.row.lineId === question.lineId);
+      if (explicit) return explicit;
+      if (question.lineId) return null;
+      let index = previousIndex >= 0 && questionMatchesLine(question, timeline[previousIndex]?.row) ? previousIndex : -1;
+      if (index < 0) index = timeline.findIndex((item, candidate) => candidate >= cursor && questionMatchesLine(question, item.row));
+      if (index < 0) index = timeline.findIndex(item => questionMatchesLine(question, item.row));
+      if (index < 0) return null;
+      previousIndex = index;
+      cursor = index + 1;
+      return timeline[index];
+    });
+  }
+
+  // Stable question numbers remain storage keys; visible numbering follows lyric occurrences.
+  function listeningRoute(mode) {
+    const byNumber = new Map(mode.questions.map(q => [q.number, q]));
+    const ordered = [], seen = new Set();
+    for (const line of mode.listeningLines) {
+      for (const match of line.prompt.matchAll(/\{\{q:(\d+)\}\}/g)) {
+        const number = Number(match[1]);
+        if (byNumber.has(number) && !seen.has(number)) { ordered.push(byNumber.get(number)); seen.add(number); }
+      }
+    }
+    for (const question of mode.questions) if (!seen.has(question.number)) ordered.push(question);
+    return ordered;
+  }
+
+  function renderExerciseQuestions() {
+    const holder = $("[data-lyrics-exercise]"); holder.replaceChildren();
+    const exercise = state.exercise;
+    if (!exercise) return;
+    const timing = questionTimeline(exercise.mode.questions, lyricTimeline(state.activeSong, Number(state.player?.getDuration?.()) || 0));
+    const route = listeningRoute(exercise.mode);
+    const displayNumbers = new Map(route.map((q, index) => [q.number, index + 1]));
+    const groups = new Map();
+    const timeline = lyricTimeline(state.activeSong, Number(state.player?.getDuration?.()) || 0);
+    const translationRows = new Map(state.activeSong.translations.filter(row => !row.break).map(row => [row.lineId, row]));
+    exercise.mode.listeningLines.forEach(line => {
+      const section = document.createElement("section"); section.className = "exercise-lyric-group";
+      section.dataset.lyricFlow = line.lineId;
+      const cue = timeline.find(item => item.row.lineId === line.lineId);
+      if (cue) {
+        section.dataset.syncLineId = line.lineId;
+        section.dataset.startSeconds = String(cue.start);
+        section.dataset.endSeconds = String(cue.end);
+      }
+      const heading = document.createElement("p"); heading.className = "exercise-full-line";
+      line.prompt.split(/(\{\{q:\d+\}\})/).forEach(part => {
+        const match = part.match(/^\{\{q:(\d+)\}\}$/);
+        if (!match) heading.append(document.createTextNode(part));
+        else { const blank = document.createElement("span"); blank.className = "blank-number"; blank.textContent = String(displayNumbers.get(Number(match[1]))); heading.append(blank); }
+      });
+      section.append(heading);
+      const translation = translationRows.get(line.lineId)?.chinese;
+      if (state.showChinese && translation) { const zh = document.createElement("p"); zh.className="question-translation"; zh.textContent=translation; section.append(zh); }
+      section.classList.toggle("is-support-line", !/\{\{q:/.test(line.prompt));
+      groups.set(line.lineId, section); holder.append(section);
+    });
+    route.forEach(question => {
+      const questionIndex = exercise.mode.questions.indexOf(question);
+      const displayNumber = displayNumbers.get(question.number);
+      const card = document.createElement("article"); card.className = "exercise-line"; card.dataset.question = String(question.number);
+      const questionTiming = timing[questionIndex];
+      if (questionTiming) {
+        card.dataset.syncLineId = questionTiming.row.lineId;
+        card.dataset.startSeconds = String(questionTiming.start);
+        card.dataset.endSeconds = String(questionTiming.end);
+      }
+      if (Object.prototype.hasOwnProperty.call(exercise.answers, question.number)) card.classList.add("is-answered");
+      const prompt = document.createElement("div"); prompt.className = "exercise-prompt";
+      const [before, after] = promptParts(question.prompt); prompt.append(document.createTextNode(before));
+      const blank = document.createElement("span"); blank.className = "blank-number"; blank.textContent = String(displayNumber); prompt.append(blank, document.createTextNode(after));
+      const choices = document.createElement("div"); choices.className = "choice-grid"; choices.setAttribute("role", "radiogroup"); choices.setAttribute("aria-label", `第 ${displayNumber} 題`);
+      question.options.forEach((option, index) => {
+        const selected = exercise.answers[question.number] === option;
+        const button = document.createElement("button"); button.type = "button"; button.className = "choice-button"; button.classList.toggle("is-selected", selected); button.dataset.option = option; button.setAttribute("role", "radio"); button.setAttribute("aria-checked", String(selected)); button.disabled = exercise.locked || exercise.submitted || exercise.submitting || exercise.checking || Boolean(exercise.pendingSubmission) || exercise.conflict || Boolean(exercise.results?.[question.number]);
+        const letter = document.createElement("b"); letter.textContent = String.fromCharCode(65 + index); const label = document.createElement("span"); label.textContent = option; button.append(letter, label);
+        if(state.showChinese && question.optionsZh[index]){const zh=document.createElement("small");zh.className="choice-translation";zh.textContent=question.optionsZh[index];label.append(zh);}
+        button.addEventListener("click", () => chooseAnswer(question.number, option)); choices.append(button);
+      });
+      if (groups.has(question.lineId)) prompt.textContent = `第 ${displayNumber} 題`;
+      card.append(prompt);
+      if(state.showChinese && question.promptZh && !groups.has(question.lineId)){const zh=document.createElement("p");zh.className="question-translation";zh.textContent=question.promptZh;card.append(zh);}
+      card.append(choices); (groups.get(question.lineId) || holder).append(card);
+    });
+    applyCheckedResults();
+    if(Object.keys(exercise.results||{}).length) holder.append(mistakeReviewButton(listeningMistakes(exercise.results)));
+    updateExerciseProgress();
+  }
+
+  async function startExercise(modeId, joining = false) {
+    const startGeneration=state.exerciseStartGeneration=(state.exerciseStartGeneration||0)+1;
+    const song = state.activeSong;
+    const mode = song?.modes.find(item => item.id === modeId);
+    if (!song || !mode) return;
+    if(state.exercise && !state.exercise.submitted){try{await flushDraft();}catch(error){toast("請先同步或載入雲端進度，再切換難度。","error");return;}}
+    if(state.activeSong!==song || state.exerciseStartGeneration!==startGeneration)return;
+    if(!joining){
+      try{const data=await roomRequest('start',{p_session:crypto.randomUUID(),p_song:song.id,p_mode:mode.id,p_version:mode.version});acceptRoom(data);if(!data.accepted){toast('已有進行中的課堂，請按下方「加入練習」。');return;}classroom.joined=data.session.id;classroom.revision=-1;}
+      catch(e){toast('未能建立同步課堂，請檢查連線後重試。','error');return;}
+    }
+    resetExercise();
+    const savedLocal=readLocalDrafts()[draftIdentity(song.id,mode.id)];
+    const draft=joining&&!(savedLocal?.dirty||savedLocal?.pending||savedLocal?.pendingSubmission)?state.drafts[draftIdentity(song.id,mode.id)]:draftForMode(song.id,mode);
+    state.exercise = { songId:song.id,ownerId:state.session.id,mode, answers: {...(draft?.answers||{})},results:draft?.result||{},revision:Number(draft?.revision||0),dirty:Boolean(draft?.dirty),pendingDraft:draft?.pending||null,pendingSubmission:draft?.pendingSubmission||null,editSequence:draft?.editSequence||0,localEdits:draft?.localEdits||{},conflict:Boolean(draft?.conflict), locked: hasSongAudio(song), submitted: false, startedAt: draft?.started_at||classroom.room?.started_at||new Date().toISOString(), activeSeconds: Number(draft?.duration_ms||0)/1000, clockStarted: 0 };
+    $("[data-mode-grid]").hidden = true;
+    $("[data-exercise-stage]").hidden = false;
+    $("[data-mode-title]").textContent = `${mode.label} · ${mode.questionCount} 題`;
+    $("[data-relisten]").hidden = false;
+    renderExerciseQuestions();
+    if(draft?.needsReset){state.exercise.dirty=true;try{await flushDraft("reset");}catch{toast("請連線後重設已完成的練習。","error");return;}}
+    if(joining){state.exercise.liveFollowing=!(draft?.dirty||draft?.pending||draft?.pendingSubmission);state.exercise.locked=false;}
+    startExerciseClock();
+    setDraftStatus(draft?"已恢復上次的練習進度":"選擇答案後會自動儲存。");
+    if(state.exercise.dirty || state.exercise.pendingDraft)void flushDraft().catch(()=>{});
+    if (hasSongAudio(song) && !joining) {
+      startReadCountdown();
+    } else {
+      state.exercise.locked = false;
+      renderExerciseQuestions();
+    }
+    renderClassroom();
+    $("[data-exercise-stage]").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function resetExercise() {
+    stopMistakeNavigation();
+    storeLocalDraft(); clearTimeout(state.draftSaveTimer);state.draftSaveTimer=0;
+    stopExerciseTimers();
+    state.exercise = null;
+    $("[data-mode-grid]").hidden = false;
+    $("[data-exercise-stage]").hidden = true;
+    $("[data-result-card]").hidden = true;
+    $("[data-autoplay-note]").hidden = true;
+    $("[data-countdown]").hidden = true;
+    $("[data-relisten]").hidden = true;
+  }
+
+  function stopExerciseTimers() {
+    window.clearInterval(state.countdownTimer); state.countdownTimer = 0;
+    window.clearInterval(state.exerciseTimer); state.exerciseTimer = 0;
+    if (state.exercise?.clockStarted) {
+      state.exercise.activeSeconds += Math.max(0, (performance.now() - state.exercise.clockStarted) / 1000);
+      state.exercise.clockStarted = 0;
+    }
+  }
+
+  function startExerciseClock() {
+    if (!state.exercise || state.exercise.liveFollowing || state.exercise.submitted || state.exercise.clockStarted) return;
+    state.exercise.clockStarted = performance.now();
+    state.exerciseTimer = window.setInterval(() => { updateExerciseProgress();const e=state.exercise;if(e && !roomMatches() && Object.keys(e.answers).length && Date.now()-(e.lastDraftTick||0)>15000){e.lastDraftTick=Date.now();queueDraftSave();}}, 1000);
+  }
+
+  function pauseExerciseClock() {
+    if (!state.exercise?.clockStarted) return;
+    state.exercise.activeSeconds += Math.max(0, (performance.now() - state.exercise.clockStarted) / 1000);
+    state.exercise.clockStarted = 0;
+    window.clearInterval(state.exerciseTimer); state.exerciseTimer = 0;
+    if(!roomMatches() && Object.keys(state.exercise.answers).length && !state.exercise.submitted)queueDraftSave();
+  }
+
+  function startReadCountdown() {
+    window.clearInterval(state.countdownTimer);
+    pausePlayer();
+    const overlay = $("[data-countdown]"); overlay.hidden = false;
+    updateFloatingPlayer();
+    let remaining = 30; $("[data-countdown-value]").textContent = String(remaining);
+    state.countdownTimer = window.setInterval(() => {
+      remaining -= 1; $("[data-countdown-value]").textContent = String(Math.max(0, remaining));
+      if (remaining <= 0) finishReadCountdown();
+    }, 1000);
+  }
+
+  function cancelReadCountdown() {
+    const wasRunning = Boolean(state.countdownTimer);
+    window.clearInterval(state.countdownTimer); state.countdownTimer = 0;
+    $("[data-countdown]").hidden = true;
+    if (wasRunning && state.exercise && !state.exercise.submitted) {
+      state.exercise.locked = Boolean(hasSongAudio(state.activeSong));
+      renderExerciseQuestions();
+    }
+  }
+
+  function finishReadCountdown() {
+    window.clearInterval(state.countdownTimer); state.countdownTimer = 0;
+    $("[data-countdown]").hidden = true;
+    if (state.activeRoute !== "song" || state.activeTab !== "exercise") return;
+    if (state.exercise) state.exercise.locked = false;
+    renderExerciseQuestions();
+    playPlayer(true);
+    setTimeout(()=>publishRoomMedia(true),100);
+  }
+
+  function chooseAnswer(number, option) {
+    const exercise = state.exercise;
+    if (!exercise || exercise.locked || exercise.submitted || exercise.submitting || exercise.checking || exercise.pendingSubmission || exercise.results?.[number] || exercise.conflict) return;
+    exercise.liveFollowing=false;
+    startExerciseClock();
+    exercise.localEdits ||= {};exercise.localEdits[number]=option;
+    exercise.answers[number] = option;
+    queueDraftSave();
+    const card = $(`[data-question="${number}"]`);
+    card?.classList.add("is-answered");
+    $$("[data-option]", card).forEach(button => {
+      const selected = button.dataset.option === option;
+      button.classList.toggle("is-selected", selected); button.setAttribute("aria-checked", String(selected));
+    });
+    updateExerciseProgress();
+  }
+
+  function updateExerciseProgress() {
+    const exercise = state.exercise;
+    if (!exercise) return;
+    const answered = Object.keys(exercise.answers).length;
+    $("[data-answer-progress]").textContent = `已選 ${answered} / ${exercise.mode.questionCount}`;
+    $("[data-submit-exercise]").disabled = exercise.submitted || exercise.submitting || exercise.checking || exercise.conflict || answered !== exercise.mode.questionCount;
+    $("[data-check-partial]").disabled=exercise.locked||exercise.submitted||exercise.submitting||exercise.checking||exercise.conflict||Boolean(exercise.pendingSubmission)||answered<=Object.keys(exercise.results||{}).length;
+    $("[data-reset-answers]").disabled=exercise.submitted||exercise.submitting||exercise.checking||Boolean(exercise.pendingSubmission);
+    $("[data-submit-summary]").textContent = exercise.submitting ? "正在安全核對答案及儲存成績…" : answered === exercise.mode.questionCount ? "所有題目已作答，可以提交" : `尚餘 ${exercise.mode.questionCount - answered} 題`;
+  }
+
+  function serverResultForQuestion(results, number) {
+    const value = results?.[String(number)] ?? results?.[number];
+    return value && typeof value === "object" ? value : null;
+  }
+
+  function validateSavedAttempt(row, expected) {
+    const attempt = normalizeAttempt(row);
+    if (!attempt.id || attempt.id !== expected.attemptId || attempt.songId !== expected.songId) throw new Error("資料服務未確認成績已儲存。");
+    if (attempt.mode !== expected.modeId || attempt.exerciseVersion !== expected.exerciseVersion || attempt.totalQuestions !== expected.questionCount) throw new Error("資料服務回傳的練習版本不一致。");
+    let verifiedCorrect = 0;
+    expected.questions.forEach(question => {
+      const result = serverResultForQuestion(attempt.results, question.number);
+      const submitted = text(expected.answers[question.number]);
+      if (!result || text(result.selected) !== submitted || !question.options.includes(text(result.answer)) || typeof result.correct !== "boolean" || result.correct !== (text(result.selected) === text(result.answer))) {
+        throw new Error("資料服務回傳的核對結果不完整。");
+      }
+      if (result.correct) verifiedCorrect += 1;
+    });
+    if (attempt.correctCount !== verifiedCorrect) throw new Error("資料服務回傳的分數不一致。");
+    return attempt;
+  }
+
+  function revealServerResult(exercise, attempt) {
+    exercise.mode.questions.forEach(question => {
+      const result = serverResultForQuestion(attempt.results, question.number);
+      const selected = text(result.selected);
+      const answer = text(result.answer);
+      const ok = result.correct === true;
+      const card = $(`[data-question="${question.number}"]`);
+      card?.classList.add(ok ? "is-correct" : "is-incorrect");
+      $$("[data-option]", card).forEach(button => {
+        button.disabled = true;
+        if (button.dataset.option === answer) button.classList.add("is-correct");
+        else if (button.dataset.option === selected && !ok) button.classList.add("is-wrong");
+      });
+      const feedback = document.createElement("span");
+      feedback.className = "answer-feedback";
+      feedback.textContent = ok ? "正確" : `答案：${answer}`;
+      card?.append(feedback);
+    });
+    $("[data-result-score]").textContent = `${attempt.correctCount} / ${attempt.totalQuestions}`;
+    const percent = Math.round(attempt.correctCount / attempt.totalQuestions * 100);
+    $("[data-result-message]").textContent = percent >= 90 ? `出色！${percent}% 正確。` : percent >= 70 ? `很好！${percent}% 正確，再聽一次會更穩固。` : `${percent}% 正確；核對答案後再聽一次。`;
+    $("[data-result-card]").querySelector(".lesson-complete")?.remove();
+    $("[data-result-card]").querySelector(".review-mistakes-button")?.remove();
+    $("[data-result-card]").append(mistakeReviewButton(listeningMistakes(attempt.results)));
+    $("[data-result-card]").append(completionPanel("聆聽練習全部完成！"));
+    $("[data-result-card]").hidden = false;
+  }
+
+  async function submitExercise() {
+    const exercise = state.exercise;
+    const song = state.activeSong;
+    if (!exercise || !song || exercise.submitted || exercise.submitting || Object.keys(exercise.answers).length !== exercise.mode.questionCount) return;
+    if (state.session?.role !== "student" || !state.session.token) { toast("請重新登入後再提交。", "error"); return; }
+    try{await flushDraft();}catch{toast("請先同步進度後再提交。","error");return;}
+    if(state.exercise!==exercise || exercise.submitting || exercise.submitted)return;
+    const token=state.session.token;
+    pauseExerciseClock();
+    exercise.submitting = true;
+    exercise.pendingSubmission ||= {
+      attemptId: roomMatches()?classroom.joined:crypto.randomUUID(),
+      songId: song.id,
+      modeId: exercise.mode.id,
+      exerciseVersion: exercise.mode.version,
+      answers: { ...exercise.answers },
+      durationMs: clamp(Math.round(exercise.activeSeconds), 0, 14400) * 1000,
+      startedAt: exercise.startedAt,
+      completedAt: new Date().toISOString(),
+      questionCount: exercise.mode.questionCount,
+      questions: exercise.mode.questions
+    };
+    const pending = exercise.pendingSubmission;
+    storeLocalDraft(exercise);
+    $$("[data-option]", $("[data-lyrics-exercise]")).forEach(button => { button.disabled = true; });
+    updateExerciseProgress();
+    try {
+      const row = firstRow(await rpc(CONFIG.rpc.saveAttempt, {
+        p_student_token: state.session.token,
+        p_attempt_id: pending.attemptId,
+        p_song_id: pending.songId,
+        p_mode_id: pending.modeId,
+        p_exercise_version: pending.exerciseVersion,
+        p_answers: pending.answers,
+        p_duration_ms: pending.durationMs,
+        p_started_at: pending.startedAt,
+        p_completed_at: pending.completedAt
+      }));
+      if (!row) throw new Error("資料服務未回傳成績。");
+      if(state.session?.token!==token || state.exercise!==exercise)return;
+      const attempt = validateSavedAttempt(row, pending);
+      exercise.submitting = false;
+      exercise.submitted = true;
+      exercise.results=attempt.results;
+      const backups=readLocalDrafts();delete backups[draftIdentity(song.id,exercise.mode.id)];try{localStorage.setItem(studyStorageKey(),JSON.stringify(backups));}catch{}
+      revealServerResult(exercise, attempt);
+      state.attempts.unshift(normalizeAttempt({ ...row, song_title: song.title }));
+      renderAttempts(); renderDashboard(); renderLibrary(); toast("成績已安全儲存。");
+      $("[data-result-card]").scrollIntoView({ behavior: "smooth", block: "center" });
+    } catch (error) {
+      if(state.session?.token!==token || state.exercise!==exercise)return;
+      exercise.submitting = false;
+      // Keep the frozen idempotent payload and choices intact: a network error
+      // can occur after the database commit, so retrying must use the same UUID.
+      updateExerciseProgress();
+      toast(error.message || "未能儲存成績，請稍後再試。", "error");
+    }
+  }
+
+  function studyStorageKey() { return `edmund-song-drafts-v1:${state.session?.id || ''}`; }
+  function draftIdentity(songId, modeId) { return `${songId}/${modeId}`; }
+  function readLocalDrafts() { try { return JSON.parse(localStorage.getItem(studyStorageKey()) || '{}'); } catch { return {}; } }
+  function storeLocalDraft(exercise = state.exercise) {
+    if (!exercise || exercise.liveFollowing || exercise.submitted || !state.session?.id || exercise.ownerId !== state.session.id) return;
+    const drafts = readLocalDrafts();
+    drafts[draftIdentity(exercise.songId, exercise.mode.id)] = {
+      song_id: exercise.songId, mode_id: exercise.mode.id, exercise_version: exercise.mode.version,
+      answers: exercise.answers, result: exercise.results, revision: exercise.revision,
+      duration_ms: Math.round(elapsedExerciseSeconds(exercise) * 1000), started_at: exercise.startedAt,
+      dirty: exercise.dirty, pending: exercise.pendingDraft ? {...exercise.pendingDraft,args:{...exercise.pendingDraft.args,p_student_token:undefined}} : null, pendingSubmission: exercise.pendingSubmission,
+      localEdits:exercise.localEdits,editSequence: exercise.editSequence
+    };
+    try { localStorage.setItem(studyStorageKey(), JSON.stringify(drafts)); }
+    catch { /* Cloud saving continues when local storage is unavailable. */ }
+  }
+  function elapsedExerciseSeconds(exercise) { return Math.min(14400, exercise.activeSeconds + (exercise.clockStarted ? Math.max(0,(performance.now()-exercise.clockStarted)/1000) : 0)); }
+  function setDraftStatus(message, error = false) { const el=$('[data-draft-status]'); if(el) {el.textContent=message;el.dataset.state=error?'error':'saved';const reload=$('[data-reload-draft]');if(reload)reload.hidden=!state.exercise?.conflict;} }
+  function draftForMode(songId, mode) {
+    const id=draftIdentity(songId,mode.id), remote=state.drafts[id], local=readLocalDrafts()[id];
+    if (local?.exercise_version===mode.version && (local.dirty || local.pending || local.pendingSubmission)) {
+      // A newer remote revision must be reconciled explicitly, never silently overwritten.
+      return {...local, conflict: Boolean(remote && remote.revision>local.revision && remote.mutation_id!==local.pending?.args?.p_mutation_id)};
+    }
+    if(remote?.exercise_version!==mode.version)return null;
+    if(state.attempts.some(a=>a.songId===songId && a.mode===mode.id && new Date(a.startedAt).valueOf()===new Date(remote.started_at).valueOf()))
+      return {...remote,answers:{},result:{},duration_ms:0,started_at:new Date().toISOString(),needsReset:true};
+    return remote;
+  }
+  function queueDraftSave() {
+    const exercise=state.exercise;
+    if(!exercise || exercise.liveFollowing || exercise.submitted) return;
+    exercise.dirty=true; exercise.editSequence+=1; storeLocalDraft(exercise);
+    setDraftStatus('正在儲存…');
+    // Bound the wait even when a student keeps choosing answers rapidly.
+    if(!state.draftSaveTimer)state.draftSaveTimer=setTimeout(()=>{state.draftSaveTimer=0;void flushDraft().catch(()=>{});},350);
+  }
+  async function flushDraft(action='save') {
+    const exercise=state.exercise, session=state.session;
+    if(!exercise || exercise.submitted || session?.role!=='student')return;
+    if(exercise.liveFollowing && action==='save')return;
+    if(action!=='save')exercise.liveFollowing=false;
+    while(exercise.savePromise) { await exercise.savePromise; if(state.exercise!==exercise)return; }
+    if(exercise.conflict) {setDraftStatus('其他裝置有較新的進度。請重新載入雲端進度後再繼續。',true);throw new Error('Draft conflict');}
+    const current=()=>state.session?.id===session.id && state.session?.token===session.token && state.exercise===exercise;
+    const send=async pending=>{
+      let row;
+      try{row=firstRow(await rpc(CONFIG.rpc.saveDraft,{...pending.args,p_student_token:session.token}));}
+      catch(error){
+        if(error.code!=='40001'||!roomMatches()||pending.args.p_action!=='save'||(pending.retries||0)>=2)throw error;
+        const snapshot=await readLiveExercise({p_student_token:session.token,p_song_id:exercise.songId,p_mode_id:exercise.mode.id,p_exercise_version:exercise.mode.version,p_since:''});
+        const remote=snapshot?.payload?.draft;if(!remote||snapshot.payload.attempt||!current())throw error;
+        const edits=pending.edits||{};const merged={...remote.answers};for(const [key,value] of Object.entries(edits))if(!remote.result?.[key])merged[key]=value;
+        pending.args={...pending.args,p_answers:merged,p_expected_revision:Number(remote.revision),p_mutation_id:crypto.randomUUID()};pending.retries=(pending.retries||0)+1;
+        exercise.answers={...merged,...exercise.localEdits};for(const [key,result] of Object.entries(remote.result||{}))exercise.answers[key]=result.selected;
+        storeLocalDraft(exercise);return send(pending);
+      }
+      if(!row || row.song_id!==exercise.songId || row.mode_id!==exercise.mode.id || row.mutation_id!==pending.args.p_mutation_id || !Number.isFinite(Number(row.revision)))throw new Error('資料服務未確認進度已儲存。');
+      if(Object.keys(row.answers||{}).length!==Object.keys(pending.args.p_answers).length || Object.entries(pending.args.p_answers).some(([k,v])=>row.answers?.[k]!==v))throw new Error('儲存回應的答案不一致。');
+      for(const [k,result] of Object.entries(row.result||{})) {const q=exercise.mode.questions.find(q=>String(q.number)===k);if(!q||result.selected!==pending.args.p_answers[k]||!q.options.includes(result.answer)||typeof result.correct!=='boolean'||result.correct!==(result.selected===result.answer))throw new Error('核對回應無效。');}
+      if(!current())return;
+      for(const [key,value] of Object.entries(pending.edits||{}))if(exercise.localEdits?.[key]===value)delete exercise.localEdits[key];
+      exercise.revision=Number(row.revision);exercise.results=row.result||{};exercise.pendingDraft=null;
+      exercise.dirty=exercise.editSequence!==pending.sequence;
+      state.drafts[draftIdentity(exercise.songId,exercise.mode.id)]=row;
+      storeLocalDraft(exercise);
+      if(pending.retries)renderExerciseQuestions();
+      setDraftStatus(exercise.dirty?'正在儲存最新選擇…':'進度已儲存，可登出後繼續');
+    };
+    const run=async()=>{
+      if(exercise.pendingDraft) await send(exercise.pendingDraft);
+      if(!current())return;
+      if(!exercise.dirty && action==='save')return;
+      const pending={sequence:exercise.editSequence,edits:{...exercise.localEdits},args:{
+        p_student_token:session.token,p_song_id:exercise.songId,p_mode_id:exercise.mode.id,
+        p_exercise_version:exercise.mode.version,p_answers:{...exercise.answers},
+        p_duration_ms:Math.round(elapsedExerciseSeconds(exercise)*1000),p_started_at:exercise.startedAt,
+        p_expected_revision:exercise.revision,p_mutation_id:crypto.randomUUID(),p_action:action
+      }};
+      exercise.pendingDraft=pending;storeLocalDraft(exercise);await send(pending);
+    };
+    exercise.savePromise=run().catch(error=>{
+      if(current()) { if(error.code==='40001')exercise.conflict=true;storeLocalDraft(exercise);setDraftStatus(error.code==='40001'?'另一裝置已更新進度；請載入雲端版本。':'尚未同步；答案已保留在此裝置，連線後會重試。',true); }
+      throw error;
+    }).finally(()=>{exercise.savePromise=null;if(current() && exercise.dirty && !exercise.pendingDraft && !exercise.conflict) {clearTimeout(state.draftSaveTimer);state.draftSaveTimer=0;state.draftSaveTimer=setTimeout(()=>{state.draftSaveTimer=0;void flushDraft().catch(()=>{});},350);}});
+    return exercise.savePromise;
+  }
+  function applyCheckedResults() {
+    const exercise=state.exercise;if(!exercise)return;
+    exercise.mode.questions.forEach(question=>{
+      const result=exercise.results?.[question.number];if(!result)return;
+      const card=$(`[data-question="${question.number}"]`);if(!card)return;
+      card.classList.add(result.correct?'is-correct':'is-incorrect');
+      $$('[data-option]',card).forEach(button=>{button.disabled=true;button.classList.toggle('is-correct',button.dataset.option===result.answer);button.classList.toggle('is-wrong',button.dataset.option===result.selected&&!result.correct);});
+      $('.answer-feedback',card)?.remove();const feedback=document.createElement('span');feedback.className='answer-feedback';feedback.textContent=result.correct?'正確':`答案：${result.answer}`;card.append(feedback);
+    });
+  }
+  async function checkPartialAnswers() {
+    const exercise=state.exercise;if(!exercise || exercise.submitted || exercise.checking || exercise.locked)return;
+    exercise.checking=true;renderExerciseQuestions();
+    try {await flushDraft('check');if(state.exercise===exercise){renderExerciseQuestions();toast('已核對已作答題目；其餘題目可繼續。');}}
+    catch(error){toast(error.message||'未能核對答案，請重試。','error');}
+    finally{exercise.checking=false;if(state.exercise===exercise){renderExerciseQuestions();updateExerciseProgress();}}
+  }
+  async function resetDraftAnswers() {
+    const exercise=state.exercise;if(!exercise || exercise.submitted || exercise.checking || exercise.submitting)return;
+    if(!window.confirm('重設這次尚未完成的答案及核對結果？已完成的練習紀錄會保留。'))return;
+    try {
+      await flushDraft();
+      exercise.liveFollowing=false;exercise.checking=true;exercise.answers={};exercise.results={};exercise.pendingSubmission=null;exercise.editSequence+=1;exercise.dirty=true;exercise.activeSeconds=0;exercise.startedAt=new Date().toISOString();exercise.clockStarted=performance.now();
+      storeLocalDraft(exercise);await flushDraft('reset');toast('未完成答案已重設。');
+    } catch(error){toast(error.message||'未能重設，請連線後重試。','error');}
+    finally{exercise.checking=false;if(state.exercise===exercise)renderExerciseQuestions();}
+  }
+  async function reloadCloudDraft() {
+    const exercise=state.exercise;if(!exercise)return;
+    if(!window.confirm('載入雲端版本？此裝置尚未同步的選擇將被雲端進度取代。'))return;
+    try{const rows=await rpc(CONFIG.rpc.listDrafts,{p_student_token:state.session.token});state.drafts=Object.fromEntries(asArray(rows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));const saved=readLocalDrafts();delete saved[draftIdentity(exercise.songId,exercise.mode.id)];localStorage.setItem(studyStorageKey(),JSON.stringify(saved));exercise.submitted=true;startExercise(exercise.mode.id,Boolean(roomMatches()));}catch(error){toast(error.message,'error');}
+  }
+  function songIsFavorite(songId) { return state.bookmarks.some(b=>b.kind==='song' && b.songId===songId); }
+  async function toggleFavorite(song) {
+    const existing=state.bookmarks.find(b=>b.kind==='song'&&b.songId===song.id);
+    if(existing){await deleteBookmark(existing.id);return;}
+    await addBookmark({kind:'song',excerpt:song.title,lineId:'',song});
+  }
+  function songProgress(songId) {
+    if(state.attempts.some(a=>a.songId===songId))return 'completed';
+    const rows=[...Object.values(state.drafts),...Object.values(readLocalDrafts())];
+    return rows.some(d=>d.song_id===songId&&Object.keys(d.answers||{}).length)?'in-progress':'';
+  }
+  function setTextSize(scope, selected) {
+    const value=clamp(Number(selected)||1,.75,3);
+    state.textSizes[scope]=value;document.documentElement.style.setProperty(`--${scope}-scale`,String(value));
+  }
+  function clockLabel(seconds) { const total=Math.max(0,Math.floor(Number(seconds)||0));return `${Math.floor(total/60)}:${String(total%60).padStart(2,'0')}`; }
+  function syncLyricsToPlayback() {
+    if(!state.playerReady)return;
+    let current=0,duration=0;
+    try{current=Number(state.player.getCurrentTime())||0;duration=Number(state.player.getDuration())||0;}catch{return;}
+    $$('[data-player-current]').forEach(node=>node.textContent=clockLabel(current));
+    $$('[data-player-duration]').forEach(node=>node.textContent=clockLabel(duration));
+    $$('[data-player-timeline]').forEach(input=>{if(document.activeElement!==input){input.max=String(Math.max(duration,1));input.value=String(clamp(current,0,Math.max(duration,1)));}});
+    const timeline=lyricTimeline(state.activeSong,duration);
+    const active=timeline.find(item=>current>=item.start&&current<item.end);
+    const rows=$$('.translation-table tr[data-line-id]');
+    rows.forEach(row=>row.classList.remove('is-current-line'));
+    $$('.lyric-word.is-current-word').forEach(word=>word.classList.remove('is-current-word'));
+    if(active){
+      const row=rows.find(candidate=>candidate.dataset.lineId===active.row.lineId);row?.classList.add('is-current-line');
+      const words=row?$$('.lyric-word',row):[];
+      if(words.length){const lineProgress=clamp((current-active.start)/Math.max(.1,active.end-active.start),0,.999999);words[Math.min(words.length-1,Math.floor(lineProgress*words.length))]?.classList.add('is-current-word');}
+    }
+    const questions=$$('.exercise-line');
+    const exerciseTimeline=questionTimeline(state.exercise?.mode?.questions,timeline);
+    const timingByNumber=new Map((state.exercise?.mode?.questions||[]).map((q,index)=>[String(q.number),exerciseTimeline[index]]));
+    questions.forEach(row=>{
+      const timing=timingByNumber.get(row.dataset.question);
+      row.classList.toggle('is-current-line',Boolean(timing&&current>=timing.start&&current<timing.end));
+    });
+  }
+  function addLocalPlayback(seconds) {
+    const day=localDayKey(new Date());let row=state.playbackDaily.find(item=>item.day===day);
+    if(!row){row={day,seconds:0};state.playbackDaily.push(row);}row.seconds+=seconds;renderDashboard();
+  }
+  function capturePlaybackChunk() {
+    if(!state.playbackStarted)return;
+    if(!roomMatches()||classroom.room.owner===classroom.device)state.playbackPending+=Math.max(0,(performance.now()-state.playbackStarted)/1000);state.playbackStarted=performance.now();
+  }
+  function flushPlayback() {
+    capturePlaybackChunk();
+    const seconds=Math.floor(state.playbackPending);if(seconds<1||state.session?.role!=='student'||!state.activeSong)return state.playbackSave;
+    state.playbackPending-=seconds;addLocalPlayback(seconds);
+    const args={p_student_token:state.session.token,p_song_id:state.activeSong.id,p_seconds:seconds,p_played_at:new Date().toISOString()};
+    const send=()=>rpc(CONFIG.rpc.addPlayback,args).catch(()=>{state.playbackPending+=seconds;addLocalPlayback(-seconds);});
+    state.playbackSave=(state.playbackSave||Promise.resolve()).then(send).finally(()=>{state.playbackSave=null;});return state.playbackSave;
+  }
+  function beginPlaybackTracking() {
+    if(!state.playbackStarted)state.playbackStarted=performance.now();
+    window.clearInterval(state.playerSyncTimer);state.playerSyncTimer=window.setInterval(()=>{syncLyricsToPlayback();if(state.playbackStarted&&(performance.now()-state.playbackStarted)>10000)void flushPlayback();},200);
+  }
+  function endPlaybackTracking() { capturePlaybackChunk();state.playbackStarted=0;window.clearInterval(state.playerSyncTimer);state.playerSyncTimer=0;syncLyricsToPlayback();void flushPlayback(); }
+  function syncPlaybackControls() {
+    const rates=state.playerReady ? (state.player.getAvailablePlaybackRates?.()||[1]) : [1];
+    const rate=state.playerReady ? Number(state.player.getPlaybackRate?.()||1) : 1;
+    $$('[data-playback-rate]').forEach(select=>{select.replaceChildren(...rates.map(value=>{const option=document.createElement('option');option.value=String(value);option.textContent=`${value}×`;return option;}));select.value=String(rate);select.disabled=!state.playerReady;});
+    $$('[data-player-toggle]').forEach(button=>{const playing=state.playerState===1;button.replaceChildren(songIcon(playing?'pause':'play'));button.setAttribute('aria-label',playing?'暫停':'播放');});
+    $$('[data-speed-label]').forEach(node=>node.textContent=`${rate}×`);
+    $$('[data-speed-trigger]').forEach(button=>button.disabled=!state.playerReady);
+    syncLyricsToPlayback();
+    updateFloatingPlayer();
+  }
+  function updateFloatingPlayer() {
+    const bar=$('[data-floating-player]');if(!bar)return;
+    const header=$('.site-header')||$('header');
+    const top=header?Math.max(0,header.getBoundingClientRect().bottom):0;
+    document.documentElement.style.setProperty('--song-header-height',`${top}px`);
+    const original=$('[data-player-controls]');
+    bar.hidden=!(state.playerReady&&$('[data-countdown]').hidden&&state.activeRoute==='song'&&['translation','exercise','vocabulary','advanced','structure','analysis'].includes(state.activeTab)&&original.getBoundingClientRect().bottom<=top);
+  }
+  function setPlaybackRate(value) {if(!state.playerReady)return;const rates=state.player.getAvailablePlaybackRates?.()||[1];if(rates.includes(Number(value)))state.player.setPlaybackRate(Number(value));setTimeout(publishRoomMedia,100);}
+
+  function mountAudioPlayer(song) {
+    const generation = ++state.playerGeneration;
+    const shell = $("[data-youtube-shell]"); shell.replaceChildren();
+    const audio = document.createElement("audio"); audio.preload = "metadata"; audio.src = song.audioUrl;
+    const artwork = document.createElement("div"); artwork.className = "album-player-art";
+    if (song.coverUrl) { const image = new Image(); image.src = song.coverUrl; image.alt = `${song.title} 專輯封面`; artwork.append(image); }
+    const label = document.createElement("strong"); label.textContent = `${song.title} · ${song.singer}`; artwork.append(label); shell.append(artwork, audio);
+    const current = () => generation === state.playerGeneration;
+    state.player = {
+      getCurrentTime: () => audio.currentTime, getDuration: () => Number.isFinite(audio.duration) ? audio.duration : 0,
+      playVideo: () => { audio.play().catch(() => { if (current()) { $("[data-autoplay-note]").hidden = false; toast("請按播放開始歌曲。", "error"); } }); },
+      pauseVideo: () => audio.pause(), seekTo: time => { audio.currentTime = time; },
+      getAvailablePlaybackRates: () => [.5,.75,1,1.25,1.5], getPlaybackRate: () => audio.playbackRate,
+      setPlaybackRate: rate => { audio.playbackRate = rate; },
+      destroy: () => { audio.pause(); audio.removeAttribute("src"); audio.load(); }
+    };
+    audio.addEventListener("loadedmetadata", () => { if (!current()) return; state.playerReady = true; $("[data-player-controls]").hidden = false; syncPlaybackControls(); });
+    audio.addEventListener("play", () => { if (!current()) return; state.playerState = 1; beginPlaybackTracking(); syncPlaybackControls(); });
+    for (const event of ["pause", "ended"]) audio.addEventListener(event, () => { if (!current()) return; state.playerState = event === "ended" ? 0 : 2; endPlaybackTracking(); syncPlaybackControls(); });
+    audio.addEventListener("seeked", () => { if (current()) syncLyricsToPlayback(); });
+    audio.addEventListener("ratechange", () => { if (current()) syncPlaybackControls(); });
+    audio.addEventListener("error", () => { if (current()) toast("未能載入歌曲音訊，請重試或聯絡老師。", "error"); });
+  }
+
+
+  function renderLearningSection(name) {
+    const holder = document.querySelector(`[data-learning-section="${name}"]`);
+    if(!holder) return;
+    holder.replaceChildren();
+    const song=state.activeSong, section=song?.learningSections?.[name];
+    if(!section) return;
+    const el=(tag,value,cls)=>{const n=document.createElement(tag);n.textContent=value||"";if(cls)n.className=cls;return n;};
+    holder.append(el("h2",section.title));
+    if(section.note) holder.append(el("p",section.note,"section-note"));
+    if(name==="analysis") {
+      for(const item of section.items||[]) {
+        const card=el("article","","analysis-card");card.append(el("h3",item.title));
+        if(item.cue) card.append(el("blockquote",item.cue));
+        if(item.translation) card.append(el("p",item.translation,"vocabulary-meaning"));
+        for(const paragraph of item.paragraphs||[])card.append(el("p",paragraph));
+        holder.append(card);
+      }
+      return;
+    }
+    const questions=section.questions||[];if(!questions.length)return;
+    state.sectionIndexes ||= {};
+    const index=Math.min(state.sectionIndexes[name]||0,questions.length-1), q=questions[index];
+    const key=n=>`${name}:${section.version}:${n}`, saved=song.sectionProgress[key(q.number)];
+    holder.append(el("p",`${index+1} / ${questions.length} · 已完成 ${questions.filter(x=>song.sectionProgress[key(x.number)]).length} 題`,"vocabulary-progress"));
+    const jump=el("select");jump.setAttribute("aria-label","選擇研讀步驟");
+    questions.forEach((x,i)=>{const o=el("option",`${i+1}. ${x.word}`);o.value=i;o.selected=i===index;jump.append(o);});
+    jump.onchange=()=>{state.sectionIndexes[name]=Number(jump.value);renderLearningSection(name);};holder.append(jump);
+    const card=el("article","","vocabulary-card structure-card");card.append(el("h3",q.word));
+    if(q.cue)card.append(el("p",`歌曲線索：${q.cue}`,"section-cue"));
+    if(q.example)card.append(el("blockquote",q.example,"structure-example"));
+    if(q.pattern) {
+      const pattern=el("div","","structure-pattern");
+      for(const part of q.pattern)pattern.append(el("span",part.text,part.fixed?"pattern-fixed":"pattern-slot"));
+      card.append(pattern);
+    }
+    const help=el("div","","structure-help");
+    for(const [title,value] of [["01 · 意思",q.meaning],["02 · 甚麼時候用？",q.usage]]) {const box=el("div");box.append(el("h4",title),el("p",value));help.append(box);}card.append(help);
+    if(q.context)card.append(el("p",`情境：${q.context}`));card.append(el("h3",q.prompt));
+    const options=el("div","","vocabulary-options"),feedback=el("div","","vocabulary-feedback");feedback.setAttribute("role","status");
+    q.options.forEach((value,selected)=>{
+      const button=el("button","","vocabulary-option");button.type="button";button.append(el("b","ABCD"[selected]),el("span",value));
+      if(saved){button.disabled=true;button.classList.toggle("is-correct",selected===saved.answer);button.classList.toggle("is-wrong",selected===saved.selected&&selected!==saved.answer);}
+      button.onclick=async()=>{
+        options.querySelectorAll("button").forEach(b=>b.disabled=true);feedback.textContent="正在核對並儲存…";prepareAnswerAudio();
+        const token=state.session.token;
+        try{
+          const result=state.session.role==="admin" ? {selected,answer:q.answer,explanation:q.explanation,optionExplanations:q.optionExplanations} : await rpc("song_appreciation_section_answer",{p_student_token:token,p_song_id:song.id,p_section:name,p_version:section.version,p_number:q.number,p_selected:selected});
+          if(state.session?.token!==token)return;
+          song.sectionProgress[key(q.number)]=result;
+          if(state.lessonExtras[song.id])state.lessonExtras[song.id].section_progress=song.sectionProgress;
+          if(state.activeSong===song){playAnswerSound(selected===result.answer);renderLearningSection(name);}
+        }catch {feedback.textContent="未能儲存，請重試；若課程已更新，請重新載入。";options.querySelectorAll("button").forEach(b=>b.disabled=false);}
+      };options.append(button);
+    });
+    if(saved){feedback.append(el("h4",`${saved.selected===saved.answer?"答對了！":"再看看用法："}答案 ${"ABCD"[saved.answer]}`));for(const [i,value]of asArray(saved.optionExplanations).entries())feedback.append(el("p",`${"ABCD"[i]} · ${displayText(value)}`));}
+    card.append(options,feedback);holder.append(card);
+    const nav=el("div","","vocabulary-navigation");
+    for(const [label,delta] of [["上一題",-1],["下一題",1]]){const b=el("button",label,"secondary-button");b.disabled=index+delta<0||index+delta>=questions.length;b.onclick=()=>{state.sectionIndexes[name]=index+delta;renderLearningSection(name);holder.scrollIntoView({behavior:"smooth",block:"start"});};nav.append(b);}
+    const wrong=questions.filter(x=>{const r=song.sectionProgress[key(x.number)];return r&&r.answer!==r.selected;});
+    if(wrong.length){const b=el("button",`下一道錯題（${wrong.length} 題）`,"secondary-button");b.onclick=()=>{const next=wrong.find(x=>questions.indexOf(x)>index)||wrong[0];state.sectionIndexes[name]=questions.indexOf(next);renderLearningSection(name);holder.scrollIntoView({behavior:"smooth",block:"start"});};nav.append(b);}
+    holder.append(nav);
+    if(questions.every(x=>song.sectionProgress[key(x.number)]))holder.append(completionPanel(`${section.title}全部完成！`));
+  }
+
+  function renderVocabulary() {
+    const holder = $("[data-vocabulary]"); if (!holder) return; holder.replaceChildren();
+    const song = state.activeSong;
+    if (!song?.vocabulary.length) { holder.textContent = "這首歌的字彙練習尚未加入。"; return; }
+    const index = state.vocabularyIndex, question = song.vocabulary[index], saved = song.vocabularyProgress[question.number];
+    const progress = document.createElement("p"); progress.className = "vocabulary-progress";
+    progress.textContent = `WORD ${String(index + 1).padStart(2, "0")} / ${song.vocabulary.length} · 已完成 ${Object.keys(song.vocabularyProgress).length} 題`;
+    const card = document.createElement("article"); card.className = "vocabulary-card";
+    const title = document.createElement("h2"); title.textContent = question.word;
+    const meaning = document.createElement("p"); meaning.className = "vocabulary-meaning"; meaning.textContent = question.meaning;
+    const usage = document.createElement("p"); usage.textContent = question.usage;
+    const prompt = document.createElement("h3"); prompt.textContent = question.prompt;
+    const options = document.createElement("div"); options.className = "vocabulary-options";
+    const feedback = document.createElement("div"); feedback.setAttribute("role", "status"); feedback.className = "vocabulary-feedback";
+    question.options.forEach((option, selected) => {
+      const button = document.createElement("button"); button.type = "button"; button.className = "vocabulary-option";
+      const letter = document.createElement("b"); letter.textContent = "ABCD"[selected];
+      const sentence = document.createElement("span"); sentence.textContent = option; button.append(letter, sentence);
+      if (saved) { button.disabled = true; button.classList.toggle("is-correct", selected === saved.answer); button.classList.toggle("is-wrong", selected === saved.selected && selected !== saved.answer); }
+      button.onclick = async () => {
+        options.querySelectorAll("button").forEach(b => b.disabled = true); feedback.textContent = "正在核對並儲存…";
+        const token = state.session.token;
+        prepareAnswerAudio();
+        try {
+          const result = await rpc("song_appreciation_vocabulary_answer", {p_student_token:token,p_song_id:song.id,p_number:question.number,p_selected:selected});
+          if (state.session?.token !== token) return;
+          song.vocabularyProgress[question.number] = result;
+          if(state.activeSong === song) playAnswerSound(result.selected === result.answer);
+          if (state.lessonExtras[song.id]) state.lessonExtras[song.id].vocabulary_progress = song.vocabularyProgress;
+          if (state.activeSong === song && state.vocabularyIndex === index) renderVocabulary();
+        } catch { feedback.textContent = "未能儲存，請再試一次。"; options.querySelectorAll("button").forEach(b => b.disabled = false); }
+      };
+      options.append(button);
+    });
+    if (saved) {
+      const summary = document.createElement("h3"); summary.textContent = `${saved.selected === saved.answer ? "答對了！" : "再看看用法："}答案 ${"ABCD"[saved.answer]}`;
+      const explanation = document.createElement("p"); explanation.textContent = displayText(saved.explanation); feedback.append(summary, explanation);
+      asArray(saved.optionExplanations).forEach((value, i) => { const row = document.createElement("p"); row.textContent = `${"ABCD"[i]} · ${displayText(value)}`; feedback.append(row); });
+    }
+    const navigation = document.createElement("div"); navigation.className = "vocabulary-navigation";
+    for (const [label, delta] of [["← 上一題", -1], ["下一題 →", 1]]) {
+      const button = document.createElement("button"); button.type = "button"; button.className = "secondary-button"; setLabel(button,label); button.disabled = index + delta < 0 || index + delta >= song.vocabulary.length;
+      button.onclick = () => { state.vocabularyIndex += delta; renderVocabulary(); holder.scrollIntoView({behavior:"smooth",block:"start"}); }; navigation.append(button);
+    }
+    card.append(title, meaning, usage, prompt, options, feedback); holder.append(progress, card, navigation);
+    const checked=song.vocabulary.filter(q=>song.vocabularyProgress[q.number]).map(q=>{const r=song.vocabularyProgress[q.number];return {number:q.number,title:q.word,selected:`${"ABCD"[r.selected]} · ${q.options[r.selected]}`,answer:`${"ABCD"[r.answer]} · ${q.options[r.answer]}`,explanation:r.optionExplanations?.[r.selected]};});
+    if(checked.length) holder.append(mistakeReviewButton(checked,"vocabulary"));
+    if(song.vocabulary.every(q => song.vocabularyProgress[q.number])) holder.append(completionPanel("字彙練習全部完成！"));
+  }
+
+
+
+  function safeIntroduction(value) {
+    const fragment=document.createDocumentFragment();
+    if(!/<(?:p|div|br|span|mark|b|strong|i|em|u)(?:\s|>)/i.test(value)){fragment.append(document.createTextNode(value));return fragment;}
+    const doc=new DOMParser().parseFromString(value,"text/html");
+    const colors={"#fff2a8":"intro-yellow","rgb(255, 242, 168)":"intro-yellow","#ffd6e7":"intro-pink","rgb(255, 214, 231)":"intro-pink","#d4f3df":"intro-green","rgb(212, 243, 223)":"intro-green","#d5e9ff":"intro-blue","rgb(213, 233, 255)":"intro-blue"};
+    const allowed=["P","DIV","BR","SPAN","MARK","B","STRONG","I","EM","U"];
+    function copy(node,parent){
+      if(node.nodeType===3){parent.append(document.createTextNode(node.textContent));return;}
+      if(node.nodeType!==1 || ["SCRIPT","STYLE","IFRAME","OBJECT","SVG","MATH"].includes(node.tagName))return;
+      const el=allowed.includes(node.tagName)?document.createElement(node.tagName.toLowerCase()):document.createDocumentFragment();
+      if(el.nodeType===1){const color=colors[node.style.backgroundColor]||["intro-yellow","intro-pink","intro-green","intro-blue"].find(c=>node.classList.contains(c));if(color)el.classList.add(color);}
+      node.childNodes.forEach(child=>copy(child,el));parent.append(el);
+    }
+    doc.body.childNodes.forEach(node=>copy(node,fragment));return fragment;
+  }
+  function introductionValue(){const el=document.createElement("div");el.append(safeIntroduction($("[data-intro-editor]").innerHTML));return el.innerHTML.trim();}
+
+  function songIcon(name) {
+    const svg=document.createElementNS("http://www.w3.org/2000/svg","svg");svg.classList.add("song-icon");svg.setAttribute("aria-hidden","true");svg.setAttribute("focusable","false");
+    const use=document.createElementNS(svg.namespaceURI,"use");use.setAttribute("href",`/song-icons.svg#${name}`);svg.append(use);return svg;
+  }
+  function setLabel(node,label) {
+    const icons={"→":"arrow-right","←":"arrow-left","↗":"arrow-up-right","↻":"restart","☆":"star","★":"star","✓":"check","✦":"sparkle","◷":"clock","×":"close"};
+    node.replaceChildren(...String(label).split(/([→←↗↻☆★✓✦◷×])/).filter(Boolean).map(part=>icons[part]?songIcon(icons[part]):document.createTextNode(displayText(part))));
+  }
+  function element(tag,className,value) {const node=document.createElement(tag);node.className=className||"";if(value!==undefined)node.textContent=value;return node;}
+  function wordIndex(songs) {
+    const words=new Map();
+    songs.forEach(song=>song.translations.forEach(row=>{
+      if(row.break)return;
+      (row.english.toLowerCase().replace(/[’‘]/g,"'").match(/[a-z]+(?:'[a-z]+)*/g)||[]).forEach(word=>{
+        if(!words.has(word))words.set(word,{word,count:0,songs:new Map()});const item=words.get(word);item.count++;item.songs.set(song.id,(item.songs.get(song.id)||0)+1);
+      });
+    }));return [...words.values()];
+  }
+  function renderBigData() {
+    const all=wordIndex(state.songs),query=normalizeSpace($('[data-word-search]').value).toLowerCase();
+    const rows=all.filter(row=>row.word.includes(query)).sort((a,b)=>(state.wordAscending?a.count-b.count:b.count-a.count)||a.word.localeCompare(b.word));
+    const stats=$('[data-word-stats]');stats.replaceChildren();
+    [[state.songs.length,'首歌曲'],[all.length,'個不同單字'],[all.reduce((n,w)=>n+w.count,0),'次單字出現']].forEach(([n,label])=>{const card=element('div');card.append(element('strong','',n.toLocaleString()),element('span','',label));stats.append(card);});
+    const sort=$('[data-word-sort]');sort.textContent=state.wordAscending?'次數：由少至多':'次數：由多至少';sort.setAttribute('aria-pressed',String(state.wordAscending));
+    const pages=Math.max(1,Math.ceil(rows.length/50));state.wordPage=Math.min(state.wordPage,pages-1);const start=state.wordPage*50;
+    $('[data-word-status]').textContent=rows.length?`第 ${start+1}–${Math.min(start+50,rows.length)} 個 · 共 ${rows.length} 個單字`:'找不到符合的單字。';
+    const grid=$('[data-word-grid]');grid.replaceChildren();
+    rows.slice(start,start+50).forEach((row,i)=>{const button=makeButton('',()=>openWordSongs(row),'word-card');button.append(element('span','word-rank',String(start+i+1).padStart(2,'0')),element('strong','',row.word),element('span','word-frequency',`${row.count} 次`),element('small','',`${row.songs.size} 首歌曲`),songIcon('arrow-up-right'));grid.append(button);});
+    const pager=$('[data-word-pagination]');pager.replaceChildren();const previous=makeButton('← 上一頁',()=>{state.wordPage--;renderBigData();grid.scrollIntoView({block:'start'});}),next=makeButton('下一頁 →',()=>{state.wordPage++;renderBigData();grid.scrollIntoView({block:'start'});});previous.disabled=state.wordPage===0;next.disabled=state.wordPage===pages-1;pager.append(previous,element('span','',`${state.wordPage+1} / ${pages}`),next);
+  }
+  function openWordSongs(row) {
+    const dialog=makeDialog(row.word);dialog.append(element('p','',`共出現 ${row.count} 次 · ${row.songs.size} 首歌曲`));
+    [...row.songs].sort((a,b)=>b[1]-a[1]).forEach(([id,count])=>{const song=state.songs.find(s=>s.id===id);const button=makeButton(`${song.title} · ${song.singer} — ${count} 次 →`,async()=>{dialog.close();await openSong(id);switchSongTab('translation');},'word-song-link');dialog.append(button);});dialog.showModal();
+  }
+  let speedMenu=null,speedOwner=null;
+  function closeSpeedPicker(restoreFocus=false){speedMenu?.remove();speedMenu=null;if(speedOwner){speedOwner.setAttribute('aria-expanded','false');if(restoreFocus)speedOwner.focus();}speedOwner=null;}
+  function openSpeedPicker(owner){
+    if(speedOwner===owner){closeSpeedPicker(true);return;}closeSpeedPicker();if(!state.playerReady)return;
+    speedOwner=owner;owner.setAttribute('aria-expanded','true');speedMenu=element('div','speed-menu');speedMenu.setAttribute('role','menu');speedMenu.setAttribute('aria-label','播放速度');
+    speedMenu.append(element('p','section-kicker','PLAYBACK SPEED'));
+    const rate=Number(state.player.getPlaybackRate?.()||1),rates=state.player.getAvailablePlaybackRates?.()||[1];
+    rates.forEach(value=>{const button=makeButton('',()=>{setPlaybackRate(value);closeSpeedPicker(true);},'speed-option');button.setAttribute('role','menuitemradio');button.setAttribute('aria-checked',String(value===rate));button.append(element('strong','',`${value}×`),element('span','',value===1?'原速':value<1?'慢速細聽':'加速挑戰'));if(value===rate)button.append(songIcon('check'));speedMenu.append(button);});
+    document.body.append(speedMenu);const r=owner.getBoundingClientRect(),box=speedMenu.getBoundingClientRect();speedMenu.style.left=`${Math.max(12,Math.min(r.right-box.width,innerWidth-box.width-12))}px`;speedMenu.style.top=`${Math.max(12,Math.min(r.bottom+8,innerHeight-box.height-12))}px`;
+    speedMenu.addEventListener('keydown',event=>{const buttons=[...speedMenu.querySelectorAll('button')],index=buttons.indexOf(document.activeElement);if(event.key==='Tab'){closeSpeedPicker();return;}if(event.key==='Escape'){event.preventDefault();closeSpeedPicker(true);}else if(['ArrowDown','ArrowUp','Home','End'].includes(event.key)){event.preventDefault();buttons[event.key==='Home'?0:event.key==='End'?buttons.length-1:(index+(event.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length].focus();}});
+    speedMenu.querySelector('[aria-checked="true"]')?.focus({preventScroll:true});
+  }
+
+  function makeButton(label, action, className="secondary-button") {
+    const b=document.createElement("button");b.type="button";b.className=className;setLabel(b,label);b.onclick=action;return b;
+  }
+  function makeDialog(title) {
+    const dialog=document.createElement("dialog");dialog.className="song-tool-dialog";
+    const h=document.createElement("h2");h.textContent=title;
+    const close=makeButton("關閉 ×",()=>dialog.close());close.classList.add("dialog-close");
+    dialog.append(close,h);dialog.addEventListener("close",()=>dialog.remove());document.body.append(dialog);return dialog;
+  }
+  function renderSelectedTags() {
+    const holder=$("[data-selected-tags]");holder.replaceChildren();
+    state.selectedTags.forEach(tag=>holder.append(makeButton(`${tag} ×`,()=>{state.selectedTags=state.selectedTags.filter(t=>t!==tag);renderLibrary();},"filter-chip is-active")));
+  }
+  function openTagPicker() {
+    const dialog=makeDialog("找到你的下一首歌");dialog.classList.add('tag-explorer');dialog.prepend(element('p','section-kicker','EXPLORE BY TAG'));
+    dialog.append(element('p','tag-intro','選擇歌手、主題或歌名，組合你的歌曲清單。'));
+    const search=element('input','tag-search');search.type='search';search.placeholder='尋找標籤';search.setAttribute('aria-label','尋找標籤');dialog.append(search);
+    const picked=new Set(state.selectedTags),tags=[...new Set(state.songs.flatMap(song=>song.tags))].sort();
+    const artists=new Set(state.songs.map(song=>song.singer.toLowerCase())),titles=new Set(state.songs.map(song=>song.title.toLowerCase()));
+    const body=element('div','tag-explorer-body'),status=element('span','tag-selection-count');
+    function refresh(){body.replaceChildren();const q=search.value.trim().toLowerCase();
+      [['主題與心情',t=>!artists.has(t)&&!titles.has(t)],['歌手',t=>artists.has(t)],['歌曲',t=>titles.has(t)]].forEach(([name,filter])=>{
+        const matches=tags.filter(t=>filter(t)&&t.includes(q));if(!matches.length)return;const group=element('section','tag-group');group.append(element('h3','',name));const grid=element('div','tag-picker-grid');
+        matches.forEach(tag=>{const label=element('label','tag-option'),input=document.createElement('input');input.type='checkbox';input.checked=picked.has(tag);input.onchange=()=>{input.checked?picked.add(tag):picked.delete(tag);updateCount();};label.append(input,songIcon('check'),element('span','',tag),element('small','',String(state.songs.filter(s=>s.tags.includes(tag)).length)));grid.append(label);});group.append(grid);body.append(group);
+      });if(!body.children.length)body.append(element('p','','找不到符合的標籤。'));updateCount();
+    }
+    function updateCount(){status.textContent=`已選 ${picked.size} 個 · ${picked.size?state.songs.filter(s=>s.tags.some(t=>picked.has(t))).length:state.songs.length} 首歌曲`;}
+    search.oninput=refresh;const footer=element('div','tag-footer');footer.append(status,makeButton('清除',()=>{picked.clear();refresh();}),makeButton('查看歌曲 →',()=>{state.selectedTags=[...picked];renderLibrary();dialog.close();},'primary-button'));dialog.append(body,footer);refresh();dialog.showModal();
+  }
+  let answerAudio;
+  function prepareAnswerAudio() {
+    try {const C=window.AudioContext||window.webkitAudioContext;if(C){answerAudio ||= new C();void answerAudio.resume().catch(()=>{});}} catch {}
+  }
+  function playAnswerSound(correct) {
+    try {if(!answerAudio)return;const now=answerAudio.currentTime;
+      (correct?[523.25,659.25,783.99]:[260,196]).forEach((frequency,index)=>{const tone=answerAudio.createOscillator(),gain=answerAudio.createGain();tone.type="sine";tone.frequency.value=frequency;tone.connect(gain);gain.connect(answerAudio.destination);const start=now+index*.1;gain.gain.setValueAtTime(0,start);gain.gain.linearRampToValueAtTime(.07,start+.015);gain.gain.exponentialRampToValueAtTime(.001,start+.23);tone.start(start);tone.stop(start+.25);});
+    } catch {}
+  }
+
+  let mistakeNavigation = null;
+  function stopMistakeNavigation() {
+    mistakeNavigation=null;document.querySelector(".mistake-navigation")?.remove();
+    document.querySelectorAll(".is-review-target").forEach(el=>el.classList.remove("is-review-target"));
+  }
+  function mistakeReviewButton(entries, type="listening") {
+    const wrong=entries.filter(e=>e.selected!==e.answer);
+    const button=makeButton(`逐題查看錯誤 · ${wrong.length}`,()=>{
+      if(!wrong.length){toast("全部答對了，沒有錯題！");return;}
+      stopMistakeNavigation();mistakeNavigation={songId:state.activeSong.id,type,items:wrong,index:0};jumpToMistake();
+    });button.classList.add("review-mistakes-button");return button;
+  }
+  function jumpToMistake() {
+    const nav=mistakeNavigation;if(!nav || state.activeSong?.id!==nav.songId){stopMistakeNavigation();return;}
+    document.querySelectorAll(".is-review-target").forEach(el=>el.classList.remove("is-review-target"));
+    const item=nav.items[nav.index];let target;
+    if(nav.type==="vocabulary"){
+      state.vocabularyIndex=state.activeSong.vocabulary.findIndex(q=>q.number===item.number);renderVocabulary();
+      target=$(".vocabulary-option.is-wrong");
+    }else target=$(`[data-question="${item.number}"] .choice-button.is-wrong`);
+    if(!target){stopMistakeNavigation();return;}
+    target.classList.add("is-review-target");
+    document.querySelector(".mistake-navigation")?.remove();
+    const bar=document.createElement("aside");bar.className="mistake-navigation";bar.setAttribute("aria-label","錯題導覽");
+    const count=document.createElement("strong");count.setAttribute("role","status");count.textContent=`錯題 ${nav.index+1} / ${nav.items.length} · 第 ${item.displayNumber || item.number} 題`;
+    const prev=makeButton("← 上一個",()=>{nav.index--;jumpToMistake();});prev.disabled=nav.index===0;
+    const next=makeButton(nav.index===nav.items.length-1?"完成檢視 ✓":"下一個錯誤 →",()=>{if(nav.index===nav.items.length-1){stopMistakeNavigation();toast("已查看所有錯題。");}else{nav.index++;jumpToMistake();}},"primary-button");
+    bar.append(count,prev,next,makeButton("關閉 ×",stopMistakeNavigation));document.body.append(bar);next.focus({preventScroll:true});
+    target.scrollIntoView({behavior:"smooth",block:"center"});
+  }
+  function listeningMistakes(results) {
+    return listeningRoute(state.exercise.mode).flatMap((q, index) => { const r=results?.[q.number]; return r && typeof r.correct === "boolean" ? [{number:q.number,displayNumber:index+1,title:`第 ${index+1} 題`,selected:r.selected,answer:r.answer}] : []; });
+  }
+
+  function completionPanel(message) {
+    const section=document.createElement("section");section.className="lesson-complete";section.setAttribute("aria-label","練習完成");
+    const heading=document.createElement("h2");setLabel(heading,`✦ 恭喜你！${message}`);
+    section.append(heading);
+    if(state.activeTab==="exercise" && state.exercise?.submitted){
+      const levels=["standard","medium","hard","hell"],index=levels.indexOf(state.exercise.mode.id);
+      const next=index>=0?state.activeSong.modes.find(m=>m.id===levels[index+1]):null;
+      const note=document.createElement("p");note.textContent=next?`完成得好！準備好挑戰更高一級的 ${next.label} 嗎？`:"太棒了！你已完成最高難度，可以再挑戰一次，讓聆聽更穩固。";section.append(note);
+      if(state.activeSong.vocabulary?.length)section.append(makeButton('開始字彙練習 →',()=>{switchSongTab('vocabulary');$('[data-vocabulary]').scrollIntoView({behavior:'smooth',block:'start'});},'primary-button'));
+      if(next)section.append(makeButton(`挑戰 ${next.label} →`,()=>startExercise(next.id),"primary-button"));
+    }
+    const reread=document.createElement('div');reread.className='song-reread';
+    const rereadText=document.createElement('p');rereadText.textContent='聽懂更多，再讀一次歌曲故事，看看你有甚麼新發現。';
+    reread.append(rereadText,makeButton('重讀歌曲介紹 →',()=>{switchSongTab('description');$('[data-song-description]').scrollIntoView({behavior:'smooth',block:'start'});},'secondary-button'));section.append(reread);
+    section.append(makeButton("返回歌曲主頁 →",()=>routeStudent("library"),"primary-button"));
+    const songs=state.songs.filter(song=>song.id!==state.activeSong?.id);
+    if(songs.length){
+      const title=document.createElement("h3");title.textContent="下一首，想聽甚麼？";const view=document.createElement("div");view.className="song-discovery";const track=document.createElement("div");track.className="song-discovery-track";
+      for(let copy=0;copy<2;copy++) {const group=document.createElement("div");group.className="song-discovery-group";if(copy)group.setAttribute("aria-hidden","true");
+        const tiles=Array.from({length:Math.max(8,songs.length)},(_,i)=>songs[i%songs.length]);
+        tiles.forEach((song,index)=>{const button=makeButton("",()=>openSong(song.id),"discovery-song");if(copy || index>=songs.length){button.tabIndex=-1;button.setAttribute("aria-hidden","true");}const cover=thumbnailUrl(song);if(cover){const image=new Image();image.src=cover;image.alt="";button.append(image);}const label=document.createElement("strong");label.textContent=song.title;const artist=document.createElement("span");artist.textContent=song.singer;button.append(label,artist);group.append(button);});track.append(group);
+      }
+      let userPaused=false,touching=false,resumeTimer;
+      const pause=makeButton('暫停動畫',()=>{
+        userPaused=!userPaused;view.classList.toggle('is-paused',userPaused);
+        pause.textContent=userPaused?'繼續動畫':'暫停動畫';pause.setAttribute('aria-pressed',String(userPaused));
+        if(!userPaused)resumeLoop();
+      });pause.setAttribute('aria-pressed','false');view.append(track);
+      view.tabIndex=0;view.setAttribute('aria-label','左右滑動瀏覽歌曲');
+      const resumeLoop=()=>{
+        if(!view.isConnected||touching||userPaused||!view.classList.contains('is-manual')||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+        const width=track.getBoundingClientRect().width/2;
+        const offset=width?view.scrollLeft%width:0;
+        track.style.animationDelay=`-${width?offset/width*65:0}s`;
+        view.classList.remove('is-manual','is-paused');view.classList.add('is-resumed');view.scrollLeft=0;
+      };
+      const scheduleResume=()=>{clearTimeout(resumeTimer);if(!touching&&!userPaused)resumeTimer=setTimeout(resumeLoop,1600);};
+      const enableSwipe=()=>{
+        clearTimeout(resumeTimer);
+        if(view.classList.contains('is-manual'))return;
+        const x=new DOMMatrixReadOnly(getComputedStyle(track).transform).m41;
+        view.classList.add('is-manual');view.scrollLeft=Math.max(0,-x);
+      };
+      view.addEventListener('touchstart',()=>{touching=true;enableSwipe();},{passive:true});
+      for(const event of ['touchend','touchcancel'])view.addEventListener(event,()=>{touching=false;scheduleResume();},{passive:true});
+      view.addEventListener('scroll',()=>{if(view.classList.contains('is-manual'))scheduleResume();},{passive:true});
+      view.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){enableSwipe();view.scrollBy({left:event.key==='ArrowRight'?220:-220,behavior:'smooth'});scheduleResume();event.preventDefault();}});
+      section.append(title,view,pause);
+    }return section;
+  }
+
+  let youtubeApiPromise = null;
+  function loadYouTubeApi() {
+    if (window.YT?.Player) return Promise.resolve(window.YT);
+    if (youtubeApiPromise) return youtubeApiPromise;
+    youtubeApiPromise = new Promise((resolve, reject) => {
+      const previous = window.onYouTubeIframeAPIReady;
+      const timeout = window.setTimeout(() => reject(new Error("YouTube 播放器載入逾時。")), 15000);
+      window.onYouTubeIframeAPIReady = () => { window.clearTimeout(timeout); previous?.(); resolve(window.YT); };
+      const script = document.createElement("script"); script.src = "https://www.youtube.com/iframe_api"; script.async = true; script.onerror = () => reject(new Error("未能載入 YouTube 播放器。")); document.head.append(script);
+    });
+    return youtubeApiPromise;
+  }
+
+  async function mountPlayer(url) {
+    const generation=++state.playerGeneration;
+    const id = youtubeVideoId(url); if (!id) return;
+    const shell = $("[data-youtube-shell]"); shell.replaceChildren();
+    const mount = document.createElement("div"); mount.id = `song-youtube-${Date.now()}`; shell.append(mount);
+    try {
+      const YT = await loadYouTubeApi();
+      if(generation!==state.playerGeneration)return;
+      state.player = new YT.Player(mount, {
+        host: "https://www.youtube-nocookie.com", videoId: id,
+        playerVars: { autoplay: 0, controls: 0, rel: 0, playsinline: 1, modestbranding: 1, origin:location.origin },
+        events: {
+          onReady() { if(generation!==state.playerGeneration)return;state.playerReady = true; $("[data-player-controls]").hidden = false;syncPlaybackControls(); },
+          onStateChange(event) { if(generation!==state.playerGeneration)return;state.playerState = event.data;if(event.data===1)beginPlaybackTracking();else endPlaybackTracking();syncPlaybackControls(); },
+          onPlaybackRateChange(){syncPlaybackControls();}
+        }
+      });
+    } catch (error) { toast(error.message, "error"); }
+  }
+
+  function destroyPlayer() {
+    endPlaybackTracking();
+    state.playerGeneration+=1;
+    try { state.player?.destroy?.(); } catch { /* Best effort. */ }
+    state.player = null; state.playerReady = false; state.playerState = null;
+    const shell = $("[data-youtube-shell]");
+    if (shell && !$(".youtube-placeholder", shell)) {
+      const placeholder = document.createElement("div"); placeholder.className = "youtube-placeholder";
+      const icon = document.createElement("span"); icon.append(songIcon("music")); const title = document.createElement("strong"); title.textContent = "等待管理員加入歌曲音訊"; const note = document.createElement("small"); note.textContent = "題目仍可先行練習及核對。"; placeholder.append(icon, title, note); shell.replaceChildren(placeholder);
+    }
+    $("[data-player-controls]").hidden = true;
+    updateFloatingPlayer();
+  }
+
+  function playPlayer(fromCountdown = false) {
+    if (!state.playerReady || !state.player?.playVideo) {
+      if (fromCountdown) $("[data-autoplay-note]").hidden = false;
+      return;
+    }
+    try {
+      state.player.playVideo();
+      if (fromCountdown) window.setTimeout(() => { if (state.playerState !== 1) $("[data-autoplay-note]").hidden = false; }, 1200);
+    } catch { $("[data-autoplay-note]").hidden = false; }
+  }
+
+  function pausePlayer() { try { state.player?.pauseVideo?.(); } catch { /* Best effort. */ } }
+  function togglePlayer() {
+    if (!state.playerReady) return;
+    const playing=state.playerState!==1;
+    if (!playing) pausePlayer(); else playPlayer();
+    setTimeout(()=>publishRoomMedia(playing),100);
+  }
+  function seekPlayer(delta) {
+    if (!state.playerReady) return;
+    try { const current = Number(state.player.getCurrentTime()) || 0; const duration = Number(state.player.getDuration()) || Infinity; state.player.seekTo(clamp(current + delta, 0, duration), true);setTimeout(publishRoomMedia,100); } catch { /* Player may be transitioning. */ }
+  }
+  function seekPlayerTo(value) { if(!state.playerReady)return;try{state.player.seekTo(clamp(Number(value),0,Number(state.player.getDuration())||0),true);syncLyricsToPlayback();clearTimeout(classroom.seekTimer);classroom.seekTimer=setTimeout(publishRoomMedia,150);}catch{/* Player may be transitioning. */} }
+  function relisten() { if (!state.playerReady) return; try { state.player.seekTo(0, true); state.player.playVideo(); $("[data-autoplay-note]").hidden = true;setTimeout(()=>publishRoomMedia(true),100); } catch { /* Best effort. */ } }
+
+  async function enterAdmin() {
+    showAuthenticatedHeader(state.session);
+    showView("admin");
+    setConnection("online", "管理模式");
+    try {
+      await loadLessonExtras();
+      const rows = await rpc(CONFIG.rpc.adminListSongs, { p_admin_token: state.session.token });
+      state.adminSongs = asArray(rows)
+        .map(row => normalizeSong(withLessonExtras(row), { includeAnswers: true }))
+        .map(song => validateSong(song, { requireAnswers: true }))
+        .sort((a, b) => a.sortOrder - b.sortOrder || a.title.localeCompare(b.title));
+      renderAdminSongList();
+      if (state.adminSongs.length) selectAdminSong(state.adminSongs[0].id); else newAdminSong();
+    } catch (error) { toast(error.message || "未能載入管理資料。", "error"); }
+  }
+
+  function renderAdminSongList() {
+    const query = normalizeSpace($("[data-admin-song-search]")?.value).toLocaleLowerCase("en");
+    const holder = $("[data-admin-song-list]"); holder.replaceChildren();
+    state.adminSongs.filter(song => !query || songHaystack(song).includes(query)).forEach(song => {
+      const button = document.createElement("button"); button.type = "button"; button.className = "admin-song-button"; button.classList.toggle("is-active", state.adminSong?.id === song.id);
+      const title = document.createElement("strong"); title.textContent = song.title; const meta = document.createElement("span"); meta.textContent = `${song.singer} · ${song.published ? "已發佈" : "未發佈"}`; button.append(title, meta); button.onclick = () => selectAdminSong(song.id); holder.append(button);
+    });
+  }
+
+  function fillAdminForm(song) {
+    const form = $("[data-song-form]");
+    form.elements.id.value = song.id || "";
+    form.elements.title.value = song.title || "";
+    form.elements.singer.value = song.singer || "";
+    form.elements.exerciseName.value = song.exerciseName || "";
+    form.elements.coverUrl.value = song.coverUrl || "";
+    form.elements.audioUrl.value = song.audioUrl || "";
+    form.elements.coverFile.value = "";
+    form.elements.tags.value = song.tags.join(", ");
+    form.elements.description.value = song.description || "";
+    $("[data-intro-editor]").replaceChildren(safeIntroduction(song.description || ""));
+    form.elements.published.checked = song.published !== false;
+    form.elements.sortOrder.value = String(song.sortOrder || 0);
+    $("[data-admin-form-title]").textContent = song.id ? `編輯：${song.title}` : "新增歌曲";
+    updateAdminYouTubePreview();
+  }
+
+  async function selectAdminSong(id) {
+    const song = state.adminSongs.find(item => item.id === id); if (!song) return;
+    state.adminSong = song; fillAdminForm(song); renderAdminSongList();
+    $("[data-access-editor]").hidden = false;
+    try {
+      const rows = await rpc(CONFIG.rpc.adminListStudents, { p_admin_token: state.session.token, p_song_id: song.id });
+      state.adminStudents = asArray(rows).map(row => ({ id: text(row.id || row.student_id), name: text(row.name || row.student_name), allowed: row.effective_allowed !== false }));
+      renderStudentAccess();
+    } catch (error) { toast(error.message || "未能載入學生權限。", "error"); }
+  }
+
+  function newAdminSong() {
+    state.adminSong = null; state.adminStudents = [];
+    fillAdminForm({ id: "", title: "", singer: "", exerciseName: "", youtubeUrl: "", tags: [], description: "", published: false, sortOrder: state.adminSongs.length + 1 });
+    $("[data-access-editor]").hidden = true; renderAdminSongList();
+  }
+
+  function updateAdminYouTubePreview() {
+    const form = $("[data-song-form]"), preview = $("[data-youtube-preview]");
+    const source = safeMediaUrl(form.elements.coverUrl.value, true);
+    preview.replaceChildren(); preview.hidden = !source;
+    if (source) { const image = new Image(); image.src = source; image.alt = "專輯封面預覽"; preview.append(image); }
+  }
+  async function importAlbumCover(event) {
+    const file = event.target.files?.[0]; if (!file) return;
+    if (!/^image\/(jpeg|png|webp)$/.test(file.type) || file.size > 10 * 1024 * 1024) { toast("請選擇 10 MB 以下的 JPG、PNG 或 WebP 圖片。", "error"); return; }
+    const form = event.target.form, songId = form.elements.id.value;
+    const url = URL.createObjectURL(file);
+    try {
+      const image = new Image(); image.src = url; await image.decode();
+      const scale = Math.min(1, 720 / Math.max(image.width, image.height));
+      const canvas = document.createElement("canvas"); canvas.width = Math.round(image.width * scale); canvas.height = Math.round(image.height * scale); canvas.getContext("2d").drawImage(image, 0, 0, canvas.width, canvas.height);
+      const data = canvas.toDataURL("image/webp", .85);
+      if (data.length > 750000) throw new Error("圖片內容太大，請使用較小的封面。");
+      if (form.elements.id.value !== songId) return;
+      form.elements.coverUrl.value = data; updateAdminYouTubePreview();
+    } catch (error) { toast(error.message || "未能讀取圖片。", "error"); } finally { URL.revokeObjectURL(url); }
+  }
+
+  async function saveAdminSong(event) {
+    event.preventDefault();
+    const form = event.currentTarget;
+    for (const [name, image] of [["coverUrl", true], ["audioUrl", false]]) {
+      const input = form.elements[name];
+      input.setCustomValidity(input.value.trim() && !safeMediaUrl(input.value, image) ? "請使用 EdmundEducation 的媒體網址；封面亦可直接上載。" : "");
+    }
+    if (!form.reportValidity()) return;
+    const existing = state.adminSong;
+    const id = normalizeSpace(form.elements.id.value) || null;
+    const slug = existing?.slug || `${normalizeSpace(form.elements.title.value).toLocaleLowerCase("en").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "song"}-${Date.now()}`;
+    const payload = {
+      id, slug,
+      title: normalizeSpace(form.elements.title.value),
+      singer: normalizeSpace(form.elements.singer.value),
+      exerciseName: normalizeSpace(form.elements.exerciseName.value),
+      description: introductionValue(),
+      youtubeUrl: existing?.youtubeUrl || "",
+      cover_url: form.elements.coverUrl.value.trim(),
+      audio_url: form.elements.audioUrl.value.trim(),
+      tags: text(form.elements.tags.value).split(",").map(normalizeSpace).filter(Boolean),
+      published: form.elements.published.checked,
+      sortOrder: Number(form.elements.sortOrder.value) || 0,
+      translations: existing?.translations || [],
+      modes: existing?.modes || []
+    };
+    const status = $("[data-admin-save-status]"); status.textContent = "正在儲存⋯";
+    try {
+      const row = firstRow(await rpc("song_appreciation_admin_save_lesson", {p_admin_token: state.session.token, p_details:payload}));
+      if (!row?.id) throw new Error("資料服務未確認歌曲已儲存。");
+      state.lessonExtras[row.id] = row;
+      const saved = validateSong(normalizeSong(withLessonExtras(row), { includeAnswers: true }), { requireAnswers: true });
+      state.adminSongs = state.adminSongs.some(item => item.id === saved.id) ? state.adminSongs.map(item => item.id === saved.id ? saved : item) : [...state.adminSongs, saved];
+      state.adminSong = saved; renderAdminSongList(); fillAdminForm(saved); status.textContent = "已儲存"; toast("歌曲資料已儲存。");
+      if (saved.id) await selectAdminSong(saved.id);
+    } catch (error) { status.textContent = "儲存失敗"; toast(error.message || "未能儲存歌曲。", "error"); }
+  }
+
+  function renderStudentAccess() {
+    const query = normalizeSpace($("[data-student-access-search]")?.value).toLocaleLowerCase("en");
+    const holder = $("[data-student-access-list]"); holder.replaceChildren();
+    state.adminStudents.filter(student => !query || student.name.toLocaleLowerCase("en").includes(query)).forEach(student => {
+      const row = document.createElement("div"); row.className = "student-access-row";
+      const copy = document.createElement("div"); const name = document.createElement("strong"); name.textContent = student.name; const note = document.createElement("small"); note.textContent = student.allowed ? "可開啟此歌曲" : "此歌曲已被移除"; copy.append(name, note);
+      const label = document.createElement("label"); label.className = "access-switch"; label.setAttribute("aria-label", `${student.name} 歌曲存取權`);
+      const input = document.createElement("input"); input.type = "checkbox"; input.checked = student.allowed;
+      const visual = document.createElement("span"); label.append(input, visual);
+      input.addEventListener("change", async () => {
+        input.disabled = true;
+        try {
+          const saved = firstRow(await rpc(CONFIG.rpc.adminSetAccess, { p_admin_token: state.session.token, p_song_id: state.adminSong.id, p_student_id: student.id, p_allowed: input.checked }));
+          if (!saved || text(saved.student_id) !== student.id || text(saved.song_id) !== state.adminSong.id || saved.effective_allowed !== input.checked) throw new Error("資料服務未確認學生權限已更新。");
+          student.allowed = input.checked; note.textContent = student.allowed ? "可開啟此歌曲" : "此歌曲已被移除"; toast(`${student.name} 的權限已更新。`);
+        } catch (error) { input.checked = student.allowed; toast(error.message || "未能更新權限。", "error"); }
+        finally { input.disabled = false; }
+      });
+      row.append(copy, label); holder.append(row);
+    });
+  }
+
+  function bindInteractions() {
+    const editor=$("[data-intro-editor]");
+    editor.addEventListener("input",()=>{editor.closest("form").elements.description.value=introductionValue();});
+    $$("[data-intro-command],[data-intro-color]").forEach(button=>{
+      button.addEventListener("mousedown",event=>event.preventDefault());
+      button.addEventListener("click",()=>{editor.focus();document.execCommand(button.dataset.introColor?"hiliteColor":button.dataset.introCommand,false,button.dataset.introColor||null);editor.closest("form").elements.description.value=introductionValue();});
+    });
+    $("[data-word-search]").addEventListener("input",()=>{state.wordPage=0;renderBigData();});
+    $("[data-word-sort]").addEventListener("click",()=>{state.wordAscending=!state.wordAscending;state.wordPage=0;renderBigData();});
+    $("[data-open-tags]").addEventListener("click", openTagPicker);
+    $("[data-logout]").addEventListener("click", logout);
+    $$("[data-route]").forEach(button => button.addEventListener("click", () => routeStudent(button.dataset.route)));
+    $$("[data-song-tab]").forEach(button => button.addEventListener("click", () => switchSongTab(button.dataset.songTab)));
+    $$("[data-open-tab]").forEach(button => button.addEventListener("click", () => switchSongTab(button.dataset.openTab)));
+    $("[data-song-sort]").addEventListener("change", renderLibrary);
+    $("[data-song-search]").addEventListener("input", event => { $("[data-clear-search]").hidden = !event.target.value; renderLibrary(); });
+    $("[data-clear-search]").addEventListener("click", () => { $("[data-song-search]").value = ""; $("[data-clear-search]").hidden = true; renderLibrary(); $("[data-song-search]").focus(); });
+    $("[data-dashboard-toggle]").addEventListener("click", () => setDashboardExpanded($("[data-dashboard-toggle]").getAttribute("aria-expanded") !== "true"));
+    document.addEventListener("selectionchange", () => { if (state.activeTab === "translation") updateSelectedPhrase(); });
+    $('[data-translation-columns]').addEventListener('pointerup',event=>{window.setTimeout(()=>updateSelectedPhrase(event),0);});
+    $("[data-bookmark-selection]").addEventListener("click", () => { const phrase = state.selectedPhrase || selectedPhrase(); if (phrase) addBookmark({ ...phrase, kind: "phrase" }); });
+    $$("[data-bookmark-filter]").forEach(button => button.addEventListener("click", () => { state.bookmarkFilter = button.dataset.bookmarkFilter; $$("[data-bookmark-filter]").forEach(item => item.classList.toggle("is-active", item === button)); renderBookmarks(); }));
+    const floating=$('[data-player-controls]').cloneNode(true);floating.removeAttribute('data-player-controls');floating.dataset.floatingPlayer='';floating.classList.add('floating-song-controls');floating.hidden=true;document.body.append(floating);
+    $$('[data-player-toggle]').forEach(button=>button.addEventListener('click',togglePlayer));
+    $$('[data-restart-song]').forEach(button=>button.addEventListener('click',relisten));
+    $$('[data-speed-trigger]').forEach(button=>button.addEventListener('click',()=>openSpeedPicker(button)));
+    document.addEventListener('pointerdown',event=>{if(!event.target.closest('.speed-menu,[data-speed-trigger]'))closeSpeedPicker();});
+    window.addEventListener('resize',()=>closeSpeedPicker());
+    window.addEventListener('wheel',()=>closeSpeedPicker(),{passive:true});
+    $$('[data-playback-rate]').forEach(select=>select.addEventListener('change',()=>setPlaybackRate(select.value)));
+    $$('[data-player-timeline]').forEach(input=>input.addEventListener('input',()=>seekPlayerTo(input.value)));
+    window.addEventListener('scroll',updateFloatingPlayer,{passive:true});window.addEventListener('resize',updateFloatingPlayer);
+    $('[data-skip-preparation]').addEventListener('click',finishReadCountdown);
+    $('[data-check-partial]').addEventListener('click',checkPartialAnswers);
+    $('[data-reset-answers]').addEventListener('click',resetDraftAnswers);
+    $('[data-reload-draft]').addEventListener('click',reloadCloudDraft);
+    $('[data-favorites-only]').addEventListener('click',event=>{state.favoritesOnly=!state.favoritesOnly;event.currentTarget.setAttribute('aria-pressed',String(state.favoritesOnly));renderLibrary();});
+    $$('[data-font-size]').forEach(select=>select.addEventListener('change',()=>setTextSize(select.dataset.fontSize,select.value)));
+    $('[data-toggle-chinese]').addEventListener('click',event=>{state.showChinese=!state.showChinese;event.currentTarget.setAttribute('aria-pressed',String(state.showChinese));event.currentTarget.textContent=state.showChinese?'隱藏中文翻譯':'顯示中文翻譯';renderExerciseQuestions();});
+    $('[data-bookmark-selection]').addEventListener('pointerdown',event=>event.preventDefault());
+    window.addEventListener('online',()=>flushDraft().catch(()=>{}));
+    $$("[data-seek]").forEach(button => button.addEventListener("click", () => seekPlayer(Number(button.dataset.seek))));
+    $("[data-relisten]").addEventListener("click", relisten);
+    $("[data-result-relisten]").addEventListener("click", relisten);
+    $("[data-change-mode]").addEventListener("click", async()=>{try{await flushDraft();resetExercise();}catch{toast("請先同步進度後再切換。","error");}});
+    $("[data-try-again]").addEventListener("click", () => startExercise(state.exercise?.mode.id));
+    $("[data-submit-exercise]").addEventListener("click", submitExercise);
+    $("[data-new-song]").addEventListener("click", newAdminSong);
+    $("[data-admin-song-search]").addEventListener("input", renderAdminSongList);
+    $("[data-song-form]").addEventListener("submit", saveAdminSong);
+    $("[data-song-form]").elements.coverFile.addEventListener("change", importAlbumCover);
+    $("[data-song-form]").elements.coverUrl.addEventListener("input", updateAdminYouTubePreview);
+    $("[data-archive-song]").addEventListener("click", () => { const form = $("[data-song-form]"); form.elements.published.checked = false; form.requestSubmit(); });
+    $("[data-student-access-search]").addEventListener("input", renderStudentAccess);
+    document.addEventListener("visibilitychange", () => { if(document.hidden){pausePlayer();void flushPlayback();} if (!state.exercise || state.exercise.submitted) return; if (document.hidden) {pauseExerciseClock();storeLocalDraft();void flushDraft().catch(()=>{});} else if (state.activeRoute === "song" && state.activeTab === "exercise") startExerciseClock(); });
+    window.addEventListener("pagehide",()=>{pausePlayer();void flushPlayback();pauseExerciseClock();storeLocalDraft();});
+  }
+
+  async function boot() {
+    loginTabs(); bindLoginForms(); bindInteractions();
+    try {
+      if (!window.supabase?.createClient || !SUPABASE.url || !SUPABASE.anonKey) throw new Error("Supabase 設定未完成。");
+      state.client = window.supabase.createClient(SUPABASE.url, SUPABASE.anonKey, { auth: { persistSession: false, autoRefreshToken: false, detectSessionInUrl: false }, global: { headers: { "X-Client-Info": "edmund-song-appreciation/1.0" } } });
+      setConnection("online", "已連接");
+      const stored = readSession();
+      if (stored) {
+        const session = await validateSession(stored);
+        if (session) {
+          saveSession(session);
+          if (session.role === "admin") await enterAdmin(); else await enterStudent();
+          setDashboardExpanded(readDashboardExpanded());
+          return;
+        }
+        clearSession();
+      }
+      showView("login"); offerUniversalSession();
+    } catch (error) {
+      setConnection("offline", "未能連接");
+      showView("login");
+      const status = $("[data-login-status=student]"); status.textContent = text(error?.message || "未能連接資料服務。");
+      offerUniversalSession();
+    }
+  }
+
+  const classroom={devices:0,device:crypto.randomUUID(),joined:null,room:null,revision:-1,busy:false,joining:false,commands:0,chain:Promise.resolve(),next:0,token:null};
+  function roomMatches(){return classroom.joined&&classroom.room?.id===classroom.joined&&state.activeRoute==='song'&&state.exercise?.songId===classroom.room.song&&state.exercise?.mode.id===classroom.room.mode;}
+  async function roomRequest(action='poll',extra={}){
+    const token=state.session?.token;
+    if(!token||state.session?.role!=='student')throw Error('請先登入');
+    if(action!=='poll')classroom.epoch=(classroom.epoch||0)+1;
+    if(classroom.token!==token){
+      const key=`edmund-song-device:${token}`;
+      try{classroom.device=sessionStorage.getItem(key)||crypto.randomUUID();sessionStorage.setItem(key,classroom.device);}catch{classroom.device=crypto.randomUUID();}
+      classroom.devices=0;
+    }
+    classroom.token=token;
+    await readLiveExercise(null); // Establish the authenticated transport, without reading a draft.
+    const {data,error}=await liveClient.rpc('song_appreciation_room',{p_token:token,p_device:classroom.device,p_action:action,p_session:classroom.joined,...extra}).abortSignal(AbortSignal.timeout(15000));
+    if(error)throw error;if(token!==state.session?.token)throw Error('登入已變更');
+    if(data?.ejected){
+      pauseExerciseClock();storeLocalDraft();classroom.joined=null;classroom.room=null;classroom.devices=0;
+      await logout(true);renderClassroom();toast('另一部裝置已中斷本機連線，請重新登入。','error');
+      throw Error('本機已中斷連線');
+    }
+    return data;
+  }
+  function renderClassroom(message){
+    let bar=$('[data-classroom-bar]');if(!bar){bar=document.createElement('aside');bar.dataset.classroomBar='';bar.className='song-classroom-bar';bar.setAttribute('aria-label','同步課堂');document.body.append(bar);}
+    bar.hidden=state.session?.role!=='student'||classroom.token!==state.session?.token||classroom.devices<=1;if(bar.hidden)return;
+    const r=classroom.room;const signature=JSON.stringify([r?.id,Boolean(roomMatches()),classroom.devices,message]);if(bar.dataset.signature===signature)return;bar.dataset.signature=signature;bar.replaceChildren();const label=document.createElement('span');label.setAttribute('role','status');label.textContent=message||(r?(roomMatches()?'已加入同步課堂 · 雙方可作答及控制音樂':'另一裝置已開始練習，請加入同一課堂'):'同步課堂已連線 · 選擇難度開始練習');bar.append(label);
+    bar.append(makeButton('中斷其他裝置連線',async()=>{
+      if(!confirm('中斷其他裝置的歌曲練習連線？已儲存的進度會保留。'))return;
+      storeLocalDraft();
+      try{await flushDraft();}catch{ /* Recovery must remain available during a draft conflict. */ }
+      try{acceptRoom(await roomRequest('eject'));toast('其他裝置已中斷連線。');}catch(e){toast(e.message,'error');}
+    },'secondary-button'));
+    if(r&&!roomMatches())bar.append(makeButton('加入練習',()=>void joinClassroom(),'primary-button'));
+    if(roomMatches()){
+      bar.append(makeButton('開啟本機聲音',()=>{applyRoomMedia(true);},'secondary-button'));
+      bar.append(makeButton('結束同步課堂',async()=>{if(!confirm('結束兩部裝置的同步課堂？已儲存的答案會保留。'))return;try{await flushDraft();const data=await roomRequest('end');acceptRoom(data);}catch(e){renderClassroom(e.message);}},'secondary-button'));
+    }
+  }
+  function acceptRoom(data){
+    classroom.devices=Number(data.devices)||0;
+    classroom.room=data.session;
+    if(classroom.joined&&classroom.joined!==data.session?.id){classroom.joined=null;classroom.revision=-1;cancelReadCountdown();}
+    renderClassroom(!data.session&&data.devices>1?`${data.devices} 部裝置已連線 · 由學生選擇難度開始，另一部裝置再加入`:undefined);
+    applyRoomMedia();
+  }
+  function applyRoomMedia(force=false){
+    const r=classroom.room,m=r?.media;
+    if(!roomMatches()||!m||!state.playerReady||classroom.commands||(!force&&r.revision<=classroom.revision))return;
+    classroom.revision=r.revision;
+    const elapsed=Math.max(0,(Date.now()-(classroom.serverOffset||0)-Date.parse(m.at))/1000);
+    const position=Math.min(Number(state.player.getDuration())||86400,Number(m.position)+(m.playing?elapsed*Number(m.rate):0));
+    window.clearInterval(state.countdownTimer);state.countdownTimer=0;$('[data-countdown]').hidden=true;
+    if(state.exercise.locked){state.exercise.locked=false;renderExerciseQuestions();}
+    try{state.player.setPlaybackRate?.(Number(m.rate));state.player.seekTo(position,true);if(m.playing){state.player.playVideo();setTimeout(()=>{if(roomMatches()&&state.playerState!==1)renderClassroom('瀏覽器尚未允許聲音，請按「開啟本機聲音」。');},1200);}else state.player.pauseVideo();}catch{renderClassroom('請按「開啟本機聲音」啟用播放。');}
+  }
+  function publishRoomMedia(intent){
+    if(!roomMatches()||!state.playerReady)return;
+    const token=state.session.token,session=classroom.joined;
+    const media={position:Number(state.player.getCurrentTime())||0,playing:typeof intent==='boolean'?intent:state.playerState===1,rate:Number(state.player.getPlaybackRate?.())||1};
+    classroom.commands++;
+    classroom.chain=classroom.chain.catch(()=>{}).then(async()=>{
+      if(token!==state.session?.token||session!==classroom.joined)return;
+      const data=await roomRequest('media',{p_session:session,p_media:media});classroom.revision=Math.max(classroom.revision,data.session?.revision||0);classroom.room=data.session;
+    }).catch(()=>renderClassroom('音樂控制尚未同步，請檢查連線後再按一次。')).finally(()=>{classroom.commands--;});
+  }
+  async function joinClassroom(){
+    if(classroom.joining||!classroom.room)return;classroom.joining=true;
+    const target=classroom.room;
+    try{
+      if(state.exercise?.dirty)await flushDraft();
+      const data=await roomRequest('join',{p_session:target.id});classroom.joined=target.id;classroom.room=data.session;classroom.revision=-1;
+      await openSong(target.song,'exercise');
+      if(state.activeSong?.id!==target.song)throw Error('無法開啟課堂歌曲');
+      const rows=await rpc(CONFIG.rpc.listDrafts,{p_student_token:state.session.token});state.drafts=Object.fromEntries(asArray(rows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));
+      await startExercise(target.mode,true);renderClassroom();applyRoomMedia(true);
+    }catch(e){classroom.joined=null;renderClassroom(e.message);}finally{classroom.joining=false;}
+  }
+  async function pollClassroom(){
+    if(classroom.busy||classroom.joining||document.hidden||Date.now()<classroom.next)return;
+    if(state.session?.role!=='student'){classroom.devices=0;classroom.joined=null;classroom.room=null;renderClassroom();return;}
+    if(classroom.token!==state.session.token){classroom.devices=0;classroom.joined=null;classroom.room=null;classroom.revision=-1;}
+    classroom.busy=true;
+    try{const epoch=classroom.epoch,begin=Date.now(),data=await roomRequest();if(epoch!==classroom.epoch)return;classroom.serverOffset=(begin+Date.now())/2-Date.parse(data.server_time);acceptRoom(data);classroom.next=Date.now()+(roomMatches()?500:2000);}
+    catch{classroom.next=Date.now()+5000;renderClassroom('同步連線中斷 · 暫時無法開始或加入課堂');}
+    finally{classroom.busy=false;}
+  }
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden){classroom.revision=-1;classroom.next=0;}});
+  setInterval(()=>void pollClassroom(),250);
+
+  async function readLiveExercise(args) {
+    liveClient ||= window.supabase.createClient(SUPABASE.url,SUPABASE.anonKey,{auth:{persistSession:true,storage:sessionStorage,storageKey:'edmund-song-live-auth-v1',autoRefreshToken:true,detectSessionInUrl:false}});
+    const session=await liveClient.auth.getSession();if(session.error)throw session.error;
+    if(!session.data?.session){const login=await liveClient.auth.signInAnonymously();if(login.error)throw login.error;}
+    if(!args)return;
+    const {data,error}=await liveClient.rpc('song_appreciation_live_snapshot',args).abortSignal(AbortSignal.timeout(15000));
+    if(error)throw error;return data;
+  }
+  function applyLiveExercise(payload) {
+    const e=state.exercise,d=payload?.draft;
+    if(!e||!d||d.song_id!==e.songId||d.mode_id!==e.mode.id||d.exercise_version!==e.mode.version)return true;
+    // Preserve unsaved local answers and existing conflict/retry handling.
+    if(e.dirty||e.pendingDraft||e.savePromise||e.submitting||e.checking||e.pendingSubmission&&!e.submitted||e.conflict)return false;
+    if(Number(d.revision)<e.revision)return true;
+    const answers=d.answers||{},results=d.result||{};
+    for(const [number,value] of Object.entries(answers)){const q=e.mode.questions.find(q=>String(q.number)===number);if(!q||!q.options.includes(value))return true;}
+    for(const [number,r] of Object.entries(results)){const q=e.mode.questions.find(q=>String(q.number)===number);if(!q||r.selected!==answers[number]||!q.options.includes(r.answer)||typeof r.correct!=='boolean'||r.correct!==(r.selected===r.answer))return true;}
+    const attempt=payload.attempt?validateSavedAttempt(payload.attempt,{attemptId:payload.attempt.id,songId:e.songId,modeId:e.mode.id,exerciseVersion:e.mode.version,questionCount:e.mode.questionCount,questions:e.mode.questions,answers}):null;
+    if(e.revision===Number(d.revision)&&JSON.stringify(e.answers)===JSON.stringify(answers)&&JSON.stringify(e.results)===JSON.stringify(attempt?.results||results)&&e.submitted===Boolean(attempt))return true;
+    e.liveFollowing=true;pauseExerciseClock();
+    clearTimeout(state.draftSaveTimer);state.draftSaveTimer=0;window.clearInterval(state.countdownTimer);state.countdownTimer=0;$('[data-countdown]').hidden=true;
+    Object.assign(e,{answers:{...answers},results:attempt?.results||results,revision:Number(d.revision),startedAt:d.started_at,activeSeconds:Number(d.duration_ms||0)/1000,locked:false,submitted:Boolean(attempt),pendingSubmission:null});
+    state.drafts[draftIdentity(e.songId,e.mode.id)]=d;
+    // Patch choices in place: do not remount media, seek, scroll or rebuild lyrics.
+    e.mode.questions.forEach(q=>{
+      const card=$(`[data-question="${q.number}"]`);if(!card)return;
+      card.classList.toggle('is-answered',Object.hasOwn(e.answers,q.number));card.classList.remove('is-correct','is-incorrect');$('.answer-feedback',card)?.remove();
+      $$('[data-option]',card).forEach(button=>{const selected=button.dataset.option===e.answers[q.number];button.classList.toggle('is-selected',selected);button.classList.remove('is-correct','is-wrong');button.setAttribute('aria-checked',String(selected));button.disabled=e.submitted||Boolean(e.results[q.number]);});
+    });
+    applyCheckedResults();updateExerciseProgress();
+    $('[data-result-card]').hidden=!attempt;
+    if(attempt){
+      // revealServerResult also adds feedback, so remove the partial-check labels first.
+      $$('.answer-feedback',$('[data-lyrics-exercise]')).forEach(node=>node.remove());revealServerResult(e,attempt);
+      if(!state.attempts.some(row=>row.id===attempt.id))state.attempts.unshift({...attempt,songTitle:state.activeSong.title});
+      renderAttempts();renderDashboard();
+    }
+    renderLibrary();setDraftStatus('已同步另一裝置的進度');return true;
+  }
+  import('./song-appreciation-live.mjs?v=20261029-1').then(({createSongLiveSync})=>{
+    liveSync=createSongLiveSync({
+      context:()=>({owner:state.session?.role==='student'?state.session.id:null,token:state.session?.token,
+        song:state.activeRoute==='song'&&state.activeTab==='exercise'?state.exercise?.songId:null,
+        mode:state.exercise?.mode.id,version:state.exercise?.mode.version,playing:state.playerState===1&&!state.exercise?.submitted}),
+      rpc:readLiveExercise,apply:applyLiveExercise
+    });
+  }).catch(error=>console.warn('Song live synchronization unavailable',error));
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot, { once: true });
+  else boot();
+
+  window.EdmundSongAppreciation = Object.freeze({
+    youtubeVideoId,
+    normalizeSong,
+    validateSong,
+    dailyAttemptSeries,
+    formatDuration
+  });
+})();

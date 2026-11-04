@@ -1,0 +1,1293 @@
+{
+  "id": "p3-099-can-you-charm-your-way-into-oxbridge",
+  "catalogueId": "p3-099",
+  "catalogueIds": [
+    "p3-099"
+  ],
+  "passage": 3,
+  "title": "Can You Charm Your Way into Oxbridge?",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "A",
+    "B",
+    "C",
+    "A",
+    "maths",
+    "shake hands",
+    "basic manners",
+    "comprehensive",
+    "confidence and authority",
+    "TRUE",
+    "TRUE",
+    "TRUE",
+    "FALSE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "A — pass exams",
+      "answerKey": "A — pass exams",
+      "type": "Question Analysis",
+      "prompt": "Question 27",
+      "translation": "Rachel 的建議涵蓋很多社交禮儀，但哪一項沒有包括？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Rachel Holland 的建議不包括如何做甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落主要是 Paragraph 1、3、6。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 1 開頭講 Oxbridge interview season，最後指出 first impressions 很重要。Paragraph 3 介紹 Rachel 的 courses，Paragraph 6 詳列 small talk、clothes 和 walking 等技巧。因此這題要掃描她教了甚麼，再找哪個選項沒有原文支援。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “pass exams” 對應 exams。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “eat correctly” 對應 “eating”、“cutlery”、“eating a meal”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “talk about non-academic subjects” 對應 “small talk”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“They find the idea of, say, eating a meal with a future employer very intimidating.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們覺得，例如和未來僱主一起吃飯這件事很令人害怕。"
+            },
+            {
+              "kind": "label",
+              "text": "這支援 B。Paragraph 6 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, they find learning how to make small talk in twos, and then threes, a tricky business.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，他們覺得學習兩人或三人之間如何閒談是一件棘手的事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這支援 C。文章沒有說 Rachel 教男生如何 pass exams。她教的是 social grooming、etiquette、life skills 和 interview presence，不是學科考試技巧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "B — don’t know how to do such things",
+      "answerKey": "B — don’t know how to do such things",
+      "type": "Question Analysis",
+      "prompt": "Question 28",
+      "translation": "Rachel 怎樣解釋現代家長沒有承擔這些禮儀教育？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Rachel 認為家長沒有教很多東西給孩子，是因為甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4。"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once upon a time teaching these things was considered a parents’ job, but today’s parents, she says, are often as confused as their offspring.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "從前，教這些東西被視為父母的責任；但她說，今天的父母常常和自己的孩子一樣困惑。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句說 Rachel 把公司帶進 independent schools，再到 Cotswold School 嘗試 state sector。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段的功能是解釋為何 social skills 需要由學校或外來專家教。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “parents” 和 “don’t teach”。原文直接有 “parents’ job” 和 “parents … confused”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“today’s parents, she says, are often as confused as their offspring.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她說，今天的父母常常和自己的子女一樣困惑。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“don’t know how to do such things” = “are often as confused as their offspring”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “have so little time” 沒有原文支援。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “haven’t been well educated” 也沒有出現。原文說的是 confused，即不知道如何處理這些社交禮儀問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — asking questions",
+      "answerKey": "C — asking questions",
+      "type": "Question Analysis",
+      "prompt": "Question 29",
+      "translation": "想把閒談做得好，需要做甚麼準備或技巧？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：做好 small talk 涉及甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說男生吸收大量 tips，並練習在走路中加入 confidence and authority。最後一句說 “come as you are” invitations 通常不代表字面意思。這段功能是展示 workshop 中的實際技巧，包括small talk 和 clothing。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “small talk”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, they find learning how to make small talk in twos, and then threes, a tricky business.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“It’s hard work,” agrees Rachel Holland. “You’ve got to store some questions in your head. You’ve got to fake it. You’ve got to look relaxed and confident. And remember the most important thing—smile!”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rachel Holland 同意說：「這很費工夫。你要在腦中儲備一些問題。你要裝作自然。你要看起來放鬆又有自信。還要記得最重要的一件事——微笑！」題目說 “Making small talk well involves…”原文說 “store some questions in your head”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以最直接對應是 asking questions。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A “remembering what people say” 看似和記憶有關，但原文要記住的是 questions，不是別人說過的話。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “walking correctly” 屬於另一項訓練，不是 small talk 的核心技巧。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — more confident",
+      "answerKey": "A — more confident",
+      "type": "Question Analysis",
+      "prompt": "Question 30",
+      "translation": "Alex Green 上完上午課程後的感受是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問：Alex Green 說自己感到怎樣。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句是 Rachel 問男生甚麼時候穿 morning suit，男生猜 “In the morning?”；最後一句 Alex Bexon 說這很像 acting，是把 image 傳達出去。這段功能是收束 workshop，並引用學生反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用人名定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Alex Green”。人名非常強，可以直接掃到段落後半。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Alex Green, 17, who is applying to read geography at Cambridge, says the morning has boosted his confidence.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "17 歲的 Alex Green 申請到 Cambridge 讀 geography，他說這個上午提升了他的自信。"
+            },
+            {
+              "kind": "label",
+              "text": "他又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“I feel more assured of myself. I feel I know how to control myself in an interview.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我覺得自己更有把握。我覺得自己知道如何在面試中控制自己。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“boosted his confidence” = more confident“more assured of myself” = 更有自信、更穩定所以答案是 A。 Questions 31–35 Sentence Completion 要先看空格前後文法和字數限制，再回原文找同義位置，最後檢查答案是否符合字數。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "maths",
+      "answerKey": "maths",
+      "type": "Question Analysis",
+      "prompt": "“Rachel Holland used to teach 31 ______”",
+      "translation": "Rachel Holland 以前教 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句講 Oxbridge season 和 applicants 等待面試。最後一句說 first impressions 很重要。這段除了開場背景，也介紹 Rachel Holland 的身份。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Rachel Holland” 和 “used to teach”。原文沒有 used to teach，但有 “former …teacher”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Rachel Holland, a former independent-school maths teacher and housemistress…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rachel Holland 曾是 independent school 的 maths teacher 兼 housemistress。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目句子要填她以前教甚麼科目，所以答案是 maths。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： maths = 1 word，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "shake hands",
+      "answerKey": "shake hands",
+      "type": "Question Analysis",
+      "prompt": "“The boys are taught to say their names as they 32 ______”",
+      "translation": "男生被教導在 ______ 的同時說出自己的名字。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 Rachel step-by-step 教 “meet and greet”；最後一句是她希望男生入場時傳達出的自信訊息。這段集中講面試室入場和打招呼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “say their names”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“shaking each interviewer’s hand as she says her name.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Rachel Holland demonstrates, miming closing the door quietly behind her, smiling warmly, walking confidently across the carpet, and shaking each interviewer’s hand as she says her name.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Rachel Holland 示範時，模仿在身後輕輕關門、溫暖微笑、自信地走過地毯，並在說出自己名字時和每位面試官握手。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“as she says her name” = as they say their names“shaking each interviewer’s hand” = shake hands由於空格前是 “as they”，答案要用動詞短語。最自然答案是 shake hands。字數檢查： shake hands = 2 words，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "basic manners",
+      "answerKey": "basic manners",
+      "type": "Question Analysis",
+      "prompt": "“One of Rachel’s courses involves teaching 33 ______ to younger children.”",
+      "translation": "Rachel 其中一個課程會向較年幼的孩子教授 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 Rachel 創辦公司，是因為之前在 Millfield 設計的 workshops 很受歡迎。最後一句說每個孩子都需要 social skills，也要知道如何 polite and well-mannered。這段功能是介紹她的課程種類。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “younger children”。原文對應 “7- to 10-year-olds”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Her courses range from a three-hour workshop on basic manners for 7- to 10-year-olds…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她的課程由為 7 至 10 歲孩子而設、三小時的 basic manners workshop 開始。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 younger children 對應 7- to 10-year-olds；課程內容是 basic manners。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： basic manners = 2 words，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 basic manners。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "comprehensive",
+      "answerKey": "comprehensive",
+      "type": "Question Analysis",
+      "prompt": "“Cotswold School is a 34 ______ school.”",
+      "translation": "Cotswold School 是一間 ______ school。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句講 Oxbridge season；最後一句講 first impressions。中間把 independent schools 和Cotswold School 作對比，交代它的學校類型。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用地名定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Cotswold School”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the Cotswold School, in Bourton-on-the-Water, a Gloucestershire comprehensive, it’s a different story.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“At the Cotswold School, in Bourton-on-the-Water, a Gloucestershire comprehensive, it’s a different story.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 Bourton-on-the-Water 的 Cotswold School，一間 Gloucestershire comprehensive，情況則不同。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “comprehensive” 指 comprehensive school，即綜合中學／非選拔式中學。題目空格後已有 school，所以只需填 comprehensive。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： comprehensive = 1 word，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "confidence and authority",
+      "answerKey": "confidence and authority",
+      "type": "Question Analysis",
+      "prompt": "“Rachel teaches the boys how to put more 35 ______ into their walking.”",
+      "translation": "Rachel 教男生如何在走路時加入更多 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句已經提到男生練習走路，嘗試在走路方式中加入某些特質。最後一句轉到服裝邀請語，說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“come as you are” 通常不能按字面理解。題目問 walking，所以段首就是目標位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “walking”。原文有 “the way they walk”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The boys … have fun swaggering up and down to music, trying to inject more confidence and authority into the way they walk.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "男生一邊聽音樂一邊有趣地來回大步走，嘗試把更多自信和權威感注入自己的走路方式之中。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“put more ___ into their walking” = “inject more ___ into the way they walk”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 confidence and authority。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數檢查： confidence / and / authority = 3 words，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 36–40 TRUE / FALSE / NOT GIVEN 題要看題目命題和文章資訊是同方向、相反，還是資料不足；分析時要保留題目給出的標籤。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“All of the Oxbridge candidates at Cotswold School are receiving coaching from Rachel Holland.”",
+      "translation": "Cotswold School 所有 Oxbridge candidates 都正在接受 Rachel Holland 的指導。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句講 Oxbridge season；最後一句說 first impressions 很重要。這段中間介紹 Cotswold School 的八位 Oxbridge candidates 以及 Rachel 的 tuition。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用定位詞找句子"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Oxbridge candidates”、“Cotswold School”、“Rachel Holland”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here, the eight Oxbridge candidates, all boys, are being given intensive social grooming courtesy of Rachel Holland…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Here, the eight Oxbridge candidates, all boys, are being given intensive social grooming courtesy of Rachel Holland…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這裡，八位 Oxbridge candidates，全都是男生，正在接受 Rachel Holland 提供的 intensive social grooming。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 all of the Oxbridge candidates；原文說 the eight Oxbridge candidates，表示該校這組Oxbridge candidates 全部八人都在接受訓練。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“receiving coaching” = “being given intensive social grooming / tuition”"
+            },
+            {
+              "kind": "quote",
+              "text": "“All of the Oxbridge candidates” = “the eight Oxbridge candidates”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Some of Rachel’s courses include tips on writing.”",
+      "translation": "Rachel 的一些課程包括寫作方面的提示。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 Rachel 因 workshops 受歡迎而創辦公司；最後一句說每個孩子都需要 social skills。這段列出不同課程內容，因此適合找 writing 相關證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用定位詞找句子"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “courses” 和 “writing”。原文沒有 tips on writing，但有 “write a thank-you letter”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Her courses range from … a one-term course for school leavers on etiquette and life skills, which covers all aspects of modern life including how to walk in high heels, accept a compliment, write a thank-you letter, and know when not to use a mobile phone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她的課程包括一個給 school leavers 的一學期 etiquette and life skills 課程，涵蓋現代生活各方面，例如如何穿高跟鞋走路、接受稱讚、寫 thank-you letter，以及知道甚麼時候不應使用手機。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“tips on writing” = “write a thank-you letter”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of Rachel’s courses include” = “a one-term course … covers … including”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "寫 thank-you letter 屬於寫作相關技巧，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Rachel thinks her job would be more difficult if she was teaching the boys.”",
+      "translation": "Rachel 認為，如果她本身是教這些男生的老師，這份工作會較難。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說這些技能以前被視為父母責任，但現在父母也常困惑。最後一句說 Rachel 到 state sector 嘗試她的技巧。這段有 Rachel 對教 social skills 的看法，也提到她從校外進來的身份。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用定位詞找句子"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “teaching the boys” 和 “more difficult”。原文沒有直接寫 more difficult，但有 “it helps that I’m coming in from outside”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“I think social skills need to be taught as a proper subject in schools, not an add-on, although it helps that I’m coming in from outside and am not their maths or physics teacher.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我認為 social skills 需要作為學校中的正式科目教授，而不是附加項目；不過，我是從外面進來的人，而且不是他們的 maths 或 physics teacher，這一點有幫助。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “if she was teaching the boys” 應理解為：如果她是他們平日的學科老師。原文說她從外面來、不是他們的 maths or physics teacher，這會有幫助。換句話說，校外身份令課程更容易被接受；若她本身是他們的日常老師，效果可能較難達到。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“would be more difficult” = 原文 “it helps that I’m coming in from outside” 的反向理解“teaching the boys” = being their maths or physics teacher所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“The skills Rachel teaches are the key to getting an Oxbridge place.”",
+      "translation": "Rachel 教的技能是取得 Oxbridge 學位名額的關鍵。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 5。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句說 headmistress Ann Holland 透過 family connection 認識 Rachel 的工作；最後一句說她覺得這些內容非常 practical。這段會評估 workshop 的作用和限制。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用定位詞找句子"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “key”、“getting into Oxbridge”。原文直接有 “key to getting into Oxbridge”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Neither she, nor the boys, think for a minute that knowing how to hand round canapés is the key to getting into Oxbridge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "她和男生們都完全不認為，懂得如何傳遞 canapés 就是進入 Oxbridge 的關鍵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說這些技能是 key；原文明確說 she and the boys do not think for a minute that such knowledge is the key。方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“skills Rachel teaches” = knowing how to hand round canapés / social grooming skills“getting an Oxbridge place” = getting into Oxbridge題目肯定；原文否定。所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“The boys are not interested in things that are not relevant to them.”",
+      "translation": "男生對和自己生活不相關的東西沒有興趣。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 7。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一句以 morning suit 的問題開始；最後一句 Alex Bexon 說這像 acting，是把自己的形象傳達出去。這段處理男生對某些看似不貼近日常生活內容的反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用定位詞找句子"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “not relevant” 和 “interested”。原文有 “clearly not relevant” 和 “wax enthusiastic”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Aspects of the workshop, like knowing when to wear a top hat, are clearly not relevant to their young lives, but they like being told what’s what and, during a break, wax enthusiastic.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "workshop 的某些部分，例如知道何時戴 top hat，明顯和他們年輕人的生活沒有直接關係；但他們喜歡有人清楚告訴他們應該怎樣做，而且在休息時表現得很熱情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說男生對不相關的內容沒有興趣。原文說雖然有些內容 clearly not relevant，但男生 like being told what’s what，而且 wax enthusiastic。這直接反駁題目。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "quote",
+              "text": "“not relevant to them” = “not relevant to their young lives”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“not interested” 和 “like / wax enthusiastic” 方向相反。所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Can You Charm Your Way into Oxbridge_.pdf",
+    "sha256": "754f4492a88b398f1974588e2363064e6a32f2cf03ba326b359e4861c94ee3c6",
+    "pageCount": 14
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "只看首句和尾句，可以見到文章由 Oxbridge 面試季開始，描述大量申請者焦急等候面試通知；尾句則說 Rachel Holland 直接提醒男生，人們往往在見面幾秒內判斷別人，所以 first impressions很重要。這段功能是介紹背景：Cotswold School 的八位男生正在接受社交禮儀訓練。中間對比independent schools 和 comprehensive school，也交代 Rachel 的身份、外表和課程內容。"
+      },
+      {
+        "number": "2",
+        "summary": "第二段首句說 Rachel step-by-step 教男生一套好的 “meet and greet”；尾句用一段想像中的入場訊息，表達面試者要讓考官感到自己有自信、值得注意、想得到學位。只看首尾句，可以判斷這段集中講面試入場技巧，包括微笑、眼神接觸、firm handshake、坐姿、進門、關門、走路、握手和何時坐下。Questions 31–32 和部分面試技巧都能在這段定位。"
+      },
+      {
+        "number": "3",
+        "summary": "第三段首句說 Rachel Holland 創辦 Rachel Holland Associates，是因為她在 Millfield 設計的workshops 很受歡迎；尾句是她的核心理念：每個孩子不論背景，都需要 social skills，也需要知道如何有禮貌和 well-mannered。這段功能是介紹 Rachel 的公司、課程範圍和教育理念。中間列出她教的內容，包括 basic manners、high heels、accept a compliment、thank-you letter 和 mobile phone etiquette。Q33、Q37 很可能在此段。"
+      },
+      {
+        "number": "4",
+        "summary": "第四段首句說過去這些禮儀教育被視為父母責任；尾句說 Rachel 已把新公司帶入四間independent schools，現在到 Cotswold School 在 state sector 試行。這段功能是解釋為何學校需要教 social skills：很多家長自己也困惑，學生也害怕餐桌禮儀和與未來僱主吃飯。中間有Rachel 對學校課程的看法，也提到她從校外進入課堂這一點有幫助。"
+      },
+      {
+        "number": "5",
+        "summary": "第五段首句說 headmistress Ann Holland 透過 family connection 認識 Rachel 的工作；尾句引用Ann 的反應，說這些內容非常 practical，她希望自己年輕時也有人教過。只看首尾句，可以知道本段重點是校長為何邀請 Rachel，以及 workshop 的實際效果。中間明確說校長和男生都不認為canapé 技巧是入讀 Oxbridge 的關鍵，但 workshop 令男生變得更有 presence。"
+      },
+      {
+        "number": "6",
+        "summary": "第六段首句說男生來自廣泛社會背景，吸收大量 tips，並用音樂練習走路，嘗試在走路中加入confidence and authority；尾句說 “come as you are” invitations 通常不代表字面意思。這段功能是描述 workshop 的實操內容：男生學 small talk、儲備問題、微笑、服裝質素、尺寸、suit vents、evening dress、smart casual 等。Q29 和 Q35 的證據都在這段。"
+      },
+      {
+        "number": "7",
+        "summary": "第七段首句以 Rachel 問 “When would you wear a morning suit?” 開始，男生猜 “In the morning?”；尾句由 Alex Bexon 說這像 acting，是把 image 傳達出去。這段功能是收束整個workshop：有些內容如 top hat 和 morning suit 明顯未必貼近男生目前生活，但他們仍然投入並感到有用。Alex Green 說課程 boosted his confidence，也讓他更懂得控制自己在 interview 的表現。"
+      }
+    ]
+  }
+}

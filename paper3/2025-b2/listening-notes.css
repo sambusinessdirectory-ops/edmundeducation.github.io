@@ -1,0 +1,24 @@
+.notes-evidence{margin:10px 0 14px;border:1px solid #d8bd75;border-radius:12px;background:#fff9e9;overflow:hidden;font:16px/1.7 'Avenir Next','PingFang TC',sans-serif;color:#14394d}
+.notes-evidence>summary{padding:10px 14px;cursor:pointer;font-size:14px;font-weight:700;color:#12616b}
+.notes-evidence>summary:hover{background:#fff0c6}
+.notes-evidence>summary:focus-visible,.notes-evidence-transcript:focus-visible{outline:2px solid #16727c;outline-offset:-3px}
+.notes-evidence-content{padding:0 16px 16px}
+.notes-evidence-content .notes-evidence-scope{font:700 14px/1.5 'Avenir Next','PingFang TC',sans-serif;color:#9b5917;margin:4px 0 10px}
+.notes-evidence-content .notes-evidence-tip{font:16px/1.75 'Avenir Next','PingFang TC',sans-serif;margin:0 0 16px}
+.notes-evidence-transcript{max-height:390px;overflow-y:auto;overscroll-behavior:contain;border-top:1px solid #e5d7b6;padding-top:10px}
+.notes-evidence-transcript .speech{display:grid;grid-template-columns:75px minmax(0,1fr);gap:10px;padding:10px 0;border-bottom:1px solid #eadfc5}
+.notes-evidence-transcript .speaker{font-size:14px;color:#12616b}
+.notes-evidence-transcript p[lang=en]{font:16px/1.7 Georgia,serif;margin:0 0 7px}
+.notes-evidence-transcript .translation{font-size:14px;line-height:1.7}
+@media(max-width:550px){.notes-evidence-transcript .speech{grid-template-columns:1fr;gap:3px}.notes-evidence-content{padding:0 12px 12px}}
+@media print{.notes-evidence,.notes-audio{display:none!important}}
+.notes-audio{background:#eaf5f3;border:1px solid #b9d7d1;border-radius:16px;padding:20px;margin:0 0 24px;font:16px/1.7 'Avenir Next','PingFang TC',sans-serif;color:#14394d}
+.notes-audio .notes-audio-kicker{font:700 12px/1.5 'Avenir Next',sans-serif;letter-spacing:.12em;color:#14747d;margin:0 0 6px}
+.notes-audio h3{font-size:22px;margin:0 0 8px}
+.notes-audio .notes-audio-help,.notes-audio-status{font:14px/1.7 'Avenir Next','PingFang TC',sans-serif;margin:0 0 12px}
+.notes-audio audio{display:block;width:100%;margin:10px 0 0}
+.notes-audio-status:empty{display:none}
+.notes-audio-retry{border:1px solid #16727c;border-radius:8px;padding:8px 14px;color:#12616b;background:white;font:700 14px/1.5 'Avenir Next','PingFang TC',sans-serif}
+.notes-section-play{border:1px solid #12616b;border-radius:20px;padding:9px 15px;background:#14747d;color:#fff;font:700 14px/1.5 'Avenir Next','PingFang TC',sans-serif;margin:0 0 14px;cursor:pointer}
+.notes-section-play:hover{background:#0d5661}
+.notes-section-play:focus-visible{outline:2px solid #a76c13;outline-offset:3px}

@@ -1,0 +1,1702 @@
+{
+  "id": "p2-126-hunting-perfume-in-madagascar",
+  "catalogueId": "p2-126",
+  "catalogueIds": [
+    "p2-126"
+  ],
+  "passage": 2,
+  "title": "Hunting Perfume in Madagascar",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 15,
+  "answerKey": [
+    "B",
+    "E",
+    "A",
+    "D",
+    "B",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "NOT GIVEN",
+    "headspace",
+    "filters",
+    "needle"
+  ],
+  "questions": [
+    {
+      "number": 15,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "“a currently favoured place to seek novel plants for fragrances”",
+      "translation": "一個現時適合／受青睞、用來尋找新香氣植物的地方。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目要找「哪段提到一個地方」，而且這個地方適合尋找 novel plants/ novel fragrances。定位時要特別留意地名和表示「理想來源」的語句。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The island of Madagascar is an evolutionary hot spot; 85 per cent of its plants are unique, making it an ideal source for novel fragrances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Madagascar 這個島是演化熱點；它 85% 的植物都是獨有的，因此成為尋找新香氣的理想來源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far no one has been able to identify the plant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，仍沒有人能識別這種植物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 已經明顯指向 Madagascar 的獨特植物和新香氣來源。最後一句的unidentified plant 也提示：這裡確實有尚未被充分認識的植物，和題目的 novel plants 很貼近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “place”、“novel plants” 和 “fragrances”。原文不一定寫 “favoured place”，但有 “ideal source for novel fragrances”。另外，“sent an expedition to Madagascar” 也顯示這不是抽象介紹，而是實際選中 Madagascar 作為尋香地點。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The island of Madagascar is an evolutionary hot spot; 85 per cent of its plants are unique, making it an ideal source for novel fragrances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Madagascar 是演化熱點；85% 植物獨有，因此是新香氣的理想來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 Madagascar；核心判斷是 “making it an ideal source”。題目中的 “currently favoured place” 可理解為「現在被選作尋找新香氣的地方」；原文中的 expedition 正好證明該公司實際前往當地。答案因此是 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "currently favoured place= an ideal source / sent an expedition to Madagascar novel plants for fragrances= unique plants / novel fragrances"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 也提到 perfumers 需要新組合和新氣味，但它沒有指出具體地方。題目問的是place，所以要找地名 Madagascar，而非整個香水行業背景。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Question Analysis",
+      "prompt": "“a promising new undertaking with limited existing fragrance sources”",
+      "translation": "一項有前景的新嘗試，但現有香氣來源有限。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找一段同時提到「新嘗試」和「現有來源有限」。promising 對應 highly sought after / hope to find something unique；limited existing sources 對應 “the only thing we have is seaweed”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The group also set out from the island to capture the smell of coral reefs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊也從島上出發，去捕捉珊瑚礁的氣味。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If we get it right, you can sniff the sample and it will transport you straight back to the moment you smelt it in the rainforest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我們成功，你一聞樣本，就會像直接回到當初在 rainforest 聞到那種氣味的一刻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 明顯描述一項新任務：捕捉 coral reefs 的氣味，並在實驗室重建香氣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這和 “new undertaking” 很接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “limited existing fragrance sources” 是關鍵。Paragraph E 中有一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“From the ocean, the only thing we have is seaweed, and that has a dark and heavy aroma.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的 “only thing we have” 直接表示現有 ocean fragrance source 很有限。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Odours that conjure up sun-kissed seas are highly sought after by the perfume industry.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "能令人聯想到陽光照耀海洋的氣味，在香水行業中非常受追捧。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“From the ocean, the only thing we have is seaweed, and that has a dark and heavy aroma. We hope to find something unique among the corals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自海洋的香氣來源，目前我們只有 seaweed，而它的氣味較暗沉厚重。我們希望在珊瑚之中找到獨特的東西。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩句合起來正好支援題目。sun-kissed seas 的氣味很受追捧，代表這項嘗試有市場前景；但海洋來源目前主要只有 seaweed，所以來源有限。答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "promising new undertaking= highly sought after / hope to find something unique limited existing fragrance sources= the only thing we have is seaweed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Question Analysis",
+      "prompt": "“the demanding conditions that fragrances must withstand”",
+      "translation": "香氣必須承受的嚴苛條件。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Matching Information。題目核心是 demanding conditions / withstand，應找香味要抵抗甚麼破壞或處理條件。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ever since the unguentari plied their trade in ancient Rome, perfumers have had to keep abreast of changing fashions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自古羅馬調香師做生意以來，perfumers 一直需要跟上時尚變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But nature has been in the business far longer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但大自然在這門生意中存在得更久。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 是行業背景段。它說明為何需要新氣味來源：時尚變、消費者挑剔、產品要求提高。題目中的 demanding conditions 很可能出現在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “demanding conditions” 和 “withstand”。原文用 “survive tougher treatment” 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“resisting the destructive power” 表達同一意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“And many of today’s fragrances have to survive tougher treatment than ever before, resisting the destructive power of bleach or a high-temperature wash cycle.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "而且今天很多香氣必須承受比以往更嚴苛的處理，抵抗漂白劑的破壞力或高溫洗滌程序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句非常直接。題目中的 “must withstand” 對應 “have to survive” 和 “resisting”。“demanding conditions” 則具體指 bleach 和 high-temperature wash cycle。答案是 A。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "demanding conditions= tougher treatment must withstand= have to survive / resisting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Question Analysis",
+      "prompt": "“a substitute for a material no longer used by perfumers”",
+      "translation": "一種可替代調香師已不再使用的材料的來源。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找「舊材料」和「替代來源」。舊材料是 castoreum，來自 beavers 的 musk glands；替代來源是 Calophyllum tree 的 sap，因為它有 animal smell。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of the most promising fragrances were those given off by resins that oozed from the bark of trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些最有前景的香氣來自樹皮滲出的 resins。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The company does not use animal products any longer, but it was wonderful to find a tree with an animal smell.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這家公司已不再使用動物產品，但找到一棵帶有動物氣味的樹，令人十分驚喜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph D 會講 tree resin 的香味價值，並把它連到一種過去由動物提供、現在不再使用的材料。題目中的 substitute 在最後一句已經有清楚方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “material no longer used” 和 “perfumers”。Paragraph D 中有 “castoreum” 和 “The company does not use animal products any longer”。這兩句組成答案鏈。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But it also smelt of something the fragrance industry has learnt to live without—castoreum, a substance extracted from the musk glands of beavers and once a key ingredient in many perfumes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但它也聞起來像一種香水行業已經學會不再依賴的東西：castoreum。這是一種從海狸 musk glands 提取的物質，曾經是許多香水的重要成分。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The company does not use animal products any longer, but it was wonderful to find a tree with an animal smell.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司已不再使用動物產品，但找到一棵帶有動物氣味的樹是很好的發現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Calophyllum tree 的 sap 有類似 castoreum 的氣味。由於公司不再使用 animal products，這種樹香便可提供一種植物來源的 animal smell。答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "material no longer used= fragrance industry has learnt to live without / does not use animal products any longer substitute= a tree with an animal smell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Question Analysis",
+      "prompt": "“a land expedition seeking new scents”",
+      "translation": "一次在陸地上尋找新香氣的考察。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 expedition 和 land-based search。Paragraph B 有 rainforest、paths、animal tracks、vegetation、Nosy Hara interior，都是陸地行動訊號。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The island of Madagascar is an evolutionary hot spot; 85 per cent of its plants are unique, making it an ideal source for novel fragrances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Madagascar 是演化熱點；85% 植物獨有，因此是尋找新香氣的理想來源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far no one has been able to identify the plant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，仍沒有人能識別這種植物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已顯示這段和植物、地點、新香氣來源有關。題目說 land expedition，Paragraph B 中間描述的正是團隊在 rainforest 和島上內陸的實地行動。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “expedition”、“land” 和 “new scents”。原文中有 “sent an expedition to Madagascar in pursuit of some of nature’s most novel fragrances”，以及 “trailed up and down paths and animal tracks”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Last October, Quest International … sent an expedition to Madagascar in pursuit of some of nature’s most novel fragrances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "去年十月，Quest International 派出一支考察隊前往 Madagascar，尋找大自然中一些最新奇的香氣。"
+            },
+            {
+              "kind": "label",
+              "text": "另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each day the team set out from their ‘hotel’ … and trailed up and down paths and animal tracks, exploring the thick vegetation up to 10 metres on either side of the trail.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊每天從他們的「酒店」出發，沿著小路和動物足跡上下探索，查看路兩旁最多十米內的濃密植被。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子同時支援 expedition、land movement 和 seeking scents。答案是 B。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "land expedition= set out from their hotel / paths and animal tracks / thick vegetation seeking new scents= in pursuit of nature’s most novel fragrances"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Manufacturers can now choose to use synthetic odours in perfumes.”",
+      "translation": "製造商現在可以選擇在香水中使用人工合成氣味。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目主體是 manufacturers / perfumers，動作是 choose to use synthetic odours。要看原文是否支持 synthetic smells 已可被製造和使用。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ever since the unguentari plied their trade in ancient Rome, perfumers have had to keep abreast of changing fashions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自古羅馬調香師做生意以來，perfumers 一直需要跟上時尚變化。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But nature has been in the business far longer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但大自然在這方面已有更長歷史。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 是香水材料來源和行業需求的背景段。它比較 synthetic molecules 和 nature，因此適合回答這題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “synthetic odours”。原文沒有 odours exactly in同一句開頭，但有 “synthetic molecules” 和 “odours on the perfumer’s palette are artificial”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Chemists can create new smells from synthetic molecules, and a growing number of the odours on the perfumer’s palette are artificial.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "化學家能夠用合成分子創造新氣味，而調香師氣味調色盤上愈來愈多氣味都是人工的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接支持題目。Chemists can create synthetic smells；perfumers’ palette 上已有 growing number of artificial odours。題目說 manufacturers can choose to use synthetic odours，和原文意思一致。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "synthetic odours= smells from synthetic molecules / artificial odours can choose to use= are on the perfumer’s palette判斷題目與原文同方向，答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "Question Analysis",
+      "prompt": "“Madagascar was selected because it has plants that are rare elsewhere in the world.”",
+      "translation": "Madagascar 被選中，是因為它有在世界其他地方罕見的植物。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要檢查原因關係。題目說 Madagascar 被選中 because plants rare elsewhere。原文若說其植物 unique，而且因此是 novel fragrances 的 ideal source，就能支持。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The island of Madagascar is an evolutionary hot spot; 85 per cent of its plants are unique, making it an ideal source for novel fragrances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Madagascar 是演化熱點；85% 植物獨有，因此是尋找新香氣的理想來源。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“So far no one has been able to identify the plant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到目前為止，仍沒有人能識別這種植物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經把 Madagascar 的植物獨特性和 fragrance search 連起來。這正是題目的核心。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Madagascar”、“selected” 和 “rare elsewhere”。原文中的 “unique” 比 “rare elsewhere” 更強，因為 unique 表示獨有。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The island of Madagascar is an evolutionary hot spot; 85 per cent of its plants are unique, making it an ideal source for novel fragrances.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Madagascar 是演化熱點；85% 植物獨有，因此成為新香氣的理想來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“unique” 表示這些植物在其他地方找不到或極具獨特性。題目用 “rare elsewhere” 概括這一點，範圍稍微較保守，仍然得到原文支持。接著原文說公司 sent an expedition to Madagascar，也支援 “was selected”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "rare elsewhere= unique was selected= sent an expedition to Madagascar判斷題目與原文一致，答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Capturing a smell is one of the most important steps in creating new aromas.”",
+      "translation": "捕捉氣味是創造新香氣其中一個最重要步驟。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的重點是 “one of the most important”。原文確實詳細描述 capturing smells，但是否把它評為最重要步驟之一，需要明確評價或排序。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C / E Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With most flowers or fruits, the hunters used a technique originally designed to trap and identify air pollutants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對大多數花或果實，尋香者使用一種原本設計來捕捉和識別空氣污染物的技術。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After a few hours, the hunters retract the rubber needle and seal the tube, keeping the odour molecules inside until they can be injected into the gas chromatograph in the laboratory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾小時後，尋香者收回 rubber needle 並封管，把氣味分子保存在裡面，直到可在實驗室注入gas chromatograph。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 也提到 capture the smell of coral reefs 和 recreate captured smells。這兩段都和capturing smell 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Capturing a smell” 和 “most important steps”。原文有 trap、capture、extracted、injected、recreate，但沒有 “most important”、“key step”、“crucial step” 等評價詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The team’s task now is to recreate the best of the captured smells.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "團隊現在的任務是重建所捕捉到的最佳氣味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說 captured smells 是後續重建的材料，說明捕捉氣味很有用。然而，題目說的是「其中一個最重要步驟」，這是程度判斷。文章沒有把捕捉、分析分子、重建香氣、尋找替代材料之間作重要性排序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文有相關背景，但沒有 “one of the most important” 這個評價。沒有相反證據，所以不能選FALSE；證據不足，答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 對技術描寫很詳細，學生容易覺得這一步必然很重要。可是 IELTS 的 TRUE /FALSE / NOT GIVEN 要看文章有沒有明確支持「最重要之一」這種程度詞。詳細描寫不等於重要性排名。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "Question Analysis",
+      "prompt": "“The hunters’ fragrance-trapping technique was entirely their own invention.”",
+      "translation": "這些尋香者用來捕捉香氣的技術完全是他們自己的發明。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的控制詞是 “entirely their own invention”。原文若說技術 borrowed 或 originally designed for another purpose，便和題目相反。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With most flowers or fruits, the hunters used a technique originally designed to trap and identify air pollutants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對大多數花或果實，尋香者使用一種原本設計來捕捉和識別空氣污染物的技術。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After a few hours, the hunters retract the rubber needle and seal the tube, keeping the odour molecules inside until they can be injected into the gas chromatograph in the laboratory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾小時後，尋香者收回 rubber needle 並封管，把氣味分子保存在裡面，直到可在實驗室注入gas chromatograph。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句直接指出 technique originally designed for air pollutants。這和題目的 “entirely their own invention” 有清楚衝突。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “fragrance-trapping technique” 和 “own invention”。原文相關詞是 “originally designed” 和 Paragraph B 的 “borrowed from the pollution monitoring industry”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“With some simple technology, borrowed from the pollution monitoring industry, and a fair amount of ingenuity, the perfume hunters bagged 20 promising new aromas in the Madagascan rainforest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "憑著一些從污染監測行業借來的簡單技術，再加上不少巧思，這些尋香者在 Madagascar rainforest 捕捉到 20 種有前景的新香氣。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“With most flowers or fruits, the hunters used a technique originally designed to trap and identify air pollutants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對大多數花或果實，尋香者使用一種原本設計來捕捉和識別空氣污染物的技術。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句都顯示技術來源不完全屬於他們自己。題目用 “entirely” 把說法推得過強；原文用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“borrowed” 和 “originally designed” 明確改變來源。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義／反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "entirely their own invention= fully invented by the hunters borrowed from the pollution monitoring industry= taken/adapted from another field originally designed to trap air pollutants= original purpose was outside perfumery判斷原文給出相反資訊，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "“Most customers prefer perfumes made from substances extracted from animals’ musk glands.”",
+      "translation": "大多數顧客偏好由動物 musk glands 提取物製成的香水。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要看兩件事：第一，是否提到 animal musk glands；第二，是否提到 most customers prefer這類消費者偏好。只有第一項出現，不足以判 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some of the most promising fragrances were those given off by resins that oozed from the bark of trees.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一些最有前景的香氣來自樹皮滲出的 resins。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The company does not use animal products any longer, but it was wonderful to find a tree with an animal smell.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "公司已不再使用動物產品，但找到一棵帶有動物氣味的樹令人驚喜。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 的確出現 animal smell 和 musk glands，但它主要講材料來源替代，沒有明確談customer preference。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “customers”、“prefer”、“animals’ musk glands”。原文有 “musk glands of beavers”和 “once a key ingredient”，但沒有 customers、prefer、most customers。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀相關句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“castoreum, a substance extracted from the musk glands of beavers and once a key ingredient in many perfumes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "castoreum 是一種從海狸 musk glands 提取的物質，曾經是許多香水的重要成分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只說 castoreum 曾是 many perfumes 的 key ingredient。它沒有說今天的顧客偏好這種材料，也沒有說 most customers 的取向。後一句還說公司已不再使用 animal products，但這也只是公司材料政策，不能推出大多數顧客喜歡或不喜歡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷原文提到 animal musk gland substance 的歷史用途，但缺少 “Most customers prefer” 這個核心資料。答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“once a key ingredient in many perfumes” 很容易令人聯想到「以前很受歡迎」。可是 key ingredient 指配方地位，prefer 指顧客偏好，兩者關係不同。文章沒有提供市場調查或顧客選擇資料。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "headspace",
+      "answerKey": "headspace",
+      "type": "Question Analysis",
+      "prompt": "Question 25",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目類型： Diagram Label Completion，ONE WORD ONLY"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With most flowers or fruits, the hunters used a technique originally designed to trap and identify air pollutants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對大多數花或果實，尋香者使用一種原本設計來捕捉和識別空氣污染物的技術。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After a few hours, the hunters retract the rubber needle and seal the tube, keeping the odour molecules inside until they can be injected into the gas chromatograph in the laboratory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾小時後，尋香者收回 rubber needle 並封管，把氣味分子保存在裡面，直到可在實驗室注入gas chromatograph。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段完整描述 smell-trapping apparatus。Diagram 題通常跟程序描述順序一致，所以 Question 25–27 全部應回 Paragraph C。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看圖上位置和題目詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同題組圖中，25 的標籤是 “_____ of the flask or a glass jar”，箭嘴指向花上方、flask / jar 內部的空間。這個位置剛好對應 Paragraph C 的 “The fragrance molecules are trapped in this‘headspace’”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A glass bell jar or flask is fitted over the flower. The fragrance molecules are trapped in this‘headspace’…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個玻璃 bell jar 或 flask 會套在花上。香氣分子被困在這個 “headspace” 之中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“this headspace” 指的是花與玻璃容器之間的空氣空間，也就是香氣分子聚集的地方。圖中 25 問的是 flask / glass jar 的某個空間，因此答案是 headspace。答案形式檢查headspace 是一個字，符合 ONE WORD ONLY。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "filters",
+      "answerKey": "filters",
+      "type": "Question Analysis",
+      "prompt": "Question 26",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目類型： Diagram Label Completion，ONE WORD ONLY"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With most flowers or fruits, the hunters used a technique originally designed to trap and identify air pollutants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對大多數花或果實，尋香者使用一種原本設計來捕捉和識別空氣污染物的技術。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After a few hours, the hunters retract the rubber needle and seal the tube, keeping the odour molecules inside until they can be injected into the gas chromatograph in the laboratory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾小時後，尋香者收回 rubber needle 並封管，把氣味分子保存在裡面，直到可在實驗室注入gas chromatograph。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 的程序順序是：容器罩住花 → headspace 內有 fragrance molecules → air 被抽出→ 經過 filters → filters 吸收 volatile molecules。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看圖上位置和題目詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同題組圖中，26 的提示是 “pumping out air through _____ collecting fragrance”，箭嘴指向出口旁的小部件。這與原文 “pumping the air out over a series of filters” 完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The fragrance molecules are trapped in this ‘headspace’ and can be extracted by pumping the air out over a series of filters which absorb different types of volatile molecules.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香氣分子被困在這個 “headspace” 之中，然後可透過把空氣抽出並讓它經過一系列 filters 來提取；這些 filters 會吸收不同種類的揮發性分子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "圖中 “through _____ collecting fragrance” 指 air 被抽出後經過的吸收裝置。原文答案詞是 filters。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查filters 是一個字，符合 ONE WORD ONLY。圖中用 through filters 在文法上也自然。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "answer": "needle",
+      "answerKey": "needle",
+      "type": "Question Analysis",
+      "prompt": "Question 27",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目類型： Diagram Label Completion，ONE WORD ONLY"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With most flowers or fruits, the hunters used a technique originally designed to trap and identify air pollutants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "對大多數花或果實，尋香者使用一種原本設計來捕捉和識別空氣污染物的技術。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After a few hours, the hunters retract the rubber needle and seal the tube, keeping the odour molecules inside until they can be injected into the gas chromatograph in the laboratory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾小時後，尋香者收回 rubber needle 並封管，把氣味分子保存在裡面，直到可在實驗室注入gas chromatograph。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半描述第二種裝置：若不能安裝 headspace gear，就用 absorbent probe。圖中左邊也有probe syringe，所以 Question 27 應看 probe 的細節。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看圖上位置和題目詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "同題組圖中，27 的提示是 “_____ made of silicone rubber”，旁邊有 probe syringe。原文中唯一符合 “made of silicone rubber” 的名詞是 “needle”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The probe looks something like a hypodermic syringe, except that the ‘needle’ is made of silicone rubber which soaks up molecules from the air.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 probe 看起來有點像 hypodermic syringe，不過它的 “needle” 是由 silicone rubber 製成，可以從空氣中吸收分子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “_____ made of silicone rubber”。原文直接說 “the ‘needle’ is made of silicone rubber”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案是 needle。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查needle 是一個字，符合 ONE WORD ONLY。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Hunting Perfume in Madagascar.pdf",
+    "sha256": "87ff68ffaf9ccd6e5981ca228ffea27864a934675daad528a0ab2067fe9a5c01",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Part 1｜Skim Roadmap：只看每段首句和末句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句由古羅馬調香師引入，說 perfumers 一直要跟上不斷轉變的時尚；末句說化學家能製造人工氣味，但大自然在這方面已有更長歷史。只看首尾句，可以估計本段主要交代香水行業為何一直需要新氣味。中間大概會提到消費者要求提高、產品用途擴大、香味要抵受 bleach 和高溫洗滌等更嚴苛條件，並引出自然界仍是重要來源。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Madagascar 是演化熱點，85% 植物獨有，因此是尋找 novel fragrances 的理想來源；末句說某種流出甜香樹液的植物至今仍無人能識別。首尾合看，本段是實地尋香段：Quest International 派隊到 Madagascar，在 rainforest 和 Nosy Hara 尋找新香氣。段落中間應會描述expedition、路線、植被、花香、樹液和未被識別的植物。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說對大多數花或果實，尋香者使用一種原本用來捕捉和識別空氣污染物的技術；末句說獵香者把 rubber needle 收回並封管，保存氣味分子，等回實驗室分析。只看首尾句，可以預測這段詳細解釋 smell-capturing technique。核心會包括 glass bell jar / flask、headspace、filters、gas chromatograph，以及不能裝 headspace gear 時使用 absorbent probe。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說最有前景的一些香氣來自樹皮滲出的 resins；末句說公司已不再使用動物產品，但能找到一棵帶有動物氣味的樹令人驚喜。只看首尾句，這段焦點應是 resin fragrances，尤其Calophyllum tree 的樹液。中間會連到 traditional perfumes、frankincense、myrrh、castoreum，以及植物香氣如何替代以前來自 beaver musk glands 的動物性材料。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說團隊也從島上出發，捕捉 coral reefs 的氣味；末句說若成功，聞樣本時會把人帶回當初在rainforest 聞到該氣味的一刻。首尾句顯示本段從陸地轉到海洋，再轉向實驗室重建香氣。內容應包括 ocean scents、seaweed 來源有限、coral smell、aquaspace apparatus、underwater filters，以及之後如何用較易取得的化學物重造香味。"
+      }
+    ]
+  }
+}

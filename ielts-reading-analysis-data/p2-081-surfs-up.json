@@ -1,0 +1,1537 @@
+{
+  "id": "p2-081-surfs-up",
+  "catalogueId": "p2-081",
+  "catalogueIds": [
+    "p2-081"
+  ],
+  "passage": 2,
+  "title": "Surfs Up",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "D",
+    "D",
+    "D",
+    "A",
+    "C",
+    "B",
+    "D",
+    "B",
+    "C",
+    "drowning",
+    "100",
+    "all-inclusive camps"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D — are lighter and more manoeuvrable today.",
+      "answerKey": "D — are lighter and more manoeuvrable today.",
+      "type": "Multiple Choice",
+      "prompt": "“Longboards and shortboards”",
+      "translation": "Longboards 和 shortboards 兩者如何？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問兩類 surfboards 的共同特點。題幹只有 “Longboards and shortboards”，所以選項必須同時適用於 longboards 和 shortboards。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Surfboards were originally made of solid wood and were large and cumbersome, often weighing in excess of 100 pounds.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Surfboards 原本由實心木製成，體積大而笨重，重量常常超過 100 磅。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shortboarders, whose boards are usually between 1.8 and 2 metres long, also benefit from greater manoeuvrability and are able to turn and adjust more quickly thanks to the lighter boards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shortboarders 的板通常長 1.8 至 2 米；他們也受惠於更高的操控性，並且因為板較輕，可以更快轉向和調整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜本段在比較舊式木製板和現代輕身 surfboards。第一句說昔日重而笨，最後一句說今日 lighter boards 帶來 greater manoeuvrability。題目問 longboards and shortboards，正好要讀這段中間對兩者的說明。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Longboards and shortboards”。Paragraph 2 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is especially beneficial for longboarders…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shortboarders … also benefit from greater manoeuvrability…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句把 longboarders 和 shortboarders 分別提到，適合用來判斷共同點。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句一："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nowadays, they are more commonly constructed from polyurethane foam, making them much lighter, which means better manoeuvrability for the boarder.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如今，surfboards 更常由 polyurethane foam 製成，令它們輕很多，也代表 boarder 有更好的操控性。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“Shortboarders … also benefit from greater manoeuvrability and are able to turn and adjust more quickly thanks to the lighter boards.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Shortboarders 也受惠於更高操控性，並因為板較輕而能更快轉向和調整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D 說 “are lighter and more manoeuvrable today”。這正好概括 modern surfboards 的共同變化：lighter + better manoeuvrability。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除： A 說 today often weigh more than 100 pounds，但原文說重逾 100 pounds 是 originally solid wood surfboards 的特徵。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 today usually made out of solid wood，和原文 “Nowadays … polyurethane foam” 相衝。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說兩類板都 require difficult walking manoeuvres。原文只說 successful longboarders must learn walking manoeuvres；shortboarders 沒有這個要求。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "lighter = much lighter / lighter boards more manoeuvrable = better manoeuvrability / greater manoeuvrability today = nowadays所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "D — was first practised in the South Pacific.",
+      "answerKey": "D — was first practised in the South Pacific.",
+      "type": "Multiple Choice",
+      "prompt": "“The sport of surfing”",
+      "translation": "關於 surfing 這項運動，哪一項說法正確？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is claimed that surfing was first observed by European explorers among native Tahitians in 1767.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據稱，歐洲探險家於 1767 年首次在 native Tahitians 之中觀察到 surfing。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, it is in Northern California where perhaps the most famous and glamorous surfing takes place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，也許最著名、最具魅力的 surfing 正是在 Northern California 發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段處理 surfing 的歷史來源和今日流行地點。Question 15 問 sport of surfing 的起源或早期情況，所以主要看 Paragraph 3 前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “first”。Paragraph 3 第一個句子直接有 “first observed”。同段又有 “native Tahitians”、“Hawaii”、“South Pacific”。這些地名會幫我們判斷選項。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is claimed that surfing was first observed by European explorers among native Tahitians in 1767.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據稱，surfing 首次被歐洲探險家觀察到，是在 1767 年 native Tahitians 之中。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Later travellers also reported seeing naked locals, both men and women, amusing themselves in the surf off the coast of Hawaii.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "後來的旅行者也報告說，看見 Hawaii 海岸外的當地男女赤身在浪中娛樂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句把 surfing 的早期觀察放在 Tahiti 和 Hawaii，而後面又說這可能是它與 South Pacific and Hawaii 聯繫密切的原因。因此，選項 D “was first practised in the South Pacific” 是最合理的概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除： A 說 invented by European explorers。原文說 European explorers observed it，沒有說他們發明它。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 說 first observed by native Tahitians。主體錯了；原文是 European explorers observed surfing among native Tahitians。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 說 commonly performed naked by both men and women。原文只說 later travellers reported seeing naked locals，這是早期旅行者的觀察，不代表 today commonly performed naked。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D 用 “practised” 概括 Tahitians / Hawaiian locals 做 surfing 的事，最貼近原文。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "first practised = first observed among people doing it South Pacific = Tahiti / Hawaii cultural region surfing synonymous with the South Pacific = supports origin association所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "D — all around the world.",
+      "answerKey": "D — all around the world.",
+      "type": "Multiple Choice",
+      "prompt": "“Surfing has become very popular”",
+      "translation": "Surfing 已變得非常流行，在哪裡？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is claimed that surfing was first observed by European explorers among native Tahitians in 1767.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據稱，歐洲探險家於 1767 年首次在 native Tahitians 之中觀察到 surfing。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Indeed, it is in Northern California where perhaps the most famous and glamorous surfing takes place.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，也許最著名、最具魅力的 surfing 正是在 Northern California 發生。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句處理起源，末句處理現代著名地點。題目問 popularity，所以要看本段後半由 South Pacific轉到現代全球流行的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “popular”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, however, the popularity of surfing is such that surf clubs have popped up almost everywhere…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而到了今天，surfing 的受歡迎程度已高到 surf clubs 幾乎到處都出現。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Today, however, the popularity of surfing is such that surf clubs have popped up almost everywhere, from the windy west coast of Ireland to the ultrachic Californian beaches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而今天，surfing 受歡迎到 surf clubs 幾乎到處都有，從多風的 Ireland 西岸，到極時尚的California 海灘都有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“almost everywhere” 是答案核心。它不是只說 Ireland 或 California，而是用這兩個地點作例子，表示分布很廣。選項 D “all around the world” 是對 “almost everywhere” 的自然概括。錯項排除： A “in windy coastal areas” 只抓到 Ireland 的形容詞 windy，範圍太窄。 B “on the fashionable west coast of Ireland” 把兩個地點混在一起；原文是 windy west coast of Ireland 和 ultrachic Californian beaches。fashionable / ultrachic 描述 California，不是 Ireland。 C “in Tahiti in recent years” 沒有原文支援；Tahiti 是早期觀察地，不是 recent popularity 的重點。 D “all around the world” 最能概括 “almost everywhere”。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "D — be aware of the risks involved.",
+      "answerKey": "D — be aware of the risks involved.",
+      "type": "Multiple Choice",
+      "prompt": "“Before a novice surfer takes to the water, he should”",
+      "translation": "初學者下水前應該怎樣？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prospective surfer would be well advised to consider the dangers associated with the sport before he takes to the waves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "準備學 surfing 的人，在下水衝浪前，最好先考慮這項運動相關的危險。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ideal water conditions for surfing can be extremely demanding on the body, too, and require the surfer to be an extremely competent swimmer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "理想的 surfing 水況也可能對身體要求極高，並要求 surfer 是非常有能力的游泳者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 4 明顯是安全警告段。題目有 “before … takes to the water”，原文第一句有 “before he takes to the waves”，定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Before” 和 “takes to the water”。原文中對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“before he takes to the waves”"
+            },
+            {
+              "kind": "quote",
+              "text": "“consider the dangers associated with the sport”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prospective surfer would be well advised to consider the dangers associated with the sport before he takes to the waves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "準備衝浪的人在下水前，最好先考慮這項運動的危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“would be well advised to” 表示「最好應該」。“consider the dangers” 對應 “be aware of the risks involved”。“prospective surfer” 對應 novice surfer，因為兩者都指準備開始或未熟練的 surfer。錯項排除： A 天氣報告沒有提到。 B 避免大浪沒有提到。 C good buoyancy 不是對人的要求；原文說 board offers buoyancy。 D 完整概括 “consider the dangers associated with the sport”。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "A — get in the way of your safety in some cases.",
+      "answerKey": "A — get in the way of your safety in some cases.",
+      "type": "Multiple Choice",
+      "prompt": "“Although a surfboard can help you stay buoyant, it can also”",
+      "translation": "雖然 surfboard 可以幫你保持浮力，但它也可能怎樣？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prospective surfer would be well advised to consider the dangers associated with the sport before he takes to the waves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "準備學 surfing 的人，在下水前最好先考慮這項運動相關的危險。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ideal water conditions for surfing can be extremely demanding on the body, too, and require the surfer to be an extremely competent swimmer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "理想的 surfing 水況也可能對身體要求極高，並要求 surfer 是非常有能力的游泳者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "本段講危險。題目提到 buoyant / surfboard，因此要看中間關於 board 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “surfboard”、“buoyant”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the board itself offers buoyancy, it can also be a hindrance…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾乎就是題目的改寫來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although the board itself offers buoyancy, it can also be a hindrance, and a deadly one at that if its leash becomes entangled in a reef, holding the surfer underwater.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然板本身提供浮力，但它也可能造成阻礙；如果板繩纏在礁石上，把 surfer 困在水下，這種阻礙甚至可能致命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “can help you stay buoyant” 對應 “offers buoyancy”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 的 “get in the way of your safety” 對應 “be a hindrance, and a deadly one”。hindrance 是阻礙；deadly 說明這種阻礙可危及生命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項排除： B 說幫你逃離危險海洋生物，原文沒有。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “very dangerous weapon” 把 board 說成武器，原文沒有這種意思。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “prevent concussion or death” 方向錯；原文說它在某些情況下可能 deadly。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "C — fatal.",
+      "answerKey": "C — fatal.",
+      "type": "Multiple Choice",
+      "prompt": "“Unless you are pulled from the water quickly, a bad collision can prove”",
+      "translation": "如果你沒有很快被拉離水面，嚴重碰撞可能會變成怎樣？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Collisions with sandbanks, reefs, surfboards and other surfers can also be extremely hazardous and can lead to concussion – a death sentence if the surfer is not rescued from the water quickly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與沙洲、礁石、surfboards 和其他 surfers 碰撞也可能非常危險，並可能導致腦震盪；如果 surfer沒有很快被救離水面，這就可能是死刑般的後果。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“You certainly need to be a courageous soul to brave the waves in this sport.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "要勇敢面對這項運動中的海浪，你確實需要有相當勇氣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 5 繼續講 surfing 危險，第一句已直接提到 collision、concussion、rescued quickly 和 death sentence。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “collision”、“quickly”、“pulled from the water”。原文用："
+            },
+            {
+              "kind": "quote",
+              "text": "“Collisions…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“if the surfer is not rescued from the water quickly”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a death sentence”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Collisions with sandbanks, reefs, surfboards and other surfers can also be extremely hazardous and can lead to concussion – a death sentence if the surfer is not rescued from the water quickly.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與沙洲、礁石、surfboards 和其他 surfers 碰撞非常危險，可能導致腦震盪；若 surfer 沒有很快被救離水面，後果可能致命。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Unless you are pulled from the water quickly” 對應原文 “if the surfer is not rescued from the water quickly”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a bad collision can prove fatal” 對應 “a death sentence”。 fatal = 致命。所以答案是 C。錯項排除： A “hard to escape” 沒有準確表達 death sentence。 B “life-saving” 方向相反。 D “rare” 是後面 marine animal attacks 的程度詞，並非 collision 後果。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "B, D",
+      "answerKey": "B, D",
+      "type": "Choose TWO",
+      "prompt": "“Which TWO of the following are hazards that surfers face?”",
+      "translation": "以下哪兩項是 surfers 會面對的危險？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這類題要每個選項獨立檢查，不能用一段模糊證據一次包辦兩個答案；手冊也說，Choose TWO要追蹤每個選項是否被提及、支持、限制或否定。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 4–5 Paragraph 4 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prospective surfer would be well advised to consider the dangers associated with the sport before he takes to the waves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "準備衝浪的人在下水前最好先考慮這項運動的危險。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Collisions with sandbanks, reefs, surfboards and other surfers can also be extremely hazardous…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與沙洲、礁石、surfboards 和其他 surfers 碰撞也可能非常危險。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看這兩段首句，就知道 hazards 主要集中在 Paragraphs 4–5。Question 20–21 要從多個危險中選出兩個最精準受選項支持的項目。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “hazards”。原文相關危險包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“drowning”"
+            },
+            {
+              "kind": "quote",
+              "text": "“leash becomes entangled in a reef”"
+            },
+            {
+              "kind": "quote",
+              "text": "“demanding on the body”"
+            },
+            {
+              "kind": "quote",
+              "text": "“collisions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“attacks by marine animals”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “the potential for shark attacks” 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although rarer, attacks by marine animals are not uncommon, with sharks, rays, seals and jellyfish posing the greatest threats.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然較少見，海洋動物攻擊並非罕見，其中 sharks、rays、seals 和 jellyfish 構成最大威脅。"
+            },
+            {
+              "kind": "quote",
+              "text": "“sharks … posing the greatest threats” 直接支持 shark attacks as a hazard。 D “demanding water conditions” 正確。原文：“Ideal water conditions for surfing can be extremely demanding on the body, too, and require the surfer to be an extremely competent swimmer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "理想 surfing 水況也可能對身體要求極高，並要求 surfer 是非常有能力的游泳者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“extremely demanding on the body” 表示水況本身會造成體力和安全挑戰，所以 D 是 hazard。錯項分析： A 很有迷惑性。原文說 “its leash becomes entangled in a reef, holding the surfer underwater”。真正危險機制是 board leash 纏住 reef 後把 surfer 困在水下；選項 A 寫成 “being held underwater by reefs”，省略 leash，表述不夠精確。由於題目要求 TWO，B 和 D 更穩。 C “frequent encounters with jellyfish” 過度加強。原文說 marine animal attacks are not uncommon，也把 jellyfish 列為 threats，但沒有說 surfers frequently encounter jellyfish。 E “hazardous rescue attempts” 沒有原文支援。原文只說如果未能很快 rescued，concussion 可致命，沒有說 rescue attempts 本身危險。所以答案是 B, D。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        20,
+        21
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "B, C",
+      "answerKey": "B, C",
+      "type": "Choose TWO",
+      "prompt": "“Which TWO of the following are true about surfing?”",
+      "translation": "以下哪兩項關於 surfing 的說法正確？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraphs 6–7 Paragraph 6 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But for those who insist on giving it a go, the rewards can be very gratifying, and it isn’t too expensive to get up and running either.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但對那些堅持想試一試的人來說，回報可以非常令人滿足，而且開始學也不算太昂貴。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Difficult though it may be to master the art of surfing, it can also be extremely rewarding, and there are few feelings to compare with the exhilaration of riding out your first wave.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然掌握 surfing 技巧很困難，但它也可以非常有回報；成功完成第一次乘浪的興奮感，幾乎沒有多少感覺可以相比。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾方向，這兩段從 hazards 轉入 rewards、courses、cost、adrenaline。Question 22–23 的true statements 多半來自這裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項關鍵詞包括 rewarding、adrenaline、expensive、career、dangerous for swimmers。原文中直接可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“rewards can be very gratifying”"
+            },
+            {
+              "kind": "quote",
+              "text": "“extremely rewarding”"
+            },
+            {
+              "kind": "quote",
+              "text": "“exhilaration”"
+            },
+            {
+              "kind": "quote",
+              "text": "“daredevil adrenaline junkies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“isn’t too expensive”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "逐項判斷"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the rewards can be very gratifying”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：回報可以非常令人滿足。"
+            },
+            {
+              "kind": "label",
+              "text": "又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“it can also be extremely rewarding, and there are few feelings to compare with the exhilaration of riding out your first wave.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它也可以非常有回報，而成功完成第一次乘浪的興奮感很難相比。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B 的 “as you see yourself improve” 不是原文逐字，但 “master the art” 和 “riding out your first wave” 表示學習和進步帶來成就感。B 是最貼近 rewarding 這條線的選項。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "原文最後一段說："
+            },
+            {
+              "kind": "quote",
+              "text": "“for those daredevil adrenaline junkies among you who fancy having a go…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：給那些想試一試的冒險型 adrenaline junkies……"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“adrenaline junkies” 直接支持 surfing can be an adrenaline rush。錯項分析： A “rewarding career” 沒有原文支援。rewarding 是情緒和成就感，不是職業。 D “expensive to start” 與原文相衝；文章說 “it isn’t too expensive to get up and running”。 E “dangerous for swimmers around you” 沒有提到。原文說 other surfers 可能碰撞，但沒有說swimmers around you。所以答案是 B, C。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        22,
+        23
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "drowning",
+      "answerKey": "drowning",
+      "type": "Table Completion",
+      "prompt": "Question 24",
+      "translation": "常見危險包括 ______；板繩纏在礁石上可能致命；困難水況；碰撞和腦震盪；本地海洋生物攻擊。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Common dangers include 24 __________; a board leash entangled in a reef can be deadly; difficult water conditions; collisions and concussion; attacks by local sea life”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The prospective surfer would be well advised to consider the dangers associated with the sport before he takes to the waves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "準備衝浪的人在下水前，最好先考慮這項運動相關的危險。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ideal water conditions for surfing can be extremely demanding on the body, too, and require the surfer to be an extremely competent swimmer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "理想 surfing 水況也可能對身體要求極高，並要求 surfer 是非常有能力的游泳者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 common dangers 直接對應本段 dangers associated with the sport。表格後面已列出leash entangled in reef 和 difficult water conditions，所以空格 24 應該是本段最先提到的另一種危險。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “Common dangers”。原文中第一個具體危險是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Like all water sports, surfing carries with it the inherent danger of drowning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "和所有水上運動一樣，surfing 本身帶有溺水的固有危險。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格在 “Common dangers include ___” 後面，需要名詞。原文名詞是 “drowning”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制 NO MORE THAN TWO WORDS AND/OR A NUMBER，一個字完全符合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "common dangers = dangers associated with the sport include = carries with it drowning = drowning"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：drowning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "100",
+      "answerKey": "100",
+      "type": "Table Completion",
+      "prompt": "Question 25",
+      "translation": "五日課程的起始費用：£______",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“Starting cost of five-day courses — £ 25 __________”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But for those who insist on giving it a go, the rewards can be very gratifying, and it isn’t too expensive to get up and running either.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但對那些堅持想試一試的人來說，回報可以非常令人滿足，而且開始學也不算太昂貴。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Balance, of course, plays a crucial role, so a lot of time is dedicated to balance training exercises as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，平衡感扮演重要角色，所以課程也會花很多時間做平衡訓練。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段介紹入門學習、費用和課程內容。Question 25 有 five-day courses 和cost，是很強定位詞。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "定位詞是 “five-day courses”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Five-day courses start from as little as £100…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "五日課程最低只需 £100 起。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目表格已經給出 “£”，所以空格只需要填數字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文是 “£100”，填入表格 “£ 100” 就完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制允許 number，所以答案是 100。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Starting cost = start from as little as five-day courses = Five-day courses£100 = £100"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "all-inclusive camps",
+      "answerKey": "all-inclusive camps",
+      "type": "Table Completion",
+      "prompt": "Question 26",
+      "translation": "______ 包括住宿、膳食、課堂和設備。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目位置："
+            },
+            {
+              "kind": "quote",
+              "text": "“26 __________ include Accommodation; meals; lessons; equipment”"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But for those who insist on giving it a go, the rewards can be very gratifying, and it isn’t too expensive to get up and running either.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但對那些堅持想試一試的人來說，回報可以非常令人滿足，而且開始學也不算太昂貴。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Balance, of course, plays a crucial role, so a lot of time is dedicated to balance training exercises as well.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當然，平衡感非常重要，所以很多時間也會用於平衡訓練。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段介紹 surfing courses 和學習配套。題目列出的 accommodation、meals、lessons、equipment是課程 package 內容，應該在本段前半找到。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Accommodation; meals; lessons; equipment”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“there are all-inclusive camps, too, which cover accommodation, meals, lessons and equipment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "也有全包式 camp，涵蓋住宿、膳食、課堂和設備。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格在 “___ include Accommodation; meals; lessons; equipment” 前面，需要一個名詞短語作主語。原文主語是 “all-inclusive camps”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“which cover” 被表格改寫成 “include”。字數限制 NO MORE THAN TWO WORDS AND/OR A NUMBER。“All-inclusive” 有連字號，通常算一個詞；“camps” 是第二個詞，所以符合限制。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "include = cover accommodation, meals, lessons and equipment = Accommodation; meals; lessons; equipment all-inclusive camps = all-inclusive camps"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：all-inclusive camps"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Surfs Up.pdf",
+    "sha256": "ac295e687f34c8e13b0a49fc15e12ed8c8d8534cea0ef31e25641845d1308525",
+    "pageCount": 18
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句直接說 surfing 有兩大分支：longboarding 和 shortboarding。末句說 longboards 比shortboards 長很多，而且需要不同 riding style。只看首尾句，可以先估計本段功能是介紹衝浪的基本分類和兩類 surfboard 的主要差別。它未進入歷史、危險或課程，只建立後文比較longboards 和 shortboards 的基礎。Question 14 的 longboards and shortboards 很自然會先回到這一段和下一段一起判斷。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 surfboards 原本由 solid wood 製成，體積大又笨重，常常超過 100 pounds。末句說shortboarders 也受惠於更高 manoeuvrability，可以因為更輕的板而更快轉向和調整。只看首尾句，可以估計本段功能是比較舊式木板和現代 foam surfboards，重點在 lighter、better manoeuvrability。中間亦提到 longboarders 要在板上行走調整位置，但這一點只適用於longboarders，不適用於兩類板。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說據稱歐洲探險家在 1767 年首次在 native Tahitians 之中觀察到 surfing。末句說今日最著名、最有 glamour 的 surfing 可能在 Northern California。只看首尾句，可以估計本段功能是交代surfing 的起源印象和今日全球流行。中間提到 Hawaii、South Pacific、Ireland、California 等地，說明 surfing 雖與南太平洋和 Hawaii 關係密切，但今日 surf clubs 已遍布很多地方。Questions 15–16 主要來自這段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句提醒 prospective surfer 在下水前應考慮這項運動的危險。末句說理想的 surfing 水況也可能對身體非常 demanding，並要求 surfer 是非常 competent swimmer。只看首尾句，可以估計本段轉入安全風險，尤其是 drowning、board buoyancy、leash entangled in reef、demanding water conditions。Questions 17、18 和部分 hazards 題會集中在這段，因為題目有 risk、buoyant、water conditions 等定位詞。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說與 sandbanks、reefs、surfboards 和其他 surfers 碰撞也非常危險，可能導致 concussion。末句說要 brave the waves，需要相當 courage。只看首尾句，可以估計本段繼續講 surfing hazards，但焦點轉到 collision 和 marine animals。中間提到如果 collision 後沒有很快被救起， concussion 可變成 death sentence；亦說 sharks、rays、seals、jellyfish 是最大威脅。Question 19和 shark hazards 會定位到這段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句用 “But” 轉折，說堅持想試的人會得到 gratifying rewards，而且開始學 surfing 並不太昂貴。末句說 balance 很重要，所以課程會花很多時間做 balance training exercises。只看首尾句，可以估計本段功能是介紹入門課程和學習安排：beginner/intermediate courses、five-day courses、all-inclusive camps、longboards for beginners、catching and riding waves、balance training。 Questions 22–26 的 course cost 和 all-inclusive camps 會定位到這段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句承認 surfing 很難 master，但也 extremely rewarding，尤其第一次成功 riding out your first wave 的 exhilaration 很難相比。末句用 Jaws 開玩笑，提醒讀者 shark attack 幾乎不會發生。只看首尾句，可以估計本段是結尾鼓勵段：它承認難度，同時強調刺激、成就感和 adrenaline。 Question 22–23 中 rewarding 和 adrenaline rush 會用到這段，而最後一句亦呼應前文的 marine animal danger。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "小提醒：Questions 20–21 裡，A 很有迷惑性，因為原文確實提到 leash entangled in a reef, holding the surfer underwater。不過選項 A 寫成 “being held underwater by reefs”，省略了真正機制 leash。若按最精準的 IELTS 選項判斷，我會選 B 和 D；A 比較像不完整改寫。"
+  ]
+}

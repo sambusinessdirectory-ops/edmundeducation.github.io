@@ -1,0 +1,2020 @@
+{
+  "id": "p1-127-paul-nash",
+  "catalogueId": "p1-127",
+  "catalogueIds": [
+    "p1-127"
+  ],
+  "passage": 1,
+  "title": "Paul Nash",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "C",
+    "D",
+    "E",
+    "原 PDF 未提供第 4 個答案",
+    "D",
+    "B",
+    "I",
+    "E",
+    "A",
+    "C",
+    "a war artist",
+    "self-taught",
+    "more abstract"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "C, D, E, 原 PDF 未提供第 4 個答案",
+      "answerKey": "C, D, E, 原 PDF 未提供第 4 個答案",
+      "type": "Choose FOUR Letters",
+      "prompt": "“Which FOUR statements are correct about Nash’s life and work?”",
+      "translation": "以下哪四項關於 Nash 的人生和作品是正確的？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Question 1–4"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題屬於 Multiple-answer Questions。做法不能只找熟悉字眼，要逐一核對每個選項。每個正確選項都要有獨立原文支援；如果選項使用原文字眼，但改變了動作、程度、時間或態度，就不能選。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“He stopped making an effort after becoming a high-ranking army officer.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他成為高級軍官後便停止努力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In March 1917, he was sent to the Western Front.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1917 年 3 月，他被派往西部戰線。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In November 1917, in the immediate aftermath of the Battle of Passchendaele, Nash returned to France.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1917 年 11 月，在 Passchendaele 戰役剛結束後，Nash 返回法國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估 Paragraph F 會講 Nash 的一戰前線經歷，以及他在戰場與回國之間的活動。這與 officer、rank、wartime work 有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “high-ranking army officer” 和 “stopped making an effort”。原文最接近的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nash, who took part in the offensive at Ypres, had reached the rank of lieutenant in the Hampshire Regiment by 1916.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nash 曾參與 Ypres 攻勢，到 1916 年已在 Hampshire Regiment 中達到 lieutenant 軍階。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "同段下一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whenever possible, Nash made sketches of life in the trenches.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "只要情況許可，Nash 便會為戰壕生活作素描。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接排除 A。原文沒有說他停止努力，反而說他在前線仍盡可能 sketch。再往後看，他受傷回倫敦後，還根據 sketches 創作一系列 war paintings，而且作品展出後反應良好："
+            },
+            {
+              "kind": "quote",
+              "text": "“While recuperating in London, Nash worked from his sketches to produce a series of war paintings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在倫敦休養期間，Nash 根據自己的素描創作了一系列戰爭畫作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 的問題有兩層。第一，“lieutenant” 不宜概括成 high-ranking army officer；第二，原文說他繼續 sketch 和 produce war paintings，方向與 “stopped making an effort” 相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：A 錯。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 B選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“He had pursued a dream since childhood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他自童年起便追求一個夢想。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paul Nash, the elder son of William Nash and his first wife, Caroline Jackson, was born in London on 11 May 1889.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paul Nash 是 William Nash 和其第一任妻子 Caroline Jackson 的長子，於 1889 年 5 月 11 日在倫敦出生。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their lives were overshadowed by their mother’s mental illness and Nash himself was greatly helped by his nurse who, with some elderly neighbours, introduced him to the universe of plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的生活籠罩在母親精神病的陰影下，而 Nash 本人得到 nurse 很大幫助；這位 nurse 和一些年長鄰居把他帶入植物世界。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段是童年背景和 early influence，不是 ambition 或 lifelong dream 的段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “childhood” 和 “dream”。原文有 childhood environment 的相關內容："
+            },
+            {
+              "kind": "quote",
+              "text": "“the garden of Wood Lane House at Iver Heath, and the countryside of the Chiltern Hills, with its sculptural beeches and chalky contours, were early influences on the development of the three children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Iver Heath 的 Wood Lane House 花園，以及 Chiltern Hills 的鄉郊景色，包括雕塑般的山毛櫸和白堊質地貌，都是三個孩子成長發展中的早期影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只支持「童年環境對 Nash 有影響」。它沒有說他從小追求一個 dream，也沒有說他自小立志成為 painter、war artist 或 experimental artist。題目加入了 “pursued a dream” 這個心理動機，但文章沒有提供。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：B 缺乏原文支援，不能選。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“He temporarily stopped painting for a particular reason.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他曾因某個特定原因暫時停止繪畫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the outbreak of war, Nash considered the possibility of joining the British Army.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "戰爭爆發時，Nash 考慮加入英國軍隊。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are many nice creatures in my company and I enjoy the burst of exercise—marching, drilling all day in the open air about the pleasant parts of Regent’s Park and Hampstead Heath.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我的連隊裡有許多不錯的人，我也享受那一陣體能活動——整天在 Regent’s Park 和Hampstead Heath 一帶的戶外行軍和操練。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段會講 Nash 參軍時的心態和原因。這與 “particular reason” 及"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“stopped painting” 很相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “stopped painting”。原文沒有用 stopped，但有非常接近的短語：“so I have given up painting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以我已經放棄繪畫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "完整原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every man must do his bit in this horrible business so I have given up painting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這場可怕的事情中，每個人都必須盡自己的一分力，所以我已經放棄繪畫。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚支持 C。題目說 “temporarily stopped painting”，原文說 “given up painting”。雖然"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“temporarily” 不是原文逐字出現，但後文顯示他後來繼續 sketch、produce war paintings，並成為war artist。因此可合理理解為他在參軍當下暫停繪畫活動。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“temporarily stopped painting”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“given up painting”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“for a particular reason”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every man must do his bit in this horrible business”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：C 正確。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“He was unaffected by exhibitions that influenced some of his peers.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些展覽影響了他的同輩，但他沒有受到影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nash was educated at St Paul’s School and the Slade School of Art, where he met Dora Carrington.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nash 就讀於 St Paul’s School 和 Slade School of Art，並在 Slade 認識 Dora Carrington。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also became a close friend of Gordon Bottomley, who took a keen interest in his career.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也成為 Gordon Bottomley 的 close friend；Bottomley 對他的事業非常關注。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段在交代 Nash 的藝術教育、人際網絡和藝術影響。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “unaffected by exhibitions” 和 “peers”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike some of his contemporaries at the Slade School, Nash remained untouched by the two post-impressionist exhibitions organised by Roger Fry in 1910 and 1912.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 Slade School 的一些同輩不同，Nash 並未受到 Roger Fry 於 1910 和 1912 年組織的兩場後印象派展覽影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句幾乎直接對應選項。"
+            },
+            {
+              "kind": "quote",
+              "text": "“some of his contemporaries” 對應 “some of his peers”；“remained untouched” 對應 “was unaffected”；“two post-impressionist exhibitions” 對應 “exhibitions”。判斷：D 正確。中伏位在於 “Untouched” 不是 physical sense，而是指藝術影響上沒有被打動或改變。選項 E選項：“He collaborated artistically with a relative.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他曾與一位親屬在藝術上合作或共同展出。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nash had his first one-man show, of ink and wash drawings, at the Carfax Gallery in 1912.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nash 於 1912 年在 Carfax Gallery 舉行首次個展，展出 ink and wash drawings。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nash had a noteworthy sense of order and of the niceties of presentation; his pictures were beautifully framed, drawings mounted, his studio precisely and decoratively tidy, and oddments which he collected were worked up into compositions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nash 對秩序和展示細節有出色感覺；他的畫作裝框精美，素描裝裱妥善，畫室精確而富裝飾性地整潔，他收集的零碎物件也被整理成構圖作品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估這段講早期展覽和作品呈現方式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “relative” 和 “collaborated artistically”。原文中最相關的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The following year he shared an exhibition at the Dorian Leigh Gallery with his brother, John Nash.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "翌年，他與弟弟 John Nash 在 Dorian Leigh Gallery 共同舉行展覽。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“his brother, John Nash” 是 relative；“shared an exhibition” 表示二人共同參與藝術展出。題目用“collaborated artistically” 比原文 “shared an exhibition” 稍為概括，但仍在合理範圍內。這不是說他們共同創作同一幅畫，而是說他們在藝術展示上合作／共同展出。判斷：E 正確。選項 F選項：“Some of his paintings were presented chaotically.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他有些畫作被混亂地呈現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nash had a noteworthy sense of order and of the niceties of presentation; his pictures were beautifully framed, drawings mounted, his studio precisely and decoratively tidy…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nash 對秩序和展示細節有出色感覺；他的畫作裝框精美，素描裝裱妥善，畫室精確而富裝飾性地整潔。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這與 “presented chaotically” 方向相反。原文重點是 order、beautifully framed、mounted、tidy，全部都指向有條理和精心呈現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：F 錯。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 G選項："
+            },
+            {
+              "kind": "quote",
+              "text": "“His work after enlistment attracted less attention than his earlier work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他入伍後的作品比早期作品吸引較少注意。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F and G"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan and Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "Paragraph F 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This work was well-received when exhibited later that year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這批作品在同年稍後展出時反應良好。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The drawings he made then, of shorn trees in ruined and flooded landscapes, were the works that made Nash’s reputation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他當時所畫的那些作品，描繪被砍削的樹木、毀壞而水浸的風景，正是建立 Nash 名聲的作品。"
+            },
+            {
+              "kind": "label",
+              "text": "同段還說："
+            },
+            {
+              "kind": "quote",
+              "text": "“his drawings made in the field had a more immediate public impact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他在戰場實地所作的素描對公眾有更即時的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子全部顯示 his work after enlistment attracted strong attention。選項說 less attention，與原文相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：G 錯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Questions 1–4 小結可被原文清楚支持的答案是： C D E題目要求 FOUR，但文章只支持三項。若這是正式練習題，建議檢查原題或選項是否有抄漏。"
+            }
+          ]
+        }
+      ],
+      "numbers": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“A woman whom Nash found attractive”",
+      "translation": "一位 Nash 覺得有吸引力的女性。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paul Nash was strongly attracted to Dora Carrington.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paul Nash 深深被 Dora Carrington 吸引。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph D 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We were on the top of a bus and she wanted them then and there.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們當時在巴士頂層，而她當場就想要那些 braces。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段非常直接。第一句已經點出 Nash 被 Dora Carrington 吸引；最後一句補充二人之間的一個回憶片段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “woman” 和 “attractive”。原文用 “strongly attracted to Dora Carrington” 直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paul Nash was strongly attracted to Dora Carrington.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paul Nash 深深被 Dora Carrington 吸引。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “strongly attracted to Dora Carrington” 改寫成 “a woman whom Nash found attractive”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Dora Carrington” 是具體女性；“found attractive” 是 “was strongly attracted to” 的概括。所以答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "B",
+      "answerKey": "B",
+      "type": "Matching Information",
+      "prompt": "“Nash’s enthusiasm for the work of an artist he particularly admired”",
+      "translation": "Nash 對某位他特別欣賞的藝術家的作品有熱情或受到其吸引。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nash was educated at St Paul’s School and the Slade School of Art, where he met Dora Carrington.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nash 就讀於 St Paul’s School 和 Slade School of Art，並在那裡認識 Dora Carrington。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph B 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also became a close friend of Gordon Bottomley, who took a keen interest in his career.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他也成為 Gordon Bottomley 的 close friend；Bottomley 對他的事業非常關注。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段處理藝術教育、同輩、藝術影響和人際支持。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “artist” 和 “admired”。原文沒有 directly say “admired”，但有 “influenced by”："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead, he was influenced by the work of William Blake.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相較之下，他受到 William Blake 作品的影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 先說他沒有受 Roger Fry 組織的 post-impressionist exhibitions 影響，接著用"
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead” 轉向：“Instead, he was influenced by the work of William Blake.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相較之下，他受到 William Blake 作品的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “enthusiasm for the work of an artist he particularly admired” 是對 “influenced by the work of William Blake” 的較寬概括。文章沒有逐字使用 “enthusiasm” 或 “admired”，但在Matching Information 中，這項資訊最貼近 Paragraph B，因為該段唯一談到藝術家作品影響的就是 William Blake。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "I",
+      "answerKey": "I",
+      "type": "Matching Information",
+      "prompt": "“Nash’s works containing contrasting elements”",
+      "translation": "Nash 的作品包含相互對比的元素。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph I"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the Second World War, Nash was employed by the Ministry of Information and the Air Ministry and paintings produced by him during this period include the Battle of Britain and Totes Meer.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "二戰期間，Nash 受 Ministry of Information 和 Air Ministry 僱用；他在這一時期創作的畫作包括Battle of Britain 和 Totes Meer。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph I 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paul Nash died at 35 Boscombe Spa Road, Bournemouth, on 11 July 1946.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paul Nash 於 1946 年 7 月 11 日在 Bournemouth 的 35 Boscombe Spa Road 去世。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段是晚期和二戰時期的總結，包含二戰作品、風格評價和死亡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “contrasting elements”。原文沒有 contrasting 這個字，但有成對對比："
+            },
+            {
+              "kind": "quote",
+              "text": "“His late paintings, both oils and watercolours, are alternately brilliant and sombre in colour with the light of setting suns and rising moons, spreading over wooded and hilly landscapes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的晚期畫作，包括油畫和水彩，在色彩上時而明亮、時而陰鬱，帶有落日和升月的光，散布於樹木繁茂和丘陵起伏的風景之上。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“brilliant and sombre” 是明亮與陰鬱的對比；“setting suns and rising moons” 是落日與升月的對比。這些成對元素正好支援題目的 “contrasting elements”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“works containing contrasting elements”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“alternately brilliant and sombre”"
+            },
+            {
+              "kind": "quote",
+              "text": "“setting suns and rising moons”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 I。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“The real reason Nash joined the military”",
+      "translation": "Nash 加入軍隊的真正原因。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On the outbreak of war, Nash considered the possibility of joining the British Army.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "戰爭爆發時，Nash 考慮加入英國軍隊。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph E 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are many nice creatures in my company and I enjoy the burst of exercise—marching, drilling all day in the open air about the pleasant parts of Regent’s Park and Hampstead Heath.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我的連隊裡有許多不錯的人，我也享受那一陣體能活動——整天在 Regent’s Park 和Hampstead Heath 一帶的戶外行軍和操練。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷這段處理 Nash 加入軍隊前後的態度。Question 8 問 joined the military 的reason，自然定位到 Paragraph E。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “joined the military” 和 “reason”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“I am not keen to rush off and be a soldier.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我並不急於衝去當士兵。"
+            },
+            {
+              "kind": "label",
+              "text": "但後面又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Every man must do his bit in this horrible business so I have given up painting.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這場可怕的事情中，每個人都必須盡自己的一分力，所以我已經放棄繪畫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph E 的重要之處在於 Nash 的態度有保留。他反對殺人，也覺得戰爭 horrible。可是他仍加入 Artists’ Rifles，原因可由 “Every man must do his bit” 理解：他感到自己也應該在戰爭中承擔責任。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “real reason”，不應簡化成他喜歡 marching 或 exercise。那些是他加入後對訓練的描述；真正說明動機的是 “Every man must do his bit”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 E。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "A",
+      "answerKey": "A",
+      "type": "Matching Information",
+      "prompt": "“The significant influence of Nash’s childhood environment on his development”",
+      "translation": "Nash 童年環境對他成長發展的重要影響。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Paul Nash, the elder son of William Nash and his first wife, Caroline Jackson, was born in London on 11 May 1889.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paul Nash 是 William Nash 和其第一任妻子 Caroline Jackson 的長子，於 1889 年 5 月 11 日在倫敦出生。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph A 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Their lives were overshadowed by their mother’s mental illness and Nash himself was greatly helped by his nurse who, with some elderly neighbours, introduced him to the universe of plants.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們的生活籠罩在母親精神病的陰影下，而 Nash 本人得到 nurse 很大幫助；這位 nurse 和一些年長鄰居把他帶入植物世界。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出這段處理 Nash 的家庭和童年成長背景。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “childhood environment” 和 “development”。原文直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“the garden of Wood Lane House at Iver Heath, and the countryside of the Chiltern Hills, with its sculptural beeches and chalky contours, were early influences on the development of the three children.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Iver Heath 的 Wood Lane House 花園，以及 Chiltern Hills 的鄉郊景色，包括雕塑般的山毛櫸和白堊質地貌，都是三個孩子成長發展中的早期影響。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“garden”、“countryside”、“Chiltern Hills”、“beeches”、“chalky contours” 都屬於 childhood environment；“early influences on the development” 直接對應題目 “significant influence … on his development”。所以答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“High praise for Nash’s distinctive presentation of his work”",
+      "translation": "對 Nash 獨特作品呈現方式的高度讚賞。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nash had his first one-man show, of ink and wash drawings, at the Carfax Gallery in 1912.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nash 於 1912 年在 Carfax Gallery 舉行首次個展，展出 ink and wash drawings。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nash had a noteworthy sense of order and of the niceties of presentation; his pictures were beautifully framed, drawings mounted, his studio precisely and decoratively tidy, and oddments which he collected were worked up into compositions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nash 對秩序和展示細節有出色感覺；他的畫作裝框精美，素描裝裱妥善，畫室精確而富裝飾性地整潔，他收集的零碎物件也被整理成構圖作品。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “presentation”。原文直接出現 “niceties of presentation”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nash had a noteworthy sense of order and of the niceties of presentation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nash 對秩序和展示細節有出色感覺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“noteworthy” 就是 high praise 的訊號；“presentation” 是原字重現；後面的 “beautifully framed”、“drawings mounted”、“studio … tidy” 都具體說明他的作品呈現方式精心、有秩序。所以答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "a war artist",
+      "answerKey": "a war artist",
+      "type": "Short-answer Questions",
+      "prompt": "“Because of a successful exhibition of Nash’s wartime work, what was he appointed as?”",
+      "translation": "由於 Nash 的戰時作品展覽成功，他被任命為甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In March 1917, he was sent to the Western Front.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1917 年 3 月，他被派往西部戰線。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph F 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In November 1917, in the immediate aftermath of the Battle of Passchendaele, Nash returned to France.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1917 年 11 月，在 Passchendaele 戰役剛結束後，Nash 返回法國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段講 Nash 的一戰前線經歷和他回到法國前後的戰爭藝術工作。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “successful exhibition” 和 “appointed”。原文沒有 appointed 這個字，但有 “recruit”："
+            },
+            {
+              "kind": "quote",
+              "text": "“This work was well-received when exhibited later that year.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這批作品在同年稍後展出時反應良好。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result of this exhibition and on the advice of Edward Marsh and William Rothenstein, Charles Masterman, head of the government’s War Propaganda Bureau (WPB), decided to recruit Nash as a war artist.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由於這次展覽，加上 Edward Marsh 和 William Rothenstein 的建議，政府 War Propaganda Bureau 的負責人 Charles Masterman 決定招募 Nash 成為 war artist。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “what was he appointed as?”，答案需要名詞短語。原文說 “recruit Nash as a war artist”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此答案直接抄： a war artist字數檢查： a war artist = 3 words，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because of a successful exhibition”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“This work was well-received when exhibited”"
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result of this exhibition”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“appointed as”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“recruit Nash as”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：a war artist。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "self-taught",
+      "answerKey": "self-taught",
+      "type": "Short-answer Questions",
+      "prompt": "“How did Nash learn oil painting?”",
+      "translation": "Nash 如何學習油畫？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nash was unhappy with his work as a member of the War Propaganda Bureau.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Nash 對自己作為 War Propaganda Bureau 成員的工作感到不快。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“They were shown at the Leicester Galleries in 1918 together with his first efforts at oil painting, in which he was self-taught and quickly successful, though his drawings made in the field had a more immediate public impact.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些作品於 1918 年在 Leicester Galleries 展出，同場還有他首次嘗試的油畫；在油畫方面他是自學，並很快成功，不過他在戰場實地所作的素描對公眾有更即時的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出這段會講 war drawings、reputation、oil painting 和 public impact。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 12 問 oil painting，定位非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “oil painting”。原文直接有 “oil painting”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“in which he was self-taught and quickly successful”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這方面，他是自學的，而且很快取得成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“in which” 回指 oil painting。因此 “How did Nash learn oil painting?” 的答案是： self-taught字數檢查： self-taught = 1 word，符合字數限制。中伏位在於題目問 “How”，答案不需要寫完整句 “he was self-taught”。答案格只需填形容詞式短語 self-taught。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "more abstract",
+      "answerKey": "more abstract",
+      "type": "Short-answer Questions",
+      "prompt": "“What change occurred in Nash’s painting style in the late 1920s?”",
+      "translation": "在 1920 年代後期，Nash 的繪畫風格發生了甚麼變化？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1919, Nash moved to Dymchurch in Kent, beginning his well-known series of pictures of the sea, the breakwaters, and the long wall that prevents the sea from flooding Romney Marsh.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1919 年，Nash 搬到 Kent 的 Dymchurch，開始創作著名系列，題材包括海、breakwaters，以及防止海水淹沒 Romney Marsh 的長牆。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph H 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1933 Nash founded Unit One, the group of experimental painters, sculptors, and architects.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1933 年，Nash 創立 Unit One，這是一個由實驗畫家、雕塑家和建築師組成的團體。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段會講一戰後到 1930 年代初的題材和風格發展。Question 13 問 late 1920s，應在 Paragraph H 中部。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “late 1920s” 和 “painting style”。原文有明確年份："
+            },
+            {
+              "kind": "quote",
+              "text": "“Despite this popular acclaim, in 1929 his work became more abstract.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "儘管有這種大眾讚譽，到了 1929 年，他的作品變得更加抽象。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "1929 年屬於 late 1920s。題目問 “what change occurred”，原文說 “his work became more abstract”。因此答案是： more abstract字數檢查： more abstract = 2 words，符合 NO MORE THAN THREE WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“in the late 1920s”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“in 1929”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“What change occurred in Nash’s painting style”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“his work became more abstract”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：more abstract。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Paul Nash.pdf",
+    "sha256": "7d8f1ec82536be6348db95a322f6d55693a6993227a752dd4a9627819f87b7d8",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可建立的粗略地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句交代 Paul Nash 的出生、家庭身份和父親背景；末句轉向童年陰影與照顧者對他的幫助，尤其是母親精神病、nurse 和 elderly neighbours 帶他接觸植物世界。只看首尾句，可以先估這段是biography opening，功能是交代 Nash 的家庭、童年環境和早期影響。重點應放在Buckinghamshire、garden、Chiltern Hills、plants 這些 formative influences 上。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Nash 就讀 St Paul’s School 和 Slade School of Art，並在那裡認識 Dora Carrington；末句說 Gordon Bottomley 成為他的 close friend，並關注他的事業。只看首尾句，可以先估這段處理Nash 的藝術教育、人際圈和早期藝術影響。中間很可能會比較他受誰影響、沒有受誰影響，適合定位 artist influence 和 contemporaries 相關題目。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說 Nash 於 1912 年在 Carfax Gallery 舉行首次個展；末句引用 Myfanwy Piper，稱他有order 和 presentation 的出色感覺，作品 framed、mounted，studio tidy，收集的 oddments 也被整理成 compositions。只看首尾句，可以判斷這段處理早期展覽、與 brother John Nash 的exhibition，以及他呈現作品的方式。presentation、one-man show、shared exhibition 是關鍵。"
+      },
+      {
+        "number": "D",
+        "summary": "首句直接說 Paul Nash was strongly attracted to Dora Carrington；末句則是他回憶在巴士頂層把braces 借給 Carrington 參加 fancy-dress party。只看首尾句，這段功能很窄，主要是講 Nash 對Dora Carrington 的吸引與二人的小故事。Matching Information 題若問 attractive woman、Carrington、personal affection，幾乎一定定位到這段。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說戰爭爆發時，Nash 考慮加入 British Army；末句引用他寫給 Gordon Bottomley 的話，說他加入 Artists’ London Regiment，因每個人都必須盡一分力，所以放棄繪畫，並描述軍事訓練。只看首尾句，可以判斷這段處理 Nash 為何參軍、他對戰爭和殺人的保留態度，以及他暫停繪畫的原因。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 1917 年 3 月 Nash 被派往 Western Front；末句說 1917 年 11 月 Battle of Passchendaele 後，他返回法國。只看首尾句，可以估計這段集中於一戰前線經歷、trenches sketches、受傷回國、戰爭畫作展出，以及因此被政府 War Propaganda Bureau 招募為 war artist。war paintings、exhibition、appointment 是重點。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 Nash 對自己在 War Propaganda Bureau 的工作不快樂；末句補充，他在 field 所作drawings 比早期 oil painting 對公眾有更即時影響。只看首尾句，可以看出這段處理他的 war artist 身份、對戰爭宣傳工作的矛盾，以及那些破碎樹木、毀壞和水浸風景畫如何建立他的reputation。public impact 和 self-taught oil painting 很可能在這段。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說 1919 年 Nash 搬到 Kent 的 Dymchurch，開始畫海、breakwaters 和防止 Romney Marsh被海水淹沒的長牆；末句說 1933 年他創立 Unit One，一個 experimental painters、sculptors、architects 組成的群體。只看首尾句，可以估計這段講一戰後作品題材、成功展覽、1929 年風格抽象化，以及後來實驗藝術團體。"
+      },
+      {
+        "number": "I",
+        "summary": "首句說二戰期間 Nash 受 Ministry of Information 和 Air Ministry 僱用，創作 Battle of Britain 和Totes Meer 等畫作；末句交代他於 1946 年在 Bournemouth 去世。只看首尾句，可以判斷這段處理二戰作品、晚期風格和死亡。中間的 Myfanwy Piper 評論尤其重要，因為她說二戰 disturbed Nash but did not change his art as last war had。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "重要說明：Questions 1–4 可能有出題錯誤。",
+    "這組題要求選 FOUR letters，但根據文章，只有三個選項可被清楚支持：C、D、E。",
+    "A 與原文相反，因為 Nash 成為 lieutenant 後仍 “made sketches of life in the trenches”。",
+    "B 沒有原文支援，童年環境影響他，但文章沒有說他自小追求某個 dream。",
+    "F 與原文相反，因為 Paragraph C 說他的作品 framed、mounted、studio tidy。",
+    "G 與原文相反，因為戰後／戰時作品 “made Nash’s reputation” 並有 immediate public impact。",
+    "所以這題若必須填四個，題目或選項很可能抄漏或改寫出錯。我下面會如實按文章證據分析。"
+  ]
+}

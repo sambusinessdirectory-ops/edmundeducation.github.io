@@ -1,0 +1,1674 @@
+{
+  "id": "p2-135-the-sense-of-flavour",
+  "catalogueId": "p2-135",
+  "catalogueIds": [
+    "p2-135"
+  ],
+  "passage": 2,
+  "title": "The sense of flavour",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "acquired",
+    "differentiate",
+    "deadly",
+    "craving",
+    "seasonings",
+    "bland",
+    "inextricably linked",
+    "chemical aromas"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The brain determines which aromas we are aware of.”",
+      "translation": "大腦決定我們會意識到哪些氣味。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 TRUE / FALSE / NOT GIVEN。要判斷原文是否支持「brain / mind 會篩選我們注意到的aromas」。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Babies like sweet tastes and reject bitter ones; we know this because scientists have placed various flavours in infants’ mouths and then recorded their facial reactions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "嬰兒喜歡甜味，拒絕苦味；我們知道這點，是因為科學家曾把不同味道放進嬰兒口中，再記錄他們的面部反應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People can grow accustomed to bad smells or good smells; they stop noticing what once seemed overpowering.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人可以習慣臭味或香味；他們會停止注意原本似乎十分強烈的氣味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計這段會講 taste / smell 如何受先天反應、後天經驗和習慣影響。題目問「我們會意識到哪些 aromas」，和本段後半講 mind 如何處理氣味高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最有定位力的字是 “aromas” 和 “aware of”。原文沒有直接寫 aware of，但有 “focusing intently on some, ignoring others”。這組字正是「注意某些、忽略某些」的意思。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The mind filters out the overwhelming majority of chemical aromas that surround us, focusing intently on some, ignoring others.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "心智會過濾掉我們周圍絕大多數 chemical aromas，只集中注意其中一些，忽略另一些。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “The mind”，題目寫 “The brain”。在這篇文章語境中，mind 和 brain 都指處理感官資訊的心理／神經系統。核心動詞是 “filters out”，即篩走、排除。後面的 “focusing intently on some, ignoring others” 解釋了篩選結果：有些氣味會被注意到，有些會被忽略。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“determines which aromas we are aware of”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“filters out … focusing intently on some, ignoring others”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： determines = filters / selects are aware of = focusing intently on not aware of = ignoring答案判斷原文清楚說 mind 會篩選 aromas，決定注意哪些、忽略哪些。題目方向和原文一致，所以答案是TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The sense of taste is as efficient as the sense of smell.”",
+      "translation": "味覺和嗅覺一樣有效率。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要比較 taste 和 smell。只要原文說兩者能力不同，尤其 taste 較有限，題目便和原文衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists now believe that human beings acquired the sense of taste as a way to avoid being poisoned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家現在相信，人類取得味覺，是作為避免中毒的一種方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The aroma of food can be responsible for as much as 90% of its flavor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "食物的香氣可負責其 flavour 高達 90%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以猜到 A 段會解釋 taste 的功能，也會強調 aroma / smell 對 flavour 的重要性。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求比較 taste 和 smell 的效率，正好要看 A 段中間對 taste buds 和 olfactory system 的比較。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “taste” 和 “smell”。原文對應 “taste buds” 和 “human olfactory system”。另外要找比較語言，例如 limited、compared with、thousands。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Taste buds offer a limited means of detection, however, compared with the human olfactory system, which can perceive thousands of different chemical aromas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但與人類嗅覺系統相比，味蕾提供的偵測方式很有限；嗅覺系統可以感知數以千計不同的chemical aromas。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心比較非常清楚：taste buds = limited means of detection；olfactory system = can perceive thousands of aromas。題目說 “as efficient as”，即兩者同樣有效。原文提供了相反方向： taste 的偵測能力有限，smell 的辨識範圍大得多。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“as efficient as the sense of smell”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“limited means of detection … compared with … can perceive thousands”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： as efficient as = equal ability limited compared with = lower ability答案判斷原文並沒有把 taste 和 smell 說成同等有效。相反，原文清楚指出 taste 較有限，smell 能辨識數以千計 aromas。題目和原文衝突，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Personal tastes in food are developed in infancy.”",
+      "translation": "個人的食物口味在嬰幼兒時期形成。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 personal tastes / food preferences 是否在生命早期形成。要特別留意時間詞"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“infancy” 和原文中的 “first few years of life”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C第一句：“Babies like sweet tastes and reject bitter ones; we know this because scientists have placed various flavours in infants’ mouths and then recorded their facial reactions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "嬰兒喜歡甜味，拒絕苦味；我們知道這點，是因為科學家曾把不同味道放進嬰兒口中，再記錄他們的面部反應。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People can grow accustomed to bad smells or good smells; they stop noticing what once seemed overpowering.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人可以習慣臭味或香味；他們會停止注意原本似乎十分強烈的氣味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 C 段會講早期味覺反應和後天習慣。題目問 personal tastes 的形成時間，正好對應本段的 babies、infants、first few years of life。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “Personal tastes in food” 和 “infancy”。原文未必寫 personal tastes，但會用 food preferences。infancy 可對應 babies、infants、first few years of life、toddlers。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“A person’s food preferences, like his or her personality, are formed during the first few years of life, through a process of socialization.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個人的食物偏好，就像其性格一樣，是在生命最初幾年中，透過社會化過程形成的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “A person’s food preferences”，即個人食物偏好。核心動詞是 “are formed”，即形成。時間是 “during the first few years of life”，表示生命早期。題目中的 “Personal tastes in food”對應 food preferences；“developed” 對應 are formed；“infancy” 在這裡概括生命早期。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“Personal tastes in food are developed in infancy.”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“A person’s food preferences … are formed during the first few years of life”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "改寫關係： personal tastes in food = food preferences developed = formed infancy = first few years of life / early life答案判斷原文明確說食物偏好在生命最初幾年形成。題目把這段早期時間概括成 infancy，方向一致，所以答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Christopher Columbus found many different spices on his travels.”",
+      "translation": "Christopher Columbus 在旅途中找到許多不同香料。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的重點是 “found many different spices”。原文如果只說他出發去尋找，沒有交代找到的結果，就不能選 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The human craving for flavour has been a large unacknowledged and unexamined force in history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類對 flavour 的渴望，是歷史上一股龐大但未被充分承認和審視的力量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rise and fall of corporate empires – soft-drink companies, snack-food companies, and fast-food chains – is frequently determined by how their products taste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "企業帝國的興衰，例如汽水公司、零食公司和快餐連鎖店，往往由其產品味道決定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 E 段會講 flavour 如何推動歷史和市場。Columbus 是歷史例子，spices /seasonings 應在中間出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中 “Christopher Columbus” 是最強定位詞。掃描 E 段，可以直接找到 “In 1492, Christopher Columbus set sail…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1492, Christopher Columbus set sail in order to try to find new seasonings and thus to make his fortune from this highly prized commodity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1492 年，Christopher Columbus 出航，是為了嘗試尋找新的調味品，並藉這種價值很高的商品致富。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只提供 Columbus 的目的：he set sail in order to try to find new seasonings。關鍵在 “try to find”，意思是嘗試尋找。題目說 “found many different spices”，這是結果，而且加入 “many different” 這個數量和種類資訊。原文沒有交代他是否真的找到，也沒有說找到許多不同香料。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 缺失關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文有： set sail = 出航try to find new seasonings = 嘗試尋找新調味品題目需要： found = 已經找到many different spices = 許多不同香料答案判斷原文有目的，沒有結果；有 new seasonings，沒有 many different spices 的收穫描述。資料不足以判斷題目真假，所以答案是 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In the mid-1880s, artificial flavours were originally invented on purpose.”",
+      "translation": "在 1880 年代中期，人工香味最初是被有意發明出來的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題有兩個控制點：時間 “mid-1880s” 和方式 “on purpose”。原文若說 by accident，就和 “on purpose” 衝突。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The flavor industry emerged in the mid-1800s, as processed foods began to be manufactured on a large scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "flavor industry 在 19 世紀中期興起，當時 processed foods 開始大規模製造。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Methyl anthranilate later became the chief flavoring compound of manufactured grape juice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Methyl anthranilate 後來成為 manufactured grape juice 的主要調味化合物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 F 段會講 flavour industry 的歷史起點，以及某種人工香味化合物的發現和用途。題目問 artificial flavours 的發明方式，應看本段中後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “artificial flavours” 和 “on purpose”。原文直接有 “one of the first artificial flavours”，附近應有發現方式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Legend has it that a German scientist discovered methyl anthranilate, one of the first artificial flavours, by accident while mixing chemicals in his laboratory.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "傳說一位德國科學家在實驗室混合化學物時，偶然發現 methyl anthranilate；它是最早的人工香味之一。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是 “by accident”，即偶然、意外地。題目說 “on purpose”，即刻意地、有意地。這兩者方向相反。時間方面，原文第一句是 “mid-1800s”，題目寫 “mid-1880s”；再加上 artificial flavour 的例子出現在 “early part of the 20th century” 的背景後，題目時間也不貼合原文。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“invented on purpose”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“discovered … by accident”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷關鍵： on purpose = 有意by accident = 偶然答案判斷原文明確說最早的人工香味之一是 accidentally discovered。題目說 originally invented on purpose，和原文衝突，所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "acquired",
+      "answerKey": "acquired",
+      "type": "Summary Completion",
+      "prompt": "“It is thought that the sense of taste was 19 ______ in order to…”",
+      "translation": "人們認為味覺是被 ______，目的是……目標段落：Paragraph A",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists now believe that human beings acquired the sense of taste as a way to avoid being poisoned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家現在相信，人類取得味覺，是作為避免中毒的一種方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The aroma of food can be responsible for as much as 90% of its flavor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "食物的香氣可負責其 flavour 高達 90%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A 段開首直接講 sense of taste 的起源和目的，所以 Question 19 應從第一句找答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “It is thought” 對應原文 “Scientists now believe”。“the sense of taste was…” 直接對應"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“acquired the sense of taste”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists now believe that human beings acquired the sense of taste as a way to avoid being poisoned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家現在相信，人類取得味覺，是作為避免中毒的一種方法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是被動句 “the sense of taste was ______”。原文是主動句 “human beings acquired the sense of taste”。改成被動後，答案仍然用原文字 “acquired”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "It is thought = Scientists now believe was acquired = human beings acquired所以答案是 acquired。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "differentiate",
+      "answerKey": "differentiate",
+      "type": "Summary Completion",
+      "prompt": "“…in order to 20 ______ foods that are harmless from those that are…”",
+      "translation": "目的是把無害食物和有害食物 ______ 開來。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists now believe that human beings acquired the sense of taste as a way to avoid being poisoned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家現在相信，人類取得味覺，是作為避免中毒的一種方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The aroma of food can be responsible for as much as 90% of its flavor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "食物的香氣可負責其 flavour 高達 90%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這格承接 Question 19，仍在 A 段講 taste 的生存功能。題目中的 “foods that are harmless from those that are…” 對應原文 “food that’s good for us from food that’s not”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “foods” 和 “from”。掃描 A 段可找到 “differentiate food that’s good for us from food that’s not”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Taste is supposed to help us differentiate food that’s good for us from food that’s not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "味覺應該幫助我們分辨對我們有益的食物和對我們無益的食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：空格前是 “in order to”，後面要接原形動詞。原文正好用 “differentiate”。答案是一個字，符合ONE WORD。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "foods that are harmless = food that’s good for us those that are harmful / deadly = food that’s not separate / tell apart = differentiate所以答案是 differentiate。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "deadly",
+      "answerKey": "deadly",
+      "type": "Summary Completion",
+      "prompt": "“…foods that are harmless from those that are 21 ______.”",
+      "translation": "把無害食物和 ______ 的食物分辨開來。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Scientists now believe that human beings acquired the sense of taste as a way to avoid being poisoned.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "科學家現在相信，人類取得味覺，是作為避免中毒的一種方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The aroma of food can be responsible for as much as 90% of its flavor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "食物的香氣可負責其 flavour 高達 90%。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這格仍屬同一因果鏈：taste 幫人類避開有毒或致命食物。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “harmless” 可回找 opposite concept，即 poisonous、deadly、bitter。A 段第二句直接對比 edible plants 和 deadly ones。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Edible plants generally taste sweet; deadly ones, bitter.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "可食用植物通常嘗起來是甜的；致命的植物則是苦的。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：空格前是 “those that are”，後面需要形容詞。原文形容 deadly ones，所以答案是 deadly。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "harmless foods = edible plants / good for us those that are deadly = deadly ones所以答案是 deadly。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "craving",
+      "answerKey": "craving",
+      "type": "Summary Completion",
+      "prompt": "“In the past, this 22 ______ for flavour prompted many explorers to travel to distant lands…”",
+      "translation": "在過去，這種對 flavour 的 ______ 促使許多探險者前往遙遠土地。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The human craving for flavour has been a large unacknowledged and unexamined force in history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類對 flavour 的渴望，是歷史上一股龐大但未被充分承認和審視的力量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rise and fall of corporate empires – soft-drink companies, snack-food companies, and fast-food chains – is frequently determined by how their products taste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "企業帝國的興衰，例如汽水公司、零食公司和快餐連鎖店，往往由其產品味道決定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 段首句已直接出現 “craving for flavour”，與題目 “this ______ for flavour” 完全貼合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “for flavour” 和 “explorers”。原文有 “craving for flavour” 和 “unexplored lands traversed”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“The human craving for flavour has been a large unacknowledged and unexamined force in history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類對 flavour 的渴望，是歷史上一股龐大但未被充分承認和審視的力量。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：空格前是 “this”，後面接 “for flavour”，需要名詞。原文是 “craving for flavour”。答案一字：craving。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "prompted many explorers = force in history / unexplored lands traversed this craving for flavour = The human craving for flavour所以答案是 craving。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "seasonings",
+      "answerKey": "seasonings",
+      "type": "Summary Completion",
+      "prompt": "“…bring back new 23 ______ that were greatly sought after in Europe.”",
+      "translation": "帶回歐洲非常受追捧的新 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The human craving for flavour has been a large unacknowledged and unexamined force in history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類對 flavour 的渴望，是歷史上一股龐大但未被充分承認和審視的力量。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rise and fall of corporate empires – soft-drink companies, snack-food companies, and fast-food chains – is frequently determined by how their products taste.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "企業帝國的興衰，例如汽水公司、零食公司和快餐連鎖店，往往由其產品味道決定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E 段用 Columbus 作例子，說 flavour / seasoning 如何推動探險和貿易。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “new” 和 “explorers / distant lands”。原文直接有 “try to find new seasonings”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1492, Christopher Columbus set sail in order to try to find new seasonings and thus to make his fortune from this highly prized commodity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1492 年，Christopher Columbus 出航，是為了嘗試尋找新的調味品，並藉這種價值很高的商品致富。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “new ______ that were greatly sought after”。空格需要複數名詞。原文 “new seasonings” 正好符合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "greatly sought after = highly prized new seasonings = new seasonings所以答案是 seasonings。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "bland",
+      "answerKey": "bland",
+      "type": "Summary Completion",
+      "prompt": "“There, they were used in cooking to enhance the usual 24 ______ and unappetising dishes eaten by rich and poor alike.”",
+      "translation": "在那裡，它們被用於烹飪，以提升富人和窮人平常所吃那些 ______ 且不吸引人的菜餚。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：主要靠可見原文字詞定位至 Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Babies like sweet tastes and reject bitter ones; we know this because scientists have placed various flavours in infants’ mouths and then recorded their facial reactions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "嬰兒喜歡甜味，拒絕苦味；我們知道這點，是因為科學家曾把不同味道放進嬰兒口中，再記錄他們的面部反應。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph C 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“People can grow accustomed to bad smells or good smells; they stop noticing what once seemed overpowering.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人可以習慣臭味或香味；他們會停止注意原本似乎十分強烈的氣味。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這一題比較特別。Summary 前半講 explorers、seasonings，邏輯上連到 Paragraph E；但你提供的正文中，和 “______ and unappetising dishes” 文法上最貼合的原文字，是 Paragraph C 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“bland”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前後是 “usual ______ and unappetising dishes”。這裡需要一個形容詞，意思應該接近「味道淡、乏味」。掃描全文，唯一能自然放進這個位置的原文字是 “bland”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Toddlers can learn to enjoy hot and spicy food, bland health food, or fast food, depending upon what the people around them eat.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幼兒可以學會喜歡又辣又刺激的食物、清淡乏味的健康食品，或快餐，取決於他們身邊的人吃甚麼。"
+            },
+            {
+              "kind": "label",
+              "text": "文法檢查：題目句變成："
+            },
+            {
+              "kind": "quote",
+              "text": "“the usual bland and unappetising dishes”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "平常那些清淡乏味、令人提不起胃口的菜餚。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是形容詞 bland，符合 ONE WORD。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "重要提醒你提供的版本中，“rich and poor alike” 這層背景沒有直接原句支援；按可見文章和題目字數限制，能配合 “______ and unappetising dishes” 的原文字是 bland。考試填空要從文章選字，所以答案仍填 bland。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "inextricably linked",
+      "answerKey": "inextricably linked",
+      "type": "Short-answer Questions",
+      "prompt": "“We associate certain smells with the past because they are ______.”",
+      "translation": "我們會把某些氣味和過去聯繫起來，因為它們是 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Aroma and memory are somehow inextricably linked.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香氣和記憶以某種方式緊密相連，難以分開。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Childhood memories of Happy Meals can translate into frequent adult visits to McDonald’s, like those of the chain’s ‘heavy users’, the customers who eat there four or five times a week.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "童年時對 Happy Meals 的記憶，可以轉化成成年後頻繁光顧 McDonald’s，就像該連鎖店的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“heavy users” 一樣，即每星期吃四五次的顧客。只看首尾句，可以看到 D 段專門講 aroma 和 memory 的關係，所以 Question 25 應直接看 D 段開首。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “smells” 和 “past”。原文對應 “Aroma and memory” 以及 “long-forgotten moment”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Aroma and memory are somehow inextricably linked.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "香氣和記憶以某種方式緊密相連，難以分開。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“A smell can suddenly evoke a long-forgotten moment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一種氣味可以突然喚起一個早已被遺忘的時刻。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “because they are ______”。答案需要形容詞短語。原文 “inextricably linked” 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "certain smells = aroma / a smell the past = memory / long-forgotten moment associate with = linked / evoke所以答案是 inextricably linked。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "chemical aromas",
+      "answerKey": "chemical aromas",
+      "type": "Short-answer Questions",
+      "prompt": "“Modern technology can help determine the minute quantities of ______ found in food.”",
+      "translation": "現代科技可以幫助測定食物中極微量的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The quality that people seek most of all in a food, its flavour, is usually present in a quantity too infinitesimal to be measured by any traditional culinary terms such as ounces or teaspoons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們在食物中最追求的特質，即 flavour，通常以極微小的量存在，小到無法用 ounces 或teaspoons 這類傳統烹飪單位量度。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The chemical that provides the dominant flavour of bell pepper can be tasted in amounts as low as 0.02 parts per billion; one drop is sufficient to add flavour to the amount of water needed to fill five average-sized swimming pools.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "提供 bell pepper 主要味道的化學物，即使低至十億分之 0.02 也可被嘗出；一滴就足以令填滿五個普通泳池所需的水帶有味道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 G 段集中講 flavour chemicals 的極微量，以及現代儀器或人類鼻子如何偵測這些物質。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Modern technology” 對應原文的 “spectrometers, gas chromatographs and headspace vapour analysers”。“minute quantities” 對應 “amounts as low as one part per billion”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "quote",
+              "text": "“Today’s sophisticated spectrometers, gas chromatographs and headspace vapour analysers provide a detailed map of a food’s flavour components, detecting chemical aromas in amounts as low as one part per billion.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "今天精密的 spectrometers、gas chromatographs 和 headspace vapour analysers 可以提供食物 flavour components 的詳細圖譜，偵測低至十億分之一的 chemical aromas。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法檢查：題目是 “minute quantities of ______ found in food”。原文說儀器可偵測 “chemical aromas in amounts as low as one part per billion”。答案 chemical aromas 是兩個字，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Modern technology = sophisticated spectrometers, gas chromatographs and headspace vapour analysers determine = detect / provide a detailed map minute quantities = amounts as low as one part per billion found in food = a food’s flavour components / chemical aromas in food所以答案是 chemical aromas。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - The sense of flavour.pdf",
+    "sha256": "a3aa7da02479f1593d07afb2611ee62e958e2ee86237bdd21a78b8cd5e70d27f",
+    "pageCount": 20
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap：只看每段首尾句可見甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "首句說科學家相信人類取得 taste，是為了避免中毒；最後一句說食物 aroma 可佔 flavour 高達90%。只看首尾句，已可估計本段會解釋 taste 和 smell 的分工：taste 原本有生存功能，幫助分辨可吃和有毒食物；但真正構成 flavour 的主要來源其實和 smell 有關。題目若問 taste 的起源、taste 與 smell 的效率比較、aroma 對 flavour 的貢獻，A 段是核心段落。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說喝、吸或咀嚼會釋放 volatile gases；最後一句說大腦會把 smell signals 和 taste signals 結合，決定口中物質的 flavour，也判斷是否想吃。只看首尾句，可以先估計 B 段是「flavour 如何形成」的生理路線圖。它會講 gases 如何從口腔去到鼻腔附近的 olfactory epithelium，再由 brain 統整訊號。因此涉及 brain、signals、olfactory system、mouth、nose 的題目，可先檢查 B 段。"
+      },
+      {
+        "number": "C",
+        "summary": "首句說嬰兒喜歡甜味、拒絕苦味；最後一句說人可以習慣好味或臭味，最後停止注意原本強烈的氣味。只看首尾句，可見 C 段會從先天反應轉到後天習慣。中間很可能講 food preferences 如何在生命早期透過 socialization 形成，也會講 mind 如何篩選大量 aromas。題目若問 personal taste、infancy、psychological factors、awareness of aromas，C 段最值得掃描。"
+      },
+      {
+        "number": "D",
+        "summary": "首句直接說 aroma 和 memory 有某種不可分割的連繫；最後一句說童年 Happy Meals 記憶可轉化成成年後頻繁光顧 McDonald’s。只看首尾句，可以估計 D 段處理 smell、memory、childhood foods 和 comfort foods 的關係。它不只談感官，也談品牌如何利用童年味道記憶。題目若問 why smells connect to the past、childhood food memories、comfort foods，D 段是主要段落。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說人類對 flavour 的 craving 是歷史上一股大型但常被忽略的力量；最後一句說現代企業帝國的興衰，常取決於產品味道。只看首尾句，可以判斷 E 段把 flavour 放到歷史和市場層面：spice trade、Columbus、new seasonings、world marketplace、soft-drink / snack-food / fast-food companies。題目若問 explorers、spices、seasonings、craving、corporate success，應先看 E段。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說 flavour industry 在 19 世紀中期興起，因 processed foods 開始大規模生產；最後一句說methyl anthranilate 後來成為 manufactured grape juice 的主要 flavouring compound。只看首尾句，可以先判斷 F 段講人工香味產業的歷史起點。中間會有 perfume companies、flavour additives、Germany’s chemical industry、artificial flavours、accidental discovery 等資訊。題目若問 artificial flavours、mid-1800s、invention on purpose / by accident，F 段最關鍵。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說人們最重視的 flavour，通常以極微小的量存在，不能用 ounces 或 teaspoons 這類傳統烹飪單位量度；最後一句用 bell pepper flavour 作例子，說一滴化學物已足以令五個泳池份量的水帶有味道。只看首尾句，可估計 G 段集中講 flavour chemicals 的微量、現代儀器檢測能力，以及human nose 的敏感度。題目若問 modern technology、minute quantities、chemical aromas，答案多半在 G 段。"
+      }
+    ]
+  }
+}

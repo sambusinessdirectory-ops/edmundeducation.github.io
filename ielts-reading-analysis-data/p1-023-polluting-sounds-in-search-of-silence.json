@@ -1,0 +1,2047 @@
+{
+  "id": "p1-023-polluting-sounds-in-search-of-silence",
+  "catalogueId": "p1-023",
+  "catalogueIds": [
+    "p1-023"
+  ],
+  "passage": 1,
+  "title": "POLLUTING SOUNDS: IN SEARCH OF SILENCE",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "D",
+    "G",
+    "C",
+    "A",
+    "C",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Noise pollution is a relatively new pollution.”",
+      "translation": "噪音污染是一種相對新近出現的污染。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心是 “relatively new”。我們要判斷文章是否說 noise pollution 只是現代才出現。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An over-abundance of noise has always been a significant environmental issue for man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過量噪音一直是人類一個重要的環境問題。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“However when today’s noise problems arc compared with the noise pollution problems of the past they are almost incomparable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，當今日的噪音問題與過去的噪音污染問題相比時，兩者幾乎不可同日而語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段會用歷史對比說明：噪音問題古已有之，只是現代規模和嚴重程度更大。因此這段很適合處理 “relatively new” 這個時間判斷。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“relatively new pollution”"
+            },
+            {
+              "kind": "label",
+              "text": "原文未必會用 new，但可找相反語義："
+            },
+            {
+              "kind": "quote",
+              "text": "“has always been”"
+            },
+            {
+              "kind": "quote",
+              "text": "“ancient Rome”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Medieval Europe”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the past”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些時間詞都指向 Paragraph 2。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An over-abundance of noise has always been a significant environmental issue for man.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過量噪音一直是人類重要的環境問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的時間訊號是 “has always been”。它表示噪音問題並非新近才存在。後文再舉 ancient Rome 和 Medieval Europe 作例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“In ancient Rome, rules existed to ensure that the noise emitted from the large iron wheels of wagons… was minimised…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在古羅馬，已經有規則用來確保大車鐵輪在石路上造成的噪音被減至最低。"
+            },
+            {
+              "kind": "quote",
+              "text": "“The same rules existed in Medieval Europe.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中世紀歐洲也有相同規則。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題是：noise pollution 是 relatively new。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題是：noise has always been significant，而且古羅馬、中世紀歐洲已有規管。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者方向相反，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "relatively new= 近代才出現has always been= 一直存在ancient Rome / Medieval Europe= 很早以前已有噪音問題"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 末句說今日噪音問題與過去幾乎不可比較，學生可能因此以為現代噪音污染是一種全新問題。更精準地看，作者想說的是「古代已有噪音問題；現代問題規模更大」。真正決定答案的是 “has always been”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Experts forecasted that water and noise pollution would be major future problems.”",
+      "translation": "專家曾預測，水資源問題和噪音污染會成為未來的重要問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目重點是 experts forecasted 和 future problems。原文用的是 “predicted”，所以定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“An immense number of vehicles of various shapes and sizes are regularly driven around and through most of the world’s cities and countrysides.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "大量不同形狀和大小的車輛，經常在世界大多數城市和鄉郊之中行駛。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“More and more silence is drowned out by sound.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "越來越多寧靜被聲音淹沒。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 3 主要講現代噪音來源和 silence 的消失。題目中的 experts forecasted 應該在這段中間，因為段落由噪音來源推到未來預測。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Experts”"
+            },
+            {
+              "kind": "quote",
+              "text": "“forecasted”"
+            },
+            {
+              "kind": "quote",
+              "text": "“future problems”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“One hundred years ago, environmental experts predicted…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in the 21st century”"
+            },
+            {
+              "kind": "quote",
+              "text": "“shortage of water and silence”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“One hundred years ago, environmental experts predicted that in the 21st century there would be a shortage of water and silence. They were correct.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一百年前，環境專家預測在二十一世紀會出現水和寧靜的短缺。他們是正確的。"
+            },
+            {
+              "kind": "label",
+              "text": "接著原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Silence is scarce.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "寧靜很稀少。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “forecasted” 對應原文 “predicted”。“major future problems” 對應 “in the 21st century there would be a shortage…”。在本文主題中，“shortage of silence” 就是噪音污染加劇的另一種說法，因為下一句補充 “More and more silence is drowned out by sound”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "forecasted= predicted future problems= in the 21st century there would be a shortage noise pollution= shortage of silence / silence drowned out by sound判斷上，這題可取 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的措辭有一點不夠乾淨。原文說的是 “shortage of water and silence”，題目寫成 “water and noise pollution”。如果把 “water pollution” 理解成水污染，原文沒有提供這點。不過在這套題的語境中，題目主要想測試 “experts predicted shortage of water and silence”，所以把 silence shortage 改寫成 noise problem / noise pollution，答案取 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Noise pollution seems to be a bigger problem in richer, developed countries.”",
+      "translation": "噪音污染似乎在較富裕、已發展國家是更大的問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目核心是 developed countries 是否問題更大。要特別留意原文有一個讓步句：先講一般看法，再修正真正情況。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A lack of knowledge about the effects of noise pollution on humans in comparison to other pollutants has been lacking as an area of research.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與其他污染物相比，人們對噪音污染對人類影響的了解不足，這一直是研究上的缺口。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therefore, practical action plans based upon proper scientific evaluation of available data on the effects of noise exposure, with the express purpose of limiting and controlling the exposure of people to environmental noise is a most worthwhile undertaking.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，基於現有噪音暴露影響資料的科學評估，制訂實際行動計劃來限制和控制人們暴露於環境噪音，是非常值得做的事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜這段在講研究不足、政策需要和噪音暴露的廣泛性。題目提到 developed countries，所以要掃描中間關於 economic status 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“richer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“developed countries”"
+            },
+            {
+              "kind": "quote",
+              "text": "“bigger problem”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“developed countries”"
+            },
+            {
+              "kind": "quote",
+              "text": "“luxury problem”"
+            },
+            {
+              "kind": "quote",
+              "text": "“developing countries”"
+            },
+            {
+              "kind": "quote",
+              "text": "“noise exposure is often higher”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although it has been generally regarded that noise pollution is primarily a ‘luxury’ problem – for those developed countries able to afford the purchase price of large quantities of loud, noisy machinery – it is actually a fact that due to bad planning and poor construction of buildings, noise exposure is often higher in developing countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然噪音污染通常被視為一種「奢侈問題」——也就是那些已發展國家能購買大量吵雜機器才會有的問題——但事實上，由於規劃不佳和建築質素差，發展中國家的噪音暴露往往更高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句先說一般印象：developed countries 似乎更容易有這種問題。接著用 “it is actually a fact” 修正：developing countries 的 noise exposure often higher。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：噪音污染在 richer, developed countries 是更大問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：一般人可能這樣看，但實際上 developing countries 的 noise exposure 往往更高。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "比較結果：題目採納了被作者修正的表面看法；作者真正支持的是相反方向。所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "richer, developed countries= developed countries able to afford loud machinery bigger problem= higher exposure原文真正定案： noise exposure is often higher in developing countries"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題最容易被 “has been generally regarded” 影響。IELTS 常把「一般人以為」和「作者最後承認的事實」分開考。這裡要跟住 “it is actually a fact” 後面的內容判斷。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Noises that enter the human ear are actually heard louder than they really are.”",
+      "translation": "進入人耳的聲音，實際上會被聽得比原本更大聲。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目問人耳接收 sound 時是否會 amplify，即放大聲音。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has been well established that exposure to loud noises for extended periods of time causes trauma to the inner ear and often results in irreversible hearing loss.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "長時間暴露在巨大噪音中會造成內耳創傷，並且常導致不可逆轉的聽力損失，這一點已被充分確立。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If this was not alarming enough, also noted was an increase in the incidence of heart disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這還不夠令人警惕，研究還注意到心臟病發病率增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出 Paragraph 5 主要講噪音對健康的影響。題目問 human ear 對 sound 的處理方式，所以應該在本段前半找。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“human ear”"
+            },
+            {
+              "kind": "quote",
+              "text": "“heard louder”"
+            },
+            {
+              "kind": "quote",
+              "text": "“enter”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“When it initially receives sound, the human ear actually amplifies it by a factor of 20.”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When it initially receives sound, the human ear actually amplifies it by a factor of 20.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當人耳最初接收聲音時，它實際上會把聲音放大二十倍。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “noises that enter the human ear” 對應 “when it initially receives sound”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “heard louder than they really are” 對應 “amplifies it by a factor of 20”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目雖然沒有提到 “by a factor of 20”，但核心意思相同：聲音進入人耳後會被放大。因此答案是TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "enter the human ear= human ear initially receives sound heard louder= amplifies it than they really are= by a factor of 20"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不用被 “inner ear trauma” 或 “hearing loss” 拉走。它們只是同段的健康結果；Question 4 問的是聲音進入耳朵時的物理處理方式。真正答案句只有一句，非常集中。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“There is a strong relationship between hearing loss and age.”",
+      "translation": "聽力損失和年齡之間有很強的關係。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目問 age 是否是 hearing loss 的重要因素。要找原文是否說 aging 是 significant cause。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has been well established that exposure to loud noises for extended periods of time causes trauma to the inner ear and often results in irreversible hearing loss.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "長時間暴露在巨大噪音中會造成內耳創傷，並常導致不可逆轉的聽力損失，這一點已被充分確立。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If this was not alarming enough, also noted was an increase in the incidence of heart disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這還不夠令人警惕，研究還注意到心臟病發病率增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示本段處理健康影響，其中 hearing loss 在段首已出現。題目加入 age，因此要掃描aging 相關句子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“hearing loss”"
+            },
+            {
+              "kind": "quote",
+              "text": "“age”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“aging is an almost insignificant cause of hearing loss”"
+            },
+            {
+              "kind": "quote",
+              "text": "“chronic exposure… led to hearing loss”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“For example, both locations revealed that aging is an almost insignificant cause of hearing loss.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，兩個地點都顯示，老化幾乎不是造成聽力損失的重要原因。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Instead it was show-n that chronic exposure to moderately high levels of environmental noise led to hearing loss.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，研究顯示，長期暴露在中等偏高的環境噪音中會導致聽力損失。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 strong relationship between hearing loss and age。原文說 aging is almost insignificant，意思是 age / aging 幾乎不是重要原因。這與題目方向相反。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "strong relationship= important cause / significant link aging= age-related factor almost insignificant cause= 影響很小，幾乎不重要所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能憑常識覺得年紀大會聽力下降。可是文章的研究重點正好修正常識：真正突出的是chronic exposure to noise，而 aging 在這項研究中幾乎不重要。Reading 題要以原文研究結論為準。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Loud noise exposure studies have caused government changes.”",
+      "translation": "關於 loud noise exposure 的研究引發了政府層面的改變。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目問 studies 是否造成 government changes。要找原文中 findings / studies 和 governments 的關係。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The findings from various noise studies had the effect of changing the perspectives of many of the world’s governments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "各種噪音研究的發現，改變了世界許多政府的看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Activities in those countries deemed mandatory such as the collection of rubbish or some medical services are the only allowed exceptions to what otherwise are quiet local neighbourhood zones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那些國家，被視為必要的活動，例如收垃圾或部分醫療服務，是本應安靜的本地社區區域中唯一允許的例外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 6 講噪音研究如何推動政府觀點與法律安排改變。Question 6的 government changes 直接對應這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“studies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“government changes”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“findings from various noise studies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“changing the perspectives of many of the world’s governments”"
+            },
+            {
+              "kind": "quote",
+              "text": "“laws were made”"
+            },
+            {
+              "kind": "quote",
+              "text": "“federal standards… were introduced”"
+            },
+            {
+              "kind": "quote",
+              "text": "“State governments created noise regulations”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The findings from various noise studies had the effect of changing the perspectives of many of the world’s governments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "各種噪音研究的發現，產生了改變世界許多政府看法的效果。"
+            },
+            {
+              "kind": "label",
+              "text": "後文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whereas noise had been considered a ‘nuisance’ rather than an environmental problem, laws were made to protect citizens against it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "過去噪音被視為一種 nuisance，而非環境問題；後來政府制定法律來保護公民免受其害。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句合起來支持題目。studies 改變了 government perspectives，並導致 laws / standards /regulations。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "loud noise exposure studies= various noise studies / studies on noise exposure caused government changes= changed government perspectives; laws were made; standards were introduced所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “government changes” 不是指政府被更換，也不是政治制度改變；在這裡比較準確地理解為政府態度、法律和規管方式改變。原文的 “changing the perspectives” 和 “laws were made” 足以支持 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“In Canada, police monitor the level of noise in local neighbourhoods.”",
+      "translation": "在加拿大，警察會監測本地社區的噪音水平。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目有三個核心元素：Canada、police、monitor noise level。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "找到 Canada 或 police 其中一個都不夠，必須看兩者是否在原文連成同一件事。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraphs 6–7 Paragraph 6 第一和最後一句顯示，它講不同國家的 noise laws。Paragraph 7 則講 quiet times和執行問題。Question 7 同時有 Canada 和 police，所以需要跨兩段掃描：Paragraph 6 找Canada，Paragraph 7 找 police。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Canada”"
+            },
+            {
+              "kind": "quote",
+              "text": "“police”"
+            },
+            {
+              "kind": "quote",
+              "text": "“monitor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“local neighbourhoods”"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“In Canada and the EU, noise laws are the domain of local governments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在加拿大和歐盟，噪音法律屬於地方政府的管轄範圍。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 7 有："
+            },
+            {
+              "kind": "quote",
+              "text": "“in some cities, police are authorised to impound such things as stereos and cars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在一些城市，警察被授權扣押 stereo 或 cars 這類物件。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提到 Canada，但只說 noise laws 由 local governments 管理。它沒有說警察在加拿大監測noise level。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文也提到 police，但只說 in some cities，他們可以在嚴重個案中扣押 stereo 和 cars。這裡沒有說這些城市在 Canada，也沒有說 police monitor noise levels。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：在加拿大，警察監測本地社區噪音水平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供： Canada / EU：noise laws 屬於地方政府。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Some cities：police 可扣押 stereos and cars。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "缺失部分： Canada police monitor noise levels。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易把相鄰資訊拼起來。Canada、local governments、police、neighbourhoods 都出現在文章後段，但原文沒有建立「加拿大警察監測噪音水平」這條關係。相關字眼出現，不代表題目命題成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "D — heart disease",
+      "answerKey": "D — heart disease",
+      "type": "Choose TWO letters",
+      "prompt": "Question 8",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has been well established that exposure to loud noises for extended periods of time causes trauma to the inner ear and often results in irreversible hearing loss.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "長時間暴露在巨大噪音中會造成內耳創傷，並常導致不可逆轉的聽力損失，這一點已被充分確立。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If this was not alarming enough, also noted was an increase in the incidence of heart disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這還不夠令人警惕，研究還注意到心臟病發病率增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句直接指出噪音造成 hearing loss 和 heart disease。選項中有 heart disease，因此 D 很穩。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“heart disease”"
+            },
+            {
+              "kind": "label",
+              "text": "原文末句直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“an increase in the incidence of heart disease”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“If this was not alarming enough, also noted was an increase in the incidence of heart disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這還不夠令人警惕，研究還注意到心臟病發病率增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 high noise levels 可造成哪些問題；原文在討論 prolonged exposure to industrial noise 和noise pollution 對健康影響後，列出 heart disease incidence increased。因此 D 是正確答案。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "heart disease= heart disease increase in incidence= more cases / increased risk選項 D 成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "G — increased blood pressure",
+      "answerKey": "G — increased blood pressure",
+      "type": "Choose TWO letters",
+      "prompt": "Question 9",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "仍然是 Paragraph 5，因為這段集中列出噪音暴露帶來的身體反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用選項詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "選項 G 是："
+            },
+            {
+              "kind": "quote",
+              "text": "“increased blood pressure”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, over a single eight-hour period, it was shown that participants experienced a rise in blood pressure thus indicating noise pollution contributes to human stress levels.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，在單一八小時時段內，研究顯示參與者血壓上升，這表示噪音污染會增加人類壓力水平。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“a rise in blood pressure” 直接對應 “increased blood pressure”。rise 和 increased 是直接近義改寫。所以 G 是第二個正確答案。為何其他選項不選： A increased ear sensitivity原文說 inner ear trauma 和 hearing loss，沒有說耳朵變得更敏感。 B reduced reaction time原文沒有提到 reaction time。 C increased aging of the body原文剛好說 aging 幾乎不是 hearing loss 的重要原因，沒有說噪音令身體老化。 E stomach cancer原文沒有提到 stomach cancer。 F sleep apnea原文有睡眠干擾的歷史背景，但沒有提到 sleep apnea。這組答案是 D 和 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "C — both people from the USA and Ghana",
+      "answerKey": "C — both people from the USA and Ghana",
+      "type": "Classification",
+      "prompt": "“individuals participated in a noise study”",
+      "translation": "有人參與了噪音研究。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has been well established that exposure to loud noises for extended periods of time causes trauma to the inner ear and often results in irreversible hearing loss.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "長時間暴露在巨大噪音中會造成內耳創傷，並常導致不可逆轉的聽力損失，這一點已被充分確立。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If this was not alarming enough, also noted was an increase in the incidence of heart disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這還不夠令人警惕，研究還注意到心臟病發病率增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先知道 Paragraph 5 是健康研究段。題目說 participated in a noise study，要找study group 和 control group。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“participated”"
+            },
+            {
+              "kind": "quote",
+              "text": "“noise study”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1965, in a remote part of Ghana, scientists went about studying…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the Ghanese group was compared with a control group in industrial USA”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1965, in a remote part of Ghana, scientists went about studying the impact of ‘insignificant’ exposure to industrial noise and transportation.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1965 年，在 Ghana 一個偏遠地區，科學家開始研究對工業噪音和交通噪音「微不足道」暴露的影響。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In tandem, the Ghanese group was compared with a control group in industrial USA.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，Ghana 組被拿來和美國工業區的一個 control group 比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示研究涉及 Ghana group 和 USA control group。題目的 “individuals participated in a noise study” 可概括兩邊的人。因此答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能只看到 “in a remote part of Ghana” 就選 B。不過後一句明確加入 USA control group。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究比較兩組，不能只選 Ghana。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "A — people from the USA",
+      "answerKey": "A — people from the USA",
+      "type": "Classification",
+      "prompt": "“conducted a silence study”",
+      "translation": "進行了一項 silence study。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a self-imposed solitary confinement, 22-year old Tom Wonnacott, a Princeton graduate student, spent four days lying in a lightless, sound-proofed isolation chamber.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "22 歲的 Princeton 研究生 Tom Wonnacott 自願進入一種自我選擇的 solitary confinement，在一個無光、隔音的 isolation chamber 中躺了四天。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While over a longer period of time such extremes of silence in conjunction with sensory deprivation are harmful, there are many today who are in search of quieter areas.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然長時間處於這種極端 silence 加上感官剝奪會有害，但今天仍有很多人在尋找更安靜的地方。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計這段是 silence / sensory deprivation study 的引言。Question 11 說conducted a silence study，所以這段最相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“silence study”"
+            },
+            {
+              "kind": "quote",
+              "text": "“conducted”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接用 conducted，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“volunteered to undergo this experience”"
+            },
+            {
+              "kind": "quote",
+              "text": "“to help US-based psychologists find out…”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wonnacott volunteered to undergo this experience to help US-based psychologists find out what happens to people isolated from the outside world and deprived of the normal use of their senses.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wonnacott 自願接受這次體驗，以幫助美國的心理學家了解人們在與外界隔離、被剝奪正常感官使用時會發生甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的研究由 “US-based psychologists” 進行或主導。題目中的 “conducted a silence study” 對應這些心理學家做的研究。因此分類為 A — people from the USA。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Tom Wonnacott 是 Princeton graduate student，也與美國有關；但題目問 conducted a study，更直接的主體是 US-based psychologists。Ghana 的研究出現在 Paragraph 5，屬於 noise exposure study，不是 silence / isolation study。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "C — both people from the USA and Ghana",
+      "answerKey": "C — both people from the USA and Ghana",
+      "type": "Classification",
+      "prompt": "“introduced air traffic regulations”",
+      "translation": "引入了航空交通／飛機噪音相關規定。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The findings from various noise studies had the effect of changing the perspectives of many of the world’s governments.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "各種噪音研究的發現改變了世界許多政府的看法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Activities in those countries deemed mandatory such as the collection of rubbish or some medical services are the only allowed exceptions to what otherwise are quiet local neighbourhood zones.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在那些國家，被視為必要的活動，例如收垃圾或部分醫療服務，是本應安靜的本地社區區域中唯一允許的例外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph 6 講政府規管。題目中的 air traffic regulations 應該對應aircraft noise standards。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“air traffic”"
+            },
+            {
+              "kind": "quote",
+              "text": "“regulations”"
+            },
+            {
+              "kind": "quote",
+              "text": "“introduced”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“federal standards for highway and aircraft noise were introduced”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In the United States and Ghana, federal standards for highway and aircraft noise were introduced.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在美國和 Ghana，政府引入了 highway 和 aircraft noise 的 federal standards。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “air traffic regulations” 對應 “aircraft noise standards”。原文同一句直接列出 United States and Ghana，所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "air traffic regulations= standards for aircraft noise introduced= were introduced the United States and Ghana= both people / countries from USA and Ghana"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題不用只選 USA。雖然 “federal standards” 容易讓人想到美國政府，但原文清楚寫了 “In the United States and Ghana”。分類題要優先跟明確國名走。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "C — both people from the USA and Ghana",
+      "answerKey": "C — both people from the USA and Ghana",
+      "type": "Classification",
+      "prompt": "“the relationship between industrial noise and blood pressure”",
+      "translation": "工業噪音與血壓之間的關係。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It has been well established that exposure to loud noises for extended periods of time causes trauma to the inner ear and often results in irreversible hearing loss.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "長時間暴露在巨大噪音中會造成內耳創傷，並常導致不可逆轉的聽力損失，這一點已被充分確立。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If this was not alarming enough, also noted was an increase in the incidence of heart disease.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果這還不夠令人警惕，研究還注意到心臟病發病率增加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段是 noise exposure health study。題目問 industrial noise and blood pressure，需要看 Ghana/ USA comparison study 的結果。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“industrial noise”"
+            },
+            {
+              "kind": "quote",
+              "text": "“blood pressure”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“prolonged exposure to industrial noise above 70 dBA”"
+            },
+            {
+              "kind": "quote",
+              "text": "“participants experienced a rise in blood pressure”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In tandem, the Ghanese group was compared with a control group in industrial USA.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，Ghana 組被拿來和美國工業區的一個 control group 比較。"
+            },
+            {
+              "kind": "label",
+              "text": "再看健康結果："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cardiovascular complaints also emerged from among those with prolonged exposure to industrial noise above 70 dBA.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "長時間暴露於超過 70 dBA 工業噪音的人，也出現了心血管方面的問題。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“In fact, over a single eight-hour period, it was shown that participants experienced a rise in blood pressure thus indicating noise pollution contributes to human stress levels.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "事實上，在單一八小時時段內，研究顯示參與者血壓上升，這表示噪音污染會增加人類壓力水平。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些結果來自前面介紹的 Ghana group 與 industrial USA control group 的比較研究。原文沒有把 blood pressure 的結果限定為其中一個國家的人；它用 “participants” 概括研究參與者。因此按題目分類，答案取 C。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "relationship between industrial noise and blood pressure= exposure to industrial noise + rise in blood pressure people from both places= Ghanese group compared with control group in industrial USA"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“industrial USA” 這個短語很容易令人選 A，因為 industrial noise 看似只屬美國組。不過原文把Ghana group 和 USA control group 放入同一組 experiments 之中，後面用 “participants” 描述血壓上升，沒有單獨限定 USA。分類時應以研究範圍處理，所以選 C。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - POLLUTING SOUNDS_ IN SEARCH OF SILENCE.pdf",
+    "sha256": "9b702cb4b302dc50e3439ba314e2ba502aa4a3adfc6120c2fcde51290965edca",
+    "pageCount": 24
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先用首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句講 Tom Wonnacott 自願進入 lightless、sound-proofed isolation chamber，體驗幾乎沒有視覺、聽覺和觸覺刺激的狀態；末句說長時間極端 silence 加上 sensory deprivation 會有害，但今天很多人仍在尋找 quieter areas。只看首尾句，可以估計這段是引言：用一個極端實驗帶出 silence的價值，也把話題從完全隔絕聲音，轉到現代人對安靜環境的需求。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說過量 noise 一直是人類重要的 environmental issue；末句說今日 noise problems 和過去相比幾乎不可同日而語。只看首尾句，可以估計這段主要用歷史例子說明噪音問題並不新。中間提到 ancient Rome 和 Medieval Europe 的夜間交通限制，說明古人已經用規則減少車輪、馬車和騎馬造成的睡眠干擾。Question 1 會直接用到這段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說世界大多數城市和鄉郊都有大量不同形狀和大小的 vehicles 穿行；末句說越來越多silence 被 sound 淹沒。只看首尾句，可以估計這段是現代噪音來源總覽：車輛、柴油貨車、飛機、火車、工業機器、遊樂場和娛樂車輛。中間最重要的是 environmental experts 的預測：二十一世紀會缺水，也會缺少寧靜。Question 2 主要看這段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句指出，與其他污染物相比，人類對 noise pollution effects 的研究相對不足；末句說基於科學資料制訂實際行動計劃，限制和控制 people’s exposure to environmental noise，是十分值得做的事。只看首尾句，可以估計本段功能是糾正對 noise pollution 的誤解。它說噪音常被視為富裕國家的 “luxury” problem，但實際上 developing countries 的 exposure 往往更高。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說長時間暴露在 loud noises 中，會造成 inner ear trauma，並常導致 irreversible hearing loss；末句說研究還發現 heart disease 的發生率增加。只看首尾句，可以估計這段集中處理噪音對健康的影響。中間有 Ghana 和 industrial USA 的比較研究，重點包括：age 對 hearing loss 影響很小，慢性噪音暴露會導致 hearing loss、cardiovascular complaints、blood pressure 上升和heart disease。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說各種 noise studies 的 findings 改變了很多政府的看法；末句說在 Canada 和 EU，必要服務如收垃圾和部分 medical services，是安靜社區規定中的少數例外。只看首尾句，可以估計這段講政府和法律層面的反應。noise 從 nuisance 被重新看成 environmental problem；美國和Ghana 引入 highway and aircraft noise federal standards，各地也建立 building codes、urban planning 和 road construction 相關規定。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 neighbourhoods 的 quiet times 通常是 6am 至 10pm，之後 higher decibel levels 會受限制；末句說大部分問題透過 emitter 和 receiver 之間的 negotiation 處理。只看首尾句，可以估計這段講 noise laws 的執行問題。雖然有 quiet hours 和投訴機制，但地方政府和 enforcement agencies 未必有效跟進；嚴重個案可能經法院索償，部分城市警察可扣押 stereo 或 car。"
+      }
+    ]
+  }
+}

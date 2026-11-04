@@ -1,0 +1,1981 @@
+{
+  "id": "p1-009-flight-of-the-honeybee",
+  "catalogueId": "p1-009",
+  "catalogueIds": [
+    "p1-009",
+    "p1-060"
+  ],
+  "passage": 1,
+  "title": "FLIGHT OF THE HONEYBEE",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 12,
+  "answerKey": [
+    "B",
+    "C",
+    "D",
+    "visual",
+    "1 second / one second",
+    "the sun / sun",
+    "waggle",
+    "odour",
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "B — have clearly segregated roles.",
+      "answerKey": "B — have clearly segregated roles.",
+      "type": "Multiple Choice",
+      "prompt": "“Honeybees”",
+      "translation": "蜜蜂……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題幹非常短，所以要靠四個選項判斷文章對 honeybees 的整體描述。最有定位力的是 “roles”、“males and females”、“communication” 等字。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Honeybees are characterised by their ability to produce liquefied sugar (honey) and a propensity to construct colonial nests using wax, two tasks that necessitate a significant level of social integration among members.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蜜蜂的特徵包括能製造液態糖，也就是蜂蜜，以及傾向用蜂蠟建造群體巢穴；這兩項工作都需要成員之間有相當高程度的社會整合。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, honeybees have devised a sophisticated system of communication to relay important information from member to member.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，蜜蜂發展出一套複雜的溝通系統，用來在成員之間傳遞重要資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 會介紹 honeybees 的社會性、分工和溝通能力。Question 1 問整體特徵，所以目標段落自然是 Paragraph 1。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "選項中最有定位力的是 B 的 “roles”。原文中對應的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“As a result, they maintain strict divisions of labour, based on sex, with males functioning as drones whose role is to fertilise the queen, while all females, with the exception of the single fertile queen, fetch nectar and care for the colony’s progeny.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，牠們維持嚴格的勞動分工，而且分工根據性別而定：雄蜂作為 drones，角色是讓 queen 受精；除了唯一有生育能力的 queen 之外，所有雌蜂都負責採集花蜜和照顧群體的後代。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語是 “they”，指 honeybees。核心動詞是 “maintain”。真正定案的短語是 “strict divisions of labour, based on sex”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B 說 “have clearly segregated roles”，意思是「角色清楚分開」。這正好概括原文的 “strict divisions of labour”。原文還具體列出不同角色：males = drones，負責 fertilise the queen；females= fetch nectar and care for progeny；queen 是例外，負責繁殖。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “have a rudimentary ability to convey information.”錯。rudimentary 指初步、簡單。原文說的是 “sophisticated system of communication”，即複雜溝通系統，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “have clearly segregated roles.”正確。strict divisions of labour = clearly segregated roles。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “are found in equal numbers of males and females.”錯。原文只說根據性別分工，沒有說雌雄數量相等。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “often relocate to areas with certain types of flower.”錯。原文談採蜜和溝通食物位置，沒有說牠們常搬遷到某類花附近。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "clearly segregated roles= strict divisions of labour based on sex= males / females have different roles"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很容易吸引學生，因為本段最後確實提到 communication。但題目選項中的 “rudimentary” 把程度改弱了；原文程度詞是 sophisticated。這類題要特別看形容詞程度，不可只看名詞重合。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "C — closely studied the phenomenon of honeybee body language.",
+      "answerKey": "C — closely studied the phenomenon of honeybee body language.",
+      "type": "Multiple Choice",
+      "prompt": "“Research conducted in the 1970s”",
+      "translation": "1970 年代進行的研究……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 research conducted in the 1970s 的內容。定位詞是 “1970s”、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“research”、“honeybee dance” 和 Karl von Frisch。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2第一句：“Perhaps the most intriguing feature of honeybee communication is a series of flight movements performed only by a female worker bee after she returns to the nest with nectar and needs to tell the rest of her colony that she has discovered food and where it can be found.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蜜蜂溝通中最引人入勝的特徵，可能是一連串飛行動作；這些動作只由 female worker bee 在帶著花蜜回巢後表演，用來告訴群體其他成員她發現了食物，以及食物在哪裡。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Von Frisch discovered that the dance conveyed details about the location of the nectar reserves, thereby recruiting other bees to the site.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Von Frisch 發現，這種 dance 能傳達 nectar reserves 位置的細節，從而招募其他蜜蜂前往該地點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷 Paragraph 2 是 honeybee dance 的研究段。首句描述 dance 是一種flight movements；末句說 von Frisch 發現它能傳達位置資訊。這和 “body language” 很接近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“1970s”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Research”"
+            },
+            {
+              "kind": "quote",
+              "text": "“body language”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This so-called honeybee dance was first interpreted by German zoologist Karl von Frisch in the early 1970s.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種所謂 honeybee dance 最早由德國動物學家 Karl von Frisch 在 1970 年代初作出解讀。"
+            },
+            {
+              "kind": "label",
+              "text": "再看研究方法："
+            },
+            {
+              "kind": "quote",
+              "text": "“He then trained those foragers to find nectar at designated sources at various distances from the hives, and when the bees returned he carefully recorded their movements, the angle and direction of their flight, and any additional visual cues offered to the colony.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後他訓練這些 foragers 在距離蜂巢不同遠近的指定來源找到花蜜；當蜜蜂回來時，他仔細記錄牠們的動作、飛行角度和方向，以及牠們向群體提供的其他視覺線索。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 說 “closely studied the phenomenon of honeybee body language”。雖然原文沒有 body language 這個短語，但 “flight movements”、“dance”、“movements”、“angle and direction” 都是身體動作傳訊。 “carefully recorded” 對應 “closely studied”。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “was undertaken using traditional hives.”錯。原文說 von Frisch and his students “built several glass-walled hives”，即玻璃壁蜂巢，方便觀察；traditional hives 不符合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “determined that forager bees had special markings.”錯。原文說研究者 “marked ... worker bees ... with paint”，是研究者為了觀察而加上標記，不是發現蜜蜂本身有特殊標記。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “closely studied the phenomenon of honeybee body language.”正確。carefully recorded movements, angle, direction, visual cues = close study of body language / dance. D “concluded that there was no discernible pattern to the movement of the bees.”錯。原文正好相反，von Frisch 發現 dance 有規律，能傳達 nectar location。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "closely studied= carefully recorded body language= flight movements / dance / angle and direction phenomenon= honeybee dance"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 的 “special markings” 很有迷惑性，因為原文有 “marked ... with paint”。但動作主體是 von Frisch and his students，不是 bees 天生帶有標記。看到相同字時，要檢查「誰做了這件事」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "D — will repeat a pattern of flying in one direction then abruptly reversing direction.",
+      "answerKey": "D — will repeat a pattern of flying in one direction then abruptly reversing direction.",
+      "type": "Multiple Choice",
+      "prompt": "“To identify that the source of nectar is close, forager bees”",
+      "translation": "為了表示 nectar source 很近，採蜜蜂會……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目中的控制詞是 “close”，所以要找表示近距離食物來源的 dance。定位詞是 “close”、“less than 50 metres”、“round dance”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first piece of information conveyed by dancing bees is the distance from the field to the hive, which they communicate in one of three ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "跳舞蜜蜂傳達的第一項資訊，是 field 到 hive 的距離；牠們用三種方式傳達這項資訊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The length of the forward run corresponds to the distance to the food source; for example, a 2.5-second run indicates that the nectar was found about 2,500 metres away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "forward run 的長度與食物來源距離相對應；例如，2.5 秒的 run 表示 nectar 約在 2,500 米外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 3 集中講距離。題目問 close source，所以要在本段找最短距離的 dance。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“close”"
+            },
+            {
+              "kind": "quote",
+              "text": "“source of nectar”"
+            },
+            {
+              "kind": "quote",
+              "text": "“forager bees”"
+            },
+            {
+              "kind": "label",
+              "text": "原文中的距離句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“If it is less than 50 metres from the colony’s nest, the bee will fly around in narrow circles, and then suddenly fly in the opposite direction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果食物地點距離 colony’s nest 少於 50 米，蜜蜂會繞著狹窄的圓圈飛，然後突然朝相反方向飛。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“She will repeat this pattern, which von Frisch’s team called the round dance, until she has recruited several other workers to return with her to the field.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠會重複這個 pattern；von Frisch 的團隊稱之為 round dance，直到牠招募了幾隻其他 worker bees 跟牠回到 field。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “source of nectar is close”，原文用 “less than 50 metres” 具體定義 close。蜜蜂的動作有兩步：先 “fly around in narrow circles”，然後 “suddenly fly in the opposite direction”。接著牠會"
+            },
+            {
+              "kind": "quote",
+              "text": "“repeat this pattern”。選項 D 說 “repeat a pattern of flying in one direction then abruptly reversing direction”。雖然它沒有完整保留 “narrow circles”，但 “suddenly fly in the opposite direction” 和 “repeat this pattern”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "都被概括進去了。四個選項中，D 最貼近 round dance 的動作特徵。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “will repeatedly fly in the same direction.”錯。原文說會突然飛向相反方向，不是一直同方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “will begin to move only when other bees are watching.”錯。原文沒有說要等其他蜜蜂看著才開始跳舞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “will run straight forward.”錯。straight forward 是 waggle dance 的一部分，用於超過 150 metres 的遠距離食物來源。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “will repeat a pattern of flying in one direction then abruptly reversing direction.”正確。repeat this pattern + suddenly fly in the opposite direction。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "close= less than 50 metres abruptly reversing direction= suddenly fly in the opposite direction repeat a pattern= She will repeat this pattern"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很容易中伏，因為原文後面有 “run straight ahead”。但那是 waggle dance，對應遠距離食物。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 close 是控制詞，必須先鎖定 less than 50 metres。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "visual",
+      "answerKey": "visual",
+      "type": "Sentence Completion",
+      "prompt": "“Von Frisch focused on a number of 4 __________ clues to deduce how bees communicated.”",
+      "translation": "Von Frisch 集中研究多種 4 __________ 線索，以推斷蜜蜂如何溝通。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格後是 “clues”，所以答案應是形容詞或名詞修飾語。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Von Frisch”、“clues”、“communicated”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2第一句：“Perhaps the most intriguing feature of honeybee communication is a series of flight movements performed only by a female worker bee after she returns to the nest with nectar and needs to tell the rest of her colony that she has discovered food and where it can be found.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蜜蜂溝通中最引人入勝的特徵，可能是一連串飛行動作；female worker bee 回巢後，用這些動作告訴其他成員她發現了食物以及食物位置。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Von Frisch discovered that the dance conveyed details about the location of the nectar reserves, thereby recruiting other bees to the site.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Von Frisch 發現 dance 傳達了 nectar reserves 位置細節，並招募其他蜜蜂前往該地點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先判斷本段講 von Frisch 研究蜜蜂舞蹈如何傳訊。題目問 clues，自然要在他的觀察方法中找答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Von Frisch”"
+            },
+            {
+              "kind": "quote",
+              "text": "“clues”"
+            },
+            {
+              "kind": "quote",
+              "text": "“communicated”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He then trained those foragers to find nectar at designated sources at various distances from the hives, and when the bees returned he carefully recorded their movements, the angle and direction of their flight, and any additional visual cues offered to the colony.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然後他訓練這些 foragers 在距離蜂巢不同遠近的指定地點找到花蜜；當蜜蜂返回時，他仔細記錄牠們的 movements、飛行角度和方向，以及牠們提供給群體的其他 visual cues。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格句說 “a number of ___ clues”。原文提供的完整短語是 “additional visual cues”。clues 對應cues；答案應填修飾 cues 的字 “visual”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 visual 的意思是「視覺上的」。Von Frisch 記錄的是蜜蜂的 movement、angle、direction 等可見動作，所以題目把這些都概括成 visual clues。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "clues= cues focused on / deduce communication= carefully recorded ... to interpret the honeybee dance visual clues= movements, angle, direction, additional visual cues答案形式： visual = 1 word，符合 NO MORE THAN TWO WORDS AND/OR A NUMBER。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “movements”。movements 是具體觀察項之一；題目空格後已有 clues，要填的是 clues的類型。原文直接給出 “visual cues”，所以答案是 visual。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "1 second / one second",
+      "answerKey": "1 second / one second",
+      "type": "Sentence Completion",
+      "prompt": "“The bee will move forward for 5 __________ for every 1,000 metres the food source is from the hive.”",
+      "translation": "食物來源每距離蜂巢 1,000 米，蜜蜂會向前移動 5 __________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion，但需要簡單計算。空格前是 “for”，空格後有 “for every 1,000 metres”，答案應是時間長度。定位詞是 “forward”、“1,000 metres”、“distance”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first piece of information conveyed by dancing bees is the distance from the field to the hive, which they communicate in one of three ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "跳舞蜜蜂傳達的第一項資訊，是 field 到 hive 的距離；牠們用三種方式傳達這項資訊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The length of the forward run corresponds to the distance to the food source; for example, a 2.5-second run indicates that the nectar was found about 2,500 metres away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "forward run 的長度與食物來源距離相對應；例如，2.5 秒的 run 表示 nectar 約在 2,500 米外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句已經顯示本段處理 distance，而且最後一句有秒數和米數，正好對應 Question 5。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“move forward”"
+            },
+            {
+              "kind": "quote",
+              "text": "“1,000 metres”"
+            },
+            {
+              "kind": "quote",
+              "text": "“food source”"
+            },
+            {
+              "kind": "label",
+              "text": "原文答案句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The length of the forward run corresponds to the distance to the food source; for example, a 2.5-second run indicates that the nectar was found about 2,500 metres away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "forward run 的長度與食物來源距離相對應；例如，2.5 秒的 run 表示 nectar 約在 2,500 米外。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題需要從例子反推比例： 2.5-second run= 2,500 metres所以： 1 second= 1,000 metres題目句子說 “for every 1,000 metres”，因此答案是 1 second 或 one second。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “forward run” 是 waggle dance 中蜜蜂短暫向前跑的一段。run 的時間越長，代表食物越遠。題目把 “The length of the forward run corresponds to the distance” 改寫成 “move forward for ___ for every 1,000 metres”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "move forward= forward run for every 1,000 metres= 2.5 seconds for 2,500 metres → 1 second for 1,000 metres答案形式： 1 second = number + 1 word，符合字數限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "one second = 2 words，也符合。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要直接填 “2.5-second”。原文的 2.5 seconds 對應 2,500 metres；題目要求每 1,000 metres 的時間。看到數字題時，要先看題目是否把原文例子改成比例。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "the sun / sun",
+      "answerKey": "the sun / sun",
+      "type": "Sentence Completion",
+      "prompt": "“To locate the direction of the nectar, the forager will base its movements on the position of 6__________.”",
+      "translation": "為了指出 nectar 的方向，forager 會根據 6 __________ 的位置來安排動作。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格前是 “position of”，所以答案應是某個參照物。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“direction”、“position”、“forager”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 4第一句：“Recruits also need to know the direction in which they should fly to arrive at the appropriate foraging location, and this information is communicated via the bee’s angular orientation to the hive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被招募的蜜蜂也需要知道應該朝哪個方向飛，才能到達合適的採蜜地點；這項資訊透過蜜蜂相對於蜂巢的角度方位來傳達。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also discovered that the odours must be representative of the actual flowers containing the food source; otherwise the bees will arrive at the site, but not know which flowers will be profitable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他還發現，氣味必須能代表真正含有食物來源的花；否則蜜蜂雖然會到達該地點，卻不知道哪些花有利可圖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出本段前半講 direction，後半講 odour。Question 6 問方向，所以答案應在段落前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“direction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“position”"
+            },
+            {
+              "kind": "quote",
+              "text": "“nectar”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This, however, does not directly represent the position of the food supply relative to the hive, but rather its location relative to the sun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過，這並不直接代表食物供應相對於 hive 的位置，較準確地說，是代表它相對於 sun 的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "再看後文例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Therefore, if the food is situated directly opposite the sun, the bee will fly a straight run vertically downward; if it is in the same direction as the sun, it will fly directly upward from the colony’s nest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，如果食物位於太陽正對面，蜜蜂會垂直向下作 straight run；如果食物與太陽在同一方向，牠會從 colony’s nest 直接向上飛。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 “base its movements on the position of ___”。原文說方向資訊不是直接相對於 hive，而是相對於 “the sun”。後面三個例子都用 sun 作參照： opposite the sun same direction as the sun 60 degrees to the right of the sun因此空格答案是 the sun。若答案欄只接受核心詞，sun 也可。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "position of the sun= location relative to the sun direction of the nectar= position of the food supply / appropriate foraging location base its movements on= angular orientation ... relative to the sun答案形式： the sun = 2 words；sun = 1 word。兩者符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 hive。原文有 “angular orientation to the hive”，但下一句用 however 修正重點：真正用來定位食物方向的參照是 sun。做題時看到 however，要細讀後半句，因為答案常在轉折後。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "waggle",
+      "answerKey": "waggle",
+      "type": "Sentence Completion",
+      "prompt": "“For food sources over 150 metres away, the forager will indicate distance with a 7 __________dance.”",
+      "translation": "對於超過 150 米外的食物來源，forager 會用 7 __________ dance 表示距離。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格後已經有 “dance”，所以答案應是一種 dance 的名稱。定位詞是 “over 150 metres”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first piece of information conveyed by dancing bees is the distance from the field to the hive, which they communicate in one of three ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "跳舞蜜蜂傳達的第一項資訊，是 field 到 hive 的距離；牠們用三種方式傳達。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The length of the forward run corresponds to the distance to the food source; for example, a 2.5-second run indicates that the nectar was found about 2,500 metres away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "forward run 的長度與食物來源距離相對應；例如，2.5 秒的 run 表示 nectar 約在 2,500 米外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段按距離分類不同 dance。題目問 over 150 metres，答案會在三種dance 的第三種。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“over 150 metres”"
+            },
+            {
+              "kind": "quote",
+              "text": "“food sources”"
+            },
+            {
+              "kind": "quote",
+              "text": "“dance”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If the field is farther than 150 metres, the forager will act out a waggle dance in which she will run straight ahead briefly before returning to her original position in a semi-circular movement.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果 field 遠於 150 米，forager 會表演 waggle dance；牠會短暫向前直跑，然後以半圓形動作回到原本位置。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “over 150 metres away” 對應原文 “farther than 150 metres”。原文直接說 forager will act out a waggle dance。所以空格填 waggle。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "需要注意：題目句已有 dance，所以答案只填 waggle；填 waggle dance 會變成 “a waggle dance dance”，文法重複。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "over 150 metres= farther than 150 metres indicate distance= the first piece of information ... distance / length of forward run corresponds to distance a ___ dance= a waggle dance答案形式： waggle = 1 word，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “sickle”。sickle dance 用於 greater than 50 metres but less than 150 metres。題目的over 150 metres 清楚排除了 sickle dance。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "odour",
+      "answerKey": "odour",
+      "type": "Sentence Completion",
+      "prompt": "“It has been argued that 8 __________ as well as movement may help to locate food sources.”",
+      "translation": "有人提出，除了 movement 之外，8 __________ 也可能幫助定位食物來源。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Sentence Completion。空格和 movement 並列，所以答案應是另一個 communication element。定位詞是 “argued”、“as well as movement”、“food sources”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recruits also need to know the direction in which they should fly to arrive at the appropriate foraging location, and this information is communicated via the bee’s angular orientation to the hive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被招募的蜜蜂也需要知道應往哪個方向飛，才能到達合適的採蜜地點；這項資訊透過蜜蜂相對於蜂巢的角度方位來傳達。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also discovered that the odours must be representative of the actual flowers containing the food source; otherwise the bees will arrive at the site, but not know which flowers will be profitable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他還發現，氣味必須代表真正含有食物來源的花；否則蜜蜂會到達該地點，但不知道哪些花有利可圖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到本段前半談 visual movement / direction，後半出現 odours 和 food source。題目說 “as well as movement”，目標應在段落後半的 Wenner 觀點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“argued”"
+            },
+            {
+              "kind": "quote",
+              "text": "“movement”"
+            },
+            {
+              "kind": "quote",
+              "text": "“locate food sources”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Several scientists, among them Adrian Wenner, believe that the dance is only one component of honeybee communication; odour is the second key element.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幾位科學家，包括 Adrian Wenner，相信 dance 只是蜜蜂溝通的一個組成部分；odour 是第二個關鍵元素。"
+            },
+            {
+              "kind": "label",
+              "text": "再看後文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using robotic bees to perform the same dances, Wenner was unable to attract new recruits to the foraging site; however, when he added a bit of nectar to the robot, workers quickly followed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wenner 使用 robotic bees 表演同樣的 dances，卻無法吸引新的蜜蜂前往採蜜地；不過，當他在robot 上加了一點 nectar，worker bees 很快跟隨。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “It has been argued” 對應原文 “Several scientists ... believe”。“movement” 對應 dance。原文說 dance 只是 one component，第二個 key element 是 odour。這正好回答「除了movement，還有甚麼幫助定位食物來源」。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "movement= dance / flight movements as well as movement= dance is only one component; odour is the second key element may help to locate food sources= workers followed when nectar / odour was added; odours must represent actual flowers答案形式： odour = 1 word，符合字數限制。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 nectar。Wenner 加 nectar 是實驗操作，作用是提供氣味線索。原文概括成 “odour is the second key element”，所以空格要填 odour。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Drone bees communicate using a complicated set of movements.”",
+      "translation": "雄蜂使用一套複雜的動作來溝通。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目主體是 “Drone bees”，動作是 “communicate using a complicated set of movements”。要看文章有沒有把 dance communication 歸給 drones。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 1 和 Paragraph 2 Paragraph 1 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Honeybees are characterised by their ability to produce liquefied sugar (honey) and a propensity to construct colonial nests using wax, two tasks that necessitate a significant level of social integration among members.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蜜蜂的特徵包括製造蜂蜜和用蜂蠟建造群體巢穴；這些工作需要成員之間有高度社會整合。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 1 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, honeybees have devised a sophisticated system of communication to relay important information from member to member.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，蜜蜂發展出複雜溝通系統，用來在成員之間傳遞重要資訊。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 2 首句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the most intriguing feature of honeybee communication is a series of flight movements performed only by a female worker bee after she returns to the nest with nectar...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "蜜蜂溝通中最有趣的特徵，可能是一連串 flight movements；這些動作只由 female worker bee在帶 nectar 回巢後表演。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句和下一段首句，可以看出：Paragraph 1 交代 drones 的角色；Paragraph 2 限定 dance performer 是 female worker bee。這題需要跨兩段核對主體。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Drone bees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“communicate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“movements”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對 drones 的描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“males functioning as drones whose role is to fertilise the queen”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雄蜂作為 drones，角色是讓 queen 受精。"
+            },
+            {
+              "kind": "label",
+              "text": "原文對 movement communication 的描述："
+            },
+            {
+              "kind": "quote",
+              "text": "“a series of flight movements performed only by a female worker bee”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一連串 flight movements，只由 female worker bee 表演。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：Drone bees動作：communicate方式：using a complicated set of movements原文命題：主體一：drones角色：fertilise the queen主體二：female worker bee動作：performs flight movements to communicate food location比較結果：文章確實有 complicated / sophisticated communication，也有 flight movements；但執行這些movements 的主體是 female worker bee。drones 的角色被明確定義為 fertilise the queen。題目把動作歸給了錯誤主體。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義與反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "complicated set of movements= sophisticated communication / series of flight movements Drone bees≠ female worker bee using movements to communicate= performed only by a female worker bee答案判斷：因為原文用 “only” 明確限定 flight movements 的表演者是 female worker bee，題目說 drones使用這套動作便和原文衝突。因此答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 Paragraph 1 的 “sophisticated system of communication”，再看到 drones，就把兩者連在一起。真正要看的控制詞是 Paragraph 2 的 “performed only by a female worker bee”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "only 直接排除了 drones。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The honeybee dance is performed until a number of other bees join in the collection of the nectar.”",
+      "translation": "蜜蜂舞會一直表演，直到若干其他蜜蜂加入採集花蜜。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目重點是 “until”、“a number of other bees” 和 “join in the collection”。要找 dance 是否有 recruitment 的功能，以及是否重複到其他工蜂加入。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The first piece of information conveyed by dancing bees is the distance from the field to the hive, which they communicate in one of three ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "跳舞蜜蜂傳達的第一項資訊，是 field 到 hive 的距離；牠們用三種方式傳達。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The length of the forward run corresponds to the distance to the food source; for example, a 2.5-second run indicates that the nectar was found about 2,500 metres away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "forward run 的長度與食物來源距離相對應；例如，2.5 秒的 run 表示 nectar 約在 2,500 米外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道本段會詳細說三種 dance。題目問 dance 持續到其他蜜蜂加入，應在其中一種 dance 的描述中找 “until / recruited”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“until”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other bees”"
+            },
+            {
+              "kind": "quote",
+              "text": "“collection of nectar”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“She will repeat this pattern, which von Frisch’s team called the round dance, until she has recruited several other workers to return with her to the field.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠會重複這個 pattern；von Frisch 的團隊稱之為 round dance，直到牠招募了幾隻其他 worker bees 跟牠回到 field。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：the honeybee dance動作：is performed until...結果：other bees join in nectar collection原文命題：主體：the bee performing the round dance動作：will repeat this pattern until...結果：has recruited several other workers to return with her to the field這裡 “several other workers” 對應 “a number of other bees”。“return with her to the field” 表示牠們會跟著前往食物地點採集 nectar。雖然原文沒有逐字寫 “join in the collection of the nectar”，但在 honeybee foraging 的語境中，回到 field 的目的就是採蜜。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "performed until= repeat this pattern until a number of other bees= several other workers join in the collection of nectar= return with her to the field答案判斷：題目和原文在動作、結果和目的上同方向，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要留意 “the honeybee dance” 的範圍。原文最直接的 until 證據出現在 round dance 中。由於題目沒有指定 waggle 或 sickle，判斷時可用原文對 dance recruitment 的直接句子支持。若題目說 “all three dances are performed until...”，原文證據就不足；但現在的表述沒有把範圍推到 all。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The honeybee dance is only performed when the sun is visible.”",
+      "translation": "蜜蜂舞只會在太陽可見時表演。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目包含一個很強的限定詞 “only”。要檢查文章是否說dance 的表演條件受 sun visibility 限制。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recruits also need to know the direction in which they should fly to arrive at the appropriate foraging location, and this information is communicated via the bee’s angular orientation to the hive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被招募的蜜蜂也需要知道應往哪個方向飛，才能到達合適的採蜜地點；這項資訊透過蜜蜂相對於蜂巢的角度方位來傳達。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also discovered that the odours must be representative of the actual flowers containing the food source; otherwise the bees will arrive at the site, but not know which flowers will be profitable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他還發現氣味必須代表真正含有食物來源的花；否則蜜蜂會到達該地點，卻不知道哪些花有利可圖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出本段前半會講方向和 sun，後半講 odour。Question 11 提到 sun，因此要讀前半段。但題目問的是「只有太陽可見才表演」，要找 visibility 或 performance condition。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“only”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sun”"
+            },
+            {
+              "kind": "quote",
+              "text": "“visible”"
+            },
+            {
+              "kind": "label",
+              "text": "原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This, however, does not directly represent the position of the food supply relative to the hive, but rather its location relative to the sun.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這並不直接代表食物供應相對於 hive 的位置，較準確地說，是代表它相對於 sun 的位置。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Moreover, because the sun is in constant motion throughout the day, the bee’s orientation will shift depending on the time at which the dance is performed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "此外，由於太陽整天都在不斷移動，蜜蜂的 orientation 會根據 dance 表演的時間而改變。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文確實說 direction information 以 sun 為參照，也說 sun 的位置會因時間而變，所以蜜蜂的orientation 也會調整。可是題目說的是 “only performed when the sun is visible”，這需要文章提供以下資訊之一： dance 在陰天不會表演； dance 在夜晚不會表演； sun 必須可見；如果看不到 sun，蜜蜂不能跳舞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有這些內容。它只說 sun 是方向參照，不等於要求 sun 必須肉眼可見。文章也沒有提到clouds、night、visibility、weather limitations。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：主體：honeybee dance限制：only performed when the sun is visible原文命題：主體：direction information參照：relative to the sun補充：orientation shifts with time of day比較結果：原文提供 sun as reference，缺少 visible / only performed 的條件。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案判斷：沒有明確衝突，也沒有足夠證據支持題目，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“relative to the sun” 很容易令人推想蜜蜂必須看到太陽。可是 IELTS Reading 不能用常識或生物學背景補資料。題目真正多出的資訊是 visible 和 only；文章沒有給出這兩點。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Wenner concluded that a matching smell will help bees find the rough area of the nectar but not the specific source.”",
+      "translation": "Wenner 得出結論：匹配的氣味能幫助蜜蜂找到 nectar 的大概區域，但不能找到具體來源。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。題目主體是 Wenner，核心是 matching smell 的作用。要比較原文是否說 matching smell 只能找 rough area，無法找 specific source。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recruits also need to know the direction in which they should fly to arrive at the appropriate foraging location, and this information is communicated via the bee’s angular orientation to the hive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "被招募的蜜蜂也需要知道應往哪個方向飛，才能到達合適的採蜜地點；這項資訊透過蜜蜂相對於蜂巢的角度方位來傳達。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also discovered that the odours must be representative of the actual flowers containing the food source; otherwise the bees will arrive at the site, but not know which flowers will be profitable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他還發現，氣味必須代表真正含有食物來源的花；否則蜜蜂會到達該地點，卻不知道哪些花有利可圖。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看出本段後半正好處理 Wenner 和 odour。題目中的 matching smell 對應原文的 “odours must be representative of the actual flowers”。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wenner”"
+            },
+            {
+              "kind": "quote",
+              "text": "“matching smell”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rough area”"
+            },
+            {
+              "kind": "quote",
+              "text": "“specific source”"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Using robotic bees to perform the same dances, Wenner was unable to attract new recruits to the foraging site; however, when he added a bit of nectar to the robot, workers quickly followed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Wenner 使用 robotic bees 表演同樣的 dances，卻無法吸引新蜜蜂到採蜜地；不過，當他在 robot上加上一點 nectar，worker bees 很快跟隨。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“He also discovered that the odours must be representative of the actual flowers containing the food source; otherwise the bees will arrive at the site, but not know which flowers will be profitable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他還發現，氣味必須能代表真正含有食物來源的花；否則蜜蜂會到達地點，但不知道哪些花有利可圖。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的關鍵在 “otherwise”。原文邏輯是：如果 odours are representative of actual flowers→ bees can identify the profitable flowers.如果 odours are not representative→ bees may arrive at the site but not know which flowers will be profitable.題目說 “a matching smell will help bees find the rough area ... but not the specific source”。這把原文的條件反轉了。matching smell 的功能正是讓氣味與實際花朵對應，幫助蜜蜂知道哪些花有nectar。只找到 rough area、找不到 specific flowers 的情況，是 odour 不代表 actual flowers 時才出現。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題： matching smell→ find rough area→ not specific source原文命題： representative odour→ points to actual flowers containing food source non-representative odour→ arrive at site but not know profitable flowers比較結果：題目把 “matching smell” 的作用說弱了，還把 non-matching smell 的後果放到 matching smell身上。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫與反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "matching smell= odours representative of the actual flowers specific source= actual flowers containing the food source / which flowers will be profitable rough area only= arrive at the site but not know which flowers...答案判斷：原文說 matching / representative odour 能幫助蜜蜂找到具體有利的花；題目說 matching smell不能找到 specific source。兩者方向衝突，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易被誤讀的是最後一句的 “otherwise”。otherwise 指「如果氣味不代表真正的花」。題目卻把這個後果套到 matching smell 上。做 TRUE / FALSE / NOT GIVEN 時，遇到 otherwise、if、however 這類詞，要先把條件和結果分清楚。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - FLIGHT OF THE HONEYBEE.pdf",
+    "sha256": "faff51780eda2f9cdc780cfa525980bc7c36d9a609c83f58c6eae5957bd94f0d",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句建立全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 honeybees 的特徵包括製造 honey 和用 wax 建造群體巢穴，這兩項工作都需要高度social integration。末句說 honeybees 還發展出 sophisticated system of communication，在成員之間傳遞重要資訊。只看首尾句，可以先判斷本段是背景介紹：蜜蜂社會有明確分工，包含drones、queen、female workers，也為後文的 bee communication 鋪路。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 honeybee communication 最有趣的特徵，是 female worker bee 回巢後用一連串 flight movements 告訴同伴食物位置。末句說 von Frisch 發現這種 dance 能傳達 nectar reserves 的位置，並招募其他蜜蜂前往。只看首尾句，可以估計本段重點是 Karl von Frisch 的研究方法和發現：他觀察、標記、訓練 foragers，記錄 movement、angle、direction 和 cues。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 dancing bees 傳遞的第一項資訊是 field 到 hive 的距離，而且有三種方式。末句用例子說2.5-second run 代表 nectar 約在 2,500 metres 外。只看首尾句，可以判斷本段集中處理 distance：近距離用 round dance，中距離用 sickle dance，超過 150 metres 用 waggle dance；forward run長度與食物距離相對應。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說 recruited bees 也需要知道應往哪個方向飛，而方向資訊由 bee 相對於 hive 的 angular orientation 傳達。末句說如果氣味不能代表真正有 nectar 的花，蜜蜂雖到達地點，仍不知道哪些花有利可圖。只看首尾句，可以先判斷本段由 direction 轉向 debate：von Frisch 強調視覺與太陽方位，Wenner 則加入 odour 作第二關鍵元素。"
+      }
+    ]
+  }
+}

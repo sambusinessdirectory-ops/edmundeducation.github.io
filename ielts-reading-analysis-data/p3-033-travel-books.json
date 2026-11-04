@@ -1,0 +1,2257 @@
+{
+  "id": "p3-033-travel-books",
+  "catalogueId": "p3-033",
+  "catalogueIds": [
+    "p3-033"
+  ],
+  "passage": 3,
+  "title": "Travel Books",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "B",
+    "B",
+    "Persian Wars",
+    "allies",
+    "geographical knowledge",
+    "pilgrimage",
+    "India",
+    "colonies",
+    "organisation",
+    "wealthy",
+    "D",
+    "B",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "B — Business",
+      "answerKey": "B — Business",
+      "type": "Question Analysis",
+      "prompt": "Why did most people travel in the early days?",
+      "translation": "早期大多數人為甚麼旅行？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 multiple choice。題目問的是早期旅行的主要原因，不是問 travel books 的功能，也不是問旅行者後來寫了甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are many reasons why individuals have travelled beyond their own societies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們離開自己的社會、前往其他地方旅行，有許多原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the travellers’ accounts give much valuable information on these foreign lands and provide a window into the local cultures and histories, they are also a mirror for the travellers themselves, for these accounts help them to have a better understanding of themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "旅行者的記錄一方面提供許多關於外地的寶貴資訊，讓人看見當地文化和歷史；另一方面，這些記錄也像旅行者自身的鏡子，因為它們幫助旅行者更了解自己。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 1 的功能：它在引入「人為甚麼旅行」和「旅行記有甚麼作用」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 early days 的旅行原因，因此 Paragraph 1 是第一個需要看的位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是： early days why travel原文中沒有逐字出現 “early days”，但有一句非常接近："
+            },
+            {
+              "kind": "quote",
+              "text": "“Until recent times, however, travellers did not start their journeys solely out of curiosity.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到近代以前，旅行者並不純粹因為好奇心而出發。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句否定了「純粹出於 curiosity」這個原因。接著後文多次說明早期旅行常和 trade、profit、pilgrimage、administration、missionary work 等實際目的有關。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案根據"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 3 進一步補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the post-classical era (about 500 to 1500 CE), trade and pilgrimage emerged as major incentives for travel to foreign lands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在後古典時代，貿易和朝聖成為前往外國旅行的主要動機。"
+            },
+            {
+              "kind": "label",
+              "text": "再看同段："
+            },
+            {
+              "kind": "quote",
+              "text": "“While merchants set out in search of trade and profit, devout Muslims travelled as pilgrims to Mecca…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "商人出發尋找貿易和利潤，而虔誠的穆斯林則作為朝聖者前往麥加。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "在四個選項中，B Business 最能代表 trade、profit、commercial opportunity 這一類早期實際旅行目的。A “Studying their own cultures” 不符合 “foreign lands”；C “Knowing other people and places better” 比較接近 curiosity，但原文說早期旅行者並非 purely out of curiosity；D “Writing travel books” 是旅行後產生的記錄，不是大部分人出發的主要原因。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 / 選項 原文Business trade and profit / trading opportunities / commercial opportunities early days until recent times / post-classical era / ages past why people travelled major incentives for travel"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很吸引，因為文章開頭有 “curiosity about the larger world”。可是原文馬上補充 “did not start their journeys solely out of curiosity”。所以「認識其他地方」只能解釋部分旅行者，不足以概括early days 的多數旅行目的。真正更穩的答案是 B，因為後文反覆把早期旅行和 trade、profit、commercial opportunities 連起來。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "B — Because travellers reflect upon their own society and life.",
+      "answerKey": "B — Because travellers reflect upon their own society and life.",
+      "type": "Question Analysis",
+      "prompt": "Why does the author say that travel writing is also “a mirror” for travellers themselves?",
+      "translation": "作者為甚麼說旅行寫作對旅行者自身來說也是一面「鏡子」？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問的是 metaphor，即 “mirror” 這個比喻。做這類題時，不能只看 mirror 的字面意思，要看作者在比喻後面如何解釋。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There are many reasons why individuals have travelled beyond their own societies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人們離開自己的社會、前往其他地方旅行，有許多原因。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“While the travellers’ accounts give much valuable information on these foreign lands and provide a window into the local cultures and histories, they are also a mirror for the travellers themselves, for these accounts help them to have a better understanding of themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "旅行者的記錄一方面提供許多關於外地的寶貴資訊，讓人看見當地文化和歷史；另一方面，這些記錄也像旅行者自身的鏡子，因為它們幫助旅行者更了解自己。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接包含 “mirror”，所以 Paragraph 1 是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： mirror travellers themselves原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“they are also a mirror for the travellers themselves”"
+            },
+            {
+              "kind": "label",
+              "text": "後面緊接原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“for these accounts help them to have a better understanding of themselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為這些記錄幫助他們更了解自己。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文把 travel accounts 分成兩個功能： 1. window：讓人看見 foreign lands、local cultures、histories。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. mirror：讓旅行者回頭理解自己。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 mirror，因此答案要落在第二個功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B： Because travellers reflect upon their own society and life."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為旅行者反思自己的社會和生活。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好對應 “better understanding of themselves”。雖然原文沒有逐字說 “own society and life”，但旅行者透過書寫外地經驗，回頭理解自己的身份、價值觀和社會位置，這就是 mirror 的含義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A “Because travellers record their own experiences.”這只說明 travel writing 記錄旅行經驗，但未能解釋 mirror 的深層意思。Mirror 的重點是self-understanding，不只是 record。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Because it increases knowledge of foreign cultures.”這對應的是 “window into the local cultures and histories”，不是 mirror。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “Because it is related to the development of human society.”這個選項太寬，文章沒有把 mirror 解釋成整體人類社會發展。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 選項 B a mirror for the travellers themselves reflect upon their own society and life better understanding of themselves self-reflection / self-understanding travellers’ accounts travel writing"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最常見錯項是 C。C 確實是文章內容，但它對應的是 “window”，不是 “mirror”。一篇文章同一句可以同時有兩個比喻，做題時要看題目指定哪一個比喻。這題指定 “mirror”，所以答案要回到self-understanding。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "Persian Wars",
+      "answerKey": "Persian Wars",
+      "type": "Question Analysis",
+      "prompt": "Question 29",
+      "translation": "古典希臘時期，Herodotus 前往埃及和安納托利亞，目的是為研究 ______ 收集資料。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格： Classical Greece — Herodotus — Egypt and Anatolia — To gather information for the study of 29 ______"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題是 table completion，字數限制是 NO MORE THAN TWO WORDS。答案必須從文章中抽取，並且要符合表格文法。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Records of foreign travel appeared soon after the invention of writing, and fragmentary travel accounts appeared in both Mesopotamia and Egypt in ancient times.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在文字發明後不久，外國旅行記錄便出現了；在古代的美索不達米亞和埃及，也有零碎的旅行記。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hellenistic and Roman geographers such as Ptolemy, Strabo, and Pliny the Elder relied on their own travels through much of the Mediterranean world as well as reports of other travellers to compile vast compendia of geographical knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "希臘化時期和羅馬時期的地理學家，例如 Ptolemy、Strabo 和 Pliny the Elder，依靠自己在地中海世界大部分地區的旅行，以及其他旅行者的報告，編成大量地理知識彙編。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先猜 Paragraph 2 會按人物列出古代和 classical world 的旅行記錄。題目出現Herodotus，正好屬於這段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目最強定位詞： Herodotus Egypt and Anatolia原文直接寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Greek historian Herodotus reported on his travels in Egypt and Anatolia while researching the history of the Persian Wars.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "希臘歷史學家 Herodotus 在研究波斯戰爭歷史時，記錄了自己在埃及和安納托利亞的旅行。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目表格說： To gather information for the study of ______原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“while researching the history of the Persian Wars”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡 “researching the history of…” 和表格的 “for the study of…” 意思相同。空格應填 Herodotus研究的歷史事件： Persian Wars答案形式檢查字數限制：NO MORE THAN TWO WORDS"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：Persian Wars"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：2 words，符合要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不需要填 “the Persian Wars”，因為 “the” 會令答案變成 3 words，而且題目空格前已有 “the study of”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文To gather information for the study of while researching the history of Classical Greece / Herodotus The Greek historian Herodotus Egypt and Anatolia Egypt and Anatolia Persian Wars the Persian Wars"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “history”，因為表格已經用 “study of” 概括了 researching history。真正回答「研究甚麼」的是 Persian Wars。這題考的是 table 中 purpose 欄的名詞核心，不是把整句照抄。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "allies",
+      "answerKey": "allies",
+      "type": "Question Analysis",
+      "prompt": "Question 30",
+      "translation": "漢朝時期，張騫前往中亞，目的是尋找 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格： Han Dynasty — Zhang Qian — Central Asia — To seek 30 ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Records of foreign travel appeared soon after the invention of writing, and fragmentary travel accounts appeared in both Mesopotamia and Egypt in ancient times.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在文字發明後不久，外國旅行記錄便出現了；在古代的美索不達米亞和埃及，也有零碎的旅行記。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hellenistic and Roman geographers such as Ptolemy, Strabo, and Pliny the Elder relied on their own travels through much of the Mediterranean world as well as reports of other travellers to compile vast compendia of geographical knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "希臘化時期和羅馬時期的地理學家，例如 Ptolemy、Strabo 和 Pliny the Elder，依靠自己在地中海世界大部分地區的旅行，以及其他旅行者的報告，編成大量地理知識彙編。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段用不同文明和人物展示早期 travel accounts。Zhang Qian 是專有名詞，非常容易定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： Zhang Qian Central Asia Han Dynasty原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“The Chinese envoy Zhang Qian described much of Central Asia as far west as Bactria (modern-day Afghanistan) on the basis of travels undertaken in the first century BCE while searching for allies for the Han dynasty.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中國使者張騫根據公元前一世紀的旅行，描述了中亞大部分地區，最西至 Bactria（現代阿富汗）；這些旅行是在為漢朝尋找盟友時進行的。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "label",
+              "text": "To seek ______原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“while searching for allies for the Han dynasty”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“seek” 和 “searching for” 是直接同義改寫。空格要填被尋找的對象： allies答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：allies"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word，符合 NO MORE THAN TWO WORDS。文法：To seek allies，自然完整。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文To seek while searching for Han Dynasty Han dynasty Zhang Qian Zhang Qian Central Asia much of Central Asia allies allies"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “Han dynasty”。題目表格已經把 time 寫成 Han Dynasty，而且空格前是 “To seek”，所以答案必須是被尋找的人或群體。原文的 “for the Han dynasty” 表示替誰尋找，不是尋找的對象。真正對象是 allies。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "geographical knowledge",
+      "answerKey": "geographical knowledge",
+      "type": "Question Analysis",
+      "prompt": "Question 31",
+      "translation": "羅馬帝國時期，Ptolemy、Strabo、Pliny the Elder 在地中海旅行，目的是獲取 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格： Roman Empire — Ptolemy, Strabo, Pliny the Elder — The Mediterranean — To acquire 31 ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Records of foreign travel appeared soon after the invention of writing, and fragmentary travel accounts appeared in both Mesopotamia and Egypt in ancient times.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在文字發明後不久，外國旅行記錄便出現了；在古代的美索不達米亞和埃及，也有零碎的旅行記。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hellenistic and Roman geographers such as Ptolemy, Strabo, and Pliny the Elder relied on their own travels through much of the Mediterranean world as well as reports of other travellers to compile vast compendia of geographical knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "希臘化時期和羅馬時期的地理學家，例如 Ptolemy、Strabo 和 Pliny the Elder，依靠自己在地中海世界大部分地區的旅行，以及其他旅行者的報告，編成大量地理知識彙編。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題的答案其實就在最後一句，因為題目三個人名全部出現在這句。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "定位詞： Ptolemy Strabo Pliny the Elder Mediterranean原文同句出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Ptolemy, Strabo, and Pliny the Elder…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the Mediterranean world…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“geographical knowledge”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句完全對應表格。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“relied on their own travels through much of the Mediterranean world as well as reports of other travellers to compile vast compendia of geographical knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們依靠自己在地中海世界大部分地區的旅行，以及其他旅行者的報告，編成大量地理知識彙編。"
+            },
+            {
+              "kind": "label",
+              "text": "題目用： To acquire ______原文用："
+            },
+            {
+              "kind": "quote",
+              "text": "“to compile vast compendia of geographical knowledge”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 “compile” 是編纂，不是 acquire，但表格把目的簡化為「取得 / 獲取」某種知識。被取得和整理的內容就是： geographical knowledge答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：geographical knowledge"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：2 words，符合要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法：To acquire geographical knowledge，自然完整。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文Roman Empire Roman geographers The Mediterranean the Mediterranean world To acquire relied on travels and reports to compile geographical geographical knowledge knowledge"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “compendia”。Compendia 是「彙編」本身，不是旅行目標的知識內容。表格問的是 To acquire 甚麼，最自然應填內容類名詞 geographical knowledge。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "pilgrimage",
+      "answerKey": "pilgrimage",
+      "type": "Question Analysis",
+      "prompt": "Question 32",
+      "translation": "後古典時代，穆斯林前往東非至印尼一帶，以及麥加，目的包括貿易和 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格： Post-classical era — Muslims — From East Africa to Indonesia, Mecca — For trading and 32 ______"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the post-classical era (about 500 to 1500 CE), trade and pilgrimage emerged as major incentives for travel to foreign lands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在後古典時代（約公元 500 至 1500 年），貿易和朝聖成為前往外國旅行的主要動機。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though not so numerous as the Chinese pilgrims, Buddhists from Japan, Korea, and other lands also ventured abroad in the interests of spiritual enlightenment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然數量不及中國朝聖者，日本、韓國和其他地方的佛教徒也為了精神啟蒙而前往海外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 3 主要講 post-classical era 的 trade 和 pilgrimage，並特別集中在宗教旅行。題目表格也寫 Muslims 和 Mecca，因此定位非常明確。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： Muslims East Africa to Indonesia Mecca trading原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Muslim merchants sought trading opportunities throughout much of the eastern hemisphere.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“They described lands, peoples, and commercial products of the Indian Ocean basin from East Africa to Indonesia…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“devout Muslims travelled as pilgrims to Mecca…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "穆斯林商人在東半球大部分地區尋找貿易機會；他們描述印度洋流域從東非到印尼的土地、人民和商品；虔誠的穆斯林則作為朝聖者前往麥加。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目已經給了： For trading and ______原文第一句已經把兩個主要目的並列："
+            },
+            {
+              "kind": "quote",
+              "text": "“trade and pilgrimage”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以空格要填和 trading 並列的另一個目的： pilgrimage答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：pilgrimage"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法：For trading and pilgrimage，正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文trading trade / trading opportunities Mecca travelled as pilgrims to Mecca pilgrimage pilgrimage / pilgrims From East Africa to Indonesia from East Africa to Indonesia"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “hajj”。原文確實提到 hajj，但表格的結構是 “For trading and ______”，需要和 trading 並列的概括性目的。pilgrimage 是上位概念；hajj 是穆斯林朝聖的一種具體宗教行動。這題填pilgrimage 更穩。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "India",
+      "answerKey": "India",
+      "type": "Question Analysis",
+      "prompt": "Question 33",
+      "translation": "公元五至九世紀，中國佛教徒前往 ______，目的包括收集佛教文本和追求精神啟蒙。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格： 5th–9th centuries CE — Chinese Buddhists — 33 ______ — To collect Buddhist texts and for spiritual enlightenment"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the post-classical era (about 500 to 1500 CE), trade and pilgrimage emerged as major incentives for travel to foreign lands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在後古典時代，貿易和朝聖成為前往外國旅行的主要動機。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though not so numerous as the Chinese pilgrims, Buddhists from Japan, Korea, and other lands also ventured abroad in the interests of spiritual enlightenment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然數量不及中國朝聖者，日本、韓國和其他地方的佛教徒也為了精神啟蒙而前往海外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段後半集中講 East Asian Buddhists，題目出現 Chinese Buddhists 和 5th–9th centuries CE，明顯定位於此。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： 5th–9th centuries CE Chinese Buddhists collect Buddhist texts原文寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“Between the 5th and 9th centuries CE, hundreds and possibly even thousands of Chinese Buddhists travelled to India to study with Buddhist teachers, collect sacred texts, and visit holy sites.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在公元五至九世紀之間，數百甚至可能數千名中國佛教徒前往印度，跟隨佛教老師學習、收集神聖文本，並參訪聖地。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格問 destination： Chinese Buddhists — 33 ______原文直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“travelled to India”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是： India答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：India"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word，符合要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法：Destination = India，正確。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文5th–9th centuries CE Between the 5th and 9th centuries CE Chinese Buddhists Chinese Buddhists To collect Buddhist texts collect sacred texts spiritual enlightenment in the interests of spiritual enlightenment destination travelled to India"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “holy sites”。題目右欄已經寫目的，包括 collect texts 和 spiritual enlightenment；空格在destination 欄。要先看表格欄位，確認空格要的是地方、人物、目的，還是時間。這題空格是destination，所以填 India。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "colonies",
+      "answerKey": "colonies",
+      "type": "Question Analysis",
+      "prompt": "Question 34",
+      "translation": "十九世紀，殖民行政人員在亞洲和非洲寫作，目的是為他們建立的 ______ 提供資訊。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格： During the nineteenth century — Colonial administrators — Asia, Africa — To provide information for the 34 ______ they set up"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the 19th century, European travellers made their way to the interior regions of Africa and the Americas, generating a fresh round of travel writing as they did so.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在十九世紀，歐洲旅行者前往非洲和美洲內陸地區，並由此產生新一輪旅行寫作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among the most prominent of these travellers who made extensive use of their overseas observations and experiences in their own writings were the Japanese reformer Fukuzawa Yukichi and the Chinese revolutionary Sun Yat-sen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些旅行者之中，最著名的包括日本改革者福澤諭吉和中國革命家孫中山；他們在自己的寫作中大量運用海外觀察和經驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 6 處理十九世紀 travel writing 的新方向：歐洲旅行者、殖民地寫作，以及亞洲旅行者到歐美學習。Q34 的 colonial administrators 明顯在這段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： Colonial administrators Asia, Africa set up原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Meanwhile, European colonial administrators devoted numerous writings to the societies of their colonial subjects, particularly in Asian and African colonies they established.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同時，歐洲殖民行政人員寫了大量文章，記錄其殖民對象的社會，尤其是在他們建立的亞洲和非洲殖民地中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "表格句子： To provide information for the ______ they set up原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Asian and African colonies they established”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“set up” 對應 “established”。被建立的是： colonies所以答案是 colonies。答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：colonies"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word，符合要求。文法：the colonies they set up，完整自然。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文Colonial administrators European colonial administrators Asia, Africa Asian and African they set up they established colonies colonies provide information devoted numerous writings to the societies"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“colonial subjects” 也在同一句出現，很容易令人猶豫。可是題目空格後有 “they set up”，能被“set up / established” 的是 colonies，不是 subjects。做 table completion 時，空格前後文法常常比單字重現更重要。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "organisation",
+      "answerKey": "organisation",
+      "type": "Question Analysis",
+      "prompt": "Question 35",
+      "translation": "十九世紀中期，孫中山和福澤諭吉前往歐洲和美國，目的是研究其社會的 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格： By the mid-nineteenth century — Sun Yat-sen, Fukuzawa Yukichi — Europe and the United States — To study the 35 ______ of their societies"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the 19th century, European travellers made their way to the interior regions of Africa and the Americas, generating a fresh round of travel writing as they did so.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "十九世紀，歐洲旅行者前往非洲和美洲內陸地區，並因此產生新一輪旅行寫作。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Among the most prominent of these travellers who made extensive use of their overseas observations and experiences in their own writings were the Japanese reformer Fukuzawa Yukichi and the Chinese revolutionary Sun Yat-sen.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這些旅行者之中，最著名的包括日本改革者福澤諭吉和中國革命家孫中山；他們在自己的寫作中大量運用海外觀察和經驗。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句直接出現 Fukuzawa Yukichi 和 Sun Yat-sen，因此 Q35 在 Paragraph 6 後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： Sun Yat-sen Fukuzawa Yukichi Europe and the United States societies原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Painfully aware of the military and technological prowess of European and Euro-American societies, Asian travellers in particular visited Europe and the United States in hopes of discovering principles useful for the organisation of their own societies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "亞洲旅行者尤其清楚意識到歐洲和歐美社會的軍事與技術實力，因此前往歐洲和美國，希望發現一些原則，可用於組織自身社會。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "paragraph",
+              "text": "To study the ______ of their societies原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“principles useful for the organisation of their own societies”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格後同樣接： of their societies所以答案應直接取原文中的： organisation答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：organisation"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word，符合要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "拼字要留意：文章用 British spelling organisation，不是 American spelling “organization”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文To study in hopes of discovering principles useful for Europe and the United Europe and the United States States their societies their own societies organisation organisation"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “military and technological prowess”。這是亞洲旅行者意識到的歐美優勢，屬於出發背景；表格問他們想研究甚麼以用於自身社會。真正和 “of their societies” 連接的是 organisation。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "wealthy",
+      "answerKey": "wealthy",
+      "type": "Question Analysis",
+      "prompt": "Question 36",
+      "translation": "二十世紀，來自 ______ 國家的人參與大眾旅遊，目的為娛樂和享樂。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目表格： 20th century — People from 36 ______ countries — Mass tourism — For entertainment and pleasure"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“With the development of inexpensive and reliable means of mass transport, the twentieth century witnessed explosions both in the frequency of long-distance travel and in the volume of travel writing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著廉價而可靠的大眾交通方式發展，二十世紀見證了長途旅行頻率和旅行寫作數量的爆炸式增長。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Tourism has had a massive economic impact throughout the world, but other new forms of travel have also had considerable influence in contemporary times.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "旅遊業對全球產生了巨大的經濟影響，但其他新的旅行形式在當代也有相當大的影響。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 7 明確講 twentieth century、mass transport、mass tourism，正好對應 Q36。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： 20th century mass tourism entertainment and pleasure countries原文相關句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The most distinctive of them was mass tourism, which emerged as a major form of consumption for individuals living in the world’s wealthy societies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "其中最具特色的是大眾旅遊；它成為生活在世界富裕社會中的個人一種主要消費形式。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目表格寫： People from ______ countries原文寫："
+            },
+            {
+              "kind": "quote",
+              "text": "“individuals living in the world’s wealthy societies”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “societies” 改成 “countries”，但空格只能從文章中選字，而且要能修飾 countries。原文中最合適的詞是： wealthy所以答案是 wealthy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式檢查"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案：wealthy"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數：1 word，符合要求。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文法：wealthy countries，自然完整。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文People from wealthy individuals living in the world’s wealthy societies countries Mass tourism mass tourism For entertainment and consumption / see the sights / take a cruise / visit wineries / go pleasure on safari 20th century the twentieth century"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “societies”，因為題目已經提供 countries。若填 “wealthy societies countries”，文法會錯。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這題需要根據空格後面的名詞判斷詞性：空格要的是形容詞，所以填 wealthy。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "D — They desired knowledge of their empire.",
+      "answerKey": "D — They desired knowledge of their empire.",
+      "type": "Question Analysis",
+      "prompt": "Why were the imperial rulers especially interested in these travel stories?",
+      "translation": "為甚麼帝國統治者特別對這些旅行故事感興趣？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 multiple choice。題目中的 “imperial rulers” 是非常強的定位詞，因為原文有 large, imperial states 和 rulers。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Records of foreign travel appeared soon after the invention of writing, and fragmentary travel accounts appeared in both Mesopotamia and Egypt in ancient times.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在文字發明後不久，外國旅行記錄便出現了；在古代的美索不達米亞和埃及，也有零碎的旅行記。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Hellenistic and Roman geographers such as Ptolemy, Strabo, and Pliny the Elder relied on their own travels through much of the Mediterranean world as well as reports of other travellers to compile vast compendia of geographical knowledge.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "希臘化時期和羅馬時期的地理學家依靠自己的旅行和其他旅行者報告，編成大量地理知識彙編。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段處理古代國家、統治者和地理知識，因此 Q37 應在 Paragraph 2。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： imperial rulers especially interested travel stories原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“After the formation of large, imperial states in the classical world, travel accounts emerged as a prominent literary genre in many lands, and they held especially strong appeal for rulers desiring useful knowledge about their realms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在古典世界形成大型帝國國家之後，旅行記在許多地方成為重要文學類型，並且對那些渴望獲得自身領土有用知識的統治者尤其有吸引力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“rulers desiring useful knowledge about their realms”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "渴望獲得關於自身領土有用知識的統治者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 D： They desired knowledge of their empire."
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們渴望了解自己的帝國。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是原文的直接概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A “Reading travel stories was a popular pastime.”原文沒有說 rulers 把閱讀旅行故事當消遣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B “The accounts are often truthful rather than fictional.”原文沒有用 truthful / fictional 作比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C “Travel books played an important role in literature.”原文確實說 travel accounts became a prominent literary genre，但這是 genre 地位，不是 rulers特別感興趣的原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D “They desired knowledge of their empire.”正確，對應 “desiring useful knowledge about their realms”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 選項 D rulers imperial rulers desiring desired useful knowledge knowledge their realms their empire"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很有迷惑性，因為原文有 “prominent literary genre”。可是題目問的是 rulers 為甚麼 especially interested。真正原因在後半句 “desiring useful knowledge about their realms”。題目問原因時，要找 because-like content，即能回答 why 的部分。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "B — Muslim pilgrims",
+      "answerKey": "B — Muslim pilgrims",
+      "type": "Question Analysis",
+      "prompt": "Which group produced the largest number of records of spiritual journeys during the post-classical era?",
+      "translation": "在後古典時代，哪一個群體產生了最多精神／宗教旅程記錄？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題需要比較數量，定位詞是 “spiritual journeys”、“post-classical era” 和 “largest number of records”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“During the post-classical era (about 500 to 1500 CE), trade and pilgrimage emerged as major incentives for travel to foreign lands.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在後古典時代，貿易和朝聖成為前往外國旅行的主要動機。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Though not so numerous as the Chinese pilgrims, Buddhists from Japan, Korea, and other lands also ventured abroad in the interests of spiritual enlightenment.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然數量不及中國朝聖者，日本、韓國和其他地方的佛教徒也為了精神啟蒙而前往海外。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 專門處理 post-classical era 的宗教旅行和朝聖記錄，因此是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： largest number records spiritual journeys原文中相關數量資訊有兩組：第一組，Muslim pilgrims："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since the Prophet Muhammad’s original pilgrimage to Mecca, untold millions of Muslims have followed his example, and thousands of hajj accounts have related their experiences.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自先知穆罕默德最初前往麥加朝聖以來，數以無法計算的百萬穆斯林追隨他的榜樣，而數以千計的朝覲記錄敘述了他們的經歷。"
+            },
+            {
+              "kind": "label",
+              "text": "第二組，Chinese Buddhists："
+            },
+            {
+              "kind": "quote",
+              "text": "“Between the 5th and 9th centuries CE, hundreds and possibly even thousands of Chinese Buddhists travelled to India…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在公元五至九世紀之間，數百甚至可能數千名中國佛教徒前往印度……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問的是： largest number of records of spiritual journeys對應 Muslim pilgrims 的原文是："
+            },
+            {
+              "kind": "quote",
+              "text": "“thousands of hajj accounts”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接說有「數以千計的朝覲記錄」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Chinese Buddhists 的原文雖說有 “hundreds and possibly even thousands” of travellers，但關於records，只說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Written accounts recorded the experiences of many pilgrims…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "書面記錄記下了許多朝聖者的經歷。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡沒有說 “thousands of written accounts”。而 Muslim pilgrims 明確有 “thousands of hajj accounts”。所以最大數量的 spiritual journey records 是 Muslim pilgrims。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A Muslim traders他們是商人，主要與 trade、commercial products 有關，不是 spiritual journeys。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Muslim pilgrims正確，對應 “thousands of hajj accounts”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Chinese Buddhists他們也有 religious journeys，但原文沒有說他們的記錄數量超過 hajj accounts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Indian Buddhist teachers原文說 Chinese Buddhists travelled to India to study with Buddhist teachers，但 Indian Buddhist teachers 不是產生旅行記錄的群體。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 原文spiritual journeys pilgrimage / hajj records accounts largest number thousands of hajj accounts Muslim pilgrims Muslims travelled as pilgrims to Mecca"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 很容易誤選，因為原文提到 “hundreds and possibly even thousands of Chinese Buddhists”，數字看起來大。然而題目問的是 records，不是 travellers。Muslim pilgrims 有 “thousands of hajj accounts”，證據更直接。這題要分清「旅行者數量」和「記錄數量」。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "A — meet the public’s interest.",
+      "answerKey": "A — meet the public’s interest.",
+      "type": "Question Analysis",
+      "prompt": "During the early modern era, a large number of travel books were published to…",
+      "translation": "在 early modern era，大量旅行書出版是為了……",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If Muslim and Chinese peoples dominated travel and travel writing in post-classical times, European explorers, conquerors, merchants, and missionaries took centre stage during the early modern era (about 1500 to 1800 CE).”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果說穆斯林和中國人在後古典時代主導旅行和旅行寫作，那麼在早期現代時期（約 1500 至1800 年），歐洲探險者、征服者、商人和傳教士則成為中心角色。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The volume of travel literature was so great that several editors, including Giambattista Ramusio, Richard Hakluyt, Theodore de Bry, and Samuel Purchas, assembled numerous travel accounts and made them available in enormous published collections.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "旅行文學數量巨大，以至於多位編者，包括 Giambattista Ramusio、Richard Hakluyt、Theodore de Bry 和 Samuel Purchas，把大量旅行記集結起來，出版成龐大的文集。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句都指向 early modern era 的 European travel writing 和大量出版，所以 Q39 在 Paragraph 5。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： early modern era large number of travel books published原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“European printing presses churned out thousands of travel accounts that described foreign lands and peoples for a reading public with an apparently insatiable appetite for news about the larger world.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "歐洲印刷機大量產出數以千計的旅行記，描述外國土地和人民，以供給一群對更大世界消息似乎有無窮興趣的讀者。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵短語："
+            },
+            {
+              "kind": "quote",
+              "text": "“for a reading public with an apparently insatiable appetite for news about the larger world”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了一群對世界消息有強烈、近乎無止境興趣的讀者。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A： meet the public’s interest"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "滿足公眾興趣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這正好概括 “reading public” 和 “insatiable appetite”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A meet the public’s interest.正確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B explore new business opportunities.文章說歐洲人尋找 commercial opportunities，但題目問大量旅行書出版目的。出版目的落在reading public 的 appetite。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C encourage trips to the New World.原文沒有說旅行書用來鼓勵人去 New World。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D record the larger world.旅行書確實描述 larger world，但 “to” 問目的時，最貼近的是為了滿足讀者的需求。D 只說內容功能，未說出版目的。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文 選項 A reading public public insatiable appetite strong interest news about the larger information about foreign lands and world peoples churned out thousands a large number were published"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D 有吸引力，因為原文真的說 travel accounts “described foreign lands and peoples”。可是題目問為甚麼出版大量 travel books，原文的目的結構是 “for a reading public with an apparently insatiable appetite”。所以 A 更能回答 why。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — The development of travel books",
+      "answerKey": "D — The development of travel books",
+      "type": "Question Analysis",
+      "prompt": "What is the main theme of the passage?",
+      "translation": "整篇文章的主題是甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是全文主旨題。不能只看某一段或某一個時代，要看文章從開頭到結尾一直在追蹤甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "看全文結構"
+            },
+            {
+              "kind": "paragraph",
+              "text": "全文按時間順序推進： 1. Paragraph 1：引入 travel accounts 的功能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. Paragraph 2：古代和 classical world 的 travel accounts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. Paragraph 3：post-classical era 的 Muslim、East Asian travel writing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "4. Paragraph 4：medieval Europeans 的 travel accounts。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "5. Paragraph 5：early modern era 的歐洲 travel accounts 和大量出版。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "6. Paragraph 6：十九世紀殖民、改革和跨文化觀察寫作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "7. Paragraph 7：二十世紀 mass transport、mass tourism、guidebook。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種結構非常明顯：文章在按歷史階段追蹤 travel writing / travel books 如何出現、擴展、轉型。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 main theme，沒有單一定位詞。要找全文反覆出現的核心詞： travel accounts travel writing travel literature travel books guidebook這些詞在全文反覆出現，並且每一段都用不同歷史時期說明其發展。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "比較四個選項"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A The production of travel books這太偏向出版和生產。Paragraph 5 的確講 printing presses 和 published collections，但全文不只講出版過程，也講 travel accounts 的歷史來源、動機、功能和不同時代形式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B The literary status of travel books Paragraph 2 提到 travel accounts became a prominent literary genre，但整篇文章沒有集中討論文學地位、風格或文學評價。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C The historical significance of travel books這有一定道理，因為文章確實呈現 travel books 的歷史作用。不過 “significance” 偏向問重要性或影響；文章主線更明顯是按時間講 travel writing 如何發展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D The development of travel books最準確。全文從古代記錄講到 classical accounts、post-classical pilgrimage records、early modern printed collections、nineteenth-century colonial and reformist writings，再到twentieth-century guidebooks。這就是 travel books 的歷史發展。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 D 全文主線development appeared → emerged → dominated → took centre stage → published →witnessed explosions travel books travel accounts / travel writing / travel literature / guidebook historical ancient times → classical world → post-classical era → early modern era progression → 19th century → 20th century"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 也有吸引力，因為 travel books 的確有歷史意義。不過主旨題要選最能覆蓋全文組織的答案。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這篇不是集中論證 travel books 為何重要，而是按時間展示 travel books 從古代零碎記錄到現代guidebooks 的演變。因此 D 更貼近文章骨架。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Travel Books.pdf",
+    "sha256": "49683a0e30195a63a14750b493fc9c176d2d896c77d622af9829ee310b34b1e0",
+    "pageCount": 33
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "引入 travel writing 的雙重功能：它既提供外國土地、文化、歷史的資訊，也讓旅行者更了解自己。"
+      },
+      {
+        "number": "2",
+        "summary": "追溯古代和 classical world 的旅行記錄，列出 Herodotus、Zhang Qian、Ptolemy、Strabo、Pliny the Elder。"
+      },
+      {
+        "number": "3",
+        "summary": "說明 post-classical era 的主要旅行動機：trade 和 pilgrimage，重點包括Muslim merchants / pilgrims，以及East Asian Buddhists。"
+      },
+      {
+        "number": "4",
+        "summary": "說明 medieval Europeans 在post-classical era 後期逐漸加入長途旅行，包括 merchants、pilgrims、missionaries 和 Marco Polo；後來尋找通往亞洲、非洲市場的新路線。"
+      },
+      {
+        "number": "5",
+        "summary": "說明 early modern era 歐洲人成為旅行和 travel writing 的中心；大量旅行記由印刷機出版，滿足讀者對世界資訊的強烈興趣。"
+      },
+      {
+        "number": "6",
+        "summary": "說明十九世紀 travel writing 的兩個方向：歐洲人在非洲、美洲內陸和殖民地寫作；亞洲旅行者到歐美尋找可用於自身社會改革的原則。"
+      },
+      {
+        "number": "7",
+        "summary": "說明二十世紀交通發展令長途旅行和travel writing 激增；mass tourism 興起，guidebook 成為新的 travel account 變體。"
+      }
+    ]
+  }
+}

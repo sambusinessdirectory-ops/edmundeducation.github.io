@@ -1,0 +1,1763 @@
+{
+  "id": "p1-047-computer-games-for-preschoolers-nintendo-s-research-and-design-process",
+  "catalogueId": "p1-047",
+  "catalogueIds": [
+    "p1-047"
+  ],
+  "passage": 1,
+  "title": "Computer games for Preschoolers Nintendo's Research and Design Process",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "abilities",
+    "parents",
+    "markets",
+    "siblings",
+    "experienced",
+    "NOT GIVEN",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "firm",
+    "simplicity",
+    "full version",
+    "feedback"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "abilities",
+      "answerKey": "abilities",
+      "type": "Sentence Completion",
+      "prompt": "“Determine the relevant physical and cognitive 1 _________________ in the gameplay context”",
+      "translation": "判斷在 gameplay context 中相關的身體和認知 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題是 notes / sentence completion。空格前有 “physical and cognitive”，後面需要一個複數名詞，因為形容詞組 physical and cognitive 要修飾某種能力或特徵。題目限制 ONE WORD ONLY，所以不能填 “physical and cognitive abilities” 整個片語，只能填核心名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After speaking with producers who had a keen interest in designing for the DS, we agreed on three key goals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在與一批對 DS 設計有濃厚興趣的 producers 交流後，我們同意了三個主要目標。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We therefore began by conducting 26 such studies in three markets across the United States: an urban and suburban area on the East Coast, one on the West Coast, and a suburban and rural area in the Midwest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，我們首先在美國三個 markets 進行了 26 項這類研究：東岸一個 urban and suburban area、西岸一個地區，以及中西部一個 suburban and rural area。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段會列出研究 goals，然後說明研究方法和地點。Question 1 位於"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Main Objectives”，所以 Paragraph 2 是最合理目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中最有定位力的字是 “physical and cognitive”。原文第一個 goal 直接出現：“The first was to understand the range of preschoolers’ physical and cognitive abilities in the context of gameplay on a handheld system.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第一個目標是了解 preschoolers 在 handheld system gameplay 情境中的 physical and cognitive abilities 範圍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文主語是 “The first”，指第一個 key goal；核心動詞是 “was to understand”；真正被了解的對象是 “the range of preschoolers’ physical and cognitive abilities”。題目把 “understand the range of”改成 “Determine the relevant”，把 “in the context of gameplay on a handheld system” 簡化成 “in the gameplay context”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Determine = understand the range of relevant physical and cognitive abilities = preschoolers’ physical and cognitive abilities gameplay context = context of gameplay on a handheld system答案形式abilities 是複數名詞，一個字，符合 ONE WORD ONLY。題目已有 physical and cognitive，所以只需要填 abilities。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “range”。原文有 “the range of”，但題目已用 “Determine the relevant...” 表示要找被判斷的內容。空格前的 physical and cognitive 明確要求一個被修飾的名詞，abilities 才能令句子完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "parents",
+      "answerKey": "parents",
+      "type": "Sentence Completion",
+      "prompt": "“Investigate the attitudes of 2 _________________ towards games”",
+      "translation": "調查 ____________ 對 games 的態度。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格位於 “attitudes of ___ towards games” 中，需要人或群體名詞。題目限制 ONE WORD ONLY。這題仍屬於 Main Objectives，所以要回到 Paragraph 2 的三個 goals。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After speaking with producers who had a keen interest in designing for the DS, we agreed on three key goals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在與一批對 DS 設計有濃厚興趣的 producers 交流後，我們同意了三個主要目標。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We therefore began by conducting 26 such studies in three markets across the United States: an urban and suburban area on the East Coast, one on the West Coast, and a suburban and rural area in the Midwest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，我們首先在美國三個 markets 進行了 26 項這類研究：東岸一個 urban and suburban area、西岸一個地區，以及中西部一個 suburban and rural area。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句說明 Paragraph 2 既有 goals，也有 research design。題目問 attitudes of who，應在第三個 goal 附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “attitudes” 和 “towards games”。原文沒有用 attitudes，較接近的是 expectations、purchasing contexts、gameplay contexts。掃描三個 goals，可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“The third was to understand parents’ expectations of handheld systems, as well as the purchasing and gameplay contexts in which they were used.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第三個目標是了解 parents 對 handheld systems 的 expectations，以及這些系統被購買和使用遊玩時的 context。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “parents’ expectations” 對應題目的 “attitudes of parents”。expectations 是一種態度或看法，尤其涉及父母對 handheld systems 的期望。題目把 handheld systems / purchasing and gameplay contexts 概括成 games，因為本文整體研究的是 DS games for preschoolers。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "attitudes = expectations of parents = parents’ towards games = of handheld systems / purchasing and gameplay contexts答案形式parents 是一個複數名詞，一個字，符合 ONE WORD ONLY。放入題目後是 “attitudes of parents towards games”，文法完整。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “producers”。Paragraph 2 第一行確實提到 producers，但三個研究目標中，對 games /handheld systems 有 expectations 的群體是 parents。producers 是研究團隊先交流的對象，並非這個 objective 要調查其態度的群體。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "markets",
+      "answerKey": "markets",
+      "type": "Sentence Completion",
+      "prompt": "“26 children from different US 3 _________________”",
+      "translation": "來自不同美國 ____________ 的 26 名兒童。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “different US”，後面需要複數地點或分類名詞。題目限制 ONE WORD ONLY。這題在Subjects 部分，但相關資料在 Paragraph 2 與 Paragraph 3 連接處。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“After speaking with producers who had a keen interest in designing for the DS, we agreed on three key goals.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在與一批對 DS 設計有濃厚興趣的 producers 交流後，我們同意了三個主要目標。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We therefore began by conducting 26 such studies in three markets across the United States: an urban and suburban area on the East Coast, one on the West Coast, and a suburban and rural area in the Midwest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，我們首先在美國三個 markets 進行了 26 項這類研究：東岸一個 urban and suburban area、西岸一個地區，以及中西部一個 suburban and rural area。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看最後一句，已經能看到 “26 such studies” 和 “three markets across the United States”。題目把研究地點概括到 subjects 身上。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “26” 和 “US”。原文有 “26 such studies” 和 “three markets across the United States”。下一段再說 participants included 15 girls and 11 boys，合共 26 children。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“We therefore began by conducting 26 such studies in three markets across the United States...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，我們首先在美國三個 markets 進行了 26 項這類研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “26 children from different US...” 是將後文 participants 的數量和前文 study locations 合併成 notes。雖然原文嚴格說的是 26 studies，而非直接說 26 children from three markets，但Paragraph 3 緊接著把 participants 數量列為 15 girls and 11 boys，即 26 children。整體 notes 的意思是研究對象來自美國不同 markets。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "different US markets = three markets across the United States 26 children = 15 girls and 11 boys / 26 such studies involving preschoolers答案形式markets 是複數名詞，一個字，符合 ONE WORD ONLY。題目中的 different 也自然要求複數。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “areas”。原文後面確實列出 urban and suburban area、West Coast area、suburban and rural area，但概括詞是 “markets”。題目句子說 different US ___，最貼原文的上位詞是 markets。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "siblings",
+      "answerKey": "siblings",
+      "type": "Sentence Completion",
+      "prompt": "“Some children have older 4 _________________”",
+      "translation": "有些 children 有年長的 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前面是 “older”，後面需要複數家庭成員名詞。題目限制 ONE WORD ONLY。定位詞 “older”很強。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The participants included 15 girls and 11 boys, ranging in age from 3 years and 3 months to 5 years and 11 months.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "參與者包括 15 名女孩和 11 名男孩，年齡由 3 歲 3 個月至 5 歲 11 個月。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each interview lasted approximately 60 to 120 minutes and included the preschooler, at least one parent, and often siblings or another caregiver.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每次訪問約 60 至 120 分鐘，參與者包括該 preschooler、至少一位家長，並且通常還有 siblings或另一位 caregiver。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 Paragraph 3 是 participants profile：人數、年齡、家庭成員、使用經驗和訪問長度。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Question 4 問 older family members，正落在本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的是 “older”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Because earlier research had shown that older siblings affected gameplay...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因為較早的研究顯示 older siblings 會影響 gameplay……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文接著說："
+            },
+            {
+              "kind": "quote",
+              "text": "“...we selected households that included preschoolers both with and without older siblings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們選擇了一些家庭，其中包括有 older siblings 的 preschoolers，也包括沒有 older siblings 的preschoolers。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句直接對應題目 “Some children have older...” 。題目用 “Some children” 概括 “households that included preschoolers both with and without older siblings” 中的其中一組。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Some children have = preschoolers with older siblings = older siblings答案形式siblings 是一個複數名詞，一個字，符合 ONE WORD ONLY。題目已有 older，所以答案不需要再填 older。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “caregiver”。Paragraph 3 最後一句提到 siblings or another caregiver，但題目空格前有older，原文中與 older 搭配的是 siblings。caregiver 是訪問中可能出現的人員，沒有 older 這個限定。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "experienced",
+      "answerKey": "experienced",
+      "type": "Sentence Completion",
+      "prompt": "“Equal number of new and 5 _________________ players”",
+      "translation": "new players 和 ____________ players 數量相同。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “new and ___ players” 中，需要形容詞，和 new 形成對比。題目限制 ONE WORD ONLY。定位詞是 “new” 和 “equal number”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The participants included 15 girls and 11 boys, ranging in age from 3 years and 3 months to 5 years and 11 months.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "參與者包括 15 名女孩和 11 名男孩，年齡由 3 歲 3 個月至 5 歲 11 個月。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Each interview lasted approximately 60 to 120 minutes and included the preschooler, at least one parent, and often siblings or another caregiver.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每次訪問約 60 至 120 分鐘，參與者包括該 preschooler、至少一位家長，並且通常還有 siblings或另一位 caregiver。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 3 負責交代研究對象的分組，因此 new / experienced users 應在本段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中的 “new” 在原文直接出現。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“To study both experienced and new users of the platform, we divided the sample so that 13 families owned at least one Nintendo DS and the remainder did not.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了研究 experienced and new users of the platform，我們把樣本分開，使 13 個家庭至少擁有一部 Nintendo DS，其餘家庭則沒有。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的目的短語 “To study both experienced and new users” 是答案核心。研究團隊想比較有經驗使用者和新使用者。後半句 “13 families owned at least one Nintendo DS and the remainder did not” 說明樣本大致分半：13 個家庭有 DS，其餘沒有。題目用 “Equal number” 概括這種 13 vs 13 的分組。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "experienced and new users = new and experienced players divided the sample so that 13 families owned... and the remainder did not = equal number of new and experienced players答案形式experienced 是一個形容詞，一個字，放入 “new and experienced players” 後文法自然，符合ONE WORD ONLY。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “users”。題目句子已經有 players，空格需要與 new 並列的形容詞。原文中的 users 是名詞，放入後會變成 “new and users players”，文法錯誤。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“One area of research was how much parents controlled their children’s gameplay after school.”",
+      "translation": "研究其中一個範圍是父母在放學後多大程度控制孩子的 gameplay。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷原文是否提到 parental control，並且是否限定為 after school。題目有兩個核心部分：第一，研究父母控制孩子 gameplay 的程度；第二，這個控制發生在 after school。兩部分都需要支援，才能判 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Three kinds of information were collected during each interview.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每次訪問中會收集三類資訊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Most importantly, we collected gameplay information for every child.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "最重要的是，我們為每一位孩子收集 gameplay information。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 4 在列出訪問收集的資料種類。題目問 “One area of research”，所以本段是最可能位置。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “parents controlled” 和 “gameplay”。原文可找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“From available parents and older siblings, we gathered data about decisions to buy game systems, the family’s typical gameplay patterns, levels of parental moderation of computer gaming, and family members’ favourite games.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員從在場的 parents 和 older siblings 收集資料，包括購買 game systems 的決定、家庭一般 gameplay patterns、父母對 computer gaming 的 moderation levels，以及家庭成員最喜歡的games。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “levels of parental moderation of computer gaming” 支援題目中 “how much parents controlled their children’s gameplay” 這一部分。moderation 指家長介入、限制或管理的程度，和controlled 在意思上接近。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "不過題目另外加入 “after school”。Paragraph 4 沒有提到 after school，也沒有說研究特定時段的parental moderation。原文只說 typical gameplay patterns、spaces used for gameplay、where handheld play occurred both at home and on the move，沒有把控制行為限定於放學後。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：parents動作：controlled gameplay時間：after school原文命題主體：parents動作：moderation of computer gaming時間：沒有提供 after school判斷原文支援 parental moderation，缺少 after school 這個時間限制。這個附加時間會影響整句意思，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易誤選 TRUE，因為 “parental moderation” 和 “controlled” 很接近。做 TFNG 時要把題目每一部分都檢查：主要意思相似，仍要看時間、地點和範圍。這題真正缺失的是 after school。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The researchers were given unrestricted access to the participants’ homes.”",
+      "translation": "研究人員獲准不受限制地進入參與者的家中。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷研究人員是否有 unrestricted access。題目中的 “unrestricted” 是強控制詞，意思是不受限制、可以自由接觸整個家庭空間。原文若只說 in-home interviews 或 in-home studies，仍未必支援 unrestricted access。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2 和 Paragraph 4 Paragraph 2 第一和最後一句顯示研究採用 in-home ethnographic studies，並在美國三個markets 進行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 4 第一和最後一句則說明每次訪問收集三類資料，最重要的是每位 child 的gameplay information。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 homes 的 access，最可能要跨 Paragraph 2 的 research method 和 Paragraph 4 的household observations。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “homes” 和 “access”。原文沒有 access 這個字，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“in-home ethnographic studies with preschoolers and their families”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與 preschoolers 及其家庭一起進行的家中民族誌研究。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 也有："
+            },
+            {
+              "kind": "quote",
+              "text": "“The in-home interviews also helped us understand each household’s approach to gaming: the spaces used for gameplay, how systems were installed, where handheld play occurred both at home and on the move...”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "家中訪問也幫助研究人員了解每個家庭處理 gaming 的方式：用於 gameplay 的空間、系統如何安裝、handheld play 在家中和外出時發生的位置……"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些句子能證明研究人員進入家中進行訪問，也觀察家庭的 gameplay spaces 和 systems installation。可是 “unrestricted access” 的程度很高，表示研究人員可以不受限制地進入或檢查參與者家中。文章沒有說他們能自由進入所有房間、長時間停留、無限制觀察，或在家庭同意範圍以外收集資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題主體：researchers動作：were given access程度：unrestricted地點：participants’ homes原文命題主體：research team動作：conducted in-home studies / interviews地點：homes程度：沒有說 unrestricted判斷原文只支援 “in-home interviews / studies”，沒有提供 “unrestricted access”。沒有明確衝突，也沒有足夠支援，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“in-home” 很容易令人覺得研究人員進入家中，所以題目合理。可是 IELTS 很重視程度詞。 in-home 只說訪問地點；unrestricted access 說的是權限範圍。兩者距離太大，不能互相替代。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The researchers regarded The Little Mermaid: Ariel’s Undersea Adventure as likely to appeal to preschoolers.”",
+      "translation": "研究人員認為 The Little Mermaid: Ariel’s Undersea Adventure 可能吸引 preschoolers。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷 researchers 選擇 The Little Mermaid 的原因之一是否和 preschoolers 的 appeal 有關。定位詞非常清楚：完整遊戲名稱 The Little Mermaid: Ariel’s Undersea Adventure。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a participant had previously used the DS, he or she was first asked to play a favourite game on it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果參與者以前用過 DS，他或她會先被要求在 DS 上玩一款最喜歡的遊戲。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Second, it incorporated a wide variety of mechanics unique to the DS platform, including use of the microphone for blowing or singing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，它包含多種 DS platform 特有的 mechanics，包括使用 microphone 來 blowing or singing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph 6 講孩子實際玩哪些遊戲，以及為何指定某款遊戲給所有人玩。題目中的遊戲名稱位於本段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是遊戲名 “The Little Mermaid: Ariel’s Undersea Adventure”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“In consultation with the producers, the researchers also asked every preschooler to play The Little Mermaid: Ariel’s Undersea Adventure.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在與 producers 商議後，研究人員也要求每位 preschooler 玩 The Little Mermaid: Ariel’s Undersea Adventure。"
+            },
+            {
+              "kind": "label",
+              "text": "後面馬上解釋原因："
+            },
+            {
+              "kind": "quote",
+              "text": "“The game was chosen for two main reasons. First, it was one of the few on the market with characters that appealed to this young age group.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這款遊戲被選中有兩個主要原因。第一，它是市場上少數擁有能吸引這個年幼年齡群體的characters 的遊戲之一。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "真正控制答案的是 “characters that appealed to this young age group”。“this young age group”在段落語境中指 preschoolers，因為前一句說 every preschooler。題目用 “likely to appeal to preschoolers” 概括原文的 “with characters that appealed to this young age group”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "The researchers regarded X as likely to appeal = The game was chosen because it had characters that appealed preschoolers = this young age group The Little Mermaid: Ariel’s Undersea Adventure = The game判斷原文直接說這款遊戲的 characters appealed to this young age group，因此題目與原文同方向。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "要留意 appeal 的對象是 characters，不一定是整款遊戲的所有部分。不過題目說 “regarded the game as likely to appeal”，屬於合理概括，因為遊戲被選中的第一個原因正是 characters 能吸引該年齡層。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“The Little Mermaid: Ariel’s Undersea Adventure is operated entirely by hand controls.”",
+      "translation": "The Little Mermaid: Ariel’s Undersea Adventure 完全以手部控制操作。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與判斷任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷遊戲是否 entirely by hand controls。控制詞是 “entirely”，表示所有操作都用手。只要原文明確提到非手部控制，例如 microphone、blowing、singing，題目就會被推翻。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If a participant had previously used the DS, he or she was first asked to play a favourite game on it.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果參與者以前用過 DS，他或她會先被要求在 DS 上玩一款最喜歡的遊戲。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Second, it incorporated a wide variety of mechanics unique to the DS platform, including use of the microphone for blowing or singing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，它包含多種 DS platform 特有的 mechanics，包括使用 microphone 來 blowing or singing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已經直接提供與 hand controls 相反的證據。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是遊戲名和 “hand controls”。原文未必出現 hand controls，但會出現 controls /mechanics / microphone。掃描 The Little Mermaid 附近，可以找到 “mechanics unique to the DS platform” 和 “microphone”。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Second, it incorporated a wide variety of mechanics unique to the DS platform, including use of the microphone for blowing or singing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，它包含多種 DS 平台特有的 mechanics，包括使用 microphone 來吹氣或唱歌。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚說明遊戲 mechanics 包括 microphone use。使用 microphone for blowing or singing 需要聲音或呼氣，並非全靠 hand controls。題目說 “entirely by hand controls”，程度詞 entirely 被原文的 microphone 直接否定。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目：operated entirely by hand controls"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：including use of the microphone for blowing or singing判斷原文提供相反資訊，所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能因為 DS 是 handheld system，就以為操作必然全靠手。這是常識聯想。文章特別提到DS 平台有 microphone mechanics，顯示操作方式包含手以外的輸入。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "firm",
+      "answerKey": "firm",
+      "type": "Flow-chart Completion",
+      "prompt": "“Presentation of design requirements to a specialist 10 _________________”",
+      "translation": "把 design requirements 提交給一家專門的 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “a specialist ___” 後，需要一個單數名詞。題目限制 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是 flow-chart 的第一步，位於 “Using the results of the study” 之後，所以要找研究結果如何被應用。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The findings from this initial study were extensive.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項 initial study 的 findings 非常 extensive。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We worked closely with its experts to base the design of two preschool-oriented DS games then in development on what we had learnt.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們與該公司的 experts 緊密合作，把當時正在開發的兩款 preschool-oriented DS games 的設計建基於我們所學到的內容。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以推測 Paragraph 7 會說明研究結果如何轉化成 game design。題目中的 “Using the results of the study” 和此段第一句完全對應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “design requirements” 和 “specialist”。原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“After reviewing the results and discussing their implications with our internal production team, we outlined the design requirements and presented them to a firm specialising in game design.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在審視結果並和 internal production team 討論其 implications 之後，我們列出 design requirements，並把它們提交給一家 specialising in game design 的 firm。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的結構是：研究團隊 reviewed results → discussed implications → outlined design requirements → presented them to a firm specialising in game design。題目把 “a firm specialising in game design” 改成 “a specialist ___”。這裡 specialist 是題目提供的形容詞，空格需要填名詞 firm。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "specialist firm = a firm specialising in game design presentation of design requirements = presented them using results of the study = after reviewing the results答案形式firm 是一個字，符合 NO MORE THAN TWO WORDS。放入後是 “a specialist firm”，文法自然。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “game design”。原文確實有 game design，但題目空格前是 “a specialist”，後面最需要的是一個名詞。填 firm 才能形成完整名詞短語 “a specialist firm”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "simplicity",
+      "answerKey": "simplicity",
+      "type": "Flow-chart Completion",
+      "prompt": "“Testing the mechanics of two new games in the Nintendo lab (assess 11 _________________and appeal)”",
+      "translation": "在 Nintendo lab 測試兩款新遊戲的 mechanics，評估 ____________ 和 appeal。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格和 appeal 並列，所以需要抽象名詞。題目限制 NO MORE THAN TWO WORDS。定位詞是"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“mechanics”, “Nintendo lab”, “appeal”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8第一句：“As the two DS games entered development, a formative research process was established.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當兩款 DS games 進入 development 階段，一個 formative research process 便建立起來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We also collected parents’ feedback on whether they considered the game appropriate, engaging and worth purchasing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們也收集 parents’ feedback，了解他們是否認為這款遊戲 appropriate、engaging 和 worth purchasing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 明顯講 development 後的測試流程。題目 flow-chart 中的 lab testing 和 parent feedback 都在本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “mechanics” 和 “appeal”。原文中直接有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whenever we developed new game mechanics, we brought preschoolers into our in-house usability laboratory to test them and assess both their simplicity and their appeal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "每當我們開發新的 game mechanics，我們都會把 preschoolers 帶到 in-house usability laboratory 測試它們，並評估它們的 simplicity 和 appeal。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文中 “both their simplicity and their appeal” 與題目 “assess ___ and appeal” 完全對應。their指 new game mechanics。題目把 “in-house usability laboratory” 改寫成 “Nintendo lab”，把 “new game mechanics” 概括成 “the mechanics of two new games”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Nintendo lab = in-house usability laboratory assess ___ and appeal = assess both their simplicity and their appeal mechanics of two new games = new game mechanics答案形式simplicity 是一個抽象名詞，一個字，符合 NO MORE THAN TWO WORDS。與 appeal 並列也自然。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “simple”。題目需要名詞與 appeal 並列。原文名詞是 simplicity。形容詞 simple 放入後會變成 “assess simple and appeal”，文法不完整。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "full version",
+      "answerKey": "full version",
+      "type": "Flow-chart Completion",
+      "prompt": "“A 12 _________________ of the games was trialled by twelve children”",
+      "translation": "遊戲的一個 ____________ 由十二名兒童試玩。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “A”，後面接 “of the games”，需要單數名詞短語。題目限制 NO MORE THAN TWO WORDS。定位詞是 “twelve children”，很強。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the two DS games entered development, a formative research process was established.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當兩款 DS games 進入 development 階段，一個 formative research process 便建立起來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We also collected parents’ feedback on whether they considered the game appropriate, engaging and worth purchasing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們也收集 parents’ feedback，了解他們是否認為這款遊戲 appropriate、engaging 和 worth purchasing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 是後續測試流程，題目中的 “trialled by twelve children” 應在本段後半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞是 “twelve children”。原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Once a full version of each DS game was ready, we returned to the field and tested it with twelve preschoolers and their parents.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一旦每款 DS game 的 full version 準備好，我們便回到 field，並與十二名 preschoolers 及其parents 一起測試它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的主體是 “a full version of each DS game”；時間條件是 “Once... was ready”；動作是 “tested it with twelve preschoolers and their parents”。題目把 “tested it with twelve preschoolers” 改寫成"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“was trialled by twelve children”。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A full version of the games = a full version of each DS game trialled by twelve children = tested it with twelve preschoolers children = preschoolers答案形式full version 是兩個字，符合 NO MORE THAN TWO WORDS。放入後是 “A full version of the games”，文法完整。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “alpha or beta”。原文前一句說測試 alpha or beta versions of individual game elements和 overall game structure，但題目說由十二名 children 試玩的是完整版本。twelve preschoolers這個定位詞把答案鎖定到 “full version”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "feedback",
+      "answerKey": "feedback",
+      "type": "Flow-chart Completion",
+      "prompt": "“Collection of 13 _________________ from parents”",
+      "translation": "收集 parents 的 ____________。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型與空格判斷",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 “Collection of ___ from parents” 中，需要不可數名詞或名詞短語。題目限制 NO MORE THAN TWO WORDS。這題跟 Paragraph 8 最後一句直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As the two DS games entered development, a formative research process was established.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當兩款 DS games 進入 development 階段，一個 formative research process 便建立起來。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We also collected parents’ feedback on whether they considered the game appropriate, engaging and worth purchasing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們也收集 parents’ feedback，了解他們是否認為這款遊戲 appropriate、engaging 和 worth purchasing。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "最後一句已經直接提供答案。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 “parents” 和 “collection”。原文使用 “collected parents’ feedback”。這是直接改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“We also collected parents’ feedback on whether they considered the game appropriate, engaging and worth purchasing.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們也收集父母的 feedback，了解他們是否認為遊戲合適、有吸引力，並且值得購買。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句主語是 we，動詞是 collected，對象是 parents’ feedback。題目把動詞 collected 改成名詞Collection of，把所有格 parents’ 改成 from parents。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Collection of feedback from parents = collected parents’ feedback appropriate, engaging and worth purchasing = feedback 的具體內容答案形式feedback 是一個字，符合 NO MORE THAN TWO WORDS。它是不可數名詞，和 Collection of搭配自然。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “appropriate” 或 “engaging”。這些是 parents feedback 的內容，不是被收集的資料類型。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 Collection of what，答案要填 feedback。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Computer games for Preschoolers Nintendo’s Research and Design Process.pdf",
+    "sha256": "9a11ad9b254e1462e91818e21088ffc8831dc1992dc44eebdb2b5471ca8ce190",
+    "pageCount": 22
+  },
+  "version": "2026-08-08.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段首尾句後可合理看到甚麼",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說為 young children 設計電腦遊戲是一項 daunting task，因為遊戲製作人長期集中服務hard-core game enthusiasts。尾句說本文記錄為 preschoolers 創造 Nintendo DS games 時涉及的 design process and research。只看首尾句，可以先估計本段是導入：它交代研究背景、困難和文章目的。全文大概會由「為何難設計」走向「Nintendo 如何研究幼兒玩家並設計遊戲」。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說研究團隊與對 DS 設計有興趣的 producers 交流後，定下 three key goals。尾句說研究從26 個 in-home ethnographic studies 開始，覆蓋美國三個 markets。只看首尾句，可以判斷本段重點是 exploratory research 的目的和研究設計。中間很可能列出三個 objectives：兒童能力、兒童如何操作 DS，以及 parents 對 handheld systems 的 expectations。"
+      },
+      {
+        "number": "3",
+        "summary": "首句交代 participants：15 girls、11 boys，年齡由 3 years and 3 months 至 5 years and 11 months。尾句說每次訪問約 60 至 120 minutes，參與者包括 preschooler、至少一位 parent，通常還有 siblings 或 caregiver。只看首尾句，可以判斷本段是 subjects / sample profile：性別、年齡、older siblings、是否擁有 DS，以及 experienced / new users 的分組。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說每次訪問收集 three kinds of information。尾句說最重要的是研究人員為每個 child 收集gameplay information。只看首尾句，可以估計本段會說明訪問中收集的資料種類，包括購買game systems 的決定、family gameplay patterns、parental moderation、家中遊戲空間、handheld play 發生地點，以及家庭擁有的 games and systems。這段對 parent control /moderation 題很重要。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說訪問前，research team 諮詢 in-house game producers，建立一份 game mechanics 和potential problems 清單。尾句說訪問期間，moderator 引導每位 preschooler 玩一系列 games，觀察互動，並詢問孩子和父母在不同情境中的 feelings、attitudes 和 frustrations。只看首尾句，可以看出本段聚焦測試內容設計：研究人員想在正式寫遊戲前了解幼兒的 motor / cognitive limitations 和實際操作困難。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說如果 participant 以前用過 DS，研究人員會先要求他或她玩一款 favourite game。尾句說The Little Mermaid 被選中，其中一個原因是它有多種 DS-specific mechanics，包括用microphone blowing or singing。只看首尾句，可以判斷本段講實際 gameplay observation：先看熟悉遊戲，再要求所有 preschoolers 玩同一指定遊戲，以觀察喜好、操作方式、mechanics 難度和 DS 特殊功能。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 initial study 的 findings 很 extensive。尾句說研究團隊和專家合作，把兩款正在開發的preschool-oriented DS games 建基於已學到的內容。只看首尾句，可以判斷本段是從研究結果轉到 design application：研究結果經 internal production team 討論後，變成 design requirements，並提交給一家 specialising in game design 的 firm。這段對 flow-chart 的第一步很重要。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說當兩款 DS games 進入 development，研究團隊建立 formative research process。尾句說他們也收集 parents’ feedback，看父母是否認為遊戲 appropriate、engaging 和 worth purchasing。只看首尾句，可以判斷本段講後續 testing cycle：新 mechanics 在 Nintendo usability laboratory測試 simplicity 和 appeal，完整版本再帶到 field 給 12 名 preschoolers 和 parents 試玩。"
+      }
+    ]
+  }
+}

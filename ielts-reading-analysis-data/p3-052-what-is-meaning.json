@@ -1,0 +1,1897 @@
+{
+  "id": "p3-052-what-is-meaning",
+  "catalogueId": "p3-052",
+  "catalogueIds": [
+    "p3-052"
+  ],
+  "passage": 3,
+  "title": "What is Meaning",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 14,
+  "questionNumberStart": 27,
+  "answerKey": [
+    "C",
+    "C",
+    "A",
+    "C",
+    "B",
+    "TRUE",
+    "NOT GIVEN",
+    "TRUE",
+    "FALSE",
+    "B",
+    "E",
+    "G",
+    "A",
+    "D"
+  ],
+  "questions": [
+    {
+      "number": 27,
+      "answer": "C — Print carries meaning only to those who have learned an appropriate way to",
+      "answerKey": "C — Print carries meaning only to those who have learned an appropriate way to",
+      "type": "Question Analysis",
+      "prompt": "Question 27",
+      "translation": "第一段提出了甚麼重點？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "respond.題目問： What point is made in the first paragraph?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 1第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The end product of education, yours and mine and everybody’s, is the total pattern of reactions and possible reactions we have inside ourselves.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "教育的最終成果，不論是你的、我的，還是任何人的，都是我們內在擁有的一整套反應模式，以及可能出現的反應模式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“What I call here a ‘pattern of reactions’, then, is the sum total of the ways we act in response to events, to words, and to symbols.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者所說的「反應模式」，就是我們面對事件、文字和符號時所有反應方式的總和。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 的功能：這段要建立全文核心概念，即 meaning 和education 的關係。作者不是單純講學校教育，而是講人被訓練後，會對 words、symbols、events產生特定反應。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目問 first paragraph 的 main point，所以不用跨段。選項 C 的關鍵詞是： Print carries meaning learned an appropriate way to respond回到 Paragraph 1，可找到最直接的證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you did not have within you at this moment the pattern of reactions that we call‘the ability to read’, you would see here only meaningless black marks on paper.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你此刻內在沒有那套我們稱為「閱讀能力」的反應模式，你在這裡看到的只會是紙上毫無意義的黑色痕跡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句把 reading 解釋成一種 trained pattern of response。文字本身只是 black marks on paper；讀者經過訓練後，才會把這些 marks 理解為 meaningful print。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 C 說： Print carries meaning only to those who have learned an appropriate way to respond.這正好對應原文： ability to read= pattern of reactions= trained way to respond to print"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A The aim of education is to teach people to read.錯。第一段提到 ability to read，但閱讀只是例子之一。作者還提到 martial music、religious symbols、MD 等符號。教育的結果是整套 reaction patterns，範圍比 reading 大得多。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Everybody has a different pattern of reactions.錯。第一段只說每個人都有 reaction patterns，沒有說 everybody 都 different。Paragraph 2 才談similar / different semantic habits。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Print carries meaning only to those who have learned an appropriate way to respond.正確。這是 “meaningless black marks on paper” 的直接概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Writers should make sure their works satisfy a variety of readers.無關。文章沒有討論 writer 的責任，也沒有說 writers 要迎合不同讀者。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "最容易選錯的是 A，因為第一段確實有 “ability to read”。但題目問的是 first paragraph 的 point，不是某個例子。reading 在這裡只是用來說明：meaning 來自受訓後的反應模式。真正控制答案的是 meaningless black marks on paper。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "answer": "C — how conventional their responses are",
+      "answerKey": "C — how conventional their responses are",
+      "type": "Question Analysis",
+      "prompt": "Question 28",
+      "translation": "根據第二段，人們會根據甚麼被評價？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： According to the second paragraph, people are judged by A their level of education. B the variety of experience. C how conventional their responses are. D complex situations."
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 2第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our reaction patterns, or semantic habits, are the internal and most important residue of all the years of education or miseducation…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的反應模式，也就是 semantic habits，是多年教育或誤導教育在內心留下、並且最重要的殘餘。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If our semantic habits are noticeably different from those of others, we are regarded as ‘individualistic’ or ‘original’, or, if the differences are disapproved of or viewed with alarm, as ‘crazy.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我們的 semantic habits 明顯不同於其他人，我們會被視為「個人主義」、「有原創性」；如果這些差異不被認可，甚至令人不安，我們便可能被視為「瘋狂」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph 2 的功能很清楚：先解釋 semantic habits 從哪裡來，再講社會如何根據這些 habits 是否接近大多數人來評價一個人。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的定位詞是： people are judged by原文沒有直接用 judged，但用了："
+            },
+            {
+              "kind": "quote",
+              "text": "“we are regarded as…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這就是被人評價、被人看待的意思。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“If … our semantic habits are reasonably similar to those of most people around us, we are regarded as ‘normal,’ or perhaps ‘dull.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我們的 semantic habits 和身邊大多數人相當相似，我們會被視為「正常」，也可能被視為「沉悶」。"
+            },
+            {
+              "kind": "label",
+              "text": "再接下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If our semantic habits are noticeably different from those of others, we are regarded as ‘individualistic’ or ‘original’…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果我們的 semantic habits 明顯不同於其他人，我們會被視為「個人主義」或「有原創性」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的比較重點是： similar to most people→ normal / dull noticeably different→ individualistic / original / crazy所以，人們被評價的根據，是他們的 semantic habits 是否接近身邊大多數人。換成題目語言，就是 how conventional their responses are，即反應有多合乎常規。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A their level of education錯。第二段提到 education / miseducation，但這只是 semantic habits 的來源。題目問 people are judged by 甚麼，判斷標準是反應是否接近常規。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B the variety of experience錯。原文列出 parents、formal education、radio、movies、books、conversations 等不同experiences，但這些只是形成 semantic habits 的來源，不是社會評價人的標準。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C how conventional their responses are正確。conventional 對應 “similar to those of most people around us”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D complex situations錯。原文沒有說人們因能否處理 complex situations 被評價。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 和 B 都很容易吸引人，因為第二段前半段大量列出教育和經驗。但真正回答題目的地方在第二段後半：similar / different from most people。題目問 judged by，所以要找 “regarded as”，不要停在 sources of semantic habits。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "A — Standard definitions are incapable of defining words precisely.",
+      "answerKey": "A — Standard definitions are incapable of defining words precisely.",
+      "type": "Question Analysis",
+      "prompt": "Question 29",
+      "translation": "第三段提出了甚麼重點？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What point is made in the third paragraph?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 3第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Semantics is sometimes defined in dictionaries as ‘the science of the meaning of words’—which would not be a bad definition if people didn’t assume that the search for the meanings of words begins and ends with looking them up in a dictionary.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "字典有時把 semantics 定義為「研究詞語意義的科學」。如果人們不把尋找詞義這件事完全限於查字典，這個定義本來不算差。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句提到 Louis Armstrong 對 jazz 定義的回應："
+            },
+            {
+              "kind": "quote",
+              "text": "“Man, when you got to ask what it is, you’ll never get to know…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你非要問它是甚麼，你就永遠不會真正知道。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句合起來看，Paragraph 3 的功能是批評「以為 meaning 可以完全靠 verbal definition 解決」這種習慣。作者不是否定字典的所有用途；他批評的是把字典定義當成 understanding meaning的終點。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 的核心是： Standard definitions incapable of defining words precisely原文相關位置是："
+            },
+            {
+              "kind": "quote",
+              "text": "“to define a word, as a dictionary does, is simply to explain the word with more words.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "像字典那樣定義一個詞，其實只是用更多詞語去解釋這個詞。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“Defining words with more words, in short, gets us at once into what mathematicians call an ‘infinite regress’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "簡而言之，用更多詞語去定義詞語，會立即把我們帶進數學家所說的「無限後退」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者的邏輯是： 1. 字典用 words 解釋 words。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "2. 解釋中用到的 words 又需要再被解釋。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "3. 再解釋又需要更多 words。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "4. 這會形成 infinite regress。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "5. 另一種情況是 circular definition，例如 impertinence = impudence；impudence =impertinence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以，第三段的重點是：standard dictionary definitions 無法完整、徹底地解決 meaning 的問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A 用 “incapable of defining words precisely” 概括這個批評方向。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Standard definitions are incapable of defining words precisely.正確，是最佳概括。需要留意：作者批評的是 purely verbal definition 的局限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B A dictionary is most scientific in defining words.錯。第三段沒有稱讚字典最科學，反而指出 dictionary definition 容易造成 infinite regress。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C A dictionary should define words in as few words as possible.錯。文章沒有提出字典應該用更少字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Mathematicians could define words accurately.錯。mathematicians 只出現在 “infinite regress” 這個術語中，不代表數學家能準確定義所有詞語。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 的迷惑性來自 “Semantics is sometimes defined in dictionaries…” 這句開頭。學生看到dictionary 和 science 可能以為作者在支持字典式定義。細讀後會發現，作者真正批評的是：只用words 解釋 words，會造成無限後退或循環定義。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "C — He provides insight into how words are defined.",
+      "answerKey": "C — He provides insight into how words are defined.",
+      "type": "Question Analysis",
+      "prompt": "Question 30",
+      "translation": "作者提到 Louis Armstrong，是想暗示甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What does the writer suggest by referring to Louis Armstrong?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3這段一直在討論 dictionary definition 的限制。前面說用更多 words 定義 words 會造成 infinite regress；後面提到 Louis Armstrong 對 jazz 的回應，是作為同一段論點的例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目最強定位詞是： Louis Armstrong原文句子："
+            },
+            {
+              "kind": "quote",
+              "text": "“To a person who asked for a definition of jazz, Louis Armstrong is said to have replied, ‘Man, when you got to ask what it is, you’ll never get to know,’ proving himself to be an intuitive semanticist as well as a great trumpet player.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "據說有人問 Louis Armstrong 如何定義 jazz，他回答：「如果你非要問它是甚麼，你就永遠不會真正知道。」這證明他不只是偉大的小號手，也憑直覺懂得 semantics。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的重點是 “definition of jazz”。有人要求他用 words 定義 jazz，但 Armstrong 的回答指出：某些 meaning 不能靠 verbal definition 完全掌握。你需要 experience、response、practice、feeling，才可能真正知道 jazz 是甚麼。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，作者稱他為 “an intuitive semanticist”。semanticist 是研究 meaning 的人；intuitive 表示他不是用學術理論說明，而是憑直覺掌握了 meaning 的本質。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A He is an expert on language.不準確。作者沒有說 Armstrong 是語言學專家；他是 “intuitive semanticist”，意思是他憑直覺看出meaning 不能完全靠 verbal definition 解決。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Music and language are similar.錯。文章沒有把 music 和 language 作整體比較。jazz 只是用來說明 definition 的限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C He provides insight into how words are defined.正確。他的回答幫助說明：有些 meaning 不能只靠 words 定義，需要看反應、經驗或實際操作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Playing trumpet is easier than defining words.錯。文章提到 great trumpet player，但沒有比較 playing trumpet 和 defining words 的難度。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A 很有吸引力，因為 “semanticist” 聽起來像 language expert。但文章用的是 “intuitive semanticist”，重點不是他正式研究語言，而是他的回答剛好支持作者對 dictionary definition 的批評。真正控制答案的是 definition of jazz 和 you’ll never get to know。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "B — Meaning cannot always be shared by others.",
+      "answerKey": "B — Meaning cannot always be shared by others.",
+      "type": "Question Analysis",
+      "prompt": "Question 31",
+      "translation": "作者舉 personnel manager 的例子，是想說明甚麼？",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問： What does the writer intend to show about the example of the personnel manager?"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 6第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But let us carry this suggestion of ‘operationalism’ outside the physical sciences where Bridgman applied it, and observe what ‘operations’ people perform as the result of both the language they use and the language other people use in communicating with them.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "作者建議把 Bridgman 在物理科學中使用的 operationalism 帶到物理科學之外，觀察人們因自己使用的語言和別人與他們溝通時使用的語言，會作出甚麼行動。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is an instance of ‘meaning’ at work—but it is not a meaning that can be found in dictionaries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個 meaning 正在發揮作用的例子；這種 meaning 並不能在字典中找到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以知道 Paragraph 6 的功能：作者要把 operational meaning 應用到人類行為，說明 meaning 有時體現在人的 action 中，而不在 dictionary definition 裡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞： personnel manager原文例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here is a personnel manager studying an application blank. He comes to the words ‘Education: Harvard University,’ and drops the application blank in the wastebasket…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一位人事經理正在看一份申請表。他看到 “Education: Harvard University” 這幾個字，便把申請表丟進廢紙簍。"
+            },
+            {
+              "kind": "label",
+              "text": "原因是："
+            },
+            {
+              "kind": "quote",
+              "text": "“I don’t like Harvard men.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我不喜歡哈佛人。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "這個例子要看三層：第一層："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“Harvard University” 在字典中只是大學名稱。第二層：對 personnel manager 來說，這個名稱觸發了他的個人 semantic reaction。第三層：這個 reaction 變成 operation：他把申請表丟掉。所以，“Harvard University” 在這個例子中的 meaning，不是標準字典意義，而是這個 manager 心中的私人聯想或偏見。其他人未必共享這個 reaction；有人可能看到 Harvard 會覺得 applicant 優秀，但這位 manager 反而直接拒絕。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Harvard men are not necessarily competitive in the job market.錯。例子不是在評估 Harvard graduates 的實際競爭力。 B Meaning cannot always be shared by others.正確。這裡的 meaning 是 manager 個人的 semantic reaction，不一定是人人共享的標準意義。 C The idea of operationalism does not make much sense outside the physical sciences.錯。作者正是要把 operationalism 應用到 physical sciences 之外，並用 personnel manager 例子說明它有用。 D Job applicants should take care when filling out application forms.錯。文章沒有給求職建議。application blank 只是例子工具。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "C 是最危險的錯項，因為題目提到 operationalism，學生可能以為作者在質疑它能否應用到社會生活。可是 Paragraph 6 第一個動詞是 “let us carry…”；作者是在示範如何把 operationalism 帶到 human behaviour。真正焦點在：words 觸發了行動，這就是 meaning at work。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "— TRUE / FALSE / NOT GIVEN",
+      "prompt": "Some statements are incapable of being proved or disproved.",
+      "translation": "有些 statements 無法被證明或反證。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 5第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Here is a simple, everyday kind of example of ‘operational’ definition.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡有一個簡單、日常的 operational definition 例子。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“But if you say … ‘Man is born free, but everywhere he is in chains!’—what operations could you perform to demonstrate its accuracy or inaccuracy?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "但如果你說「人生而自由，卻處處受束縛！」——你可以做甚麼操作來證明它準確或不準確？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 5 的功能是對比兩類 statements：一類可以用 operation 驗證，例如桌子六英尺長；另一類抽象、政治性或哲學性的 statements，很難用具體操作驗證。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目關鍵詞： proved or disproved原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“demonstrate its accuracy or inaccuracy”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "accuracy = proved / true inaccuracy = disproved / false"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文先說："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you say, ‘This table measures six feet in length,’ you could prove it by taking a one-foot ruler…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你說「這張桌子長六英尺」，你可以拿一把一英尺的尺來證明。"
+            },
+            {
+              "kind": "label",
+              "text": "然後轉向另一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Man is born free, but everywhere he is in chains!’—what operations could you perform to demonstrate its accuracy or inaccuracy?”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "「人生而自由，卻處處受束縛！」這句話可以用甚麼操作證明真或假？"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個 rhetorical question 暗示：這類 statement 無法像桌子長度那樣用簡單操作證明或反證。因此題目說 “Some statements are incapable of being proved or disproved” 與文章方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：有些 statements 無法被證明或反證。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：桌子長度可以操作驗證；抽象政治句子很難找到操作去證明其 accuracy / inaccuracy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者方向一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要留意 “some”。題目沒有說 all statements 都不能證明。原文也不是否定所有 verification；它先給一個可證明的例子，再給一個難以證明的例子。因此 some 的範圍剛好成立。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "— TRUE / FALSE / NOT GIVEN",
+      "prompt": "Meaning that is personal to individuals is less worthy of study than shared meanings.",
+      "translation": "屬於個人的 meaning，比共享的 meaning 較不值得研究。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 6–8這題涉及 personal meaning 和 shared meaning，因此要看兩處： Paragraph 6 用 personnel manager 例子展示個人 semantic reaction。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 8 用 dollar bill 例子展示 meaning 依賴 social agreement。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 第一核心句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A basic idea in general semantics, therefore, is that the meaning of words (or other symbols) is not in the words, but in our own semantic reactions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "general semantics 的一個基本想法是：文字或其他符號的 meaning 不在文字本身，而在我們自己的 semantic reactions 之中。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Semantics is therefore a social study, basic to all other social studies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，semantics 是一門社會研究，並且是所有其他社會研究的基礎。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目關鍵詞： personal to individuals less worthy of study shared meanings原文確實有 personal reaction 的例子，也有 social agreement 的例子。但要判斷 TRUE / FALSE/ NOT GIVEN，不能只看主題相關，還要看是否有 less worthy of study 這種價值比較。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀證據是否足夠"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 6 的 personnel manager 例子說："
+            },
+            {
+              "kind": "quote",
+              "text": "“This is an instance of ‘meaning’ at work—but it is not a meaning that can be found in dictionaries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一個 meaning 發揮作用的例子；這種 meaning 不能在字典中找到。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示個人化的 semantic reaction 也屬於 semantics 要觀察的內容。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 8 的 dollar bill 例子說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Likewise, the value of a dollar bill is not in the bill, but in our social agreement to accept it as a symbol of value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，一張美元鈔票的價值不在鈔票本身，而在我們接受它作為價值象徵的社會共識。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示 shared meaning / social meaning 很重要。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是，文章沒有說： personal meaning is less worthy of study或 shared meaning is more worthy of study它只是分別展示兩種 meaning 如何運作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目加入了 “less worthy of study” 這個比較判斷。原文沒有這個比較，也沒有建立個人 meaning和 shared meaning 的高低排序。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題容易被最後一句 “Semantics is therefore a social study” 影響。看到 social study，學生可能以為作者較重視 shared meanings。但 “social study” 不等於 personal meanings 較不值得研究。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "文章其實剛用 personnel manager 展示個人反應如何產生 meaning at work。因此，真正缺少的是 less worthy 這個價值比較。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "— TRUE / FALSE / NOT GIVEN",
+      "prompt": "Flags and words elicit responses for the same reason.",
+      "translation": "旗幟和文字引發人們反應的原因相同。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 7第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If I seem to be taking a long time to explain what semantics is about, it is because I am trying… to introduce the reader to a certain way of looking at human behavior.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果作者似乎花了很長時間解釋 semantics，是因為他正嘗試引導讀者用某種方式看待人類行為。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“When we react to a word, we are not reacting to a set of sounds, but to the meaning with which that set of sounds has been symbolically endowed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當我們對一個 word 作反應時，我們反應的焦點不是一組聲音本身，而是這組聲音被賦予的象徵意義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段功能是解釋 human beings 對 symbols 的反應。flag 和 word 都被作者用作 symbol 例子。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： Flags words same reason原文連續兩句直接對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“When we react to a flag, we are not reacting simply to a piece of cloth, but to the meaning with which it has been symbolically endowed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當我們對旗幟作反應時，我們反應的焦點不是一塊布本身，而是它被賦予的象徵意義。"
+            },
+            {
+              "kind": "quote",
+              "text": "“When we react to a word, we are not reacting to a set of sounds, but to the meaning with which that set of sounds has been symbolically endowed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當我們對一個字作反應時，我們反應的焦點不是一組聲音本身，而是這組聲音被賦予的象徵意義。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句使用完全平行的結構： When we react to a flag→ not simply to a piece of cloth→ to the meaning symbolically endowed When we react to a word→ not to a set of sounds→ to the meaning symbolically endowed所以 flags and words 引發反應的 reason 相同：它們都是 symbols，人們回應的是被賦予的meaning。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目說 flags and words elicit responses for the same reason。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文分別說 flag 和 word 都因 symbolically endowed meaning 引發反應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "兩者方向一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生要特別留意 “same reason” 不是指 flag 和 word 本身相同。旗幟是一塊布，word 是一組聲音；它們的物理形式不同。相同之處在於：人不是只對物理形式反應，而是對象徵意義反應。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "— TRUE / FALSE / NOT GIVEN",
+      "prompt": "A story can be entertaining without being understood.",
+      "translation": "一個故事即使不被理解，也可以具有娛樂性。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 8第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“A basic idea in general semantics, therefore, is that the meaning of words (or other symbols) is not in the words, but in our own semantic reactions.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "general semantics 的基本想法是：文字或其他符號的 meaning 不在文字本身，而在我們自己的semantic reactions 中。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段用外語 obscene story 和 dollar bill 解釋同一個核心：meaning 要靠 shared reactions / social agreement 才能成立。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： story without being understood原文例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“If I were to tell a shockingly obscene story in Arabic or Hindustani or Swahili before an audience that understood only English, no one would blush or be angry…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果作者在只懂英文的聽眾面前，用 Arabic、Hindustani 或 Swahili 講一個極度猥褻的故事，沒有人會臉紅或憤怒。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“the story would be neither shocking nor obscene; indeed, it would not even be a story.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個故事既不會令人震驚，也不會顯得猥褻；甚至連故事功能也失去。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說，當 audience 不懂該語言，聽眾不會產生該故事本應引起的 reactions。更強的是最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“it would not even be a story.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這表示在語義層面上，如果聽眾完全不能理解，它就不能作為 story 運作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “A story can be entertaining without being understood.” 這和作者的說法不一致。作者給出的方向是：不理解時，連 story 的 meaning 都不能成立，更談不上以 story 的身份娛樂聽眾。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷題目命題：不被理解的 story 仍可 entertaining。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：不被理解時，它不會引起應有反應，甚至不能算作 story。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題看似可能是 NOT GIVEN，因為原文沒有直接出現 entertaining 這個字。但 IELTS 判斷不是只看原字。原文說 “it would not even be a story”，這已經明確否定它能以 story 的身份發揮作用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說它仍可 entertaining，方向和原文衝突。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "B — has lasting effects on human behaviour",
+      "answerKey": "B — has lasting effects on human behaviour",
+      "type": "— Sentence Endings",
+      "prompt": "A comic strip has lasting effects on human behaviour.",
+      "translation": "一篇 comic strip 會對人類行為產生持久影響。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 2這段講 semantic habits 的來源。作者列出很多影響我們反應模式的來源，包括 parents、formal education、lectures、radio、movies、television、books、newspapers、comic strips、conversations和 experiences。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞非常直接： A comic strip原文出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“from all the books and newspapers and comic strips we have read…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "來自我們讀過的所有書籍、報紙和連環漫畫。"
+            },
+            {
+              "kind": "label",
+              "text": "這句屬於更大句子的一部分："
+            },
+            {
+              "kind": "quote",
+              "text": "“Our reaction patterns, or semantic habits, are the internal and most important residue…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們的反應模式，也就是 semantic habits，是內在並且最重要的殘留。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "comic strips 是形成 semantic habits 的眾多來源之一。semantic habits 又是我們對 events、words、symbols 作反應的方式。因此，comic strips 不是只提供短暫娛樂，它們也會成為我們內在reaction patterns 的一部分，長期影響我們如何理解世界、如何回應符號和語言。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 B： has lasting effects on human behaviour對應原文： internal and most important residue semantic habits ways we act in response residue 有「留下來的東西」之意，表示影響不是即時消失，而是沉澱成習慣。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項提示A is meaningless這更適合 Q39 的外語故事。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "E can provide inadequate explanation of meaning這是 dictionary 的問題。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F reflects the variability of human behaviour comic strip 是影響來源之一，不是用來概括 human behaviour variability 的例子。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "E — can provide inadequate explanation of meaning",
+      "answerKey": "E — can provide inadequate explanation of meaning",
+      "type": "— Sentence Endings",
+      "prompt": "A dictionary can provide inadequate explanation of meaning.",
+      "translation": "字典對 meaning 的解釋可能不足。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 3這段集中批評 dictionary definition 的局限。作者先說 semantics 有時被字典定義為 “the science of the meaning of words”，接著指出，如果人們以為查字典就是 meaning search 的起點和終點，便會出問題。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目詞： A dictionary原文多次出現 dictionaries / dictionary。"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“to define a word, as a dictionary does, is simply to explain the word with more words.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "像字典那樣定義一個詞，其實只是用更多詞語去解釋這個詞。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Defining words with more words… gets us at once into… an ‘infinite regress’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "用更多詞語定義詞語，會立即造成「無限後退」。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字典的問題不在於完全無用；問題在於它的解釋方式有限。它用 words 解釋 words，但解釋中的words 又需要再定義。這會造成 infinite regress，或 impertinence / impudence 那種循環定義。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 E： can provide inadequate explanation of meaning正好概括這一點。inadequate 表示不足夠、不完整。這比 “wrong” 更準確，因為作者不是說所有字典定義都錯，而是說字典定義不能完整處理 meaning。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項提示G emphasises the importance of analysing how words are used這更適合 Bridgman。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A is meaningless字典不是 meaningless，只是 explanatory power 有限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D can be understood only in its social context這更適合 dollar bill。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "G — emphasises the importance of analysing how words are used",
+      "answerKey": "G — emphasises the importance of analysing how words are used",
+      "type": "— Sentence Endings",
+      "prompt": "Bridgman emphasises the importance of analysing how words are used.",
+      "translation": "Bridgman 強調分析詞語如何被使用的重要性。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph 4第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Semantics, then, does not deal with the ‘meaning of words’ as that expression is commonly understood.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，semantics 處理的並非一般人所理解的那種「詞語意義」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "接著作者引入 P. W. Bridgman，說明 meaning 不應只看 verbal definition，也應看 actions /operations。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞： Bridgman原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“P. W. Bridgman, the Nobel Prize-winning physicist, once wrote, ‘The true meaning of a term is to be found by observing what a man does with it, not by what he says about it.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "諾貝爾獎物理學家 P. W. Bridgman 曾寫道：「一個 term 的真正 meaning，要透過觀察一個人用它做甚麼來尋找，而非只聽他怎樣談論它。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的核心是： observing what a man does with it也就是看人如何使用這個 term。下一句進一步說："
+            },
+            {
+              "kind": "quote",
+              "text": "“the meaning of a scientific term lies in the operations, the things done, that establish its validity…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個科學 term 的 meaning 在於建立其有效性的 operations，即所做的事情。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 Bridgman 的觀點是：meaning 不只靠 verbal definitions，要看 words / terms 如何在實際操作中被使用。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 G： emphasises the importance of analysing how words are used正好對應 “observing what a man does with it”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項提示E can provide inadequate explanation of meaning這是 dictionary 的局限。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "H suggests that certain types of behaviours carry more meaning than others原文沒有比較不同 behaviours 的 meaning 高低。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "F reflects the variability of human behaviour Bridgman 的重點是 operation / use，不是 human behaviour 的變化性。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "A — is meaningless",
+      "answerKey": "A — is meaningless",
+      "type": "— Sentence Endings",
+      "prompt": "A story in a language the audience cannot understand is meaningless.",
+      "translation": "用聽眾不懂的語言講述的故事，對該聽眾來說沒有 meaning。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8這段總結 general semantics 的核心：meaning 不在 words 本身，而在 semantic reactions。作者用外語 obscene story 作例子，說明 words 如果無法觸發聽眾的 semantic reactions，就不能產生meaning。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞： story language audience cannot understand原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“If I were to tell a shockingly obscene story in Arabic or Hindustani or Swahili before an audience that understood only English…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果作者在只懂英文的聽眾面前，用 Arabic、Hindustani 或 Swahili 講一個極度猥褻的故事……這就是題目 “a story in a language the audience cannot understand” 的直接對應。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文結果是："
+            },
+            {
+              "kind": "quote",
+              "text": "“no one would blush or be angry; the story would be neither shocking nor obscene; indeed, it would not even be a story.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "沒有人會臉紅或生氣；這個故事既不會顯得令人震驚，也不會顯得猥褻；甚至連故事功能也失去。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果聽眾完全不懂語言，故事的內容無法被理解，也無法引發應有反應。對這個 audience 來說，它就是 meaningless。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 A： is meaningless正好概括 “would not even be a story”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "錯項提示C is a symbol that has lost its meaning這更接近 dollar bill 在 government collapse 後的可能狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D can be understood only in its social context這適合 dollar bill。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B has lasting effects on human behaviour這適合 comic strip / education influences。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "D — can be understood only in its social context",
+      "answerKey": "D — can be understood only in its social context",
+      "type": "— Sentence Endings",
+      "prompt": "A dollar bill can be understood only in its social context.",
+      "translation": "一張美元鈔票只能放在社會語境中理解。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph 8這段後半用 dollar bill 作例子，說明 symbol 的 meaning 不在物件本身，而在 social agreement、social mechanisms 和 loyalties 中。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞： A dollar bill原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Likewise, the value of a dollar bill is not in the bill, but in our social agreement to accept it as a symbol of value.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "同樣地，一張美元鈔票的價值不在鈔票本身，而在我們接受它作為價值象徵的社會共識中。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“We do not understand a dollar bill by staring at it long and hard.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們不能靠長時間盯著一張美元鈔票來理解它。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“We understand it by observing how people act with respect to it. We understand it by understanding the social mechanisms and the loyalties that keep it meaningful.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "我們要透過觀察人們如何對待它來理解它；也要透過理解維持其 meaning 的社會機制和忠誠關係來理解它。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "dollar bill 的物理本體只是一張紙。它有價值，是因為社會共同接受它作為 value 的 symbol。如果government collapse 令這種 agreement 崩潰，它就會變成 scrap of paper。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此，dollar bill 的 meaning 必須放在 social context 中理解。這正好對應選項 D： can be understood only in its social context錯項提示C is a symbol that has lost its meaning這是條件句中的可能結果：如果 social agreement collapse，dollar bill 才會變成 scrap of paper。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目主語 “A dollar bill” 沒有加入 collapse 條件，所以 C 太窄，也把 hypothetical situation 當成一般狀態。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "A is meaningless一般情況下 dollar bill 並非 meaningless；它靠 social agreement 保持 meaning。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "G emphasises the importance of analysing how words are used這是 Bridgman 的觀點，不是 dollar bill 的句尾。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -What is Meaning.pdf",
+    "sha256": "7f25756dd8dcaab3d5b8381ff8f9b6c02d7b525fcc91435530668ac442100f41",
+    "pageCount": 28
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "介紹全文核心概念：人的教育成果，其實是一套對文字、聲音、符號和事件的反應模式。"
+      },
+      {
+        "number": "2",
+        "summary": "解釋 semantic habits 的來源，並說明社會如何根據一個人的反應是否接近常規來評價他。"
+      },
+      {
+        "number": "3",
+        "summary": "批評只靠字典定義理解 meaning的局限，指出「用更多 words 解釋words」會造成無限後退或循環定義。"
+      },
+      {
+        "number": "4",
+        "summary": "引入 Bridgman 的 operational definition：真正的 meaning 要看人如何使用一個 term，而不只看verbal definition。"
+      },
+      {
+        "number": "5",
+        "summary": "用 everyday example 解釋operational definition：量度桌子可用操作證明，但抽象政治句子難以用操作證明。"
+      },
+      {
+        "number": "6",
+        "summary": "把 operationalism 推出物理科學，應用到人類行為：personnel manager 因 Harvard 這個詞作出丟棄申請表的行動。"
+      },
+      {
+        "number": "7",
+        "summary": "解釋作者為何關注 human responses：人類會製造 symbols and systems of symbols，並對旗幟和文字所帶的象徵意義作反應。"
+      },
+      {
+        "number": "8",
+        "summary": "總結 general semantics 的核心： meaning 不在 words 本身，而在semantic reactions；再用外語故事和 dollar bill 說明 meaning 依賴社會共識。"
+      }
+    ]
+  }
+}

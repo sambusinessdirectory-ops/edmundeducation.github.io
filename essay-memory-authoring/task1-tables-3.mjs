@@ -1,0 +1,84 @@
+// Task 1 Tables 3: completion year, network length, annual carrying capacity for six metro systems.
+const quiz=(prompt,options,why)=>({type:'quiz',prompt,detail:'Year Completed 是表列完成年份；carrying capacity 是年度可承載量，不是實際客流。',options,correct:0,why});
+const sequence=(prompt,items,why)=>({type:'sequence',prompt,detail:'依三欄先比較長度與容量，再按系統規模分組。',items:items.map(([title,body])=>({title,body})),why});
+const transfer=(context,question,options,explanations,sourceSentenceIndices,modelLink)=>({prompt:question,context,question,options,correct:0,explanations,why:explanations[0],sourceSentenceIndices,modelLink});
+const v=(...rows)=>rows,slot=(text,label)=>[text,'slot',label],link=text=>[text,'link','句型固定部分'];
+const f=(example,relation,distractors,frame)=>({example,distractors,frame,answerReason:`這句${relation}，用法與原文一致。`,distractorReason:`這句${relation}；它並非本題要辨認的句型及功能。`});
+const simple=[
+ 'The table shows when six large MRT systems were completed, how long their networks are, and how many passengers they can carry in a year.',
+ 'Overall, London and Paris were completed earliest and have the longest networks. London’s network is much longer than all the others.',
+ 'But Tokyo can carry far more passengers in a year even though its network is much shorter. Kyoto has the shortest network and the smallest yearly capacity.',
+ 'London has the earliest completion year, 1863, and its network is 1,100 km long, almost twice Paris’s 594 km.',
+ 'Paris was completed in 1890. Its yearly capacity of 850 million is higher than London’s 548 million, even though its network is shorter.',
+ 'Tokyo was completed in 1904. Its network is only 149 km long, but it has the highest yearly capacity: 1,434 million passengers.',
+ 'The other three systems have much shorter networks and smaller yearly capacities.',
+ 'Washington DC was completed in 1921 and has 114 km of network, but it can carry only 70 million passengers a year.',
+ 'Kyoto and Los Angeles have the latest completion years, 1980 and 2001 in that order. Their networks are very short, at 11 and 14 km.',
+ 'But Los Angeles can carry 90 million passengers a year, much more than Kyoto’s 11 million.',
+];
+const vocabulary=[
+ v(['compares','shows','比較'],['year of completion','were completed','完成年份'],['network length','how long their networks are','路網長度'],['annual carrying capacity','how many passengers they can carry in a year','年度可承載量']),
+ v(['earliest','completed earliest','完成年份最早'],['most extensive systems','longest networks','路網最長'],['standing well ahead','much longer','明顯領先']),
+ v(['In contrast','But','相反'],['by far the greatest yearly capacity','far more passengers in a year','年度容量遠最大'],['despite being much shorter','even though its network is much shorter','即使路網短得多'],['smallest system on both measures','shortest network and the smallest yearly capacity','長度與容量皆最小']),
+ v(['was completed first','earliest completion year','完成年份最早'],['covers 1,100 kilometres','1,100 km long','全長一千一百公里'],['almost twice','almost twice','接近兩倍']),
+ v(['nevertheless','even though its network is shorter','儘管如此'],['higher annual carrying capacity','yearly capacity of 850 million is higher','年度容量較高'],['compared with','than','相比']),
+ v(['only 149 kilometres long','only 149 km long','全長僅一百四十九公里'],['yet','but','然而'],['dominates in capacity','highest yearly capacity','容量最大'],['annual carrying capacity','yearly capacity','年度可承載量']),
+ v(['other three systems','other three systems','其餘三個系統'],['much smaller scale','much shorter networks and smaller yearly capacities','規模較小']),
+ v(['completed in 1921','completed in 1921','一九二一年完成'],['114 kilometres of track','114 km of network','路網一百一十四公里'],['annual capacity','can carry only 70 million passengers a year','年度可承載量'],['just 70 million','only 70 million','僅七千萬']),
+ v(['newest networks','latest completion years','完成年份最晚'],['respectively','in that order','依次'],['extremely short','very short','非常短']),
+ v(['However','But','然而'],['can carry 90 million passengers annually','can carry 90 million passengers a year','每年可承載九千萬'],['far more than','much more than','遠多於']),
+];
+const structures=[
+ f('The table compares six regional rail systems by year of completion, network length and annual carrying capacity.','引言交代三個不同欄位及系統數量',[1,3,6],{formula:'The table compares [系統] by year of completion, network length and annual carrying capacity',meaning:'六個地鐵系統的完成年份、公里長度、年度容量。',usage:'完成年份不等於首年開通；容量不等於實際年客流。',parts:[link('The table compares '),slot('six major MRT systems','六系統'),link(' by year of completion, network length and annual carrying capacity.')]}),
+ f('Overall, Systems A and B are the earliest and most extensive systems, with System A’s network standing well ahead of all the others in length.','概覽年份最早及最長路網，並指出絕對最長者',[0,3,6],{formula:'Overall, [兩系統] are the earliest and most extensive systems, with [最長者]’s network standing well ahead of all the others in length',meaning:'London 1863/1100km、Paris 1890/594km，London 最長。',usage:'earliest 只根據完成年份欄，不推斷開通日期。',parts:[link('Overall, '),slot('London and Paris','較早較長系統'),link(' are the earliest and most extensive systems, with '),slot('London’s network','最長者'),link(' standing well ahead of all the others in length.')]}),
+ f('In contrast, System C has by far the greatest yearly capacity despite being much shorter, while System D is the smallest system on both measures.','對照路網長度與年度容量的不一致排名',[0,3,6],{formula:'In contrast, [容量最大者] has by far the greatest yearly capacity despite being much shorter, while [最小者] is the smallest system on both measures',meaning:'Tokyo 149km 但容量 1434m 最大；Kyoto 11km/11m 兩欄最小。',usage:'both measures 是長度與容量，不包含完成年份。',parts:[link('In contrast, '),slot('Tokyo','容量最大者'),link(' has by far the greatest yearly capacity despite being much shorter, while '),slot('Kyoto','兩欄最小者'),link(' is the smallest system on both measures.')]}),
+ f('System A was completed first, in 1850, and covers 1,000 kilometres, almost twice System B’s 520 kilometres.','列完成年份、長度和同單位倍數',[0,2,6],{formula:'[系統] was completed first, in [完成年], and covers [長度], almost twice [比較系統及長度].',meaning:'London 完成 1863、1100km；Paris 594km，1100/594≈1.85。',usage:'比較完成年份與長度時，要同時說明先後與相對長度。',parts:[slot('London','系統'),link(' was completed first, in '),slot('1863','完成年'),link(', and covers '),slot('1,100 kilometres','長度'),link(', almost twice '),slot('Paris’s 594 kilometres','比較系統及長度'),link('.')]}),
+ f('System B, which was completed in 1880, nevertheless has a higher annual carrying capacity than System A, at 800 million compared with 500 million.','用 nevertheless 指出較短路網卻有較高容量',[0,2,6],{formula:'[系統乙], which was completed in [年], nevertheless has a higher annual carrying capacity than [系統甲], at [乙容量] compared with [甲容量]',meaning:'Paris 1890/594km，容量 850m，高於 London 548m。',usage:'容量比較的是設計可承載量，不是實際搭乘數。',parts:[slot('Paris','較短系統'),link(', which was completed in '),slot('1890','完成年'),link(', nevertheless has a higher annual carrying capacity than '),slot('London','較長系統'),link(', at '),slot('850 million','較高容量'),link(' compared with '),slot('548 million','較低容量'),link('.')]}),
+ f('System C was completed in 1910 and is only 150 kilometres long, yet it dominates in capacity, with an annual carrying capacity of 1,400 million passengers.','用 yet 對照短路網與最高年度容量',[0,2,4],{formula:'[系統] was completed in [年] and is only [長度] long, yet it dominates in capacity, with an annual carrying capacity of [數值] million passengers',meaning:'Tokyo 1904 完成、149km、年度容量 1434m。',usage:'不能從此斷言 Tokyo 實際每年有 1434m 乘客。',parts:[slot('Tokyo','系統'),link(' was completed in '),slot('1904','完成年'),link(' and is only '),slot('149 kilometres','長度'),link(' long, yet it dominates in capacity, with an annual carrying capacity of '),slot('1,434 million','容量'),link(' passengers.')]}),
+ f('The other three systems are on a considerably smaller scale.','過渡到後三個較短且容量較小的系統',[0,2,4],{formula:'The other three systems are on a [規模比較].',meaning:'Washington DC 114km/70m、Kyoto 11km/11m、Los Angeles 14km/90m。',usage:'前一組規模明顯較大，轉到其餘較小系統作分組概覽時。',parts:[link('The other three systems are on a '),slot('much smaller scale','規模比較'),link('.')]}),
+ f('Washington DC, completed in 1925, has 120 kilometres of track, but its annual capacity is just 75 million.','同時報中等長度與相對小年度容量',[0,2,4],{formula:'[系統], completed in [年], has [長度] of track, but its annual capacity is just [數值]',meaning:'Washington DC 1921、114km、70m 容量。',usage:'annual capacity 仍是可承載量，不是實際人次。',parts:[slot('Washington DC','系統'),link(', completed in '),slot('1921','完成年'),link(', has '),slot('114 kilometres','長度'),link(' of track, but its annual capacity is just '),slot('70 million','容量'),link('.')]}),
+ f('Systems D and E are the newest networks, finished in 1985 and 2005 respectively, and both are extremely short, at 12 and 15 kilometres.','依次配對兩個較晚完成年份與兩個長度',[0,2,4],{formula:'[兩系統] are the newest networks, finished in [第一年] and [第二年] respectively, and both are extremely short, at [第一長度] and [第二長度] kilometres.',meaning:'Kyoto 1980/11km，Los Angeles 2001/14km。',usage:'兩個系統都較新且較短，需用 respectively 對應兩個年份與長度時。',parts:[slot('Kyoto and Los Angeles','兩系統'),link(' are the newest networks, finished in '),slot('1980','第一年'),link(' and '),slot('2001','第二年'),link(' respectively, and both are extremely short, at '),slot('11','第一長度'),link(' and '),slot('14','第二長度'),link(' kilometres.')]}),
+ f('However, System E can carry 100 million passengers annually, far more than System D’s 12 million.','比較兩個極短路網的年度可承載量',[0,2,4],{formula:'However, [較高容量系統] can carry [較高值] million passengers annually, far more than [較低系統及值] million.',meaning:'Los Angeles 90m、Kyoto 11m 年度容量。',usage:'兩個系統長度都短，但容量差距很大，需用 far more than 量化時。',parts:[link('However, '),slot('Los Angeles','較高容量系統'),link(' can carry '),slot('90','較高值'),link(' million passengers annually, far more than '),slot('Kyoto’s 11','較低系統及值'),link(' million.')]}),
+];
+const intro=[quiz('表中三個量度欄位是甚麼？',['完成年份、總長度（公里）、年度可承載量（百萬）','開通年份、票價、實際乘客人數','列車速度、車站數、電費','平均車齡、票價、故障次數'],'欄名明列 Year Completed、Total Length、Carrying Capacity Per Year。'),{type:'multi',prompt:'哪兩項適合概覽？',detail:'選兩項，再按「確認」。',options:['London 路網最長，Tokyo 年度容量最大','Kyoto 在長度與年度容量均最小','London 年度容量也最大','最晚完成的系統必然最長'],correct:[0,1],why:'長度與容量的極值由不同城市佔據。'}];
+const route=[sequence('按範文重排六個地鐵系統比較',[
+ ['引言','完成年份、網絡長度、年度容量三欄。'],['概覽','London/Paris 完成較早且較長；Tokyo 容量最大；Kyoto 兩欄最小。'],['較大型','London 1863/1100km/548m；Paris 1890/594km/850m；Tokyo 1904/149km/1434m。'],['其餘三個','Washington 1921/114km/70m；Kyoto 1980/11km/11m；LA 2001/14km/90m。'],
+ ],'年份、公里、百萬人次容量各用自己的單位。')];
+const evidence=[
+ quiz('哪個系統路網最長？',['London 1,100km','Paris 594km','Tokyo 149km','Washington DC 114km'],'London 比 Paris 近兩倍長。'),
+ quiz('哪個系統年度可承載量最大？',['Tokyo 1,434m','Paris 850m','London 548m','Los Angeles 90m'],'Tokyo 路網並非最長，容量卻最大。'),
+ quiz('最小的長度與容量是哪個系統？',['Kyoto：11km、11m','Los Angeles：14km、90m','Washington DC：114km、70m','Paris：594km、850m'],'Kyoto 在兩項皆最小。'),
+ quiz('Paris 與 London 的容量比較？',['Paris 850m > London 548m','London 1,100m > Paris 594m','兩者容量相等','Paris 594m < London 1,100m'],'594/1100 是公里，不能用作容量。'),
+ quiz('Year Completed 能直接推出甚麼？',['只可說表列完成年份的先後','可知首次開通年份','可知每日實際客流','可知每座車站興建年'],'完成年份與營運開通是不同事項。'),
+];
+const logic=[sequence('三種欄位，三種比較',[
+ ['完成年份','London 1863 最早；Los Angeles 2001 最晚。'],['路網長度','London 1100km 最長；Kyoto 11km 最短。'],['年度容量','Tokyo 1434m 最大；Kyoto 11m 最小。'],['反例','London 最長卻不等於容量最大。'],
+ ],'不要把最長與載客能力最大視為同一排名。'),sequence('用一組數字核對「長而不一定容量大」',[
+ ['London','1100km；年度容量 548m。'],['Paris','594km；年度容量 850m。'],['Tokyo','149km；年度容量 1434m。'],['結論','路網長度與表列年度容量不成相同排序。'],
+ ],'表不說明容量不同的原因；只寫可見對比。')];
+const transfers=[
+ transfer('另一表列六個地鐵系統完成年份、公里長度及年度可承載量。','哪句引言不換掉欄位定義？',['表格比較六系統的完成年份、路網長度與年度容量。','表格比較首次開通年、票價與真實客流。','完成年份代表每日乘客人數。','公里長度是每年可承載人數。'],['三欄準確。','開通與實際客流未列。','年份非人數。','公里非人數。'],[0],'原文 year of completion，network length，annual carrying capacity。'),
+ transfer('London 1100km 最長；Tokyo 容量 1434m 最大。','哪句概覽沒有混淆長度與容量？',['London 路網最長，但 Tokyo 年度可承載量最大。','London 在兩欄都最大。','Tokyo 路網長達 1434km。','兩系統在兩欄完全相同。'],['極值分屬兩系統。','London 容量 548m。','1434m 是容量。','不同。'],[1,2],'原文 London longest，Tokyo greatest yearly capacity。'),
+ transfer('Kyoto 路網 11km、年度容量 11m，兩欄均最低。','哪句正確理解「兩項最小」？',['Kyoto 在路網長度和年度容量都最低。','Kyoto 的完成年份最早。','Kyoto 的 11km 是容量。','Kyoto 的兩個 11 單位相同。'],['數值相同但單位不同。','1980 較晚。','公里是長度。','一為 km、一為百萬容量。'],[2],'原文 Kyoto smallest on both measures。'),
+ transfer('London 1863 完成，1100km；Paris 594km。','哪句不把完成年寫成開通年？',['London 表列完成年份最早，路網近 Paris 的兩倍長。','London 首次開通於 1863 年已獲表證實。','Paris 路網比 London 長兩倍。','London 的 1863 是容量百萬值。'],['只說表列可核對的完成年份。','表未列開通年。','London 較長。','1863 為年份。'],[3],'原文 London completed first，1100km almost twice Paris 594km。'),
+ transfer('Paris 594km/850m；London 1100km/548m。','哪句對照長度與容量？',['Paris 路網較短，年度容量卻高於 London。','Paris 路網及容量都低於 London。','Paris 每年實際載客 850m 已獲表證明。','London 的路網只長 548km。'],['850>548，但 594<1100。','容量比較錯。','容量非實際載客。','548 為容量。'],[4],'原文 Paris higher annual carrying capacity than London。'),
+ transfer('Tokyo 1904 完成、149km、容量 1434m。','哪句保留 yet 的反差？',['Tokyo 路網僅 149km，年度可承載量卻為表中最大。','Tokyo 路網 1434km，位居最長。','Tokyo 每年實際載客恰好 1434m。','Tokyo 的完成年是 149。'],['短路網與最高容量。','1434 是容量。','表只給容量。','1904 是年份。'],[5],'原文 Tokyo only 149km yet dominates capacity 1434m。'),
+ transfer('Washington、Kyoto、Los Angeles 路網及容量均比主要三系統小。','哪句適合段落過渡？',['其餘三個系統在路網長度與年度容量上規模較小。','其餘三個系統完成年份都早於 London。','其餘三個系統都長逾 1000km。','其餘三個系統容量均大於 Tokyo。'],['後文可逐一報數。','完成較晚。','都較短。','Tokyo 最大。'],[6],'原文 other three systems on smaller scale。'),
+ transfer('Washington DC：1921 完成、114km、年度容量 70m。','哪句三個欄位不錯配？',['Washington DC 於 1921 年完成，路網 114km，年度容量僅 70m。','Washington DC 於 114 年完成，路網 1921km。','Washington DC 實際年客流精確為 70m。','Washington DC 年度容量為 114km。'],['年份、長度、容量各自正確。','年份與公里倒置。','容量非實際客流。','容量不可用 km。'],[7],'原文 Washington DC completed 1921，114km，capacity 70m。'),
+ transfer('Kyoto 1980/11km；Los Angeles 2001/14km。','哪句依次配對兩個較晚完成系統？',['Kyoto 與 Los Angeles 分別於 1980 及 2001 年完成，長度依次 11 及 14km。','Los Angeles 於 1980 年完成，Kyoto 於 2001 年。','兩地路網都超過 500km。','1980、2001 是年度容量百萬值。'],['respectively 的順序準確。','年份對調。','兩者極短。','是完成年。'],[8],'原文 Kyoto/LA finished 1980/2001 respectively，11/14km。'),
+ transfer('洛杉磯容量 90m；京都容量 11m。','哪句使用「可承載」而非實際客流？',['Los Angeles 每年可承載 90m，遠多於 Kyoto 的 11m。','Los Angeles 每年已實際載客恰好 90m。','Kyoto 年度容量 90m，比洛杉磯高。','兩地容量都以公里為單位。'],['can carry 描述容量。','表不提供實際人次。','Kyoto 11m。','容量單位百萬乘客。'],[9],'原文 LA can carry 90m，far more than Kyoto 11m。'),
+];
+const balancedTransferOptions=[
+  ['表格比較完成年份、路網公里數及年度可承載量。','表格比較首次開通年、路網公里數及年度客流。','表格比較完成年份、車票價格及年度可承載量。','表格比較六地人口、路網公里數及年度客流。'],
+  ['倫敦路網最長，東京年度可承載量最大。','倫敦路網最長，年度可承載量也最大。','東京路網最長，倫敦年度可承載量最大。','倫敦與東京的路網及容量都同樣最大。'],
+  ['京都路網 11km 最短，年度容量 11m 也最低。','京都路網 11km 最短，年度容量 11m 卻最高。','京都路網 11km 最短，完成年份也是最早。','京都年度容量 11km 最低，路網長度為 11m。'],
+  ['倫敦表列完成年份最早，路網近巴黎兩倍長。','倫敦表列首次開通年最早，路網近巴黎兩倍長。','巴黎表列完成年份最早，路網近倫敦兩倍長。','倫敦表列完成年份最早，路網只比巴黎短一半。'],
+  ['巴黎路網較倫敦短，年度容量卻比倫敦高。','巴黎路網較倫敦短，年度容量也比倫敦低。','巴黎路網較倫敦長，年度容量卻比倫敦低。','巴黎路網較倫敦短，實際年客流已證實較高。'],
+  ['東京路網只有 149km，年度容量卻最大。','東京路網長達 1434km，年度容量也最大。','東京路網只有 149km，實際年客流最大。','東京路網只有 149km，完成年份是 149 年。'],
+  ['其餘三地的路網與年度容量，規模都較小。','其餘三地的路網較小，年度容量卻都更大。','其餘三地的路網較長，年度容量卻都較小。','其餘三地的路網較小，完成年份都最早。'],
+  ['華盛頓於 1921 年完成，長 114km，容量 70m。','華盛頓於 114 年完成，長 1921km，容量 70m。','華盛頓於 1921 年開通，長 114km，客流 70m。','華盛頓於 1921 年完成，容量 114km，長 70m。'],
+  ['京都 1980 年完成、長 11km；洛杉磯 2001 年、長 14km。','京都 2001 年完成、長 11km；洛杉磯 1980 年、長 14km。','京都 1980 年完成、長 14km；洛杉磯 2001 年、長 11km。','京都 1980 年開通、長 11km；洛杉磯 2001 年開通、長 14km。'],
+  ['洛杉磯年容量 90m，京都為 11m，前者較大。','洛杉磯實際年客流 90m，京都為 11m，前者較大。','京都年容量 90m，洛杉磯為 11m，前者較大。','洛杉磯年容量 90km，京都為 11km，前者較大。']
+];
+balancedTransferOptions.forEach((options,i)=>{transfers[i].options=options});
+export default {key:'task1-tables:3',meta:{topic:'六個世界地鐵系統的完成年份、長度及年度容量',summary:'London 表列完成年份最早、路網最長；Tokyo 路網僅 149km 卻有最大年度可承載量 1434m；Kyoto 在長度 11km 與容量 11m 皆最小。完成年份不能視作開通年，容量不能視作實際客流。'},simple,vocabulary,structures,intro,route,evidence,logic,transfer:transfers};

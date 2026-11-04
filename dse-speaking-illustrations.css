@@ -1,0 +1,17 @@
+/* Original paper artwork stays beside its corresponding source passage. */
+.dse-source-illustration{clear:both;width:34%;max-width:300px;margin:.4rem 0 1rem 1.25rem;float:right;break-inside:avoid}
+.dse-source-illustration img{display:block;width:100%;height:auto;object-fit:contain;background:#fff}
+.dse-source-illustration.is-left{float:left;margin:.4rem 1.25rem 1rem 0}
+.dse-source-illustration.is-center{float:none;width:100%;max-width:620px;margin:1rem auto}
+.dse-source-illustration.size-icon{width:48px;max-width:12%;margin-top:.25rem;margin-bottom:.5rem}
+.dse-source-illustration.size-tall{width:18%;max-width:100px}
+.dse-source-text::after,.pro-source::after{content:"";display:block;clear:both}
+.dse-source-text .is-task,.pro-source .is-task{clear:both}
+.pro-source{white-space:normal!important;line-height:1.7}
+.pro-source .dse-source-paragraph{margin:0 0 1em}
+.pro-source .dse-source-heading{font-size:1em;margin:.9em 0 .35em}
+.pro-source .dse-source-table-wrap{clear:both;overflow:auto}
+.pro-source .dse-source-table{width:100%;border-collapse:collapse}
+.pro-source .dse-source-table :is(th,td){padding:.5em;border:1px solid #aab9ab;text-align:left}
+@media(max-width:520px){.dse-source-illustration{width:40%;margin-left:.75rem}.dse-source-illustration.is-left{margin-right:.75rem}.dse-source-illustration.size-icon{width:36px}.dse-source-illustration.size-tall{width:18%}}
+@media(max-width:520px){.dse-source-illustration.size-photo{float:none;width:100%;max-width:280px;margin:.75rem auto 1rem}}

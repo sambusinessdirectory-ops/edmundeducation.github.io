@@ -1,0 +1,2171 @@
+{
+  "id": "p1-041-morse-code",
+  "catalogueId": "p1-041",
+  "catalogueIds": [
+    "p1-041"
+  ],
+  "passage": 1,
+  "title": "Morse Code",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "x",
+    "iii",
+    "xi",
+    "i",
+    "vi",
+    "v",
+    "ix",
+    "vii",
+    "FALSE",
+    "TRUE",
+    "TRUE",
+    "NOT GIVEN",
+    "NOT GIVEN"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "x — The beginning of the end",
+      "answerKey": "x — The beginning of the end",
+      "type": "Matching",
+      "prompt": "Question 1",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph A題目要求我們為 Paragraph A 選最能概括全段的 heading。Matching Headings 不應只看某個漂亮例子，要看全段主線是否被 heading 覆蓋。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Calling all. This is our last cry before our eternal silence.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "「呼叫所有人。這是我們進入永恆沉默前的最後呼喊。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The final deadline for the switch to GMDSS is 1 February, a date widely seen as the end of an era.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "轉換至 GMDSS 的最終限期是 2 月 1 日，這個日期被廣泛視為一個時代的結束。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph A 已經帶出告別、退場、時代結束的氣氛。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "這段的反覆概念包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“last cry”"
+            },
+            {
+              "kind": "quote",
+              "text": "“eternal silence”"
+            },
+            {
+              "kind": "quote",
+              "text": "“end of the use of Morse code”"
+            },
+            {
+              "kind": "quote",
+              "text": "“decommissioning their Morse equipment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“switches to a new satellite-based arrangement”"
+            },
+            {
+              "kind": "quote",
+              "text": "“end of an era”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些字全部指向 Morse code 在 distress calls 中逐步退出歷史舞台。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "真正控制 heading 的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Rather, it signalled the end of the use of Morse code for distress calls in French waters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "相反，它標誌著 Morse code 在法國水域用於求救呼叫的結束。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“Since 1992, countries around the world have been decommissioning their Morse equipment…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自 1992 年起，世界各國一直在停止使用 Morse equipment。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading x “The beginning of the end” 中文可理解為「結束的開始」。Paragraph A 不是單講某一次法國 sign-off，也不是單講 GMDSS 的技術細節，而是描述全球航運從 Morse distress calls 轉向衛星系統的時代轉折。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 的問題： vii “Application of Morse code in a new technology” 更適合 Paragraph H，因為 H 講 wireless /radiotelegraphy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "iv “Sea rescue after the invention of radiotelegraphy” 表面上有 sea，但 Paragraph A 沒有講具體 sea rescue。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "ix “International expansion” 也有 countries around the world，但方向是退場，不是擴張。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 x。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "iii — Morse’s invention was developed",
+      "answerKey": "iii — Morse’s invention was developed",
+      "type": "Matching",
+      "prompt": "Question 2",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph B"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The code has, however, had a distinguished history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這套 code 有一段卓越的歷史。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Morse succeeded and is now remembered as ‘the father of the telegraph’, partly because of his single-mindedness—it took twelve years, for example, to secure money from Congress to build his first telegraph line—but also for technical reasons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Morse 成功了，並且現在被記住為「telegraph 之父」；原因部分在於他的專注，例如他花了十二年才從 Congress 獲得資金建造第一條 telegraph line，也包括技術原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯是從 Morse code 的歷史回到 Morse 本人和 electric telegraph 的發明過程。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位概念包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“Samuel Morse”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inspired to build an electric telegraph”"
+            },
+            {
+              "kind": "quote",
+              "text": "“coded messages”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Other inventors had been trying”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Morse succeeded”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都不是在講標準化，也不是在講工作機會，而是講發明的形成。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Morse was suddenly inspired to build an electric telegraph that could send coded messages.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Morse 突然受到啟發，要建造一種能傳送 coded messages 的 electric telegraph。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句說明發明想法如何出現。後文再說其他 inventors 也嘗試過類似方向，但 Morse 成功。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iii “Morse’s invention was developed” 可以概括這段：從船上靈感、電學理論，到成功建造 telegraph 的過程。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他 heading 的問題： viii “The discovery of electricity” 很容易迷惑，因為原文有 “recent advances in electrical theory”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "可是段落沒有講電的發現，只講 Morse 聽到電學進展後受到啟發。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "xi “The move towards using code to convey information” 會更適合 Paragraph C，因為 C 詳細講數字 code 和 Morse alphabet。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 iii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "xi — The move towards using code to convey information",
+      "answerKey": "xi — The move towards using code to convey information",
+      "type": "Matching",
+      "prompt": "Question 3",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph C"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Compared with rival electric-telegraph designs, such as the needle telegraph developed in Britain by William Cooke and Charles Wheatstone, Morse’s design was very simple…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "與其他競爭性的 electric-telegraph designs 相比，例如英國 William Cooke 和 Charles Wheatstone 發展的 needle telegraph，Morse 的設計非常簡單。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“He later abandoned this scheme and, with the help of an associate, Alfred Vail, devised the Morse alphabet, which could spell messages one letter at a time in dots and dashes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他後來放棄這個方案，並在合作者 Alfred Vail 幫助下設計出 Morse alphabet，可以用 dots and dashes 一個字母一個字母拼出訊息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句由硬件簡單開始，末句落在 Morse alphabet。段落焦點由設備轉入 code system。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "反覆概念："
+            },
+            {
+              "kind": "quote",
+              "text": "“special code of dots and dashes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“represent individual letters”"
+            },
+            {
+              "kind": "quote",
+              "text": "“represent the digits 0 to 9”"
+            },
+            {
+              "kind": "quote",
+              "text": "“coded messages”"
+            },
+            {
+              "kind": "quote",
+              "text": "“numbered dictionary”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Morse alphabet”"
+            },
+            {
+              "kind": "quote",
+              "text": "“spell messages”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些全部屬於「用 code 傳遞資訊」的語義範圍。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵證據組："
+            },
+            {
+              "kind": "quote",
+              "text": "“Originally, Morse had not intended combinations of dots and dashes to represent individual letters.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初，Morse 並沒有打算讓 dots and dashes 的組合代表 individual letters。"
+            },
+            {
+              "kind": "quote",
+              "text": "“His first code … used them to represent the digits 0 to 9.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他的第一套 code 使用 dots and dashes 代表 0 到 9 的數字。"
+            },
+            {
+              "kind": "quote",
+              "text": "“He later abandoned this scheme … devised the Morse alphabet…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "他後來放棄這個方案，設計出 Morse alphabet。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading xi “The move towards using code to convey information” 正好概括這個發展：Morse 從數字代碼、字典對應，走向可逐字母拼寫訊息的 Morse alphabet。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading i “The advantage of Morse’s invention” 只符合首句附近的 hardware simplicity，無法覆蓋後半段 code 的演變。Paragraph C 的主線更偏向 code 如何承載訊息。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 xi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "i — The advantage of Morse’s invention",
+      "answerKey": "i — The advantage of Morse’s invention",
+      "type": "Matching",
+      "prompt": "Question 4",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph D"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, the need to learn this complicated-looking code made Morse’s telegraph seem impossibly difficult compared with other, more user-friendly designs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初，由於需要學習這套看起來複雜的 code，Morse’s telegraph 與其他較易使用的設計相比，看似難得不可能掌握。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It soon became clear that some people had a natural aptitude for Morse code.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很快人們發現，有些人對 Morse code 有自然才能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 看似講使用難度。但真正要看中間比較，因為 heading 題常把重點放在轉折後。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "段中比較訊號很強："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although this meant anyone could use it…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the system required five wires…”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Morse’s telegraph needed only one.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡的 although 表示前一設計有方便之處，但接著指出它的硬件成本或要求較高。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Although this meant anyone could use it, the system required five wires between telegraph stations; Morse’s telegraph needed only one.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然這代表任何人都可以使用 Cooke and Wheatstone 的系統，但該系統在 telegraph stations之間需要五條 wire；Morse’s telegraph 只需要一條。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句清楚指出 Morse invention 的主要優勢：只需一條 wire。前面說 Morse code 看似困難，後面卻顯示它在設備上更簡潔、更實用。Heading i “The advantage of Morse’s invention” 能覆蓋這個比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading xi 不適合，因為 code 的發展在 Paragraph C 已完成。Paragraph D 的重點落在invention 的 practical advantage。Heading iii 也不夠精準，因為這段不是發明過程，而是和其他設計比較後凸顯優勢。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 i。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "vi — Standard and variations",
+      "answerKey": "vi — Standard and variations",
+      "type": "Matching",
+      "prompt": "Question 5",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph E"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“As electric telegraphy took off in the early 1850s, the Morse telegraph quickly became dominant.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "隨著 electric telegraphy 在 1850 年代初迅速發展，Morse telegraph 很快取得主導地位。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By this time, Morse code had been revised to accommodate accents and other foreign characters, resulting in a split between American and International Morse that continues today.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到這時，Morse code 已被修訂以容納 accents 和其他 foreign characters，結果形成 American Morse 和 International Morse 的分裂，這種分裂延續至今。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句講 dominant，末句講 revised 和 split。整段主題應是 Morse code 如何成為標準，以及如何出現版本差異。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“European standard”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Britain chose not to participate”"
+            },
+            {
+              "kind": "quote",
+              "text": "“revised”"
+            },
+            {
+              "kind": "quote",
+              "text": "“accents and other foreign characters”"
+            },
+            {
+              "kind": "quote",
+              "text": "“split between American and International Morse”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些全部指向 standard 和 variations。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It was adopted as the European standard in 1851, allowing direct connections between the telegraph networks of different countries.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它在 1851 年被採納為 European standard，讓不同國家的 telegraph networks 可以直接連接。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“By this time, Morse code had been revised … resulting in a split between American and International Morse…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到這時，Morse code 已被修訂，結果形成 American Morse 和 International Morse 的分裂。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vi “Standard and variations” 非常準確。standard 對應 European standard；variations 對應 revised code 和 American / International Morse 的 split。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ix “International expansion” 也有一定吸引力，因為段落提到 different countries。但這段核心不在網絡規模擴大，重點在標準採用和版本差異。國際擴張更適合 Paragraph G。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 vi。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "v — The emergence of many job opportunities",
+      "answerKey": "v — The emergence of many job opportunities",
+      "type": "Matching",
+      "prompt": "Question 6",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph F"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On international submarine cables, left and right movements of a light beam reflected from a tiny rotating mirror represented dots and dashes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 international submarine cables 上，從微小旋轉鏡反射出的光束左右移動，用來代表 dots and dashes。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1870, women made up a third of the operators in Western Union’s New York office, the largest telegraph office in America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1870 年，女性佔 Western Union 紐約辦公室操作員的三分之一；這是美國最大的 telegraph office。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句看似技術細節，但中段很快轉到 telegraphic subculture、operator hierarchy、jobs、women’s work。Heading 要覆蓋整段，所以不能只選 women。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "反覆概念包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“telegraphic subculture”"
+            },
+            {
+              "kind": "quote",
+              "text": "“hierarchy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“First-class operators”"
+            },
+            {
+              "kind": "quote",
+              "text": "“best-paid jobs”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rural operators”"
+            },
+            {
+              "kind": "quote",
+              "text": "“passport to better-paid city work”"
+            },
+            {
+              "kind": "quote",
+              "text": "“middle classes”"
+            },
+            {
+              "kind": "quote",
+              "text": "“suitable work for women”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都圍繞就業、職級和社會流動。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“First-class operators, who could send and receive up to 45 words a minute, handled press traffic and secured the best-paid jobs in large cities.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一流操作員每分鐘可收發多達 45 個字，負責 press traffic，並取得大城市中薪酬最高的工作。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“As their Morse code improved, however, they found that their new skill was a passport to better-paid city work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，隨著他們的 Morse code 技能提升，他們發現這項新技能是通往更高薪城市工作的通行證。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v “The emergence of many job opportunities” 最能概括全段。段落不只講女性，也講操作員階級、高薪工作、農村到城市的流動，以及 middle classes 的形成。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading ii “A suitable job for women” 是真實細節，但只覆蓋最後兩句。Matching Headings 要選全段主題，所以 v 比 ii 更穩。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 v。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "ix — International expansion of Morse code",
+      "answerKey": "ix — International expansion of Morse code",
+      "type": "Matching",
+      "prompt": "Question 7",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph G"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a dramatic ceremony in 1871, Morse himself bade farewell to the global community of telegraphers he had brought into being.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1871 年一場戲劇化儀式中，Morse 本人向他所創造出來的全球 telegraphers 社群告別。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Just as the Internet is often called an ‘information superhighway’ today, the telegraph was described in its time as an ‘instantaneous highway of thought’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如今天 Internet 常被稱為 “information superhighway”，telegraph 在當時被形容為"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“instantaneous highway of thought”。首尾句都顯示這段在講 telegraph network 的廣闊影響和全球連結。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段中有大量規模詞：“every telegraph wire in America”"
+            },
+            {
+              "kind": "quote",
+              "text": "“650,000 miles of telegraph line”"
+            },
+            {
+              "kind": "quote",
+              "text": "“30,000 miles of submarine cable”"
+            },
+            {
+              "kind": "quote",
+              "text": "“20,000 towns and villages”"
+            },
+            {
+              "kind": "quote",
+              "text": "“connected to the global network”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些數字和 network 詞組指向 international expansion。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By his death in 1872, the world was well and truly wired: more than 650,000 miles of telegraph line and 30,000 miles of submarine cable were throbbing with Morse code, and 20,000 towns and villages were connected to the global network.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到他 1872 年去世時，世界已真正被電報線連起來：超過 650,000 英里的 telegraph line 和30,000 英里的 submarine cable 都跳動著 Morse code，20,000 個城鎮和村莊連接到全球網絡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句非常清楚地說明 Morse code 的國際網絡化和大規模擴張。Heading ix “International expansion of Morse code” 覆蓋整段。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading v 工作機會在 Paragraph F；Heading iii 發明發展在 Paragraph B。Paragraph G 的核心是網絡規模。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 ix。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "vii — Application of Morse code in a new technology",
+      "answerKey": "vii — Application of Morse code in a new technology",
+      "type": "Matching",
+      "prompt": "Question 8",
+      "translation": "請依照下方步驟完成定位、細讀與答案判斷。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落：Paragraph H"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By the 1890s, however, the Morse telegraph’s heyday as a cutting-edge technology was ending with the invention of the telephone and the rise of automatic telegraphs, precursors of the teleprinter, neither of which required specialist operating skills.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，到 1890 年代，隨著 telephone 發明和 automatic telegraphs 興起，Morse telegraph 作為尖端技術的黃金期正在結束；這些 automatic telegraphs 是 teleprinter 的前身，且兩者都不需要專門操作技能。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1910, Morse radio equipment was commonplace aboard ships.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1910 年，Morse radio equipment 已在船上十分常見。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句說舊 telegraph 的衰落，末句說 Morse radio equipment 在船上普及。這段核心是 Morse code 轉入 wireless radio 技術。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞包括："
+            },
+            {
+              "kind": "quote",
+              "text": "“new lease of life”"
+            },
+            {
+              "kind": "quote",
+              "text": "“another technology: wireless”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Guglielmo Marconi’s invention of radiotelegraphy”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Morse-code messages”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Morse radio equipment”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些都指向新技術中的應用。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Morse code was about to receive a new lease of life through another technology: wireless.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Morse code 即將透過另一種技術 wireless 得到新生命。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“In 1897, Marconi successfully sent Morse-code messages between a shore station and an Italian warship 19 km (12 miles) away.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "1897 年，Marconi 成功在岸上電台和 19 公里外的一艘意大利軍艦之間傳送 Morse-code messages。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading vii “Application of Morse code in a new technology” 正好概括整段。Morse code 沒有隨傳統 telegraph 衰退而消失，它被應用到 wireless / radiotelegraphy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Heading iv “Sea rescue after the invention of radiotelegraphy” 有 sea 和 radiotelegraphy 的字面關聯，但段落沒有講實際救援事件。它只說船舶可以通訊、設備變常見，所以 vii 更準確。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 vii。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Morse had already been famous as an inventor before his invention of Morse code.”",
+      "translation": "在發明 Morse code 之前，Morse 已經以 inventor 身份成名。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 TRUE / FALSE / NOT GIVEN。要判斷題目是否和文章 factual information 一致。題目有兩個控制點：already been famous 和 as an inventor before his invention。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The code has, however, had a distinguished history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這套 code 有一段卓越的歷史。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Morse succeeded and is now remembered as ‘the father of the telegraph’, partly because of his single-mindedness—it took twelve years, for example, to secure money from Congress to build his first telegraph line—but also for technical reasons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Morse 成功了，並且現在被記住為「telegraph 之父」；原因部分在於他的專注，例如他花了十二年才從 Congress 獲得資金建造第一條 telegraph line，也包括技術原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph B 講 Morse 的發明起點和他後來的歷史地位。題目問他發明前是否已是famous inventor，所以這段最相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的字是："
+            },
+            {
+              "kind": "quote",
+              "text": "“already”"
+            },
+            {
+              "kind": "quote",
+              "text": "“famous”"
+            },
+            {
+              "kind": "quote",
+              "text": "“inventor”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph B 時，會看到："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the time, Morse was a painter and occasional inventor…”"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“Morse succeeded and is now remembered as ‘the father of the telegraph’…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這兩句要一起看，因為一個說當時身份，一個說後來名聲。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the time, Morse was a painter and occasional inventor…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當時，Morse 是一名畫家，也偶爾做發明。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的時間是 “At the time”，指他在船上聽到 electrical theory 進展、尚未成功發明 telegraph 的時候。身份描述是 “a painter and occasional inventor”。Occasional inventor 指偶爾做發明的人，語氣不像 “famous inventor”。"
+            },
+            {
+              "kind": "label",
+              "text": "後文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Morse succeeded and is now remembered as ‘the father of the telegraph’…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Morse 成功了，並且現在被記住為「telegraph 之父」。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“now remembered” 顯示他的發明家名聲來自成功之後的歷史回顧。題目說 “had already been famous as an inventor before his invention”，把後來名聲提前到發明之前，和原文時間線不合。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“had already been famous as an inventor”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“was a painter and occasional inventor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“is now remembered as ‘the father of the telegraph’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文給出的身份是當時主要為 painter、偶爾發明；發明家名聲是後來的評價。因此題目方向和原文衝突。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案是 FALSE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“inventor” 原字在原文出現，容易令人誤選 TRUE。不過定位詞只負責帶路，真正定案的是“occasional” 和 “now remembered”。題目說 already famous；原文說 occasional inventor，並把名聲放到成功之後。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Morse waited a long time before receiving support from Congress.”",
+      "translation": "Morse 等了很長時間才得到 Congress 支持。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷原文是否支持 “waited a long time” 和 “support from Congress”。重點在時間長度和Congress support。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph B第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The code has, however, had a distinguished history.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，這套 code 有一段卓越的歷史。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Morse succeeded and is now remembered as ‘the father of the telegraph’, partly because of his single-mindedness—it took twelve years, for example, to secure money from Congress to build his first telegraph line—but also for technical reasons.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Morse 成功了，並且現在被記住為「telegraph 之父」；原因部分在於他的專注，例如他花了十二年才從 Congress 獲得資金建造第一條 telegraph line，也包括技術原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 末句已直接提到 twelve years 和 Congress，所以是目標段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Congress”"
+            },
+            {
+              "kind": "quote",
+              "text": "“long time”"
+            },
+            {
+              "kind": "quote",
+              "text": "“support”"
+            },
+            {
+              "kind": "label",
+              "text": "原文沒有直接用 support，但有："
+            },
+            {
+              "kind": "quote",
+              "text": "“secure money from Congress”"
+            },
+            {
+              "kind": "label",
+              "text": "這是財政支持。時間對應詞是："
+            },
+            {
+              "kind": "quote",
+              "text": "“twelve years”"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“…it took twelve years, for example, to secure money from Congress to build his first telegraph line…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "例如，他花了十二年才從 Congress 獲得資金，用來建造他的第一條 telegraph line。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句的主語結構是 “it took twelve years”，核心意思是過程花了十二年。Twelve years 足以支持題目中的 “a long time”。“secure money from Congress” 表示從 Congress 取得資金。題目用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“receiving support from Congress” 概括這個意思，因為 money to build his first line 就是一種具體支持。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“waited a long time”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“it took twelve years”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“receiving support from Congress”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“secure money from Congress”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：時間和支持來源都一致，所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目沒有說 “money”，而用了較廣的 “support”。這是合理概括，因為原文的資金支持正是建造first telegraph line 的必要支持。這裡不能因為字面不同而選 NOT GIVEN。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Morse’s telegraph initially seemed more difficult to use than other designs.”",
+      "translation": "Morse’s telegraph 起初看起來比其他設計更難使用。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要比較 Morse’s telegraph 和 other designs，並注意時間詞 “initially”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, the need to learn this complicated-looking code made Morse’s telegraph seem impossibly difficult compared with other, more user-friendly designs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初，由於需要學習這套看起來複雜的 code，Morse’s telegraph 與其他較易使用的設計相比，看似難得不可能掌握。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It soon became clear that some people had a natural aptitude for Morse code.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "很快人們發現，有些人對 Morse code 有自然才能。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句幾乎直接對應題目，尤其是 At first、seem difficult、compared with other designs。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“initially”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seemed more difficult”"
+            },
+            {
+              "kind": "quote",
+              "text": "“other designs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first”"
+            },
+            {
+              "kind": "quote",
+              "text": "“seem impossibly difficult”"
+            },
+            {
+              "kind": "quote",
+              "text": "“compared with other, more user-friendly designs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一組非常直接的同義定位。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first, the need to learn this complicated-looking code made Morse’s telegraph seem impossibly difficult compared with other, more user-friendly designs.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "起初，由於需要學習這套看起來複雜的 code，Morse’s telegraph 與其他較易使用的設計相比，看似難得不可能掌握。"
+            },
+            {
+              "kind": "label",
+              "text": "句子中："
+            },
+            {
+              "kind": "paragraph",
+              "text": "“At first” 對應 initially。“seem impossibly difficult” 對應 seemed more difficult。“compared with other, more user-friendly designs” 對應 than other designs。題目沒有說它實際上永遠較難，只說 initially seemed。這和原文語氣一致。後文說有些人有natural aptitude，並不推翻題目，因為題目只問最初印象。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“initially seemed more difficult to use”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“At first … seem impossibly difficult”"
+            },
+            {
+              "kind": "label",
+              "text": "題目："
+            },
+            {
+              "kind": "quote",
+              "text": "“than other designs”"
+            },
+            {
+              "kind": "label",
+              "text": "原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“compared with other, more user-friendly designs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 後半指出 Morse’s telegraph 只需一條 wire，這是它的優勢。但這不會令題目變成FALSE，因為題目問的是 initially seemed，即最初看起來如何。使用難度和硬件優勢是同段中兩個不同層面。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Companies prefer to employ telegraph operators from rural areas.”",
+      "translation": "公司較喜歡聘用來自 rural areas 的 telegraph operators。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷文章有沒有說明 companies 的招聘偏好。控制詞是 “prefer to employ” 和 “from rural areas”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“On international submarine cables, left and right movements of a light beam reflected from a tiny rotating mirror represented dots and dashes.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 international submarine cables 上，從微小旋轉鏡反射出的光束左右移動，用來代表 dots and dashes。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By 1870, women made up a third of the operators in Western Union’s New York office, the largest telegraph office in America.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到 1870 年，女性佔 Western Union 紐約辦公室操作員的三分之一；這是美國最大的 telegraph office。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段會講 operator groups、jobs 和 workplace，所以 Question 12 應看 Paragraph F。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“companies”"
+            },
+            {
+              "kind": "quote",
+              "text": "“prefer”"
+            },
+            {
+              "kind": "quote",
+              "text": "“operators”"
+            },
+            {
+              "kind": "quote",
+              "text": "“rural areas”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有 companies 或 prefer。最接近 rural areas 的句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“At the bottom were slow, inexperienced rural operators, many of whom worked the wires part-time.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "位於底層的是速度慢、經驗不足的 rural operators，其中許多人兼職操作電報線。"
+            },
+            {
+              "kind": "label",
+              "text": "接著："
+            },
+            {
+              "kind": "quote",
+              "text": "“As their Morse code improved, however, they found that their new skill was a passport to better-paid city work.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，隨著他們的 Morse code 技能提升，他們發現這項新技能是通往更高薪城市工作的通行證。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的資訊是： rural operators 通常速度慢、經驗不足，位於 hierarchy 底層。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "他們技能提高後，可以轉向薪酬較高的城市工作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "段落也提到 first-class operators secured the best-paid jobs in large cities。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目要求的資訊是： companies prefer to employ operators from rural areas。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有說公司偏好來自農村地區的人，也沒有說公司不喜歡聘用他們。它只描述 rural operators 在技能階梯中的位置，以及技能提高後可以得到 better-paid city work。"
+            },
+            {
+              "kind": "label",
+              "text": "判斷：原文有："
+            },
+            {
+              "kind": "quote",
+              "text": "“rural operators”"
+            },
+            {
+              "kind": "quote",
+              "text": "“better-paid city work”"
+            },
+            {
+              "kind": "quote",
+              "text": "“best-paid jobs”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文缺少： companies 的 hiring preference prefer to employ from rural areas農村出身是否成為聘用優勢所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題很容易被 “rural operators” 吸引。可是 rural operators 的出現只證明文章談過這類人，不代表文章談過公司招聘偏好。TRUE / FALSE / NOT GIVEN 題要比較整個命題，不可只靠一個名詞重現。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "“Morse died from overwork.”",
+      "translation": "Morse 因工作過度而去世。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題問死亡原因。要找 death / died / overwork / cause 相關證據。若文章只提到死亡年份，沒有提到死因，就是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph G第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In a dramatic ceremony in 1871, Morse himself bade farewell to the global community of telegraphers he had brought into being.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在 1871 年一場戲劇化儀式中，Morse 本人向他所創造出來的全球 telegraphers 社群告別。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Just as the Internet is often called an ‘information superhighway’ today, the telegraph was described in its time as an ‘instantaneous highway of thought’.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "正如今天 Internet 常被稱為 “information superhighway”，telegraph 在當時被形容為"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“instantaneous highway of thought”。 Paragraph G 有 Morse 的 farewell 和 death，所以是檢查死因的合理段落。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞：“died”"
+            },
+            {
+              "kind": "quote",
+              "text": "“overwork”"
+            },
+            {
+              "kind": "label",
+              "text": "掃描 Paragraph G，找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“By his death in 1872…”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但全文沒有 “overwork”、“exhaustion”、“illness”、“worked too hard” 等死因詞。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By his death in 1872, the world was well and truly wired: more than 650,000 miles of telegraph line and 30,000 miles of submarine cable were throbbing with Morse code, and 20,000 towns and villages were connected to the global network.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "到他 1872 年去世時，世界已真正被電報線連起來：超過 650,000 英里的 telegraph line 和30,000 英里的 submarine cable 都跳動著 Morse code，20,000 個城鎮和村莊連接到全球網絡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句只使用 “his death in 1872” 作時間標記，用來說明到他去世時 telegraph network 已有多大規模。它沒有提供死亡原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “died from overwork”，需要文章明確支援：工作過度疲勞健康惡化死因與工作量有關文章全部沒有提供。Paragraph B 有 “single-mindedness” 和十二年努力爭取資金；Paragraph G有 farewell ceremony 和 death year。這些都不能推成 overwork 死因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文有死亡時間。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文沒有死亡原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目加入 overwork 這項文章未交代的資料。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph B 提到 Morse 很有毅力，Paragraph G 又寫他的告別儀式和去世年份，學生可能把「工作投入」聯想到「過勞」。這是現實推測，不能代替文章證據。題目問死因時，必須有明確cause-of-death 資訊。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Morse Code.pdf",
+    "sha256": "00e321b95ac7799fcb8d9f8ae9f839bd48018940b4c738c6217c75562bb0a46f",
+    "pageCount": 27
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Part 1 — Skim Roadmap：全文段落地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "只看首句，這段用一段帶詩意的 Morse code 訊息開場，看似是船難求救，實際上是告別 Morse code。只看末句，段落說 GMDSS 轉換限期被視為一個時代的結束。因此 Paragraph A 主要講Morse code 在海上求救用途中的退場，以及由衛星系統取代的歷史轉折。Heading x “The beginning of the end” 最能概括全段。"
+      },
+      {
+        "number": "B",
+        "summary": "首句說 Morse code 有一段 distinguished history，顯示這段開始回顧其起源。末句說 Morse 被記住為 “the father of the telegraph”，原因包括堅持和技術因素。由首尾句可估計，Paragraph B 會講 Samuel Morse 如何受到 electrical theory 啟發，並發展 electric telegraph。這段重點是 Morse的發明如何誕生和成形，因此 Heading iii “Morse’s invention was developed” 最貼近。"
+      },
+      {
+        "number": "C",
+        "summary": "首句比較 Morse 的設計和其他 electric-telegraph designs，說他的硬件非常簡單。末句說 Morse和 Alfred Vail 後來設計了 Morse alphabet，可以用 dots and dashes 一個字母一個字母拼出訊息。由首尾句可見，Paragraph C 的核心不是硬件優勢本身，重點逐步轉向 code 的設計：由數字代表字典詞組，發展到字母代碼。因此 Heading xi 最適合。"
+      },
+      {
+        "number": "D",
+        "summary": "首句說起初學習這套複雜 code 的需要，令 Morse’s telegraph 看似比其他設計困難。末句說後來發現有些人對 Morse code 有自然才能。中間重點比較 Cooke and Wheatstone 的 needle telegraph 和 Morse’s telegraph：前者人人較易用，但需要五條 wire；Morse 只需要一條 wire。因此整段真正強調 Morse invention 的實用優勢，Heading i 最合適。"
+      },
+      {
+        "number": "E",
+        "summary": "首句說 1850 年代初 electric telegraphy 發展起來後，Morse telegraph 很快佔主導地位。末句說Morse code 被修訂以容納 accents 和 foreign characters，形成 American Morse 和 International Morse 的分裂。由首尾句可見，Paragraph E 主題是標準化和變體：1851 年成為 European standard，英國短期保留 needle telegraphs，之後出現版本差異。Heading vi 最準確。"
+      },
+      {
+        "number": "F",
+        "summary": "首句說在 international submarine cables 上，反射自小鏡子的光束左右移動代表 dots and dashes。末句說到 1870 年，女性佔 Western Union 紐約辦公室操作員三分之一。首尾句看似由技術到女性就業，但中間重心是 telegraphic subculture、操作員等級、城市高薪工作、農村操作員晉升和中產階級擴張。因此 Heading v “The emergence of many job opportunities” 覆蓋全段。"
+      },
+      {
+        "number": "G",
+        "summary": "首句說 1871 年 Morse 本人以戲劇化儀式向全球 telegraphers 社群告別。末句把 telegraph 比作當時的 “instantaneous highway of thought”。中間列出他去世前全球網絡的規模：650,000 miles of telegraph line、30,000 miles of submarine cable、20,000 towns and villages connected。這段重點是 Morse code 和 telegraph network 的國際擴張，Heading ix 最合適。"
+      },
+      {
+        "number": "H",
+        "summary": "首句說到 1890s，Morse telegraph 作為尖端技術的黃金期因 telephone 和 automatic telegraphs出現而結束。末句說到 1910 年，Morse radio equipment 已在船上十分常見。這段先講舊telegraph 地位下降，再講 Morse code 透過 wireless / radiotelegraphy 得到新生命。重點是Morse code 被應用到新技術，尤其海上無線通訊。因此 Heading vii 最合適。"
+      }
+    ]
+  }
+}

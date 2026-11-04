@@ -1,0 +1,1059 @@
+{
+  "id": "p2-156-aqua-product-new-zealand-s-algae-biodiesel",
+  "catalogueId": "p2-156",
+  "catalogueIds": [
+    "p2-156"
+  ],
+  "passage": 2,
+  "title": "Aqua Product: New zealand ‘s Algae Biodiesel",
+  "eyebrow": "IELTS Reading · Passage 2",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 14,
+  "answerKey": [
+    "D",
+    "E",
+    "C",
+    "G",
+    "F",
+    "fuel",
+    "power",
+    "waste streams",
+    "main contaminant",
+    "harvesting technology",
+    "Government B5 target",
+    "increase capacity",
+    "photosynthesis"
+  ],
+  "questions": [
+    {
+      "number": 14,
+      "answer": "D",
+      "answerKey": "D",
+      "type": "Matching Information",
+      "prompt": "“Vehicles using biodiesel do not need to be modified.”",
+      "translation": "使用 biodiesel 的車輛不需要改裝。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。第一句已經提到 biodiesel 和 conventional mineral diesel 混合"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後可讓車輛運行；最後一句提到 biodiesel 已在 Massey University 成功完成 static engine test。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，這段明顯和車輛使用、引擎測試、實際可行性有關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “vehicles”、 “biodiesel”、 “modified”。掃描 Paragraph D，直接找到："
+            },
+            {
+              "kind": "quote",
+              "text": "“Blended with conventional mineral diesel, biodiesel can run vehicles without the need for vehicle modifications.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "biodiesel 與傳統礦物柴油混合後，可以讓車輛運行，無需進行車輛改裝。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “do not need to be modified” 對應原文的 “without the need for vehicle modifications”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“vehicles using biodiesel” 對應原文 “biodiesel can run vehicles”。這題是原文直接改寫，答案是 D。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph A 有試駕 Land Rover，容易令人先想到 A；但 A 只描述試駕事件，沒有說是否需要改裝。真正回答 “do not need to be modified” 的句子在 Paragraph D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "answer": "E",
+      "answerKey": "E",
+      "type": "Matching Information",
+      "prompt": "“Some algae are regarded as edible plants.”",
+      "translation": "某些 algae 被視為可食用植物。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph E。第一句說 algae 被人類用作 fertilisers、soil conditioners 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "livestock feed；最後一句說 algae 的天然色素可替代化學染料。首尾句顯示，這段在講 algae 的一般用途，不限於燃料。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “edible plants”。原文未必直接用 edible，因此要找 food、consumes、vegetable"
+            },
+            {
+              "kind": "label",
+              "text": "這類同義訊號。Paragraph E 中有："
+            },
+            {
+              "kind": "quote",
+              "text": "“Naturally growing seaweeds are an important source of food, especially in Asia.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "自然生長的海藻是重要食物來源，尤其在亞洲。"
+            },
+            {
+              "kind": "label",
+              "text": "更直接的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“China consumes more than 70 species, including fat choy, a cyanobacterium considered a vegetable.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "中國食用超過 70 種 algae，包括髮菜；髮菜是一種被視為蔬菜的 cyanobacterium。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “regarded as edible plants”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說 “considered a vegetable” 和 “source of food”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“edible plants” 可對應 “vegetable” 和 “food”。所以答案是 E。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題的核心不在 biodiesel。看到 algae，學生可能一直留在 C、D、F、G 找燃料資料；但 “edible plants” 是食物用途，Paragraph E 最集中。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "answer": "C",
+      "answerKey": "C",
+      "type": "Matching Information",
+      "prompt": "“Algae could form part of a sustainable, recycled resource.”",
+      "translation": "algae 可成為一種可持續、循環再用資源的一部分。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。第一句說 algae biodiesel 可成為 New Zealand 的 sustainable、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "low-cost、cleaner-burning fuel alternative。最後一句說 dairy farmers 和 many food processors也可透過 harvesting technology 處理 nutrient-rich waste streams。首尾句已顯示，這段同時有sustainability 和 waste streams，正好對應 recycled resource。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “sustainable”、 “recycled resource”。原文沒有直接說 recycled，但有 waste"
+            },
+            {
+              "kind": "paragraph",
+              "text": "streams、renewable resource、bio-remediation 這組概念："
+            },
+            {
+              "kind": "quote",
+              "text": "“Algae are also readily available and produced in huge volumes in nutrient-rich waste streams…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "algae 也很容易取得，並在富含營養的廢物流中大量產生。"
+            },
+            {
+              "kind": "quote",
+              "text": "“This is a renewable indigenous resource ideally suited to the production of fuel and other useful by-products.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是一種本地可再生資源，非常適合用來生產燃料和其他有用副產品。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “sustainable” 對應原文第一句 “sustainable”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“recycled resource” 對應原文把 waste streams 中的 algae 提取出來，轉化為 fuel feedstock 和useful by-products。原文還說 Aquaflow removes the main contaminant and helps clean up water discharge，這正是把廢物流中的污染物變成資源。所以答案是 C。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph G 也有 sustainable net energy gain，很吸引人；但 G 的焦點是與其他 biofuels 比較。 Question 16 有 “recycled resource” 的意思，需要 waste streams、contaminant、bio-remediation這些線索，集中在 Paragraph C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "answer": "G",
+      "answerKey": "G",
+      "type": "Matching Information",
+      "prompt": "“Algae biodiesel has many advantages over other biofuels.”",
+      "translation": "algae biodiesel 相比其他 biofuels 有很多優點。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph G。第一句一開始就是 “Unlike some biofuels”，直接比較"
+            },
+            {
+              "kind": "paragraph",
+              "text": "algae-based biodiesel 和其他 biofuels。最後一句說 algae biodiesel 捕捉免費太陽能，產生sustainable net energy gain。首尾句顯示，這段正是優勢比較段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “advantages over other biofuels”。原文直接用比較開頭："
+            },
+            {
+              "kind": "quote",
+              "text": "“Unlike some biofuels, which require specially grown crops that compete with food production for land and consume other scarce resources such as fuel, chemicals and fertiliser, algae-based biodiesel uses a source that is already widely available.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "有些 biofuels 需要特別種植作物，會和食物生產爭奪土地，也會消耗燃料、化學品和肥料等稀缺資源；algae-based biodiesel 不同，它使用的是已經廣泛存在的來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句列出其他 biofuels 的問題： require specially grown crops compete with food production for land consume scarce resources algae-based biodiesel 則 uses a source that is already widely available。"
+            },
+            {
+              "kind": "label",
+              "text": "後一句再補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“The process produces a sustainable net energy gain by capturing free solar energy.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個過程透過捕捉免費太陽能，產生可持續的淨能源收益。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把這些細節概括為 “many advantages over other biofuels”，答案是 G。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "answer": "F",
+      "answerKey": "F",
+      "type": "Matching Information",
+      "prompt": "“Excessive algae growth can also threaten the environment.”",
+      "translation": "algae 過量生長也可能威脅環境。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。第一句講 algae 透過 photosynthesis 儲存能量；最後一句說"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“that’s where Aquaflow comes in”，暗示 Aquaflow 的技術可處理某個 algae 相關問題。只看首尾句，這段會由 algae 的自然特性轉向技術處理。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “excessive algae growth”、 “threaten the environment”。原文沒有 threaten，但有"
+            },
+            {
+              "kind": "quote",
+              "text": "“too many algae”、 “taint the water”、 “make it smell”：“Although algae are good at taking most of the nutrients out of sewage, too many algae can taint the water and make it smell.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然 algae 善於吸收污水中的大部分營養物，但 algae 太多會污染水質，並令水發出臭味。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “Excessive algae growth” 對應原文 “too many algae”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“threaten the environment” 對應 “taint the water and make it smell”。下一句說 councils have to clean up the excess algae，也證明這是需要處理的環境問題。所以答案是 F。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph C 說 algae 可幫助 clean up water discharge，聽起來和環境有關；但 Question 18 問的是 algae 過多造成問題。這個負面角度在 Paragraph F。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "answer": "fuel",
+      "answerKey": "fuel",
+      "type": "Summary Completion",
+      "prompt": "“Algae-based biodiesel could become a substitute for 19 ______ in New Zealand.”",
+      "translation": "algae-based biodiesel 在 New Zealand 可成為 ______ 的替代品。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。第一句直接說 algae biodiesel 可成為 New Zealand 的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "sustainable、low-cost、cleaner-burning fuel alternative。這句和題目的 “substitute for” 高度相關。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “substitute”、 “New Zealand”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Biodiesel based on algae could eventually become a sustainable, low-cost, cleaner-burning fuel alternative for New Zealand…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以 algae 為基礎的 biodiesel 最終可成為 New Zealand 一種可持續、低成本、燃燒較清潔的替代燃料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目的 “substitute for” 對應原文 “alternative”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “substitute for”，後面需要名詞。原文答案詞是 “fuel”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“fuel alternative” 意思是替代燃料；題目把它改寫成 “a substitute for fuel”。所以答案是 fuel。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “fuel alternative”，因為題目已經有 “substitute for”，填入後會變成 “a substitute for fuel alternative”，文法和意思都不順。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "answer": "power",
+      "answerKey": "power",
+      "type": "Summary Completion",
+      "prompt": "“It could be used to 20 ______ vehicles such as cars and boats.”",
+      "translation": "它可以用來 ______ 汽車和船等交通工具。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "仍在 Paragraph C。第一句已經說 biodiesel 是 fuel alternative；下一部分自然會說這種燃"
+            },
+            {
+              "kind": "paragraph",
+              "text": "料能做甚麼。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “vehicles”、 “cars”、 “boats”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Biodiesel based on algae could eventually become a sustainable, low-cost, cleaner-burning fuel alternative for New Zealand, powering family cars, trucks, buses and boats.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "以 algae 為基礎的 biodiesel 最終可成為 New Zealand 一種可持續、低成本、燃燒較清潔的替代燃料，為家庭汽車、貨車、巴士和船隻提供動力。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “used to ______ vehicles” 需要動詞原形。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 “powering family cars, trucks, buses and boats” 表示為這些車船提供動力。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把現在分詞 “powering” 改成不定式結構 “used to power”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 power。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文中出現的是 “powering”，題目句型需要 “to + verb”。這類題有時會按題目文法使用詞形。意思上，控制答案的是 “provide power to vehicles”。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "answer": "waste streams",
+      "answerKey": "waste streams",
+      "type": "Summary Completion",
+      "prompt": "“Algae can be obtained from 21 ______ containing nutrients.”",
+      "translation": "algae 可從含有營養物的 ______ 中取得。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。這段中段開始講 algae 的來源，尤其是 nutrient-rich waste"
+            },
+            {
+              "kind": "paragraph",
+              "text": "streams。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “containing nutrients”。原文不是用 containing，而是用 “nutrient-rich”："
+            },
+            {
+              "kind": "quote",
+              "text": "“Algae are also readily available and produced in huge volumes in nutrient-rich waste streams…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "algae 也很容易取得，並在富含營養的廢物流中大量產生。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “containing nutrients” 對應原文 “nutrient-rich”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “from”，後面需要來源名詞。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文 “waste streams” 是答案，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 waste streams。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "answer": "main contaminant",
+      "answerKey": "main contaminant",
+      "type": "Summary Completion",
+      "prompt": "“With the technological breakthrough, algae are extracted and the 22 ______ is removed from settling ponds.”",
+      "translation": "有了這項技術突破後，algae 被提取出來，______ 也從沉澱池中被移除。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph C。後半段講 Aquaflow 和 Marlborough District Council 合作，從"
+            },
+            {
+              "kind": "paragraph",
+              "text": "EMS settling ponds 提取 algae，並幫助清理 water discharge。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “technological breakthrough”、 “extracted”、 “removed”、 “settling ponds”。原文"
+            },
+            {
+              "kind": "label",
+              "text": "關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The breakthrough comes after technology start-up Aquaflow agreed to undertake a pilot with Marlborough District Council late last year to extract algae from the settling ponds of its EMS based in Blenheim.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這項突破出現之前，科技初創公司 Aquaflow 去年年底同意和 Marlborough District Council 進行試點，從 Blenheim 的 EMS 沉澱池中提取 algae。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“By removing the main contaminant to use as a fuel feedstock, Aquaflow is also helping clean up the council’s water discharge…”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Aquaflow 移除主要污染物，並將其用作燃料原料，同時也幫助清理市議會的排水。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “the ______ is removed” 對應原文 “removing the main contaminant”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前有 “the”，答案可直接填 “main contaminant”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制 NO MORE THAN TWO WORDS，正好兩個字。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 main contaminant。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這裡的 “main contaminant” 在語境中指 algae。題目沒有問 contaminant 是甚麼，只要從原文摘出被 removed 的名詞短語即可。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "answer": "harvesting technology",
+      "answerKey": "harvesting technology",
+      "type": "Summary Completion",
+      "prompt": "“Dairy farmers and many food processors can adopt the 23 ______.”",
+      "translation": "dairy farmers 和 many food processors 可以採用這項 ______。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落仍是 Paragraph C。最後一句直接提到 dairy farmers 和 many food processors，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因此這題定位非常清楚。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “Dairy farmers”、 “food processors”、 “adopt”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Dairy farmers and many food processors can benefit in similar ways by applying the harvesting technology to their nutrient-rich waste streams.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "奶農和許多食品加工商也可以用類似方式受益：把這項收集技術應用到自己富含營養的廢物流中。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “can adopt” 對應原文 “can benefit ... by applying”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "空格前是 “the”，後面需要名詞短語。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文答案是 “harvesting technology”，符合 NO MORE THAN TWO WORDS。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 harvesting technology。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “nutrient-rich waste streams”。那是技術被應用到的對象；題目問的是他們可採用甚麼，答案是 harvesting technology。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "answer": "Government B5 target",
+      "answerKey": "Government B5 target",
+      "type": "Short-answer Questions",
+      "prompt": "“What government environmental target can vehicles using biodiesel help to meet?”",
+      "translation": "使用 biodiesel 的車輛可幫助達成哪一個政府環境目標？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。第一句說 biodiesel 可讓車輛運行而無需改裝；段落中間接著談"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Government target。這段專門處理實際使用和政策目標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “government”、 “target”、 “vehicles using biodiesel”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Fuel derived from algae can also help meet the Government B5 (5% blended) target, with the prospect of this proportion increasing over time as biofuel production increases.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "由 algae 製成的燃料也可幫助達成政府 B5（混合 5%）目標；隨著 biofuel 產量增加，這個比例日後也有機會提高。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “What government environmental target”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文答案短語是 “the Government B5 (5% blended) target”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "NO MORE THAN THREE WORDS，所以可填 “Government B5 target”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 Government B5 target。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果答案紙要求更短，B5 target 也能表達核心目標；但最貼近原文的三字答案是 Government B5 target。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "answer": "increase capacity",
+      "answerKey": "increase capacity",
+      "type": "Short-answer Questions",
+      "prompt": "“What does Aquaflow plan to do during the coming year?”",
+      "translation": "Aquaflow 計劃在未來一年做甚麼？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph D。這段先講 vehicle modifications 和 Government B5 target，後面"
+            },
+            {
+              "kind": "paragraph",
+              "text": "引用 Barrie Leay 說 “Our next step”。這是計劃題常見定位訊號。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 “plan”、 “coming year”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Our next step is to increase capacity to produce one million litres of biodiesel from the Marlborough sewerage ponds over the next year,’ says Leay.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Leay 說：「我們下一步是在未來一年提高產能，從 Marlborough 污水池生產一百萬公升 biodiesel。」"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目 “What does Aquaflow plan to do” 對應原文 “Our next step is to”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“during the coming year” 對應 “over the next year”。答案需要不超過三個字。句子的核心動作是 “increase capacity”。所以答案是 increase capacity。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "“to produce one million litres...” 是 increase capacity 的目的和具體目標，但超過三字限制。題目問做甚麼，最精準短答案是 increase capacity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "answer": "photosynthesis",
+      "answerKey": "photosynthesis",
+      "type": "Short-answer Questions",
+      "prompt": "“Through what process do algae obtain and store energy?”",
+      "translation": "algae 透過甚麼過程取得並儲存能量？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph F。第一句直接介紹 algae 的生物特性，以及它們如何把 sunlight 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "carbon dioxide 轉化為 stored energy。這題幾乎可由第一句定位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 “process”、 “store energy”。原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Algae are the simplest plant organisms that convert sunlight and carbon dioxide in the air around us into stored energy through the well-understood process of photosynthesis.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "algae 是最簡單的植物生物；它們透過眾所周知的 photosynthesis 過程，把我們周圍空氣中的sunlight 和 carbon dioxide 轉化為 stored energy。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 “Through what process”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接說 “through the well-understood process of photosynthesis”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以答案是 photosynthesis。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “sunlight” 或 “carbon dioxide”。它們是被轉化的來源物質；題目問的是 process，答案只能是 photosynthesis。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 2 - Aqua Product_ New zealand ‘s Algae Biodiesel.pdf",
+    "sha256": "a4aa66549b39e9fd60041927128962538f5439e8a527f33c52baa8bc895011db",
+    "pageCount": 12
+  },
+  "version": "2026-08-20.1",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：先看每段首尾句段 Rough roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "A 首句直接宣布 New Zealand 的 Aquaflow 成功試駕世界首款 wild algae biodiesel，並由能源及氣候變化部長參與。末句補充 Aquaflow 早在 2006 年 5 月已宣布從 local sewage ponds 的 wild microalgae 製成 biodiesel。只看首尾句可見，本段功能是交代新聞事件、試駕場面、參與人物，以及這項燃料的來源和突破性。 B 首句用引號指出 Aquaflow 相信自己是世界上第一間試駕 wild algae-based biodiesel 汽車的公司。末句說這是 New Zealand 的巨大機會，也歸功於看見技術潛力的團隊。首尾句顯示，本段重點是公司對突破的評價：這項成果比國際業界預期更早出現，也帶有國家機會和團隊創新意味。 C 首句說 algae biodiesel 有望成為 New Zealand 可持續、低成本、燃燒較清潔的燃料替代方案。末句說 dairy farmers 和 food processors 也可用同類 harvesting technology 處理nutrient-rich waste streams。首尾句顯示，本段功能是講實際用途、全球需求、廢物流中的藻類來源、bio-remediation，以及把污染物變成燃料原料的循環價值。 D 首句說 biodiesel 和 conventional mineral diesel 混合後，可讓車輛運行，無需改裝。末句說試駕用的 biodiesel 已在 Massey University 的靜態引擎測試中成功測試。首尾句顯示，本段集中在實用層面：車輛兼容、政府 B5 target、未來一年產能計劃、投資者興趣，以及正式試駕前的技術測試。 E 首句說今天人類已用 algae 作 fertilisers、soil conditioners 和 livestock feed。末句說algae 的天然色素可替代 chemical dyes and colouring agents。首尾句顯示，本段離開biodiesel，轉為介紹 algae 的廣泛用途：污水處理、水產養殖、亞洲食物、維他命、營養補充品、可食用 cyanobacteria 和天然染色功能。Question 15 很可能在此。 F 首句解釋 algae 是最簡單的植物生物，能透過 photosynthesis 把 sunlight 和 carbon dioxide 轉化為 stored energy。末句說這正是 Aquaflow 發揮作用的地方。首尾句顯示，本段重點是 algae 的生物特性、lipids 和 combustible elements 的提取技術，同時說明過量algae 會污染水質和產生氣味，因此需要處理和再利用。 G 首句比較 algae-based biodiesel 和部分其他 biofuels：其他燃料可能要特別種植作物，和食物生產爭地，又消耗燃料、化學品和肥料。末句說這個過程透過捕捉免費太陽能，產生sustainable net energy gain。首尾句顯示，本段功能是總結 algae biodiesel 的優勢，特別是土地、資源和能源效率。Question 17 很可能在此。",
+        "label": "落"
+      }
+    ]
+  }
+}

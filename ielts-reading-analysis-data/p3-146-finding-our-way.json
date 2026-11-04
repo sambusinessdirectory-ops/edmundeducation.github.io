@@ -1,0 +1,1966 @@
+{
+  "id": "p3-146-finding-our-way",
+  "catalogueId": "p3-146",
+  "catalogueIds": [
+    "p3-146"
+  ],
+  "passage": 3,
+  "title": "Finding our way",
+  "eyebrow": "IELTS Reading · Passage 3",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "questionNumberStart": 28,
+  "answerKey": [
+    "B",
+    "C",
+    "A",
+    "C",
+    "B",
+    "C",
+    "D",
+    "A",
+    "TRUE",
+    "FALSE",
+    "TRUE",
+    "FALSE",
+    "FALSE"
+  ],
+  "questions": [
+    {
+      "number": 28,
+      "answer": "B — Path integration",
+      "answerKey": "B — Path integration",
+      "type": "Matching Navigation",
+      "prompt": "Uses a general direction from the starting point and the polarisation of sunlight to navigate",
+      "translation": "利用從起點出發的大致方向，以及 sunlight 的 polarization 來導航。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another city dweller might say: ‘What places do you remember passing? … Okay. Go toward the end of Central Park, then walk down to St. Patrick’s Cathedral. A few more blocks, and Grand Central will be off to your left.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一位城市居民可能會說：「你記得經過哪些地方？……好。先走向 Central Park 的盡頭，然後往St. Patrick’s Cathedral 方向走。再走幾個 blocks，Grand Central 就會在你左邊。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only then does the ant realize it has not succeeded, and it begins to walk in successively larger loops to find its way home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到那時，那隻螞蟻才意識到自己沒有成功，於是開始以越來越大的環形路線尋找回家的路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph D 會說一種「靠已走過路徑回推」的方法。首句是人類在城市中回想經過地點；尾句是螞蟻按原先方向走完距離後，才改用搜索路線。這段很可能就是 path integration。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“general direction”"
+            },
+            {
+              "kind": "quote",
+              "text": "“starting point”"
+            },
+            {
+              "kind": "quote",
+              "text": "“polarisation of sunlight”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“They note the general direction they came from”"
+            },
+            {
+              "kind": "quote",
+              "text": "“using the polarization of sunlight”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Researchers call this strategy ‘path integration.’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“polarization of sunlight” 是非常強的定位詞，幾乎直接把我們帶到 Paragraph D 中關於 desert ants 的句子。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Researchers call this strategy ‘path integration.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "研究人員把這種策略稱為 “path integration”。"
+            },
+            {
+              "kind": "label",
+              "text": "前後證據："
+            },
+            {
+              "kind": "quote",
+              "text": "“The desert ants of the genus Cataglyphis employ this method to return from foraging as far as 100 yards away. They note the general direction they came from and retrace their steps, using the polarization of sunlight to orient themselves even under overcast skies.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Cataglyphis 屬的 desert ants 使用這種方法，從遠至 100 yards 的覓食地返回。牠們記住自己來時的大致方向，並沿路折返；即使在陰天，牠們也利用 sunlight 的 polarization 來定位自己。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Uses a general direction from the starting point” 對應 “note the general direction they came from”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “polarisation of sunlight” 對應原文 “polarization of sunlight”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文直接把這種方法命名為 “path integration”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 28 答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "answer": "C — Route following",
+      "answerKey": "C — Route following",
+      "type": "Matching Navigation",
+      "prompt": "Uses a combination of landmarks and directions to reach the destination",
+      "translation": "使用 landmarks 和 directions 的組合到達目的地。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to guidance and path integration, we use a third method for finding our way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了 guidance 和 path integration，我們還會使用第三種找路方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, people often choose to give route-following directions, in part because saying‘Go straight that way!’ just does not work in our complex, man-made surroundings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們經常選擇提供 route-following directions，部分原因是，在複雜的人造環境中，只說「一直往那邊走！」並不可行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph F 明顯介紹第三種方法，而且最後一句直接出現 “route-following directions”。題目說 landmarks + directions，正好符合這段對 route following 的定義。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“combination”"
+            },
+            {
+              "kind": "quote",
+              "text": "“landmarks”"
+            },
+            {
+              "kind": "quote",
+              "text": "“directions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reach the destination”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“uses landmarks such as buildings and street names, plus directions—straight, turn, go through—for reaching intermediate points.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“landmarks” 和 “directions” 都原字重現，所以定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“This strategy, called route following, uses landmarks such as buildings and street names, plus directions—straight, turn, go through—for reaching intermediate points.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "這種策略稱為 route following，它使用 buildings 和 street names 這類 landmarks，加上 straight、turn、go through 等 directions，來到達中途點。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “a combination of landmarks and directions”。原文的 “landmarks … plus directions” 就是完全對應。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "雖然原文說 reaching intermediate points，整段例子是最終到達 Grand Central，所以這些intermediate points 是通往目的地的步驟。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 29 答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "answer": "A — Guidance",
+      "answerKey": "A — Guidance",
+      "type": "Matching Navigation",
+      "prompt": "Uses a prominent building near the destination for orientation",
+      "translation": "用目的地附近的一座 prominent building 來定位。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you ask passersby for help, most likely you will receive information in many different forms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你向路人求助，你很可能會得到不同形式的資訊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neurologists call this navigational approach ‘guidance,’ meaning that a landmark visible from a distance serves as the marker for one’s destination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "神經學家把這種導航方法稱為 “guidance”，意思是遠處可見的 landmark 會成為某人目的地的marker。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 直接定義 guidance。題目提到 prominent building near the destination，和本段 MetLife Building 例子高度吻合。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“prominent building”"
+            },
+            {
+              "kind": "quote",
+              "text": "“near the destination”"
+            },
+            {
+              "kind": "quote",
+              "text": "“orientation”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“See the tall, broad MetLife Building?”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Head for that—the station is right below it.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“a landmark visible from a distance”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“tall, broad MetLife Building” 就是 prominent building；“the station is right below it” 表示它靠近目的地。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“A person who orients herself by a prominent landmark would gesture southward: ‘Look down there. See the tall, broad MetLife Building? Head for that—the station is right below it.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "一個靠 prominent landmark 定位的人會向南方示意：「看那邊。看到那座高而寬的 MetLife Building 嗎？朝那裡走，車站就在它下面。」再看定義句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neurologists call this navigational approach ‘guidance,’ meaning that a landmark visible from a distance serves as the marker for one’s destination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "神經學家把這種導航方法稱為 guidance，意思是遠處可見的 landmark 會作為目的地的標記。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把 “tall, broad MetLife Building” 概括成 “a prominent building”，把 “serves as the marker” 改寫成 “for orientation”。方法名稱是 guidance。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 30 答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "answer": "C — Route following",
+      "answerKey": "C — Route following",
+      "type": "Matching Navigation",
+      "prompt": "Requires retracing the route to a known place after a wrong turn",
+      "translation": "轉錯路後，需要沿路折返到熟悉地點。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to guidance and path integration, we use a third method for finding our way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了 guidance 和 path integration，我們還會使用第三種找路方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, people often choose to give route-following directions, in part because saying‘Go straight that way!’ just does not work in our complex, man-made surroundings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們常常選擇給 route-following directions，部分原因是在複雜的人造環境中，只說「一直往那邊走！」並不可行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示這段是 route following 的集中段。題目說 wrong turn 和 retracing，這也在 Paragraph F 中部直接出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“wrong turn”"
+            },
+            {
+              "kind": "quote",
+              "text": "“retracing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“known place”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“if you forget the details and take a wrong turn”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the only way to recover is to backtrack until you reach a familiar spot”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“backtrack” 就是 retrace 的近義表達；“familiar spot” 對應 known place。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Route following is more precise than guidance or path integration, but if you forget the details and take a wrong turn, the only way to recover is to backtrack until you reach a familiar spot, because you do not know the general direction or have a reference landmark for your goal.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Route following 比 guidance 或 path integration 更精準；可是如果你忘記細節並轉錯路，唯一恢復的方法就是 backtrack，直到回到一個熟悉地點，因為你不知道大致方向，也沒有可作目標參照的 landmark。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “Requires retracing the route” 對應 “the only way to recover is to backtrack”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“known place” 對應 “familiar spot”。這種缺點明確屬於 route following。所以 31 答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "answer": "B — Path integration",
+      "answerKey": "B — Path integration",
+      "type": "Matching Navigation",
+      "prompt": "Uses a previously passed place as a reference point for the next stage",
+      "translation": "用之前經過的地點作下一階段的參考點。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another city dweller might say: ‘What places do you remember passing? … Okay. Go toward the end of Central Park, then walk down to St. Patrick’s Cathedral. A few more blocks, and Grand Central will be off to your left.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一位城市居民可能會說：「你記得經過哪些地方？……好。先走向 Central Park 的盡頭，再往St. Patrick’s Cathedral 走。再走幾個 blocks，Grand Central 就會在你左邊。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only then does the ant realize it has not succeeded, and it begins to walk in successively larger loops to find its way home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到那時，那隻螞蟻才發現自己沒有成功，於是開始以越來越大的環形路線尋找回家的路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph D 首句已經顯示「回想曾經經過的地方」是核心。題目說 previously passed place and next stage，正好對應段落前半。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“previously passed place”"
+            },
+            {
+              "kind": "quote",
+              "text": "“reference point”"
+            },
+            {
+              "kind": "quote",
+              "text": "“next stage”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“What places do you remember passing?”"
+            },
+            {
+              "kind": "quote",
+              "text": "“you are pointed toward the most recent place you recall”"
+            },
+            {
+              "kind": "quote",
+              "text": "“Once there you head for the next notable place”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這組詞全部指向 Paragraph D 中 route retracing 的描述。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this case, you are pointed toward the most recent place you recall, and you aim for it. Once there you head for the next notable place and so on, retracing your path.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這種情況下，你會被指向你記得的最近一個地點，然後朝它前進。到達那裡後，你再前往下一個明顯地點，如此一路沿原路折返。"
+            },
+            {
+              "kind": "label",
+              "text": "下一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Your brain is adding together the individual legs of your trek into a cumulative progress report. Researchers call this strategy ‘path integration.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "你的大腦正在把旅程中的各個路段加總成一份累積進度報告。研究人員稱這種策略為 path integration。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “previously passed place” 對應 “the most recent place you recall”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“next stage” 對應 “Once there you head for the next notable place”。原文直接把這種策略稱為 path integration。所以 32 答案是 B。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "answer": "C — It continues moving in the originally determined direction.",
+      "answerKey": "C — It continues moving in the originally determined direction.",
+      "type": "Multiple Choice",
+      "prompt": "How does a Cataglyphis ant respond if it is moved to another location?",
+      "translation": "如果 Cataglyphis ant 被移到另一個地方，牠會如何反應？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph D第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another city dweller might say: ‘What places do you remember passing? … Okay. Go toward the end of Central Park, then walk down to St. Patrick’s Cathedral. A few more blocks, and Grand Central will be off to your left.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "另一位城市居民可能會問你記得經過哪些地方，然後叫你先走向 Central Park，再走向 St. Patrick’s Cathedral，最後回到 Grand Central 附近。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Only then does the ant realize it has not succeeded, and it begins to walk in successively larger loops to find its way home.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "直到那時，螞蟻才發現自己沒有成功，於是開始以越來越大的環形路線尋找回家的路。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph D 的後半明顯有 ant experiment。題目有 Cataglyphis ant 和 moved to another location，目標段落就是 D 段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Cataglyphis ant”"
+            },
+            {
+              "kind": "quote",
+              "text": "“moved to another location”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“desert ants of the genus Cataglyphis”"
+            },
+            {
+              "kind": "quote",
+              "text": "“when a scientist picks up an ant and puts it in a totally different spot”"
+            },
+            {
+              "kind": "quote",
+              "text": "“the insect stubbornly proceeds in the originally determined direction”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“totally different spot” 是題目 “another location” 的改寫。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Even when a scientist picks up an ant and puts it in a totally different spot, the insect stubbornly proceeds in the originally determined direction until it has gone ‘back’ all of the distance it wandered from its nest.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "即使科學家把一隻螞蟻拿起來，放到一個完全不同的位置，這隻昆蟲仍固執地沿著原本確定的方向前進，直到它走完自己離巢時所走過的全部距離。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 C 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It continues moving in the originally determined direction.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "牠繼續朝原本確定的方向移動。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這幾乎直接複製原文 “proceeds in the originally determined direction”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A It progressively adjusts its orientation sensors.原文沒有說牠會逐步調整 orientation sensors。牠反而先按原本方向走完距離。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B It releases a scent to seek help from other ants.原文沒有 scent，也沒有求助其他 ants。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D It becomes completely lost after being moved.原文說牠先按內在方向走，走完後才開始 loops 搜尋。這不是 immediately completely lost。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 33 答案是 C。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "answer": "D — It is managed by memory in the brain.",
+      "answerKey": "D — It is managed by memory in the brain.",
+      "type": "Multiple Choice",
+      "prompt": "Which of the following statements about a “cognitive map” is true?",
+      "translation": "以下哪個關於 “cognitive map” 的說法正確？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "paragraph",
+              "text": "主要目標段落：Paragraph G輔助段落：Paragraph H Paragraph G 第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Road Map or Metaphor? On your next visit to Manhattan you will rely on your memory to get around.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "Road Map 還是 Metaphor？下次你去 Manhattan 時，你會依靠自己的 memory 到處走。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph G 最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is even possible that maps derive from a universal way in which our spatial-memory networks are wired.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "甚至有可能，地圖源自我們 spatial-memory networks 被連接起來的一種普遍方式。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看 Paragraph G 首尾句，這段集中討論 memory、map metaphor 和 navigation。題目問cognitive map 的真實說法，因此先看 G 段。H 段則用來排除 literal map 的理解。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“cognitive map”"
+            },
+            {
+              "kind": "label",
+              "text": "原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neurobiologists and cognitive psychologists do call the portion of our memory that controls navigation a ‘cognitive map.’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這句同時有 “memory”、“controls navigation” 和 “cognitive map”，是最強答案句。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neurobiologists and cognitive psychologists do call the portion of our memory that controls navigation a ‘cognitive map.’”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "神經生物學家和認知心理學家確實把我們 memory 中控制 navigation 的部分稱為 “cognitive map”。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 D 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It is managed by memory in the brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它由大腦中的記憶管理。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是對 “the portion of our memory that controls navigation” 的合理概括。原文精確說 cognitive map 屬於 memory 中控制導航的部分。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除A There is no obvious difference between it and a real map. Paragraph H 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet the notion of a literal map in our heads may be misleading; a growing body of research implies that the cognitive map is mostly a metaphor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，腦中有一張 literal map 的想法可能具誤導性；越來越多研究顯示 cognitive map 多半是一種 metaphor。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這直接削弱 A。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B It exists in our heads and is always correct.原文沒有 “always correct”。A 段甚至說 GPS 會錯，但人類導航也需要多種方式和學習，沒有保證 always correct。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C It exists only in some cultures.原文說 maps today are used in almost every society，還提出 possible universal spatial-memory networks。C 的 “only in some cultures” 沒有支持。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 34 答案是 D。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "answer": "A — It visualises a general route on a large scale.",
+      "answerKey": "A — It visualises a general route on a large scale.",
+      "type": "Multiple Choice",
+      "prompt": "Which description of wayfinding correctly reflects the function of a cognitive map?",
+      "translation": "哪個 wayfinding 描述正確反映 cognitive map 的功能？",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet the notion of a literal map in our heads may be misleading; a growing body of research implies that the cognitive map is mostly a metaphor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，腦中有一張 literal map 的想法可能具誤導性；越來越多研究顯示 cognitive map 多半是一種 metaphor。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this hierarchical, or nested, scheme, positions and distances are relative, in contrast with a road map, where the same information is shown in a geometrically precise scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這種 hierarchical 或 nested scheme 中，位置和距離是相對的；相比之下，road map 會用幾何上精確的比例展示同樣資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph H 的功能是說明 cognitive map 如何運作：它像分層關係結構，不像精準比例地圖。題目問 function，因此 H 段是目標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“function of a cognitive map”"
+            },
+            {
+              "kind": "quote",
+              "text": "“wayfinding”"
+            },
+            {
+              "kind": "quote",
+              "text": "“large scale”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“To get back to Grand Central, you first envision the large scale—that is, you visualize the general direction of the station.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“large scale” 和 “visualize the general direction” 是選項 A 的直接來源。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“To get back to Grand Central, you first envision the large scale—that is, you visualize the general direction of the station.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "為了回到 Grand Central，你首先會想像較大尺度的情況，也就是想像車站的大致方向。"
+            },
+            {
+              "kind": "label",
+              "text": "選項 A 說："
+            },
+            {
+              "kind": "quote",
+              "text": "“It visualises a general route on a large scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "它在大尺度上視覺化一條大致路線。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文說的是 “general direction”，選項用 “general route” 作概括。雖然 “direction” 比 “route” 更精確，但四個選項中，A 最接近原文的 “envision the large scale / visualize the general direction”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項排除B It reproduces the exact details of every landmark. Paragraph H 說 cognitive map 是 metaphor，而且 positions and distances are relative。這和exact details / every landmark 方向不合。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Observation plays a more important role.原文確實說 “you observe your nearby surroundings”，但沒有比較 observation 是否更重要。它只是分層過程中的一步。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D The map must include a store or supermarket.原文的 “storefront or street corner” 只是例子，沒有說 map 必須包含 store 或 supermarket。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 35 答案是 A。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Biological navigation is flexible.",
+      "translation": "生物導航是靈活的。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph A第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“‘Drive 200 yards, and then turn right,’ says the car’s computer voice.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "label",
+              "text": "車上的電腦聲音說：「開 200 yards，然後右轉。」最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Anyone who knows the way from point A to point B—and from A to C—can probably figure out how to get from B to C, too.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "任何知道 A 到 B、A 到 C 路線的人，大概也能推算如何從 B 到 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首尾句顯示 A 段在比較 GPS 和人類導航能力。尾句尤其說明人類可以推理新路線。題目說biological navigation flexible，明顯應回到 A 段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Biological navigation”"
+            },
+            {
+              "kind": "quote",
+              "text": "“flexible”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“your biological positioning system”"
+            },
+            {
+              "kind": "quote",
+              "text": "“The human positioning system is flexible and capable of learning.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“flexible” 原字重現，因此定位非常直接。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“The human positioning system is flexible and capable of learning.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "人類的定位系統是靈活的，而且有學習能力。"
+            },
+            {
+              "kind": "label",
+              "text": "前文補充："
+            },
+            {
+              "kind": "quote",
+              "text": "“Luckily, your biological positioning system has an important advantage over GPS: it does not go awry if only one part of the guidance system goes wrong, because it works in various ways.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "幸好，你的 biological positioning system 相比 GPS 有一個重要優勢：如果 guidance system 只有某一部分出錯，它不會整體失靈，因為它會以多種方式運作。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “Biological navigation” 對應原文 “biological positioning system / human positioning system”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “is flexible” 對應原文 “is flexible and capable of learning”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 36 答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "You will always receive a helpful answer when you ask for directions.",
+      "translation": "當你問路時，你一定會得到有幫助的回答。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph C第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you ask passersby for help, most likely you will receive information in many different forms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你向路人求助，你很可能會收到很多不同形式的資訊。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Neurologists call this navigational approach ‘guidance,’ meaning that a landmark visible from a distance serves as the marker for one’s destination.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "神經學家稱這種導航方法為 guidance，意思是遠處可見的 landmark 作為目的地 marker。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph C 的開頭談 ask passersby for help，正好對應題目 ask for directions。這題的控制詞是 “always”，需要看原文是否支援「一定」。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“ask for directions”"
+            },
+            {
+              "kind": "quote",
+              "text": "“always”"
+            },
+            {
+              "kind": "quote",
+              "text": "“helpful answer”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“If you ask passersby for help”"
+            },
+            {
+              "kind": "quote",
+              "text": "“most likely”"
+            },
+            {
+              "kind": "quote",
+              "text": "“receive information in many different forms”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“most likely” 是關鍵程度詞，因為它和題目 “always” 不同。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“If you ask passersby for help, most likely you will receive information in many different forms.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "如果你向路人求助，你很可能會收到很多不同形式的資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 “will always receive a helpful answer”。這裡有兩個問題：第一，原文用 “most likely”，意思是「很可能」或「大概會」，程度低於 “always”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "第二，原文說 “information in many different forms”，沒有保證每一個回答都 helpful。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "TRUE / FALSE / NOT GIVEN 題中，always、all、only 這類絕對詞很容易改變命題強度。這題原文已用 “most likely” 限制程度，所以題目的 “always” 太絕對。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 37 答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "When following a route, people collect comprehensive sensory information along the way.",
+      "translation": "人在沿路前進時，會收集全面的感官資訊。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph E第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Whether it is trying to get back to the anthill or the train station, any animal using path integration must keep track of its own movements so it knows, while returning, which segments it has already completed.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "無論是要回到 anthill 還是 train station，任何使用 path integration 的動物都必須追蹤自己的movements，這樣回程時才知道哪些路段已經完成。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“The church spire, the sizzling sausages on that vendor’s grill, the open courtyard, and the train station—all represent snapshots of memorable junctures during your journey.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "教堂尖塔、攤販烤架上滋滋作響的香腸、開闊的庭院和火車站，都代表你旅程中值得記住的junctures snapshots。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph E 在解釋 path integration 中如何追蹤 movement 和 journey snapshots。題目說 collect sensory information along the way，應看 E 段中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“collect”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sensory information”"
+            },
+            {
+              "kind": "quote",
+              "text": "“along the way”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“your brain gathers data from your environment”"
+            },
+            {
+              "kind": "quote",
+              "text": "“sights, sounds, smells, lighting, muscle contractions, a sense of time passing”"
+            },
+            {
+              "kind": "quote",
+              "text": "“As you move”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“collect” 對應 “gathers”；“sensory information” 對應 sights、sounds、smells 等資料。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“As you move, your brain gathers data from your environment—sights, sounds, smells, lighting, muscle contractions, a sense of time passing—to determine which way your body has gone.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "當你移動時，你的大腦會從環境中收集資料，包括 sights、sounds、smells、lighting、muscle contractions，以及時間流逝感，用來判斷你的身體朝哪個方向走過。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “collect comprehensive sensory information” 對應原文的 “gathers data from your environment” 以及後面的長列表。這些資訊包括視覺、聽覺、嗅覺、光線、肌肉感覺和時間感，因此 “comprehensive sensory information” 是合理概括。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這裡要小心：題目中的 “following a route” 比較像普通說法，意思是「在路上移動／沿路前進」。原文證據位於 path integration 段落，不宜把它誤讀成 Paragraph F 的專名 “route following”。就statement 的普通意思來看，它和原文一致。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 38 答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Path integration requires more mental effort than route following.",
+      "translation": "Path integration 比 route following 需要更多 mental effort。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph F第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition to guidance and path integration, we use a third method for finding our way.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "除了 guidance 和 path integration，我們還會使用第三種找路方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Nevertheless, people often choose to give route-following directions, in part because saying‘Go straight that way!’ just does not work in our complex, man-made surroundings.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，人們常常選擇給 route-following directions，部分原因是在複雜的人造環境中，只說「一直往那邊走！」並不可行。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Paragraph F 比較 route following 和 path integration 的記憶負擔。題目直接比較兩種方法，所以目標段落是 F。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“Path integration”"
+            },
+            {
+              "kind": "quote",
+              "text": "“more mental effort”"
+            },
+            {
+              "kind": "quote",
+              "text": "“route following”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“The route-following navigation strategy truly challenges the brain.”"
+            },
+            {
+              "kind": "quote",
+              "text": "“With path integration, our cognitive memory is less burdened.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“challenges the brain” 和 “less burdened” 是判斷方向的關鍵。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句一：“The route-following navigation strategy truly challenges the brain.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "route-following navigation strategy 確實很考驗大腦。"
+            },
+            {
+              "kind": "label",
+              "text": "原文關鍵句二："
+            },
+            {
+              "kind": "quote",
+              "text": "“With path integration, our cognitive memory is less burdened; it has to deal with only a few general instructions and the homing vector.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "使用 path integration 時，我們的 cognitive memory 負擔較小；它只需要處理少數 general instructions 和 homing vector。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目說 path integration requires more mental effort than route following。原文方向相反： route following “truly challenges the brain”； path integration “less burdened”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這是明確 contradiction，所以答案是 FALSE。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 39 答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "In familiar surroundings, an exact map of your location automatically emerges in your mind.",
+      "translation": "在熟悉環境中，你腦中會自動浮現一張精確的位置地圖。",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "先看段落功能"
+            },
+            {
+              "kind": "label",
+              "text": "目標段落：Paragraph H第一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yet the notion of a literal map in our heads may be misleading; a growing body of research implies that the cognitive map is mostly a metaphor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，腦中有一張 literal map 的想法可能具誤導性；越來越多研究顯示 cognitive map 多半是一種 metaphor。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this hierarchical, or nested, scheme, positions and distances are relative, in contrast with a road map, where the same information is shown in a geometrically precise scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這種 hierarchical 或 nested scheme 中，位置和距離是相對的；相比之下，road map 會用幾何上精確的比例展示同樣資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，Paragraph H 直接反駁「腦中有 literal / exact map」的想法。題目說 exact map automatically emerges，和 H 段形成明顯對照。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "用題目詞定位"
+            },
+            {
+              "kind": "label",
+              "text": "題目定位詞："
+            },
+            {
+              "kind": "quote",
+              "text": "“exact map”"
+            },
+            {
+              "kind": "quote",
+              "text": "“automatically emerges”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in your mind”"
+            },
+            {
+              "kind": "label",
+              "text": "原文對應："
+            },
+            {
+              "kind": "quote",
+              "text": "“literal map in our heads may be misleading”"
+            },
+            {
+              "kind": "quote",
+              "text": "“cognitive map is mostly a metaphor”"
+            },
+            {
+              "kind": "quote",
+              "text": "“positions and distances are relative”"
+            },
+            {
+              "kind": "quote",
+              "text": "“in contrast with a road map”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "“exact map” 對應 road map 的 “geometrically precise scale”，但原文說 cognitive map 和 road map 不同。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "細讀答案句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文關鍵句：“Yet the notion of a literal map in our heads may be misleading; a growing body of research implies that the cognitive map is mostly a metaphor.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "然而，腦中有一張 literal map 的想法可能具誤導性；越來越多研究顯示 cognitive map 多半是一種 metaphor。"
+            },
+            {
+              "kind": "label",
+              "text": "再看最後一句："
+            },
+            {
+              "kind": "quote",
+              "text": "“In this hierarchical, or nested, scheme, positions and distances are relative, in contrast with a road map, where the same information is shown in a geometrically precise scale.”"
+            },
+            {
+              "kind": "label",
+              "text": "中文意思："
+            },
+            {
+              "kind": "paragraph",
+              "text": "在這種分層或嵌套式結構中，位置和距離是相對的；相比之下，road map 才會用幾何上精確的比例呈現同樣資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “exact map” 對應精準 road map 的概念。原文說人腦中的 cognitive map 主要是metaphor，positions and distances are relative。這和 “exact map automatically emerges” 的說法不相容。原文也沒有說 automatic emergence。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以 40 答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 3 -Finding our way.pdf",
+    "sha256": "a1b241daef830ea80d860067810376589b055f4bf41e3d363aab89087848e832",
+    "pageCount": 25
+  },
+  "version": "2026-08-22.1",
+  "paragraphOverview": {
+    "title": "全文 Skim Roadmap",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "A",
+        "summary": "Paragraph A 首句用車載 GPS 指示開場，營造一種科技導航很方便的情境。尾句說，只要人知道A 到 B、A 到 C 的路，通常也能推算 B 到 C 的路。只看首尾句，可以先估計這段在比較 GPS 和human positioning system。重點大概是：GPS 精準但容易受地圖過時影響；人類的 biological navigation 更 flexible，而且可以學習、推理和用多種方法找路。"
+      },
+      {
+        "number": "B",
+        "summary": "Paragraph B 首句提出核心問題：這套複雜的 cognitive system 到底如何運作？尾句把讀者放進New York City 的例子：你逛完 Rockefeller Center、Central Park 和 Metropolitan Museum 後，突然要回 Grand Central，但不知道怎樣回去。只看首尾句，這段功能是引出三種導航策略： guidance、path integration、route following，然後用 Manhattan 迷路情境作為後文例子。"
+      },
+      {
+        "number": "C",
+        "summary": "Paragraph C 首句說，假如你向路人求助，可能會得到不同形式的方向資訊。尾句直接定義guidance：遠處可見的 landmark 會成為目的地 marker。只看首尾句，這段重點非常集中：它解釋第一種導航方法 guidance。例子是看見 MetLife Building，然後朝它前進，因為 Grand Central 就在它下面。段落功能是用 prominent landmark 說明如何 orient oneself。"
+      },
+      {
+        "number": "D",
+        "summary": "Paragraph D 首句開始另一種路人回答：先問你記得經過哪些地方，再指示你沿著記得的地點一步一步走回去。尾句講 Cataglyphis ant 被移走後，才發現未成功回巢，於是開始用越來越大的loops 搜尋。只看首尾句，這段大概處理 path integration：生物記錄自己走過的方向和距離，然後按內在 homing vector 嘗試返回。"
+      },
+      {
+        "number": "E",
+        "summary": "Paragraph E 首句說，無論回 anthill 還是 train station，任何使用 path integration 的動物都必須追蹤自己的 movement。尾句列出旅程中的 memorable junctures，例如 church spire、sausages smell、courtyard 和 train station。只看首尾句，這段會補充 path integration 的運作細節：大腦收集 sights、sounds、smells、lighting、muscle contractions 和 time passing，用來判斷身體移動方向。"
+      },
+      {
+        "number": "F",
+        "summary": "Paragraph F 首句引入第三種找路方法。尾句說人們常給 route-following directions，部分原因是複雜的人造環境中只說 “Go straight that way!” 不夠有效。只看首尾句，這段會說明 route following：它使用 street names、buildings、directions 和 intermediate points。它精準、可靠，也最考記憶；若忘記細節或轉錯路，通常要 backtrack 到熟悉地點。"
+      },
+      {
+        "number": "G",
+        "summary": "Paragraph G 首句說下次去 Manhattan，你會依靠 memory 找路，並可能混合使用 guidance、path integration 和 route following。尾句提出一種可能：maps 也許源自人類 spatial-memory networks 的普遍 wiring。只看首尾句，這段開始討論 cognitive map。它先提出「腦中是否有 road map」的比喻，並說 neurobiologists 和 cognitive psychologists 確實把控制導航的記憶部分稱為cognitive map。"
+      },
+      {
+        "number": "H",
+        "summary": "Paragraph H 首句用 Yet 轉折，說 literal map in our heads 這想法可能 misleading，研究顯示cognitive map 多半是一種 metaphor。尾句比較 hierarchical scheme 和 road map：前者的位置和距離是 relative，後者則用 geometrically precise scale。只看首尾句，這段功能是修正 map metaphor：人腦導航未必像精準地圖，更像分層、相對、由大方向到局部環境的關係結構。"
+      }
+    ]
+  }
+}

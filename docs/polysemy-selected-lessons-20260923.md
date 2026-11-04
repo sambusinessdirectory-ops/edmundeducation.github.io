@@ -1,0 +1,9 @@
+# Polysemy lessons from the supplied PDFs
+
+The 36 supplied manuals are installed under their original lesson numbers: 56–80, 82, 89–91, 103, 106–107, and 124–127. The catalogue has 91 available modules; gaps correspond to manuals that were not supplied. The new import contributes 813 meanings and 1,660 context questions. Each question has its source English sentence and full Traditional Chinese translation.
+
+The question screen displays the Chinese translation during practice. Older Chinese blank prompts are suppressed there; English blank prompts remain. Meaning labels from the earlier 33–55 import were restored from the Chinese headings in the original PDFs, and the two missing `box office` translations were filled from their source manual. Existing meaning and question IDs were preserved so saved student progress still maps to the same questions.
+
+`tools/import-polysemy-selected.py` extracts the numbered meanings and Practice examples and rejects missing translations or unmatched target words. `tools/repair-polysemy-33-55-translations.py` performs the earlier-label repair without renumbering saved entries. The imported PDFs are copied unchanged into `polysemy-lab/manuals/`, and each content module records its source SHA-256. The Homework/Schedule generator accepts these sparse lesson numbers while retaining each original number in the student link.
+
+Validation: the importer matched every numbered Practice entry in the 36 PDFs; `tools/test-polysemy-modules.mjs --require-audio --allow-pending-audio` validates 91 modules, 3,725 questions, Chinese translations, source checksums, answer saving, retries, and module isolation. `tools/test-schedule-homework-links.mjs` verifies 6,097 resource links. The source PDFs did not include example audio, so the new questions are listed in `polysemy-lab/audio-pending.json` and their model-playback controls remain disabled.

@@ -1,0 +1,1558 @@
+{
+  "id": "p1-074-sleeping-on-the-job",
+  "catalogueId": "p1-074",
+  "catalogueIds": [
+    "p1-074"
+  ],
+  "passage": 1,
+  "title": "Sleeping on the job",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "D",
+    "NO",
+    "NO",
+    "YES",
+    "NOT GIVEN",
+    "NO",
+    "F",
+    "B",
+    "E",
+    "safety",
+    "not on duty",
+    "D",
+    "C"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "D — Short naps at work increase productivity.",
+      "answerKey": "D — Short naps at work increase productivity.",
+      "type": "Question Analysis",
+      "prompt": "According to the passage, which of the following statements is supported by recent research?",
+      "translation": "根據文章，以下哪一項說法受到近期研究支持？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 Multiple Choice。題目問 “recent research” 支持甚麼，所以定位詞是 recent"
+            },
+            {
+              "kind": "paragraph",
+              "text": "studies / research、nap、work、productivity。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 1。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“North Americans are not known for taking siestas.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：北美人並不以午睡習慣聞名。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Napping on the job is not yet a trend, but there is serious talk in academic circles about the merits of ‘power napping’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在工作中小睡尚未成為潮流，但學術圈已經認真討論「高效小睡」的好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計 Paragraph 1 會由北美文化對午睡的保留態度，轉入研究界對 power napping 的正面討論。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目中最有定位力的是 “recent research”。原文直接出現："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recent studies show that if you can take a nap lasting 15 to 30 minutes while at work in the afternoon, you’ll be more alert, more energetic, happier at work, more productive and therefore more likely to get ahead.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：近期研究顯示，如果你能在下午工作時小睡 15 至 30 分鐘，你會更清醒、更有活力、工"
+            },
+            {
+              "kind": "paragraph",
+              "text": "作時更快樂、更有效率，因此更有可能取得進展。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句明確把 short naps at work 和 productivity 連起來。題目選項 D 說 “Short naps at work"
+            },
+            {
+              "kind": "paragraph",
+              "text": "increase productivity”，正好對應原文 “a nap lasting 15 to 30 minutes while at work” 和 “more productive”。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A Napping is an indicator of laziness.原文只說北美有 tendency to associate afternoon naps with laziness，這是文化偏見，不是recent studies 的結論。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B Two-thirds of Americans sleep too much. Paragraph 2 說 two out of three Americans get less than eight hours，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C Napping in the workplace is a current trend.原文說 “not yet a trend”，所以 current trend 不合原文。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D Short naps at work increase productivity.正確。15 to 30 minutes 對應 short naps；while at work 對應 at work；more productive 對應increase productivity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "The number one cause of car accidents is fatigue.",
+      "translation": "汽車意外的首要原因是疲勞。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN。題目問 writer’s claims，所以要比較文章立場是否支持"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這個說法。核心控制詞是 “number one cause”。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 2。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“By some estimates, the average American collects an annual ‘sleep debt’ of 500 hours, calculated against an assumed norm of eight hours a night.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：根據一些估計，如果以每晚八小時作為標準，美國人平均每年累積 500 小時的「睡眠"
+            },
+            {
+              "kind": "paragraph",
+              "text": "債」。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rationale is a productivity one – workers are sleepy, and when they’re sleepy on the job they’re not productive.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：理由是生產力：工人很睏，而他們在工作時睏倦，就不會有效率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會講睡眠不足帶來的社會和工作問題。汽車意外作為疲勞後果，很可能出現在中間。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 car accidents / fatigue / number one cause。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“He says sleepiness is a leading cause of auto accidents, second only to drunkenness.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：他說，睏倦是汽車意外的一個主要原因，僅次於酒醉駕駛。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 fatigue 是 number one cause。原文說 sleepiness 是 a leading cause，但 “second"
+            },
+            {
+              "kind": "paragraph",
+              "text": "only to drunkenness” 表示它排在 drunkenness 之後。換句話說，文章沒有把 fatigue / sleepiness放在第一位。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：fatigue = number one cause。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：sleepiness = leading cause, second only to drunkenness。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "fatigue= sleepiness / drowsiness car accidents= auto accidents number one cause≠ second only to drunkenness判斷：題目和原文方向相反，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生容易看到 “leading cause” 就急著選 YES。真正控制答案的是 “second only to"
+            },
+            {
+              "kind": "paragraph",
+              "text": "drunkenness”。leading cause 可以是主要原因之一，不必然等於第一原因。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "People who nap in the afternoon are lazy.",
+      "translation": "下午小睡的人很懶。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 YES / NO / NOT GIVEN，判斷 statement 是否反映作者觀點。定位詞是 nap in"
+            },
+            {
+              "kind": "paragraph",
+              "text": "the afternoon、lazy。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 1。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“North Americans are not known for taking siestas.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：北美人並不以午睡習慣聞名。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Napping on the job is not yet a trend, but there is serious talk in academic circles about the merits of ‘power napping’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：在工作中小睡尚未成為潮流，但學術圈已經認真討論「高效小睡」的好處。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會由北美對午睡的保守印象，轉到學術研究對小睡的正面評價。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 laziness。原文第二句說："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a tendency to associate afternoon naps with laziness and unproductiveness.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：人們有一種傾向，會把下午小睡和懶惰、低效率聯繫起來。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這句說的是 “There is a tendency to associate...”，即社會上有這種聯想。作者接著用"
+            },
+            {
+              "kind": "label",
+              "text": "recent studies 推進相反方向："
+            },
+            {
+              "kind": "quote",
+              "text": "“Recent studies show that if you can take a nap lasting 15 to 30 minutes while at work in the afternoon, you’ll be more alert, more energetic, happier at work, more productive and therefore more likely to get ahead.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：近期研究顯示，下午工作時小睡 15 至 30 分鐘，會令人更清醒、更有活力、更快樂、更"
+            },
+            {
+              "kind": "paragraph",
+              "text": "有效率，也更有機會有進展。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目把社會偏見變成作者立場。文章整體用研究結果推翻這個偏見，指出午睡和 productivity 可以有正面關係。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "nap in the afternoon= afternoon naps lazy= laziness但關係不同："
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目：people who nap are lazy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文：some people associate naps with laziness；research shows naps improve productivity。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：題目與作者主線相反，所以答案是 NO。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文確實有 laziness 一字，但它是被作者拿來介紹偏見的字，不是作者認同的結論。看到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原字重現時，要看 reporting structure：是作者支持、批評，還是只描述社會印象。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "YES",
+      "answerKey": "YES",
+      "type": "Question Analysis",
+      "prompt": "A nap in the middle of the day can improve your mood.",
+      "translation": "日間小睡可以改善心情。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "YES / NO / NOT GIVEN。定位詞是 middle of the day、improve mood。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 4。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the Encyclopedia of Sleep and Dreaming: ‘There is a biologically based tendency to fall asleep in mid-afternoon just as there is a tendency to fall asleep at night.’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：根據《睡眠與夢百科全書》，人在下午中段有一種基於生理的入睡傾向，就像晚上有入"
+            },
+            {
+              "kind": "paragraph",
+              "text": "睡傾向一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Smart employers increasingly understand that their employees need rest to do their best.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：聰明的僱主越來越明白，員工需要休息，才能表現得最好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會解釋午後小睡的生理基礎和實際好處。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 mood。原文中間直接說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some people power through this natural slowdown with caffeine or sugar, but if employers allowed naps, the benefits would include improvements in mood and performance, especially in mid-afternoon.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：有些人靠咖啡因或糖分撐過這種自然放慢的狀態；但如果僱主允許小睡，好處會包括"
+            },
+            {
+              "kind": "paragraph",
+              "text": "心情和表現的改善，尤其在下午中段。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 “A nap in the middle of the day can improve your mood.” 原文說 benefits include"
+            },
+            {
+              "kind": "paragraph",
+              "text": "improvements in mood，時間是 especially in mid-afternoon。middle of the day 和 mid-afternoon雖不完全同字，但在本文語境中都指午間至午後的 nap zone。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "nap in the middle of the day= naps / mid-afternoon / nap zone between noon and 3:00 pm improve your mood= improvements in mood判斷：題目與原文方向一致，所以答案是 YES。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "Question Analysis",
+      "prompt": "People who nap regularly live longer.",
+      "translation": "經常午睡的人壽命更長。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "YES / NO / NOT GIVEN。這題要看文章是否有 regularly 和 live longer / longevity 的資"
+            },
+            {
+              "kind": "paragraph",
+              "text": "料。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "可能相關段落是 Paragraph 1 和 Paragraph 4。Paragraph 1 講 recent studies and benefits"
+            },
+            {
+              "kind": "paragraph",
+              "text": "；Paragraph 4 講 biological tendency and performance benefits。首尾句都沒有出現 lifespan、longevity 或 mortality 方向。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 regularly、live longer。文章有很多關於 naps 的好處，例如："
+            },
+            {
+              "kind": "quote",
+              "text": "“you’ll be more alert, more energetic, happier at work, more productive...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：你會更清醒、更有活力、工作時更快樂、更有效率。"
+            },
+            {
+              "kind": "label",
+              "text": "以及："
+            },
+            {
+              "kind": "quote",
+              "text": "“the benefits would include improvements in mood and performance...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：好處會包括心情和表現的改善。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "以上句子支持短期工作表現、精神狀態和心情改善，但沒有提到壽命。文章沒有說 regular"
+            },
+            {
+              "kind": "paragraph",
+              "text": "napping，也沒有比較經常午睡者和不午睡者的 lifespan。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據： regular naps → longer life原文提供的證據： short naps → alertness / energy / happiness / productivity / mood / performance缺少核心資料： regularity 和 longevity 都沒有被文章建立。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "判斷：原文無足夠資料判斷題目真假，所以答案是 NOT GIVEN。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "學生可能把 “more energetic” 或 “healthier work pattern” 聯想到長壽。這種推論超出文"
+            },
+            {
+              "kind": "paragraph",
+              "text": "章。IELTS 的 NOT GIVEN 常出現在「方向聽起來合理，但原文沒有給核心證據」的題目中。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "NO",
+      "answerKey": "NO",
+      "type": "Question Analysis",
+      "prompt": "The majority of Americans sleep at least eight hours a night.",
+      "translation": "大多數美國人每晚至少睡八小時。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "YES / NO / NOT GIVEN。定位詞是 majority、Americans、at least eight hours。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 2。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“By some estimates, the average American collects an annual ‘sleep debt’ of 500 hours, calculated against an assumed norm of eight hours a night.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：根據一些估計，如果以每晚八小時作為標準，美國人平均每年累積 500 小時睡眠債。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rationale is a productivity one – workers are sleepy, and when they’re sleepy on the job they’re not productive.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：理由是生產力：工人很睏，而在工作時睏倦便不會有效率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會談美國人睡眠不足的情況。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 eight hours。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Two out of three Americans get less than eight hours of sleep a night during the workweek, according to a recent study by the National Sleep Foundation in Washington.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：根據華盛頓 National Sleep Foundation 的近期研究，三分之二的美國人在工作週期間"
+            },
+            {
+              "kind": "paragraph",
+              "text": "每晚睡少於八小時。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 majority sleep at least eight hours。原文說 two out of three Americans get less"
+            },
+            {
+              "kind": "paragraph",
+              "text": "than eight hours。two out of three 是大多數，方向是少於八小時。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：majority ≥ eight hours。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：two out of three < eight hours。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "majority= two out of three at least eight hours= eight hours or more less than eight hours= fewer than eight hours判斷：原文直接提供相反資訊，所以答案是 NO。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "F — fall asleep in the afternoon",
+      "answerKey": "F — fall asleep in the afternoon",
+      "type": "Question Analysis",
+      "prompt": "Humans are biologically programmed to fall asleep in the afternoon.",
+      "translation": "人類在生理上有下午入睡的傾向。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這是 phrase completion。題目主體是 Humans are biologically programmed to...，要找"
+            },
+            {
+              "kind": "paragraph",
+              "text": "生理傾向。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 4。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“According to the Encyclopedia of Sleep and Dreaming: ‘There is a biologically based tendency to fall asleep in mid-afternoon just as there is a tendency to fall asleep at night.’”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：根據《睡眠與夢百科全書》，人在下午中段有一種基於生理的入睡傾向，就像晚上有入"
+            },
+            {
+              "kind": "paragraph",
+              "text": "睡傾向一樣。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Smart employers increasingly understand that their employees need rest to do their best.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：聰明的僱主越來越明白，員工需要休息，才能表現得最好。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 biologically programmed。原文用的是 “biologically based tendency”。再看答案"
+            },
+            {
+              "kind": "label",
+              "text": "句："
+            },
+            {
+              "kind": "quote",
+              "text": "“There is a biologically based tendency to fall asleep in mid-afternoon...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：人在下午中段有基於生理的入睡傾向。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “biologically programmed to” 是對 “biologically based tendency to” 的概括。選"
+            },
+            {
+              "kind": "paragraph",
+              "text": "項 F “fall asleep in the afternoon” 對應 “fall asleep in mid-afternoon”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "選項 F 成立： biologically programmed= biologically based tendency fall asleep in the afternoon= fall asleep in mid-afternoon"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A “drink coffee to stay awake during the afternoon” 也在同段出現，但那是 some people"
+            },
+            {
+              "kind": "paragraph",
+              "text": "用來撐過午後低潮的方法，不是 human biology 本身。題幹問 programmed to，所以要選生理傾向，不選應對方法。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "B — have a nap during breaks",
+      "answerKey": "B — have a nap during breaks",
+      "type": "Question Analysis",
+      "prompt": "Employees of some progressive companies are encouraged to have a nap during breaks.",
+      "translation": "一些較前衛公司的員工受到鼓勵，可以在休息時間小睡。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Phrase completion。定位詞是 progressive companies、employees、encouraged。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。第一句指出午後入睡有生理基礎；最後一句說聰明僱主明白員工"
+            },
+            {
+              "kind": "paragraph",
+              "text": "需要休息才能做好工作。只看首尾句，可估計本段會談哪些公司開始接受小睡。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 “progressive companies” 不一定原字出現。原文用以下說法："
+            },
+            {
+              "kind": "quote",
+              "text": "“some companies have begun encouraging naps as part of their policies aimed at boosting production.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一些公司已開始把鼓勵小睡納入政策，目標是提升產量。"
+            },
+            {
+              "kind": "label",
+              "text": "後面例子："
+            },
+            {
+              "kind": "quote",
+              "text": "“One US distributor is opening a 2,000-square-foot nap facility...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一間美國分銷商正開設一個 2,000 平方呎的小睡設施。"
+            },
+            {
+              "kind": "quote",
+              "text": "“A company in Japan sets up tents in business offices, provides eyeshades and earplugs, and encourages employees to snooze in the middle of the workday.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：日本一間公司在商業辦公室搭帳篷，提供眼罩和耳塞，並鼓勵員工在工作日中段小睡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 employees are encouraged to...。原文直接說 encourages employees to snooze。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "snooze 即小睡。選項 B “have a nap during breaks” 是最自然的句尾。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "progressive companies= some companies / 21st-century-style operations / smart employers are encouraged to= encourages employees to have a nap= snooze / naps"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "D “sneak naps without permission” 也出現在原文："
+            },
+            {
+              "kind": "quote",
+              "text": "“Workers commonly sneak naps even without permission...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：員工即使未獲准，也常偷偷小睡。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "但題目說 are encouraged to，表示公司正式鼓勵；sneak without permission 表示未獲准的私下行為，方向不合題幹。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "E — resist the trend toward napping",
+      "answerKey": "E — resist the trend toward napping",
+      "type": "Question Analysis",
+      "prompt": "Traditional employers are likely to resist the trend toward napping.",
+      "translation": "傳統僱主很可能抗拒工作午睡的趨勢。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Phrase completion。定位詞是 Traditional employers、likely to。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 4。第一句用生理學支持午後小睡；最後一句說 smart employers"
+            },
+            {
+              "kind": "paragraph",
+              "text": "understand employees need rest。這段末尾會比較傳統和較現代的工作模式。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 traditional。原文引用 Anthony："
+            },
+            {
+              "kind": "quote",
+              "text": "“You’re not going to see napping at traditional types of operations … but in 21st-century-style operations, this isn’t going to be a perk.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：你不會在傳統類型的營運中看到工作小睡；但在二十一世紀風格的營運中，這將不會"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只是福利。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中的 Traditional employers are likely to... 對應 “You’re not going to see napping at"
+            },
+            {
+              "kind": "paragraph",
+              "text": "traditional types of operations”。意思是傳統運作模式不太會接受工作小睡。選項 E “resist the trend toward napping” 概括了這種態度。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Traditional employers= traditional types of operations are likely to resist= you’re not going to see napping at... the trend toward napping= napping at work / workplace naps"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B “have a nap during breaks” 是 progressive companies 的方向，不適合 traditional"
+            },
+            {
+              "kind": "paragraph",
+              "text": "employers。題目主語不同，答案方向也改變。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "safety",
+      "answerKey": "safety",
+      "type": "Question Analysis",
+      "prompt": "In the transportation industry, napping is a matter of 10 _________________.",
+      "translation": "在交通運輸業，小睡是一個 ______ 問題。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sentence Completion。字數限制是 NO MORE THAN THREE WORDS。空格前是 “a"
+            },
+            {
+              "kind": "paragraph",
+              "text": "matter of”，需要名詞。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 3。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some companies are encouraging sleep at work, primarily for safety.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一些公司鼓勵工作時睡眠，主要是出於安全考慮。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Airlines in the United States have not yet accepted this practice.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：美國航空公司尚未接受這種做法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以判斷本段處理交通運輸業中的小睡安排，核心理由是 safety。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 transportation industry。Paragraph 3 例子包括 New York subway system、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "suburban railroads、train operators、bus drivers、railway、air carriers、airline pilots。這些全部屬交通運輸語境。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "答案句很直接："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some companies are encouraging sleep at work, primarily for safety.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一些公司鼓勵工作時睡眠，主要是為了安全。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目 “napping is a matter of...” 對應原文 “primarily for safety”。空格填 safety，句子變成 “napping is a matter of safety”，文法完整。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：safety字數檢查：一個字，符合 NO MORE THAN THREE WORDS。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Paragraph 2 和 Paragraph 4 多次談 productivity，但 Question 10 限定 “transportation"
+            },
+            {
+              "kind": "paragraph",
+              "text": "industry”。交通運輸業的主要理由是 safety，不是 general workplace productivity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "not on duty",
+      "answerKey": "not on duty",
+      "type": "Question Analysis",
+      "prompt": "On some airlines, pilots can sleep in the cockpit if 11 _________________.",
+      "translation": "在一些航空公司，飛行員如果 ______，便可以在駕駛艙睡覺。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Sentence Completion。字數限制是 NO MORE THAN THREE WORDS。空格接在 if"
+            },
+            {
+              "kind": "paragraph",
+              "text": "後面，需要一個條件短語。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "目標段落是 Paragraph 3。第一句說一些公司鼓勵工作時睡眠，主要基於 safety；最後一句"
+            },
+            {
+              "kind": "paragraph",
+              "text": "說美國航空公司尚未接受這種做法。由首尾句可估計本段會談交通工具操作人員的小睡安排，並比較海外航空公司和美國航空公司。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 airlines、pilots、cockpit。原文說："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some overseas air carriers permit airline pilots, when not on duty, to nap in the cockpit.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一些海外航空公司允許航空公司飛行員在不值勤時於駕駛艙小睡。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目句子是 “pilots can sleep in the cockpit if ____.” 原文條件是 “when not on duty”。因為"
+            },
+            {
+              "kind": "paragraph",
+              "text": "字數限制是 NO MORE THAN THREE WORDS，答案不能填完整 “when not on duty”（四個words）。應填 “not on duty”，接在 if 後自然成句： pilots can sleep in the cockpit if not on duty."
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "can sleep= permit ... to nap in the cockpit= in the cockpit if not on duty= when not on duty答案形式：not on duty字數檢查：三個 words，符合要求。"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "不要填 “overseas air carriers”。那是主體，不是條件。題目已經說 “On some airlines”，空"
+            },
+            {
+              "kind": "paragraph",
+              "text": "格要填 pilots 可以睡覺的條件。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "D — more stressful",
+      "answerKey": "D — more stressful",
+      "type": "Question Analysis",
+      "prompt": "According to the writer, in America the workplace is becoming …",
+      "translation": "根據作者，在美國，工作場所正在變得……",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple Choice。定位詞是 America、workplace、becoming。要找文章後段對美國工作"
+            },
+            {
+              "kind": "paragraph",
+              "text": "環境的概括。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 5。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Some suspect that corporate naptime, like other perks, is just a way to keep people at the office longer.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：有人懷疑，公司午睡時間像其他福利一樣，只是讓人留在辦公室更久的方法。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“So, with Americans sleeping less and working longer hours, some employers are warming up to the idea that a little nap in the middle of the day can be good for business.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：因此，隨著美國人睡得更少、工作時間更長，一些僱主逐漸接受午間小睡對生意有利的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "想法。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會描述美國工作時間變長、工作壓力增加的背景。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目中 “workplace is becoming” 對應原文中的工作環境變化。關鍵句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“One thing is sure: longer commutes, more intense and stressful workdays, and higher production demands are taking a toll.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：有一點是肯定的：更長的通勤、更高強度且更有壓力的工作日，以及更高的產量要求，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "正在造成損耗。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 D “more stressful” 直接對應 “more intense and stressful workdays”。文章還提到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "longer commutes 和 higher production demands，這些都支持工作場所壓力增加。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A less flexible原文說 “growing flexibility in working hours”，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B more exciting文章沒有說 workplace 更令人興奮。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C less demanding原文說 higher production demands，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D more stressful正確。more intense and stressful workdays 直接支持。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "C — to increase productivity",
+      "answerKey": "C — to increase productivity",
+      "type": "Question Analysis",
+      "prompt": "According to the writer, what is the main reason why employers support the idea of naps at work?",
+      "translation": "根據作者，僱主支持工作小睡的主要原因是甚麼？",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Multiple Choice。控制詞是 main reason。文章中有 safety、mood、performance、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "business 等多個原因，要選整體主因。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "可先看 Paragraph 2、Paragraph 4 和 Paragraph 5。Paragraph 2 最後一句說 “The"
+            },
+            {
+              "kind": "paragraph",
+              "text": "rationale is a productivity one”；Paragraph 4 最後一句說 smart employers understand employees need rest to do their best；Paragraph 5 最後一句說 nap can be good for business。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "三段合起來都指向 productivity / business benefit。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 employers support、main reason、naps at work。Paragraph 2 引用 Anthony："
+            },
+            {
+              "kind": "quote",
+              "text": "“The rationale is a productivity one – workers are sleepy, and when they’re sleepy on the job they’re not productive.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：理由是生產力：工人很睏，而他們在工作時睏倦，就不會有效率。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 4 又說："
+            },
+            {
+              "kind": "quote",
+              "text": "“some companies have begun encouraging naps as part of their policies aimed at boosting production.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一些公司已開始把鼓勵小睡納入政策，目標是提升產量。"
+            },
+            {
+              "kind": "label",
+              "text": "Paragraph 5 結尾說："
+            },
+            {
+              "kind": "quote",
+              "text": "“some employers are warming up to the idea that a little nap in the middle of the day can be good for business.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：一些僱主逐漸接受午間小睡對生意有利的想法。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 main reason，所以不能只看 Paragraph 3 的 transportation safety。安全是交通運"
+            },
+            {
+              "kind": "paragraph",
+              "text": "輸業中的主要理由，但全文對 employers 的一般支持理由反覆落在 productivity、boosting production、good for business。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A for health reasons文章提到 sleepiness and alertness，但僱主支持的主因沒有概括成 health。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B to promote safety Paragraph 3 對 transportation companies 成立，但不是全文 main reason。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C to increase productivity正確。productivity one、boosting production、good for business 都支持 C。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D to encourage creativity文章沒有提到 creativity。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "increase productivity= productivity one / more productive / boosting production / good for business"
+            }
+          ]
+        },
+        {
+          "id": "trap",
+          "title": "中伏位",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "B 很有吸引力，因為 Paragraph 3 明確說 “primarily for safety”。但題目問 employers"
+            },
+            {
+              "kind": "paragraph",
+              "text": "support the idea of naps at work 的 main reason，全文反覆出現的主軸是 productivity。Safety 是特定行業原因，C 才能覆蓋全文主線。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Sleeping on the job.pdf",
+    "sha256": "405aa17a7c18e2dc5248334ab3c73e4260c51ba1ad01a9768f506a9827c004ff",
+    "pageCount": 17
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可合理看到的全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句說 North Americans 並不以午睡聞名，暗示文章會處理不同文化對 nap 的態度。末句說napping on the job still is not yet a trend，但學術圈已經認真討論 power napping 的好處。只看首尾句，可以估計這段會由文化偏見切入：北美人常把午睡和懶惰、低效率連在一起；墨西哥、希臘等文化看法不同；最新研究會支持短午睡能提高 alertness、energy、happiness 和 productivity。"
+      },
+      {
+        "number": "2",
+        "summary": "首句說 average American 每年累積 500 小時 sleep debt，指出睡眠不足是一個量化而嚴重的問題。末句引用 Professor Anthony，說人們應獲准在休息時間小睡，理由是 productivity。只看首尾句，可以估計這段會說明美國人睡眠不足的規模、疲倦對生活和工作的干擾、疲勞與交通事故的關係，以及 lost productivity 的經濟成本。題目若問 Americans sleeping less、car accidents、productivity rationale，應看此段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說一些公司鼓勵員工在工作中睡覺，主要是為了 safety。末句說美國航空公司尚未接受cockpit napping 這種做法。只看首尾句，可以估計本段重點在 transportation industry 的安全考量，例子包括 New York subway system、railroads、train operators、bus drivers 和 airline pilots。這段不太像一般辦公室福利討論，主軸偏向交通運輸中的疲勞管理和安全風險控制。"
+      },
+      {
+        "number": "4",
+        "summary": "首句引用 Encyclopedia of Sleep and Dreaming，說人類在午後有 biologically based tendency to fall asleep。末句引用 Anthony，說聰明僱主明白員工需要休息才能做到最好。只看首尾句，可以估計本段會把午睡合理化：午後睏倦有生理基礎，nap zone 通常在中午至下午三點；小睡可改善mood、performance、concentration 和 perseverance；部分公司已設 nap facility 或提供眼罩、耳塞等安排。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說有人懷疑 corporate naptime 只是一種讓員工留在辦公室更久的福利手段。末句說由於美國人睡得更少、工作更久，一些僱主逐漸接受午間小睡對生意有利。只看首尾句，可以估計本段會提供較現實的工作環境背景：telecommuting、home working、flexible hours、longer commutes、more intense and stressful workdays、higher production demands。結尾回到 business benefit，為全文收束。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "原文沒有 A–E 段落標記，所以以下按自然段順序編為 Paragraph 1–5。"
+  ]
+}

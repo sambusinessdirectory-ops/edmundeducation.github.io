@@ -1,0 +1,10 @@
+{
+  "sourceFilename": "2025香港文凭试DSE英国语文试卷三聆听及综合能力考试录音 2025 DSE English Language Paper 3 Recording_720P - 53.39 MB.mp4",
+  "sourceDurationSeconds": 3340.052667,
+  "meetingCutStartSeconds": 2796.5,
+  "meetingCutDurationSeconds": 517.5,
+  "output": "part-b-meeting.m4a",
+  "processing": "Extracted existing audio; AAC 96 kbps, no generated speech; full meeting greetings through goodbye, excluding exam instructions and preparation silence.",
+  "timingCheck": "Local faster-whisper base.en transcript used to identify spoken topic transitions and corroborate the supplied meeting text. Speaker attribution in the existing transcript was not reverified.",
+  "sectionStartsSeconds": {"slogan":20.3,"opening":80.6,"wellness":167.4,"topic":310.7,"after":365,"parents":403.1}
+}

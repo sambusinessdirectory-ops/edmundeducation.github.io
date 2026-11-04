@@ -1,0 +1,1529 @@
+{
+  "id": "p1-006-make-that-wine",
+  "catalogueId": "p1-006",
+  "catalogueIds": [
+    "p1-006"
+  ],
+  "passage": 1,
+  "title": "Make That Wine!",
+  "eyebrow": "IELTS Reading · Passage 1",
+  "description": "完整答案表、全文段落速覽，以及逐題 Skim、Scan、Read、同義改寫與中伏位分析。",
+  "questionCount": 13,
+  "answerKey": [
+    "FALSE",
+    "TRUE",
+    "NOT GIVEN",
+    "FALSE",
+    "grape skin",
+    "white wine",
+    "varietal",
+    "respect",
+    "vinification method",
+    "natural sugars",
+    "C",
+    "D",
+    "A"
+  ],
+  "questions": [
+    {
+      "number": 1,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Wine is popular in Australia because it is healthy.",
+      "translation": "葡萄酒在澳洲受歡迎，是因為它健康。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要判斷原因。真正控制答案的字是 because。文章不只要提到 wine popular 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "healthy，還要把 health 說成受歡迎的原因。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 1。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Australia is a nation of beer drinkers. Actually, make that wine.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：澳洲是一個喝啤酒的國家。準確一點說，應該改成喝葡萄酒。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, although wine drinkers seldom think about it, moderate consumption seems to be beneficial for the health, lowering the incidence of heart disease and various other ailments.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：此外，雖然葡萄酒飲用者很少想到這一點，適量飲用似乎對健康有益，可降低心臟病和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他多種疾病的發生率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以先估計本段會說 wine 在澳洲越來越受歡迎，也會補充健康好處。可是答案仍要看 popularity 的原因是否等於 health。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目定位詞是 popular in Australia、because、healthy。原文中真正說明受歡迎原因的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yes, wine has now just about supplanted beer as the alcoholic drink of choice, probably because of the extensive range of choices available and the rich culture behind them.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：是的，葡萄酒現在幾乎已取代啤酒，成為人們首選的酒精飲品，大概是因為可選種類廣"
+            },
+            {
+              "kind": "paragraph",
+              "text": "泛，以及背後有豐富文化。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文把 wine 取代 beer 的原因歸於 “extensive range of choices” 和 “rich culture”。健康好"
+            },
+            {
+              "kind": "paragraph",
+              "text": "處在下一句以 “In addition” 加入，而且作者明說 “wine drinkers seldom think about it”。這表示健康是補充資訊，並非文章提出的主要流行原因。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目命題：wine popular because healthy。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文命題：wine popular probably because range and culture；health benefit is additional and seldom considered。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "popular= alcoholic drink of choice because= probably because of healthy= beneficial for the health真正衝突位在 because。題目把 health 放成原因；原文把 choices and culture 放成原因。答案是FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "answer": "TRUE",
+      "answerKey": "TRUE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Yeast is white-coloured.",
+      "translation": "酵母是白色的。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要找 yeast 的外觀描述。定位詞非常直接：yeast、white-coloured。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 2。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wine is the product of the fermentation of grape juice, in which yeast (a fungus) consumes the natural sugars within, producing alcohol and carbon dioxide as waste.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：葡萄酒是葡萄汁發酵的產物；在這個過程中，酵母這種真菌會消耗其中的天然糖分，並"
+            },
+            {
+              "kind": "paragraph",
+              "text": "產生酒精和二氧化碳作為廢物。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“To this day, the biggest drinkers of wine remain the Mediterranean countries, with France leading the way.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：直到今天，葡萄酒最大的飲用者仍是地中海國家，其中法國居於領先位置。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段先講釀酒生物機制，再講歷史和飲用地區。yeast 的細節會在本段開頭附近。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 yeast 和 white-coloured。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yeast grows naturally on many varieties of grapes, often visible as a white powder, and causing fermentation directly on the plant.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：酵母會自然生長在許多種類的葡萄上，常常可以看成白色粉末，並直接在植物上引發"
+            },
+            {
+              "kind": "paragraph",
+              "text": "發酵。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文說 yeast “often visible as a white powder”。題目說 white-coloured，與 white powder"
+            },
+            {
+              "kind": "paragraph",
+              "text": "意思吻合。這裡要注意 often：原文語氣沒有說所有情況下都必然如此。不過題目沒有加入 always、all yeast、in every case 這種絕對詞，因此可按文章提供的外觀描述判 TRUE。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "white-coloured= visible as a white powder Yeast is...= Yeast grows naturally... often visible as...答案是 TRUE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "answer": "NOT GIVEN",
+      "answerKey": "NOT GIVEN",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Wine is popular in the Near East.",
+      "translation": "葡萄酒在近東地區受歡迎。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "這題要分清 origin 和 popularity。文章可能提到 Near East，但題目問的是 popular。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 2。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wine is the product of the fermentation of grape juice, in which yeast (a fungus) consumes the natural sugars within, producing alcohol and carbon dioxide as waste.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：葡萄酒是葡萄汁發酵的產物；酵母會消耗天然糖分，產生酒精和二氧化碳。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“To this day, the biggest drinkers of wine remain the Mediterranean countries, with France leading the way.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：直到今天，葡萄酒最大的飲用者仍是地中海國家，其中法國領先。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計 Paragraph 2 會談釀酒起源和飲用地區。題目中的 Near East 很可能在本段中間出現。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 Near East、popular。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“The evidence shows that this was at least 8,000 years ago in the Near East.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：證據顯示，這至少在 8,000 年前已於近東地區發生。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "原文中的 this 指 wine-making 的發現或出現。這句只說 Near East 是早期釀酒證據所在地"
+            },
+            {
+              "kind": "paragraph",
+              "text": "，沒有說今天或古代的 Near East 人特別喜歡喝 wine，也沒有提供 consumption、popular、drinkers、demand 等資訊。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "題目需要的證據：wine popular in the Near East。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文提供的資訊：wine-making evidence at least 8,000 years ago in the Near East。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "另外，原文真正談 today biggest drinkers 時，說的是 Mediterranean countries 和 France，沒有把Near East 列入。文章沒有足夠資料判斷 Near East 是否受歡迎，所以答案是 NOT GIVEN。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位在 Near East 原字重現。原字只能幫你定位，不能直接決定答案；要看句子到底在說 origin、production，還是 popularity。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "answer": "FALSE",
+      "answerKey": "FALSE",
+      "type": "TRUE / FALSE / NOT GIVEN",
+      "prompt": "Blended wines are usually cheaper.",
+      "translation": "混釀葡萄酒通常較便宜。",
+      "sections": [
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目問 blended wines 的價格評價。定位詞是 blended wines、cheaper、usually。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 4。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similar wine classification is based more specifically on the grape species used, giving such well-known names as Pinot Noir and Merlot.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：另一種相似的葡萄酒分類更具體地根據所使用的葡萄品種，例如 Pinot Noir 和 Merlot"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這些知名名稱。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Far from being looked down upon, it often results in some of the world’s most expensive bottles, such as the Cote Rotie wines in France.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它絕不會被看低，還常常產生世界上一些最昂貴的酒瓶，例如法國的 Cote Rotie wines"
+            },
+            {
+              "kind": "paragraph",
+              "text": "。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會講 grape species、varietal 和 blended wines，也會評價 blended wines 的地位與價格。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 blended wines、cheaper。原文相關句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“When one grape species is used, or is predominant, the wine produced is called varietal, as opposed to mixing the juices of various identified grapes, which results in blended wines.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當使用一種葡萄品種，或某一品種佔主導時，製成的酒稱為 varietal；相對地，把多種已"
+            },
+            {
+              "kind": "paragraph",
+              "text": "識別葡萄的汁液混合，便形成 blended wines。"
+            },
+            {
+              "kind": "label",
+              "text": "真正決定價格方向的是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Far from being looked down upon, it often results in some of the world’s most expensive bottles, such as the Cote Rotie wines in France.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它絕不會被看低，還常常產生世界上一些最昂貴的酒，例如法國 Cote Rotie wines。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目說 usually cheaper，原文說 often results in some of the world’s most expensive"
+            },
+            {
+              "kind": "paragraph",
+              "text": "bottles。這兩個方向不相容。原文雖然沒有說所有 blended wines 都貴，但它明確反駁「混釀較低級、較便宜」的印象。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義 / 反向關係",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Blended wines= mixing the juices of various identified grapes usually cheaper vs often results in some of the world’s most expensive bottles所以答案是 FALSE。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "answer": "grape skin",
+      "answerKey": "grape skin",
+      "type": "Table Completion",
+      "prompt": "Question 5",
+      "translation": "按顏色分類時，紅酒在發酵中使用 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：Classification based on colour — Red wines use 5 ______ in fermentation."
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 use 後面，需要名詞或名詞短語。定位詞是 colour、Red wines、fermentation。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 3。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This leads to the classification of wines, which is quite complex.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這就引出葡萄酒的分類，而這種分類相當複雜。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, white wine can be made from dark-coloured grapes, provided that the skin is separated early, although the resultant wine may have a pinkish tinge.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：因此，白酒也可以由深色葡萄製成，只要葡萄皮早早被分離，不過成品可能帶有淡粉"
+            },
+            {
+              "kind": "paragraph",
+              "text": "色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會講顏色分類，以及 grape skin 和 colour 之間的關係。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 Red wines 和 fermentation。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Red wines are produced by leaving the grape skin in contact with the juice during fermentation; white wines by not doing so.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：紅酒是在發酵期間讓葡萄皮與葡萄汁保持接觸而製成；白酒則不這樣做。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “leaving the grape skin in contact with the juice” 壓縮成 “use grape skin in"
+            },
+            {
+              "kind": "paragraph",
+              "text": "fermentation”。空格答案要保留核心名詞 grape skin。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Red wines use grape skin= Red wines are produced by leaving the grape skin in contact with the juice in fermentation= during fermentation答案形式：grape skin，兩個 words，符合 NO MORE THAN TWO WORDS。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "answer": "white wine",
+      "answerKey": "white wine",
+      "type": "Table Completion",
+      "prompt": "Question 6",
+      "translation": "按顏色分類的相關例子是 ______。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：Classification based on colour — Related Example: 6 ______"
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格這一行談 colour classification。已經用 red wines 說明一邊，所以 related example"
+            },
+            {
+              "kind": "paragraph",
+              "text": "很可能來自同段另一個顏色例子。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 3。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This leads to the classification of wines, which is quite complex.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這就引出葡萄酒的分類，而這種分類相當複雜。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Thus, white wine can be made from dark-coloured grapes, provided that the skin is separated early, although the resultant wine may have a pinkish tinge.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：因此，白酒也可以由深色葡萄製成，只要葡萄皮早早被分離，不過成品可能帶有淡粉"
+            },
+            {
+              "kind": "paragraph",
+              "text": "色。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以看到 colour classification 下面最明顯的另一個例子就是 white wine。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 colour 和 related example。原文提到："
+            },
+            {
+              "kind": "quote",
+              "text": "“It often begins with the colour: red or white.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它常常從顏色開始：紅或白。"
+            },
+            {
+              "kind": "label",
+              "text": "再看："
+            },
+            {
+              "kind": "quote",
+              "text": "“white wine can be made from dark-coloured grapes...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：白酒可以由深色葡萄製成。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格前半已經給出 red wines，空格 6 作為 related example，最合理填入同一分類下的"
+            },
+            {
+              "kind": "paragraph",
+              "text": "white wine。這也對應原文用 white wine 來說明顏色不由 grape colour 決定，而由 skin contact process 決定。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：white wine，兩個 words，符合限制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中伏位是 pinkish tinge。它也是本段顏色相關短語，但它描述的是某些白酒可能帶有的色澤結果；表格的分類例子更適合填 white wine。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "answer": "varietal",
+      "answerKey": "varietal",
+      "type": "Table Completion",
+      "prompt": "Question 7",
+      "translation": "按葡萄品種分類時，葡萄酒可以是 ______ 或 blended。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：Classification based on grape species — can be 7 ______ or blended."
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格和 blended 並列，需要一個 wine type 名詞或形容詞。定位詞是 grape species、"
+            },
+            {
+              "kind": "paragraph",
+              "text": "blended。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 4。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A similar wine classification is based more specifically on the grape species used, giving such well-known names as Pinot Noir and Merlot.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：另一種相似的葡萄酒分類更具體地根據所用葡萄品種，例如 Pinot Noir 和 Merlot。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Far from being looked down upon, it often results in some of the world’s most expensive bottles, such as the Cote Rotie wines in France.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：它絕不會被看低，還常常產生世界上一些最昂貴的酒，例如法國 Cote Rotie wines。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會講按 grape species 的分類，並對 blended wines 作評價。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 grape species、blended。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“When one grape species is used, or is predominant, the wine produced is called varietal, as opposed to mixing the juices of various identified grapes, which results in blended wines.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當使用一種葡萄品種，或某一品種佔主導時，製成的酒稱為 varietal；相對地，混合多種"
+            },
+            {
+              "kind": "paragraph",
+              "text": "已識別葡萄的汁液，便形成 blended wines。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目句式 “can be ___ or blended” 對應原文的 “called varietal, as opposed to ... blended"
+            },
+            {
+              "kind": "paragraph",
+              "text": "wines”。所以答案是 varietal。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "can be varietal or blended= called varietal, as opposed to ... blended wines答案形式：varietal，一個 word，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "answer": "respect",
+      "answerKey": "respect",
+      "type": "Table Completion",
+      "prompt": "Question 8",
+      "translation": "按產地分類時，葡萄酒飲用者 ______ 這一點。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：Classification based on location — Drinkers of wine 8 ______ this."
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在主語 “Drinkers of wine” 後面，需要動詞。定位詞是 location、drinkers、Barossa"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Valley。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 5。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Increasingly, however, market recognition is based on the location of the wine production, resulting in labels such as Bordeaux in France, Napa Valley in California, and the Barossa Valley in Australia.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：然而，市場認可越來越基於葡萄酒的生產地點，形成了法國 Bordeaux、加州 Napa"
+            },
+            {
+              "kind": "paragraph",
+              "text": "Valley 和澳洲 Barossa Valley 等標籤。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“However, an example of the blurred lines is the term ‘champagne’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：不過，“champagne” 這個詞就是界線變模糊的一個例子。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段講 location-based labelling 和產地名聲。Barossa Valley 直接出現在第一句，所以這段就是目標。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 drinkers of wine 和 location。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Traditional wines made in these places carry trademarks, respected by serious wine drinkers.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這些地方製成的傳統葡萄酒帶有商標或標誌，並受到認真的葡萄酒飲用者尊重。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目把 “respected by serious wine drinkers” 改成主動句 “Drinkers of wine respect this”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "原文的 respected 是被動形式；題目句子需要主動動詞，所以填 respect。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "Drinkers of wine respect this= trademarks, respected by serious wine drinkers location= labels such as Bordeaux, Napa Valley, Barossa Valley答案形式：respect。它來自原文 respected，但按表格語法轉成動詞原形。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "answer": "vinification method",
+      "answerKey": "vinification method",
+      "type": "Table Completion",
+      "prompt": "Question 9",
+      "translation": "按 ______ 分類時，可以讓 ______ 保留下來；例子是 dessert wine。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：Classification based on 9 ______ — can allow 10 ______ to remain — dessert wine."
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格 9 位於 “Classification based on” 後面，需要分類依據。定位詞是 dessert wine 和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "classification。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 6。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, we come to the vinification method as a means of classification.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：最後，我們來到以釀造方法作為分類方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clearly, there are many possibilities, all producing uniquely flavoured products.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：顯然，可能性很多，而且全部都會產生風味獨特的產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "首句已經直接提供分類依據：vinification method。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 classification、dessert wine。原文先說 vinification method，後面再說 dessert"
+            },
+            {
+              "kind": "label",
+              "text": "wines："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another variation is to stop the fermentation before all the natural sugars are consumed, creating dessert wines...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：另一種變化是在所有天然糖分被消耗完之前停止發酵，從而製成 dessert wines。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "表格的 “can allow natural sugars to remain” 是 Paragraph 6 中 dessert wine 的釀造方法，"
+            },
+            {
+              "kind": "paragraph",
+              "text": "所以分類依據必然是 vinification method。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "答案形式：vinification method，兩個 words，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "answer": "natural sugars",
+      "answerKey": "natural sugars",
+      "type": "Table Completion",
+      "prompt": "Question 10",
+      "translation": "以釀造方法分類時，可以讓 ______ 保留下來；例子是甜酒。",
+      "sections": [
+        {
+          "id": "context",
+          "title": "題目與答案重點",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "題目位置：Classification based on vinification method — can allow 10 ______ to remain —dessert wine."
+            }
+          ]
+        },
+        {
+          "id": "task",
+          "title": "題型任務",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "空格在 allow 後面，需要名詞短語。定位詞是 dessert wine、remain、fermentation。"
+            }
+          ]
+        },
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "目標段落是 Paragraph 6。第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Finally, we come to the vinification method as a means of classification.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：最後，我們來到以釀造方法作為分類方式。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Clearly, there are many possibilities, all producing uniquely flavoured products.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：顯然，可能性很多，而且全部都會產生風味獨特的產品。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "這段功能就是介紹不同 vinification methods，所以 dessert wine 應在本段。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 dessert wine 和 remain。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Another variation is to stop the fermentation before all the natural sugars are consumed, creating dessert wines, ranging from slight to extreme sweetness.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：另一種變化是在所有天然糖分被消耗完之前停止發酵，製成甜酒，其甜度可由輕微到"
+            },
+            {
+              "kind": "paragraph",
+              "text": "極高不等。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "如果 fermentation 在所有 natural sugars 被消耗完之前停止，就代表有 natural sugars 保"
+            },
+            {
+              "kind": "paragraph",
+              "text": "留下來。題目用 “allow ... to remain” 概括這個結果。"
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "同義改寫",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "allow natural sugars to remain= stop the fermentation before all the natural sugars are consumed dessert wine= dessert wines答案形式：natural sugars，兩個 words，符合限制。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "answer": "C — often discussed",
+      "answerKey": "C — often discussed",
+      "type": "Multiple Choice",
+      "prompt": "Vintage wines are...",
+      "translation": "年份酒是……目標段落：Paragraph 7",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“One of the best-known terms relating to wine is ‘vintage’.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：葡萄酒相關最知名的術語之一是 “vintage”。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“A non-vintage wine is usually a blend from the produce of two or more years, which is done, as mentioned before, for consistency and quality control.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：non-vintage wine 通常混合兩個或以上年份的產物，如前所述，這樣做是為了穩定性和"
+            },
+            {
+              "kind": "paragraph",
+              "text": "品質控制。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段會解釋 vintage 和 non-vintage 的差別，並談人們如何評價 vintage。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "題目定位詞是 vintage wines。原文核心句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Of course, the appreciation and assessment of wine is an inexact science, meaning that the significance of a particular vintage often promotes much speculation and disagreement.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：當然，欣賞和評估葡萄酒並非精確科學，這表示某一特定年份的重要性常會引發大量"
+            },
+            {
+              "kind": "paragraph",
+              "text": "推測和分歧。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 C “often discussed” 對應 “often promotes much speculation and disagreement”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "speculation 和 disagreement 都表示人們會談論、爭議、討論某年份的意義。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A mostly better.原文只說某些年份可能被承認產出 exceptionally fine grapes and resultant wines，沒有說vintage wines 大多較好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B often preferred.原文說 good vintage 的酒瓶 often saved for future consumption，但沒有直接說所有 vintage wines 常被偏好。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C often discussed.正確。speculation and disagreement 支持 “often discussed”。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D more costly.原文沒有說 vintage wines 較昂貴。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "answer": "D — bad",
+      "answerKey": "D — bad",
+      "type": "Multiple Choice",
+      "prompt": "The author thinks that wine terminology is...",
+      "translation": "作者認為葡萄酒術語是……目標段落：Paragraph 8",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“This leads to the rich and varied world of wine assessment, and its descriptive terminology.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：這就引向葡萄酒評鑑及其描述性術語的豐富多樣世界。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Perhaps the opportunity to posture pretentiously with all this jargon is the main reason why wine enthusiasts are so taken with this product. Cheers!”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：或許能用這些行話故作高深地擺姿態，才是葡萄酒愛好者如此迷戀這種產品的主要原"
+            },
+            {
+              "kind": "paragraph",
+              "text": "因。乾杯！"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段先承認 wine terminology 的存在和功能，最後轉成諷刺語氣。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "定位詞是 terminology、author thinks。原文有兩組關鍵句："
+            },
+            {
+              "kind": "quote",
+              "text": "“Wine has such a variety of aromas, flavours, textures, and aftertastes that serious wine drinkers demand an agreed vocabulary so that the drinking sensations can be reliably described in writing.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：葡萄酒有如此多樣的香氣、味道、質感和餘韻，以致認真的葡萄酒飲用者需要一套共同"
+            },
+            {
+              "kind": "paragraph",
+              "text": "詞彙，好讓飲用感受能以文字可靠地描述。"
+            },
+            {
+              "kind": "label",
+              "text": "接著作者語氣轉負面："
+            },
+            {
+              "kind": "quote",
+              "text": "“From bouquet to biscuity, mellow to musky, vivid to vegetal, the conceited connoisseur can perplex the listener with some really purple prose.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：從 bouquet 到 biscuity，從 mellow 到 musky，從 vivid 到 vegetal，自負的行家可以用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "非常華麗浮誇的文字把聽者弄糊塗。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "段落前半承認 terminology 有描述功能，但後半的 authorial tone 很明顯帶有嘲諷。作者用"
+            },
+            {
+              "kind": "paragraph",
+              "text": "了 “conceited connoisseur”、“purple prose”、“posture pretentiously”、“jargon” 這些負面詞。四個選項中，D “bad” 最貼近作者的負面評價。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A unnecessary.這個選項太絕對。原文前半仍說 serious wine drinkers 需要 agreed vocabulary，以可靠描述感受。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B serious.原文有 serious wine drinkers，但作者後半並沒有把術語整體寫成嚴肅專業，語氣偏諷刺。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C good.後半大量負面詞不支持 good。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D bad.正確。更精準地說，作者認為這套術語很容易變成 pretentious jargon，即炫耀式行話。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "answer": "A — is more popular than beer, in Australia.",
+      "answerKey": "A — is more popular than beer, in Australia.",
+      "type": "Multiple Choice",
+      "prompt": "Wine...",
+      "translation": "葡萄酒……目標段落：Paragraph 1",
+      "sections": [
+        {
+          "id": "skim",
+          "title": "Skim",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "第一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Australia is a nation of beer drinkers. Actually, make that wine.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：澳洲是一個喝啤酒的國家。準確一點說，現在應改成葡萄酒。"
+            },
+            {
+              "kind": "label",
+              "text": "最後一句是："
+            },
+            {
+              "kind": "quote",
+              "text": "“In addition, although wine drinkers seldom think about it, moderate consumption seems to be beneficial for the health, lowering the incidence of heart disease and various other ailments.”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：此外，雖然葡萄酒飲用者很少想到這一點，適量飲用似乎對健康有益，可降低心臟病及"
+            },
+            {
+              "kind": "paragraph",
+              "text": "其他疾病發生率。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "只看首尾句，可以估計本段直接比較 wine 和 beer 在澳洲的地位。"
+            }
+          ]
+        },
+        {
+          "id": "scan",
+          "title": "Scan",
+          "blocks": [
+            {
+              "kind": "label",
+              "text": "定位詞是 beer、Australia、popular。原文句子是："
+            },
+            {
+              "kind": "quote",
+              "text": "“Yes, wine has now just about supplanted beer as the alcoholic drink of choice...”"
+            },
+            {
+              "kind": "paragraph",
+              "text": "中文意思：是的，葡萄酒現在幾乎已經取代啤酒，成為首選的酒精飲品。"
+            }
+          ]
+        },
+        {
+          "id": "read",
+          "title": "Read",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "選項 A 說 wine 在澳洲比 beer 更受歡迎。原文 “supplanted beer as the alcoholic drink of"
+            },
+            {
+              "kind": "paragraph",
+              "text": "choice” 表示 wine 已經取代 beer，成為首選。這直接支持 A。"
+            }
+          ]
+        },
+        {
+          "id": "options",
+          "title": "選項分析",
+          "blocks": [
+            {
+              "kind": "paragraph",
+              "text": "A is more popular than beer, in Australia.正確。supplanted beer as the drink of choice = 比啤酒更接近首選。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "B is most popular in France. Paragraph 2 說 France leads among biggest wine drinkers，但沒有說 wine 在 France 是最受歡迎的飲品，也沒有把 France 和所有飲品作比較。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "C can be simply classified. Paragraph 3 說 classification is quite complex，方向相反。"
+            },
+            {
+              "kind": "paragraph",
+              "text": "D is often ‘raisoned’. Paragraph 6 只說 grapes can be allowed to become partially dried or “raisoned”，沒有說 wine often undergoes this process。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source": {
+    "filename": "Question Analysis Website Free Resource - Passage 1 - Make That Wine!.pdf",
+    "sha256": "e4f140b9a3560b7aa0d7f68b94ffa96e97d0b1ea038fdb7839c381b9a3f60b19",
+    "pageCount": 17
+  },
+  "version": "2026-08-08.2",
+  "paragraphOverview": {
+    "title": "Skim Roadmap：只看每段第一句和最後一句後可合理看到的全文地圖",
+    "intro": "先掌握每段的功能與主旨，再進入逐題定位和細讀分析。",
+    "paragraphs": [
+      {
+        "number": "1",
+        "summary": "首句用 “Australia is a nation of beer drinkers. Actually, make that wine.” 製造反轉，指出澳洲人的酒類選擇已由啤酒轉向葡萄酒。末句補充，雖然葡萄酒飲用者很少想到健康層面，適量飲用似乎對健康有益。只看首尾句，可以估計本段是全文引入：它交代 wine 在澳洲變流行的背景，也帶出 range of choices、rich culture 和 moderate consumption 的健康補充。題目若問澳洲、beer、health reason，應看本段。"
+      },
+      {
+        "number": "2",
+        "summary": "首句直接定義 wine：它是 grape juice 發酵的產物，yeast 會消耗天然糖分，產生 alcohol 和carbon dioxide。末句說直到今天，wine 最大飲用者仍是地中海國家，其中法國領先。只看首尾句，可以估計本段是 wine-making 的科學和歷史段：它會解釋 yeast、fermentation、Near East 起源、古地中海文明傳播，以及現代地中海飲酒習慣。題目若問 yeast、Near East、France、Mediterranean countries，應看本段。"
+      },
+      {
+        "number": "3",
+        "summary": "首句說 wine 的分類很複雜，常常先由顏色開始：red or white。末句說白酒也可由深色葡萄製成，只要早早把葡萄皮分離，但成品可能帶有淡粉色。只看首尾句，可以估計本段會糾正一般人對wine colour 的誤解：顏色主要來自製酒過程中葡萄皮是否接觸葡萄汁。題目若問 red wine、white wine、grape skin、fermentation，答案多數在這段。"
+      },
+      {
+        "number": "4",
+        "summary": "首句說另一種相似的分類方式，更具體地根據使用的 grape species，例如 Pinot Noir 和 Merlot。末句說 blended wines 不會被看低，還常產生世界上一些最昂貴的酒，例如法國 Cote Rotie wines。只看首尾句，可以估計本段講 grape species classification：varietal wine、blended wine、Chardonnay、cabernet sauvignon，以及混釀的目的和價值。題目若問 varietal、blended、Cote Rotie 或 cheaper / expensive，應看 Paragraph 4。"
+      },
+      {
+        "number": "5",
+        "summary": "首句說 market recognition 越來越依據 wine production 的地點，例如 Bordeaux、Napa Valley 和Barossa Valley。末句說 champagne 一詞雖曾嘗試被法律保護，現在已變成 semi-generic，可用於世界各地同類 wine。只看首尾句，可以估計本段講 location-based classification：產地標籤、trademarks、serious wine drinkers 對傳統產地的尊重，以及 champagne 這個名稱的法律和市場邊界。題目若問 location、Barossa Valley、respect、champagne，應看本段。"
+      },
+      {
+        "number": "6",
+        "summary": "首句說最後一種分類方式是 vinification method，即釀造方法。末句總結，這些方法有很多可能性，會產生不同而獨特的風味產品。只看首尾句，可以估計本段講製酒方法如何形成不同類型： sparkling wine 透過 sealed container 保留 carbon dioxide；dessert wine 透過提前停止fermentation 保留 natural sugars；late harvest wines 和 dried grape wines 則和採收時間及葡萄乾化有關。題目若問 method、carbon dioxide、natural sugars、dessert wine，應看本段。"
+      },
+      {
+        "number": "7",
+        "summary": "首句說 wine 相關最著名的術語之一是 vintage。末句說 non-vintage wine 通常混合兩個或以上年份的產物，目的如前所述，是為了 consistency 和 quality control。只看首尾句，可以估計本段講vintage 的意思和爭議：vintage 指單一年份葡萄製成的酒；若該年被視為好年份，酒瓶可能被留作日後飲用；但 wine appreciation 並非精確科學，所以特定 vintage 常引發 speculation 和disagreement。"
+      },
+      {
+        "number": "8",
+        "summary": "首句說接下來進入 wine assessment 和 descriptive terminology 的豐富世界。末句用 “Cheers!”收尾，並帶有諷刺語氣，暗示 wine lovers 可能迷戀的其實是可以用 jargon 炫耀。只看首尾句，可以估計本段講品酒詞彙：aromas、flavours、textures、aftertastes 需要一套共同語言，但作者後半用 conceited connoisseur、purple prose、posture pretentiously 等詞，表達對過度術語化的負面態度。"
+      }
+    ]
+  },
+  "sourceNotes": [
+    "第 8 題有一個小小文本形式問題：原文是 “respected by serious wine drinkers”，題目句式是",
+    "“Drinkers of wine ___ this”，所以答案要按題目文法寫成 respect。嚴格說，它是由原文 respected作語法調整而來。"
+  ]
+}
