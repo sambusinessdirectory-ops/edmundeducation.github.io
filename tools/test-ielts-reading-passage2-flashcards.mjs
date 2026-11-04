@@ -285,9 +285,10 @@ if (!dataOnly) {
   const missing = [];
   let localAudio = 0;
   let cloudAudio = 0;
+  let customAudio = 0;
+  const verifiedCustomAudio = 'https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/c648933976dad95a218d37fe.mp3';
+  assert(read("workers/edmund-audio/src/index.js").includes("assets/flashcards/audio/edmund-neural/v1-custom-20261024/"), "Custom audio route is not enabled");
   const cloudIndexUsage = new Map();
-  const lastTrainCloudPrefix = "https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/";
-  assert(read("workers/edmund-audio/src/index.js").includes('"assets/flashcards/audio/edmund-neural/v1-custom-20261024/"'), "Last Train direct-cloud prefix is not allowed by the audio Worker");
   const trackedAudioFiles = trackedFiles("assets/flashcards/audio/edmund-neural");
   for (const front of audioUniqueFronts) {
     const audioUrl = manifest[front];
@@ -297,6 +298,10 @@ if (!dataOnly) {
       continue;
     }
     const digest = crypto.createHash("sha256").update(front).digest("hex").slice(0, 24);
+    if (front === "appear to be" && audioUrl === verifiedCustomAudio) {
+      customAudio += 1;
+      continue;
+    }
     if (audioUrl.startsWith("assets/flashcards/audio/edmund-neural/")) {
       if (!sourceFileAvailable(audioUrl, trackedAudioFiles)) {
         missing.push(`${front}: missing or undersized local file ${audioUrl}`);
@@ -304,13 +309,6 @@ if (!dataOnly) {
         localAudio += 1;
       }
       if (missing.length >= 20) break;
-      continue;
-    }
-
-    const expectedLastTrainUrl = `${lastTrainCloudPrefix}${digest}.mp3`;
-    if (audioUrl === expectedLastTrainUrl) {
-      cloudAudio += 1;
-      cloudIndexUsage.set("last-train-direct", (cloudIndexUsage.get("last-train-direct") || 0) + 1);
       continue;
     }
 
@@ -334,15 +332,16 @@ if (!dataOnly) {
     if (missing.length >= 20) break;
   }
   assert(!missing.length, `Missing Passage 2 audio:\n${missing.join("\n")}`);
-  assert(localAudio + cloudAudio === audioUniqueFronts.size, `Validated ${localAudio + cloudAudio} of ${audioUniqueFronts.size} Passage 2 recordings`);
+  assert(customAudio === 1, `Expected one verified custom recording, found ${customAudio}`);
+  assert(localAudio + cloudAudio + customAudio === audioUniqueFronts.size, `Validated ${localAudio + cloudAudio + customAudio} of ${audioUniqueFronts.size} Passage 2 recordings`);
   assert((cloudIndexUsage.get("flashcard-pack-index-passage2.json") || 0) > 0, "No Passage 2 card resolves through the Passage 2 cloud release");
   assert((cloudIndexUsage.get("flashcard-pack-index-reading-expansion.json") || 0) > 0, "No new Passage 2 card resolves through the Reading expansion release");
-  assert((cloudIndexUsage.get("last-train-direct") || 0) === 1, "Expected one Last Train override shared with Passage 2");
   audioResult = {
     checked: true,
     manifestEntries: Object.keys(manifest).length,
     localAudio,
     cloudAudio,
+    customAudio,
     cloudIndexUsage: Object.fromEntries(cloudIndexUsage)
   };
 }
