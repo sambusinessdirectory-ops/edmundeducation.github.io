@@ -210,8 +210,13 @@
       "tools/test-theme-finder.mjs"
     ],
     "[release-gate-repair]": [
+      "tools/test-business-concepts-book1-flashcards.mjs",
       "tools/test-eddie-farm.mjs",
-      "tools/test-ielts-reading-passage*-flashcards.mjs"
+      "tools/test-flashcard-expansion-20260801-ui.mjs",
+      "tools/test-government-civics-book*-flashcards.mjs",
+      "tools/test-hkfsd-*-flashcards.mjs",
+      "tools/test-ielts-reading-passage*-flashcards.mjs",
+      "tools/test-ielts-writing-task1-audio.mjs"
     ],
     "[country-spelling-release]": [
       "country-name-spelling-audio/**",

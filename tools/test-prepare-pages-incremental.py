@@ -106,7 +106,6 @@ class PreparePagesIncrementalTests(unittest.TestCase):
     def test_sensitive_publication_rules_require_full_build(self):
         for path in (
             "paper3/reader-batch.zip",
-            "tools/rewrite-pages-assets.py",
             "ielts-reading-analysis-availability.js",
             "ielts-reading-analysis-data/locked.json",
             "workers/edmund-site-assets/src/site-pack-index-v1.json",
@@ -119,6 +118,8 @@ class PreparePagesIncrementalTests(unittest.TestCase):
             ".github/workflows/pages.yml",
             "paper3/2013-b1/index.html",
             "paper3/2023-b2/curation/lesson.js",
+            "tools/prepare-pages-incremental.py",
+            "tools/rewrite-pages-assets.py",
         ):
             with self.subTest(path=path):
                 self.assertFalse(module.requires_full(path))

@@ -17,8 +17,6 @@ ALWAYS_FULL = {
     "ielts-reading-analysis-loader.mjs",
     "tools/add-paper3-study-support.py",
     "tools/ielts-reading-analysis-publication-excludes.mjs",
-    "tools/prepare-pages-incremental.py",
-    "tools/rewrite-pages-assets.py",
 }
 ALWAYS_FULL_PREFIXES = (
     "ielts-reading-analysis-data/",

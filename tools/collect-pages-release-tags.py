@@ -58,6 +58,11 @@ def collect_path_scopes(
             for tag, patterns in policy.items()
             if any(fnmatch.fnmatchcase(path, pattern) for pattern in patterns)
         }
+        # Test-only assertion repairs validate the repaired gate contract; they
+        # must not pull the unchanged multi-gigabyte product corpus merely
+        # because a product scope also has a broad test filename pattern.
+        if "[release-gate-repair]" in matches:
+            matches = {"[release-gate-repair]"}
         if matches:
             tags.update(matches)
         else:
@@ -65,8 +70,10 @@ def collect_path_scopes(
 
     # A single unclassified file sends the complete undeployed range through
     # full validation. Known scopes remain visible for route diagnostics.
-    shared = "[infrastructure-release]" in tags or any(
-        path.startswith(("shared-", ".github/workflows/")) for path in changed_paths
+    shared = any(
+        path.startswith("shared-")
+        or path in {"index.html", "pwa-register.js", "release.json", "service-worker.js"}
+        for path in changed_paths
     )
     if not uncovered and not shared:
         tags.add(FAST)

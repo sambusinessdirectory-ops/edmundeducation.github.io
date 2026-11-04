@@ -76,11 +76,31 @@ tools/test-schedule-system.mjs
         self.assertIn("[listening-types-release]", tags)
         self.assertNotIn("[listening-release]", tags)
 
-    def test_shared_change_mixed_with_page_uses_full_build(self):
-        for shared in ("service-worker.js", "shared-companion.mjs", ".github/workflows/pages.yml"):
+    def test_public_shared_change_mixed_with_page_uses_full_build(self):
+        for shared in ("service-worker.js", "shared-companion.mjs"):
             tags, _ = module.collect_path_scopes(["literary-device.html", shared], self.policy)
             self.assertIn("[literary-release]", tags)
             self.assertNotIn("[fast-deploy]", tags)
+
+    def test_tested_build_infrastructure_keeps_the_focused_route(self):
+        paths = [
+            ".github/workflows/pages.yml",
+            "tools/prepare-pages-incremental.py",
+            "tools/rewrite-pages-assets.py",
+        ]
+        tags, uncovered = module.collect_path_scopes(paths, self.policy)
+        self.assertEqual(uncovered, [])
+        self.assertEqual(tags, "[fast-deploy] [infrastructure-release]")
+
+    def test_verified_audio_pin_repairs_use_the_test_only_gate(self):
+        paths = [
+            "tools/test-government-civics-book1-flashcards.mjs",
+            "tools/test-hkfsd-incident-report-flashcards.mjs",
+            "tools/test-ielts-writing-task1-audio.mjs",
+        ]
+        tags, uncovered = module.collect_path_scopes(paths, self.policy)
+        self.assertEqual(uncovered, [])
+        self.assertEqual(tags, "[fast-deploy] [release-gate-repair]")
 
     def test_homework_assets_and_worker_changes_keep_the_focused_route(self):
         paths = [

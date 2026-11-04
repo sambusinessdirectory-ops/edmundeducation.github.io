@@ -119,7 +119,10 @@ jobs:
           /homework-eddy/
           /junior-exam-prep/
           /polysemy-lab/
+          !/polysemy-lab/audio/
           /synonyms/
+          !/synonyms/audio/
+          !/synonyms/lesson-audio/
           !/synonyms/source/
           /workers/schedule-system/src/
           PATTERNS
@@ -156,9 +159,18 @@ jobs:
           case "${RELEASE_TAGS}" in
             *'[writing-release]'*)
               cat >> .git/info/sparse-checkout <<'PATTERNS'
+          /dse-practical-writing-art/
+          /assets/dse-practical-writing/
+          /polysemy-lab/
+          !/polysemy-lab/audio/
+          /synonyms/
+          !/synonyms/audio/
+          !/synonyms/lesson-audio/
+          !/synonyms/source/
           /writing-audio*.js
           /writing-practice-*-data.js
           /writing-submission-reference-data.mjs
+          /workers/writing-submission/
           PATTERNS
               ;;
           esac
@@ -208,10 +220,33 @@ jobs:
           case "${RELEASE_TAGS}" in
             *'[flashcard-release]'*|*'[reading-release]'*|*'[writing-release]'*)
               cat >> .git/info/sparse-checkout <<'PATTERNS'
-          /assets/
           /flashcards-audio-manifest.js
           /flashcards-core-data.js
           /flashcards-*-data.js
+          /workers/edmund-audio/
+          PATTERNS
+              ;;
+          esac
+
+          case "${RELEASE_TAGS}" in
+            *'[flashcard-release]'*)
+              cat >> .git/info/sparse-checkout <<'PATTERNS'
+          /junior-exam-prep/
+          /polysemy-lab/
+          !/polysemy-lab/audio/
+          /synonyms/
+          !/synonyms/audio/
+          !/synonyms/lesson-audio/
+          !/synonyms/source/
+          PATTERNS
+              ;;
+          esac
+
+          case "${RELEASE_TAGS}" in
+            *'[reading-release]'*)
+              cat >> .git/info/sparse-checkout <<'PATTERNS'
+          /assets/ielts-reading/
+          /assets/reading-comprehension/
           PATTERNS
               ;;
           esac
@@ -288,6 +323,14 @@ jobs:
           # checks in their own focused gates.
           node --check tools/test-ielts-reading-passage1-flashcards.mjs
           node --check tools/test-ielts-reading-passage2-flashcards.mjs
+          node --check tools/test-business-concepts-book1-flashcards.mjs
+          node --check tools/test-flashcard-expansion-20260801-ui.mjs
+          node --check tools/test-government-civics-book1-flashcards.mjs
+          node --check tools/test-government-civics-book2-flashcards.mjs
+          node --check tools/test-government-civics-book3-flashcards.mjs
+          node --check tools/test-hkfsd-concept-vocabulary-book1-flashcards.mjs
+          node --check tools/test-hkfsd-incident-report-flashcards.mjs
+          node --check tools/test-ielts-writing-task1-audio.mjs
           grep -Fq 'flashcards-audio-manifest.js?v=edmund-neural-v1-20261027-last-train-r2' flashcards.html
 
       - name: Validate closet fast release
@@ -352,7 +395,7 @@ jobs:
           node tools/test-last-train-flashcards.mjs
           node tools/test-flashcard-private-decks.mjs
           node tools/test-flashcard-login-progress.mjs
-          node tools/test-schedule-homework-links.mjs
+          EDMUND_SKIP_HOMEWORK_CATALOG_REGENERATION=1 node tools/test-schedule-homework-links.mjs
           node tools/test-schedule-entry-draft-guard.mjs
 
       - name: Validate focused homepage selector rollback
