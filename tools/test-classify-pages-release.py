@@ -24,9 +24,14 @@ class ClassifyPagesReleaseTests(unittest.TestCase):
         self.assertEqual(
             module.classify(
                 [
+                    ".github/workflows/pages-paper3-fast.yml",
                     "paper3/2023-b2/curation/index.html",
                     "tools/paper3/layouts/2023-b2-page-03.html",
                     "tools/build-2023-b2-reader.py",
+                    "tools/check-2023-b2-v7.cjs",
+                    "tools/classify-pages-release.py",
+                    "tools/manuals/build-paper3-super-curation-golden-manual-v7.py",
+                    "tools/test-classify-pages-release.py",
                 ]
             ),
             "paper3",
@@ -40,7 +45,7 @@ class ClassifyPagesReleaseTests(unittest.TestCase):
             "standard",
         )
 
-    def test_workflow_and_publication_changes_use_standard_builder(self):
+    def test_non_paper3_workflow_and_publication_changes_use_standard_builder(self):
         for path in (
             ".github/workflows/pages.yml",
             "tools/rewrite-pages-assets.py",

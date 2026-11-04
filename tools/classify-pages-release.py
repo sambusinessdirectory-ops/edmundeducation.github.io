@@ -12,9 +12,14 @@ SITE_PREFIXES = ("homepage-",)
 SITE_SUFFIXES = (".webp", ".png", ".jpg", ".jpeg")
 
 PAPER3_FILES = {
+    ".github/workflows/pages-paper3-fast.yml",
     "tools/add-paper3-study-support.py",
     "tools/build-2023-b2-reader.py",
     "tools/check-2023-b2-entry.cjs",
+    "tools/check-2023-b2-v7.cjs",
+    "tools/classify-pages-release.py",
+    "tools/manuals/build-paper3-super-curation-golden-manual-v7.py",
+    "tools/test-classify-pages-release.py",
     "tools/validate-2023-b2-verbatim.mjs",
 }
 PAPER3_PREFIXES = ("paper3/", "tools/paper3/")
