@@ -81,6 +81,19 @@ mark.reject.target{background-image:linear-gradient(#c7222c,#c7222c)!important;b
 
 /* The guide already exposes Help beside Back and Next. */
 body.cur23-open .learning-question-launcher{display:none!important}
+
+/* V3 motion adapters: 2023 keeps its native DOM but uses the canonical 2025 states. */
+.paper-page mark.curation-mark{transition:background .4s ease,box-shadow .4s ease,outline-color .25s ease}
+.paper-page mark.curation-mark:hover,.paper-page mark.curation-mark:focus-visible{outline:2px solid #329889;outline-offset:3px}
+#turns .curation-transcript-sentence{border-radius:3px;transition:background-color .35s ease,box-shadow .25s ease}
+#turns .curation-transcript-sentence.curation-target{box-shadow:0 0 0 3px #fff2a8}
+.curation-active .curation-transcript-sentence.is-revealed.curation-transcript-B{background:#ffe486;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+#turns .curation-transcript-strike-direct.is-revealed{background-image:linear-gradient(90deg,#c7222c,#c7222c);background-repeat:no-repeat;background-position:left 56%;background-size:100% 3px;transition:background-size .85s cubic-bezier(.2,.8,.2,1)}
+dialog.curation-source-preview{margin:0;max-width:none;max-height:none;padding:0}
+dialog.curation-source-preview[open]{display:block}
+dialog.curation-source-preview .curation-source-preview-body{padding:0}
+.curation-note-ink-frame>.curation-note-ink-used{margin:10px 14px;padding:8px 10px;background-color:#eef5fb;border-radius:6px;color:#173e5b;font-weight:750}
+@media(prefers-reduced-motion:reduce){.paper-page mark.curation-mark,#turns .curation-transcript-sentence,#turns .curation-transcript-strike.is-revealed{transition:none!important}}
 /* Keep the explanation and save controls reachable on short screens. */
 @media(max-width:620px){
   .curation-dock{overflow-y:auto;overscroll-behavior:contain}
