@@ -16,5 +16,8 @@ GitHub Pages releases are coordinated by
 - After publication, `pages-snapshot` records the deployed artifact and source
   SHA. Ordinary content changes are applied to that snapshot as a delta, while
   workflow, Paper 3, and R2-index changes intentionally request a full rebuild.
+- Live SHA verification runs inside the publisher alongside the snapshot update,
+  so it uses the same publication-slot decision and cannot be skipped by a
+  missing reusable-workflow output in the coordinator.
 
 The release regression gate is `tools/test-pages-release-coordinator.py`.

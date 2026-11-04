@@ -123,3 +123,25 @@ jobs:
           mkdir deployed-site
           tar -xf prepared-pages/artifact.tar -C deployed-site
           bash release-source/tools/update-pages-snapshot.sh deployed-site "${GITHUB_SHA}"
+
+  verify-live:
+    needs: publish
+    if: needs.publish.outputs.current == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Verify the coordinated release is live
+        shell: bash
+        run: |
+          set -euo pipefail
+          release_url="https://edmundeducation.com/release.json?release=${GITHUB_SHA}"
+          for attempt in {1..60}; do
+            release=$(curl --fail --silent --show-error -H 'Cache-Control: no-cache' "${release_url}" || true)
+            if grep -Fq "${GITHUB_SHA}" <<<"${release}"; then
+              echo "Verified coordinated release ${GITHUB_SHA}."
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Production did not expose coordinated release ${GITHUB_SHA}." >&2
+          exit 1

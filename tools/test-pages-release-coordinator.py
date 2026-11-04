@@ -118,6 +118,12 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("cancel-in-progress: false", PUBLISHER)
         self.assertNotIn("group: pages-candidate-main", PUBLISHER)
 
+    def test_live_verification_runs_inside_the_publisher(self):
+        self.assertIn("verify-live:", PUBLISHER)
+        self.assertIn("Verify the coordinated release is live", PUBLISHER)
+        self.assertIn("needs.publish.outputs.current == 'true'", PUBLISHER)
+        self.assertNotIn("verify-live:", COORDINATOR)
+
     def test_publisher_allows_only_forward_main_lineage_releases(self):
         self.assertIn("ref: 'pages-snapshot'", PUBLISHER)
         self.assertIn("`${deployedSha}...${context.sha}`", PUBLISHER)
