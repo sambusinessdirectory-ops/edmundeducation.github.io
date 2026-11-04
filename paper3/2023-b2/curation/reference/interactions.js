@@ -516,14 +516,16 @@
   // Annotate the reconstructed source, preserving its original text and page order.
   const requirementPoints = new Map([
     ['show our support','1'],['acknowledge and explain William’s mistake','2'],['explain the misunderstandings','3'],
-    ['Three courses will be enough','1'],['explain how their work will benefit from each one','2'],
+    ['Three courses will be enough','1'],['briefly describe the three courses staff should sign up for','2'],['explain how their work will benefit from each one','3'],
     ['Make sure you have the most up-to-date information in your script.','1']
   ]);
   const initialRoutes = new Map([
     ['see the article from Big Cheese Celebrity Food Gossip',[5,'A']],
     ['present his side of the story',[7,'A']],
-    ['Corporate Training Intranet page, along with reviews',[9,'B']],
-    ['script for the promotional video',[6,'C']],
+    ['Dante Cruz’s most recent email sets the scene',[8,'B']],
+    ['Corporate Training Intranet page',[9,'B']],
+    ['reviews from previous participants',[10,'B']],
+    ['draft of the storyboard for the video, along with comments from Dante',[6,'C']],
     ['both William and Dante giving some updates',[8,'C']]
   ]);
   const discoveredStamps=new Map([
@@ -535,8 +537,8 @@
     const tasks = new Set();
     const bossLimit = rows[i].stage > 0 ? rows.filter(r => r.stage === 0).length-1 : i;
     rows.slice(0,bossLimit+1).filter(r => r.stage === 0).forEach(r => {
-      if (page === 4 && r.t >= 1 && r.t <= 3) tasks.add('ABC'[r.t-1]);
-      const route = initialRoutes.get(r.q);if (route?.[0] === page) tasks.add(route[1]);
+      if (page === 4 && (r.task || r.t >= 1 && r.t <= 3)) tasks.add(r.task || 'ABC'[r.t-1]);
+      for(const [cue,route] of initialRoutes)if(r.q.includes(cue)&&route[0]===page&&route[1])tasks.add(route[1]);
     });
     rows.forEach((r,index) => {
       if (r.stage !== 1 || r.leaf !== page || (rows[i].stage === 1 && index > i) || rows[i].stage < 1) return;
@@ -554,7 +556,7 @@
     for (const mark of marks) {
       const candidate = rows[Number(mark.dataset.stepIndex)];
       if (candidate) {
-        const point = requirementPoints.get(candidate.q);
+        const point = mark.dataset.point || requirementPoints.get(mark.dataset.phrase || candidate.q);
         if (page === 4 && point) {mark.classList.add('cur23-boss-point');mark.dataset.point=point;}
         if (page === 4 && candidate.t === 5) mark.classList.add('cur23-boss-hint');
         mark.dataset.stepIndex = String(rows.indexOf(candidate));mark.tabIndex=0;
@@ -562,6 +564,9 @@
       }
     }
     if (page === 4) {
+      for(const sentence of article.querySelectorAll('.curation-boss-sentence[data-step-index]')){
+        const candidate=rows[Number(sentence.dataset.stepIndex)];sentence.tabIndex=0;sentence.setAttribute('role','button');sentence.setAttribute('aria-label',`回到導覽步驟：${candidate?.q||sentence.textContent}`);
+      }
       for (const p of article.querySelectorAll('.email-content p[lang="en"]')) {
         const text = p.textContent;
         const task = text.startsWith('I need you to write the announcement')?'A':text.startsWith('I also need you to write an email')?'B':text.startsWith('Next, please write the script')?'C':null;
@@ -586,12 +591,12 @@
       stampCache.set(page,tasks);
     }
     article.onclick = event => {
-      const mark = event.target.closest('mark[data-step-index]');
+      const mark = event.target.closest('[data-step-index]');
       if (mark) jump23(Number(mark.dataset.stepIndex));
     };
     article.onkeydown = event => {
       if (!['Enter',' '].includes(event.key)) return;
-      const mark = event.target.closest('mark[data-step-index]');
+      const mark = event.target.closest('[data-step-index]');
       if (mark) {event.preventDefault();jump23(Number(mark.dataset.stepIndex));}
     };
   }

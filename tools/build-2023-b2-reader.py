@@ -19,4 +19,11 @@ def embed(match):
     return f'<script data-reader-source="{name}">\n{source.rstrip()}\n</script>'
 
 
-index.write_text(scripts.sub(embed, index.read_text()))
+html = index.read_text()
+boss_tag = '<script data-reader-source="boss-letter.js"></script>'
+meeting_tag = '<script data-reader-source="meeting-data.js">'
+if 'data-reader-source="boss-letter.js"' not in html:
+    if meeting_tag not in html:
+        raise ValueError("Missing meeting-data.js script anchor")
+    html = html.replace(meeting_tag, boss_tag + meeting_tag, 1)
+index.write_text(scripts.sub(embed, html))

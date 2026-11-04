@@ -21,9 +21,33 @@ async function checkReader() {
     const next = page.locator('#curation-next');
     const counter = page.locator('#curation-step-jump');
     await counter.waitFor();
-    assert.match(await counter.innerText(), /1 \/ 16/);
+    assert.match(await counter.innerText(), /1 \/ 21/);
+    const bossAudit = await page.evaluate(() => {
+      const boss = rows.filter(row => row.stage === 0);
+      const page4 = boss.filter(row => row.leaf === 4);
+      const find = quote => page4.find(row => row.q === quote);
+      return {
+        total: boss.length,
+        page4: page4.length,
+        sourceComplete: page4.every(row => nativePages23[3].includes(row.q)),
+        taskA: find('I need you to write the announcement for our website to show our support for Teen NetChef TV star William Puddle.')?.marks,
+        danteRoute: [...routes].find(([cue]) => find('Dante Cruz’s most recent email sets the scene for this, so take a look at that first.')?.q.includes(cue))?.[1],
+        taskB: find('Three courses will be enough: briefly describe the three courses staff should sign up for (I think it’s pretty clear which three stand out) and explain how their work will benefit from each one.')?.marks,
+        taskC: find('Next, please write the script for the promotional video for our new cookery show Viewer’s Choice.')?.marks,
+        storyboardRoute: [...routes].find(([cue]) => find('I’ve sent you a draft of the storyboard for the video, along with comments from Dante, so you know what to write about.')?.q.includes(cue))?.[1],
+      };
+    });
+    assert.equal(bossAudit.total,21);
+    assert.equal(bossAudit.page4,20);
+    assert.equal(bossAudit.sourceComplete,true);
+    assert.deepEqual(bossAudit.taskA.map(mark => mark[0]),['announcement for our website','show our support','Teen NetChef TV','William Puddle']);
+    assert.equal(bossAudit.danteRoute,8);
+    assert.deepEqual(bossAudit.taskB.map(mark => [mark[0],mark[2]]),[['Three courses will be enough','1'],['briefly describe the three courses staff should sign up for','2'],['explain how their work will benefit from each one','3']]);
+    assert(bossAudit.taskC.some(mark => mark[0] === 'Viewer’s Choice'));
+    assert.equal(bossAudit.storyboardRoute,6);
     await next.click();
     assert(await page.locator('.source #page-4').isVisible());
+    await next.click();
     await next.click();
     await next.click();
     await next.click();
