@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "scopes": {
+    "[infrastructure-release]": [
+      ".github/workflows/pages*.yml",
+      ".github/workflows/publish-pages-artifact.yml",
+      "index.html",
+      "pwa-register.js",
+      "release.json",
+      "service-worker.js",
+      "shared-system-nav.css",
+      "shared-system-nav.js",
+      "tools/classify-pages-release.py",
+      "tools/collect-pages-release-tags.py",
+      "tools/pages-release-scopes.json",
+      "tools/prepare-pages-incremental.py",
+      "tools/rewrite-pages-assets.py",
+      "tools/test-classify-pages-release.py",
+      "tools/test-collect-pages-release-tags.py",
+      "tools/test-pages-release-coordinator.py",
+      "tools/test-prepare-pages-incremental.py",
+      "tools/test-rewrite-pages-assets.py",
+      "tools/update-pages-snapshot.sh"
+    ],
+    "[classroom-release]": [
+      "classroom-*",
+      "supabase/migrations/*classroom*",
+      "tools/test-classroom-*.mjs",
+      "workers/classroom*/**"
+    ],
+    "[coin-release]": [
+      "eddie-farm-*",
+      "eddie-farm.*",
+      "eddy-carrot-patch/**",
+      "edmund-coins/**",
+      "shared-companion.mjs",
+      "supabase/migrations/*eddie_farm*",
+      "tools/test-character-coins.mjs",
+      "workers/eddie-farm/**"
+    ],
+    "[flashcard-release]": [
+      "flashcard-*",
+      "flashcards-*",
+      "flashcards.*",
+      "pronunciation-checker.js",
+      "tools/build-flashcard-*.mjs",
+      "tools/test-flashcard-*.mjs",
+      "tools/test-pronunciation-gating.mjs",
+      "workers/edmund-audio/**"
+    ],
+    "[sentence-release]": [
+      "sentence-structure-*",
+      "sentence-structure.*",
+      "supabase-sentence-structure*.sql",
+      "tools/build-sentence-structure-*.mjs",
+      "tools/generate-sentence-structure-*.mjs",
+      "tools/test-sentence-structure-*.mjs",
+      "workers/sentence-structure/**"
+    ],
+    "[phrasal-release]": [
+      "phrasal-verb-*",
+      "phrasal-verb.*",
+      "supabase-phrasal-verb-*.sql",
+      "tools/build-phrasal-verb-*.mjs",
+      "tools/generate-phrasal-verb-*.mjs",
+      "tools/test-phrasal-*.mjs",
+      "workers/phrasal-verb-system/**"
+    ],
+    "[proverb-release]": [
+      "proverb-*",
+      "supabase-proverb-*.sql",
+      "tools/build-proverb-*.mjs",
+      "tools/generate-proverb-*.mjs",
+      "tools/test-proverb-*.mjs",
+      "workers/proverb-system/**"
+    ],
+    "[idiom-release]": [
+      "idiom-*",
+      "supabase-idiom-*.sql",
+      "tools/build-idiom-*.mjs",
+      "tools/generate-idiom-*.mjs",
+      "tools/test-idiom-*.mjs",
+      "workers/idiom-system/**"
+    ],
+    "[speaking-release]": [
+      "speaking-*",
+      "tools/test-professional-discussion-timing.mjs"
+    ],
+    "[writing-release]": [
+      "essay-memorization.*",
+      "writing-practice-*",
+      "writing-practice.*",
+      "writing-submission.*",
+      "tools/audit-essay-memory-release.mjs",
+      "tools/test-essay-*.mjs",
+      "tools/test-writing-*.mjs",
+      "workers/writing-submission/**"
+    ],
+    "[polysemy-release]": [
+      "polysemy-lab/**",
+      "tools/test-polysemy-*.mjs"
+    ],
+    "[synonyms-release]": [
+      "synonyms/**",
+      "tools/test-synonym-*.py",
+      "tools/test-writing-synonyms.mjs"
+    ],
+    "[grammar-release]": [
+      "course-materials/grammar/**",
+      "grammar-*",
+      "tools/build-grammar-*.py",
+      "tools/test-grammar-*.mjs"
+    ],
+    "[native-release]": [
+      "advanced-native-*",
+      "natural-english/**",
+      "natural-english.*",
+      "native-english-*",
+      "tools/build-advanced-native-*.mjs",
+      "tools/check-native-*.mjs",
+      "tools/test-advanced-native.mjs",
+      "tools/test-natural-english-*.mjs",
+      "tools/test-native-*.mjs"
+    ],
+    "[italian-release]": [
+      "italian-*",
+      "tools/test-italian-*.mjs",
+      "tools/test-language-editions.mjs"
+    ],
+    "[reading-release]": [
+      "dse-reading-*",
+      "ielts-reading-*",
+      "reading-*",
+      "tools/generate-ielts-reading-question-types.mjs",
+      "tools/test-dse-reading-*.mjs",
+      "tools/test-ielts-reading-analysis*.mjs",
+      "tools/test-ielts-reading-passage3-*.mjs",
+      "tools/test-ielts-reading-question-types.mjs",
+      "tools/test-reading-*.mjs"
+    ],
+    "[listening-release]": [
+      "assets/listening/**",
+      "dse-listening-20??-data.js",
+      "dse-listening-20??-paper-layout.mjs",
+      "dse-listening-20??-transcript.js",
+      "dse-listening-image-manifest.mjs",
+      "dse-listening-images.mjs",
+      "dse-listening-original-paper.*",
+      "dse-listening-question-ui.mjs",
+      "dse-listening-study.mjs",
+      "dse-super-curation.mjs",
+      "ielts-super-curation.mjs",
+      "listening-harp-rose-login-frame-*.webp",
+      "listening-system-catalog.js",
+      "listening-system.css",
+      "tools/test-dse-listening-20??-*.mjs",
+      "tools/test-dse20??-super-curation.mjs",
+      "tools/test-ielts-*-curation.mjs"
+    ],
+    "[professional-release]": [
+      "professional-english/**",
+      "tools/test-professional-*.mjs"
+    ],
+    "[junior-release]": [
+      "junior-exam-prep-*.html",
+      "junior-exam-prep/**",
+      "junior-exam-prep.html",
+      "junior-quiz-review/**",
+      "supabase-junior-*.sql",
+      "tools/test-junior-*.mjs"
+    ],
+    "[irregular-release]": [
+      "irregular-verbs/**",
+      "tools/test-irregular-verbs.mjs"
+    ],
+    "[news-release]": [
+      "news-discussion-*",
+      "news-discussion.*",
+      "policy-discussion/**",
+      "tools/build-policy-discussion.py"
+    ],
+    "[dse-arguments-release]": [
+      "dse-argument-bank/**",
+      "tools/build-dse-*-bank.py",
+      "tools/test-dse-argument-*.mjs",
+      "tools/verify-dse-speaking-import.py"
+    ],
+    "[song-release]": [
+      "song-*",
+      "tools/check-song-quality.mjs",
+      "tools/song-content/**",
+      "tools/test-song-*.mjs"
+    ],
+    "[writing-preview-release]": [
+      "ielts-writing-preview/**",
+      "ielts-writing-preview.*",
+      "tools/test-ielts-writing-preview.mjs"
+    ],
+    "[chart-release]": [
+      "ielts-chart-teaching/**",
+      "tools/build-ielts-chart-vocabulary.py",
+      "tools/test-ielts-chart-*.mjs",
+      "tools/test-ielts-vocabulary.mjs"
+    ],
+    "[study-release]": [
+      "junior-text-highlighter.mjs",
+      "study-highlighter-bootstrap.mjs",
+      "theme-finder.*",
+      "tools/test-study-highlighter.mjs",
+      "tools/test-theme-finder.mjs"
+    ],
+    "[release-gate-repair]": [
+      "tools/test-eddie-farm.mjs",
+      "tools/test-ielts-reading-passage*-flashcards.mjs"
+    ],
+    "[country-spelling-release]": [
+      "country-name-spelling-audio/**",
+      "country-name-spelling*.css",
+      "country-name-spelling*.html",
+      "country-name-spelling*.mjs",
+      "tools/generate-country-name-spelling-audio.py",
+      "tools/test-country-name-spelling*.mjs"
+    ],
+    "[error-id-release]": [
+      "error-identifier-*",
+      "supabase/migrations/*error_identifier*",
+      "supabase/migrations/*indefinite_pronouns*",
+      "tools/test-error-identifier-*.mjs",
+      "tools/test-indefinite-pronouns-import.mjs"
+    ],
+    "[homework-release]": [
+      "homework-resource-catalog.mjs",
+      "schedule-*",
+      "tools/generate-homework-resource-catalog.mjs",
+      "tools/test-homework-*.mjs",
+      "tools/test-schedule-*.mjs"
+    ],
+    "[listening-types-release]": [
+      "dse-listening-question-types.*",
+      "listening-question-types.mjs",
+      "listening-system.html",
+      "listening-system.js",
+      "question-type-finder.*",
+      "tools/dse-listening-question-type-overrides.json",
+      "tools/generate-dse-listening-question-types.mjs",
+      "tools/test-dse-listening-question-types*.mjs"
+    ],
+    "[literary-release]": ["literary-device-*", "literary-device.*"],
+    "[paper3-release]": [
+      "paper3/**",
+      "tools/build-2023-b2-reader.py",
+      "tools/check-2023-b2-*.cjs",
+      "tools/manuals/build-paper3-*.py",
+      "tools/paper3/**"
+    ],
+    "[practical-writing-release]": [
+      "assets/dse-practical-writing/**",
+      "dse-practical-writing.*",
+      "tools/test-dse-practical-writing*.mjs"
+    ]
+  }
+}
