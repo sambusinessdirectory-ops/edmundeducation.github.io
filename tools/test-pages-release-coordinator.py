@@ -48,16 +48,33 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("Batch nearby pushes before expensive work", COORDINATOR)
         self.assertIn("sleep 15", COORDINATOR)
 
-    def test_started_builds_are_not_cancelled_by_later_pushes(self):
-        build_jobs = COORDINATOR.split("\n  standard:", 1)[1].split("\n  publish:", 1)[0]
-        self.assertNotIn("concurrency:", build_jobs)
-        self.assertNotIn("cancel-in-progress", build_jobs)
+    def test_newest_push_supersedes_obsolete_builds_across_every_route(self):
+        for workflow in BUILDERS:
+            self.assertEqual(workflow.count("group: pages-build-main"), 1)
+            self.assertEqual(workflow.count("cancel-in-progress: true"), 1)
 
     def test_fast_releases_skip_slow_runner_disk_reclamation(self):
         standard = BUILDERS[0]
         marker = "- name: Reclaim runner disk for the website repository"
         step = standard.split(marker, 1)[1].split("\n      - name:", 1)[0]
         self.assertIn("!contains(inputs.release_tags, '[fast-deploy]')", step)
+
+    def test_fast_releases_use_blobless_sparse_checkout(self):
+        standard = BUILDERS[0]
+        marker = "- name: Fetch focused release files without R2-backed source trees"
+        step = standard.split(marker, 1)[1].split("\n      - name:", 1)[0]
+        self.assertIn("--filter=blob:none", step)
+        self.assertIn("!/*/", step)
+        self.assertIn("git diff --name-only", step)
+        self.assertIn("/assets/dse-practical-writing/", step)
+        self.assertIn("/course-materials/error-identifier/", step)
+
+    def test_full_validation_keeps_complete_checkout(self):
+        standard = BUILDERS[0]
+        marker = "- name: Checkout complete repository"
+        step = standard.split(marker, 1)[1].split("\n      - name:", 1)[0]
+        self.assertIn("!contains(inputs.release_tags, '[fast-deploy]')", step)
+        self.assertIn("actions/checkout@v6", step)
 
     def test_test_only_gate_repairs_do_not_run_unrelated_product_suites(self):
         standard = BUILDERS[0]
@@ -73,6 +90,13 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         step = standard.split(marker, 1)[1].split("\n      - name:", 1)[0]
         self.assertIn("!contains(inputs.release_tags, '[fast-deploy]')", step)
         self.assertIn("contains(inputs.release_tags, '[song-release]')", step)
+
+    def test_focused_homework_gate_skips_only_corpus_regeneration(self):
+        standard = BUILDERS[0]
+        marker = "- name: Validate focused Homework export release"
+        step = standard.split(marker, 1)[1].split("\n      - name:", 1)[0]
+        self.assertIn("EDMUND_SKIP_HOMEWORK_CATALOG_REGENERATION=1", step)
+        self.assertIn("tools/test-schedule-homework-links.mjs", step)
 
     def test_production_deployment_is_not_cancellable(self):
         self.assertIn("group: pages", PUBLISHER)
@@ -105,6 +129,7 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
 
     def test_standard_builder_uses_all_undeployed_release_tags(self):
         standard = BUILDERS[0]
+        self.assertIn("base_sha: ${{ needs.route.outputs.base_sha }}", COORDINATOR)
         self.assertIn("release_tags: ${{ needs.route.outputs.release_tags }}", COORDINATOR)
         self.assertIn("tools/collect-pages-release-tags.py", COORDINATOR)
         self.assertIn("/tools/pages-release-scopes.json", COORDINATOR)

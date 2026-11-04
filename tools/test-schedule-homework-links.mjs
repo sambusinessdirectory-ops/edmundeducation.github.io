@@ -1013,25 +1013,27 @@ assert.ok(
   "the last accepted attachment set must fit the database message limit"
 );
 
-const tempDirectory = await mkdtemp(path.join(tmpdir(), "edmund-homework-catalog-"));
-try {
-  const regenerated = path.join(tempDirectory, "homework-resource-catalog.mjs");
-  const regeneratedAgain = path.join(tempDirectory, "homework-resource-catalog-again.mjs");
-  await execFileAsync(process.execPath, [path.join(toolsDirectory, "generate-homework-resource-catalog.mjs"), "--output", regenerated], { cwd: root });
-  await execFileAsync(process.execPath, [path.join(toolsDirectory, "generate-homework-resource-catalog.mjs"), "--output", regeneratedAgain], { cwd: root });
-  assert.equal(
-    await readFile(regeneratedAgain, "utf8"),
-    await readFile(regenerated, "utf8"),
-    "catalog generation must be byte-for-byte deterministic"
-  );
-  const module = await import(`${pathToFileURL(regenerated).href}?test=${Date.now()}`);
-  assert.deepEqual(
-    module.HOMEWORK_RESOURCE_CATALOG,
-    HOMEWORK_RESOURCE_CATALOG,
-    "tracked local catalog, including labels and URLs, must match the canonical source files"
-  );
-} finally {
-  await rm(tempDirectory, { recursive: true, force: true });
+if (process.env.EDMUND_SKIP_HOMEWORK_CATALOG_REGENERATION !== "1") {
+  const tempDirectory = await mkdtemp(path.join(tmpdir(), "edmund-homework-catalog-"));
+  try {
+    const regenerated = path.join(tempDirectory, "homework-resource-catalog.mjs");
+    const regeneratedAgain = path.join(tempDirectory, "homework-resource-catalog-again.mjs");
+    await execFileAsync(process.execPath, [path.join(toolsDirectory, "generate-homework-resource-catalog.mjs"), "--output", regenerated], { cwd: root });
+    await execFileAsync(process.execPath, [path.join(toolsDirectory, "generate-homework-resource-catalog.mjs"), "--output", regeneratedAgain], { cwd: root });
+    assert.equal(
+      await readFile(regeneratedAgain, "utf8"),
+      await readFile(regenerated, "utf8"),
+      "catalog generation must be byte-for-byte deterministic"
+    );
+    const module = await import(`${pathToFileURL(regenerated).href}?test=${Date.now()}`);
+    assert.deepEqual(
+      module.HOMEWORK_RESOURCE_CATALOG,
+      HOMEWORK_RESOURCE_CATALOG,
+      "tracked local catalog, including labels and URLs, must match the canonical source files"
+    );
+  } finally {
+    await rm(tempDirectory, { recursive: true, force: true });
+  }
 }
 
 const [scheduleHtml, scheduleJs, hotKeysHtml, hotKeysJs, studentTagsSql, flashcards, writing, speaking, sentence, idiom, proverb, phrasalVerb, videoClass, videoClassHtml, workflow] = await Promise.all([

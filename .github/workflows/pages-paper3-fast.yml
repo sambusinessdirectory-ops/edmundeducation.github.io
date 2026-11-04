@@ -16,6 +16,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    concurrency:
+      group: pages-build-main
+      cancel-in-progress: true
     permissions:
       contents: read
       pages: read

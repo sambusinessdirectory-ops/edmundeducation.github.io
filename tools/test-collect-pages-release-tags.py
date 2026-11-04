@@ -82,6 +82,17 @@ tools/test-schedule-system.mjs
             self.assertIn("[literary-release]", tags)
             self.assertNotIn("[fast-deploy]", tags)
 
+    def test_homework_assets_and_worker_changes_keep_the_focused_route(self):
+        paths = [
+            "assets/model-essays/essay-cover.webp",
+            "assets/schedule/weekdays/monday-walking-to-school.webp",
+            "homework-eddy/poster.png",
+            "workers/schedule-system/src/index.js",
+        ]
+        tags, uncovered = module.collect_path_scopes(paths, self.policy)
+        self.assertEqual(uncovered, [])
+        self.assertEqual(tags, "[fast-deploy] [homework-release]")
+
     def test_empty_path_set_is_not_fast(self):
         self.assertEqual(module.collect_path_scopes([], self.policy), ("", []))
 

@@ -90,6 +90,7 @@ jobs:
     if: needs.route.outputs.route == 'standard'
     uses: ./.github/workflows/pages.yml
     with:
+      base_sha: ${{ needs.route.outputs.base_sha }}
       release_tags: ${{ needs.route.outputs.release_tags }}
     permissions:
       actions: write

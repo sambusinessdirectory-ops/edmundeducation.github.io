@@ -13,6 +13,7 @@ from pathlib import Path, PurePosixPath
 ALWAYS_FULL = {
     ".gitmodules",
     "ielts-reading-analysis-availability.js",
+    "paper3/reader-batch.zip",
     "ielts-reading-analysis-loader.mjs",
     "tools/add-paper3-study-support.py",
     "tools/ielts-reading-analysis-publication-excludes.mjs",
@@ -20,9 +21,7 @@ ALWAYS_FULL = {
     "tools/rewrite-pages-assets.py",
 }
 ALWAYS_FULL_PREFIXES = (
-    ".github/workflows/",
     "ielts-reading-analysis-data/",
-    "paper3/",
 )
 R2_INDEX_PREFIX = "workers/edmund-site-assets/src/"
 R2_INDEX_SUFFIX = "-index-v1.json"
