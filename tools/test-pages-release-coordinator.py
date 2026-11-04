@@ -42,7 +42,13 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertEqual(COORDINATOR.count("group: pages-candidate-main"), 4)
         self.assertEqual(COORDINATOR.count("cancel-in-progress: true"), 4)
         self.assertIn("Batch nearby pushes before expensive work", COORDINATOR)
-        self.assertIn("sleep 45", COORDINATOR)
+        self.assertIn("sleep 15", COORDINATOR)
+
+    def test_fast_releases_skip_slow_runner_disk_reclamation(self):
+        standard = BUILDERS[0]
+        marker = "- name: Reclaim runner disk for the website repository"
+        step = standard.split(marker, 1)[1].split("\n      - name:", 1)[0]
+        self.assertIn("!contains(inputs.release_tags, '[fast-deploy]')", step)
 
     def test_production_deployment_is_not_cancellable(self):
         self.assertIn("group: pages", PUBLISHER)
@@ -70,6 +76,7 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         standard = BUILDERS[0]
         self.assertIn("release_tags: ${{ needs.route.outputs.release_tags }}", COORDINATOR)
         self.assertIn("tools/collect-pages-release-tags.py", COORDINATOR)
+        self.assertIn("--paths-file /tmp/pages-release-paths.txt", COORDINATOR)
         self.assertIn("inputs.release_tags", standard)
         self.assertNotIn("github.event.head_commit.message", standard)
         self.assertIn("Validate focused Pages infrastructure release", standard)

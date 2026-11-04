@@ -22,7 +22,7 @@ jobs:
       route: ${{ steps.classify.outputs.route }}
     steps:
       - name: Batch nearby pushes before expensive work
-        run: sleep 45
+        run: sleep 15
 
       - name: Confirm this is still the newest main commit
         uses: actions/github-script@v8
@@ -72,8 +72,10 @@ jobs:
           if git merge-base --is-ancestor "${base_sha}" "${GITHUB_SHA}"; then
             git diff --name-only "${base_sha}" "${GITHUB_SHA}" > /tmp/pages-release-paths.txt
             route=$(python3 tools/classify-pages-release.py /tmp/pages-release-paths.txt)
-            git log --no-merges --format='%B%x00' "${base_sha}..${GITHUB_SHA}" > /tmp/pages-release-messages.txt
-            release_tags=$(python3 tools/collect-pages-release-tags.py /tmp/pages-release-messages.txt)
+            release_tags=$(python3 tools/collect-pages-release-tags.py \
+              --base "${base_sha}" \
+              --target "${GITHUB_SHA}" \
+              --paths-file /tmp/pages-release-paths.txt)
           fi
 
           echo "base_sha=${base_sha}" >> "${GITHUB_OUTPUT}"

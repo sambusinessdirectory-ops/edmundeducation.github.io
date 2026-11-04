@@ -30,6 +30,7 @@ jobs:
 
     steps:
       - name: Reclaim runner disk for the website repository
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         shell: bash
         run: |
           set -euo pipefail
