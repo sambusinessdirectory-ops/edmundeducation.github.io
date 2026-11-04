@@ -376,6 +376,8 @@ jobs:
       - name: Validate focused Writing release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[writing-release]') }}
         run: |
+          node --test tools/test-dse-practical-writing.mjs
+          node --check dse-practical-writing.mjs
           node --check essay-memorization.js
           node tools/test-essay-memory-scaffolding.mjs
           node tools/test-writing-practice-answer-spans.mjs
