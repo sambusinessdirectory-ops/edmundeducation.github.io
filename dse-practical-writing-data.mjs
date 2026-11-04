@@ -565,3 +565,140 @@ export const practiceMissions = [
     }
   }
 ];
+
+const teachingProfiles = {
+  enquiry: {
+    audience: ['An organisation or service provider that can supply precise information.', '能夠提供確實資料的機構或服務供應者。'],
+    register: ['Formal, courteous and specific.', '正式、有禮而具體。'],
+    formatRules: [['Use a formal salutation and sign-off.', '使用正式稱謂及結語。'], ['Group related questions into clear paragraphs.', '把相關問題整理成清晰段落。']],
+    commonErrors: [['Listing questions without context.', '只列出問題，沒有交代背景。'], ['Omitting quantities, dates or constraints.', '遺漏數量、日期或限制。']]
+  },
+  'bad-news-email': {
+    audience: ['A teammate, colleague or familiar recipient affected by the news.', '受壞消息影響的隊友、同事或熟悉的收件人。'],
+    register: ['Tactful, accountable and solution-focused.', '婉轉、負責任，並以解決問題為重點。'],
+    formatRules: [['State the bad news early but gently.', '及早而婉轉地交代壞消息。'], ['Offer a practical alternative or next step.', '提出可行替代方案或下一步。']],
+    commonErrors: [['Hiding the main message for too long.', '太遲才交代主要消息。'], ['Making excuses without offering help.', '只作辯解，沒有提供協助。']]
+  },
+  reply: {
+    audience: ['A person who has requested information or clarification.', '曾提出查詢或要求澄清的人。'],
+    register: ['Responsive, organised and appropriately formal.', '回應清楚、組織有序，正式程度恰當。'],
+    formatRules: [['Answer every question in the same logical order.', '按合理次序回應每項問題。'], ['Make conditions and deadlines explicit.', '清楚列明條件及期限。']],
+    commonErrors: [['Leaving one question unanswered.', '遺漏其中一項問題。'], ['Giving vague conditions or dates.', '條件或日期含糊不清。']]
+  },
+  report: {
+    audience: ['A principal, manager or committee requiring objective findings.', '需要客觀調查結果的校長、主管或委員會。'],
+    register: ['Formal, factual and impersonal.', '正式、客觀而不帶個人情緒。'],
+    formatRules: [['Use a title and informative section headings.', '使用標題及具資訊性的分段標題。'], ['Separate findings, recommendations and conclusion.', '把調查結果、建議及結論分開。']],
+    commonErrors: [['Mixing findings with unsupported opinions.', '把調查結果與欠缺根據的意見混在一起。'], ['Using letter greetings in a report.', '在報告中使用書信稱謂。']]
+  },
+  proposal: {
+    audience: ['A decision-maker who can approve a future plan.', '能夠批准未來計劃的決策者。'],
+    register: ['Formal, persuasive and practical.', '正式、有說服力而務實。'],
+    formatRules: [['Define the need before presenting the plan.', '先說明需要，再提出計劃。'], ['Link each recommendation to a benefit.', '把每項建議連繫至具體效益。']],
+    commonErrors: [['Describing a plan without justifying it.', '只描述計劃，沒有解釋理據。'], ['Ignoring feasibility, cost or implementation.', '忽略可行性、成本或執行方法。']]
+  },
+  'formal-request': {
+    audience: ['A person in authority who can grant a request.', '有權批准請求的人。'],
+    register: ['Formal, respectful and proportionate.', '正式、尊重而語氣恰當。'],
+    formatRules: [['Explain the purpose before making requests.', '提出請求前先說明目的。'], ['Give reasons and practical details for each request.', '為每項請求提供理由及實際資料。']],
+    commonErrors: [['Sounding demanding or entitled.', '語氣過於強硬或理所當然。'], ['Failing to explain why the request matters.', '沒有解釋請求的重要性。']]
+  },
+  'promotional-article': {
+    audience: ['Members of the public or a defined target group.', '公眾或指定目標讀者。'],
+    register: ['Engaging, energetic and informative.', '吸引、有活力而資料充足。'],
+    formatRules: [['Use a compelling headline and opening.', '使用吸引的標題及開首。'], ['Balance vivid benefits with accurate details.', '兼顧生動效益及準確資料。']],
+    commonErrors: [['Producing a list instead of an article.', '把文章寫成資料清單。'], ['Using exaggerated claims unsupported by the task.', '加入題目沒有支持的誇張說法。']]
+  },
+  'invite-spokesperson': {
+    audience: ['A respected individual invited to take a public role.', '獲邀擔任公開角色的合適人士。'],
+    register: ['Warm, respectful and persuasive.', '親切、尊重而有說服力。'],
+    formatRules: [['Explain why the recipient is suitable.', '解釋收件人為何合適。'], ['State duties, schedule and support clearly.', '清楚交代職責、時間及支援。']],
+    commonErrors: [['Praising the recipient without stating the role.', '只讚賞收件人，沒有交代角色。'], ['Omitting practical arrangements.', '遺漏實際安排。']]
+  },
+  'invite-winners': {
+    audience: ['Competition winners or selected participants.', '比賽得獎者或獲選參加者。'],
+    register: ['Celebratory, clear and organised.', '具慶祝氣氛、清楚而有條理。'],
+    formatRules: [['Open with congratulations.', '以祝賀開首。'], ['Present the programme in chronological order.', '按時間先後交代活動流程。']],
+    commonErrors: [['Burying key dates and meeting details.', '把重要日期及集合資料藏在長文中。'], ['Leaving awards or transport arrangements unclear.', '獎項或交通安排交代不清。']]
+  },
+  'informal-request': {
+    audience: ['A friend or familiar collaborator.', '朋友或熟悉的合作伙伴。'],
+    register: ['Friendly, supportive and tactful.', '親切、支持而婉轉。'],
+    formatRules: [['Acknowledge effort before suggesting changes.', '提出改動前先肯定對方的努力。'], ['Use inclusive language and offer help.', '使用共同語氣並主動提供協助。']],
+    commonErrors: [['Sounding like a formal complaint.', '語氣像正式投訴。'], ['Giving criticism without encouragement.', '只有批評，沒有鼓勵。']]
+  },
+  'press-release': {
+    audience: ['The media and the general public.', '傳媒及公眾。'],
+    register: ['Authoritative, factual and controlled.', '具權威、以事實為本而語氣克制。'],
+    formatRules: [['Lead with a clear public statement.', '以清晰公開聲明作開首。'], ['Answer allegations with verifiable evidence.', '以可核實證據回應指控。']],
+    commonErrors: [['Repeating accusations sensationally.', '以煽情方式重複指控。'], ['Using defensive or emotional language.', '使用防衛性或情緒化措辭。']]
+  },
+  speech: {
+    audience: ['A live audience with a shared interest in the occasion.', '對場合有共同關注的現場聽眾。'],
+    register: ['Audience-aware, memorable and natural when spoken.', '顧及聽眾、容易記憶，朗讀時自然。'],
+    formatRules: [['Address the audience and establish the occasion.', '稱呼聽眾並交代場合。'], ['Use a clear journey and a strong closing message.', '以清晰脈絡發展，並以有力訊息作結。']],
+    commonErrors: [['Writing an essay that does not sound spoken.', '寫成不適合朗讀的論文。'], ['Ending without a memorable call or message.', '結尾欠缺令人記得的呼籲或訊息。']]
+  },
+  outline: {
+    audience: ['General readers seeking a clear explanation of an issue.', '希望清楚了解議題的一般讀者。'],
+    register: ['Informative, accessible and evidence-led.', '資料性強、易於理解，並以證據為本。'],
+    formatRules: [['Use a headline that states the issue.', '使用點明議題的標題。'], ['Organise evidence and solutions into logical sections.', '把證據及方案整理成合乎邏輯的部分。']],
+    commonErrors: [['Listing facts without explaining significance.', '只列出事實，沒有解釋重要性。'], ['Mixing unrelated evidence in one paragraph.', '把不相關證據放在同一段。']]
+  }
+};
+
+function inferBlockType(text, index, total) {
+  const firstLine = String(text).split('\n')[0].trim();
+  if (/^(Dear\b|Hi\b|Hey\b|Good (morning|afternoon|evening)\b|Distinguished\b)/i.test(firstLine)) return 'salutation';
+  if (index === 0 && total > 1 && firstLine.length < 130 && !/[.!?,:]$/.test(firstLine)) return 'title';
+  if (/^(Yours\b|Cheers\b|END\b|Thank you!?$|此致|完$)/i.test(firstLine) || (index === total - 1 && /\n/.test(text))) return 'signoff';
+  if (/^(Introduction|Key Findings|Findings|Recommendations|Proposed Additions|Conclusion|Purpose|Background|Current Situation|Suggestions)\b/i.test(firstLine) && /\n/.test(text)) return 'section';
+  return 'paragraph';
+}
+
+function buildBilingualBlocks(model, missionId) {
+  const english = model.en.trim().split(/\n\s*\n/);
+  const chinese = model.zh.trim().split(/\n\s*\n/);
+  if (english.length !== chinese.length) throw new Error(`Bilingual model mismatch: ${missionId}`);
+  let development = 0;
+  return english.map((en, index) => {
+    const type = inferBlockType(en, index, english.length);
+    const isLastContent = index === english.length - 1 || (index === english.length - 2 && inferBlockType(english[index + 1], index + 1, english.length) === 'signoff');
+    let functionEn = 'Develop the content with relevant details';
+    let functionZh = '以相關資料發展內容';
+    if (type === 'title') [functionEn, functionZh] = ['Identify the document and its focus', '點明文種及主題'];
+    else if (type === 'salutation') [functionEn, functionZh] = ['Address the intended reader', '稱呼目標讀者'];
+    else if (type === 'signoff') [functionEn, functionZh] = ['Close the document appropriately', '以合適格式結束全文'];
+    else if (type === 'section') [functionEn, functionZh] = ['Signal a formal section and develop it', '標示正式部分並加以發展'];
+    else if (index <= 2) [functionEn, functionZh] = ['Establish purpose and context', '交代目的及背景'];
+    else if (isLastContent) [functionEn, functionZh] = ['Conclude with the intended outcome', '以預期結果作結'];
+    else { development += 1; functionEn = `Develop content point ${development}`; functionZh = `發展內容要點 ${development}`; }
+    return { id: `${missionId}-block-${String(index + 1).padStart(2, '0')}`, type, functionEn, functionZh, en, zh: chinese[index] };
+  });
+}
+
+practiceMissions.forEach(mission => {
+  mission.model.blocks = buildBilingualBlocks(mission.model, mission.id);
+});
+
+learningUnits.forEach((unit, index) => {
+  const mission = practiceMissions[index];
+  const profile = teachingProfiles[unit.id];
+  if (!mission || !profile) throw new Error(`Incomplete writing format: ${unit.id}`);
+  Object.assign(unit, {
+    audience: profile.audience,
+    register: profile.register,
+    formatRules: profile.formatRules,
+    commonErrors: profile.commonErrors,
+    model: mission.model,
+    requirements: mission.requirements,
+    practiceMissionId: mission.id,
+    practiceTitle: mission.title,
+    practiceZhTitle: mission.zhTitle
+  });
+});
+
+export const writingFormats = learningUnits.map((unit, index) => ({
+  ...unit,
+  practice: practiceMissions[index]
+}));
