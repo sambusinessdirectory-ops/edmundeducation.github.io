@@ -37,6 +37,34 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Classify Pages artifact preparation
+        id: preparation
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m unittest tools/test-prepare-pages-incremental.py
+          snapshot_commit=$(git ls-remote origin refs/heads/pages-snapshot | cut -f1)
+          if [[ -z "${snapshot_commit}" ]]; then
+            echo "mode=full" >> "${GITHUB_OUTPUT}"
+            echo "base_sha=${GITHUB_SHA}" >> "${GITHUB_OUTPUT}"
+            exit 0
+          fi
+
+          git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "${snapshot_commit}"
+          snapshot_sha=$(git show "${snapshot_commit}:.source-sha")
+          git -c protocol.version=2 fetch --no-tags --depth=100 --filter=blob:none origin "${GITHUB_SHA}"
+          git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "${snapshot_sha}"
+
+          mode=full
+          if git merge-base --is-ancestor "${snapshot_sha}" "${GITHUB_SHA}"; then
+            mode=$(python3 tools/prepare-pages-incremental.py classify \
+              --base "${snapshot_sha}" \
+              --target "${GITHUB_SHA}")
+          fi
+          echo "mode=${mode}" >> "${GITHUB_OUTPUT}"
+          echo "base_sha=${snapshot_sha}" >> "${GITHUB_OUTPUT}"
+          echo "Pages artifact preparation: ${mode} from ${snapshot_sha}"
+
       - name: Validate character coin fast release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[coin-release]') }}
         run: |
@@ -888,7 +916,41 @@ jobs:
           node --test tools/test-writing-submission-reference-data.mjs
           node --test tools/test-writing-portal-crosslinks.mjs
 
+      - name: Checkout deployed Pages snapshot
+        if: steps.preparation.outputs.mode == 'incremental'
+        uses: actions/checkout@v6
+        with:
+          ref: pages-snapshot
+          path: pages-snapshot
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Prepare site files incrementally
+        if: steps.preparation.outputs.mode == 'incremental'
+        shell: bash
+        env:
+          BASE_SHA: ${{ steps.preparation.outputs.base_sha }}
+        run: |
+          set -euo pipefail
+          mkdir _site
+          rsync -a \
+            --exclude='.git' \
+            --exclude='.source-sha' \
+            pages-snapshot/ _site/
+          python3 tools/prepare-pages-incremental.py apply \
+            --source . \
+            --site _site \
+            --base "${BASE_SHA}" \
+            --target "${GITHUB_SHA}" \
+            --paths-file /tmp/pages-incremental-paths.txt
+          python3 -m unittest tools/test-rewrite-pages-assets.py
+          python3 tools/rewrite-pages-assets.py _site \
+            --paths-file /tmp/pages-incremental-paths.txt
+          test ! -d _site/assets
+          test ! -d _site/eddy-carrot-patch/assets
+
       - name: Prepare site files
+        if: steps.preparation.outputs.mode == 'full'
         run: |
           mkdir _site
           node tools/ielts-reading-analysis-publication-excludes.mjs > /tmp/ielts-reading-analysis-excludes.txt
@@ -916,6 +978,7 @@ jobs:
             ./ _site/
 
       - name: Publish bilingual Paper 3 source readers
+        if: steps.preparation.outputs.mode == 'full'
         run: |
           unzip -oq paper3/reader-batch.zip 'paper3/*' -d _site
           # The legacy archive supplies shared assets, but its HTML is older than
@@ -927,6 +990,7 @@ jobs:
           python3 tools/add-paper3-study-support.py _site/paper3
 
       - name: Point public media at verified R2 packs
+        if: steps.preparation.outputs.mode == 'full'
         run: |
           python3 -m unittest tools/test-rewrite-pages-assets.py
           python3 tools/rewrite-pages-assets.py _site --fast-scan
