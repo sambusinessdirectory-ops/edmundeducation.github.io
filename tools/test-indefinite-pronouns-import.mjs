@@ -63,7 +63,17 @@ errorPage.on('pageerror', error => errors.push(error.message));
 await errorPage.route('**/error-test.html', route => route.fulfill({contentType:'text/html',body:'<!doctype html><html><head></head><body><div data-view="dashboard"><section data-error-id-modes><div class="error-id-mode-grid"><button class="error-id-mode-card">Single</button><button class="error-id-mode-card">Passage</button><button class="error-id-mode-card error-id-mode-card--jayden">300</button></div></section><section data-error-id-single hidden></section><section data-error-id-passage hidden></section><section data-error-id-bar hidden></section></div></body></html>'}));
 await errorPage.goto('http://127.0.0.1:8633/error-test.html');
 for (const file of ['error-identifier.css','error-identifier-indefinite.css']) await errorPage.addStyleTag({path:file});
-await errorPage.evaluate(() => { window.EDMUND_LEARNING_PORTAL_CONTEXT = { getSession: () => ({user:{id:'qa-error'}}) }; });
+await errorPage.evaluate(() => {
+  window.qaErrorAnswers = {};
+  window.EDMUND_LEARNING_PORTAL_CONTEXT = {
+    getSession: () => ({user:{id:'qa-error'},token:'qa-token'}),
+    rpc: async (name,args) => {
+      if(name!=='error_identifier_indefinite_action')throw Error('unexpected RPC');
+      if(args.p_answer)window.qaErrorAnswers[args.p_number]=args.p_answer;
+      return {answers:window.qaErrorAnswers,feedback:Object.fromEntries(Object.keys(window.qaErrorAnswers).map(number=>[number,{mark:'tick',wrong:'',fix:'',correct_sentence:'Reference sentence.',reason:'Reference rationale.'}]))};
+    }
+  };
+});
 for (const file of ['grammar-indefinite-pronouns-data.js','durable-student-progress.js','error-identifier-indefinite.js']) await errorPage.addScriptTag({path:file});
 assert.equal(await errorPage.locator('.error-id-mode-card').count(),4);
 assert.equal(await errorPage.locator('.error-id-mode-card').nth(2).innerText().then(text => text.includes('200 題')),true);
@@ -73,10 +83,11 @@ assert(cardPositions[2].y > cardPositions[0].y);
 assert(cardPositions[3].x > cardPositions[2].x);
 await errorPage.locator('.error-id-mode-card--indefinite').click();
 assert.equal(await errorPage.locator('[data-question] .eyebrow').innerText(),'第 1 / 200 題');
-assert.equal(await errorPage.locator('.error-indefinite-workspace [data-status]').innerText(),'作答會保存在此裝置。');
+assert.equal(await errorPage.locator('.error-indefinite-workspace [data-status]').innerText(),'完成作答後會自動儲存並顯示參考答案。');
 await errorPage.locator('[data-mark="tick"]').click();
 assert((await errorPage.locator('[data-progress]').innerText()).startsWith('1 / 200'));
-await errorPage.waitForFunction(() => document.querySelector('.error-indefinite-workspace [data-status]')?.textContent === '已儲存在此裝置。');
+await errorPage.waitForFunction(() => document.querySelector('.error-indefinite-workspace [data-status]')?.textContent === '1 題已儲存；參考答案已顯示。');
+assert.equal(await errorPage.locator('.error-id-feedback__compare').count(),1);
 await errorPage.locator('[data-passage]').selectOption('10');
 await errorPage.locator('[data-go="200"]').click();
 assert.equal(await errorPage.locator('[data-question] .eyebrow').innerText(),'第 200 / 200 題');
