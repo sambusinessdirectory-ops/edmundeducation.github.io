@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,viewport-fit=cover">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; script-src 'self' https://cdn.jsdelivr.net https://edmund-site-assets.edmundeducation.workers.dev; style-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; img-src 'self' data: https://edmund-site-assets.edmundeducation.workers.dev; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co wss://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-site-assets.edmundeducation.workers.dev; object-src 'none'; base-uri 'self'; form-action 'self'">
-  <meta name="description" content="EdmundEducation Country Name Spelling 國家名稱拼寫">
-  <meta name="theme-color" content="#10362f">
+  <meta name="description" content="以互動 3D 地圖、國旗及逐字提示練習 DSE 與 IELTS 必識國家、香港地區及港鐵站英文拼寫。">
+  <meta name="theme-color" content="#07161d">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Edmund 國家拼寫">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <title>Country Name Spelling · 國家名稱拼寫</title>
+  <meta name="apple-mobile-web-app-title" content="Edmund 地名拼寫">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Map Spelling Command · 國家及香港地名拼寫</title>
   <link rel="manifest" href="/pwa-manifests/country-name-spelling.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="48x48" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/favicon-48x48.png">
@@ -18,8 +18,8 @@
   <link rel="apple-touch-icon" sizes="167x167" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-167x167.png">
   <link rel="apple-touch-icon" sizes="152x152" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
-  <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
-  <link rel="stylesheet" href="country-name-spelling.css?v=20260927-country1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20261104-country-map1">
+  <link rel="stylesheet" href="country-name-spelling-terminal.css?v=20261104-country-map1">
   <script defer src="/pwa-register.js"></script>
 <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
 </head>
@@ -29,37 +29,171 @@
       <div class="edmund-system-switcher" data-edmund-system-switcher data-system="country-name-spelling">
         <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
           <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
-          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Country Name Spelling</small></span>
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Map Spelling Command</small></span>
           <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
         </button>
       </div>
-      <div class="excellent-header-actions" data-account-actions hidden><span data-account-name></span><button type="button" data-logout>登出 · Log out</button></div>
+      <div class="terminal-account" data-account-actions hidden><span data-account-name></span><button type="button" data-logout>LOG OUT</button></div>
     </div>
   </header>
 
-  <main>
-    <section class="excellent-login" data-view="login">
-      <div class="excellent-intro"><p>68 · NEW LEARNING SPACE</p><h1>國家名稱拼寫<small>Country Name Spelling</small></h1><span>使用您的 EdmundEducation 學生帳戶進入。</span></div>
-      <form data-login-form novalidate>
+  <main class="spelling-app-shell">
+    <section class="terminal-login" data-view="login">
+      <div class="login-brief">
+        <p class="eyebrow">GEOGRAPHY LANGUAGE TERMINAL / 138</p>
+        <h1>MAP SPELLING<br><span>COMMAND</span></h1>
+        <p class="login-brief__zh">國家及香港地名拼寫指揮台</p>
+        <div class="login-scan" aria-hidden="true"><i></i><i></i><i></i></div>
+        <p class="login-note">辨認地圖、核對國旗，再準確輸入英文名稱。<br>為 DSE 與 IELTS 保留最常見、最實用的地名。</p>
+      </div>
+      <form class="login-panel" data-login-form novalidate>
+        <p class="panel-kicker">STUDENT CLEARANCE</p>
         <h2>學生登入<small>Student sign in</small></h2>
-        <label>用戶名稱 · Username<input name="username" autocomplete="username" required></label>
-        <label>密碼 · Password<input name="password" type="password" autocomplete="current-password" required></label>
-        <button type="submit">登入 · Sign in →</button>
+        <label><span>用戶名稱 / USERNAME</span><input name="username" autocomplete="username" required></label>
+        <label><span>密碼 / PASSWORD</span><input name="password" type="password" autocomplete="current-password" required></label>
+        <button type="submit">ENTER TERMINAL <span aria-hidden="true">›</span></button>
         <p data-login-status role="status" aria-live="polite"></p>
       </form>
     </section>
 
-    <section class="excellent-empty spelling-portal" data-view="content" hidden>
-      <p>68 · COUNTRY NAME SPELLING</p><h1>Country Name Spelling<small>國家名稱拼寫</small></h1>
-      <div class="spelling-options" data-spelling-options><button type="button" data-spelling-section="country"><span aria-hidden="true">🌍</span><strong>Country name spelling</strong><small>國家名稱拼寫</small></button><button type="button" data-spelling-section="district"><span aria-hidden="true">🏙</span><strong>Hong Kong district spelling</strong><small>香港地區名稱拼寫</small></button></div>
-      <section class="spelling-empty-section" data-spelling-empty hidden><button type="button" data-spelling-back>← Back · 返回</button><h2 data-spelling-title></h2><p>Content will be added in the future.<br>學習內容將於日後加入。</p></section>
+    <section class="mission-terminal" data-view="content" hidden>
+      <header class="mission-topbar">
+        <div>
+          <p class="eyebrow">MAP SPELLING COMMAND / 地圖拼寫任務</p>
+          <h1>MISSIONS <small>必識地名訓練</small></h1>
+        </div>
+        <div class="edition-switch" role="group" aria-label="選擇世界或香港版">
+          <button type="button" class="is-active" data-edition="world"><span>01</span> WORLD / 國家</button>
+          <button type="button" data-edition="hong-kong"><span>02</span> HONG KONG / 香港</button>
+        </div>
+        <div class="mission-scoreboard" aria-label="學習進度">
+          <div><span>ACCURACY</span><strong data-accuracy>—</strong></div>
+          <div><span>STREAK</span><strong data-streak>0</strong></div>
+          <div><span>MASTERED</span><strong data-mastered>0</strong></div>
+        </div>
+      </header>
+
+      <div class="mission-layout">
+        <section class="map-console" aria-label="互動地圖">
+          <header class="console-heading">
+            <div><span data-map-sequence>// WORLD MAP 01</span><strong data-map-heading>Essential countries</strong></div>
+            <p><i></i> LIVE SPELLING GRID</p>
+          </header>
+          <nav class="map-filters" data-map-filters aria-label="地圖分類"></nav>
+
+          <div class="map-viewport" data-map-viewport>
+            <div class="map-grid" aria-hidden="true"></div>
+            <div class="map-plane" data-map-plane>
+              <svg class="world-map" data-world-map viewBox="0 0 1000 500" role="img" aria-label="世界地圖">
+                <defs>
+                  <linearGradient id="world-land" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8e5e2"/><stop offset="1" stop-color="#8fa9a8"/></linearGradient>
+                  <filter id="terrain"><feTurbulence type="fractalNoise" baseFrequency=".025" numOctaves="3" seed="8" result="noise"/><feComposite in="noise" in2="SourceGraphic" operator="in" result="texture"/><feBlend in="SourceGraphic" in2="texture" mode="multiply"/></filter>
+                </defs>
+                <g class="terrain-shadow" transform="translate(0 13)">
+                  <path d="M70 132L107 92 176 69 225 86 263 68 309 92 296 132 265 151 241 190 205 207 182 247 137 248 105 218 77 184Z"/>
+                  <path d="M249 257L288 280 307 336 295 398 263 466 238 414 232 351 211 302Z"/>
+                  <path d="M426 109L478 82 544 91 602 68 684 84 731 69 826 95 894 129 925 169 887 197 818 188 786 219 728 221 689 198 648 216 604 190 560 204 524 176 479 182 447 157Z"/>
+                  <path d="M488 205L536 217 571 263 566 330 532 395 494 362 478 302 454 255Z"/>
+                  <path d="M765 329L814 317 860 345 842 386 787 397 748 365Z"/>
+                  <path d="M317 44L354 26 388 45 373 78 331 78Z"/>
+                </g>
+                <g class="terrain-land" filter="url(#terrain)">
+                  <path d="M70 132L107 92 176 69 225 86 263 68 309 92 296 132 265 151 241 190 205 207 182 247 137 248 105 218 77 184Z"/>
+                  <path d="M249 257L288 280 307 336 295 398 263 466 238 414 232 351 211 302Z"/>
+                  <path d="M426 109L478 82 544 91 602 68 684 84 731 69 826 95 894 129 925 169 887 197 818 188 786 219 728 221 689 198 648 216 604 190 560 204 524 176 479 182 447 157Z"/>
+                  <path d="M488 205L536 217 571 263 566 330 532 395 494 362 478 302 454 255Z"/>
+                  <path d="M765 329L814 317 860 345 842 386 787 397 748 365Z"/>
+                  <path d="M317 44L354 26 388 45 373 78 331 78Z"/>
+                  <path d="M888 213l13 8-8 29-12-17zM850 221l9 5-4 20-9-12zM741 246l18 6-3 17-22-5z"/>
+                </g>
+                <g class="latitude-lines"><path d="M8 125H992M8 250H992M8 375H992"/><path d="M250 8V492M500 8V492M750 8V492"/></g>
+              </svg>
+
+              <svg class="hong-kong-map" data-hong-kong-map viewBox="0 0 1000 500" role="img" aria-label="香港地圖" hidden>
+                <defs><linearGradient id="hk-land" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dce8e5"/><stop offset="1" stop-color="#90aaa8"/></linearGradient></defs>
+                <g class="hk-shadow" transform="translate(0 16)">
+                  <path d="M255 60L385 42 488 75 574 56 700 92 780 151 862 168 900 232 844 272 767 245 710 286 624 258 540 292 462 257 388 282 310 235 218 217 168 151Z"/>
+                  <path d="M470 297L572 280 679 306 735 343 688 376 579 365 501 389 431 359Z"/>
+                  <path d="M425 386L548 371 674 394 716 433 625 463 488 451 392 426Z"/>
+                  <path d="M83 323L165 278 240 299 277 349 239 412 151 438 83 395Z"/>
+                  <path d="M751 308L820 284 878 314 852 352 784 359Z"/>
+                </g>
+                <g class="hk-land">
+                  <path d="M255 60L385 42 488 75 574 56 700 92 780 151 862 168 900 232 844 272 767 245 710 286 624 258 540 292 462 257 388 282 310 235 218 217 168 151Z"/>
+                  <path d="M470 297L572 280 679 306 735 343 688 376 579 365 501 389 431 359Z"/>
+                  <path d="M425 386L548 371 674 394 716 433 625 463 488 451 392 426Z"/>
+                  <path d="M83 323L165 278 240 299 277 349 239 412 151 438 83 395Z"/>
+                  <path d="M751 308L820 284 878 314 852 352 784 359Z"/>
+                  <path d="M315 358l33-15 23 19-20 21zM292 395l20-8 14 16-22 14zM745 382l24-12 21 17-31 16z"/>
+                </g>
+                <g class="hk-boundaries"><path d="M258 62l64 172M389 45l-1 237M490 75l-28 182M575 58l-35 234M700 93l10 192M780 153l-13 91M470 298l109 67M572 282l7 83M680 307l8 69M425 386l63 65M548 373l77 90"/></g>
+                <g class="mtr-network" data-mtr-network></g>
+              </svg>
+              <div class="map-markers" data-map-markers></div>
+              <div class="target-reticle" data-target-reticle aria-hidden="true"><i></i><i></i><i></i></div>
+            </div>
+            <div class="map-depth-label" aria-hidden="true">3D TERRAIN / POINTER TILT ACTIVE</div>
+          </div>
+
+          <footer class="map-readout">
+            <div><span>TARGET</span><strong data-target-name>SPELL TO IDENTIFY</strong></div>
+            <div><span>ZONE</span><strong data-target-zone>EUROPE</strong></div>
+            <div class="map-progress"><span data-progress-copy>0 / 59 MASTERED</span><i><b data-progress-bar></b></i></div>
+          </footer>
+        </section>
+
+        <aside class="mission-panel" aria-label="拼寫任務資料">
+          <header><span>// MISSION INFO</span><strong data-mission-number>WORLD 01</strong></header>
+          <div class="flag-frame" data-flag-frame>
+            <img data-flag src="assets/country-name-spelling/flags/gb.svg" alt="英國國旗">
+            <div class="flag-scan" aria-hidden="true"></div>
+            <span>VISUAL IDENTIFICATION</span>
+          </div>
+
+          <div class="mission-identity">
+            <p data-item-type>COUNTRY / 國家</p>
+            <h2 data-item-zh>英國</h2>
+            <dl>
+              <div><dt>ZONE</dt><dd data-item-zone>Europe</dd></div>
+              <div><dt>OBJECTIVE</dt><dd>Spell the English name</dd></div>
+            </dl>
+          </div>
+
+          <section class="spelling-console">
+            <div class="spelling-console__head">
+              <span>SPELLING INPUT / 英文拼寫</span>
+              <button type="button" data-speak aria-label="聆聽英文讀音">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4Zm12.5-.5a5 5 0 0 1 0 7M19 6a9 9 0 0 1 0 12"/></svg>
+                LISTEN
+              </button>
+            </div>
+            <div class="letter-grid" data-letter-grid aria-hidden="true"></div>
+            <label class="answer-field"><span>TYPE THE COMPLETE NAME</span><input data-answer autocomplete="off" autocapitalize="words" spellcheck="false" enterkeyhint="done"></label>
+            <div class="answer-actions">
+              <button type="button" class="action-secondary" data-hint>REVEAL ONE LETTER</button>
+              <button type="button" class="action-primary" data-check>CHECK ANSWER <span aria-hidden="true">›</span></button>
+            </div>
+            <p class="answer-feedback" data-feedback role="status" aria-live="polite">辨認國旗及地圖位置，再輸入完整英文名稱。</p>
+          </section>
+
+          <div class="spelling-trap"><span>COMMON SPELLING TRAP</span><p data-trap>首次嘗試後顯示常見錯法，避免未作答便看到答案。</p></div>
+          <div class="mission-navigation">
+            <button type="button" data-previous aria-label="上一題">‹ PREVIOUS</button>
+            <button type="button" data-random>RANDOM TARGET</button>
+            <button type="button" data-next aria-label="下一題">NEXT ›</button>
+          </div>
+        </aside>
+      </div>
+
+      <footer class="terminal-footer"><span><kbd>ENTER</kbd> CHECK ANSWER</span><span><kbd>ALT</kbd> + <kbd>→</kbd> NEXT TARGET</span><span>LOCAL PROGRESS AUTO-SAVED</span></footer>
     </section>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.50.3/dist/umd/supabase.min.js" integrity="sha384-hIOJ3C3LfQJBpaQVNahkcvi607jdU2k3LB0MLyIuyXNDsS5aI2xfaQiX+oSmHvTD" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
-  <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261101-coin-dialogue1"></script>
-  <script src="country-name-spelling.js?v=20260927-country1"></script>
-<script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
+  <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script>
+  <script src="shared-system-nav.js?v=20261104-country-map1"></script>
+  <script type="module" src="country-name-spelling-terminal.mjs?v=20261104-country-map1"></script>
+  <script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
 </body>
 </html>

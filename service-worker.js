@@ -1,10 +1,10 @@
 const CACHE_PREFIX = "edmund-pwa-";
-const RELEASE_ID = "125a4564ab06dc89367654e4a78a987ae72f69f1";
+const RELEASE_ID = "45938cd60f0b4bbf9f6aff6d216a5bebde408e00";
 const CACHE_NAME = `${CACHE_PREFIX}${RELEASE_ID}`;
 const HARPER_CACHE_PREFIX = "edmund-vendor-harper-";
 const HARPER_CACHE_NAME = "edmund-vendor-harper-2.7.0";
-const HARPER_PATH_PREFIX = "/assets/vendor/harper/2.7.0/";
-const SPEECH_MODEL_PATH = "/assets/speaking-system/models/english-us-0.15.tar.gz";
+const HARPER_PATH_PREFIX = "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/vendor/harper/2.7.0/";
+const SPEECH_MODEL_PATH = "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/speaking-system/models/english-us-0.15.tar.gz";
 const SPEECH_MODEL_CACHE = "edmund-transcription-model-v1";
 const SPEECH_MODEL_URL = new URL(SPEECH_MODEL_PATH, self.location.origin).href;
 const HARPER_URL_PREFIX = new URL(HARPER_PATH_PREFIX, self.location.origin).href;
@@ -20,11 +20,11 @@ const SHELL_URLS = [
   "/apostrophe-normalizer.mjs",
   "/favicon.ico",
   "/apple-touch-icon.png",
-  "/assets/icons/favicon-48x48.png",
-  "/assets/icons/icon-192x192.png",
-  "/assets/icons/icon-512x512.png",
-  "/assets/icons/icon-maskable-192x192.png",
-  "/assets/icons/icon-maskable-512x512.png",
+  "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/favicon-48x48.png",
+  "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/icon-192x192.png",
+  "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/icon-512x512.png",
+  "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/icon-maskable-192x192.png",
+  "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/icon-maskable-512x512.png",
   "/eddy-offline-dialogue.png"
 ];
 const SHELL_URL_SET = new Set(SHELL_URLS.map((path) => new URL(path, self.location.origin).href));
