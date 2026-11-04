@@ -2,6 +2,11 @@ name: Build complete GitHub Pages artifact
 
 on:
   workflow_call:
+    inputs:
+      release_tags:
+        required: false
+        type: string
+        default: ""
     outputs:
       artifact_name:
         description: Prepared Pages artifact name
@@ -77,7 +82,7 @@ jobs:
           echo "Pages artifact preparation: ${mode} from ${snapshot_sha}"
 
       - name: Validate character coin fast release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[coin-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[coin-release]') }}
         run: |
           node --test tools/test-character-coins.mjs tools/test-eddie-farm.mjs tools/test-eddie-farm-i18n.mjs
           node --check eddie-farm.js
@@ -86,14 +91,14 @@ jobs:
           node --check shared-companion.mjs
 
       - name: Validate closet fast release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[classroom-release]') && !contains(github.event.head_commit.message, '[flashcard-release]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[phrasal-release]') && !contains(github.event.head_commit.message, '[proverb-release]') && !contains(github.event.head_commit.message, '[idiom-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') && !contains(github.event.head_commit.message, '[news-release]') && !contains(github.event.head_commit.message, '[dse-arguments-release]') && !contains(github.event.head_commit.message, '[error-id-release]') && !contains(github.event.head_commit.message, '[coin-release]') && !contains(github.event.head_commit.message, '[song-release]') && !contains(github.event.head_commit.message, '[writing-preview-release]') && !contains(github.event.head_commit.message, '[chart-release]') && !contains(github.event.head_commit.message, '[homepage-rollback]') && !contains(github.event.head_commit.message, '[homepage-release]') && !contains(github.event.head_commit.message, '[country-spelling-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[classroom-release]') && !contains(inputs.release_tags, '[flashcard-release]') && !contains(inputs.release_tags, '[sentence-release]') && !contains(inputs.release_tags, '[phrasal-release]') && !contains(inputs.release_tags, '[proverb-release]') && !contains(inputs.release_tags, '[idiom-release]') && !contains(inputs.release_tags, '[speaking-release]') && !contains(inputs.release_tags, '[writing-release]') && !contains(inputs.release_tags, '[polysemy-release]') && !contains(inputs.release_tags, '[synonyms-release]') && !contains(inputs.release_tags, '[grammar-release]') && !contains(inputs.release_tags, '[native-release]') && !contains(inputs.release_tags, '[italian-release]') && !contains(inputs.release_tags, '[homework-release]') && !contains(inputs.release_tags, '[reading-release]') && !contains(inputs.release_tags, '[listening-release]') && !contains(inputs.release_tags, '[professional-release]') && !contains(inputs.release_tags, '[paper3-release]') && !contains(inputs.release_tags, '[junior-release]') && !contains(inputs.release_tags, '[irregular-release]') && !contains(inputs.release_tags, '[news-release]') && !contains(inputs.release_tags, '[dse-arguments-release]') && !contains(inputs.release_tags, '[error-id-release]') && !contains(inputs.release_tags, '[coin-release]') && !contains(inputs.release_tags, '[song-release]') && !contains(inputs.release_tags, '[writing-preview-release]') && !contains(inputs.release_tags, '[chart-release]') && !contains(inputs.release_tags, '[homepage-rollback]') && !contains(inputs.release_tags, '[homepage-release]') && !contains(inputs.release_tags, '[country-spelling-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
           node tools/test-wardrobe-visual-acceptance.mjs
 
       - name: Validate focused classroom synchronization release
-        if: ${{ contains(github.event.head_commit.message, '[classroom-release]') }}
+        if: ${{ contains(inputs.release_tags, '[classroom-release]') }}
         run: |
           npm ci --prefix tools/email-qa --ignore-scripts
           node --check classroom-live-sync.mjs
@@ -119,7 +124,7 @@ jobs:
           node tools/test-advanced-native.mjs
 
       - name: Validate focused flashcard release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[flashcard-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[flashcard-release]') }}
         run: |
           node tools/test-flashcard-attempt-sync-isolation.mjs
           node --check flashcards-core-data.js
@@ -132,7 +137,7 @@ jobs:
           node tools/test-schedule-entry-draft-guard.mjs
 
       - name: Validate focused homepage selector rollback
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[homepage-rollback]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[homepage-rollback]') }}
         run: |
           test ! -e academy-nexus-selector-frame-v1.webp
           ! grep -Fq 'academy-nexus-selector-frame-v1.webp' index.html
@@ -140,7 +145,7 @@ jobs:
           node --check homepage-system-deck.js
 
       - name: Validate focused homepage selector release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[homepage-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[homepage-release]') }}
         run: |
           test -s academy-nexus-selector-frame-v2.webp
           test -s academy-nexus-selector-frame-tablet.webp
@@ -156,7 +161,7 @@ jobs:
           node --check homepage-system-deck.js
 
       - name: Validate focused Phrasal Verb login release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[phrasal-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[phrasal-release]') }}
         run: |
           test -s phrasal-verb-verdant-login-frame-v1.webp
           grep -Fq 'phrasal-verb-verdant-login-frame-v1.webp' phrasal-verb-system.css
@@ -165,7 +170,7 @@ jobs:
           node --test tools/test-phrasal-verb-system.mjs
 
       - name: Validate focused Proverb login release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[proverb-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[proverb-release]') }}
         run: |
           test -s proverb-purple-spellbook-login-frame-v1.webp
           grep -Fq 'proverb-purple-spellbook-login-frame-v1.webp' proverb-system.css
@@ -179,7 +184,7 @@ jobs:
           node --check proverb-curation-core.mjs
 
       - name: Validate focused Polysemy release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[polysemy-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[polysemy-release]') }}
         run: |
           node --check polysemy-lab/app.mjs
           node --check polysemy-lab/media.mjs
@@ -190,7 +195,7 @@ jobs:
           node tools/test-polysemy-fairness-sync.mjs
 
       - name: Validate focused Professional English release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[professional-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[professional-release]') }}
         run: |
           node --check professional-english/app.js
           node --check professional-english/reader.mjs
@@ -204,7 +209,7 @@ jobs:
           node --check professional-english/situation-cards.mjs
 
       - name: Validate focused Italian lesson release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[italian-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[italian-release]') }}
         run: |
           node --check italian-2-torta-coi-bischeri-data.js
           node --check italian-2-audio.js
@@ -212,7 +217,7 @@ jobs:
           node tools/test-language-editions.mjs
 
       - name: Validate focused Synonyms release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[synonyms-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[synonyms-release]') }}
         run: |
           node --check synonyms/app.mjs
           node --test tools/test-writing-synonyms.mjs
@@ -220,7 +225,7 @@ jobs:
           python3 tools/test-synonym-curation-import.py
 
       - name: Validate focused Grammar release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[grammar-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[grammar-release]') }}
         run: |
           npm ci --prefix tools/email-qa --ignore-scripts
           node --check grammar-system.js
@@ -250,7 +255,7 @@ jobs:
           node tools/test-indefinite-pronouns-references.mjs
 
       - name: Validate focused Error Identifier release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[error-id-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[error-id-release]') }}
         run: |
           node --check error-identifier-jayden-questions.js
           node --check error-identifier-jayden.js
@@ -259,7 +264,7 @@ jobs:
           node tools/test-indefinite-admin-answers.mjs
 
       - name: Validate focused Native English release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[native-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[native-release]') }}
         run: |
           test -s native-english-sky-kingdom-login-frame-v4.webp
           grep -Fq 'native-english-sky-kingdom-login-frame-v4.webp' natural-english/style.css
@@ -276,7 +281,7 @@ jobs:
           node tools/build-advanced-native-catalogue.mjs --check
 
       - name: Validate focused Homework export release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[homework-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[homework-release]') }}
         run: |
           npm ci --prefix tools/email-qa --ignore-scripts
           node --check error-identifier.js
@@ -293,7 +298,7 @@ jobs:
           node tools/test-schedule-clipboard.mjs
 
       - name: Validate focused Study tools release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[study-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[study-release]') }}
         run: |
           npm ci --prefix tools/email-qa --ignore-scripts
           node --check junior-text-highlighter.mjs
@@ -313,7 +318,7 @@ jobs:
           node tools/test-junior-exam-prep.mjs
 
       - name: Validate focused Junior Exam Prep release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[junior-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[junior-release]') }}
         run: |
           node --check junior-exam-prep/app.mjs
           node tools/test-junior-exam-prep.mjs
@@ -322,13 +327,13 @@ jobs:
           node tools/test-schedule-system.mjs
 
       - name: Validate focused Irregular Verb release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[irregular-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[irregular-release]') }}
         run: |
           node --check irregular-verbs/app.mjs
           node tools/test-irregular-verbs.mjs
 
       - name: Validate focused News Discussion release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[news-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[news-release]') }}
         run: |
           node --check news-discussion/app.mjs
           node --check policy-discussion/app.mjs
@@ -339,7 +344,7 @@ jobs:
           node -e "const fs=require('fs'); const h=fs.readFileSync('index.html','utf8'); const p=fs.readFileSync('news-discussion.html','utf8'); if(!h.includes('href=\"news-discussion.html\"')||!p.includes('news-discussion/app.mjs')) throw Error('Card 75 is not linked')"
 
       - name: Validate focused DSE Argument Bank release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[dse-arguments-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[dse-arguments-release]') }}
         run: |
           node --check dse-argument-bank/app.mjs
           node --check shared-system-nav.js
@@ -359,7 +364,7 @@ jobs:
           git diff --exit-code -- ielts-speaking-part3-question-types.json
 
       - name: Validate focused Paper 3 curation release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[paper3-release]') }}
         run: |
           node --check paper3/2025-b2/reader.js
           node --check paper3/2025-b2/sentence-analysis.js
@@ -369,7 +374,7 @@ jobs:
           node -e "const s=require('fs').readFileSync('paper3/2025-b2/index.html','utf8'); for(const name of ['super-curation.css','super-curation-highlights.js','super-curation.js']) if(!s.includes(name)) throw Error('Missing '+name)"
 
       - name: Validate focused DSE Reading release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[reading-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[reading-release]') }}
         run: |
           node --check reading-comprehension.js
           node --check reading-super-curation.mjs
@@ -382,7 +387,7 @@ jobs:
           node tools/test-dse-analysis-batch.mjs
 
       - name: Validate focused DSE Listening release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[listening-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[listening-release]') }}
         run: |
           test -s listening-harp-rose-login-frame-v4.webp
           grep -Fq 'listening-harp-rose-login-frame-v4.webp' listening-system.css
@@ -402,7 +407,7 @@ jobs:
           node tools/test-dse-listening-2022-2024.mjs
 
       - name: Validate focused Speaking release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[speaking-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[speaking-release]') }}
         run: |
           test -s speaking-dragon-stone-login-frame-v2.webp
           test -s speaking-dragon-stone-login-frame-mobile-v2.webp
@@ -413,14 +418,14 @@ jobs:
           node tools/test-professional-discussion-timing.mjs
 
       - name: Validate focused country spelling release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[country-spelling-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[country-spelling-release]') }}
         run: |
           node --check country-name-spelling-data.mjs
           node --check country-name-spelling-terminal.mjs
           node tools/test-country-name-spelling.mjs
 
       - name: Validate focused Writing release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[writing-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[writing-release]') }}
         run: |
           node --test tools/test-dse-practical-writing.mjs
           node --check dse-practical-writing.mjs
@@ -449,7 +454,7 @@ jobs:
           node --test --test-name-pattern='article notifications use strict owner-scoped deep links|writing question images survive the public R2 asset migration|article and feedback navigation invalidates stale requests|admin feedback queue and fullscreen|structured feedback supports' tools/test-writing-submission-portal.mjs
 
       - name: Validate IELTS Chart Teaching release
-        if: ${{ contains(github.event.head_commit.message, '[chart-release]') }}
+        if: ${{ contains(inputs.release_tags, '[chart-release]') }}
         run: |
           node --check ielts-chart-teaching/app.mjs
           node --check ielts-chart-teaching/data.mjs
@@ -465,7 +470,7 @@ jobs:
           node --check shared-system-nav.js
 
       - name: Validate focused IELTS Writing Preview release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[writing-preview-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[writing-preview-release]') }}
         run: |
           node tools/test-ielts-writing-preview.mjs
           node --check ielts-writing-preview/app.js
@@ -475,29 +480,29 @@ jobs:
           node tools/test-ielts-writing-task1-practice.mjs
 
       - name: Install image validation dependency
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: npm ci --prefix tools/email-qa --ignore-scripts
 
       - name: Validate execution speedrun timing and recovery
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-execution-system.mjs
           node --test tools/test-execution-speedrun.mjs
 
       - name: Validate membership preview and payment-disabled security boundary
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node --test tools/test-membership-foundation.mjs
           npm test --prefix workers/membership
 
       - name: Validate Flashcard speech recognition lifecycle
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-pronunciation-gating.mjs
           node --test tools/test-flashcard-speech-recognition.mjs tools/test-flashcard-local-recognition.mjs tools/test-local-recognition-storage.mjs
 
       - name: Validate Flashcard conflict recovery release gate
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-flashcard-state-integrity.mjs
           node tools/test-flashcard-sync-resilience.mjs
@@ -513,15 +518,15 @@ jobs:
           node tools/test-sunny-s3-grammar-book.mjs
 
       - name: Refresh lightweight IELTS Reading deck index
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: node tools/generate-ielts-reading-index.mjs
 
       - name: Validate Eddie Farm points and purchase safety
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: node --test tools/test-eddie-farm.mjs tools/test-eddie-farm-i18n.mjs
 
       - name: Validate and regenerate the complete Phrasal Verb catalogue
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/build-phrasal-verb-expansion.mjs
           node tools/generate-phrasal-verb-catalog.mjs
@@ -541,7 +546,7 @@ jobs:
           npm test --prefix workers/phrasal-verb-system
 
       - name: Validate and regenerate the complete Idiom catalogue
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/build-idiom-expansion.mjs
           node tools/generate-idiom-catalog.mjs
@@ -556,7 +561,7 @@ jobs:
           npm test --prefix workers/idiom-system
 
       - name: Validate focused Idiom Compass release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[idiom-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[idiom-release]') }}
         run: |
           node --check idiom-system.js
           node --check idiom-compass-06-30-curation.js
@@ -567,7 +572,7 @@ jobs:
           npm test --prefix workers/idiom-system
 
       - name: Validate and regenerate the complete Proverb catalogue
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/build-proverb-system-data.mjs
           node tools/generate-proverb-catalog.mjs
@@ -581,7 +586,7 @@ jobs:
           npm test --prefix workers/proverb-system
 
       - name: Validate and regenerate the complete Sentence Structure catalogue
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/build-sentence-structure-expansion.mjs
           node tools/generate-sentence-structure-catalog.mjs
@@ -602,7 +607,7 @@ jobs:
           npm test --prefix workers/sentence-structure
 
       - name: Refresh homework resource catalog
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/generate-homework-resource-catalog.mjs
           node tools/generate-writing-submission-worker-topic-catalog.mjs
@@ -610,37 +615,37 @@ jobs:
           git diff --exit-code -- workers/writing-submission/src/topic-catalog.js
 
       - name: Validate DSE Writing Part B imported library
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-dse-writing-part-b.mjs
           node tools/test-dse-writing-part-b-downloads.mjs
           node tools/test-dse-writing-part-b-audio.mjs
 
       - name: Validate homework resource catalog and numeric search
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: node tools/test-schedule-homework-links.mjs
 
       - name: Validate unified student progress data and portal contracts
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-student-progress-core.mjs
           node tools/test-student-progress-portal.mjs
           npm test --prefix workers/student-progress
 
       - name: Validate IELTS Reading Passage 1 and Passage 2 flashcards and voice
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-ielts-reading-passage1-flashcards.mjs
           node tools/test-ielts-reading-passage2-flashcards.mjs
 
       - name: Validate IELTS Reading Passage 3 flashcards, data and Homework integration
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-ielts-reading-passage3-flashcards.mjs
           node tools/test-ielts-reading-passage3-integration.mjs
 
       - name: Validate Reading Comprehension catalogue, holds and exercise workflows
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-reading-comprehension-system.mjs
           node tools/test-dse-deep-analysis.mjs
@@ -657,7 +662,7 @@ jobs:
           node tools/test-ielts-reading-question-types.mjs
 
       - name: Validate IELTS Reading analysis catalogue and Mungo Man content
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-ielts-reading-analysis.mjs
           node --test tools/test-ielts-reading-analysis-lazy-loader.mjs
@@ -666,56 +671,56 @@ jobs:
           node tools/test-ielts-reading-analysis-p3-imported-data.mjs
 
       - name: Validate August flashcard expansion taxonomy and lazy loading
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-flashcard-expansion-20260801.mjs
           node tools/test-flashcard-expansion-20260801-ui.mjs
 
       - name: Validate Civics Book 1 concept vocabulary, voice and Homework links
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-government-civics-book1-flashcards.mjs
 
       - name: Validate Civics Book 2 concept vocabulary, voice and Homework links
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-government-civics-book2-flashcards.mjs
 
       - name: Validate Civics Book 3 concept vocabulary, voice and Homework links
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-government-civics-book3-flashcards.mjs
 
       - name: Validate HKFSD Book 1 concept vocabulary, voice and Homework links
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-hkfsd-concept-vocabulary-book1-flashcards.mjs
 
       - name: Validate HKFSD Incident Report 3 Flash Cards and Writing Practice
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-hkfsd-incident-report-3.mjs
           node tools/test-hkfsd-incident-report-flashcards.mjs
           node tools/test-hkfsd-incident-report-writing.mjs
 
       - name: Validate Business Concepts Book 1 flashcards, voice and Homework links
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-business-concepts-book1-flashcards.mjs
 
       - name: Validate Business English Writing Book 1, voice and Homework links
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-business-writing-book1.mjs
 
       - name: Validate immutable packed flashcard audio Worker routing
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-edmund-audio-worker.mjs
           node tools/verify-flashcard-audio-flashcard-expansion.mjs --require-complete
 
       - name: Validate Listening portal, 80-track catalogue and playback speeds
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/listening/generate_catalog.mjs
           git diff --exit-code -- listening-system-catalog.js
@@ -731,17 +736,17 @@ jobs:
           node --test tools/test-listening-imports.mjs
 
       - name: Validate IELTS Listening Practice download catalogue and thumbnails
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: node tools/test-ielts-listening-download-catalog.mjs
 
       - name: Validate IELTS Writing Task 1 flashcards and female voice
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-ielts-writing-task1-flashcards.mjs
           node tools/test-ielts-writing-task1-audio.mjs
 
       - name: Validate IELTS Writing Task 1 practice, downloads, voice and reciprocal links
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-ielts-writing-task1-practice.mjs
           node tools/test-ielts-task1-download-catalog.mjs
@@ -750,13 +755,13 @@ jobs:
           node tools/test-writing-chess-map.mjs
 
       - name: Validate DSE Writing Part A resources and sticky listening controls
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-dse-writing-part-a.mjs
           node --test tools/test-writing-practice-listening-sticky.mjs
 
       - name: Validate Schedule System and Mass Edit clipboard
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-schedule-clipboard.mjs
           node tools/test-schedule-motivation.mjs
@@ -775,7 +780,7 @@ jobs:
           node tools/test-schedule-account-admin-parity.mjs
 
       - name: Validate atomic email uploads and lost-response recovery
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         env:
           EMAIL_QA_MODULES: ${{ github.workspace }}/tools/email-qa/node_modules
         run: |
@@ -827,14 +832,14 @@ jobs:
           node tools/test-writing-submission-email.mjs
 
       - name: Validate source paragraphs for all DSE Speaking papers
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-dse-speaking-system.mjs
           node tools/test-dse-speaking-source-layouts.mjs
           node tools/test-dse-2024-illustrations.mjs
 
       - name: Validate Speaking sticky recorder, repeated recordings and private storage
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-speaking-recorder-workflow.mjs
           node tools/test-speaking-progress-dashboard.mjs
@@ -842,14 +847,14 @@ jobs:
           npm test --prefix workers/speaking-system
 
       - name: Validate all six Common Expression portals, lessons and persistence contracts
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: node --test tools/test-common-expression-system.mjs tools/test-common-expression-map.mjs tools/test-common-expression-garden.mjs tools/test-common-expression-coast.mjs tools/test-common-expression-airport.mjs tools/test-common-expression-train.mjs tools/test-common-expression-dining.mjs tools/test-common-expression-poker.mjs tools/test-common-expression-pool.mjs tools/test-common-expression-lounge.mjs
       - name: Validate rhetorical-writing blueprint map
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: node tools/test-common-expression-blueprint.mjs
 
       - name: Validate DSE Paper 3 portal, shared login and imported analysis data
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-dse-paper3-analysis-data.mjs
           node tools/test-dse-paper3-analysis-portal.mjs
@@ -864,7 +869,7 @@ jobs:
           node tools/test-dse-image-enhancements.mjs
 
       - name: Validate PWA, shared portal navigation, mobile icons, and brand metadata
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/generate-system-pwa-manifests.mjs --check
           node tools/test-system-pwa-experience.mjs
@@ -881,13 +886,13 @@ jobs:
           node tools/test-unified-bookmark-directory.mjs
 
       - name: Validate Video Class portal, permissions, and protected range delivery
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node tools/test-video-class.mjs
           node tools/test-homepage-video-opacity.mjs
 
       - name: Validate album audio and vocabulary release
-        if: ${{ contains(github.event.head_commit.message, '[song-release]') }}
+        if: ${{ contains(inputs.release_tags, '[song-release]') }}
         run: |
           node --check song-appreciation.js
           node --check song-appreciation-live.mjs
@@ -905,15 +910,15 @@ jobs:
           test -s song-media/photograph/cover.webp
 
       - name: Validate Song Appreciation portal, data protection, and secure workflows
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: node tools/test-song-appreciation.mjs
 
       - name: Validate Eddy game public bundle and asset publication gate
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: node tools/test-eddy-game-publication.mjs
 
       - name: Validate Writing Submission portal and self-hosted grammar engine
-        if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
           node grammar-corpus/validate-and-generate.mjs
           node tools/grammar-detector-v2/validate-and-compile.mjs

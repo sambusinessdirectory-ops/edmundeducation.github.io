@@ -18,6 +18,7 @@ jobs:
       cancel-in-progress: true
     outputs:
       base_sha: ${{ steps.classify.outputs.base_sha }}
+      release_tags: ${{ steps.classify.outputs.release_tags }}
       route: ${{ steps.classify.outputs.route }}
     steps:
       - name: Batch nearby pushes before expensive work
@@ -40,18 +41,23 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /tools/classify-pages-release.py
+            /tools/collect-pages-release-tags.py
             /tools/test-classify-pages-release.py
+            /tools/test-collect-pages-release-tags.py
 
       - name: Classify the complete undeployed change
         id: classify
         shell: bash
         run: |
           set -euo pipefail
-          python3 -m unittest tools/test-classify-pages-release.py
+          python3 -m unittest \
+            tools/test-classify-pages-release.py \
+            tools/test-collect-pages-release-tags.py
 
           snapshot_commit=$(git ls-remote origin refs/heads/pages-snapshot | cut -f1)
           if [[ -z "${snapshot_commit}" ]]; then
             echo "base_sha=${GITHUB_SHA}" >> "${GITHUB_OUTPUT}"
+            echo "release_tags=" >> "${GITHUB_OUTPUT}"
             echo "route=standard" >> "${GITHUB_OUTPUT}"
             exit 0
           fi
@@ -62,14 +68,18 @@ jobs:
           git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "${base_sha}"
 
           route=standard
+          release_tags=
           if git merge-base --is-ancestor "${base_sha}" "${GITHUB_SHA}"; then
             git diff --name-only "${base_sha}" "${GITHUB_SHA}" > /tmp/pages-release-paths.txt
             route=$(python3 tools/classify-pages-release.py /tmp/pages-release-paths.txt)
+            git log --no-merges --format='%B%x00' "${base_sha}..${GITHUB_SHA}" > /tmp/pages-release-messages.txt
+            release_tags=$(python3 tools/collect-pages-release-tags.py /tmp/pages-release-messages.txt)
           fi
 
           echo "base_sha=${base_sha}" >> "${GITHUB_OUTPUT}"
+          echo "release_tags=${release_tags}" >> "${GITHUB_OUTPUT}"
           echo "route=${route}" >> "${GITHUB_OUTPUT}"
-          echo "Pages release route: ${route} from ${base_sha} to ${GITHUB_SHA}"
+          echo "Pages release route: ${route}; tags: ${release_tags:-full validation}; from ${base_sha} to ${GITHUB_SHA}"
 
   standard:
     needs: route
@@ -78,6 +88,8 @@ jobs:
       group: pages-candidate-main
       cancel-in-progress: true
     uses: ./.github/workflows/pages.yml
+    with:
+      release_tags: ${{ needs.route.outputs.release_tags }}
     permissions:
       actions: write
       contents: read

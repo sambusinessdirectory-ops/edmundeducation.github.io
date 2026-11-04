@@ -59,6 +59,13 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn('git show "${snapshot_commit}:.source-sha"', COORDINATOR)
         self.assertIn('git diff --name-only "${base_sha}" "${GITHUB_SHA}"', COORDINATOR)
 
+    def test_standard_builder_uses_all_undeployed_release_tags(self):
+        standard = BUILDERS[0]
+        self.assertIn("release_tags: ${{ needs.route.outputs.release_tags }}", COORDINATOR)
+        self.assertIn("tools/collect-pages-release-tags.py", COORDINATOR)
+        self.assertIn("inputs.release_tags", standard)
+        self.assertNotIn("github.event.head_commit.message", standard)
+
 
 if __name__ == "__main__":
     unittest.main()
