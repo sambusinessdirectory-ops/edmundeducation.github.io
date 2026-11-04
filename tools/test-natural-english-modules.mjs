@@ -15,7 +15,9 @@ for(const f of ['20260917075707_natural_english_scoop.sql','20260917112016_natur
 if(process.env.ADVANCED_NATIVE_PREVIEW_SQL)await db.exec(fs.readFileSync(process.env.ADVANCED_NATIVE_PREVIEW_SQL,'utf8'));
 assert.equal((await db.query('select count(*)::int n from natural_english_private.catalogue')).rows[0].n,modules.length);
 const student=crypto.randomUUID(),other=crypto.randomUUID(),token=crypto.randomUUID(),token2=crypto.randomUUID();await db.query('insert into flashcard_students values($1),($2)',[student,other]);await db.query("insert into flashcard_student_sessions values($1,$2,now()+interval '1 day'),($3,$4,now()+interval '1 day')",[token,student,token2,other]);await db.query("select set_config('request.jwt.claim.sub',$1,false)",[crypto.randomUUID()]);
-const event=x=>({id:crypto.randomUUID(),at:new Date().toISOString(),...x}),run=crypto.randomUUID();const sync=async(t,ev=[])=>(await db.query('select natural_english_modules_sync($1,$2) result',[t,JSON.stringify(ev)])).rows[0].result;
+// The catalogue sweep runs in one transaction. PostgreSQL now() stays fixed throughout it.
+const fixtureTime=new Date().toISOString();
+const event=x=>({id:crypto.randomUUID(),at:fixtureTime,...x}),run=crypto.randomUUID();const sync=async(t,ev=[])=>(await db.query('select natural_english_modules_sync($1,$2) result',[t,JSON.stringify(ev)])).rows[0].result;
 await sync(token,[event({module:'box',kind:'start',run})]);const correctEvent=event({module:'box',kind:'answer',run,round:1,question:'box-spot',choice:'Can I get a box?'});let result=await sync(token,[correctEvent]);assert.equal(result.events.find(e=>e.id===correctEvent.id).correct,true);assert.equal((await sync(token2)).events.length,0);
 await assert.rejects(sync(token,[event({module:'flat',kind:'answer',run,round:1,question:'flat-spot',choice:"It's flat."})]),/Unknown practice run/);await assert.rejects(sync(token,[event({module:'box',kind:'answer',run,round:1,question:'box-spot',choice:'forged'})]),/Invalid answer/);
 // Registered MC wording can exceed the old 160-character blank-answer limit.
