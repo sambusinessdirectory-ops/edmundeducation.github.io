@@ -19,7 +19,9 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="shared-system-nav.css?v=20261104-country-map1">
-  <link rel="stylesheet" href="country-name-spelling-terminal.css?v=20261104-country-map1">
+  <link rel="preload" as="image" href="country-name-spelling-map/world-relief.jpg">
+  <link rel="stylesheet" href="country-name-spelling-terminal.css?v=20261104-terrain2">
+  <link rel="stylesheet" href="country-name-spelling-terminal-v2.css?v=20261104-cartography6">
   <script defer src="/pwa-register.js"></script>
 <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
 </head>
@@ -82,57 +84,32 @@
           <nav class="map-filters" data-map-filters aria-label="地圖分類"></nav>
 
           <div class="map-viewport" data-map-viewport>
-            <div class="map-grid" aria-hidden="true"></div>
+            <div class="map-atmosphere" aria-hidden="true"></div>
             <div class="map-plane" data-map-plane>
-              <svg class="world-map" data-world-map viewBox="0 0 1000 500" role="img" aria-label="世界地圖">
+              <svg class="terrain-map" data-terrain-map viewBox="0 0 1600 800" role="img" aria-label="世界地圖">
                 <defs>
-                  <linearGradient id="world-land" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8e5e2"/><stop offset="1" stop-color="#8fa9a8"/></linearGradient>
-                  <filter id="terrain"><feTurbulence type="fractalNoise" baseFrequency=".025" numOctaves="3" seed="8" result="noise"/><feComposite in="noise" in2="SourceGraphic" operator="in" result="texture"/><feBlend in="SourceGraphic" in2="texture" mode="multiply"/></filter>
+                  <linearGradient id="terrain-wash" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8e6df"/><stop offset=".48" stop-color="#cfd6d1"/><stop offset="1" stop-color="#99aaa8"/></linearGradient>
+                  <radialGradient id="target-glow"><stop offset="0" stop-color="#fff4ce"/><stop offset=".12" stop-color="#ffb147"/><stop offset=".42" stop-color="#ef643f" stop-opacity=".78"/><stop offset="1" stop-color="#ef643f" stop-opacity="0"/></radialGradient>
+                  <pattern id="map-grid-pattern" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M100 0H0V100" fill="none" stroke="#9fc3c2" stroke-opacity=".16" stroke-width="1"/></pattern>
+                  <pattern id="map-micro-grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#d4e1df" stroke-opacity=".05" stroke-width=".7"/></pattern>
+                  <filter id="map-relief-treatment" x="-8%" y="-8%" width="116%" height="116%"><feColorMatrix values=".72 0 0 0 .18 0 .76 0 0 .18 0 0 .74 0 .2 0 0 0 1 0"/><feComponentTransfer><feFuncR type="gamma" amplitude="1" exponent=".78" offset=".02"/><feFuncG type="gamma" amplitude="1" exponent=".8" offset=".02"/><feFuncB type="gamma" amplitude="1" exponent=".82" offset=".03"/></feComponentTransfer></filter>
+                  <filter id="terrain-depth" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="13" stdDeviation="5" flood-color="#01090d" flood-opacity=".82"/><feDropShadow dx="0" dy="2" stdDeviation="1.2" flood-color="#b6dbd7" flood-opacity=".38"/></filter>
+                  <clipPath id="terrain-clip" data-terrain-clip></clipPath>
                 </defs>
-                <g class="terrain-shadow" transform="translate(0 13)">
-                  <path d="M70 132L107 92 176 69 225 86 263 68 309 92 296 132 265 151 241 190 205 207 182 247 137 248 105 218 77 184Z"/>
-                  <path d="M249 257L288 280 307 336 295 398 263 466 238 414 232 351 211 302Z"/>
-                  <path d="M426 109L478 82 544 91 602 68 684 84 731 69 826 95 894 129 925 169 887 197 818 188 786 219 728 221 689 198 648 216 604 190 560 204 524 176 479 182 447 157Z"/>
-                  <path d="M488 205L536 217 571 263 566 330 532 395 494 362 478 302 454 255Z"/>
-                  <path d="M765 329L814 317 860 345 842 386 787 397 748 365Z"/>
-                  <path d="M317 44L354 26 388 45 373 78 331 78Z"/>
+                <rect class="map-base-grid" width="100%" height="100%" fill="url(#map-grid-pattern)"/>
+                <rect class="map-base-micro-grid" width="100%" height="100%" fill="url(#map-micro-grid)"/>
+                <g class="terrain-scan" filter="url(#terrain-depth)">
+                  <image data-relief-image clip-path="url(#terrain-clip)" width="100%" height="100%" preserveAspectRatio="none" filter="url(#map-relief-treatment)"/>
+                  <g class="map-regions" data-map-regions></g>
                 </g>
-                <g class="terrain-land" filter="url(#terrain)">
-                  <path d="M70 132L107 92 176 69 225 86 263 68 309 92 296 132 265 151 241 190 205 207 182 247 137 248 105 218 77 184Z"/>
-                  <path d="M249 257L288 280 307 336 295 398 263 466 238 414 232 351 211 302Z"/>
-                  <path d="M426 109L478 82 544 91 602 68 684 84 731 69 826 95 894 129 925 169 887 197 818 188 786 219 728 221 689 198 648 216 604 190 560 204 524 176 479 182 447 157Z"/>
-                  <path d="M488 205L536 217 571 263 566 330 532 395 494 362 478 302 454 255Z"/>
-                  <path d="M765 329L814 317 860 345 842 386 787 397 748 365Z"/>
-                  <path d="M317 44L354 26 388 45 373 78 331 78Z"/>
-                  <path d="M888 213l13 8-8 29-12-17zM850 221l9 5-4 20-9-12zM741 246l18 6-3 17-22-5z"/>
-                </g>
-                <g class="latitude-lines"><path d="M8 125H992M8 250H992M8 375H992"/><path d="M250 8V492M500 8V492M750 8V492"/></g>
-              </svg>
-
-              <svg class="hong-kong-map" data-hong-kong-map viewBox="0 0 1000 500" role="img" aria-label="香港地圖" hidden>
-                <defs><linearGradient id="hk-land" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dce8e5"/><stop offset="1" stop-color="#90aaa8"/></linearGradient></defs>
-                <g class="hk-shadow" transform="translate(0 16)">
-                  <path d="M255 60L385 42 488 75 574 56 700 92 780 151 862 168 900 232 844 272 767 245 710 286 624 258 540 292 462 257 388 282 310 235 218 217 168 151Z"/>
-                  <path d="M470 297L572 280 679 306 735 343 688 376 579 365 501 389 431 359Z"/>
-                  <path d="M425 386L548 371 674 394 716 433 625 463 488 451 392 426Z"/>
-                  <path d="M83 323L165 278 240 299 277 349 239 412 151 438 83 395Z"/>
-                  <path d="M751 308L820 284 878 314 852 352 784 359Z"/>
-                </g>
-                <g class="hk-land">
-                  <path d="M255 60L385 42 488 75 574 56 700 92 780 151 862 168 900 232 844 272 767 245 710 286 624 258 540 292 462 257 388 282 310 235 218 217 168 151Z"/>
-                  <path d="M470 297L572 280 679 306 735 343 688 376 579 365 501 389 431 359Z"/>
-                  <path d="M425 386L548 371 674 394 716 433 625 463 488 451 392 426Z"/>
-                  <path d="M83 323L165 278 240 299 277 349 239 412 151 438 83 395Z"/>
-                  <path d="M751 308L820 284 878 314 852 352 784 359Z"/>
-                  <path d="M315 358l33-15 23 19-20 21zM292 395l20-8 14 16-22 14zM745 382l24-12 21 17-31 16z"/>
-                </g>
-                <g class="hk-boundaries"><path d="M258 62l64 172M389 45l-1 237M490 75l-28 182M575 58l-35 234M700 93l10 192M780 153l-13 91M470 298l109 67M572 282l7 83M680 307l8 69M425 386l63 65M548 373l77 90"/></g>
                 <g class="mtr-network" data-mtr-network></g>
+                <g class="map-annotations" data-map-annotations></g>
               </svg>
               <div class="map-markers" data-map-markers></div>
               <div class="target-reticle" data-target-reticle aria-hidden="true"><i></i><i></i><i></i></div>
             </div>
-            <div class="map-depth-label" aria-hidden="true">3D TERRAIN / POINTER TILT ACTIVE</div>
+            <button type="button" class="mobile-map-target" data-mobile-map-target aria-label="目前目標"><span></span></button>
+            <div class="map-depth-label" aria-hidden="true"><span data-coordinate-readout>22.3193° N / 114.1694° E</span><b>RELIEF SCAN / POINTER PARALLAX</b></div>
           </div>
 
           <footer class="map-readout">
@@ -144,10 +121,12 @@
 
         <aside class="mission-panel" aria-label="拼寫任務資料">
           <header><span>// MISSION INFO</span><strong data-mission-number>WORLD 01</strong></header>
-          <div class="flag-frame" data-flag-frame>
-            <img data-flag src="country-name-spelling-flags/gb.svg" alt="英國國旗">
+          <div class="mission-visual" data-visual-frame>
+            <div class="mission-visual__world" data-world-visual><img data-flag src="country-name-spelling-flags/gb.svg" alt="英國國旗"></div>
+            <svg class="mission-visual__inset" data-location-inset viewBox="0 0 1100 650" role="img" aria-label="香港位置圖" hidden></svg>
+            <img class="mission-visual__badge" data-hk-badge src="country-name-spelling-flags/hk.svg" alt="香港區旗" hidden>
             <div class="flag-scan" aria-hidden="true"></div>
-            <span>VISUAL IDENTIFICATION</span>
+            <span data-visual-label>VISUAL IDENTIFICATION / 國旗辨認</span>
           </div>
 
           <div class="mission-identity">
@@ -157,6 +136,7 @@
               <div><dt>ZONE</dt><dd data-item-zone>Europe</dd></div>
               <div><dt>OBJECTIVE</dt><dd>Spell the English name</dd></div>
             </dl>
+            <p class="mission-context" data-mission-context>Identify the flag and its position on the world map.</p>
           </div>
 
           <section class="spelling-console">
@@ -193,7 +173,7 @@
   <script src="supabase-config.js"></script>
   <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script>
   <script src="shared-system-nav.js?v=20261104-country-map1"></script>
-  <script type="module" src="country-name-spelling-terminal.mjs?v=20261104-country-map2"></script>
+  <script type="module" src="country-name-spelling-terminal-v2.mjs?v=20261104-cartography6"></script>
   <script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
 </body>
 </html>

@@ -1,14 +1,15 @@
 import assert from "node:assert/strict";
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, readFileSync, statSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join, resolve } from "node:path";
 import { HK_DISTRICTS, HK_GROUPS, MTR_STATIONS, WORLD_COUNTRIES, WORLD_REGIONS } from "../country-name-spelling-data.mjs";
+import { HK_GEOMETRY, MTR_COORDINATES, WORLD_GEOMETRY } from "../country-name-spelling-map/map-geometry.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = resolve(here, "..");
 const html = readFileSync(join(root, "country-name-spelling.html"), "utf8");
-const css = readFileSync(join(root, "country-name-spelling-terminal.css"), "utf8");
-const app = readFileSync(join(root, "country-name-spelling-terminal.mjs"), "utf8");
+const css = readFileSync(join(root, "country-name-spelling-terminal-v2.css"), "utf8");
+const app = readFileSync(join(root, "country-name-spelling-terminal-v2.mjs"), "utf8");
 
 function assertUnique(items, label) {
   assert.equal(new Set(items.map((item) => item.id)).size, items.length, `${label} ids must be unique`);
@@ -31,6 +32,10 @@ assert.equal(HK_DISTRICTS.length, 18, "Hong Kong edition must include all 18 dis
 assert.equal(MTR_STATIONS.length, 61, "Hong Kong edition should include the curated familiar MTR station list");
 assert.equal(WORLD_REGIONS.join("|"), "All|Europe|Asia|Americas|Africa|Oceania");
 assert.equal(HK_GROUPS.join("|"), "Districts|MTR stations");
+assert.equal(WORLD_GEOMETRY.length >= 200, true, "Natural Earth layer should include the full world country geometry");
+assert.equal(HK_GEOMETRY.length, 18, "official district boundary layer must contain 18 districts");
+assert.equal(Object.keys(MTR_COORDINATES).length >= 150, true, "geographic MTR station layer should contain the full public station set");
+assert.deepEqual(new Set(HK_GEOMETRY.map((item) => item.id)), new Set(HK_DISTRICTS.map((item) => item.id)), "official district geometry must map one-to-one to lesson districts");
 
 assertUnique(WORLD_COUNTRIES, "country");
 assertUnique(HK_DISTRICTS, "district");
@@ -60,28 +65,43 @@ for (const item of WORLD_COUNTRIES) {
   assert.doesNotMatch(readFileSync(flagPath, "utf8"), /<script\b/i, `flag for ${item.name} must not contain scripts`);
 }
 assert.equal(existsSync(join(root, "country-name-spelling-flags/hk.svg")), true, "missing Hong Kong flag");
+for (const [file, minimum] of [["world-relief.jpg", 100_000], ["hong-kong-relief.png", 300_000]]) {
+  const path = join(root, "country-name-spelling-map", file);
+  assert.equal(existsSync(path), true, `missing terrain asset ${file}`);
+  assert.equal(statSync(path).size >= minimum, true, `${file} is too small to be the production relief layer`);
+}
+assert.equal(existsSync(join(root, "country-name-spelling-map/SOURCES.md")), true, "map sources and licences must be documented");
 
-assert.match(html, /country-name-spelling-terminal\.mjs/);
+assert.match(html, /country-name-spelling-terminal-v2\.mjs/);
+assert.match(html, /country-name-spelling-terminal-v2\.css/);
 assert.match(html, /data-edition="world"/);
 assert.match(html, /data-edition="hong-kong"/);
-assert.match(html, /data-world-map/);
-assert.match(html, /data-hong-kong-map/);
+assert.match(html, /data-terrain-map/);
+assert.match(html, /data-location-inset/);
+assert.match(html, /data-map-regions/);
 assert.match(html, /data-flag/);
 assert.match(html, /country-name-spelling-flags\/gb\.svg/);
 assert.doesNotMatch(html, /assets\/country-name-spelling\/flags/);
 assert.match(html, /SPELL TO IDENTIFY/);
 assert.doesNotMatch(html, /Content will be added in future/i);
 assert.doesNotMatch(html, /data-target-name>FRANCE/i);
+assert.doesNotMatch(html, /M70 315L245 220/i, "old invented continent geometry must not remain in the page");
 
-assert.match(css, /perspective:/);
-assert.match(css, /transform-style:\s*preserve-3d/);
+assert.match(css, /perspective\(/);
 assert.match(css, /prefers-reduced-motion:\s*reduce/);
 assert.match(css, /@media\s*\(max-width:\s*720px\)/);
+assert.match(css, /\.map-region\.is-target/);
+assert.match(css, /\.mission-visual__inset/);
+assert.match(css, /\.rail-line\.is-active/);
 assert.match(app, /SpeechSynthesisUtterance/);
 assert.match(app, /localStorage\.setItem/);
 assert.match(app, /normaliseAnswer/);
 assert.match(app, /localhost/);
-assert.match(app, /mtr-segment/);
+assert.match(app, /MTR_COORDINATES/);
+assert.match(app, /WORLD_GEOMETRY/);
+assert.match(app, /HK_GEOMETRY/);
+assert.match(app, /editDistance/);
+assert.match(app, /REVEAL FULL NAME/);
 assert.match(app, /country-name-spelling-flags/);
 assert.doesNotMatch(app, /assets\/country-name-spelling\/flags/);
 
