@@ -11,74 +11,83 @@ module = SourceFileLoader(
 
 
 class CollectPagesReleaseTagsTests(unittest.TestCase):
-    def test_combines_focused_tags_from_multiple_changes(self):
-        self.assertEqual(
-            module.collect(
-                [
-                    "[fast-deploy] [writing-release] Update writing",
-                    "[fast-deploy] [paper3-release] Update reader",
-                ]
-            ),
-            "[fast-deploy] [paper3-release] [writing-release]",
-        )
+    @classmethod
+    def setUpClass(cls):
+        cls.policy = module.load_policy()
 
-    def test_untagged_change_disables_fast_validation_bypass(self):
-        tags = module.collect(
-            [
-                "[fast-deploy] [writing-release] Update writing",
-                "Update shared security policy",
-            ]
+    def test_combines_scopes_from_changed_paths_without_commit_history(self):
+        tags, uncovered = module.collect_path_scopes(
+            ["dse-practical-writing.mjs", "paper3/2023-b2/curation/lesson.js"],
+            self.policy,
         )
-        self.assertNotIn("[fast-deploy]", tags)
-        self.assertIn("[writing-release]", tags)
-
-    def test_empty_history_is_not_fast(self):
-        self.assertEqual(module.collect([]), "")
-
-    def test_traces_both_tagged_parents_of_untagged_merge_resolution(self):
-        blobs = {
-            ("base", "page.html"): "old",
-            ("infra", "page.html"): "infra",
-            ("writing", "page.html"): "writing",
-            ("merge", "page.html"): "combined",
-        }
-        commits = {
-            "base": ([], "old release"),
-            "infra": (["base"], "[fast-deploy] [infrastructure-release] infra"),
-            "writing": (["base"], "[fast-deploy] [writing-release] writing"),
-            "merge": (["infra", "writing"], "automatic merge"),
-        }
-        tags = module.collect_changed_path_tags(
-            "base",
-            "merge",
-            ["page.html"],
-            lambda commit, path: blobs.get((commit, path)),
-            lambda commit: commits[commit],
-        )
+        self.assertEqual(uncovered, [])
         self.assertEqual(
             tags,
-            "[fast-deploy] [infrastructure-release] [writing-release]",
+            "[fast-deploy] [paper3-release] [practical-writing-release]",
         )
 
-    def test_untagged_non_merge_file_origin_disables_fast_validation(self):
-        blobs = {
-            ("base", "page.html"): "old",
-            ("target", "page.html"): "new",
-        }
-        commits = {
-            "base": ([], "old release"),
-            "target": (["base"], "untagged content change"),
-        }
+    def test_exact_release_that_misrouted_is_now_focused(self):
+        paths = """\
+dse-practical-writing.html
+dse-practical-writing.mjs
+error-identifier-indefinite.js
+error-identifier-jayden.js
+error-identifier-system.html
+homework-resource-catalog.mjs
+schedule-homework-export.mjs
+schedule-homework-hotkeys-admin.html
+schedule-homework-hotkeys-admin.js
+schedule-homework-links.mjs
+schedule-system.html
+schedule-system.js
+supabase/migrations/20261104093633_mirror_error_identifier_module_feedback.sql
+supabase/migrations/20261104094733_index_indefinite_pronouns_progress_number.sql
+tools/generate-homework-resource-catalog.mjs
+tools/test-dse-practical-writing.mjs
+tools/test-error-identifier-indefinite-feedback.mjs
+tools/test-error-identifier-jayden.mjs
+tools/test-homework-course-links.mjs
+tools/test-indefinite-pronouns-import.mjs
+tools/test-schedule-homework-links.mjs
+tools/test-schedule-system.mjs
+""".splitlines()
+        tags, uncovered = module.collect_path_scopes(paths, self.policy)
+        self.assertEqual(uncovered, [])
         self.assertEqual(
-            module.collect_changed_path_tags(
-                "base",
-                "target",
-                ["page.html"],
-                lambda commit, path: blobs.get((commit, path)),
-                lambda commit: commits[commit],
-            ),
-            "",
+            tags,
+            "[error-id-release] [fast-deploy] [homework-release] [practical-writing-release]",
         )
+
+    def test_unknown_path_forces_full_validation(self):
+        tags, uncovered = module.collect_path_scopes(
+            ["dse-practical-writing.mjs", "new-system/security-policy.mjs"],
+            self.policy,
+        )
+        self.assertNotIn("[fast-deploy]", tags)
+        self.assertIn("[practical-writing-release]", tags)
+        self.assertEqual(uncovered, ["new-system/security-policy.mjs"])
+
+    def test_listening_question_types_do_not_pull_broad_ielts_curation(self):
+        tags, uncovered = module.collect_path_scopes(
+            ["listening-system.js", "tools/test-dse-listening-question-types.mjs"],
+            self.policy,
+        )
+        self.assertEqual(uncovered, [])
+        self.assertIn("[listening-types-release]", tags)
+        self.assertNotIn("[listening-release]", tags)
+
+    def test_empty_path_set_is_not_fast(self):
+        self.assertEqual(module.collect_path_scopes([], self.policy), ("", []))
+
+    def test_too_many_paths_are_not_fast(self):
+        paths = [f"dse-practical-writing-{index}.mjs" for index in range(501)]
+        tags, uncovered = module.collect_path_scopes(paths, self.policy)
+        self.assertEqual(tags, "")
+        self.assertEqual(len(uncovered), 501)
+
+    def test_unsafe_path_is_rejected(self):
+        with self.assertRaisesRegex(ValueError, "Unsafe changed path"):
+            module.collect_path_scopes(["../outside.html"], self.policy)
 
 
 if __name__ == "__main__":

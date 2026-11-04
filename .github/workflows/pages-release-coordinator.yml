@@ -42,6 +42,7 @@ jobs:
           sparse-checkout: |
             /tools/classify-pages-release.py
             /tools/collect-pages-release-tags.py
+            /tools/pages-release-scopes.json
             /tools/test-classify-pages-release.py
             /tools/test-collect-pages-release-tags.py
 
@@ -73,8 +74,6 @@ jobs:
             git diff --name-only "${base_sha}" "${GITHUB_SHA}" > /tmp/pages-release-paths.txt
             route=$(python3 tools/classify-pages-release.py /tmp/pages-release-paths.txt)
             release_tags=$(python3 tools/collect-pages-release-tags.py \
-              --base "${base_sha}" \
-              --target "${GITHUB_SHA}" \
               --paths-file /tmp/pages-release-paths.txt)
           fi
 
