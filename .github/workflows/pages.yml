@@ -1345,7 +1345,9 @@ jobs:
           node tools/test-professional-learning-sync.mjs
           node tools/test-professional-polysemy-resume.mjs
           node tools/test-polysemy-lab.mjs
-          node tools/test-polysemy-modules.mjs --require-audio --allow-pending-audio
+          node tools/test-polysemy-fairness.mjs
+          node tools/test-polysemy-fairness-sync.mjs
+          node tools/test-polysemy-audio-packs.mjs
           node tools/test-natural-english.mjs
           node tools/test-natural-english-modules.mjs
           node tools/test-professional-mobile-cards.mjs
