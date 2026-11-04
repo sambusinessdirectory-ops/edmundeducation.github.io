@@ -105,8 +105,7 @@ class PreparePagesIncrementalTests(unittest.TestCase):
 
     def test_sensitive_publication_rules_require_full_build(self):
         for path in (
-            ".github/workflows/pages.yml",
-            "paper3/2013-b1/index.html",
+            "paper3/reader-batch.zip",
             "tools/rewrite-pages-assets.py",
             "ielts-reading-analysis-availability.js",
             "ielts-reading-analysis-data/locked.json",
@@ -114,6 +113,15 @@ class PreparePagesIncrementalTests(unittest.TestCase):
         ):
             with self.subTest(path=path):
                 self.assertTrue(module.requires_full(path))
+
+    def test_workflow_and_direct_paper3_files_can_overlay_the_snapshot(self):
+        for path in (
+            ".github/workflows/pages.yml",
+            "paper3/2013-b1/index.html",
+            "paper3/2023-b2/curation/lesson.js",
+        ):
+            with self.subTest(path=path):
+                self.assertFalse(module.requires_full(path))
 
     def test_publication_exclusions_match_private_source_categories(self):
         for path in (

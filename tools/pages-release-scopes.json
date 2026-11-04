@@ -215,6 +215,8 @@
     ],
     "[country-spelling-release]": [
       "country-name-spelling-audio/**",
+      "country-name-spelling-flags/**",
+      "country-name-spelling-map/**",
       "country-name-spelling*.css",
       "country-name-spelling*.html",
       "country-name-spelling*.mjs",
@@ -229,11 +231,15 @@
       "tools/test-indefinite-pronouns-import.mjs"
     ],
     "[homework-release]": [
+      "assets/model-essays/**",
+      "assets/schedule/**",
+      "homework-eddy*",
       "homework-resource-catalog.mjs",
       "schedule-*",
       "tools/generate-homework-resource-catalog.mjs",
       "tools/test-homework-*.mjs",
-      "tools/test-schedule-*.mjs"
+      "tools/test-schedule-*.mjs",
+      "workers/schedule-system/**"
     ],
     "[listening-types-release]": [
       "dse-listening-question-types.*",
