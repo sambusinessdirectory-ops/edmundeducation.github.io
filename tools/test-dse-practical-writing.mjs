@@ -73,9 +73,9 @@ test('original route catalogue, document briefing, three-column writing workspac
 
 test('production design uses only the original, provenance-documented education artwork', () => {
   const assets = [
-    'assets/dse-practical-writing/learning-route-v1.webp',
-    'assets/dse-practical-writing/writing-desk-v1.webp',
-    'assets/dse-practical-writing/briefing-folio-v1.webp'
+    'dse-practical-writing-art/learning-route-v1.webp',
+    'dse-practical-writing-art/writing-desk-v1.webp',
+    'dse-practical-writing-art/briefing-folio-v1.webp'
   ];
   assert.ok(assets.every(asset => existsSync(new URL(`../${asset}`, import.meta.url))));
   assert.match(css, /learning-route-v1\.webp/);

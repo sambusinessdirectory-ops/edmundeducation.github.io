@@ -489,9 +489,10 @@ jobs:
       - name: Validate focused DSE Practical Writing release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[practical-writing-release]') }}
         run: |
-          test -s assets/dse-practical-writing/briefing-folio-v1.webp
-          test -s assets/dse-practical-writing/learning-route-v1.webp
-          test -s assets/dse-practical-writing/writing-desk-v1.webp
+          test -s dse-practical-writing-art/briefing-folio-v1.webp
+          test -s dse-practical-writing-art/learning-route-v1.webp
+          test -s dse-practical-writing-art/writing-desk-v1.webp
+          test -s assets/dse-practical-writing/PROVENANCE.md
           node --test tools/test-dse-practical-writing.mjs
           node --check tools/test-dse-practical-writing-browser.mjs
           node --check dse-practical-writing.mjs

@@ -235,7 +235,7 @@ body {
   border-radius: 24px;
   background:
     linear-gradient(90deg, rgba(246,236,214,.92), rgba(246,236,214,.76)),
-    url("assets/dse-practical-writing/briefing-folio-v1.webp") center / cover no-repeat;
+    url("dse-practical-writing-art/briefing-folio-v1.webp") center / cover no-repeat;
   box-shadow: var(--scene-shadow);
 }
 .login-view::after,
@@ -302,7 +302,7 @@ body {
   padding: 26px;
   border: 1px solid rgba(51,34,23,.5);
   border-radius: 24px;
-  background: #39261c url("assets/dse-practical-writing/learning-route-v1.webp") center / cover no-repeat;
+  background: #39261c url("dse-practical-writing-art/learning-route-v1.webp") center / cover no-repeat;
   box-shadow: var(--scene-shadow);
 }
 .campaign-map::after {
@@ -423,7 +423,7 @@ body {
   padding: clamp(44px, 7vw, 108px) clamp(28px, 8vw, 130px);
   border: 1px solid rgba(51,34,23,.48);
   border-radius: 24px;
-  background: var(--wood) url("assets/dse-practical-writing/briefing-folio-v1.webp") center top / cover no-repeat;
+  background: var(--wood) url("dse-practical-writing-art/briefing-folio-v1.webp") center top / cover no-repeat;
   box-shadow: var(--scene-shadow);
 }
 .briefing-sheet {
@@ -459,7 +459,7 @@ body {
   padding: clamp(22px, 3vw, 48px);
   border: 1px solid rgba(51,34,23,.55);
   border-radius: 24px;
-  background: #342319 url("assets/dse-practical-writing/writing-desk-v1.webp") center / cover no-repeat;
+  background: #342319 url("dse-practical-writing-art/writing-desk-v1.webp") center / cover no-repeat;
   box-shadow: var(--scene-shadow);
 }
 .desk-toolbar {
