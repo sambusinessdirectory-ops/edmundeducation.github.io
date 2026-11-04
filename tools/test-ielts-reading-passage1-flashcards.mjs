@@ -188,7 +188,7 @@ if (!dataOnly) {
       customAudio += 1;
     } else if (sourceFileAvailable(localRelativePath, trackedAudioFiles)) {
       localAudio += 1;
-      if (audioUrl !== localRelativePath) {
+      if (audioUrl !== localRelativePath && verifiedManifestOverrides[front] !== audioUrl) {
         missing.push(`${front}: expected retained local URL ${localRelativePath}, found ${audioUrl}`);
       }
     } else if (verifiedReplacements[front] === audioUrl) {
