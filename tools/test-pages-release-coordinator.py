@@ -48,10 +48,10 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("Batch nearby pushes before expensive work", COORDINATOR)
         self.assertIn("sleep 15", COORDINATOR)
 
-    def test_started_builds_are_not_cancelled_by_later_pushes(self):
-        build_jobs = COORDINATOR.split("\n  standard:", 1)[1].split("\n  publish:", 1)[0]
-        self.assertNotIn("concurrency:", build_jobs)
-        self.assertNotIn("cancel-in-progress", build_jobs)
+    def test_newest_push_supersedes_obsolete_builds_across_every_route(self):
+        for workflow in BUILDERS:
+            self.assertEqual(workflow.count("group: pages-build-main"), 1)
+            self.assertEqual(workflow.count("cancel-in-progress: true"), 1)
 
     def test_fast_releases_skip_slow_runner_disk_reclamation(self):
         standard = BUILDERS[0]
