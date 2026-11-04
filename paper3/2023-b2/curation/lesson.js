@@ -45,7 +45,7 @@ const store=document.createElement('details');store.innerHTML='<summary>存檔 �
 E('jump23').onchange=e=>{i=Number(e.target.value);const r=rows[i];if(r.stage===4)shownByTask[r.t]={i,n:0};render()};
 const cueHelp=['財務部確認十集。八集是舊數字。','原定七月撞正暑假，最後改在十月。','早餐方案被放棄，改為主菜。','甜品是另一類選擇，與主菜分行記錄。','先記水浸；稍後用聊天紀錄解釋原因。','水浸屬實，食安指控仍須查證。','錄音澄清流眼水是切洋蔥所致。','全體員工需要社交媒體訓練。','清楚表達可以避免誤解及冒犯。','三個條件缺一不可：首十名、完成全部三科、額外一日假。','是多士燶了，不能誇大為已證實的火警。','防火是員工需要。用課程簡介核對實際技能。','一萬元是要求；五千元是回應，這個數字不屬三篇寫作的內容。','新節目名稱是 Viewer’s Choice。','觀眾選材料，由 William 在節目上即場煮。','全程直播是可以用於宣傳的已確認特色。','會議結束，核對筆記再開始逐句取證。'];
 const noteView=notes;notes=function(n,partial){noteView(n,partial);if(!active)return;E('meta').textContent='會議錄音 · '+(cueIndex+1)+' / '+cues.length;E('q').textContent=done?transcript[cues[cueIndex][0]].text:'聆聽至下一個關鍵點';E('a').textContent=done?cueHelp[cueIndex]:'留意講者有沒有更正早前的說法。'};
-audio.onerror=()=>{showAudioFailure();E('a').textContent='未能載入會議錄音。可先閱讀逐字稿，再按重試載入錄音。'};audio.onloadedmetadata=()=>{if(active&&audio.currentTime<426)audio.currentTime=426};
+audio.onerror=()=>{showAudioFailure();E('a').textContent='未能載入會議錄音。可先閱讀逐字稿，再按重試載入錄音。'};audio.onloadedmetadata=()=>{if(active&&audio.currentTime<meetingStart23)audio.currentTime=meetingStart23};
 const linkRender=render;render=function(){linkRender();const r=rows[i];if(r.leaf){E('open').href='originals/page-'+String(r.leaf).padStart(2,'0')+'.webp';E('meta').textContent='Data File 第 '+r.leaf+' 頁 · '+(r.tag?'暫標 '+r.tag:'類型 '+r.t)}else E('open').href='benchmark.pdf#page='+r.p;if(active)notes(cueIndex);};render();
 // Add the precise original source wording for each scored evidence item even when a
 // workbook decision groups several sentences under the same numbered teaching note.
@@ -137,7 +137,7 @@ const extraLinks=[
  [17,2,9,'A: The Chef’s Special','The Chef’s Special','選用具 HAB 資格導師教授的課程。'],
  [18,2,10,'Great tips on how to have a food-safe kitchen.','food-safe kitchen','此為一名參加者的評價。'],
  [20,2,9,'Option 1: Be Your Best!','Be Your Best!','用課程正式名稱。'],
- [21,2,19,"So how not to offend people, that kind of thing.",'cause offence','會議點出避免冒犯的培訓需要。'],
+ [21,2,19,"how not to offend people.",'cause offence','會議點出避免冒犯的培訓需要。'],
  [26,3,7,'Mary Steward? The Queen of TV Cooking?','Queen of TV cooking','稱號來自聊天；出席另由較新的電郵確認。'],
  [32,3,6,'The finished dish → straight to your door!','winner’s door','故事板交代目的地，電郵補充無人機及公司。']];
 for(let [u,t,p,q,k,h] of extraLinks){let id=facts.findIndex(f=>f[0]===t&&f[1]===p&&f[2]===q);if(id<0)id=fact(t,p,q,k,h);if(!essayUnits[u].used.includes(id))essayUnits[u].used.push(id)}

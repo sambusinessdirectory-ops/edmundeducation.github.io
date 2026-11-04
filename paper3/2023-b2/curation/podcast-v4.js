@@ -57,8 +57,8 @@ function makeEvidenceV4(sheet,config){
   const content=document.createElement('div');content.className='notes-evidence-content';
   const scope=document.createElement('p');scope.className='notes-evidence-scope';scope.textContent=config.tasks?'三篇寫作 · '+config.tasks.split('').map(task=>'Task '+task).join(' + '):'聆聽筆記 · 不納入三篇寫作';
   const tip=document.createElement('p');tip.className='notes-evidence-tip';tip.textContent=config.tip;
-  const firstCue=config.cues[0],start=transcript[config.from]?.start||426;
-  const play=document.createElement('button');play.type='button';play.className='notes-section-play';play.textContent='▶ 從此段播放 · '+tstr(Math.max(0,start-426));
+  const firstCue=config.cues[0],start=transcript[config.from]?.start||meetingStart23;
+  const play=document.createElement('button');play.type='button';play.className='notes-section-play';play.textContent='▶ 從此段播放 · '+tstr(Math.max(0,start-meetingStart23));
   play.setAttribute('aria-label','播放 '+config.title+' 相關錄音');
   play.onclick=()=>{if(!active)jump23(rows.findIndex(row=>row.stage===2));listen(firstCue,true);update23(true)};
   const box=document.createElement('div');box.className='notes-evidence-transcript';box.tabIndex=0;box.setAttribute('role','region');box.setAttribute('aria-label',config.title+' 相關錄音稿');
@@ -121,7 +121,7 @@ function modernizePodcastChromeV4(){
   panel.classList.add('curation-player');scriptWindow.classList.add('curation-transcript-window');
   panel.querySelector('b')?.classList.add('curation-player-title');E('seek').classList.add('curation-player-seek');E('time').classList.add('curation-player-time');E('pins').classList.add('curation-player-pins-toggle');E('rate').parentElement?.classList.add('curation-player-speed');
   let timeline=panel.querySelector('.curation-player-timeline');if(!timeline){timeline=document.createElement('div');timeline.className='curation-player-timeline';E('seek').before(timeline);timeline.append(E('seek'),E('ticks'))}E('ticks').classList.add('curation-player-pins');
-  [...E('ticks').children].forEach((pin,index)=>{const at=transcript[cues[index][0]].end;pin.className='curation-player-pin';pin.textContent='';pin.style.left=Math.max(0,Math.min(100,(at-426)/(838.79-426)*100))+'%';pin.setAttribute('aria-label',(index+1)+'. '+(cues[index][2]||'會議結束')+' · '+tstr(at-426))});
+  [...E('ticks').children].forEach((pin,index)=>{const at=transcript[cues[index][0]].end;pin.className='curation-player-pin';pin.textContent='';pin.style.left=Math.max(0,Math.min(100,(at-meetingStart23)/(838.79-meetingStart23)*100))+'%';pin.setAttribute('aria-label',(index+1)+'. '+(cues[index][2]||'會議結束')+' · '+tstr(at-meetingStart23))});
   const head=scriptWindow.querySelector('header'),body=E('turns');head.classList.add('curation-transcript-window-head');body.classList.add('curation-transcript-window-body');
   for(const line of body.children){const turn=transcript[Number(line.dataset.id)],index=Number(line.dataset.id)-6;line.classList.add('speech');line.replaceChildren();const speaker=document.createElement('strong');speaker.className='speaker';speaker.textContent=turn.speaker;const copy=document.createElement('p');copy.textContent=turn.text;line.append(speaker,copy);if(zhTurns[index]){const spacer=document.createElement('span'),translation=document.createElement('p');translation.className='translation';translation.textContent=zhTurns[index];line.append(spacer,translation)}}
   if(!E('transcript-translate')){const translate=document.createElement('button');translate.id='transcript-translate';translate.type='button';translate.className='curation-transcript-translate';translate.textContent='中譯';translate.setAttribute('aria-pressed','false');translate.onpointerdown=event=>event.stopPropagation();translate.onclick=()=>{const show=scriptWindow.classList.toggle('show-translation');translate.setAttribute('aria-pressed',String(show))};head.append(translate)}

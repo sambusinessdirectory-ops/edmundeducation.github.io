@@ -1,3 +1,4 @@
+import {clearListening,renderListening} from './listening.mjs';
 const $ = id => document.getElementById(id);
 const audio = $('audio');
 const rate = $('rate');
@@ -7,7 +8,8 @@ for (const value of rates) rate.add(new Option(value+'×',value));
 rate.value = '1';
 let lesson, mediaKey, audioUrl, player, sessionTimer, audioRequest;
 let generation = 0, videoAttempt = 0, mode = 'audio', frame, lastCue, activeHits = '', prepared = false;
-let studentToken = '', modeId = 'A2', answers = new Map(), positions = {};
+let clipEnd = null;
+let studentToken = '', modeId = 'L', answers = new Map(), positions = {};
 const fmt = time => Math.floor(time/60)+':'+String(Math.floor(time%60)).padStart(2,'0');
 function view(id){for(const name of ['gate','library','lesson']) $(name).hidden = name!==id;}
 function button(text,action){const b=document.createElement('button');b.textContent=text;b.onclick=action;return b;}
@@ -19,7 +21,7 @@ async function rpc(name,args){
   return (await response.json())[0];
 }
 async function unpack(name,key){
-  const r=await fetch('/news-reader/'+name+'.bin');if(!r.ok)throw Error('教材載入失敗，請重新登入再試。');
+  const r=await fetch('/news-reader/'+name+'.bin'+(name==='lesson'?'?part=1':''));if(!r.ok)throw Error('教材載入失敗，請重新登入再試。');
   const data=new Uint8Array(await r.arrayBuffer());
   return crypto.subtle.decrypt({name:'AES-GCM',iv:data.slice(0,12)},key,data.slice(12));
 }
@@ -35,10 +37,10 @@ async function enter(token,g){
   $('entry').querySelector('strong').textContent=lesson.title;$('entry').querySelector('span').textContent=lesson.zh;
   view('library');
 }
-function stop(){audio.pause();videoAttempt++;if(player){player.destroy();player=null;}prepared=false;$('videoHost').replaceChildren();cancelAnimationFrame(frame);}
+function stop(){clipEnd=null;audio.pause();videoAttempt++;if(player){player.destroy();player=null;}prepared=false;$('videoHost').replaceChildren();cancelAnimationFrame(frame);}
 function logout(message=''){
   generation++;stop();clearTimeout(sessionTimer);audio.removeAttribute('src');audio.load();if(audioUrl)URL.revokeObjectURL(audioUrl);
-  audioRequest=null;audioUrl=null;studentToken='';lesson=null;mediaKey=null;answers.clear();positions={};
+  audioRequest=null;audioUrl=null;studentToken='';lesson=null;mediaKey=null;answers.clear();clearListening();modeId='L';positions={};
   sessionStorage.removeItem(storageKey);$('user').textContent='';$('logout').hidden=true;
   for(const id of ['wordList','question','en','zh','title','translation','modes'])$(id).replaceChildren();
   $('entry').querySelector('strong').textContent='';$('entry').querySelector('span').textContent='';
@@ -77,9 +79,9 @@ const clock=()=>mode==='video'&&prepared?player.getCurrentTime():audio.currentTi
 const playing=()=>mode==='video'&&prepared?player.getPlayerState()===1:!audio.paused;
 function tabs(){for(const id of ['audio','video'])$(id+'Mode').setAttribute('aria-pressed',String(mode===id));
   $('audioArt').hidden=mode!=='audio';$('videoHost').hidden=mode!=='video';}
-async function switchAudio(t=clock(),resume=playing(),message=''){
-  const g=generation;stop();mode='audio';tabs();$('mediaStatus').textContent=message;
-  try{await loadAudio();if(g!==generation||mode!=='audio'||$('lesson').hidden)return;
+async function switchAudio(t=clock(),resume=playing(),message='',end=null){
+  const g=generation;stop();const attempt=videoAttempt;clipEnd=end;mode='audio';tabs();$('mediaStatus').textContent=message;
+  try{await loadAudio();if(attempt!==videoAttempt||g!==generation||mode!=='audio'||$('lesson').hidden)return;
     audio.currentTime=t;audio.playbackRate=Number(rate.value);if(resume)await audio.play();
   }catch(e){if(g===generation)$('mediaStatus').textContent='請按播放重試。 '+e.message;}
   if(g===generation)tick();
@@ -101,6 +103,7 @@ async function switchVideo(){
   }catch{backup('影片服務無法連線，已切換到原聲 MP3。');}
 }
 function seek(t){
+  clipEnd=null;
   if(mode==='video'&&prepared)player.seekTo(t,true);else if(audioUrl)audio.currentTime=t;
   tick();
 }
@@ -113,7 +116,9 @@ rate.onchange=()=>{const speed=Number(rate.value);audio.playbackRate=speed;
 $('audioMode').onclick=()=>{if(mode!=='audio')switchAudio();};$('videoMode').onclick=()=>{if(mode!=='video')switchVideo();};
 function tick(){
   cancelAnimationFrame(frame);if(!lesson||$('lesson').hidden)return;
-  const t=clock(),running=playing();$('time').value=fmt(t);$('seek').value=t;$('play').textContent=running?'暫停':'播放';
+  const t=clock();
+  if(mode==='audio'&&clipEnd!==null&&t>=clipEnd){const end=clipEnd;clipEnd=null;audio.pause();audio.currentTime=end;}
+  const running=playing();$('time').value=fmt(t);$('seek').value=t;$('play').textContent=running?'暫停':'播放';
   const cue=lesson.captions.find(row=>t>=row[0]&&t<row[1]);
   if(lastCue!==cue){lastCue=cue;$('en').textContent=cue?.[2]||'';$('zh').textContent=cue?.[3]||'';}
   const active=lesson.questions.filter(q=>q.hits?.some(([s,e])=>t>=s&&t<e)).map(q=>q.id).join(' ');
@@ -130,9 +135,13 @@ function buildWords(){
     else await switchAudio(start,true);
   });b.className='term';b.dataset.id=q.id;line(b,q.name,'strong');line(b,q.meaning+(q.hits.length?'':' · 延伸詞彙（錄音未出現）'),'small');b.disabled=!q.hits.length;list.append(b);}
 }
-const modes=[['A2','基礎詞彙'],['ADV','進階詞彙'],['S','句子結構']];
+const modes=[['L','聽力理解'],['A2','基礎詞彙'],['ADV','進階詞彙'],['S','句子結構']];
 function practice(){
   $('modes').replaceChildren(...modes.map(([id,name])=>{const b=button(name,()=>{modeId=id;practice();});b.setAttribute('aria-pressed',String(id===modeId));return b;}));
+  if(modeId==='L'){
+    renderListening($('question'),lesson.listening,positions.L||0,i=>{if(clipEnd!==null){audio.pause();clipEnd=null;}positions.L=i;practice();},(start,end)=>switchAudio(start,true,'正在播放本題錄音片段。',end));
+    return;
+  }
   const qs=lesson.questions.filter(q=>q.id.startsWith(modeId)),i=positions[modeId]||0,q=qs[i],box=$('question'),answer=answers.get(q.id);
   box.replaceChildren();line(box,'第 '+(i+1)+' / '+qs.length+' 題　·　答對 '+qs.filter(x=>answers.get(x.id)===x.answer).length+' 題','small');
   line(box,q.name,'h3');line(box,q.meaning+'　'+q.hint);if(q.phrase)line(box,'報道原句　'+q.phrase);
@@ -144,4 +153,5 @@ function practice(){
 }
 $('entry').onclick=()=>{if(!studentToken)return;view('lesson');$('title').textContent=lesson.title;$('translation').textContent=lesson.zh;
   buildWords();practice();activeHits='';lastCue=null;mode='audio';tabs();tick();switchVideo();};
+$('jumpListening').onclick=()=>{modeId='L';practice();};
 $('back').onclick=()=>{stop();view('library');};
