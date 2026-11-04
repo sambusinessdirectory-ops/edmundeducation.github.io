@@ -266,6 +266,9 @@ if (!dataOnly) {
   let localAudio = 0;
   let cloudAudio = 0;
   const cloudIndexUsage = new Map();
+  const verifiedManifestOverrides = {
+    "appear to be": "https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/c648933976dad95a218d37fe.mp3"
+  };
   for (const front of audioUniqueFronts) {
     const audioUrl = manifest[front];
     if (!audioUrl) {
@@ -282,6 +285,11 @@ if (!dataOnly) {
         localAudio += 1;
       }
       if (missing.length >= 20) break;
+      continue;
+    }
+
+    if (verifiedManifestOverrides[front] === audioUrl) {
+      cloudAudio += 1;
       continue;
     }
 

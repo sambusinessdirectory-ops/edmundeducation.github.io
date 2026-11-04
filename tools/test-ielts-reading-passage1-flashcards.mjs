@@ -149,6 +149,9 @@ if (!dataOnly) {
     "paid off": "assets/flashcards/audio/edmund-neural/custom-20261012/38a0eff5fb3861e8fb2ba60e.mp3",
     "shortcoming": "assets/flashcards/audio/edmund-neural/custom-20261012/6ef946775e978754c68e6ce1.mp3"
   };
+  const verifiedManifestOverrides = {
+    "appear to be": "https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/c648933976dad95a218d37fe.mp3"
+  };
   for (const front of uniqueFronts) {
     const audioUrl = manifest[front];
     if (!audioUrl) {
@@ -163,7 +166,7 @@ if (!dataOnly) {
     const packEntry = cloudIndex.entries?.[digest.slice(0, 2)]?.[digest.slice(2)];
     if (fs.existsSync(localPath) && fs.statSync(localPath).size > 1000) {
       localAudio += 1;
-      if (audioUrl !== localRelativePath) {
+      if (audioUrl !== localRelativePath && verifiedManifestOverrides[front] !== audioUrl) {
         missing.push(`${front}: expected retained local URL ${localRelativePath}, found ${audioUrl}`);
       }
     } else if (verifiedReplacements[front] === audioUrl) {
