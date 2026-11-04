@@ -27,6 +27,7 @@ const WORLD_CAMERAS = Object.freeze({
   Oceania:{ x:1030, y:380, width:500, height:345 }
 });
 const HK_BY_ID = new Map(HK_GEOMETRY.map((district) => [district.id, district]));
+const WORLD_BY_CODE = new Map(WORLD_COUNTRIES.map((country) => [country.code, country]));
 
 const elements = {
   login: document.querySelector('[data-view="login"]'),
@@ -54,6 +55,7 @@ const elements = {
   coordinateReadout: document.querySelector("[data-coordinate-readout]"),
   mapSequence: document.querySelector("[data-map-sequence]"),
   mapHeading: document.querySelector("[data-map-heading]"),
+  masteryColourToggle: document.querySelector("[data-mastery-colour-toggle]"),
   targetName: document.querySelector("[data-target-name]"),
   targetZone: document.querySelector("[data-target-zone]"),
   progressCopy: document.querySelector("[data-progress-copy]"),
@@ -89,6 +91,7 @@ let session;
 let gameReady = false;
 let mapCamera = null;
 let cameraAnimation = 0;
+let pronunciationAudio = null;
 let state = loadProgress();
 
 function svgNode(tag, attributes = {}, text = "") {
@@ -99,7 +102,7 @@ function svgNode(tag, attributes = {}, text = "") {
 }
 
 function loadProgress() {
-  const fallback = { edition:"world", filters:{ world:"All", "hong-kong":"Districts" }, current:{}, attempts:0, correct:0, streak:0, mastered:[], hints:0, failures:{}, solved:false, revealed:[], usedFullReveal:false, trapVisible:false };
+  const fallback = { edition:"world", filters:{ world:"All", "hong-kong":"Districts" }, current:{}, attempts:0, correct:0, streak:0, mastered:[], hints:0, failures:{}, solved:false, revealed:[], usedFullReveal:false, trapVisible:false, showMasteredMap:true };
   try {
     const value = JSON.parse(localStorage.getItem(PROGRESS_KEY) || "null");
     if (!value || typeof value !== "object") return fallback;
@@ -328,6 +331,7 @@ function isCorrectAnswer(item, value) {
 
 function setCurrent(item) {
   if (!item) return;
+  stopPronunciation();
   state.current[`${state.edition}:${currentFilter()}`] = item.id;
   state.solved = false;
   state.revealed = [];
@@ -355,10 +359,18 @@ function buildFilters() {
   }));
 }
 
-function terrainPaths(collection, selectedKey, key = "code") {
+function geometryProgressId(shape, key) {
+  if (key === "code") {
+    const country = WORLD_BY_CODE.get(shape.code);
+    return country ? `world:${country.id}` : "";
+  }
+  return `hong-kong:${shape.id}`;
+}
+
+function terrainPaths(collection, selectedKey, key = "code", showMastered = false) {
   return collection.map((shape) => svgNode("path", {
     d:shape.path,
-    class:`map-region${shape[key] === selectedKey ? " is-target" : ""}`,
+    class:`map-region${shape[key] === selectedKey ? " is-target" : ""}${showMastered && state.showMasteredMap && state.mastered.includes(geometryProgressId(shape, key)) ? " is-mastered" : ""}`,
     "data-region":shape[key],
     "vector-effect":"non-scaling-stroke"
   }));
@@ -403,9 +415,10 @@ function renderMtrNetwork(item, destination = elements.mtrNetwork, inset = false
     if (active || inset) {
       for (const station of stations) {
         const point = stationPoint(station);
+        const mastered = state.showMasteredMap && state.mastered.includes(`hong-kong:${station.id}`);
         destination.append(svgNode("circle", {
           cx:point.x, cy:point.y, r:station.id === item.id ? 7 : 3.5,
-          class:`rail-station${station.id === item.id ? " is-target" : ""}`,
+          class:`rail-station${station.id === item.id ? " is-target" : ""}${mastered ? " is-mastered" : ""}`,
           "vector-effect":"non-scaling-stroke"
         }));
       }
@@ -429,7 +442,7 @@ function renderAnnotations(item) {
   const nodes = [];
   for (const { candidate, point } of mapCandidates(item)) {
     const target = candidate.id === item.id;
-    const mastered = state.mastered.includes(progressId(candidate));
+    const mastered = state.showMasteredMap && state.mastered.includes(progressId(candidate));
     const group = svgNode("g", {
       class:`map-point${target ? " is-target" : ""}${mastered ? " is-mastered" : ""}`,
       transform:`translate(${point.x.toFixed(2)} ${point.y.toFixed(2)})`,
@@ -480,7 +493,8 @@ function renderMap(item) {
   else elements.terrainScan.setAttribute("mask", "url(#hong-kong-land-mask)");
   elements.terrainMap.setAttribute("aria-label", isWorld ? "世界國家地形圖" : "香港十八區地形圖");
   elements.terrainClip.replaceChildren(...terrainPaths(geometry, selectedKey, isWorld ? "code" : "id"));
-  elements.regions.replaceChildren(...terrainPaths(geometry, selectedKey, isWorld ? "code" : "id"));
+  const showMasteredRegions = isWorld || currentFilter() === "Districts";
+  elements.regions.replaceChildren(...terrainPaths(geometry, selectedKey, isWorld ? "code" : "id", showMasteredRegions));
   const relief = isWorld ? WORLD_RELIEF : HK_RELIEF;
   elements.reliefImage.setAttribute("href", relief);
   elements.reliefImage.setAttribute("width", viewbox.width);
@@ -497,6 +511,7 @@ function renderMap(item) {
   elements.mobileTarget.style.top = `${(point.y / viewbox.height) * 100}%`;
   elements.mobileTarget.querySelector("span").textContent = item.zh;
   elements.mobileTarget.setAttribute("aria-label", `目前目標：${item.zh}`);
+  elements.mobileTarget.classList.toggle("is-mastered", state.showMasteredMap && state.mastered.includes(progressId(item)));
   renderMtrNetwork(item);
   renderAnnotations(item);
   elements.coordinateReadout.textContent = coordinateCopy(item);
@@ -606,6 +621,9 @@ function render() {
   elements.mapHeading.textContent = state.edition === "world"
     ? "Essential DSE & IELTS countries"
     : currentFilter() === "Districts" ? "Hong Kong 18 districts" : "Familiar MTR station names";
+  elements.masteryColourToggle.setAttribute("aria-checked", String(state.showMasteredMap));
+  elements.masteryColourToggle.classList.toggle("is-active", state.showMasteredMap);
+  elements.masteryColourToggle.title = state.showMasteredMap ? "關閉答對地區綠色標記" : "開啟答對地區綠色標記";
   buildFilters();
   renderMap(item);
   renderIdentity(item);
@@ -723,17 +741,58 @@ function randomTarget() {
   setCurrent(source[Math.floor(Math.random() * source.length)] || pool[0]);
 }
 
-function speakCurrent() {
-  const item = currentItem();
-  if (!item || !("speechSynthesis" in window)) {
-    elements.feedback.textContent = "此瀏覽器暫不支援讀音播放。";
-    return;
+function pronunciationPath(item) {
+  if (state.edition === "world") return `country-name-spelling-audio/world/${item.id}.mp3`;
+  const group = currentFilter() === "Districts" ? "districts" : "mtr";
+  return `country-name-spelling-audio/hong-kong/${group}/${item.id}.mp3`;
+}
+
+function stopPronunciation() {
+  if (pronunciationAudio) {
+    pronunciationAudio.pause();
+    pronunciationAudio.removeAttribute("src");
+    pronunciationAudio.load();
+    pronunciationAudio = null;
   }
-  window.speechSynthesis.cancel();
-  const utterance = new SpeechSynthesisUtterance(item.name.replace(/^the /i, ""));
-  utterance.lang = "en-GB";
-  utterance.rate = .82;
-  window.speechSynthesis.speak(utterance);
+  elements.speak.classList.remove("is-playing");
+  elements.speak.disabled = false;
+  elements.speak.lastChild.textContent = " LISTEN";
+}
+
+async function speakCurrent() {
+  const item = currentItem();
+  if (!item) return;
+  stopPronunciation();
+  const clip = new Audio(pronunciationPath(item));
+  pronunciationAudio = clip;
+  clip.preload = "auto";
+  elements.speak.disabled = true;
+  elements.speak.lastChild.textContent = " LOADING";
+  const finish = () => {
+    if (pronunciationAudio !== clip) return;
+    pronunciationAudio = null;
+    elements.speak.disabled = false;
+    elements.speak.classList.remove("is-playing");
+    elements.speak.lastChild.textContent = " LISTEN";
+  };
+  clip.addEventListener("playing", () => {
+    elements.speak.disabled = false;
+    elements.speak.classList.add("is-playing");
+    elements.speak.lastChild.textContent = " PLAYING";
+  }, { once:true });
+  clip.addEventListener("ended", finish, { once:true });
+  clip.addEventListener("error", () => {
+    finish();
+    elements.feedback.textContent = "British Female Kokoro 讀音暫時未能載入，請稍後再試。";
+    elements.feedback.className = "answer-feedback is-wrong";
+  }, { once:true });
+  try {
+    await clip.play();
+  } catch {
+    finish();
+    elements.feedback.textContent = "瀏覽器未能播放讀音；請再按 LISTEN。";
+    elements.feedback.className = "answer-feedback is-wrong";
+  }
 }
 
 function initialiseMapTilt() {
@@ -776,6 +835,11 @@ function initialiseGame() {
   elements.check.addEventListener("click", checkAnswer);
   elements.hint.addEventListener("click", revealLetter);
   elements.speak.addEventListener("click", speakCurrent);
+  elements.masteryColourToggle.addEventListener("click", () => {
+    state.showMasteredMap = !state.showMasteredMap;
+    saveProgress();
+    render();
+  });
   elements.previous.addEventListener("click", () => move(-1));
   elements.next.addEventListener("click", () => move(1));
   elements.random.addEventListener("click", randomTarget);

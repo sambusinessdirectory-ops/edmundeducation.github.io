@@ -55,6 +55,7 @@ async function errorDom(query,loggedIn=false,progress={}){
   if(name==='error_identifier_submission'){const answers=progress.single||{};return {answers,submitted_at:Object.keys(answers).length?'2026-11-04T00:00:00Z':'',answered_count:Object.keys(answers).length};}
   if(name==='error_identifier_feedback')return {};
   if(name==='error_identifier_jayden_action')return {answers:progress.jayden||{},feedback:{}};
+  if(name==='error_identifier_indefinite_action')return {answers:progress.indefinite||{},feedback:{}};
   if(name==='error_identifier_passage_feedback')return {};
   return {answers:{},submitted_at:'',answered_count:0};
  }};
@@ -82,8 +83,8 @@ const completed46=Object.fromEntries(Array.from({length:46},(_,index)=>[index+1,
 const module1=await errorDom('?mode=single',true,{single:completed46});
 assert.ok(module1.window.document.querySelector('[data-question="47"]'),'Module 1 resumes at the first unfinished question');
 module1.window.close();
-const module2=await errorDom('?mode=indefinite',true),module2Window=module2.window;
-module2Window.EDMUND_DURABLE_STUDENT_PROGRESS={read:async()=>({current:1,answers:completed46}),write:async()=>true};
+const module2=await errorDom('?mode=indefinite',true,{indefinite:completed46}),module2Window=module2.window;
+module2Window.EDMUND_DURABLE_STUDENT_PROGRESS={read:async()=>({current:1,answers:{}}),write:async()=>true};
 module2Window.eval(await read('grammar-indefinite-pronouns-data.js'));module2Window.eval(await read('error-identifier-indefinite.js'));await settle();
 assert.equal(module2Window.document.querySelector('.error-indefinite-workspace [data-question] .eyebrow')?.textContent,'第 47 / 200 題','Module 2 resumes at the first unfinished question');
 assert.equal(new URL(module2Window.location.href).searchParams.get('mode'),'indefinite');assert.equal(new URL(module2Window.location.href).searchParams.has('question'),false);

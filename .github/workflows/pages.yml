@@ -415,6 +415,9 @@ jobs:
           node --check dse-listening-2026-transcript.js
           node tools/test-dse-listening-2025-2026.mjs
           node tools/test-listening-system.mjs
+          node tools/generate-dse-listening-question-types.mjs > /dev/null
+          git diff --exit-code -- dse-listening-question-types.json
+          node tools/test-dse-listening-question-types.mjs
           node tools/test-ielts-super-curation.mjs
           node tools/test-ielts-all-curation.mjs
           node tools/test-dse2018-super-curation.mjs
@@ -741,6 +744,9 @@ jobs:
           node tools/listening/generate_catalog.mjs
           git diff --exit-code -- listening-system-catalog.js
           node tools/test-listening-system.mjs
+          node tools/generate-dse-listening-question-types.mjs > /dev/null
+          git diff --exit-code -- dse-listening-question-types.json
+          node tools/test-dse-listening-question-types.mjs
           node tools/test-ielts-super-curation.mjs
           node tools/test-ielts-all-curation.mjs
           node tools/test-dse2018-super-curation.mjs

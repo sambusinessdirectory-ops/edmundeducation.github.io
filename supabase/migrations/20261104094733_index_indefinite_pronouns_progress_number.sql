@@ -1,0 +1,2 @@
+create index indefinite_pronouns_progress_number_idx
+on error_identifier_private.indefinite_pronouns_progress (number);

@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { existsSync, readFileSync, statSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join, resolve } from "node:path";
@@ -11,6 +12,7 @@ const html = readFileSync(join(root, "country-name-spelling.html"), "utf8");
 const baseCss = readFileSync(join(root, "country-name-spelling-terminal.css"), "utf8");
 const css = readFileSync(join(root, "country-name-spelling-terminal-v2.css"), "utf8");
 const app = readFileSync(join(root, "country-name-spelling-terminal-v2.mjs"), "utf8");
+const audioManifestPath = join(root, "country-name-spelling-audio", "manifest.json");
 
 function assertUnique(items, label) {
   assert.equal(new Set(items.map((item) => item.id)).size, items.length, `${label} ids must be unique`);
@@ -79,7 +81,8 @@ assert.equal(existsSync(join(root, "country-name-spelling-map/SOURCES.md")), tru
 assert.match(html, /country-name-spelling-terminal-v2\.mjs/);
 assert.match(html, /country-name-spelling-terminal-v2\.css/);
 assert.match(html, /20261104-homepage-serif1/);
-assert.match(html, /20261104-cinematic10/);
+assert.match(html, /20261104-mastery-kokoro1/);
+assert.match(html, /data-mastery-colour-toggle/);
 assert.match(html, /data-edition="world"/);
 assert.match(html, /data-edition="hong-kong"/);
 assert.match(html, /data-terrain-map/);
@@ -105,12 +108,18 @@ assert.match(baseCss, /local\("Songti TC"\)/);
 assert.match(css, /prefers-reduced-motion:\s*reduce/);
 assert.match(css, /@media\s*\(max-width:\s*720px\)/);
 assert.match(css, /\.map-region\.is-target/);
+assert.match(css, /\.map-region\.is-mastered/);
+assert.match(css, /\.rail-station\.is-mastered/);
+assert.match(css, /\.mobile-map-target\.is-mastered/);
 assert.match(css, /\.mission-visual__inset/);
 assert.match(css, /\.rail-line\.is-active/);
 assert.match(css, /\.map-viewport\.is-hong-kong/);
 assert.match(css, /\.map-water-surface/);
 assert.match(css, /\.mobile-map-relief/);
-assert.match(app, /SpeechSynthesisUtterance/);
+assert.doesNotMatch(app, /SpeechSynthesisUtterance/);
+assert.match(app, /country-name-spelling-audio\/world/);
+assert.match(app, /showMasteredMap/);
+assert.match(app, /geometryProgressId/);
 assert.match(app, /localStorage\.setItem/);
 assert.match(app, /normaliseAnswer/);
 assert.match(app, /localhost/);
@@ -124,5 +133,23 @@ assert.match(app, /hong-kong-land-mask/);
 assert.match(app, /20261104-coastline2/);
 assert.match(app, /country-name-spelling-flags/);
 assert.doesNotMatch(app, /assets\/country-name-spelling\/flags/);
+
+assert.equal(existsSync(audioManifestPath), true, "missing generated Kokoro pronunciation manifest");
+const audioManifest = JSON.parse(readFileSync(audioManifestPath, "utf8"));
+assert.equal(audioManifest.engine, "Kokoro-82M");
+assert.equal(audioManifest.voice, "bf_isabella");
+assert.equal(audioManifest.language, "en-gb");
+assert.equal(audioManifest.speed, 1.05);
+assert.equal(audioManifest.complete, true);
+assert.equal(audioManifest.count, 138);
+assert.equal(audioManifest.items.length, 138);
+assert.equal(new Set(audioManifest.items.map((item) => item.src)).size, 138);
+for (const item of audioManifest.items) {
+  const path = join(root, item.src);
+  assert.equal(existsSync(path), true, `missing Kokoro clip ${item.src}`);
+  assert.equal(statSync(path).size, item.bytes, `Kokoro clip size drift: ${item.src}`);
+  assert.equal(item.bytes > 1800, true, `Kokoro clip is too small: ${item.src}`);
+  assert.equal(createHash("sha256").update(readFileSync(path)).digest("hex"), item.sha256, `Kokoro clip hash drift: ${item.src}`);
+}
 
 console.log(`country spelling release verified: ${WORLD_COUNTRIES.length} countries, ${HK_DISTRICTS.length} districts, ${MTR_STATIONS.length} MTR stations`);

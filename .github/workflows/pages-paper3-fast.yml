@@ -51,9 +51,11 @@ jobs:
           /release.json
           /tools/add-paper3-study-support.py
           /tools/build-2023-b2-reader.py
-          /tools/check-2023-b2-entry.cjs
-          /tools/manuals/build-paper3-super-curation-golden-manual-v6.py
+          /tools/check-2023-b2-v7.cjs
+          /tools/classify-pages-release.py
+          /tools/manuals/build-paper3-super-curation-golden-manual-v7.py
           /tools/paper3/
+          /tools/test-classify-pages-release.py
           /tools/rewrite-pages-assets.py
           /tools/update-pages-snapshot.sh
           /tools/validate-2023-b2-verbatim.mjs
@@ -78,9 +80,11 @@ jobs:
               .github/workflows/pages-paper3-fast.yml|\
               .github/workflows/publish-pages-artifact.yml|\
               tools/build-2023-b2-reader.py|\
-              tools/check-2023-b2-entry.cjs|\
-              tools/manuals/build-paper3-super-curation-golden-manual-v6.py|\
+              tools/check-2023-b2-v7.cjs|\
+              tools/classify-pages-release.py|\
+              tools/manuals/build-paper3-super-curation-golden-manual-v7.py|\
               tools/paper3/*|\
+              tools/test-classify-pages-release.py|\
               tools/test-proverb-system.mjs|\
               tools/validate-2023-b2-verbatim.mjs) ;;
               *) echo "Use the full release workflow for: ${path}" >&2; exit 1 ;;
@@ -97,10 +101,10 @@ jobs:
               *.py) python3 -m py_compile "source/${path}" ;;
             esac
           done < /tmp/paper3-fast-changes.txt
-          node --check source/tools/check-2023-b2-entry.cjs
+          node --check source/tools/check-2023-b2-v7.cjs
           node source/tools/validate-2023-b2-verbatim.mjs
-          node source/tools/paper3/validate-v6-requirements.mjs
-          grep -Fq "podcastArchitectureVersion23='6-single-owner'" source/paper3/2023-b2/curation/index.html
+          node source/tools/paper3/validate-v7-requirements.mjs
+          grep -Fq "podcastArchitectureVersion23='7-continuous-single-owner'" source/paper3/2023-b2/curation/index.html
           node --check source/paper3/2025-b2/reader.js
           node --check source/paper3/2025-b2/sentence-analysis.js
           node --check source/paper3/2025-b2/listening-notes.js
@@ -143,13 +147,13 @@ jobs:
             if curl --fail --silent http://127.0.0.1:4173/paper3/2023-b2/curation/ >/dev/null; then break; fi
             sleep 1
           done
-          PAPER3_EVIDENCE_DIR=/tmp/paper3-evidence NODE_PATH=/tmp/paper3-playwright/node_modules node source/tools/check-2023-b2-entry.cjs 'http://127.0.0.1:4173/paper3/2023-b2/curation/?curation=1&release=${{ github.sha }}'
+          PAPER3_EVIDENCE_DIR=/tmp/paper3-evidence NODE_PATH=/tmp/paper3-playwright/node_modules node source/tools/check-2023-b2-v7.cjs 'http://127.0.0.1:4173/paper3/2023-b2/curation/?curation=1&release=${{ github.sha }}'
 
       - name: Archive Paper 3 conformance evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: paper3-v6-conformance-${{ github.sha }}
+          name: paper3-v7-conformance-${{ github.sha }}
           path: /tmp/paper3-evidence
           if-no-files-found: error
           retention-days: 30

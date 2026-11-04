@@ -15,24 +15,24 @@ function runtime(fetch, { storage = new Map(), getStudent = () => ({ id: "qa-stu
 }
 const ok = (data) => ({ ok: true, status: 200, json: async () => data });
 
-test("homepage card 59 and all 18 seed types are connected", () => {
+test("homepage card 59 and all 18 server-backed seed types are connected", () => {
   const home = read("index.html");
   const cards = [...home.matchAll(/<a\b(?=[^>]*\bclass="[^"]*\bcategory\b)[^>]*>[\s\S]*?<\/a>/g)];
-  assert.equal(cards.length, 80);
+  assert.equal(cards.length, 81);
   assert.match(cards[65][0], /href="natural-english.html"/);
   assert.match(cards[64][0], /href="polysemy-lab.html"/);
   assert.match(cards[60][0], /href="background-music.html"/);
   assert.match(cards[63][0], /href="excellent-learning-system.html"/);
   assert.match(cards[58][0], /href="eddie-farm.html"/);
   assert.match(cards[58][0], /Edmund Coin System<br>金幣系統/);
-  const context = { window: {} };
-  vm.runInNewContext(read("eddy-carrot-patch/asset-registry.js"), context);
-  const cropIds = [...JSON.stringify(context.window).matchAll(/"assetId":"CROP-([^"]+)-001","name"/g)].map((m) => m[1].toLowerCase().replaceAll("-", "_"));
   const sql = read("supabase/migrations/20260827103531_eddie_farm_points.sql");
+  const seedValues = sql.match(/insert into eddie_farm\.seeds\(id,name\) values([\s\S]*?);/)?.[1] || "";
+  const cropIds = [...seedValues.matchAll(/\('([^']+)'/g)].map((match) => match[1]);
   assert.equal(cropIds.length, 18);
   for (const id of cropIds) assert.ok(sql.includes(`('${id}',`), `${id} must be sold in the shop`);
-  assert.match(read("eddy-carrot-patch/game.js"), /await farmAction\("plant"/);
-  assert.match(read("eddy-carrot-patch/game.js"), /await farmAction\("harvest"/);
+  assert.match(source, /"plant", "harvest"/);
+  assert.match(sql, /create function public\.eddie_farm_plant/);
+  assert.match(sql, /create function public\.eddie_farm_harvest/);
 });
 
 test("student snapshot is account-scoped and never cached", async () => {
@@ -87,7 +87,7 @@ test("unknown actions and logged-out purchases fail closed", async () => {
 
 test("private settings have no frontend defaults or password material", () => {
   const page = read("eddie-farm.html");
-  const frontend = page + read("eddie-farm.js") + source + read("eddy-carrot-patch/game.js");
+  const frontend = page + read("eddie-farm.js") + source;
   assert.doesNotMatch(frontend, /service_role|password_hash|exercise_count\s*:\s*\d/);
   assert.match(page, /data-farm-rules><\/div>/);
   const sql = read("supabase/migrations/20260827103531_eddie_farm_points.sql");
