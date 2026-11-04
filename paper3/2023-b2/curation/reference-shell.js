@@ -3,16 +3,44 @@ shell.innerHTML='<link rel="stylesheet" href="reference/base.css"><link rel="sty
 const $s=q=>shell.querySelector(q), allS=q=>[...shell.querySelectorAll(q)], chapters23=['boss','categorize','podcast','data','writing'];
 const section23=document.querySelector('main>section'),nativeHost=document.createElement('div');nativeHost.className='native-reader-host';section23.prepend(nativeHost);const native=nativeHost.attachShadow({mode:'open'});native.innerHTML='<link rel="stylesheet" href="reference/native.css"><link rel="stylesheet" href="reference/curation.css"><style>:host{display:block}.paper-page{margin:0;width:100%;border:0}.translation{display:none}.translated .translation{display:block}mark{border-radius:3px}article header{position:static}.native-document{overflow:visible}</style><div class="source curation-active"></div>';
 function read23List(key){try{const value=JSON.parse(readerStore23.getItem(key)||'[]');return Array.isArray(value)?value.filter(item=>typeof item==='string'):[]}catch{return []}}
-let help=false,lang=false,opened=true,firstView=true,tab='all',lastNative='',lastSync='',books=read23List('cur23-stars'),completed=new Set(read23List('cur23-done'));const chaptersDone=()=>readerStore23.setItem('cur23-done',JSON.stringify([...completed]));
+const migrateGuideKey23=key=>{const index=entry23(key);return index>=0?key23(rows[index]):key};
+let help=false,lang=false,opened=true,firstView=true,tab='all',lastNative='',lastSync='',books=read23List('cur23-stars').map(migrateGuideKey23),completed=new Set(read23List('cur23-done').map(migrateGuideKey23));const chaptersDone=()=>readerStore23.setItem('cur23-done',JSON.stringify([...completed]));
 const instructions=['先找寫作身分、文類、讀者、內容要求和指定來源。','按文件標題暫標任務，讀到新線索再核對。','聽到答案後暫停，逐項寫入筆記。','按資料頁連續閱讀，核對原句和任務。','先組織自己的內容與草稿，再按任務要求校對。'];
 const names23=['Boss letter · 讀任務與來源','Data File · 資料分類','會議錄音 · 邊聽邊記筆記','Data File · 逐句判讀','三篇寫作 · 逐句核對'];
 const types=['','1 Task A 直接可用','2 Task B 直接可用','3 Task C 直接可用','4 語義相關／可轉述','5 提示／指路','6 無關噪音／行政語'];
 const provenance23={manual:'原版導讀 · 逐字',evidence:'補充取證',editorial:'編輯補充'};
 function curationSearchText23(r){return [r.q,r.a,r.manualQuote,r.manualType,...(r.manualAnalysis||[]),provenance23[r.origin]||''].filter(Boolean).join(' ')}
 function jump23(j){E('jump23').value=j;E('jump23').dispatchEvent(new Event('change'));firstView=false;tab='all';update23(true)}
+function renderBossLetter23(root){
+ const bossRows=rows.map((row,index)=>({row,index})).filter(({row})=>row.stage===0&&row.leaf===4);
+ for(const paragraph of root.querySelectorAll('.email-content p:not(.translation)')){
+   const source=paragraph.textContent;
+   const matches=bossRows.map(item=>({...item,start:source.indexOf(item.row.q)})).filter(item=>item.start>=0).sort((a,b)=>a.start-b.start);
+   if(!matches.length)continue;
+   const fragment=document.createDocumentFragment();let offset=0;
+   for(const {row,index,start} of matches){
+     fragment.append(source.slice(offset,start));
+     const sentence=document.createElement('span');sentence.className='curation-boss-sentence';sentence.dataset.stepIndex=String(index);
+     const marks=(row.marks||[]).map(([text,kind,point])=>({text,kind,point,start:row.q.indexOf(text)})).filter(mark=>mark.start>=0).sort((a,b)=>a.start-b.start);
+     let cursor=0;
+     for(const markSpec of marks){
+       sentence.append(row.q.slice(cursor,markSpec.start));
+       const mark=document.createElement('mark');mark.className='curation-mark curation-mark-'+markSpec.kind;mark.dataset.stepIndex=String(index);mark.dataset.phrase=markSpec.text;
+       if(markSpec.point)mark.dataset.point=markSpec.point;
+       mark.textContent=markSpec.text;if(index<i)mark.classList.add('is-revealed');sentence.append(mark);cursor=markSpec.start+markSpec.text.length;
+     }
+     sentence.append(row.q.slice(cursor));
+     if(index===i){sentence.classList.add('target','curation-target');sentence.dataset.curationCurrent=row.task||(row.t===4?'type-4':'neutral');}
+     fragment.append(sentence);offset=start+row.q.length;
+   }
+   fragment.append(source.slice(offset));paragraph.replaceChildren(fragment);
+ }
+ const current=root.querySelector(`.curation-boss-sentence[data-step-index="${i}"]`);if(current){void root.offsetWidth;current.querySelectorAll('.curation-mark').forEach(mark=>mark.classList.add('is-revealed'));}
+}
 function nativePage(page,r){
  const root=native.querySelector('.source');root.classList.toggle('translated',lang);
  let stamp=[page,i].join(':');if(stamp===lastNative)return;lastNative=stamp;root.innerHTML=nativePages23[page-1];
+ if(r.stage===0&&page===4){renderBossLetter23(root);return;}
  // Match against the intact page first. A later evidence phrase can sit inside
  // an earlier annotated sentence, or cross several inline elements.
  const normalize = text => text.toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');

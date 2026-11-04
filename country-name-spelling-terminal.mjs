@@ -321,7 +321,7 @@ function renderIdentity(item) {
   elements.itemZone.textContent = itemZone(item);
   elements.trap.textContent = state.trapVisible || state.solved ? item.trap : "首次嘗試後顯示常見錯法，避免未作答便看到答案。";
   elements.flagFrame.classList.add("is-switching");
-  elements.flag.src = `assets/country-name-spelling/flags/${state.edition === "world" ? item.code : "hk"}.svg`;
+  elements.flag.src = `country-name-spelling-flags/${state.edition === "world" ? item.code : "hk"}.svg`;
   elements.flag.alt = state.edition === "world" ? `${item.zh}國旗` : "香港區旗";
   const finishFlagSwitch = () => elements.flagFrame.classList.remove("is-switching");
   if (elements.flag.complete) requestAnimationFrame(finishFlagSwitch);

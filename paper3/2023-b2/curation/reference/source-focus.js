@@ -18,7 +18,10 @@
   function targets() {
     if (!opened || diag.open) return [];
     switch (rows[i].stage) {
-      case 0: case 1: case 3:
+      case 0:
+        if(routePhase()==='visit')return [...native.querySelectorAll('.paper-page > header')];
+        return [...native.querySelectorAll('.curation-boss-sentence.target,mark.target')];
+      case 1: case 3:
         if(routePhase()==='visit')return [...native.querySelectorAll('.paper-page > header')];
         return [...native.querySelectorAll('mark.target')];
       case 2: return [...document.querySelectorAll('#turns .curation-transcript-sentence.curation-target')];
@@ -110,7 +113,7 @@
           line.textContent='原段中譯 · '+translation.textContent.trim();guide.prepend(line);
         }
       }
-      const page=benchmarkPages23.get(row.q);
+      const page=benchmarkPages23.get(row.q)||[...benchmarkPages23].find(([quote])=>row.q.includes(quote))?.[1];
       if(opened && page && (row.stage===0 || row.stage===3) && !guide.querySelector('.cur23-benchmark')){
         const link=document.createElement('a');
         link.className='cur23-benchmark';link.target='_blank';link.rel='noopener';

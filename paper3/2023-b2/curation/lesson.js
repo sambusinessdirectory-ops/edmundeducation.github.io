@@ -5,7 +5,7 @@ const originalPaint=paint;paint=function(){originalPaint();[...E('turns').childr
 function read23Record(key){try{const value=JSON.parse(readerStore23.getItem(key)||'{}');return value&&typeof value==='object'&&!Array.isArray(value)?value:{}}catch{return {}}}
 const positions=read23Record('cur23-task-progress');const persistUsage=()=>readerStore23.setItem('cur23-task-progress',JSON.stringify(positions));const evidenceUsed=t=>new Set(rows.flatMap((r,j)=>r.t===t&&r.pattern&&j<=(positions[t]??-1)?r.used:[]));
 function renderBank23(r){let bank=E('bank');bank.replaceChildren();for(let t=1;t<=3;t++){let detail=document.createElement('details'),summary=document.createElement('summary');summary.textContent='Task '+['A · 8','B · 9','C · 10'][t-1];detail.open=t===r.t;detail.append(summary);let used=evidenceUsed(t);facts.forEach((f,id)=>{if(f[0]!==t)return;let heard=f[1]===19&&rows[i].stage>2;let reached=r.stage===4||heard||rows.slice(0,i+1).some(x=>x.stage===3&&x.p===f[1]&&x.q.includes(f[2]));if(!reached)return;let btn=document.createElement('button');btn.textContent=f[2];if(used.has(id))btn.className='spent';btn.onclick=()=>sourceVisit(id);detail.append(btn)});bank.append(detail)}}
-const routes=new Map([['see the article',5],['present his side',7],['Corporate Training Intranet',9],['both William and Dante',8],['Listen to our discussion',3],['Check which delivery company',8],['If she confirms soon',8]]);
+const routes=new Map([['see the article',5],['present his side',7],['Dante Cruz’s most recent email sets the scene',8],['Corporate Training Intranet',9],['draft of the storyboard for the video, along with comments from Dante',6],['both William and Dante',8],['Listen to our discussion',3],['Check which delivery company',8],['If she confirms soon',8]]);
 const pageRouteTitles={3:'網上會議聆聽筆記表',5:'Big Cheese Celebrity Food Gossip 報道',6:'宣傳片分鏡草稿',7:'William 與 Archie 的聊天紀錄',8:'Dante 的全體員工電郵',9:'公司培訓內聯網'};
 const originRoutes=read23Record('cur23-source-routes');
 function routePhase(){
@@ -88,10 +88,12 @@ for(const [stage,prefix,type,reason] of auditedEdits){
   if(row){row.originalType=row.t;row.t=type;row.a=reason;}
 }
 const updatedScript=rows.find(row=>row.stage===0 && row.q==='we’ve made several changes since that draft');
-updatedScript.originalQuote=updatedScript.q;
-updatedScript.originalType=updatedScript.t;updatedScript.t=3;
-updatedScript.q='Make sure you have the most up-to-date information in your script.';
-updatedScript.a='講稿須採用最新安排。比較分鏡草稿、聊天及電郵後再定稿。';
+if(updatedScript){
+ updatedScript.originalQuote=updatedScript.q;
+ updatedScript.originalType=updatedScript.t;updatedScript.t=3;
+ updatedScript.q='Make sure you have the most up-to-date information in your script.';
+ updatedScript.a='講稿須採用最新安排。比較分鏡草稿、聊天及電郵後再定稿。';
+}
 for(const row of rows.filter(r=>r.stage===3&&r.q.startsWith('William:I’m so sorry!'))){
   row.originalQuote=row.q;
   const split=row.q.indexOf('I thought everyone');
@@ -106,7 +108,7 @@ const key23=r=>{
   if(r.stage!==4 || r.q!=='VOICEOVER:')return base;
   const occurrence=rows.filter(item=>item.stage===4 && item.t===r.t && item.q===r.q).indexOf(r);
   return occurrence>0?base+'|voiceover-'+(occurrence+1):base;
-};const entry23=key=>rows.findIndex(r=>key23(r)===key);
+};const entry23=key=>rows.findIndex(r=>key23(r)===key||r.legacyKeys?.includes(key));
 const stableUsage=()=>Object.fromEntries(Object.entries(shownByTask).filter(([t,v])=>rows[v.i]).map(([t,v])=>[t,{key:key23(rows[v.i]),n:v.n}]));
 function remember23(){readerStore23.setItem('cur23-stable',key23(rows[i]));readerStore23.setItem('cur23-stableUse',JSON.stringify(stableUsage()));if(active)readerStore23.setItem('cur23-audioState',JSON.stringify({j:cueIndex,done,time:audio.currentTime}))}
 const stableView=render;render=function(){stableView();remember23()};const blueView=sourceVisit;sourceVisit=function(id){blueView(id);remember23()};
