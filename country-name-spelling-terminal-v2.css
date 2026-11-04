@@ -544,6 +544,11 @@ body::after {
 .mission-navigation button:hover { color:#d3dfdd; background:rgba(120,157,158,.055); }
 .terminal-footer { margin-top:7px; color:#5c7376; letter-spacing:.055em; }
 .terminal-footer kbd { border-color:#465f62; color:#92a7a8; background:rgba(10,30,38,.72); }
+.terminal-footer [data-sync-status] { min-width:168px; text-align:right; transition:color .2s ease; }
+.terminal-footer [data-sync-state="saved"] { color:#75b9a6; }
+.terminal-footer [data-sync-state="syncing"],
+.terminal-footer [data-sync-state="pending"] { color:#d3a763; }
+.terminal-footer [data-sync-state="offline"] { color:#b98b78; }
 
 @media (min-width:1101px) and (max-height:840px) {
   .mission-topbar { min-height:58px; }

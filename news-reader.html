@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1,viewport-fit=cover"><title>新聞導讀系統｜Edmund Education</title>
+<link rel="stylesheet" href="/song-appreciation.css"><link rel="stylesheet" href="/news-reader/news.css"><script defer src="/pwa-register.js"></script>
+<script defer src="/supabase-config.js"></script><script defer src="/shared-system-nav.js?v=20261104-system-catalogue1"></script><script type="module" src="/news-reader/news.mjs"></script>  <link rel="manifest" href="/pwa-manifests/news-reader.webmanifest">
+  <meta name="theme-color" content="#20283d">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="48x48" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/favicon-48x48.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <meta name="apple-mobile-web-app-title" content="新聞導讀系統">
+</head>
+<body><header class="portal-header"><a href="/">← 首頁</a><strong>新聞導讀系統</strong><span id="user"></span><button id="logout" hidden>登出</button></header>
+<main><div class="eyebrow">EDMUND EDUCATION　/　NEWS ENGLISH</div>
+<section id="gate" class="sheet login"><h1>新聞導讀系統</h1><p>用學生帳戶登入，收看雙語新聞報道，跟着錄音認識詞彙。</p>
+<form id="login"><label>學生帳戶<input id="username" autocomplete="username" required></label><label>密碼<input id="password" type="password" autocomplete="current-password" required></label><button class="primary">學生登入</button></form><p id="loginStatus" role="status"></p></section>
+<section id="library" hidden><h1>新聞課堂</h1><button class="sheet entry" id="entry"><small>01　/　WORLD NEWS</small><strong lang="en"></strong><span></span><b>進入導讀 →</b></button></section>
+<section id="lesson" hidden><button id="back">← 新聞目錄</button><h1 lang="en" id="title"></h1><p id="translation" class="subhead"></p>
+<div class="columns"><section class="sheet player"><div class="tabs"><button id="videoMode">新聞影片</button><button id="audioMode">原聲 MP3</button></div>
+<div id="screen"><div id="videoHost"></div><div id="audioArt" hidden><small>NEWSROOM　/　AUDIO EDITION</small><strong>現場原聲</strong><span>▂ ▅ ▃ ▇ ▅ ▂ ▆ ▃ ▅</span></div></div>
+<audio id="audio" preload="metadata"></audio>
+<div class="controls"><button id="play" class="primary">播放</button><label>速度 <select id="rate"></select></label><output id="time">0:00</output><input id="seek" type="range" min="0" max="124.366" step=".02" value="0" aria-label="播放進度"></div>
+<div id="subtitles"><small>同步字幕　/　SUBTITLES</small><p id="en" lang="en"></p><p id="zh"></p></div><p id="mediaStatus" role="status"></p></section>
+<aside class="sheet rail"><small>WORD DESK</small><h2>詞彙追蹤</h2><p>播到目標詞時會亮起。點選詞彙可重聽。</p><div id="wordList"></div></aside></div>
+<section class="sheet practice"><small>PRACTICE STUDIO</small><h2>練習模式</h2><div id="modes" class="tabs"></div><div id="question"></div></section></section></main></body></html>

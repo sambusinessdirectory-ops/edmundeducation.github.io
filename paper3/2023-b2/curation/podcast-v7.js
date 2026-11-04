@@ -8,7 +8,10 @@ window.podcastArchitectureVersion23='7-continuous-single-owner';
 window.podcastCueTransactions23=[];
 window.podcastTransactionV5=false;
 
-const podcastOriginV7=426;
+// The learner-facing recording starts at the first instructional sentence,
+// not at the greetings that precede it in the full examination audio.
+// This timestamp is the audited onset of “Let's talk about …”.
+const podcastOriginV7=458.02;
 const podcastEndV7=838.79;
 const podcastDurationV7=podcastEndV7-podcastOriginV7;
 const podcastCueMetaV7=cues.map((cue,index)=>{
@@ -30,7 +33,17 @@ let podcastChromeBuiltV7=false;
 let podcastPlaybackCueV7=-1;
 let podcastDesiredTimeV7=podcastOriginV7;
 let podcastCurrentSentenceV7=-1;
-const podcastSentenceMetaV7=(window.reviewUnits23||[]).map((unit,index)=>({...unit,index}));
+// Correct the opening line from the audited audio. It remains available during
+// later sentence review, but is not part of the live listening interval.
+transcript[6].text='Hi everyone. Thanks for joining us today.';
+for(const unit of window.reviewUnits23||[]){
+  if(unit.turn===6&&unit.sentence==='And thanks for joining us today.')unit.sentence=transcript[6].text;
+}
+const podcastSentenceMetaV7=(window.reviewUnits23||[]).map((unit,index)=>{
+  const timed={...unit,index};
+  if(unit.sentence==="Let's talk about Live Studio Cook first though.")timed.start=podcastOriginV7;
+  return timed;
+});
 window.podcastSentenceMetaV7=podcastSentenceMetaV7;
 
 function preparePodcastAudioOutputV7(){
@@ -114,6 +127,7 @@ function updatePodcastFollowV7(){
 function ensurePodcastTranscriptLineV7(line,turnIndex){
   const turn=transcript[turnIndex];if(!line||!turn)return;
   line.className='speech';line.dataset.id=String(turnIndex);
+  if(turn.end<=podcastOriginV7)line.classList.add('curation-transcript-preroll');
   line.replaceChildren();
   const speaker=document.createElement('strong');speaker.className='speaker';speaker.textContent=turn.speaker;
   const copy=document.createElement('div');copy.className='curation-transcript-copy';
@@ -122,6 +136,7 @@ function ensurePodcastTranscriptLineV7(line,turnIndex){
     const at=turn.text.indexOf(unit.sentence,cursor);if(at<0)return;
     text.append(document.createTextNode(turn.text.slice(cursor,at)));
     const span=document.createElement('span');span.className='curation-transcript-sentence';
+    if(unit.end<=podcastOriginV7)span.classList.add('curation-transcript-preroll');
     span.dataset.reviewIndex=String(unit.index);span.dataset.start=String(unit.start);span.dataset.end=String(unit.end);span.textContent=unit.sentence;
     text.append(span);cursor=at+unit.sentence.length;
   });
@@ -181,7 +196,7 @@ function buildPodcastChromeV7(){
   panel.append(title,play,pinToggle,timeline,time,speed,transcriptToggle,status,audioStatus,retry);
   setPodcastPinsV7(true);
 
-  scriptWindow.replaceChildren();scriptWindow.className='curation-transcript-window';scriptWindow.dataset.podcastArchitecture='v7-continuous-single-owner';
+  scriptWindow.replaceChildren();scriptWindow.className='curation-transcript-window';scriptWindow.dataset.podcastArchitecture='v7-continuous-single-owner';scriptWindow.dataset.reviewMode='false';
   const head=document.createElement('header');head.className='curation-transcript-window-head';
   const heading=document.createElement('strong');heading.textContent='錄音稿 · 目前句子跟隨播放';
   const translate=document.createElement('button');translate.id='transcript-translate';translate.type='button';translate.className='curation-transcript-translate';translate.textContent='中文對照';translate.setAttribute('aria-pressed','false');
@@ -228,7 +243,7 @@ function paintPodcastV7(forceFollow=false){
   [...E('ticks').children].forEach((pin,index)=>pin.classList.toggle('is-heard',index<=podcastCompletedThroughV7));
   if(scriptWindow.dataset.reviewMode!=='true'){
     for(const line of E('turns').children){
-      const turnIndex=Number(line.dataset.id),turn=transcript[turnIndex],reached=turn.end<=time+.035,taskCue=cues.find(item=>item[0]===turnIndex);
+      const turnIndex=Number(line.dataset.id),turn=transcript[turnIndex],reached=turn.end>podcastOriginV7&&turn.end<=time+.035,taskCue=cues.find(item=>item[0]===turnIndex);
       line.classList.toggle('is-current-turn',turnIndex===current?.turn);line.classList.toggle('is-cue-source',turnIndex===cue.turn&&time>=cue.sourceStart-.04);
       line.querySelectorAll('.curation-transcript-sentence').forEach(sentence=>sentence.classList.toggle('is-current',Number(sentence.dataset.reviewIndex)===current?.index));
       line.classList.toggle('is-revealed',reached);

@@ -8,8 +8,7 @@
   <meta name="theme-color" content="#07161d">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Edmund 地名拼寫">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <title>Map Spelling Command · 國家及香港地名拼寫</title>
   <link rel="manifest" href="/pwa-manifests/country-name-spelling.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="any">
@@ -18,13 +17,14 @@
   <link rel="apple-touch-icon" sizes="167x167" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-167x167.png">
   <link rel="apple-touch-icon" sizes="152x152" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
-  <link rel="stylesheet" href="shared-system-nav.css?v=20261104-country-map1">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20261104-system-catalogue1">
   <link rel="preload" as="image" href="country-name-spelling-map/world-relief.jpg">
   <link rel="preload" as="image" href="country-name-spelling-map/hong-kong-relief.png?v=20261104-coastline2">
   <link rel="stylesheet" href="country-name-spelling-terminal.css?v=20261104-homepage-serif1">
   <link rel="stylesheet" href="country-name-spelling-terminal-v2.css?v=20261104-expanded-world1">
   <script defer src="/pwa-register.js"></script>
 <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
+  <meta name="apple-mobile-web-app-title" content="國家名稱拼寫">
 </head>
 <body>
   <header class="edmund-system-header">
@@ -186,15 +186,15 @@
         </aside>
       </div>
 
-      <footer class="terminal-footer"><span><kbd>ENTER</kbd> CHECK ANSWER</span><span><kbd>ALT</kbd> + <kbd>→</kbd> NEXT TARGET</span><span>LOCAL PROGRESS AUTO-SAVED</span></footer>
+      <footer class="terminal-footer"><span><kbd>ENTER</kbd> CHECK ANSWER</span><span><kbd>ALT</kbd> + <kbd>→</kbd> NEXT TARGET</span><span data-sync-status data-sync-state="saved" role="status" aria-live="polite">ACCOUNT PROGRESS SYNCED</span></footer>
     </section>
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.50.3/dist/umd/supabase.min.js" integrity="sha384-hIOJ3C3LfQJBpaQVNahkcvi607jdU2k3LB0MLyIuyXNDsS5aI2xfaQiX+oSmHvTD" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
   <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script>
-  <script src="shared-system-nav.js?v=20261104-country-map1"></script>
-  <script type="module" src="country-name-spelling-terminal-v2.mjs?v=20261104-expanded-world1"></script>
+  <script src="shared-system-nav.js?v=20261104-system-catalogue1"></script>
+  <script type="module" src="country-name-spelling-terminal-v2.mjs?v=20261104-account-sync1"></script>
   <script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
 </body>
 </html>

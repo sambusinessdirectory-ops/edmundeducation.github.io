@@ -2,15 +2,15 @@
   "id": "/apps/junior-quiz-review",
   "name": "初中測驗溫習系統｜EdmundEducation",
   "short_name": "初中測驗溫習",
-  "description": "初中測驗溫習系統（Junior Quiz Review）：The Last Train 閱讀及逐句聆聽默寫。",
+  "description": "初中測驗溫習系統（Junior Quiz Review）EdmundEducation 學習系統。",
   "lang": "zh-Hant-HK",
   "dir": "ltr",
   "start_url": "/junior-quiz-review.html?source=pwa",
   "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#f4f1e9",
-  "theme_color": "#244e65",
+  "background_color": "#f4f6fb",
+  "theme_color": "#20283d",
   "categories": [
     "education",
     "productivity"
