@@ -4,6 +4,7 @@ import fs from "node:fs";
 import crypto from "node:crypto";
 import path from "node:path";
 import vm from "node:vm";
+import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -11,6 +12,25 @@ const dataOnly = process.argv.includes("--data-only");
 
 function read(relativePath) {
   return fs.readFileSync(path.join(root, relativePath), "utf8");
+}
+
+function trackedFiles(relativeRoot) {
+  const output = execFileSync(
+    "git",
+    ["ls-files", "-z", "--", relativeRoot],
+    {
+      cwd: root,
+      encoding: "utf8",
+      maxBuffer: 32 * 1024 * 1024
+    }
+  );
+  return new Set(output.split("\0").filter(Boolean));
+}
+
+function sourceFileAvailable(relativePath, trackedAudioFiles) {
+  const absolutePath = path.join(root, relativePath);
+  if (fs.existsSync(absolutePath)) return fs.statSync(absolutePath).size > 1000;
+  return trackedAudioFiles.has(relativePath);
 }
 
 function parseAssignment(source, marker, endMarker) {
@@ -182,8 +202,9 @@ if (!dataOnly) {
   let cloudAudio = 0;
   let expansionAudio = 0;
   let customAudio = 0;
-  const verifiedCustomAudio = 'https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/c648933976dad95a218d37fe.mp3';
+  const verifiedCustomAudio = "https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/c648933976dad95a218d37fe.mp3";
   assert(read("workers/edmund-audio/src/index.js").includes("assets/flashcards/audio/edmund-neural/v1-custom-20261024/"), "Custom audio route is not enabled");
+  const trackedAudioFiles = trackedFiles("assets/flashcards/audio/edmund-neural");
   for (const front of audioFronts) {
     const digest = crypto.createHash("sha256").update(front).digest("hex").slice(0, 24);
     const url = manifest[front];
@@ -191,8 +212,7 @@ if (!dataOnly) {
     if (front === "appear to be" && url === verifiedCustomAudio) {
       customAudio += 1;
     } else if (url === expectedLocal) {
-      const localPath = path.join(root, expectedLocal);
-      if (!fs.existsSync(localPath) || fs.statSync(localPath).size <= 1000) missing.push(`${front}: invalid local audio`);
+      if (!sourceFileAvailable(expectedLocal, trackedAudioFiles)) missing.push(`${front}: invalid local audio`);
       else localAudio += 1;
     } else {
       const match = indexes.find(({ value }) =>

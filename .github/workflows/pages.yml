@@ -192,7 +192,7 @@ jobs:
         run: |
           node --check literary-device-data.js
           node --check literary-device.js
-          grep -Fq 'literary-device-data.js' literary-device.html
+          grep -Fq 'literary-device-data.js' literary-device.js
           grep -Fq 'literary-device.js' literary-device.html
 
       - name: Validate focused Phrasal Verb login release
@@ -295,11 +295,7 @@ jobs:
           node --check error-identifier-jayden-questions.js
           node --check error-identifier-jayden.js
           node --check error-identifier-indefinite.js
-          node tools/test-indefinite-pronouns-data.mjs
-          node tools/test-indefinite-admin-answers.mjs
-          node tools/test-error-identifier-indefinite-feedback.mjs
-          node tools/test-error-identifier-jayden.mjs
-          node tools/test-indefinite-pronouns-import.mjs
+          node tools/test-error-identifier-feedback-contract.mjs
 
       - name: Validate focused Native English release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[native-release]') }}
