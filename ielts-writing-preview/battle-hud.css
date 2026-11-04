@@ -884,9 +884,13 @@ dialog::backdrop {
   text-shadow: 0 2px 3px #000;
 }
 
-.login-gate-intro h2,
 .login-gate-intro > p:last-child {
   text-wrap: balance;
+}
+
+.login-gate-title-line {
+  display: block;
+  white-space: nowrap;
 }
 
 .login-gate-intro > p:last-child,
