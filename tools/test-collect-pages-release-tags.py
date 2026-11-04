@@ -90,7 +90,7 @@ tools/test-schedule-system.mjs
         ]
         tags, uncovered = module.collect_path_scopes(paths, self.policy)
         self.assertEqual(uncovered, [])
-        self.assertEqual(tags, "[fast-deploy] [full-artifact] [infrastructure-release]")
+        self.assertEqual(tags, "[fast-deploy] [infrastructure-release]")
 
     def test_verified_audio_pin_repairs_use_the_test_only_gate(self):
         paths = [

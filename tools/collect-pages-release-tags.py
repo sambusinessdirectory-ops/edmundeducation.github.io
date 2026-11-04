@@ -77,10 +77,10 @@ def collect_path_scopes(
     )
     if not uncovered and not shared:
         tags.add(FAST)
-        # A changed artifact transformation must see the complete source.
-        # Route-only maintenance can still use the deployed snapshot.
-        artifact_tools = {"tools/prepare-pages-incremental.py", "tools/rewrite-pages-assets.py"}
-        if "[audio-contract-release]" in tags or artifact_tools.intersection(changed_paths):
+        # Real audio manifests retain the complete-source escape hatch. The
+        # tested artifact transformer and router can safely reuse the deployed
+        # snapshot because neither is itself a public file.
+        if "[audio-contract-release]" in tags:
             tags.add("[full-artifact]")
     return " ".join(sorted(tags)), uncovered
 
