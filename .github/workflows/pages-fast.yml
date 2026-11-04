@@ -1,19 +1,25 @@
-name: Deploy GitHub Pages (fast site edit)
+name: Build focused homepage Pages artifact
 
 # Use [site-fast] only when a push changes index.html and/or root homepage-*
 # artwork. Other releases keep the full validation workflow in pages.yml.
 on:
-  push:
-    branches: [main]
+  workflow_call:
+    inputs:
+      base_sha:
+        required: true
+        type: string
+    outputs:
+      artifact_name:
+        description: Prepared Pages artifact name
+        value: ${{ jobs.build.outputs.artifact_name }}
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  actions: read
+  contents: read
+  pages: read
 
 jobs:
   build:
-    if: ${{ contains(github.event.head_commit.message, '[site-fast]') }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
     permissions:
@@ -22,7 +28,7 @@ jobs:
     outputs:
       artifact_name: ${{ steps.artifact.outputs.name }}
     env:
-      PUSH_BEFORE: ${{ github.event.before }}
+      RELEASE_BASE: ${{ inputs.base_sha }}
 
     steps:
       - name: Fetch only publishable files and required scripts
@@ -59,12 +65,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if [[ "$PUSH_BEFORE" == 0000000000000000000000000000000000000000 ]]; then
-            echo 'A new branch cannot use [site-fast].' >&2
-            exit 1
-          fi
-          git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "$PUSH_BEFORE"
-          git diff --name-only "$PUSH_BEFORE" "$GITHUB_SHA" > /tmp/site-fast-changes.txt
+          git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "$RELEASE_BASE"
+          git diff --name-only "$RELEASE_BASE" "$GITHUB_SHA" > /tmp/site-fast-changes.txt
           test -s /tmp/site-fast-changes.txt
           while IFS= read -r path; do
             case "$path" in
@@ -149,14 +151,3 @@ jobs:
         with:
           name: ${{ steps.artifact.outputs.name }}
           path: _site
-
-  deploy:
-    needs: build
-    uses: ./.github/workflows/publish-pages-artifact.yml
-    with:
-      artifact_name: ${{ needs.build.outputs.artifact_name }}
-    permissions:
-      actions: read
-      contents: write
-      pages: write
-      id-token: write

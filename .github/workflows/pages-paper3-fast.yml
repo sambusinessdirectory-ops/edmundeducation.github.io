@@ -1,17 +1,19 @@
-name: Deploy GitHub Pages (fast Paper 3 edit)
+name: Build focused Paper 3 Pages artifact
 
 on:
-  push:
-    branches: [main]
+  workflow_call:
+    outputs:
+      artifact_name:
+        description: Prepared Pages artifact name
+        value: ${{ jobs.build.outputs.artifact_name }}
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  actions: read
+  contents: read
+  pages: read
 
 jobs:
   build:
-    if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[full-release]') }}
     runs-on: ubuntu-latest
     timeout-minutes: 25
     permissions:
@@ -98,6 +100,7 @@ jobs:
           node --check source/tools/check-2023-b2-entry.cjs
           node source/tools/validate-2023-b2-verbatim.mjs
           node source/tools/paper3/validate-v6-requirements.mjs
+          grep -Fq "podcastArchitectureVersion23='6-single-owner'" source/paper3/2023-b2/curation/index.html
           node --check source/paper3/2025-b2/reader.js
           node --check source/paper3/2025-b2/sentence-analysis.js
           node --check source/paper3/2025-b2/listening-notes.js
@@ -194,38 +197,3 @@ jobs:
         with:
           name: ${{ steps.artifact.outputs.name }}
           path: _site
-
-  deploy:
-    needs: build
-    uses: ./.github/workflows/publish-pages-artifact.yml
-    with:
-      artifact_name: ${{ needs.build.outputs.artifact_name }}
-    permissions:
-      actions: read
-      contents: write
-      pages: write
-      id-token: write
-
-  verify-live:
-    needs: deploy
-    if: needs.deploy.outputs.current == 'true'
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: Verify live SHA and V6 reader handshake
-        shell: bash
-        run: |
-          set -euo pipefail
-          release_url="https://edmundeducation.com/release.json?release=${GITHUB_SHA}"
-          reader_url="https://edmundeducation.com/paper3/2023-b2/curation/?curation=1&release=${GITHUB_SHA}"
-          for attempt in {1..60}; do
-            release=$(curl --fail --silent --show-error -H 'Cache-Control: no-cache' "${release_url}" || true)
-            reader=$(curl --fail --silent --show-error -H 'Cache-Control: no-cache' "${reader_url}" || true)
-            if grep -Fq "${GITHUB_SHA}" <<<"${release}" && grep -Fq "podcastArchitectureVersion23='6-single-owner'" <<<"${reader}"; then
-              echo "Verified live Paper 3 release ${GITHUB_SHA}."
-              exit 0
-            fi
-            sleep 5
-          done
-          echo "Live Paper 3 release did not expose the intended SHA and V6 runtime." >&2
-          exit 1

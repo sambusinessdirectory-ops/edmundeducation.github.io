@@ -1,3 +1,29 @@
+@font-face {
+  font-family: "Edmund Chinese Serif";
+  src:
+    local("Noto Serif TC"),
+    local("Source Han Serif TC"),
+    local("Songti TC"),
+    local("PMingLiU"),
+    url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+  /* Keep the terminal's Latin typography; replace only Chinese glyphs and punctuation. */
+  unicode-range:
+    U+2E80-2EFF,
+    U+2F00-2FDF,
+    U+3000-303F,
+    U+3100-312F,
+    U+31A0-31BF,
+    U+3400-4DBF,
+    U+4E00-9FFF,
+    U+F900-FAFF,
+    U+FE30-FE4F,
+    U+FF00-FFEF,
+    U+20000-2FA1F;
+}
+
 :root {
   color-scheme: dark;
   --night: #06131a;
@@ -12,8 +38,8 @@
   --red: #d85a51;
   --correct: #66d6ad;
   --wrong: #ff7d72;
-  --condensed: "Arial Narrow", "DIN Condensed", "Roboto Condensed", sans-serif;
-  --body: Inter, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+  --condensed: "Edmund Chinese Serif", "Arial Narrow", "DIN Condensed", "Roboto Condensed", sans-serif;
+  --body: "Edmund Chinese Serif", Inter, "Helvetica Neue", Arial, system-ui, sans-serif;
 }
 
 * { box-sizing: border-box; }

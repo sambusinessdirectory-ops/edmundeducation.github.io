@@ -55,7 +55,7 @@ for (const item of task2) {
 }
 const links = [...homepage.matchAll(/<a[^>]*class="category [^>]*href="([^"]+)"/g)].map((match) => match[1]);
 assert.equal(links[76], 'ielts-writing-question-preview.html', 'Card 77 opens the new preview');
-assert.equal(links.length, 79, 'All existing cards remain present');
+assert.equal(links[79], 'literary-device.html', 'Card 80 opens Literary Device');
 assert.match(app, /translationsShown = false/, 'Translations start hidden');
 const promptLinesSource = app.match(/  function promptLines\(text\) \{[\s\S]*?\n  \}/)?.[0];
 assert.ok(promptLinesSource, 'Task 2 prompt line formatter exists');

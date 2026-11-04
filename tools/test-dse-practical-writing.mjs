@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { existsSync, readFileSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
 import test from 'node:test';
 
 const read = path => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
@@ -43,28 +43,23 @@ test('two source-derived modes contain 13 learning units and 13 complete bilingu
   assert.match(dataSource, /The Growing Problem of Electronic Waste/);
 });
 
-test('map, briefing, three-column writing desk and model review follow the requested flow', () => {
+test('generic catalogue, briefing, three-column writing workspace and model review follow the requested flow', () => {
   assert.match(app, /campaign-map/);
-  assert.match(app, /map-marker/);
   assert.match(app, /briefing-scene/);
   assert.match(app, /desk-requirements/);
   assert.match(app, /desk-editor/);
   assert.match(app, /desk-expressions/);
   assert.match(app, /data-model-dialog/);
   assert.match(html, /data-model-dialog/);
-  assert.match(app, /scene-art/);
   assert.match(app, /renderModelBlocks/);
   assert.match(app, /COMPLETE MODEL · 完整參考範文/);
   assert.match(app, /REQUIREMENT COVERAGE · 題目要求對照/);
   assert.match(app, /COMMON ERRORS · 常見錯誤/);
   assert.doesNotMatch(app, /state\.modelTranslation \? item\.model\.zh : item\.model\.en/);
-  assert.match(css, /operations-map\.jpg/);
-  assert.match(css, /mission-briefing\.jpg/);
-  assert.match(css, /writing-desk\.jpg/);
-  assert.match(css, /\.scene-art/);
-  assert.ok(existsSync(new URL('../dse-practical-writing-media/operations-map.jpg', import.meta.url)));
-  assert.ok(existsSync(new URL('../dse-practical-writing-media/mission-briefing.jpg', import.meta.url)));
-  assert.ok(existsSync(new URL('../dse-practical-writing-media/writing-desk.jpg', import.meta.url)));
+  assert.doesNotMatch(app, /sceneArt|scene-art|operations-map|mission-briefing|writing-desk\.jpg/);
+  assert.doesNotMatch(css, /operations-map|mission-briefing|writing-desk\.jpg|scene-art/);
+  assert.doesNotMatch(app, /showFunctions|model-function|寫作功能對齊/);
+  assert.doesNotMatch(css, /model-function|counter-increment|counter\(modelBlock/);
 });
 
 test('drafting is student-scoped, autosaved, completable and responsive', () => {
