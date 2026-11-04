@@ -20,9 +20,6 @@ jobs:
     environment:
       name: github-pages
       url: https://edmundeducation.com/
-    env:
-      PUSH_BEFORE: ${{ github.event.before }}
-
     steps:
       - name: Checkout deployed snapshot
         uses: actions/checkout@v6
@@ -35,7 +32,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          test "$(cat pages-snapshot/.source-sha)" = "${PUSH_BEFORE}"
+          snapshot_sha=$(cat pages-snapshot/.source-sha)
+          echo "SNAPSHOT_SHA=${snapshot_sha}" >> "${GITHUB_ENV}"
 
           mkdir source
           cd source
@@ -55,23 +53,29 @@ jobs:
           /tools/check-2023-b2-entry.cjs
           /tools/rewrite-pages-assets.py
           /tools/update-pages-snapshot.sh
+          /tools/validate-2023-b2-verbatim.mjs
           /workers/edmund-site-assets/src/site-pack-index-v1.json
           /workers/edmund-site-assets/src/eddy-pack-index-v1.json
           /workers/edmund-site-assets/src/flashcard-pack-index-v1.json
           PATTERNS
-          git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "${GITHUB_SHA}"
-          git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "${PUSH_BEFORE}"
+          git -c protocol.version=2 fetch --no-tags --depth=50 --filter=blob:none origin "${GITHUB_SHA}"
+          git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "${snapshot_sha}"
           git checkout -q --detach "${GITHUB_SHA}"
+          git merge-base --is-ancestor "${snapshot_sha}" "${GITHUB_SHA}"
 
       - name: Reject changes that need the full release workflow
         shell: bash
         run: |
           set -euo pipefail
-          git -C source diff --name-only "${PUSH_BEFORE}" "${GITHUB_SHA}" > /tmp/paper3-fast-changes.txt
+          git -C source diff --name-only "${SNAPSHOT_SHA}" "${GITHUB_SHA}" > /tmp/paper3-fast-changes.txt
           test -s /tmp/paper3-fast-changes.txt
           while IFS= read -r path; do
             case "${path}" in
-              paper3/*|tools/build-2023-b2-reader.py|tools/check-2023-b2-entry.cjs) ;;
+              paper3/*|\
+              tools/build-2023-b2-reader.py|\
+              tools/check-2023-b2-entry.cjs|\
+              tools/test-proverb-system.mjs|\
+              tools/validate-2023-b2-verbatim.mjs) ;;
               *) echo "Use the full release workflow for: ${path}" >&2; exit 1 ;;
             esac
           done < /tmp/paper3-fast-changes.txt
@@ -87,6 +91,7 @@ jobs:
             esac
           done < /tmp/paper3-fast-changes.txt
           node --check source/tools/check-2023-b2-entry.cjs
+          node source/tools/validate-2023-b2-verbatim.mjs
           node --check source/paper3/2025-b2/reader.js
           node --check source/paper3/2025-b2/sentence-analysis.js
           node --check source/paper3/2025-b2/listening-notes.js
