@@ -73,14 +73,18 @@ test('original route catalogue, document briefing, three-column writing workspac
 
 test('production design uses only the original, provenance-documented education artwork', () => {
   const assets = [
-    'dse-practical-writing-art/learning-route-v1.webp',
-    'dse-practical-writing-art/writing-desk-v1.webp',
-    'dse-practical-writing-art/briefing-folio-v1.webp'
+    'dse-practical-writing-art/selection-map-v2.webp',
+    'dse-practical-writing-art/location-marker-v2.webp',
+    'dse-practical-writing-art/writing-file-v2.webp',
+    'dse-practical-writing-art/mode-folders-v2.webp',
+    'dse-practical-writing-art/briefing-dossier-v2.webp'
   ];
   assert.ok(assets.every(asset => existsSync(new URL(`../${asset}`, import.meta.url))));
-  assert.match(css, /learning-route-v1\.webp/);
-  assert.match(css, /writing-desk-v1\.webp/);
-  assert.match(css, /briefing-folio-v1\.webp/);
+  assert.match(css, /selection-map-v2\.webp/);
+  assert.match(css, /location-marker-v2\.webp/);
+  assert.match(css, /writing-file-v2\.webp/);
+  assert.match(css, /mode-folders-v2\.webp/);
+  assert.match(css, /briefing-dossier-v2\.webp/);
   const provenance = read('assets/dse-practical-writing/PROVENANCE.md');
   assert.match(provenance, /generated specifically for EdmundEducation/);
   for (const source of [html, app, css, provenance]) {

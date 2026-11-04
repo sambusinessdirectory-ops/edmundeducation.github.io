@@ -16,9 +16,11 @@ page.on('pageerror', error => errors.push(error.message));
 
 try {
   await page.goto(`${origin}/dse-practical-writing.html?preview=1`, { waitUntil: 'networkidle' });
+  assert.match(await page.locator('.mode-hub').evaluate(node => getComputedStyle(node).backgroundImage), /mode-folders-v2\.webp/);
   await page.locator('[data-mode="learning"]').click();
   assert.equal(await page.locator('.map-index button').count(), 13, 'learning route must expose 13 units');
-  assert.match(await page.locator('.campaign-map').evaluate(node => getComputedStyle(node).backgroundImage), /learning-route-v1\.webp/);
+  assert.match(await page.locator('.campaign-map').evaluate(node => getComputedStyle(node).backgroundImage), /selection-map-v2\.webp/);
+  assert.match(await page.locator('.map-index button').first().evaluate(node => getComputedStyle(node).backgroundImage), /location-marker-v2\.webp/);
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2), true, 'desktop route must not overflow horizontally');
 
   const [label8, label9] = await Promise.all([
@@ -35,10 +37,11 @@ try {
 
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto(`${origin}/dse-practical-writing.html?preview=1&mode=practice&item=workshop-enquiry`, { waitUntil: 'networkidle' });
+  assert.match(await page.locator('.briefing-scene').evaluate(node => getComputedStyle(node).backgroundImage), /briefing-dossier-v2\.webp/);
   await page.locator('[data-action="start"]').click();
   await page.locator('.writing-desk').waitFor();
   assert.equal(await page.evaluate(() => window.scrollY), 0, 'workspace must open at the top');
-  assert.match(await page.locator('.writing-desk').evaluate(node => getComputedStyle(node).backgroundImage), /writing-desk-v1\.webp/);
+  assert.match(await page.locator('.writing-desk').evaluate(node => getComputedStyle(node).backgroundImage), /writing-file-v2\.webp/);
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= document.documentElement.clientWidth + 2), true, 'desktop workspace must not overflow horizontally');
 
   const submit = page.locator('.submit-writing');
