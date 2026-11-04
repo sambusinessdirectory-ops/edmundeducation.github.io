@@ -8,6 +8,13 @@
     link.href = css;
     root.append(link);
   }
+  // The 2025 motion contract must also reach the light-DOM transcript/preview
+  // and the reconstructed source shadow root, not only the guide shadow root.
+  const motionCss = new URL('reference/curation.css?v=20261104-motion-v3', location.href).href;
+  const motionLink = document.createElement('link');
+  motionLink.rel = 'stylesheet';
+  motionLink.href = motionCss;
+  document.head.append(motionLink);
   const $ = selector => shell.querySelector(selector);
   const normalize = text => String(text || '').toLowerCase().replace(/[’‘]/g, "'").replace(/[^\p{L}\p{N}]/gu, '');
   const cueId = cue => 'cue:'+cue[0];
@@ -167,7 +174,9 @@
         quoted.add(fact[1]+'|'+normalize(fact[2]));
         const li=document.createElement('li'),button=document.createElement('button'),ink=document.createElement('span'),source=document.createElement('small');
         ink.className='curation-bank-ink';ink.textContent=fact[2];button.append(ink);button.type='button';
-        li.classList.toggle('curation-bank-used',used.has(id));source.textContent=sourceLabel(fact);
+        const isUsed=used.has(id),isNew=current.stage===4&&current.pattern&&diag.open&&current.used?.[visitIndex-1]===id;
+        li.classList.toggle('curation-bank-used',isUsed);
+        li.classList.toggle('curation-bank-used-new',isUsed&&isNew);source.textContent=sourceLabel(fact);
         button.onclick=()=>{
           if(owner>=0){jump23(owner);return;}
           if(fact[1]===19){
@@ -226,6 +235,7 @@
     for (const p of E('turns').children) {
       const turnIndex = Number(p.dataset.id), turn = transcript[turnIndex];
       const units = reviewUnits.map((unit,index) => ({unit,index})).filter(entry => entry.unit.turn === turnIndex);
+      p.classList.remove('curation-transcript-strike-direct','curation-transcript-strike','curation-strike','is-revealed','curation-transcript-A','curation-transcript-B','curation-transcript-C','curation-transcript-listening');
       p.replaceChildren(document.createTextNode(`${turn.speaker} · `));
       p.classList.toggle('cur23-review-current',units.some(entry => entry.index === reviewIndex));
       let cursor = 0;
@@ -233,21 +243,28 @@
         const at = turn.text.indexOf(unit.sentence,cursor);
         if (at < 0) continue;
         p.append(document.createTextNode(turn.text.slice(cursor,at)));
-        const span = document.createElement('span');span.textContent=unit.sentence;
+        const span = document.createElement('span');
         const role = reviewRole(unit);
+        span.className='curation-transcript-sentence';
+        const revealed=index<reviewIndex&&completed.has(reviewId(unit));
+        span.classList.toggle('is-revealed',revealed);
+        if(role.type>=1&&role.type<=3)span.classList.add(`curation-transcript-${'ABC'[role.type-1]}`);
+        else if(role.type===5)span.classList.add('curation-transcript-listening');
+        if(role.type===6){
+          span.classList.add('curation-transcript-strike','curation-strike');
+          const pen=document.createElement('span');pen.className='curation-pen-line';pen.textContent=unit.sentence;span.append(pen);
+        }else span.textContent=unit.sentence;
         if (index === reviewIndex) {
-          span.classList.add('cur23-review-sentence');
-          if (role.type === 6) span.classList.add('cur23-review-rejected');
-          else if (role.type >= 1 && role.type <= 3) span.classList.add(`cur23-review-task-${role.type}`);
-        } else if (index < reviewIndex && completed.has(reviewId(unit))) {
-          if (role.type === 6) span.classList.add('cur23-review-rejected');
-          else if (role.type >= 1 && role.type <= 3) span.classList.add(`cur23-review-task-${role.type}`);
+          span.classList.add('curation-target');
+          span.dataset.curationCurrent=role.type>=1&&role.type<=3?'ABC'[role.type-1]:'neutral';
         }
         p.append(span);cursor=at+unit.sentence.length;
       }
       p.append(document.createTextNode(turn.text.slice(cursor)));
       if (translated) p.append(document.createTextNode(`　${zhTurns[turnIndex-6] || ''}`));
     }
+    const activeSentence=E('turns').querySelector('.curation-transcript-sentence.curation-target');
+    if(activeSentence){void E('turns').offsetWidth;activeSentence.classList.add('is-revealed');}
     const unit = reviewUnits[reviewIndex];
     const target = [...E('turns').children].find(p => Number(p.dataset.id) === unit.turn);
     target?.scrollIntoView({block:'center',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
@@ -555,14 +572,17 @@
     }
     const tasks = currentTasks(page), header = article.querySelector(':scope > header');
     if (header) {
-      header.querySelector('.cur23-file-stamps')?.remove();
-      if (tasks.length) {
-        const holder=document.createElement('div');holder.className='cur23-file-stamps';holder.setAttribute('aria-label',`本頁任務標記：${tasks.join('、')}`);
+      header.classList.add('page-heading');
+      const existing=header.querySelector('.curation-file-stamps,.cur23-file-stamps');
+      const existingTasks=existing?[...existing.children].map(stamp=>stamp.dataset.task||stamp.textContent).join(''):'';
+      if(existingTasks!==tasks.join(''))existing?.remove();
+      if (tasks.length&&existingTasks!==tasks.join('')) {
+        const holder=document.createElement('div');holder.className='curation-file-stamps';holder.setAttribute('aria-label',`本頁任務標記：${tasks.join('、')}`);
         const before = stampCache.get(page) || [];
-        for (const task of tasks) {const stamp=document.createElement('span');stamp.className=`cur23-file-stamp cur23-file-stamp-${task}`;stamp.textContent=task;stamp.setAttribute('role','img');stamp.setAttribute('aria-label',`Task ${task}`);if (!before.includes(task)) stamp.classList.add('cur23-stamp-enter');holder.append(stamp);}
+        for (const task of tasks) {const stamp=document.createElement('span');stamp.className=`curation-file-stamp curation-file-stamp-${task}`;stamp.dataset.task=task;stamp.textContent=task;stamp.setAttribute('role','img');stamp.setAttribute('aria-label',`Task ${task}`);if (!before.includes(task)) stamp.classList.add('curation-file-stamp-enter');holder.append(stamp);}
         header.prepend(holder);
       }
-      header.classList.toggle('cur23-has-file-stamps',!!tasks.length);
+      header.classList.toggle('curation-has-file-stamps',!!tasks.length);
       stampCache.set(page,tasks);
     }
     article.onclick = event => {
@@ -675,7 +695,7 @@
     const modelRows=writingRows.filter(item=>item.t===row.t&&item.pattern),positions=new Map();
     let cursor=0;
     for(const item of modelRows){let at=full.indexOf(item.q,cursor);if(at<0)at=full.indexOf(item.q);positions.set(item,at);if(at>=0)cursor=at+item.q.length;}
-    const currentAt=positions.get(row)??-1,currentEnd=currentAt+row.q.length;
+    const units=modelRows.map(item=>({item,lo:positions.get(item),hi:(positions.get(item)??-1)+item.q.length})).filter(unit=>unit.lo>=0).sort((a,b)=>a.lo-b.lo);
     const marks=[];
     for(const item of modelRows){if(rows.indexOf(item)>i)break;const at=positions.get(item);if(at==null||at<0)continue;
       const phrase=item.pattern,structureAt=item.q.toLowerCase().indexOf(phrase.toLowerCase());
@@ -690,8 +710,21 @@
       for(let k=0;k<ordered.length-1;k++){const lo=ordered[k],hi=ordered[k+1];if(hi<=lo)continue;
         const active=marks.filter(mark=>mark.lo<=lo&&mark.hi>=hi);const kind=active.some(mark=>mark.kind==='structure')?'structure':active.length?'content':'';
         if(!kind)parent.append(document.createTextNode(full.slice(lo,hi)));
-        else{const span=document.createElement('span');span.textContent=full.slice(lo,hi);span.className=kind==='structure'?'cur23-essay-structure':`cur23-essay-content-${'ABC'[row.t-1]}`;parent.append(span);}
+        else{const span=document.createElement('span');span.textContent=full.slice(lo,hi);span.className=kind==='structure'?'curation-essay-structure':`curation-essay-keyword curation-essay-keyword-${'ABC'[row.t-1]}`;parent.append(span);}
       }
+    }
+    function appendUnits(parent,from,to){
+      let at=from;
+      for(const unit of units){
+        if(unit.hi<=from||unit.lo>=to)continue;
+        const lo=Math.max(from,unit.lo),hi=Math.min(to,unit.hi);
+        if(lo>at)appendColored(parent,at,lo);
+        const span=document.createElement('span');span.className='curation-essay-unit';
+        if(rows.indexOf(unit.item)<i)span.classList.add('is-revealed');
+        if(unit.item===row)span.dataset.currentEssayUnit='true';
+        appendColored(span,lo,hi);parent.append(span);at=Math.max(at,hi);
+      }
+      if(at<to)appendColored(parent,at,to);
     }
     surface.replaceChildren();surface.className='paper cur23-writing-paper';surface.append(paperHeader(row,false),taskNav());
     const details=document.createElement('details');details.open=true;details.className='curation-model-essay';
@@ -703,15 +736,12 @@
       const lo=starts[j],rawHi=starts[j+1]??full.length,hi=rawHi>lo&&full[rawHi-1]===' '?rawHi-1:rawHi;
       if(hi<=lo)continue;const card=row.t===3 && /^(TITLE CARD|EPISODE 1 CARD|PRIZE CARD)/.test(full.slice(lo));
       const paragraph=document.createElement(card?'h5':j===0 && row.t!==2?'h4':'p');
-      if(currentAt<lo||currentAt>=hi)appendColored(paragraph,lo,hi);
-      else{
-        appendColored(paragraph,lo,currentAt);
-        const current=document.createElement('span');current.className='current-model';appendColored(current,currentAt,Math.min(currentEnd,hi));paragraph.append(current);
-        appendColored(paragraph,Math.min(currentEnd,hi),hi);
-      }
+      appendUnits(paragraph,lo,hi);
       essay.append(paragraph);
     }
     surface.append(details);
+    const current=essay.querySelector('[data-current-essay-unit="true"]');
+    if(current){void essay.offsetWidth;current.classList.add('is-current','is-revealed','current-model');}
   }
   for(let task=1;task<=3;task++){choose.children[task-1].onclick=()=>{const stage=rows[i].stage===3?3:4;const target=rows.findIndex(item=>item.stage===stage&&item.t===task);if(target>=0)jump23(target);};}
   const previousDisplayUpdate=update23;

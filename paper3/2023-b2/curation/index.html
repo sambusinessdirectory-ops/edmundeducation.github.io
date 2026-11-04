@@ -68,11 +68,11 @@ E('audio-retry').onclick=()=>{E('audio-status').textContent='正在重新載入�
 let cueIndex=0,typing=0,done=false,active=false;
 function tstr(t){return Math.floor(t/60)+':'+String(Math.floor(t%60)).padStart(2,'0')}
 transcript.slice(6,82).forEach((v,j)=>{const p=document.createElement('p');p.dataset.id=j+6;p.textContent=v.speaker+' · '+v.text;E('turns').append(p)});
-function paint(){let time=audio.currentTime;E('time').textContent=tstr(Math.max(0,time-426));E('seek').value=time;for(const p of E('turns').children){let id=+p.dataset.id,c=cues.find(x=>x[0]===id);p.style.background=transcript[id].end<=time+.06&&c?inks[c[1]]:'';p.style.textDecoration=transcript[id].end<=time+.06&&noiseTurns.has(id)?'line-through #c7222c':''}}
-function notes(n,partial=''){const box=E('notes23');if(!box)return;box.replaceChildren();cues.slice(0,n).concat(partial?[[0,cues[n][1],partial]]:[]).forEach(c=>{if(!c[2])return;let p=document.createElement('p');p.style.background=inks[c[1]];p.textContent=c[2];box.append(p)})}
-function boundary(){if(!active||audio.paused||done)return;const end=transcript[cues[cueIndex][0]].end;if(audio.currentTime+.035<end)return;audio.pause();audio.currentTime=end;done=true;let k=0,word=cues[cueIndex][2];clearInterval(typing);typing=setInterval(()=>{k+=2;notes(cueIndex,word.slice(0,k));if(k>=word.length){clearInterval(typing);E('next').disabled=false}},25);paint()}
+function paint(){let time=audio.currentTime;E('time').textContent=tstr(Math.max(0,time-426));E('seek').value=time;for(const p of E('turns').children){let id=+p.dataset.id,c=cues.find(x=>x[0]===id),reached=transcript[id].end<=time+.06;p.classList.add('curation-transcript-sentence');p.classList.toggle('is-revealed',!!reached);p.classList.remove('curation-transcript-A','curation-transcript-B','curation-transcript-C','curation-transcript-listening');if(reached&&c)p.classList.add(c[1]>=1&&c[1]<=3?'curation-transcript-'+'ABC'[c[1]-1]:'curation-transcript-listening');p.classList.toggle('curation-transcript-strike',reached&&noiseTurns.has(id));p.classList.toggle('curation-transcript-strike-direct',reached&&noiseTurns.has(id));p.classList.toggle('curation-strike',reached&&noiseTurns.has(id))}}
+function notes(n,partial=''){const box=E('notes23');if(!box)return;box.replaceChildren();cues.slice(0,n).concat(partial?[[0,cues[n][1],partial]]:[]).forEach(c=>{if(!c[2])return;let p=document.createElement('p');p.className='curation-mark is-revealed '+(c[1]>=1&&c[1]<=3?'curation-mark-'+'ABC'[c[1]-1]:'curation-mark-hint');if(partial&&c[2]===partial)p.classList.add('curation-note-writing');p.textContent=c[2];box.append(p)})}
+function boundary(){if(!active||audio.paused||done)return;const end=transcript[cues[cueIndex][0]].end;if(audio.currentTime+.035<end)return;audio.pause();audio.currentTime=end;done=true;let k=0,word=cues[cueIndex][2];clearInterval(typing);notes(cueIndex);const box=E('notes23'),field=box?.children[fieldIds?.[cueIndex]??0];let writingNote;if(word&&field){writingNote=document.createElement('p');writingNote.className='curation-mark is-revealed '+(cues[cueIndex][1]>=1&&cues[cueIndex][1]<=3?'curation-mark-'+'ABC'[cues[cueIndex][1]-1]:'curation-mark-hint');field.insertBefore(writingNote,field.querySelector('input'));void writingNote.offsetWidth;writingNote.classList.add('curation-note-writing')}typing=setInterval(()=>{k+=2;if(writingNote)writingNote.textContent=word.slice(0,k);if(k>=word.length){clearInterval(typing);typing=0;writingNote?.classList.remove('curation-note-writing');E('next').disabled=false}},25);paint()}
 audio.ontimeupdate=()=>{boundary();paint()};audio.onplay=()=>{E('play').textContent='Ⅱ'};audio.onpause=()=>{E('play').textContent='▶'};
-function listen(j,play){clearInterval(typing);audio.pause();cueIndex=j;done=false;audio.currentTime=j?transcript[cues[j-1][0]].end:426;E('next').disabled=true;E('count').textContent=(j+1)+' / '+cues.length;notes(j);paint();if(play)audio.play().catch(showAudioFailure)}
+function listen(j,play){clearInterval(typing);typing=0;E('notes23')?.querySelectorAll('.curation-note-writing').forEach(node=>node.classList.remove('curation-note-writing'));audio.pause();cueIndex=j;done=false;audio.currentTime=j?transcript[cues[j-1][0]].end:426;E('next').disabled=true;E('count').textContent=(j+1)+' / '+cues.length;notes(j);paint();if(play)audio.play().catch(showAudioFailure)}
 E('play').onclick=()=>{if(done)listen(cueIndex,true);else if(audio.paused)audio.play().catch(showAudioFailure);else audio.pause()};
 E('seek').oninput=e=>{let t=+e.target.value;let j=cues.findIndex(c=>transcript[c[0]].end>=t);listen(j<0?cues.length-1:j,false);audio.currentTime=t;paint()};
 E('pins').onclick=()=>E('ticks').hidden=!E('ticks').hidden;cues.forEach((c,j)=>{let b=document.createElement('button');b.textContent=tstr(transcript[c[0]].end-426);b.title=c[2];b.onclick=()=>listen(j,true);E('ticks').append(b)});
@@ -82,7 +82,9 @@ const grip=scriptWindow.querySelector('header');grip.onpointerdown=e=>{let r=scr
 </script><script data-reader-source="controls.js">
 const dock=document.querySelector('main>article');dock.insertAdjacentHTML('afterbegin','<div class=kicker>SUPER CURATION · 2023 B2</div><div class=actions></div><div class=tools23><select aria-label="跳至步驟" id="jump23"></select><label><input type=checkbox id="spot23"> 聚光燈</label><button id="save23">☆ 書籤</button><button id="restore23">返回書籤</button></div>');
 const actions=dock.querySelector('.actions');actions.append(E('prev'),E('next'),E('count'));rows.forEach((r,j)=>E('jump23').add(new Option((j+1)+' · '+(r.q||r.a).slice(0,48),j)));E('jump23').onchange=e=>{i=Number(e.target.value);render()};E('spot23').onchange=e=>document.body.classList.toggle('spot',e.target.checked);E('save23').onclick=()=>{readerStore23.setItem('cur23-bookmark',i);E('save23').textContent='★ 已儲存'};E('restore23').onclick=()=>{const v=readerStore23.getItem('cur23-bookmark');if(v!==null){i=Number(v);render()}};
-const diag=E('pop'),head=document.createElement('header');head.textContent='原頁取證 · 藍線：已用於範文　';head.append(diag.querySelector('button'));diag.prepend(head);
+const diag=E('pop'),head=document.createElement('header'),previewClose=diag.querySelector('button');
+diag.classList.add('curation-source-preview');diag.setAttribute('role','dialog');diag.setAttribute('aria-modal','false');diag.setAttribute('aria-label','原頁取證視窗');
+head.className='curation-source-preview-head';const previewTitle=document.createElement('strong'),previewHint=document.createElement('span');previewTitle.textContent='原頁取證';previewHint.textContent='拖曳移動 · 四角調整大小 · 藍線：已用於範文';previewClose.textContent='×';previewClose.setAttribute('aria-label','關閉原頁取證視窗');head.append(previewTitle,previewHint,previewClose);diag.prepend(head);excerpt.classList.add('curation-source-preview-body');
 function moveWindow(win,handle,side){handle.onpointerdown=e=>{if(e.target.closest('button,select'))return;const r=win.getBoundingClientRect(),x=e.clientX,y=e.clientY;handle.setPointerCapture(e.pointerId);handle.onpointermove=v=>{let dx=v.clientX-x,dy=v.clientY-y,l=r.left,t=r.top,w=r.width,h=r.height;if(!side){l+=dx;t+=dy}else{if(side.includes('w')){l+=dx;w-=dx}else w+=dx;if(side.includes('n')){t+=dy;h-=dy}else h+=dy}w=Math.min(innerWidth-8,Math.max(250,w));h=Math.min(innerHeight-8,Math.max(180,h));Object.assign(win.style,{margin:'0',right:'auto',bottom:'auto',left:Math.max(4,Math.min(innerWidth-w-4,l))+'px',top:Math.max(4,Math.min(innerHeight-h-4,t))+'px',width:w+'px',height:h+'px'})};handle.onpointerup=()=>handle.onpointermove=null}}
 for(const [w,h] of [[diag,head],[scriptWindow,grip]]){moveWindow(w,h,'');for(let side of ['nw','ne','sw','se']){let b=document.createElement('span');b.className='corner '+side;w.append(b);moveWindow(w,b,side)}}
 const finalRender=render;render=function(){finalRender();E('jump23').value=i;[...rail.children].forEach((b,j)=>{b.dataset.n=j+1;b.classList.toggle('past',j<rows[i].stage)});readerStore23.setItem('cur23-position',i)};let initial=Number(readerStore23.getItem('cur23-position'));if(Number.isInteger(initial)&&rows[initial])i=initial;render();
@@ -104,8 +106,8 @@ const markingPage="Part B2 (more difficult section)\n\nTask 8 (19 marks)\nTask C
 </script><script data-reader-source="lesson.js">
 const fieldNames=['Live, Study, Cook · Filming schedule','Kinds of food in the competition','William Puddle’s viral video','Staff training','Golden Sun Tower Private Kitchen complaints','New show: Viewer’s Choice'];
 const fieldIds=[0,0,1,1,2,2,2,3,3,3,4,4,4,5,5,5,5];
-notes=function(n,partial=''){const box=E('notes23');if(!box)return;box.replaceChildren();fieldNames.forEach((name,j)=>{let field=document.createElement('section');field.innerHTML='<b></b>';field.firstChild.textContent=name;for(let k=0;k<=n&&k<cues.length;k++){let value=k<n?cues[k][2]:partial;if(fieldIds[k]!==j||!value)continue;let p=document.createElement('p');p.textContent=value;p.style.background=inks[cues[k][1]];field.append(p)}box.append(field)})};
-const originalPaint=paint;paint=function(){originalPaint();[...E('turns').children].forEach(p=>{let k=+p.dataset.id;p.classList.toggle('heard-noise',transcript[k].end<=audio.currentTime+.06&&noiseTurns.has(k))})};
+notes=function(n,partial=''){const box=E('notes23');if(!box)return;box.replaceChildren();fieldNames.forEach((name,j)=>{let field=document.createElement('section');field.innerHTML='<b></b>';field.firstChild.textContent=name;for(let k=0;k<=n&&k<cues.length;k++){let value=k<n?cues[k][2]:partial;if(fieldIds[k]!==j||!value)continue;let p=document.createElement('p');p.textContent=value;p.className='curation-mark is-revealed '+(cues[k][1]>=1&&cues[k][1]<=3?'curation-mark-'+'ABC'[cues[k][1]-1]:'curation-mark-hint');if(partial&&k===n)p.classList.add('curation-note-writing');field.append(p)}box.append(field)})};
+const originalPaint=paint;paint=function(){originalPaint();[...E('turns').children].forEach(p=>{let k=+p.dataset.id,reached=transcript[k].end<=audio.currentTime+.06&&noiseTurns.has(k);p.classList.toggle('curation-transcript-strike',reached);p.classList.toggle('curation-transcript-strike-direct',reached);p.classList.toggle('curation-strike',reached)})};
 function read23Record(key){try{const value=JSON.parse(readerStore23.getItem(key)||'{}');return value&&typeof value==='object'&&!Array.isArray(value)?value:{}}catch{return {}}}
 const positions=read23Record('cur23-task-progress');const persistUsage=()=>readerStore23.setItem('cur23-task-progress',JSON.stringify(positions));const evidenceUsed=t=>new Set(rows.flatMap((r,j)=>r.t===t&&r.pattern&&j<=(positions[t]??-1)?r.used:[]));
 function renderBank23(r){let bank=E('bank');bank.replaceChildren();for(let t=1;t<=3;t++){let detail=document.createElement('details'),summary=document.createElement('summary');summary.textContent='Task '+['A · 8','B · 9','C · 10'][t-1];detail.open=t===r.t;detail.append(summary);let used=evidenceUsed(t);facts.forEach((f,id)=>{if(f[0]!==t)return;let heard=f[1]===19&&rows[i].stage>2;let reached=r.stage===4||heard||rows.slice(0,i+1).some(x=>x.stage===3&&x.p===f[1]&&x.q.includes(f[2]));if(!reached)return;let btn=document.createElement('button');btn.textContent=f[2];if(used.has(id))btn.className='spent';btn.onclick=()=>sourceVisit(id);detail.append(btn)});bank.append(detail)}}
@@ -139,14 +141,14 @@ const choose=document.createElement('div');choose.className='tasks23';for(let t=
 const coreRender=render;render=function(){coreRender();if(rows[i].plan){surface.hidden=false;surface.textContent=rows[i].a}E('prev').disabled=i===0;E('next').disabled=active?!done:i===rows.length-1};render();
 const shownByTask=read23Record('cur23-shown');const previousBank=renderBank23;renderBank23=function(r){previousBank(r);for(let t=1;t<=3;t++){let progress=shownByTask[t]||{},used=new Set(rows.flatMap((x,j)=>x.pattern&&x.t===t?(j<progress.i?x.used:j===progress.i?x.used.slice(0,progress.n):[]):[]));let group=E('bank').children[t-1];for(let button of group.querySelectorAll('button')){let id=facts.findIndex(f=>f[0]===t&&f[2]===button.textContent);button.classList.toggle('spent',used.has(id))}}};let lastStep=-1;
 const finalView=render;render=function(){let r=rows[i];if(r.stage===4&&i!==lastStep){let old=shownByTask[r.t];if(!old||old.i!==i)shownByTask[r.t]={i,n:0};readerStore23.setItem('cur23-shown',JSON.stringify(shownByTask))}finalView();lastStep=i;visitIndex=shownByTask[r.t]?.i===i?shownByTask[r.t].n:0;renderBank23(r)};
-const previewSource=sourceVisit;sourceVisit=function(id){let r=rows[i];if(r.pattern&&r.used.includes(id)){shownByTask[r.t]={i,n:Math.max(shownByTask[r.t]?.n||0,r.used.indexOf(id)+1)};readerStore23.setItem('cur23-shown',JSON.stringify(shownByTask));renderBank23(r)}previewSource(id);const v=facts[id];if(v[1]===20)head.firstChild.textContent='評分指引 · Task 8 · 8.5　';if(v[1]===19){let c=cues.find(k=>transcript[k[0]].text.includes(v[2]));if(c){let note=document.createElement('p');note.textContent='筆記 · '+c[2];note.className='applied';excerpt.prepend(note)}}};
+const previewSource=sourceVisit;sourceVisit=function(id){let r=rows[i];if(r.pattern&&r.used.includes(id)){shownByTask[r.t]={i,n:Math.max(shownByTask[r.t]?.n||0,r.used.indexOf(id)+1)};readerStore23.setItem('cur23-shown',JSON.stringify(shownByTask));renderBank23(r)}previewSource(id);const v=facts[id];if(v[1]===20)head.firstChild.textContent='評分指引 · Task 8 · 8.5　';if(v[1]===19){let c=cues.find(k=>transcript[k[0]].text.includes(v[2]));if(c){let frame=document.createElement('div'),note=document.createElement('p');frame.className='curation-note-ink-frame has-essay-use';note.textContent='筆記 · '+c[2];note.className='applied curation-note-ink-used curation-note-ink-new';frame.append(note);excerpt.prepend(frame)}}};
 for(let t of [1,2,3]){let b=choose.children[t-1];b.onclick=()=>{i=shownByTask[t]?.i??rows.findIndex(x=>x.plan&&x.t===t);render()}}
 const oldListen=listen;listen=function(j,p){oldListen(j,p);readerStore23.setItem('cur23-cue',j)};const savedCue=Number(readerStore23.getItem('cur23-cue')||0);render();if(active&&cues[savedCue])listen(savedCue,false);
 const store=document.createElement('details');store.innerHTML='<summary>存檔 · 匯出／匯入</summary><select aria-label="存檔位置"></select><button>儲存</button><button>載入</button><button>匯出</button><input type="file" accept=".json">';dock.append(store);let slot=store.querySelector('select');for(let n=1;n<=5;n++)slot.add(new Option('位置 '+n,n));const snapshot=()=>({version:2,key:key23(rows[i]),i,shown:stableUsage(),cue:cueIndex,notes:[1,2,3].map(t=>readerStore23.getItem('2023-draft-'+t)||'')});function restore(v){if(!v||![1,2].includes(v.version))return;let oldRows=v.version===1?rows.filter(r=>r.stage!==3||!editorial23.some(d=>d[3]===r.q)):null;let oldIndex=n=>oldRows?.[n]?entry23(key23(oldRows[n])):-1;let target=v.version===2?entry23(v.key):oldIndex(v.i);if(!Number.isInteger(target)||!rows[target])return;i=target;for(const [t,state] of Object.entries(v.shown||{})){let index=v.version===2?entry23(state.key):oldIndex(state.i);if(index>=0)shownByTask[t]={i:index,n:state.n}}(v.notes||[]).forEach((s,j)=>readerStore23.setItem('2023-draft-'+(j+1),s));render();if(active&&cues[v.cue])listen(v.cue,false)}const sb=store.querySelectorAll('button');sb[0].onclick=()=>readerStore23.setItem('cur23-slot'+slot.value,JSON.stringify(snapshot()));sb[1].onclick=()=>restore(JSON.parse(readerStore23.getItem('cur23-slot'+slot.value)));sb[2].onclick=()=>{let a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(snapshot())],{type:'application/json'}));a.download='2023-B2-progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};store.querySelector('input').onchange=async e=>{try{restore(JSON.parse(await e.target.files[0].text()))}catch{e.target.setCustomValidity('存檔格式無效');e.target.reportValidity()}};
 // Picking a step explicitly replays that unit. A task tab resumes its saved position.
 E('jump23').onchange=e=>{i=Number(e.target.value);const r=rows[i];if(r.stage===4)shownByTask[r.t]={i,n:0};render()};
 const cueHelp=['財務部確認十集。八集是舊數字。','原定七月撞正暑假，最後改在十月。','早餐方案被放棄，改為主菜。','甜品是另一類選擇，與主菜分行記錄。','先記水浸；稍後用聊天紀錄解釋原因。','水浸屬實，食安指控仍須查證。','錄音澄清流眼水是切洋蔥所致。','全體員工需要社交媒體訓練。','清楚表達可以避免誤解及冒犯。','三個條件缺一不可：首十名、完成全部三科、額外一日假。','是多士燶了，不能誇大為已證實的火警。','防火是員工需要。用課程簡介核對實際技能。','一萬元是要求；五千元是回應，這個數字不屬三篇寫作的內容。','新節目名稱是 Viewer’s Choice。','觀眾選材料，由 William 在節目上即場煮。','全程直播是可以用於宣傳的已確認特色。','會議結束，核對筆記再開始逐句取證。'];
-const noteView=notes;notes=function(n,partial){noteView(n,partial);if(!active)return;E('meta').textContent='會議錄音 · '+(cueIndex+1)+' / '+cues.length;E('q').textContent=done?transcript[cues[cueIndex][0]].text:'聆聽至下一個關鍵點';E('a').textContent=done?cueHelp[cueIndex]:'留意講者有沒有更正早前的說法。';const box=E('notes23');if(!box)return;for(let [j,node] of [...box.children].entries()){const note=document.createElement('input');note.placeholder='我的補充筆記';note.setAttribute('aria-label',fieldNames[j]+' · 我的筆記');note.value=readerStore23.getItem('cur23-usernote'+j)||'';note.oninput=()=>readerStore23.setItem('cur23-usernote'+j,note.value);node.append(note)}};
+const noteView=notes;notes=function(n,partial){noteView(n,partial);if(!active)return;E('meta').textContent='會議錄音 · '+(cueIndex+1)+' / '+cues.length;E('q').textContent=done?transcript[cues[cueIndex][0]].text:'聆聽至下一個關鍵點';E('a').textContent=done?cueHelp[cueIndex]:'留意講者有沒有更正早前的說法。';const box=E('notes23');if(!box)return;for(let [j,node] of [...box.children].entries()){const note=document.createElement('input');note.placeholder='我的補充筆記';note.setAttribute('aria-label',fieldNames[j]+' · 我的筆記');note.value=readerStore23.getItem('cur23-usernote'+j)||'';note.oninput=()=>{readerStore23.setItem('cur23-usernote'+j,note.value);if(typing){clearInterval(typing);typing=0;box.querySelectorAll('.curation-note-writing').forEach(item=>item.classList.remove('curation-note-writing'));E('next').disabled=false}};node.append(note)}};
 audio.onerror=()=>{showAudioFailure();E('a').textContent='未能載入會議錄音。可先閱讀逐字稿，再按重試載入錄音。'};audio.onloadedmetadata=()=>{if(active&&audio.currentTime<426)audio.currentTime=426};
 const linkRender=render;render=function(){linkRender();const r=rows[i];if(r.leaf){E('open').href='originals/page-'+String(r.leaf).padStart(2,'0')+'.webp';E('meta').textContent='Data File 第 '+r.leaf+' 頁 · '+(r.tag?'暫標 '+r.tag:'類型 '+r.t)}else E('open').href='benchmark.pdf#page='+r.p;if(active)notes(cueIndex);};render();
 // Add the precise original source wording for each scored evidence item even when a
@@ -598,7 +600,7 @@ const nativePages23=["<article class=\"paper-page verified-reconstruction\" id=\
 const shellHost=document.createElement('div');document.body.append(shellHost);const shell=shellHost.attachShadow({mode:'open'});
 shell.innerHTML='<link rel="stylesheet" href="reference/base.css"><link rel="stylesheet" href="reference/curation.css"><link rel="stylesheet" href="reference/shell.css"><div class="ref-root curation-active">'+referenceShell23+'<dialog class="curation-picker"><div class="curation-picker-head">跳至步驟 <button>×</button></div><input id="curation-picker-search" placeholder="搜尋步驟"><div class="choices"></div></dialog></div>';
 const $s=q=>shell.querySelector(q), allS=q=>[...shell.querySelectorAll(q)], chapters23=['boss','categorize','podcast','data','writing'];
-const section23=document.querySelector('main>section'),nativeHost=document.createElement('div');nativeHost.className='native-reader-host';section23.prepend(nativeHost);const native=nativeHost.attachShadow({mode:'open'});native.innerHTML='<link rel="stylesheet" href="reference/native.css"><style>:host{display:block}.paper-page{margin:0;width:100%;border:0}.translation{display:none}.translated .translation{display:block}mark{border-radius:3px}.target{outline:3px solid #206b5b;outline-offset:2px}.reject{text-decoration:line-through #c7222c 3px}article header{position:static}.native-document{overflow:visible}</style><div class="source"></div>';
+const section23=document.querySelector('main>section'),nativeHost=document.createElement('div');nativeHost.className='native-reader-host';section23.prepend(nativeHost);const native=nativeHost.attachShadow({mode:'open'});native.innerHTML='<link rel="stylesheet" href="reference/native.css"><link rel="stylesheet" href="reference/curation.css"><style>:host{display:block}.paper-page{margin:0;width:100%;border:0}.translation{display:none}.translated .translation{display:block}mark{border-radius:3px}article header{position:static}.native-document{overflow:visible}</style><div class="source curation-active"></div>';
 function read23List(key){try{const value=JSON.parse(readerStore23.getItem(key)||'[]');return Array.isArray(value)?value.filter(item=>typeof item==='string'):[]}catch{return []}}
 let help=false,lang=false,opened=true,firstView=true,tab='all',lastNative='',lastSync='',books=read23List('cur23-stars'),completed=new Set(read23List('cur23-done'));const chaptersDone=()=>readerStore23.setItem('cur23-done',JSON.stringify([...completed]));
 const instructions=['先找寫作身分、文類、讀者、內容要求和指定來源。','按文件標題暫標任務，讀到新線索再核對。','聽到答案後暫停，逐項寫入筆記。','按資料頁連續閱讀，核對原句和任務。','先組織自己的內容與草稿，再按任務要求校對。'];
@@ -646,17 +648,21 @@ function nativePage(page,r){
      const span=segments.filter(s=>s.from<=from&&s.to>=to).at(-1);
      if(!span){fragment.append(text);continue;}
      const {row,index}=span,mark=document.createElement('mark');
-     mark.textContent=text;mark.dataset.stepIndex=index;
-     mark.style.background=inks[row.t===5&&row.state==='REJECT'?row.topic:row.t];
-     if(index===i){mark.className='target';mark.dataset.type=row.t;}
-     if(row.t===6||row.state==='REJECT')mark.classList.add('reject');
+     const rejected=row.t===6||row.state==='REJECT',task=row.t===5&&row.state==='REJECT'?row.topic:row.t;
+     mark.dataset.stepIndex=index;mark.dataset.curationType=String(row.t);
+     mark.classList.add('curation-mark');if(index<i)mark.classList.add('is-revealed');
+     if(task>=1&&task<=3)mark.classList.add('curation-mark-'+'ABC'[task-1]);
+     else if(task===4||task===5)mark.classList.add('curation-mark-hint');
+     if(rejected){mark.classList.add('curation-strike');const pen=document.createElement('span');pen.className='curation-pen-line';pen.textContent=text;mark.append(pen);}else mark.textContent=text;
+     if(index===i){mark.classList.add('target','curation-target');mark.dataset.type=row.t;mark.dataset.curationCurrent=row.t>=1&&row.t<=3?'ABC'[row.t-1]:row.t===4?'type-4':'neutral';}
      fragment.append(mark);
    }
    node.replaceWith(fragment);
  }
+ const currentMark=root.querySelector(`mark[data-step-index="${i}"]`);if(currentMark){void root.offsetWidth;currentMark.classList.add('is-revealed');}
 }
 function syncBank(){const groups=$s('#curation-bank-groups'),open=new Set([...groups.children].filter(x=>x.open).map(x=>x.dataset.t));groups.replaceChildren();for(let t=1;t<=3;t++){let d=document.createElement('details');d.className='curation-bank-'+['A','B','C'][t-1];d.dataset.t=t;d.open=open.has(String(t))||(rows[i].pattern&&rows[i].t===t);let buttons=[...E('bank').children[t-1].querySelectorAll('button')].filter(b=>{let f=facts.find(f=>f[0]===t&&f[2]===b.textContent);if(!f)return false;if(rows[i].stage===4)return true;if(b.classList.contains('spent'))return true;if(f[1]===19)return completed.has('heard:'+f[2]);return rows.some(x=>x.stage===3&&x.p===f[1]&&x.q.includes(f[2])&&completed.has(key23(x))) });let summary=document.createElement('summary');summary.innerHTML='<span>Task '+['A','B','C'][t-1]+'</span><strong data-count>'+buttons.length+' 句</strong>';d.append(summary);let ol=document.createElement('ol');for(let b of buttons){let li=document.createElement('li'),btn=document.createElement('button'),small=document.createElement('small');btn.textContent=b.textContent;small.textContent=b.nextElementSibling?.textContent||'';btn.onclick=()=>b.click();if(b.classList.contains('spent'))btn.style.textDecoration='line-through 3px #cb2530';li.append(btn,small);ol.append(li)}d.append(ol);groups.append(d)}}
-function update23(force=false){let r=rows[i],ss=rows.filter(x=>x.stage===r.stage),num=r.stage===2?cueIndex+1:ss.indexOf(r)+1,total=r.stage===2?cues.length:ss.length;let key=[i,num,done,visitIndex,E('next').disabled,help,lang,opened,tab,firstView,diag.open,completed.size].join(':');if(!force&&lastSync===key)return;lastSync=key;document.body.classList.toggle('cur23-open',opened);$s('.ref-root').classList.toggle('curation-podcast-active',r.stage===2&&opened);$s('.ref-root').classList.toggle('curation-active',opened);for(let s of ['.curation-dock','.curation-bank','.curation-stage'])$s(s).hidden=!opened;$s('#curation-toggle').textContent=opened?'✦ 離開 Curation':'✦ 進入 Curation';$s('#show-translation').checked=lang;allS('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.filter===tab));allS('.curation-stage-item').forEach((b,j)=>{const stageRows=rows.filter(x=>x.stage===j),finished=stageRows.every(x=>completed.has(key23(x)));b.classList.toggle('active',j===r.stage);b.setAttribute('aria-current',j===r.stage?'step':'false');b.classList.toggle('done',finished);b.querySelector('.curation-stage-dot').textContent=finished?'✓':j+1;b.querySelector('small').textContent=j===r.stage?num+'/'+total:finished?'完成':''});$s('.curation-stage-fill').style.width=r.stage*20+'%';
+function update23(force=false){let r=rows[i],ss=rows.filter(x=>x.stage===r.stage),num=r.stage===2?cueIndex+1:ss.indexOf(r)+1,total=r.stage===2?cues.length:ss.length;let key=[i,num,done,visitIndex,E('next').disabled,help,lang,opened,tab,firstView,diag.open,completed.size].join(':');if(!force&&lastSync===key)return;lastSync=key;document.body.classList.toggle('cur23-open',opened);document.body.classList.toggle('curation-active',opened);$s('.ref-root').classList.toggle('curation-podcast-active',r.stage===2&&opened);$s('.ref-root').classList.toggle('curation-active',opened);for(let s of ['.curation-dock','.curation-bank','.curation-stage'])$s(s).hidden=!opened;$s('#curation-toggle').textContent=opened?'✦ 離開 Curation':'✦ 進入 Curation';$s('#show-translation').checked=lang;allS('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.filter===tab));allS('.curation-stage-item').forEach((b,j)=>{const stageRows=rows.filter(x=>x.stage===j),finished=stageRows.every(x=>completed.has(key23(x)));b.classList.toggle('active',j===r.stage);b.setAttribute('aria-current',j===r.stage?'step':'false');b.classList.toggle('done',finished);b.querySelector('.curation-stage-dot').textContent=finished?'✓':j+1;b.querySelector('small').textContent=j===r.stage?num+'/'+total:finished?'完成':''});$s('.curation-stage-fill').style.width=r.stage*20+'%';
  $s('#curation-chapter').textContent=instructions[r.stage];$s('#curation-step-jump').textContent=num+' / '+total+' · '+(r.stage===2?cues[cueIndex][2]:r.q).slice(0,25);$s('#curation-step-count').textContent=num+' / '+total+' · '+ss.filter(x=>completed.has(key23(x))).length+' 已完成';$s('#curation-bookmark').textContent=books.includes(key23(r))?'★':'☆';$s('#curation-source').textContent=r.stage===2?'聆聽筆記表 · 會議錄音':E('meta').textContent;$s('#curation-title').textContent=names23[r.stage];$s('#curation-quote').replaceChildren(...[...E('q').childNodes].map(n=>n.cloneNode(true)));let ex=$s('#curation-explanation');ex.replaceChildren();let p=document.createElement('p');p.textContent=E('a').textContent;let banner=document.createElement('p');banner.className='curation-type curation-type-'+r.t;banner.textContent='類型：'+types[r.t];if(r.stage!==2&&r.stage!==4)ex.append(banner);ex.append(p);if(help){let extra=document.createElement('p');extra.className='curation-extra-help';extra.textContent=(r.pattern?'留意句式「'+r.pattern+'」。':instructions[r.stage])+' '+(r.used?.length?facts[r.used[0]][4]:r.leaf?'核對 Data File 第 '+r.leaf+' 頁的說話者及前後文。':r.a);ex.append(extra)}$s('#curation-prev').disabled=E('prev').disabled;$s('#curation-next').disabled=E('next').disabled;$s('#curation-next').textContent=E('next').textContent;$s('#curation-step-actions').replaceChildren(...[...E('refs').children].map(b=>{let clone=b.cloneNode(true);clone.onclick=()=>b.click();return clone}));let tj=$s('#curation-task-jump');tj.hidden=r.stage<3;tj.replaceChildren(...[...choose.children].map((b,t)=>{let c=b.cloneNode(true);c.onclick=()=>{b.click();firstView=false;update23(true)};return c}));syncBank();
  let useNative=r.stage<2||r.stage===3;nativeHost.hidden=!useNative;section23.classList.toggle('native-active',useNative);if(useNative)nativePage(routePhase()==='visit'?Number(E('refs').querySelector('[data-destination]').dataset.destination):r.leaf||4,r);if(r.draft){section23.append(E('draft'));E('draft').hidden=false}else E('draft').hidden=true;
 }
@@ -699,7 +705,7 @@ function previewNativePage(page,quote='',task=0,rejected=false){
   excerpt.append(host);
   const root=host.attachShadow({mode:'open'});
   const style=document.createElement('style');
-  style.textContent=`:host{display:block}.translation,details,header,.native-label{display:none}.paper-page{margin:0;width:100%}.native-document{padding:8px}mark{background:${inks[task]};background-image:linear-gradient(${rejected?'#c7222c':'#246fbd'},${rejected?'#c7222c':'#246fbd'});background-position:left 55%;background-repeat:no-repeat;background-size:100% 3px;animation:strike .6s ease-out}@keyframes strike{from{background-size:0 3px}}@media(prefers-reduced-motion:reduce){mark{animation:none}}`;
+  style.textContent=`:host{display:block}.translation,details,header,.native-label{display:none}.paper-page{margin:0;width:100%}.native-document{padding:8px}mark{background:${inks[task]};color:inherit}.curation-navy-ink,.curation-pen-line{background-repeat:no-repeat;box-decoration-break:clone;-webkit-box-decoration-break:clone}.curation-navy-ink{background-image:linear-gradient(#246fbd,#246fbd);background-position:left 46%;background-size:100% 5px}.curation-essay-source-new .curation-navy-ink{animation:sourceInk 1s cubic-bezier(.2,.8,.2,1) .26s both}.curation-pen-line{background-image:linear-gradient(#c7222c,#c7222c);background-position:left 56%;background-size:100% 3px;animation:penInk .85s cubic-bezier(.2,.8,.2,1) both}@keyframes sourceInk{from{background-size:0 5px}to{background-size:100% 5px}}@keyframes penInk{from{background-size:0 3px}to{background-size:100% 3px}}@media(prefers-reduced-motion:reduce){.curation-navy-ink,.curation-pen-line{animation:none!important}}`;
   const css=document.createElement('link');css.rel='stylesheet';css.href='reference/native.css';
   root.innerHTML=nativePages23[page-1];root.prepend(css,style);
   excerpt.scrollTop=0;
@@ -720,6 +726,10 @@ function previewNativePage(page,quote='',task=0,rejected=false){
     const from=Math.max(0,low-start),to=Math.min(node.length,high-start);
     if(to<=from)continue;
     const range=document.createRange();range.setStart(node,from);range.setEnd(node,to);range.surroundContents(document.createElement('mark'));
+  }
+  for(const mark of root.querySelectorAll('mark')){
+    mark.classList.add(rejected?'curation-strike':'curation-essay-source-used',rejected?'is-revealed':'curation-essay-source-new');
+    const ink=document.createElement('span');ink.className=rejected?'curation-pen-line':'curation-navy-ink';while(mark.firstChild)ink.append(mark.firstChild);mark.append(ink);
   }
   const focus=()=>{const mark=root.querySelector('mark');if(mark&&diag.open)excerpt.scrollTop+=mark.getBoundingClientRect().top-excerpt.getBoundingClientRect().top-excerpt.clientHeight*.35;};
   css.onload=focus;requestAnimationFrame(focus);
@@ -927,6 +937,13 @@ const button=document.createElement('button');button.className='learning-questio
     link.href = css;
     root.append(link);
   }
+  // The 2025 motion contract must also reach the light-DOM transcript/preview
+  // and the reconstructed source shadow root, not only the guide shadow root.
+  const motionCss = new URL('reference/curation.css?v=20261104-motion-v3', location.href).href;
+  const motionLink = document.createElement('link');
+  motionLink.rel = 'stylesheet';
+  motionLink.href = motionCss;
+  document.head.append(motionLink);
   const $ = selector => shell.querySelector(selector);
   const normalize = text => String(text || '').toLowerCase().replace(/[’‘]/g, "'").replace(/[^\p{L}\p{N}]/gu, '');
   const cueId = cue => 'cue:'+cue[0];
@@ -1086,7 +1103,9 @@ const button=document.createElement('button');button.className='learning-questio
         quoted.add(fact[1]+'|'+normalize(fact[2]));
         const li=document.createElement('li'),button=document.createElement('button'),ink=document.createElement('span'),source=document.createElement('small');
         ink.className='curation-bank-ink';ink.textContent=fact[2];button.append(ink);button.type='button';
-        li.classList.toggle('curation-bank-used',used.has(id));source.textContent=sourceLabel(fact);
+        const isUsed=used.has(id),isNew=current.stage===4&&current.pattern&&diag.open&&current.used?.[visitIndex-1]===id;
+        li.classList.toggle('curation-bank-used',isUsed);
+        li.classList.toggle('curation-bank-used-new',isUsed&&isNew);source.textContent=sourceLabel(fact);
         button.onclick=()=>{
           if(owner>=0){jump23(owner);return;}
           if(fact[1]===19){
@@ -1145,6 +1164,7 @@ const button=document.createElement('button');button.className='learning-questio
     for (const p of E('turns').children) {
       const turnIndex = Number(p.dataset.id), turn = transcript[turnIndex];
       const units = reviewUnits.map((unit,index) => ({unit,index})).filter(entry => entry.unit.turn === turnIndex);
+      p.classList.remove('curation-transcript-strike-direct','curation-transcript-strike','curation-strike','is-revealed','curation-transcript-A','curation-transcript-B','curation-transcript-C','curation-transcript-listening');
       p.replaceChildren(document.createTextNode(`${turn.speaker} · `));
       p.classList.toggle('cur23-review-current',units.some(entry => entry.index === reviewIndex));
       let cursor = 0;
@@ -1152,21 +1172,28 @@ const button=document.createElement('button');button.className='learning-questio
         const at = turn.text.indexOf(unit.sentence,cursor);
         if (at < 0) continue;
         p.append(document.createTextNode(turn.text.slice(cursor,at)));
-        const span = document.createElement('span');span.textContent=unit.sentence;
+        const span = document.createElement('span');
         const role = reviewRole(unit);
+        span.className='curation-transcript-sentence';
+        const revealed=index<reviewIndex&&completed.has(reviewId(unit));
+        span.classList.toggle('is-revealed',revealed);
+        if(role.type>=1&&role.type<=3)span.classList.add(`curation-transcript-${'ABC'[role.type-1]}`);
+        else if(role.type===5)span.classList.add('curation-transcript-listening');
+        if(role.type===6){
+          span.classList.add('curation-transcript-strike','curation-strike');
+          const pen=document.createElement('span');pen.className='curation-pen-line';pen.textContent=unit.sentence;span.append(pen);
+        }else span.textContent=unit.sentence;
         if (index === reviewIndex) {
-          span.classList.add('cur23-review-sentence');
-          if (role.type === 6) span.classList.add('cur23-review-rejected');
-          else if (role.type >= 1 && role.type <= 3) span.classList.add(`cur23-review-task-${role.type}`);
-        } else if (index < reviewIndex && completed.has(reviewId(unit))) {
-          if (role.type === 6) span.classList.add('cur23-review-rejected');
-          else if (role.type >= 1 && role.type <= 3) span.classList.add(`cur23-review-task-${role.type}`);
+          span.classList.add('curation-target');
+          span.dataset.curationCurrent=role.type>=1&&role.type<=3?'ABC'[role.type-1]:'neutral';
         }
         p.append(span);cursor=at+unit.sentence.length;
       }
       p.append(document.createTextNode(turn.text.slice(cursor)));
       if (translated) p.append(document.createTextNode(`　${zhTurns[turnIndex-6] || ''}`));
     }
+    const activeSentence=E('turns').querySelector('.curation-transcript-sentence.curation-target');
+    if(activeSentence){void E('turns').offsetWidth;activeSentence.classList.add('is-revealed');}
     const unit = reviewUnits[reviewIndex];
     const target = [...E('turns').children].find(p => Number(p.dataset.id) === unit.turn);
     target?.scrollIntoView({block:'center',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
@@ -1474,14 +1501,17 @@ const button=document.createElement('button');button.className='learning-questio
     }
     const tasks = currentTasks(page), header = article.querySelector(':scope > header');
     if (header) {
-      header.querySelector('.cur23-file-stamps')?.remove();
-      if (tasks.length) {
-        const holder=document.createElement('div');holder.className='cur23-file-stamps';holder.setAttribute('aria-label',`本頁任務標記：${tasks.join('、')}`);
+      header.classList.add('page-heading');
+      const existing=header.querySelector('.curation-file-stamps,.cur23-file-stamps');
+      const existingTasks=existing?[...existing.children].map(stamp=>stamp.dataset.task||stamp.textContent).join(''):'';
+      if(existingTasks!==tasks.join(''))existing?.remove();
+      if (tasks.length&&existingTasks!==tasks.join('')) {
+        const holder=document.createElement('div');holder.className='curation-file-stamps';holder.setAttribute('aria-label',`本頁任務標記：${tasks.join('、')}`);
         const before = stampCache.get(page) || [];
-        for (const task of tasks) {const stamp=document.createElement('span');stamp.className=`cur23-file-stamp cur23-file-stamp-${task}`;stamp.textContent=task;stamp.setAttribute('role','img');stamp.setAttribute('aria-label',`Task ${task}`);if (!before.includes(task)) stamp.classList.add('cur23-stamp-enter');holder.append(stamp);}
+        for (const task of tasks) {const stamp=document.createElement('span');stamp.className=`curation-file-stamp curation-file-stamp-${task}`;stamp.dataset.task=task;stamp.textContent=task;stamp.setAttribute('role','img');stamp.setAttribute('aria-label',`Task ${task}`);if (!before.includes(task)) stamp.classList.add('curation-file-stamp-enter');holder.append(stamp);}
         header.prepend(holder);
       }
-      header.classList.toggle('cur23-has-file-stamps',!!tasks.length);
+      header.classList.toggle('curation-has-file-stamps',!!tasks.length);
       stampCache.set(page,tasks);
     }
     article.onclick = event => {
@@ -1594,7 +1624,7 @@ const button=document.createElement('button');button.className='learning-questio
     const modelRows=writingRows.filter(item=>item.t===row.t&&item.pattern),positions=new Map();
     let cursor=0;
     for(const item of modelRows){let at=full.indexOf(item.q,cursor);if(at<0)at=full.indexOf(item.q);positions.set(item,at);if(at>=0)cursor=at+item.q.length;}
-    const currentAt=positions.get(row)??-1,currentEnd=currentAt+row.q.length;
+    const units=modelRows.map(item=>({item,lo:positions.get(item),hi:(positions.get(item)??-1)+item.q.length})).filter(unit=>unit.lo>=0).sort((a,b)=>a.lo-b.lo);
     const marks=[];
     for(const item of modelRows){if(rows.indexOf(item)>i)break;const at=positions.get(item);if(at==null||at<0)continue;
       const phrase=item.pattern,structureAt=item.q.toLowerCase().indexOf(phrase.toLowerCase());
@@ -1609,8 +1639,21 @@ const button=document.createElement('button');button.className='learning-questio
       for(let k=0;k<ordered.length-1;k++){const lo=ordered[k],hi=ordered[k+1];if(hi<=lo)continue;
         const active=marks.filter(mark=>mark.lo<=lo&&mark.hi>=hi);const kind=active.some(mark=>mark.kind==='structure')?'structure':active.length?'content':'';
         if(!kind)parent.append(document.createTextNode(full.slice(lo,hi)));
-        else{const span=document.createElement('span');span.textContent=full.slice(lo,hi);span.className=kind==='structure'?'cur23-essay-structure':`cur23-essay-content-${'ABC'[row.t-1]}`;parent.append(span);}
+        else{const span=document.createElement('span');span.textContent=full.slice(lo,hi);span.className=kind==='structure'?'curation-essay-structure':`curation-essay-keyword curation-essay-keyword-${'ABC'[row.t-1]}`;parent.append(span);}
       }
+    }
+    function appendUnits(parent,from,to){
+      let at=from;
+      for(const unit of units){
+        if(unit.hi<=from||unit.lo>=to)continue;
+        const lo=Math.max(from,unit.lo),hi=Math.min(to,unit.hi);
+        if(lo>at)appendColored(parent,at,lo);
+        const span=document.createElement('span');span.className='curation-essay-unit';
+        if(rows.indexOf(unit.item)<i)span.classList.add('is-revealed');
+        if(unit.item===row)span.dataset.currentEssayUnit='true';
+        appendColored(span,lo,hi);parent.append(span);at=Math.max(at,hi);
+      }
+      if(at<to)appendColored(parent,at,to);
     }
     surface.replaceChildren();surface.className='paper cur23-writing-paper';surface.append(paperHeader(row,false),taskNav());
     const details=document.createElement('details');details.open=true;details.className='curation-model-essay';
@@ -1622,15 +1665,12 @@ const button=document.createElement('button');button.className='learning-questio
       const lo=starts[j],rawHi=starts[j+1]??full.length,hi=rawHi>lo&&full[rawHi-1]===' '?rawHi-1:rawHi;
       if(hi<=lo)continue;const card=row.t===3 && /^(TITLE CARD|EPISODE 1 CARD|PRIZE CARD)/.test(full.slice(lo));
       const paragraph=document.createElement(card?'h5':j===0 && row.t!==2?'h4':'p');
-      if(currentAt<lo||currentAt>=hi)appendColored(paragraph,lo,hi);
-      else{
-        appendColored(paragraph,lo,currentAt);
-        const current=document.createElement('span');current.className='current-model';appendColored(current,currentAt,Math.min(currentEnd,hi));paragraph.append(current);
-        appendColored(paragraph,Math.min(currentEnd,hi),hi);
-      }
+      appendUnits(paragraph,lo,hi);
       essay.append(paragraph);
     }
     surface.append(details);
+    const current=essay.querySelector('[data-current-essay-unit="true"]');
+    if(current){void essay.offsetWidth;current.classList.add('is-current','is-revealed','current-model');}
   }
   for(let task=1;task<=3;task++){choose.children[task-1].onclick=()=>{const stage=rows[i].stage===3?3:4;const target=rows.findIndex(item=>item.stage===stage&&item.t===task);if(target>=0)jump23(target);};}
   const previousDisplayUpdate=update23;
@@ -1807,16 +1847,21 @@ const benchmarkPages23 = new Map([
     shell.append(el);
     return el;
   });
+  const routeArrow=document.createElementNS('http://www.w3.org/2000/svg','svg');
+  routeArrow.id='curation-route-arrow';routeArrow.hidden=true;routeArrow.setAttribute('aria-hidden','true');
+  const routePath=document.createElementNS('http://www.w3.org/2000/svg','path');routePath.classList.add('curation-route-path');routeArrow.append(routePath);
+  const routeCallout=document.createElement('div');routeCallout.className='curation-route-callout';routeCallout.hidden=true;routeCallout.setAttribute('aria-live','polite');
+  shell.append(routeArrow,routeCallout);
   const rail = $s('.curation-stage'), bank = $s('.curation-bank'), dock = $s('.curation-dock');
-  let frame = 0, needsFocus = false, lastStep = '';
+  let frame = 0, needsFocus = false, lastStep = '',trackUntil=0,lastArrowKey='';
   function targets() {
     if (!opened || diag.open) return [];
     switch (rows[i].stage) {
       case 0: case 1: case 3:
         if(routePhase()==='visit')return [...native.querySelectorAll('.paper-page > header')];
         return [...native.querySelectorAll('mark.target')];
-      case 2: return [...document.querySelectorAll('#turns .cur23-review-sentence')];
-      case 4: return [...surface.querySelectorAll('.current-model')];
+      case 2: return [...document.querySelectorAll('#turns .curation-transcript-sentence.curation-target')];
+      case 4: return [...surface.querySelectorAll('.curation-essay-unit.is-current')];
     }
     return [];
   }
@@ -1824,16 +1869,46 @@ const benchmarkPages23 = new Map([
     needsFocus ||= focus;
     if (!frame) frame = requestAnimationFrame(position);
   }
+  function routeCue(){return E('refs').querySelector('[data-destination]')}
+  function updateRouteArrow(rects){
+    const cue=routeCue(),phase=routePhase();
+    if(!opened||!cue||!rects.length||![0,3].includes(rows[i].stage)){
+      routeArrow.hidden=true;routeCallout.hidden=true;lastArrowKey='';return;
+    }
+    const r={left:Math.min(...rects.map(x=>x.left)),right:Math.max(...rects.map(x=>x.right)),top:Math.min(...rects.map(x=>x.top)),bottom:Math.max(...rects.map(x=>x.bottom))};
+    if(r.bottom<148||r.top>innerHeight-70){routeArrow.hidden=true;routeCallout.hidden=true;return;}
+    const page=Number(cue.dataset.destination),faded=phase==='returned',key=`${i}:${page}:${phase||'cue'}`;
+    routeArrow.hidden=false;routeCallout.hidden=false;
+    routeArrow.classList.toggle('is-faded',faded);routeCallout.classList.toggle('is-faded',faded);
+    routeCallout.replaceChildren();const strong=document.createElement('strong'),label=document.createElement('span');strong.textContent=`第 ${page} 頁`;label.textContent=pageRouteTitles[page]||'指定原頁';routeCallout.append(strong,label);
+    routeArrow.setAttribute('viewBox',`0 0 ${innerWidth} ${innerHeight}`);
+    const labelWidth=Math.min(248,Math.max(170,routeCallout.scrollWidth)),safeRight=Math.max(190,Math.min(innerWidth-12,bank.hidden?innerWidth-12:bank.getBoundingClientRect().left-14)),safeLeft=innerWidth<=620?12:Math.max(12,dock.getBoundingClientRect().right+16);
+    const rightward=r.right+labelWidth+54<safeRight,leftward=!rightward&&r.left-labelWidth-54>safeLeft;
+    const labelX=rightward?r.right+42:leftward?r.left-labelWidth-42:Math.max(12,Math.min(safeRight-labelWidth,Math.max(safeLeft,r.left+30)));
+    const labelY=Math.max(155,Math.min(innerHeight-75,rightward||leftward?r.top+Math.min((r.bottom-r.top)/2,26)-24:r.bottom+76));
+    Object.assign(routeCallout.style,{left:`${labelX}px`,top:`${labelY}px`});
+    let path;
+    if(rightward||leftward){
+      const startX=rightward?r.right+5:r.left-5,endX=rightward?labelX-7:labelX+labelWidth+7,startY=Math.max(155,Math.min(innerHeight-70,r.top+Math.min((r.bottom-r.top)/2,26))),endY=labelY+routeCallout.offsetHeight/2,bend=Math.min(35,Math.abs(endX-startX)*.3)*(rightward?1:-1);
+      path=`M ${startX} ${startY} C ${startX+bend} ${startY}, ${endX-bend} ${endY}, ${endX} ${endY}`;
+    }else{
+      const startX=r.left+Math.min((r.right-r.left)*.65,180),startY=r.bottom+4,endX=labelX+labelWidth/2,endY=labelY-7;
+      path=`M ${startX} ${startY} C ${startX} ${startY+14}, ${endX} ${endY-14}, ${endX} ${endY}`;
+    }
+    routePath.setAttribute('d',path);
+    if(lastArrowKey!==key){routeArrow.classList.remove('is-drawing');void routeArrow.getBoundingClientRect();if(!faded)routeArrow.classList.add('is-drawing');lastArrowKey=key;}
+  }
   function position() {
     frame = 0;
     const focus = needsFocus;
     needsFocus = false;
     const rects = targets().flatMap(el => [...el.getClientRects()]).filter(r => r.width && r.height);
+    updateRouteArrow(rects);
     if (!rects.length) { masks.forEach(el => el.hidden = true); return; }
-    const left = Math.max(0,Math.min(...rects.map(r=>r.left))-7);
-    const right = Math.min(innerWidth,Math.max(...rects.map(r=>r.right))+7);
-    const top = Math.min(...rects.map(r=>r.top))-7;
-    const bottom = Math.max(...rects.map(r=>r.bottom))+7;
+    const left = Math.max(0,Math.min(...rects.map(r=>r.left))-9);
+    const right = Math.min(innerWidth,Math.max(...rects.map(r=>r.right))+9);
+    const top = Math.min(...rects.map(r=>r.top))-9;
+    const bottom = Math.max(...rects.map(r=>r.bottom))+9;
     let start = Math.max(rail.getBoundingClientRect().bottom,$s('.toolbar').getBoundingClientRect().bottom)+8;
     let end = innerHeight-10;
     if (innerWidth < 1100) {
@@ -1843,8 +1918,9 @@ const benchmarkPages23 = new Map([
     }
     if (focus && rows[i].stage !== 2 && (top<start || bottom>end)) {
       const anchor = start+Math.max(0,(end-start-(bottom-top))/2);
-      window.scrollBy({top:top-anchor,behavior:'instant'});
-      schedule();
+      const routed=!!routeCue(),reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollBy({top:top-anchor,behavior:routed||reduced?'instant':'smooth'});
+      trackUntil=performance.now()+900;schedule();
       return;
     }
     const y = Math.max(0,top), z = Math.min(innerHeight,bottom);
@@ -1857,6 +1933,7 @@ const benchmarkPages23 = new Map([
         Object.assign(el.style,{left:x+'px',top:y+'px',width:w+'px',height:h+'px'});
       }
     });
+    if(performance.now()<trackUntil)schedule();
   }
   const update = update23;
   update23 = function(force=false) {
