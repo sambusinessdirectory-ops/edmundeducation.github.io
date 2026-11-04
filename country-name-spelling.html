@@ -22,7 +22,7 @@
   <link rel="preload" as="image" href="country-name-spelling-map/world-relief.jpg">
   <link rel="preload" as="image" href="country-name-spelling-map/hong-kong-relief.png?v=20261104-coastline2">
   <link rel="stylesheet" href="country-name-spelling-terminal.css?v=20261104-homepage-serif1">
-  <link rel="stylesheet" href="country-name-spelling-terminal-v2.css?v=20261104-mastery-kokoro1">
+  <link rel="stylesheet" href="country-name-spelling-terminal-v2.css?v=20261104-expanded-world1">
   <script defer src="/pwa-register.js"></script>
 <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
 </head>
@@ -43,7 +43,7 @@
   <main class="spelling-app-shell">
     <section class="terminal-login" data-view="login">
       <div class="login-brief">
-        <p class="eyebrow">GEOGRAPHY LANGUAGE TERMINAL / 138</p>
+        <p class="eyebrow">GEOGRAPHY LANGUAGE TERMINAL / COMPLETE WORLD SET</p>
         <h1>MAP SPELLING<br><span>COMMAND</span></h1>
         <p class="login-brief__zh">國家及香港地名拼寫指揮台</p>
         <div class="login-scan" aria-hidden="true"><i></i><i></i><i></i></div>
@@ -89,6 +89,10 @@
               </button>
             </div>
           </header>
+          <nav class="world-mode-switch" data-world-modes aria-label="世界拼寫練習模式">
+            <button type="button" class="is-active" data-world-mode="Country names"><span>01</span> COUNTRY NAMES / 國名</button>
+            <button type="button" data-world-mode="Country adjectives"><span>02</span> COUNTRY ADJECTIVES / 國籍形容詞</button>
+          </nav>
           <nav class="map-filters" data-map-filters aria-label="地圖分類"></nav>
 
           <div class="map-viewport" data-map-viewport>
@@ -136,7 +140,10 @@
         <aside class="mission-panel" aria-label="拼寫任務資料">
           <header><span>// ACTIVE MISSION</span><strong data-mission-number>WORLD 01</strong></header>
           <div class="mission-visual" data-visual-frame>
-            <div class="mission-visual__world" data-world-visual><img data-flag src="country-name-spelling-flags/gb.svg" alt="英國國旗"></div>
+            <div class="mission-visual__world" data-world-visual>
+              <img data-flag src="country-name-spelling-flags/gb.svg" alt="英國國旗">
+              <div class="mission-visual__symbol" data-world-symbol hidden aria-hidden="true"><span data-world-symbol-kicker>GEOSPATIAL TARGET</span><strong data-world-symbol-mark>◉</strong></div>
+            </div>
             <svg class="mission-visual__inset" data-location-inset viewBox="0 0 1100 650" role="img" aria-label="香港位置圖" hidden></svg>
             <img class="mission-visual__badge" data-hk-badge src="country-name-spelling-flags/hk.svg" alt="香港區旗" hidden>
             <div class="flag-scan" aria-hidden="true"></div>
@@ -148,7 +155,7 @@
             <h2 data-item-zh>英國</h2>
             <dl>
               <div><dt>ZONE</dt><dd data-item-zone>Europe</dd></div>
-              <div><dt>OBJECTIVE</dt><dd>Spell the English name</dd></div>
+              <div><dt>OBJECTIVE</dt><dd data-objective>Spell the English name</dd></div>
             </dl>
             <p class="mission-context" data-mission-context>Identify the flag and its position on the world map.</p>
           </div>
@@ -162,7 +169,7 @@
               </button>
             </div>
             <div class="letter-grid" data-letter-grid aria-hidden="true"></div>
-            <label class="answer-field"><span>TYPE THE COMPLETE NAME</span><input data-answer autocomplete="off" autocapitalize="words" spellcheck="false" enterkeyhint="done"></label>
+            <label class="answer-field"><span data-answer-label>TYPE THE COMPLETE NAME</span><input data-answer autocomplete="off" autocapitalize="words" spellcheck="false" enterkeyhint="done"></label>
             <div class="answer-actions">
               <button type="button" class="action-secondary" data-hint>REVEAL ONE LETTER</button>
               <button type="button" class="action-primary" data-check>CHECK ANSWER <span aria-hidden="true">›</span></button>
@@ -187,7 +194,7 @@
   <script src="supabase-config.js"></script>
   <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script>
   <script src="shared-system-nav.js?v=20261104-country-map1"></script>
-  <script type="module" src="country-name-spelling-terminal-v2.mjs?v=20261104-mastery-kokoro1"></script>
+  <script type="module" src="country-name-spelling-terminal-v2.mjs?v=20261104-expanded-world1"></script>
   <script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
 </body>
 </html>
