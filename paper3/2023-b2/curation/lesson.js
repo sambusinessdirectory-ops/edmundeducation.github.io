@@ -47,8 +47,11 @@ audio.onerror=()=>{showAudioFailure();E('a').textContent='未能載入會議錄�
 const linkRender=render;render=function(){linkRender();const r=rows[i];if(r.leaf){E('open').href='originals/page-'+String(r.leaf).padStart(2,'0')+'.webp';E('meta').textContent='Data File 第 '+r.leaf+' 頁 · '+(r.tag?'暫標 '+r.tag:'類型 '+r.t)}else E('open').href='benchmark.pdf#page='+r.p;if(active)notes(cueIndex);};render();
 // Add the precise original source wording for each scored evidence item even when a
 // workbook decision groups several sentences under the same numbered teaching note.
+// Keep the 49 authored/manual units in their original order. manual-verbatim.js
+// enriches these exact objects after the evidence and editorial supplements are added.
+const manualBaseRows23=rows.filter(r=>r.stage===3);
 const writtenEnd=rows.findIndex(r=>r.stage===4);
-const evidenceRows=facts.filter(f=>f[1]>=5&&f[1]<=10&&!rows.some(r=>r.stage===3&&r.leaf===f[1]&&r.q===f[2])).map(f=>({stage:3,p:f[1],leaf:f[1],t:f[0],topic:f[0],q:f[2],a:f[4],state:'CURRENT'}));
+const evidenceRows=facts.filter(f=>f[1]>=5&&f[1]<=10&&!rows.some(r=>r.stage===3&&r.leaf===f[1]&&r.q===f[2])).map(f=>({stage:3,p:f[1],leaf:f[1],t:f[0],topic:f[0],q:f[2],a:f[4],state:'CURRENT',origin:'evidence'}));
 rows.splice(writtenEnd,0,...evidenceRows);
 const editorial23=[
  [7,6,3,'Archie:Go on.','簡短催促對話繼續，沒有可用於三篇寫作的新事實。'],
@@ -63,7 +66,7 @@ const editorial23=[
 ];
 for(const [page,type,topic,quote,why] of editorial23){
  if(!leaves[page].includes(quote))throw Error('Missing source passage: '+quote);
- rows.splice(writtenEnd,0,{stage:3,p:page,leaf:page,t:type,topic,q:quote,a:why,state:'CURRENT'});
+ rows.splice(writtenEnd,0,{stage:3,p:page,leaf:page,t:type,topic,q:quote,a:why,state:'CURRENT',origin:'editorial'});
 }
 // Audited v6 separates source directions, unverified claims and usable evidence.
 // Retain the earlier identifiers for existing positions, slots and bookmarks.
@@ -99,7 +102,7 @@ const bodyRows=rows.filter(r=>r.stage===3).sort((a,b)=>a.p-b.p||leaves[a.p].inde
 E('jump23').replaceChildren(...rows.map((r,j)=>new Option((j+1)+' · '+(r.q||r.a).slice(0,48),j)));
 const routeView=render;render=function(){routeView();let r=rows[i];let button=E('refs').querySelector('.route23');if(button){button.firstChild.textContent=button.firstChild.textContent.replace('➜ ','');button.insertAdjacentHTML('afterbegin','<svg width="46" height="26" viewBox="0 0 46 26" aria-hidden="true"><path d="M2 23 Q13 1 37 8 M30 2 L39 8 L31 15" fill="none" stroke="#d0282d" stroke-width="2.5" stroke-linecap="round"/></svg>')}if(r.stage===3){E('meta').textContent='Data File 第 '+r.p+' 頁 · 逐句判讀 · 類型 '+r.t+(r.topic?' · Task '+['A','B','C'][r.topic-1]:'');if(r.state==='SUPERSEDED'&&r.p===6){E('a').textContent='這是故事板初稿。先保留候選，讀過 William 的聊天及 Dante 的更新才判斷是否採用。'}}};render();
 const key23=r=>{
-  const base=[r.stage,r.originalType??r.t,r.p,r.originalQuote??r.q].join('|');
+  const base=[r.stage,r.originalType??r.t,r.p,r.legacyQuote??r.originalQuote??r.q].join('|');
   if(r.stage!==4 || r.q!=='VOICEOVER:')return base;
   const occurrence=rows.filter(item=>item.stage===4 && item.t===r.t && item.q===r.q).indexOf(r);
   return occurrence>0?base+'|voiceover-'+(occurrence+1):base;
