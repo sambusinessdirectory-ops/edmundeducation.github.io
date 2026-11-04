@@ -9,8 +9,8 @@ const dom=new JSDOM('<body><div data-view-content><article class="exam-practice-
 dom.window.requestAnimationFrame=()=>0;
 dom.window.eval(read('speaking-performance-indicator.js'));dom.window.document.dispatchEvent(new dom.window.Event('DOMContentLoaded'));
 const indicator=dom.window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR;
-assert.equal(indicator.content.length,28);assert.equal(indicator.language.length,23);
-const boxes=dom.window.document.querySelectorAll('[data-performance-kind]');assert.equal(boxes.length,51);
+assert.equal(indicator.content.length,60);assert.equal(indicator.language.length,52);
+const boxes=dom.window.document.querySelectorAll('[data-performance-kind]');assert.equal(boxes.length,129);
 for(const id of ['idea-topic-sentence','point-2-idea-topic-sentence','point-4-example','task-response','power-words']){
  const box=dom.window.document.querySelector(`input[value="${id}"]`);box.checked=true;box.dispatchEvent(new dom.window.Event('change',{bubbles:true}));
 }
@@ -37,11 +37,11 @@ assert.ok(Object.values(dse.window.EDMUND_DSE_SPEAKING_DATA.catalog).flat().some
 const html=read('reading-comprehension.html');assert.match(html,/data-teaching-highlight/);assert.match(html,/reading-teaching-tools.mjs/);
 console.log('Teaching improvements: independent checklist selections, same-deck return, all 20 listening practices, image-only types, Paper 3 search and Lego source passed.');
 
-const reading=new JSDOM('<button data-teaching-highlight>Highlight</button><div class="reading-workbench"><article><p id="passage">This is a teaching passage.</p></article><aside>Questions</aside></div>',{runScripts:'outside-only',pretendToBeVisual:true});
+const reading=new JSDOM('<button data-teaching-highlight>Highlight</button><button data-teaching-clear>Clear</button><p data-teaching-status></p><dialog data-teaching-clear-dialog><button data-teaching-clear-cancel>Cancel</button><button data-teaching-clear-confirm>Confirm</button></dialog><div class="reading-workbench"><article><p id="passage">This is a teaching passage.</p></article><aside>Questions</aside></div>',{runScripts:'outside-only',pretendToBeVisual:true});
 reading.window.eval(read('reading-teaching-tools.mjs'));
 const doc=reading.window.document;const highlight=doc.querySelector('[data-teaching-highlight]');highlight.click();
 const range=doc.createRange();range.setStart(doc.querySelector('#passage').firstChild,5);range.setEnd(doc.querySelector('#passage').firstChild,18);
 reading.window.getSelection().addRange(range);doc.querySelector('.reading-workbench').dispatchEvent(new reading.window.Event('keyup'));
-assert.equal(doc.querySelector('mark.teaching-highlight').textContent,'is a teaching');highlight.click();assert.equal(doc.querySelector('mark'),null);assert.equal(doc.querySelector('#passage').textContent,'This is a teaching passage.');
+assert.equal(doc.querySelector('mark.teaching-highlight').textContent,'is a teaching');doc.querySelector('[data-teaching-clear]').click();doc.querySelector('[data-teaching-clear-confirm]').click();assert.equal(doc.querySelector('mark'),null);assert.equal(doc.querySelector('#passage').textContent,'This is a teaching passage.');
 const divider=doc.querySelector('[role=separator]');divider.dispatchEvent(new reading.window.KeyboardEvent('keydown',{key:'ArrowRight',bubbles:true}));assert.equal(divider.getAttribute('aria-valuenow'),'55');divider.dispatchEvent(new reading.window.KeyboardEvent('keydown',{key:'Home',bubbles:true}));assert.equal(divider.getAttribute('aria-valuenow'),'50');reading.window.close();
 console.log('Temporary highlight selection/clear and keyboard divider reset passed.');
