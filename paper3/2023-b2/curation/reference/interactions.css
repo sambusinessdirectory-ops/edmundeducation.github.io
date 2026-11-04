@@ -7,8 +7,9 @@
 .cur23-file-stamp-A{color:#008c9d;background:#e5fbfc}.cur23-file-stamp-B{color:#9b7000;background:#fff4c3}.cur23-file-stamp-C{color:#b94964;background:#ffe7eb}
 .cur23-stamp-enter{animation:cur23-stamp .58s cubic-bezier(.2,1.4,.35,1) both}@keyframes cur23-stamp{from{opacity:0;scale:1.8;rotate:-25deg}to{opacity:1;scale:1;rotate:0deg}}
 .cur23-boss-point{position:relative;box-decoration-break:clone;-webkit-box-decoration-break:clone}
-.cur23-boss-point::before{content:attr(data-point);display:inline-grid;place-items:center;width:18px;height:18px;margin-right:3px;border:2px solid #d95643;border-radius:50%;color:#b64736;background:#fff9ed;font:800 13px/1 system-ui;vertical-align:super;transform:rotate(-9deg)}
-.cur23-boss-hint{background:#b9e7aa!important;box-shadow:0 0 0 2px #b9e7aa}
+.cur23-boss-point::before{content:'';display:none}
+.cur23-boss-point.is-revealed::before{content:attr(data-point);display:inline-grid;place-items:center;width:18px;height:18px;margin-right:3px;border:2px solid #d95643;border-radius:50%;color:#b64736;background:#fff9ed;font:800 13px/1 system-ui;vertical-align:super;transform:rotate(-9deg)}
+.cur23-boss-hint.is-revealed{background:#b9e7aa!important;box-shadow:0 0 0 2px #b9e7aa}
 .curation-boss-sentence{border-radius:4px;box-decoration-break:clone;-webkit-box-decoration-break:clone;transition:box-shadow .25s ease,outline-color .25s ease}
 .curation-boss-sentence[role="button"]{cursor:pointer}
 .curation-boss-sentence:focus-visible{outline:3px solid #287a70;outline-offset:4px}

@@ -344,5 +344,22 @@ manualBaseRows23.forEach((row,index)=>{
   row.a=record.analysis.join('\n');
 });
 
+// The authored manual discussed two consecutive sentences in one unit. Preserve
+// that wording verbatim on the first row, but enforce one primary runtime type
+// per sentence so the UI never presents a contradictory Type 5 + Type 6 badge.
+const contactHint23=rows.find(row=>row.stage===3&&row.q.startsWith('Neither Puddle, nor the director'));
+const rumourNoiseQuote23='With rumours of a new show coming soon, Puddle is surely in hot water after this latest fiasco!';
+if(contactHint23&&!rows.some(row=>row.stage===3&&row.q===rumourNoiseQuote23)){
+  const at=rows.indexOf(contactHint23);
+  rows.splice(at+1,0,{
+    stage:3,p:contactHint23.p,leaf:contactHint23.leaf,t:6,topic:contactHint23.topic,
+    q:rumourNoiseQuote23,manualQuote:rumourNoiseQuote23,
+    a:contactHint23.manualAnalysis.slice(1).join('\n'),
+    manualAnalysis:contactHint23.manualAnalysis.slice(1),manualType:'類型：6 噪音',
+    manualId:contactHint23.manualId+'-sentence-2',manualPdfPage:contactHint23.manualPdfPage,
+    manualPdfLabel:contactHint23.manualPdfLabel,origin:'manual',state:'CURRENT'
+  });
+}
+
 for(const row of rows.filter(row=>row.stage===3&&!row.origin))row.origin='evidence';
 
