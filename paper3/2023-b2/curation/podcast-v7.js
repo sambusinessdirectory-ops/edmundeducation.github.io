@@ -8,10 +8,7 @@ window.podcastArchitectureVersion23='7-continuous-single-owner';
 window.podcastCueTransactions23=[];
 window.podcastTransactionV5=false;
 
-// The learner-facing recording starts at the first instructional sentence,
-// not at the greetings that precede it in the full examination audio.
-// This timestamp is the audited onset of “Let's talk about …”.
-const podcastOriginV7=458.02;
+const podcastOriginV7=meetingStart23;
 const podcastEndV7=838.79;
 const podcastDurationV7=podcastEndV7-podcastOriginV7;
 const podcastCueMetaV7=cues.map((cue,index)=>{
@@ -33,17 +30,7 @@ let podcastChromeBuiltV7=false;
 let podcastPlaybackCueV7=-1;
 let podcastDesiredTimeV7=podcastOriginV7;
 let podcastCurrentSentenceV7=-1;
-// Correct the opening line from the audited audio. It remains available during
-// later sentence review, but is not part of the live listening interval.
-transcript[6].text='Hi everyone. Thanks for joining us today.';
-for(const unit of window.reviewUnits23||[]){
-  if(unit.turn===6&&unit.sentence==='And thanks for joining us today.')unit.sentence=transcript[6].text;
-}
-const podcastSentenceMetaV7=(window.reviewUnits23||[]).map((unit,index)=>{
-  const timed={...unit,index};
-  if(unit.sentence==="Let's talk about Live Studio Cook first though.")timed.start=podcastOriginV7;
-  return timed;
-});
+const podcastSentenceMetaV7=window.reviewUnits23.map((unit,index)=>({...unit,index}));
 window.podcastSentenceMetaV7=podcastSentenceMetaV7;
 
 function preparePodcastAudioOutputV7(){
@@ -279,7 +266,9 @@ function restorePodcastStateV7(raw){
   const byId=podcastCueMetaV7.findIndex(cue=>cue.id===state.cueId),requested=byId>=0?byId:Number(state.j),time=podcastMediaTimeV7(state.time);
   const index=Number.isInteger(requested)&&podcastCueMetaV7[requested]?requested:podcastCueAtTimeV7(time);
   const cue=podcastCueMetaV7[index],validTime=Number.isFinite(time)&&time>=cue.playbackStart-.08&&time<=cue.end+.08;
-  const repaired=validTime?Math.max(cue.playbackStart,Math.min(cue.end,time)):cue.playbackStart;
+  // Earlier releases saved the old opening position even before playback.
+  const oldOpening=index===0&&!state.done&&Math.abs(time-458.02)<.05;
+  const repaired=validTime&&!oldOpening?Math.max(cue.playbackStart,Math.min(cue.end,time)):cue.playbackStart;
   const completed=state.done===true&&Math.abs(repaired-cue.end)<=.1;
   const completedThrough=Number.isInteger(state.completedThrough)?state.completedThrough:(completed?index:index-1);
   return setPodcastStateV7(index,{time:repaired,completed,completedThrough});

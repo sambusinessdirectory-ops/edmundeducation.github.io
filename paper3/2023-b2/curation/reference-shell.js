@@ -123,7 +123,7 @@ if(r.stage===3){
 }
 if(r.stage===0){let guide=document.createElement('p');guide.className='curation-process';guide.textContent='讀任務電郵時，先辨認讀者、文類及指定來源。';ex.prepend(guide)}
 if(r.stage===1){let box=document.createElement('fieldset');box.className='curation-category-choices';box.innerHTML='<legend>你會先標哪個任務？</legend>';for(let task of ['A','B','C']){let label=document.createElement('label'),cb=document.createElement('input');cb.type='checkbox';cb.checked=readerStore23.getItem('class23-'+i+task)==='1';cb.onchange=()=>readerStore23.setItem('class23-'+i+task,cb.checked?'1':'0');label.append(cb,' Task '+task);box.append(label)}let b=document.createElement('button');b.className='curation-small';b.textContent='顯示讀後修正';let rev=document.createElement('p');rev.className='curation-revision';rev.hidden=true;const revisions={5:'對照 William 的聊天，分開已承認的水浸與其他指控。',6:'最新電郵確認 Mary Steward 及首集餡料，免費 app 已取代熱線。',7:'水浸與茶巾支援 Task A；嘉賓和投票更新支援 Task C。',8:'培訓與獎勵支援 Task B；節目及運送安排支援 Task C。',9:'根據 HAB 要求及工作需要選三門課程。',10:'參加者意見只可歸於該參加者。',3:'分開舊節目、William 影片、Golden Sun 投訴及新節目資料。'};rev.textContent='讀後修正：'+revisions[r.leaf];b.onclick=()=>{rev.hidden=!rev.hidden;b.textContent=rev.hidden?'顯示讀後修正':'收起讀後修正'};ex.append(rev);actions.append(b,box)}
-if(r.stage===2){let b=document.createElement('button');b.className='curation-small';b.textContent='↻ 重聽至 '+tstr(transcript[cues[cueIndex][0]].end-426);b.onclick=()=>listen(cueIndex,true);actions.append(b)}
+if(r.stage===2){let b=document.createElement('button');b.className='curation-small';b.textContent='↻ 重聽至 '+tstr(transcript[cues[cueIndex][0]].end-meetingStart23);b.onclick=()=>listen(cueIndex,true);actions.append(b)}
 
 if(!opened){nativeHost.hidden=false;section23.classList.add('native-active');lastNative=''}
 };

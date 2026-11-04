@@ -23,7 +23,7 @@ async function waitForAudio(page){
     const timer=setTimeout(()=>reject(new Error('meeting.mp3 metadata timeout')),15000);
     audio.addEventListener('loadedmetadata',()=>{clearTimeout(timer);resolve(true)},{once:true});audio.load();
   }));
-  await page.waitForFunction(()=>Math.abs(audio.currentTime-458.02)<.15,null,{timeout:5000});
+  await page.waitForFunction(()=>Math.abs(audio.currentTime-425.8)<.15,null,{timeout:5000});
 }
 async function auditBoss(page){
   const result=await page.evaluate(()=>{
@@ -77,7 +77,7 @@ async function auditInitialPodcast(page){
       togglePressed:document.querySelector('#pins')?.getAttribute('aria-pressed'),pinsHidden:document.querySelector('#ticks')?.hidden,
       coverage:{
         first:meta[0].playbackStart,last:meta.at(-1).end,
-        contiguous:meta.every((cue,index)=>index===0?cue.playbackStart===458.02:Math.abs(cue.playbackStart-meta[index-1].end)<.001),
+        contiguous:meta.every((cue,index)=>index===0?cue.playbackStart===425.8:Math.abs(cue.playbackStart-meta[index-1].end)<.001),
         sourceInside:meta.every(cue=>cue.sourceStart>=cue.playbackStart-.001&&cue.sourceEnd===cue.end),
         duration:meta.reduce((sum,cue)=>sum+cue.end-cue.playbackStart,0)
       }
@@ -86,22 +86,28 @@ async function auditInitialPodcast(page){
   assert.equal(state.architecture,'v7-continuous-single-owner');assert.equal(state.transcriptArchitecture,'v7-continuous-single-owner');
   assert.equal(state.audioConnected,true);assert.equal(state.audioMuted,false);assert(state.audioVolume>=.99,state);assert.match(state.audioSource,/meeting\.mp3/);
   assert.equal(state.playerCount,1);assert.equal(state.transcriptCount,1);assert.equal(state.timelines,1);assert.equal(state.pins,17);assert.equal(state.legacy,0);
-  assert.match(state.timeText,/^0:00 \/ 6:20/);assert(Math.abs(state.currentTime-458.02)<.15,JSON.stringify(state));assert.equal(state.cueIndex,0);assert.equal(state.done,false);assert.equal(state.completed,-1);
+  assert.match(state.timeText,/^0:00 \/ 6:52/);assert(Math.abs(state.currentTime-425.8)<.15,JSON.stringify(state));assert.equal(state.cueIndex,0);assert.equal(state.done,false);assert.equal(state.completed,-1);
   assert.match(state.cueProgress,/1 \/ 17/);assert.doesNotMatch(state.cueProgress,/166/);
-  assert.equal(state.revealed,0);assert.equal(state.strikes,0);assert.equal(state.currentSentences,1);assert.equal(state.currentSentence,"Let's talk about Live Studio Cook first though.");assert.equal(state.firstVisibleSentence,"Let's talk about Live Studio Cook first though.");assert.equal(state.greetingsVisible,false);assert(state.sentenceCount>100,state);assert.equal(state.follow,'true');
+  assert.equal(state.revealed,0);assert.equal(state.strikes,0);assert.equal(state.currentSentences,1);assert.equal(state.currentSentence,"Hi everyone.");assert.equal(state.firstVisibleSentence,"Hi everyone.");assert.equal(state.greetingsVisible,true);assert.equal(state.sentenceCount,151);assert.equal(state.follow,'true');
   assert.equal(state.structured,true);assert.equal(state.turnCount,76);assert(state.minCopyWidth>180,state);
   assert.deepEqual(state.fieldIds,['notes-live-study-cook','notes-filming-schedule','notes-food-kinds','notes-william-video','notes-golden-sun','notes-viewers-choice']);
   assert(state.fieldValues.every(value=>value===''),state.fieldValues);assert.deepEqual(state.headingTasks,['AB','B','C']);assert.equal(state.headingNoise,3);
   assert.deepEqual(state.taskBadges,['Task A','Task B']);assert.equal(state.evidence,6);
   assert.equal(state.togglePressed,String(!state.pinsHidden));
-  assert.equal(state.coverage.first,458.02);assert.equal(state.coverage.last,838.79);assert.equal(state.coverage.contiguous,true);assert.equal(state.coverage.sourceInside,true);
-  assert(Math.abs(state.coverage.duration-(838.79-458.02))<.01,state.coverage);
+  assert.equal(state.coverage.first,425.8);assert.equal(state.coverage.last,838.79);assert.equal(state.coverage.contiguous,true);assert.equal(state.coverage.sourceInside,true);
+  assert(Math.abs(state.coverage.duration-(838.79-425.8))<.01,state.coverage);
 }
 async function auditSentenceAlignment(page){
   const units=await page.evaluate(()=>{
     const units=podcastSentenceMetaV7.filter(unit=>unit.turn===38);
     return [units[0],units.at(-1)].map(unit=>({index:unit.index,text:unit.sentence,start:unit.start,end:unit.end}));
   });
+  const matched=await page.evaluate(()=>podcastSentenceMetaV7.map(({start,end,speaker,sentence})=>({start,end,speaker,sentence})));
+  assert(matched.every((row,i)=>row.start<row.end&&(!i||matched[i-1].end<=row.start)));
+  for(const [text,speaker,start] of [['Sure.','Archie Li',461.08],['Oh, dear.','Winnie Tang',575.94],['Overtime pay?','Winnie Tang',638.6]]){
+    const row=matched.find(item=>item.sentence===text);assert.equal(row.speaker,speaker);assert.equal(row.start,start);
+  }
+  assert(matched.some(row=>row.sentence.includes('Live, Study, Cook')));
   const samples=[];
   for(const unit of units){
     await page.evaluate(unit=>{podcastController23.seek((unit.start+unit.end)/2);podcastController23.paint();},unit);
