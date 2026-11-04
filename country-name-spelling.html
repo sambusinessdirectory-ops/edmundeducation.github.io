@@ -20,8 +20,9 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="shared-system-nav.css?v=20261104-country-map1">
   <link rel="preload" as="image" href="country-name-spelling-map/world-relief.jpg">
+  <link rel="preload" as="image" href="country-name-spelling-map/hong-kong-relief.png?v=20261104-coastline2">
   <link rel="stylesheet" href="country-name-spelling-terminal.css?v=20261104-terrain2">
-  <link rel="stylesheet" href="country-name-spelling-terminal-v2.css?v=20261104-cartography6">
+  <link rel="stylesheet" href="country-name-spelling-terminal-v2.css?v=20261104-cinematic9">
   <script defer src="/pwa-register.js"></script>
 <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
 </head>
@@ -62,7 +63,7 @@
       <header class="mission-topbar">
         <div>
           <p class="eyebrow">MAP SPELLING COMMAND / 地圖拼寫任務</p>
-          <h1>MISSIONS <small>必識地名訓練</small></h1>
+          <h1>MISSIONS <small>地理拼寫任務</small></h1>
         </div>
         <div class="edition-switch" role="group" aria-label="選擇世界或香港版">
           <button type="button" class="is-active" data-edition="world"><span>01</span> WORLD / 國家</button>
@@ -79,26 +80,32 @@
         <section class="map-console" aria-label="互動地圖">
           <header class="console-heading">
             <div><span data-map-sequence>// WORLD MAP 01</span><strong data-map-heading>Essential countries</strong></div>
-            <p><i></i> LIVE SPELLING GRID</p>
+            <p><i></i> GEOSPATIAL LINK / LIVE</p>
           </header>
           <nav class="map-filters" data-map-filters aria-label="地圖分類"></nav>
 
           <div class="map-viewport" data-map-viewport>
             <div class="map-atmosphere" aria-hidden="true"></div>
+            <img class="mobile-map-relief" data-mobile-relief src="country-name-spelling-map/world-relief.jpg" alt="" aria-hidden="true">
             <div class="map-plane" data-map-plane>
               <svg class="terrain-map" data-terrain-map viewBox="0 0 1600 800" role="img" aria-label="世界地圖">
                 <defs>
                   <linearGradient id="terrain-wash" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8e6df"/><stop offset=".48" stop-color="#cfd6d1"/><stop offset="1" stop-color="#99aaa8"/></linearGradient>
+                  <linearGradient id="sea-depth" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#12313a"/><stop offset=".46" stop-color="#09242e"/><stop offset="1" stop-color="#03141c"/></linearGradient>
+                  <radialGradient id="harbour-light" cx="56%" cy="63%" r="34%"><stop offset="0" stop-color="#4e8990" stop-opacity=".28"/><stop offset=".42" stop-color="#1e5863" stop-opacity=".12"/><stop offset="1" stop-color="#041820" stop-opacity="0"/></radialGradient>
                   <radialGradient id="target-glow"><stop offset="0" stop-color="#fff4ce"/><stop offset=".12" stop-color="#ffb147"/><stop offset=".42" stop-color="#ef643f" stop-opacity=".78"/><stop offset="1" stop-color="#ef643f" stop-opacity="0"/></radialGradient>
                   <pattern id="map-grid-pattern" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M100 0H0V100" fill="none" stroke="#9fc3c2" stroke-opacity=".16" stroke-width="1"/></pattern>
                   <pattern id="map-micro-grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#d4e1df" stroke-opacity=".05" stroke-width=".7"/></pattern>
                   <filter id="map-relief-treatment" x="-8%" y="-8%" width="116%" height="116%"><feColorMatrix values=".72 0 0 0 .18 0 .76 0 0 .18 0 0 .74 0 .2 0 0 0 1 0"/><feComponentTransfer><feFuncR type="gamma" amplitude="1" exponent=".78" offset=".02"/><feFuncG type="gamma" amplitude="1" exponent=".8" offset=".02"/><feFuncB type="gamma" amplitude="1" exponent=".82" offset=".03"/></feComponentTransfer></filter>
                   <filter id="terrain-depth" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="13" stdDeviation="5" flood-color="#01090d" flood-opacity=".82"/><feDropShadow dx="0" dy="2" stdDeviation="1.2" flood-color="#b6dbd7" flood-opacity=".38"/></filter>
                   <clipPath id="terrain-clip" data-terrain-clip></clipPath>
+                  <mask id="hong-kong-land-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="1100" height="650" style="mask-type:alpha"><image data-hk-land-mask-image href="country-name-spelling-map/hong-kong-relief.png?v=20261104-coastline2" width="1100" height="650" preserveAspectRatio="none"/></mask>
                 </defs>
+                <rect class="map-water-surface" width="100%" height="100%" fill="url(#sea-depth)"/>
+                <rect class="map-harbour-light" width="100%" height="100%" fill="url(#harbour-light)"/>
                 <rect class="map-base-grid" width="100%" height="100%" fill="url(#map-grid-pattern)"/>
                 <rect class="map-base-micro-grid" width="100%" height="100%" fill="url(#map-micro-grid)"/>
-                <g class="terrain-scan" filter="url(#terrain-depth)">
+                <g class="terrain-scan" data-terrain-scan filter="url(#terrain-depth)">
                   <image data-relief-image clip-path="url(#terrain-clip)" width="100%" height="100%" preserveAspectRatio="none" filter="url(#map-relief-treatment)"/>
                   <g class="map-regions" data-map-regions></g>
                 </g>
@@ -120,7 +127,7 @@
         </section>
 
         <aside class="mission-panel" aria-label="拼寫任務資料">
-          <header><span>// MISSION INFO</span><strong data-mission-number>WORLD 01</strong></header>
+          <header><span>// ACTIVE MISSION</span><strong data-mission-number>WORLD 01</strong></header>
           <div class="mission-visual" data-visual-frame>
             <div class="mission-visual__world" data-world-visual><img data-flag src="country-name-spelling-flags/gb.svg" alt="英國國旗"></div>
             <svg class="mission-visual__inset" data-location-inset viewBox="0 0 1100 650" role="img" aria-label="香港位置圖" hidden></svg>
@@ -156,7 +163,7 @@
             <p class="answer-feedback" data-feedback role="status" aria-live="polite">辨認國旗及地圖位置，再輸入完整英文名稱。</p>
           </section>
 
-          <div class="spelling-trap"><span>COMMON SPELLING TRAP</span><p data-trap>首次嘗試後顯示常見錯法，避免未作答便看到答案。</p></div>
+          <div class="spelling-trap"><span>FIELD NOTE / 拼寫提示</span><p data-trap>首次嘗試後顯示常見錯法，避免未作答便看到答案。</p></div>
           <div class="mission-navigation">
             <button type="button" data-previous aria-label="上一題">‹ PREVIOUS</button>
             <button type="button" data-random>RANDOM TARGET</button>
@@ -173,7 +180,7 @@
   <script src="supabase-config.js"></script>
   <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script>
   <script src="shared-system-nav.js?v=20261104-country-map1"></script>
-  <script type="module" src="country-name-spelling-terminal-v2.mjs?v=20261104-cartography6"></script>
+  <script type="module" src="country-name-spelling-terminal-v2.mjs?v=20261104-cinematic9"></script>
   <script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
 </body>
 </html>
