@@ -130,11 +130,23 @@ tools/test-schedule-system.mjs
     def test_empty_path_set_is_not_fast(self):
         self.assertEqual(module.collect_path_scopes([], self.policy), ("", []))
 
+    def test_large_classified_country_release_stays_focused(self):
+        paths = [
+            f"country-name-spelling-audio/world/generated-{index}.mp3"
+            for index in range(713)
+        ] + ["tools/sync-country-name-spelling-flags.mjs"]
+        tags, uncovered = module.collect_path_scopes(paths, self.policy)
+        self.assertEqual(uncovered, [])
+        self.assertEqual(tags, "[country-spelling-release] [fast-deploy]")
+
     def test_too_many_paths_are_not_fast(self):
-        paths = [f"dse-practical-writing-{index}.mjs" for index in range(501)]
+        paths = [
+            f"dse-practical-writing-{index}.mjs"
+            for index in range(module.MAX_FOCUSED_PATHS + 1)
+        ]
         tags, uncovered = module.collect_path_scopes(paths, self.policy)
         self.assertEqual(tags, "")
-        self.assertEqual(len(uncovered), 501)
+        self.assertEqual(len(uncovered), module.MAX_FOCUSED_PATHS + 1)
 
     def test_unsafe_path_is_rejected(self):
         with self.assertRaisesRegex(ValueError, "Unsafe changed path"):

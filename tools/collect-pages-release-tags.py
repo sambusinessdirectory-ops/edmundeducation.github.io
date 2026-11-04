@@ -11,7 +11,7 @@ from pathlib import Path, PurePosixPath
 
 
 FAST = "[fast-deploy]"
-MAX_FOCUSED_PATHS = 500
+MAX_FOCUSED_PATHS = 2000
 DEFAULT_POLICY = Path(__file__).with_name("pages-release-scopes.json")
 
 

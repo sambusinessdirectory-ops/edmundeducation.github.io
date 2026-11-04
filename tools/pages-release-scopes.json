@@ -250,6 +250,7 @@
       "country-name-spelling*.html",
       "country-name-spelling*.mjs",
       "tools/generate-country-name-spelling-audio.py",
+      "tools/sync-country-name-spelling-flags.mjs",
       "tools/test-country-name-spelling*.mjs"
     ],
     "[error-id-release]": [
