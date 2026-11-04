@@ -302,7 +302,7 @@ try {
 globalThis.fetch = async (url, options) => {
   const rpcName = decodeURIComponent(new URL(String(url)).pathname.split("/").at(-1));
   const body = JSON.parse(options.body);
-  if (rpcName === "schedule_announcement_public_list") {
+  if (rpcName === "schedule_announcement_v2_public_list") {
     assert.equal(body.p_service_secret, baseEnv.SCHEDULE_SERVICE_SECRET);
     return new Response(JSON.stringify([{
       id: "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",

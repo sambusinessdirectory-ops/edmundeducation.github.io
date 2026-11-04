@@ -36,11 +36,12 @@ assert.match(js, /reminderEmailInput\.addEventListener\("input",/);
 assert.match(js, /elements\.reminderEmailInput\.validity\.valid/);
 assert.match(js, /hideReminderEmail/);
 
-// Clicking the native dialog backdrop closes the editor without weakening the
-// nested delete-confirmation flow.
+// Clicking the native dialog backdrop requests the guarded close flow, so an
+// unsaved draft is not discarded and the nested delete confirmation remains
+// authoritative.
 assert.match(
   js,
-  /elements\.entryDialog\.addEventListener\("click", \(event\) => \{\s*if \(event\.target === elements\.entryDialog && !elements\.deleteDialog\.open\) \{\s*elements\.entryDialog\.close\(\);/s
+  /elements\.entryDialog\.addEventListener\("click", \(event\) => \{\s*if \(event\.target === elements\.entryDialog && !elements\.deleteDialog\.open\) \{\s*entryDraftGuard\.requestClose\(\);/s
 );
 
 // The palettes must be actual gradients, including each score control.
