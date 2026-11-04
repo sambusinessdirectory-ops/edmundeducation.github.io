@@ -33,7 +33,7 @@ jobs:
 
     steps:
       - name: Reclaim runner disk for the website repository
-        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[full-artifact]') || contains(inputs.release_tags, '[catalog-contract-release]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[full-artifact]') || contains(inputs.release_tags, '[catalog-contract-release]') || contains(inputs.release_tags, '[writing-preview-release]') }}
         shell: bash
         run: |
           set -euo pipefail
@@ -45,11 +45,11 @@ jobs:
           df -h /
 
       - name: Checkout complete repository
-        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[full-artifact]') || contains(inputs.release_tags, '[catalog-contract-release]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[full-artifact]') || contains(inputs.release_tags, '[catalog-contract-release]') || contains(inputs.release_tags, '[writing-preview-release]') }}
         uses: actions/checkout@v6
 
       - name: Fetch focused release files without R2-backed source trees
-        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[full-artifact]') && !contains(inputs.release_tags, '[catalog-contract-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[full-artifact]') && !contains(inputs.release_tags, '[catalog-contract-release]') && !contains(inputs.release_tags, '[writing-preview-release]') }}
         shell: bash
         env:
           RELEASE_BASE: ${{ inputs.base_sha }}
@@ -297,24 +297,6 @@ jobs:
               ;;
             *'[dse-arguments-release]'*)
               echo '/dse-argument-bank/' >> .git/info/sparse-checkout
-              ;;
-            *'[writing-preview-release]'*)
-              cat >> .git/info/sparse-checkout <<'PATTERNS'
-          /ielts-writing-preview/
-          /assets/writing-practice/questions/ielts-task1/
-          /assets/model-essays/
-          /writing-practice-*-data.js
-          /writing-audio*.js
-          /writing-submission-reference-data.mjs
-          /workers/model-essay-downloads/src/
-          /supabase/migrations/
-          /synonyms/
-          !/synonyms/audio/
-          !/synonyms/lesson-audio/
-          !/synonyms/source/
-          /polysemy-lab/
-          !/polysemy-lab/audio/
-          PATTERNS
               ;;
             *'[chart-release]'*)
               echo '/ielts-chart-teaching/' >> .git/info/sparse-checkout
