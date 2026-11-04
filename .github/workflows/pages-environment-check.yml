@@ -1,0 +1,46 @@
+name: Check Pages build environment
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/**'
+      - 'tools/check-pages-build-environment.rb'
+      - 'tools/install-pages-browsers.sh'
+      - 'tools/pages-validation-paths'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/
+            /tools/check-pages-build-environment.rb
+            /tools/pages-validation-paths
+      - name: Materialize and verify all declared inputs
+        run: |
+          git sparse-checkout add --stdin < tools/pages-validation-paths
+          ruby tools/check-pages-build-environment.rb --check-inputs
+      - name: Smoke-test the supported browser environment
+        run: |
+          bash tools/install-pages-browsers.sh
+          NODE_PATH="${RUNNER_TEMP}/pages-browser/node_modules" node - <<'JS'
+          const { chromium, firefox, webkit } = require("playwright");
+          (async () => {
+            for (const engine of [chromium, firefox, webkit]) {
+              const browser = await engine.launch();
+              try {
+                const page = await browser.newPage();
+                await page.goto("data:text/html,<title>Pages</title>");
+                if (await page.title() !== "Pages") throw new Error(engine.name());
+              } finally {
+                await browser.close();
+              }
+            }
+          })().catch(error => { console.error(error); process.exitCode = 1; });
+          JS

@@ -3,6 +3,10 @@
   "scopes": {
     "[infrastructure-release]": [
       ".github/workflows/pages.yml",
+      ".github/workflows/pages-environment-check.yml",
+      "tools/check-pages-build-environment.rb",
+      "tools/install-pages-browsers.sh",
+      "tools/pages-validation-paths",
       ".github/workflows/pages-fast.yml",
       ".github/workflows/pages-paper3-fast.yml",
       ".github/workflows/pages-release-coordinator.yml",

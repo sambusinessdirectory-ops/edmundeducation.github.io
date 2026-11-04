@@ -1,0 +1,4 @@
+/.github/workflows/
+/tools/install-pages-browsers.sh
+/tools/pages-validation-paths
+/tools/check-pages-build-environment.rb

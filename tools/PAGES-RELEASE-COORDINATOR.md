@@ -31,3 +31,16 @@ GitHub Pages releases are coordinated by
 
 The release regression gates are `tools/test-pages-release-coordinator.py` and
 `tools/test-pages-system-release-map.py`.
+
+## Adding a validation step
+
+Every Pages artifact builder uses Ubuntu 24.04. Browser steps call
+`bash tools/install-pages-browsers.sh` from the source checkout. It installs
+the shared Playwright version and its Chromium, Firefox and WebKit dependencies
+under `$RUNNER_TEMP/pages-browser`.
+
+Each sparse source checkout appends `tools/pages-validation-paths` before
+materializing files. Add a small file or directory there when validators on
+multiple routes read it. Keep large fixtures in their system's checkout rules.
+The coordinator checks these contracts before starting a builder. Pull requests
+that change the build environment also launch all three browsers on that runner.
