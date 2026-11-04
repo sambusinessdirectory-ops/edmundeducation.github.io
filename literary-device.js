@@ -1,4 +1,4 @@
-import {devices,quiz as bank} from './literary-device-data.js?v=310';
+import {devices,quiz as bank} from './literary-device-data.js?v=360';
 import {newRound} from './literary-device-shuffle.mjs';
 let quiz=newRound(bank);
 const root=document.querySelector('#content'),hint=document.querySelector('#hint'),E=s=>String(s).replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));
