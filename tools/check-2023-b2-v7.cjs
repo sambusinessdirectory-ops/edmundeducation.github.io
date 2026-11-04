@@ -20,7 +20,7 @@ async function enterPodcast(page){
 }
 async function waitForAudio(page){
   await page.evaluate(()=>audio.readyState>=1?true:new Promise((resolve,reject)=>{
-    const timer=setTimeout(()=>reject(new Error('meeting.mp3 metadata timeout')),15000);
+    const timer=setTimeout(()=>reject(new Error('meeting-track-8.mp3 metadata timeout')),15000);
     audio.addEventListener('loadedmetadata',()=>{clearTimeout(timer);resolve(true)},{once:true});audio.load();
   }));
   await page.waitForFunction(()=>Math.abs(audio.currentTime-425.8)<.15,null,{timeout:5000});
@@ -84,7 +84,7 @@ async function auditInitialPodcast(page){
     };
   });
   assert.equal(state.architecture,'v7-continuous-single-owner');assert.equal(state.transcriptArchitecture,'v7-continuous-single-owner');
-  assert.equal(state.audioConnected,true);assert.equal(state.audioMuted,false);assert(state.audioVolume>=.99,state);assert.match(state.audioSource,/meeting\.mp3/);
+  assert.equal(state.audioConnected,true);assert.equal(state.audioMuted,false);assert(state.audioVolume>=.99,state);assert.match(state.audioSource,/meeting-track-8\.mp3/);
   assert.equal(state.playerCount,1);assert.equal(state.transcriptCount,1);assert.equal(state.timelines,1);assert.equal(state.pins,17);assert.equal(state.legacy,0);
   assert.match(state.timeText,/^0:00 \/ 6:52/);assert(Math.abs(state.currentTime-425.8)<.15,JSON.stringify(state));assert.equal(state.cueIndex,0);assert.equal(state.done,false);assert.equal(state.completed,-1);
   assert.match(state.cueProgress,/1 \/ 17/);assert.doesNotMatch(state.cueProgress,/166/);
@@ -143,6 +143,12 @@ async function auditListeningJourney(page){
   assert.match(firstState.value,/10 episodes/);assert.equal(firstState.follow,'true');assert.equal(firstState.done,true);assert.equal(firstState.completed,0);assert(firstState.revealed>0);
   assert.equal(firstState.currentTurn,'18',firstState);assert.match(firstState.currentText,/finance department/);assert.equal(firstState.source,true,firstState);assert.equal(firstState.sourceVisible,true,firstState);
 
+  const strike=await page.evaluate(()=>{
+    const row=E('turns').querySelector('[data-id="6"]');
+    return [getComputedStyle(row.querySelector('.curation-transcript-sentence')).textDecorationLine,
+      getComputedStyle(row.querySelector('.translation')).textDecorationLine];
+  });
+  assert.deepEqual(strike,['line-through','none']);
   await page.locator('#transcript-translate').click();
   const translated=await page.evaluate(()=>({
     shown:document.querySelector('#trans').classList.contains('show-translation'),
@@ -184,9 +190,19 @@ async function auditListeningJourney(page){
   }
   assert.equal(new Set(ledger.map(entry=>entry.cueId)).size,17);
   const values=await page.evaluate(()=>Object.fromEntries([...document.querySelector('.native-reader-host').shadowRoot.querySelectorAll('.note-sheet textarea')].map(field=>[field.id,field.value])));
-  assert.match(values['notes-live-study-cook'],/10 episodes/);assert.match(values['notes-filming-schedule'],/October/);
+  assert.match(values['notes-live-study-cook'],/10 episodes/);assert.equal(values['notes-filming-schedule'],'Filming postponed until October');
   assert.match(values['notes-food-kinds'],/Main dishes[\s\S]*Desserts/);assert.match(values['notes-william-video'],/Flood[\s\S]*Social media training/);
   assert.match(values['notes-golden-sun'],/Burnt toast[\s\S]*Fire safety training/);assert.match(values['notes-viewers-choice'],/Viewer’s Choice[\s\S]*Fully live/);
+  await page.evaluate(()=>{
+    safePodcastWriteV4('cur23-reader-note:3-2',[
+      'Filming postponed until October','Filming postponed until ',
+      'Filming postponed ','Filming ','My own note about July'
+    ].join('\n'));
+  });
+  await page.reload();
+  const schedule=page.locator('#notes-filming-schedule');
+  await schedule.waitFor();
+  assert.equal(await schedule.inputValue(),'Filming postponed until October\nMy own note about July');
   if(evidenceDir){fs.mkdirSync(evidenceDir,{recursive:true});fs.writeFileSync(path.join(evidenceDir,'2023-b2-v7-cue-transactions.json'),JSON.stringify(ledger,null,2));await page.screenshot({path:path.join(evidenceDir,'2023-b2-podcast-v7-chromium.png'),fullPage:true});}
 }
 async function auditOtherContracts(page){
