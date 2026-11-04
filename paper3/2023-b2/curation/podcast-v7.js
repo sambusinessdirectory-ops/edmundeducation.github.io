@@ -31,6 +31,22 @@ let podcastChromeBuiltV7=false;
 let podcastPlaybackCueV7=-1;
 let podcastDesiredTimeV7=podcastOriginV7;
 
+function preparePodcastAudioOutputV7(){
+  if(!audio.isConnected)panel.prepend(audio);
+  audio.preload='auto';audio.playsInline=true;audio.controls=false;
+  audio.muted=false;audio.defaultMuted=false;
+  if(!Number.isFinite(audio.volume)||audio.volume<.99)audio.volume=1;
+  if(audio.readyState>=1&&(audio.currentTime<podcastOriginV7-.08||audio.currentTime>podcastEndV7+.08)){
+    audio.currentTime=Math.max(podcastOriginV7,Math.min(podcastEndV7,podcastDesiredTimeV7));
+  }
+}
+function playPodcastAudioV7(){
+  preparePodcastAudioOutputV7();
+  const started=audio.play();
+  if(started&&typeof started.catch==='function')started.catch(showAudioFailure);
+  return started;
+}
+
 function podcastMediaTimeV7(value){
   const time=Number(value);
   if(!Number.isFinite(time))return NaN;
@@ -136,6 +152,7 @@ function fitPodcastTranscriptV7(){
 function buildPodcastChromeV7(){
   document.querySelectorAll('.seek-wrap,.pin-layer').forEach(node=>node.remove());
   panel.replaceChildren();panel.className='curation-player';panel.dataset.podcastArchitecture='v7-continuous-single-owner';
+  preparePodcastAudioOutputV7();
   const title=document.createElement('strong');title.className='curation-player-title';title.textContent='會議錄音';
   const play=document.createElement('button');play.id='play';play.type='button';play.textContent='▶';play.setAttribute('aria-label','播放錄音');
   const pinToggle=document.createElement('button');pinToggle.id='pins';pinToggle.type='button';pinToggle.className='curation-player-pins-toggle';
@@ -228,7 +245,7 @@ function setPodcastStateV7(index,{time,completed=false,completedThrough,play=fal
   podcastCompletedThroughV7=Number.isInteger(completedThrough)?Math.max(-1,Math.min(cue.index,completedThrough)):(done?cue.index:Math.min(cue.index-1,podcastCompletedAtTimeV7(position)));
   projectPodcastNotesV7();updatePodcastLessonV7();focusPodcastDestinationV7(cue);paintPodcastV7(true);
   window.podcastTransactionV5=false;podcastStateLockV7=false;
-  if(persist)persistPodcastStateV7();if(play)audio.play().catch(showAudioFailure);return cue;
+  if(persist)persistPodcastStateV7();if(play)playPodcastAudioV7();return cue;
 }
 function restorePodcastStateV7(raw){
   const state=raw&&typeof raw==='object'?raw:{};
@@ -272,8 +289,10 @@ function resumePodcastV7(){
   if(index<0){E('podcast-cue-status').textContent='17/17 已完成；可按停頓點重聽任何一段。';return}
   const cue=podcastCueMetaV7[index];podcastPlaybackCueV7=index;cueIndex=index;done=false;
   podcastCompletedThroughV7=Math.min(index-1,podcastCompletedThroughV7);
+  // Invoke play directly inside the trusted click/pin event before doing the
+  // visual follow work. This preserves Safari's user-activation token.
+  playPodcastAudioV7();
   podcastFollowV7=true;updatePodcastFollowV7();updatePodcastLessonV7();focusPodcastDestinationV7(cue);paintPodcastV7(true);persistPodcastStateV7();
-  audio.play().catch(showAudioFailure);
 }
 function activatePodcastV7(){
   active=rows[i]?.stage===2;panel.hidden=scriptWindow.hidden=!active;if(!active){audio.pause();return}
@@ -312,7 +331,7 @@ audio.onpause=()=>{E('play').textContent='▶';E('play').setAttribute('aria-labe
 audio.onerror=()=>{showAudioFailure();E('a').textContent='未能載入會議錄音。可先閱讀逐字稿，再按重試載入錄音。'};
 E('play').onclick=resumePodcastV7;
 E('seek').oninput=event=>seekPodcastV7(event.target.value);
-E('audio-retry').onclick=()=>{E('audio-status').textContent='正在重新載入錄音…';const position=audio.currentTime;audio.load();audio.currentTime=position;audio.play().catch(showAudioFailure)};
+E('audio-retry').onclick=()=>{E('audio-status').textContent='正在重新載入錄音…';const position=audio.currentTime;audio.load();audio.currentTime=position;playPodcastAudioV7()};
 
 const underlyingNextV7=E('next').onclick,underlyingPrevV7=E('prev').onclick;
 const curationNextV7=document.querySelector('.curation-shell #curation-next')?.onclick;

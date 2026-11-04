@@ -3,9 +3,14 @@ const cues=[
 // Type 6 is an editorial decision. A turn without a note cue can still contain useful context.
 const noiseTurns=new Set([6,7,8,9,11,15,22,26,31,32,35,37,47,61,67]);
 const audio=new Audio('meeting.mp3'),panel=document.createElement('section'),scriptWindow=document.createElement('aside');
+// Keep the media engine in the document. Detached Audio objects can advance
+// normally in automated tests while still failing to route audible output in
+// real Safari/Firefox sessions after repeated page reconstruction.
+audio.id='meeting-audio';audio.preload='auto';audio.playsInline=true;audio.controls=false;
+audio.setAttribute('aria-hidden','true');audio.tabIndex=-1;
 panel.id='player';panel.innerHTML='<b>會議錄音</b> <button id="play">▶</button><input id="seek" type="range" step=".05" min="426" max="838.79"><span id="time"></span><span id="audio-status" role="status" aria-live="polite"></span><button id="audio-retry" hidden>重試載入錄音</button><select id="rate"></select><button id="pins">停頓點</button><button id="transcript-toggle" aria-expanded="false">查看逐字稿</button><div id="ticks" hidden></div>';
 scriptWindow.id='trans';scriptWindow.innerHTML='<header>會議逐字稿 · 拖曳移動</header><div id="turns"></div>';
-document.querySelector('nav').after(panel);document.body.append(scriptWindow);
+document.querySelector('nav').after(panel);panel.prepend(audio);document.body.append(scriptWindow);
 for(let r=.5;r<=3;r+=.25)E('rate').add(new Option(r+'×',r,r===1,r===1));
 E('rate').onchange=()=>audio.playbackRate=+E('rate').value;
 E('transcript-toggle').onclick=()=>{let open=scriptWindow.classList.toggle('mobile-visible');E('transcript-toggle').setAttribute('aria-expanded',String(open));E('transcript-toggle').textContent=open?'收起逐字稿':'查看逐字稿'};
