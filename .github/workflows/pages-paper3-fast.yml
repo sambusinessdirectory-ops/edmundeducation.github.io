@@ -8,9 +8,9 @@ on:
         value: ${{ jobs.build.outputs.artifact_name }}
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  actions: read
+  contents: read
+  pages: read
 
 jobs:
   build:

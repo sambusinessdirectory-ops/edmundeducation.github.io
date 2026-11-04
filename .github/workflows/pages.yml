@@ -14,9 +14,8 @@ on:
 
 permissions:
   actions: write
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
+  pages: read
 
 jobs:
   build:

@@ -31,6 +31,13 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         )
         self.assertIn("actions/deploy-pages@v5", PUBLISHER)
 
+    def test_builders_cannot_request_deployment_permissions(self):
+        for workflow in BUILDERS:
+            top_level_permissions = workflow.split("\njobs:\n", 1)[0]
+            self.assertNotIn("contents: write", top_level_permissions)
+            self.assertNotIn("pages: write", top_level_permissions)
+            self.assertNotIn("id-token: write", top_level_permissions)
+
     def test_obsolete_candidate_work_is_cancellable(self):
         self.assertEqual(COORDINATOR.count("group: pages-candidate-main"), 4)
         self.assertEqual(COORDINATOR.count("cancel-in-progress: true"), 4)
