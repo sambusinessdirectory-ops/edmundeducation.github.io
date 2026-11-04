@@ -10,16 +10,15 @@ permissions:
   id-token: write
 
 jobs:
-  deploy:
+  build:
     if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]') }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    concurrency:
-      group: pages
-      cancel-in-progress: false
-    environment:
-      name: github-pages
-      url: https://edmundeducation.com/
+    permissions:
+      contents: read
+      pages: read
+    outputs:
+      artifact_name: ${{ steps.artifact.outputs.name }}
     steps:
       - name: Checkout deployed snapshot
         uses: actions/checkout@v6
@@ -72,6 +71,8 @@ jobs:
           while IFS= read -r path; do
             case "${path}" in
               paper3/*|\
+              .github/workflows/pages-paper3-fast.yml|\
+              .github/workflows/publish-pages-artifact.yml|\
               tools/build-2023-b2-reader.py|\
               tools/check-2023-b2-entry.cjs|\
               tools/test-proverb-system.mjs|\
@@ -153,21 +154,23 @@ jobs:
             grep -Fq "${GITHUB_SHA}" "${path}"
           done
 
+      - name: Name this build artifact
+        id: artifact
+        run: echo "name=github-pages-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_OUTPUT"
+
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+          name: ${{ steps.artifact.outputs.name }}
           path: _site
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
-        with:
-          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
-          timeout: 900000
-          error_count: 30
-
-      - name: Update deployed snapshot
-        env:
-          SNAPSHOT_TOKEN: ${{ github.token }}
-        run: bash source/tools/update-pages-snapshot.sh _site "${GITHUB_SHA}"
+  deploy:
+    needs: build
+    uses: ./.github/workflows/publish-pages-artifact.yml
+    with:
+      artifact_name: ${{ needs.build.outputs.artifact_name }}
+    permissions:
+      actions: read
+      contents: write
+      pages: write
+      id-token: write

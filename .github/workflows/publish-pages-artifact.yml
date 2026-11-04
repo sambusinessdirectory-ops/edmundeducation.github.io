@@ -10,12 +10,14 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 20
     permissions:
       actions: read
-      contents: write
+      contents: read
       pages: write
       id-token: write
+    outputs:
+      current: ${{ steps.release.outputs.current }}
     concurrency:
       group: pages
       cancel-in-progress: false
@@ -41,8 +43,16 @@ jobs:
           timeout: 900000
           error_count: 30
 
+  snapshot:
+    needs: publish
+    if: needs.publish.outputs.current == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      actions: read
+      contents: write
+    steps:
       - name: Checkout snapshot updater
-        if: steps.release.outputs.current == 'true'
         uses: actions/checkout@v6
         with:
           sparse-checkout-cone-mode: false
@@ -51,14 +61,12 @@ jobs:
           path: release-source
 
       - name: Download the deployed artifact
-        if: steps.release.outputs.current == 'true'
         uses: actions/download-artifact@v4
         with:
           name: ${{ inputs.artifact_name }}
           path: prepared-pages
 
-      - name: Update deployed snapshot before releasing the Pages slot
-        if: steps.release.outputs.current == 'true'
+      - name: Update deployed snapshot
         shell: bash
         env:
           SNAPSHOT_TOKEN: ${{ github.token }}
