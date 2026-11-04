@@ -1,4 +1,7 @@
-import { HK_DISTRICTS, HK_GROUPS, MTR_STATIONS, WORLD_COUNTRIES, WORLD_REGIONS } from "./country-name-spelling-data.mjs";
+import {
+  CHALLENGE_COUNTRIES, COUNTRY_LANGUAGE_BY_CODE, HK_DISTRICTS, HK_GROUPS, MTR_STATIONS,
+  WORLD_COUNTRIES, WORLD_MODES, WORLD_OCEANS, WORLD_REGIONS, WORLD_SPECIALS
+} from "./country-name-spelling-data.mjs";
 import { HK_GEOMETRY, HK_VIEWBOX, MTR_COORDINATES, WORLD_GEOMETRY, WORLD_VIEWBOX } from "./country-name-spelling-map/map-geometry.mjs";
 
 const CONFIG = window.EDMUND_SUPABASE || {};
@@ -27,7 +30,9 @@ const WORLD_CAMERAS = Object.freeze({
   Oceania:{ x:1030, y:380, width:500, height:345 }
 });
 const HK_BY_ID = new Map(HK_GEOMETRY.map((district) => [district.id, district]));
-const WORLD_BY_CODE = new Map(WORLD_COUNTRIES.map((country) => [country.code, country]));
+const WORLD_GEOMETRY_BY_CODE = new Map(WORLD_GEOMETRY.filter((shape) => shape.code !== "-99").map((shape) => [shape.code, shape]));
+const WORLD_COUNTRY_POOL = Object.freeze([...WORLD_COUNTRIES, ...CHALLENGE_COUNTRIES]);
+const WORLD_BY_CODE = new Map([...WORLD_COUNTRY_POOL, ...WORLD_SPECIALS.filter((item) => item.code)].map((country) => [country.code, country]));
 
 const elements = {
   login: document.querySelector('[data-view="login"]'),
@@ -38,6 +43,9 @@ const elements = {
   accountName: document.querySelector("[data-account-name]"),
   logout: document.querySelector("[data-logout]"),
   editionButtons: [...document.querySelectorAll("[data-edition]")],
+  worldModes: document.querySelector("[data-world-modes]"),
+  worldModeButtons: [...document.querySelectorAll("[data-world-mode]")],
+  mapConsole: document.querySelector(".map-console"),
   filters: document.querySelector("[data-map-filters]"),
   terrainMap: document.querySelector("[data-terrain-map]"),
   terrainScan: document.querySelector("[data-terrain-scan]"),
@@ -70,12 +78,17 @@ const elements = {
   hkBadge: document.querySelector("[data-hk-badge]"),
   visualLabel: document.querySelector("[data-visual-label]"),
   flag: document.querySelector("[data-flag]"),
+  worldSymbol: document.querySelector("[data-world-symbol]"),
+  worldSymbolKicker: document.querySelector("[data-world-symbol-kicker]"),
+  worldSymbolMark: document.querySelector("[data-world-symbol-mark]"),
   itemType: document.querySelector("[data-item-type]"),
   itemZh: document.querySelector("[data-item-zh]"),
   itemZone: document.querySelector("[data-item-zone]"),
+  objective: document.querySelector("[data-objective]"),
   missionContext: document.querySelector("[data-mission-context]"),
   letterGrid: document.querySelector("[data-letter-grid]"),
   answer: document.querySelector("[data-answer]"),
+  answerLabel: document.querySelector("[data-answer-label]"),
   speak: document.querySelector("[data-speak]"),
   hint: document.querySelector("[data-hint]"),
   check: document.querySelector("[data-check]"),
@@ -102,7 +115,7 @@ function svgNode(tag, attributes = {}, text = "") {
 }
 
 function loadProgress() {
-  const fallback = { edition:"world", filters:{ world:"All", "hong-kong":"Districts" }, current:{}, attempts:0, correct:0, streak:0, mastered:[], hints:0, failures:{}, solved:false, revealed:[], usedFullReveal:false, trapVisible:false, showMasteredMap:true };
+  const fallback = { edition:"world", worldMode:"Country names", filters:{ world:"All", "hong-kong":"Districts" }, current:{}, attempts:0, correct:0, streak:0, mastered:[], hints:0, failures:{}, solved:false, revealed:[], usedFullReveal:false, trapVisible:false, showMasteredMap:true };
   try {
     const value = JSON.parse(localStorage.getItem(PROGRESS_KEY) || "null");
     if (!value || typeof value !== "object") return fallback;
@@ -180,38 +193,95 @@ function currentFilter() {
   return state.filters[state.edition];
 }
 
+function currentWorldMode() {
+  return WORLD_MODES.includes(state.worldMode) ? state.worldMode : WORLD_MODES[0];
+}
+
+function currentKey() {
+  return state.edition === "world"
+    ? `world:${currentWorldMode()}:${currentFilter()}`
+    : `hong-kong:${currentFilter()}`;
+}
+
 function fullEditionPool() {
-  return state.edition === "world" ? WORLD_COUNTRIES : [...HK_DISTRICTS, ...MTR_STATIONS];
+  return state.edition === "world" ? activePool() : [...HK_DISTRICTS, ...MTR_STATIONS];
 }
 
 function activePool() {
   if (state.edition === "world") {
     const filter = currentFilter();
-    return filter === "All" ? [...WORLD_COUNTRIES] : WORLD_COUNTRIES.filter((item) => item.region === filter);
+    const adjectives = currentWorldMode() === "Country adjectives";
+    if (filter === "Challenge!") return [...CHALLENGE_COUNTRIES];
+    if (filter === "Oceans") return adjectives ? [...WORLD_COUNTRIES] : [...WORLD_OCEANS];
+    if (filter === "All") return adjectives ? [...WORLD_COUNTRIES] : [...WORLD_COUNTRIES, ...WORLD_SPECIALS];
+    return WORLD_COUNTRIES.filter((item) => item.region === filter);
   }
   return currentFilter() === "Districts" ? [...HK_DISTRICTS] : [...MTR_STATIONS];
 }
 
 function currentItem() {
   const pool = activePool();
-  const id = state.current[`${state.edition}:${currentFilter()}`];
-  return pool.find((item) => item.id === id) || pool.find((item) => !state.mastered.includes(progressId(item))) || pool[0];
+  const id = state.current[currentKey()];
+  return pool.find((item) => item.id === id) || pool.find((item) => !isMastered(item)) || pool[0];
 }
 
 function progressId(item) {
-  return `${state.edition}:${item.id}`;
+  if (state.edition !== "world") return `hong-kong:${item.id}`;
+  const mode = currentWorldMode() === "Country adjectives" ? "adjective" : "name";
+  const kind = item.kind || "country";
+  return `world:${mode}:${kind}:${item.id}`;
+}
+
+function legacyProgressId(item) {
+  return state.edition === "world" ? `world:${item.id}` : `hong-kong:${item.id}`;
+}
+
+function isMastered(item) {
+  return state.mastered.includes(progressId(item)) || (currentWorldMode() === "Country names" && state.mastered.includes(legacyProgressId(item)));
+}
+
+function countryLanguage(item) {
+  return item.code ? COUNTRY_LANGUAGE_BY_CODE.get(item.code) : null;
+}
+
+function answerForItem(item) {
+  if (state.edition === "world" && currentWorldMode() === "Country adjectives") return countryLanguage(item)?.adjective || item.adjective || item.name;
+  return item.name;
+}
+
+function answerAliases(item) {
+  if (state.edition === "world" && currentWorldMode() === "Country adjectives") return countryLanguage(item)?.adjectiveAliases || item.adjectiveAliases || [];
+  return item.aliases || [];
+}
+
+function trapForItem(item) {
+  if (state.edition === "world" && currentWorldMode() === "Country adjectives") return countryLanguage(item)?.adjectiveTrap || item.adjectiveTrap || item.trap;
+  return item.trap;
 }
 
 function itemZone(item) {
-  return state.edition === "world" ? item.region : item.group || item.line;
+  if (state.edition === "world") return item.kind === "challenge" ? "Challenge countries" : item.region;
+  return item.group || item.line;
 }
 
 function itemType(item) {
-  if (state.edition === "world") return "COUNTRY / 國家";
+  if (state.edition === "world") {
+    if (currentWorldMode() === "Country adjectives") return "COUNTRY ADJECTIVE / 國籍形容詞";
+    if (item.kind === "ocean") return "OCEAN / 海洋";
+    if (item.kind === "special") return "GEOGRAPHIC TERM / 地理名稱";
+    return item.kind === "challenge" ? "CHALLENGE COUNTRY / 挑戰國家" : "COUNTRY / 國家";
+  }
   return currentFilter() === "Districts" ? "DISTRICT / 香港地區" : "MTR STATION / 港鐵站";
 }
 
 function worldPoint(item) {
+  if (!Number.isFinite(item.lon) || !Number.isFinite(item.lat)) {
+    const shape = WORLD_GEOMETRY_BY_CODE.get(item.code);
+    if (shape) {
+      const bounds = pathBounds(shape.path);
+      return { x:bounds.x + bounds.width / 2, y:bounds.y + bounds.height / 2 };
+    }
+  }
   return { x:((item.lon + 180) / 360) * WORLD_VIEWBOX.width, y:((90 - item.lat) / 180) * WORLD_VIEWBOX.height };
 }
 
@@ -326,13 +396,13 @@ function normaliseAnswer(value) {
 
 function isCorrectAnswer(item, value) {
   const answer = normaliseAnswer(value);
-  return [item.name, ...(item.aliases || [])].some((candidate) => normaliseAnswer(candidate) === answer);
+  return [answerForItem(item), ...answerAliases(item)].some((candidate) => normaliseAnswer(candidate) === answer);
 }
 
 function setCurrent(item) {
   if (!item) return;
   stopPronunciation();
-  state.current[`${state.edition}:${currentFilter()}`] = item.id;
+  state.current[currentKey()] = item.id;
   state.solved = false;
   state.revealed = [];
   state.usedFullReveal = false;
@@ -343,12 +413,14 @@ function setCurrent(item) {
 }
 
 function buildFilters() {
-  const filters = state.edition === "world" ? WORLD_REGIONS : HK_GROUPS;
+  const filters = state.edition === "world"
+    ? WORLD_REGIONS.filter((filter) => currentWorldMode() !== "Country adjectives" || filter !== "Oceans")
+    : HK_GROUPS;
   elements.filters.replaceChildren(...filters.map((filter) => {
     const button = document.createElement("button");
     button.type = "button";
     button.textContent = state.edition === "world"
-      ? filter.toUpperCase()
+      ? filter === "Challenge!" ? "CHALLENGE!" : filter.toUpperCase()
       : filter === "Districts" ? "DISTRICTS / 18 區" : "MTR STATIONS / 港鐵站";
     button.classList.toggle("is-active", currentFilter() === filter);
     button.addEventListener("click", () => {
@@ -362,7 +434,7 @@ function buildFilters() {
 function geometryProgressId(shape, key) {
   if (key === "code") {
     const country = WORLD_BY_CODE.get(shape.code);
-    return country ? `world:${country.id}` : "";
+    return country ? progressId(country) : "";
   }
   return `hong-kong:${shape.id}`;
 }
@@ -370,7 +442,7 @@ function geometryProgressId(shape, key) {
 function terrainPaths(collection, selectedKey, key = "code", showMastered = false) {
   return collection.map((shape) => svgNode("path", {
     d:shape.path,
-    class:`map-region${shape[key] === selectedKey ? " is-target" : ""}${showMastered && state.showMasteredMap && state.mastered.includes(geometryProgressId(shape, key)) ? " is-mastered" : ""}`,
+    class:`map-region${shape[key] === selectedKey ? " is-target" : ""}${showMastered && state.showMasteredMap && (state.mastered.includes(geometryProgressId(shape, key)) || (key === "code" && WORLD_BY_CODE.get(shape.code) && isMastered(WORLD_BY_CODE.get(shape.code)))) ? " is-mastered" : ""}`,
     "data-region":shape[key],
     "vector-effect":"non-scaling-stroke"
   }));
@@ -415,7 +487,7 @@ function renderMtrNetwork(item, destination = elements.mtrNetwork, inset = false
     if (active || inset) {
       for (const station of stations) {
         const point = stationPoint(station);
-        const mastered = state.showMasteredMap && state.mastered.includes(`hong-kong:${station.id}`);
+        const mastered = state.showMasteredMap && isMastered(station);
         destination.append(svgNode("circle", {
           cx:point.x, cy:point.y, r:station.id === item.id ? 7 : 3.5,
           class:`rail-station${station.id === item.id ? " is-target" : ""}${mastered ? " is-mastered" : ""}`,
@@ -442,7 +514,7 @@ function renderAnnotations(item) {
   const nodes = [];
   for (const { candidate, point } of mapCandidates(item)) {
     const target = candidate.id === item.id;
-    const mastered = state.showMasteredMap && state.mastered.includes(progressId(candidate));
+    const mastered = state.showMasteredMap && isMastered(candidate);
     const group = svgNode("g", {
       class:`map-point${target ? " is-target" : ""}${mastered ? " is-mastered" : ""}`,
       transform:`translate(${point.x.toFixed(2)} ${point.y.toFixed(2)})`,
@@ -472,9 +544,10 @@ function renderAnnotations(item) {
 
 function coordinateCopy(item) {
   if (state.edition === "world") {
-    const lat = Math.abs(item.lat).toFixed(2);
-    const lon = Math.abs(item.lon).toFixed(2);
-    return `${lat}° ${item.lat >= 0 ? "N" : "S"} / ${lon}° ${item.lon >= 0 ? "E" : "W"}`;
+    const point = itemPoint(item);
+    const latitude = Number.isFinite(item.lat) ? item.lat : 90 - (point.y / WORLD_VIEWBOX.height) * 180;
+    const longitude = Number.isFinite(item.lon) ? item.lon : (point.x / WORLD_VIEWBOX.width) * 360 - 180;
+    return `${Math.abs(latitude).toFixed(2)}° ${latitude >= 0 ? "N" : "S"} / ${Math.abs(longitude).toFixed(2)}° ${longitude >= 0 ? "E" : "W"}`;
   }
   const point = itemPoint(item);
   const lon = 113.82 + (point.x / HK_VIEWBOX.width) * .64;
@@ -489,8 +562,10 @@ function renderMap(item) {
   const selectedKey = isWorld ? item.code : (currentFilter() === "Districts" ? item.id : "");
   elements.viewport.classList.toggle("is-hong-kong", !isWorld);
   elements.terrainMap.classList.toggle("is-hong-kong", !isWorld);
-  if (isWorld) elements.terrainScan.removeAttribute("mask");
-  else elements.terrainScan.setAttribute("mask", "url(#hong-kong-land-mask)");
+  // The Hong Kong relief PNG already carries a verified alpha coastline and is
+  // clipped by the 18 official district paths. A second image-based SVG mask
+  // can resolve to transparent after a world/HK source swap in WebKit/Chromium.
+  elements.terrainScan.removeAttribute("mask");
   elements.terrainMap.setAttribute("aria-label", isWorld ? "世界國家地形圖" : "香港十八區地形圖");
   elements.terrainClip.replaceChildren(...terrainPaths(geometry, selectedKey, isWorld ? "code" : "id"));
   const showMasteredRegions = isWorld || currentFilter() === "Districts";
@@ -511,7 +586,7 @@ function renderMap(item) {
   elements.mobileTarget.style.top = `${(point.y / viewbox.height) * 100}%`;
   elements.mobileTarget.querySelector("span").textContent = item.zh;
   elements.mobileTarget.setAttribute("aria-label", `目前目標：${item.zh}`);
-  elements.mobileTarget.classList.toggle("is-mastered", state.showMasteredMap && state.mastered.includes(progressId(item)));
+  elements.mobileTarget.classList.toggle("is-mastered", state.showMasteredMap && isMastered(item));
   renderMtrNetwork(item);
   renderAnnotations(item);
   elements.coordinateReadout.textContent = coordinateCopy(item);
@@ -521,11 +596,12 @@ function renderMap(item) {
 }
 
 function renderLetterGrid(item) {
+  const targetAnswer = answerForItem(item);
   const typed = elements.answer.value.replace(/[^a-z0-9]/gi, "").toUpperCase();
   const revealed = new Set(state.revealed || []);
   let letterIndex = 0;
   const cells = [];
-  for (const character of item.name) {
+  for (const character of targetAnswer) {
     const cell = document.createElement("span");
     if (!/[a-z0-9]/i.test(character)) {
       cell.className = "is-separator";
@@ -543,14 +619,14 @@ function renderLetterGrid(item) {
 
 function renderStats(item) {
   const total = fullEditionPool().length;
-  const mastered = fullEditionPool().filter((candidate) => state.mastered.includes(progressId(candidate))).length;
+  const mastered = fullEditionPool().filter((candidate) => isMastered(candidate)).length;
   const percent = total ? Math.round((mastered / total) * 100) : 0;
   elements.accuracy.textContent = state.attempts ? `${Math.round((state.correct / state.attempts) * 100)}%` : "—";
   elements.streak.textContent = String(state.streak || 0).padStart(2, "0");
   elements.mastered.textContent = `${mastered}/${total}`;
   elements.progressCopy.textContent = `${mastered} / ${total} MASTERED`;
   elements.progressBar.style.width = `${percent}%`;
-  elements.targetName.textContent = state.solved ? item.name.toUpperCase() : "SPELL TO IDENTIFY";
+  elements.targetName.textContent = state.solved ? answerForItem(item).toUpperCase() : currentWorldMode() === "Country adjectives" && state.edition === "world" ? "SPELL THE ADJECTIVE" : "SPELL TO IDENTIFY";
   elements.targetZone.textContent = itemZone(item).toUpperCase();
 }
 
@@ -561,22 +637,42 @@ function renderIdentity(item) {
   elements.itemType.textContent = itemType(item);
   elements.itemZh.textContent = item.zh;
   elements.itemZone.textContent = itemZone(item);
+  const adjectiveMode = state.edition === "world" && currentWorldMode() === "Country adjectives";
+  elements.objective.textContent = adjectiveMode ? "Spell the country adjective" : item.kind === "ocean" ? "Spell the ocean name" : "Spell the English name";
+  elements.answerLabel.textContent = adjectiveMode ? "TYPE THE COUNTRY ADJECTIVE" : item.kind === "ocean" ? "TYPE THE COMPLETE OCEAN NAME" : "TYPE THE COMPLETE NAME";
   elements.missionContext.textContent = state.edition === "world"
-    ? "先由國旗和精確地圖位置辨認國家，再完成英文拼寫。"
+    ? adjectiveMode
+      ? `先辨認 ${item.zh}，再寫出表示「${item.zh}的／人」的英文國籍形容詞。`
+      : item.kind === "ocean"
+        ? "根據海域在世界地圖上的位置，完成完整英文海洋名稱。"
+        : item.kind === "special"
+          ? "根據極地位置和中文名稱，完成這個重要地理名稱的英文拼寫。"
+          : "先由國旗和精確地圖位置辨認國家，再完成英文拼寫。"
     : currentFilter() === "Districts"
       ? "根據香港正式十八區邊界與地形位置，完成地區英文名稱。"
       : `沿 ${item.line} 的實際走線與車站位置，完成英文站名。`;
-  elements.trap.textContent = state.trapVisible || state.solved ? item.trap : "首次嘗試後顯示常見錯法，避免未作答便看到答案。";
+  elements.trap.textContent = state.trapVisible || state.solved ? trapForItem(item) : "首次嘗試後顯示常見錯法，避免未作答便看到答案。";
   elements.visualFrame.classList.add("is-switching");
   const world = state.edition === "world";
   elements.worldVisual.hidden = !world;
   elements.locationInset.toggleAttribute("hidden", world);
   elements.hkBadge.hidden = world;
   if (world) {
-    elements.flag.src = `country-name-spelling-flags/${item.code}.svg`;
-    elements.flag.alt = `${item.zh}國旗`;
-    elements.visualLabel.textContent = "VISUAL IDENTIFICATION / 國旗辨認";
+    const hasFlag = item.kind !== "ocean" && item.kind !== "special";
+    elements.flag.hidden = !hasFlag;
+    elements.worldSymbol.hidden = hasFlag;
+    if (hasFlag) {
+      elements.flag.src = `country-name-spelling-flags/${item.code}.svg`;
+      elements.flag.alt = `${item.zh}國旗`;
+      elements.visualLabel.textContent = adjectiveMode ? "COUNTRY ORIGIN / 國家線索" : "VISUAL IDENTIFICATION / 國旗辨認";
+    } else {
+      elements.worldSymbolKicker.textContent = item.kind === "ocean" ? "HYDROGRAPHIC SECTOR" : "POLAR REFERENCE POINT";
+      elements.worldSymbolMark.textContent = item.kind === "ocean" ? "OCEAN" : item.id === "antarctica" ? "ANTARCTICA" : "POLAR";
+      elements.visualLabel.textContent = item.kind === "ocean" ? "OCEAN SECTOR / 海域定位" : "GEOSPATIAL REFERENCE / 地理定位";
+    }
   } else {
+    elements.flag.hidden = false;
+    elements.worldSymbol.hidden = true;
     elements.locationInset.replaceChildren();
     elements.locationInset.setAttribute("viewBox", `0 0 ${HK_VIEWBOX.width} ${HK_VIEWBOX.height}`);
     if (currentFilter() === "Districts") {
@@ -602,7 +698,13 @@ function renderIdentity(item) {
   elements.answer.classList.remove("is-correct", "is-wrong");
   elements.feedback.className = "answer-feedback";
   elements.feedback.textContent = state.edition === "world"
-    ? "辨認國旗及地圖位置，再輸入完整英文國名。"
+    ? adjectiveMode
+      ? "辨認國家後，輸入正確的英文國籍形容詞。"
+      : item.kind === "ocean"
+        ? "辨認海域位置，再輸入完整英文海洋名稱。"
+        : item.kind === "special"
+          ? "辨認極地位置，再輸入完整英文地理名稱。"
+          : "辨認國旗及地圖位置，再輸入完整英文國名。"
     : currentFilter() === "Districts"
       ? "根據中文及香港地圖位置，輸入完整英文地區名稱。"
       : "根據中文及港鐵網絡位置，輸入完整英文站名。";
@@ -615,11 +717,18 @@ function renderIdentity(item) {
 function render() {
   const item = currentItem();
   if (!item) return;
-  state.current[`${state.edition}:${currentFilter()}`] = item.id;
+  state.current[currentKey()] = item.id;
   elements.editionButtons.forEach((button) => button.classList.toggle("is-active", button.dataset.edition === state.edition));
-  elements.mapSequence.textContent = state.edition === "world" ? "// WORLD MAP 01" : "// HONG KONG GRID 02";
+  elements.worldModes.hidden = state.edition !== "world";
+  elements.mapConsole.classList.toggle("has-world-modes", state.edition === "world");
+  elements.worldModeButtons.forEach((button) => button.classList.toggle("is-active", button.dataset.worldMode === currentWorldMode()));
+  elements.mapSequence.textContent = state.edition === "world"
+    ? currentFilter() === "Challenge!" ? "// WORLD CHALLENGE 03" : currentFilter() === "Oceans" ? "// OCEAN GRID 04" : currentWorldMode() === "Country adjectives" ? "// LANGUAGE MODE 02" : "// WORLD MAP 01"
+    : "// HONG KONG GRID 02";
   elements.mapHeading.textContent = state.edition === "world"
-    ? "Essential DSE & IELTS countries"
+    ? currentWorldMode() === "Country adjectives"
+      ? currentFilter() === "Challenge!" ? "Challenge country adjectives" : "Country adjective spelling"
+      : currentFilter() === "Challenge!" ? "Complete sovereign-state challenge" : currentFilter() === "Oceans" ? "Seven world ocean sectors" : "Essential DSE & IELTS countries + polar terms"
     : currentFilter() === "Districts" ? "Hong Kong 18 districts" : "Familiar MTR station names";
   elements.masteryColourToggle.setAttribute("aria-checked", String(state.showMasteredMap));
   elements.masteryColourToggle.classList.toggle("is-active", state.showMasteredMap);
@@ -653,7 +762,7 @@ function checkAnswer() {
   if (state.solved) return move(1);
   const value = elements.answer.value.trim();
   if (!value) {
-    elements.feedback.textContent = "請先輸入英文名稱。";
+    elements.feedback.textContent = currentWorldMode() === "Country adjectives" && state.edition === "world" ? "請先輸入英文國籍形容詞。" : "請先輸入英文名稱。";
     elements.feedback.className = "answer-feedback is-wrong";
     elements.answer.focus();
     return;
@@ -669,7 +778,7 @@ function checkAnswer() {
     state.trapVisible = true;
     elements.answer.classList.remove("is-wrong");
     elements.answer.classList.add("is-correct");
-    elements.feedback.textContent = `正確：${item.name}。再按一次即可前往下一個目標。`;
+    elements.feedback.textContent = `正確：${answerForItem(item)}。再按一次即可前往下一個目標。`;
     elements.feedback.className = "answer-feedback is-correct";
     elements.check.innerHTML = "NEXT TARGET <span aria-hidden=\"true\">›</span>";
     renderLetterGrid(item);
@@ -680,14 +789,14 @@ function checkAnswer() {
     state.trapVisible = true;
     const id = progressId(item);
     state.failures[id] = (state.failures[id] || 0) + 1;
-    const nearest = [item.name, ...(item.aliases || [])].reduce((best, candidate) => Math.min(best, editDistance(value, candidate)), Infinity);
+    const nearest = [answerForItem(item), ...answerAliases(item)].reduce((best, candidate) => Math.min(best, editDistance(value, candidate)), Infinity);
     elements.answer.classList.remove("is-correct");
     elements.answer.classList.add("is-wrong");
     elements.feedback.textContent = nearest <= 2
       ? "很接近。請檢查一至兩個字母、空格或詞尾，再試一次。"
       : "未正確。核對字母數目、地圖位置及下方常見錯法，再試一次。";
     elements.feedback.className = "answer-feedback is-wrong";
-    elements.trap.textContent = item.trap;
+    elements.trap.textContent = trapForItem(item);
     if (state.failures[id] >= 3) elements.hint.textContent = "REVEAL FULL NAME";
     renderStats(item);
   }
@@ -697,13 +806,13 @@ function checkAnswer() {
 function revealLetter() {
   const item = currentItem();
   if (!item || state.solved) return;
-  const answerLetters = [...item.name].filter((character) => /[a-z0-9]/i.test(character));
+  const answerLetters = [...answerForItem(item)].filter((character) => /[a-z0-9]/i.test(character));
   const id = progressId(item);
   if ((state.failures[id] || 0) >= 3) {
     state.usedFullReveal = true;
     state.hints = (state.hints || 0) + 1;
     state.trapVisible = true;
-    elements.trap.textContent = item.trap;
+    elements.trap.textContent = trapForItem(item);
     elements.feedback.textContent = "已顯示完整名稱作為支援；本題仍須由你重新輸入，答對後才會計入掌握。";
     elements.feedback.className = "answer-feedback";
     renderLetterGrid(item);
@@ -719,7 +828,7 @@ function revealLetter() {
   state.revealed = [...revealed];
   state.hints = (state.hints || 0) + 1;
   state.trapVisible = true;
-  elements.trap.textContent = item.trap;
+  elements.trap.textContent = trapForItem(item);
   elements.feedback.textContent = `已顯示第 ${next + 1} 個英文字母；請自行完成其餘拼寫。`;
   elements.feedback.className = "answer-feedback";
   renderLetterGrid(item);
@@ -736,13 +845,18 @@ function move(delta) {
 function randomTarget() {
   const pool = activePool();
   const item = currentItem();
-  const candidates = pool.filter((candidate) => candidate.id !== item?.id && !state.mastered.includes(progressId(candidate)));
+  const candidates = pool.filter((candidate) => candidate.id !== item?.id && !isMastered(candidate));
   const source = candidates.length ? candidates : pool.filter((candidate) => candidate.id !== item?.id);
   setCurrent(source[Math.floor(Math.random() * source.length)] || pool[0]);
 }
 
 function pronunciationPath(item) {
-  if (state.edition === "world") return `country-name-spelling-audio/world/${item.id}.mp3`;
+  if (state.edition === "world") {
+    if (currentWorldMode() === "Country adjectives") return `country-name-spelling-audio/world/adjectives/${item.id}.mp3`;
+    if (item.kind === "ocean") return `country-name-spelling-audio/world/oceans/${item.id}.mp3`;
+    if (item.kind === "special") return `country-name-spelling-audio/world/specials/${item.id}.mp3`;
+    return `country-name-spelling-audio/world/${item.id}.mp3`;
+  }
   const group = currentFilter() === "Districts" ? "districts" : "mtr";
   return `country-name-spelling-audio/hong-kong/${group}/${item.id}.mp3`;
 }
@@ -822,6 +936,17 @@ function initialiseGame() {
     state.trapVisible = false;
     render();
   }));
+  elements.worldModeButtons.forEach((button) => button.addEventListener("click", () => {
+    state.worldMode = button.dataset.worldMode;
+    if (state.worldMode === "Country adjectives" && state.filters.world === "Oceans") state.filters.world = "All";
+    stopPronunciation();
+    mapCamera = null;
+    state.solved = false;
+    state.revealed = [];
+    state.usedFullReveal = false;
+    state.trapVisible = false;
+    render();
+  }));
   elements.answer.addEventListener("input", () => {
     elements.answer.classList.remove("is-correct", "is-wrong");
     renderLetterGrid(currentItem());
@@ -877,6 +1002,9 @@ elements.logout.addEventListener("click", clearSession);
   if (localPreview) {
     if (previewParameters.get("edition") === "hong-kong") state.edition = "hong-kong";
     if (previewParameters.get("filter") === "mtr") state.filters["hong-kong"] = "MTR stations";
+    if (previewParameters.get("filter") === "challenge") state.filters.world = "Challenge!";
+    if (previewParameters.get("filter") === "oceans") state.filters.world = "Oceans";
+    if (previewParameters.get("mode") === "adjectives") state.worldMode = "Country adjectives";
     session = { token:"local-preview", id:"preview", name:"Preview", role:"student" };
     return showContent();
   }

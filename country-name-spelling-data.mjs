@@ -155,5 +155,6 @@ export const MTR_STATIONS = Object.freeze([
   { id:"hong-kong-station", name:"Hong Kong", zh:"香港", line:"Airport Express", x:58, y:73, trap:"Hong 與 Kong 都以 ng 結尾。" }
 ]);
 
-export const WORLD_REGIONS = Object.freeze(["All", "Europe", "Asia", "Americas", "Africa", "Oceania"]);
+export { ALL_STANDARD_COUNTRIES, CHALLENGE_COUNTRIES, COUNTRY_LANGUAGE_BY_CODE, WORLD_MODES, WORLD_OCEANS, WORLD_REGIONS_EXPANDED, WORLD_SPECIALS } from "./country-name-spelling-expanded-data.mjs";
+export const WORLD_REGIONS = Object.freeze(["All", "Europe", "Asia", "Americas", "Africa", "Oceania", "Challenge!", "Oceans"]);
 export const HK_GROUPS = Object.freeze(["Districts", "MTR stations"]);

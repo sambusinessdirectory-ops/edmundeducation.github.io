@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate every country, Hong Kong district and MTR name with Kokoro bf_isabella."""
+"""Generate all country names/adjectives, world terms and Hong Kong names with Kokoro bf_isabella."""
 
 from __future__ import annotations
 
@@ -17,7 +17,7 @@ VOICES_SHA256 = "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7
 VOICE = "bf_isabella"
 LANGUAGE = "en-gb"
 SPEED = 1.05
-RELEASE = "country-spelling-bf-isabella-v1"
+RELEASE = "country-spelling-bf-isabella-v2-complete-world"
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_MODEL = Path("/Volumes/(Pro-G) Sam's Data/CodexData/workspaces/edmund-neural-models/kokoro-v1.0.onnx")
 DEFAULT_VOICES = DEFAULT_MODEL.with_name("voices-v1.0.bin")
@@ -33,9 +33,14 @@ def digest(path: Path) -> str:
 
 def corpus() -> list[dict]:
     source = """
-      import { WORLD_COUNTRIES, HK_DISTRICTS, MTR_STATIONS } from './country-name-spelling-data.mjs';
+      import {
+        ALL_STANDARD_COUNTRIES, HK_DISTRICTS, MTR_STATIONS, WORLD_OCEANS, WORLD_SPECIALS
+      } from './country-name-spelling-data.mjs';
       const rows = [
-        ...WORLD_COUNTRIES.map(item => ({...item, category:'world', src:`country-name-spelling-audio/world/${item.id}.mp3`})),
+        ...ALL_STANDARD_COUNTRIES.map(item => ({...item, category:'world-country', src:`country-name-spelling-audio/world/${item.id}.mp3`})),
+        ...ALL_STANDARD_COUNTRIES.map(item => ({...item, name:item.adjective, category:'world-adjective', src:`country-name-spelling-audio/world/adjectives/${item.id}.mp3`})),
+        ...WORLD_SPECIALS.map(item => ({...item, category:'world-special', src:`country-name-spelling-audio/world/specials/${item.id}.mp3`})),
+        ...WORLD_OCEANS.map(item => ({...item, category:'world-ocean', src:`country-name-spelling-audio/world/oceans/${item.id}.mp3`})),
         ...HK_DISTRICTS.map(item => ({...item, category:'district', src:`country-name-spelling-audio/hong-kong/districts/${item.id}.mp3`})),
         ...MTR_STATIONS.map(item => ({...item, category:'mtr', src:`country-name-spelling-audio/hong-kong/mtr/${item.id}.mp3`})),
       ];
@@ -46,8 +51,8 @@ def corpus() -> list[dict]:
         cwd=ROOT, check=True, capture_output=True, text=True,
     )
     rows = json.loads(result.stdout)
-    if len(rows) != 138:
-        raise ValueError(f"Expected 138 pronunciation targets, found {len(rows)}")
+    if len(rows) != 479:
+        raise ValueError(f"Expected 479 pronunciation targets, found {len(rows)}")
     return rows
 
 

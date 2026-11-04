@@ -14,6 +14,7 @@ await page.goto(url, { waitUntil:"networkidle" });
 await page.evaluate(() => localStorage.removeItem("edmund-country-name-spelling-progress-v2"));
 await page.reload({ waitUntil:"networkidle" });
 await page.locator('[data-view="content"]').waitFor({ state:"visible" });
+assert.equal(await page.locator("[data-map-viewport]").evaluate((node) => node.getBoundingClientRect().height > 300), true);
 
 const toggle = page.locator("[data-mastery-colour-toggle]");
 assert.equal(await toggle.getAttribute("aria-checked"), "true");
@@ -38,7 +39,56 @@ assert.equal(await restoredToggle.getAttribute("aria-checked"), "true");
 assert.equal(await page.locator('.map-regions .map-region[data-region="gb"]').evaluate((node) => node.classList.contains("is-mastered")), true);
 await page.screenshot({ path:"/private/tmp/country-spelling-world-mastered.png", fullPage:true });
 
+await page.getByRole("button", { name:"CHALLENGE!" }).click();
+assert.equal(await page.locator("[data-mastered]").textContent(), "0/136");
+assert.match(await page.locator("[data-item-zh]").textContent(), /阿爾巴尼亞/);
+await page.locator("[data-answer]").fill("Albania");
+await page.locator("[data-check]").click();
+const albania = page.locator('.map-regions .map-region[data-region="al"]');
+assert.equal(await albania.evaluate((node) => node.classList.contains("is-mastered")), true);
+await page.screenshot({ path:"/private/tmp/country-spelling-challenge.png", fullPage:true });
+
+await page.locator('[data-world-mode="Country adjectives"]').click();
+assert.equal(await page.locator("[data-objective]").textContent(), "Spell the country adjective");
+assert.match(await page.locator("[data-answer-label]").textContent(), /COUNTRY ADJECTIVE/);
+await page.locator("[data-answer]").fill("Albanian");
+await page.locator("[data-check]").click();
+assert.equal(await page.locator("[data-target-name]").textContent(), "ALBANIAN");
+await page.screenshot({ path:"/private/tmp/country-spelling-adjectives.png", fullPage:true });
+
+await page.locator('[data-world-mode="Country names"]').click();
+await page.getByRole("button", { name:"OCEANS" }).click();
+assert.equal(await page.locator("[data-mastered]").textContent(), "0/7");
+assert.equal(await page.locator("[data-world-symbol]").isVisible(), true);
+assert.equal(await page.locator("[data-flag]").isHidden(), true);
+await page.locator("[data-answer]").fill("North Atlantic Ocean");
+await page.locator("[data-check]").click();
+assert.match(await page.locator("[data-feedback]").textContent(), /North Atlantic Ocean/);
+await page.screenshot({ path:"/private/tmp/country-spelling-oceans.png", fullPage:true });
+const oceanAudioResponse = page.waitForResponse((response) => response.url().endsWith("/country-name-spelling-audio/world/oceans/north-atlantic-ocean.mp3"));
+await page.locator("[data-speak]").click();
+assert.equal((await oceanAudioResponse).status(), 200);
+
+await page.evaluate(() => {
+  const key = "edmund-country-name-spelling-progress-v2";
+  const state = JSON.parse(localStorage.getItem(key));
+  state.filters.world = "All";
+  state.worldMode = "Country names";
+  state.current["world:Country names:All"] = "antarctica";
+  state.solved = false;
+  localStorage.setItem(key, JSON.stringify(state));
+});
+await page.reload({ waitUntil:"networkidle" });
+await page.locator('[data-view="content"]').waitFor({ state:"visible" });
+assert.match(await page.locator("[data-item-type]").textContent(), /GEOGRAPHIC TERM/);
+assert.equal(await page.locator("[data-item-zh]").textContent(), "南極洲");
+await page.locator("[data-answer]").fill("Antarctica");
+await page.locator("[data-check]").click();
+assert.match(await page.locator("[data-feedback]").textContent(), /Antarctica/);
+await page.screenshot({ path:"/private/tmp/country-spelling-expanded-world.png", fullPage:true });
+
 await page.locator('[data-edition="hong-kong"]').click();
+assert.equal(await page.locator("[data-map-viewport]").evaluate((node) => node.getBoundingClientRect().height > 300), true);
 await page.locator("[data-answer]").fill("Central and Western");
 await page.locator("[data-check]").click();
 const centralWestern = page.locator('.map-regions .map-region[data-region="central-and-western"]');
@@ -65,4 +115,4 @@ assert.equal(await mobile.locator("[data-mastery-colour-toggle]").getAttribute("
 await mobile.screenshot({ path:"/private/tmp/country-spelling-mobile-toggle.png", fullPage:true });
 
 await browser.close();
-console.log("country spelling browser verified: world + Hong Kong mastery colours, toggle persistence, Kokoro MP3, mobile control");
+console.log("country spelling browser verified: essentials/polar + Challenge + adjectives + oceans + Hong Kong, mastery colours, Kokoro MP3, and mobile control");
