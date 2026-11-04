@@ -1,0 +1,69 @@
+name: Publish a prepared Pages artifact
+
+on:
+  workflow_call:
+    inputs:
+      artifact_name:
+        required: true
+        type: string
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      actions: read
+      contents: write
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: https://edmundeducation.com/
+    steps:
+      - name: Check the release after acquiring the publication slot
+        id: release
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { data } = await github.rest.git.getRef({ ...context.repo, ref: 'heads/main' });
+            const current = data.object.sha === context.sha;
+            core.setOutput('current', String(current));
+            if (!current) core.notice(`Skipping superseded release ${context.sha}. Main is ${data.object.sha}.`);
+
+      - name: Deploy to GitHub Pages
+        if: steps.release.outputs.current == 'true'
+        uses: actions/deploy-pages@v5
+        with:
+          artifact_name: ${{ inputs.artifact_name }}
+          timeout: 900000
+          error_count: 30
+
+      - name: Checkout snapshot updater
+        if: steps.release.outputs.current == 'true'
+        uses: actions/checkout@v6
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /tools/update-pages-snapshot.sh
+          path: release-source
+
+      - name: Download the deployed artifact
+        if: steps.release.outputs.current == 'true'
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ inputs.artifact_name }}
+          path: prepared-pages
+
+      - name: Update deployed snapshot before releasing the Pages slot
+        if: steps.release.outputs.current == 'true'
+        shell: bash
+        env:
+          SNAPSHOT_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir deployed-site
+          tar -xf prepared-pages/artifact.tar -C deployed-site
+          bash release-source/tools/update-pages-snapshot.sh deployed-site "${GITHUB_SHA}"
