@@ -58,6 +58,20 @@ tools/test-schedule-system.mjs
             "[error-id-release] [fast-deploy] [homework-release] [practical-writing-release]",
         )
 
+    def test_pending_homepage_card_and_listening_edits_run_both_gates(self):
+        diff = '--- a/index.html\n+++ b/index.html\n@@ -1,0 +1 @@\n+        <a class="category learning-portal-card" href="news-reader.html"><span class="category-name">News</span></a>'
+        paths = ["index.html", "paper3/2023-b2/curation/podcast-v7.js"]
+
+        def tags(delta, changed=paths):
+            result, _ = module.collect_path_scopes(
+                changed, self.policy, homepage_cards_only=module.card_only_diff(delta))
+            return set(result.split())
+
+        self.assertEqual(tags(diff), {"[fast-deploy]", "[infrastructure-release]", "[paper3-release]"})
+        self.assertNotIn("[fast-deploy]", tags(diff + "\n+<script>newBehavior()</script>"))
+        self.assertNotIn("[fast-deploy]", tags(diff, paths + ["unknown.js"]))
+        self.assertNotIn("[fast-deploy]", tags(diff.replace(' href=', ' onclick="run()" href=')))
+
     def test_unknown_path_forces_full_validation(self):
         tags, uncovered = module.collect_path_scopes(
             ["dse-practical-writing.mjs", "new-system/security-policy.mjs"],

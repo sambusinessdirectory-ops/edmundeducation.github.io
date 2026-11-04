@@ -6,8 +6,10 @@ GitHub Pages releases are coordinated by
 - Pushes arriving within 15 seconds are batched before a build starts.
 - The router compares `main` with the deployed `pages-snapshot` source SHA and
   selects one standard, Paper 3, or homepage artifact builder.
-- Focused validation tags are recovered from the commits that produced each
-  changed file, including files combined through concurrent merge commits.
+- Focused validation tags come from all changed paths since the deployed snapshot.
+  Homepage card markup and numeric deck-counter edits can share the standard
+  focused build with other covered systems. Other homepage edits and unknown
+  files require full validation.
 - `tools/pages-system-release-map.json` owns the union of the homepage learning
   cards and `shared-system-nav.js` destinations. Every exposed route must map
   to a versioned scope in `tools/pages-release-scopes.json`; the build fails if

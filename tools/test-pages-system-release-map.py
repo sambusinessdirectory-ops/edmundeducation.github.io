@@ -54,6 +54,19 @@ class PagesSystemReleaseMapTests(unittest.TestCase):
         exposed = homepage_system_routes() | shared_navigation_routes()
         self.assertSetEqual(set(self.route_owners), exposed)
 
+    def test_homepage_card_positions(self):
+        source = (ROOT / "index.html").read_text(encoding="utf-8")
+        cards = re.findall(r'<a\b(?=[^>]*\bclass="[^"]*\bcategory\b)[^>]*>[\s\S]*?</a>', source)
+        expected = {59: "eddie-farm.html", 61: "background-music.html",
+                    64: "excellent-learning-system.html", 65: "polysemy-lab.html",
+                    66: "natural-english.html", 82: "news-reader.html"}
+        for position, href in expected.items():
+            with self.subTest(position=position):
+                self.assertIn(f'href="{href}"', cards[position - 1])
+        self.assertIn("新聞導讀系統", cards[81])
+        self.assertIn(f"data-system-card-deck-position>01 / {len(cards)}</strong>", source)
+        self.assertRegex(source, rf'data-system-card-deck-last[^>]*>{len(cards)}</button>')
+
     def test_every_route_exists_in_the_repository(self):
         for route in self.route_owners:
             with self.subTest(route=route):

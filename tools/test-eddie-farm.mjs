@@ -15,18 +15,12 @@ function runtime(fetch, { storage = new Map(), getStudent = () => ({ id: "qa-stu
 }
 const ok = (data) => ({ ok: true, status: 200, json: async () => data });
 
-test("homepage card 59 and all 18 server-backed seed types are connected", () => {
+test("homepage farm link and all 18 server-backed seed types are connected", () => {
   const home = read("index.html");
   const cards = [...home.matchAll(/<a\b(?=[^>]*\bclass="[^"]*\bcategory\b)[^>]*>[\s\S]*?<\/a>/g)];
-  assert.equal(cards.length, 82);
-  assert.match(cards[81][0], /href="news-reader\.html"/);
-  assert.match(cards[81][0], /新聞導讀系統/);
-  assert.match(cards[65][0], /href="natural-english.html"/);
-  assert.match(cards[64][0], /href="polysemy-lab.html"/);
-  assert.match(cards[60][0], /href="background-music.html"/);
-  assert.match(cards[63][0], /href="excellent-learning-system.html"/);
-  assert.match(cards[58][0], /href="eddie-farm.html"/);
-  assert.match(cards[58][0], /Edmund Coin System<br>金幣系統/);
+  const farmCards = cards.filter(([card]) => card.includes('href="eddie-farm.html"'));
+  assert.equal(farmCards.length, 1);
+  assert.match(farmCards[0][0], /Edmund Coin System<br>金幣系統/);
   const sql = read("supabase/migrations/20260827103531_eddie_farm_points.sql");
   const seedValues = sql.match(/insert into eddie_farm\.seeds\(id,name\) values([\s\S]*?);/)?.[1] || "";
   const cropIds = [...seedValues.matchAll(/\('([^']+)'/g)].map((match) => match[1]);

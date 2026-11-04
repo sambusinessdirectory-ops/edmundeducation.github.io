@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import fnmatch
 import json
+import re
 import sys
 from pathlib import Path, PurePosixPath
 
@@ -42,9 +43,33 @@ def load_policy(path: Path = DEFAULT_POLICY) -> dict[str, tuple[str, ...]]:
     return policy
 
 
+# Recognize declarative, single-line card edits and their numeric deck counters.
+# Other markup, including script and event-handler changes, keeps full validation.
+CARD_LINE = re.compile(
+    r' *<a class="category [a-zA-Z0-9 _-]+" href="[a-z0-9-]+\.html"'
+    r'(?: aria-label="[^"<>]*")?(?: style="[a-zA-Z0-9 #:%;.,()_-]+")?>'
+    r'<span class="category-name">(?:[^<>]|<br>|<small>|</small>)+</span></a>'
+)
+COUNTER_LINE = re.compile(
+    r' *<strong data-system-card-deck-position>01 / [0-9]+</strong>'
+    r'| *<button type="button" data-system-card-deck-last aria-label="前往最後一張卡">[0-9]+</button>'
+)
+
+
+def card_only_diff(diff: str) -> bool:
+    _, hunk_header, hunks = diff.partition("\n@@ ")
+    if not hunk_header:
+        return False
+    lines = [line[1:] for line in hunks.splitlines()[1:] if line.startswith(("+", "-"))]
+    return bool(lines) and all(
+        CARD_LINE.fullmatch(line) or COUNTER_LINE.fullmatch(line) for line in lines
+    )
+
+
 def collect_path_scopes(
     paths: list[str],
     policy: dict[str, tuple[str, ...]],
+    *, homepage_cards_only: bool = False,
 ) -> tuple[str, list[str]]:
     changed_paths = sorted({safe_path(path.strip()) for path in paths if path.strip()})
     if not changed_paths or len(changed_paths) > MAX_FOCUSED_PATHS:
@@ -72,7 +97,8 @@ def collect_path_scopes(
     # full validation. Known scopes remain visible for route diagnostics.
     shared = any(
         path.startswith("shared-")
-        or path in {"index.html", "pwa-register.js", "release.json", "service-worker.js"}
+        or (path == "index.html" and not homepage_cards_only)
+        or path in {"pwa-register.js", "release.json", "service-worker.js"}
         for path in changed_paths
     )
     if not uncovered and not shared:
@@ -89,10 +115,14 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--paths-file", type=Path, required=True)
     parser.add_argument("--policy", type=Path, default=DEFAULT_POLICY)
+    parser.add_argument("--homepage-diff", type=Path)
     args = parser.parse_args()
 
     paths = args.paths_file.read_text(encoding="utf-8").splitlines()
-    tags, uncovered = collect_path_scopes(paths, load_policy(args.policy))
+    tags, uncovered = collect_path_scopes(
+        paths, load_policy(args.policy),
+        homepage_cards_only=bool(args.homepage_diff and card_only_diff(args.homepage_diff.read_text())),
+    )
     if uncovered:
         print(
             "Pages full-validation fallback; unclassified paths: "
