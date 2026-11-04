@@ -59,8 +59,8 @@
   </main>
 
   <div class="save-toast" data-save-toast role="status" aria-live="polite" hidden>草稿已儲存</div>
-  <dialog class="model-dialog" data-model-dialog>
-    <form method="dialog" class="model-dialog__bar"><div><p class="eyebrow">MODEL WRITING · 參考範文</p><h2 data-model-title></h2></div><button type="submit" aria-label="關閉參考範文">×</button></form>
+  <dialog class="model-dialog" data-model-dialog aria-labelledby="model-writing-title">
+    <form method="dialog" class="model-dialog__bar"><div><p class="eyebrow">MODEL WRITING · 參考範文</p><h2 id="model-writing-title" data-model-title></h2></div><button type="submit" aria-label="關閉參考範文">×</button></form>
     <div class="model-dialog__tools"><button type="button" data-model-language>顯示繁體中文翻譯</button></div>
     <article data-model-copy aria-live="polite"></article>
   </dialog>
