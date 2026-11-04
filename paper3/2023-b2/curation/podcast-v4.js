@@ -95,7 +95,11 @@ function enhancePodcastSheet23(root=podcastRootV4()){
     else if(!heading.querySelector('.curation-pen-line')){const ink=document.createElement('span');ink.className='curation-pen-line';while(heading.firstChild)ink.append(heading.firstChild);heading.append(ink)}
     heading.classList.toggle('is-revealed',classificationVisibleV4(config));makeEvidenceV4(sheet,config);
   });
-  bindPodcastFieldsV4();renderPodcastNotesV4(cueIndex,done?cues[cueIndex]?.[2]||'':'');
+  bindPodcastFieldsV4();
+  // V6 owns an atomic typewriter transaction. Re-enhancement may decorate the
+  // current sheet, but it must not project a complete answer over an in-flight
+  // partial note and then let the older field reference overwrite it again.
+  if(!window.podcastTransactionV5)renderPodcastNotesV4(cueIndex,done?cues[cueIndex]?.[2]||'':'');
 }
 notes=function(n,partial=''){
   renderPodcastNotesV4(n,partial);
