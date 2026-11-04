@@ -72,6 +72,19 @@ tools/test-schedule-system.mjs
         self.assertNotIn("[fast-deploy]", tags(diff, paths + ["unknown.js"]))
         self.assertNotIn("[fast-deploy]", tags(diff.replace(' href=', ' onclick="run()" href=')))
 
+    def test_sitemap_country_progress_and_catalog_checks_have_owners(self):
+        tags, uncovered = module.collect_path_scopes([
+            "sitemap.xml", "tools/test-speaking-navigation-round4.mjs",
+            "tools/test-teaching-improvements.mjs", "tools/test-learning-updates-20260911.mjs",
+            "assets/listening/search/dse.json", "tools/test-listening-search.mjs",
+            "supabase/migrations/20261104135806_country_spelling_account_progress.sql",
+        ], self.policy)
+        self.assertEqual(uncovered, [])
+        self.assertEqual(set(tags.split()), {
+            "[fast-deploy]", "[infrastructure-release]", "[catalog-contract-release]",
+            "[listening-search-release]", "[listening-release]", "[country-spelling-release]",
+        })
+
     def test_unknown_path_forces_full_validation(self):
         tags, uncovered = module.collect_path_scopes(
             ["dse-practical-writing.mjs", "new-system/security-policy.mjs"],

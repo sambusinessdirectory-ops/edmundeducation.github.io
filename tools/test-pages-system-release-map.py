@@ -1,6 +1,8 @@
 import json
 import re
 import unittest
+import xml.etree.ElementTree as ET
+from urllib.parse import urlsplit
 
 from importlib.machinery import SourceFileLoader
 from pathlib import Path
@@ -53,6 +55,18 @@ class PagesSystemReleaseMapTests(unittest.TestCase):
     def test_map_is_the_union_of_homepage_and_shared_navigation_systems(self):
         exposed = homepage_system_routes() | shared_navigation_routes()
         self.assertSetEqual(set(self.route_owners), exposed)
+
+    def test_sitemap_has_unique_canonical_destinations(self):
+        sitemap = ET.parse(ROOT / "sitemap.xml")
+        urls = [item.text for item in sitemap.findall("{*}url/{*}loc")]
+        self.assertIn("https://edmundeducation.com/", urls)
+        self.assertEqual(len(set(urls)), len(urls))
+        for url in urls:
+            with self.subTest(url=url):
+                parsed = urlsplit(url)
+                self.assertEqual((parsed.scheme, parsed.netloc), ("https", "edmundeducation.com"))
+                self.assertFalse(parsed.fragment or parsed.query)
+                self.assertNotIn("..", Path(parsed.path).parts)
 
     def test_homepage_card_positions(self):
         source = (ROOT / "index.html").read_text(encoding="utf-8")

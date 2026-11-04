@@ -1,11 +1,21 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import vm from 'node:vm';
 import {searchEntries,resultHref,highlightedSnippet,loadSearchIndex} from '../listening-search.mjs';
 const read=file=>fs.readFileSync(new URL('../'+file,import.meta.url),'utf8');
 const dse=JSON.parse(read('assets/listening/search/dse.json')).entries;
 const ielts=JSON.parse(read('assets/listening/search/ielts.json')).entries;
 assert.equal(dse.length,60);assert.equal(ielts.length,80);
 assert.equal(new Set([...dse,...ielts].map(x=>x.id)).size,140);
+const context = {window: {}};
+vm.runInNewContext(read('listening-system-catalog.js'), context);
+const {dseYears, practices} = context.window.EDMUND_LISTENING_CATALOG;
+const dseIds = Array.from(dseYears).filter(year => year.available)
+  .flatMap(({year}) => [1, 2, 3, 4].map(task => `dse-${year}-${task}`));
+const ieltsIds = Array.from(practices).flatMap(({practice, parts}) =>
+  Array.from(parts, ({part}) => `ielts-${practice}-${part}`));
+assert.deepEqual(dse.map(entry => entry.id).sort(), dseIds.sort());
+assert.deepEqual(ielts.map(entry => entry.id).sort(), ieltsIds.sort());
 const emoji=searchEntries(dse,'EMOJI');
 assert.equal(emoji[0].year,2023);assert.equal(emoji[0].part,4);
 assert.equal(resultHref(emoji[0]),'listening-system.html?section=dse&year=2023&task=4');

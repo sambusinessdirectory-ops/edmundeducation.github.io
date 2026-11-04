@@ -33,7 +33,7 @@ jobs:
 
     steps:
       - name: Reclaim runner disk for the website repository
-        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[full-artifact]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[full-artifact]') || contains(inputs.release_tags, '[catalog-contract-release]') }}
         shell: bash
         run: |
           set -euo pipefail
@@ -45,11 +45,11 @@ jobs:
           df -h /
 
       - name: Checkout complete repository
-        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[full-artifact]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[full-artifact]') || contains(inputs.release_tags, '[catalog-contract-release]') }}
         uses: actions/checkout@v6
 
       - name: Fetch focused release files without R2-backed source trees
-        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[full-artifact]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[full-artifact]') && !contains(inputs.release_tags, '[catalog-contract-release]') }}
         shell: bash
         env:
           RELEASE_BASE: ${{ inputs.base_sha }}
@@ -140,6 +140,7 @@ jobs:
           /country-name-spelling-audio/
           /country-name-spelling-flags/
           /country-name-spelling-map/
+          /supabase/migrations/20261104135806_country_spelling_account_progress.sql
           PATTERNS
               ;;
           esac
@@ -187,6 +188,11 @@ jobs:
           /tools/listening/
           /workers/edmund-audio/src/index.js
           PATTERNS
+              ;;
+          esac
+          case "${RELEASE_TAGS}" in
+            *'[listening-search-release]'*|*'[listening-release]'*)
+              printf '%s\n' '/tools/listening/' '/assets/dse-listening/*/guide.json' '/assets/listening/practices/' '/assets/listening/search/' >> .git/info/sparse-checkout
               ;;
           esac
           case "${RELEASE_TAGS}" in
@@ -439,7 +445,7 @@ jobs:
             grep -Fq 'flashcards-audio-manifest.js?v=edmund-neural-v1-20261027-last-train-r2' flashcards.html
 
       - name: Validate closet fast release
-        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[infrastructure-release]') && !contains(inputs.release_tags, '[classroom-release]') && !contains(inputs.release_tags, '[flashcard-release]') && !contains(inputs.release_tags, '[sentence-release]') && !contains(inputs.release_tags, '[phrasal-release]') && !contains(inputs.release_tags, '[proverb-release]') && !contains(inputs.release_tags, '[idiom-release]') && !contains(inputs.release_tags, '[speaking-release]') && !contains(inputs.release_tags, '[writing-release]') && !contains(inputs.release_tags, '[practical-writing-release]') && !contains(inputs.release_tags, '[polysemy-release]') && !contains(inputs.release_tags, '[synonyms-release]') && !contains(inputs.release_tags, '[grammar-release]') && !contains(inputs.release_tags, '[native-release]') && !contains(inputs.release_tags, '[italian-release]') && !contains(inputs.release_tags, '[homework-release]') && !contains(inputs.release_tags, '[reading-release]') && !contains(inputs.release_tags, '[listening-release]') && !contains(inputs.release_tags, '[listening-types-release]') && !contains(inputs.release_tags, '[professional-release]') && !contains(inputs.release_tags, '[paper3-release]') && !contains(inputs.release_tags, '[paper3-analysis-release]') && !contains(inputs.release_tags, '[junior-release]') && !contains(inputs.release_tags, '[irregular-release]') && !contains(inputs.release_tags, '[news-release]') && !contains(inputs.release_tags, '[dse-arguments-release]') && !contains(inputs.release_tags, '[error-id-release]') && !contains(inputs.release_tags, '[coin-release]') && !contains(inputs.release_tags, '[song-release]') && !contains(inputs.release_tags, '[writing-preview-release]') && !contains(inputs.release_tags, '[chart-release]') && !contains(inputs.release_tags, '[homepage-rollback]') && !contains(inputs.release_tags, '[homepage-release]') && !contains(inputs.release_tags, '[country-spelling-release]') && !contains(inputs.release_tags, '[literary-release]') && !contains(inputs.release_tags, '[release-gate-repair]') && !contains(inputs.release_tags, '[downloads-release]') && !contains(inputs.release_tags, '[parent-release]') && !contains(inputs.release_tags, '[progress-release]') && !contains(inputs.release_tags, '[common-expression-release]') && !contains(inputs.release_tags, '[learning-portal-release]') && !contains(inputs.release_tags, '[bookmark-release]') && !contains(inputs.release_tags, '[execution-release]') && !contains(inputs.release_tags, '[membership-release]') && !contains(inputs.release_tags, '[background-music-release]') && !contains(inputs.release_tags, '[question-collection-release]') && !contains(inputs.release_tags, '[accent-release]') && !contains(inputs.release_tags, '[speech-curation-release]') && !contains(inputs.release_tags, '[chip-course-release]') && !contains(inputs.release_tags, '[news-reader-release]') && !contains(inputs.release_tags, '[video-class-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[infrastructure-release]') && !contains(inputs.release_tags, '[catalog-contract-release]') && !contains(inputs.release_tags, '[listening-search-release]') && !contains(inputs.release_tags, '[classroom-release]') && !contains(inputs.release_tags, '[flashcard-release]') && !contains(inputs.release_tags, '[sentence-release]') && !contains(inputs.release_tags, '[phrasal-release]') && !contains(inputs.release_tags, '[proverb-release]') && !contains(inputs.release_tags, '[idiom-release]') && !contains(inputs.release_tags, '[speaking-release]') && !contains(inputs.release_tags, '[writing-release]') && !contains(inputs.release_tags, '[practical-writing-release]') && !contains(inputs.release_tags, '[polysemy-release]') && !contains(inputs.release_tags, '[synonyms-release]') && !contains(inputs.release_tags, '[grammar-release]') && !contains(inputs.release_tags, '[native-release]') && !contains(inputs.release_tags, '[italian-release]') && !contains(inputs.release_tags, '[homework-release]') && !contains(inputs.release_tags, '[reading-release]') && !contains(inputs.release_tags, '[listening-release]') && !contains(inputs.release_tags, '[listening-types-release]') && !contains(inputs.release_tags, '[professional-release]') && !contains(inputs.release_tags, '[paper3-release]') && !contains(inputs.release_tags, '[paper3-analysis-release]') && !contains(inputs.release_tags, '[junior-release]') && !contains(inputs.release_tags, '[irregular-release]') && !contains(inputs.release_tags, '[news-release]') && !contains(inputs.release_tags, '[dse-arguments-release]') && !contains(inputs.release_tags, '[error-id-release]') && !contains(inputs.release_tags, '[coin-release]') && !contains(inputs.release_tags, '[song-release]') && !contains(inputs.release_tags, '[writing-preview-release]') && !contains(inputs.release_tags, '[chart-release]') && !contains(inputs.release_tags, '[homepage-rollback]') && !contains(inputs.release_tags, '[homepage-release]') && !contains(inputs.release_tags, '[country-spelling-release]') && !contains(inputs.release_tags, '[literary-release]') && !contains(inputs.release_tags, '[release-gate-repair]') && !contains(inputs.release_tags, '[downloads-release]') && !contains(inputs.release_tags, '[parent-release]') && !contains(inputs.release_tags, '[progress-release]') && !contains(inputs.release_tags, '[common-expression-release]') && !contains(inputs.release_tags, '[learning-portal-release]') && !contains(inputs.release_tags, '[bookmark-release]') && !contains(inputs.release_tags, '[execution-release]') && !contains(inputs.release_tags, '[membership-release]') && !contains(inputs.release_tags, '[background-music-release]') && !contains(inputs.release_tags, '[question-collection-release]') && !contains(inputs.release_tags, '[accent-release]') && !contains(inputs.release_tags, '[speech-curation-release]') && !contains(inputs.release_tags, '[chip-course-release]') && !contains(inputs.release_tags, '[news-reader-release]') && !contains(inputs.release_tags, '[video-class-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
@@ -954,6 +960,25 @@ jobs:
           node --check speaking-system.js
           node tools/test-professional-discussion-timing.mjs
 
+      - name: Validate focused listening search indexes
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && (contains(inputs.release_tags, '[listening-search-release]') || contains(inputs.release_tags, '[listening-release]')) }}
+        run: |
+          node tools/listening/build-search-index.mjs --check
+          node tools/test-listening-search.mjs
+
+      - name: Validate cross-system catalog contracts
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[catalog-contract-release]') }}
+        run: |
+          npm ci --prefix tools/email-qa --ignore-scripts
+          failed=0
+          for test in test-learning-updates-20260911 test-speaking-navigation-round4 test-teaching-improvements; do
+            if ! node "tools/${test}.mjs"; then
+              echo "::error::${test} failed"
+              failed=1
+            fi
+          done
+          exit "${failed}"
+
       - name: Validate focused country spelling release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[country-spelling-release]') }}
         run: |
@@ -961,6 +986,7 @@ jobs:
           node --check country-name-spelling-terminal.mjs
           node --check tools/sync-country-name-spelling-flags.mjs
           node tools/test-country-name-spelling.mjs
+          node tools/test-country-name-spelling-progress.mjs
 
       - name: Validate focused DSE Practical Writing release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[practical-writing-release]') }}
@@ -1156,7 +1182,7 @@ jobs:
           npm test --prefix workers/sentence-structure
 
       - name: Refresh homework resource catalog
-        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || (contains(inputs.release_tags, '[catalog-contract-release]') && contains(inputs.release_tags, '[homework-release]')) }}
         run: |
           node tools/generate-homework-resource-catalog.mjs
           node tools/generate-writing-submission-worker-topic-catalog.mjs

@@ -8,6 +8,7 @@
       ".github/workflows/pages-release-coordinator.yml",
       ".github/workflows/publish-pages-artifact.yml",
       "index.html",
+      "sitemap.xml",
       "pwa-register.js",
       "release.json",
       "service-worker.js",
@@ -28,6 +29,17 @@
       "tools/test-prepare-pages-incremental.py",
       "tools/test-rewrite-pages-assets.py",
       "tools/update-pages-snapshot.sh"
+    ],
+    "[catalog-contract-release]": [
+      "tools/test-learning-updates-20260911.mjs",
+      "tools/test-speaking-navigation-round4.mjs",
+      "tools/test-teaching-improvements.mjs"
+    ],
+    "[listening-search-release]": [
+      "assets/listening/search/dse.json",
+      "assets/listening/search/ielts.json",
+      "tools/listening/build-search-index.mjs",
+      "tools/test-listening-search.mjs"
     ],
     "[audio-contract-release]": [
       "flashcards-audio-manifest.js",
@@ -263,7 +275,8 @@
       "country-name-spelling*.mjs",
       "tools/generate-country-name-spelling-audio.py",
       "tools/sync-country-name-spelling-flags.mjs",
-      "tools/test-country-name-spelling*.mjs"
+      "tools/test-country-name-spelling*.mjs",
+      "supabase/migrations/20261104135806_country_spelling_account_progress.sql"
     ],
     "[error-id-release]": [
       "error-identifier-*",
