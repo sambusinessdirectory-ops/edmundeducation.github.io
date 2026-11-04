@@ -31,6 +31,15 @@ const root = path.resolve(toolsDirectory, "..");
 const read = (file) => readFile(path.join(root, file), "utf8");
 const readingComprehensionCatalogue = JSON.parse(await read("reading-comprehension-catalogue.json"));
 
+const essayMemoryContext = { window: {} };
+vm.createContext(essayMemoryContext);
+for (const file of ["essay-memory-catalog.js", "essay-memory-release-manifest.js"]) {
+  vm.runInContext(await read(file), essayMemoryContext, { filename: file, timeout: 20_000 });
+}
+const releasedEssayMemoryCatalogue = essayMemoryContext.window.ESSAY_MEMORY_CATALOG.filter(
+  (essay) => essayMemoryContext.window.ESSAY_MEMORY_APPROVED[essay.key] === true
+);
+
 const readingAnalysisContext = { window: {} };
 vm.createContext(readingAnalysisContext);
 for (const file of ["ielts-reading-analysis-index.js", "ielts-reading-analysis-availability.js"]) {
@@ -45,13 +54,14 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 15195, "catalogue includes every song teaching module");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 15483, "catalogue includes every released Model Essay Memorization lesson");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
 assert.equal((byType.flashcards || []).length, 1463, "all current static and lazy-loaded flashcard leaf decks should be indexed");
 assert.equal((byType["fill-blanks"] || []).length, 407, "all current writing exercises should be indexed");
+assert.equal((byType["model-essay-memorization"] || []).length, 288, "all released Model Essay Memorization lessons should be indexed");
 assert.deepEqual((byType["ielts-question-types"] || []).map((resource) => resource.url), ["ielts-writing-question-preview.html#task1", "ielts-writing-question-preview.html#task2"], "Homework links only to the two task views");
 assert.equal((byType.speaking || []).length, 796, "all currently visible speaking exercises and nine requested mock modes should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 345, "all sentence structure lessons should be indexed");
@@ -79,6 +89,21 @@ assert.equal(normalizeHomeworkHref("ielts-writing-question-preview.html#task1"),
 assert.equal(normalizeHomeworkHref("ielts-writing-question-preview.html#task2"), "ielts-writing-question-preview.html#task2");
 assert.equal(normalizeHomeworkHref("ielts-writing-question-preview.html#T2-002"), null, "individual question links are not offered");
 assert.equal(homeworkAutocomplete("IELTS Question Types").type, "ielts-question-types");
+assert.equal(homeworkAutocomplete("memorization model essay").type, "model-essay-memorization");
+assert.equal(homeworkAutocomplete("MEMORIZATION MODEL ESSAY").type, "model-essay-memorization", "the requested hot key should be case-insensitive");
+assert.equal(normalizeHomeworkHref("essay-memorization.html?essay=opinion%3A3"), "essay-memorization.html?essay=opinion%3A3");
+assert.equal(normalizeHomeworkHref("essay-memorization.html"), null, "a memorization link must select one exact essay");
+assert.equal(normalizeHomeworkHref("essay-memorization.html?essay=opinion%3A0"), null, "essay numbers must be positive");
+assert.equal(normalizeHomeworkHref("essay-memorization.html?essay=opinion%3A3&student=1"), null, "extra parameters must be rejected");
+assert.equal(normalizeHomeworkHref("essay-memorization.html?essay=opinion%3A3#mission-1"), null, "fragments must be rejected");
+assert.equal(normalizeHomeworkHref("https://example.com/essay-memorization.html?essay=opinion%3A3"), null, "external memorization links must be rejected");
+assert.equal(normalizeHomeworkHref("essay-memorization.html?essay=..%2Fprivate%3A3"), null, "malformed essay keys must be rejected");
+assert.equal(normalizeHomeworkResource({
+  id: "model-essay-memorization:opinion:4",
+  type: "model-essay-memorization",
+  label: "Model Essay 3 - IELTS - Opinion",
+  url: "essay-memorization.html?essay=opinion%3A3"
+}), null, "a memorization resource id must match its exact essay route");
 assert.equal(normalizeHomeworkHref("synonyms-system.html?module=lesson-v2-004&redirect=elsewhere"), null);
 assert.equal(normalizeHomeworkResource({ id: "synonym:wrong-module", type: "synonym", label: "A lot of", url: "synonyms-system.html?module=lesson-v2-004" }), null);
 assert.equal((byType["learning-portal"] || []).length, 18, "all new learning portals should be available for Homework/Schedule linking");
@@ -103,6 +128,8 @@ for (const exercise of byType["fill-blanks"] || []) {
 assert.ok(ids.has("flash:ielts/writing/task-2/advantage-and-disadvantage/EdmundBd9AdDisAd-Q2"));
 assert.equal(HOMEWORK_RESOURCE_CATALOG.find((item) => item.id === "flash:custom-setup/the-last-train")?.url, "flashcards.html?deck=custom-setup%2Fthe-last-train");
 assert.ok(ids.has("fill:model-essay-2-ielts-advantage-disadvantage"));
+assert.ok(ids.has("model-essay-memorization:task1-bar-charts:1"));
+assert.ok(ids.has("model-essay-memorization:opinion:106"));
 assert.ok(ids.has("speaking:ielts-part-2-book-1-exercise-01"));
 assert.ok(ids.has("sentence:ss345"));
 assert.ok(ids.has("idiom:idiom-138"));
@@ -145,6 +172,24 @@ assert.ok([...ids].some((id) => id.startsWith("download-material:reading-passage
 assert.ok([...ids].some((id) => id.startsWith("download-material:reading-passage-2:")));
 assert.ok([...ids].some((id) => id.startsWith("download-material:reading-passage-3:")));
 assert.ok([...ids].some((id) => id.startsWith("download-material:listening:")));
+
+const modelEssayMemorizationResources = byType["model-essay-memorization"] || [];
+assert.deepEqual(
+  modelEssayMemorizationResources.map((resource) => resource.id).sort(),
+  Array.from(releasedEssayMemoryCatalogue, (essay) => `model-essay-memorization:${essay.key}`).sort(),
+  "Homework must mirror the exact released Model Essay Memorization catalogue"
+);
+for (const essay of releasedEssayMemoryCatalogue) {
+  const resource = modelEssayMemorizationResources.find((item) => item.id === `model-essay-memorization:${essay.key}`);
+  assert.ok(resource, `Model Essay Memorization Homework resource should exist: ${essay.key}`);
+  assert.equal(resource.label, straightApostrophes(essay.title), `Model Essay Memorization should preserve its title: ${essay.key}`);
+  assert.equal(resource.ordinal, Number(essay.key.split(":").at(-1)), `Model Essay Memorization should retain its essay number: ${essay.key}`);
+  assert.equal(
+    resource.url,
+    `essay-memorization.html?essay=${encodeURIComponent(essay.key)}`,
+    `Model Essay Memorization Homework link should open the exact essay: ${essay.key}`
+  );
+}
 
 const downloadMaterialsByCatalog = (byType["download-material"] || []).reduce((counts, resource) => {
   const catalog = new URL(resource.url, "https://edmundeducation.com/").searchParams.get("catalog");
@@ -1007,12 +1052,12 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261102-song-homework1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261102-song-homework1/, "Homework link helper cache key is stale");
-assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261102-song-homework1/, "Homework export cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20261103-crayon-loop/, "Schedule application cache key is stale");
-assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261102-song-homework1/, "Homework Hot Keys application cache key is stale");
-assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261102-song-homework1/, "Homework Hot Keys helper cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261104-memory-essay-homework1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261104-memory-essay-homework1/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261104-memory-essay-homework1/, "Homework export cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20261104-memory-essay-homework1/, "Schedule application cache key is stale");
+assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261104-memory-essay-homework1/, "Homework Hot Keys application cache key is stale");
+assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261104-memory-essay-homework1/, "Homework Hot Keys helper cache key is stale");
 assert.match(scheduleJs, /homeworkLinkContent\(link, resource, isDownload\)/, "homework links should render a consistent vector icon");
 assert.match(scheduleJs, /M10 2\.5v10/, "download links should include a vector download path");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");

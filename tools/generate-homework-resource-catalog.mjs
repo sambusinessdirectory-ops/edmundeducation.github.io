@@ -797,6 +797,50 @@ async function synonymModuleResources() {
   return resources;
 }
 
+async function modelEssayMemorizationResources() {
+  const data = await evaluateFiles([
+    "essay-memory-catalog.js",
+    "essay-memory-release-manifest.js"
+  ]);
+  const catalogue = data.ESSAY_MEMORY_CATALOG;
+  const approved = data.ESSAY_MEMORY_APPROVED;
+  if (!Array.isArray(catalogue) || !catalogue.length) {
+    throw new Error("Model Essay Memorization catalogue is empty");
+  }
+  if (!approved || typeof approved !== "object" || Array.isArray(approved)) {
+    throw new Error("Model Essay Memorization release manifest is unavailable");
+  }
+
+  const catalogueKeys = new Set();
+  for (const essay of catalogue) {
+    const key = String(essay?.key || "");
+    if (!/^[a-z0-9-]+:[1-9]\d*$/.test(key)) {
+      throw new Error(`Invalid Model Essay Memorization key: ${key || "(empty)"}`);
+    }
+    if (catalogueKeys.has(key)) throw new Error(`Duplicate Model Essay Memorization key: ${key}`);
+    if (!String(essay?.title || "").trim()) throw new Error(`Model Essay Memorization title is missing: ${key}`);
+    if (!String(essay?.exam || "").trim()) throw new Error(`Model Essay Memorization exam is missing: ${key}`);
+    if (!String(essay?.taskType || "").trim()) throw new Error(`Model Essay Memorization task type is missing: ${key}`);
+    if (!String(essay?.question || "").trim()) throw new Error(`Model Essay Memorization question is missing: ${key}`);
+    catalogueKeys.add(key);
+  }
+  for (const [key, value] of Object.entries(approved)) {
+    if (value !== true) throw new Error(`Model Essay Memorization approval must be true: ${key}`);
+    if (!catalogueKeys.has(key)) throw new Error(`Approved Model Essay Memorization key is missing from catalogue: ${key}`);
+  }
+
+  const released = catalogue.filter((essay) => approved[essay.key] === true);
+  if (!released.length) throw new Error("No released Model Essay Memorization lessons were found");
+  return released.map((essay) => ({
+    id: `model-essay-memorization:${essay.key}`,
+    type: "model-essay-memorization",
+    ordinal: Number(essay.key.split(":").at(-1)),
+    label: straightApostrophes(essay.title),
+    detail: compactText(`${essay.exam} · ${essay.taskType} · ${straightApostrophes(essay.question)}`),
+    url: `essay-memorization.html?essay=${encodeURIComponent(essay.key)}`
+  }));
+}
+
 async function registeredProviderResources(allFiles) {
   const files = allFiles.filter((file) => /(?:^|-)homework-resources\.js$/i.test(file)).sort();
   const resources = [];
@@ -886,6 +930,7 @@ const resources = [
   {id:'ielts-question-types:task2',type:'ielts-question-types',label:'IELTS Question Types · Task 2',detail:'IELTS Writing · Essays',url:'ielts-writing-question-preview.html#task2'},
   ...await flashcardResources(allFiles),
   ...writingPracticeResources,
+  ...await modelEssayMemorizationResources(),
   ...writingSubmissionResources(writingPracticeResources),
   ...await dseWritingPartADownloadResources(),
   ...await downloadMaterialResources(),
