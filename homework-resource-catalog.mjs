@@ -32929,7 +32929,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "id": "learning-portal:english-humour-writing",
     "type": "learning-portal",
     "ordinal": 46,
-    "label": "English Humour / Speaking / 英文幽默寫作系統",
+    "label": "English Humour / Writing / 英文幽默寫作系統",
     "detail": "學生學習系統 · Speaking / 英文幽默寫作系統",
     "url": "english-humour-writing.html"
   },

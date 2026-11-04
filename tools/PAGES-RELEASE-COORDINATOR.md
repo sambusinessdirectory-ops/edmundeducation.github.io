@@ -8,6 +8,10 @@ GitHub Pages releases are coordinated by
   selects one standard, Paper 3, or homepage artifact builder.
 - Focused validation tags are recovered from the commits that produced each
   changed file, including files combined through concurrent merge commits.
+- `tools/pages-system-release-map.json` owns the union of the homepage learning
+  cards and `shared-system-nav.js` destinations. Every exposed route must map
+  to a versioned scope in `tools/pages-release-scopes.json`; the build fails if
+  a new system is exposed without focused validation ownership.
 - Artifact builders may run in parallel, so a newer push does not wait for an
   unrelated artifact to finish. The publisher owns the only production Pages
   lock and accepts only the current `main` SHA, so completed older artifacts
@@ -16,8 +20,12 @@ GitHub Pages releases are coordinated by
   SHA under its own non-cancellable lock. Ordinary content changes are applied
   to that snapshot as a delta, while workflow, Paper 3, and R2-index changes
   intentionally request a full rebuild.
+- Unchanged public media, including verified audio output, stays in the
+  deployed snapshot. Focused releases fetch and replace only changed media and
+  the small source set needed by that system's contract checks.
 - Live SHA verification runs inside the publisher alongside the snapshot update,
   so it uses the same publication-slot decision and cannot be skipped by a
   missing reusable-workflow output in the coordinator.
 
-The release regression gate is `tools/test-pages-release-coordinator.py`.
+The release regression gates are `tools/test-pages-release-coordinator.py` and
+`tools/test-pages-system-release-map.py`.

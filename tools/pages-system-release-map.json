@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "description": "Canonical release ownership for every learning or service route exposed by the homepage deck or shared system directory.",
+  "families": {
+    "[homework-release]": [
+      "schedule-system.html"
+    ],
+    "[writing-release]": [
+      "essay-memorization.html",
+      "writing-practice.html",
+      "writing-submission.html"
+    ],
+    "[downloads-release]": [
+      "model-essay-downloads.html"
+    ],
+    "[flashcard-release]": [
+      "flashcards.html"
+    ],
+    "[parent-release]": [
+      "parent-communication.html"
+    ],
+    "[speaking-release]": [
+      "speaking-system.html"
+    ],
+    "[listening-types-release]": [
+      "listening-system.html"
+    ],
+    "[sentence-release]": [
+      "sentence-structure.html"
+    ],
+    "[idiom-release]": [
+      "idiom-system.html"
+    ],
+    "[proverb-release]": [
+      "proverb-system.html"
+    ],
+    "[phrasal-release]": [
+      "phrasal-verb-system.html"
+    ],
+    "[paper3-analysis-release]": [
+      "dse-paper3-analysis.html"
+    ],
+    "[progress-release]": [
+      "student-progress.html"
+    ],
+    "[common-expression-release]": [
+      "common-expression-business-speaking.html",
+      "common-expression-professional-message.html",
+      "common-expression-rhetorical-speaking.html",
+      "common-expression-rhetorical-writing.html",
+      "common-expression-speaking.html",
+      "common-expression-written.html"
+    ],
+    "[learning-portal-release]": [
+      "argument-learning-system.html",
+      "business-school-system.html",
+      "collocation-system.html",
+      "complex-questions-system.html",
+      "english-humour-speaking.html",
+      "english-humour-writing.html",
+      "english-in-shows-system.html",
+      "english-joke-collection.html",
+      "false-friends-system.html",
+      "fragmented-reading-system.html",
+      "learning-roadmap.html",
+      "leisurely-reading.html",
+      "part-of-speech-system.html",
+      "poem-english-system.html",
+      "precise-language-system.html",
+      "quotes-system.html",
+      "spelling-system.html",
+      "ted-talk-english-system.html",
+      "thematic-vocabulary-system.html",
+      "translation-skills-system.html"
+    ],
+    "[grammar-release]": [
+      "grammar-system.html"
+    ],
+    "[irregular-release]": [
+      "irregular-verb-system.html"
+    ],
+    "[synonyms-release]": [
+      "synonyms-system.html"
+    ],
+    "[error-id-release]": [
+      "error-identifier-system.html"
+    ],
+    "[reading-release]": [
+      "ielts-reading-analysis.html",
+      "reading-comprehension.html",
+      "reading-logic-system.html"
+    ],
+    "[song-release]": [
+      "song-appreciation.html"
+    ],
+    "[bookmark-release]": [
+      "bookmark-directory.html"
+    ],
+    "[execution-release]": [
+      "execution-system.html"
+    ],
+    "[coin-release]": [
+      "eddie-farm.html"
+    ],
+    "[membership-release]": [
+      "membership.html"
+    ],
+    "[background-music-release]": [
+      "background-music.html"
+    ],
+    "[question-collection-release]": [
+      "question-collection.html"
+    ],
+    "[professional-release]": [
+      "professional-english/",
+      "professional-english/recall.html"
+    ],
+    "[accent-release]": [
+      "excellent-learning-system.html"
+    ],
+    "[polysemy-release]": [
+      "polysemy-lab.html"
+    ],
+    "[native-release]": [
+      "advanced-native.html",
+      "natural-english.html"
+    ],
+    "[country-spelling-release]": [
+      "country-name-spelling.html"
+    ],
+    "[speech-curation-release]": [
+      "speech-curation.html"
+    ],
+    "[chip-course-release]": [
+      "chip-course.html"
+    ],
+    "[junior-release]": [
+      "junior-exam-prep.html",
+      "junior-quiz-review.html"
+    ],
+    "[news-release]": [
+      "news-discussion.html",
+      "policy-discussion.html"
+    ],
+    "[news-reader-release]": [
+      "news-reader.html"
+    ],
+    "[dse-arguments-release]": [
+      "dse-argument-bank.html"
+    ],
+    "[writing-preview-release]": [
+      "ielts-writing-question-preview.html"
+    ],
+    "[chart-release]": [
+      "ielts-chart-teaching.html"
+    ],
+    "[literary-release]": [
+      "literary-device.html"
+    ],
+    "[practical-writing-release]": [
+      "dse-practical-writing.html"
+    ],
+    "[video-class-release]": [
+      "video-class.html"
+    ]
+  }
+}

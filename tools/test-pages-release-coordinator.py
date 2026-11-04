@@ -70,6 +70,34 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("/course-materials/error-identifier/", step)
         self.assertIn("/supabase/migrations/20260827103531_eddie_farm_points.sql", step)
 
+    def test_every_build_validates_the_canonical_system_release_map(self):
+        standard = BUILDERS[0]
+        self.assertIn("Validate complete learning-system release coverage", standard)
+        self.assertIn("tools/test-pages-system-release-map.py", standard)
+        self.assertIn("/professional-english/index.html", standard)
+        self.assertIn("/professional-english/recall.html", standard)
+
+    def test_worker_backed_system_scopes_fetch_only_their_dependencies(self):
+        standard = BUILDERS[0]
+        for path in (
+            "/common-expression-system-imported-data.js",
+            "/irregular-verbs/",
+            "/natural-english/",
+            "/junior-quiz-review/",
+            "/news-discussion/",
+            "/dse-argument-bank/",
+            "/ielts-writing-preview/",
+            "/ielts-chart-teaching/",
+            "/workers/model-essay-downloads/",
+            "/workers/student-progress/",
+            "/workers/membership/",
+            "/workers/video-class/",
+            "/news-reader/",
+            "/speech-curation-assets/churchill-sentence-timing-v2.json",
+        ):
+            with self.subTest(path=path):
+                self.assertIn(path, standard)
+
     def test_practical_writing_scope_alone_checks_out_public_art_and_provenance(self):
         step = BUILDERS[0].split("*'[practical-writing-release]'*)", 1)[1].split(";;", 1)[0]
         self.assertIn("/dse-practical-writing-art/", step)

@@ -16,12 +16,15 @@
       "tools/PAGES-RELEASE-COORDINATOR.md",
       "tools/classify-pages-release.py",
       "tools/collect-pages-release-tags.py",
+      "tools/pages-system-release-map.json",
       "tools/pages-release-scopes.json",
       "tools/prepare-pages-incremental.py",
       "tools/rewrite-pages-assets.py",
       "tools/test-classify-pages-release.py",
       "tools/test-collect-pages-release-tags.py",
       "tools/test-pages-release-coordinator.py",
+      "tools/test-pages-system-release-map.py",
+      "tools/test-focused-system-portal.mjs",
       "tools/test-prepare-pages-incremental.py",
       "tools/test-rewrite-pages-assets.py",
       "tools/update-pages-snapshot.sh"
@@ -117,10 +120,12 @@
       "workers/writing-submission/**"
     ],
     "[polysemy-release]": [
+      "polysemy-lab.*",
       "polysemy-lab/**",
       "tools/test-polysemy-*.mjs"
     ],
     "[synonyms-release]": [
+      "synonyms-system.*",
       "synonyms/**",
       "tools/test-synonym-*.py",
       "tools/test-writing-synonyms.mjs"
@@ -132,6 +137,7 @@
       "tools/test-grammar-*.mjs"
     ],
     "[native-release]": [
+      "advanced-native.*",
       "advanced-native-*",
       "natural-english/**",
       "natural-english.*",
@@ -185,21 +191,25 @@
       "junior-exam-prep-*.html",
       "junior-exam-prep/**",
       "junior-exam-prep.html",
+      "junior-quiz-review.*",
       "junior-quiz-review/**",
       "supabase-junior-*.sql",
       "tools/test-junior-*.mjs"
     ],
     "[irregular-release]": [
+      "irregular-verb-system.*",
       "irregular-verbs/**",
       "tools/test-irregular-verbs.mjs"
     ],
     "[news-release]": [
       "news-discussion-*",
       "news-discussion.*",
+      "policy-discussion.*",
       "policy-discussion/**",
       "tools/build-policy-discussion.py"
     ],
     "[dse-arguments-release]": [
+      "dse-argument-bank.*",
       "dse-argument-bank/**",
       "tools/build-dse-*-bank.py",
       "tools/test-dse-argument-*.mjs",
@@ -212,11 +222,13 @@
       "tools/test-song-*.mjs"
     ],
     "[writing-preview-release]": [
+      "ielts-writing-question-preview.*",
       "ielts-writing-preview/**",
       "ielts-writing-preview.*",
       "tools/test-ielts-writing-preview.mjs"
     ],
     "[chart-release]": [
+      "ielts-chart-teaching.*",
       "ielts-chart-teaching/**",
       "tools/build-ielts-chart-vocabulary.py",
       "tools/test-ielts-chart-*.mjs",
@@ -289,11 +301,114 @@
       "tools/manuals/build-paper3-*.py",
       "tools/paper3/**"
     ],
+    "[paper3-analysis-release]": [
+      "dse-paper3-analysis.*",
+      "dse-paper3-listening-archive.*",
+      "tools/test-dse-paper3-analysis-*.mjs"
+    ],
     "[practical-writing-release]": [
       "assets/dse-practical-writing/**",
       "dse-practical-writing-art/**",
       "dse-practical-writing.*",
       "tools/test-dse-practical-writing*.mjs"
+    ],
+    "[downloads-release]": [
+      "model-essay-downloads.*",
+      "tools/test-essay-portal-links.mjs",
+      "tools/test-model-essay-download-worker.mjs",
+      "workers/model-essay-downloads/**"
+    ],
+    "[parent-release]": [
+      "parent-communication.*",
+      "supabase-parent-communication-system.sql",
+      "tools/test-parent-communication-system.mjs"
+    ],
+    "[progress-release]": [
+      "student-progress-*",
+      "student-progress.*",
+      "supabase-student-progress*.sql",
+      "tools/test-student-progress-*.mjs",
+      "workers/student-progress/**"
+    ],
+    "[common-expression-release]": [
+      "common-expression-*",
+      "common-expression.*",
+      "tools/test-common-expression-*.cjs",
+      "tools/test-common-expression-*.mjs"
+    ],
+    "[learning-portal-release]": [
+      "argument-learning-system.*",
+      "business-school-system.*",
+      "collocation-system.*",
+      "complex-questions-system.*",
+      "english-humour-*",
+      "english-in-shows-system.*",
+      "english-joke-collection.*",
+      "false-friends-system.*",
+      "fragmented-reading-system.*",
+      "learning-portal-*",
+      "learning-roadmap.*",
+      "leisurely-reading.*",
+      "part-of-speech-system.*",
+      "poem-english-system.*",
+      "precise-language-system.*",
+      "quotes-system.*",
+      "spelling-system.*",
+      "ted-talk-english-system.*",
+      "thematic-vocabulary-system.*",
+      "tools/test-learning-portal-scaffolds.mjs",
+      "translation-skills-system.*"
+    ],
+    "[bookmark-release]": [
+      "bookmark-directory.*",
+      "supabase-unified-bookmark-directory-*.sql",
+      "tools/test-unified-bookmark-directory.mjs"
+    ],
+    "[execution-release]": [
+      "execution-*",
+      "supabase-execution-system*.sql",
+      "tools/test-execution-*.mjs"
+    ],
+    "[membership-release]": [
+      "membership-*",
+      "membership.*",
+      "supabase/migrations/*membership*",
+      "tools/test-membership-*.mjs",
+      "tools/verify-membership-login.mjs",
+      "workers/membership/**"
+    ],
+    "[background-music-release]": [
+      "background-music-*",
+      "background-music.*"
+    ],
+    "[question-collection-release]": [
+      "question-collection.*"
+    ],
+    "[accent-release]": [
+      "excellent-learning-system.*"
+    ],
+    "[speech-curation-release]": [
+      "speech-curation-*",
+      "speech-curation.*",
+      "speech-curation-assets/**",
+      "tools/test-churchill-audio-timing.mjs"
+    ],
+    "[chip-course-release]": [
+      "chip-course-*",
+      "chip-course.*",
+      "tools/test-chip-course-lab.mjs"
+    ],
+    "[news-reader-release]": [
+      "news-reader.*",
+      "news-reader/**",
+      "supabase-news-reader.sql"
+    ],
+    "[video-class-release]": [
+      "supabase-video-class*.sql",
+      "tools/test-video-class.mjs",
+      "video-class-*",
+      "video-class.*",
+      "workers/video-class/**"
     ]
   }
 }
