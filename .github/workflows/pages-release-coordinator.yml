@@ -1,0 +1,161 @@
+name: Coordinate GitHub Pages release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  route:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    concurrency:
+      group: pages-candidate-main
+      cancel-in-progress: true
+    outputs:
+      base_sha: ${{ steps.classify.outputs.base_sha }}
+      release_tags: ${{ steps.classify.outputs.release_tags }}
+      route: ${{ steps.classify.outputs.route }}
+    steps:
+      - name: Batch nearby pushes before expensive work
+        run: sleep 45
+
+      - name: Confirm this is still the newest main commit
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { data } = await github.rest.git.getRef({ ...context.repo, ref: 'heads/main' });
+            if (data.object.sha !== context.sha) {
+              core.setFailed(`Superseded before build: ${context.sha}; main is ${data.object.sha}.`);
+            }
+
+      - name: Checkout release router
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /tools/classify-pages-release.py
+            /tools/collect-pages-release-tags.py
+            /tools/test-classify-pages-release.py
+            /tools/test-collect-pages-release-tags.py
+
+      - name: Classify the complete undeployed change
+        id: classify
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 -m unittest \
+            tools/test-classify-pages-release.py \
+            tools/test-collect-pages-release-tags.py
+
+          snapshot_commit=$(git ls-remote origin refs/heads/pages-snapshot | cut -f1)
+          if [[ -z "${snapshot_commit}" ]]; then
+            echo "base_sha=${GITHUB_SHA}" >> "${GITHUB_OUTPUT}"
+            echo "release_tags=" >> "${GITHUB_OUTPUT}"
+            echo "route=standard" >> "${GITHUB_OUTPUT}"
+            exit 0
+          fi
+
+          git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "${snapshot_commit}"
+          base_sha=$(git show "${snapshot_commit}:.source-sha")
+          git -c protocol.version=2 fetch --no-tags --depth=100 --filter=blob:none origin "${GITHUB_SHA}"
+          git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "${base_sha}"
+
+          route=standard
+          release_tags=
+          if git merge-base --is-ancestor "${base_sha}" "${GITHUB_SHA}"; then
+            git diff --name-only "${base_sha}" "${GITHUB_SHA}" > /tmp/pages-release-paths.txt
+            route=$(python3 tools/classify-pages-release.py /tmp/pages-release-paths.txt)
+            git log --no-merges --format='%B%x00' "${base_sha}..${GITHUB_SHA}" > /tmp/pages-release-messages.txt
+            release_tags=$(python3 tools/collect-pages-release-tags.py /tmp/pages-release-messages.txt)
+          fi
+
+          echo "base_sha=${base_sha}" >> "${GITHUB_OUTPUT}"
+          echo "release_tags=${release_tags}" >> "${GITHUB_OUTPUT}"
+          echo "route=${route}" >> "${GITHUB_OUTPUT}"
+          echo "Pages release route: ${route}; tags: ${release_tags:-full validation}; from ${base_sha} to ${GITHUB_SHA}"
+
+  standard:
+    needs: route
+    if: needs.route.outputs.route == 'standard'
+    concurrency:
+      group: pages-candidate-main
+      cancel-in-progress: true
+    uses: ./.github/workflows/pages.yml
+    with:
+      release_tags: ${{ needs.route.outputs.release_tags }}
+    permissions:
+      actions: write
+      contents: read
+      pages: read
+
+  paper3:
+    needs: route
+    if: needs.route.outputs.route == 'paper3'
+    concurrency:
+      group: pages-candidate-main
+      cancel-in-progress: true
+    uses: ./.github/workflows/pages-paper3-fast.yml
+    permissions:
+      actions: read
+      contents: read
+      pages: read
+
+  site:
+    needs: route
+    if: needs.route.outputs.route == 'site'
+    concurrency:
+      group: pages-candidate-main
+      cancel-in-progress: true
+    uses: ./.github/workflows/pages-fast.yml
+    with:
+      base_sha: ${{ needs.route.outputs.base_sha }}
+    permissions:
+      actions: read
+      contents: read
+      pages: read
+
+  publish:
+    needs: [route, standard, paper3, site]
+    if: >-
+      ${{ always() && needs.route.result == 'success' && (
+        (needs.route.outputs.route == 'standard' && needs.standard.result == 'success') ||
+        (needs.route.outputs.route == 'paper3' && needs.paper3.result == 'success') ||
+        (needs.route.outputs.route == 'site' && needs.site.result == 'success')
+      ) }}
+    uses: ./.github/workflows/publish-pages-artifact.yml
+    with:
+      artifact_name: ${{ needs.standard.outputs.artifact_name || needs.paper3.outputs.artifact_name || needs.site.outputs.artifact_name }}
+    permissions:
+      actions: read
+      contents: write
+      pages: write
+      id-token: write
+
+  verify-live:
+    needs: publish
+    if: needs.publish.outputs.current == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Verify the coordinated release is live
+        shell: bash
+        run: |
+          set -euo pipefail
+          release_url="https://edmundeducation.com/release.json?release=${GITHUB_SHA}"
+          for attempt in {1..60}; do
+            release=$(curl --fail --silent --show-error -H 'Cache-Control: no-cache' "${release_url}" || true)
+            if grep -Fq "${GITHUB_SHA}" <<<"${release}"; then
+              echo "Verified coordinated release ${GITHUB_SHA}."
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Production did not expose coordinated release ${GITHUB_SHA}." >&2
+          exit 1
