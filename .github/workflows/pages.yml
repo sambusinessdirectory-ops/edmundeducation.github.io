@@ -135,6 +135,7 @@ jobs:
           case "${RELEASE_TAGS}" in
             *'[country-spelling-release]'*)
               cat >> .git/info/sparse-checkout <<'PATTERNS'
+          /country-name-spelling-audio/
           /country-name-spelling-flags/
           /country-name-spelling-map/
           PATTERNS
@@ -777,6 +778,7 @@ jobs:
         run: |
           node --check country-name-spelling-data.mjs
           node --check country-name-spelling-terminal.mjs
+          node --check tools/sync-country-name-spelling-flags.mjs
           node tools/test-country-name-spelling.mjs
 
       - name: Validate focused DSE Practical Writing release
