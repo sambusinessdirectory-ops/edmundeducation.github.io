@@ -58,7 +58,8 @@ async function auditInitialPodcast(page){
       cueProgress:E('count').textContent,
       revealed:document.querySelectorAll('#turns>.speech.is-revealed').length,
       strikes:document.querySelectorAll('#turns>.speech.curation-transcript-strike').length,
-      currentTurns:document.querySelectorAll('#turns>.speech.is-current').length,
+      currentSentences:document.querySelectorAll('#turns .curation-transcript-sentence.is-current').length,
+      sentenceCount:document.querySelectorAll('#turns .curation-transcript-sentence').length,
       follow:document.querySelector('#transcript-follow')?.getAttribute('aria-pressed'),
       structured:[...document.querySelectorAll('#turns>.speech')].every(line=>line.querySelector(':scope>.speaker')&&line.querySelector(':scope>.curation-transcript-copy')),
       turnCount:document.querySelectorAll('#turns>.speech').length,
@@ -82,7 +83,7 @@ async function auditInitialPodcast(page){
   assert.equal(state.playerCount,1);assert.equal(state.transcriptCount,1);assert.equal(state.timelines,1);assert.equal(state.pins,17);assert.equal(state.legacy,0);
   assert.match(state.timeText,/^0:00 \/ 6:52/);assert(Math.abs(state.currentTime-426)<.15,state);assert.equal(state.cueIndex,0);assert.equal(state.done,false);assert.equal(state.completed,-1);
   assert.match(state.cueProgress,/1 \/ 17/);assert.doesNotMatch(state.cueProgress,/166/);
-  assert.equal(state.revealed,0);assert.equal(state.strikes,0);assert.equal(state.currentTurns,1);assert.equal(state.follow,'true');
+  assert.equal(state.revealed,0);assert.equal(state.strikes,0);assert.equal(state.currentSentences,0);assert(state.sentenceCount>100,state);assert.equal(state.follow,'true');
   assert.equal(state.structured,true);assert.equal(state.turnCount,76);assert(state.minCopyWidth>180,state);
   assert.deepEqual(state.fieldIds,['notes-live-study-cook','notes-filming-schedule','notes-food-kinds','notes-william-video','notes-golden-sun','notes-viewers-choice']);
   assert(state.fieldValues.every(value=>value===''),state.fieldValues);assert.deepEqual(state.headingTasks,['AB','B','C']);assert.equal(state.headingNoise,3);
@@ -90,6 +91,23 @@ async function auditInitialPodcast(page){
   assert.equal(state.togglePressed,String(!state.pinsHidden));
   assert.equal(state.coverage.first,426);assert.equal(state.coverage.last,838.79);assert.equal(state.coverage.contiguous,true);assert.equal(state.coverage.sourceInside,true);
   assert(Math.abs(state.coverage.duration-(838.79-426))<.01,state.coverage);
+}
+async function auditSentenceAlignment(page){
+  const units=await page.evaluate(()=>{
+    const units=podcastSentenceMetaV7.filter(unit=>unit.turn===38);
+    return [units[0],units.at(-1)].map(unit=>({index:unit.index,text:unit.sentence,start:unit.start,end:unit.end}));
+  });
+  const samples=[];
+  for(const unit of units){
+    await page.evaluate(unit=>{podcastController23.seek((unit.start+unit.end)/2);podcastController23.paint();},unit);
+    await page.waitForTimeout(250);
+    samples.push(await page.evaluate(unit=>{
+      const active=[...document.querySelectorAll('#turns .curation-transcript-sentence.is-current')],body=E('turns'),bodyRect=body.getBoundingClientRect(),activeRect=active[0]?.getBoundingClientRect(),style=active[0]&&getComputedStyle(active[0]);
+      return {expectedIndex:unit.index,expectedText:unit.text,activeCount:active.length,actualIndex:Number(active[0]?.dataset.reviewIndex),actualText:active[0]?.textContent||'',visible:!!activeRect&&activeRect.bottom>bodyRect.top&&activeRect.top<bodyRect.bottom,background:style?.backgroundColor,boxShadow:style?.boxShadow,status:E('podcast-cue-status').textContent};
+    },unit));
+  }
+  for(const sample of samples){assert.equal(sample.activeCount,1,sample);assert.equal(sample.actualIndex,sample.expectedIndex,sample);assert.equal(sample.actualText,sample.expectedText,sample);assert.equal(sample.visible,true,sample);assert.notEqual(sample.background,'rgba(0, 0, 0, 0)',sample);assert.notEqual(sample.boxShadow,'none',sample);assert.equal(sample.status.includes(sample.expectedText.slice(0,20)),true,sample);}
+  await page.evaluate(()=>podcastController23.replay(0,false));
 }
 async function playCue(page,index){
   await page.evaluate(index=>{podcastController23.replay(index,false);audio.playbackRate=16;},index);
@@ -108,10 +126,11 @@ async function auditListeningJourney(page){
   const firstState=await page.evaluate(()=>{
     const root=document.querySelector('.native-reader-host').shadowRoot;
     const body=document.querySelector('#turns'),source=body.querySelector('[data-id="18"]'),bodyRect=body.getBoundingClientRect(),sourceRect=source.getBoundingClientRect();
-    return {value:root.querySelector('#notes-live-study-cook').value,follow:document.querySelector('#transcript-follow').getAttribute('aria-pressed'),done,completed:podcastController23.snapshot().completedThrough,revealed:document.querySelectorAll('#turns>.speech.is-revealed').length,current:body.querySelector('.is-current')?.dataset.id,source:source.classList.contains('is-cue-source'),sourceVisible:sourceRect.bottom>bodyRect.top&&sourceRect.top<bodyRect.bottom};
+    const current=body.querySelector('.curation-transcript-sentence.is-current');
+    return {value:root.querySelector('#notes-live-study-cook').value,follow:document.querySelector('#transcript-follow').getAttribute('aria-pressed'),done,completed:podcastController23.snapshot().completedThrough,revealed:document.querySelectorAll('#turns>.speech.is-revealed').length,currentTurn:current?.closest('.speech')?.dataset.id,currentText:current?.textContent,source:source.classList.contains('is-cue-source'),sourceVisible:sourceRect.bottom>bodyRect.top&&sourceRect.top<bodyRect.bottom};
   });
   assert.match(firstState.value,/10 episodes/);assert.equal(firstState.follow,'true');assert.equal(firstState.done,true);assert.equal(firstState.completed,0);assert(firstState.revealed>0);
-  assert.equal(firstState.current,'18',firstState);assert.equal(firstState.source,true,firstState);assert.equal(firstState.sourceVisible,true,firstState);
+  assert.equal(firstState.currentTurn,'18',firstState);assert.match(firstState.currentText,/finance department/);assert.equal(firstState.source,true,firstState);assert.equal(firstState.sourceVisible,true,firstState);
 
   await page.locator('#transcript-translate').click();
   const translated=await page.evaluate(()=>({
@@ -173,7 +192,7 @@ async function chromiumRun(){
   const browser=await chromium.launch();
   try{
     const page=await browser.newPage({reducedMotion:'no-preference'}),errors=[];page.on('pageerror',error=>errors.push(error.message));
-    await fresh(page);await auditBoss(page);await enterPodcast(page);await waitForAudio(page);await auditInitialPodcast(page);await auditListeningJourney(page);await auditOtherContracts(page);
+    await fresh(page);await auditBoss(page);await enterPodcast(page);await waitForAudio(page);await auditInitialPodcast(page);await auditSentenceAlignment(page);await auditListeningJourney(page);await auditOtherContracts(page);
     assert.deepEqual(errors,[]);
   }finally{await browser.close()}
 }

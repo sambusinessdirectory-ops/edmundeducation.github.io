@@ -206,8 +206,16 @@
     const segments = typeof Intl.Segmenter === 'function'
       ? [...new Intl.Segmenter('en',{granularity:'sentence'}).segment(turn.text)].map(item => item.segment.trim())
       : turn.text.split(/(?<=[.!?])\s+/).map(item => item.trim());
-    return segments.filter(Boolean).map((sentence,part) => ({turn:offset+6,part,sentence,speaker:turn.speaker}));
+    let cursor=0;
+    return segments.filter(Boolean).map((sentence,part) => {
+      const at=Math.max(cursor,turn.text.indexOf(sentence,cursor)),endAt=at+sentence.length;
+      cursor=endAt;
+      const duration=Math.max(.001,turn.end-turn.start),length=Math.max(1,turn.text.length);
+      return {turn:offset+6,part,sentence,speaker:turn.speaker,
+        start:turn.start+duration*(at/length),end:turn.start+duration*(endAt/length)};
+    });
   });
+  window.reviewUnits23=reviewUnits;
   if (reviewIndex >= reviewUnits.length) reviewIndex = -1;
   const cueByTurn = new Map(cues.map((cue,j) => [cue[0],{cue,j}]));
   function reviewRole(unit) {
@@ -223,6 +231,9 @@
   const reviewId = unit => `review:${unit.turn}:${unit.part}`;
   let lastReview = -1, lastReviewLanguage = '';
   function resetTranscriptTurn23(row,turnIndex) {
+    if(typeof window.ensureTranscriptTurn23==='function'){
+      window.ensureTranscriptTurn23(row,turnIndex);return row.querySelector('.curation-transcript-copy');
+    }
     const turn=transcript[turnIndex];row.replaceChildren();row.classList.add('speech');row.dataset.id=String(turnIndex);
     const speaker=document.createElement('strong');speaker.className='speaker';speaker.textContent=turn.speaker;
     const copy=document.createElement('div');copy.className='curation-transcript-copy';

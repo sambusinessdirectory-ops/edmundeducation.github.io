@@ -23,13 +23,15 @@ window.podcastCueMetaV7=podcastCueMetaV7;
 
 let podcastCompletedThroughV7=-1;
 let podcastFollowV7=true;
-let podcastCurrentTurnV7=-1;
 let podcastActivatedV7=false;
 let podcastProgrammaticScrollV7=false;
 let podcastStateLockV7=false;
 let podcastChromeBuiltV7=false;
 let podcastPlaybackCueV7=-1;
 let podcastDesiredTimeV7=podcastOriginV7;
+let podcastCurrentSentenceV7=-1;
+const podcastSentenceMetaV7=(window.reviewUnits23||[]).map((unit,index)=>({...unit,index}));
+window.podcastSentenceMetaV7=podcastSentenceMetaV7;
 
 function preparePodcastAudioOutputV7(){
   if(!audio.isConnected)panel.prepend(audio);
@@ -111,11 +113,19 @@ function updatePodcastFollowV7(){
 }
 function ensurePodcastTranscriptLineV7(line,turnIndex){
   const turn=transcript[turnIndex];if(!line||!turn)return;
-  line.className='speech curation-transcript-sentence';line.dataset.id=String(turnIndex);
+  line.className='speech';line.dataset.id=String(turnIndex);
   line.replaceChildren();
   const speaker=document.createElement('strong');speaker.className='speaker';speaker.textContent=turn.speaker;
   const copy=document.createElement('div');copy.className='curation-transcript-copy';
-  const text=document.createElement('p');text.className='curation-transcript-text';text.textContent=turn.text;copy.append(text);
+  const text=document.createElement('p');text.className='curation-transcript-text';let cursor=0;
+  podcastSentenceMetaV7.filter(unit=>unit.turn===turnIndex).forEach(unit=>{
+    const at=turn.text.indexOf(unit.sentence,cursor);if(at<0)return;
+    text.append(document.createTextNode(turn.text.slice(cursor,at)));
+    const span=document.createElement('span');span.className='curation-transcript-sentence';
+    span.dataset.reviewIndex=String(unit.index);span.dataset.start=String(unit.start);span.dataset.end=String(unit.end);span.textContent=unit.sentence;
+    text.append(span);cursor=at+unit.sentence.length;
+  });
+  text.append(document.createTextNode(turn.text.slice(cursor)));copy.append(text);
   if(zhTurns[turnIndex-6]){const translation=document.createElement('p');translation.className='translation';translation.textContent=zhTurns[turnIndex-6];copy.append(translation)}
   line.append(speaker,copy);
 }
@@ -197,37 +207,38 @@ function bindPodcastChromeV7(){
   scriptWindow.querySelectorAll('.curation-resize-handle').forEach(handle=>{handle.onpointerdown=event=>{event.preventDefault();event.stopPropagation();const corner=handle.dataset.corner,start=scriptWindow.getBoundingClientRect(),x=event.clientX,y=event.clientY;handle.setPointerCapture(event.pointerId);handle.onpointermove=move=>{let left=start.left,top=start.top,width=start.width,height=start.height;if(corner.includes('e'))width=Math.max(430,start.width+move.clientX-x);if(corner.includes('s'))height=Math.max(240,start.height+move.clientY-y);if(corner.includes('w')){width=Math.max(430,start.width-(move.clientX-x));left=start.right-width}if(corner.includes('n')){height=Math.max(240,start.height-(move.clientY-y));top=start.bottom-height}left=Math.max(0,left);top=Math.max(0,top);width=Math.min(innerWidth-left,width);height=Math.min(innerHeight-top,height);Object.assign(scriptWindow.style,{left:left+'px',right:'auto',top:top+'px',width:width+'px',height:height+'px'})};handle.onpointerup=()=>handle.onpointermove=null}});
   updatePodcastFollowV7();
 }
-function currentPodcastTurnV7(value){
-  const time=podcastMediaTimeV7(value);let current=6;
-  for(let index=6;index<82;index++){if(transcript[index].start<=time+.04)current=index;else break}
-  return current;
+function currentPodcastSentenceAtV7(value){
+  const time=podcastMediaTimeV7(value);if(!Number.isFinite(time))return null;
+  return podcastSentenceMetaV7.find(unit=>time>=unit.start-.04&&time<=unit.end+.04)||null;
 }
-function followPodcastTurnV7(turnIndex,force=false){
-  if(!podcastFollowV7||(!force&&turnIndex===podcastCurrentTurnV7))return;
-  const target=E('turns')?.querySelector('[data-id="'+turnIndex+'"]');if(!target)return;
-  const body=E('turns'),top=target.offsetTop-body.clientHeight/2+target.clientHeight/2;
+function followPodcastSentenceV7(sentence,force=false){
+  if(!podcastFollowV7||!sentence||(!force&&sentence.index===podcastCurrentSentenceV7))return;
+  const target=E('turns')?.querySelector('[data-review-index="'+sentence.index+'"]');if(!target)return;
+  const body=E('turns'),bodyRect=body.getBoundingClientRect(),targetRect=target.getBoundingClientRect();
+  const top=body.scrollTop+(targetRect.top-bodyRect.top)-body.clientHeight/2+targetRect.height/2;
   podcastProgrammaticScrollV7=true;
-  body.scrollTo({top:Math.max(0,top),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+  body.scrollTo({top:Math.max(0,top),behavior:force||matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
   setTimeout(()=>{podcastProgrammaticScrollV7=false},500);
 }
 function paintPodcastV7(forceFollow=false){
   if(!podcastChromeBuiltV7)return;
   const time=Math.max(podcastOriginV7,Math.min(podcastEndV7,Number(audio.currentTime)||podcastOriginV7));
-  const elapsed=time-podcastOriginV7,cue=podcastCueMetaV7[cueIndex],current=currentPodcastTurnV7(time);
+  const elapsed=time-podcastOriginV7,cue=podcastCueMetaV7[cueIndex],current=currentPodcastSentenceAtV7(time);
   E('time').textContent=tstr(elapsed)+' / '+tstr(podcastDurationV7);E('seek').value=String(time);
   [...E('ticks').children].forEach((pin,index)=>pin.classList.toggle('is-heard',index<=podcastCompletedThroughV7));
   if(scriptWindow.dataset.reviewMode!=='true'){
     for(const line of E('turns').children){
       const turnIndex=Number(line.dataset.id),turn=transcript[turnIndex],reached=turn.end<=time+.035,taskCue=cues.find(item=>item[0]===turnIndex);
-      line.classList.toggle('is-current',turnIndex===current);line.classList.toggle('is-cue-source',turnIndex===cue.turn&&time>=cue.sourceStart-.04);
+      line.classList.toggle('is-current-turn',turnIndex===current?.turn);line.classList.toggle('is-cue-source',turnIndex===cue.turn&&time>=cue.sourceStart-.04);
+      line.querySelectorAll('.curation-transcript-sentence').forEach(sentence=>sentence.classList.toggle('is-current',Number(sentence.dataset.reviewIndex)===current?.index));
       line.classList.toggle('is-revealed',reached);
       line.classList.remove('curation-transcript-A','curation-transcript-B','curation-transcript-C','curation-transcript-listening','curation-transcript-strike','curation-transcript-strike-direct','curation-strike');
       if(reached&&taskCue)line.classList.add(taskCue[1]>=1&&taskCue[1]<=3?'curation-transcript-'+'ABC'[taskCue[1]-1]:'curation-transcript-listening');
       if(reached&&noiseTurns.has(turnIndex))line.classList.add('curation-transcript-strike','curation-transcript-strike-direct','curation-strike');
     }
-    followPodcastTurnV7(current,forceFollow);podcastCurrentTurnV7=current;
+    followPodcastSentenceV7(current,forceFollow);podcastCurrentSentenceV7=current?.index??-1;
   }
-  E('podcast-cue-status').textContent='Cue '+(cue.index+1)+'/17 · 下一停頓 '+tstr(cue.end-podcastOriginV7)+' · '+podcastNoteFieldsV4[fieldIds[cue.index]].title;
+  E('podcast-cue-status').textContent='Cue '+(cue.index+1)+'/17 · 下一停頓 '+tstr(cue.end-podcastOriginV7)+' · '+podcastNoteFieldsV4[fieldIds[cue.index]].title+(current?' · '+current.speaker+': '+current.sentence:' · 等待下一句');
 }
 function focusPodcastDestinationV7(cue,{scroll=false}={}){
   const root=podcastRootV4(),field=podcastFieldV4(fieldIds[cue.index]);if(!root||!field)return;
