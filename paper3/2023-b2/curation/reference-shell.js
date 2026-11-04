@@ -102,7 +102,9 @@ if(r.stage===3){
   $s('#curation-quote').textContent=r.manualQuote||r.q;
   ex.replaceChildren();
   const badge=document.createElement('p');badge.className='curation-provenance curation-provenance-'+r.origin;badge.textContent=provenance23[r.origin]||'補充取證';ex.append(badge);
-  const banner=document.createElement('p');banner.className='curation-type curation-type-'+r.t;banner.textContent=r.manualType||('類型：'+types[r.t]);ex.append(banner);
+  const runtimeType='類型：'+types[r.t];
+  const banner=document.createElement('p');banner.className='curation-type curation-type-'+r.t;banner.textContent=runtimeType;ex.append(banner);
+  if(r.manualType&&r.manualType!==runtimeType){const authored=document.createElement('p');authored.className='curation-manual-type-note';authored.textContent='原版導讀標籤（跨句逐字）：'+r.manualType;ex.append(authored)}
   if(r.origin==='manual'){
     const heading=document.createElement('p');heading.className='curation-analysis-heading';heading.textContent='分析（原文）';
     const list=document.createElement('ul');list.className='curation-verbatim-analysis';for(const line of r.manualAnalysis){const item=document.createElement('li');item.textContent=line;list.append(item)}

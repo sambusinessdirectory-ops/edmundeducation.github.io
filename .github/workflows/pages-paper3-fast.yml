@@ -11,9 +11,9 @@ permissions:
 
 jobs:
   build:
-    if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]') }}
+    if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[full-release]') }}
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     permissions:
       contents: read
       pages: read
@@ -122,6 +122,23 @@ jobs:
           python3 source/tools/add-paper3-study-support.py _site/paper3
           python3 source/tools/rewrite-pages-assets.py _site/paper3 --fast-scan
 
+      - name: Run focused Paper 3 browser conformance gate
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/paper3-playwright
+          npm --prefix /tmp/paper3-playwright init -y >/dev/null
+          npm --prefix /tmp/paper3-playwright install --no-save playwright@1.56.1 http-server@14.1.1 >/dev/null
+          /tmp/paper3-playwright/node_modules/.bin/playwright install --with-deps chromium firefox
+          /tmp/paper3-playwright/node_modules/.bin/http-server _site -p 4173 -c-1 >/tmp/paper3-http.log 2>&1 &
+          server_pid=$!
+          trap 'kill "${server_pid}"' EXIT
+          for attempt in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:4173/paper3/2023-b2/curation/ >/dev/null; then break; fi
+            sleep 1
+          done
+          NODE_PATH=/tmp/paper3-playwright/node_modules node source/tools/check-2023-b2-entry.cjs 'http://127.0.0.1:4173/paper3/2023-b2/curation/?curation=1&release=${{ github.sha }}'
+
       - name: Keep protected source material out of the Pages artifact
         shell: bash
         run: |
@@ -176,3 +193,27 @@ jobs:
       contents: write
       pages: write
       id-token: write
+
+  verify-live:
+    needs: deploy
+    if: needs.deploy.outputs.current == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Verify live SHA and V5 reader handshake
+        shell: bash
+        run: |
+          set -euo pipefail
+          release_url="https://edmundeducation.com/release.json?release=${GITHUB_SHA}"
+          reader_url="https://edmundeducation.com/paper3/2023-b2/curation/?curation=1&release=${GITHUB_SHA}"
+          for attempt in {1..60}; do
+            release=$(curl --fail --silent --show-error -H 'Cache-Control: no-cache' "${release_url}" || true)
+            reader=$(curl --fail --silent --show-error -H 'Cache-Control: no-cache' "${reader_url}" || true)
+            if grep -Fq "${GITHUB_SHA}" <<<"${release}" && grep -Fq "podcastArchitectureVersion23='5-single-owner'" <<<"${reader}"; then
+              echo "Verified live Paper 3 release ${GITHUB_SHA}."
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "Live Paper 3 release did not expose the intended SHA and V5 runtime." >&2
+          exit 1

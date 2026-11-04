@@ -1,5 +1,5 @@
 // Run with Playwright installed. Pass the public Paper 3 entry URL to check a deployment.
-const { chromium } = require('playwright');
+const { chromium, firefox } = require('playwright');
 const assert = require('node:assert/strict');
 const path = require('node:path');
 const { pathToFileURL } = require('node:url');
@@ -84,7 +84,7 @@ async function checkReader() {
     assert.deepEqual(noteSheetAudit.ids,['notes-live-study-cook','notes-filming-schedule','notes-food-kinds','notes-william-video','notes-golden-sun','notes-viewers-choice']);
     assert(!noteSheetAudit.headings.some(heading => heading.includes('Staff training')));
     assert.equal(noteSheetAudit.noise,3);
-    assert.deepEqual(noteSheetAudit.tasks,['A/B','B','C']);
+    assert.deepEqual(noteSheetAudit.tasks,['AB','B','C']);
     assert.equal(noteSheetAudit.evidence,6);
     assert.match(noteSheetAudit.values['notes-live-study-cook'],/10 episodes/);
     assert.match(noteSheetAudit.values['notes-filming-schedule'],/October/);
@@ -99,6 +99,59 @@ async function checkReader() {
     assert(await page.locator('.curation-player').isVisible());
     assert(await page.locator('.curation-transcript-window').isVisible());
     assert.equal(await page.locator('#notes23').count(),0);
+    const podcastContract = await page.evaluate(() => {
+      const root = document.querySelector('.native-reader-host').shadowRoot;
+      const page3 = root.querySelector('#page-3');
+      const william = page3.querySelector('#notes-heading-william-video');
+      const noise = [...page3.querySelectorAll('.curation-note-noise')];
+      return {
+        architecture: document.querySelector('.curation-player')?.dataset.podcastArchitecture,
+        transcriptArchitecture: document.querySelector('.curation-transcript-window')?.dataset.podcastArchitecture,
+        pins: document.querySelectorAll('.curation-player-timeline .curation-player-pin').length,
+        taskBadges: [...william.querySelectorAll('.curation-note-task-badge')].map(node => node.textContent),
+        evidenceScope: page3.querySelector('[data-notes-section="william-video"] .notes-evidence-scope')?.textContent,
+        noiseRevealed: noise.every(node => node.classList.contains('is-revealed')),
+        noiseLines: noise.every(node => node.querySelector('.curation-pen-line')),
+        greenNoiseFields: [...page3.querySelectorAll('#notes-live-study-cook,#notes-filming-schedule,#notes-food-kinds')].some(node => [...node.classList].some(name => name.startsWith('curation-note-highlight-'))),
+        greenHeadings: [...page3.querySelectorAll('.notes-form-body>h3 .curation-mark')].some(node => getComputedStyle(node).backgroundColor!=='rgba(0, 0, 0, 0)'),
+      };
+    });
+    assert.equal(podcastContract.architecture,'v5-single-owner');
+    assert.equal(podcastContract.transcriptArchitecture,'v5-single-owner');
+    assert.equal(podcastContract.pins,17);
+    assert.deepEqual(podcastContract.taskBadges,['Task A','Task B']);
+    assert.match(podcastContract.evidenceScope,/Task A \+ Task B/);
+    assert.equal(podcastContract.noiseRevealed,true);
+    assert.equal(podcastContract.noiseLines,true);
+    assert.equal(podcastContract.greenNoiseFields,false);
+    assert.equal(podcastContract.greenHeadings,false);
+    const repairedCue = await page.evaluate(() => {
+      readerStore23.setItem('cur23-audioState',JSON.stringify({version:5,cueId:'cue-04',j:3,done:false,time:553.22,field:'food-kinds',text:'Desserts'}));
+      return restorePodcastStateV5(read23Record('cur23-audioState'));
+    });
+    assert.equal(repairedCue.id,'cue-05');
+    const repairedState = await page.evaluate(() => podcastStateSnapshotV5());
+    assert.equal(repairedState.cueId,'cue-05');
+    assert.equal(repairedState.field,'william-video');
+    assert.equal(repairedState.text,'Flood in the test kitchen');
+    await page.evaluate(()=>{window.podcastCueTransactions23.length=0;applyPodcastStateV5(4,{time:podcastCueMetaV5[4].end-.18});});
+    await page.locator('#play').click();
+    await page.waitForFunction(()=>window.podcastCueTransactions23.some(entry=>entry.cueId==='cue-05'),null,{timeout:5000});
+    await page.waitForFunction(()=>document.querySelector('.native-reader-host').shadowRoot.querySelector('#notes-william-video').value.includes('Flood in the test kitchen'),null,{timeout:5000});
+    const floodTransaction = await page.evaluate(()=>{
+      const root=document.querySelector('.native-reader-host').shadowRoot;
+      return {log:window.podcastCueTransactions23.find(entry=>entry.cueId==='cue-05'),william:root.querySelector('#notes-william-video').value,food:root.querySelector('#notes-food-kinds').value};
+    });
+    assert.equal(floodTransaction.log.destination,'notes-william-video');
+    assert.equal(floodTransaction.log.text,'Flood in the test kitchen');
+    assert.match(floodTransaction.william,/Flood in the test kitchen/);
+    assert.doesNotMatch(floodTransaction.food,/Flood in the test kitchen/);
+    const typeContract = await page.evaluate(() => {
+      const contact=rows.find(row=>row.stage===3&&row.q.startsWith('Neither Puddle, nor the director'));
+      const rumour=rows.find(row=>row.stage===3&&row.q.startsWith('With rumours of a new show'));
+      return {contactType:contact?.t,contactAuthored:contact?.manualType,rumourType:rumour?.t,rumourManual:rumour?.manualType};
+    });
+    assert.deepEqual(typeContract,{contactType:5,contactAuthored:'類型：5 提示 + 6 噪音',rumourType:6,rumourManual:'類型：6 噪音'});
     assert.deepEqual(errors, []);
     for (const mode of ['denied', 'full']) {
       const restricted = await browser.newPage();
@@ -122,4 +175,27 @@ async function checkReader() {
     await browser.close();
   }
 }
-checkReader().catch(error => { console.error(error); process.exitCode = 1; });
+async function checkFirefoxAndVisualState(){
+  const url = process.argv[2] || pathToFileURL(path.resolve(__dirname, '../paper3/2023-b2/index.html')).href + '?curation=1';
+  const browser = await firefox.launch();
+  try {
+    const page = await browser.newPage({reducedMotion:'no-preference'}),errors=[];
+    page.on('pageerror',error=>errors.push(error.message));
+    await page.goto(url);
+    await page.locator('#curation-step-jump').waitFor();
+    await page.evaluate(()=>jump23(rows.findIndex(row=>row.stage===0&&row.leaf===4)));
+    const initial = await page.evaluate(()=>{
+      const root=document.querySelector('.native-reader-host').shadowRoot,page4=root.querySelector('#page-4');
+      const future=[...page4.querySelectorAll('mark[data-step-index]')].filter(mark=>Number(mark.dataset.stepIndex)>i);
+      return future.every(mark=>!mark.classList.contains('is-revealed')&&getComputedStyle(mark).backgroundColor==='rgba(0, 0, 0, 0)'&&(!mark.classList.contains('cur23-boss-point')||getComputedStyle(mark,'::before').display==='none'))&&!page4.querySelector('.email-content p.cur23-task-revealed');
+    });
+    assert.equal(initial,true);
+    await page.locator('[data-chapter=categorize]').click();
+    await page.evaluate(()=>jump23(rows.findIndex(row=>row.stage===1&&row.q==='New show: Viewer’s Choice')));
+    await page.locator('[data-chapter=podcast]').click();
+    assert.equal(await page.locator('.curation-player[data-podcast-architecture="v5-single-owner"]').count(),1);
+    assert.equal(await page.locator('.curation-transcript-window[data-podcast-architecture="v5-single-owner"]').count(),1);
+    assert.deepEqual(errors,[]);
+  } finally { await browser.close(); }
+}
+(async()=>{await checkReader();await checkFirefoxAndVisualState()})().catch(error => { console.error(error); process.exitCode = 1; });

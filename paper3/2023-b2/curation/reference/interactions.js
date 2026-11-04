@@ -572,7 +572,7 @@
         const task = text.startsWith('I need you to write the announcement')?'A':text.startsWith('I also need you to write an email')?'B':text.startsWith('Next, please write the script')?'C':null;
         if (!task) continue;
         p.dataset.curationTask=task;
-        p.classList.toggle('cur23-task-revealed',marks.some(mark => p.contains(mark)));
+        p.classList.toggle('cur23-task-revealed',marks.some(mark => p.contains(mark)&&mark.classList.contains('is-revealed')));
       }
     }
     const tasks = page===3 ? [] : currentTasks(page), header = article.querySelector(':scope > header');
@@ -724,7 +724,7 @@
         if(unit.hi<=from||unit.lo>=to)continue;
         const lo=Math.max(from,unit.lo),hi=Math.min(to,unit.hi);
         if(lo>at)appendColored(parent,at,lo);
-        const span=document.createElement('span');span.className='curation-essay-unit';
+        const span=document.createElement('span');span.className=`curation-essay-unit curation-essay-task-${'ABC'[row.t-1]}`;
         if(rows.indexOf(unit.item)<i)span.classList.add('is-revealed');
         if(unit.item===row)span.dataset.currentEssayUnit='true';
         appendColored(span,lo,hi);parent.append(span);at=Math.max(at,hi);

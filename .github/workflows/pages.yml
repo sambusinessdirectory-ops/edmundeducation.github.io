@@ -14,7 +14,9 @@ permissions:
 jobs:
   build:
     # Simple homepage artwork and focused Paper 3 updates use fast workflows.
-    if: ${{ !contains(github.event.head_commit.message, '[site-fast]') && !(contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]')) }}
+    # Mixed-scope releases can explicitly request a complete artifact while
+    # retaining focused validation by adding [full-release].
+    if: ${{ contains(github.event.head_commit.message, '[full-release]') || (!contains(github.event.head_commit.message, '[site-fast]') && !(contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]'))) }}
     runs-on: ubuntu-latest
     timeout-minutes: 60
     permissions:
@@ -1035,6 +1037,12 @@ jobs:
         run: |
           test ! -e _site/dse-argument-bank/source.md
           test -z "$(find _site/dse-argument-bank -maxdepth 1 -name '*-source.md' -print -quit)"
+
+      - name: Verify Card 80 scene photography is present in Pages artifact
+        run: |
+          test -s _site/dse-practical-writing-media/operations-map.jpg
+          test -s _site/dse-practical-writing-media/mission-briefing.jpg
+          test -s _site/dse-practical-writing-media/writing-desk.jpg
 
       - name: Stamp PWA release
         run: |

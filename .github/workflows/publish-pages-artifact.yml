@@ -6,6 +6,10 @@ on:
       artifact_name:
         required: true
         type: string
+    outputs:
+      current:
+        description: Whether this commit still owned the publication slot
+        value: ${{ jobs.publish.outputs.current }}
 
 jobs:
   publish:
