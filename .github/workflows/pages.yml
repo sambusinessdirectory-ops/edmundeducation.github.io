@@ -1056,11 +1056,10 @@ jobs:
           test ! -e _site/dse-argument-bank/source.md
           test -z "$(find _site/dse-argument-bank -maxdepth 1 -name '*-source.md' -print -quit)"
 
-      - name: Verify Card 80 scene photography is present in Pages artifact
+      - name: Verify Card 80 reference-scene photography is absent from Pages artifact
         run: |
-          test -s _site/dse-practical-writing-media/operations-map.jpg
-          test -s _site/dse-practical-writing-media/mission-briefing.jpg
-          test -s _site/dse-practical-writing-media/writing-desk.jpg
+          test ! -e _site/dse-practical-writing-media
+          test ! -e _site/assets/dse-practical-writing
 
       - name: Stamp PWA release
         run: |
