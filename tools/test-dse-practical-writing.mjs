@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import test from 'node:test';
 
 const read = path => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
@@ -9,7 +9,7 @@ const css = read('dse-practical-writing.css');
 const homepage = read('index.html');
 const nav = read('shared-system-nav.js');
 const dataSource = read('dse-practical-writing-data.mjs');
-const { learningUnits, practiceMissions } = await import('../dse-practical-writing-data.mjs');
+const { learningUnits, practiceMissions, writingFormats } = await import('../dse-practical-writing-data.mjs');
 
 test('Card 80 routes to the new DSE practical-writing system with the requested line break', () => {
   assert.match(homepage, /href="dse-practical-writing\.html"[^>]*aria-label="DSE 學生使用 實用文練習系統"/);
@@ -30,8 +30,13 @@ test('system is protected by an existing-student login and restores shared stude
 test('two source-derived modes contain 13 learning units and 13 complete bilingual missions', () => {
   assert.equal(learningUnits.length, 13);
   assert.equal(practiceMissions.length, 13);
+  assert.equal(writingFormats.length, 13);
   assert.ok(learningUnits.every(item => item.id && item.title && item.zhTitle && item.purpose && item.purposeZh && item.structure.length >= 4 && item.expressions.length >= 3));
   assert.ok(practiceMissions.every(item => item.id && item.title && item.zhTitle && item.situation && item.situationZh && item.requirements.length >= 2 && item.model.en && item.model.zh));
+  assert.ok(writingFormats.every((item, index) => item.model === practiceMissions[index].model), 'Learning and Practice must share one canonical model');
+  assert.ok(writingFormats.every(item => item.audience?.length === 2 && item.register?.length === 2 && item.formatRules?.length >= 2 && item.commonErrors?.length >= 2));
+  assert.ok(writingFormats.every(item => item.model.blocks.length >= 4 && item.model.blocks.every(block => block.id && block.type && block.functionEn && block.functionZh && block.en && block.zh)));
+  assert.ok(writingFormats.every(item => item.requirements.length >= 2 && item.practiceMissionId));
   assert.match(app, /Learning mode/);
   assert.match(app, /Practice mode/);
   assert.match(dataSource, /Letter of Enquiry/);
@@ -47,9 +52,19 @@ test('map, briefing, three-column writing desk and model review follow the reque
   assert.match(app, /desk-expressions/);
   assert.match(app, /data-model-dialog/);
   assert.match(html, /data-model-dialog/);
+  assert.match(app, /scene-art/);
+  assert.match(app, /renderModelBlocks/);
+  assert.match(app, /COMPLETE MODEL · 完整參考範文/);
+  assert.match(app, /REQUIREMENT COVERAGE · 題目要求對照/);
+  assert.match(app, /COMMON ERRORS · 常見錯誤/);
+  assert.doesNotMatch(app, /state\.modelTranslation \? item\.model\.zh : item\.model\.en/);
   assert.match(css, /operations-map\.jpg/);
   assert.match(css, /mission-briefing\.jpg/);
   assert.match(css, /writing-desk\.jpg/);
+  assert.match(css, /\.scene-art/);
+  assert.ok(existsSync(new URL('../assets/dse-practical-writing/operations-map.jpg', import.meta.url)));
+  assert.ok(existsSync(new URL('../assets/dse-practical-writing/mission-briefing.jpg', import.meta.url)));
+  assert.ok(existsSync(new URL('../assets/dse-practical-writing/writing-desk.jpg', import.meta.url)));
 });
 
 test('drafting is student-scoped, autosaved, completable and responsive', () => {
