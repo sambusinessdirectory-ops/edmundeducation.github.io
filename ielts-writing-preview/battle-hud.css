@@ -884,6 +884,11 @@ dialog::backdrop {
   text-shadow: 0 2px 3px #000;
 }
 
+.login-gate-intro h2,
+.login-gate-intro > p:last-child {
+  text-wrap: balance;
+}
+
 .login-gate-intro > p:last-child,
 .login-form > label {
   color: #e0d4ba;
