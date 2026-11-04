@@ -11,7 +11,7 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
-  <link rel="stylesheet" href="dse-practical-writing.css?v=20261104-1">
+  <link rel="stylesheet" href="dse-practical-writing.css?v=20261104-3">
   <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
   <script defer src="/pwa-register.js"></script>
 </head>
@@ -53,41 +53,21 @@
     </section>
 
     <section class="app-view" data-view="app" hidden>
-      <header class="workspace-hero">
-        <div>
-          <p class="eyebrow">DSE PRACTICAL WRITING · PART A</p>
-          <h1>實用文練習系統</h1>
-          <p>選擇題目，分析寫作任務，然後完成自己的版本。</p>
-        </div>
-        <div class="hero-progress" aria-label="練習進度">
-          <strong data-draft-count>0</strong><span>/ <span data-task-count>0</span> 題已有草稿</span>
-        </div>
-      </header>
-
-      <div class="practice-layout">
-        <aside class="task-library" aria-label="DSE 實用文題目庫">
-          <div class="library-heading">
-            <div><p class="eyebrow">QUESTION LIBRARY</p><h2>題目庫</h2></div>
-            <span data-library-count></span>
-          </div>
-          <label class="search-field"><span class="visually-hidden">搜尋題目</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16.5 16.5 4 4"></path></svg><input type="search" data-search placeholder="搜尋年份、標題或文體"></label>
-          <div class="task-list" data-task-list></div>
-        </aside>
-
-        <section class="writing-workspace" data-workspace aria-live="polite">
-          <div class="empty-workspace"><p class="eyebrow">READY WHEN YOU ARE</p><h2>先從左方選擇一道題目</h2><p>題目、圖片及寫作區會在這裡展開。</p></div>
-        </section>
-      </div>
+      <div data-screen-root aria-live="polite"></div>
     </section>
   </main>
 
   <div class="save-toast" data-save-toast role="status" aria-live="polite" hidden>草稿已儲存</div>
+  <dialog class="model-dialog" data-model-dialog>
+    <form method="dialog" class="model-dialog__bar"><div><p class="eyebrow">MODEL WRITING · 參考範文</p><h2 data-model-title></h2></div><button type="submit" aria-label="關閉參考範文">×</button></form>
+    <div class="model-dialog__tools"><button type="button" data-model-language>顯示繁體中文翻譯</button></div>
+    <article data-model-copy></article>
+  </dialog>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
   <script src="supabase-config.js"></script>
-  <script src="writing-practice-dse-part-a-data.js?v=20261104-1"></script>
   <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script>
   <script src="shared-system-nav.js?v=20261104-dse-writing1"></script>
-  <script type="module" src="dse-practical-writing.mjs?v=20261104-1"></script>
+  <script type="module" src="dse-practical-writing.mjs?v=20261104-2"></script>
   <script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
 </body>
 </html>
