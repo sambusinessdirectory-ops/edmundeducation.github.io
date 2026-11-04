@@ -1,4 +1,4 @@
-import { mountQuestionTypeFinder } from './question-type-finder.mjs?v=20260911';
+import { mountQuestionTypeFinder } from './question-type-finder.mjs?v=20261104-dse1';
 export function mountListeningTypes(root, openPractice) {
   if (!root) return;
   async function load() {
