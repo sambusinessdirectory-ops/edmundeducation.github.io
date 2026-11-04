@@ -28,6 +28,8 @@ let podcastActivatedV7=false;
 let podcastProgrammaticScrollV7=false;
 let podcastStateLockV7=false;
 let podcastChromeBuiltV7=false;
+let podcastPlaybackCueV7=-1;
+let podcastDesiredTimeV7=podcastOriginV7;
 
 function podcastMediaTimeV7(value){
   const time=Number(value);
@@ -39,6 +41,11 @@ function podcastCueAtTimeV7(value){
   if(!Number.isFinite(time)||time<=podcastOriginV7)return 0;
   const index=podcastCueMetaV7.findIndex(cue=>time<=cue.end+.06);
   return index<0?podcastCueMetaV7.length-1:index;
+}
+function podcastNextCueAfterTimeV7(value){
+  const time=podcastMediaTimeV7(value);
+  if(!Number.isFinite(time))return 0;
+  return podcastCueMetaV7.findIndex(cue=>cue.end>time+.015);
 }
 function podcastCompletedAtTimeV7(value){
   const time=podcastMediaTimeV7(value);
@@ -98,6 +105,27 @@ function ensurePodcastTranscriptLineV7(line,turnIndex){
 }
 window.ensureTranscriptTurn23=ensurePodcastTranscriptLineV7;
 
+function podcastTranslationVisibleV7(){
+  return scriptWindow.classList.contains('show-translation');
+}
+function setPodcastTranslationV7(show){
+  const visible=!!show,button=E('transcript-translate');
+  scriptWindow.classList.toggle('show-translation',visible);
+  if(button){button.setAttribute('aria-pressed',String(visible));button.textContent=visible?'隱藏中文':'中文對照'}
+  if(typeof language!=='undefined')language.setAttribute('aria-pressed',String(visible));
+  if(typeof lang!=='undefined')lang=visible;
+  const globalToggle=document.querySelector('#show-translation');if(globalToggle)globalToggle.checked=visible;
+  E('turns')?.querySelectorAll(':scope>.speech').forEach((line,index)=>{
+    const copy=line.querySelector(':scope>.curation-transcript-copy');
+    if(copy&&!copy.querySelector(':scope>.translation')&&zhTurns[index]){
+      const translation=document.createElement('p');translation.className='translation';translation.textContent=zhTurns[index];copy.append(translation);
+    }
+  });
+  return visible;
+}
+window.podcastTranslationVisibleV7=podcastTranslationVisibleV7;
+window.setPodcastTranslationV7=setPodcastTranslationV7;
+
 function fitPodcastTranscriptV7(){
   const playerBottom=Math.max(112,panel.getBoundingClientRect().bottom||205);
   const top=Math.min(innerHeight-280,playerBottom+12);
@@ -143,7 +171,7 @@ function bindPodcastChromeV7(){
   E('rate').onchange=()=>audio.playbackRate=Number(E('rate').value)||1;
   E('pins').onclick=()=>setPodcastPinsV7(E('ticks').hidden);
   E('transcript-toggle').onclick=()=>{const open=scriptWindow.classList.toggle('mobile-visible');E('transcript-toggle').setAttribute('aria-expanded',String(open));E('transcript-toggle').textContent=open?'收起逐字稿':'查看逐字稿'};
-  E('transcript-translate').onclick=()=>{const show=scriptWindow.classList.toggle('show-translation');E('transcript-translate').setAttribute('aria-pressed',String(show));E('transcript-translate').textContent=show?'隱藏中文':'中文對照'};
+  E('transcript-translate').onclick=()=>setPodcastTranslationV7(!podcastTranslationVisibleV7());
   E('transcript-follow').onclick=()=>{podcastFollowV7=!podcastFollowV7;updatePodcastFollowV7();if(podcastFollowV7)paintPodcastV7(true)};
   E('transcript-fit').onclick=fitPodcastTranscriptV7;
   for(const type of ['wheel','touchstart'])E('turns').addEventListener(type,()=>{if(!podcastProgrammaticScrollV7){podcastFollowV7=false;updatePodcastFollowV7()}},{passive:true});
@@ -194,9 +222,9 @@ function focusPodcastDestinationV7(cue,{scroll=false}={}){
 function setPodcastStateV7(index,{time,completed=false,completedThrough,play=false,persist=true}={}){
   const cue=podcastCueMetaV7[Math.max(0,Math.min(podcastCueMetaV7.length-1,Number(index)||0))];
   podcastStateLockV7=true;window.podcastTransactionV5=true;clearPodcastWritingV7();audio.pause();
-  cueIndex=cue.index;const requested=podcastMediaTimeV7(time);
+  podcastPlaybackCueV7=-1;cueIndex=cue.index;const requested=podcastMediaTimeV7(time);
   const position=Number.isFinite(requested)?Math.max(cue.playbackStart,Math.min(cue.end,requested)):cue.playbackStart;
-  audio.currentTime=position;done=!!completed&&Math.abs(position-cue.end)<=.1;
+  podcastDesiredTimeV7=position;audio.currentTime=position;done=!!completed&&Math.abs(position-cue.end)<=.1;
   podcastCompletedThroughV7=Number.isInteger(completedThrough)?Math.max(-1,Math.min(cue.index,completedThrough)):(done?cue.index:Math.min(cue.index-1,podcastCompletedAtTimeV7(position)));
   projectPodcastNotesV7();updatePodcastLessonV7();focusPodcastDestinationV7(cue);paintPodcastV7(true);
   window.podcastTransactionV5=false;podcastStateLockV7=false;
@@ -219,8 +247,9 @@ function recordPodcastTransactionV7(cue){
 }
 function completePodcastCueV7(){
   if(!active||audio.paused||done||window.podcastTransactionV5)return;
-  const cue=podcastCueMetaV7[cueIndex];if(!cue||audio.currentTime+.035<cue.end)return;
-  window.podcastTransactionV5=true;audio.pause();audio.currentTime=cue.end;done=true;podcastCompletedThroughV7=cue.index;clearPodcastWritingV7();
+  const playbackIndex=podcastPlaybackCueV7>=0?podcastPlaybackCueV7:podcastNextCueAfterTimeV7(audio.currentTime);
+  const cue=podcastCueMetaV7[playbackIndex];if(!cue||audio.currentTime+.035<cue.end)return;
+  cueIndex=cue.index;podcastPlaybackCueV7=-1;window.podcastTransactionV5=true;audio.pause();audio.currentTime=cue.end;done=true;podcastCompletedThroughV7=cue.index;clearPodcastWritingV7();
   recordPodcastTransactionV7(cue);focusPodcastDestinationV7(cue,{scroll:true});
   const field=podcastFieldV4(fieldIds[cue.index]);let count=0;
   if(!cue.text||!field){projectPodcastNotesV7();E('next').disabled=false;updatePodcastLessonV7();paintPodcastV7(true);window.podcastTransactionV5=false;persistPodcastStateV7();return}
@@ -237,6 +266,15 @@ function seekPodcastV7(value){
   const index=podcastCueAtTimeV7(time),cue=podcastCueMetaV7[index],atEnd=Math.abs(time-cue.end)<=.06;
   return setPodcastStateV7(index,{time,completed:atEnd,completedThrough:podcastCompletedAtTimeV7(time)});
 }
+function resumePodcastV7(){
+  if(!audio.paused){audio.pause();return}
+  const index=podcastNextCueAfterTimeV7(audio.currentTime);
+  if(index<0){E('podcast-cue-status').textContent='17/17 已完成；可按停頓點重聽任何一段。';return}
+  const cue=podcastCueMetaV7[index];podcastPlaybackCueV7=index;cueIndex=index;done=false;
+  podcastCompletedThroughV7=Math.min(index-1,podcastCompletedThroughV7);
+  podcastFollowV7=true;updatePodcastFollowV7();updatePodcastLessonV7();focusPodcastDestinationV7(cue);paintPodcastV7(true);persistPodcastStateV7();
+  audio.play().catch(showAudioFailure);
+}
 function activatePodcastV7(){
   active=rows[i]?.stage===2;panel.hidden=scriptWindow.hidden=!active;if(!active){audio.pause();return}
   surface.hidden=true;enhancePodcastSheet23();
@@ -251,12 +289,28 @@ render=function(){podcastOriginalRenderV7();activatePodcastV7()};
 const podcastOriginalUpdateV7=update23;
 update23=function(force=false){podcastOriginalUpdateV7(force);if(rows[i]?.stage===2){enhancePodcastSheet23();paintPodcastV7(!!force)}};
 
-audio.ontimeupdate=()=>{completePodcastCueV7();paintPodcastV7()};
-audio.onloadedmetadata=()=>{if(audio.currentTime<podcastOriginV7||audio.currentTime>podcastEndV7)audio.currentTime=podcastOriginV7;paintPodcastV7(true)};
-audio.onplay=()=>{E('play').textContent='Ⅱ';E('play').setAttribute('aria-label','暫停錄音')};
+audio.ontimeupdate=()=>{if(audio.currentTime>=podcastOriginV7&&audio.currentTime<=podcastEndV7)podcastDesiredTimeV7=audio.currentTime;completePodcastCueV7();paintPodcastV7()};
+function ensurePodcastMediaPositionV7(){
+  if(audio.readyState<1)return;
+  if(audio.currentTime<podcastOriginV7-.08||audio.currentTime>podcastEndV7+.08){
+    const desired=Math.max(podcastOriginV7,Math.min(podcastEndV7,podcastDesiredTimeV7));audio.currentTime=desired;
+  }
+  paintPodcastV7(true);
+}
+audio.onloadedmetadata=()=>{ensurePodcastMediaPositionV7();queueMicrotask(ensurePodcastMediaPositionV7);setTimeout(ensurePodcastMediaPositionV7,0)};
+audio.addEventListener('loadeddata',ensurePodcastMediaPositionV7);
+audio.addEventListener('canplay',ensurePodcastMediaPositionV7);
+audio.onplay=()=>{
+  const index=podcastNextCueAfterTimeV7(audio.currentTime);
+  if(index>=0){
+    podcastPlaybackCueV7=index;cueIndex=index;done=false;podcastFollowV7=true;
+    updatePodcastFollowV7();updatePodcastLessonV7();focusPodcastDestinationV7(podcastCueMetaV7[index]);paintPodcastV7(true);
+  }
+  E('play').textContent='Ⅱ';E('play').setAttribute('aria-label','暫停錄音');
+};
 audio.onpause=()=>{E('play').textContent='▶';E('play').setAttribute('aria-label','播放錄音');persistPodcastStateV7()};
 audio.onerror=()=>{showAudioFailure();E('a').textContent='未能載入會議錄音。可先閱讀逐字稿，再按重試載入錄音。'};
-E('play').onclick=()=>{if(done)replayPodcastCueV7(cueIndex,true);else if(audio.paused)audio.play().catch(showAudioFailure);else audio.pause()};
+E('play').onclick=resumePodcastV7;
 E('seek').oninput=event=>seekPodcastV7(event.target.value);
 E('audio-retry').onclick=()=>{E('audio-status').textContent='正在重新載入錄音…';const position=audio.currentTime;audio.load();audio.currentTime=position;audio.play().catch(showAudioFailure)};
 
@@ -299,6 +353,6 @@ activatePodcastV7();
 // Metadata may have loaded before V7 replaced the legacy onloadedmetadata
 // callback. In that case assigning currentTime during bootstrap was ignored.
 if(audio.readyState>=1&&(audio.currentTime<podcastOriginV7||audio.currentTime>podcastEndV7)){
-  const state=podcastStateSnapshotV7();audio.currentTime=Math.max(podcastOriginV7,Math.min(podcastEndV7,state.time||podcastOriginV7));paintPodcastV7(true);
+  ensurePodcastMediaPositionV7();
 }
 update23(true);

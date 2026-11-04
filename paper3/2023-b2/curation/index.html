@@ -123,7 +123,7 @@ for(const [w,h] of [[diag,head],[scriptWindow,grip]]){moveWindow(w,h,'');for(let
 const finalRender=render;render=function(){finalRender();E('jump23').value=i;[...rail.children].forEach((b,j)=>{b.dataset.n=j+1;b.classList.toggle('past',j<rows[i].stage)});readerStore23.setItem('cur23-position',i)};let initial=Number(readerStore23.getItem('cur23-position'));if(Number.isInteger(initial)&&rows[initial])i=initial;render();
 const zhTurns='多謝大家出席。|你好，好高興見到你。|聽到我嗎？支咪有時唔得。|Archie，聽到你。|今日好多嘢要傾。Archie，可以記低嗎？|好。|先傾 Live, Study, Cook，同埋 William 最近嘅事。|聽講 William 情況唔好。|係，不過先傾節目。|好。|先講拍攝安排：經費足夠拍十集。|十集？我以為只可以拍八集。|已同財務部核實，改為十集。|幾時開始？|原定七月，但撞正暑假，所以延至十月。|十月好，到時舒服啲。|好。|今季比賽煮咩食物？|本來想做早餐，但太容易，所以改為主菜。|主菜？|好。|即係午餐或晚餐會食嘅菜式。|例如湯、雞同烤蔬菜。另一個選擇係甜品。|甜品，好。|蛋糕、雪糕、餅乾等甜食。|聽落幾好。|講下一項。|William 嗰段瘋傳影片究竟有咩問題？|小報有講，廚房水浸。|咩話？|水浸。|真係？|真係水浸。至於食物安全方面，我哋相信係誤會。|佢係我哋嘅明星廚師，啱啱先批咗大筆預算畀佢嘅新節目。|有人話佢喺片入面好唔開心？|佢冇唔開心。佢切緊洋蔥，所以流眼水。條片本來就係講用洋蔥煮食。|報道下面仲有我個名，真尷尬。|我建議全體員工上社交媒體課程。|內容係咩？|學識網上應有嘅行為，同埋點樣講先唔會令人誤解。|即係點樣避免冒犯人。|冇錯。|可以喺員工電郵提，但要有誘因。有咩提議？|補水？|太貴，唔得。|額外一日假？|可以，但要上完三個課程先有。|首十位完成全部三個課程嘅員工先有額外一日假。|限十個名額，可以鼓勵大家積極參加。仲有冇其他事？|上次用 Golden Sun Tower 私房廚房時有火警相關問題。|嗰件小事？|火警？點解我而家先知？|唔係真係起火，只係塊多士燶咗。|廚師整燶多士？幾尷尬。|私房廚房負責人投訴，話員工當時唔知應該點處理。|咁唔好喎。|再講一次，唔係真係起火。|廚師需要接受防火訓練。|同意，我哋安排時間。|記低：廚師防火訓練。|另外有費用問題。|講落去。|拍攝期間私房廚房做唔到生意，要求補償。|要幾多？|一萬元。|一萬太多。最多五千。|記低：私房廚房五千元。|講件開心事。William 嘅新節目叫 Viewer’s Choice。|有咩特別？|節目有互動：觀眾可以選材料，決定 William 煮咩。|互動？點做？|之後會寄詳情，有故事板同更新。|有冇預錄部分？|冇，全程直播。|直播可能出好多意外，唔想 William 再出事。|但亦可能好成功，我好有信心。'.split('|');
 if(zhTurns.length!==76)throw Error('Transcript translation count '+zhTurns.length);
-const language=document.createElement('button');language.textContent='中英對照';language.setAttribute('aria-pressed','false');grip.append(language);language.onclick=()=>{let on=language.getAttribute('aria-pressed')!=='true';language.setAttribute('aria-pressed',on);[...E('turns').children].forEach((p,j)=>p.textContent=transcript[j+6].speaker+' · '+transcript[j+6].text+(on?'　'+zhTurns[j]:''))};
+const language=document.createElement('button');language.textContent='中英對照';language.setAttribute('aria-pressed','false');grip.append(language);language.onclick=()=>{const on=language.getAttribute('aria-pressed')!=='true';if(typeof window.setPodcastTranslationV7==='function'){window.setPodcastTranslationV7(on);return}language.setAttribute('aria-pressed',String(on));[...E('turns').children].forEach((row,j)=>{if(typeof window.ensureTranscriptTurn23==='function')window.ensureTranscriptTurn23(row,j+6);const copy=row.querySelector?.('.curation-transcript-copy');if(copy&&!copy.querySelector('.translation')&&zhTurns[j]){const translation=document.createElement('p');translation.className='translation';translation.textContent=zhTurns[j];copy.append(translation)} });scriptWindow.classList.toggle('show-translation',on)};
 function fact(task,page,span,keyword,why){if(!leaves[page].includes(span))throw Error('Missing evidence: '+span);return facts.push([task,page,span,keyword,why])-1}
 leaves[19]=transcript.slice(6,82).map(v=>v.speaker+' · '+v.text).join('\n\n');
 const officialSupport=fact(1,4,'show our support for Teen NetChef TV star William Puddle','supports','公告須以公司身分表態。'),water=fact(1,19,'He was chopping onions. That\'s why he was crying.','watering','錄音解釋流眼水的原因。'),claim=fact(1,5,'without washing his hands','without washing','文章提出指控，寫作時要標明是觀眾的看法。'),towel=fact(1,5,'the same one he used to dry the raw chicken','same tea towel','小報所指，之後須查聊天紀錄。'),cry=fact(1,5,'appears to be crying','crying','appears 只交代畫面給人的印象。'),courses=fact(2,4,'an email to all staff to recommend training courses for the coming year','recommend three courses','讀者及建議年份來自任務電郵。'),leave=fact(2,19,'only the first 10 people to complete all three can get an extra day off','first ten','三個條件來自同一項最終決定。'),live=fact(3,19,"it's totally live",'totally live','錄音確認直播。'),interactive=fact(3,19,'Viewers can actually choose their own ingredients and decide what William cooks','ingredients','觀眾選材料，William 負責煮。'),titleFact=fact(3,6,'Viewer’s Choice — Ground-breaking TV!','Viewer’s Choice','故事板交代節目名。'),hazard=fact(2,9,'Course Provider:Pinafore Solutions','Pinafore Solutions','提供者及其課程須配對。'),grill=fact(2,9,'Course Provider:The Grill Gurus','The Grill Gurus','食安課程由 The Grill Gurus 提供。'),pr=fact(2,9,'Course Provider:PR Productions','PR Productions','社交媒體培訓由 PR Productions 提供。');
@@ -786,7 +786,7 @@ function pick(book){let picker=$s('.curation-picker'),box=$s('.choices'),search=
 $s('.curation-picker-head button').onclick=()=>$s('.curation-picker').close();$s('#curation-step-jump').onclick=()=>pick(false);$s('#curation-bookmark-jump').onclick=()=>pick(true);$s('#curation-bookmark').onclick=()=>{let k=key23(rows[i]);books=books.includes(k)?books.filter(v=>v!==k):[...books,k];readerStore23.setItem('cur23-stars',JSON.stringify(books));update23(true)};
 for(let id of ['prev','next'])$s('#curation-'+id).onclick=()=>{if(id==='next'){completed.add(key23(rows[i]));if(active&&done)for(let f of facts)if(f[1]===19&&transcript[cues[cueIndex][0]].text.includes(f[2]))completed.add('heard:'+f[2]);chaptersDone()}E(id).click();firstView=false;help=false;update23(true)};
 $s('#curation-help').onclick=()=>{help=!help;update23(true)};$s('#curation-spotlight').onchange=()=>E('spot23').click();$s('#curation-dialogue').onchange=e=>{$s('.curation-dock').classList.toggle('dialogue',e.target.checked);$s('.curation-character').hidden=!e.target.checked};for(let id of ['curation-toggle','curation-close'])$s('#'+id).onclick=()=>{opened=!opened;update23(true)};
-allS('.curation-stage-item').forEach((b,j)=>b.onclick=()=>jump23(rows.findIndex(r=>r.stage===j)));allS('[data-filter]').forEach(b=>b.onclick=()=>{let filter=b.dataset.filter;jump23(rows.findIndex(r=>r.stage===({all:0,data:3,transcript:2,practice:4}[filter])));tab=filter;update23(true)});$s('#show-translation').onchange=e=>{lang=e.target.checked;if(active&&language.getAttribute('aria-pressed')!==String(lang))language.click();update23(true)};$s('#print-reader').onclick=()=>print();let mob=$s('#page-jump');mob.replaceChildren(new Option('跳至頁面',''));for(let j=1;j<=10;j++)mob.add(new Option(j+' · '+leaves[j].split('\n')[0],j));mob.onchange=()=>{let j=rows.findIndex(r=>r.leaf===+mob.value);if(j>=0)jump23(j);else nativePage(+mob.value,rows[i])};
+allS('.curation-stage-item').forEach((b,j)=>b.onclick=()=>jump23(rows.findIndex(r=>r.stage===j)));allS('[data-filter]').forEach(b=>b.onclick=()=>{let filter=b.dataset.filter;jump23(rows.findIndex(r=>r.stage===({all:0,data:3,transcript:2,practice:4}[filter])));tab=filter;update23(true)});$s('#show-translation').onchange=e=>{lang=e.target.checked;if(active&&typeof window.setPodcastTranslationV7==='function')window.setPodcastTranslationV7(lang);else if(active&&language.getAttribute('aria-pressed')!==String(lang))language.click();update23(true)};$s('#print-reader').onclick=()=>print();let mob=$s('#page-jump');mob.replaceChildren(new Option('跳至頁面',''));for(let j=1;j<=10;j++)mob.add(new Option(j+' · '+leaves[j].split('\n')[0],j));mob.onchange=()=>{let j=rows.findIndex(r=>r.leaf===+mob.value);if(j>=0)jump23(j);else nativePage(+mob.value,rows[i])};
 for(let j=1;j<=5;j++)$s('#curation-slot').add(new Option('位置 '+j,j));$s('#curation-slot').onchange=e=>slot.value=e.target.value;$s('#curation-save-now').onclick=()=>{sb[0].click();$s('#curation-save-status').textContent='已儲存'};$s('#curation-export').onclick=()=>sb[2].click();$s('#curation-import').onchange=async e=>{restore(JSON.parse(await e.target.files[0].text()));update23(true)};let load=document.createElement('button');load.textContent='載入';load.onclick=()=>{sb[1].click();update23(true)};$s('#curation-save-now').after(load);update23(true);let lastAudioState='';
 setInterval(()=>{
   if(!opened || !active)return;
@@ -1245,25 +1245,25 @@ const button=document.createElement('button');button.className='learning-questio
   }
   const reviewId = unit => `review:${unit.turn}:${unit.part}`;
   let lastReview = -1, lastReviewLanguage = '';
-  function resetTranscriptTurn23(row,turnIndex,{translated=false}={}) {
+  function resetTranscriptTurn23(row,turnIndex) {
     const turn=transcript[turnIndex];row.replaceChildren();row.classList.add('speech');row.dataset.id=String(turnIndex);
     const speaker=document.createElement('strong');speaker.className='speaker';speaker.textContent=turn.speaker;
     const copy=document.createElement('div');copy.className='curation-transcript-copy';
     const text=document.createElement('p');text.className='curation-transcript-text';text.textContent=turn.text;copy.append(text);
-    if(translated&&zhTurns[turnIndex-6]){const translation=document.createElement('p');translation.className='translation';translation.textContent=zhTurns[turnIndex-6];copy.append(translation)}
+    if(zhTurns[turnIndex-6]){const translation=document.createElement('p');translation.className='translation';translation.textContent=zhTurns[turnIndex-6];copy.append(translation)}
     row.append(speaker,copy);return copy;
   }
   function clearReviewFocus() {
-    const translated = language.getAttribute('aria-pressed') === 'true';
+    const translated = typeof window.podcastTranslationVisibleV7==='function'?window.podcastTranslationVisibleV7():language.getAttribute('aria-pressed') === 'true';
     scriptWindow.dataset.reviewMode='false';
     for (const row of E('turns').children) {
       const turnIndex=Number(row.dataset.id);
       row.classList.remove('cur23-review-current','cur23-review-noise');
-      resetTranscriptTurn23(row,turnIndex,{translated});
+      resetTranscriptTurn23(row,turnIndex);
     }
   }
   function paintReviewSentences() {
-    const translated = language.getAttribute('aria-pressed') === 'true';
+    const translated = typeof window.podcastTranslationVisibleV7==='function'?window.podcastTranslationVisibleV7():language.getAttribute('aria-pressed') === 'true';
     scriptWindow.dataset.reviewMode='true';
     for (const row of E('turns').children) {
       const turnIndex = Number(row.dataset.id), turn = transcript[turnIndex];
@@ -1294,7 +1294,6 @@ const button=document.createElement('button');button.className='learning-questio
         text.append(span);cursor=at+unit.sentence.length;
       }
       text.append(document.createTextNode(turn.text.slice(cursor)));
-      if(translated&&zhTurns[turnIndex-6]){const translation=document.createElement('p');translation.className='translation';translation.textContent=zhTurns[turnIndex-6];copy.append(translation)}
     }
     const activeSentence=E('turns').querySelector('.curation-transcript-sentence.curation-target');
     if(activeSentence){void E('turns').offsetWidth;activeSentence.classList.add('is-revealed');}
@@ -1326,7 +1325,8 @@ const button=document.createElement('button');button.className='learning-questio
     $('#curation-bookmark').textContent = books.includes(reviewId(unit)) ? '★' : '☆';
     $('#curation-bookmark').setAttribute('aria-pressed', String(books.includes(reviewId(unit))));
     $('#curation-bookmark-jump').textContent = books.length ? `${books.length} 個書籤　⌄` : '選擇書籤　⌄';
-    if (lastReview !== reviewIndex || lastReviewLanguage !== String(language.getAttribute('aria-pressed') === 'true')) paintReviewSentences();
+    const translated=typeof window.podcastTranslationVisibleV7==='function'?window.podcastTranslationVisibleV7():language.getAttribute('aria-pressed') === 'true';
+    if (lastReview !== reviewIndex || lastReviewLanguage !== String(translated)) paintReviewSentences();
     readerStore23.setItem(reviewKey, String(reviewIndex));
   }
   function enterReview(index=0) {
@@ -2031,6 +2031,8 @@ let podcastActivatedV7=false;
 let podcastProgrammaticScrollV7=false;
 let podcastStateLockV7=false;
 let podcastChromeBuiltV7=false;
+let podcastPlaybackCueV7=-1;
+let podcastDesiredTimeV7=podcastOriginV7;
 
 function podcastMediaTimeV7(value){
   const time=Number(value);
@@ -2042,6 +2044,11 @@ function podcastCueAtTimeV7(value){
   if(!Number.isFinite(time)||time<=podcastOriginV7)return 0;
   const index=podcastCueMetaV7.findIndex(cue=>time<=cue.end+.06);
   return index<0?podcastCueMetaV7.length-1:index;
+}
+function podcastNextCueAfterTimeV7(value){
+  const time=podcastMediaTimeV7(value);
+  if(!Number.isFinite(time))return 0;
+  return podcastCueMetaV7.findIndex(cue=>cue.end>time+.015);
 }
 function podcastCompletedAtTimeV7(value){
   const time=podcastMediaTimeV7(value);
@@ -2101,6 +2108,27 @@ function ensurePodcastTranscriptLineV7(line,turnIndex){
 }
 window.ensureTranscriptTurn23=ensurePodcastTranscriptLineV7;
 
+function podcastTranslationVisibleV7(){
+  return scriptWindow.classList.contains('show-translation');
+}
+function setPodcastTranslationV7(show){
+  const visible=!!show,button=E('transcript-translate');
+  scriptWindow.classList.toggle('show-translation',visible);
+  if(button){button.setAttribute('aria-pressed',String(visible));button.textContent=visible?'隱藏中文':'中文對照'}
+  if(typeof language!=='undefined')language.setAttribute('aria-pressed',String(visible));
+  if(typeof lang!=='undefined')lang=visible;
+  const globalToggle=document.querySelector('#show-translation');if(globalToggle)globalToggle.checked=visible;
+  E('turns')?.querySelectorAll(':scope>.speech').forEach((line,index)=>{
+    const copy=line.querySelector(':scope>.curation-transcript-copy');
+    if(copy&&!copy.querySelector(':scope>.translation')&&zhTurns[index]){
+      const translation=document.createElement('p');translation.className='translation';translation.textContent=zhTurns[index];copy.append(translation);
+    }
+  });
+  return visible;
+}
+window.podcastTranslationVisibleV7=podcastTranslationVisibleV7;
+window.setPodcastTranslationV7=setPodcastTranslationV7;
+
 function fitPodcastTranscriptV7(){
   const playerBottom=Math.max(112,panel.getBoundingClientRect().bottom||205);
   const top=Math.min(innerHeight-280,playerBottom+12);
@@ -2146,7 +2174,7 @@ function bindPodcastChromeV7(){
   E('rate').onchange=()=>audio.playbackRate=Number(E('rate').value)||1;
   E('pins').onclick=()=>setPodcastPinsV7(E('ticks').hidden);
   E('transcript-toggle').onclick=()=>{const open=scriptWindow.classList.toggle('mobile-visible');E('transcript-toggle').setAttribute('aria-expanded',String(open));E('transcript-toggle').textContent=open?'收起逐字稿':'查看逐字稿'};
-  E('transcript-translate').onclick=()=>{const show=scriptWindow.classList.toggle('show-translation');E('transcript-translate').setAttribute('aria-pressed',String(show));E('transcript-translate').textContent=show?'隱藏中文':'中文對照'};
+  E('transcript-translate').onclick=()=>setPodcastTranslationV7(!podcastTranslationVisibleV7());
   E('transcript-follow').onclick=()=>{podcastFollowV7=!podcastFollowV7;updatePodcastFollowV7();if(podcastFollowV7)paintPodcastV7(true)};
   E('transcript-fit').onclick=fitPodcastTranscriptV7;
   for(const type of ['wheel','touchstart'])E('turns').addEventListener(type,()=>{if(!podcastProgrammaticScrollV7){podcastFollowV7=false;updatePodcastFollowV7()}},{passive:true});
@@ -2197,9 +2225,9 @@ function focusPodcastDestinationV7(cue,{scroll=false}={}){
 function setPodcastStateV7(index,{time,completed=false,completedThrough,play=false,persist=true}={}){
   const cue=podcastCueMetaV7[Math.max(0,Math.min(podcastCueMetaV7.length-1,Number(index)||0))];
   podcastStateLockV7=true;window.podcastTransactionV5=true;clearPodcastWritingV7();audio.pause();
-  cueIndex=cue.index;const requested=podcastMediaTimeV7(time);
+  podcastPlaybackCueV7=-1;cueIndex=cue.index;const requested=podcastMediaTimeV7(time);
   const position=Number.isFinite(requested)?Math.max(cue.playbackStart,Math.min(cue.end,requested)):cue.playbackStart;
-  audio.currentTime=position;done=!!completed&&Math.abs(position-cue.end)<=.1;
+  podcastDesiredTimeV7=position;audio.currentTime=position;done=!!completed&&Math.abs(position-cue.end)<=.1;
   podcastCompletedThroughV7=Number.isInteger(completedThrough)?Math.max(-1,Math.min(cue.index,completedThrough)):(done?cue.index:Math.min(cue.index-1,podcastCompletedAtTimeV7(position)));
   projectPodcastNotesV7();updatePodcastLessonV7();focusPodcastDestinationV7(cue);paintPodcastV7(true);
   window.podcastTransactionV5=false;podcastStateLockV7=false;
@@ -2222,8 +2250,9 @@ function recordPodcastTransactionV7(cue){
 }
 function completePodcastCueV7(){
   if(!active||audio.paused||done||window.podcastTransactionV5)return;
-  const cue=podcastCueMetaV7[cueIndex];if(!cue||audio.currentTime+.035<cue.end)return;
-  window.podcastTransactionV5=true;audio.pause();audio.currentTime=cue.end;done=true;podcastCompletedThroughV7=cue.index;clearPodcastWritingV7();
+  const playbackIndex=podcastPlaybackCueV7>=0?podcastPlaybackCueV7:podcastNextCueAfterTimeV7(audio.currentTime);
+  const cue=podcastCueMetaV7[playbackIndex];if(!cue||audio.currentTime+.035<cue.end)return;
+  cueIndex=cue.index;podcastPlaybackCueV7=-1;window.podcastTransactionV5=true;audio.pause();audio.currentTime=cue.end;done=true;podcastCompletedThroughV7=cue.index;clearPodcastWritingV7();
   recordPodcastTransactionV7(cue);focusPodcastDestinationV7(cue,{scroll:true});
   const field=podcastFieldV4(fieldIds[cue.index]);let count=0;
   if(!cue.text||!field){projectPodcastNotesV7();E('next').disabled=false;updatePodcastLessonV7();paintPodcastV7(true);window.podcastTransactionV5=false;persistPodcastStateV7();return}
@@ -2240,6 +2269,15 @@ function seekPodcastV7(value){
   const index=podcastCueAtTimeV7(time),cue=podcastCueMetaV7[index],atEnd=Math.abs(time-cue.end)<=.06;
   return setPodcastStateV7(index,{time,completed:atEnd,completedThrough:podcastCompletedAtTimeV7(time)});
 }
+function resumePodcastV7(){
+  if(!audio.paused){audio.pause();return}
+  const index=podcastNextCueAfterTimeV7(audio.currentTime);
+  if(index<0){E('podcast-cue-status').textContent='17/17 已完成；可按停頓點重聽任何一段。';return}
+  const cue=podcastCueMetaV7[index];podcastPlaybackCueV7=index;cueIndex=index;done=false;
+  podcastCompletedThroughV7=Math.min(index-1,podcastCompletedThroughV7);
+  podcastFollowV7=true;updatePodcastFollowV7();updatePodcastLessonV7();focusPodcastDestinationV7(cue);paintPodcastV7(true);persistPodcastStateV7();
+  audio.play().catch(showAudioFailure);
+}
 function activatePodcastV7(){
   active=rows[i]?.stage===2;panel.hidden=scriptWindow.hidden=!active;if(!active){audio.pause();return}
   surface.hidden=true;enhancePodcastSheet23();
@@ -2254,12 +2292,28 @@ render=function(){podcastOriginalRenderV7();activatePodcastV7()};
 const podcastOriginalUpdateV7=update23;
 update23=function(force=false){podcastOriginalUpdateV7(force);if(rows[i]?.stage===2){enhancePodcastSheet23();paintPodcastV7(!!force)}};
 
-audio.ontimeupdate=()=>{completePodcastCueV7();paintPodcastV7()};
-audio.onloadedmetadata=()=>{if(audio.currentTime<podcastOriginV7||audio.currentTime>podcastEndV7)audio.currentTime=podcastOriginV7;paintPodcastV7(true)};
-audio.onplay=()=>{E('play').textContent='Ⅱ';E('play').setAttribute('aria-label','暫停錄音')};
+audio.ontimeupdate=()=>{if(audio.currentTime>=podcastOriginV7&&audio.currentTime<=podcastEndV7)podcastDesiredTimeV7=audio.currentTime;completePodcastCueV7();paintPodcastV7()};
+function ensurePodcastMediaPositionV7(){
+  if(audio.readyState<1)return;
+  if(audio.currentTime<podcastOriginV7-.08||audio.currentTime>podcastEndV7+.08){
+    const desired=Math.max(podcastOriginV7,Math.min(podcastEndV7,podcastDesiredTimeV7));audio.currentTime=desired;
+  }
+  paintPodcastV7(true);
+}
+audio.onloadedmetadata=()=>{ensurePodcastMediaPositionV7();queueMicrotask(ensurePodcastMediaPositionV7);setTimeout(ensurePodcastMediaPositionV7,0)};
+audio.addEventListener('loadeddata',ensurePodcastMediaPositionV7);
+audio.addEventListener('canplay',ensurePodcastMediaPositionV7);
+audio.onplay=()=>{
+  const index=podcastNextCueAfterTimeV7(audio.currentTime);
+  if(index>=0){
+    podcastPlaybackCueV7=index;cueIndex=index;done=false;podcastFollowV7=true;
+    updatePodcastFollowV7();updatePodcastLessonV7();focusPodcastDestinationV7(podcastCueMetaV7[index]);paintPodcastV7(true);
+  }
+  E('play').textContent='Ⅱ';E('play').setAttribute('aria-label','暫停錄音');
+};
 audio.onpause=()=>{E('play').textContent='▶';E('play').setAttribute('aria-label','播放錄音');persistPodcastStateV7()};
 audio.onerror=()=>{showAudioFailure();E('a').textContent='未能載入會議錄音。可先閱讀逐字稿，再按重試載入錄音。'};
-E('play').onclick=()=>{if(done)replayPodcastCueV7(cueIndex,true);else if(audio.paused)audio.play().catch(showAudioFailure);else audio.pause()};
+E('play').onclick=resumePodcastV7;
 E('seek').oninput=event=>seekPodcastV7(event.target.value);
 E('audio-retry').onclick=()=>{E('audio-status').textContent='正在重新載入錄音…';const position=audio.currentTime;audio.load();audio.currentTime=position;audio.play().catch(showAudioFailure)};
 
@@ -2302,7 +2356,7 @@ activatePodcastV7();
 // Metadata may have loaded before V7 replaced the legacy onloadedmetadata
 // callback. In that case assigning currentTime during bootstrap was ignored.
 if(audio.readyState>=1&&(audio.currentTime<podcastOriginV7||audio.currentTime>podcastEndV7)){
-  const state=podcastStateSnapshotV7();audio.currentTime=Math.max(podcastOriginV7,Math.min(podcastEndV7,state.time||podcastOriginV7));paintPodcastV7(true);
+  ensurePodcastMediaPositionV7();
 }
 update23(true);
 </script><script data-reader-source="reference/benchmark-pages.js">

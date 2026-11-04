@@ -222,25 +222,25 @@
   }
   const reviewId = unit => `review:${unit.turn}:${unit.part}`;
   let lastReview = -1, lastReviewLanguage = '';
-  function resetTranscriptTurn23(row,turnIndex,{translated=false}={}) {
+  function resetTranscriptTurn23(row,turnIndex) {
     const turn=transcript[turnIndex];row.replaceChildren();row.classList.add('speech');row.dataset.id=String(turnIndex);
     const speaker=document.createElement('strong');speaker.className='speaker';speaker.textContent=turn.speaker;
     const copy=document.createElement('div');copy.className='curation-transcript-copy';
     const text=document.createElement('p');text.className='curation-transcript-text';text.textContent=turn.text;copy.append(text);
-    if(translated&&zhTurns[turnIndex-6]){const translation=document.createElement('p');translation.className='translation';translation.textContent=zhTurns[turnIndex-6];copy.append(translation)}
+    if(zhTurns[turnIndex-6]){const translation=document.createElement('p');translation.className='translation';translation.textContent=zhTurns[turnIndex-6];copy.append(translation)}
     row.append(speaker,copy);return copy;
   }
   function clearReviewFocus() {
-    const translated = language.getAttribute('aria-pressed') === 'true';
+    const translated = typeof window.podcastTranslationVisibleV7==='function'?window.podcastTranslationVisibleV7():language.getAttribute('aria-pressed') === 'true';
     scriptWindow.dataset.reviewMode='false';
     for (const row of E('turns').children) {
       const turnIndex=Number(row.dataset.id);
       row.classList.remove('cur23-review-current','cur23-review-noise');
-      resetTranscriptTurn23(row,turnIndex,{translated});
+      resetTranscriptTurn23(row,turnIndex);
     }
   }
   function paintReviewSentences() {
-    const translated = language.getAttribute('aria-pressed') === 'true';
+    const translated = typeof window.podcastTranslationVisibleV7==='function'?window.podcastTranslationVisibleV7():language.getAttribute('aria-pressed') === 'true';
     scriptWindow.dataset.reviewMode='true';
     for (const row of E('turns').children) {
       const turnIndex = Number(row.dataset.id), turn = transcript[turnIndex];
@@ -271,7 +271,6 @@
         text.append(span);cursor=at+unit.sentence.length;
       }
       text.append(document.createTextNode(turn.text.slice(cursor)));
-      if(translated&&zhTurns[turnIndex-6]){const translation=document.createElement('p');translation.className='translation';translation.textContent=zhTurns[turnIndex-6];copy.append(translation)}
     }
     const activeSentence=E('turns').querySelector('.curation-transcript-sentence.curation-target');
     if(activeSentence){void E('turns').offsetWidth;activeSentence.classList.add('is-revealed');}
@@ -303,7 +302,8 @@
     $('#curation-bookmark').textContent = books.includes(reviewId(unit)) ? '★' : '☆';
     $('#curation-bookmark').setAttribute('aria-pressed', String(books.includes(reviewId(unit))));
     $('#curation-bookmark-jump').textContent = books.length ? `${books.length} 個書籤　⌄` : '選擇書籤　⌄';
-    if (lastReview !== reviewIndex || lastReviewLanguage !== String(language.getAttribute('aria-pressed') === 'true')) paintReviewSentences();
+    const translated=typeof window.podcastTranslationVisibleV7==='function'?window.podcastTranslationVisibleV7():language.getAttribute('aria-pressed') === 'true';
+    if (lastReview !== reviewIndex || lastReviewLanguage !== String(translated)) paintReviewSentences();
     readerStore23.setItem(reviewKey, String(reviewIndex));
   }
   function enterReview(index=0) {

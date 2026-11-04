@@ -105,9 +105,31 @@ async function auditListeningJourney(page){
   assert.equal(first.destination,'notes-live-study-cook');assert.equal(first.text,'10 episodes');
   const firstState=await page.evaluate(()=>{
     const root=document.querySelector('.native-reader-host').shadowRoot;
-    return {value:root.querySelector('#notes-live-study-cook').value,follow:document.querySelector('#transcript-follow').getAttribute('aria-pressed'),done,completed:podcastController23.snapshot().completedThrough,revealed:document.querySelectorAll('#turns>.speech.is-revealed').length};
+    const body=document.querySelector('#turns'),source=body.querySelector('[data-id="18"]'),bodyRect=body.getBoundingClientRect(),sourceRect=source.getBoundingClientRect();
+    return {value:root.querySelector('#notes-live-study-cook').value,follow:document.querySelector('#transcript-follow').getAttribute('aria-pressed'),done,completed:podcastController23.snapshot().completedThrough,revealed:document.querySelectorAll('#turns>.speech.is-revealed').length,current:body.querySelector('.is-current')?.dataset.id,source:source.classList.contains('is-cue-source'),sourceVisible:sourceRect.bottom>bodyRect.top&&sourceRect.top<bodyRect.bottom};
   });
   assert.match(firstState.value,/10 episodes/);assert.equal(firstState.follow,'true');assert.equal(firstState.done,true);assert.equal(firstState.completed,0);assert(firstState.revealed>0);
+  assert.equal(firstState.current,'18',firstState);assert.equal(firstState.source,true,firstState);assert.equal(firstState.sourceVisible,true,firstState);
+
+  await page.locator('#transcript-translate').click();
+  const translated=await page.evaluate(()=>({
+    shown:document.querySelector('#trans').classList.contains('show-translation'),
+    pressed:document.querySelector('#transcript-translate').getAttribute('aria-pressed'),
+    translations:document.querySelectorAll('#turns>.speech>.curation-transcript-copy>.translation').length,
+    structured:[...document.querySelectorAll('#turns>.speech')].every(line=>line.querySelector(':scope>.speaker')&&line.querySelector(':scope>.curation-transcript-copy')),
+    visibleTranslations:[...document.querySelectorAll('#turns>.speech .translation')].filter(node=>getComputedStyle(node).display!=='none').length,
+    sample:document.querySelector('#turns>.speech .translation')?.textContent
+  }));
+  assert.equal(translated.shown,true);assert.equal(translated.pressed,'true');assert.equal(translated.translations,76);assert.equal(translated.visibleTranslations,76);assert.equal(translated.structured,true);assert.match(translated.sample,/多謝/);
+  await page.evaluate(()=>language.click());
+  assert.equal(await page.locator('#turns>.speech>.curation-transcript-copy>.translation').count(),76);
+  await page.locator('#transcript-translate').click();
+
+  const endpoint=await page.evaluate(()=>{audio.playbackRate=1;return podcastCueMetaV7[0].end});
+  await page.locator('#play').click();await page.waitForTimeout(250);
+  const resumed=await page.evaluate(()=>({time:audio.currentTime,cueIndex,done,follow:document.querySelector('#transcript-follow').getAttribute('aria-pressed')}));
+  assert.equal(resumed.cueIndex,1,resumed);assert.equal(resumed.done,false,resumed);assert.equal(resumed.follow,'true');assert(resumed.time>=endpoint-.03,resumed);assert(resumed.time<endpoint+3,resumed);
+  await page.locator('#play').click();
 
   await page.evaluate(()=>{podcastController23.replay(1,false);const middle=(podcastCueMetaV7[1].playbackStart+podcastCueMetaV7[1].sourceStart)/2;podcastController23.seek(middle);podcastController23.persist()});
   const beforeReload=await page.evaluate(()=>({snapshot:podcastController23.snapshot(),note:document.querySelector('.native-reader-host').shadowRoot.querySelector('#notes-live-study-cook').value}));
