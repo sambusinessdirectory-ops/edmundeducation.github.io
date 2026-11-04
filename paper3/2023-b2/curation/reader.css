@@ -24,6 +24,7 @@ body:not(.cur23-open) main>section>:not(.native-reader-host){display:none!import
 @media(max-width:500px){.reader-route nav{grid-template-columns:1fr}.reader-route{padding:11px}}
 @media print{.reader-route{display:none!important}body:not(.cur23-open) main{display:block;padding:0}}
 .native-reader-host[hidden]{display:none!important}
+.native-reader-host:not([hidden]){display:block!important;width:100%;min-height:1px}
 @media(min-width:501px){#transcript-toggle{display:none}}
 @media(max-width:500px){
  body:has(#player:not([hidden])) main>section{padding:8px}

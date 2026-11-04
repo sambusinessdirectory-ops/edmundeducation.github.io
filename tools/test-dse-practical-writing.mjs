@@ -1,7 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import test from 'node:test';
-import vm from 'node:vm';
 
 const read = path => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
 const html = read('dse-practical-writing.html');
@@ -9,7 +8,8 @@ const app = read('dse-practical-writing.mjs');
 const css = read('dse-practical-writing.css');
 const homepage = read('index.html');
 const nav = read('shared-system-nav.js');
-const source = read('writing-practice-dse-part-a-data.js');
+const dataSource = read('dse-practical-writing-data.mjs');
+const { learningUnits, practiceMissions } = await import('../dse-practical-writing-data.mjs');
 
 test('Card 80 routes to the new DSE practical-writing system with the requested line break', () => {
   assert.match(homepage, /href="dse-practical-writing\.html"[^>]*aria-label="DSE 學生使用 實用文練習系統"/);
@@ -27,24 +27,40 @@ test('system is protected by an existing-student login and restores shared stude
   assert.match(app, /getStudentSession/);
 });
 
-test('practice catalogue exposes only prompt metadata to the new UI and includes every authored Part A task', () => {
-  const sandbox = { window: {} };
-  vm.runInNewContext(source, sandbox);
-  const exercises = Object.values(sandbox.window.EDMUND_DSE_WRITING_PART_A_EXERCISES || {});
-  assert.equal(exercises.length, 15);
-  assert.ok(exercises.every(item => item.id && item.exam && item.taskType && item.questionPrompt?.length));
-  assert.match(html, /writing-practice-dse-part-a-data\.js/);
-  assert.match(app, /questionPrompt/);
-  assert.doesNotMatch(app, /translationSections|practiceDifficultySets|essayLeadLines|paragraphs/);
+test('two source-derived modes contain 13 learning units and 13 complete bilingual missions', () => {
+  assert.equal(learningUnits.length, 13);
+  assert.equal(practiceMissions.length, 13);
+  assert.ok(learningUnits.every(item => item.id && item.title && item.zhTitle && item.purpose && item.purposeZh && item.structure.length >= 4 && item.expressions.length >= 3));
+  assert.ok(practiceMissions.every(item => item.id && item.title && item.zhTitle && item.situation && item.situationZh && item.requirements.length >= 2 && item.model.en && item.model.zh));
+  assert.match(app, /Learning mode/);
+  assert.match(app, /Practice mode/);
+  assert.match(dataSource, /Letter of Enquiry/);
+  assert.match(dataSource, /The Growing Problem of Electronic Waste/);
 });
 
-test('drafting is student-scoped, autosaved and responsive', () => {
-  assert.match(app, /edmund-dse-practical-writing-draft-v1/);
-  assert.match(app, /state\.user\?\.id/);
-  assert.match(app, /setTimeout\(saveActiveDraft, 500\)/);
+test('map, briefing, three-column writing desk and model review follow the requested flow', () => {
+  assert.match(app, /campaign-map/);
+  assert.match(app, /map-marker/);
+  assert.match(app, /briefing-scene/);
+  assert.match(app, /desk-requirements/);
+  assert.match(app, /desk-editor/);
+  assert.match(app, /desk-expressions/);
+  assert.match(app, /data-model-dialog/);
+  assert.match(html, /data-model-dialog/);
+  assert.match(css, /operations-map\.jpg/);
+  assert.match(css, /mission-briefing\.jpg/);
+  assert.match(css, /writing-desk\.jpg/);
+});
+
+test('drafting is student-scoped, autosaved, completable and responsive', () => {
+  assert.match(app, /edmund-dse-practical-writing-mission-v2/);
+  assert.match(app, /ownerKey/);
+  assert.match(app, /setTimeout\(saveActiveDraft, 420\)/);
   assert.match(app, /localStorage\.setItem/);
   assert.match(app, /wordCount/);
-  assert.match(css, /@media \(max-width: 900px\)/);
+  assert.match(app, /setComplete/);
+  assert.match(app, /完成並提交/);
+  assert.match(css, /@media \(max-width: 800px\)/);
   assert.match(css, /grid-template-columns: 1fr/);
-  assert.match(html, /data-draft-count/);
+  assert.match(app, /顯示繁體中文翻譯/);
 });

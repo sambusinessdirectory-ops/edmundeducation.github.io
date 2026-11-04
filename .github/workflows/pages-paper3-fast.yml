@@ -50,6 +50,7 @@ jobs:
           /tools/add-paper3-study-support.py
           /tools/build-2023-b2-reader.py
           /tools/check-2023-b2-entry.cjs
+          /tools/paper3/
           /tools/rewrite-pages-assets.py
           /tools/update-pages-snapshot.sh
           /tools/validate-2023-b2-verbatim.mjs
@@ -75,6 +76,7 @@ jobs:
               .github/workflows/publish-pages-artifact.yml|\
               tools/build-2023-b2-reader.py|\
               tools/check-2023-b2-entry.cjs|\
+              tools/paper3/*|\
               tools/test-proverb-system.mjs|\
               tools/validate-2023-b2-verbatim.mjs) ;;
               *) echo "Use the full release workflow for: ${path}" >&2; exit 1 ;;

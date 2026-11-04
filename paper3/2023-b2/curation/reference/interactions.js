@@ -575,7 +575,7 @@
         p.classList.toggle('cur23-task-revealed',marks.some(mark => p.contains(mark)));
       }
     }
-    const tasks = currentTasks(page), header = article.querySelector(':scope > header');
+    const tasks = page===3 ? [] : currentTasks(page), header = article.querySelector(':scope > header');
     if (header) {
       header.classList.add('page-heading');
       const existing=header.querySelector('.curation-file-stamps,.cur23-file-stamps');
