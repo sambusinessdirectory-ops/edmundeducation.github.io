@@ -45,6 +45,7 @@ jobs:
           git config remote.origin.promisor true
           git config remote.origin.partialclonefilter blob:none
           cat > .git/info/sparse-checkout <<'PATTERNS'
+          /.github/workflows/pages-paper3-fast.yml
           /paper3/
           /service-worker.js
           /pwa-register.js
