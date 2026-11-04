@@ -1,9 +1,9 @@
 /* Nine-slice artwork keeps the fittings in proportion as panels grow. */
-:root { --engraved-frame: url("./assets/engraved-frame.svg") 54 / var(--fitting, 16px) stretch; }
+:root { --engraved-frame: url("./assets/engraved-frame.svg") 54; }
 :is(#login-gate, #gate-form-host .login-form, #login-dialog .login-form, #panel-task1, #panel-task2),
 :is(#panel-task1, #panel-task2) :is(.progress-block, .study-tools, .toolbar, tbody tr, .menu-trigger, .answer-trigger, .reading-control__trigger, .translation-toggle, .question-audio),
 :is(#login-gate, #login-dialog) :is(.login-submit, input[type="text"], input[type="password"]) {
-  border-image: var(--engraved-frame) !important;
+  border-image: var(--engraved-frame) / var(--fitting, 16px) stretch !important;
 }
 #login-gate, #panel-task1, #panel-task2 { --fitting: clamp(35px,5vw,66px); }
 :is(#gate-form-host, #login-dialog) .login-form { --fitting: 29px; }
