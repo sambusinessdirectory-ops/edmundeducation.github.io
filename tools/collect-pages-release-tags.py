@@ -77,7 +77,10 @@ def collect_path_scopes(
     )
     if not uncovered and not shared:
         tags.add(FAST)
-        if "[audio-contract-release]" in tags:
+        # A changed artifact transformation must see the complete source.
+        # Route-only maintenance can still use the deployed snapshot.
+        artifact_tools = {"tools/prepare-pages-incremental.py", "tools/rewrite-pages-assets.py"}
+        if "[audio-contract-release]" in tags or artifact_tools.intersection(changed_paths):
             tags.add("[full-artifact]")
     return " ".join(sorted(tags)), uncovered
 
