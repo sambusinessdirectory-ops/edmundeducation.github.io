@@ -145,6 +145,9 @@ if (!dataOnly) {
   let localAudio = 0;
   let cloudAudio = 0;
   let replacementAudio = 0;
+  let customAudio = 0;
+  const verifiedCustomAudio = 'https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/c648933976dad95a218d37fe.mp3';
+  assert(read("workers/edmund-audio/src/index.js").includes("assets/flashcards/audio/edmund-neural/v1-custom-20261024/"), "Custom audio route is not enabled");
   const verifiedReplacements = {
     "paid off": "assets/flashcards/audio/edmund-neural/custom-20261012/38a0eff5fb3861e8fb2ba60e.mp3",
     "shortcoming": "assets/flashcards/audio/edmund-neural/custom-20261012/6ef946775e978754c68e6ce1.mp3"
@@ -161,7 +164,9 @@ if (!dataOnly) {
     const cloudRelativePath = `${cloudIndex.audioPathPrefix}${digest.slice(0, 2)}/${digest}.mp3`;
     const expectedUrl = `${String(cloudIndex.cloudBaseUrl).replace(/\/+$/, "")}/${cloudRelativePath}`;
     const packEntry = cloudIndex.entries?.[digest.slice(0, 2)]?.[digest.slice(2)];
-    if (fs.existsSync(localPath) && fs.statSync(localPath).size > 1000) {
+    if (front === "appear to be" && audioUrl === verifiedCustomAudio) {
+      customAudio += 1;
+    } else if (fs.existsSync(localPath) && fs.statSync(localPath).size > 1000) {
       localAudio += 1;
       if (audioUrl !== localRelativePath) {
         missing.push(`${front}: expected retained local URL ${localRelativePath}, found ${audioUrl}`);
@@ -181,10 +186,11 @@ if (!dataOnly) {
     if (missing.length >= 20) break;
   }
   assert(!missing.length, `Missing Passage 1 audio:\n${missing.join("\n")}`);
-  assert(localAudio === 1122, `Expected 1,122 retained local recordings, found ${localAudio}`);
+  assert(localAudio === 1121, `Expected 1,121 retained local recordings after one verified custom replacement, found ${localAudio}`);
+  assert(customAudio === 1, `Expected one verified custom recording, found ${customAudio}`);
   assert(replacementAudio <= 2, "Only the two verified Kokoro replacements are permitted");
   assert(cloudAudio + replacementAudio === 26158, `Expected 26,158 cloud or verified replacement recordings, found ${cloudAudio + replacementAudio}`);
-  audioResult = { checked: true, manifestEntries: Object.keys(manifest).length, localAudio, cloudAudio, replacementAudio };
+  audioResult = { checked: true, manifestEntries: Object.keys(manifest).length, localAudio, cloudAudio, replacementAudio, customAudio };
 }
 
 console.log(JSON.stringify({
