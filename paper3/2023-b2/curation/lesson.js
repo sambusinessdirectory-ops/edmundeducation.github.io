@@ -117,7 +117,9 @@ if(savedEntry23&&entry23(savedEntry23)>=0)i=entry23(savedEntry23);render();
 
 window.addEventListener('pagehide',remember23);audio.addEventListener('pause',remember23);
 const goBack23=E('prev').onclick;E('prev').onclick=()=>{if(diag.open&&!routing&&rows[i].pattern){let t=rows[i].t;diag.close();visitIndex=Math.max(0,visitIndex-1);shownByTask[t]={i,n:visitIndex};renderBank23(rows[i]);E('next').textContent='下一步 →';remember23();return}goBack23()};
-if(!panel.querySelector('.curation-player-timeline')){const seekWrap=document.createElement('span');seekWrap.className='seek-wrap';E('seek').before(seekWrap);seekWrap.append(E('seek'));const pinLayer=document.createElement('span');pinLayer.className='pin-layer';pinLayer.hidden=true;seekWrap.append(pinLayer);for(let c of cues){let pin=document.createElement('i');pin.style.left=(transcript[c[0]].end-426)/(838.79-426)*100+'%';pin.title=c[2];pinLayer.append(pin)}E('pins').addEventListener('click',()=>{pinLayer.hidden=E('ticks').hidden})}
+// Player pins are created only by the canonical podcast controller.  A second
+// legacy pin layer here used to survive outside the 2025-style timeline and
+// made the toggle label disagree with the visible state.
 const reject23=[['vote for free through','The voting hotline number will be on the screen in each episode.',6,3],['Mary Steward has confirmed','Our regular chef, plus one mystery guest each week',6,3],['instructors lost their HAB approval','3. Food Hygiene Basics',9,2],['only for management-level staff','1. Advanced Fire Safety',9,2],['he works at an indoor kitchen','B: The Fire Chef’s Manual',9,2]];
 const decisionsView=render;render=function(){decisionsView();let r=rows[i];if(r.stage!==3)return;let record=reject23.find(v=>r.q.includes(v[0]));if(!record)return;let [trigger,span,page,task]=record,b=document.createElement('button');b.className='route23';b.textContent='第 '+page+' 頁\n核對早前方案';b.onclick=()=>{routing=true;head.firstChild.textContent='原文 · 早前方案已淘汰　';diag.show();previewNativePage(page,span,task,true)};E('refs').append(b)};render();
 

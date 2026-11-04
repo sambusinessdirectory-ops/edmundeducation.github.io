@@ -1,5 +1,6 @@
 import { PAPER3_WRITING_TOPICS } from '../paper3-writing-topics.mjs';
 import { speakingTopicLabel } from '../writing-speaking-topics.mjs';
+import { writingFormats, practiceMissions } from '../dse-practical-writing-data.mjs';
 import { readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import vm from "node:vm";
@@ -738,14 +739,17 @@ async function grammarHomeworkResources() {
   });
 }
 async function errorHomeworkResources() {
-  const data = await evaluateFiles(["error-identifier-questions.js", "error-identifier-passages.js"]);
-  const questions = data.ERROR_IDENTIFIER_QUESTIONS, passages = data.ERROR_IDENTIFIER_PASSAGES;
-  if (!questions?.length || !passages?.length) throw new Error("Error Identification data is empty");
+  const data = await evaluateFiles(["error-identifier-questions.js", "error-identifier-passages.js", "error-identifier-jayden-questions.js", "grammar-indefinite-pronouns-data.js"]);
+  const questions = data.ERROR_IDENTIFIER_QUESTIONS;
+  const passages = data.ERROR_IDENTIFIER_PASSAGES;
+  const indefiniteQuestions = data.EDMUND_INDEFINITE_PRONOUNS?.passages?.flatMap(passage => passage.questions);
+  const grammarQuestions = data.ERROR_IDENTIFIER_JAYDEN_QUESTIONS;
+  if (questions?.length !== 344 || indefiniteQuestions?.length !== 200 || grammarQuestions?.length !== 300 || passages?.length !== 11) throw new Error("Error Identification module data is incomplete");
   return [
-    {id:"error-identification:single",type:"error-identification",ordinal:0,label:"單句模式 · 全部練習",detail:`Error Identification · ${questions.length} 題`,url:"error-identifier-system.html?mode=single"},
-    {id:"error-identification:passage",type:"error-identification",ordinal:0,label:"文章模式 · 全部練習",detail:`Error Identification · ${passages.length} 篇文章`,url:"error-identifier-system.html?mode=passage"},
-    ...questions.map(q=>({id:`error-identification:q${q.number}`,type:"error-identification",ordinal:q.number,label:`單句 · 第 ${q.number} 題`,detail:compactText(q.sentence),url:`error-identifier-system.html?mode=single&question=${q.number}`})),
-    ...passages.map(p=>({id:`error-identification:passage-${p.id}`,type:"error-identification",ordinal:p.id,label:`文章 ${p.id} · ${p.title}`,detail:`Error Identification · ${p.lines.length} 行`,url:`error-identifier-system.html?mode=passage&passage=${p.id}`}))
+    {id:"error-identification:module-1",type:"error-identification",ordinal:1,label:"Module 1 · 單句校對",detail:`Single Sentence · Error Identification · ${questions.length} 題 · 自動接續未完成題目`,url:"error-identifier-system.html?mode=single"},
+    {id:"error-identification:module-2",type:"error-identification",ordinal:2,label:"Module 2 · 不定代名詞單句校對",detail:`Indefinite Pronouns · Error Identification · ${indefiniteQuestions.length} 題 · 自動接續未完成題目`,url:"error-identifier-system.html?mode=indefinite"},
+    {id:"error-identification:module-3",type:"error-identification",ordinal:3,label:"Module 3 · 文法與用法單句校對",detail:`Grammar & Usage · Error Identification · ${grammarQuestions.length} 題 · 自動接續未完成題目`,url:"error-identifier-system.html?mode=jayden"},
+    {id:"error-identification:passage",type:"error-identification",ordinal:4,label:"Passage Mode · 文章校對",detail:`Error Identification · ${passages.length} 篇文章`,url:"error-identifier-system.html?mode=passage"}
   ];
 }
 async function juniorHomeworkResources() {
@@ -924,8 +928,30 @@ async function songHomeworkResources() {
   return [...songs.values()];
 }
 
+function dsePracticalWritingResources() {
+  return [
+    ...writingFormats.map((unit) => ({
+      id: `dse-practical-writing:learning:${unit.id}`,
+      type: 'dse-practical-writing',
+      ordinal: Number(unit.number),
+      label: `Learning ${unit.number} · ${unit.title} · ${unit.zhTitle}`,
+      detail: 'DSE Practical Writing · 學習模式',
+      url: `dse-practical-writing.html?mode=learning&item=${encodeURIComponent(unit.id)}`
+    })),
+    ...practiceMissions.map((mission) => ({
+      id: `dse-practical-writing:practice:${mission.id}`,
+      type: 'dse-practical-writing',
+      ordinal: Number(mission.number),
+      label: `Practice ${mission.number} · ${mission.title} · ${mission.zhTitle}`,
+      detail: `${mission.type} · ${mission.zhType} · 練習模式`,
+      url: `dse-practical-writing.html?mode=practice&item=${encodeURIComponent(mission.id)}`
+    }))
+  ];
+}
+
 const resources = [
   ...await songHomeworkResources(),
+  ...dsePracticalWritingResources(),
   {id:'ielts-question-types:task1',type:'ielts-question-types',label:'IELTS Question Types · Task 1',detail:'IELTS Writing · Diagrams',url:'ielts-writing-question-preview.html#task1'},
   {id:'ielts-question-types:task2',type:'ielts-question-types',label:'IELTS Question Types · Task 2',detail:'IELTS Writing · Essays',url:'ielts-writing-question-preview.html#task2'},
   ...await flashcardResources(allFiles),

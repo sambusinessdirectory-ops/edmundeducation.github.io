@@ -97,6 +97,14 @@ function update23(force=false){let r=rows[i],ss=rows.filter(x=>x.stage===r.stage
 }
 const originalUpdate23=update23;
 update23=function(force=false){let old=lastSync;originalUpdate23(force);if(!force&&old===lastSync)return;const r=rows[i],actions=$s('#curation-step-actions'),ex=$s('#curation-explanation');if(r.stage===4&&r.pattern&&r.used.length)$s('#curation-step-count').textContent+=' · '+(diag.open?'查看原文':'證據核對')+' '+Math.min(visitIndex,r.used.length)+' / '+r.used.length;if(r.stage===4&&r.pattern){let reason=ex.querySelector('p');if(reason)reason.prepend('取用理由 · ');let structure=document.createElement('p');structure.className='curation-structure';structure.textContent='可借用的句式／版面 · '+r.pattern;ex.append(structure)}
+if(r.stage===0&&!E('refs').querySelector('[data-destination]')){
+  const route=[...routes].find(([cue])=>r.q.includes(cue));
+  if(route){
+    const button=document.createElement('button');button.className='route23';button.dataset.destination=String(route[1]);
+    button.textContent='➜ 第 '+route[1]+' 頁\n'+pageRouteTitles[route[1]];button.onclick=()=>setRoutePhase('visit');E('refs').append(button);
+    const clone=button.cloneNode(true);clone.onclick=()=>button.click();actions.append(clone);
+  }
+}
 $s('#curation-quote').hidden=false;
 if(r.stage===3){
   $s('#curation-quote').textContent=r.manualQuote||r.q;
@@ -104,7 +112,7 @@ if(r.stage===3){
   const badge=document.createElement('p');badge.className='curation-provenance curation-provenance-'+r.origin;badge.textContent=provenance23[r.origin]||'補充取證';ex.append(badge);
   const runtimeType='類型：'+types[r.t];
   const banner=document.createElement('p');banner.className='curation-type curation-type-'+r.t;banner.textContent=runtimeType;ex.append(banner);
-  if(r.manualType&&r.manualType!==runtimeType){const authored=document.createElement('p');authored.className='curation-manual-type-note';authored.textContent='原版導讀標籤（跨句逐字）：'+r.manualType;ex.append(authored)}
+  if(r.manualType&&r.manualType!==runtimeType){const authored=document.createElement('p');authored.className='curation-manual-type-note';authored.textContent='原版跨句標籤（僅供來源核對，不是本句分類）：'+r.manualType;ex.append(authored)}
   if(r.origin==='manual'){
     const heading=document.createElement('p');heading.className='curation-analysis-heading';heading.textContent='分析（原文）';
     const list=document.createElement('ul');list.className='curation-verbatim-analysis';for(const line of r.manualAnalysis){const item=document.createElement('li');item.textContent=line;list.append(item)}

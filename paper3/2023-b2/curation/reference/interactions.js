@@ -222,27 +222,37 @@
   }
   const reviewId = unit => `review:${unit.turn}:${unit.part}`;
   let lastReview = -1, lastReviewLanguage = '';
+  function resetTranscriptTurn23(row,turnIndex,{translated=false}={}) {
+    const turn=transcript[turnIndex];row.replaceChildren();row.classList.add('speech');row.dataset.id=String(turnIndex);
+    const speaker=document.createElement('strong');speaker.className='speaker';speaker.textContent=turn.speaker;
+    const copy=document.createElement('div');copy.className='curation-transcript-copy';
+    const text=document.createElement('p');text.className='curation-transcript-text';text.textContent=turn.text;copy.append(text);
+    if(translated&&zhTurns[turnIndex-6]){const translation=document.createElement('p');translation.className='translation';translation.textContent=zhTurns[turnIndex-6];copy.append(translation)}
+    row.append(speaker,copy);return copy;
+  }
   function clearReviewFocus() {
     const translated = language.getAttribute('aria-pressed') === 'true';
-    for (const p of E('turns').children) {
-      const turn = transcript[Number(p.dataset.id)];
-      p.classList.remove('cur23-review-current','cur23-review-noise');
-      p.textContent = `${turn.speaker} · ${turn.text}` + (translated ? `　${zhTurns[Number(p.dataset.id)-6] || ''}` : '');
+    scriptWindow.dataset.reviewMode='false';
+    for (const row of E('turns').children) {
+      const turnIndex=Number(row.dataset.id);
+      row.classList.remove('cur23-review-current','cur23-review-noise');
+      resetTranscriptTurn23(row,turnIndex,{translated});
     }
   }
   function paintReviewSentences() {
     const translated = language.getAttribute('aria-pressed') === 'true';
-    for (const p of E('turns').children) {
-      const turnIndex = Number(p.dataset.id), turn = transcript[turnIndex];
+    scriptWindow.dataset.reviewMode='true';
+    for (const row of E('turns').children) {
+      const turnIndex = Number(row.dataset.id), turn = transcript[turnIndex];
       const units = reviewUnits.map((unit,index) => ({unit,index})).filter(entry => entry.unit.turn === turnIndex);
-      p.classList.remove('curation-transcript-strike-direct','curation-transcript-strike','curation-strike','is-revealed','curation-transcript-A','curation-transcript-B','curation-transcript-C','curation-transcript-listening');
-      p.replaceChildren(document.createTextNode(`${turn.speaker} · `));
-      p.classList.toggle('cur23-review-current',units.some(entry => entry.index === reviewIndex));
+      row.classList.remove('curation-transcript-strike-direct','curation-transcript-strike','curation-strike','is-revealed','curation-transcript-A','curation-transcript-B','curation-transcript-C','curation-transcript-listening');
+      const copy=resetTranscriptTurn23(row,turnIndex),text=copy.querySelector('.curation-transcript-text');text.replaceChildren();
+      row.classList.toggle('cur23-review-current',units.some(entry => entry.index === reviewIndex));
       let cursor = 0;
       for (const {unit,index} of units) {
         const at = turn.text.indexOf(unit.sentence,cursor);
         if (at < 0) continue;
-        p.append(document.createTextNode(turn.text.slice(cursor,at)));
+        text.append(document.createTextNode(turn.text.slice(cursor,at)));
         const span = document.createElement('span');
         const role = reviewRole(unit);
         span.className='curation-transcript-sentence';
@@ -258,21 +268,21 @@
           span.classList.add('curation-target');
           span.dataset.curationCurrent=role.type>=1&&role.type<=3?'ABC'[role.type-1]:'neutral';
         }
-        p.append(span);cursor=at+unit.sentence.length;
+        text.append(span);cursor=at+unit.sentence.length;
       }
-      p.append(document.createTextNode(turn.text.slice(cursor)));
-      if (translated) p.append(document.createTextNode(`　${zhTurns[turnIndex-6] || ''}`));
+      text.append(document.createTextNode(turn.text.slice(cursor)));
+      if(translated&&zhTurns[turnIndex-6]){const translation=document.createElement('p');translation.className='translation';translation.textContent=zhTurns[turnIndex-6];copy.append(translation)}
     }
     const activeSentence=E('turns').querySelector('.curation-transcript-sentence.curation-target');
     if(activeSentence){void E('turns').offsetWidth;activeSentence.classList.add('is-revealed');}
     const unit = reviewUnits[reviewIndex];
-    const target = [...E('turns').children].find(p => Number(p.dataset.id) === unit.turn);
+    const target = [...E('turns').children].find(row => Number(row.dataset.id) === unit.turn);
     target?.scrollIntoView({block:'center',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
     lastReview = reviewIndex;lastReviewLanguage=String(translated);
   }
   function renderReview() {
     if (reviewIndex < 0 || rows[i].stage !== 2) return;
-    const unit = reviewUnits[reviewIndex], role = reviewRole(unit), total = cues.length + reviewUnits.length, number = cues.length + reviewIndex + 1;
+    const unit = reviewUnits[reviewIndex], role = reviewRole(unit);
     audio.pause();
     scriptWindow.hidden = false;
     $('#curation-chapter').textContent = '先完成關鍵停頓，再逐句檢查會議逐字稿。';
@@ -284,9 +294,9 @@
     const banner = document.createElement('p'); banner.className = `curation-type curation-type-${role.type}`; banner.textContent = `類型：${types[role.type]}`;
     const reason = document.createElement('p'); reason.textContent = role.explanation;
     explanation.append(banner,reason);
-    $('#curation-step-count').textContent = `${number} / ${total} · ${reviewIndex+1} / ${reviewUnits.length} 句逐句核對`;
-    $('#curation-step-jump').textContent = `${number} / ${total} · ${unit.sentence.slice(0,24)}…`;
-    const stageCount = $('.curation-stage-item[data-chapter="podcast"] small'); if (stageCount) stageCount.textContent = `${number}/${total}`;
+    $('#curation-step-count').textContent = `逐句核對 ${reviewIndex+1} / ${reviewUnits.length}`;
+    $('#curation-step-jump').textContent = `逐句 ${reviewIndex+1} / ${reviewUnits.length} · ${unit.sentence.slice(0,24)}…`;
+    const stageCount = $('.curation-stage-item[data-chapter="podcast"] small'); if (stageCount) stageCount.textContent = `逐句 ${reviewIndex+1}/${reviewUnits.length}`;
     $('#curation-next').disabled = false;
     $('#curation-next').textContent = reviewIndex === reviewUnits.length-1 ? '完成本章 ✓' : '下一句 →';
     $('#curation-prev').disabled = false;
@@ -347,15 +357,14 @@
     if(row.stage!==2)listeningStage.querySelector('small').textContent=finished?'完成':'';
     if (opened && row.stage === 2) {
       $('#curation-prev').disabled=reviewIndex<0 && cueIndex===0;
-      const total = cues.length + reviewUnits.length;
       if (reviewIndex >= 0) renderReview();
       else {
-        $('#curation-step-count').textContent = `${cueIndex+1} / ${total} · 聆聽關鍵點 ${cueIndex+1} / ${cues.length}`;
-        $('#curation-step-jump').textContent = `${cueIndex+1} / ${total} · ${cues[cueIndex][2] || '會議結束'}`;
+        $('#curation-step-count').textContent = `聆聽關鍵點 ${cueIndex+1} / ${cues.length} · 完成後逐句核對 ${reviewUnits.length} 句`;
+        $('#curation-step-jump').textContent = `錄音 ${cueIndex+1} / ${cues.length} · ${cues[cueIndex][2] || '會議結束'}`;
         const starred=books.includes(cueId(cues[cueIndex])) || cueIndex===0 && books.includes(key23(rows[first(2)]));
         $('#curation-bookmark').textContent=starred?'★':'☆';
         $('#curation-bookmark').setAttribute('aria-pressed',String(starred));
-        const count = $('.curation-stage-item[data-chapter="podcast"] small'); if (count) count.textContent = `${cueIndex+1}/${total}`;
+        const count = $('.curation-stage-item[data-chapter="podcast"] small'); if (count) count.textContent = `錄音 ${cueIndex+1}/${cues.length}`;
         $('#curation-next').textContent = cueIndex === cues.length-1 ? '逐句核對 →' : '下一步 →';
       }
     } else {

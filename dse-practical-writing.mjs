@@ -15,6 +15,13 @@ const client = window.supabase?.createClient?.(config.url, config.anonKey, {
   auth: { persistSession: true, storage: resilientStorage, autoRefreshToken: true, detectSessionInUrl: false }
 });
 const state = { user: null, screen: 'hub', mode: '', activeId: '', translation: false, modelTranslation: false, saveTimer: 0, toastTimer: 0 };
+const requestedDestination = (() => {
+  const params = new URLSearchParams(location.search);
+  const mode = params.get('mode') || '';
+  const activeId = params.get('item') || '';
+  const collection = mode === 'learning' ? writingFormats : mode === 'practice' ? practiceMissions : [];
+  return collection.some(item => item.id === activeId) ? { mode, activeId } : null;
+})();
 
 async function rpc(name, args = {}) {
   if (!client) throw new Error('登入服務暫時未能載入，請重新整理頁面。');
@@ -148,7 +155,21 @@ function handleAction(action) {
   if (action === 'clear') { if (!confirm('確定清除這一道任務的草稿？')) return; writeDraft(state.activeId, ''); renderWorkspace(); showToast('草稿已清除'); return; }
   if (action === 'submit') { const editor = $('[data-editor]'); if (!editor?.value.trim()) { alert('請先完成文章，然後再提交。'); editor?.focus(); return; } saveActiveDraft({ quiet: true }); setComplete(state.activeId); showToast('練習已完成並儲存'); $('[data-action="submit"]').textContent = '已提交 · 再次完成'; }
 }
-function showApp() { $('[data-view="login"]').hidden = true; $('[data-view="app"]').hidden = false; $('[data-account-actions]').hidden = false; $('[data-account-name]').textContent = `${state.user.name} · 學生`; renderHub(); }
+function showApp() {
+  $('[data-view="login"]').hidden = true;
+  $('[data-view="app"]').hidden = false;
+  $('[data-account-actions]').hidden = false;
+  $('[data-account-name]').textContent = `${state.user.name} · 學生`;
+  if (requestedDestination) {
+    state.mode = requestedDestination.mode;
+    state.activeId = requestedDestination.activeId;
+    state.translation = false;
+    state.modelTranslation = false;
+    renderBriefing();
+    return;
+  }
+  renderHub();
+}
 function showLogin() { state.user = null; state.screen = 'hub'; state.mode = ''; state.activeId = ''; $('[data-view="login"]').hidden = false; $('[data-view="app"]').hidden = true; $('[data-account-actions]').hidden = true; $('[data-login-status]').textContent = ''; }
 function remember(user) { state.user = { token: String(user.token), id: String(user.id || ''), name: String(user.name || 'Student'), role: 'student' }; try { sessionStorage.setItem(sessionKey, JSON.stringify(state.user)); } catch {} try { window.EdmundSystemNav?.rememberStudentSession?.(state.user); } catch {} }
 async function validate(token) { const rows = await rpc('flashcard_student_session_profile', { p_token: String(token) }); const profile = Array.isArray(rows) ? rows[0] : null; if (!profile?.id) return false; remember({ token: profile.session_token || token, id: profile.id, name: profile.name }); return true; }
