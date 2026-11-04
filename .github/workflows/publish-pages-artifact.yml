@@ -69,16 +69,8 @@ jobs:
             }
 
             if (current && mainSha !== context.sha) {
-              const { data: lineage } = await github.rest.repos.compareCommitsWithBasehead({
-                ...context.repo,
-                basehead: `${context.sha}...${mainSha}`,
-              });
-              if (lineage.status !== 'ahead') {
-                current = false;
-                core.notice(`Skipping release ${context.sha}; it is not an ancestor of main ${mainSha}.`);
-              } else {
-                core.notice(`Publishing forward intermediate ${context.sha}; main is ${mainSha}.`);
-              }
+              current = false;
+              core.notice(`Skipping superseded release ${context.sha}; main is ${mainSha}.`);
             }
 
             core.setOutput('current', String(current));
@@ -96,6 +88,9 @@ jobs:
     if: needs.publish.outputs.current == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    concurrency:
+      group: pages-snapshot
+      cancel-in-progress: false
     permissions:
       actions: read
       contents: write

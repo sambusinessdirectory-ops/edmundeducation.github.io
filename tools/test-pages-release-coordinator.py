@@ -48,9 +48,9 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("Batch nearby pushes before expensive work", COORDINATOR)
         self.assertIn("sleep 15", COORDINATOR)
 
-    def test_running_build_finishes_while_pending_pushes_coalesce(self):
+    def test_artifact_builds_can_run_in_parallel(self):
         for workflow in BUILDERS:
-            self.assertIn("group: pages-build-main\n      cancel-in-progress: false", workflow)
+            self.assertNotIn("group: pages-build-main", workflow)
 
     def test_fast_releases_skip_slow_runner_disk_reclamation(self):
         standard = BUILDERS[0]
@@ -110,6 +110,7 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
     def test_production_deployment_is_not_cancellable(self):
         self.assertIn("group: pages", PUBLISHER)
         self.assertIn("cancel-in-progress: false", PUBLISHER)
+        self.assertIn("group: pages-snapshot", PUBLISHER)
         self.assertNotIn("group: pages-candidate-main", PUBLISHER)
 
     def test_live_verification_runs_inside_the_publisher(self):
@@ -118,12 +119,13 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("needs.publish.outputs.current == 'true'", PUBLISHER)
         self.assertNotIn("verify-live:", COORDINATOR)
 
-    def test_publisher_allows_only_forward_main_lineage_releases(self):
+    def test_publisher_allows_only_forward_current_main_releases(self):
         self.assertIn("ref: 'pages-snapshot'", PUBLISHER)
         self.assertIn("`${deployedSha}...${context.sha}`", PUBLISHER)
-        self.assertIn("`${context.sha}...${mainSha}`", PUBLISHER)
         self.assertIn("forward.status !== 'ahead'", PUBLISHER)
-        self.assertIn("lineage.status !== 'ahead'", PUBLISHER)
+        self.assertIn("mainSha !== context.sha", PUBLISHER)
+        self.assertIn("Skipping superseded release", PUBLISHER)
+        self.assertNotIn("Publishing forward intermediate", PUBLISHER)
 
     def test_one_selected_artifact_reaches_publisher(self):
         self.assertEqual(COORDINATOR.count("uses: ./.github/workflows/publish-pages-artifact.yml"), 1)
