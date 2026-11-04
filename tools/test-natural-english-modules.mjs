@@ -51,15 +51,19 @@ assert.equal((await sync(token,[advancedOpen])).events.find(e=>e.id===advancedOp
 // Exercise every imported definition without accumulating thousands of unrelated
 // synthetic attempts. Each RPC returns the owner's full history, so retaining
 // every fixture here makes this catalogue check quadratic as the course grows.
+// PostgreSQL's now() is fixed for the lifetime of this synthetic transaction.
+// Keep its fixture time fixed too so slower CI runners cannot make later events
+// appear more than five minutes in the future relative to that transaction.
 // Existing cross-run/history/owner-isolation assertions above remain intact.
+const catalogueAuditAt=new Date().toISOString();
 await db.exec('begin');
 for(const lesson of modules.filter(m=>m.course==='advanced-native'&&m.number>=6)){
  await db.exec('savepoint catalogue_lesson');
- const lessonRun=crypto.randomUUID();await sync(token,[event({module:lesson.id,kind:'start',run:lessonRun})]);
+ const lessonRun=crypto.randomUUID();await sync(token,[event({at:catalogueAuditAt,module:lesson.id,kind:'start',run:lessonRun})]);
  for(const q of lesson.questions){
   const choices=q.type==='mc'?q.options:[q.answers[0]];
   for(const [i,choice] of choices.entries()){
-   const answer=event({module:lesson.id,kind:'answer',run:lessonRun,round:i+1,question:q.id,choice});
+   const answer=event({at:catalogueAuditAt,module:lesson.id,kind:'answer',run:lessonRun,round:i+1,question:q.id,choice});
    const saved=(await sync(token,[answer])).events.find(e=>e.id===answer.id);
    assert.equal(saved.choice,choice,`${q.id} saves the current answer`);
    assert.equal(saved.correct,q.type==='open'?undefined:correct(q,choice),`${q.id} uses the intended grading contract`);
