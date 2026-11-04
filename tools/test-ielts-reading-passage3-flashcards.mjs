@@ -181,11 +181,16 @@ if (!dataOnly) {
   let localAudio = 0;
   let cloudAudio = 0;
   let expansionAudio = 0;
+  let customAudio = 0;
+  const verifiedCustomAudio = 'https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/c648933976dad95a218d37fe.mp3';
+  assert(read("workers/edmund-audio/src/index.js").includes("assets/flashcards/audio/edmund-neural/v1-custom-20261024/"), "Custom audio route is not enabled");
   for (const front of audioFronts) {
     const digest = crypto.createHash("sha256").update(front).digest("hex").slice(0, 24);
     const url = manifest[front];
     const expectedLocal = `assets/flashcards/audio/edmund-neural/v1/${digest.slice(0, 2)}/${digest}.mp3`;
-    if (url === expectedLocal) {
+    if (front === "appear to be" && url === verifiedCustomAudio) {
+      customAudio += 1;
+    } else if (url === expectedLocal) {
       const localPath = path.join(root, expectedLocal);
       if (!fs.existsSync(localPath) || fs.statSync(localPath).size <= 1000) missing.push(`${front}: invalid local audio`);
       else localAudio += 1;
@@ -204,9 +209,10 @@ if (!dataOnly) {
     if (missing.length >= 20) break;
   }
   assert(!missing.length, `Missing Passage 3 audio:\n${missing.join("\n")}`);
-  assert(localAudio + cloudAudio === audioFronts.size, `Validated ${localAudio + cloudAudio} of ${audioFronts.size} Passage 3 recordings`);
+  assert(customAudio === 1, `Expected one verified custom recording, found ${customAudio}`);
+  assert(localAudio + cloudAudio + customAudio === audioFronts.size, `Validated ${localAudio + cloudAudio + customAudio} of ${audioFronts.size} Passage 3 recordings`);
   assert(expansionAudio > 0, "No Passage 3 recording resolves through the Reading expansion release");
-  audioResult = { checked: true, manifestEntries: audioMeta.count, localAudio, cloudAudio, expansionAudio };
+  audioResult = { checked: true, manifestEntries: audioMeta.count, localAudio, cloudAudio, expansionAudio, customAudio };
 }
 
 console.log(JSON.stringify({
