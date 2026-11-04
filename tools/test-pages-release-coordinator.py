@@ -66,6 +66,7 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("!/*/", step)
         self.assertIn("git diff --name-only", step)
         self.assertIn("/assets/dse-practical-writing/", step)
+        self.assertIn("/country-name-spelling-audio/", step)
         self.assertIn("/course-materials/error-identifier/", step)
         self.assertIn("/supabase/migrations/20260827103531_eddie_farm_points.sql", step)
 
