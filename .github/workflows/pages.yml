@@ -7,19 +7,18 @@ on:
 
 permissions:
   actions: write
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 jobs:
   deploy:
-    # Simple homepage artwork updates use pages-fast.yml instead.
-    if: ${{ !contains(github.event.head_commit.message, '[site-fast]') }}
+    # Simple homepage artwork and focused Paper 3 updates use fast workflows.
+    if: ${{ !contains(github.event.head_commit.message, '[site-fast]') && !(contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]')) }}
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     concurrency:
       group: pages
-      queue: single
       cancel-in-progress: false
     environment:
       name: github-pages
@@ -1011,3 +1010,8 @@ jobs:
           artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
           timeout: 900000
           error_count: 30
+
+      - name: Update deployed snapshot
+        env:
+          SNAPSHOT_TOKEN: ${{ github.token }}
+        run: bash tools/update-pages-snapshot.sh _site "${GITHUB_SHA}"
