@@ -1563,6 +1563,21 @@ const writtenEnd=rows.findIndex(r=>r.stage===4);
 const evidenceRows=facts.filter(f=>f[1]>=5&&f[1]<=10&&!rows.some(r=>r.stage===3&&r.leaf===f[1]&&r.q===f[2])).map(f=>({stage:3,p:f[1],leaf:f[1],t:f[0],topic:f[0],q:f[2],a:f[4],state:'CURRENT',origin:'evidence'}));
 rows.splice(writtenEnd,0,...evidenceRows);
 const editorial23=[
+ [7,6,1,'What were you thinking?','Archie 在責問 William。這句表達不滿，沒有交代廚房水浸的原因。'],
+ [7,5,1,'Was this some kind of a joke?','這是 Archie 的猜測。寫公告前要看 William 怎樣解釋，不能說他故意開玩笑。'],
+ [7,5,1,'How did you flood the kitchen?','圈出 how：公告要解釋水浸的原因。往下一句找 William 承認的錯誤。'],
+ [7,5,1,'We’ll get to that in a moment.','that 指 William 剛問自己還能否主持節目。Archie 把節目的事押後，接著要先查清食品衞生指控。'],
+ [7,5,1,'First, tell me what happened with the raw chicken.','Archie 轉問生雞肉。留意 William 怎樣解釋影片為何看不到清潔過程；問題本身不能證明他沒有清潔。'],
+ [7,5,1,'And the tea towel?','另一項指控開始了：這次要核對 William 擦臉時用的是哪一條茶巾。生雞肉的解釋不能代替這一點。'],
+ [7,5,1,'Can you explain that?','that 指茶巾看起來像是同一條。讀下一句找兩件事：William 實際用了哪條，以及為甚麼觀眾會認錯。'],
+ [7,6,3,'Thank you so much!','William 多謝 Archie 願意在網站發文支持他。這句沒有提供新節目的資料。'],
+ [7,5,3,'Now let me pay you back: I have some news about the new show that I think might cheer up Dante.','話題從網站公告轉到新節目。留意接下來哪些消息會改動 Task C 宣傳片的舊分鏡。'],
+ [7,5,3,'So, we planned to have a different mystery guest each week, right?','planned 指原定安排。先把「每星期不同神秘嘉賓」記作舊方案，再看下文有何改動。'],
+ [7,5,3,'Well, Mary Steward just called.','這句交代新消息來自 Mary 本人，但來電本身沒有確認她會參演。'],
+ [7,5,3,'She says she supports me, she wants to help and she wants to be my co-star!','wants to 表示意願。將共同主持的建議與舊方案比較，再到 Dante 的電郵找正式確認。'],
+ [7,5,3,'Agreed.','William 同意剛提出的共同主持方案；這是他的同意，仍須另查 Mary 有沒有確認。'],
+ [7,6,3,'Thanks, Archie!','這是致謝，沒有新增主持或投票安排。'],
+ [7,5,3,'That should get the voting hotline ringing!!!','hotline 是 William 此刻的假設。讀 Archie 下一句核對現行投票方法，再決定宣傳片應寫甚麼。'],
  [7,6,3,'Archie:Go on.','簡短催促對話繼續，沒有可用於三篇寫作的新事實。'],
  [7,6,3,'William:Oh, I see. Good decision!','只是對免費 app 投票的反應；實際方法須引用 Archie 前一句。'],
  [8,6,2,'File　 Message Junk　 Delete　 Reply　 Reply All　 Forward　 Move　 Mark Unread　 Follow up','郵件介面的操作字樣，不屬員工培訓內容。'],
