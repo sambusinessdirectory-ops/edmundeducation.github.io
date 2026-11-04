@@ -39,7 +39,7 @@ function setComplete(id) { try { localStorage.setItem(completeKey(id), '1'); ret
 function wordCount(value) { return String(value || '').trim().match(/[A-Za-z0-9]+(?:['’-][A-Za-z0-9]+)*/g)?.length || 0; }
 function activeCollection() { return state.mode === 'learning' ? writingFormats : practiceMissions; }
 function activeItem() { return activeCollection().find(item => item.id === state.activeId); }
-function sceneArt(file) { return `<img class="scene-art" src="/assets/dse-practical-writing/${file}" alt="" aria-hidden="true">`; }
+function sceneArt(file) { return `<img class="scene-art" src="/dse-practical-writing-media/${file}" alt="" aria-hidden="true">`; }
 
 function showToast(message) {
   const toast = $('[data-save-toast]');
