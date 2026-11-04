@@ -131,6 +131,7 @@ jobs:
           !/synonyms/lesson-audio/
           !/synonyms/source/
           /workers/schedule-system/src/
+          /supabase/migrations/
           PATTERNS
               ;;
           esac
