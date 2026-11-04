@@ -1,16 +1,16 @@
 {
-  "id": "/apps/excellent-learning",
-  "name": "國家名稱拼寫｜EdmundEducation",
-  "short_name": "英文口音",
-  "description": "國家名稱拼寫（Country Name Spelling）EdmundEducation 學習系統。",
+  "id": "/country-name-spelling.html",
+  "name": "地圖拼寫指揮台｜EdmundEducation",
+  "short_name": "地名拼寫",
+  "description": "以互動 3D 地圖、國旗及逐字提示練習 DSE 與 IELTS 必識國家、香港地區及港鐵站英文拼寫。",
   "lang": "zh-Hant-HK",
   "dir": "ltr",
   "start_url": "/country-name-spelling.html?source=pwa",
   "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#f4f2e9",
-  "theme_color": "#10362f",
+  "background_color": "#07161d",
+  "theme_color": "#07161d",
   "categories": [
     "education",
     "productivity"
