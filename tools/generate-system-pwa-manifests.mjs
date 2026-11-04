@@ -9,7 +9,7 @@ const check = args.has("--check");
 assert.ok([...args].every((arg) => arg === "--check"), "usage: generate-system-pwa-manifests.mjs [--check]");
 const protectedHtml = new Set(["schedule-system.html", "writing-submission.html"]);
 const navSource = await readFile(new URL("shared-system-nav.js", root), "utf8");
-const systemPattern = /\{ id: "([^"]+)", href: "([^"]+)", zh: "([^"]+)", en: "([^"]+)"(?:, homepageCard: \d+)? \}/g;
+const systemPattern = /\{\s*id:\s*"([^"]+)",\s*href:\s*"([^"]+)",\s*zh:\s*"([^"]+)",\s*en:\s*"([^"]+)"(?:,\s*homepageCard:\s*\d+)?\s*\}/g;
 const systems = Array.from(navSource.matchAll(systemPattern), ([, id, href, zh, en]) => ({ id, href, zh, en }));
 
 assert.ok(systems.length >= 43, "shared system catalogue unexpectedly lost entries");
@@ -17,6 +17,7 @@ assert.equal(new Set(systems.map(({ id }) => id)).size, systems.length, "system 
 assert.equal(new Set(systems.map(({ href }) => href)).size, systems.length, "system start pages must be unique");
 
 const shortNames = Object.freeze({
+  "question-collection": "提問集", "background-music": "背景音樂系統",
   progress: "Edmund 英文發展進度表", flashcards: "Flashcards", writing: "寫作練習", "writing-submission": "Writing 交文",
   speaking: "Edmund 英語說話", listening: "Edmund 英語聆聽", sentence: "句子結構", idioms: "Edmund 英文成語",
   proverbs: "Edmund 諺語系統", "phrasal-verbs": "動詞片語系統", "dse-paper3-analysis": "DSE 卷3分析",
@@ -37,7 +38,11 @@ const shortNames = Object.freeze({
   "reading-comprehension": "閱讀理解", "eddie-farm": "Eddie Farm 積分",
   "polysemy-lab": "一詞多義",
   "natural-english": "自然英文",
-  "excellent-learning": "英文口音"
+  "excellent-learning": "英文口音",
+  "country-name-spelling": "國家名稱拼寫", "speech-curation": "名人演講精選", "chip-course": "晶片設計課程",
+  "junior-quiz-review": "初中測驗溫習", "news-discussion": "熱議新聞討論", "news-reader": "新聞導讀系統", "ielts-writing-preview": "IELTS 寫作預覽",
+  "ielts-chart-teaching": "IELTS 圖表教學", "literary-device": "修辭手法系統", "dse-practical-writing": "DSE 實用文練習",
+  "policy-discussion": "政策討論", "dse-argument-bank": "DSE 論點大全"
 });
 assert.deepEqual(Object.keys(shortNames).sort(), systems.map(({ id }) => id).sort(), "every app needs an intentional short name");
 assert.equal(new Set(Object.values(shortNames)).size, systems.length, "installed app short names must be distinct");
@@ -118,8 +123,50 @@ for (const { system, path, content } of manifests) {
     if (check) assert.match(html, new RegExp(`<link rel="manifest" href="${expectedHref.replaceAll("/", "\\/")}">`), `${system.href}: protected page manifest link is stale`);
     continue;
   }
-  const next = html.replace(/<link rel="manifest" href="[^"]+">/, `<link rel="manifest" href="${expectedHref}">`);
-  assert.notEqual(next, html.includes(`href="${expectedHref}"`) ? `${html}__already_current__` : html, `${system.href}: missing manifest link`);
+  const manifestPattern = /<link rel="manifest" href="[^"]+">/;
+  let next = manifestPattern.test(html)
+    ? html.replace(manifestPattern, `<link rel="manifest" href="${expectedHref}">`)
+    : html.replace(/<\/head>/, `  <link rel="manifest" href="${expectedHref}">\n</head>`);
+  assert.ok(html.includes(`href="${expectedHref}"`) || next !== html, `${system.href}: missing </head> insertion point for manifest link`);
+  next = next.replace(/(<meta name="viewport" content=")([^"]*)(">)/i, (match, before, content, after) => (
+    content.includes("viewport-fit=cover") ? match : `${before}${content},viewport-fit=cover${after}`
+  ));
+  next = next.replace(/(<meta name="apple-mobile-web-app-status-bar-style" content=")[^"]*(">)/i, "$1default$2");
+  const appTitleTag = `<meta name="apple-mobile-web-app-title" content="${shortNames[system.id]}">`;
+  let appTitleSeen = false;
+  next = next.replace(/<meta name="apple-mobile-web-app-title" content="[^"]*">/gi, () => {
+    if (appTitleSeen) return "";
+    appTitleSeen = true;
+    return appTitleTag;
+  });
+  const appleIcons = customIconApps.has(system.id)
+    ? [180, 167, 152].map((size) => `<link rel="apple-touch-icon" sizes="${size}x${size}" href="/assets/icons/apps/${system.id}/apple-touch-icon-${size}.png">`)
+    : [
+        '<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">',
+        '<link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">',
+        '<link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">'
+      ];
+  const requiredHeadSnippets = [
+    '<link rel="icon" href="/favicon.ico" sizes="any">',
+    '<link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">',
+    '<meta name="mobile-web-app-capable" content="yes">',
+    '<meta name="apple-mobile-web-app-capable" content="yes">',
+    appTitleTag,
+    '<meta name="apple-mobile-web-app-status-bar-style" content="default">',
+    ...appleIcons,
+    '<link rel="stylesheet" href="/pwa-ui.css">'
+  ];
+  if (!/<meta name="theme-color"/i.test(next)) {
+    requiredHeadSnippets.unshift(`<meta name="theme-color" content="${themeColors[system.id] || "#20283d"}">`);
+  }
+  const missingHeadSnippets = requiredHeadSnippets.filter((snippet) => !next.includes(snippet));
+  if (missingHeadSnippets.length) {
+    next = next.replace(/<\/head>/, `  ${missingHeadSnippets.join("\n  ")}\n</head>`);
+  }
+  if (!next.includes('src="/pwa-register.js"')) {
+    next = next.replace(/<\/head>/, `  <script defer src="/pwa-register.js"></script>\n</head>`);
+  }
+  assert.ok(next.includes('src="/pwa-register.js"'), `${system.href}: missing </head> insertion point for PWA runtime`);
   if (check) assert.equal(html, next, `${system.href}: must link ${expectedHref}`);
   else if (next !== html) await writeFile(htmlUrl, next, "utf8");
 }

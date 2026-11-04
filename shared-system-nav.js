@@ -75,6 +75,7 @@
     { id: "junior-exam-prep", href: "junior-exam-prep.html", zh: "初中考試溫習系統", en: "Junior Exam Preparation", homepageCard: 71 },
     { id: "junior-quiz-review", href: "junior-quiz-review.html", zh: "初中測驗溫習系統", en: "Junior Quiz Review", homepageCard: 72 },
     { id: "news-discussion", href: "news-discussion.html", zh: "熱議新聞討論", en: "News Discussion", homepageCard: 75 },
+    { id: "news-reader", href: "news-reader.html", zh: "新聞導讀系統", en: "News English", homepageCard: 82 },
     { id: "ielts-writing-preview", href: "ielts-writing-question-preview.html", zh: "IELTS 寫作問題預覽系統", en: "IELTS Writing Preview", homepageCard: 77 },
     { id: "ielts-chart-teaching", href: "ielts-chart-teaching.html", zh: "IELTS 圖表教學系統", en: "IELTS Chart Studio", homepageCard: 79 },
     { id: "literary-device", href: "literary-device.html", zh: "修辭手法系統", en: "Literary Device", homepageCard: 80 },

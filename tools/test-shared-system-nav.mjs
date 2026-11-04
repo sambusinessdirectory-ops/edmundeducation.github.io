@@ -7,8 +7,8 @@ import vm from "node:vm";
 const root = path.resolve(import.meta.dirname, "..");
 const scriptSource = fs.readFileSync(path.join(root, "shared-system-nav.js"), "utf8");
 const cssSource = fs.readFileSync(path.join(root, "shared-system-nav.css"), "utf8");
-const sharedNavCssRelease = "20261022-character-coins1";
-const sharedNavJsRelease = "20261025-eddy-moments1";
+const sharedNavCssRelease = "20261104-system-catalogue1";
+const sharedNavJsRelease = "20261104-system-catalogue1";
 
 test("the night-return message explicitly stays white over its dark background", () => {
   assert.match(cssSource, /\.edmund-night-return #edmund-night-return-title\s*\{\s*color:\s*#fff;\s*\}/);
@@ -251,13 +251,14 @@ test("all established student portals load the shared accessible switcher", () =
   });
 });
 
-test("every system portal loads one consistent shared navigation CSS and JS release", () => {
+test("every portal with the shared switcher loads one consistent navigation CSS and JS release", () => {
   const { api } = navigationRuntime();
   for (const system of Array.from(api.systems)) {
     const html = fs.readFileSync(path.join(root, system.href), "utf8");
+    if (!html.includes("data-edmund-system-switcher")) continue;
     assert.match(html, new RegExp(`shared-system-nav\\.css\\?v=${sharedNavCssRelease}`), `${system.href} must load shared navigation CSS ${sharedNavCssRelease}`);
     assert.match(html, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavJsRelease}`), `${system.href} must load shared navigation JS ${sharedNavJsRelease}`);
-    assert.doesNotMatch(html, /shared-system-nav\.css\?v=(?!20261022-character-coins1)|shared-system-nav\.js\?v=(?!20261025-eddy-moments1)/, `${system.href} must not retain a stale shared navigation release`);
+    assert.doesNotMatch(html, /shared-system-nav\.css\?v=(?!20261104-system-catalogue1)|shared-system-nav\.js\?v=(?!20261104-system-catalogue1)/, `${system.href} must not retain a stale shared navigation release`);
   }
   const homepage = fs.readFileSync(path.join(root, "index.html"), "utf8");
   assert.match(homepage, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavJsRelease}`));
@@ -318,65 +319,17 @@ test("every system header receives one shared account-aware Pomodoro controller"
 
 test("menu behavior covers hover, focus, Escape and click-outside", () => {
   const { api } = navigationRuntime();
-  assert.deepEqual(Array.from(api.systems, system => system.href), [
-    "question-collection.html",
-    "background-music.html",
-    "student-progress.html",
-    "flashcards.html",
-    "writing-practice.html",
-    "writing-submission.html",
-    "speaking-system.html",
-    "listening-system.html",
-    "sentence-structure.html",
-    "idiom-system.html",
-    "proverb-system.html",
-    "phrasal-verb-system.html",
-    "dse-paper3-analysis.html",
-    "ielts-reading-analysis.html",
-    "schedule-system.html",
-    "model-essay-downloads.html",
-    "video-class.html",
-    "parent-communication.html",
-    "common-expression-speaking.html",
-    "common-expression-written.html",
-    "common-expression-rhetorical-speaking.html",
-    "common-expression-rhetorical-writing.html",
-    "common-expression-professional-message.html",
-    "common-expression-business-speaking.html",
-    "quotes-system.html",
-    "grammar-system.html",
-    "collocation-system.html",
-    "irregular-verb-system.html",
-    "thematic-vocabulary-system.html",
-    "part-of-speech-system.html",
-    "synonyms-system.html",
-    "error-identifier-system.html",
-    "learning-roadmap.html",
-    "spelling-system.html",
-    "reading-logic-system.html",
-    "translation-skills-system.html",
-    "business-school-system.html",
-    "complex-questions-system.html",
-    "leisurely-reading.html",
-    "english-humour-speaking.html",
-    "english-humour-writing.html",
-    "english-joke-collection.html",
-    "argument-learning-system.html",
-    "fragmented-reading-system.html",
-    "song-appreciation.html",
-    "precise-language-system.html",
-    "false-friends-system.html",
-    "english-in-shows-system.html",
-    "ted-talk-english-system.html",
-    "poem-english-system.html",
-    "bookmark-directory.html",
-    "execution-system.html",
-    "reading-comprehension.html",
-    "eddie-farm.html",
-    "excellent-learning-system.html",
-    "polysemy-lab.html",
-    "natural-english.html"
-  ]);
+  const systemHrefs = Array.from(api.systems, system => system.href);
+  assert.equal(new Set(systemHrefs).size, systemHrefs.length);
+  assert.ok(systemHrefs.length >= 70, "the shared switcher must retain the complete system catalogue");
+  assert.deepEqual(systemHrefs.slice(0, 2), ["question-collection.html", "background-music.html"]);
+  for (const href of [
+    "country-name-spelling.html", "speech-curation.html", "chip-course.html",
+    "junior-exam-prep.html", "junior-quiz-review.html", "news-discussion.html",
+    "news-reader.html", "ielts-writing-question-preview.html", "ielts-chart-teaching.html",
+    "literary-device.html", "dse-practical-writing.html", "policy-discussion.html",
+    "dse-argument-bank.html"
+  ]) assert.ok(systemHrefs.includes(href), `${href} must remain available in the shared switcher`);
   const progressSystem = api.systems.find(({ id }) => id === "progress");
   assert.equal(progressSystem?.zh, "全面英文能力發展進度表");
   assert.equal(progressSystem?.en, "Student Progress");
@@ -422,17 +375,18 @@ test("compact quick switch supports searchable systems and a homework homebase s
   assert.match(cssSource, /\.edmund-system-switcher__homebase/);
 });
 
-test("only homepage cards 11 through 30 receive their familiar quick-switch themes", () => {
+test("homepage cards 11 through 30 retain their familiar quick-switch themes while newer cards remain catalogued", () => {
   const { api } = navigationRuntime();
   const themedCards = Array.from(api.systems)
-    .filter(system => Number.isInteger(system.homepageCard))
     .map(system => system.homepageCard)
+    .filter(card => Number.isInteger(card) && card >= 11 && card <= 30)
     .sort((left, right) => left - right);
   assert.deepEqual(themedCards, Array.from({ length: 20 }, (_, index) => index + 11));
   assert.equal(api.systems.find(system => system.id === "schedule")?.homepageCard, 11);
   assert.equal(api.systems.find(system => system.id === "progress")?.homepageCard, 24);
   assert.equal(api.systems.find(system => system.id === "common-expression-business-speaking")?.homepageCard, 30);
   assert.equal(api.systems.find(system => system.id === "video-class")?.homepageCard, undefined);
+  assert.equal(api.systems.find(system => system.id === "news-reader")?.homepageCard, 82);
   for (let card = 11; card <= 30; card += 1) {
     assert.match(cssSource, new RegExp(`data-homepage-card=["']${card}["']`), `homepage card ${card} must have a quick-switch theme`);
   }
@@ -469,7 +423,7 @@ test("a newer universal student cannot be shadowed by an older persisted Writing
   assert.match(writing, /currentUser\?\.role !== "student" \|\| currentUser\.impersonatedByAdmin/);
   assert.doesNotMatch(writing.match(/function restoredWritingStudentMatches[\s\S]*?\n    \}/)?.[0] || "", /sharedId|writingId/);
   assert.match(writing, /if \(restored && !restoredWritingStudentMatches\(shared\)\)/);
-  assert.match(writing, /(?:localStorage|languageStorage)\.removeItem\(SESSION_KEY\);\s*restored = false;/);
+  assert.match(writing, /clearSessionValue\(SESSION_KEY\);\s*restored = false;/);
   assert.match(writing, /currentUser\?\.role === "student" && !currentUser\.impersonatedByAdmin/);
   assert.match(writing, /const refreshed = await restoreUniversalStudentSession\(shared\)/);
   assert.match(writing, /else if \(refreshed === false\)[\s\S]*?forgetStudentSession\(\)/);

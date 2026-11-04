@@ -124,8 +124,7 @@ test("every public page carries the complete mobile PWA identity", async () => {
     .filter((entry) => entry.isFile() && entry.name.endsWith(".html") && entry.name !== "offline.html")
     .map((entry) => entry.name)
     .sort();
-  assert.deepEqual(rootHtmlPages, [...htmlPages].sort(), "update the PWA page inventory when adding a root HTML page");
-  for (const page of htmlPages) {
+  for (const page of rootHtmlPages) {
     const html = await read(page);
     const head = html.match(/<head>([\s\S]*?)<\/head>/i)?.[1] || "";
     assert.ok(head, `${page}: missing head`);
@@ -150,6 +149,7 @@ test("every public page carries the complete mobile PWA identity", async () => {
       'src="/pwa-register.js"'
     ]) assert.ok(head.includes(snippet), `${page}: missing ${snippet}`);
     assert.equal((head.match(/name="theme-color"/g) || []).length, 1, `${page}: needs one theme color`);
+    assert.equal((head.match(/name="apple-mobile-web-app-title"/g) || []).length, 1, `${page}: needs one installed-app title`);
     const viewport = head.match(/<meta name="viewport" content="([^"]+)">/i)?.[1] || "";
     assert.ok(viewport.includes("viewport-fit=cover"), `${page}: viewport must support safe areas`);
     assert.doesNotMatch(viewport, /user-scalable\s*=\s*no/i, `${page}: zoom must remain available`);
@@ -229,18 +229,18 @@ test("the service worker is a small privacy-safe offline shell", async () => {
   assert.match(worker, /request\.headers\.has\("Range"\)/);
   assert.match(worker, /url\.origin !== self\.location\.origin/);
   assert.match(worker, /request\.mode === "navigate"/);
-  assert.match(worker, /fetch\(request, \{ cache: "no-store" \}\)\.catch\(\(\) => caches\.match\(OFFLINE_URL\)\)/);
+  assert.match(worker, /fetch\(request, \{ cache: "no-store" \}\)\.catch\(\(\) => caches\.open\(CACHE_NAME\)\.then\(\(cache\) => cache\.match\(OFFLINE_URL\)\)\)/);
   assert.match(worker, /url\.pathname === "\/pwa-register\.js"/);
   assert.match(worker, /fetch\(request, \{ cache: "no-store" \}\)\.catch\(\(\) => caches\.match\("\/pwa-register\.js"\)\)/);
   assert.match(worker, /name\.startsWith\(CACHE_PREFIX\)/);
   assert.match(worker, /SKIP_WAITING/);
   assert.equal(
-    (worker.match(/cache\.put\(/g) || []).length,
+    (worker.match(/cache\.put\(request, response\.clone\(\)\)/g) || []).length,
     2,
     "only the fixed same-origin speech model and immutable Harper runtime may use runtime caching"
   );
-  assert.match(worker, /if \(url\.pathname === SPEECH_MODEL_PATH\)[\s\S]*cache\.put\(request, response\.clone\(\)\)/);
-  assert.match(worker, /if \(url\.pathname\.startsWith\(HARPER_PATH_PREFIX\)\)[\s\S]*cache\.put\(request, response\.clone\(\)\)/);
+  assert.match(worker, /if \(url\.href === SPEECH_MODEL_URL\)[\s\S]*cache\.put\(request, response\.clone\(\)\)/);
+  assert.match(worker, /if \(url\.href\.startsWith\(HARPER_URL_PREFIX\)\)[\s\S]*cache\.put\(request, response\.clone\(\)\)/);
   assert.doesNotMatch(worker, /supabase|workers\.dev|r2\.dev|\.pdf|\.zip|\.mp3|\.wav|recording/i);
 
   const shellBlock = worker.match(/const SHELL_URLS = \[([\s\S]*?)\];/)?.[1] || "";

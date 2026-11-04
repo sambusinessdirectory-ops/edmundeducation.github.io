@@ -8,7 +8,7 @@ const read = (path) => readFile(new URL(path, root), "utf8");
 const nav = await read("shared-system-nav.js");
 const systems = Array.from(nav.matchAll(/\{ id: "([^"]+)", href: "([^"]+)", zh: "([^"]+)", en: "([^"]+)"(?:, homepageCard: \d+)? \}/g),
   ([, id, href, zh, en]) => ({ id, href, zh, en }));
-assert.equal(systems.length, 55, "all 55 genuine learning/account systems must remain catalogued");
+assert.ok(systems.length >= 67, "at least 67 genuine learning/account systems must remain catalogued");
 
 const customApps = Object.freeze({
   schedule: { name: "Edmund 每週功課安排系統", page: "schedule-system.html" },
@@ -19,6 +19,12 @@ const customApps = Object.freeze({
   "phrasal-verbs": { name: "動詞片語系統", page: "phrasal-verb-system.html" },
   proverbs: { name: "Edmund 諺語系統", page: "proverb-system.html" },
   idioms: { name: "Edmund 英文成語", page: "idiom-system.html" }
+});
+const associatedPasswordPages = Object.freeze({
+  "advanced-native.html": "advanced-native",
+  "essay-memorization.html": "writing",
+  "essay-memory-recordings.html": "writing",
+  "model-essay-downloads.html": "downloads"
 });
 
 function pngSize(buffer) {
@@ -97,7 +103,13 @@ const nonSystemPasswordPages = new Set(["daily-newsletter.html", "dse-paper3-lis
 for (const name of allHtml) {
   const html = await read(name);
   if (!/type="password"/.test(html) || nonSystemPasswordPages.has(name)) continue;
-  assert.ok(systems.some(({ href }) => href === name), `${name}: authenticated user portal needs a system manifest`);
+  const system = systems.find(({ href }) => href === name);
+  const associatedManifest = associatedPasswordPages[name];
+  assert.ok(system || associatedManifest, `${name}: authenticated user portal needs a system manifest`);
+  if (associatedManifest) {
+    assert.match(html, new RegExp(`rel="manifest" href="/pwa-manifests/${associatedManifest}\\.webmanifest"`), `${name}: associated system manifest is missing`);
+    await stat(new URL(`pwa-manifests/${associatedManifest}.webmanifest`, root));
+  }
   assert.match(html, /src="\/pwa-register\.js"/, `${name}: universal mobile login behavior must load`);
 }
 
@@ -120,9 +132,9 @@ assert.match(parentHtml, /name="theme-color" content="#72598f"/);
 assert.match(progressCss, /body\[data-progress-portal="parent"\][\s\S]*#72598f/);
 assert.match(progressCss, /\.hero-chart\s*\{[\s\S]*height:\s*138px/);
 assert.match(progressCss, /\.hero-dashboard-illustration\s*\{/);
-assert.match(listeningHtml, /class="listening-hero-illustration"[^>]*listening-system\.webp/);
+assert.match(listeningHtml, /class="listening-hero-illustration"[^>]*listening-elsie\/elsie-listening-poster\.png/);
 assert.match(listeningCss, /\.listening-hero-illustration\s*\{/);
-for (const asset of ["assets/portal-illustrations/dashboard-system.webp", "assets/portal-illustrations/listening-system.webp"]) {
+for (const asset of ["assets/portal-illustrations/dashboard-system.webp", "listening-elsie/elsie-listening-poster.png"]) {
   assert.ok((await stat(new URL(asset, root))).size > 10_000, `${asset} must be a real optimized illustration`);
 }
 

@@ -163,7 +163,7 @@ test("admin manual topics use authenticated storage, safe deep links and an edit
   assert.match(script, /apiJson\("\/v1\/admin\/manual-topics"/);
   assert.match(script, /manualTopic=\$\{encodeURIComponent\(id\)\}/);
   assert.match(workerSource, /writing_submission_student_list_manual_topics/);
-  assert.match(workerSource, /rows\.map\(row => manualTopicResponse\(row, true\)\)/);
+  assert.match(workerSource, /attachWritingMaterials\(env,"manual",rows\)\)\.map\(row => manualTopicResponse\(row, true\)\)/);
   assert.match(workerSource, /writing_submission_admin_create_manual_topics/);
   assert.match(manualTopicsMigration, /alter table public\.writing_submission_manual_topics enable row level security/i);
   assert.match(manualTopicsMigration, /revoke all on table public\.writing_submission_manual_topics from public,anon,authenticated/i);
@@ -438,7 +438,7 @@ test("AI grammar review has self-hosted Harper and Edmund rules as fallbacks", (
   assert.match(serviceWorker, /HARPER_PATH_PREFIX\s*=\s*"\/assets\/vendor\/harper\/2\.7\.0\/"/);
   assert.match(html, /GRAMMAR DETECTION/);
   assert.doesNotMatch(html, /\bAI\b|進階文法助手|進階文法檢查/);
-  assert.match(html, /文法偵測才會檢查該句/);
+  assert.match(html, /文法偵測只會在您輸入句號（\.）或分號（;）完成一句後開始/);
   assert.match(html, /只有以句號或分號完成的單句會安全傳送至 Edmund 文法服務/);
   assert.match(html, /Harper 會作後備校對/);
   assert.match(html, /沒有提示不等於句子完全正確/);
@@ -479,7 +479,7 @@ test("writing topic becomes an accessible topic-only floating reminder after scr
   assert.match(script, /topicBottom\s*<=\s*headerBottom\s*\+\s*8/);
   assert.match(script, /document\.body\.append\(elements\.floatingTopic\)/,
     "the fixed topic bar must escape animated view containers that otherwise make it scroll away");
-  assert.match(script, /elements\.floatingTopicText\.textContent\s*=\s*topic/);
+  assert.match(script, /elements\.floatingTopicText\.textContent\s*=\s*speaking\?\.question \|\| topic/);
   assert.match(script, /elements\.floatingTopicImages\.replaceChildren\(\)/);
   assert.doesNotMatch(html, /floating-writing-topic[\s\S]{0,1600}data-topic-reference-area/);
 });
@@ -509,17 +509,17 @@ test("countdown and role-scoped composition plus feedback exports are fully wire
   assert.match(script, /elements\.adminDetail\?\.querySelector\("\[data-feedback-editor\]"\)/);
   assert.doesNotMatch(script, /elements\.adminSubmissionDetail/);
   assert.doesNotMatch(script, /目前編輯器預覽（可能尚未儲存）/);
-  assert.match(script, /structured: true,[\s\S]*?emptyText: "未填寫"/);
+  assert.match(script, /function feedbackPrintRichHtml\([^)]*\{ structured = false, emptyText = "" \}[\s\S]*?append\(container, textValue, formattingValue, \{ emptyText \}\)/);
   assert.match(script, /@page\{size:A4;margin:10mm 9mm\}/);
   assert.match(script, /print-color-adjust:exact/);
   assert.match(script, /列印／儲存為 PDF/);
-  assert.match(script, /href="https:\/\/edmundeducation\.com\/index\.html"/);
-  assert.match(script, /new URL\(link\.url, "https:\/\/edmundeducation\.com\/"\)\.href/);
-  assert.match(script, /<a href="\$\{escapePrintHtml\(absoluteUrl\)\}"/);
+  assert.match(script, /<span class="brand">EdmundEducation<\/span>/);
+  assert.match(script, /normalizeFeedbackSentencePickerLinks\(values\)\.map\(\(link, index\) =>/);
+  assert.match(script, /print-sentence-link-label[^\n]*escapePrintHtml\(link\.label/);
   assert.match(script, /function feedbackPrintContents\(feedback, articleKey\)/);
   assert.match(script, /class="print-feedback-contents" aria-label="評語內容索引"/);
   assert.match(script, /href="#\$\{escapePrintHtml\(link\.id\)\}"/);
-  assert.match(script, /<base href="\$\{escapePrintHtml\(new URL\('\.', window\.location\.href\)\.href\)\}">/);
+  assert.match(script, /new URL\("E-Learning\.png", window\.location\.href\)\.href/);
   assert.match(script, /print-improved-version print-page-start/);
   assert.match(script, /feedbackPrintLearningCards\("文法評語站"[\s\S]*?pageBreakBefore: true/);
   assert.match(script, /feedbackPrintEnhancementCards\("句子結構提升區"[\s\S]*?pageBreakBefore: true/);
@@ -530,7 +530,7 @@ test("countdown and role-scoped composition plus feedback exports are fully wire
   assert.match(script, /\.print-page-start\{break-before:page!important;page-break-before:always!important\}/);
   assert.match(script, /function feedbackPrintSynonymTable\(title, values/);
   assert.match(script, /class="print-synonym-table"/);
-  assert.match(script, /field !== "originalSentence" \|\| Boolean\(String\(item\.originalSentence\?\.text \|\| ""\)\.trim\(\)\)/);
+  assert.match(script, /\["originalSentence", "enhancement", "benefit"\]\.some\(field => String\(item\[field\]\?\.text \|\| ""\)\.trim\(\)\)/);
   assert.match(script, /Number\(submission\.durationSeconds\) >= 300/);
   assert.match(script, /function feedbackPrintStudentAnswer\(value\)/);
   assert.match(script, /split\(\/\\n\[\\t \]\*\\n\+\//);
@@ -567,7 +567,7 @@ test("writing preferences, topic selection, timing, progress and recoverable del
   assert.match(script, /elements\.writingInput\.addEventListener\("focus", resumeWritingClockForEditor\)/);
   assert.match(script, /elements\.writingInput\.addEventListener\("blur", \(\) => pauseWritingClockOutsideEditor\(\)\)/);
   assert.doesNotMatch(script, /elements\.topicInput\.addEventListener\("focus", markWritingActivity\)/);
-  assert.match(script, /source\.startsWith\("\/\/"\)/, "topic preview images must reject protocol-relative external URLs");
+  assert.equal(safeWritingPromptImage("//example.com/question.webp"), "", "topic preview images must reject protocol-relative external URLs");
   assert.match(script, /apiJson\("\/v1\/progress"\)/);
   assert.match(script, /method:\s*"DELETE"/);
   assert.match(script, /文法問題記錄仍會保留給管理員/);
@@ -695,7 +695,7 @@ test("owner article links preserve local work and isolate auxiliary panel failur
   assert.match(submissionsView, /Promise\.allSettled\(\[loadWritingProgress\(\), loadDrafts\(\)\]\)/);
   assert.match(submissionsView, /await submissionsPromise/);
   assert.doesNotMatch(submissionsView, /Promise\.all\(/);
-  assert.match(loginHandler, /if \(!openedEntryLink\) showToast\(`您好，\$\{state\.user\.name\}！`/);
+  assert.match(loginHandler, /if \(!openedEntryLink\) showToast\(`\$\{studentGreeting\(\)\}，\$\{state\.user\.name\}！`/);
 });
 
 test("notification clipboard fallback always cleans up and reaches manual copy", () => {
@@ -740,7 +740,7 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /展開以 Open Book 參考 Edmund 範文 Model Essay/);
   assert.match(script, /Vocab 生字 Mini Card · Edmund 主題性生字/);
   assert.match(script, /writing-submission-reference-data\.mjs\?v=/);
-  assert.match(script, /TOPIC_CATALOG_VERSION\s*=\s*"20260911-dse-part-b"/);
+  assert.match(script, /TOPIC_CATALOG_VERSION\s*=\s*"20261031-ielts-types1"/);
   assert.match(script, /TOPIC_REFERENCE_VERSION\s*=\s*"20260911-dse-part-b"/);
   assert.match(script, /reference\.exerciseId !== route\.exerciseId/);
   assert.match(script, /reference\.writingHref !== route\.writingHref/);
@@ -754,7 +754,7 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /dataset\.topicReferenceVocabulary/);
   assert.match(script, /dataset\.topicReferenceVocabularyScale/);
   assert.match(script, /dataset\.topicReferenceVocabularyUsageStatus/);
-  assert.match(script, /writing-submission-core\.js\?v=20260820-manual-topics1/);
+  assert.match(script, /writing-submission-core\.js\?v=20261028-materials1/);
   assert.doesNotMatch(script, /row\.setAttribute\("aria-label", used/);
   assert.match(script, /refreshVocabularyUsage\(content\)/);
   assert.match(script, /refreshVocabularyUsage\(\)/);
@@ -1101,7 +1101,7 @@ test("published feedback is optional by section, unread-aware, and supports save
   assert.match(script, /feedbackUnread/);
   assert.match(script, /row\.classList\.add\("has-feedback"\)/);
   assert.match(script, /submission-feedback-bell/);
-  assert.match(script, /`submission-row\$\{submission\.hasPublishedFeedback \? " has-feedback" : ""\}`/);
+  assert.match(script, /if \(submission\.feedbackUnread\) row\.classList\.add\("has-unread-feedback"\)/);
   assert.match(script, /保留原意改良版/);
   assert.match(script, /謄文區 - 1 Edmund 改良版/);
   assert.match(script, /謄文區 - 範文/);

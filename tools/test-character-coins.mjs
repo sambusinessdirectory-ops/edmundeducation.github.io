@@ -55,7 +55,7 @@ test('pages request the current shared navigation assets', () => {
       assert.match(html, /shared-system-nav\.js\?v=\d{8}-[^\"\s]+/, name);
     }
     if (html.includes('shared-system-nav.css?v=')) {
-      assert.ok(html.includes('shared-system-nav.css?v=20261022-character-coins1'), name);
+      assert.ok(html.includes('shared-system-nav.css?v=20261104-system-catalogue1'), name);
     }
   }
 });
