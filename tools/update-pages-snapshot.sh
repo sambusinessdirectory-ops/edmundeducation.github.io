@@ -13,10 +13,8 @@ snapshot_dir="${RUNNER_TEMP}/pages-snapshot-${GITHUB_RUN_ID:-local}-${GITHUB_RUN
 remote_url="https://github.com/${GITHUB_REPOSITORY}.git"
 auth_header="AUTHORIZATION: basic $(printf 'x-access-token:%s' "${SNAPSHOT_TOKEN}" | base64 -w0)"
 
-if git -c "http.https://github.com/.extraheader=${auth_header}" \
-  ls-remote --exit-code "${remote_url}" refs/heads/pages-snapshot >/dev/null 2>&1; then
-  git -c "http.https://github.com/.extraheader=${auth_header}" \
-    clone --depth=1 --single-branch --branch pages-snapshot \
+if git ls-remote --exit-code "${remote_url}" refs/heads/pages-snapshot >/dev/null 2>&1; then
+  git clone --depth=1 --single-branch --branch pages-snapshot \
     "${remote_url}" "${snapshot_dir}"
 else
   git init -q "${snapshot_dir}"
