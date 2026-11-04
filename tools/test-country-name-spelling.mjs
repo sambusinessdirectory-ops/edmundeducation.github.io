@@ -55,11 +55,11 @@ for (const required of ["Central", "Admiralty", "Tsim Sha Tsui", "Mong Kok", "Ts
 }
 
 for (const item of WORLD_COUNTRIES) {
-  const flagPath = join(root, "assets/country-name-spelling/flags", `${item.code}.svg`);
+  const flagPath = join(root, "country-name-spelling-flags", `${item.code}.svg`);
   assert.equal(existsSync(flagPath), true, `missing flag for ${item.name}`);
   assert.doesNotMatch(readFileSync(flagPath, "utf8"), /<script\b/i, `flag for ${item.name} must not contain scripts`);
 }
-assert.equal(existsSync(join(root, "assets/country-name-spelling/flags/hk.svg")), true, "missing Hong Kong flag");
+assert.equal(existsSync(join(root, "country-name-spelling-flags/hk.svg")), true, "missing Hong Kong flag");
 
 assert.match(html, /country-name-spelling-terminal\.mjs/);
 assert.match(html, /data-edition="world"/);
@@ -67,6 +67,8 @@ assert.match(html, /data-edition="hong-kong"/);
 assert.match(html, /data-world-map/);
 assert.match(html, /data-hong-kong-map/);
 assert.match(html, /data-flag/);
+assert.match(html, /country-name-spelling-flags\/gb\.svg/);
+assert.doesNotMatch(html, /assets\/country-name-spelling\/flags/);
 assert.match(html, /SPELL TO IDENTIFY/);
 assert.doesNotMatch(html, /Content will be added in future/i);
 assert.doesNotMatch(html, /data-target-name>FRANCE/i);
@@ -80,5 +82,7 @@ assert.match(app, /localStorage\.setItem/);
 assert.match(app, /normaliseAnswer/);
 assert.match(app, /localhost/);
 assert.match(app, /mtr-segment/);
+assert.match(app, /country-name-spelling-flags/);
+assert.doesNotMatch(app, /assets\/country-name-spelling\/flags/);
 
 console.log(`country spelling release verified: ${WORLD_COUNTRIES.length} countries, ${HK_DISTRICTS.length} districts, ${MTR_STATIONS.length} MTR stations`);
