@@ -86,7 +86,6 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
             "/junior-quiz-review/",
             "/news-discussion/",
             "/dse-argument-bank/",
-            "/ielts-writing-preview/",
             "/ielts-chart-teaching/",
             "/workers/model-essay-downloads/",
             "/workers/student-progress/",
@@ -97,6 +96,14 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         ):
             with self.subTest(path=path):
                 self.assertIn(path, standard)
+
+    def test_writing_preview_fetches_complete_cross_system_validation_inputs(self):
+        steps = BUILDERS[0].split("- name: ")
+        for name in ("Reclaim runner disk", "Checkout complete repository"):
+            step = next(s for s in steps if s.startswith(name))
+            self.assertIn("|| contains(inputs.release_tags, '[writing-preview-release]')", step)
+        focused = next(s for s in steps if s.startswith("Fetch focused release files"))
+        self.assertIn("&& !contains(inputs.release_tags, '[writing-preview-release]')", focused)
 
     def test_practical_writing_scope_alone_checks_out_public_art_and_provenance(self):
         step = BUILDERS[0].split("*'[practical-writing-release]'*)", 1)[1].split(";;", 1)[0]
