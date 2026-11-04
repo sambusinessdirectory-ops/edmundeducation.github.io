@@ -600,7 +600,7 @@ assert.match(scheduleJs, /homeworkCatalogPromise = Promise\.all\(\[\s*import\(HO
 assert.match(scheduleJs, /function mergeHomeworkCatalog\([\s\S]*?startsWith\("video-class-"\)[\s\S]*?\(videoClassResources \|\| \[\]\)\.forEach/);
 assert.match(scheduleJs, /if \(retryVideoClass \|\| refreshManualWriting\) \{[\s\S]*?retryVideoClass \? loadVideoClassHomeworkResources\(\)[\s\S]*?mergeHomeworkCatalog/);
 assert.doesNotMatch(scheduleJs, /^import\s+\{\s*HOMEWORK_RESOURCE_CATALOG\s*\}/m, "the large exercise catalogue must not block login or Supabase startup");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261104-memory-essay-homework1/);
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261104-reading-comprehension2/);
 assert.match(scheduleJs, /schedule-mass-edit\.mjs\?v=20260803-1/);
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/);
 assert.match(scheduleJs, /function renderHomeworkTypeDashboard\(/);
