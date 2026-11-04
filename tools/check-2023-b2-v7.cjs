@@ -206,6 +206,22 @@ async function auditListeningJourney(page){
   if(evidenceDir){fs.mkdirSync(evidenceDir,{recursive:true});fs.writeFileSync(path.join(evidenceDir,'2023-b2-v7-cue-transactions.json'),JSON.stringify(ledger,null,2));await page.screenshot({path:path.join(evidenceDir,'2023-b2-podcast-v7-chromium.png'),fullPage:true});}
 }
 async function auditOtherContracts(page){
+  const uncovered=await page.evaluate(()=>{
+    const units=rows.filter(row=>row.stage===3 && row.leaf===7 && row.a?.trim() && row.t>=1 && row.t<=6);
+    const source=new DOMParser().parseFromString(nativePages23[6],'text/html');
+    const bubbles=[...source.querySelectorAll('.chef-bubble [lang="en"]')];
+    if(!bubbles.length)throw Error('Missing original page 7 dialogue');
+    return bubbles.map(bubble=>bubble.textContent.trim()).filter(turn=>{
+      const covered=new Set();
+      for(const unit of units){
+        const quote=unit.q.replace(/^(Archie|William):\s*/,''), start=turn.indexOf(quote);
+        if(start>=0)for(let j=start;j<start+quote.length;j++)covered.add(j);
+      }
+      return [...turn].some((character,index)=>/[a-z0-9]/i.test(character)&&!covered.has(index));
+    });
+  });
+  assert.deepEqual(uncovered,[],'Every page 7 dialogue passage needs classified and explained reading steps');
+
   await page.evaluate(()=>jump23(rows.findIndex(row=>row.stage===4&&row.q.startsWith('William did flood the test kitchen'))));
   const result=await page.evaluate(()=>{
     const unit=document.querySelector('[data-current-essay-unit="true"]'),syntax=unit?.querySelector('.curation-essay-structure');
