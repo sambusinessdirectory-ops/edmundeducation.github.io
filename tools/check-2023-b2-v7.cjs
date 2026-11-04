@@ -23,6 +23,7 @@ async function waitForAudio(page){
     const timer=setTimeout(()=>reject(new Error('meeting.mp3 metadata timeout')),15000);
     audio.addEventListener('loadedmetadata',()=>{clearTimeout(timer);resolve(true)},{once:true});audio.load();
   }));
+  await page.waitForFunction(()=>Math.abs(audio.currentTime-458.02)<.15,null,{timeout:5000});
 }
 async function auditBoss(page){
   const result=await page.evaluate(()=>{
@@ -42,6 +43,7 @@ async function auditBoss(page){
   assert.equal(result.futureHidden,true,message);assert.equal(result.synthetic,0,message);
 }
 async function auditInitialPodcast(page){
+  await waitForAudio(page);
   const state=await page.evaluate(()=>{
     const root=document.querySelector('.native-reader-host').shadowRoot,page3=root.querySelector('#page-3');
     const fields=[...page3.querySelectorAll('.note-sheet textarea')],headings=[...page3.querySelectorAll('.note-sheet .notes-form-body>h3')];
@@ -59,11 +61,14 @@ async function auditInitialPodcast(page){
       revealed:document.querySelectorAll('#turns>.speech.is-revealed').length,
       strikes:document.querySelectorAll('#turns>.speech.curation-transcript-strike').length,
       currentSentences:document.querySelectorAll('#turns .curation-transcript-sentence.is-current').length,
+      currentSentence:document.querySelector('#turns .curation-transcript-sentence.is-current')?.textContent||'',
+      firstVisibleSentence:[...document.querySelectorAll('#turns .curation-transcript-sentence')].find(node=>node.getClientRects().length>0)?.textContent||'',
+      greetingsVisible:[...document.querySelectorAll('#turns>.speech')].some(line=>getComputedStyle(line).display!=='none'&&line.textContent.includes('Thanks for joining us today')),
       sentenceCount:document.querySelectorAll('#turns .curation-transcript-sentence').length,
       follow:document.querySelector('#transcript-follow')?.getAttribute('aria-pressed'),
       structured:[...document.querySelectorAll('#turns>.speech')].every(line=>line.querySelector(':scope>.speaker')&&line.querySelector(':scope>.curation-transcript-copy')),
       turnCount:document.querySelectorAll('#turns>.speech').length,
-      minCopyWidth:Math.min(...[...document.querySelectorAll('#turns>.speech>.curation-transcript-copy')].map(node=>node.getBoundingClientRect().width)),
+      minCopyWidth:Math.min(...[...document.querySelectorAll('#turns>.speech>.curation-transcript-copy')].filter(node=>node.getClientRects().length>0).map(node=>node.getBoundingClientRect().width)),
       fieldIds:fields.map(field=>field.id),fieldValues:fields.map(field=>field.value),
       headingTasks:headings.filter(h=>h.classList.contains('curation-note-task')).map(h=>h.dataset.task),
       headingNoise:headings.filter(h=>h.classList.contains('curation-note-noise')).length,
@@ -72,7 +77,7 @@ async function auditInitialPodcast(page){
       togglePressed:document.querySelector('#pins')?.getAttribute('aria-pressed'),pinsHidden:document.querySelector('#ticks')?.hidden,
       coverage:{
         first:meta[0].playbackStart,last:meta.at(-1).end,
-        contiguous:meta.every((cue,index)=>index===0?cue.playbackStart===426:Math.abs(cue.playbackStart-meta[index-1].end)<.001),
+        contiguous:meta.every((cue,index)=>index===0?cue.playbackStart===458.02:Math.abs(cue.playbackStart-meta[index-1].end)<.001),
         sourceInside:meta.every(cue=>cue.sourceStart>=cue.playbackStart-.001&&cue.sourceEnd===cue.end),
         duration:meta.reduce((sum,cue)=>sum+cue.end-cue.playbackStart,0)
       }
@@ -81,16 +86,16 @@ async function auditInitialPodcast(page){
   assert.equal(state.architecture,'v7-continuous-single-owner');assert.equal(state.transcriptArchitecture,'v7-continuous-single-owner');
   assert.equal(state.audioConnected,true);assert.equal(state.audioMuted,false);assert(state.audioVolume>=.99,state);assert.match(state.audioSource,/meeting\.mp3/);
   assert.equal(state.playerCount,1);assert.equal(state.transcriptCount,1);assert.equal(state.timelines,1);assert.equal(state.pins,17);assert.equal(state.legacy,0);
-  assert.match(state.timeText,/^0:00 \/ 6:52/);assert(Math.abs(state.currentTime-426)<.15,state);assert.equal(state.cueIndex,0);assert.equal(state.done,false);assert.equal(state.completed,-1);
+  assert.match(state.timeText,/^0:00 \/ 6:20/);assert(Math.abs(state.currentTime-458.02)<.15,JSON.stringify(state));assert.equal(state.cueIndex,0);assert.equal(state.done,false);assert.equal(state.completed,-1);
   assert.match(state.cueProgress,/1 \/ 17/);assert.doesNotMatch(state.cueProgress,/166/);
-  assert.equal(state.revealed,0);assert.equal(state.strikes,0);assert.equal(state.currentSentences,0);assert(state.sentenceCount>100,state);assert.equal(state.follow,'true');
+  assert.equal(state.revealed,0);assert.equal(state.strikes,0);assert.equal(state.currentSentences,1);assert.equal(state.currentSentence,"Let's talk about Live Studio Cook first though.");assert.equal(state.firstVisibleSentence,"Let's talk about Live Studio Cook first though.");assert.equal(state.greetingsVisible,false);assert(state.sentenceCount>100,state);assert.equal(state.follow,'true');
   assert.equal(state.structured,true);assert.equal(state.turnCount,76);assert(state.minCopyWidth>180,state);
   assert.deepEqual(state.fieldIds,['notes-live-study-cook','notes-filming-schedule','notes-food-kinds','notes-william-video','notes-golden-sun','notes-viewers-choice']);
   assert(state.fieldValues.every(value=>value===''),state.fieldValues);assert.deepEqual(state.headingTasks,['AB','B','C']);assert.equal(state.headingNoise,3);
   assert.deepEqual(state.taskBadges,['Task A','Task B']);assert.equal(state.evidence,6);
   assert.equal(state.togglePressed,String(!state.pinsHidden));
-  assert.equal(state.coverage.first,426);assert.equal(state.coverage.last,838.79);assert.equal(state.coverage.contiguous,true);assert.equal(state.coverage.sourceInside,true);
-  assert(Math.abs(state.coverage.duration-(838.79-426))<.01,state.coverage);
+  assert.equal(state.coverage.first,458.02);assert.equal(state.coverage.last,838.79);assert.equal(state.coverage.contiguous,true);assert.equal(state.coverage.sourceInside,true);
+  assert(Math.abs(state.coverage.duration-(838.79-458.02))<.01,state.coverage);
 }
 async function auditSentenceAlignment(page){
   const units=await page.evaluate(()=>{

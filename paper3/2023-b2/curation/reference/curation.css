@@ -303,6 +303,7 @@
 .curation-transcript-window .speech{min-width:0;align-items:start}
 .curation-transcript-window .curation-transcript-copy{min-width:0;overflow-wrap:anywhere;word-break:normal;border-radius:5px;padding:2px 4px;transition:background-color .25s ease,box-shadow .25s ease}
 .curation-transcript-window .curation-transcript-text>.curation-transcript-sentence{border-radius:4px;transition:background-color .18s ease,box-shadow .18s ease}
+.curation-transcript-window:not([data-review-mode="true"]) .curation-transcript-preroll{display:none!important}
 .curation-active .curation-transcript-window .curation-transcript-text>.curation-transcript-sentence.is-current{background:#fff1b8!important;box-shadow:0 0 0 2px #d39b2b88!important}
 .curation-transcript-window .speech.is-cue-source .curation-transcript-copy{outline:2px solid #1d7b70;outline-offset:2px}
 #turns .curation-transcript-strike-direct.is-revealed{background-image:none!important}

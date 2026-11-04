@@ -1,3 +1,26 @@
+// Keep an already-open reader on the same JavaScript release as the public
+// site. A Pages deployment does not replace code already loaded in a tab.
+(function startReaderReleaseHandshake23(){
+  if(!/^https?:$/.test(location.protocol))return;
+  let checking=false;
+  async function check(){
+    if(checking||document.visibilityState==='hidden')return;
+    checking=true;
+    try{
+      const response=await fetch('/release.json?reader=2023-b2&ts='+Date.now(),{cache:'no-store'});
+      const live=String((await response.json()).release||'');
+      if(!/^[a-f0-9]{40}$/i.test(live))return;
+      const url=new URL(location.href),loaded=url.searchParams.get('release')||'';
+      if(loaded===live){try{sessionStorage.removeItem('cur23-release-reload')}catch{}return}
+      const guard=loaded+'>'+live;
+      try{if(sessionStorage.getItem('cur23-release-reload')===guard)return;sessionStorage.setItem('cur23-release-reload',guard)}catch{}
+      url.searchParams.set('release',live);location.replace(url.href);
+    }catch{}finally{checking=false}
+  }
+  addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')check()});
+  setInterval(check,60000);check();
+})();
+
 // If Firefox refuses a read or write, keep this lesson usable in the current tab.
 // Only changed keys are held in memory. Existing device data stays untouched.
 function createReaderStore(name) {
