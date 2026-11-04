@@ -62,9 +62,9 @@ test('map, briefing, three-column writing desk and model review follow the reque
   assert.match(css, /mission-briefing\.jpg/);
   assert.match(css, /writing-desk\.jpg/);
   assert.match(css, /\.scene-art/);
-  assert.ok(existsSync(new URL('../assets/dse-practical-writing/operations-map.jpg', import.meta.url)));
-  assert.ok(existsSync(new URL('../assets/dse-practical-writing/mission-briefing.jpg', import.meta.url)));
-  assert.ok(existsSync(new URL('../assets/dse-practical-writing/writing-desk.jpg', import.meta.url)));
+  assert.ok(existsSync(new URL('../dse-practical-writing-media/operations-map.jpg', import.meta.url)));
+  assert.ok(existsSync(new URL('../dse-practical-writing-media/mission-briefing.jpg', import.meta.url)));
+  assert.ok(existsSync(new URL('../dse-practical-writing-media/writing-desk.jpg', import.meta.url)));
 });
 
 test('drafting is student-scoped, autosaved, completable and responsive', () => {
