@@ -40,11 +40,17 @@ jobs:
           filter: blob:none
           sparse-checkout-cone-mode: false
           sparse-checkout: |
+            /.github/workflows/
+            /tools/check-pages-build-environment.rb
+            /tools/pages-validation-paths
             /tools/classify-pages-release.py
             /tools/collect-pages-release-tags.py
             /tools/pages-release-scopes.json
             /tools/test-classify-pages-release.py
             /tools/test-collect-pages-release-tags.py
+
+      - name: Check Pages build environment
+        run: ruby tools/check-pages-build-environment.rb
 
       - name: Classify the complete undeployed change
         id: classify

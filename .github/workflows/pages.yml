@@ -22,8 +22,7 @@ permissions:
 
 jobs:
   build:
-    # The Paper 3 browser gate installs Playwright 1.56.1 system dependencies.
-    runs-on: ${{ contains(inputs.release_tags, '[paper3-release]') && 'ubuntu-24.04' || 'ubuntu-latest' }}
+    runs-on: ubuntu-24.04
     timeout-minutes: 60
     permissions:
       actions: write
@@ -332,7 +331,9 @@ jobs:
             esac
             printf '/%s\n' "${changed_path}" >> .git/info/sparse-checkout
           done < /tmp/pages-fast-checkout-paths.txt
+          git show "${GITHUB_SHA}:tools/pages-validation-paths" >> .git/info/sparse-checkout
           git checkout -q --detach "${GITHUB_SHA}"
+          ruby tools/check-pages-build-environment.rb --check-inputs
           test -s tools/pages-release-scopes.json
           test -s tools/prepare-pages-incremental.py
           test -s workers/edmund-site-assets/src/site-pack-index-v1.json
@@ -874,18 +875,16 @@ jobs:
           node --check paper3/2025-b2/super-curation-highlights.js
           node --check paper3/2025-b2/super-curation.js
           node -e "const s=require('fs').readFileSync('paper3/2025-b2/index.html','utf8'); for(const name of ['super-curation.css','super-curation-highlights.js','super-curation.js']) if(!s.includes(name)) throw Error('Missing '+name)"
-          mkdir -p /tmp/paper3-playwright /tmp/paper3-evidence
-          npm --prefix /tmp/paper3-playwright init -y >/dev/null
-          npm --prefix /tmp/paper3-playwright install --no-save playwright@1.56.1 http-server@14.1.1 >/dev/null
-          /tmp/paper3-playwright/node_modules/.bin/playwright install --with-deps chromium firefox webkit
-          /tmp/paper3-playwright/node_modules/.bin/http-server . -p 4173 -a 127.0.0.1 -c-1 >/tmp/paper3-http.log 2>&1 &
+          bash tools/install-pages-browsers.sh
+          mkdir -p /tmp/paper3-evidence
+          "${RUNNER_TEMP}/pages-browser/node_modules/.bin/http-server" . -p 4173 -a 127.0.0.1 -c-1 >/tmp/paper3-http.log 2>&1 &
           server_pid=$!
           trap 'kill "${server_pid}"' EXIT
           for attempt in {1..30}; do
             if curl --fail --silent http://127.0.0.1:4173/paper3/2023-b2/curation/ >/dev/null; then break; fi
             sleep 1
           done
-          PAPER3_EVIDENCE_DIR=/tmp/paper3-evidence NODE_PATH=/tmp/paper3-playwright/node_modules node tools/check-2023-b2-v7.cjs 'http://127.0.0.1:4173/paper3/2023-b2/curation/?curation=1&release=${{ github.sha }}'
+          PAPER3_EVIDENCE_DIR=/tmp/paper3-evidence NODE_PATH="${RUNNER_TEMP}/pages-browser/node_modules" node tools/check-2023-b2-v7.cjs 'http://127.0.0.1:4173/paper3/2023-b2/curation/?curation=1&release=${{ github.sha }}'
 
       - name: Archive focused Paper 3 conformance evidence
         if: ${{ always() && contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[paper3-release]') }}

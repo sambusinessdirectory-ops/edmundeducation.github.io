@@ -45,7 +45,6 @@ jobs:
           git config remote.origin.promisor true
           git config remote.origin.partialclonefilter blob:none
           cat > .git/info/sparse-checkout <<'PATTERNS'
-          /.github/workflows/pages-paper3-fast.yml
           /paper3/
           /service-worker.js
           /pwa-register.js
@@ -66,7 +65,9 @@ jobs:
           PATTERNS
           git -c protocol.version=2 fetch --no-tags --depth=50 --filter=blob:none origin "${GITHUB_SHA}"
           git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "${snapshot_sha}"
+          git show "${GITHUB_SHA}:tools/pages-validation-paths" >> .git/info/sparse-checkout
           git checkout -q --detach "${GITHUB_SHA}"
+          ruby tools/check-pages-build-environment.rb --check-inputs
           git merge-base --is-ancestor "${snapshot_sha}" "${GITHUB_SHA}"
 
       - name: Reject changes that need the full release workflow
@@ -137,18 +138,16 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p /tmp/paper3-playwright
-          npm --prefix /tmp/paper3-playwright init -y >/dev/null
-          npm --prefix /tmp/paper3-playwright install --no-save playwright@1.56.1 http-server@14.1.1 >/dev/null
-          /tmp/paper3-playwright/node_modules/.bin/playwright install --with-deps chromium firefox webkit
-          /tmp/paper3-playwright/node_modules/.bin/http-server _site -p 4173 -c-1 >/tmp/paper3-http.log 2>&1 &
+          bash source/tools/install-pages-browsers.sh
+          mkdir -p /tmp/paper3-evidence
+          "${RUNNER_TEMP}/pages-browser/node_modules/.bin/http-server" _site -p 4173 -c-1 >/tmp/paper3-http.log 2>&1 &
           server_pid=$!
           trap 'kill "${server_pid}"' EXIT
           for attempt in {1..30}; do
             if curl --fail --silent http://127.0.0.1:4173/paper3/2023-b2/curation/ >/dev/null; then break; fi
             sleep 1
           done
-          PAPER3_EVIDENCE_DIR=/tmp/paper3-evidence NODE_PATH=/tmp/paper3-playwright/node_modules node source/tools/check-2023-b2-v7.cjs 'http://127.0.0.1:4173/paper3/2023-b2/curation/?curation=1&release=${{ github.sha }}'
+          PAPER3_EVIDENCE_DIR=/tmp/paper3-evidence NODE_PATH="${RUNNER_TEMP}/pages-browser/node_modules" node source/tools/check-2023-b2-v7.cjs 'http://127.0.0.1:4173/paper3/2023-b2/curation/?curation=1&release=${{ github.sha }}'
 
       - name: Archive Paper 3 conformance evidence
         if: always()

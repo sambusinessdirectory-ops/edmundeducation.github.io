@@ -20,7 +20,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     permissions:
       contents: read
@@ -56,7 +56,9 @@ jobs:
           /tools/update-pages-snapshot.sh
           PATTERNS
           git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "$GITHUB_SHA"
+          git show "${GITHUB_SHA}:tools/pages-validation-paths" >> .git/info/sparse-checkout
           git checkout -q --detach "$GITHUB_SHA"
+          ruby tools/check-pages-build-environment.rb --check-inputs
           test -s index.html
           test -s tools/rewrite-pages-assets.py
           test -s workers/edmund-site-assets/src/site-pack-index-v1.json
