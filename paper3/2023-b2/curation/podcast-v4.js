@@ -29,18 +29,42 @@ function bindPodcastFieldsV4(){
     field.addEventListener('input',event=>{if(!event.isTrusted)return;if(typing){clearInterval(typing);typing=0;field.classList.remove('curation-note-writing');E('next').disabled=false}});
   }
 }
+// Older builds kept a partial line whenever a two-character typing step ended
+// in whitespace. Remove that exact descending sequence, preserving other notes.
+function repairPodcastFragmentsV4(lines, answers) {
+  for (const answer of answers) {
+    const fragments = [];
+    for (let end=2; end<answer.length; end+=2) {
+      const prefix = answer.slice(0,end);
+      if (prefix.endsWith(' ')) fragments.unshift(prefix.trimEnd());
+    }
+    for (let i=0; i<lines.length && fragments.length; i++) {
+      const head=lines[i].trimEnd();
+      if (!head || !answer.startsWith(head)) continue;
+      const expected=fragments.filter(prefix=>prefix.length<head.length);
+      if (expected.length && expected.every((prefix,j)=>lines[i+j+1]?.trimEnd()===prefix)) {
+        lines.splice(i+1,expected.length);
+        if (head!==answer) lines.splice(i--,1);
+      }
+    }
+  }
+  return lines;
+}
 function renderPodcastNotesV4(n,partial=''){
   const root=podcastRootV4();if(!root?.querySelector('#page-3'))return;
-  const known=new Set(cues.map(cue=>cue[2]).filter(Boolean));
   podcastNoteFieldsV4.forEach((config,fieldIndex)=>{
     const field=podcastFieldV4(fieldIndex);if(!field)return;
-    const previous=new Set(generatedPodcastLinesV4.get(config.id)||[]);
-    const authored=field.value.split('\n').filter(line=>line.trim()&&!known.has(line.trim())&&!previous.has(line.trim()));
+    const previous=new Set((generatedPodcastLinesV4.get(config.id)||[]).map(line=>line.trim()));
+    const answers=config.cues.map(index=>cues[index][2]).filter(Boolean);
+    const lines=repairPodcastFragmentsV4(field.value.split('\n'),answers);
+    const authored=lines.filter(line=>line.trim()&&!answers.includes(line.trim())&&!previous.has(line.trim()));
     const generated=config.cues.filter(index=>index<n&&cues[index][2]).map(index=>cues[index][2]);
     if(partial&&config.cues.includes(n))generated.push(partial);
     generatedPodcastLinesV4.set(config.id,generated);
     field.value=[...generated,...authored].join('\n');
-    safePodcastWriteV4('cur23-reader-note:'+config.note,field.value);
+    // Persist the complete heard answer, even while its letters are appearing.
+    const saved=partial&&config.cues.includes(n)?[...generated.slice(0,-1),cues[n][2],...authored].join('\n'):field.value;
+    safePodcastWriteV4('cur23-reader-note:'+config.note,saved);
     const heardTasks=new Set(config.cues.filter(index=>index<n||(index===n&&partial)).map(index=>cues[index][1]).filter(task=>task>=1&&task<=3).map(task=>'ABC'[task-1]));
     for(const task of 'ABC')field.classList.toggle('curation-note-highlight-'+task,heardTasks.has(task));
   });

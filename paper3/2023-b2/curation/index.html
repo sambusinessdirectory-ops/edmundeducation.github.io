@@ -1448,7 +1448,7 @@ const cues=[
 [18,0,'10 episodes'],[20,0,'Filming postponed until October'],[24,0,'Main dishes'],[28,0,'Desserts'],[34,1,'Flood in the test kitchen'],[38,1,'Food safety allegations may be misunderstandings'],[41,1,'Watering eyes from chopping onions'],[43,2,'Social media training for staff'],[46,2,'Communicate clearly and avoid offence'],[53,2,'First ten to finish all three courses earn an extra day off'],[58,0,'Burnt toast'],[63,2,'Fire safety training'],[71,0,'Offer $5,000 for the private kitchen'],[73,3,'New show: Viewer’s Choice'],[75,3,'Interactive: viewers choose the ingredients'],[79,3,'Fully live'],[81,0,'']];
 // Type 6 is an editorial decision. A turn without a note cue can still contain useful context.
 const noiseTurns=new Set([6,7,8,9,11,15,22,26,31,32,35,37,47,61,67]);
-const audio=new Audio('meeting.mp3'),panel=document.createElement('section'),scriptWindow=document.createElement('aside');
+const audio=new Audio('meeting-track-8.mp3'),panel=document.createElement('section'),scriptWindow=document.createElement('aside');
 // Keep the media engine in the document. Detached Audio objects can advance
 // normally in automated tests while still failing to route audible output in
 // real Safari/Firefox sessions after repeated page reconstruction.
@@ -2401,7 +2401,7 @@ const button=document.createElement('button');button.className='learning-questio
   }
   // The 2025 motion contract must also reach the light-DOM transcript/preview
   // and the reconstructed source shadow root, not only the guide shadow root.
-  const motionCss = new URL('reference/curation.css?v=20261104-motion-v3', location.href).href;
+  const motionCss = new URL('reference/curation.css?v=20261105-transcript-strike', location.href).href;
   const motionLink = document.createElement('link');
   motionLink.rel = 'stylesheet';
   motionLink.href = motionCss;
@@ -3267,18 +3267,42 @@ function bindPodcastFieldsV4(){
     field.addEventListener('input',event=>{if(!event.isTrusted)return;if(typing){clearInterval(typing);typing=0;field.classList.remove('curation-note-writing');E('next').disabled=false}});
   }
 }
+// Older builds kept a partial line whenever a two-character typing step ended
+// in whitespace. Remove that exact descending sequence, preserving other notes.
+function repairPodcastFragmentsV4(lines, answers) {
+  for (const answer of answers) {
+    const fragments = [];
+    for (let end=2; end<answer.length; end+=2) {
+      const prefix = answer.slice(0,end);
+      if (prefix.endsWith(' ')) fragments.unshift(prefix.trimEnd());
+    }
+    for (let i=0; i<lines.length && fragments.length; i++) {
+      const head=lines[i].trimEnd();
+      if (!head || !answer.startsWith(head)) continue;
+      const expected=fragments.filter(prefix=>prefix.length<head.length);
+      if (expected.length && expected.every((prefix,j)=>lines[i+j+1]?.trimEnd()===prefix)) {
+        lines.splice(i+1,expected.length);
+        if (head!==answer) lines.splice(i--,1);
+      }
+    }
+  }
+  return lines;
+}
 function renderPodcastNotesV4(n,partial=''){
   const root=podcastRootV4();if(!root?.querySelector('#page-3'))return;
-  const known=new Set(cues.map(cue=>cue[2]).filter(Boolean));
   podcastNoteFieldsV4.forEach((config,fieldIndex)=>{
     const field=podcastFieldV4(fieldIndex);if(!field)return;
-    const previous=new Set(generatedPodcastLinesV4.get(config.id)||[]);
-    const authored=field.value.split('\n').filter(line=>line.trim()&&!known.has(line.trim())&&!previous.has(line.trim()));
+    const previous=new Set((generatedPodcastLinesV4.get(config.id)||[]).map(line=>line.trim()));
+    const answers=config.cues.map(index=>cues[index][2]).filter(Boolean);
+    const lines=repairPodcastFragmentsV4(field.value.split('\n'),answers);
+    const authored=lines.filter(line=>line.trim()&&!answers.includes(line.trim())&&!previous.has(line.trim()));
     const generated=config.cues.filter(index=>index<n&&cues[index][2]).map(index=>cues[index][2]);
     if(partial&&config.cues.includes(n))generated.push(partial);
     generatedPodcastLinesV4.set(config.id,generated);
     field.value=[...generated,...authored].join('\n');
-    safePodcastWriteV4('cur23-reader-note:'+config.note,field.value);
+    // Persist the complete heard answer, even while its letters are appearing.
+    const saved=partial&&config.cues.includes(n)?[...generated.slice(0,-1),cues[n][2],...authored].join('\n'):field.value;
+    safePodcastWriteV4('cur23-reader-note:'+config.note,saved);
     const heardTasks=new Set(config.cues.filter(index=>index<n||(index===n&&partial)).map(index=>cues[index][1]).filter(task=>task>=1&&task<=3).map(task=>'ABC'[task-1]));
     for(const task of 'ABC')field.classList.toggle('curation-note-highlight-'+task,heardTasks.has(task));
   });

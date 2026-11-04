@@ -16,7 +16,7 @@ html:lang(zh-Hant) body :where(*) {
 #panel-task1 tbody tr td:first-child,
 #panel-task2:not(.is-admin) tbody tr td.prompt-cell,
 dialog, .login-dialog, .highlight-dialog {
-  background-image: linear-gradient(180deg,rgba(255,251,241,.26),rgba(249,240,219,.16)),url("./parchment-grain.webp") !important;
+  background-image: linear-gradient(105deg,rgba(255,250,236,.74),rgba(255,250,236,.62) 55%,rgba(255,250,236,.12)),url("./parchment-grain.webp") !important;
   background-size: auto, 640px 640px;
   background-repeat: no-repeat, repeat;
 }

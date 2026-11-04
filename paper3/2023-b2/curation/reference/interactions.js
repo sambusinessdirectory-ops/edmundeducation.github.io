@@ -10,7 +10,7 @@
   }
   // The 2025 motion contract must also reach the light-DOM transcript/preview
   // and the reconstructed source shadow root, not only the guide shadow root.
-  const motionCss = new URL('reference/curation.css?v=20261104-motion-v3', location.href).href;
+  const motionCss = new URL('reference/curation.css?v=20261105-transcript-strike', location.href).href;
   const motionLink = document.createElement('link');
   motionLink.rel = 'stylesheet';
   motionLink.href = motionCss;
