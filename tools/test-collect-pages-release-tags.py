@@ -85,6 +85,7 @@ tools/test-schedule-system.mjs
     def test_tested_build_infrastructure_keeps_the_focused_route(self):
         paths = [
             ".github/workflows/pages.yml",
+            "tools/PAGES-RELEASE-COORDINATOR.md",
             "tools/prepare-pages-incremental.py",
             "tools/rewrite-pages-assets.py",
         ]

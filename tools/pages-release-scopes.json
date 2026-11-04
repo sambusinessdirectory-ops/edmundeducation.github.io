@@ -13,6 +13,7 @@
       "service-worker.js",
       "shared-system-nav.css",
       "shared-system-nav.js",
+      "tools/PAGES-RELEASE-COORDINATOR.md",
       "tools/classify-pages-release.py",
       "tools/collect-pages-release-tags.py",
       "tools/pages-release-scopes.json",
