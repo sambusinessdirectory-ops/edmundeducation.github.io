@@ -255,6 +255,7 @@
     ],
     "[practical-writing-release]": [
       "assets/dse-practical-writing/**",
+      "dse-practical-writing-art/**",
       "dse-practical-writing.*",
       "tools/test-dse-practical-writing*.mjs"
     ]
