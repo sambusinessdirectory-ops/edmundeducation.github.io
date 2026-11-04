@@ -592,7 +592,11 @@ jobs:
       - name: Validate focused Homework export release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[homework-release]') }}
         run: |
-          npm ci --prefix tools/email-qa --ignore-scripts
+          npm ci --prefix tools/email-qa --ignore-scripts --no-audit --no-fund --prefer-offline \
+            --fetch-retries=5 --fetch-retry-mintimeout=1000 --fetch-retry-maxtimeout=10000 || {
+              echo '::error title=Homework dependency install failed::Unable to install the focused jsdom test dependency after retries.'
+              exit 1
+            }
           node --check error-identifier.js
           node --check error-identifier-passage.js
           node --check junior-exam-prep/app.mjs
