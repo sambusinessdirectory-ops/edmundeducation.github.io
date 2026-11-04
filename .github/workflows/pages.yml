@@ -111,6 +111,12 @@ jobs:
           esac
 
           case "${RELEASE_TAGS}" in
+            *'[release-gate-repair]'*)
+              echo '/supabase/migrations/20260827103531_eddie_farm_points.sql' >> .git/info/sparse-checkout
+              ;;
+          esac
+
+          case "${RELEASE_TAGS}" in
             *'[homework-release]'*)
               cat >> .git/info/sparse-checkout <<'PATTERNS'
           /homework-resource-catalog.mjs
