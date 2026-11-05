@@ -1,29 +1,140 @@
 <!doctype html>
-<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1,viewport-fit=cover"><title>新聞導讀系統｜Edmund Education</title>
-<link rel="stylesheet" href="/song-appreciation.css"><link rel="stylesheet" href="/news-reader/news.css?v=listening1"><script defer src="/pwa-register.js"></script>
-<script defer src="/supabase-config.js"></script><script defer src="/shared-system-nav.js?v=20261104-system-catalogue1"></script><script type="module" src="/news-reader/news.mjs?v=listening1"></script>  <link rel="manifest" href="/pwa-manifests/news-reader.webmanifest">
-  <meta name="theme-color" content="#20283d">
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,viewport-fit=cover">
+  <title>新聞導讀系統｜Edmund Education</title>
+  <meta name="description" content="Edmund Education 雙語新聞導讀、詞彙追蹤、聽力及句型練習。">
+  <link rel="stylesheet" href="/song-appreciation.css">
+  <link rel="stylesheet" href="/news-reader/news.css?v=playful2">
+  <script defer src="/pwa-register.js"></script>
+  <script defer src="/supabase-config.js"></script>
+  <script defer src="/shared-system-nav.js?v=20261104-system-catalogue1"></script>
+  <script type="module" src="/news-reader/news.mjs?v=playful2"></script>
+  <link rel="manifest" href="/pwa-manifests/news-reader.webmanifest">
+  <meta name="theme-color" content="#fffdf7">
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="48x48" href="/assets/icons/favicon-48x48.png">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="167x167" href="/assets/icons/apple-touch-icon-167x167.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <meta name="apple-mobile-web-app-title" content="新聞導讀系統">
 </head>
-<body><header class="portal-header"><a href="/">← 首頁</a><strong>新聞導讀系統</strong><span id="user"></span><button id="logout" hidden>登出</button></header>
-<main><div class="eyebrow">EDMUND EDUCATION　/　NEWS ENGLISH</div>
-<section id="gate" class="sheet login"><h1>新聞導讀系統</h1><p>用學生帳戶登入，收看雙語新聞報道，跟着錄音認識詞彙。</p>
-<form id="login"><label>學生帳戶<input id="username" autocomplete="username" required></label><label>密碼<input id="password" type="password" autocomplete="current-password" required></label><button class="primary">學生登入</button></form><p id="loginStatus" role="status"></p></section>
-<section id="library" hidden><h1>新聞課堂</h1><button class="sheet entry" id="entry"><small>01　/　WORLD NEWS</small><strong lang="en"></strong><span></span><b>進入導讀 →</b></button></section>
-<section id="lesson" hidden><button id="back">← 新聞目錄</button><h1 lang="en" id="title"></h1><p id="translation" class="subhead"></p><p><a id="jumpListening" href="#practice">前往聽力理解 · 15 題 ↓</a></p>
-<div class="columns"><section class="sheet player"><div class="tabs"><button id="videoMode">新聞影片</button><button id="audioMode">原聲 MP3</button></div>
-<div id="screen"><div id="videoHost"></div><div id="audioArt" hidden><small>NEWSROOM　/　AUDIO EDITION</small><strong>現場原聲</strong><span>▂ ▅ ▃ ▇ ▅ ▂ ▆ ▃ ▅</span></div></div>
-<audio id="audio" preload="metadata"></audio>
-<div class="controls"><button id="play" class="primary">播放</button><label>速度 <select id="rate"></select></label><output id="time">0:00</output><input id="seek" type="range" min="0" max="124.366" step=".02" value="0" aria-label="播放進度"></div>
-<div id="subtitles"><small>同步字幕　/　SUBTITLES</small><p id="en" lang="en"></p><p id="zh"></p></div><p id="mediaStatus" role="status"></p></section>
-<aside class="sheet rail"><small>WORD DESK</small><h2>詞彙追蹤</h2><p>播到目標詞時會亮起。點選詞彙可重聽。</p><div id="wordList"></div></aside></div>
-<section id="practice" class="sheet practice"><small>PRACTICE STUDIO</small><h2>練習模式</h2><div id="modes" class="tabs"></div><div id="question"></div></section></section></main></body></html>
+<body>
+  <div class="transition-bridge" aria-hidden="true"><i></i><i></i><i></i></div>
+  <header class="portal-header news-header">
+    <a href="/" class="home-link">← 首頁</a>
+    <strong>NEWS ENGLISH　/　新聞導讀</strong>
+    <span id="user"></span>
+    <button id="logout" hidden>登出</button>
+  </header>
+
+  <main>
+    <section id="gate" class="news-stage gate-stage">
+      <div class="login-art" aria-hidden="true"><img src="/news-reader/art/login-console.png" alt=""></div>
+      <div class="login-copy">
+        <p class="eyebrow">EDMUND EDUCATION　/　STUDENT NEWSROOM</p>
+        <h1>新聞導讀系統</h1>
+        <p class="lede">以真實新聞練聽力、追蹤詞彙，再把理解帶進句子。</p>
+        <form id="login" class="login-panel">
+          <div class="panel-tab">STUDENT ACCESS　/　學生登入</div>
+          <label>學生帳戶<input id="username" autocomplete="username" required></label>
+          <label>密碼<input id="password" type="password" autocomplete="current-password" required></label>
+          <button class="primary art-button">進入新聞課堂</button>
+        </form>
+        <p id="loginStatus" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section id="library" class="news-stage library-stage" hidden>
+      <div class="library-heading">
+        <p class="eyebrow">NEWSROOM INDEX　/　課堂目錄</p>
+        <h1>新聞課堂</h1>
+        <p>選擇報道，先看新聞，再完成詞彙、聽力和句型任務。</p>
+      </div>
+      <button class="lesson-entry" id="entry">
+        <figure class="lesson-thumb">
+          <img src="/news-reader/florida-man-jewelry-poster.jpg" alt="新聞影片畫面：警方截查涉嫌偷竊珠寶的男子">
+          <span class="play-disc" aria-hidden="true">▶</span>
+          <figcaption>LOCAL VIDEO　/　本地影片</figcaption>
+        </figure>
+        <span class="lesson-entry-copy">
+          <small>01　/　WORLD NEWS　·　A2+</small>
+          <strong lang="en"></strong>
+          <span></span>
+          <b>進入導讀　→</b>
+        </span>
+        <img class="lesson-entry-art" src="/news-reader/art/lesson-selector.png" alt="" aria-hidden="true">
+      </button>
+    </section>
+
+    <section id="lesson" class="news-stage lesson-stage" hidden>
+      <button id="back" class="back-button">← 新聞目錄</button>
+      <header class="lesson-title-frame">
+        <img src="/news-reader/art/title-frame.png" alt="" aria-hidden="true">
+        <div>
+          <p>WORLD NEWS　/　LESSON 01</p>
+          <h1 lang="en" id="title"></h1>
+          <p id="translation" class="subhead"></p>
+        </div>
+      </header>
+
+      <div class="columns">
+        <section class="player-panel" aria-label="新聞播放器">
+          <div class="mode-switch" role="group" aria-label="媒體模式">
+            <button id="videoMode">新聞影片</button>
+            <button id="audioMode">原聲 MP3</button>
+          </div>
+          <div id="screen">
+            <video id="video" playsinline preload="metadata" poster="/news-reader/florida-man-jewelry-poster.jpg">
+              <source src="/news-reader/florida-man-jewelry.mp4" type="video/mp4">
+            </video>
+            <div id="audioArt" hidden>
+              <small>NEWSROOM　/　AUDIO EDITION</small>
+              <strong>現場原聲</strong>
+              <span aria-hidden="true">▂ ▅ ▃ ▇ ▅ ▂ ▆ ▃ ▅</span>
+            </div>
+          </div>
+          <audio id="audio" preload="metadata"></audio>
+          <div class="controls">
+            <button id="play" class="primary art-button">播放</button>
+            <label>速度 <select id="rate" aria-label="播放速度"></select></label>
+            <output id="time">0:00</output>
+            <input id="seek" type="range" min="0" max="124.413" step=".02" value="0" aria-label="播放進度">
+          </div>
+          <div id="subtitles" aria-live="polite">
+            <p id="en" lang="en"></p>
+            <p id="zh"></p>
+          </div>
+          <p id="mediaStatus" role="status" aria-live="polite"></p>
+        </section>
+
+        <aside class="word-desk">
+          <img src="/news-reader/art/vocabulary-desk.png" alt="" aria-hidden="true">
+          <div class="desk-heading">
+            <small>WORD DESK</small>
+            <h2>詞彙追蹤</h2>
+            <p>播到目標詞時會亮起；點選可重聽。延伸詞彙會另外標示。</p>
+          </div>
+          <div id="wordList"></div>
+        </aside>
+      </div>
+
+      <section id="practice" class="practice-panel">
+        <div class="practice-heading">
+          <div>
+            <small>PRACTICE STUDIO</small>
+            <h2>練習模式</h2>
+          </div>
+          <img src="/news-reader/art/exercise-studio.png" alt="" aria-hidden="true">
+        </div>
+        <div id="modes" class="mode-tabs"></div>
+        <p><a id="jumpListening" href="#practice">前往聽力理解 · 15 題 ↓</a></p>
+        <div id="question"></div>
+      </section>
+    </section>
+  </main>
+</body>
+</html>
