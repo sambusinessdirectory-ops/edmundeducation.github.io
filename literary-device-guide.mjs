@@ -1,3 +1,4 @@
+import {explanation,animateIn,expandDetails} from './literary-device-reading.mjs';
 export function createGuide(devices,root){
   const groups=[...new Set(devices.map(d=>d.group))];
   let group=groups[0],query='';
@@ -26,7 +27,7 @@ export function createGuide(devices,root){
     }
   }
   function change(next){
-    group=next;query='';render();root.querySelector('.page-heading').focus();
+    group=next;query='';render();animateIn(root.querySelector('.guide-page'));root.querySelector('.page-heading').focus({preventScroll:true});
   }
   function entries(){
     const q=query.trim().toLowerCase(),list=root.querySelector('.entries');
@@ -43,8 +44,8 @@ export function createGuide(devices,root){
       title.append(element('span','serial',String(i+1).padStart(2,'0')),element('b','device-en',d.en),element('span','device-zh',d.zh));
       row.append(title);
       const body=element('div','entry-body');
-      for(const paragraph of d.body.split(/\n\s*\n/))body.append(element('p','body',paragraph));
-      row.append(body);list.append(row);
+      body.innerHTML=explanation(d.body);
+      row.append(body);list.append(row);expandDetails(row);
       row.addEventListener('toggle',()=>{
         if(!row.isConnected)return;
         if(row.open){if(!open.has(i)){open.add(i);visit(i);}}
