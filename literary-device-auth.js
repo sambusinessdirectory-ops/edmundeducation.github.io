@@ -7,7 +7,7 @@ async function enter(candidate){
  if(!student){lock('登入已失效，請重新登入。');return false;}
  session={token:candidate.token,id:student.id,name:student.name,role:'student'};
  try{sessionStorage.setItem(key,JSON.stringify(session));}catch{}
- if(!loaded){learning=await import('./literary-device.js?v=ledger2');loaded=true;}
+ if(!loaded){learning=await import(document.querySelector('[data-learning-module]').dataset.learningModule);loaded=true;}
  document.querySelector('#student-name').textContent=student.name;gate.hidden=true;app.hidden=false;form.reset();
  const remaining=new Date(student.session_expires_at).getTime()-Date.now();clearTimeout(expiryTimer);expiryTimer=setTimeout(()=>lock('登入已到期，請重新登入。'),Math.min(Math.max(remaining,0),2147483647));
  return true;
