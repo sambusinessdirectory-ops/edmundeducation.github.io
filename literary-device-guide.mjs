@@ -1,4 +1,4 @@
-import {explanation,animateIn,expandDetails} from './literary-device-reading.mjs';
+import {explanation,animateIn,expandDetails} from './literary-device-reading.mjs?v=ledger3';
 export function createGuide(devices,root){
   const groups=[...new Set(devices.map(d=>d.group))];
   let group=groups[0],query='';

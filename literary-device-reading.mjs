@@ -1,6 +1,9 @@
 export const escapeHTML=s=>String(s).replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));
 // Preserve punctuation, closing quotation marks and decimals while separating sentences.
-export function prose(text){return String(text).replace(/([。]|\.(?!\d))([”’"」』）)]*)\s*/g,'$1$2\n').split('\n').map(escapeHTML).join('<br>');}
+export function prose(text){
+ const lines=String(text).replace(/([。]|\.(?!\d))([”’"」』）)]*)([ \t]*)/g,(match,stop,closing,space)=>closing.includes('）')||closing.includes(')')?match:stop+closing+'\n');
+ return lines.trimEnd().split('\n').map(escapeHTML).join('<br>');
+}
 export function explanation(text){
  const blocks=[];let current;
  for(const line of String(text).split(/\n/).map(x=>x.trim()).filter(Boolean)){
