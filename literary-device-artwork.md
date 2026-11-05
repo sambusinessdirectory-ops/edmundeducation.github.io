@@ -39,3 +39,19 @@ Prompt: Create one blank wide answer-option panel surface for a literary educati
 Used for MC options in both practice modes; selected, correct and incorrect states retain distinct CSS colors.
 
 The Chinese font family and local font-face definition now match the homepage. Sentence formatting includes translation parentheses before formatting, suppresses breaks after punctuation attached to a closing parenthesis, and omits trailing breaks. Verified desktop/mobile, sentence formatting, both practice modes and computed font family.
+
+# Catalogue leaves and reading-size controls
+
+Built-in ImageGen generation mode, two reusable assets; originals retained, exported as WebP. Transparent padding trimmed from button export.
+
+## literary-device-catalogue-panel.webp
+
+Prompt: One reusable blank accordion header panel for a scholarly literary field guide website. Wide horizontal ivory parchment strip, soft hand-painted watercolor, gently irregular paper edges. At left a small understated ink-blue wash with a delicate loose gold botanical sprig; far right a similarly restrained blue brush accent. Center 80 percent very light cream and completely empty for live English and Traditional Chinese headings. Warm ivory, muted navy, antique gold. Natural elegant painterly craftsmanship, very low detail, no geometric patterns, no letters, numbers, text, icons, symbols, monsters, weapons or watermark. Flat front view UI asset, 3:1 landscape, panel fills canvas with minimal margins.
+
+Applied to every expandable guide entry, with live titles positioned clear of the artwork.
+
+## literary-device-font-button.webp
+
+Prompt: One blank compact horizontal font-size control button for a literary education website. Hand-painted navy leather inset plaque with softly irregular brushed antique gold rim, tiny ivory quill flourish only on far left edge. Elegant restrained watercolor fantasy scholar notebook aesthetic, softly rounded chamfered corners. Center 80 percent blank dark navy for accessible live text. Front view flat UI artwork, 3:1 aspect ratio, isolated transparent background, fill canvas. No text, letters, numbers, symbols, intricate patterns, monsters, weapons or watermark.
+
+Used for the reading-size trigger and all nine size options (1–3× in 0.25 increments). Preference is stored locally. Reading content, chapter controls, exercise text and hint dialogs scale; the size selector stays compact for recovery. At 1.75× and above the guide uses one column. Browser checks cover every scale, persistence, Escape, mobile at 3×, both exercise modes and hint dialogs.
