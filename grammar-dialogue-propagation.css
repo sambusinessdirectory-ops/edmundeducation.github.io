@@ -1,0 +1,31 @@
+/* Shared reference treatment for the five existing guides. */
+[data-eddy-module] .grammar-eddy-dialogue__lesson { justify-content:flex-start; overflow:visible; }
+[data-eddy-module] .grammar-eddy-dialogue__copy { max-height:none; overflow:visible; white-space:pre-line; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson :is(p,li,td,span,small) { color:inherit; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson :is(.grammar-tense-topic__formula,.grammar-articles-topic__focus,.grammar-articles-example,.grammar-tense-example,.grammar-articles-topic__full) {
+  background:transparent; border:0; padding:0; color:#f7f5e9; box-shadow:none;
+}
+[data-eddy-module] .grammar-eddy-dialogue__lesson :is(.grammar-articles-example,.grammar-tense-example) { border-left:2px solid #ffe392; padding-left:10px; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson :is(.grammar-articles-example-grid,.grammar-tense-topic__examples) { display:grid; grid-template-columns:1fr; gap:10px; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson :is(p,li,.grammar-articles-example span,.grammar-tense-example span) { font:inherit; overflow-wrap:normal; word-break:normal; line-break:strict; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson :is(strong,code) { background:transparent; color:#ffe28b; font:inherit; font-weight:750; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson .grammar-articles-ink { background:transparent; color:#b9f5dc; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson .grammar-articles-topic__details { border-color:#fff5d666; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson summary { color:#ffe28b; padding:12px 0; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson pre { white-space:pre-wrap; font:inherit; }
+[data-eddy-module] .grammar-dialogue-controls { margin-top:20px; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson .grammar-articles-topic__head > span { display:inline; width:auto; height:auto; background:transparent; color:#b9f5dc; font-size:14px; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson .grammar-eddy-dialogue__chalk--purple { color:#e9c9ff; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson .grammar-eddy-dialogue__chalk--yellow { color:#ffe28b; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson .grammar-eddy-dialogue__chalk--mint { color:#b9f5dc; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson { bottom:auto; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson .grammar-new-table-wrap { overflow-x:auto; max-width:100%; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson table { min-width:720px; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson .grammar-articles-topic__focus { margin-bottom:8px; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson .grammar-articles-topic__focus > span { color:#b9f5dc; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson .grammar-eddy-dialogue__chalk { display:inline; margin:0; font:inherit; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson .grammar-articles-topic__full p { white-space:pre-line; }
+[data-eddy-module] .grammar-eddy-dialogue__lesson .grammar-articles-example__warning { display:block; color:#ffc5bd; }
+[data-eddy-module] .grammar-articles-stream { grid-template-columns:minmax(0,1fr); min-width:0; }
+[data-eddy-module] .grammar-articles-topic { min-width:0; max-width:100%; }
+[data-eddy-module] .grammar-eddy-dialogue { box-sizing:border-box; max-width:100%; }

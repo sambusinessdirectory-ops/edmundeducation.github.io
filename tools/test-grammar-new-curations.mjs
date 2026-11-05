@@ -32,6 +32,8 @@ const require = createRequire(new URL("./email-qa/package.json", import.meta.url
 const { JSDOM } = require("jsdom");
 const dom = new JSDOM('<main data-learning-portal-root><section data-view="dashboard"><section data-grammar-library></section><section data-tense-curation hidden></section><section data-grammar-practice hidden></section></section></main>', { runScripts: "outside-only", url: "https://example.test/grammar-system.html" });
 dom.window.HTMLElement.prototype.scrollIntoView = function () {};
+dom.window.requestAnimationFrame = () => 1;
+dom.window.eval(await read("grammar-dialogue-notes.js"));
 dom.window.eval(dataScript);
 dom.window.eval(runtime);
 const { document } = dom.window;
@@ -43,7 +45,7 @@ for (const [index, lesson] of lessons.entries()) {
   assert.equal(section.querySelectorAll(".grammar-new-topic:not(.grammar-new-appendix)").length, lesson.count);
   assert.equal(section.querySelectorAll(".grammar-new-chapter").length, lesson.chapters.length);
   const dialogues = section.querySelectorAll(".grammar-eddy-dialogue");
-  assert.equal(dialogues.length, lesson.slug === "unless" ? 24 : 0);
+  assert.equal(dialogues.length, lesson.count);
   if (lesson.slug === "unless") {
     assert.deepEqual([...dialogues].map((dialogue) => dialogue.dataset.rule), Array.from({ length: 24 }, (_, i) => String(i + 1).padStart(2, "0")));
     assert.ok([...dialogues].every((dialogue) => dialogue.querySelector("img")?.getAttribute("src") === `grammar-eddy-dialogues/unless/eddy-${dialogue.dataset.rule}.webp`));
