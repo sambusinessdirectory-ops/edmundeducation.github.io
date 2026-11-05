@@ -34,7 +34,7 @@
             fragment.append(document.createTextNode(text.slice(cursor)));
             node.replaceWith(fragment);
           }
-        } else if (node.nodeType === Node.ELEMENT_NODE && !node.matches("code, strong, em, a")) {
+        } else if (node.nodeType === Node.ELEMENT_NODE && !node.matches("code, strong, em, a, summary, button")) {
           visit(node);
         }
       }
@@ -43,7 +43,7 @@
   }
 
   function addEddyDialogue(view) {
-    const isIndefinite = view.dataset.newGrammarCuration === "indefinite-pronouns";
+    const isIndefinite = view.dataset.newGrammarCuration !== "unless";
     // The Indefinite Pronouns cards use the assigned Grammar taeching rule 1–33 artwork.
     // The Unless guide retains its original 24-pose cycle.
     const poseCount = isIndefinite ? 33 : 24;
@@ -60,6 +60,7 @@
       const heading = card.querySelector(".grammar-articles-topic__head");
       const focus = card.querySelector(".grammar-tense-topic__focus");
       const note = body.lastElementChild?.tagName === "P" ? body.lastElementChild : null;
+      const authoredNote = window.EDMUND_GRAMMAR_DIALOGUE_NOTES?.[view.dataset.newGrammarCuration]?.[index + 1];
       const figure = document.createElement("figure");
       figure.className = `grammar-eddy-dialogue${isIndefinite ? " grammar-eddy-dialogue--indefinite" : ""}`;
       figure.dataset.rule = String(index + 1).padStart(2, "0");
@@ -92,12 +93,15 @@
       caption.className = "grammar-eddy-dialogue__text";
       const copy = document.createElement("span");
       copy.className = "grammar-eddy-dialogue__copy";
-      if (note) {
+      if (authoredNote) {
+        copy.textContent = authoredNote;
+        if (note) chalkCopy.append(note);
+      } else if (note) {
         copy.append(...note.childNodes);
         note.remove();
       } else {
         copy.textContent = isIndefinite
-          ? summaryForUnlistedEnding[figure.dataset.rule] || focus?.textContent || ""
+          ? (view.dataset.newGrammarCuration === "indefinite-pronouns" ? summaryForUnlistedEnding[figure.dataset.rule] : window.EDMUND_GRAMMAR_DIALOGUE_NOTES?.[view.dataset.newGrammarCuration]?.[index + 1]) || focus?.textContent || ""
           : "看看例句就清楚了！";
       }
       addChalkColors(copy, index);
@@ -127,15 +131,25 @@
     const walker = document.createTreeWalker(lesson, NodeFilter.SHOW_TEXT);
     while (walker.nextNode()) {
       if (!walker.currentNode.textContent.trim()) continue;
+      const parent = walker.currentNode.parentElement;
+      const closed = parent.closest('details:not([open])');
+      if (closed && !parent.closest('summary')) continue;
       const range = document.createRange();
       range.selectNodeContents(walker.currentNode);
-      rects.push(...range.getClientRects());
+      const scroll = parent.closest(".grammar-new-table-wrap");
+      const bounds = scroll?.getBoundingClientRect();
+      for (const rect of range.getClientRects()) {
+        if (!rect.width || !rect.height) continue;
+        const left = bounds ? Math.max(rect.left, bounds.left) : rect.left;
+        const right = bounds ? Math.min(rect.right, bounds.right) : rect.right;
+        if (right > left) rects.push({left, right, top:rect.top, bottom:rect.bottom});
+      }
     }
     return rects;
   }
 
   function layoutIndefiniteEddy(view) {
-    if (view.hidden || view.dataset.newGrammarCuration !== "indefinite-pronouns") return;
+    if (view.hidden || view.dataset.newGrammarCuration === "unless") return;
     const narrow = window.matchMedia("(max-width: 840px)").matches;
     view.querySelectorAll(".grammar-eddy-dialogue--indefinite").forEach((figure) => {
       const art = figure.querySelector(".grammar-eddy-dialogue__art");
@@ -147,6 +161,31 @@
       art.style.height = "";
       lesson.style.bottom = "";
       image.style.bottom = "";
+      if (view.dataset.eddyModule) {
+        // New guides keep the complete note visible and grow with real content,
+        // including expanded explanations; no fixed cap may hide a teaching line.
+        lesson.style.bottom = "auto";
+        const fit = (reservePortrait) => {
+          const captionHeight = caption.getBoundingClientRect().height;
+          const portraitReserve = reservePortrait ? image.getBoundingClientRect().height * .69 + 24 : 0;
+          const required = (lesson.scrollHeight + captionHeight + portraitReserve + 45) / .90;
+          art.style.height = `${Math.ceil(Math.max(art.getBoundingClientRect().height, required))}px`;
+          placeEddy(art, image, caption);
+        };
+        fit(narrow);
+        if (!narrow) {
+          const portrait = placeEddy(art, image, caption);
+          const collision = lessonTextRects(lesson).some((rect) =>
+            rect.left < portrait.right && rect.right > portrait.left &&
+            rect.top < portrait.bottom && rect.bottom > portrait.top);
+          if (collision) {
+            figure.classList.add("grammar-eddy-dialogue--eddy-aside");
+            figure.insertBefore(image, caption);
+            fit(false);
+          }
+        }
+        return;
+      }
       let portrait = placeEddy(art, image, caption);
       const textRects = lessonTextRects(lesson);
       if (narrow) {
@@ -181,7 +220,7 @@
 
   const pendingEddyLayouts = new WeakSet();
   function scheduleIndefiniteLayout(view) {
-    if (view.dataset.newGrammarCuration !== "indefinite-pronouns" || pendingEddyLayouts.has(view)) return;
+    if (view.dataset.newGrammarCuration === "unless" || pendingEddyLayouts.has(view)) return;
     pendingEddyLayouts.add(view);
     requestAnimationFrame(() => {
       pendingEddyLayouts.delete(view);
@@ -245,7 +284,7 @@
       }
       if (node.tagName === "HR") continue;
       if (card) {
-        if (node.tagName === "P" && body.childElementCount === 0) {
+        if (node.tagName === "P" && body.childElementCount === 0 && !card.querySelector(".grammar-tense-topic__focus")) {
           const focus = document.createElement("div");
           focus.className = "grammar-tense-topic__focus";
           const label = document.createElement("span");
@@ -268,7 +307,7 @@
       }
     }
     source.replaceChildren(intro, stream);
-    if (["unless", "indefinite-pronouns"].includes(view.dataset.newGrammarCuration)) addEddyDialogue(view);
+    addEddyDialogue(view);
   }
 
   function setRoute(slug) {
@@ -319,6 +358,7 @@
     view.querySelectorAll("[data-back-library]").forEach((button) => button.addEventListener("click", showLibrary));
   });
 
+  window.EDMUND_GRAMMAR_EDDY = { add: addEddyDialogue, schedule: scheduleIndefiniteLayout };
   const requested = new URLSearchParams(window.location.search).get("lesson");
   const initial = lessons.findIndex((lesson) => lesson.slug === requested);
   if (initial >= 0) open(allViews[initial], lessons[initial].slug);
