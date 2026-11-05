@@ -1,17 +1,25 @@
 import {clearListening,renderListening} from './listening.mjs';
 const $ = id => document.getElementById(id);
 const audio = $('audio');
+const video = $('video');
 const rate = $('rate');
 const storageKey = 'edmund-news-reader-student-v1';
 const rates = [.5,.75,1,1.25,1.5,1.75,2,2.25,2.5,2.75,3];
 for (const value of rates) rate.add(new Option(value+'×',value));
 rate.value = '1';
-let lesson, mediaKey, audioUrl, player, sessionTimer, audioRequest;
-let generation = 0, videoAttempt = 0, mode = 'audio', frame, lastCue, activeHits = '', prepared = false;
+let lesson, mediaKey, audioUrl, sessionTimer, audioRequest, transitionTimer;
+let generation = 0, mode = 'video', frame, lastCue, activeHits = '';
 let clipEnd = null;
 let studentToken = '', modeId = 'L', answers = new Map(), positions = {};
 const fmt = time => Math.floor(time/60)+':'+String(Math.floor(time%60)).padStart(2,'0');
-function view(id){for(const name of ['gate','library','lesson']) $(name).hidden = name!==id;}
+function view(id){
+  for(const name of ['gate','library','lesson']){
+    const stage=$(name);stage.hidden=name!==id;stage.classList.remove('stage-enter');
+  }
+  const target=$(id);void target.offsetWidth;target.classList.add('stage-enter');
+  document.body.classList.remove('page-bridge');void document.body.offsetWidth;document.body.classList.add('page-bridge');
+  clearTimeout(transitionTimer);transitionTimer=setTimeout(()=>document.body.classList.remove('page-bridge'),540);
+}
 function button(text,action){const b=document.createElement('button');b.textContent=text;b.onclick=action;return b;}
 function line(parent,text,tag='p'){const e=document.createElement(tag);e.textContent=text;parent.append(e);return e;}
 async function rpc(name,args){
@@ -37,9 +45,9 @@ async function enter(token,g){
   $('entry').querySelector('strong').textContent=lesson.title;$('entry').querySelector('span').textContent=lesson.zh;
   view('library');
 }
-function stop(){clipEnd=null;audio.pause();videoAttempt++;if(player){player.destroy();player=null;}prepared=false;$('videoHost').replaceChildren();cancelAnimationFrame(frame);}
+function stop(){clipEnd=null;audio.pause();video.pause();cancelAnimationFrame(frame);}
 function logout(message=''){
-  generation++;stop();clearTimeout(sessionTimer);audio.removeAttribute('src');audio.load();if(audioUrl)URL.revokeObjectURL(audioUrl);
+  generation++;stop();clearTimeout(sessionTimer);audio.removeAttribute('src');audio.load();video.currentTime=0;if(audioUrl)URL.revokeObjectURL(audioUrl);
   audioRequest=null;audioUrl=null;studentToken='';lesson=null;mediaKey=null;answers.clear();clearListening();modeId='L';positions={};
   sessionStorage.removeItem(storageKey);$('user').textContent='';$('logout').hidden=true;
   for(const id of ['wordList','question','en','zh','title','translation','modes'])$(id).replaceChildren();
@@ -65,54 +73,33 @@ async function loadAudio(){
     }).catch(e=>{if(g===generation)audioRequest=null;throw e;});}
   return audioRequest;
 }
-let api;
-function youtube(){
-  if(window.YT?.Player)return Promise.resolve(window.YT);
-  if(!api){api=new Promise((resolve,reject)=>{
-    const s=document.createElement('script'),timer=setTimeout(()=>reject(Error('影片載入逾時')),9000);
-    window.onYouTubeIframeAPIReady=()=>{clearTimeout(timer);resolve(window.YT);};
-    s.onerror=()=>{clearTimeout(timer);reject(Error('未能連接影片服務'));};s.src='https://www.youtube.com/iframe_api';document.head.append(s);
-  }).catch(e=>{api=null;throw e;});}
-  return api;
-}
-const clock=()=>mode==='video'&&prepared?player.getCurrentTime():audio.currentTime;
-const playing=()=>mode==='video'&&prepared?player.getPlayerState()===1:!audio.paused;
+const clock=()=>mode==='video'?video.currentTime:audio.currentTime;
+const playing=()=>mode==='video'?!video.paused:!audio.paused;
 function tabs(){for(const id of ['audio','video'])$(id+'Mode').setAttribute('aria-pressed',String(mode===id));
-  $('audioArt').hidden=mode!=='audio';$('videoHost').hidden=mode!=='video';}
+  $('audioArt').hidden=mode!=='audio';video.hidden=mode!=='video';}
 async function switchAudio(t=clock(),resume=playing(),message='',end=null){
-  const g=generation;stop();const attempt=videoAttempt;clipEnd=end;mode='audio';tabs();$('mediaStatus').textContent=message;
-  try{await loadAudio();if(attempt!==videoAttempt||g!==generation||mode!=='audio'||$('lesson').hidden)return;
+  const g=generation;stop();clipEnd=end;mode='audio';tabs();$('mediaStatus').textContent=message;
+  try{await loadAudio();if(g!==generation||mode!=='audio'||$('lesson').hidden)return;
     audio.currentTime=t;audio.playbackRate=Number(rate.value);if(resume)await audio.play();
   }catch(e){if(g===generation)$('mediaStatus').textContent='請按播放重試。 '+e.message;}
   if(g===generation)tick();
 }
-async function switchVideo(){
-  const t=clock(),resume=playing();stop();mode='video';tabs();const attempt=videoAttempt;
-  $('mediaStatus').textContent='正在連接新聞影片…';
-  const backup=message=>{if(attempt===videoAttempt)switchAudio(prepared?clock():t,prepared?playing():resume,message);};
-  try{const YT=await youtube();if(attempt!==videoAttempt)return;
-    const mount=document.createElement('div');$('videoHost').replaceChildren(mount);
-    player=new YT.Player(mount,{videoId:lesson.videoId,playerVars:{playsinline:1,origin:location.origin,rel:0},events:{
-      onReady:()=>{if(attempt!==videoAttempt)return;prepared=true;
-        if(!player.getAvailablePlaybackRates().includes(Number(rate.value))){backup('影片不支援此速度，已切換到原聲 MP3。');return;}
-        player.seekTo(t,true);player.setPlaybackRate(Number(rate.value));if(resume)player.playVideo();$('mediaStatus').textContent='';tick();},
-      onStateChange:()=>{if(attempt===videoAttempt&&prepared)tick();},
-      onPlaybackRateChange:e=>{if(attempt===videoAttempt&&rates.includes(e.data))rate.value=String(e.data);},
-      onError:()=>backup('此影片未能嵌入播放，已切換到原聲 MP3。')
-    }});setTimeout(()=>{if(!prepared)backup('影片連接逾時，已切換到原聲 MP3。');},9000);
-  }catch{backup('影片服務無法連線，已切換到原聲 MP3。');}
+async function switchVideo(t=clock(),resume=playing()){
+  stop();mode='video';tabs();video.currentTime=Math.min(t,Number.isFinite(video.duration)?video.duration:t);
+  video.playbackRate=Number(rate.value);$('mediaStatus').textContent='';
+  if(resume){try{await video.play();}catch{$('mediaStatus').textContent='請按播放開始本地新聞影片。';}}
+  tick();
 }
 function seek(t){
   clipEnd=null;
-  if(mode==='video'&&prepared)player.seekTo(t,true);else if(audioUrl)audio.currentTime=t;
+  if(mode==='video')video.currentTime=t;else if(audioUrl)audio.currentTime=t;
   tick();
 }
 $('seek').oninput=e=>seek(Number(e.target.value));
-$('play').onclick=async()=>{if(mode==='video'){if(!prepared)return;playing()?player.pauseVideo():player.playVideo();}
+$('play').onclick=async()=>{if(mode==='video'){if(video.paused){try{await video.play();}catch{$('mediaStatus').textContent='請再按一次播放。';}}else video.pause();}
   else if(audio.paused){try{await loadAudio();await audio.play();}catch{$('mediaStatus').textContent='請再按一次播放。';}}else audio.pause();};
 rate.onchange=()=>{const speed=Number(rate.value);audio.playbackRate=speed;
-  if(mode==='video'&&prepared){if(player.getAvailablePlaybackRates().includes(speed))player.setPlaybackRate(speed);
-    else switchAudio(clock(),playing(),'已切換到原聲 MP3，以所選速度播放。');}};
+  video.playbackRate=speed;};
 $('audioMode').onclick=()=>{if(mode!=='audio')switchAudio();};$('videoMode').onclick=()=>{if(mode!=='video')switchVideo();};
 function tick(){
   cancelAnimationFrame(frame);if(!lesson||$('lesson').hidden)return;
@@ -128,21 +115,26 @@ function tick(){
   if(running)frame=requestAnimationFrame(tick);
 }
 for(const event of ['play','pause','seeked','timeupdate','ended'])audio.addEventListener(event,tick);
+for(const event of ['play','pause','seeked','timeupdate','ended'])video.addEventListener(event,tick);
+video.addEventListener('loadedmetadata',()=>{if(Number.isFinite(video.duration))$('seek').max=String(video.duration);});
+video.addEventListener('error',()=>{if(mode==='video')switchAudio(video.currentTime,false,'本地影片暫時未能載入，已切換到原聲 MP3。');});
 function buildWords(){
   const list=$('wordList');list.replaceChildren();
-  for(const q of lesson.questions.filter(q=>q.hits)){const b=button('',async()=>{
-    const start=q.hits[0][0];if(mode==='video'&&prepared){seek(start);player.playVideo();}
+  for(const q of lesson.questions.filter(q=>q.id.startsWith('A2'))){const b=button('',async()=>{
+    const start=q.hits[0][0];if(mode==='video'){seek(start);await video.play();}
     else await switchAudio(start,true);
-  });b.className='term';b.dataset.id=q.id;line(b,q.name,'strong');line(b,q.meaning+(q.hits.length?'':' · 延伸詞彙（錄音未出現）'),'small');b.disabled=!q.hits.length;list.append(b);}
+  });b.className='term';b.dataset.id=q.id;line(b,q.name,'strong');line(b,q.meaning+(q.hits.length?'':' · 延伸詞彙（錄音未出現）'),'small');
+    if(q.phrase){const context=line(b,'新聞語境：'+q.phrase,'small');context.className='context';}
+    b.disabled=!q.hits.length;list.append(b);}
 }
-const modes=[['L','聽力理解'],['A2','基礎詞彙'],['ADV','進階詞彙'],['S','句子結構']];
+const modes=[['L','聽力理解'],['A2','A2 詞彙'],['ADV','進階詞彙'],['S','句子結構']];
 function practice(){
   $('modes').replaceChildren(...modes.map(([id,name])=>{const b=button(name,()=>{modeId=id;practice();});b.setAttribute('aria-pressed',String(id===modeId));return b;}));
   if(modeId==='L'){
     renderListening($('question'),lesson.listening,positions.L||0,i=>{if(clipEnd!==null){audio.pause();clipEnd=null;}positions.L=i;practice();},(start,end)=>switchAudio(start,true,'正在播放本題錄音片段。',end));
     return;
   }
-  const qs=lesson.questions.filter(q=>q.id.startsWith(modeId)),i=positions[modeId]||0,q=qs[i],box=$('question'),answer=answers.get(q.id);
+  const qs=lesson.questions.filter(q=>q.id.startsWith(modeId)&&q.quiz!==false),i=positions[modeId]||0,q=qs[i],box=$('question'),answer=answers.get(q.id);
   box.replaceChildren();line(box,'第 '+(i+1)+' / '+qs.length+' 題　·　答對 '+qs.filter(x=>answers.get(x.id)===x.answer).length+' 題','small');
   line(box,q.name,'h3');line(box,q.meaning+'　'+q.hint);if(q.phrase)line(box,'報道原句　'+q.phrase);
   line(box,q.prompt);q.choices.forEach((choice,k)=>{const b=button('ABCD'[k]+'. '+choice,()=>{answers.set(q.id,k);practice();});
@@ -152,6 +144,6 @@ function practice(){
   if(answer!==undefined)box.append(button('重做本題',()=>{answers.delete(q.id);practice();}));
 }
 $('entry').onclick=()=>{if(!studentToken)return;view('lesson');$('title').textContent=lesson.title;$('translation').textContent=lesson.zh;
-  buildWords();practice();activeHits='';lastCue=null;mode='audio';tabs();tick();switchVideo();};
+  buildWords();practice();activeHits='';lastCue=null;mode='video';tabs();video.currentTime=0;tick();switchVideo(0,false);};
 $('jumpListening').onclick=()=>{modeId='L';practice();};
 $('back').onclick=()=>{stop();view('library');};
