@@ -101,6 +101,7 @@ jobs:
               cat >> .git/info/sparse-checkout <<'PATTERNS'
           /course-materials/error-identifier/
           /course-materials/grammar/
+          /grammar-eddy-dialogues/
           /supabase/
           PATTERNS
               ;;
@@ -736,6 +737,7 @@ jobs:
           node --check grammar-new-curations.js
           node tools/test-grammar-new-curations.mjs
           node tools/test-grammar-curation-eddy-poses.mjs
+          node tools/test-grammar-dialogue-propagation.mjs
           python3 tools/build-grammar-three-sets.py
           node --check grammar-three-sets-data.js
           node --check grammar-three-sets.js

@@ -68,6 +68,7 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("/assets/dse-practical-writing/", step)
         self.assertIn("/country-name-spelling-audio/", step)
         self.assertIn("/course-materials/error-identifier/", step)
+        self.assertIn("/grammar-eddy-dialogues/", step)
         self.assertIn("/supabase/migrations/20260827103531_eddie_farm_points.sql", step)
 
     def test_every_build_validates_the_canonical_system_release_map(self):
