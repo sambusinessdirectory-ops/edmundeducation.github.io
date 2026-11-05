@@ -425,7 +425,7 @@
     if (rows[i].stage === 2 && cueIndex === cues.length-1 && done) { enterReview(); update23(true); return; }
     if (rows[i].stage === 4 && i === rows.length-1) { completed.add(key23(rows[i])); chaptersDone(); leaveReview(0); return; }
     const row = rows[i];
-    const matching = row.stage === 3 && row.t >= 1 && row.t <= 3 && row.state !== 'REJECT' && row.state !== 'SUPERSEDED' && facts.some(f => f[0] === row.t && f[1] === row.p && normalize(row.q) === normalize(f[2]));
+    const matching = row.stage === 3 && row.t >= 1 && row.t <= 3 && row.state !== 'REJECT' && row.state !== 'SUPERSEDED' && facts.some(f => f[0] === row.t && f[1] === row.p && normalize(row.q).includes(normalize(f[2])));
     const route = E('refs').querySelector('.route23');
     const origin=i;
     if (matching && !diag.open && !routing && (!route || route.dataset.seen)) {

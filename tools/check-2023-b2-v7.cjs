@@ -205,7 +205,49 @@ async function auditListeningJourney(page){
   assert.equal(await schedule.inputValue(),'Filming postponed until October\nMy own note about July');
   if(evidenceDir){fs.mkdirSync(evidenceDir,{recursive:true});fs.writeFileSync(path.join(evidenceDir,'2023-b2-v7-cue-transactions.json'),JSON.stringify(ledger,null,2));await page.screenshot({path:path.join(evidenceDir,'2023-b2-podcast-v7-chromium.png'),fullPage:true});}
 }
+async function auditAtomicSourceUnits(page){
+  const gaps=await page.evaluate(()=>{
+    const norm=text=>text.toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
+    const failures=[];
+    for(let p=5;p<=10;p++){
+      const doc=new DOMParser().parseFromString(nativePages23[p-1],'text/html');
+      doc.querySelectorAll('.translation,details,header,textarea,.native-label,.chef-bubble>strong,.story-comments>div>strong').forEach(n=>n.remove());
+      const source=norm(doc.body.textContent), units=rows.filter(r=>r.stage===3&&r.p===p);
+      const actual=units.map(r=>norm(r.q)).join('');
+      if(source!==actual)failures.push({page:p,source,actual});
+      if(units.some(r=>!r.sourceUnitId||!r.a||r.t<1||r.t>6))failures.push({page:p,invalid:true});
+    }
+    return failures;
+  });
+  assert.deepEqual(gaps,[],'Source-first coverage must include all original text in reading order');
+  const reviewed=await page.evaluate(()=>sourceUnits23.map(r=>({id:r.id,q:r.q})));
+  assert.equal(reviewed.length,219,'Reviewed V8.2 inventory changed: inspect boundaries before updating');
+  assert.equal(new Set(reviewed.map(r=>r.id)).size,reviewed.length);
+  // Independent boundary examples: four headline units, two opening sentences,
+  // and a quoted title whose punctuation must not split its enclosing sentence.
+  assert.deepEqual(reviewed.filter(r=>/^p5-u[2356]$/.test(r.id)).map(r=>r.q),[
+    'Puddle Starts a Flood!', 'William Puddle’s disastrous cooking video goes viral',
+    'Teen NetChef TV star’s latest video did not go swimmingly','Can his career survive the soaking?']);
+  assert.equal(reviewed.find(r=>r.id==='p5-u7').q,'Viewers expressed shock on Monday at the disasters that befell celebrity chef William Puddle in the Teen NetChef TV test kitchen.');
+  assert.equal(reviewed.find(r=>r.id==='p5-u8').q,'The video, showing a series of calamitous mistakes, quickly went viral after appearing on Puddle’s social media accounts.');
+  assert.match(reviewed.find(r=>r.id==='p9-u28').q,/stupid!” is our tongue-in-cheek guide/);
+  await page.evaluate(()=>jump23(rows.findIndex(r=>r.stage===3)));
+  const seen=[];const norm=s=>s.toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
+  for(let n=0;n<reviewed.length+30;n++){
+    if(await page.locator('#pop[open]').count())await page.locator('#pop button').first().click();
+    const state=await page.evaluate(()=>({index:i,routing,stage:rows[i].stage,id:rows[i].sourceUnitId,q:rows[i].q,a:rows[i].a,phase:routePhase(),marked:[...native.querySelectorAll('mark.target')].map(n=>n.textContent).join(''),quote:$s('#curation-quote').textContent,ex:$s('#curation-explanation').textContent}));
+    if(state.stage!==3)break;
+    if(state.phase!=='visit'){
+      assert.equal(state.quote,state.q,state.id);assert.equal(norm(state.marked),norm(state.q),state.id);assert(state.ex.includes(state.a),state.id);
+      if(seen.at(-1)!==state.id)seen.push(state.id);
+    }
+    await page.locator('#curation-next').click();
+    await page.waitForFunction(before=>i!==before.index||routePhase()!==before.phase||routing!==before.routing||diag.open,state,{timeout:5000});
+  }
+  assert.deepEqual(seen,reviewed.map(r=>r.id),'Every atomic source unit must be visited separately through Next');
+}
 async function auditOtherContracts(page){
+  await auditAtomicSourceUnits(page);
   const uncovered=await page.evaluate(()=>{
     const units=rows.filter(row=>row.stage===3 && row.leaf===7 && row.a?.trim() && row.t>=1 && row.t<=6);
     const source=new DOMParser().parseFromString(nativePages23[6],'text/html');

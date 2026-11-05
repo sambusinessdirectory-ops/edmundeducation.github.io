@@ -1511,7 +1511,7 @@ const fieldIds=[0,1,2,2,3,3,3,3,3,3,4,4,4,5,5,5,5];
 const originalPaint=paint;paint=function(){originalPaint();[...E('turns').children].forEach(p=>{let k=+p.dataset.id,reached=transcript[k].end<=audio.currentTime+.06&&noiseTurns.has(k);p.classList.toggle('curation-transcript-strike',reached);p.classList.toggle('curation-transcript-strike-direct',reached);p.classList.toggle('curation-strike',reached)})};
 function read23Record(key){try{const value=JSON.parse(readerStore23.getItem(key)||'{}');return value&&typeof value==='object'&&!Array.isArray(value)?value:{}}catch{return {}}}
 const positions=read23Record('cur23-task-progress');const persistUsage=()=>readerStore23.setItem('cur23-task-progress',JSON.stringify(positions));const evidenceUsed=t=>new Set(rows.flatMap((r,j)=>r.t===t&&r.pattern&&j<=(positions[t]??-1)?r.used:[]));
-function renderBank23(r){let bank=E('bank');bank.replaceChildren();for(let t=1;t<=3;t++){let detail=document.createElement('details'),summary=document.createElement('summary');summary.textContent='Task '+['A · 8','B · 9','C · 10'][t-1];detail.open=t===r.t;detail.append(summary);let used=evidenceUsed(t);facts.forEach((f,id)=>{if(f[0]!==t)return;let heard=f[1]===19&&rows[i].stage>2;let reached=r.stage===4||heard||rows.slice(0,i+1).some(x=>x.stage===3&&x.p===f[1]&&x.q.includes(f[2]));if(!reached)return;let btn=document.createElement('button');btn.textContent=f[2];if(used.has(id))btn.className='spent';btn.onclick=()=>sourceVisit(id);detail.append(btn)});bank.append(detail)}}
+function renderBank23(r){let bank=E('bank');bank.replaceChildren();for(let t=1;t<=3;t++){let detail=document.createElement('details'),summary=document.createElement('summary');summary.textContent='Task '+['A · 8','B · 9','C · 10'][t-1];detail.open=t===r.t;detail.append(summary);let used=evidenceUsed(t);facts.forEach((f,id)=>{if(f[0]!==t)return;let heard=f[1]===19&&rows[i].stage>2;let reached=r.stage===4||heard||rows.slice(0,i+1).some(x=>x.stage===3&&x.t===f[0]&&x.p===f[1]&&x.q.includes(f[2]));if(!reached)return;let btn=document.createElement('button');btn.textContent=f[2];if(used.has(id))btn.className='spent';btn.onclick=()=>sourceVisit(id);detail.append(btn)});bank.append(detail)}}
 const routes=new Map([['see the article',5],['present his side',7],['Dante Cruz’s most recent email sets the scene',8],['Corporate Training Intranet',9],['draft of the storyboard for the video, along with comments from Dante',6],['both William and Dante',8],['Listen to our discussion',3],['Check which delivery company',8],['If she confirms soon',8]]);
 const pageRouteTitles={3:'網上會議聆聽筆記表',5:'Big Cheese Celebrity Food Gossip 報道',6:'宣傳片分鏡草稿',7:'William 與 Archie 的聊天紀錄',8:'Dante 的全體員工電郵',9:'公司培訓內聯網'};
 const originRoutes=read23Record('cur23-source-routes');
@@ -2035,6 +2035,1624 @@ if(contactHint23&&!rows.some(row=>row.stage===3&&row.q===rumourNoiseQuote23)){
 for(const row of rows.filter(row=>row.stage===3&&!row.origin))row.origin='evidence';
 </script><script data-reader-source="reference/layout.js">
 const nativePages23=["<article class=\"paper-page verified-reconstruction\" id=\"page-1\" data-kind=\"data\"><header><span>Data File · 第 1 頁</span><label><input type=\"checkbox\" data-read=\"1\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page exam-cover\" aria-label=\"2023 DSE Paper 3 Part B2 Data File cover\">\n<div class=\"cover-head\"><div class=\"cover-corner\">2023-DSE<br>ENG LANG<br><br>PAPER 3<br>PART B2</div><div class=\"cover-authority\">HONG KONG EXAMINATIONS AND ASSESSMENT AUTHORITY<br>HONG KONG DIPLOMA OF SECONDARY EDUCATION EXAMINATION 2023</div><div class=\"cover-stamp\"><strong>B2</strong><span>DIFFICULT SECTION</span></div></div>\n<h2>ENGLISH LANGUAGE PAPER 3</h2><h2>PART B2</h2><h2>DATA FILE</h2>\n<div class=\"cover-instructions\"><h3>GENERAL INSTRUCTIONS</h3><ol><li class=\"bilingual\"><p lang=\"en\">Refer to the General Instructions on Page 1 of the Question-Answer Book for Part A.</p><p class=\"translation\" lang=\"zh-Hant\">請參閱甲部問答冊第 1 頁的一般指示。</p></li></ol>\n<h3>INSTRUCTIONS FOR PART B2</h3><ol><li class=\"bilingual\"><p lang=\"en\">The Question-Answer Book for Part B2 is inserted into this Data File.</p><p class=\"translation\" lang=\"zh-Hant\">乙部二問答冊夾於本資料檔內。</p></li><li class=\"bilingual\"><p lang=\"en\">For Part B, attempt EITHER those tasks in Part B1 (Tasks 5 – 7) OR those in Part B2 (Tasks 8 – 10).</p><p class=\"translation\" lang=\"zh-Hant\">乙部須選答乙部一（任務 5 至 7）或乙部二（任務 8 至 10），兩者選其一。</p></li><li class=\"bilingual\"><p lang=\"en\">You are advised to use a pen for Part B.</p><p class=\"translation\" lang=\"zh-Hant\">建議乙部使用原子筆作答。</p></li><li class=\"bilingual\"><p lang=\"en\">The Data Files will NOT be collected at the end of the examination. Do NOT write your answers in the Data Files.</p><p class=\"translation\" lang=\"zh-Hant\">考試結束時資料檔不會收回。請勿在資料檔內書寫答案。</p></li><li class=\"bilingual\"><p lang=\"en\">Hand in only ONE Question-Answer Book for Part B, either B1 or B2, and tie it with the Question-Answer Book for Part A.</p><p class=\"translation\" lang=\"zh-Hant\">乙部只須交一份問答冊（乙部一或乙部二），並與甲部問答冊綁在一起。</p></li></ol></div>\n<div class=\"cover-bottom\"><span>© Hong Kong Examinations and Assessment Authority<br>All Rights Reserved 2023</span><span>Not to be taken away before the end of the examination session</span></div>\n</section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-01.webp\" alt=\"Data File original page 34\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-2\" data-kind=\"data\"><header><span>Data File · 第 2 頁</span><label><input type=\"checkbox\" data-read=\"2\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page situation-page\" aria-label=\"2023 B2 situation and contents\"><div class=\"situation-box\"><h2>Part B</h2><h3>Situation</h3><div class=\"bilingual\"><p lang=\"en\">You are Nico Lin. You work at the internet TV company Teen NetChef TV that makes streaming TV shows in Hong Kong. You assist Mr Archie Li, the Marketing Manager for Teen NetChef TV. You have been asked to complete some tasks.</p><p class=\"translation\" lang=\"zh-Hant\">你是 Nico Lin，任職於香港串流節目公司 Teen NetChef TV，協助市場經理 Archie Li 處理工作。</p></div><div class=\"bilingual\"><p lang=\"en\">You will listen to a recording of an online staff meeting between the show producer Ms Winnie Tang, the Director of Teen NetChef TV Mr Dante Cruz, and Archie Li. Take notes under the appropriate headings. Before the recording is played, you will have five minutes to study the Question-Answer Book and the Data File to familiarise yourself with the situation and the tasks.</p><p class=\"translation\" lang=\"zh-Hant\">你將聽到製作人 Winnie Tang、總監 Dante Cruz 和 Archie Li 的網上員工會議。按標題記筆記。錄音開始前有五分鐘閱讀問答冊和資料檔。</p></div><div class=\"bilingual\"><p lang=\"en\">Complete the tasks by following the instructions in the Question-Answer Book and on the recording. You will find all the information you need in the Question-Answer Book, the Data File and on the recording. As you listen you can make notes on page 3 of the Data File.</p><p class=\"translation\" lang=\"zh-Hant\">按照問答冊和錄音指示完成任務。所需資料均載於問答冊、資料檔和錄音；聆聽時可在資料檔第 3 頁記筆記。</p></div><div class=\"bilingual\"><p lang=\"en\">You now have five minutes to familiarise yourself with the Question-Answer Book and the Data File.</p><p class=\"translation\" lang=\"zh-Hant\">現在有五分鐘熟悉問答冊和資料檔。</p></div></div><div class=\"contents-box\"><h3>Contents</h3><ol><li><a href=\"#page-3\">Listening note-taking sheet for online staff meeting <span>3</span></a></li><li><a href=\"#page-4\">Email from Archie Li to Nico Lin <span>4</span></a></li><li><a href=\"#page-5\">Big Cheese Celebrity Food Gossip article <span>5</span></a></li><li><a href=\"#page-6\">Draft storyboard for the promotional video, with Dante Cruz’s comments <span>6</span></a></li><li><a href=\"#page-7\">Chat between William Puddle and Archie Li <span>7</span></a></li><li><a href=\"#page-8\">All staff weekly email from Dante Cruz <span>8</span></a></li><li><a href=\"#page-9\">Corporate Training Intranet page <span>9</span></a></li><li><a href=\"#page-10\">Corporate Training: reviews from previous participants <span>10</span></a></li></ol></div></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-02.webp\" alt=\"Data File original page 35\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-3\" data-kind=\"data\"><header><span>Data File · 第 3 頁</span><label><input type=\"checkbox\" data-read=\"3\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page conference-notes note-sheet\" aria-label=\"Online staff meeting notes\"><h2>Listening note-taking sheet for online staff meeting</h2><div class=\"bilingual\"><p lang=\"en\">Listen to the recording of an online staff meeting between the show producer Ms Winnie Tang, the Director of Teen NetChef TV Mr Dante Cruz, and the Marketing Manager Mr Archie Li.</p><p class=\"translation\" lang=\"zh-Hant\">聆聽製作人 Winnie Tang、總監 Dante Cruz 和市場經理 Archie Li 的網上員工會議。</p></div><div class=\"notes-form-body\"><h3 id=notes-heading-live-study-cook>Live, Study, Cook</h3><p class=\"translation\" lang=\"zh-Hant\">《Live, Study, Cook》</p><textarea id=notes-live-study-cook data-note=\"3-1\" rows=\"4\" aria-label=\"Notes: Live, Study, Cook\"></textarea><h3 id=notes-heading-filming-schedule>Filming schedule</h3><p class=\"translation\" lang=\"zh-Hant\">拍攝時間表</p><textarea id=notes-filming-schedule data-note=\"3-2\" rows=\"4\" aria-label=\"Notes: Filming schedule\"></textarea><h3 id=notes-heading-food-kinds>Kinds of food in the competition</h3><p class=\"translation\" lang=\"zh-Hant\">比賽食物種類</p><textarea id=notes-food-kinds data-note=\"3-3\" rows=\"4\" aria-label=\"Notes: Kinds of food in the competition\"></textarea><h3 id=notes-heading-william-video>William Puddle’s viral video</h3><p class=\"translation\" lang=\"zh-Hant\">William Puddle 的爆紅影片</p><textarea id=notes-william-video data-note=\"3-4\" rows=\"4\" aria-label=\"Notes: William Puddle’s viral video\"></textarea><h3 id=notes-heading-golden-sun>Golden Sun Tower Private Kitchen complaints</h3><p class=\"translation\" lang=\"zh-Hant\">Golden Sun Tower Private Kitchen 投訴</p><textarea id=notes-golden-sun data-note=\"3-5\" rows=\"4\" aria-label=\"Notes: Golden Sun Tower Private Kitchen complaints\"></textarea><h3 id=notes-heading-viewers-choice>New show: Viewer’s Choice</h3><p class=\"translation\" lang=\"zh-Hant\">新節目：《Viewer’s Choice》</p><textarea id=notes-viewers-choice data-note=\"3-6\" rows=\"4\" aria-label=\"Notes: New show: Viewer’s Choice\"></textarea></div></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-03.webp\" alt=\"Data File original page 36\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-4\" data-kind=\"data\"><header><span>Data File · 第 4 頁</span><label><input type=\"checkbox\" data-read=\"4\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page chef-email\" aria-label=\"Archie Li email\"><h2>Email from Archie Li to Nico Lin</h2><div class=\"email-window\"><div class=\"email-toolbar\">File　 Message <span>Junk　 Delete　 Reply　 Reply All　 Forward　 Move　 Mark Unread　 Follow up</span></div><div class=\"email-headers\"><div><strong>To:</strong> Nico Lin</div><div><strong>Sent:</strong> 22nd April 2023 9:02 AM</div><div><strong>From:</strong> Archie Li</div><div><strong>Subject:</strong> Things to do</div></div><div class=\"email-content\"><div class=\"bilingual\"><p lang=\"en\">Dear Nico,</p><p class=\"translation\" lang=\"zh-Hant\">Nico：</p></div><div class=\"bilingual\"><p lang=\"en\">Here are your tasks for today.</p><p class=\"translation\" lang=\"zh-Hant\">以下是你今天的工作。</p></div><div class=\"bilingual\"><p lang=\"en\">I need you to write the announcement for our website to show our support for Teen NetChef TV star William Puddle. His cooking video went viral recently, for all the wrong reasons: see the article from Big Cheese Celebrity Food Gossip that I’ve sent you. I’ve discussed this in a chat with William, which I’ll send to you as well, so we can present his side of the story. Make sure you acknowledge and explain William’s mistake, but also explain the misunderstandings that people have about the other events in the video.</p><p class=\"translation\" lang=\"zh-Hant\">請為網站撰寫公告，表示我們支持 Teen NetChef TV 明星 William Puddle。他最近的烹飪影片因負面原因爆紅；請參閱我轉給你的《Big Cheese Celebrity Food Gossip》文章。我也和 William 聊過，會把對話轉給你，以呈現他的說法。要承認並解釋他的失誤，也要釐清影片其他事件的誤解。</p></div><div class=\"bilingual\"><p lang=\"en\">I also need you to write an email to all staff to recommend training courses for the coming year. Dante Cruz’s most recent email sets the scene for this, so take a look at that first. All the available courses have been posted on our Corporate Training Intranet page, along with reviews from previous participants. Three courses will be enough: briefly describe the three courses staff should sign up for (I think it’s pretty clear which three stand out) and explain how their work will benefit from each one.</p><p class=\"translation\" lang=\"zh-Hant\">還請向全體員工發電郵，推薦來年的培訓課程。先看 Dante Cruz 最近的電郵，再參閱公司內聯網的課程資料及過往學員評語。推薦三門最合適的課程，簡述內容及各自如何幫助工作。</p></div><div class=\"bilingual\"><p lang=\"en\">Next, please write the script for the promotional video for our new cookery show Viewer’s Choice. I’ve sent you a draft of the storyboard for the video, along with comments from Dante, so you know what to write about. Be careful, though: we’ve made several changes since that draft. Make sure you have the most up-to-date information in your script. I remember both William and Dante giving some updates recently.</p><p class=\"translation\" lang=\"zh-Hant\">接著，請為新烹飪節目《Viewer’s Choice》的宣傳片撰寫劇本。我已寄上分鏡草稿及 Dante 的評語。草稿完成後有幾項改動，務必使用最新資料；William 和 Dante 最近都提供過更新。</p></div><div class=\"bilingual\"><p lang=\"en\">Finally, we discussed all of the above at the most recent online staff meeting. I’ve sent you the recording (I’m still working on the minutes). Listen to our discussion.</p><p class=\"translation\" lang=\"zh-Hant\">以上事項亦在最近的網上員工會議討論過。我已寄錄音，會議紀錄仍在整理；請聆聽討論。</p></div><div class=\"bilingual\"><p lang=\"en\">Thanks,</p><p class=\"translation\" lang=\"zh-Hant\">謝謝。</p></div><p>Archie</p></div></div></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-04.webp\" alt=\"Data File original page 37\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-5\" data-kind=\"data\"><header><span>Data File · 第 5 頁</span><label><input type=\"checkbox\" data-read=\"5\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page chef-gossip\" aria-label=\"Big Cheese gossip article\"><h2>Big Cheese Celebrity Food Gossip article</h2><article class=\"gossip-sheet\"><h3>Puddle Starts a Flood!</h3><h4>William Puddle’s disastrous cooking video goes viral</h4><time>Tuesday 18th April 2023</time><ul><li>Teen NetChef TV star’s latest video did not go swimmingly</li><li>Can his career survive the soaking?</li></ul><div class=\"bilingual\"><p lang=\"en\">Viewers expressed shock on Monday at the disasters that befell celebrity chef William Puddle in the Teen NetChef TV test kitchen. The video, showing a series of calamitous mistakes, quickly went viral after appearing on Puddle’s social media accounts.</p><p class=\"translation\" lang=\"zh-Hant\">觀眾對名廚 William Puddle 周一在 Teen NetChef TV 測試廚房接連出錯感到震驚。影片在他的社交媒體發布後迅速爆紅。</p></div><h5>Water, water everywhere!</h5><div class=\"bilingual\"><p lang=\"en\">The video opens with Puddle seemingly flooding his kitchen without realising it! After turning on the kitchen tap to wash some potatoes, Puddle turns to the camera to talk about the science of cutting onions, with the sink rapidly filling up behind him.</p><p class=\"translation\" lang=\"zh-Hant\">影片開頭，Puddle 開水龍頭洗薯仔後轉身向鏡頭講解切洋葱的原理，身後的水槽迅速注滿，他似乎毫不察覺。</p></div><div class=\"bilingual\"><p lang=\"en\">After about thirty seconds, Puddle finally realises his big mistake. The floor is flooded and Puddle is even seen apparently slipping in the mess as he reaches for the tap.</p><p class=\"translation\" lang=\"zh-Hant\">約三十秒後，他終於發現錯誤。地板已淹水，他伸手關水龍頭時似乎滑倒。</p></div><h5>“Irresponsible behaviour”</h5><figure><img src=\"reference/assets/2023-b2-puddle-flood.webp\" alt=\"Original screen-grab of William Puddle cleaning up water in the kitchen\"><figcaption><em>Puddle steps in it!</em><br>William Puddle cleans up the mess from the flood in a screen-grab from the viral video.</figcaption></figure><div class=\"bilingual\"><p lang=\"en\">Puddle’s poor performance didn’t end there: viewers noticed that after turning off the tap and cleaning up the floor, Puddle chops up some raw chicken. He then starts slicing up the other ingredients without washing his hands.</p><p class=\"translation\" lang=\"zh-Hant\">觀眾又看到他在關水及清理地板後切生雞肉，接著似乎沒洗手就切其他食材。</p></div><div class=\"bilingual\"><p lang=\"en\">Experts agree that these shocking safety mistakes set a terrible example to other chefs, especially younger fans.</p><p class=\"translation\" lang=\"zh-Hant\">專家認為，這些驚人的安全失誤為其他廚師，尤其年輕支持者，樹立壞榜樣。</p></div><div class=\"bilingual\"><p lang=\"en\">“This is irresponsible behaviour from a TV Chef,” said Sam Cooke, Head Chef of rival streaming show SuperChefTV. “If we allow children to follow Mr Puddle’s example, who knows what could happen?”</p><p class=\"translation\" lang=\"zh-Hant\">競爭節目《SuperChefTV》主廚 Sam Cooke 認為，電視廚師這樣做不負責任；孩子模仿，後果難料。</p></div><h5>Puddles of tears</h5><div class=\"bilingual\"><p lang=\"en\">Perhaps realising his downfall, Puddle even appears to be crying towards the end of the video. He starts wiping his face with a tea towel, the same one he used to dry the raw chicken.</p><p class=\"translation\" lang=\"zh-Hant\">影片結尾，他似乎哭了，並用一條看似用來擦乾生雞肉的茶巾擦臉。</p></div><div class=\"bilingual\"><p lang=\"en\">“His eyes were clearly watering in the video. Someone should not be around dangerous cooking appliances and sharp knives if they can’t control their emotions,” said Cooke.</p><p class=\"translation\" lang=\"zh-Hant\">Cooke 說他在影片中明顯淚眼汪汪，不能控制情緒的人不該靠近危險廚具和利刀。</p></div><div class=\"bilingual\"><p lang=\"en\">Neither Puddle, nor the director of Teen NetChef TV, Mr Dante Cruz, could be reached for comment.</p><p class=\"translation\" lang=\"zh-Hant\">記者未能聯絡 Puddle 或 Teen NetChef TV 總監 Dante Cruz 置評。</p></div><div class=\"bilingual\"><p lang=\"en\">With rumours of a new show coming soon, Puddle is surely in hot water after this latest fiasco!</p><p class=\"translation\" lang=\"zh-Hant\">新節目即將推出的傳聞四起；經此風波，Puddle 恐怕惹上麻煩。</p></div></article></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-05.webp\" alt=\"Data File original page 38\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-6\" data-kind=\"data\"><header><span>Data File · 第 6 頁</span><label><input type=\"checkbox\" data-read=\"6\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page chef-storyboard\" aria-label=\"Eight-frame promotional storyboard\"><h2>Draft storyboard for the promotional video, with Dante Cruz’s comments</h2><div class=\"story-grid\"><div class=\"story-frame\"><h3>1. Introduce the show</h3><div class=\"bilingual\"><p lang=\"en\">Viewer’s Choice — Ground-breaking TV!</p><p class=\"translation\" lang=\"zh-Hant\">介紹節目：《Viewer’s Choice》——突破性的電視節目！</p></div></div><div class=\"story-frame\"><h3>2. Introduce the star(s)</h3><img class=\"story-art\" src=\"reference/assets/2023-b2-chef-hat.webp\" alt=\"Original storyboard chef-hat illustration\"><div class=\"bilingual\"><p lang=\"en\">Our regular chef, plus one mystery guest each week</p><p class=\"translation\" lang=\"zh-Hant\">介紹明星：固定廚師及每週一位神秘嘉賓。</p></div></div><div class=\"story-frame\"><h3>3. The choices</h3><img class=\"story-art\" src=\"reference/assets/2023-b2-fruit.webp\" alt=\"Original storyboard fruit illustration\"></div><div class=\"story-frame\"><h3>4. Episode 1</h3><div class=\"bilingual\"><p lang=\"en\">Episode 1 is called “Fruit Pie”</p><p class=\"translation\" lang=\"zh-Hant\">首集名為《Fruit Pie》。</p></div></div><div class=\"story-frame\"><h3>5. Audience voting</h3><div class=\"bilingual\"><p lang=\"en\">The voting hotline number will be on the screen in each episode.</p><p class=\"translation\" lang=\"zh-Hant\">每集螢幕會顯示投票熱線號碼。</p></div></div><div class=\"story-frame\"><h3>6. The finished dish</h3><img class=\"story-art\" src=\"reference/assets/2023-b2-pie.webp\" alt=\"Original storyboard pie illustration\"><div class=\"bilingual\"><p lang=\"en\">The finished dish</p><p class=\"translation\" lang=\"zh-Hant\">完成的菜式。</p></div></div><div class=\"story-frame\"><h3>7. The Big Prize</h3><div class=\"bilingual\"><p lang=\"en\">One lucky voter: Message: You’ve won!</p><p class=\"translation\" lang=\"zh-Hant\">大獎：一名幸運投票者收到中獎訊息。</p></div></div><div class=\"story-frame\"><h3>8. Delivery of the Big Prize</h3><img class=\"story-art\" src=\"reference/assets/2023-b2-scooter.webp\" alt=\"Original storyboard scooter illustration\"><div class=\"bilingual\"><p lang=\"en\">The finished dish → straight to your door!</p><p class=\"translation\" lang=\"zh-Hant\">完成的菜式直接送到你家門！</p></div></div></div><aside class=\"story-comments\"><h3>Dante Cruz’s comments</h3><div><strong>Frame 1</strong><div class=\"bilingual\"><p lang=\"en\">Not good enough: we need to say why it’s ground-breaking!</p><p class=\"translation\" lang=\"zh-Hant\">未說明節目為何具突破性。</p></div></div><div><strong>Frame 3</strong><div class=\"bilingual\"><p lang=\"en\">A little unclear — just explain who chooses what.</p><p class=\"translation\" lang=\"zh-Hant\">要說清楚由誰選擇甚麼。</p></div></div><div><strong>Frame 4</strong><div class=\"bilingual\"><p lang=\"en\">We can include what the main choice will be in Episode 1.</p><p class=\"translation\" lang=\"zh-Hant\">可加入首集的主要選擇。</p></div></div><div><strong>Frame 8</strong><div class=\"bilingual\"><p lang=\"en\">Check which delivery company — some exciting news on this soon!</p><p class=\"translation\" lang=\"zh-Hant\">核實由哪間公司送餐；很快會有好消息。</p></div></div></aside></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-06.webp\" alt=\"Data File original page 39\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-7\" data-kind=\"data\"><header><span>Data File · 第 7 頁</span><label><input type=\"checkbox\" data-read=\"7\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page chef-chat\" aria-label=\"William and Archie chat\"><h2>Chat between William Puddle and Archie Li</h2><div class=\"chef-chat-shell\"><p class=\"chat-date\">Wednesday 19th April</p><div class=\"chef-bubble archie\"><strong>Archie:</strong><div class=\"bilingual\"><p lang=\"en\">What were you thinking? Was this some kind of a joke? How did you flood the kitchen?</p><p class=\"translation\" lang=\"zh-Hant\">你當時在想甚麼？在開玩笑嗎？怎會把廚房弄得水浸？</p></div></div><div class=\"chef-bubble william\"><strong>William:</strong><div class=\"bilingual\"><p lang=\"en\">I’m so sorry! This was my mistake. I forgot to turn off the tap! We’ve just switched from an automatic tap to a manual one and I forgot it wouldn’t turn off by itself! I thought everyone would see the funny side! What did Dante say? Am I still the star of Viewer’s Choice?</p><p class=\"translation\" lang=\"zh-Hant\">真的很對不起！我忘記關水龍頭。廚房剛把感應式水龍頭換成手動式，我忘了它不會自動關掉。我以為大家會覺得好笑。Dante 怎樣說？我仍是《Viewer’s Choice》的明星嗎？</p></div></div><div class=\"chef-bubble archie\"><strong>Archie:</strong><div class=\"bilingual\"><p lang=\"en\">We’ll get to that in a moment. First, tell me what happened with the raw chicken.</p><p class=\"translation\" lang=\"zh-Hant\">待會再說。先告訴我生雞肉是怎麼回事。</p></div></div><div class=\"chef-bubble william\"><strong>William:</strong><div class=\"bilingual\"><p lang=\"en\">I swear it’s not what it looks like! I was so careful — I always am. I had to edit the video because it was too long — I cut out the parts where I cleaned everything!</p><p class=\"translation\" lang=\"zh-Hant\">我保證不是看起來那樣！我一向很小心。影片太長，所以我剪掉了清潔各處的片段。</p></div></div><div class=\"chef-bubble archie\"><strong>Archie:</strong><div class=\"bilingual\"><p lang=\"en\">And the tea towel? Can you explain that?</p><p class=\"translation\" lang=\"zh-Hant\">那茶巾呢？你怎樣解釋？</p></div></div><div class=\"chef-bubble william\"><strong>William:</strong><div class=\"bilingual\"><p lang=\"en\">Honestly, I used a clean one! It just looks like I didn’t because I have 150 of the same kind! Don’t you remember? I showed them in my kitchen tour video.</p><p class=\"translation\" lang=\"zh-Hant\">我真的用了乾淨的一條！只是我有 150 條一模一樣的。你不記得我在廚房導覽影片展示過嗎？</p></div></div><div class=\"chef-bubble archie\"><strong>Archie:</strong><div class=\"bilingual\"><p lang=\"en\">Yes, but only your fans know about your other videos, not everybody! All right. Now that we’ve figured out what really happened I’ll get Nico to show our support on the website.</p><p class=\"translation\" lang=\"zh-Hant\">但只有你的粉絲看過其他影片，不是人人都知道。既然釐清真相，我會請 Nico 在網站表示支持。</p></div></div><div class=\"chef-bubble william\"><strong>William:</strong><div class=\"bilingual\"><p lang=\"en\">Thank you so much! Now let me pay you back: I have some news about the new show that I think might cheer up Dante.</p><p class=\"translation\" lang=\"zh-Hant\">謝謝！我有新節目的消息，Dante 聽到或許會高興。</p></div></div><div class=\"chef-bubble archie\"><strong>Archie:</strong><div class=\"bilingual\"><p lang=\"en\">Go on.</p><p class=\"translation\" lang=\"zh-Hant\">說吧。</p></div></div><div class=\"chef-bubble william\"><strong>William:</strong><div class=\"bilingual\"><p lang=\"en\">So, we planned to have a different mystery guest each week, right? Well, Mary Steward just called. She says she supports me, she wants to help and she wants to be my co-star!</p><p class=\"translation\" lang=\"zh-Hant\">原本每週有不同神秘嘉賓，對嗎？Mary Steward 剛來電。她支持我，願意幫忙並做我的聯合主持！</p></div></div><div class=\"chef-bubble archie\"><strong>Archie:</strong><div class=\"bilingual\"><p lang=\"en\">Mary Steward? The Queen of TV Cooking? As a co-star?! Well, she just might be able to save you! OK, let’s go with her as the co-star and forget the mystery guest idea. If she confirms soon, we absolutely must include this in the promotion video.</p><p class=\"translation\" lang=\"zh-Hant\">電視烹飪女王 Mary Steward？做聯合主持？她或許能挽回你的形象！好，就改由她聯合主持，取消神秘嘉賓。待她確認，宣傳片一定要提。</p></div></div><div class=\"chef-bubble william\"><strong>William:</strong><div class=\"bilingual\"><p lang=\"en\">Agreed. Thanks, Archie! That should get the voting hotline ringing!!!</p><p class=\"translation\" lang=\"zh-Hant\">同意！這應該會令投票熱線響個不停！</p></div></div><div class=\"chef-bubble archie\"><strong>Archie:</strong><div class=\"bilingual\"><p lang=\"en\">Did nobody tell you? We decided that viewers will be able to vote for free through the Teen NetChef TV app. We’ve cancelled the voting hotline.</p><p class=\"translation\" lang=\"zh-Hant\">沒人告訴你嗎？觀眾可以透過 Teen NetChef TV 應用程式免費投票；熱線已取消。</p></div></div><div class=\"chef-bubble william\"><strong>William:</strong><div class=\"bilingual\"><p lang=\"en\">Oh, I see. Good decision!</p><p class=\"translation\" lang=\"zh-Hant\">啊，明白了。好決定！</p></div></div></div></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-07.webp\" alt=\"Data File original page 40\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-8\" data-kind=\"data\"><header><span>Data File · 第 8 頁</span><label><input type=\"checkbox\" data-read=\"8\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page chef-email\" aria-label=\"Dante Cruz weekly email\"><h2>All staff weekly email from Dante Cruz</h2><div class=\"email-window\"><div class=\"email-toolbar\">File　 Message <span>Junk　 Delete　 Reply　 Reply All　 Forward　 Move　 Mark Unread　 Follow up</span></div><div class=\"email-headers\"><div><strong>To:</strong> All staff</div><div><strong>Sent:</strong> Thursday 20th April 2023 9:02 AM</div><div><strong>From:</strong> Dante Cruz</div><div><strong>Subject:</strong> Weekly Email</div></div><div class=\"email-content\"><div class=\"bilingual\"><p lang=\"en\">Dear All</p><p class=\"translation\" lang=\"zh-Hant\">各位同事：</p></div><div class=\"bilingual\"><p lang=\"en\">Great to hear that you’re all working hard to make our dreams for the new series of Live, Study, Cook a reality. Here are the latest initiatives to make sure that we all keep on track and strive to achieve:</p><p class=\"translation\" lang=\"zh-Hant\">很高興大家努力把《Live, Study, Cook》新一輯變成現實。以下是讓我們朝目標邁進的最新安排：</p></div><h3>1. Special training</h3><div class=\"bilingual\"><p lang=\"en\">Those of you who listened to the online staff meeting will have heard that we identified two areas of training that we need urgently. We have since decided to extend both of these to all staff, not just chefs.</p><p class=\"translation\" lang=\"zh-Hant\">網上會議提到兩項急需培訓的範疇。現決定把這兩項培訓擴展至全體員工，不只廚師。</p></div><h3>2. Food hygiene training</h3><div class=\"bilingual\"><p lang=\"en\">Similarly, staff are encouraged to do food hygiene training. As per our company policy on food hygiene, trainers for this course must be approved by the Health Advisory Board (HAB).</p><p class=\"translation\" lang=\"zh-Hant\">公司亦鼓勵員工參加食物衞生培訓。根據政策，導師必須獲 Health Advisory Board（HAB）認可。</p></div><h3>3. Annual Review Targets (ARTs)</h3><div class=\"bilingual\"><p lang=\"en\">I have informed Human Resources that all training will count as credit towards your Annual Review Targets (ARTs). These will look really good on an appraisal!</p><p class=\"translation\" lang=\"zh-Hant\">我已通知人事部，所有培訓都可計入年度考核目標（ARTs），有利工作評核。</p></div><h3>4. Viewer’s Choice — updates</h3><div class=\"email-update\"><strong>a)</strong><div class=\"bilingual\"><p lang=\"en\">I’m delighted to announce that Mary Steward has confirmed her availability for Viewer’s Choice!</p><p class=\"translation\" lang=\"zh-Hant\">Mary Steward 已確認能參與《Viewer’s Choice》。</p></div></div><div class=\"email-update\"><strong>b)</strong><div class=\"bilingual\"><p lang=\"en\">More exciting news: our Big Prize — the finished dish — will be delivered by the food delivery company FlyingFood using a drone. Cutting edge technology!</p><p class=\"translation\" lang=\"zh-Hant\">更令人興奮的是，大獎——完成的菜式——將由 FlyingFood 用無人機送遞。</p></div></div><div class=\"email-update\"><strong>c)</strong><div class=\"bilingual\"><p lang=\"en\">We’ve agreed that the main choice in Episode 1 will be between apple and blueberry filling. Yum! We should mention this in any promotional materials.</p><p class=\"translation\" lang=\"zh-Hant\">首集的主要選擇是蘋果或藍莓餡，宣傳材料應提及。</p></div></div><div class=\"bilingual\"><p lang=\"en\">Keep up the good work and Bon Appetit!</p><p class=\"translation\" lang=\"zh-Hant\">繼續努力，祝大家好胃口！</p></div><p>Dante Cruz</p></div></div></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-08.webp\" alt=\"Data File original page 41\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-9\" data-kind=\"data\"><header><span>Data File · 第 9 頁</span><label><input type=\"checkbox\" data-read=\"9\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page chef-courses\" aria-label=\"Corporate training intranet\"><h2>Corporate Training Intranet page</h2><div class=\"course-columns\"><article class=\"course-provider\"><small>Course Provider:</small><h3>Pinafore Solutions</h3><em>Life-Proof Professional Chef Training</em><div class=\"bilingual\"><p lang=\"en\">Pinafore Solutions offers training and development programmes for culinary staff.</p><p class=\"translation\" lang=\"zh-Hant\">Pinafore Solutions 為餐飲員工提供培訓及發展課程。</p></div><img class=\"course-symbols\" src=\"reference/assets/2023-b2-course-icons.webp\" alt=\"Original fire extinguisher, fire exit and chicken illustrations\"><h4>Available courses</h4><article class=\"course-row\"><h4>1. Advanced Fire Safety</h4><div class=\"bilingual\"><p lang=\"en\">This course will help develop and manage your staff in the realm of fire safety. We include helpful guidance on how to develop a fire plan as well as the important things to consider when training fire marshals. Finally, we’ve got you covered in maintaining those all-important emergency routes that could be vital in the survival of you and your employees. Sign up today!</p><p class=\"translation\" lang=\"zh-Hant\">訓練員工處理火警安全：制訂消防計劃、培訓防火員及維持緊急逃生路線。</p></div></article><article class=\"course-row\"><h4>2. Hazard Awareness</h4><div class=\"bilingual\"><p lang=\"en\">The kitchen is full of fire hazards and dangers. Can you recognise them all? A professional chef needs all the tricks of the trade to keep everyone safe. This course starts with how to use a fire extinguisher and moves on to how to keep fire exits clear — a must for the next culinary genius!</p><p class=\"translation\" lang=\"zh-Hant\">認識廚房火警風險，學習使用滅火筒及保持消防出口暢通。</p></div></article><article class=\"course-row\"><h4>3. Food Hygiene Basics</h4><div class=\"bilingual\"><p lang=\"en\">Our most popular course: see how to handle raw food and cook at a safe temperature. AFH approval pending!</p><p class=\"translation\" lang=\"zh-Hant\">基本食物衞生：處理生食及安全烹調溫度；AFH 認可尚在審批。</p></div></article></article><article class=\"course-provider\"><small>Course Provider:</small><h3>The Grill Gurus</h3><div class=\"bilingual\"><p lang=\"en\">Need comprehensive chef training for indoor and outdoor chefs? The Grill Gurus can help! Rest assured that your kitchen staff will know how to cook safely for happy kitchens, campfires and barbeques!</p><p class=\"translation\" lang=\"zh-Hant\">The Grill Gurus 為室內及戶外廚師提供全面的安全烹飪培訓。</p></div><div class=\"bilingual\"><p lang=\"en\">We run training sessions for the modern adventurous chef. All instructors are HAB approved.</p><p class=\"translation\" lang=\"zh-Hant\">所有導師均獲 HAB 認可。</p></div><h4>Courses</h4><article class=\"course-row\"><h4>A: The Chef’s Special</h4><div class=\"bilingual\"><p lang=\"en\">The ultimate food safety guide for adventurous chefs, including “Food Safety 101”: from the test kitchen to the plate™. “Keep it separate, stupid!” is our tongue-in-cheek guide to avoiding cross-contamination in the kitchen, while “Burn those bugs” explains the importance of safe cooking temperatures.</p><p class=\"translation\" lang=\"zh-Hant\">食物安全課程包括從測試廚房到餐桌、避免交叉污染及安全烹調溫度。</p></div></article><article class=\"course-row\"><h4>B: The Fire Chef’s Manual</h4><div class=\"bilingual\"><p lang=\"en\">We cover all the basics to make your alfresco cooking experience as safe as possible. Learn how to light a campfire safely, then we’ll get you ready to use a fire extinguisher when things go wrong. Putting out an oil fire is something that’s more difficult than it looks: we’ll guide you through the tricky process. Trust us to make sure only the food gets burnt™.</p><p class=\"translation\" lang=\"zh-Hant\">戶外烹飪安全：生營火、使用滅火筒及處理油鍋火警。</p></div></article></article></div><article class=\"course-provider wide\"><small>Course Provider:</small><h3>PR Productions</h3><em>Perfecting Dreams for Online Creators</em><div class=\"bilingual\"><p lang=\"en\">Let PR Productions pave your path to personal perfection! Online booking is now open. Each course features 5 hours of Zoom sessions with certified Social Media Influencers!</p><p class=\"translation\" lang=\"zh-Hant\">PR Productions 的網上預約已開放。每門課均有五小時 Zoom 課堂，由認證社交媒體意見領袖授課。</p></div><article class=\"course-row\"><h4>Option 1: Be Your Best!</h4><div class=\"bilingual\"><p lang=\"en\">We teach the importance of Crystal Clear Communication™: the art of only saying what you mean and meaning what you say. After this course, you’ll be a social media angel, showing your perfect self, all the time! Our previous graduates include stars of stage and screen, CEOs and KOLs. Yoga mums and fitness dads also welcome!</p><p class=\"translation\" lang=\"zh-Hant\">教授清晰溝通和社交媒體個人形象；過往學員包括藝人、行政總裁和意見領袖。</p></div></article><article class=\"course-row\"><h4>Option 2: Maximise My Money</h4><div class=\"bilingual\"><p lang=\"en\">How to turn your social media feed into a money-spinner? It’s not just about the way you sound, but what your customers can see. Join this course to write like a millionaire™ and monetise your brand today!</p><p class=\"translation\" lang=\"zh-Hant\">教授透過社交媒體文字與視覺內容打造品牌及賺取收益。</p></div></article></article></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-09.webp\" alt=\"Data File original page 42\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-10\" data-kind=\"data\"><header><span>Data File · 第 10 頁</span><label><input type=\"checkbox\" data-read=\"10\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page chef-reviews\" aria-label=\"Training course reviews\"><h2>Corporate Training: reviews from previous participants</h2><div class=\"review-list\"><article class=\"review-block\"><h3>Food Hygiene Basics</h3><div class=\"bilingual\"><p lang=\"en\">I loved, loved, loved this course. They went through everything, in lots of great detail. As a newly-trained chef, this is going to be a massive benefit to me. A bit of a shame that the instructors lost their HAB approval (they’re switching to AFH — the Association of Food Health — next year), but still totally worthwhile as they knew what they were doing.</p><p class=\"translation\" lang=\"zh-Hant\">內容詳盡，對新入行廚師很有幫助；但導師已失去 HAB 認可，明年轉用 AFH。</p></div><div class=\"bilingual\"><p lang=\"en\">The instructors gave out some really interesting tips on food safety. Although I liked the course, I thought it was a bit too short. It would have been better to have some time for questions at the end.</p><p class=\"translation\" lang=\"zh-Hant\">食物安全貼士有用，但課程略短，末段應留時間答問。</p></div></article><article class=\"review-block\"><h3>The Chef’s Special</h3><div class=\"bilingual\"><p lang=\"en\">Yes, great: no complaints. My boss made me do this course. I thought the “101” section, which focused on food hygiene, was really informative, and the “Keep it separate, stupid!” part made me laugh!</p><p class=\"translation\" lang=\"zh-Hant\">內容很好，食物衞生基礎單元資訊充實，防止交叉污染的部分也有趣。</p></div><div class=\"bilingual\"><p lang=\"en\">What a fab day! Great tips on how to have a food-safe kitchen. It mostly deals with work settings, though, so nothing I could use at home. Still, it will definitely have its uses in my cooking career as it comes with a professional qualification.</p><p class=\"translation\" lang=\"zh-Hant\">提供工作廚房食物安全貼士，亦可取得專業資格；家居用途較少。</p></div></article><article class=\"review-block\"><h3>Hazard Awareness</h3><div class=\"bilingual\"><p lang=\"en\">I was feeling really under the weather that day and my mum said I shouldn’t go, but I’m really glad I did in the end as this course has something for everyone, not just chefs. Perseverance really pays off in so many areas of life!</p><p class=\"translation\" lang=\"zh-Hant\">雖然當天不舒服，但慶幸參加；課程適合所有人，不限廚師。</p></div></article><article class=\"review-block\"><h3>The Fire Chef’s Manual</h3><div class=\"bilingual\"><p lang=\"en\">This was awesome. Jake, the instructor, was super knowledgeable and answered all my questions. He’s a surfer, just like me, so it was really useful to learn about cooking on the beach over an open-air fire. Paradise! My buddy Steve says he thought it was a waste of time because he works at an indoor kitchen. I told him to change jobs! Ha!</p><p class=\"translation\" lang=\"zh-Hant\">導師知識豐富；課程對海灘營火烹飪有用，但室內廚房員工可能用不上。</p></div></article><article class=\"review-block\"><h3>Advanced Fire Safety</h3><div class=\"bilingual\"><p lang=\"en\">Lots of information, but it’s really only for management-level staff, not for everyone, even though that’s not clear in the course description. I actually fell asleep in the boring online sessions. Must do better, Pinafore Solutions!</p><p class=\"translation\" lang=\"zh-Hant\">資訊多，但主要適合管理層，而課程介紹沒有說清楚；網課頗沉悶。</p></div><div class=\"bilingual\"><p lang=\"en\">I understand that fire marshal training is a very serious issue, and we need to train staff properly, but do we really need 25 hours of online talks for this? Inefficient and expensive.</p><p class=\"translation\" lang=\"zh-Hant\">防火員培訓重要，但二十五小時網上講座耗時費錢。</p></div></article><article class=\"review-block\"><h3>Be Your Best!</h3><div class=\"bilingual\"><p lang=\"en\">O.M.Gosh! What a wonderful course. I’m a fashion blogger and this has already improved my videos. Life’s so much easier now! Also, Jinny, who runs the course, is lovely! Her happy smile kept me motivated day after day.</p><p class=\"translation\" lang=\"zh-Hant\">時尚博客認為課程改善了影片，導師也親切。</p></div><div class=\"bilingual\"><p lang=\"en\">This course is absolutely not just for social media stars: I work in PR as well as being a vlogger. Before, I had real trouble communicating in work meetings — not anymore! That purple backdrop was to die for as well — you’ll see what I mean when you log in for the first time. You’re welcome!</p><p class=\"translation\" lang=\"zh-Hant\">公關與影片博客也受惠，尤其改善了工作會議中的溝通。</p></div></article><article class=\"review-block\"><h3>Maximise My Money</h3><div class=\"bilingual\"><p lang=\"en\">Such a good course — the tips really helped me to maximise my brand and start raking in the profit. I blew my competitors out of the water with deftly-crafted written text and some stunning visuals. Take this together with PR Productions’ course on communication and you’ll be the complete package.</p><p class=\"translation\" lang=\"zh-Hant\">課程幫助個人品牌盈利，透過精心撰寫的文字與視覺內容勝過競爭對手。</p></div></article></div><p class=\"source-end\">THIS IS THE LAST PAGE OF THE PART B2 DATA FILE</p></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-10.webp\" alt=\"Data File original page 43\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-11\" data-kind=\"qab\"><header><span>Question-Answer Book · 第 1 頁</span><label><input type=\"checkbox\" data-read=\"11\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page answer-book chef-answer\" aria-label=\"Task 8: Website announcement\"><div class=\"qab-heading\"><span>HKDSE 2023 · ENGLISH LANGUAGE · PAPER 3 PART B2</span><strong>B2 · DIFFICULT SECTION</strong></div><h2>Task 8: Website announcement <small>(19 marks)</small></h2><div class=\"bilingual\"><p lang=\"en\">Write an announcement for the Teen NetChef TV website in support of William Puddle. Use the information from the B2 Data File and your notes. Write around 200 words.</p><p class=\"translation\" lang=\"zh-Hant\">為 Teen NetChef TV 網站寫公告，支持 William Puddle。運用乙部二資料檔及筆記，約 200 字。</p></div><label class=\"answer-field\" for=\"2023-b2-11-response\">Website announcement</label><textarea class=\"answer-box\" id=\"2023-b2-11-response\" data-note=\"11-response\" data-count-id=\"2023-b2-11-response\" style=\"min-height:620px\" aria-label=\"Website announcement\"></textarea><p class=\"answer-count\" data-count-for=\"2023-b2-11-response\">0 words</p></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-11.webp\" alt=\"Question-Answer Book original page 26\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-12\" data-kind=\"qab\"><header><span>Question-Answer Book · 第 2 頁</span><label><input type=\"checkbox\" data-read=\"12\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page answer-book chef-answer\" aria-label=\"Task 8 answer continuation\"><h2>Task 8 · Answer continuation</h2><p class=\"translation\" lang=\"zh-Hant\">任務 8 續答頁</p><label class=\"answer-field\" for=\"2023-b2-12-continuation\">Task 8 answer continuation</label><textarea class=\"answer-box\" id=\"2023-b2-12-continuation\" data-note=\"12-continuation\" data-count-id=\"2023-b2-12-continuation\" style=\"min-height:650px\" aria-label=\"Task 8 answer continuation\"></textarea><p class=\"answer-count\" data-count-for=\"2023-b2-12-continuation\">0 words</p></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-12.webp\" alt=\"Question-Answer Book original page 27\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-13\" data-kind=\"qab\"><header><span>Question-Answer Book · 第 3 頁</span><label><input type=\"checkbox\" data-read=\"13\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page answer-book chef-answer\" aria-label=\"Task 8 answer continuation\"><h2>Task 8 · Answer continuation</h2><p class=\"translation\" lang=\"zh-Hant\">任務 8 續答頁</p><label class=\"answer-field\" for=\"2023-b2-13-continuation\">Task 8 answer continuation</label><textarea class=\"answer-box\" id=\"2023-b2-13-continuation\" data-note=\"13-continuation\" data-count-id=\"2023-b2-13-continuation\" style=\"min-height:650px\" aria-label=\"Task 8 answer continuation\"></textarea><p class=\"answer-count\" data-count-for=\"2023-b2-13-continuation\">0 words</p><p class=\"source-end\">END OF TASK 8</p></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-13.webp\" alt=\"Question-Answer Book original page 28\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-14\" data-kind=\"qab\"><header><span>Question-Answer Book · 第 4 頁</span><label><input type=\"checkbox\" data-read=\"14\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page answer-book chef-answer\" aria-label=\"Task 9: Staff training email\"><h2>Task 9: Staff training email <small>(17 marks)</small></h2><div class=\"bilingual\"><p lang=\"en\">Write an email to inform all staff about training courses. Use the information from the B2 Data File and your notes. Write around 150 words.</p><p class=\"translation\" lang=\"zh-Hant\">寫電郵通知全體員工培訓課程。運用乙部二資料檔及筆記，約 150 字。</p></div><label class=\"answer-field\" for=\"2023-b2-14-response\">Staff training email</label><textarea class=\"answer-box\" id=\"2023-b2-14-response\" data-note=\"14-response\" data-count-id=\"2023-b2-14-response\" style=\"min-height:620px\" aria-label=\"Staff training email\"></textarea><p class=\"answer-count\" data-count-for=\"2023-b2-14-response\">0 words</p></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-14.webp\" alt=\"Question-Answer Book original page 29\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-15\" data-kind=\"qab\"><header><span>Question-Answer Book · 第 5 頁</span><label><input type=\"checkbox\" data-read=\"15\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page answer-book chef-answer\" aria-label=\"Task 9 answer continuation\"><h2>Task 9 · Answer continuation</h2><p class=\"translation\" lang=\"zh-Hant\">任務 9 續答頁</p><label class=\"answer-field\" for=\"2023-b2-15-continuation\">Task 9 answer continuation</label><textarea class=\"answer-box\" id=\"2023-b2-15-continuation\" data-note=\"15-continuation\" data-count-id=\"2023-b2-15-continuation\" style=\"min-height:650px\" aria-label=\"Task 9 answer continuation\"></textarea><p class=\"answer-count\" data-count-for=\"2023-b2-15-continuation\">0 words</p><p class=\"source-end\">END OF TASK 9</p></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-15.webp\" alt=\"Question-Answer Book original page 30\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-16\" data-kind=\"qab\"><header><span>Question-Answer Book · 第 6 頁</span><label><input type=\"checkbox\" data-read=\"16\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page answer-book chef-answer\" aria-label=\"Task 10: Video script\"><h2>Task 10: Video script <small>(17 marks)</small></h2><div class=\"bilingual\"><p lang=\"en\">Write a short script to promote the new streaming TV show Viewer’s Choice. Use the information from the B2 Data File and your notes. Write around 120 words.</p><p class=\"translation\" lang=\"zh-Hant\">為新串流節目《Viewer’s Choice》撰寫簡短宣傳片劇本。運用乙部二資料檔及筆記，約 120 字。</p></div><label class=\"answer-field\" for=\"2023-b2-16-response\">Promotional video script</label><textarea class=\"answer-box\" id=\"2023-b2-16-response\" data-note=\"16-response\" data-count-id=\"2023-b2-16-response\" style=\"min-height:620px\" aria-label=\"Promotional video script\"></textarea><p class=\"answer-count\" data-count-for=\"2023-b2-16-response\">0 words</p></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-16.webp\" alt=\"Question-Answer Book original page 31\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-17\" data-kind=\"qab\"><header><span>Question-Answer Book · 第 7 頁</span><label><input type=\"checkbox\" data-read=\"17\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page answer-book chef-answer\" aria-label=\"Task 10 answer continuation\"><h2>Task 10 · Answer continuation</h2><p class=\"translation\" lang=\"zh-Hant\">任務 10 續答頁</p><label class=\"answer-field\" for=\"2023-b2-17-continuation\">Task 10 answer continuation</label><textarea class=\"answer-box\" id=\"2023-b2-17-continuation\" data-note=\"17-continuation\" data-count-id=\"2023-b2-17-continuation\" style=\"min-height:650px\" aria-label=\"Task 10 answer continuation\"></textarea><p class=\"answer-count\" data-count-for=\"2023-b2-17-continuation\">0 words</p></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-17.webp\" alt=\"Question-Answer Book original page 32\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>", "<article class=\"paper-page verified-reconstruction\" id=\"page-18\" data-kind=\"qab\"><header><span>Question-Answer Book · 第 8 頁</span><label><input type=\"checkbox\" data-read=\"18\"> 已讀</label></header><div class=\"native-document\" lang=\"en\"><div class=\"native-label\">原生文字重建</div><section class=\"recreated-page answer-book chef-answer\" aria-label=\"Task 10 answer continuation\"><h2>Task 10 · Answer continuation</h2><p class=\"translation\" lang=\"zh-Hant\">任務 10 續答頁</p><label class=\"answer-field\" for=\"2023-b2-18-continuation\">Task 10 answer continuation</label><textarea class=\"answer-box\" id=\"2023-b2-18-continuation\" data-note=\"18-continuation\" data-count-id=\"2023-b2-18-continuation\" style=\"min-height:650px\" aria-label=\"Task 10 answer continuation\"></textarea><p class=\"answer-count\" data-count-for=\"2023-b2-18-continuation\">0 words</p><p class=\"source-end\">END OF TASK 10 · END OF PART B2</p></section>\n</div><details class=\"reference-scan\"><summary>核對原卷影像</summary><figure class=\"facsimile\"><img src=\"reference/assets/page-18.webp\" alt=\"Question-Answer Book original page 33\" loading=\"lazy\"><figcaption>原卷影像供核對文字和版面</figcaption></figure></details></article>"];const referenceShell23="<div class=\"toolbar\" aria-label=\"閱讀控制\"><div class=\"filters\" aria-label=\"內容類別\"><button type=\"button\" data-filter=\"all\" aria-pressed=\"true\">全部內容</button><button type=\"button\" data-filter=\"data\" aria-pressed=\"false\">Data File</button><button type=\"button\" data-filter=\"transcript\" aria-pressed=\"false\">錄音稿</button><button type=\"button\" data-filter=\"practice\" aria-pressed=\"false\">PP 練習</button></div><label class=\"translation-control\"><input type=\"checkbox\" id=\"show-translation\" checked=\"\"> 中文對照</label><button class=\"action-btn\" type=\"button\" id=\"print-reader\">列印</button><select class=\"mobile-jump\" id=\"page-jump\" aria-label=\"跳至頁面\"><option value=\"\">跳至頁面</option><option value=\"page-1\">1. 資料檔封面</option><option value=\"page-2\">2. 情境與目錄</option><option value=\"page-3\">3. 聆聽筆記表</option><option value=\"page-4\">4. 任務指示電郵</option><option value=\"page-5\">5. 活動篩選電郵</option><option value=\"page-6\">6. 2024 健康月原海報</option><option value=\"page-7\">7. 校園電視完整訪問</option><option value=\"page-8\">8. WhatsApp 完整對話</option><option value=\"page-9\">9. 家長職責與交通安排</option><option value=\"page-10\">10. 網誌、原圖表與運動電郵</option><option value=\"page-11\">11. 運動雜誌完整文章</option><option value=\"page-12\">12. 會議開場與亞運口號</option><option value=\"page-13\">13. 亞運週日期與場地</option><option value=\"page-14\">14. 健康月主題與瑜伽</option><option value=\"page-15\">15. 瑜伽宣傳與亞運嘉賓</option><option value=\"page-16\">16. 互動環節與家長參與</option><option value=\"page-17\">17. 報名途徑與會議結束</option><option value=\"practice\">PP 練習區</option></select><button class=\"action-btn curation-launch\" type=\"button\" id=\"curation-toggle\" aria-pressed=\"true\">✦ 離開 Curation</button></div><nav class=\"curation-stage\" id=\"curation-stage\" aria-label=\"Super Curation 五個階段\"><div class=\"curation-stage-line\" aria-hidden=\"true\"></div><div class=\"curation-stage-fill\" aria-hidden=\"true\" style=\"width: 0%;\"></div><div class=\"curation-stage-items\"><button class=\"curation-stage-item active\" type=\"button\" data-chapter=\"boss\" aria-current=\"step\"><span class=\"curation-stage-dot\">1</span><span class=\"curation-stage-label\">任務指示</span><small class=\"curation-stage-count\"></small></button><button class=\"curation-stage-item\" type=\"button\" data-chapter=\"categorize\" aria-current=\"false\"><span class=\"curation-stage-dot\">2</span><span class=\"curation-stage-label\">資料分類</span><small class=\"curation-stage-count\"></small></button><button class=\"curation-stage-item\" type=\"button\" data-chapter=\"podcast\" aria-current=\"false\"><span class=\"curation-stage-dot\">3</span><span class=\"curation-stage-label\">聆聽錄音</span><small class=\"curation-stage-count\"></small></button><button class=\"curation-stage-item\" type=\"button\" data-chapter=\"data\" aria-current=\"false\"><span class=\"curation-stage-dot\">4</span><span class=\"curation-stage-label\">逐句取證</span><small class=\"curation-stage-count\"></small></button><button class=\"curation-stage-item\" type=\"button\" data-chapter=\"writing\" aria-current=\"false\"><span class=\"curation-stage-dot\">5</span><span class=\"curation-stage-label\">三篇寫作</span><small class=\"curation-stage-count\"></small></button></div></nav><aside class=\"curation-dock\"><div class=\"curation-top\"><span class=\"curation-kicker\">SUPER CURATION · 2023 B2</span><button type=\"button\" id=\"curation-close\" aria-label=\"離開導覽模式\">×</button></div><div class=\"curation-actions\"><button type=\"button\" id=\"curation-prev\">← 上一步</button><button type=\"button\" id=\"curation-help\">需要更多協助</button><button type=\"button\" id=\"curation-next\">下一步 →</button></div><div class=\"curation-header\"><span id=\"curation-chapter\"></span><button type=\"button\" id=\"curation-bookmark\" aria-label=\"將本步加入書籤\">☆</button></div><div class=\"curation-jump\"><div><span>跳至步驟</span><button type=\"button\" id=\"curation-step-jump\" aria-haspopup=\"dialog\" aria-controls=\"curation-picker\"></button></div><div><span>書籤</span><button type=\"button\" id=\"curation-bookmark-jump\" aria-haspopup=\"dialog\" aria-controls=\"curation-picker\">選擇書籤</button></div></div><div id=\"curation-task-jump\" class=\"curation-task-jump\" hidden></div><div class=\"curation-legend\" aria-label=\"資料標記顏色\"><span class=\"color-A\">A</span><span class=\"color-B\">B</span><span class=\"color-C\">C</span><span class=\"color-hint\">語氣 / Type 4</span><span class=\"color-spare\">備用</span></div><div class=\"curation-local-progress\"><span id=\"curation-step-count\"></span></div><div class=\"curation-options\"><label><input type=\"checkbox\" id=\"curation-spotlight\"> 聚光燈</label><label><input type=\"checkbox\" id=\"curation-dialogue\"> Eddy 對話</label></div><div class=\"curation-content\"><p id=\"curation-source\"></p><h2 id=\"curation-title\"></h2><blockquote id=\"curation-quote\" lang=\"en\"></blockquote><div class=\"curation-character\" hidden><span class=\"curation-eddy\" role=\"img\" aria-label=\"Eddy\"></span><span>Eddy · 導讀</span></div><div id=\"curation-explanation\"></div><div id=\"curation-step-actions\"></div></div><details class=\"curation-save\"><summary>遊戲存檔 · 自動儲存 / 匯出 / 匯入</summary><div><label for=\"curation-slot\">遊戲存檔</label><select id=\"curation-slot\" aria-label=\"選擇存檔格\"></select><button type=\"button\" id=\"curation-save-now\">儲存</button></div><div><button type=\"button\" id=\"curation-export\">匯出存檔</button><label class=\"curation-import\">匯入存檔<input id=\"curation-import\" type=\"file\" accept=\"application/json,.json\"></label></div><small id=\"curation-save-status\" role=\"status\"></small></details></aside><aside class=\"curation-bank\"><h2>三項寫作證據庫</h2><p>紅線＝範文已使用的內容點，不代表淘汰。範文內淡紫色＝可學的句式；Data File 的 Type 6 紅線才表示不採用。</p><div id=\"curation-bank-groups\"></div></aside>"
+</script><script data-reader-source="source-units.js">
+// V8.2 reviewed source-first inventory. One sentence or standalone heading per entry.
+// Abbreviations and quoted titles are reviewed boundaries, not punctuation splits.
+const sourceUnits23 = [
+  {
+    "id": "p5-u1",
+    "p": 5,
+    "q": "Big Cheese Celebrity Food Gossip article",
+    "t": 5,
+    "a": "資料來源是娛樂小報；核對報道中的指控時，要再讀聊天及錄音。"
+  },
+  {
+    "id": "p5-u2",
+    "p": 5,
+    "q": "Puddle Starts a Flood!",
+    "t": 5,
+    "a": "標題以 Puddle／flood 押韻突出水浸風波；公告須回應事件，但不用小報式標題。"
+  },
+  {
+    "id": "p5-u3",
+    "p": 5,
+    "q": "William Puddle’s disastrous cooking video goes viral",
+    "t": 5,
+    "a": "副題指出影片瘋傳，是公司需要公開澄清的背景。"
+  },
+  {
+    "id": "p5-u4",
+    "p": 5,
+    "q": "Tuesday 18th April 2023",
+    "t": 5,
+    "a": "報道日期用來核對資料先後；後來的聊天及電郵可更新這裡的說法。"
+  },
+  {
+    "id": "p5-u5",
+    "p": 5,
+    "q": "Teen NetChef TV star’s latest video did not go swimmingly",
+    "t": 5,
+    "a": "did not go swimmingly 是雙關語，指表現不順利並呼應水浸；不是具體錯誤的證據。"
+  },
+  {
+    "id": "p5-u6",
+    "p": 5,
+    "q": "Can his career survive the soaking?",
+    "t": 5,
+    "a": "問句製造事業危機的懸念，不能當作 William 已被解僱的事實。"
+  },
+  {
+    "id": "p5-u7",
+    "p": 5,
+    "q": "Viewers expressed shock on Monday at the disasters that befell celebrity chef William Puddle in the Teen NetChef TV test kitchen.",
+    "t": 5,
+    "a": "本句交代觀眾震驚及事發地點；尚未分辨哪些失誤屬實，哪些只是觀眾誤會。"
+  },
+  {
+    "id": "p5-u8",
+    "p": 5,
+    "q": "The video, showing a series of calamitous mistakes, quickly went viral after appearing on Puddle’s social media accounts.",
+    "t": 5,
+    "a": "本句交代影片在本人社交帳戶發布後迅速瘋傳，說明公司公告需要面向公眾澄清。"
+  },
+  {
+    "id": "p5-u9",
+    "p": 5,
+    "q": "Water, water everywhere!",
+    "t": 6,
+    "a": "這是誇張的水浸小標題；實際事故要引用下文的具體描述。"
+  },
+  {
+    "id": "p5-u10",
+    "p": 5,
+    "q": "The video opens with Puddle seemingly flooding his kitchen without realising it!",
+    "t": 1,
+    "a": "報道指出廚房水浸，這是 Task A 要承認的事故；原因須由聊天補足。"
+  },
+  {
+    "id": "p5-u11",
+    "p": 5,
+    "q": "After turning on the kitchen tap to wash some potatoes, Puddle turns to the camera to talk about the science of cutting onions, with the sink rapidly filling up behind him.",
+    "t": 1,
+    "a": "他開水龍頭後轉身講解洋葱，水槽在身後注滿；結合聊天可解釋忘記關手動龍頭的原因。"
+  },
+  {
+    "id": "p5-u12",
+    "p": 5,
+    "q": "After about thirty seconds, Puddle finally realises his big mistake.",
+    "t": 1,
+    "a": "他過了一會才察覺錯誤，支持公告承認疏忽；三十秒不是必寫細節。"
+  },
+  {
+    "id": "p5-u13",
+    "p": 5,
+    "q": "The floor is flooded and Puddle is even seen apparently slipping in the mess as he reaches for the tap.",
+    "t": 1,
+    "a": "地板水浸是事故結果；apparently slipping 只是報道觀察，不要誇大成受傷。"
+  },
+  {
+    "id": "p5-u14",
+    "p": 5,
+    "q": "“Irresponsible behaviour”",
+    "t": 5,
+    "a": "這是對行為的負面評價；留意下文發言人立場，不能以評價代替查證。"
+  },
+  {
+    "id": "p5-u15",
+    "p": 5,
+    "q": "Puddle steps in it!",
+    "t": 6,
+    "a": "圖片標題用 steps in it 雙關嘲諷 William；不適合公司公告語氣。"
+  },
+  {
+    "id": "p5-u16",
+    "p": 5,
+    "q": "William Puddle cleans up the mess from the flood in a screen-grab from the viral video.",
+    "t": 1,
+    "a": "圖片說明他清理水浸現場，支持事故確曾發生；不能憑圖片判斷洗手片段是否被剪掉。"
+  },
+  {
+    "id": "p5-u17",
+    "p": 5,
+    "q": "Puddle’s poor performance didn’t end there: viewers noticed that after turning off the tap and cleaning up the floor, Puddle chops up some raw chicken.",
+    "t": 5,
+    "a": "本句交代處理生雞肉的先後次序；真正的食安指控在下一句，切雞肉本身不是錯誤。"
+  },
+  {
+    "id": "p5-u18",
+    "p": 5,
+    "q": "He then starts slicing up the other ingredients without washing his hands.",
+    "t": 1,
+    "a": "這是「沒有洗手」的指控。Task A 要用聊天及評分資料澄清洗手畫面被剪走，不能把指控當成真相。"
+  },
+  {
+    "id": "p5-u19",
+    "p": 5,
+    "q": "Experts agree that these shocking safety mistakes set a terrible example to other chefs, especially younger fans.",
+    "t": 5,
+    "a": "專家批評壞榜樣，顯示公眾疑慮；沒有新增可核實的事故細節。"
+  },
+  {
+    "id": "p5-u20",
+    "p": 5,
+    "q": "“This is irresponsible behaviour from a TV Chef,” said Sam Cooke, Head Chef of rival streaming show SuperChefTV.",
+    "t": 5,
+    "a": "Cooke 來自競爭節目，他的不負責任評價屬有立場的評論；公告應回應疑慮而非照抄指責。"
+  },
+  {
+    "id": "p5-u21",
+    "p": 5,
+    "q": "“If we allow children to follow Mr Puddle’s example, who knows what could happen?”",
+    "t": 5,
+    "a": "這是對兒童模仿的假設後果，不能寫成已發生的傷害。"
+  },
+  {
+    "id": "p5-u22",
+    "p": 5,
+    "q": "Puddles of tears",
+    "t": 6,
+    "a": "眼淚小標題沿用 puddle 雙關；真正原因需查錄音。"
+  },
+  {
+    "id": "p5-u23",
+    "p": 5,
+    "q": "Perhaps realising his downfall, Puddle even appears to be crying towards the end of the video.",
+    "t": 1,
+    "a": "appears 與 Perhaps 顯示報道推測他因挫敗而哭；Task A 須用切洋葱導致流淚的解釋澄清。"
+  },
+  {
+    "id": "p5-u24",
+    "p": 5,
+    "q": "He starts wiping his face with a tea towel, the same one he used to dry the raw chicken.",
+    "t": 1,
+    "a": "這是同一條茶巾擦雞肉和臉的指控；聊天指出他用了乾淨茶巾，只是外觀相同。"
+  },
+  {
+    "id": "p5-u25",
+    "p": 5,
+    "q": "“His eyes were clearly watering in the video.",
+    "t": 5,
+    "a": "Cooke 觀察眼睛泛淚；流淚本身不能證明情緒失控，須查錄音原因。"
+  },
+  {
+    "id": "p5-u26",
+    "p": 5,
+    "q": "Someone should not be around dangerous cooking appliances and sharp knives if they can’t control their emotions,” said Cooke.",
+    "t": 5,
+    "a": "本句把流淚推論成失控和安全風險；這是評論，不能作為已確認事實。"
+  },
+  {
+    "id": "p5-u27",
+    "p": 5,
+    "q": "Neither Puddle, nor the director of Teen NetChef TV, Mr Dante Cruz, could be reached for comment.",
+    "t": 5,
+    "a": "記者未能取得兩人回應，說明公司公告可補上當事人的解釋。"
+  },
+  {
+    "id": "p5-u28",
+    "p": 5,
+    "q": "With rumours of a new show coming soon, Puddle is surely in hot water after this latest fiasco!",
+    "t": 6,
+    "a": "新節目仍被稱作 rumours，hot water 又是嘲諷；正式安排應採用後來電郵。"
+  },
+  {
+    "id": "p6-u1",
+    "p": 6,
+    "q": "Draft storyboard for the promotional video, with Dante Cruz’s comments",
+    "t": 5,
+    "a": "這是舊分鏡草稿及 Dante 評語，Task C 必須與聊天、電郵及錄音核對更新。"
+  },
+  {
+    "id": "p6-u2",
+    "p": 6,
+    "q": "1. Introduce the show",
+    "t": 5,
+    "a": "第一格提示先介紹節目；標題是製作流程，不是完整旁白。"
+  },
+  {
+    "id": "p6-u3",
+    "p": 6,
+    "q": "Viewer’s Choice — Ground-breaking TV!",
+    "t": 3,
+    "a": "節目名 Viewer’s Choice 可用；ground-breaking 的理由要用全程直播和互動機制說清楚。"
+  },
+  {
+    "id": "p6-u4",
+    "p": 6,
+    "q": "2. Introduce the star(s)",
+    "t": 5,
+    "a": "這格提示介紹主持；主持名單以最新確認為準。"
+  },
+  {
+    "id": "p6-u5",
+    "p": 6,
+    "q": "Our regular chef, plus one mystery guest each week",
+    "t": 5,
+    "a": "每週神秘嘉賓是舊方案，後來改為 Mary 共同主持，不能沿用。"
+  },
+  {
+    "id": "p6-u6",
+    "p": 6,
+    "q": "3. The choices",
+    "t": 5,
+    "a": "選擇環節的標題沒有說誰選甚麼；去錄音找觀眾選食材的機制。"
+  },
+  {
+    "id": "p6-u7",
+    "p": 6,
+    "q": "4. Episode 1",
+    "t": 5,
+    "a": "第四格提示首集內容；下一單位才提供題目。"
+  },
+  {
+    "id": "p6-u8",
+    "p": 6,
+    "q": "Episode 1 is called “Fruit Pie”",
+    "t": 3,
+    "a": "首集題目是 Fruit Pie，可寫進 Task C；餡料選項由 Dante 電郵補足。"
+  },
+  {
+    "id": "p6-u9",
+    "p": 6,
+    "q": "5. Audience voting",
+    "t": 5,
+    "a": "投票環節仍存在，但方法須按聊天更新為免費 app 投票。"
+  },
+  {
+    "id": "p6-u10",
+    "p": 6,
+    "q": "The voting hotline number will be on the screen in each episode.",
+    "t": 5,
+    "a": "熱線號碼上畫面是舊安排；聊天取消熱線，Task C 要改為 Teen NetChef TV app。"
+  },
+  {
+    "id": "p6-u11",
+    "p": 6,
+    "q": "6. The finished dish",
+    "t": 5,
+    "a": "第六格指向完成菜式；獎品及得獎者須連同下一格核對。"
+  },
+  {
+    "id": "p6-u12",
+    "p": 6,
+    "q": "The finished dish",
+    "t": 5,
+    "a": "畫面顯示完成菜式，單看這個標題尚未交代誰獲得它。"
+  },
+  {
+    "id": "p6-u13",
+    "p": 6,
+    "q": "7. The Big Prize",
+    "t": 5,
+    "a": "第七格引入大獎；下一單位提供得獎者條件。"
+  },
+  {
+    "id": "p6-u14",
+    "p": 6,
+    "q": "One lucky voter: Message: You’ve won!",
+    "t": 3,
+    "a": "一名幸運投票者贏得大獎；這個安排未被後來資料取消。"
+  },
+  {
+    "id": "p6-u15",
+    "p": 6,
+    "q": "8. Delivery of the Big Prize",
+    "t": 5,
+    "a": "第八格提示交代送獎安排，須找最新送遞公司及方法。"
+  },
+  {
+    "id": "p6-u16",
+    "p": 6,
+    "q": "The finished dish → straight to your door!",
+    "t": 3,
+    "a": "完成菜式會送到得獎者家中；Dante 電郵補足 FlyingFood 無人機送遞。"
+  },
+  {
+    "id": "p6-u17",
+    "p": 6,
+    "q": "Dante Cruz’s comments",
+    "t": 5,
+    "a": "以下是 Dante 對草稿的修改指示，應逐項解決留白。"
+  },
+  {
+    "id": "p6-u18",
+    "p": 6,
+    "q": "Not good enough: we need to say why it’s ground-breaking!",
+    "t": 5,
+    "a": "不能只說 ground-breaking；到錄音找全程直播及觀眾互動的具體理由。",
+    "locator": "Frame 1"
+  },
+  {
+    "id": "p6-u19",
+    "p": 6,
+    "q": "A little unclear — just explain who chooses what.",
+    "t": 5,
+    "a": "Dante 要求說明誰選甚麼；錄音確認由觀眾選食材。",
+    "locator": "Frame 3"
+  },
+  {
+    "id": "p6-u20",
+    "p": 6,
+    "q": "We can include what the main choice will be in Episode 1.",
+    "t": 5,
+    "a": "首集主要選項尚待補充；最新電郵確認蘋果或藍莓餡料。",
+    "locator": "Frame 4"
+  },
+  {
+    "id": "p6-u21",
+    "p": 6,
+    "q": "Check which delivery company — some exciting news on this soon!",
+    "t": 5,
+    "a": "明確要求查送遞公司；到 Dante 電郵核對 FlyingFood 及無人機。",
+    "locator": "Frame 8"
+  },
+  {
+    "id": "p7-u1",
+    "p": 7,
+    "q": "Chat between William Puddle and Archie Li",
+    "t": 5,
+    "a": "對話提供當事人解釋及節目更新；把 William 的說法與 Archie、Dante 的確認分開。"
+  },
+  {
+    "id": "p7-u2",
+    "p": 7,
+    "q": "Wednesday 19th April",
+    "t": 5,
+    "a": "聊天比報道晚一天，可用來澄清報道；節目最終確認仍看後來電郵。"
+  },
+  {
+    "id": "p7-u3",
+    "p": 7,
+    "q": "What were you thinking?",
+    "speaker": "Archie",
+    "t": 6,
+    "a": "Archie 表達責備，沒有新增事故原因。"
+  },
+  {
+    "id": "p7-u4",
+    "p": 7,
+    "q": "Was this some kind of a joke?",
+    "speaker": "Archie",
+    "t": 5,
+    "a": "這是 Archie 的猜測，不能據此說 William 故意製造事故。"
+  },
+  {
+    "id": "p7-u5",
+    "p": 7,
+    "q": "How did you flood the kitchen?",
+    "speaker": "Archie",
+    "t": 5,
+    "a": "how 提示公告要解釋水浸原因，下一段尋找 William 的承認。"
+  },
+  {
+    "id": "p7-u6",
+    "p": 7,
+    "q": "I’m so sorry!",
+    "speaker": "William",
+    "t": 6,
+    "a": "這是道歉語，沒有交代具體錯誤；公告仍要說清楚發生甚麼。"
+  },
+  {
+    "id": "p7-u7",
+    "p": 7,
+    "q": "This was my mistake.",
+    "speaker": "William",
+    "t": 1,
+    "a": "William 承認責任，支持 Task A 承認真正錯誤。"
+  },
+  {
+    "id": "p7-u8",
+    "p": 7,
+    "q": "I forgot to turn off the tap!",
+    "speaker": "William",
+    "t": 1,
+    "a": "忘記關水龍頭是水浸的直接原因，可用於 Task A。"
+  },
+  {
+    "id": "p7-u9",
+    "p": 7,
+    "q": "We’ve just switched from an automatic tap to a manual one and I forgot it wouldn’t turn off by itself!",
+    "speaker": "William",
+    "t": 1,
+    "a": "剛由自動龍頭改成手動龍頭，解釋為甚麼他誤以為會自動關水。"
+  },
+  {
+    "id": "p7-u10",
+    "p": 7,
+    "q": "I thought everyone would see the funny side!",
+    "speaker": "William",
+    "t": 5,
+    "a": "William 以為大家會覺得好笑；這不能成為公司淡化事故的辯解。"
+  },
+  {
+    "id": "p7-u11",
+    "p": 7,
+    "q": "What did Dante say?",
+    "speaker": "William",
+    "t": 5,
+    "a": "他問 Dante 的反應，將話題帶到節目前途；問題不代表已有決定。"
+  },
+  {
+    "id": "p7-u12",
+    "p": 7,
+    "q": "Am I still the star of Viewer’s Choice?",
+    "speaker": "William",
+    "t": 5,
+    "a": "他擔心能否繼續主持，尚未提供最終主持安排。"
+  },
+  {
+    "id": "p7-u13",
+    "p": 7,
+    "q": "We’ll get to that in a moment.",
+    "speaker": "Archie",
+    "t": 5,
+    "a": "Archie 暫緩談節目前途，準備先核對食安指控。"
+  },
+  {
+    "id": "p7-u14",
+    "p": 7,
+    "q": "First, tell me what happened with the raw chicken.",
+    "speaker": "Archie",
+    "t": 5,
+    "a": "提示核對生雞肉之後的清潔過程；問題本身不能證明沒洗手。"
+  },
+  {
+    "id": "p7-u15",
+    "p": 7,
+    "q": "I swear it’s not what it looks like!",
+    "speaker": "William",
+    "t": 5,
+    "a": "William 否認表面印象，具體解釋要讀下面的剪輯原因。"
+  },
+  {
+    "id": "p7-u16",
+    "p": 7,
+    "q": "I was so careful — I always am.",
+    "speaker": "William",
+    "t": 5,
+    "a": "自稱小心只是當事人表態；不能代替清潔畫面被剪走的證據。"
+  },
+  {
+    "id": "p7-u17",
+    "p": 7,
+    "q": "I had to edit the video because it was too long — I cut out the parts where I cleaned everything!",
+    "speaker": "William",
+    "t": 1,
+    "a": "影片太長，清潔片段被剪掉；Task A 用來解釋觀眾為何誤會他沒有洗手。"
+  },
+  {
+    "id": "p7-u18",
+    "p": 7,
+    "q": "And the tea towel?",
+    "speaker": "Archie",
+    "t": 5,
+    "a": "轉向另一項茶巾指控，不能用生雞肉的解釋代替。"
+  },
+  {
+    "id": "p7-u19",
+    "p": 7,
+    "q": "Can you explain that?",
+    "speaker": "Archie",
+    "t": 5,
+    "a": "that 指茶巾看似相同；下一句找實際用哪條及觀眾為何認錯。"
+  },
+  {
+    "id": "p7-u20",
+    "p": 7,
+    "q": "Honestly, I used a clean one!",
+    "speaker": "William",
+    "t": 1,
+    "a": "他用了乾淨茶巾，是 Task A 澄清茶巾指控的核心。"
+  },
+  {
+    "id": "p7-u21",
+    "p": 7,
+    "q": "It just looks like I didn’t because I have 150 of the same kind!",
+    "speaker": "William",
+    "t": 1,
+    "a": "他有 150 條相同款式茶巾，解釋為何觀眾以為是同一條。"
+  },
+  {
+    "id": "p7-u22",
+    "p": 7,
+    "q": "Don’t you remember?",
+    "speaker": "William",
+    "t": 5,
+    "a": "這是在提醒 Archie 回想先前影片，沒有新增茶巾事實。"
+  },
+  {
+    "id": "p7-u23",
+    "p": 7,
+    "q": "I showed them in my kitchen tour video.",
+    "speaker": "William",
+    "t": 5,
+    "a": "廚房導覽影片是 Archie 可能知道茶巾數量的背景，不是公告必寫點。"
+  },
+  {
+    "id": "p7-u24",
+    "p": 7,
+    "q": "Yes, but only your fans know about your other videos, not everybody!",
+    "speaker": "Archie",
+    "t": 5,
+    "a": "只有粉絲看過其他影片，解釋為甚麼公司須向一般公眾補充背景。"
+  },
+  {
+    "id": "p7-u25",
+    "p": 7,
+    "q": "All right.",
+    "speaker": "Archie",
+    "t": 6,
+    "a": "簡短回應表示接受，沒有新增事故或節目資料。"
+  },
+  {
+    "id": "p7-u26",
+    "p": 7,
+    "q": "Now that we’ve figured out what really happened I’ll get Nico to show our support on the website.",
+    "speaker": "Archie",
+    "t": 5,
+    "a": "Archie 要 Nico 在網站表達支持，確認 Task A 是對外澄清及支持聲明。"
+  },
+  {
+    "id": "p7-u27",
+    "p": 7,
+    "q": "Thank you so much!",
+    "speaker": "William",
+    "t": 6,
+    "a": "William 致謝，沒有新增寫作內容。"
+  },
+  {
+    "id": "p7-u28",
+    "p": 7,
+    "q": "Now let me pay you back: I have some news about the new show that I think might cheer up Dante.",
+    "speaker": "William",
+    "t": 5,
+    "a": "對話轉到新節目消息，接下來查哪些安排取代舊分鏡。"
+  },
+  {
+    "id": "p7-u29",
+    "p": 7,
+    "q": "Go on.",
+    "speaker": "Archie",
+    "t": 6,
+    "a": "Archie 催促繼續說，沒有新事實。"
+  },
+  {
+    "id": "p7-u30",
+    "p": 7,
+    "q": "So, we planned to have a different mystery guest each week, right?",
+    "speaker": "William",
+    "t": 5,
+    "a": "planned 表明每週神秘嘉賓是原定方案，接下來要核對改動。"
+  },
+  {
+    "id": "p7-u31",
+    "p": 7,
+    "q": "Well, Mary Steward just called.",
+    "speaker": "William",
+    "t": 5,
+    "a": "Mary 來電是新消息來源；來電本身不等於已確認參演。"
+  },
+  {
+    "id": "p7-u32",
+    "p": 7,
+    "q": "She says she supports me, she wants to help and she wants to be my co-star!",
+    "speaker": "William",
+    "t": 5,
+    "a": "wants to 表示 Mary 想共同主持；正式確認要看 Dante 後來電郵。"
+  },
+  {
+    "id": "p7-u33",
+    "p": 7,
+    "q": "Mary Steward?",
+    "speaker": "Archie",
+    "t": 5,
+    "a": "Archie 確認聽到的人名；這個問句不是參演確認。"
+  },
+  {
+    "id": "p7-u34",
+    "p": 7,
+    "q": "The Queen of TV Cooking?",
+    "speaker": "Archie",
+    "t": 5,
+    "a": "稱號提示 Mary 的知名度，但問句沒有確認合約或主持安排。"
+  },
+  {
+    "id": "p7-u35",
+    "p": 7,
+    "q": "As a co-star?!",
+    "speaker": "Archie",
+    "t": 5,
+    "a": "Archie 對共同主持表示驚訝，安排仍待下文決定。"
+  },
+  {
+    "id": "p7-u36",
+    "p": 7,
+    "q": "Well, she just might be able to save you!",
+    "speaker": "Archie",
+    "t": 6,
+    "a": "「救你」是 Archie 的樂觀評價，不是可核實的節目特色。"
+  },
+  {
+    "id": "p7-u37",
+    "p": 7,
+    "q": "OK, let’s go with her as the co-star and forget the mystery guest idea.",
+    "speaker": "Archie",
+    "t": 3,
+    "a": "Archie 同意以共同主持取代神秘嘉賓；Task C 採用更新方案，並用電郵核實 Mary 確認。"
+  },
+  {
+    "id": "p7-u38",
+    "p": 7,
+    "q": "If she confirms soon, we absolutely must include this in the promotion video.",
+    "speaker": "Archie",
+    "t": 5,
+    "a": "if 表示有條件；到 Dante 電郵核對確認後，才把 Mary 寫入宣傳片。"
+  },
+  {
+    "id": "p7-u39",
+    "p": 7,
+    "q": "Agreed.",
+    "speaker": "William",
+    "t": 5,
+    "a": "William 同意方案，但不能代替 Mary 本人的確認。"
+  },
+  {
+    "id": "p7-u40",
+    "p": 7,
+    "q": "Thanks, Archie!",
+    "speaker": "William",
+    "t": 6,
+    "a": "致謝沒有新增主持或投票資訊。"
+  },
+  {
+    "id": "p7-u41",
+    "p": 7,
+    "q": "That should get the voting hotline ringing!!!",
+    "speaker": "William",
+    "t": 5,
+    "a": "William 仍假設用熱線，下句會更正，不能當作現行方法。"
+  },
+  {
+    "id": "p7-u42",
+    "p": 7,
+    "q": "Did nobody tell you?",
+    "speaker": "Archie",
+    "t": 5,
+    "a": "Archie 的反問預告資訊更新，具體方法在下一句。"
+  },
+  {
+    "id": "p7-u43",
+    "p": 7,
+    "q": "We decided that viewers will be able to vote for free through the Teen NetChef TV app.",
+    "speaker": "Archie",
+    "t": 3,
+    "a": "觀眾透過 Teen NetChef TV app 免費投票，是 Task C 應採用的現行安排。"
+  },
+  {
+    "id": "p7-u44",
+    "p": 7,
+    "q": "We’ve cancelled the voting hotline.",
+    "speaker": "Archie",
+    "t": 3,
+    "a": "熱線已取消；用來淘汰分鏡舊資料，宣傳片只介紹免費 app 方法。"
+  },
+  {
+    "id": "p7-u45",
+    "p": 7,
+    "q": "Oh, I see.",
+    "speaker": "William",
+    "t": 6,
+    "a": "表示明白，沒有新增投票資訊。"
+  },
+  {
+    "id": "p7-u46",
+    "p": 7,
+    "q": "Good decision!",
+    "speaker": "William",
+    "t": 6,
+    "a": "對決定的稱讚，沒有新增可寫事實。"
+  },
+  {
+    "id": "p8-u1",
+    "p": 8,
+    "q": "All staff weekly email from Dante Cruz",
+    "t": 5,
+    "a": "這封全體員工電郵提供最新培訓條件及節目確認。"
+  },
+  {
+    "id": "p8-u2",
+    "p": 8,
+    "q": "File　 Message Junk　 Delete　 Reply　 Reply All　 Forward　 Move　 Mark Unread　 Follow up",
+    "t": 6,
+    "a": "這些是郵件介面按鈕，不是員工培訓或節目的內容。"
+  },
+  {
+    "id": "p8-u3",
+    "p": 8,
+    "q": "To: All staff",
+    "t": 5,
+    "a": "收件人是全體員工，支持 Task B 選擇普遍適用的培訓。"
+  },
+  {
+    "id": "p8-u4",
+    "p": 8,
+    "q": "Sent: Thursday 20th April 2023 9:02 AM",
+    "t": 5,
+    "a": "電郵晚於報道及聊天，用來判斷哪份資料提供最新安排。"
+  },
+  {
+    "id": "p8-u5",
+    "p": 8,
+    "q": "From: Dante Cruz",
+    "t": 5,
+    "a": "寄件人是主管 Dante，他提供公司條件及節目確認。"
+  },
+  {
+    "id": "p8-u6",
+    "p": 8,
+    "q": "Subject: Weekly Email",
+    "t": 5,
+    "a": "主旨顯示這是每週內部通知，下面須按項目抽取資料。"
+  },
+  {
+    "id": "p8-u7",
+    "p": 8,
+    "q": "Dear All",
+    "t": 4,
+    "a": "群體稱呼可借用於 Task B 電郵，不屬培訓事實。"
+  },
+  {
+    "id": "p8-u8",
+    "p": 8,
+    "q": "Great to hear that you’re all working hard to make our dreams for the new series of Live, Study, Cook a reality.",
+    "t": 6,
+    "a": "這句是對舊節目工作的鼓勵，沒有新增三項任務所需內容。"
+  },
+  {
+    "id": "p8-u9",
+    "p": 8,
+    "q": "Here are the latest initiatives to make sure that we all keep on track and strive to achieve:",
+    "t": 5,
+    "a": "引入最新措施，提示下面條件可能更新錄音或草稿。"
+  },
+  {
+    "id": "p8-u10",
+    "p": 8,
+    "q": "1. Special training",
+    "t": 5,
+    "a": "小標題定位特別培訓，具體需要要讀下文及錄音。"
+  },
+  {
+    "id": "p8-u11",
+    "p": 8,
+    "q": "Those of you who listened to the online staff meeting will have heard that we identified two areas of training that we need urgently.",
+    "t": 2,
+    "a": "兩個急需培訓範圍來自員工會議；結合錄音確認防火及社交媒體溝通。"
+  },
+  {
+    "id": "p8-u12",
+    "p": 8,
+    "q": "We have since decided to extend both of these to all staff, not just chefs.",
+    "t": 2,
+    "a": "培訓已擴展至全體員工，不能只選管理層或特定戶外職務的課程。"
+  },
+  {
+    "id": "p8-u13",
+    "p": 8,
+    "q": "2. Food hygiene training",
+    "t": 5,
+    "a": "標題定位第三類食品衞生培訓，下一句交代要求。"
+  },
+  {
+    "id": "p8-u14",
+    "p": 8,
+    "q": "Similarly, staff are encouraged to do food hygiene training.",
+    "t": 2,
+    "a": "員工亦應接受食品衞生訓練，Task B 必須涵蓋這個範疇。"
+  },
+  {
+    "id": "p8-u15",
+    "p": 8,
+    "q": "As per our company policy on food hygiene, trainers for this course must be approved by the Health Advisory Board (HAB).",
+    "t": 2,
+    "a": "食品衞生導師必須獲 HAB 認可，是課程篩選硬條件；AFH pending 不能替代。"
+  },
+  {
+    "id": "p8-u16",
+    "p": 8,
+    "q": "3. Annual Review Targets (ARTs)",
+    "t": 5,
+    "a": "小標題引入年度評核目標，下面提供參訓好處。"
+  },
+  {
+    "id": "p8-u17",
+    "p": 8,
+    "q": "I have informed Human Resources that all training will count as credit towards your Annual Review Targets (ARTs).",
+    "t": 2,
+    "a": "所有培訓計入 ARTs，是 Task B 可寫的公司層面得益。"
+  },
+  {
+    "id": "p8-u18",
+    "p": 8,
+    "q": "These will look really good on an appraisal!",
+    "t": 2,
+    "a": "培訓紀錄有利工作評核，補充參訓誘因；不要誇大成保證升職。"
+  },
+  {
+    "id": "p8-u19",
+    "p": 8,
+    "q": "4. Viewer’s Choice — updates",
+    "t": 5,
+    "a": "此處開始新節目更新，與前面的培訓內容分開處理。"
+  },
+  {
+    "id": "p8-u20",
+    "p": 8,
+    "q": "a)I’m delighted to announce that Mary Steward has confirmed her availability for Viewer’s Choice!",
+    "t": 3,
+    "a": "Mary 已確認檔期，將聊天的有條件方案變成 Task C 可用的正式安排。"
+  },
+  {
+    "id": "p8-u21",
+    "p": 8,
+    "q": "b)More exciting news: our Big Prize — the finished dish — will be delivered by the food delivery company FlyingFood using a drone.",
+    "t": 3,
+    "a": "大獎是完成菜式，由 FlyingFood 以無人機送遞，補齊分鏡留白。"
+  },
+  {
+    "id": "p8-u22",
+    "p": 8,
+    "q": "Cutting edge technology!",
+    "t": 4,
+    "a": "這是科技宣傳語氣，可借其吸引觀眾的功能；具體事實仍是上一句的無人機送遞。"
+  },
+  {
+    "id": "p8-u23",
+    "p": 8,
+    "q": "c)We’ve agreed that the main choice in Episode 1 will be between apple and blueberry filling.",
+    "t": 3,
+    "a": "首集選蘋果或藍莓餡料，直接補上 Task C 觀眾選擇內容。"
+  },
+  {
+    "id": "p8-u24",
+    "p": 8,
+    "q": "Yum!",
+    "t": 6,
+    "a": "感嘆好吃沒有新增選項或節目機制。"
+  },
+  {
+    "id": "p8-u25",
+    "p": 8,
+    "q": "We should mention this in any promotional materials.",
+    "t": 5,
+    "a": "this 指剛提到的餡料選擇，明確要求在宣傳材料交代。"
+  },
+  {
+    "id": "p8-u26",
+    "p": 8,
+    "q": "Keep up the good work and Bon Appetit!",
+    "t": 6,
+    "a": "禮貌結語沒有新增培訓或節目事實。"
+  },
+  {
+    "id": "p8-u27",
+    "p": 8,
+    "q": "Dante Cruz",
+    "t": 5,
+    "a": "署名確認發信者，不能把 Dante 姓名當作培訓好處。"
+  },
+  {
+    "id": "p9-u1",
+    "p": 9,
+    "q": "Corporate Training Intranet page",
+    "t": 5,
+    "a": "這頁提供候選課程，要與 Dante 條件及參加者評語交叉核對。"
+  },
+  {
+    "id": "p9-u2",
+    "p": 9,
+    "q": "Course Provider:Pinafore Solutions",
+    "t": 2,
+    "a": "Pinafore Solutions 是 Hazard Awareness 的提供者，推薦時連同課名寫出。"
+  },
+  {
+    "id": "p9-u3",
+    "p": 9,
+    "q": "Life-Proof Professional Chef Training",
+    "t": 6,
+    "a": "培訓品牌口號沒有提供可驗證的工作效益。"
+  },
+  {
+    "id": "p9-u4",
+    "p": 9,
+    "q": "Pinafore Solutions offers training and development programmes for culinary staff.",
+    "t": 5,
+    "a": "提供者主打廚務培訓；是否適合全體員工仍須看各課詳情。"
+  },
+  {
+    "id": "p9-u5",
+    "p": 9,
+    "q": "Available courses",
+    "t": 5,
+    "a": "標題引入候選課程，並非要求全部推薦。"
+  },
+  {
+    "id": "p9-u6",
+    "p": 9,
+    "q": "1. Advanced Fire Safety",
+    "t": 5,
+    "a": "Advanced Fire Safety 是候選課名；下文及評語顯示偏管理層，最終不入選。"
+  },
+  {
+    "id": "p9-u7",
+    "p": 9,
+    "q": "This course will help develop and manage your staff in the realm of fire safety.",
+    "t": 5,
+    "a": "develop and manage your staff 指向管理職務，與全體員工需要較不吻合。"
+  },
+  {
+    "id": "p9-u8",
+    "p": 9,
+    "q": "We include helpful guidance on how to develop a fire plan as well as the important things to consider when training fire marshals.",
+    "t": 5,
+    "a": "消防計劃及 fire marshals 訓練偏管理安排，用來比較課程適用對象。"
+  },
+  {
+    "id": "p9-u9",
+    "p": 9,
+    "q": "Finally, we’ve got you covered in maintaining those all-important emergency routes that could be vital in the survival of you and your employees.",
+    "t": 5,
+    "a": "維持逃生路線有關防火，但整門課仍須核對對象，不能只憑一項相關技能入選。"
+  },
+  {
+    "id": "p9-u10",
+    "p": 9,
+    "q": "Sign up today!",
+    "t": 6,
+    "a": "催促報名是廣告用語，沒有新增選課理由。"
+  },
+  {
+    "id": "p9-u11",
+    "p": 9,
+    "q": "2. Hazard Awareness",
+    "t": 2,
+    "a": "Hazard Awareness 是適合本次防火需要的課程名稱。"
+  },
+  {
+    "id": "p9-u12",
+    "p": 9,
+    "q": "The kitchen is full of fire hazards and dangers.",
+    "t": 5,
+    "a": "指出廚房有火警風險，呼應錄音投訴；實際技能在下文。"
+  },
+  {
+    "id": "p9-u13",
+    "p": 9,
+    "q": "Can you recognise them all?",
+    "t": 5,
+    "a": "反問引導讀者留意識別風險，尚未提供具體課程技能。"
+  },
+  {
+    "id": "p9-u14",
+    "p": 9,
+    "q": "A professional chef needs all the tricks of the trade to keep everyone safe.",
+    "t": 2,
+    "a": "保護所有人的安全是工作得益，須配合滅火筒及通道技能說明。"
+  },
+  {
+    "id": "p9-u15",
+    "p": 9,
+    "q": "This course starts with how to use a fire extinguisher and moves on to how to keep fire exits clear — a must for the next culinary genius!",
+    "t": 2,
+    "a": "課程教使用滅火筒及保持走火通道暢通，可直接解釋員工工作上的防火得益。"
+  },
+  {
+    "id": "p9-u16",
+    "p": 9,
+    "q": "3. Food Hygiene Basics",
+    "t": 5,
+    "a": "Food Hygiene Basics 是食品衞生候選課；必須核對認可資格才決定。"
+  },
+  {
+    "id": "p9-u17",
+    "p": 9,
+    "q": "Our most popular course: see how to handle raw food and cook at a safe temperature.",
+    "t": 5,
+    "a": "處理生食及安全溫度看似切題，但不能取代 HAB 認可條件。"
+  },
+  {
+    "id": "p9-u18",
+    "p": 9,
+    "q": "AFH approval pending!",
+    "t": 5,
+    "a": "只有 AFH approval pending，既非 HAB 也未完成認可，因此不符合公司要求。"
+  },
+  {
+    "id": "p9-u19",
+    "p": 9,
+    "q": "Course Provider:The Grill Gurus",
+    "t": 2,
+    "a": "The Grill Gurus 是 The Chef’s Special 的提供者，推薦時須配對正確課名。"
+  },
+  {
+    "id": "p9-u20",
+    "p": 9,
+    "q": "Need comprehensive chef training for indoor and outdoor chefs?",
+    "t": 5,
+    "a": "廣告稱涵蓋室內及戶外廚師，仍要逐課檢查是否切合員工需要。"
+  },
+  {
+    "id": "p9-u21",
+    "p": 9,
+    "q": "The Grill Gurus can help!",
+    "t": 6,
+    "a": "自稱能幫忙是宣傳語，沒有具體技能或資格。"
+  },
+  {
+    "id": "p9-u22",
+    "p": 9,
+    "q": "Rest assured that your kitchen staff will know how to cook safely for happy kitchens, campfires and barbeques!",
+    "t": 5,
+    "a": "廣告列廚房及露營場景；要區分下一頁課程中哪個適合室內工作。"
+  },
+  {
+    "id": "p9-u23",
+    "p": 9,
+    "q": "We run training sessions for the modern adventurous chef.",
+    "t": 5,
+    "a": "現代冒險廚師是市場定位，HAB 資格要看下一句。"
+  },
+  {
+    "id": "p9-u24",
+    "p": 9,
+    "q": "All instructors are HAB approved.",
+    "t": 2,
+    "a": "所有導師獲 HAB 認可，符合 Dante 的食品衞生培訓硬條件。"
+  },
+  {
+    "id": "p9-u25",
+    "p": 9,
+    "q": "Courses",
+    "t": 5,
+    "a": "這是課程列表標題，不是獨立推薦理由。"
+  },
+  {
+    "id": "p9-u26",
+    "p": 9,
+    "q": "A: The Chef’s Special",
+    "t": 2,
+    "a": "The Chef’s Special 是入選食品衞生課名稱，提供者是 The Grill Gurus。"
+  },
+  {
+    "id": "p9-u27",
+    "p": 9,
+    "q": "The ultimate food safety guide for adventurous chefs, including “Food Safety 101”: from the test kitchen to the plate™.",
+    "t": 2,
+    "a": "Food Safety 101 提供由廚房到餐碟的基礎食安內容，可支持工作用途。"
+  },
+  {
+    "id": "p9-u28",
+    "p": 9,
+    "q": "“Keep it separate, stupid!” is our tongue-in-cheek guide to avoiding cross-contamination in the kitchen, while “Burn those bugs” explains the importance of safe cooking temperatures.",
+    "t": 2,
+    "a": "本句兩個課程口號分別指避免交叉污染和安全烹調溫度；它們嵌在同一句，應保留完整語法並解釋兩項技能。"
+  },
+  {
+    "id": "p9-u29",
+    "p": 9,
+    "q": "B: The Fire Chef’s Manual",
+    "t": 5,
+    "a": "The Fire Chef’s Manual 是戶外防火候選課，與室內廚房需求較不吻合。"
+  },
+  {
+    "id": "p9-u30",
+    "p": 9,
+    "q": "We cover all the basics to make your alfresco cooking experience as safe as possible.",
+    "t": 5,
+    "a": "alfresco 指戶外烹調，提示使用場景與本次室內工作不同。"
+  },
+  {
+    "id": "p9-u31",
+    "p": 9,
+    "q": "Learn how to light a campfire safely, then we’ll get you ready to use a fire extinguisher when things go wrong.",
+    "t": 5,
+    "a": "營火及滅火筒有安全價值，但要比較場景；本次優先選 Hazard Awareness。"
+  },
+  {
+    "id": "p9-u32",
+    "p": 9,
+    "q": "Putting out an oil fire is something that’s more difficult than it looks: we’ll guide you through the tricky process.",
+    "t": 5,
+    "a": "處理油火是相關技能，但不足以抵消整門課偏戶外的限制。"
+  },
+  {
+    "id": "p9-u33",
+    "p": 9,
+    "q": "Trust us to make sure only the food gets burnt™.",
+    "t": 6,
+    "a": "只讓食物燒焦是廣告玩笑，不是正式工作效益。"
+  },
+  {
+    "id": "p9-u34",
+    "p": 9,
+    "q": "Course Provider:PR Productions",
+    "t": 2,
+    "a": "PR Productions 是 Be Your Best! 的提供者，推薦時要配對。"
+  },
+  {
+    "id": "p9-u35",
+    "p": 9,
+    "q": "Perfecting Dreams for Online Creators",
+    "t": 6,
+    "a": "追求完美的品牌口號沒有說明溝通技能。"
+  },
+  {
+    "id": "p9-u36",
+    "p": 9,
+    "q": "Let PR Productions pave your path to personal perfection!",
+    "t": 6,
+    "a": "personal perfection 是誇張宣傳，不能當作課程保證。"
+  },
+  {
+    "id": "p9-u37",
+    "p": 9,
+    "q": "Online booking is now open.",
+    "t": 6,
+    "a": "開放網上報名是行政訊息，不是三課推薦的核心理由。"
+  },
+  {
+    "id": "p9-u38",
+    "p": 9,
+    "q": "Each course features 5 hours of Zoom sessions with certified Social Media Influencers!",
+    "t": 5,
+    "a": "交代課程時數、形式及導師背景；選課核心仍是是否改善網上表達。"
+  },
+  {
+    "id": "p9-u39",
+    "p": 9,
+    "q": "Option 1: Be Your Best!",
+    "t": 2,
+    "a": "Be Your Best! 是入選的溝通課程名稱。"
+  },
+  {
+    "id": "p9-u40",
+    "p": 9,
+    "q": "We teach the importance of Crystal Clear Communication™: the art of only saying what you mean and meaning what you say.",
+    "t": 2,
+    "a": "清楚表達本意可避免誤解和冒犯，直接對應錄音中的社交媒體培訓需要。"
+  },
+  {
+    "id": "p9-u41",
+    "p": 9,
+    "q": "After this course, you’ll be a social media angel, showing your perfect self, all the time!",
+    "t": 6,
+    "a": "social media angel 是誇張效果承諾，不宜寫進推薦電郵。"
+  },
+  {
+    "id": "p9-u42",
+    "p": 9,
+    "q": "Our previous graduates include stars of stage and screen, CEOs and KOLs.",
+    "t": 6,
+    "a": "名人及 KOL 校友是宣傳背書，不能證明員工工作得益。"
+  },
+  {
+    "id": "p9-u43",
+    "p": 9,
+    "q": "Yoga mums and fitness dads also welcome!",
+    "t": 6,
+    "a": "招徠健身家長與本次員工溝通需要無直接關係。"
+  },
+  {
+    "id": "p9-u44",
+    "p": 9,
+    "q": "Option 2: Maximise My Money",
+    "t": 5,
+    "a": "Maximise My Money 是另一候選課，主打營利，不能代替所需溝通訓練。"
+  },
+  {
+    "id": "p9-u45",
+    "p": 9,
+    "q": "How to turn your social media feed into a money-spinner?",
+    "t": 5,
+    "a": "money-spinner 指賺錢，顯示課程重點偏離避免誤解和冒犯。"
+  },
+  {
+    "id": "p9-u46",
+    "p": 9,
+    "q": "It’s not just about the way you sound, but what your customers can see.",
+    "t": 5,
+    "a": "著重聲音及視覺呈現，未直接說明如何清楚表達本意。"
+  },
+  {
+    "id": "p9-u47",
+    "p": 9,
+    "q": "Join this course to write like a millionaire™ and monetise your brand today!",
+    "t": 5,
+    "a": "寫作及品牌變現服務營利目標，本次選 Be Your Best! 的清楚溝通技能。"
+  },
+  {
+    "id": "p10-u1",
+    "p": 10,
+    "q": "Corporate Training: reviews from previous participants",
+    "t": 5,
+    "a": "以下是參加者個人評語；可輔助篩選，但不能把個人意見寫成公司保證。"
+  },
+  {
+    "id": "p10-u2",
+    "p": 10,
+    "q": "Food Hygiene Basics",
+    "t": 5,
+    "a": "這組評語屬 Food Hygiene Basics，核對 HAB 資格是關鍵。"
+  },
+  {
+    "id": "p10-u3",
+    "p": 10,
+    "q": "I loved, loved, loved this course.",
+    "t": 6,
+    "a": "強烈喜愛是個人感受，沒有具體選課證據。"
+  },
+  {
+    "id": "p10-u4",
+    "p": 10,
+    "q": "They went through everything, in lots of great detail.",
+    "t": 5,
+    "a": "稱讚內容詳細，但正評不能彌補認可資格不足。"
+  },
+  {
+    "id": "p10-u5",
+    "p": 10,
+    "q": "As a newly-trained chef, this is going to be a massive benefit to me.",
+    "t": 5,
+    "a": "新入行廚師預期受益不等於適合全體員工，仍須先核對 HAB。"
+  },
+  {
+    "id": "p10-u6",
+    "p": 10,
+    "q": "A bit of a shame that the instructors lost their HAB approval (they’re switching to AFH — the Association of Food Health — next year), but still totally worthwhile as they knew what they were doing.",
+    "t": 5,
+    "a": "明說導師失去 HAB 認可，未來轉 AFH 也不符合當前公司條件；因此淘汰。"
+  },
+  {
+    "id": "p10-u7",
+    "p": 10,
+    "q": "The instructors gave out some really interesting tips on food safety.",
+    "t": 5,
+    "a": "食安貼士看似有用，但不能抵消缺少 HAB 認可的問題。"
+  },
+  {
+    "id": "p10-u8",
+    "p": 10,
+    "q": "Although I liked the course, I thought it was a bit too short.",
+    "t": 5,
+    "a": "課程太短是個人評價，可作比較背景；淘汰的決定性原因仍是 HAB。"
+  },
+  {
+    "id": "p10-u9",
+    "p": 10,
+    "q": "It would have been better to have some time for questions at the end.",
+    "t": 5,
+    "a": "希望有問答時間是改善建議，沒有改變資格不符的事實。"
+  },
+  {
+    "id": "p10-u10",
+    "p": 10,
+    "q": "The Chef’s Special",
+    "t": 5,
+    "a": "以下評語屬 The Chef’s Special，注意與上一門課分開。"
+  },
+  {
+    "id": "p10-u11",
+    "p": 10,
+    "q": "Yes, great: no complaints.",
+    "t": 6,
+    "a": "沒有投訴是籠統評價，不是具體工作得益。"
+  },
+  {
+    "id": "p10-u12",
+    "p": 10,
+    "q": "My boss made me do this course.",
+    "t": 6,
+    "a": "由主管要求參加只是個人報名背景，不能作為推薦理由。"
+  },
+  {
+    "id": "p10-u13",
+    "p": 10,
+    "q": "I thought the “101” section, which focused on food hygiene, was really informative, and the “Keep it separate, stupid!” part made me laugh!",
+    "t": 4,
+    "a": "本句肯定基礎食安內容；引用內含感嘆號的課程名不能截斷句子，笑話反應也不是主要效益。"
+  },
+  {
+    "id": "p10-u14",
+    "p": 10,
+    "q": "What a fab day!",
+    "t": 6,
+    "a": "愉快的一天是感受，沒有說明學到甚麼。"
+  },
+  {
+    "id": "p10-u15",
+    "p": 10,
+    "q": "Great tips on how to have a food-safe kitchen.",
+    "t": 4,
+    "a": "安全廚房貼士可補充工作效益；主要論據仍用課程的交叉污染及溫度內容。"
+  },
+  {
+    "id": "p10-u16",
+    "p": 10,
+    "q": "It mostly deals with work settings, though, so nothing I could use at home.",
+    "t": 4,
+    "a": "內容集中工作場景，反而切合員工培訓；沒有家用價值並非本次缺點。"
+  },
+  {
+    "id": "p10-u17",
+    "p": 10,
+    "q": "Still, it will definitely have its uses in my cooking career as it comes with a professional qualification.",
+    "t": 4,
+    "a": "參加者提到職業用途及資格，可作補充佐證，不要推論所有人必獲某資格。"
+  },
+  {
+    "id": "p10-u18",
+    "p": 10,
+    "q": "Hazard Awareness",
+    "t": 5,
+    "a": "以下評語對應 Hazard Awareness，留意適用人群。"
+  },
+  {
+    "id": "p10-u19",
+    "p": 10,
+    "q": "I was feeling really under the weather that day and my mum said I shouldn’t go, but I’m really glad I did in the end as this course has something for everyone, not just chefs.",
+    "t": 4,
+    "a": "雖然前半談身體不適，核心是 everyone, not just chefs，支持全體員工適用。"
+  },
+  {
+    "id": "p10-u20",
+    "p": 10,
+    "q": "Perseverance really pays off in so many areas of life!",
+    "t": 6,
+    "a": "毅力的人生感悟沒有新增防火技能。"
+  },
+  {
+    "id": "p10-u21",
+    "p": 10,
+    "q": "The Fire Chef’s Manual",
+    "t": 5,
+    "a": "以下評語對應戶外防火課，注意與室內廚房需求比較。"
+  },
+  {
+    "id": "p10-u22",
+    "p": 10,
+    "q": "This was awesome.",
+    "t": 6,
+    "a": "awesome 是籠統讚賞，沒有具體工作用途。"
+  },
+  {
+    "id": "p10-u23",
+    "p": 10,
+    "q": "Jake, the instructor, was super knowledgeable and answered all my questions.",
+    "t": 5,
+    "a": "講師知識豐富且願答問題是正評，但仍須檢查課程場景是否適合。"
+  },
+  {
+    "id": "p10-u24",
+    "p": 10,
+    "q": "He’s a surfer, just like me, so it was really useful to learn about cooking on the beach over an open-air fire.",
+    "t": 5,
+    "a": "本句將衝浪興趣連到海灘明火烹調，關鍵是戶外場景；私人興趣不能作推薦理由。"
+  },
+  {
+    "id": "p10-u25",
+    "p": 10,
+    "q": "Paradise!",
+    "t": 6,
+    "a": "Paradise 是感嘆，沒有工作技能。"
+  },
+  {
+    "id": "p10-u26",
+    "p": 10,
+    "q": "My buddy Steve says he thought it was a waste of time because he works at an indoor kitchen.",
+    "t": 5,
+    "a": "室內廚房工作的 Steve 認為無用，支持這門戶外課較不適合本次需要。"
+  },
+  {
+    "id": "p10-u27",
+    "p": 10,
+    "q": "I told him to change jobs!",
+    "t": 6,
+    "a": "叫朋友轉工是玩笑，不能作培訓建議。"
+  },
+  {
+    "id": "p10-u28",
+    "p": 10,
+    "q": "Ha!",
+    "t": 6,
+    "a": "笑聲沒有新增事實。"
+  },
+  {
+    "id": "p10-u29",
+    "p": 10,
+    "q": "Advanced Fire Safety",
+    "t": 5,
+    "a": "以下評語屬 Advanced Fire Safety，檢查是否適合全體員工。"
+  },
+  {
+    "id": "p10-u30",
+    "p": 10,
+    "q": "Lots of information, but it’s really only for management-level staff, not for everyone, even though that’s not clear in the course description.",
+    "t": 5,
+    "a": "明說僅適合管理層，與 all staff 條件不符，是淘汰的重要線索。"
+  },
+  {
+    "id": "p10-u31",
+    "p": 10,
+    "q": "I actually fell asleep in the boring online sessions.",
+    "t": 6,
+    "a": "打瞌睡是個人體驗，不能據此斷言課程對所有人無效。"
+  },
+  {
+    "id": "p10-u32",
+    "p": 10,
+    "q": "Must do better, Pinafore Solutions!",
+    "t": 6,
+    "a": "批評提供者是情緒表態，沒有新增篩選條件。"
+  },
+  {
+    "id": "p10-u33",
+    "p": 10,
+    "q": "I understand that fire marshal training is a very serious issue, and we need to train staff properly, but do we really need 25 hours of online talks for this?",
+    "t": 5,
+    "a": "質疑 25 小時網課效率，補充課程負擔的評價；主要淘汰原因仍是管理層定位。"
+  },
+  {
+    "id": "p10-u34",
+    "p": 10,
+    "q": "Inefficient and expensive.",
+    "t": 5,
+    "a": "低效且昂貴是個人評價，可輔助比較，不能冒稱客觀定論。"
+  },
+  {
+    "id": "p10-u35",
+    "p": 10,
+    "q": "Be Your Best!",
+    "t": 5,
+    "a": "以下評語屬 Be Your Best!，找可對應員工溝通的具體例子。"
+  },
+  {
+    "id": "p10-u36",
+    "p": 10,
+    "q": "O.M.Gosh!",
+    "t": 6,
+    "a": "O.M.Gosh 是感嘆詞，縮寫中的句點不另分成步驟。"
+  },
+  {
+    "id": "p10-u37",
+    "p": 10,
+    "q": "What a wonderful course.",
+    "t": 6,
+    "a": "wonderful 是籠統稱讚，沒有技能證據。"
+  },
+  {
+    "id": "p10-u38",
+    "p": 10,
+    "q": "I’m a fashion blogger and this has already improved my videos.",
+    "t": 4,
+    "a": "時尚博主說影片改善，是個人應用例子；員工推薦仍要連到清楚溝通。"
+  },
+  {
+    "id": "p10-u39",
+    "p": 10,
+    "q": "Life’s so much easier now!",
+    "t": 6,
+    "a": "生活容易了是模糊感受，不能直接當工作得益。"
+  },
+  {
+    "id": "p10-u40",
+    "p": 10,
+    "q": "Also, Jinny, who runs the course, is lovely!",
+    "t": 6,
+    "a": "喜歡導師人格不是溝通技能證據。"
+  },
+  {
+    "id": "p10-u41",
+    "p": 10,
+    "q": "Her happy smile kept me motivated day after day.",
+    "t": 6,
+    "a": "笑容帶來動力是個人感受，未說明工作表達能力。"
+  },
+  {
+    "id": "p10-u42",
+    "p": 10,
+    "q": "This course is absolutely not just for social media stars: I work in PR as well as being a vlogger.",
+    "t": 4,
+    "a": "參加者兼任 PR，支持課程用途不局限社交媒體明星。"
+  },
+  {
+    "id": "p10-u43",
+    "p": 10,
+    "q": "Before, I had real trouble communicating in work meetings — not anymore!",
+    "t": 4,
+    "a": "工作會議溝通改善，是與員工工作直接相關的佐證。"
+  },
+  {
+    "id": "p10-u44",
+    "p": 10,
+    "q": "That purple backdrop was to die for as well — you’ll see what I mean when you log in for the first time.",
+    "t": 6,
+    "a": "紫色背景是審美評價，不能作為課程工作效益。"
+  },
+  {
+    "id": "p10-u45",
+    "p": 10,
+    "q": "You’re welcome!",
+    "t": 6,
+    "a": "You’re welcome 是客套收尾，沒有新資料。"
+  },
+  {
+    "id": "p10-u46",
+    "p": 10,
+    "q": "Maximise My Money",
+    "t": 5,
+    "a": "以下評語屬 Maximise My Money，重點比較營利與清楚溝通。"
+  },
+  {
+    "id": "p10-u47",
+    "p": 10,
+    "q": "Such a good course — the tips really helped me to maximise my brand and start raking in the profit.",
+    "t": 5,
+    "a": "品牌和盈利改善呼應變現目標，並非本次最急需的網上言行訓練。"
+  },
+  {
+    "id": "p10-u48",
+    "p": 10,
+    "q": "I blew my competitors out of the water with deftly-crafted written text and some stunning visuals.",
+    "t": 5,
+    "a": "文字和視覺技巧幫助競爭，仍偏市場營利，較不符合公司本次要求。"
+  },
+  {
+    "id": "p10-u49",
+    "p": 10,
+    "q": "Take this together with PR Productions’ course on communication and you’ll be the complete package.",
+    "t": 5,
+    "a": "建議兩課同修是參加者意見；Task B 須選三個指定範疇，不能因此加推此課。"
+  },
+  {
+    "id": "p10-u50",
+    "p": 10,
+    "q": "THIS IS THE LAST PAGE OF THE PART B2 DATA FILE",
+    "t": 6,
+    "a": "這是卷面結束標記，沒有寫作內容。"
+  }
+];
+const archivedDataRows23=rows.filter(r=>r.stage===3);
+const atomicNormalize23=text=>text.toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
+const priorAtomicKey23=savedEntry23||key23(rows[i]);
+const oldUsageAtomic23=stableUsage();
+const atomicRows23=sourceUnits23.map(unit=>({...unit,stage:3,leaf:unit.p,origin:'editorial',state:'CURRENT',sourceUnitId:unit.id}));
+// Locate occurrences in source order so repeated headings never highlight an earlier copy.
+for(let page=5;page<=10;page++){
+ const doc=new DOMParser().parseFromString(nativePages23[page-1],'text/html');
+ const walker=doc.createTreeWalker(doc.body,NodeFilter.SHOW_TEXT);let source='';
+ while(walker.nextNode()){const node=walker.currentNode;if(!node.parentElement.closest('.translation,details,header,textarea'))source+=atomicNormalize23(node.data);}
+ let cursor=0;
+ for(const row of atomicRows23.filter(r=>r.p===page)){
+  const needle=atomicNormalize23(row.q),start=source.indexOf(needle,cursor);
+  if(start<0)throw Error('Source unit not found in reading order: '+row.id+' '+row.q);
+  row.sourceStart=start;cursor=start+needle.length;
+ }
+}
+// Keep the authored ledger as historical reference, never as a multi-sentence Next card.
+for(const old of archivedDataRows23){
+ const oldQuote=(old.legacyQuote||old.q).replace(/^(Archie|William):\s*/,'');
+ const match=atomicRows23.find(r=>r.p===old.p&&(oldQuote.includes(r.q)||r.q.includes(oldQuote)||r.q.includes(old.q)));
+ if(match){(match.legacyKeys??=[]).push(key23(old),...(old.legacyKeys||[]));}
+}
+for(const row of atomicRows23){
+ row.referenceNotes=manualBaseRows23.filter(old=>old.p===row.p&&atomicNormalize23(old.manualQuote||old.q).includes(atomicNormalize23(row.q)));
+}
+const atomicStart23=rows.findIndex(r=>r.stage===3);
+rows.splice(atomicStart23,archivedDataRows23.length,...atomicRows23);
+const atomicResume23=entry23(priorAtomicKey23);if(atomicResume23>=0)i=atomicResume23;else i=Math.min(i,rows.length-1);
+for(const [task,state] of Object.entries(oldUsageAtomic23)){const at=entry23(state.key);if(at>=0){shownByTask[task]={i:at,n:state.n};positions[task]=at;}}
+E('jump23').replaceChildren(...rows.map((r,j)=>new Option((j+1)+' · '+(r.q||r.a).slice(0,48),j)));
+render();
 </script><script data-reader-source="reference-shell.js">
 const shellHost=document.createElement('div');document.body.append(shellHost);const shell=shellHost.attachShadow({mode:'open'});
 shell.innerHTML='<link rel="stylesheet" href="reference/base.css"><link rel="stylesheet" href="reference/curation.css"><link rel="stylesheet" href="reference/shell.css"><div class="ref-root curation-active">'+referenceShell23+'<dialog class="curation-picker"><div class="curation-picker-head">跳至步驟 <button>×</button></div><input id="curation-picker-search" placeholder="搜尋步驟"><div class="choices"></div></dialog></div>';
@@ -2099,7 +3717,7 @@ function nativePage(page,r){
  for(let index=0;index<=i;index++){
    const row=rows[index];
    if(row.stage!==r.stage||row.leaf!==page)continue;
-   const text=normalize(row.q),start=normalized.indexOf(text);
+   const text=normalize(row.q),start=row.sourceStart??normalized.indexOf(text);
    if(text&&start>=0)spans.push({start,end:start+text.length,row,index});
  }
  for(const {node,start,offsets} of nodes){
@@ -2128,7 +3746,7 @@ function nativePage(page,r){
  }
  const currentMark=root.querySelector(`mark[data-step-index="${i}"]`);if(currentMark){void root.offsetWidth;currentMark.classList.add('is-revealed');}
 }
-function syncBank(){const groups=$s('#curation-bank-groups'),open=new Set([...groups.children].filter(x=>x.open).map(x=>x.dataset.t));groups.replaceChildren();for(let t=1;t<=3;t++){let d=document.createElement('details');d.className='curation-bank-'+['A','B','C'][t-1];d.dataset.t=t;d.open=open.has(String(t))||(rows[i].pattern&&rows[i].t===t);let buttons=[...E('bank').children[t-1].querySelectorAll('button')].filter(b=>{let f=facts.find(f=>f[0]===t&&f[2]===b.textContent);if(!f)return false;if(rows[i].stage===4)return true;if(b.classList.contains('spent'))return true;if(f[1]===19)return completed.has('heard:'+f[2]);return rows.some(x=>x.stage===3&&x.p===f[1]&&x.q.includes(f[2])&&completed.has(key23(x))) });let summary=document.createElement('summary');summary.innerHTML='<span>Task '+['A','B','C'][t-1]+'</span><strong data-count>'+buttons.length+' 句</strong>';d.append(summary);let ol=document.createElement('ol');for(let b of buttons){let li=document.createElement('li'),btn=document.createElement('button'),small=document.createElement('small');btn.textContent=b.textContent;small.textContent=b.nextElementSibling?.textContent||'';btn.onclick=()=>b.click();if(b.classList.contains('spent'))btn.style.textDecoration='line-through 3px #cb2530';li.append(btn,small);ol.append(li)}d.append(ol);groups.append(d)}}
+function syncBank(){const groups=$s('#curation-bank-groups'),open=new Set([...groups.children].filter(x=>x.open).map(x=>x.dataset.t));groups.replaceChildren();for(let t=1;t<=3;t++){let d=document.createElement('details');d.className='curation-bank-'+['A','B','C'][t-1];d.dataset.t=t;d.open=open.has(String(t))||(rows[i].pattern&&rows[i].t===t);let buttons=[...E('bank').children[t-1].querySelectorAll('button')].filter(b=>{let f=facts.find(f=>f[0]===t&&f[2]===b.textContent);if(!f)return false;if(rows[i].stage===4)return true;if(b.classList.contains('spent'))return true;if(f[1]===19)return completed.has('heard:'+f[2]);return rows.some(x=>x.stage===3&&x.t===f[0]&&x.p===f[1]&&x.q.includes(f[2])&&completed.has(key23(x))) });let summary=document.createElement('summary');summary.innerHTML='<span>Task '+['A','B','C'][t-1]+'</span><strong data-count>'+buttons.length+' 句</strong>';d.append(summary);let ol=document.createElement('ol');for(let b of buttons){let li=document.createElement('li'),btn=document.createElement('button'),small=document.createElement('small');btn.textContent=b.textContent;small.textContent=b.nextElementSibling?.textContent||'';btn.onclick=()=>b.click();if(b.classList.contains('spent'))btn.style.textDecoration='line-through 3px #cb2530';li.append(btn,small);ol.append(li)}d.append(ol);groups.append(d)}}
 function update23(force=false){let r=rows[i],ss=rows.filter(x=>x.stage===r.stage),num=r.stage===2?cueIndex+1:ss.indexOf(r)+1,total=r.stage===2?cues.length:ss.length;let key=[i,num,done,visitIndex,E('next').disabled,help,lang,opened,tab,firstView,diag.open,completed.size].join(':');if(!force&&lastSync===key)return;lastSync=key;document.body.classList.toggle('cur23-open',opened);document.body.classList.toggle('curation-active',opened);$s('.ref-root').classList.toggle('curation-podcast-active',r.stage===2&&opened);$s('.ref-root').classList.toggle('curation-active',opened);for(let s of ['.curation-dock','.curation-bank','.curation-stage'])$s(s).hidden=!opened;$s('#curation-toggle').textContent=opened?'✦ 離開 Curation':'✦ 進入 Curation';$s('#show-translation').checked=lang;allS('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.filter===tab));allS('.curation-stage-item').forEach((b,j)=>{const stageRows=rows.filter(x=>x.stage===j),finished=stageRows.every(x=>completed.has(key23(x)));b.classList.toggle('active',j===r.stage);b.setAttribute('aria-current',j===r.stage?'step':'false');b.classList.toggle('done',finished);b.querySelector('.curation-stage-dot').textContent=finished?'✓':j+1;b.querySelector('small').textContent=j===r.stage?num+'/'+total:finished?'完成':''});$s('.curation-stage-fill').style.width=r.stage*20+'%';
  $s('#curation-chapter').textContent=instructions[r.stage];$s('#curation-step-jump').textContent=num+' / '+total+' · '+(r.stage===2?cues[cueIndex][2]:r.q).slice(0,25);$s('#curation-step-count').textContent=num+' / '+total+' · '+ss.filter(x=>completed.has(key23(x))).length+' 已完成';$s('#curation-bookmark').textContent=books.includes(key23(r))?'★':'☆';$s('#curation-source').textContent=r.stage===2?'聆聽筆記表 · 會議錄音':E('meta').textContent;$s('#curation-title').textContent=names23[r.stage];$s('#curation-quote').replaceChildren(...[...E('q').childNodes].map(n=>n.cloneNode(true)));let ex=$s('#curation-explanation');ex.replaceChildren();let p=document.createElement('p');p.textContent=E('a').textContent;let banner=document.createElement('p');banner.className='curation-type curation-type-'+r.t;banner.textContent='類型：'+types[r.t];if(r.stage!==2&&r.stage!==4)ex.append(banner);ex.append(p);if(help){let extra=document.createElement('p');extra.className='curation-extra-help';extra.textContent=(r.pattern?'留意句式「'+r.pattern+'」。':instructions[r.stage])+' '+(r.used?.length?facts[r.used[0]][4]:r.leaf?'核對 Data File 第 '+r.leaf+' 頁的說話者及前後文。':r.a);ex.append(extra)}$s('#curation-prev').disabled=E('prev').disabled;$s('#curation-next').disabled=E('next').disabled;$s('#curation-next').textContent=E('next').textContent;$s('#curation-step-actions').replaceChildren(...[...E('refs').children].map(b=>{let clone=b.cloneNode(true);clone.onclick=()=>b.click();return clone}));let tj=$s('#curation-task-jump');tj.hidden=r.stage<3;tj.replaceChildren(...[...choose.children].map((b,t)=>{let c=b.cloneNode(true);c.onclick=()=>{b.click();firstView=false;update23(true)};return c}));syncBank();
  let useNative=r.stage<4;nativeHost.hidden=!useNative;section23.classList.toggle('native-active',useNative);if(useNative)nativePage(r.stage===2?3:routePhase()==='visit'?Number(E('refs').querySelector('[data-destination]').dataset.destination):r.leaf||4,r);if(r.draft){section23.append(E('draft'));E('draft').hidden=false}else E('draft').hidden=true;
@@ -2145,7 +3763,7 @@ if(r.stage===0&&!E('refs').querySelector('[data-destination]')){
 }
 $s('#curation-quote').hidden=false;
 if(r.stage===3){
-  $s('#curation-quote').textContent=r.manualQuote||r.q;
+  $s('#curation-quote').textContent=r.q;
   ex.replaceChildren();
   const badge=document.createElement('p');badge.className='curation-provenance curation-provenance-'+r.origin;badge.textContent=provenance23[r.origin]||'補充取證';ex.append(badge);
   const runtimeType='類型：'+types[r.t];
@@ -2156,7 +3774,10 @@ if(r.stage===3){
     const list=document.createElement('ul');list.className='curation-verbatim-analysis';for(const line of r.manualAnalysis){const item=document.createElement('li');item.textContent=line;list.append(item)}
     ex.append(heading,list);$s('#curation-source').textContent='Data File 第 '+r.p+' 頁 · 原版導讀逐字收錄 · PDF 第 '+r.manualPdfLabel+' 頁';
   }else{
-    const paragraph=document.createElement('p');paragraph.textContent=r.a;ex.append(paragraph);$s('#curation-source').textContent='Data File 第 '+r.p+' 頁 · '+(provenance23[r.origin]||'補充取證');
+    const paragraph=document.createElement('p');paragraph.textContent=r.a;ex.append(paragraph);
+    if(r.sourceUnitId){const note=document.createElement('p');note.className='curation-analysis-heading';note.textContent='逐句判讀 · '+r.sourceUnitId+(r.speaker?' · '+r.speaker:'');ex.prepend(note);
+      if(r.referenceNotes?.length){const details=document.createElement('details'),summary=document.createElement('summary');summary.textContent='原版導讀參考（跨句背景）';details.append(summary);for(const ref of r.referenceNotes){const label=document.createElement('p');label.textContent='原版導讀 PDF 第 '+ref.manualPdfLabel+' 頁';details.append(label);for(const text of ref.manualAnalysis){const line=document.createElement('p');line.textContent=text;details.append(line)}}ex.append(details);}
+    }$s('#curation-source').textContent='Data File 第 '+r.p+' 頁 · '+(provenance23[r.origin]||'補充取證');
   }
 }
 if(r.stage===0){let guide=document.createElement('p');guide.className='curation-process';guide.textContent='讀任務電郵時，先辨認讀者、文類及指定來源。';ex.prepend(guide)}
@@ -2165,7 +3786,7 @@ if(r.stage===2){let b=document.createElement('button');b.className='curation-sma
 
 if(!opened){nativeHost.hidden=false;section23.classList.add('native-active');lastNative=''}
 };
-function pick(book){let picker=$s('.curation-picker'),box=$s('.choices'),search=$s('#curation-picker-search');search.value='';function list(){box.replaceChildren();rows.forEach((r,j)=>{if(book?!books.includes(key23(r)):r.stage!==rows[i].stage)return;if(!curationSearchText23(r).toLowerCase().includes(search.value.toLowerCase()))return;let b=document.createElement('button');b.className='curation-picker-option';b.textContent=r.manualQuote||r.q||r.a;b.onclick=()=>{picker.close();jump23(j)};box.append(b)})}search.oninput=list;list();picker.showModal();search.focus()}
+function pick(book){let picker=$s('.curation-picker'),box=$s('.choices'),search=$s('#curation-picker-search');search.value='';function list(){box.replaceChildren();rows.forEach((r,j)=>{if(book?!books.includes(key23(r)):r.stage!==rows[i].stage)return;if(!curationSearchText23(r).toLowerCase().includes(search.value.toLowerCase()))return;let b=document.createElement('button');b.className='curation-picker-option';b.textContent=r.q||r.a;b.onclick=()=>{picker.close();jump23(j)};box.append(b)})}search.oninput=list;list();picker.showModal();search.focus()}
 $s('.curation-picker-head button').onclick=()=>$s('.curation-picker').close();$s('#curation-step-jump').onclick=()=>pick(false);$s('#curation-bookmark-jump').onclick=()=>pick(true);$s('#curation-bookmark').onclick=()=>{let k=key23(rows[i]);books=books.includes(k)?books.filter(v=>v!==k):[...books,k];readerStore23.setItem('cur23-stars',JSON.stringify(books));update23(true)};
 for(let id of ['prev','next'])$s('#curation-'+id).onclick=()=>{if(id==='next'){completed.add(key23(rows[i]));if(active&&done)for(let f of facts)if(f[1]===19&&transcript[cues[cueIndex][0]].text.includes(f[2]))completed.add('heard:'+f[2]);chaptersDone()}E(id).click();firstView=false;help=false;update23(true)};
 $s('#curation-help').onclick=()=>{help=!help;update23(true)};$s('#curation-spotlight').onchange=()=>E('spot23').click();$s('#curation-dialogue').onchange=e=>{$s('.curation-dock').classList.toggle('dialogue',e.target.checked);$s('.curation-character').hidden=!e.target.checked};for(let id of ['curation-toggle','curation-close'])$s('#'+id).onclick=()=>{opened=!opened;update23(true)};
@@ -2831,7 +4452,7 @@ const button=document.createElement('button');button.className='learning-questio
     if (rows[i].stage === 2 && cueIndex === cues.length-1 && done) { enterReview(); update23(true); return; }
     if (rows[i].stage === 4 && i === rows.length-1) { completed.add(key23(rows[i])); chaptersDone(); leaveReview(0); return; }
     const row = rows[i];
-    const matching = row.stage === 3 && row.t >= 1 && row.t <= 3 && row.state !== 'REJECT' && row.state !== 'SUPERSEDED' && facts.some(f => f[0] === row.t && f[1] === row.p && normalize(row.q) === normalize(f[2]));
+    const matching = row.stage === 3 && row.t >= 1 && row.t <= 3 && row.state !== 'REJECT' && row.state !== 'SUPERSEDED' && facts.some(f => f[0] === row.t && f[1] === row.p && normalize(row.q).includes(normalize(f[2])));
     const route = E('refs').querySelector('.route23');
     const origin=i;
     if (matching && !diag.open && !routing && (!route || route.dataset.seen)) {

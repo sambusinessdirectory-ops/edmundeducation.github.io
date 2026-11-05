@@ -38,4 +38,7 @@ if 'data-reader-source="podcast-v7.js"' not in html:
     if podcast_anchor not in html:
         raise ValueError("Missing benchmark-pages.js script anchor")
     html = html.replace(podcast_anchor, podcast_v7_tag + podcast_anchor, 1)
+atomic_anchor = '<script data-reader-source="reference-shell.js">'
+if 'data-reader-source="source-units.js"' not in html:
+    html = html.replace(atomic_anchor, '<script data-reader-source="source-units.js"></script>' + atomic_anchor, 1)
 index.write_text(scripts.sub(embed, html))
