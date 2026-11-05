@@ -2,6 +2,9 @@
 // site. A Pages deployment does not replace code already loaded in a tab.
 (function startReaderReleaseHandshake23(){
   if(!/^https?:$/.test(location.protocol))return;
+  // A local build may contain the previously deployed release.json. Never
+  // redirect preview/test navigation to that snapshot's release identifier.
+  if(['localhost','127.0.0.1','[::1]'].includes(location.hostname))return;
   let checking=false;
   async function check(){
     if(checking||document.visibilityState==='hidden')return;
