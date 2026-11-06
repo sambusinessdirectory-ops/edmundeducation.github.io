@@ -348,6 +348,10 @@ jobs:
           test -s tools/prepare-pages-incremental.py
           test -s workers/edmund-site-assets/src/site-pack-index-v1.json
 
+      - name: Check generated manifests and release contracts before long suites
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
+        run: bash tools/pages-early-checks.sh
+
       - name: Validate shared header across portals
         if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[flashcard-release]') }}
         run: node tools/test-shared-mobile-header.mjs
@@ -1370,7 +1374,7 @@ jobs:
           node tools/test-parent-communication-system.mjs
           node tools/test-schedule-account-admin-parity.mjs
 
-      - name: Validate atomic email uploads and lost-response recovery
+      - name: Validate learning portals and classroom contracts
         if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         env:
           EMAIL_QA_MODULES: ${{ github.workspace }}/tools/email-qa/node_modules
@@ -1416,6 +1420,12 @@ jobs:
           node tools/test-september-classroom.mjs
           node tools/test-professional-ui.mjs
           node tools/test-speaking-library-layout.mjs
+
+      - name: Validate atomic email uploads and lost-response recovery
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
+        env:
+          EMAIL_QA_MODULES: ${{ github.workspace }}/tools/email-qa/node_modules
+        run: |
           node tools/test-email-atomic-submission.mjs
           node tools/test-email-submit-ui.mjs
           node tools/test-email-attempts.mjs
@@ -1464,7 +1474,6 @@ jobs:
       - name: Validate PWA, shared portal navigation, mobile icons, and brand metadata
         if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
         run: |
-          node tools/generate-system-pwa-manifests.mjs --check
           node tools/test-system-pwa-experience.mjs
           node tools/test-shared-system-nav.mjs
           node tools/test-learning-portal-scaffolds.mjs
@@ -1683,24 +1692,6 @@ jobs:
           du -sh _site
           find _site -type f -printf '%s %p\n' | sort -nr | head -20
 
-      - name: Clean previous Pages artifacts for this run
-        uses: actions/github-script@v8
-        with:
-          script: |
-            const artifacts = await github.paginate(github.rest.actions.listWorkflowRunArtifacts, {
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              run_id: context.runId,
-            });
-
-            for (const artifact of artifacts.filter((item) => item.name.startsWith("github-pages"))) {
-              await github.rest.actions.deleteArtifact({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                artifact_id: artifact.id,
-              });
-            }
-
       - name: Name this build artifact
         id: artifact
         run: echo "name=github-pages-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_OUTPUT"
@@ -1709,4 +1700,5 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           name: ${{ steps.artifact.outputs.name }}
+          retention-days: 3
           path: _site

@@ -19,6 +19,7 @@ AUDIO_BASE = "https://edmund-neural-audio.edmundeducation.workers.dev/assets/"
 ORIGIN = "https://edmund-site-assets.edmundeducation.workers.dev"
 ABSOLUTE = re.compile(r"https://(?:www\.)?edmundeducation\.com/assets/")
 LOCAL = re.compile(r"(?<![A-Za-z0-9_./:-])(?:(?:\.\./)+|\./|/)?assets/")
+ASSET_TAIL = re.compile(r"[^\"'`$<>()[\]{};,\n\r\t]*")
 CSP_META = re.compile(r"<meta\s+[^>]*http-equiv=[\"']Content-Security-Policy[\"'][^>]*>", re.IGNORECASE)
 EXTENSIONS = {".html", ".css", ".js", ".mjs", ".json", ".webmanifest", ".xml", ".svg", ".txt"}
 INDEX_DIR = Path(__file__).resolve().parents[1] / "workers/edmund-site-assets/src"
@@ -56,7 +57,7 @@ def rewrite(value: str, source: Path, root_keys: set[str], eddy_keys: set[str], 
 
     def destination(match: re.Match[str], absolute: bool = False) -> str:
         prefix = match.group(0)
-        tail = re.match(r"[^\"'`$<>()[\]{};,\n\r\t]*", value[match.end():]).group(0)
+        tail = ASSET_TAIL.match(value, match.end()).group(0)
         tail = tail.split("?", 1)[0].split("#", 1)[0].rstrip("\\").rstrip()
         candidates = [tail]
         while " " in candidates[-1]:
@@ -70,7 +71,7 @@ def rewrite(value: str, source: Path, root_keys: set[str], eddy_keys: set[str], 
                 return BASE
             if root_key.startswith("assets/speaking-system/audio/edmund-neural/"):
                 return AUDIO_BASE
-            if value[match.end() + len(tail):].startswith("$") and any(key.startswith(root_key) for key in root_keys):
+            if value.startswith("$", match.end() + len(tail)) and any(key.startswith(root_key) for key in root_keys):
                 return BASE
             if not absolute and eddy_key in eddy_keys and source.parts and source.parts[0] == "eddy-carrot-patch":
                 return EDDY_BASE

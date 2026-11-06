@@ -51,50 +51,56 @@ jobs:
               if (error.status !== 404) throw error;
             }
 
-            let current = true;
-            if (deployedSha === context.sha) {
-              current = false;
-              core.notice(`Skipping already-deployed release ${context.sha}.`);
+            const response = await fetch(`https://edmundeducation.com/release.json?run=${context.runId}&attempt=${process.env.GITHUB_RUN_ATTEMPT}`, { cache: 'no-store' });
+            if (!response.ok && !(response.status === 404 && !deployedSha)) {
+              throw new Error(`Cannot read public release: HTTP ${response.status}`);
             }
-
-            if (current && deployedSha) {
+            const live = response.ok ? (await response.json()).release : '';
+            if (response.ok && !/^[0-9a-f]{40}$/.test(live)) throw new Error('Invalid public release ID');
+            let current = true;
+            let deploy = true;
+            let outcome = 'deploy';
+            if (live === context.sha) {
+              // A job retry after a lost deployment response can reuse the published artifact.
+              deploy = false;
+              current = deployedSha !== live;
+              if (current && deployedSha) {
+                const { data } = await github.rest.repos.compareCommitsWithBasehead({
+                  ...context.repo, basehead: `${deployedSha}...${context.sha}`,
+                });
+                if (data.status !== 'ahead') throw new Error('Refusing to move the snapshot backwards');
+              }
+              outcome = current ? 'repair snapshot' : 'already live';
+            } else if (live !== deployedSha) {
+              throw new Error('Live and snapshot differ. Re-run the failed snapshot job for the live commit.');
+            } else if (deployedSha) {
               const { data: forward } = await github.rest.repos.compareCommitsWithBasehead({
-                ...context.repo,
-                basehead: `${deployedSha}...${context.sha}`,
+                ...context.repo, basehead: `${deployedSha}...${context.sha}`,
               });
               if (forward.status !== 'ahead') {
-                current = false;
-                core.notice(`Skipping non-forward release ${context.sha}; deployed snapshot is ${deployedSha}.`);
+                current = deploy = false;
+                outcome = forward.status === 'behind' ? 'included in live descendant' : 'diverged; skipped';
               }
             }
-
-            if (current && mainSha !== context.sha) {
+            if (deploy && mainSha !== context.sha) {
               const { data: ancestry } = await github.rest.repos.compareCommitsWithBasehead({
-                ...context.repo,
-                basehead: `${context.sha}...${mainSha}`,
+                ...context.repo, basehead: `${context.sha}...${mainSha}`,
               });
-              current = ancestry.status === 'ahead';
-              if (current) {
-                // A failed snapshot update can leave the recorded baseline behind production.
-                const response = await fetch(`https://edmundeducation.com/release.json?candidate=${context.sha}&run=${context.runId}`, { cache: 'no-store' });
-                if (!response.ok) throw new Error(`Could not verify production baseline: HTTP ${response.status}`);
-                const live = (await response.json()).release;
-                if (!deployedSha || live !== deployedSha) {
-                  throw new Error('Production and snapshot must agree before publishing an intermediate release.');
-                }
-              } else {
-                core.notice(`Skipping release outside main history: ${context.sha}.`);
+              if (ancestry.status !== 'ahead') {
+                current = deploy = false;
+                outcome = 'outside main history; skipped';
               }
             }
-
+            await core.summary.addRaw(`Candidate ${context.sha}; public baseline ${live || 'none'}; decision: ${outcome}.`).write();
+            core.setOutput('deploy', String(deploy));
             core.setOutput('current', String(current));
 
       - name: Deploy to GitHub Pages
-        if: steps.release.outputs.current == 'true'
+        if: steps.release.outputs.deploy == 'true'
         uses: actions/deploy-pages@v5
         with:
           artifact_name: ${{ inputs.artifact_name }}
-          timeout: 900000
+          timeout: 600000
           error_count: 30
 
   snapshot:
@@ -131,6 +137,14 @@ jobs:
           set -euo pipefail
           mkdir deployed-site
           tar -xf prepared-pages/artifact.tar -C deployed-site
+          jq -e --arg sha "${GITHUB_SHA}" '.release == $sha' deployed-site/release.json >/dev/null
+          # On a retry, ensure this artifact is still public before changing the baseline.
+          for attempt in {1..60}; do
+            live=$(curl -fsS --max-time 10 "https://edmundeducation.com/release.json?snapshot=${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}-${attempt}" | jq -er .release) || live=
+            [[ "${live}" == "${GITHUB_SHA}" ]] && break
+            sleep 5
+          done
+          [[ "${live}" == "${GITHUB_SHA}" ]]
           bash release-source/tools/update-pages-snapshot.sh deployed-site "${GITHUB_SHA}"
 
   verify-live:
@@ -146,7 +160,7 @@ jobs:
           release_url="https://edmundeducation.com/release.json?release=${GITHUB_SHA}"
           for attempt in {1..60}; do
             release=$(curl --fail --silent --show-error -H 'Cache-Control: no-cache' "${release_url}" || true)
-            if grep -Fq "${GITHUB_SHA}" <<<"${release}"; then
+            if jq -e --arg sha "${GITHUB_SHA}" '.release == $sha' <<<"${release}" >/dev/null; then
               echo "Verified coordinated release ${GITHUB_SHA}."
               exit 0
             fi
