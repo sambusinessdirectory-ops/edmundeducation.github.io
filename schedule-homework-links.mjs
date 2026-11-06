@@ -124,6 +124,14 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
     color: "#81543d"
   }),
   Object.freeze({
+    type: "advanced-native",
+    trigger: "Advanced Native English",
+    label: "Advanced Native English",
+    pickerTitle: "選擇 Advanced Native 高級自然英文課程",
+    pickerNoun: "Advanced Native 課程",
+    color: "#65477f"
+  }),
+  Object.freeze({
     type: "synonym",
     trigger: "Synonyms",
     aliases: Object.freeze(["Synonym", "Synonym System"]),
@@ -173,6 +181,7 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
   "dse-listening": Object.freeze(["/listening-system.html"]),
   polysemy: Object.freeze(["/polysemy-lab.html"]),
   "native-english": Object.freeze(["/natural-english.html"]),
+  "advanced-native": Object.freeze(["/advanced-native.html"]),
   synonym: Object.freeze(["/synonyms-system.html"]),
   grammar: Object.freeze(["/grammar-system.html"]),
   "error-identification": Object.freeze(["/error-identifier-system.html"]),
@@ -246,6 +255,7 @@ const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/listening-system.html": Object.freeze(["section", "practice", "part"]),
   "/polysemy-lab.html": Object.freeze(["module"]),
   "/natural-english.html": Object.freeze(["module"]),
+  "/advanced-native.html": Object.freeze(["module"]),
   "/synonyms-system.html": Object.freeze(["module"]),
   "/quotes-system.html": Object.freeze([]),
   "/grammar-system.html": Object.freeze([]),
@@ -302,6 +312,7 @@ export function normalizeHomeworkResource(value) {
   if (!url) return null;
   const parsed = new URL(url, "https://edmundeducation.com/");
   if (!ALLOWED_PAGES_BY_TYPE[type]?.includes(parsed.pathname)) return null;
+  if (type === "advanced-native" && id !== `advanced-native:${parsed.searchParams.get("module")}`) return null;
   if (type === "ielts-question-types" && id !== `ielts-question-types:${parsed.hash.slice(1)}`) return null;
   if (type === "dse-practical-writing") {
     const mode = parsed.searchParams.get("mode");
@@ -475,7 +486,8 @@ export function normalizeHomeworkHref(value) {
   if (parsed.pathname === "/reading-comprehension.html") {
     if (!/^(?:p[123]-\d{3}(?:-[a-z0-9]+)*|dse-20(?:1[2-9]|2[0-6])-(?:a|b1|b2))$/i.test(parsed.searchParams.get("article") || "")) return null;
   }
-  if (["/polysemy-lab.html", "/natural-english.html", "/synonyms-system.html"].includes(parsed.pathname)) {
+  if (parsed.pathname === "/advanced-native.html" && !/^advanced-native-[0-9]{3,4}$/.test(parsed.searchParams.get("module") || "")) return null;
+  if (["/polysemy-lab.html", "/natural-english.html", "/advanced-native.html", "/synonyms-system.html"].includes(parsed.pathname)) {
     if (!/^[a-z0-9][a-z0-9-]{0,79}$/i.test(parsed.searchParams.get("module") || "")) return null;
   }
   const query = parsed.searchParams.toString();
