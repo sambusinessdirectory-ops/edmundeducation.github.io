@@ -1326,6 +1326,72 @@
     }catch(error){history.textContent=error.message||"Coin history is unavailable right now.";}
   }
 
+  function ensureMobileHeaderDrawer() {
+    const header = document.querySelector(".edmund-system-header");
+    const inner = header?.querySelector(".edmund-system-header__inner");
+    const switcher = inner?.querySelector(".edmund-system-switcher");
+    if (!header || !inner || !switcher || header.querySelector("[data-edmund-mobile-header-toggle]")) return;
+
+    const media = window.matchMedia("(max-width: 700px)");
+    const toggle = document.createElement("button");
+    toggle.type = "button";
+    toggle.className = "edmund-mobile-header-toggle";
+    toggle.dataset.edmundMobileHeaderToggle = "";
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-label", "顯示帳戶及學習工具");
+    toggle.innerHTML = '<span>選單</span><b aria-hidden="true">⌄</b>';
+
+    const drawer = document.createElement("div");
+    drawer.className = "edmund-mobile-header-drawer";
+    drawer.dataset.edmundMobileHeaderDrawer = "";
+    drawer.id = `edmund-mobile-header-drawer-${Math.random().toString(36).slice(2, 9)}`;
+    toggle.setAttribute("aria-controls", drawer.id);
+    inner.append(toggle);
+    header.append(drawer);
+
+    const setExpanded = expanded => {
+      const next = Boolean(expanded && media.matches);
+      header.dataset.mobileExpanded = String(next);
+      toggle.setAttribute("aria-expanded", String(next));
+      toggle.setAttribute("aria-label", next ? "隱藏帳戶及學習工具" : "顯示帳戶及學習工具");
+      if (!next && drawer.contains(document.activeElement)) toggle.focus({ preventScroll: true });
+    };
+
+    const syncLayout = () => {
+      const homebase = header.querySelector(".edmund-system-switcher__homebase");
+      const tools = header.querySelector(".edmund-system-tools");
+      const actions = header.querySelector(".edmund-system-header__actions");
+      if (media.matches) {
+        [homebase, tools, actions].forEach(node => {
+          if (node && node.parentElement !== drawer) drawer.append(node);
+        });
+        setExpanded(false);
+        return;
+      }
+      setExpanded(false);
+      if (homebase?.parentElement === drawer) switcher.append(homebase);
+      if (tools?.parentElement === drawer) inner.append(tools);
+      if (actions?.parentElement === drawer) inner.append(actions);
+      if (tools?.parentElement === inner && actions?.parentElement === inner) inner.insertBefore(tools, actions);
+    };
+
+    toggle.addEventListener("click", () => setExpanded(header.dataset.mobileExpanded !== "true"));
+    drawer.addEventListener("click", event => {
+      if (event.target.closest("a[href]")) setExpanded(false);
+    });
+    document.addEventListener("pointerdown", event => {
+      if (header.dataset.mobileExpanded === "true" && !header.contains(event.target)) setExpanded(false);
+    });
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && header.dataset.mobileExpanded === "true") {
+        event.preventDefault();
+        setExpanded(false);
+      }
+    });
+    media.addEventListener?.("change", syncLayout);
+    syncLayout();
+  }
+
   function initialise() {
     bridgeStudentSession(studentSessionCandidate(), true);
     void refreshCoinWallet();
@@ -1340,6 +1406,7 @@
     const switchers = [...document.querySelectorAll("[data-edmund-system-switcher]")];
     switchers.forEach(enhanceSwitcher);
     ensurePomodoro();
+    ensureMobileHeaderDrawer();
     ensureNightReturnPrompt();
 
     document.addEventListener("pointerdown", event => {

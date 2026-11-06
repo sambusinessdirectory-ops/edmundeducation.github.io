@@ -102,6 +102,10 @@ assert.match(renderStudyCard, /querySelectorAll\("\[data-prev-study-card\]"\)/);
 assert.match(renderStudyCard, /querySelectorAll\("\[data-next-study-card\]"\)/);
 assert.match(renderStudyCard, /querySelectorAll\("\[data-reveal-study-card\]"\)/);
 assert.match(renderStudyCard, /revealButtons\.forEach/);
+assert.match(renderStudyCard, /studySide\?\.classList\.toggle\("answer-revealed", studySession\.flipped\)/);
+assert.match(renderStudyCard, /greenButton\.disabled = !studySession\.flipped/);
+assert.match(renderStudyCard, /redButton\.disabled = !studySession\.flipped/);
+assert.match(source, /\.study-side:not\(\.answer-revealed\) \.action-rail\s*\{\s*display:\s*none;/);
 
 const flipCurrentCard = sourceBetween("function flipCurrentCard()", "function moveStudyCard(delta)");
 assert.match(flipCurrentCard, /studySession\.flipped\) return/);
@@ -170,6 +174,7 @@ assert.match(moveStudyCard, /scheduleCurrentFrontCardScroll\(\)/);
 
 const markCard = sourceBetween("function markCard(result)", "function handleCardPrimaryAction");
 assert.match(markCard, /scheduleCurrentFrontCardScroll\(\)/);
+assert.match(markCard, /!studySession\.flipped/);
 
 const classifySource = extractFunction("classifyStudyCardSwipe");
 const classifyStudyCardSwipe = vm.runInNewContext(`(${classifySource})`);

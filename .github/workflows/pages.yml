@@ -617,6 +617,8 @@ jobs:
       - name: Validate focused flashcard release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[flashcard-release]') }}
         run: |
+          node tools/test-shared-mobile-header.mjs
+          node tools/test-flashcard-study-interactions.mjs
           node tools/test-flashcard-attempt-sync-isolation.mjs
           node --check flashcards-core-data.js
           node --check flashcards-audio-manifest.js
