@@ -30,14 +30,19 @@ assert.equal(formatDuration(3720000), '1 小時 02 分');
 
 const app = fs.readFileSync(new URL('../synonyms/app.mjs', import.meta.url), 'utf8');
 const sql = fs.readFileSync(new URL('../supabase/migrations/20261106154500_synonyms_progress_dashboard.sql', import.meta.url), 'utf8');
+const overviewSql = fs.readFileSync(new URL('../supabase/migrations/20261106081504_synonyms_progress_overview.sql', import.meta.url), 'utf8');
 assert.match(app, /mergeAllModuleProgress/);
 assert.match(app, /synonyms_progress_dashboard/);
 assert.match(app, /synonyms_progress_record_time/);
+assert.match(app, /synonyms_progress_overview/);
 assert.match(app, /data-dashboard-range/);
 assert.match(sql, /auth\.uid\(\) is null/);
 assert.match(sql, /on conflict \(student_id, system_key, event_key\) do update/);
 assert.doesNotMatch(sql, /pg_catalog\.least/);
 assert.match(sql, /grant execute on function public\.synonyms_progress_dashboard\(uuid\) to authenticated/);
 assert.match(sql, /grant execute on function public\.synonyms_progress_record_time\(uuid, integer\) to authenticated/);
+assert.match(overviewSql, /auth\.uid\(\) is null/);
+assert.match(overviewSql, /regexp_replace\(a\.question_key, '-\[0-9\]\+-\[0-9\]\+\$', ''\)/);
+assert.match(overviewSql, /grant execute on function public\.synonyms_progress_overview\(uuid\) to authenticated/);
 
 console.log('PASS: Synonyms account-wide progress, dashboard ranges, duration formatting, and owner-scoped RPC wiring.');
