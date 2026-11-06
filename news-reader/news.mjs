@@ -1,4 +1,5 @@
 import {clearListening,renderListening} from './listening.mjs?v=smoking-20261106-1';
+import {vocabularyGroups} from './vocabulary.mjs?v=vocab-levels-20261106-1';
 const $ = id => document.getElementById(id);
 const audio = $('audio');
 const video = $('video');
@@ -106,7 +107,7 @@ function tick(){
   const cue=lesson.captions.find(row=>t>=row[0]&&t<row[1]);
   if(lastCue!==cue){lastCue=cue;$('en').textContent=cue?.[2]||'';$('zh').textContent=cue?.[3]||'';}
   const active=lesson.questions.filter(q=>q.hits?.some(([s,e])=>t>=s&&t<e)).map(q=>q.id).join(' ');
-  if(active!==activeHits){activeHits=active;const list=$('wordList');for(const b of list.children){
+  if(active!==activeHits){activeHits=active;const list=$('wordList');for(const b of list.querySelectorAll('.term')){
     const on=active.split(' ').includes(b.dataset.id);b.classList.toggle('active',on);
     if(on){const a=b.getBoundingClientRect(),v=list.getBoundingClientRect();if(a.top<v.top||a.bottom>v.bottom)list.scrollTop+=a.top-v.top-list.clientHeight*.3;}}}
   if(running)frame=requestAnimationFrame(tick);
@@ -117,12 +118,15 @@ video.addEventListener('loadedmetadata',()=>{if(Number.isFinite(video.duration))
 video.addEventListener('error',()=>{if(mode==='video')switchAudio(video.currentTime,false,'本地影片暫時未能載入，已切換到原聲 MP3。');});
 function buildWords(){
   const list=$('wordList');list.replaceChildren();
-  for(const q of lesson.questions.filter(q=>q.id.startsWith('A2'))){const b=button('',async()=>{
-    const start=q.hits[0][0];if(mode==='video'){seek(start);await video.play();}
-    else await switchAudio(start,true);
-  });b.className='term';b.dataset.id=q.id;line(b,q.name,'strong');line(b,q.meaning+(q.hits.length?'':' · 延伸詞彙（錄音未出現）'),'small');
-    if(q.phrase){const context=line(b,'新聞語境：'+q.phrase,'small');context.className='context';}
-    b.disabled=!q.hits.length;list.append(b);}
+  for(const [level,items] of vocabularyGroups(lesson.questions)){
+    const heading=line(list,level+' · '+items.length+' 個詞彙','h3');heading.className='word-level';
+    for(const q of items){const hits=Array.isArray(q.hits)?q.hits:[],b=button('',async()=>{
+      const start=hits[0][0];if(mode==='video'){seek(start);await video.play();}
+      else await switchAudio(start,true);
+    });b.className='term';b.dataset.id=q.id;line(b,q.name,'strong');line(b,q.meaning+(hits.length?'':' · 延伸詞彙（錄音未出現）'),'small');
+      if(q.phrase){const context=line(b,'新聞語境：'+q.phrase,'small');context.className='context';}
+      b.disabled=!hits.length;list.append(b);}
+  }
 }
 const modes=[['L','聽力理解'],['A2','A2 詞彙'],['ADV','進階詞彙'],['S','句子結構']];
 function practice(){
