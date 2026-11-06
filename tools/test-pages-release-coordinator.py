@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 WORKFLOWS = ROOT / ".github" / "workflows"
 COORDINATOR = (WORKFLOWS / "pages-release-coordinator.yml").read_text(encoding="utf-8")
 PUBLISHER = (WORKFLOWS / "publish-pages-artifact.yml").read_text(encoding="utf-8")
+REPORT = (ROOT / "tools" / "pages-release-report.py").read_text(encoding="utf-8")
 BUILDERS = [
     (WORKFLOWS / name).read_text(encoding="utf-8")
     for name in ("pages.yml", "pages-paper3-fast.yml", "pages-fast.yml")
@@ -42,14 +43,29 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
             self.assertNotIn("pages: write", top_level_permissions)
             self.assertNotIn("id-token: write", top_level_permissions)
 
-    def test_release_queue_covers_routing_through_publication_and_snapshot(self):
+    def test_release_queue_keeps_one_active_and_only_the_latest_pending_candidate(self):
         header = COORDINATOR.split("jobs:", 1)[0]
         self.assertIn("group: pages-release-main", header)
-        self.assertIn("queue: max", header)
+        self.assertIn("queue: single", header)
+        self.assertNotIn("queue: max", header)
         self.assertIn("cancel-in-progress: false", header)
         for workflow in [COORDINATOR, *BUILDERS, PUBLISHER]:
             self.assertNotIn("cancel-in-progress: true", workflow)
         self.assertNotIn("Superseded before build", COORDINATOR)
+
+        rehearsal = (WORKFLOWS / "pages-queue-rehearsal.yml").read_text(encoding="utf-8")
+        rehearsal_header = rehearsal.split("jobs:", 1)[0]
+        self.assertIn("queue: single", rehearsal_header)
+        self.assertNotIn("queue: max", rehearsal_header)
+        self.assertIn("cancel-in-progress: false", rehearsal_header)
+
+    def test_release_report_enforces_end_to_end_targets_and_commit_attribution(self):
+        self.assertIn("FOCUSED_TARGET_SECONDS = 10 * 60", REPORT)
+        self.assertIn("FULL_TARGET_SECONDS = 20 * 60", REPORT)
+        self.assertIn("QUEUE_TARGET_SECONDS = 5 * 60", REPORT)
+        self.assertIn('result["containing_verified_release"]', REPORT)
+        self.assertIn('result["consolidated_pending_run_count"]', REPORT)
+        self.assertIn('result["unexpected_cancelled_run_count"]', REPORT)
 
     def test_focused_writing_runs_the_completed_question_regression(self):
         step = BUILDERS[0].split("- name: Validate focused Writing release", 1)[1].split("\n      - name:", 1)[0]
