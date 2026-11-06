@@ -118,8 +118,7 @@ video.addEventListener('loadedmetadata',()=>{if(Number.isFinite(video.duration))
 video.addEventListener('error',()=>{if(mode==='video')switchAudio(video.currentTime,false,'本地影片暫時未能載入，已切換到原聲 MP3。');});
 function buildWords(){
   const list=$('wordList');list.replaceChildren();
-  for(const [level,items] of vocabularyGroups(lesson.questions)){
-    const heading=line(list,level+' · '+items.length+' 個詞彙','h3');heading.className='word-level';
+  for(const [,items] of vocabularyGroups(lesson.questions)){
     for(const q of items){const hits=Array.isArray(q.hits)?q.hits:[],b=button('',async()=>{
       const start=hits[0][0];if(mode==='video'){seek(start);await video.play();}
       else await switchAudio(start,true);
