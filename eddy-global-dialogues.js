@@ -143,15 +143,15 @@
   const sleepyStorageKey = 'edmund-eddy-sleepy-evening-day-v1';
   const bedtimeStorageKey = 'edmund-eddy-bedtime-night-v1';
   const timedMoments = Object.freeze({
-    midnightSnack: { startMinute: 120, endMinute: 350, lines: midnightSnackLines, image: '/eddy-midnight-snack-dialogue.png', label: 'Eddy 的深夜餅乾時間', storageKey: 'edmund-eddy-midnight-snack-day-v1' },
-    morningCoffee: { startMinute: 360, endMinute: 480, lines: morningCoffeeLines, image: '/eddy-morning-coffee-dialogue.png', label: 'Eddy 的清晨咖啡時間', storageKey: 'edmund-eddy-morning-coffee-day-v1' },
-    morningStrength: { hour: 9, lines: morningStrengthLines, image: '/eddy-morning-strength-dialogue.png', label: 'Eddy 的早晨活力時間', storageKey: 'edmund-eddy-morning-strength-day-v1' },
-    middayMeal: { hour: 12, lines: middayMealLines, image: '/eddy-lunchtime-dialogue.png', label: 'Eddy 的午餐時間', storageKey: 'edmund-eddy-lunchtime-day-v1' },
-    saturdayGrocery: { startMinute: 780, endMinute: 900, weekday: 'Saturday', lines: saturdayGroceryLines, image: '/eddy-saturday-grocery-dialogue.png', label: 'Eddy 的星期六採購時間', storageKey: 'edmund-eddy-saturday-grocery-day-v1' },
-    sundayCouch: { startMinute: 780, endMinute: 900, weekday: 'Sunday', lines: sundayCouchLines, image: '/eddy-sunday-couch-dialogue.png', label: 'Eddy 的星期天下午', storageKey: 'edmund-eddy-sunday-couch-day-v1' },
-    coffee: { hour: 16, weekdaysOnly: true, lines: coffeeLines, image: '/eddy-coffee-break-dialogue.png', label: 'Eddy 的午後咖啡時間', storageKey: 'edmund-eddy-coffee-break-day-v1' },
-    finishingWork: { hour: 18, weekdaysOnly: true, lines: finishingWorkLines, image: '/eddy-finishing-work-dialogue.png', label: 'Eddy 的下班前問候', storageKey: 'edmund-eddy-finishing-work-day-v1' },
-    gaming: { hour: 20, lines: gamingLines, image: '/eddy-gaming-time-dialogue.png', label: 'Eddy 的遊戲時間', storageKey: 'edmund-eddy-gaming-time-day-v1' }
+    midnightSnack: { startMinute: 120, endMinute: 350, lines: midnightSnackLines, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-midnight-snack-dialogue.png', label: 'Eddy 的深夜餅乾時間', storageKey: 'edmund-eddy-midnight-snack-day-v1' },
+    morningCoffee: { startMinute: 360, endMinute: 480, lines: morningCoffeeLines, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-morning-coffee-dialogue.png', label: 'Eddy 的清晨咖啡時間', storageKey: 'edmund-eddy-morning-coffee-day-v1' },
+    morningStrength: { hour: 9, lines: morningStrengthLines, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-morning-strength-dialogue.png', label: 'Eddy 的早晨活力時間', storageKey: 'edmund-eddy-morning-strength-day-v1' },
+    middayMeal: { hour: 12, lines: middayMealLines, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-lunchtime-dialogue.png', label: 'Eddy 的午餐時間', storageKey: 'edmund-eddy-lunchtime-day-v1' },
+    saturdayGrocery: { startMinute: 780, endMinute: 900, weekday: 'Saturday', lines: saturdayGroceryLines, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-saturday-grocery-dialogue.png', label: 'Eddy 的星期六採購時間', storageKey: 'edmund-eddy-saturday-grocery-day-v1' },
+    sundayCouch: { startMinute: 780, endMinute: 900, weekday: 'Sunday', lines: sundayCouchLines, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-sunday-couch-dialogue.png', label: 'Eddy 的星期天下午', storageKey: 'edmund-eddy-sunday-couch-day-v1' },
+    coffee: { hour: 16, weekdaysOnly: true, lines: coffeeLines, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-coffee-break-dialogue.png', label: 'Eddy 的午後咖啡時間', storageKey: 'edmund-eddy-coffee-break-day-v1' },
+    finishingWork: { hour: 18, weekdaysOnly: true, lines: finishingWorkLines, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-finishing-work-dialogue.png', label: 'Eddy 的下班前問候', storageKey: 'edmund-eddy-finishing-work-day-v1' },
+    gaming: { hour: 20, lines: gamingLines, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-gaming-time-dialogue.png', label: 'Eddy 的遊戲時間', storageKey: 'edmund-eddy-gaming-time-day-v1' }
   });
   const breakStoragePrefix = 'edmund-eddy-pomodoro-break-v1:';
   const queue = [];
@@ -408,15 +408,15 @@
               : next.kind === 'funFact' ? 'Eddy 的趣味小知識' : next.kind === 'englishDifference' ? 'Eddy 的英文差異小知識'
                 : next.kind === 'englishUsage' ? 'Eddy 的英文用法小知識' : 'Eddy 的番茄鐘休息時間');
       overlay.innerHTML = `<button type="button"><span class="eddy-global-art"><img alt="" aria-hidden="true"><span class="eddy-global-copy" lang="zh-Hant"><strong></strong><span></span></span></span></button>`;
-      overlay.querySelector('img').src = timedMoment ? timedMoment.image : next.kind === 'lunch' ? '/eddy-after-lunch-dialogue.png' : next.kind === 'tea' ? '/eddy-afternoon-tea-dialogue.png'
-        : next.kind === 'weekend' ? (next.weekday === 'Saturday' ? '/eddy-saturday-plant-dialogue.png' : '/eddy-sunday-hobbies-dialogue.png')
-          : next.kind === 'sleepy' ? '/eddy-evening-teddy-dialogue.png'
-            : next.kind === 'bedtime' ? '/eddy-bedtime-pyjamas-dialogue.png'
-              : next.kind === 'cottonCandy' ? '/eddy-cotton-candy-dialogue.png'
-                : next.kind === 'bubbleGum' ? '/eddy-bubble-gum-dialogue.png'
-                  : next.kind === 'funFact' ? '/eddy-fun-fact-dialogue.png'
-                    : next.kind === 'englishDifference' ? '/eddy-english-difference-dialogue.png'
-                      : next.kind === 'englishUsage' ? '/eddy-english-usage-dialogue.png' : '/eddy-pomodoro-tomato-dialogue.png';
+      overlay.querySelector('img').src = timedMoment ? timedMoment.image : next.kind === 'lunch' ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-after-lunch-dialogue.png' : next.kind === 'tea' ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-afternoon-tea-dialogue.png'
+        : next.kind === 'weekend' ? (next.weekday === 'Saturday' ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-saturday-plant-dialogue.png' : 'https://edmund-public-media.edmundeducation.workers.dev/eddy-sunday-hobbies-dialogue.png')
+          : next.kind === 'sleepy' ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-evening-teddy-dialogue.png'
+            : next.kind === 'bedtime' ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-bedtime-pyjamas-dialogue.png'
+              : next.kind === 'cottonCandy' ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-cotton-candy-dialogue.png'
+                : next.kind === 'bubbleGum' ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-bubble-gum-dialogue.png'
+                  : next.kind === 'funFact' ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-fun-fact-dialogue.png'
+                    : next.kind === 'englishDifference' ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-english-difference-dialogue.png'
+                      : next.kind === 'englishUsage' ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-english-usage-dialogue.png' : 'https://edmund-public-media.edmundeducation.workers.dev/eddy-pomodoro-tomato-dialogue.png';
       const subtitle = overlay.querySelector('.eddy-global-copy > span');
       setHorsePun(overlay.querySelector('strong'), main);
       setHorsePun(subtitle, sub);

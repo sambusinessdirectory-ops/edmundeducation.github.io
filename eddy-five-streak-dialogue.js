@@ -3,23 +3,23 @@
   'use strict';
 
   const milestones = new Map([
-    [5, { art: 'eddy-five-streak-dialogue.png', lines: ['這股氣勢真不得了！Eddy 也開始熱血沸騰了呢！'] }],
-    [10, { art: 'eddy-ten-streak-dialogue.png', lines: [
+    [5, { art: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-five-streak-dialogue.png', lines: ['這股氣勢真不得了！Eddy 也開始熱血沸騰了呢！'] }],
+    [10, { art: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-ten-streak-dialogue.png', lines: [
       '什、什麼！？竟然達成 10 連勝了！？',
       '這也太厲害了吧！看來 Eddy 得重新研究一下您的實力才行了！'
     ] }],
-    [15, { art: 'eddy-fifteen-streak-dialogue.png', lines: [
+    [15, { art: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-fifteen-streak-dialogue.png', lines: [
       '等、等一下！15 連勝！？這個數據也太誇張了吧！',
       'Eddy 的計算機都快冒煙了啦！'
     ] }],
-    [20, { art: 'eddy-twenty-streak-dialogue.png', lines: [
+    [20, { art: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-twenty-streak-dialogue.png', lines: [
       '哇！已經連勝 20 次了呢！',
       '一路努力到現在，真的很不簡單！繼續保持下去吧！'
     ] }],
-    [25, { art: 'eddy-twenty-five-streak-dialogue.png', lines: [
+    [25, { art: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-twenty-five-streak-dialogue.png', lines: [
       '25 連勝.... 難道……您真的是傳說中的天才！？'
     ] }],
-    [30, { art: 'eddy-thirty-streak-alien.png', random: true, lines: [
+    [30, { art: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-thirty-streak-alien.png', random: true, lines: [
       '哇啊！竟然連對 30 題！？\n你該不會偷偷得到了宇宙來的神祕力量吧？連 Eddy 都開始懷疑你是不是外星來的了！',
       '30 題連續答對！？太誇張了吧！\n快老實說，你是不是偷偷跟外星人借了腦袋呀？',
       '咦！？連對 30 題！？這已經不是普通人的等級了吧……\n難道你身上真的藏著宇宙的力量！？',
@@ -28,7 +28,7 @@
       '連對 30 題！？這根本是外星級的實力吧！',
       '等等等等！30 題都答對了！？Eddy 得先摸摸這隻外星小傢伙確認一下……你該不會真的獲得宇宙之力了吧！？'
     ] }],
-    [35, { art: 'eddy-thirty-five-streak-gentleman.png', random: true, lines: [
+    [35, { art: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-thirty-five-streak-gentleman.png', random: true, lines: [
       '哦呀……竟然已經連對 35 題了呢。\n看來，你已經不是當初那個初出茅廬的新手了。呵呵，真是讓 Eddy 感到驕傲啊。',
       '呵呵，35 題連續答對……真是了不起！\n看著你一路進步到現在，連 Eddy 都忍不住想舉杯為你喝采了～',
       '不知不覺，已經連對 35 題了呢。現在的你，已經成長得讓人另眼相看了～～\n真不愧是 Eddy 所看好的冒險家～～',
@@ -170,7 +170,7 @@
         : milestone);
       schedule();
     } else if (!correct && minimumMilestone === 0 && previous >= 10) {
-      pending.push({ art: 'eddy-lost-streak-dialogue.png', lines: [lostStreakLines[Math.floor(Math.random() * lostStreakLines.length)]] });
+      pending.push({ art: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-lost-streak-dialogue.png', lines: [lostStreakLines[Math.floor(Math.random() * lostStreakLines.length)]] });
       schedule();
     }
   });

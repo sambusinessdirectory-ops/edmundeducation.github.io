@@ -83,7 +83,7 @@
     overlay.setAttribute('role', 'dialog');
     overlay.setAttribute('aria-modal', 'true');
     overlay.setAttribute('aria-label', `Eddy 的${days === 3 ? '三' : '兩'}天未完成功課提醒`);
-    overlay.innerHTML = `<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img src="${days === 3 ? 'eddy-schedule-three-day-incomplete-dialogue.png' : 'eddy-schedule-two-day-incomplete-dialogue.png'}" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-first-question-message--schedule-two-day" lang="zh-Hant"></span></span></button>`;
+    overlay.innerHTML = `<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img src="${days === 3 ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-three-day-incomplete-dialogue.png' : 'https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-two-day-incomplete-dialogue.png'}" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-first-question-message--schedule-two-day" lang="zh-Hant"></span></span></button>`;
     const message = overlay.querySelector('.eddy-first-question-message');
     if (typeof copy === 'string') message.textContent = copy;
     else {

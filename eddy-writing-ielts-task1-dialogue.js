@@ -7,7 +7,7 @@
 
   const moments = {
     process: {
-      image: 'eddy-writing-ielts-process-dialogue.png',
+      image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-writing-ielts-process-dialogue.png',
       label: 'Eddy 的 IELTS 流程圖寫作提示',
       variants: [
         { main: '嗯嗯……先這樣，再那樣……', sub: '咦！？等等！這個箭頭怎麼又繞回去了啊！？' },
@@ -19,7 +19,7 @@
       ]
     },
     maps: {
-      image: 'eddy-writing-ielts-maps-dialogue.png',
+      image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-writing-ielts-maps-dialogue.png',
       label: 'Eddy 的 IELTS 地圖寫作提示',
       variants: [
         { main: '嗯嗯……只要沿著這條路走，就能到達目的地了！', sub: '……奇怪？可是我們現在到底在哪裡啊？' },
@@ -32,7 +32,7 @@
       ]
     },
     bars: {
-      image: 'eddy-writing-ielts-bars-dialogue.png',
+      image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-writing-ielts-bars-dialogue.png',
       label: 'Eddy 的 IELTS 柱狀圖寫作提示',
       variants: [
         { main: '嗯嗯……這邊高一點，那邊低一點……', sub: '咦！？等等！這根柱子怎麼特別高啊！？到底發生了什麼事？' },
@@ -44,7 +44,7 @@
       ]
     },
     tables: {
-      image: 'eddy-writing-ielts-tables-dialogue.png',
+      image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-writing-ielts-tables-dialogue.png',
       label: 'Eddy 的 IELTS 表格寫作提示',
       variants: [
         { main: '嗯嗯……這一欄是這個，那一列是那個……', sub: '咦？等等！這個數字怎麼跟其他的不太一樣？該不會發現什麼祕密了吧！' },
@@ -57,7 +57,7 @@
       ]
     },
     pies: {
-      image: 'eddy-writing-ielts-pies-dialogue.png',
+      image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-writing-ielts-pies-dialogue.png',
       label: 'Eddy 的 IELTS 圓餅圖寫作提示',
       variants: [
         { main: '嗯嗯……這一塊占了最大比例……', sub: '……等等！盯著這張圖看久了，怎麼突然好想吃披薩啊！？' },
@@ -69,7 +69,7 @@
       ]
     },
     lines: {
-      image: 'eddy-writing-ielts-lines-dialogue.png',
+      image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-writing-ielts-lines-dialogue.png',
       label: 'Eddy 的 IELTS 折線圖寫作提示',
       variants: [
         { main: '哦哦！這條線一路往上衝耶！', sub: '咻——！哇啊！怎麼突然又掉下來了！？簡直像在坐雲霄飛車嘛！' },
@@ -81,7 +81,7 @@
       ]
     },
     mixed: {
-      image: 'eddy-writing-ielts-mixed-dialogue.png',
+      image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-writing-ielts-mixed-dialogue.png',
       label: 'Eddy 的 IELTS 混合圖表寫作提示',
       variants: [
         '這邊的柱子越來越高，那邊的線卻往下跑……咦？你們兩個到底有沒有商量好啊！？',

@@ -4,7 +4,7 @@
 
   const pagesByCount = {
     1: [
-      ['eddy-schedule-homework-one.png', [
+      ['https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-homework-one.png', [
         '接下來嘛……先讓 Eddy 偷個懶吧！',
         '才完成第一個任務，就有點累了呢！',
         '嘿嘿，先休息一下吧！',
@@ -14,13 +14,13 @@
       ]]
     ],
     2: [
-      ['eddy-schedule-homework-two.png', [
+      ['https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-homework-two.png', [
         '看來今天的狀態很不錯呢！就保持這股幹勁，繼續前進吧！',
         '哇！已經完成兩個任務了！看來今天也是幹勁十足的一天呢！',
         '第二個任務也順利完成啦！和您一起努力，果然很開心呢！',
         '好！第二個任務也成功突破了！這股氣勢可不能停下來呢！'
       ]],
-      ['eddy-schedule-homework-two-break.png', [
+      ['https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-homework-two-break.png', [
         '今天這麼努力，當然要好好犒賞自己啦！去做點喜歡的事，開心一下吧！',
         '第二個任務完成！冒險也要懂得勞逸結合嘛！趁現在去做點喜歡的事吧！',
         '接下來是快樂的休息時間！想做什麼就做什麼吧！',
@@ -28,27 +28,27 @@
       ]]
     ],
     3: [
-      ['eddy-schedule-homework-three.png', [
+      ['https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-homework-three.png', [
         '太棒了！第三個任務也順利完成啦！\nEddy 都忍不住想為您歡呼了！',
         '看來今天的您特別有幹勁呢！',
         '等等！您該不會偷偷練習過吧？怎麼做起任務來這麼得心應手啊！',
         '這麼順利可不行啊！Eddy 都還沒來得及幫您加油呢！'
       ]],
-      ['eddy-schedule-homework-three-celebrate.png', [
+      ['https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-homework-three-celebrate.png', [
         '努力了這麼久，總該好好慶祝一下吧？今天想怎麼玩就怎麼玩！',
         '現在開始，誰也不准打擾我們慶祝！',
         '好好犒賞自己，開心地慶祝一番吧！'
       ]]
     ],
     4: [
-      ['eddy-schedule-homework-four.png', [
+      ['https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-homework-four.png', [
         { main: '等、等一下！又完成一個了！？', sub: 'Eddy 的慶祝花樣都快用光啦！看來得趕快想點新招才行！' },
         '哎呀呀！照這個速度下去，Eddy 的掌聲都快不夠用了啦！',
         '鏘鏘鏘！第四個任務也搞定啦！\n這次就來個……超級豪華的空氣煙火秀！',
         '您是不是偷偷掌握了什麼祕訣啊？\n這麼厲害，Eddy 可得向您請教一下了！',
         '好！今天的任務清單又少了一項！嗯～這種一個個劃掉的感覺，真是太痛快了！'
       ]],
-      ['eddy-schedule-homework-four-celebrate.png', [
+      ['https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-homework-four-celebrate.png', [
         { main: '哇！這漢堡也太大了吧！', sub: '嘿嘿，努力了這麼久，就是要好好犒賞自己嘛！那麼……我開動啦！' },
         '第四個任務順利收工！接下來的挑戰是……一口氣吃掉這個超大漢堡！',
         '嘿嘿，這麼大一個漢堡，應該夠我們分著吃了吧？……咦？Eddy 已經吃掉一半了！？',
@@ -57,13 +57,13 @@
       ]]
     ],
     5: [
-      ['eddy-schedule-homework-five.png', [
+      ['https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-homework-five.png', [
         { main: '今天還真是大豐收呢！', sub: '一口氣搞定了五個任務！看來剛才那個大漢堡，真的讓我們充滿幹勁了！' },
         '一、二、三、四、五……嗯！沒數錯！今天居然完成了整整五個任務！',
         '呼哇～總算搞定第五個任務了！今天的精彩程度，簡直可以寫成一本冒險日記呢！',
         '第五個任務也完成啦！……咦？怎麼覺得 Eddy 比您還興奮啊？'
       ]],
-      ['eddy-schedule-homework-five-celebrate.png', [
+      ['https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-homework-five-celebrate.png', [
         '嘿嘿，今天就用這座三明治塔來慶祝吧！……話說回來，這到底要從哪裡開始吃啊？',
         '哼哼！區區一座三明治塔，Eddy 當然吃得下！……喂喂喂！怎麼開始搖晃了！？',
         '好！今天要大吃一頓啦！一層、兩層、三層……哇啊啊！三明治要倒下來了！',

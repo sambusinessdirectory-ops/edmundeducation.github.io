@@ -3,7 +3,7 @@
   'use strict';
   const copy = {
     2: {
-      image: '/eddy-two-wrong-mc-dialogue.png',
+      image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-two-wrong-mc-dialogue.png',
       lines: [
         { main: '什、什麼！？竟然連錯兩題！？', sub: '明明覺得自己答對了啊……唔！看來得重新動動腦筋了！' },
         '唔……連續兩題都答錯了啊。看來這部分，Eddy 還得多學一點呢！',
@@ -12,7 +12,7 @@
       ]
     },
     3: {
-      image: '/eddy-three-wrong-mc-dialogue.png',
+      image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-three-wrong-mc-dialogue.png',
       lines: [
         '不過，這下至少知道哪裡需要加強了！好，下次一定要答對！',
         '唔～又差了一點！不過沒關係，Eddy 可不是會輕易放棄的人喔！',
@@ -22,7 +22,7 @@
       ]
     },
     4: {
-      image: '/eddy-four-wrong-mc-surrender.png',
+      image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-four-wrong-mc-surrender.png',
       lines: [
         { main: '好啦好啦！Eddy 投降啦！', sub: '連錯四題，這次算你們厲害！不過，下次我可不會這麼輕易認輸喔！' },
         '停、停戰！Eddy 認輸啦！再這樣下去，連最後一點自信都要輸光啦！',
@@ -33,7 +33,7 @@
       ]
     },
     recovery: {
-      image: '/eddy-mc-recovery-thank-you.png',
+      image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-mc-recovery-thank-you.png',
       lines: [
         { main: '嗚嗚……終於答對了！', sub: '多虧有你，我們才能順利度過這次難關呢！嘿嘿……謝謝你！Eddy 就知道你一定辦得到！' },
         '嗚哇～得救了！真的得救了！多虧你沒有放棄……Eddy 都快感動得哭出來了啦！',

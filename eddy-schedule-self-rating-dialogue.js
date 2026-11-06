@@ -2,7 +2,7 @@
 (() => {
   'use strict';
   const greetings = {
-    motivation: { ratings: [1, 2], image: 'eddy-self-rating-low-motivation-dialogue.png', lines: [
+    motivation: { ratings: [1, 2], image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-self-rating-low-motivation-dialogue.png', lines: [
       { main: '唔～今天怎麼就是提不起勁呢……', sub: '明明有好多事情想做，身體卻一點都不想動……算啦，先從簡單的開始吧！' },
       '奇怪……Eddy 的幹勁跑去哪裡了？明明昨天還在這裡的說……',
       '唔～今天什麼都不太想做呢……要是幹勁也能像點心一樣，吃一口就補滿就好了！',
@@ -11,7 +11,7 @@
       '好！今天也要拿出幹勁！……唔，奇怪？怎麼喊完還是一點力氣都沒有啊？',
       '唉～今天的幹勁好像請假去了……'
     ] },
-    'high-motivation': { ratings: [4, 5], image: 'eddy-self-rating-high-motivation-dialogue.png', lines: [
+    'high-motivation': { ratings: [4, 5], image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-self-rating-high-motivation-dialogue.png', lines: [
       { main: '好！今天有好多事情想做呢！', sub: '光是想想就興奮得坐不住啦！嘿嘿，該從哪件事開始好呢？' },
       '哼哼！今天的幹勁可是源源不絕喔！有什麼想做的事，就儘管放馬過來吧！',
       '啊！想到啦！今天有好多點子想試試看！嘿嘿，光是坐在這裡可不行！',
@@ -20,7 +20,7 @@
       '嘿嘿，今天的 Eddy 可是幹勁十足！不管是什麼任務，都想親自試試看呢！',
       '好！今天的幹勁滿到快溢出來啦！'
     ] },
-    stress: { ratings: [1, 2], image: 'eddy-self-rating-low-stress-dialogue.png', lines: [
+    stress: { ratings: [1, 2], image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-self-rating-low-stress-dialogue.png', lines: [
       { main: '呼～最近的日子還挺悠哉的嘛！', sub: '趁現在好好保養一下……嗯～這冰冰涼涼的小黃瓜，真舒服啊！' },
       '嗯哼～偶爾也要享受一下貴賓級的待遇嘛！來，再幫 Eddy 敷兩片小黃瓜～',
       '嗯～小黃瓜敷在臉上真舒服……不過，敷完之後還能拿來吃嗎？',
@@ -29,7 +29,7 @@
       '嘿嘿，今天心情這麼好，不好好享受一下怎麼行？唔～真舒服！',
       '嗯～小黃瓜冰冰涼涼的……這才叫享受嘛！'
     ] },
-    concentration: { ratings: [1, 2], image: 'eddy-self-rating-low-concentration-dialogue.png', lines: [
+    concentration: { ratings: [1, 2], image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-self-rating-low-concentration-dialogue.png', lines: [
       { main: '唔～腦袋怎麼暈呼呼的……', sub: '剛剛明明還在想一件很重要的事……咦？我到底在想什麼來著？' },
       '好！集中精神……集中精神……嗯？說到集中，午餐要吃什麼好呢？',
       '嗚哇～眼前的字怎麼開始轉圈圈啦！不行不行，得先讓腦袋休息一下……',
@@ -38,7 +38,7 @@
       '嗯！Eddy 正在非常認真地思考……非常認真……呃，剛剛要做什麼來著？',
       '唔～腦袋一片空白……注意力都跑光光啦！'
     ] },
-    'attention-span': { ratings: [1, 2], image: 'eddy-self-rating-low-attention-dialogue.png', lines: [
+    'attention-span': { ratings: [1, 2], image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-self-rating-low-attention-dialogue.png', lines: [
       { main: '好！這次一定要認真做到最後！', sub: '……唔，才過一下下而已，怎麼就想換別的事情做了啦！？' },
       '好！開始吧！……嗯，差不多了！接下來要玩什麼呢？',
       '唔～怎麼才過幾分鐘，就覺得坐不住了呢？好想起來走走喔！',
@@ -47,7 +47,7 @@
       '要一直做同一件事，好像有點難呢……不然先做五分鐘，再休息一下？嘿嘿！',
       '咦？才剛開始，Eddy 就想換下一件事了！？'
     ] },
-    confidence: { ratings: [4, 5], image: 'eddy-self-rating-high-confidence-dialogue.png', lines: [
+    confidence: { ratings: [4, 5], image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-self-rating-high-confidence-dialogue.png', lines: [
       { main: '哼哼！今天總覺得自己特別厲害呢！', sub: '不管遇到什麼挑戰，Eddy 都有信心能漂亮地搞定！來吧，儘管放馬過來！' },
       '嘿嘿，今天的 Eddy 可不一樣喔！總覺得不管做什麼，都能順順利利呢！',
       '好！今天就讓你見識一下 Eddy 的真本事！什麼難關都別想攔住我！',

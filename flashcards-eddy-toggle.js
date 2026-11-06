@@ -2,7 +2,7 @@
   const buttons = [...document.querySelectorAll('[data-eddy-flashcards-toggle]')];
   if (!buttons.length) return;
 
-  const gif = 'flashcards-eddy/eddy-flashcards.gif?v=20261022-2';
+  const gif = 'https://edmund-public-media.edmundeducation.workers.dev/flashcards-eddy/eddy-flashcards.gif?v=20261022-2';
   const stills = Array.from({ length: 7 }, (_, index) =>
     `flashcards-eddy/stills/eddy-${String(index + 1).padStart(2, '0')}.png?v=20261022-2`
   );

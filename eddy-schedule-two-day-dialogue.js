@@ -72,15 +72,15 @@
     ['嘿嘿，我一直在等你出現呢。因為連續十天，Eddy 有一場特別的挑戰想送給你！']
   ];
   const milestones = {
-    2: { variants: twoDayVariants, image: 'eddy-schedule-two-day-dialogue.png' },
-    3: { variants: threeDayVariants, image: 'eddy-schedule-three-day-dialogue.png' },
-    4: { variants: fourDayVariants, image: 'eddy-schedule-four-day-dialogue.png' },
-    5: { variants: fiveDayVariants, image: 'eddy-schedule-five-day-dialogue.png' },
-    6: { variants: sixDayVariants, image: 'eddy-schedule-six-day-dialogue.png' },
-    7: { variants: sevenDayVariants, image: 'eddy-schedule-seven-day-dialogue.png' },
-    8: { variants: eightDayVariants, image: 'eddy-schedule-eight-day-dialogue.png' },
-    9: { variants: nineDayVariants, image: 'eddy-schedule-nine-day-dialogue.png' },
-    10: { variants: tenDayVariants, image: 'eddy-schedule-ten-day-dialogue.png' }
+    2: { variants: twoDayVariants, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-two-day-dialogue.png' },
+    3: { variants: threeDayVariants, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-three-day-dialogue.png' },
+    4: { variants: fourDayVariants, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-four-day-dialogue.png' },
+    5: { variants: fiveDayVariants, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-five-day-dialogue.png' },
+    6: { variants: sixDayVariants, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-six-day-dialogue.png' },
+    7: { variants: sevenDayVariants, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-seven-day-dialogue.png' },
+    8: { variants: eightDayVariants, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-eight-day-dialogue.png' },
+    9: { variants: nineDayVariants, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-nine-day-dialogue.png' },
+    10: { variants: tenDayVariants, image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-ten-day-dialogue.png' }
   };
   const storagePrefix = 'edmund-eddy-schedule-two-day-v1:';
   const shown = new Set();

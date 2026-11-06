@@ -34,7 +34,7 @@ export async function showCoinEddy(onDismiss) {
   overlay.setAttribute('role', 'dialog');
   overlay.setAttribute('aria-modal', 'true');
   overlay.setAttribute('aria-label', 'Eddy 的金幣問候');
-  overlay.innerHTML = '<button type="button"><span class="eddy-global-art"><img src="/eddy-coin-wallet-dialogue.png" alt="" aria-hidden="true"><span class="eddy-global-copy" lang="zh-Hant"><strong></strong><span></span></span></span></button>';
+  overlay.innerHTML = '<button type="button"><span class="eddy-global-art"><img src="https://edmund-public-media.edmundeducation.workers.dev/eddy-coin-wallet-dialogue.png" alt="" aria-hidden="true"><span class="eddy-global-copy" lang="zh-Hant"><strong></strong><span></span></span></span></button>';
   overlay.querySelector('strong').textContent = main;
   const subtitle = overlay.querySelector('.eddy-global-copy span');
   subtitle.textContent = sub;

@@ -7,13 +7,13 @@
   const thirtiethLineTwo = '總覺得前方還有更厲害的挑戰在等著我們……真讓人期待啊！';
   const fortiethLineTwo = 'Eddy 可還有滿滿的幹勁呢！';
   const finalIntro = (total) => [
-    ['eddy-fiftieth-face-1.png', '哼哼哼……\n實驗終於進行到最後階段了！'],
-    ['eddy-fiftieth-face-2.png', `沒錯！這 ${total} 關全都是 Eddy 的心血結晶！`],
-    ['eddy-fiftieth-face-3.png', '那麼，就讓我看看您的最終成果吧！']
+    ['https://edmund-public-media.edmundeducation.workers.dev/eddy-fiftieth-face-1.png', '哼哼哼……\n實驗終於進行到最後階段了！'],
+    ['https://edmund-public-media.edmundeducation.workers.dev/eddy-fiftieth-face-2.png', `沒錯！這 ${total} 關全都是 Eddy 的心血結晶！`],
+    ['https://edmund-public-media.edmundeducation.workers.dev/eddy-fiftieth-face-3.png', '那麼，就讓我看看您的最終成果吧！']
   ];
   const fiftiethVictory = [
-    ['eddy-fiftieth-face-4.png', '什麼——！？居然有人突破了我設計的全部關卡！'],
-    ['eddy-fiftieth-face-5.png', '哼哼……好吧！這次就算您贏了！\n這座獎盃可是 Eddy 特別準備的喔！好好珍惜吧！']
+    ['https://edmund-public-media.edmundeducation.workers.dev/eddy-fiftieth-face-4.png', '什麼——！？居然有人突破了我設計的全部關卡！'],
+    ['https://edmund-public-media.edmundeducation.workers.dev/eddy-fiftieth-face-5.png', '哼哼……好吧！這次就算您贏了！\n這座獎盃可是 Eddy 特別準備的喔！好好珍惜吧！']
   ];
   let activeKey = '';
   let overlay = null;
@@ -212,7 +212,7 @@
     const subtitle = stage === 60 ? thirtiethLineTwo : stage === 40 ? twentiethSubtitle : milestoneSubtitle;
     const fortiethLineOne = `什麼！？已經第 ${ordinal} 關了嗎！離終點只剩 ${total - ordinal} 關了！`;
     const spokenMessage = sequence ? sequence[0][1] : stage === 80 ? fortiethLineOne : stage === 1 ? message : `${title} ${subtitle}`;
-    const art = sequence ? sequence[0][0] : stage === 80 ? 'eddy-fortieth-question-dialogue.png' : stage === 60 ? 'eddy-thirtieth-question-dialogue.png' : stage === 40 ? 'eddy-twentieth-question-dialogue.png' : stage === 20 ? 'eddy-tenth-question-dialogue.png' : 'eddy-first-question-dialogue.png';
+    const art = sequence ? sequence[0][0] : stage === 80 ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-fortieth-question-dialogue.png' : stage === 60 ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-thirtieth-question-dialogue.png' : stage === 40 ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-twentieth-question-dialogue.png' : stage === 20 ? 'https://edmund-public-media.edmundeducation.workers.dev/eddy-tenth-question-dialogue.png' : 'https://edmund-public-media.edmundeducation.workers.dev/eddy-first-question-dialogue.png';
     const dialogue = sequence ? sequence[0][1] : stage === 80 ? fortiethLineOne : stage === 60 ? `<span>${title}</span><span>${subtitle}</span>`
       : stage === 40 ? `<strong>${title}</strong><span>不管遇到什麼挑戰，都儘管放<span class="eddy-horse-pun">馬</span>過來吧！</span>`
       : stage === 20 ? `<strong>${title}</strong><span>${subtitle}</span>` : message;

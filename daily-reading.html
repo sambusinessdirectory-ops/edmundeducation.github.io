@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=yes, viewport-fit=cover">
+  <meta name="description" content="EdmundEducation 日常閱讀理解系統：以香港新聞訓練 DSE 閱讀理解、證據定位及精準作答。">
+  <meta name="theme-color" content="#173f3a">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; script-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; style-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; img-src 'self' data: https://edmund-site-assets.edmundeducation.workers.dev; font-src 'self' https://edmund-site-assets.edmundeducation.workers.dev; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-site-assets.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'self'">
+  <title>日常閱讀理解系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/daily-reading.html">
+  <link rel="manifest" href="/pwa-manifests/daily-reading.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="/shared-system-nav.css?v=20261106-mobile-header1">
+  <link rel="stylesheet" href="/daily-reading/daily-reading.css?v=parking-meter-20261106-1">
+  <script defer src="/pwa-register.js"></script>
+  <script defer src="/supabase-config.js"></script>
+  <script defer src="/shared-system-nav.js?v=20261106-mobile-header1"></script>
+  <script type="module" src="/daily-reading/daily-reading.mjs?v=parking-meter-20261106-1"></script>
+  <link rel="icon" type="image/png" sizes="48x48" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/favicon-48x48.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="日常閱讀理解">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/icons/apple-touch-icon-152x152.png">
+  <link rel="stylesheet" href="/pwa-ui.css">
+</head>
+<body>
+  <a class="skip-link" href="#daily-reading-main">跳至主要內容</a>
+  <header class="daily-header edmund-system-header">
+    <div class="daily-header__inner edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="daily-reading">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="/Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>Daily Reading Practice</small></span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="daily-header__actions edmund-system-header__actions">
+        <span class="connection-pill" data-connection-status>學生帳戶</span>
+        <span class="user-pill" data-user hidden></span>
+        <button class="header-button" type="button" data-library-home hidden>文章目錄</button>
+        <button class="header-button" type="button" data-logout hidden>登出</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="daily-reading-main">
+    <section class="view login-view" data-view="login">
+      <div class="login-visual" aria-hidden="true">
+        <span class="visual-label">READ · LOCATE · INFER</span>
+        <div class="visual-paper"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="visual-marker">83</div>
+      </div>
+      <section class="login-panel" aria-labelledby="login-title">
+        <p class="kicker">STUDENT ACCOUNT · 每日精讀</p>
+        <h1 id="login-title">日常閱讀<br>理解系統</h1>
+        <p class="intro">閱讀香港新聞，練習定位、核實、推論與精準作答。</p>
+        <form data-login-form novalidate>
+          <label><span>用戶名稱</span><input name="username" autocomplete="username" required maxlength="100" placeholder="輸入學生帳戶名稱"></label>
+          <label><span>密碼</span><span class="password-row"><input name="password" type="password" autocomplete="current-password" required maxlength="200" placeholder="輸入密碼"><button type="button" data-password-toggle aria-label="顯示密碼" aria-pressed="false">顯示</button></span></label>
+          <p class="form-status" data-login-status role="status" aria-live="polite"></p>
+          <button class="primary-button" type="submit" data-login-button>登入並開始閱讀</button>
+        </form>
+        <p class="account-note">使用 Flashcard、寫作練習及其他學生系統的同一帳戶。</p>
+      </section>
+    </section>
+
+    <section class="view library-view" data-view="library" hidden>
+      <header class="library-heading">
+        <div><p class="kicker">DAILY READING · ARTICLE 01</p><h1>日常閱讀理解系統</h1><p data-welcome>選擇文章開始。</p></div>
+        <dl><div><dt>題目</dt><dd>24</dd></div><div><dt>總分</dt><dd>40</dd></div><div><dt>建議</dt><dd>35–45 min</dd></div></dl>
+      </header>
+      <button class="article-card" type="button" data-open-article>
+        <span class="article-thumb"><img src="/daily-reading/parking-meter-article.png" alt="香港路旁停車收費錶新聞圖片"><span>HONG KONG · TECHNOLOGY</span></span>
+        <span class="article-card__copy"><small>01 · HKDSE-STYLE NEWS READING</small><strong>Software update triggers HK parking meter outage</strong><span>軟件更新觸發香港停車收費錶系統故障</span><b>開始閱讀及答題　→</b></span>
+      </button>
+    </section>
+
+    <section class="view exercise-view" data-view="exercise" hidden>
+      <header class="exercise-hero">
+        <button class="back-button" type="button" data-back>← 返回文章目錄</button>
+        <p class="kicker">ARTICLE 01 · PUBLIC SERVICE DISRUPTION</p>
+        <h1>Software update triggers HK parking meter outage</h1>
+        <p>24 questions · 40 marks · Suggested time: 35–45 minutes</p>
+      </header>
+
+      <div class="exercise-layout">
+        <article class="passage-panel" aria-labelledby="passage-title">
+          <div class="passage-image"><img src="/daily-reading/parking-meter-article.png" alt="香港路旁停車收費錶；新聞原圖及文章截圖"><span>The system resumed normal operations at 12.15pm. Photo: RTHK</span></div>
+          <div class="passage-copy">
+            <p class="panel-label">READING PASSAGE</p>
+            <h2 id="passage-title">Software update triggers HK parking meter outage</h2>
+            <p class="dateline">Hong Kong · Public service technology</p>
+            <div data-passage></div>
+          </div>
+        </article>
+
+        <aside class="progress-panel">
+          <p class="panel-label">YOUR PROGRESS</p>
+          <div class="score-ring" data-score-ring><strong data-score>0</strong><span>/ 40</span></div>
+          <p data-progress-text>尚未檢查答案</p>
+          <div class="progress-track"><i data-progress-bar></i></div>
+          <nav data-section-nav aria-label="題目分部"></nav>
+          <button class="secondary-button" type="button" data-reset>清除本篇答案</button>
+        </aside>
+
+        <section class="questions-panel" aria-labelledby="questions-title">
+          <div class="questions-heading"><div><p class="panel-label">HKDSE-STYLE PRACTICE</p><h2 id="questions-title">閱讀理解練習</h2></div><p>請根據文章作答。每題按「檢查答案」後才會顯示參考答案與解釋。</p></div>
+          <div class="instructions-panel">
+            <strong>Instructions · 作答指示</strong>
+            <p>Read the article carefully and answer <b>ALL</b> questions. Unless otherwise stated, base your answers <b>only on the information in the article</b>. Where a question requires words from the article, observe the stated word limit. Write <b>T</b> (True), <b>F</b> (False), or <b>NG</b> (Not Given) as appropriate. <i>Not Given</i> means that the article neither confirms nor contradicts the statement.</p>
+          </div>
+          <div data-questions></div>
+          <section class="final-result" data-final-result hidden aria-live="polite"></section>
+          <button class="finish-button" type="button" data-finish>完成並計算總分</button>
+        </section>
+      </div>
+    </section>
+  </main>
+  <noscript><p class="noscript">請啟用 JavaScript 使用日常閱讀理解系統。</p></noscript>
+</body>
+</html>

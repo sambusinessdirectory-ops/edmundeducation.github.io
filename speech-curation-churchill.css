@@ -11,7 +11,7 @@ body{background:linear-gradient(180deg,#dce5e6 0,#f6f8f7 520px,#eff3f2 100%)}
 .edmund-system-switcher__trigger:hover,.edmund-system-switcher__trigger:focus-visible,.edmund-system-switcher[data-open="true"] .edmund-system-switcher__trigger{background:#303636}
 :focus-visible{outline-color:#008ca8}
 .reader-shell{max-width:1480px}
-.reader-hero{min-height:410px;border-radius:3px;padding:clamp(2rem,5vw,5rem);background:linear-gradient(90deg,#050505d9,#101819a6 55%,#10181938),url('/speech-curation-assets/library-hero.jpg') center/cover;box-shadow:none}
+.reader-hero{min-height:410px;border-radius:3px;padding:clamp(2rem,5vw,5rem);background:linear-gradient(90deg,#050505d9,#101819a6 55%,#10181938),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/library-hero.jpg') center/cover;box-shadow:none}
 .reader-hero:after{display:none}
 .reader-hero .eyebrow{color:#abd6dc}
 .reader-hero h1{font-family:"Times New Roman",Times,serif;font-weight:700;letter-spacing:0}
@@ -100,8 +100,8 @@ body{background:linear-gradient(180deg,#dce5e6 0,#f6f8f7 520px,#eff3f2 100%)}
 
 /* Archival paper and the full-address reading desk. */
 html{scroll-padding-top:100px}
-body{background:linear-gradient(#dce5e6dc,#eff3f2e8),url('/speech-curation-assets/parchment-paper.jpg') center top/640px auto repeat}
-.context-reading{background:linear-gradient(#f7f6f0e5,#f7f6f0e5),url('/speech-curation-assets/parchment-paper.jpg') center/560px auto repeat;scroll-margin-top:100px}
+body{background:linear-gradient(#dce5e6dc,#eff3f2e8),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/parchment-paper.jpg') center top/640px auto repeat}
+.context-reading{background:linear-gradient(#f7f6f0e5,#f7f6f0e5),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/parchment-paper.jpg') center/560px auto repeat;scroll-margin-top:100px}
 .idea-clause{display:inline-block;max-width:100%;vertical-align:baseline;white-space:normal}
 .pdf-highlight{padding:.03em .08em;background:#f2df8d;color:#243638;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .full-heading{display:flex;justify-content:space-between;align-items:end;gap:1.3rem;flex-wrap:wrap}
@@ -116,13 +116,13 @@ body{background:linear-gradient(#dce5e6dc,#eff3f2e8),url('/speech-curation-asset
 .font-choice button[aria-pressed=true]{background:#303b3c;color:#fff}
 .address-translation-toggle{border:1px solid #00839c;background:#fff;color:#006f85}
 .address-translation-toggle[aria-pressed=true]{background:#00839c;color:#fff}
-.reading-progress{position:sticky;top:76px;z-index:12;display:grid;grid-template-columns:auto minmax(50px,1fr) 54px;align-items:center;gap:.85rem;max-width:980px;min-height:63px;margin:0 auto;border:1px solid #b8c7c6;border-bottom:0;border-radius:2px 2px 0 0;padding:.4rem .75rem;background:linear-gradient(#faf9f2ee,#faf9f2ee),url('/speech-curation-assets/parchment-paper.jpg') center/512px auto repeat;box-shadow:0 7px 22px #23333514;backdrop-filter:blur(8px)}
+.reading-progress{position:sticky;top:76px;z-index:12;display:grid;grid-template-columns:auto minmax(50px,1fr) 54px;align-items:center;gap:.85rem;max-width:980px;min-height:63px;margin:0 auto;border:1px solid #b8c7c6;border-bottom:0;border-radius:2px 2px 0 0;padding:.4rem .75rem;background:linear-gradient(#faf9f2ee,#faf9f2ee),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/parchment-paper.jpg') center/512px auto repeat;box-shadow:0 7px 22px #23333514;backdrop-filter:blur(8px)}
 .progress-label{white-space:nowrap;color:#3a585b;font-size:.72rem;font-weight:900;letter-spacing:.06em}
 .progress-label output{margin-left:.4rem;color:#006f85;font-variant-numeric:tabular-nums}
 .progress-track{height:5px;overflow:hidden;border-radius:100px;background:#d0d7d1;box-shadow:inset 0 1px 2px #1e373930}
 .progress-fill{width:0;height:100%;border-radius:100px;background:linear-gradient(90deg,#00839c,#79adb2);transition:width .16s linear}
 .progress-lamp{width:48px;height:48px;object-fit:contain;filter:drop-shadow(0 3px 3px #243b3b38)}
-.full-text{border-color:#cbb995;border-top:0;border-radius:0 0 2px 2px;background:linear-gradient(#f0e2c6b8,#f0e2c6b8),url('/speech-curation-assets/parchment-paper.jpg') center top/512px auto repeat;box-shadow:0 16px 35px #2f2d231a}
+.full-text{border-color:#cbb995;border-top:0;border-radius:0 0 2px 2px;background:linear-gradient(#f0e2c6b8,#f0e2c6b8),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/parchment-paper.jpg') center top/512px auto repeat;box-shadow:0 16px 35px #2f2d231a}
 .address-paragraph{margin:0 0 2.1rem}
 .address-paragraph:last-child{margin-bottom:0}
 .full-text .address-english{margin:0;color:#312e27;font:400 clamp(1.05rem,1.35vw,1.27rem)/1.85 "Courier New",Courier,monospace;letter-spacing:.005em}
@@ -153,9 +153,9 @@ body{background:linear-gradient(#dce5e6dc,#eff3f2e8),url('/speech-curation-asset
 @media(prefers-reduced-motion:reduce){.address-insight{opacity:1;transform:none}.progress-fill{transition:none}}
 
 /* Persistent reading desk, visible paper grain, and spacious annotation cards. */
-body{background:linear-gradient(#d6e3e49c,#e8e9e0a8),url('/speech-curation-assets/parchment-paper.jpg') center top/520px auto repeat;background-blend-mode:multiply}
+body{background:linear-gradient(#d6e3e49c,#e8e9e0a8),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/parchment-paper.jpg') center top/520px auto repeat;background-blend-mode:multiply}
 .full-section{position:relative}
-.address-floating-toolbar{position:sticky;top:77px;z-index:35;max-width:980px;margin:0 auto 0;border:1px solid #a9bfc1;border-bottom:0;background:linear-gradient(#f5f0e5dd,#f5f0e5dd),url('/speech-curation-assets/parchment-paper.jpg') center/440px auto repeat;box-shadow:0 12px 24px #1b32352b;backdrop-filter:blur(9px)}
+.address-floating-toolbar{position:sticky;top:77px;z-index:35;max-width:980px;margin:0 auto 0;border:1px solid #a9bfc1;border-bottom:0;background:linear-gradient(#f5f0e5dd,#f5f0e5dd),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/parchment-paper.jpg') center/440px auto repeat;box-shadow:0 12px 24px #1b32352b;backdrop-filter:blur(9px)}
 .address-floating-toolbar .address-controls{max-width:none;margin:0;padding:.65rem .8rem;justify-content:center}
 .address-floating-toolbar .reading-progress{position:relative;top:auto;z-index:auto;max-width:none;min-height:44px;border:0;border-top:1px solid #cfdbda;border-radius:0;margin:0;padding:.2rem .8rem;background:none;box-shadow:none;backdrop-filter:none}
 .address-floating-toolbar .progress-lamp{transform:scaleX(-1)}
@@ -164,7 +164,7 @@ body{background:linear-gradient(#d6e3e49c,#e8e9e0a8),url('/speech-curation-asset
 .address-layout{display:grid;grid-template-columns:180px minmax(0,980px);align-items:start;justify-content:center;gap:1.1rem}
 .address-chapters{position:sticky;top:180px;margin:1rem 0 0;max-height:calc(100vh - 200px)}
 .address-nav-toggle{display:none}
-.address-layout .full-text{width:100%;max-width:none;margin:0;border-top:0;background:linear-gradient(#e8d5ad55,#e8d5ad55),url('/speech-curation-assets/parchment-paper.jpg') center top/520px auto repeat;background-blend-mode:multiply;box-shadow:inset 0 0 75px #8a663329,0 16px 35px #2f2d231a}
+.address-layout .full-text{width:100%;max-width:none;margin:0;border-top:0;background:linear-gradient(#e8d5ad55,#e8d5ad55),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/parchment-paper.jpg') center top/520px auto repeat;background-blend-mode:multiply;box-shadow:inset 0 0 75px #8a663329,0 16px 35px #2f2d231a}
 .full-text.font-courier-bold .address-english{font-weight:700}
 .full-text.address-rules-on .address-english{background-image:repeating-linear-gradient(to bottom,transparent 0,transparent calc(1.85em - 1px),#876c4940 calc(1.85em - 1px),#876c4940 1.85em)}
 .full-text.address-rules-on.font-times .address-english{background-image:repeating-linear-gradient(to bottom,transparent 0,transparent calc(1.7em - 1px),#876c4940 calc(1.7em - 1px),#876c4940 1.7em)}
@@ -191,7 +191,7 @@ body{background:linear-gradient(#d6e3e49c,#e8e9e0a8),url('/speech-curation-asset
 @media(max-width:600px){.address-floating-toolbar{top:120px}.address-floating-toolbar .address-controls{display:flex;flex-direction:row;justify-content:center;gap:.3rem;padding:.4rem;flex-wrap:wrap}.font-choice{width:100%;overflow:auto}.font-choice button{min-width:max-content;flex:1;font-size:.7rem}.address-rules-toggle,.address-translation-toggle{flex:1;font-size:.72rem;padding:.45rem .3rem}.address-floating-toolbar .reading-progress{grid-template-columns:auto minmax(25px,1fr) 34px;padding:.2rem .4rem}.line-bookmark-actions{padding:0 .8rem .55rem}.note-heading{grid-template-columns:26px minmax(0,1fr);gap:.3rem}.note-heading h5{font-size:1rem}.note-heading .bookmark-button{grid-column:2;justify-self:end}.vocabulary table{width:100%}}
 
 /* The search shelf and dated archival photograph. */
-.speech-search{margin:2.1rem 0 0;border:1px solid #b9cbca;padding:clamp(1rem,2vw,1.5rem);background:linear-gradient(#f8f5ebdf,#f8f5ebdf),url('/speech-curation-assets/parchment-paper.jpg') center/440px auto repeat;box-shadow:0 10px 24px #19383d12}
+.speech-search{margin:2.1rem 0 0;border:1px solid #b9cbca;padding:clamp(1rem,2vw,1.5rem);background:linear-gradient(#f8f5ebdf,#f8f5ebdf),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/parchment-paper.jpg') center/440px auto repeat;box-shadow:0 10px 24px #19383d12}
 .speech-search>label{display:block;margin-bottom:.55rem;color:#214750;font-size:.8rem;font-weight:900;letter-spacing:.07em}
 .speech-search-field{display:flex;gap:.5rem}
 .speech-search-field input{flex:1;min-width:0;min-height:45px;border:1px solid #aabfbe;padding:.65rem .8rem;background:#fffef9;color:#193e45;font:inherit}
@@ -213,7 +213,7 @@ body{background:linear-gradient(#d6e3e49c,#e8e9e0a8),url('/speech-curation-asset
 .archive-gallery-item figcaption a{color:#006e85;font-size:.83rem;font-weight:800;text-underline-offset:.2em}
 
 /* The paper controls stay together; the chapter rail tracks their actual height. */
-.address-floating-toolbar{background:linear-gradient(125deg,#f5edda93,#fbf7e8ad 50%,#e4d7bc91),url('/speech-curation-assets/parchment-paper.jpg') center/330px auto repeat;background-blend-mode:multiply;box-shadow:0 12px 25px #1b32352b,inset 0 1px #fff9e4}
+.address-floating-toolbar{background:linear-gradient(125deg,#f5edda93,#fbf7e8ad 50%,#e4d7bc91),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/parchment-paper.jpg') center/330px auto repeat;background-blend-mode:multiply;box-shadow:0 12px 25px #1b32352b,inset 0 1px #fff9e4}
 .address-floating-toolbar .address-controls{justify-content:center;gap:.55rem}
 .address-floating-toolbar .curation-jump{min-width:0;min-height:41px;gap:.6rem;padding:.5rem .8rem;font-size:.78rem;box-shadow:0 3px 0 #19454c}
 .address-floating-toolbar .curation-jump span:last-child{font-size:1rem}
@@ -271,11 +271,11 @@ body{background:linear-gradient(#d6e3e49c,#e8e9e0a8),url('/speech-curation-asset
 @keyframes loading-sheen{to{left:110%}}
 
 /* The leather panel slides open onto a burgundy velvet museum wall. */
-.archive-gallery{padding:clamp(1rem,3vw,2rem);border:1px solid #b08a5e;border-radius:10px;background:linear-gradient(#efdfc2ad,#e7d3b2ae),url('/speech-curation-assets/leather-album-cover.jpg') center/700px auto repeat;box-shadow:0 18px 40px #312b2230,inset 0 2px #fff3d9,inset 0 -3px #7e563560}
+.archive-gallery{padding:clamp(1rem,3vw,2rem);border:1px solid #b08a5e;border-radius:10px;background:linear-gradient(#efdfc2ad,#e7d3b2ae),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/leather-album-cover.jpg') center/700px auto repeat;box-shadow:0 18px 40px #312b2230,inset 0 2px #fff3d9,inset 0 -3px #7e563560}
 .archive-gallery .section-heading{margin:0 0 .9rem}
 .archive-gallery .section-heading .eyebrow,.archive-gallery .section-heading h2{color:#4b3429}
 .archive-gallery .section-heading>p:last-child{color:#5d4a3c}
-.gallery-reveal-toggle{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;border:1px solid #9d744d;border-radius:3px;padding:.85rem 1.2rem;background:linear-gradient(#f7e4c0b8,#dfbd91b8),url('/speech-curation-assets/leather-album-cover.jpg') center/700px auto repeat;color:#4b3325;font-size:.9rem;font-weight:900;letter-spacing:.03em;text-align:left;box-shadow:inset 0 1px #fff4d9,0 5px 12px #4e332227;transition:transform .5s cubic-bezier(.22,.8,.2,1),background-color .3s,box-shadow .3s}
+.gallery-reveal-toggle{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;border:1px solid #9d744d;border-radius:3px;padding:.85rem 1.2rem;background:linear-gradient(#f7e4c0b8,#dfbd91b8),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/leather-album-cover.jpg') center/700px auto repeat;color:#4b3325;font-size:.9rem;font-weight:900;letter-spacing:.03em;text-align:left;box-shadow:inset 0 1px #fff4d9,0 5px 12px #4e332227;transition:transform .5s cubic-bezier(.22,.8,.2,1),background-color .3s,box-shadow .3s}
 .gallery-reveal-toggle:hover{background-color:#ffeed0;box-shadow:inset 0 1px #fff4d9,0 8px 16px #4e332238}
 .archive-gallery.is-open .gallery-reveal-toggle{transform:translateY(4px)}
 .gallery-toggle-chevron{font:700 1.4rem/1 Georgia,serif;transition:transform .6s cubic-bezier(.22,.8,.2,1)}
@@ -283,7 +283,7 @@ body{background:linear-gradient(#d6e3e49c,#e8e9e0a8),url('/speech-curation-asset
 .archive-gallery-reveal{display:grid;grid-template-rows:0fr;opacity:0;transform:translateY(-12px);transition:grid-template-rows .85s cubic-bezier(.22,.8,.2,1),opacity .7s ease,transform .85s cubic-bezier(.22,.8,.2,1)}
 .archive-gallery.is-open .archive-gallery-reveal{grid-template-rows:1fr;opacity:1;transform:none}
 .archive-gallery-pages-inner{min-height:0;overflow:hidden}
-.archive-gallery-list{gap:clamp(1.5rem,4vw,3rem);margin-top:1.4rem;border:1px solid #7b3d43;border-radius:4px;padding:clamp(1rem,3.2vw,2.8rem);background:linear-gradient(#30091342,#29071156),url('/speech-curation-assets/burgundy-velvet.webp') center top/900px auto repeat;box-shadow:inset 0 16px 25px #1d050b88,inset 0 -12px 24px #1d050b7a,0 12px 24px #2e19193b}
+.archive-gallery-list{gap:clamp(1.5rem,4vw,3rem);margin-top:1.4rem;border:1px solid #7b3d43;border-radius:4px;padding:clamp(1rem,3.2vw,2.8rem);background:linear-gradient(#30091342,#29071156),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/burgundy-velvet.webp') center top/900px auto repeat;box-shadow:inset 0 16px 25px #1d050b88,inset 0 -12px 24px #1d050b7a,0 12px 24px #2e19193b}
 .archive-gallery-item{gap:clamp(1rem,3vw,2.6rem);border:0;padding:0;background:transparent;box-shadow:none}
 .archive-gallery-item figcaption{order:1}
 .archive-gallery-item:nth-child(odd) .archive-photo,.archive-gallery-item:nth-child(odd) .archive-video{order:2}
@@ -303,7 +303,7 @@ body{background:linear-gradient(#d6e3e49c,#e8e9e0a8),url('/speech-curation-asset
 .archive-recording-player a:hover,.archive-recording-player a:focus-visible{background:#e4f0ee}
 .archive-recording-note{border-left-color:#aa7848}
 @media(max-width:720px){.archive-recording-card{grid-template-columns:1fr}.archive-recording-player{justify-items:stretch}.archive-recording-player a{justify-content:center}}
-.museum-frame{--frame-width:clamp(28px,3.7vw,52px);display:block;position:relative;overflow:visible;border:var(--frame-width) solid transparent;border-image-source:url('/speech-curation-assets/ornate-walnut-frame.webp');border-image-slice:210 285 230 285;border-image-width:1;border-image-repeat:stretch;background:#100b0b;box-shadow:0 18px 34px #140508a8}
+.museum-frame{--frame-width:clamp(28px,3.7vw,52px);display:block;position:relative;overflow:visible;border:var(--frame-width) solid transparent;border-image-source:url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/ornate-walnut-frame.webp');border-image-slice:210 285 230 285;border-image-width:1;border-image-repeat:stretch;background:#100b0b;box-shadow:0 18px 34px #140508a8}
 .archive-photo img{display:block;width:100%;height:auto;max-height:380px;object-fit:contain}
 .archive-video{aspect-ratio:auto}
 .archive-video iframe{display:block;width:100%;height:auto;aspect-ratio:16/9;border:0}
@@ -334,7 +334,7 @@ body{background:linear-gradient(#d6e3e49c,#e8e9e0a8),url('/speech-curation-asset
 .speech-audio-panel{display:block;max-width:980px;margin:0 auto 0;border-radius:12px 12px 0 0;border-bottom:0;padding:1.15rem 1.45rem;background:linear-gradient(115deg,#fdfaf2,#e8f0ed)}
 .reader-sticky-stack{position:sticky;top:var(--reader-top-offset);z-index:35;max-width:980px;margin:0 auto;isolation:isolate}
 .reader-sticky-stack .address-floating-toolbar{position:relative;top:auto;z-index:1;max-width:none;margin:0}
-.speech-audio-dock{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;column-gap:1rem;row-gap:.55rem;border:1px solid #49301d;padding:.62rem .8rem .55rem;background:linear-gradient(#1c0d083b,#1c0d084a),url('/speech-curation-assets/walnut-radio-fascia-1940s.webp') center/100% 100% no-repeat;box-shadow:inset 0 1px #f3d3a66b,inset 0 -3px #1b17154d,0 8px 20px #23171445;color:#f7e9c9}
+.speech-audio-dock{position:relative;display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;column-gap:1rem;row-gap:.55rem;border:1px solid #49301d;padding:.62rem .8rem .55rem;background:linear-gradient(#1c0d083b,#1c0d084a),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/walnut-radio-fascia-1940s.webp') center/100% 100% no-repeat;box-shadow:inset 0 1px #f3d3a66b,inset 0 -3px #1b17154d,0 8px 20px #23171445;color:#f7e9c9}
 .radio-identity{display:flex;align-items:center;gap:.55rem;min-width:142px}
 .radio-on-air{width:12px;height:12px;flex:none;border:2px solid #e4b377;border-radius:50%;background:#a83e27;box-shadow:0 0 0 3px #4a231d,inset 0 1px #ffd5a1,0 0 8px #dc6c34a3}
 .speech-audio-dock.is-playing .radio-on-air{box-shadow:0 0 0 3px #4a231d,inset 0 1px #ffd5a1,0 0 13px #f6924f}
@@ -368,7 +368,7 @@ dialog.archive-inspection{position:fixed;inset:0;width:min(96vw,1100px);max-widt
 dialog.archive-inspection[open].is-open{opacity:1;transform:none}
 dialog.archive-inspection::backdrop{background:#12080c00;backdrop-filter:blur(0);transition:background .5s ease,backdrop-filter .5s ease}
 dialog.archive-inspection.is-open::backdrop{background:#12080cc2;backdrop-filter:blur(5px)}
-.archive-inspection-inner{position:relative;border:1px solid #aa8054;border-radius:8px;padding:clamp(1rem,3vw,2rem);background:linear-gradient(#3009134d,#2907116b),url('/speech-curation-assets/burgundy-velvet.webp') center/900px repeat;box-shadow:0 28px 80px #100508b3,inset 0 0 0 5px #a7794863}
+.archive-inspection-inner{position:relative;border:1px solid #aa8054;border-radius:8px;padding:clamp(1rem,3vw,2rem);background:linear-gradient(#3009134d,#2907116b),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/burgundy-velvet.webp') center/900px repeat;box-shadow:0 28px 80px #100508b3,inset 0 0 0 5px #a7794863}
 .archive-inspection figure{display:grid;justify-items:center;gap:1.15rem;margin:0}
 .archive-inspection-photo{width:fit-content;max-width:100%;margin:auto;--frame-width:clamp(27px,3.6vw,50px)}
 .archive-inspection-photo img{display:block;width:min(74vw,780px);max-width:100%;height:auto;max-height:min(61dvh,680px);object-fit:contain}
@@ -388,8 +388,8 @@ dialog.archive-inspection.is-open::backdrop{background:#12080cc2;backdrop-filter
 @media(max-width:600px){.translations-on .line-translation{margin-left:3.4rem}.translations-on .line-bookmark-actions{padding-right:.8rem}}
 
 /* Stretch one curtain across each entire gallery surface, never tile its folds. */
-.archive-gallery-list{background-image:linear-gradient(#30091342,#29071156),url('/speech-curation-assets/burgundy-velvet.webp');background-position:center,center top;background-size:100% 100%,100% 100%;background-repeat:no-repeat,no-repeat}
-.archive-inspection-inner{background-image:linear-gradient(#3009134d,#2907116b),url('/speech-curation-assets/burgundy-velvet.webp');background-position:center,center top;background-size:100% 100%,100% 100%;background-repeat:no-repeat,no-repeat}
+.archive-gallery-list{background-image:linear-gradient(#30091342,#29071156),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/burgundy-velvet.webp');background-position:center,center top;background-size:100% 100%,100% 100%;background-repeat:no-repeat,no-repeat}
+.archive-inspection-inner{background-image:linear-gradient(#3009134d,#2907116b),url('https://edmund-public-media.edmundeducation.workers.dev/speech-curation-assets/burgundy-velvet.webp');background-position:center,center top;background-size:100% 100%,100% 100%;background-repeat:no-repeat,no-repeat}
 
 /* The actual framed photograph travels from its position on the gallery wall. */
 dialog.archive-inspection{width:min(98vw,1380px);max-height:calc(100dvh - 1rem);transform:none;transition:opacity .36s ease}

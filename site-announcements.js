@@ -86,7 +86,7 @@
           <h2 id="site-announcement-title" tabindex="-1">重要通知</h2>
           <div class="site-announcement-message-wrap">
             <div class="site-announcement-message" data-announcement-message></div>
-            <button class="site-announcement-eddy" type="button" data-announcement-eddy aria-label="Eddy 的公告提示，點擊關閉"><img src="/eddy-new-announcement-dialogue.png" alt="" aria-hidden="true"><span class="site-announcement-eddy-copy" lang="zh-Hant"></span></button>
+            <button class="site-announcement-eddy" type="button" data-announcement-eddy aria-label="Eddy 的公告提示，點擊關閉"><img src="https://edmund-public-media.edmundeducation.workers.dev/eddy-new-announcement-dialogue.png" alt="" aria-hidden="true"><span class="site-announcement-eddy-copy" lang="zh-Hant"></span></button>
           </div>
           <p class="site-announcement-page" data-announcement-page></p>
           <div class="site-announcement-actions">

@@ -22,7 +22,7 @@ function showPurchaseDialogue(host){
  const art=document.createElement('span');
  art.className='eddy-closet-purchase-art';
  const image=document.createElement('img');
- image.src=new URL('./eddy-closet-purchase-dialogue.png',import.meta.url).href;
+ image.src=new URL('https://edmund-public-media.edmundeducation.workers.dev/eddy-closet-purchase-dialogue.png',import.meta.url).href;
  image.alt='';
  const message=document.createElement('span');
  message.className='eddy-closet-purchase-message';

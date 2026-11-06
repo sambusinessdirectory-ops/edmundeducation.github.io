@@ -152,7 +152,7 @@
     overlay.setAttribute('role', 'dialog');
     overlay.setAttribute('aria-modal', 'true');
     overlay.setAttribute('aria-label', 'Eddy 歡迎您回來');
-    overlay.innerHTML = '<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img src="eddy-schedule-return-1.png" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-schedule-return-message" lang="zh-Hant"></span></span></button>';
+    overlay.innerHTML = '<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img src="https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-return-1.png" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-schedule-return-message" lang="zh-Hant"></span></span></button>';
     overlay.addEventListener('click', advance);
     document.body.append(overlay);
     renderPage();

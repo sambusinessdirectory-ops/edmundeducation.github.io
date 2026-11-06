@@ -2,7 +2,7 @@
   const button = document.querySelector('[data-eddy-speaking-toggle]');
   if (!button) return;
   const image = button.querySelector('img');
-  const gif = 'speaking-eddy/eddy-speaking.gif?v=20261022-3';
+  const gif = 'https://edmund-public-media.edmundeducation.workers.dev/speaking-eddy/eddy-speaking.gif?v=20261022-3';
   const stills = Array.from({ length: 7 }, (_, index) =>
     `speaking-eddy/stills/eddy-${String(index + 1).padStart(2, '0')}.png?v=20261022-3`
   );

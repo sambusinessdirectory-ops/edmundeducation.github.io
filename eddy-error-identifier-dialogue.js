@@ -53,7 +53,7 @@
     overlay.setAttribute('role', 'dialog');
     overlay.setAttribute('aria-modal', 'true');
     overlay.setAttribute('aria-label', 'Eddy 一起找錯字');
-    overlay.innerHTML = '<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img src="eddy-error-identifier-dialogue.png" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-error-identifier-message" lang="zh-Hant"></span></span></button>';
+    overlay.innerHTML = '<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img src="https://edmund-public-media.edmundeducation.workers.dev/eddy-error-identifier-dialogue.png" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-error-identifier-message" lang="zh-Hant"></span></span></button>';
     const message = overlay.querySelector('.eddy-error-identifier-message');
     if (typeof comment === 'string') message.textContent = comment;
     else {

@@ -25,7 +25,7 @@
   const audio = make('audio');
   audio.controls = true;
   audio.preload = 'metadata';
-  audio.src = '/paper3/2025-b2/part-b-meeting.m4a';
+  audio.src = 'https://edmund-public-media.edmundeducation.workers.dev/paper3/2025-b2/part-b-meeting.m4a';
   audio.setAttribute('aria-label','2025 Part B 會議錄音播放器');
   const audioStatus = make('p','','notes-audio-status');
   audioStatus.setAttribute('role','status');

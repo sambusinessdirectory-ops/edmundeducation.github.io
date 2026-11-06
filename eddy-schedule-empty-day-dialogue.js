@@ -38,7 +38,7 @@
     overlay.setAttribute('role', 'dialog');
     overlay.setAttribute('aria-modal', 'true');
     overlay.setAttribute('aria-label', 'Eddy 的今日功課提示');
-    overlay.innerHTML = `<button class="eddy-first-question-dismiss" type="button" aria-label="${copy.replace(/\n/g, ' ')} 點擊、輕觸或按鍵繼續"><span class="eddy-first-question-art"><img src="eddy-schedule-empty-day-dialogue.png" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-first-question-message--schedule-empty" lang="zh-Hant">${copy}</span></span></button>`;
+    overlay.innerHTML = `<button class="eddy-first-question-dismiss" type="button" aria-label="${copy.replace(/\n/g, ' ')} 點擊、輕觸或按鍵繼續"><span class="eddy-first-question-art"><img src="https://edmund-public-media.edmundeducation.workers.dev/eddy-schedule-empty-day-dialogue.png" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-first-question-message--schedule-empty" lang="zh-Hant">${copy}</span></span></button>`;
     overlay.addEventListener('click', dismiss);
     document.body.append(overlay);
     shown.add(key);

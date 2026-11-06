@@ -5,7 +5,7 @@
     local("Source Han Serif TC"),
     local("Songti TC"),
     local("PMingLiU"),
-    url("fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
+    url("https://edmund-public-media.edmundeducation.workers.dev/fonts/NotoSerifTC-VariableFont_wght.ttf") format("truetype");
   font-weight: 200 900;
   font-style: normal;
   font-display: swap;

@@ -8,7 +8,7 @@
 
   const config = grammar ? {
     label: 'Eddy 的英文語法挑戰',
-    image: '/eddy-grammar-daily-dialogue.png',
+    image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-grammar-daily-dialogue.png',
     comments: [
       { main: '呵呵呵……你終於來了啊。', sub: 'Eddy 已經用這股力量，準備好一場前所未有的試煉了。來吧——讓我看看，你究竟能不能撐到最後！' },
       '哼哼……感受到這股力量了嗎？這可是 Eddy 特地為你準備的高難度挑戰。準備好了，就放馬過來吧！',
@@ -19,7 +19,7 @@
     ]
   } : {
     label: 'Eddy 一起欣賞歌曲',
-    image: '/eddy-song-appreciation-dialogue.png',
+    image: 'https://edmund-public-media.edmundeducation.workers.dev/eddy-song-appreciation-dialogue.png',
     comments: [
       { main: '♪ 哼哼哼～啦啦啦～♪', sub: '咦？你什麼時候來的！？糟糕……Eddy 剛才該不會唱得很大聲吧！？' },
       '哦哦！這節奏也太帶勁了吧！嘿嘿，腳都忍不住跟著打拍子啦！',

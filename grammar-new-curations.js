@@ -13,7 +13,7 @@
   const allViews = [];
 
   function addChalkColors(copy, ruleIndex) {
-    const terms = /(\b(?:unless|not|if|no one|someone|somebody|something|somewhere|anyone|anybody|anything|anywhere|nobody|nothing|nowhere|everyone|everybody|everything|everywhere|elsewhere)\b|除非|例外|否定|主句|條件|現在式|過去|未來|動詞|例句|改寫|範圍|短答|某個|任選|沒有|全部|人|事物|地方)/giu;
+    const terms = /(\b(?:unless|not|if|said|told|asked|reported|reporting verb|reported speech|direct speech|indirect speech|whether|that|no one|someone|somebody|something|somewhere|anyone|anybody|anything|anywhere|nobody|nothing|nowhere|everyone|everybody|everything|everywhere|elsewhere)\b|轉述|直接引語|間接引語|說話者|聽者|人稱|時態|時間|地點|除非|例外|否定|主句|條件|現在式|過去|未來|動詞|例句|改寫|範圍|短答|某個|任選|沒有|全部|人|事物|地方)/giu;
     const colors = ["purple", "yellow", "mint"];
     let colorIndex = ruleIndex;
     function visit(parent) {
@@ -359,9 +359,10 @@
   });
 
   window.EDMUND_GRAMMAR_EDDY = { add: addEddyDialogue, schedule: scheduleIndefiniteLayout };
-  const requested = new URLSearchParams(window.location.search).get("lesson");
+  const requestedParams = new URLSearchParams(window.location.search);
+  const requested = requestedParams.get("lesson");
   const initial = lessons.findIndex((lesson) => lesson.slug === requested);
-  if (initial >= 0) open(allViews[initial], lessons[initial].slug);
+  if (initial >= 0 && requestedParams.get("view") !== "practice") open(allViews[initial], lessons[initial].slug);
   window.addEventListener("resize", () => allViews.forEach(scheduleIndefiniteLayout));
   document.fonts?.ready.then(() => allViews.forEach(scheduleIndefiniteLayout));
 })();
