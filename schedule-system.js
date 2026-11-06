@@ -3981,6 +3981,7 @@ async function login(event) {
     showView("calendar");
     void checkInStudentForReturnDialogue();
     await loadWeek();
+    openWeekChart();
     showToast(`您好，${student.name}！`);
   } catch (error) {
     console.warn("Schedule login failed", error);
@@ -8382,7 +8383,33 @@ elements.togglePreviousIncomplete.addEventListener("click", toggleEntryPreviousI
 elements.cancelDelete.addEventListener("click", () => elements.deleteDialog.close());
 elements.confirmDelete.addEventListener("click", deleteEntry);
 elements.closeTeacherMove?.addEventListener("click", () => elements.teacherMoveDialog.close());
-const chart=document.querySelector('#week-chart'), chartYear=chart.querySelector('select'), weekGrid=chart.querySelector('#week-chart-grid');
+const chart=document.querySelector('#week-chart'), chartYear=chart.querySelector('select'), weekGrid=chart.querySelector('#week-chart-grid'), chartTrigger=document.querySelector('[data-week-chart]');
+let chartCloseTimer=0;
+function wiggleWeekChartTrigger(){
+ chartTrigger.classList.remove('week-chart-wiggle');void chartTrigger.offsetWidth;chartTrigger.classList.add('week-chart-wiggle');
+ window.setTimeout(()=>chartTrigger.classList.remove('week-chart-wiggle'),650);
+}
+function setWeekChartExitVector(){
+ const dialogRect=chart.getBoundingClientRect(),triggerRect=chartTrigger.getBoundingClientRect();
+ chart.style.setProperty('--week-chart-exit-x',(triggerRect.left+triggerRect.width/2-dialogRect.left-dialogRect.width/2)+'px');
+ chart.style.setProperty('--week-chart-exit-y',(triggerRect.top+triggerRect.height/2-dialogRect.top-dialogRect.height/2)+'px');
+}
+function closeWeekChart({wiggle=true,onClosed}={}){
+ if(!chart.open||chart.classList.contains('is-closing'))return;
+ let finished=false;
+ const finish=()=>{if(finished)return;finished=true;window.clearTimeout(chartCloseTimer);chartCloseTimer=0;if(chart.open)chart.close();chart.classList.remove('is-closing');if(wiggle)wiggleWeekChartTrigger();onClosed?.();};
+ if(matchMedia('(prefers-reduced-motion: reduce)').matches){finish();return;}
+ setWeekChartExitVector();chart.classList.add('is-closing');
+ chart.addEventListener('animationend',event=>{if(event.target===chart)finish();},{once:true});
+ chartCloseTimer=window.setTimeout(finish,420);
+}
+function openWeekChart(){
+ if(chart.open)return;
+ chartYear.replaceChildren();for(let y=addDays(firstWeekStart(),3).getFullYear();y<=addDays(lastWeekStart(),3).getFullYear();y++)chartYear.add(new Option(y,y));
+ chartYear.value=addDays(parseISODate(state.weekStart),3).getFullYear();drawWeeks();chart.classList.remove('is-closing');chart.showModal();
+ chart.focus({preventScroll:true});
+ requestAnimationFrame(()=>weekGrid.querySelector('[aria-current="true"]')?.scrollIntoView({block:'nearest'}));
+}
 function drawAssignedWeekRing(button) {
  const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');
  svg.classList.add('week-pencil-ring');svg.setAttribute('aria-hidden','true');svg.setAttribute('viewBox','0 0 160 76');svg.setAttribute('preserveAspectRatio','none');
@@ -8425,14 +8452,19 @@ function drawWeeks(){
   btn.dataset.week=key;btn.dataset.today=String(today);btn.setAttribute('aria-label','第 '+n+' 週 · '+formatWeekRange(key)+(today?' · 本週':''));
   const title=document.createElement('b'),range=document.createElement('small');title.textContent='第 '+n+' 週'+(today?' · 本週':'');range.textContent=short(d)+' – '+short(end);btn.append(title,range);
   btn.setAttribute('aria-current',String(key===state.weekStart));
-  btn.onclick=()=>{chart.close();changeWeek(Math.round((parseISODate(key)-parseISODate(state.weekStart))/86400000));};weekGrid.append(btn);
+  btn.onclick=()=>{const offset=Math.round((parseISODate(key)-parseISODate(state.weekStart))/86400000);closeWeekChart({wiggle:false,onClosed:()=>changeWeek(offset)});};weekGrid.append(btn);
  }
  void markAssignedWeeks(year);
 }
-document.querySelector('[data-week-chart]').onclick=()=>{
- chartYear.replaceChildren();for(let y=addDays(firstWeekStart(),3).getFullYear();y<=addDays(lastWeekStart(),3).getFullYear();y++)chartYear.add(new Option(y,y));
- chartYear.value=addDays(parseISODate(state.weekStart),3).getFullYear();drawWeeks();chart.showModal();weekGrid.querySelector('[aria-current="true"]')?.scrollIntoView({block:"nearest"});
-};chartYear.onchange=drawWeeks;
+chartTrigger.onclick=openWeekChart;
+chart.querySelector('[data-week-chart-close]').addEventListener('submit',event=>{event.preventDefault();closeWeekChart();});
+chart.addEventListener('cancel',event=>{event.preventDefault();closeWeekChart();});
+chart.addEventListener('click',event=>{
+ if(event.target!==chart)return;
+ const rect=chart.getBoundingClientRect(),outside=event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom;
+ if(outside)closeWeekChart();
+});
+chartYear.onchange=drawWeeks;
 elements.previousWeek.addEventListener("click", () => changeWeek(-7));
 elements.nextWeek.addEventListener("click", () => changeWeek(7));
 elements.currentWeek.addEventListener("click", async () => {

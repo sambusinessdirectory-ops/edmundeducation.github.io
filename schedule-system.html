@@ -2212,8 +2212,16 @@
       .print-footer { margin-top: 3mm; color: #555; font-size: 7pt; text-align: right; }
     }
   .week-shortcuts{display:inline-flex;align-items:center;gap:6px;justify-self:start}.week-shortcuts .schedule-today{margin:0}[data-week-chart]{display:inline-flex;align-items:center;gap:.5em;min-height:40px;padding:0 16px;border:1px solid #afc7b8;border-radius:999px;background:#e7f3ec;color:#174b37;font:700 14px/1.2 system-ui;cursor:pointer}
+[data-week-chart].week-chart-wiggle{animation:week-chart-trigger-wiggle .56s cubic-bezier(.36,.07,.19,.97) both}
+@keyframes week-chart-trigger-wiggle{0%,100%{transform:rotate(0)}18%{transform:rotate(-4deg) scale(1.03)}36%{transform:rotate(3deg) scale(1.03)}54%{transform:rotate(-2deg)}72%{transform:rotate(1deg)}}
 #week-chart{box-sizing:border-box;width:min(820px,94vw);max-height:82vh;padding:0;border:1px solid #cbdacf;border-radius:22px;background:#fafcf9;color:#183c2e;box-shadow:0 20px 90px #12291f45;font-family:system-ui,sans-serif}
 #week-chart::backdrop{background:#192e2b80;backdrop-filter:blur(4px)}
+#week-chart[open]:not(.is-closing){animation:week-journal-open .34s cubic-bezier(.2,.8,.2,1) both}
+#week-chart.is-closing{pointer-events:none;animation:week-journal-close .34s cubic-bezier(.4,0,.8,.2) both}
+#week-chart.is-closing::backdrop{animation:week-journal-backdrop-close .34s ease both}
+@keyframes week-journal-open{from{opacity:0;transform:translateY(20px) scale(.94)}to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes week-journal-close{from{opacity:1;transform:translate(0,0) scale(1)}to{opacity:0;transform:translate(var(--week-chart-exit-x,0),var(--week-chart-exit-y,24px)) scale(.18) rotate(-3deg)}}
+@keyframes week-journal-backdrop-close{to{background:#192e2b00;backdrop-filter:blur(0)}}
 .week-chart-head{position:sticky;top:0;z-index:1;background:#fafcf9;border-bottom:1px solid #dfe8df;padding:16px 20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .week-chart-head h2{font:750 20px/1.2 system-ui;margin:0 auto 0 0}.week-chart-head select,.week-chart-head button{padding:7px 10px;border-radius:10px;background:white;border:1px solid #b8ccbf;color:#214936;font:600 14px system-ui}.week-chart-head form{margin:0}
 #week-chart-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(124px,100%),1fr));gap:8px;padding:14px 18px 20px}
@@ -2234,6 +2242,7 @@
 #week-chart-grid button[data-today=true]{background:#096447;color:#fff;border-color:#074e38;box-shadow:0 3px 0 #074e38}
 #week-chart-grid button[data-today=true]::before{background:#ffd269}#week-chart-grid button[aria-current=true]:not([data-today=true]){outline-style:dashed}
 @media(max-width:520px){.week-chart-head{gap:6px;padding:10px}.week-journal-label{gap:6px}.week-journal-label img{width:36px;height:36px}.week-journal-label h2{font-size:15px}.week-journal-label small{font-size:8px}.week-chart-head label{font-size:12px}#week-chart-grid{padding:16px 10px}}
+@media(prefers-reduced-motion:reduce){#week-chart[open]:not(.is-closing),#week-chart.is-closing,[data-week-chart].week-chart-wiggle{animation:none}}
 [data-week-marker-status]{display:block;font-size:10px;color:#5d624c;line-height:1.4}
 #week-chart-grid button[data-assigned=true] b{padding-right:28px}
 .week-assigned-sticker{pointer-events:none;position:absolute;right:1px;top:-3px;width:33px;height:33px;transform:rotate(-6deg);background:url("homework-eddy/assigned-week.webp") center/contain no-repeat}
@@ -2964,9 +2973,9 @@
   <script defer src="eddy-schedule-incomplete-dialogue.js?v=20261101-three-day"></script>
   <script defer src="eddy-schedule-self-rating-dialogue.js?v=20261101-motivation1"></script>
   <script defer src="eddy-schedule-return-dialogue.js?v=20261026-1"></script>
-  <script type="module" src="schedule-system.js?v=20261104-dse-practical-writing2"></script>
+  <script type="module" src="schedule-system.js?v=20261106-week-journal1"></script>
   <script src="student-activity-log.js?v=20260910-1"></script>
   <script defer src="schedule-toolbar.js?v=20261028-1"></script>
 <script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
-<dialog id="week-chart" aria-labelledby="week-chart-title"><header class="week-chart-head"><div class="week-journal-label"><img src="homework-eddy/week-journal-shirtless.png?v=20261106-shirtless1" width="58" height="58" alt=""><div><small>EDDY’S CAMP JOURNAL</small><h2 id="week-chart-title">營地週曆 · 選擇星期</h2><span data-week-marker-status role="status"></span></div></div><label>年份 <select id="week-chart-year"></select></label><form method="dialog"><button aria-label="關閉週曆">關閉 ×</button></form></header><div id="week-chart-grid"></div></dialog></body>
+<dialog id="week-chart" aria-labelledby="week-chart-title" tabindex="-1" autofocus><header class="week-chart-head"><div class="week-journal-label"><img src="homework-eddy/week-journal-shirtless.png?v=20261106-shirtless1" width="58" height="58" alt=""><div><small>EDDY’S CAMP JOURNAL</small><h2 id="week-chart-title">營地週曆 · 選擇星期</h2><span data-week-marker-status role="status"></span></div></div><label>年份 <select id="week-chart-year"></select></label><form method="dialog" data-week-chart-close><button aria-label="關閉週曆">關閉 ×</button></form></header><div id="week-chart-grid"></div></dialog></body>
 </html>
