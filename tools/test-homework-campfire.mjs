@@ -8,6 +8,8 @@ for(const reduced of [false,true])for(const blocked of [false,true]){
  if(!blocked){const saved=dom.window.localStorage.getItem('edmund-homework-eddy-playing');assert.equal(saved,String(!reduced));}
  dom.window.close();
 }
-for(const path of ['poster.png','eddy-campfire.gif','eddy-campfire-v2.gif',...Array.from({length:5},(_,i)=>`stills/eddy-0${i+1}.png`)])assert.ok(fs.statSync('homework-eddy/'+path).size>1000);
+for(const path of ['poster.png','poster-v2.png','eddy-campfire.gif','eddy-campfire-v2.gif',...Array.from({length:5},(_,i)=>`stills/eddy-0${i+1}.png`),...Array.from({length:5},(_,i)=>`stills/eddy-0${i+1}-v2.png`)])assert.ok(fs.statSync('homework-eddy/'+path).size>1000);
 assert.ok(script.includes('eddy-campfire-v2.gif'), 'the live toggle must use the versioned animation that remains on Pages');
+assert.ok(script.includes('-v2.png'), 'paused frames must use versioned images that remain on Pages');
+assert.ok(html.includes('homework-eddy/poster-v2.png'), 'the initial poster must use the versioned Pages path');
 console.log('PASS: mascot assets, pause/resume, persisted preference, reduced motion and unavailable storage.');

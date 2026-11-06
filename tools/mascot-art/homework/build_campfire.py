@@ -39,8 +39,8 @@ encoded=[]
 for frame in frames:
  p=frame.convert('RGB').quantize(palette=palette,dither=Image.Dither.NONE);p.putpalette(pal);p.paste(255,mask=alpha.point(lambda v:255 if v<128 else 0));encoded.append(p)
 encoded[0].save(OUT/'eddy-campfire-v2.gif',save_all=True,append_images=encoded[1:],duration=40,loop=0,transparency=255,disposal=1,optimize=False)
-frames[0].resize((512,512),Image.Resampling.LANCZOS).save(OUT/'poster.png')
-for k,i in enumerate([0,24,29,72,111]):frames[i].resize((256,256),Image.Resampling.LANCZOS).save(OUT/'stills'/f'eddy-{k+1:02}.png')
+frames[0].resize((512,512),Image.Resampling.LANCZOS).save(OUT/'poster-v2.png')
+for k,i in enumerate([0,24,29,72,111]):frames[i].resize((256,256),Image.Resampling.LANCZOS).save(OUT/'stills'/f'eddy-{k+1:02}-v2.png')
 contact=Image.new('RGB',(400*4,440*2),'#e6ece7')
 for k,i in enumerate([0,24,29,40,72,111,140,159]):
  contact.paste(frames[i],((k%4)*400,(k//4)*440),frames[i]);ImageDraw.Draw(contact).text(((k%4)*400+12,(k//4)*440+405),f'{i*.04:.2f}s',fill='black')
