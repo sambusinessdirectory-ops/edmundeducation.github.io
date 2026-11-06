@@ -21,6 +21,8 @@ jobs:
       pages: read
     outputs:
       artifact_name: ${{ steps.artifact.outputs.name }}
+    env:
+      PAGES_MEDIA_ORIGIN: https://edmund-public-media.edmundeducation.workers.dev
     steps:
       - name: Checkout deployed snapshot
         uses: actions/checkout@v6
@@ -35,6 +37,13 @@ jobs:
           set -euo pipefail
           snapshot_sha=$(cat pages-snapshot/.source-sha)
           echo "SNAPSHOT_SHA=${snapshot_sha}" >> "${GITHUB_ENV}"
+          snapshot_origin=$(cat pages-snapshot/.r2-public-media-origin 2>/dev/null || true)
+          expected_origin=
+          if [[ '${{ vars.PAGES_R2_CUTOVER }}' == true ]]; then expected_origin="${PAGES_MEDIA_ORIGIN}"; fi
+          if [[ "${snapshot_origin}" != "${expected_origin}" ]]; then
+            echo 'Media delivery mode changed; use the standard full builder before a focused Paper 3 overlay.' >&2
+            exit 1
+          fi
 
           mkdir source
           cd source
@@ -192,9 +201,18 @@ jobs:
             grep -Fq "${GITHUB_SHA}" "${path}"
           done
 
-      - name: Remove verified R2 replicas only after same-domain cutover
+      - name: Rewrite public media to the verified Worker and remove R2 replicas
         if: vars.PAGES_R2_CUTOVER == 'true'
-        run: python3 source/tools/prune-verified-pages-media.py _site source/workers/edmund-public-media/src/media.json
+        run: |
+          python3 -m unittest source/tools/test-rewrite-pages-public-media.py
+          python3 source/tools/rewrite-pages-public-media.py \
+            _site source/workers/edmund-public-media/src/media.json \
+            --origin "${PAGES_MEDIA_ORIGIN}"
+          python3 source/tools/prune-verified-pages-media.py \
+            _site source/workers/edmund-public-media/src/media.json \
+            --origin "${PAGES_MEDIA_ORIGIN}" \
+            --keep-list source/tools/pages-media-saved-links.txt
+          printf '%s\n' "${PAGES_MEDIA_ORIGIN}" > _site/.r2-public-media-origin
 
       - name: Remove editorial QA reports and measure the upload
         env:
@@ -205,12 +223,33 @@ jobs:
           python3 source/tools/pages-artifact-inventory.py _site "${options[@]}"
 
       - name: Name this build artifact
-        id: artifact
+        id: artifact_base
         run: echo "name=github-pages-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_OUTPUT"
 
       - name: Upload GitHub Pages artifact
+        id: upload_primary
+        continue-on-error: true
         uses: actions/upload-pages-artifact@v4
         with:
-          name: ${{ steps.artifact.outputs.name }}
+          name: ${{ steps.artifact_base.outputs.name }}
           retention-days: 3
           path: _site
+
+      - name: Retry only the failed artifact upload
+        id: upload_retry
+        if: steps.upload_primary.outcome == 'failure'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          name: ${{ steps.artifact_base.outputs.name }}-retry
+          retention-days: 3
+          path: _site
+
+      - name: Select the stored artifact
+        id: artifact
+        env:
+          PRIMARY_OUTCOME: ${{ steps.upload_primary.outcome }}
+          BASE_NAME: ${{ steps.artifact_base.outputs.name }}
+        run: |
+          suffix=
+          if [[ "${PRIMARY_OUTCOME}" != success ]]; then suffix=-retry; fi
+          echo "name=${BASE_NAME}${suffix}" >> "${GITHUB_OUTPUT}"

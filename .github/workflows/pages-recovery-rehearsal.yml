@@ -1,0 +1,111 @@
+name: Rehearse staged Pages recovery
+
+run-name: Pages recovery rehearsal ${{ inputs.batch }} / fail ${{ inputs.failure_stage }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: Unique rehearsal identifier
+        required: true
+        type: string
+      failure_stage:
+        description: Stage that fails on attempt one and succeeds when failed jobs are rerun
+        required: true
+        default: publish
+        type: choice
+        options: [publish, verify, snapshot]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Create one immutable validated artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir validated
+          printf '%s\n' "${GITHUB_SHA}" > validated/source-sha
+          printf '%s\n' "${GITHUB_RUN_ID}" > validated/validation-run
+          sha256sum validated/source-sha validated/validation-run > validated/SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: validated-pages-${{ github.run_id }}
+          path: validated
+          retention-days: 3
+
+  publish:
+    needs: validate
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: validated-pages-${{ github.run_id }}
+          path: validated
+      - name: Reuse the validated artifact at publication
+        run: sha256sum -c validated/SHA256SUMS
+      - name: Inject one recoverable publication failure
+        if: inputs.failure_stage == 'publish' && github.run_attempt == 1
+        run: |
+          echo 'Intentional isolated publication failure; rerun failed jobs.' >&2
+          exit 75
+
+  verify:
+    needs: publish
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: validated-pages-${{ github.run_id }}
+          path: validated
+      - name: Reconcile the published artifact identity
+        run: sha256sum -c validated/SHA256SUMS
+      - name: Inject one recoverable live-verification failure
+        if: inputs.failure_stage == 'verify' && github.run_attempt == 1
+        run: |
+          echo 'Intentional isolated verification failure; rerun failed jobs.' >&2
+          exit 75
+
+  snapshot:
+    needs: publish
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: validated-pages-${{ github.run_id }}
+          path: validated
+      - name: Reconcile the snapshot artifact identity
+        run: sha256sum -c validated/SHA256SUMS
+      - name: Inject one recoverable snapshot failure
+        if: inputs.failure_stage == 'snapshot' && github.run_attempt == 1
+        run: |
+          echo 'Intentional isolated snapshot failure; rerun failed jobs.' >&2
+          exit 75
+
+  record:
+    if: always()
+    needs: [validate, publish, verify, snapshot]
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Record one release status
+        env:
+          VALIDATE: ${{ needs.validate.result }}
+          PUBLISH: ${{ needs.publish.result }}
+          VERIFY: ${{ needs.verify.result }}
+          SNAPSHOT: ${{ needs.snapshot.result }}
+        run: |
+          {
+            echo '### Staged recovery rehearsal'
+            echo '| Stage | Result |'
+            echo '|---|---|'
+            echo "| validation/artifact | ${VALIDATE} |"
+            echo "| publication | ${PUBLISH} |"
+            echo "| live verification | ${VERIFY} |"
+            echo "| snapshot | ${SNAPSHOT} |"
+            echo
+            echo "Run attempt: ${GITHUB_RUN_ATTEMPT}; artifact: validated-pages-${GITHUB_RUN_ID}"
+          } >> "${GITHUB_STEP_SUMMARY}"
+          [[ "${VALIDATE}" == success && "${PUBLISH}" == success && "${VERIFY}" == success && "${SNAPSHOT}" == success ]]

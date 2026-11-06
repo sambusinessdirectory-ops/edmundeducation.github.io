@@ -43,6 +43,11 @@ class CutoverTest(unittest.TestCase):
         self.run_cutover(self.response)
         self.assertFalse(self.song.exists())
 
+    def test_explicit_legacy_address_is_retained_after_full_verification(self):
+        with patch.object(cutover, "urlopen", side_effect=self.response):
+            cutover.prune(self.site, self.index, "https://test.invalid", {"song.wav"})
+        self.assertEqual(self.song.read_bytes(), b"sample")
+
     def test_wrong_public_index(self):
         with self.assertRaisesRegex(ValueError, "exact verified index"):
             self.run_cutover(lambda *a, **kw: io.BytesIO(b"{}"))

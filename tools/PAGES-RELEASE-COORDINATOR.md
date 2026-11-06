@@ -13,6 +13,10 @@ GitHub Pages releases are coordinated by
   Homepage card markup and numeric deck-counter edits can share the standard
   focused build with other covered systems. Other homepage edits and unknown
   files require full validation.
+- The route summary names the owner of every changed path and lists every commit
+  consolidated into the candidate. Unclassified paths are named and force full
+  validation; release-system files belong to the infrastructure scope instead
+  of silently broadening an otherwise focused release.
 - `tools/pages-system-release-map.json` owns the union of the homepage learning
   cards and `shared-system-nav.js` destinations. Every exposed route must map
   to a versioned scope in `tools/pages-release-scopes.json`; the build fails if
@@ -63,6 +67,12 @@ and 20 minutes for full releases, with ordinary queue wait below 5 minutes. Trea
 end-to-end limits, not build-only limits. A release is complete only after the public SHA,
 affected student journey, and snapshot are verified.
 
+After the public SHA changes, the publisher runs `verify-pages-live-journeys.py`.
+Focused releases fetch the mapped route for every affected dependency scope. Full,
+shared-header and cross-catalogue releases fetch the complete public system map. A
+matching release hash is not student-visible success when an affected document is
+missing, incomplete or unstamped.
+
 Avoid empty restart commits and manual cancellations for ordinary pushes. For a transient
 failure use GitHub's **Re-run failed jobs** on the owning run. The three-day artifact
 retention window allows publication, verification and snapshot failures to be retried
@@ -70,6 +80,10 @@ with the original artifact. If production already shows the candidate, the publi
 skips redeployment and repairs the snapshot. When snapshot and public SHA disagree,
 repair the run owning the public SHA first. Never overwrite the snapshot from an older
 retry. During a known bad release, record the reason and recovery owner before cancelling.
+Each builder retries a failed artifact upload once inside the already validated job,
+using a new immutable artifact name. Dispatch `pages-recovery-rehearsal.yml` with each
+failure stage and use **Re-run failed jobs**; the later attempt must reuse the one stored
+artifact while the successful validation job remains untouched.
 
 Use `python3 tools/pages-release-report.py --feature FULL_SHA --requested-at ISO_TIME`
 with authenticated GitHub CLI access. It reports verified timing and publication evidence
@@ -88,26 +102,30 @@ touching the production group. The rehearsal has read-only permissions.
 Public media that was already on Pages is mirrored in the edmund-assets R2 bucket.
 `tools/stage-pages-media.py` reads the deployed snapshot, verifies source Git object IDs,
 writes content-addressed packs, and reads every pack back before writing the worker index.
-The edmund-public-media Worker supports legacy paths on its own hostname and byte ranges.
-Keep the original paths on Pages until those same URLs on edmundeducation.com can be
-verified through the new service. The artifact inventory reports the interim size warning.
+The edmund-public-media Worker supports indexed paths on its existing workers.dev hostname,
+including byte ranges. The artifact inventory reports the interim size warning.
 
-### Enabling media delivery at the existing public address
+### Enabling R2 media delivery without changing authoritative DNS
 
-The optional repository variable `PAGES_R2_CUTOVER` defaults to off. The
-workers.dev hostname is available for rehearsal. To activate, the school domain
-must first route the indexed media paths and
-`/.well-known/edmund-public-media.json` to the same Worker, preserving the
-original Pages origin for other requests. Verify the exact index and range
-responses on the school domain, including saved song URLs, PDF downloads, and
-cached clients. Keep immutable packs available throughout rollback.
+The optional repository variable `PAGES_R2_CUTOVER` defaults to off. It does not require
+a nameserver or authoritative-DNS change. When enabled, every prepared artifact rewrites
+indexed media references to `edmund-public-media.edmundeducation.workers.dev`, extends
+document CSP for that origin, verifies the exact R2 index and byte ranges, retains the
+explicit compatibility paths in `pages-media-saved-links.txt`, and only then removes the
+other verified replicas from the disposable Pages artifact. A marker in the deployed
+snapshot forces the first activation and any rollback through a full build; later focused
+releases can safely overlay the pruned snapshot.
+
+Run `pages-media-cutover.yml` against the workers.dev origin before activation. The verifier checks
+the exact repository index, representative complete downloads, every routed top-level
+family, byte ranges, content types, cache validation, CORS, and saved song/PDF/image links.
+Do not enable `PAGES_R2_CUTOVER` until that run succeeds.
 
 After a disposable artifact rehearsal, enable the variable for a full release.
 Every builder compares present media with the verified blob index before
-removing replicas from its temporary upload directory. A stale index, a failed
+rewriting references and removing replicas from its temporary upload directory. A stale index, a failed
 range request, or an artifact over 1,000,000,000 bytes stops publication. When
 changing or withdrawing media, coordinate a new version of the index and its
-routes with the content release. To roll back, disable the variable, rebuild
-the full artifact from source, verify it on the Pages origin, then return
-the media paths to Pages. A focused overlay based on a pruned snapshot is
-insufficient to restore removed files.
+references with the content release. To roll back, disable the variable and rebuild
+the full artifact from source. The snapshot marker prevents a focused overlay from
+being mistaken for a complete rollback.

@@ -15,10 +15,14 @@ for report in ("MCQ-REVIEW.json", "MCQ-REVIEW.md", "PDF-ANSWER-AUDIT.json", "PDF
                "PDF-ORPHAN-ANSWER-REVIEW.json", "PDF-PLAIN-ANSWER-REVIEW.json", "PDF-SOUND-ANSWER-REVIEW.json"):
     (args.site / "polysemy-lab" / report).unlink(missing_ok=True)
 directories = Counter()
+largest_files = []
 files = 0
 for path in args.site.rglob("*"):
     if path.is_file():
-        directories[path.relative_to(args.site).parts[0]] += path.stat().st_size
+        size = path.stat().st_size
+        relative = path.relative_to(args.site)
+        directories[relative.parts[0]] += size
+        largest_files.append((size, str(relative)))
         files += 1
 if not files:
     raise SystemExit("Empty Pages artifact")
@@ -26,6 +30,8 @@ total = sum(directories.values())
 lines = [f"Prepared artifact: {total:,} uncompressed bytes across {files:,} files (budget {args.budget:,}).", "",
          "| Path | Bytes |", "|---|---:|"]
 lines.extend(f"| {path} | {size:,} |" for path,size in directories.most_common(12))
+lines.extend(["", "| Largest file | Bytes |", "|---|---:|"])
+lines.extend(f"| {path} | {size:,} |" for size,path in sorted(largest_files, reverse=True)[:12])
 summary = "\n".join(lines)
 print(summary)
 if "GITHUB_STEP_SUMMARY" in os.environ:

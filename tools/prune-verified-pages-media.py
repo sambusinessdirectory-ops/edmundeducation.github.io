@@ -16,7 +16,7 @@ def blob_id(path):
     return digest.hexdigest()
 
 
-def prune(site, index_file, origin):
+def prune(site, index_file, origin, keep=()):
     raw = index_file.read_bytes().rstrip(b"\n")
     index = json.loads(raw)
     headers = {"User-Agent": "EdmundEducation-Release/1.0", "Cache-Control": "no-cache"}
@@ -29,6 +29,7 @@ def prune(site, index_file, origin):
     root = site.resolve()
     samples = {}
     copies = []
+    keep = set(keep)
     for name, (_, _, size, _, oid) in index["entries"].items():
         rel = Path(name)
         if not rel.parts or rel.is_absolute() or ".." in rel.parts:
@@ -39,7 +40,8 @@ def prune(site, index_file, origin):
         if path.is_file():
             if path.stat().st_size != size or blob_id(path) != oid:
                 raise ValueError(f"Restage changed media before cutover: {name}")
-            copies.append(path)
+            if name not in keep:
+                copies.append(path)
         family = rel.parts[0] if len(rel.parts) > 1 else "."
         samples.setdefault(family, (name, size, oid))
 
@@ -63,8 +65,19 @@ if __name__ == "__main__":
     parser.add_argument("site", type=Path)
     parser.add_argument("index", type=Path)
     parser.add_argument("--rehearse", action="store_true", help="Use the isolated R2 hostname")
+    parser.add_argument("--origin", help="Verified media origin (defaults to the school domain)")
+    parser.add_argument("--keep-list", type=Path, help="Newline-delimited legacy paths to retain in Pages")
     args = parser.parse_args()
     if args.site.name != "_site" or args.site.is_symlink() or not args.site.is_dir():
         raise SystemExit("Expected a disposable _site artifact directory")
-    origin = "https://edmund-public-media.edmundeducation.workers.dev" if args.rehearse else "https://edmundeducation.com"
-    prune(args.site, args.index, origin)
+    if args.rehearse and args.origin:
+        raise SystemExit("Choose --rehearse or --origin, not both")
+    origin = args.origin or (
+        "https://edmund-public-media.edmundeducation.workers.dev" if args.rehearse
+        else "https://edmundeducation.com"
+    )
+    keep = []
+    if args.keep_list:
+        keep = [line.strip() for line in args.keep_list.read_text().splitlines()
+                if line.strip() and not line.lstrip().startswith("#")]
+    prune(args.site, args.index, origin, keep)

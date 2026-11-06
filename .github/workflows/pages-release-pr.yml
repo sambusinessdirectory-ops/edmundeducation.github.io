@@ -13,9 +13,18 @@ jobs:
           sparse-checkout: |
             /.github/workflows/
             /tools/pages-pr-rehearsal.rb
+            /tools/pages-artifact-inventory.py
             /tools/test-pages-publisher.cjs
             /tools/test-pages-media-cutover.py
             /tools/prune-verified-pages-media.py
+            /tools/test-pages-artifact-inventory.py
+            /tools/test-pages-recovery-rehearsal.py
+            /tools/test-verify-pages-media-route.py
+            /tools/test-verify-pages-live-journeys.py
+            /tools/test-rewrite-pages-public-media.py
+            /tools/verify-pages-media-route.py
+            /tools/verify-pages-live-journeys.py
+            /tools/rewrite-pages-public-media.py
       - name: Lint the candidate release workflows
         run: |
           archive="$RUNNER_TEMP/actionlint.tar.gz"
@@ -26,7 +35,14 @@ jobs:
           # gate checks its exact value and workflow-level placement.
           "$RUNNER_TEMP/actionlint" -ignore '^unexpected key "queue" for "concurrency" section' -shellcheck= -pyflakes= .github/workflows/pages*.yml .github/workflows/publish-pages-artifact.yml
       - name: Verify media cutover stops safely
-        run: python3 tools/test-pages-media-cutover.py
+        run: >-
+          python3 -m unittest
+          tools/test-pages-media-cutover.py
+          tools/test-pages-artifact-inventory.py
+          tools/test-pages-recovery-rehearsal.py
+          tools/test-verify-pages-media-route.py
+          tools/test-verify-pages-live-journeys.py
+          tools/test-rewrite-pages-public-media.py
       - name: Replay publisher decisions
         run: node --test tools/test-pages-publisher.cjs
       - name: Rehearse focused checkout and early publication contracts
