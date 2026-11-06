@@ -8,6 +8,7 @@ import { socialMediaAudio } from './social-media-audio.mjs?v=20260929-social1';
 import { guideAudio } from './guide-audio.mjs?v=20260928-guide1';
 import { detailedFeedback } from './detailed-feedback.mjs?v=20260928-feedback1';
 import {mountRecorder,allRecordings,recordingBlob,uploadRecording} from './recordings.mjs?v=20261103-readalong';
+import {dashboardDates,formatDuration,hkDate,mergeAnswer,moduleIdForQuestionKey} from './progress.mjs?v=20261106-dashboard1';
 
 const lessonCatalog = [...catalog,...legacyCatalog].sort((a,b)=>a.rank-b.rank || Number(a.legacy||false)-Number(b.legacy||false));
 const modules = {important:importantModule,...Object.fromEntries(lessonCatalog.map(item=>[item.id,item])),'social-media':socialMediaModule};
@@ -51,6 +52,7 @@ let audioTicket = 0, activeAudioStatus = null;
 let owner = null, token = null, progress = {answers:{},order:[],cursor:0};
 let view = 'home', choice = null, streak = 0, saveState = 'loading', localAvailable = true;
 const moduleStates = new Map();
+let dashboardData={activityDays:[],timeDays:[]},dashboardRange='7',studyClockMs=0,lastStudyAction=Date.now(),lastStudyTick=Date.now(),studyTimeSyncing=false;
 let falseSynonyms = importantFalseSynonyms;
 let recorderDispose = null, recordingsEpoch = 0;
 const recordingUrls = [];
@@ -99,6 +101,34 @@ function moduleProgress(id) {
   if(moduleStates.has(id))return moduleStates.get(id).progress;
   try{return JSON.parse(localStorage.getItem(progressKey(id))||'null')||blankProgress();}catch{return blankProgress();}
 }
+function storedModuleProgress(id) {
+  if(id===moduleId)return progress;
+  if(moduleStates.has(id))return moduleStates.get(id).progress;
+  try {
+    const saved=JSON.parse(localStorage.getItem(progressKey(id))||'null');
+    return saved?.answers&&typeof saved.answers==='object'?{...saved,order:Array.isArray(saved.order)?saved.order:[],cursor:Number(saved.cursor)||0}:blankProgress();
+  } catch {return blankProgress();}
+}
+function storeModuleProgress(id,next) {
+  if(id===moduleId)progress=next;
+  if(moduleStates.has(id))moduleStates.get(id).progress=next;
+  try{localStorage.setItem(progressKey(id),JSON.stringify(next));}catch{if(id===moduleId)localAvailable=false;}
+}
+function mergeAllModuleProgress(rows) {
+  const moduleIds=Object.keys(modules),grouped=new Map();
+  for(const row of rows||[]){
+    const id=moduleIdForQuestionKey(row.question_key,moduleIds);
+    if(!id)continue;
+    if(!grouped.has(id))grouped.set(id,[]);
+    grouped.get(id).push(row);
+  }
+  for(const [id,moduleRows] of grouped){
+    const saved=storedModuleProgress(id);
+    saved.answers={...(saved.answers||{})};
+    for(const row of moduleRows)saved.answers[row.question_key]=mergeAnswer(saved.answers[row.question_key],row);
+    storeModuleProgress(id,saved);
+  }
+}
 const current = () => byId.get(progress.order?.[progress.cursor]) || null;
 const record = id => progress.answers[id] || null;
 const attempted = () => questions.filter(q => (record(q.id)?.attempts || 0) > 0).length;
@@ -126,13 +156,30 @@ function updateSaveBadge() {
   const retry = host.querySelector('[data-retry-save]');
   if (retry) retry.hidden = saveState !== 'offline';
 }
+function applyDashboard(summary) {
+  dashboardData={activityDays:Array.isArray(summary?.activityDays)?summary.activityDays:[],timeDays:Array.isArray(summary?.timeDays)?summary.timeDays:[]};
+}
+function refreshDashboardPanel() {
+  if(view!=='home')return;
+  const panel=host.querySelector('.syn-dashboard-panel');
+  if(panel)panel.outerHTML=dashboardMarkup();
+}
+async function loadDashboard() {
+  if(!owner||!token)return;
+  const expected=owner;
+  try{
+    const summary=await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc('synonyms_progress_dashboard',{p_token:token});
+    if(owner!==expected)return;
+    applyDashboard(summary);refreshDashboardPanel();
+  }catch{}
+}
 function mergeServer(rows) {
   const server = new Map((rows || []).map(row => [row.question_key,row]));
   for (const [id,row] of server) {
     if (!byId.has(id)) continue;
     const local = record(id);
-    const remote = {attempts:Number(row.attempts)||1,mastered:row.mastered===true,lastChoice:row.last_choice,lastCorrect:row.last_correct===true,answeredAt:row.updated_at};
-    progress.answers[id] = local && local.attempts > remote.attempts ? {...local,mastered:local.mastered||remote.mastered} : {...remote,mastered:Boolean(local?.mastered||remote.mastered)};
+    const remote = mergeAnswer(local,row);
+    progress.answers[id] = remote;
     if (local && (local.attempts > remote.attempts || (local.mastered && !remote.mastered))) pending.set(id,progress.answers[id]);
   }
   for (const [id,local] of Object.entries(progress.answers)) if (byId.has(id) && !server.has(id) && local.attempts > 0) pending.set(id,local);
@@ -145,17 +192,19 @@ function mergeServer(rows) {
 }
 async function loadAccount() {
   if (!owner || !token) return;
-  const expected = owner, expectedModule=moduleId;
+  const expected = owner;
   saveState = 'loading'; updateSaveBadge();
   try {
     const rows = await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc('synonyms_important_list',{p_token:token});
-    if (owner !== expected || moduleId !== expectedModule) return;
+    if (owner !== expected) return;
+    mergeAllModuleProgress(rows);
     mergeServer(rows);
     saveState = pending.size ? 'saving' : 'saved'; updateSaveBadge();
     if (pending.size) void syncPending();
     render();
+    void loadDashboard();
   } catch {
-    if (owner !== expected || moduleId !== expectedModule) return;
+    if (owner !== expected) return;
     saveState = 'offline'; updateSaveBadge(); render();
   }
 }
@@ -173,10 +222,25 @@ async function syncPending() {
       });
       if(target.get(id)?.attempts===item.attempts)target.delete(id);
     }
-    if(owner===expected && moduleId===targetModule)saveState='saved';
+    if(owner===expected && moduleId===targetModule){saveState='saved';void loadDashboard();}
   } catch {if(owner===expected && moduleId===targetModule)saveState='offline';}
   target.syncing=false;
   if(moduleId===targetModule)updateSaveBadge();
+}
+async function flushStudyTime(force=false) {
+  if(!owner||!token||studyTimeSyncing)return;
+  const amount=Math.min(60000,Math.floor(studyClockMs/1000)*1000);
+  if(amount<1000||(!force&&amount<30000))return;
+  studyClockMs-=amount;studyTimeSyncing=true;
+  const expected=owner;
+  try{
+    const totalMs=await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc('synonyms_progress_record_time',{p_token:token,p_duration_ms:amount});
+    if(owner!==expected)return;
+    const date=hkDate(),others=dashboardData.timeDays.filter(row=>row.date!==date);
+    dashboardData={...dashboardData,timeDays:[...others,{date,totalMs:Number(totalMs)||amount}].sort((a,b)=>a.date.localeCompare(b.date))};
+    refreshDashboardPanel();
+  }catch{if(owner===expected)studyClockMs+=amount;}
+  finally{studyTimeSyncing=false;if(studyClockMs>=30000)void flushStudyTime();}
 }
 function randomNumber(max) {
   if (globalThis.crypto?.getRandomValues) {
@@ -327,6 +391,19 @@ function moduleCard(id,data) {
   const review=data.reviewCount?' · '+data.reviewCount+' 題自測':'';
   return '<button class="syn-module-card" type="button" data-module="'+esc(id)+'"><span class="syn-module-index">'+rank+' / SYNONYM EXPANSION</span><strong>'+esc(data.title)+'</strong><small>'+guideCount+' 個詞組 · '+(exerciseCount?exerciseCount+' 道選擇題':'閱讀教材')+review+'</small><span class="syn-module-progress">'+(exerciseCount?'已作答 '+count+' / '+exerciseCount+' 題':'同義詞指南與辨析')+'</span></button>';
 }
+function dashboardChart(kind,title,english,dates,rows) {
+  const valueKey=kind==='questions'?'questions':'totalMs';
+  const values=new Map(rows.map(row=>[row.date,Number(row[valueKey])||0]));
+  const points=dates.map(date=>({date,value:values.get(date)||0}));
+  const maximum=Math.max(1,...points.map(point=>point.value));
+  const totalValue=points.reduce((sum,point)=>sum+point.value,0);
+  const totalLabel=kind==='questions'?totalValue+' 題':formatDuration(totalValue);
+  return '<article class="syn-dashboard-card"><div class="syn-dashboard-card-head"><div><h4>'+title+'</h4><small>'+english+'</small></div><strong>'+totalLabel+'</strong></div><p>'+(dashboardRange==='all'?'全部時間':'最近 '+dashboardRange+' 天')+' · '+(kind==='questions'?'每題首次完成只計一次':'只計頁面可見且有互動的學習時間')+'</p><div class="syn-bar-chart" role="img" aria-label="'+title+'：'+totalLabel+'">'+points.map(point=>'<div class="syn-bar-column" title="'+esc(point.date)+'：'+(kind==='questions'?point.value+' 題':formatDuration(point.value))+'"><span class="syn-bar-value">'+(point.value?(kind==='questions'?point.value:Math.max(1,Math.round(point.value/60000))+'m'):'')+'</span><i style="height:'+Math.max(point.value?5:1,point.value/maximum*100)+'%"></i><small>'+esc(point.date.slice(5))+'</small></div>').join('')+'</div></article>';
+}
+function dashboardMarkup() {
+  const dates=dashboardDates(dashboardRange,dashboardData.activityDays,dashboardData.timeDays);
+  return '<section class="syn-dashboard-panel" aria-labelledby="syn-dashboard-title"><div class="syn-dashboard-title"><div><p class="syn-kicker">YOUR LEARNING PROGRESS</p><h3 id="syn-dashboard-title">我的學習進展</h3><p>Questions completed & study time</p></div><label>時段 <select data-dashboard-range><option value="7"'+(dashboardRange==='7'?' selected':'')+'>最近 7 天</option><option value="30"'+(dashboardRange==='30'?' selected':'')+'>最近 30 天</option><option value="all"'+(dashboardRange==='all'?' selected':'')+'>全部時間</option></select></label></div><div class="syn-dashboard-grid">'+dashboardChart('questions','每日完成題數','Questions completed',dates,dashboardData.activityDays)+dashboardChart('time','每日練習時間','Study time',dates,dashboardData.timeDays)+'</div></section>';
+}
 function renderModuleList() {
   const query=searchQuery.toLocaleLowerCase();
   const matching=lessonCatalog.filter(item=>(item.title+' '+item.headword).toLocaleLowerCase().includes(query));
@@ -339,7 +416,7 @@ function renderModuleList() {
   if (more) more.hidden=matching.length<=visibleCount;
 }
 function renderHome() {
-  shell('<section class="syn-home syn-enter"><p class="syn-kicker">YOUR LEARNING LIBRARY</p><h3>選擇學習模組</h3><p>依 DSE 跨題材實用程度排列，共 '+catalog.length+' 個排名模組；另保留 '+legacyCatalog.length+' 個原有教材版本與學生進度。</p><div class="syn-module-grid">'+moduleCard('important',importantModule)+'</div><label class="syn-search-label">搜尋詞語 <input type="search" data-module-search placeholder="例如 a lot of、nervous、help" value="'+esc(searchQuery)+'"></label><p data-catalog-status></p><div class="syn-module-grid" data-ranked-grid></div><button class="syn-secondary syn-more-modules" type="button" data-more-modules hidden>顯示更多排名模組</button><div class="syn-module-grid">'+moduleCard('social-media',socialMediaModule)+'</div></section>');
+  shell(dashboardMarkup()+'<section class="syn-home syn-enter"><p class="syn-kicker">YOUR LEARNING LIBRARY</p><h3>選擇學習模組</h3><p>依 DSE 跨題材實用程度排列，共 '+catalog.length+' 個排名模組；另保留 '+legacyCatalog.length+' 個原有教材版本與學生進度。</p><div class="syn-module-grid">'+moduleCard('important',importantModule)+'</div><label class="syn-search-label">搜尋詞語 <input type="search" data-module-search placeholder="例如 a lot of、nervous、help" value="'+esc(searchQuery)+'"></label><p data-catalog-status></p><div class="syn-module-grid" data-ranked-grid></div><button class="syn-secondary syn-more-modules" type="button" data-more-modules hidden>顯示更多排名模組</button><div class="syn-module-grid">'+moduleCard('social-media',socialMediaModule)+'</div></section>');
   renderModuleList();
 }
 function renderAudit(data) {
@@ -425,11 +502,12 @@ function syncSession() {
   const snapshot=window.EDMUND_LEARNING_PORTAL_CONTEXT?.getSession?.();
   const next=snapshot?.user?.id||null;
   if(next===owner){if(owner&&snapshot.token!==token){token=snapshot.token;void loadAccount();}return;}
+  if(owner)void flushStudyTime(true);
   moduleLoadTicket++;
   recorderDispose?.();recorderDispose=null;recordingsEpoch++;
   for(const url of recordingUrls.splice(0))URL.revokeObjectURL(url);recordingItems.clear();
   stopVoice();for(const url of cloudAudio.values())URL.revokeObjectURL(url);cloudAudio.clear();
-  owner=next;token=snapshot?.token||null;streak=0;choice=null;pending=new Map();moduleStates.clear();moduleId='important';moduleData=importantModule;words=moduleData.words;questions=makeQuestions(moduleId,words);byId=new Map(questions.map(q=>[q.id,q]));total=questions.length;falseSynonyms=importantFalseSynonyms;view='home';
+  owner=next;token=snapshot?.token||null;streak=0;choice=null;pending=new Map();moduleStates.clear();dashboardData={activityDays:[],timeDays:[]};studyClockMs=0;lastStudyAction=Date.now();lastStudyTick=Date.now();moduleId='important';moduleData=importantModule;words=moduleData.words;questions=makeQuestions(moduleId,words);byId=new Map(questions.map(q=>[q.id,q]));total=questions.length;falseSynonyms=importantFalseSynonyms;view='home';
   if(owner){
     readLocal();saveState='loading';
     if(location.hash || new URLSearchParams(location.search).get('module')){
@@ -443,7 +521,7 @@ window.addEventListener('storage',event=>{if(event.key===speedKey){const next=Nu
 window.addEventListener('online',()=>{if(owner){if(pending.size)void syncPending();else void loadAccount();}});
 window.addEventListener('popstate',()=>{void restoreRoute();});
 host.addEventListener('input',event=>{if(!event.target.matches('[data-module-search]'))return;searchQuery=event.target.value.trim();visibleCount=80;renderModuleList();});
-host.addEventListener('change',event=>{if(!event.target.matches('[data-audio-speed]'))return;const next=Number(event.target.value);if(!playbackSpeeds.includes(next))return;playbackSpeed=next;audio.playbackRate=next;host.querySelectorAll('audio').forEach(player=>player.playbackRate=next);try{localStorage.setItem(speedKey,String(next));}catch{}});
+host.addEventListener('change',event=>{if(event.target.matches('[data-dashboard-range]')){dashboardRange=event.target.value;refreshDashboardPanel();return;}if(!event.target.matches('[data-audio-speed]'))return;const next=Number(event.target.value);if(!playbackSpeeds.includes(next))return;playbackSpeed=next;audio.playbackRate=next;host.querySelectorAll('audio').forEach(player=>player.playbackRate=next);try{localStorage.setItem(speedKey,String(next));}catch{}});
 host.addEventListener('play',event=>{if(event.target instanceof HTMLAudioElement)event.target.playbackRate=playbackSpeed;},true);
 async function playRecording(button) {
   const item=recordingItems.get(button.dataset.playRecording),card=button.closest('.syn-recording-card'),status=card?.querySelector('[role="status"]'),player=card?.querySelector('audio');
@@ -484,6 +562,17 @@ window.addEventListener('keydown',event=>{
   if(view==='question'&&!choice&&/^[1-6]$/.test(event.key))answer('ABCDEF'[Number(event.key)-1]);
   else if(event.key==='Escape'&&view==='question')go('guide');
 });
+setInterval(()=>{
+  const now=Date.now(),elapsed=Math.min(2000,Math.max(0,now-lastStudyTick));
+  lastStudyTick=now;
+  if(owner&&!document.hidden&&!dashboard?.hidden&&now-lastStudyAction<600000){
+    studyClockMs+=elapsed;
+    if(studyClockMs>=30000)void flushStudyTime();
+  }
+},1000);
+['pointerdown','keydown'].forEach(name=>document.addEventListener(name,()=>{lastStudyAction=Date.now();},{passive:true}));
+document.addEventListener('visibilitychange',()=>{lastStudyTick=Date.now();if(document.hidden)void flushStudyTime(true);else{lastStudyAction=Date.now();void loadDashboard();}});
+window.addEventListener('pagehide',()=>void flushStudyTime(true));
 syncSession();
 
 classroomLive = createClassroomLiveSync({

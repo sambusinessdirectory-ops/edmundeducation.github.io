@@ -126,6 +126,24 @@ body[data-learning-portal="synonyms"] .learning-portal-dashboard__hero { display
 .syn-save-row button { padding:4px 9px; border:1px solid #ddad96; border-radius:8px; color:#8d412b; background:#fff4ee; font-size:11px; font-weight:850; }
 .syn-home h3,.syn-guide h3,.syn-false h3 { margin:0 0 8px; font-family:Georgia,"Noto Serif TC Local",serif; font-size:clamp(26px,3.4vw,38px); }
 .syn-home>p:not(.syn-kicker),.syn-guide>p:not(.syn-kicker),.syn-false>p:not(.syn-kicker) { color:#5d7a7a; line-height:1.65; }
+.syn-dashboard-panel { margin:0 0 42px; padding:clamp(20px,3vw,30px); border:1px solid #b9ded5; border-radius:26px; background:linear-gradient(135deg,#f1fcf6,#eef7ff); box-shadow:0 12px 30px #215e5a14; }
+.syn-dashboard-title { display:flex; align-items:end; justify-content:space-between; gap:18px; margin-bottom:20px; }
+.syn-dashboard-title h3 { margin:0; font-family:Georgia,"Noto Serif TC Local",serif; font-size:clamp(25px,3vw,34px); }
+.syn-dashboard-title p:not(.syn-kicker) { margin:5px 0 0; color:#668183; font-size:13px; }
+.syn-dashboard-title label { display:flex; align-items:center; gap:8px; color:#356d6b; font-size:13px; font-weight:850; white-space:nowrap; }
+.syn-dashboard-title select { padding:9px 31px 9px 12px; border:1px solid #8fc7bb; border-radius:11px; color:#185f61; background:#fff; font:inherit; font-weight:800; }
+.syn-dashboard-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.syn-dashboard-card { min-width:0; padding:19px; overflow:hidden; border:1px solid #d3e8e2; border-radius:19px; background:#ffffffd9; box-shadow:0 5px 0 #dfede9; }
+.syn-dashboard-card-head { display:flex; align-items:start; justify-content:space-between; gap:14px; }
+.syn-dashboard-card h4 { margin:0; color:#174f53; font-family:Georgia,"Noto Serif TC Local",serif; font-size:20px; }
+.syn-dashboard-card-head small { display:block; margin-top:3px; color:#789092; font-size:11px; }
+.syn-dashboard-card-head>strong { color:#14766f; font-size:22px; font-variant-numeric:tabular-nums; white-space:nowrap; }
+.syn-dashboard-card>p { margin:10px 0 16px; color:#6a8181; font-size:11px; line-height:1.45; }
+.syn-bar-chart { display:grid; grid-auto-flow:column; grid-auto-columns:minmax(27px,1fr); align-items:end; gap:4px; min-width:max(100%,420px); height:150px; padding:8px 2px 0; overflow-x:auto; border-bottom:1px solid #cbdeda; }
+.syn-bar-column { display:grid; grid-template-rows:20px 100px 20px; align-items:end; height:140px; text-align:center; }
+.syn-bar-value { align-self:start; color:#517878; font-size:9px; font-weight:850; }
+.syn-bar-column i { display:block; align-self:end; width:min(19px,75%); min-height:1px; margin:0 auto; border-radius:6px 6px 2px 2px; background:linear-gradient(180deg,#52bba2,#287b91); box-shadow:0 2px 5px #1e736e24; }
+.syn-bar-column small { align-self:end; color:#728989; font-size:8px; font-variant-numeric:tabular-nums; white-space:nowrap; }
 .syn-module-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin-top:26px; }
 .syn-search-label { display:block; max-width:480px; margin-top:36px; font-weight:850; }
 .syn-search-label input { display:block; width:100%; margin-top:9px; padding:14px 16px; border:1px solid #92bfb8; border-radius:12px; background:#fff; color:#183d40; font:inherit; }
@@ -177,7 +195,7 @@ body[data-learning-portal="synonyms"] .learning-portal-dashboard__hero { display
 .syn-explanations { margin:18px 0 24px; }
 .syn-explanations h5 { margin:0 0 12px; color:#1d665d; font-size:15px; }
 .syn-explanations .is-answer { border:1px solid #add9be; background:#eaf9ec; }
-@media(max-width:720px) { .syn-module-front,.syn-module-grid,.syn-word-grid,.syn-false-grid { grid-template-columns:1fr; } .syn-module-aside { min-height:150px; } .syn-global-nav { margin-top:0; } }
+@media(max-width:720px) { .syn-module-front,.syn-module-grid,.syn-word-grid,.syn-false-grid,.syn-dashboard-grid { grid-template-columns:1fr; } .syn-dashboard-title { align-items:start; flex-direction:column; } .syn-module-aside { min-height:150px; } .syn-global-nav { margin-top:0; } }
 
 /* Pronunciation, recording, and review controls. */
 .syn-app [hidden] { display:none !important; }
