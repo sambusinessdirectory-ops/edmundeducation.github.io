@@ -130,6 +130,7 @@
       "writing-practice-*",
       "writing-practice.*",
       "writing-submission.*",
+      "writing-submission-core.js",
       "tools/audit-essay-memory-release.mjs",
       "tools/test-essay-*.mjs",
       "tools/test-writing-*.mjs",

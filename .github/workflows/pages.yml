@@ -22,6 +22,10 @@ permissions:
 
 jobs:
   build:
+    concurrency:
+      # A manual retry of an older job must not evict a newer push.
+      group: ${{ github.run_attempt == 1 && 'pages-build-main' || format('pages-build-retry-{0}', github.run_id) }}
+      cancel-in-progress: true
     runs-on: ubuntu-24.04
     timeout-minutes: 60
     permissions:
@@ -173,6 +177,8 @@ jobs:
           /assets/writing-practice/audio/edmund-neural/v5/
           /essay-memory-lessons/
           /essay-memory-support/
+          /grammar-corpus/corpus-v1.json
+          /speaking-system-part3-data.js
           /polysemy-lab/
           !/polysemy-lab/audio/
           /synonyms/
@@ -183,6 +189,9 @@ jobs:
           /writing-audio*.js
           /writing-practice-*-data.js
           /writing-submission-reference-data.mjs
+          /supabase/functions/writing-submission-proxy/
+          /supabase/migrations/20260901110327_writing_submission_synonym_table_layout.sql
+          /supabase/migrations/20260831013832_writing_submission_admin_proxy_active_student_hotfix.sql
           /workers/writing-submission/
           PATTERNS
               ;;
@@ -1029,7 +1038,7 @@ jobs:
           node --check polysemy-lab/app.mjs
           node --test workers/writing-submission/test/*.test.mjs
           node --test tools/test-writing-proofread-proxy.mjs
-          node --test --test-name-pattern='article notifications use strict owner-scoped deep links|writing question images survive the public R2 asset migration|article and feedback navigation invalidates stale requests|admin feedback queue and fullscreen|structured feedback supports' tools/test-writing-submission-portal.mjs
+          node --test --test-name-pattern='completed writing questions are matched by canonical resource or exact normalized prompt|article notifications use strict owner-scoped deep links|writing question images survive the public R2 asset migration|article and feedback navigation invalidates stale requests|admin feedback queue and fullscreen|structured feedback supports' tools/test-writing-submission-portal.mjs
 
       - name: Validate IELTS Chart Teaching release
         if: ${{ contains(inputs.release_tags, '[chart-release]') }}

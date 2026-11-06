@@ -39,6 +39,12 @@ end
 builders.uniq.each do |path|
   workflows.fetch(path).fetch("jobs").each do |name, job|
     abort "#{path}: #{name} must use the supported ubuntu-24.04 runner" unless job["runs-on"] == "ubuntu-24.04"
+    if job.fetch("outputs", {}).key?("artifact_name")
+      group = "${{ github.run_attempt == 1 && 'pages-build-main' || format('pages-build-retry-{0}', github.run_id) }}"
+      unless job["concurrency"] == { "group" => group, "cancel-in-progress" => true }
+        abort "#{path}: #{name} must share the cancellable Pages build slot"
+      end
+    end
     job.fetch("steps").each do |step|
       command = step.fetch("run", "")
       if command.match?(/(?:npm|npx|pnpm|yarn).*\bplaywright\b|\.bin\/playwright\s+install/)

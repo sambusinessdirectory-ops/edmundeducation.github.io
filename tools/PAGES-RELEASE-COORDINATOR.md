@@ -14,10 +14,9 @@ GitHub Pages releases are coordinated by
   cards and `shared-system-nav.js` destinations. Every exposed route must map
   to a versioned scope in `tools/pages-release-scopes.json`; the build fails if
   a new system is exposed without focused validation ownership.
-- Artifact builders may run in parallel, so a newer push does not wait for an
-  unrelated artifact to finish. The publisher owns the only production Pages
-  lock and accepts only the current `main` SHA, so completed older artifacts
-  are discarded instead of delaying or rolling back the newest release.
+- A newly routed push takes the shared build slot and cancels an older artifact
+  build across all three routes. Manual retries use a separate slot per run.
+  Publication and snapshot updates use separate, non-cancellable locks.
 - After publication, `pages-snapshot` records the deployed artifact and source
   SHA under its own non-cancellable lock. Ordinary content changes are applied
   to that snapshot as a delta, while workflow, Paper 3, and R2-index changes
