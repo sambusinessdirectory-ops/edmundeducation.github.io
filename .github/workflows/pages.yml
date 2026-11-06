@@ -87,6 +87,7 @@ jobs:
           !/*.gif
           !/*.png
           /.github/workflows/
+          /paper3/
           /tools/*
           !/tools/*/
           /tools/email-qa/
