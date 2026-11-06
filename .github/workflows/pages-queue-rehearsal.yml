@@ -1,0 +1,38 @@
+name: Rehearse isolated Pages queue
+run-name: Pages rehearsal ${{ inputs.batch }} / ${{ inputs.candidate }}
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: Unique rehearsal group
+        required: true
+        type: string
+      candidate:
+        description: Candidate label
+        required: true
+        type: string
+permissions:
+  contents: read
+concurrency:
+  group: pages-rehearsal-${{ inputs.batch }}
+  queue: max
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Hold validation open for another candidate
+        run: sleep 20
+  verify:
+    needs: build
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/publish-pages-artifact.yml
+            /tools/test-pages-publisher.cjs
+      - run: node --test tools/test-pages-publisher.cjs
+      - name: Hold snapshot phase open for another candidate
+        run: sleep 20

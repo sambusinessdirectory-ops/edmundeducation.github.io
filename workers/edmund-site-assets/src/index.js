@@ -1,3 +1,4 @@
+import {error, servePackedAsset} from "./serve-packed-asset.js";
 import flashcardIndex from "./flashcard-pack-index-v1.json" with { type: "json" };
 import siteIndex from "./site-pack-index-v1.json" with { type: "json" };
 import eddyIndex from "./eddy-pack-index-v1.json" with { type: "json" };
@@ -6,33 +7,6 @@ const PREFIX = "site-assets/v1/";
 const FLASHCARD_PATH = "assets/flashcards/audio/edmund-neural/v1/";
 const CACHE = "public, max-age=3600, stale-while-revalidate=86400";
 const LISTENING_PRACTICE_OVERRIDES = new Set([3, 5, 6, 7, 8, 10, 11, 13, 16, 19, 20]);
-
-function error(message, status, extra = {}) {
-  return new Response(message, { status, headers: {
-    "Access-Control-Allow-Origin": "*", "Cache-Control": "no-store",
-    "Content-Type": "text/plain; charset=utf-8", "X-Content-Type-Options": "nosniff", ...extra
-  } });
-}
-
-function requestedRange(value, length) {
-  if (!value) return { start: 0, end: length - 1, partial: false };
-  const match = /^bytes=(\d*)-(\d*)$/.exec(value.trim());
-  if (!match || (!match[1] && !match[2])) return null;
-  let start;
-  let end;
-  if (!match[1]) {
-    const suffix = Number(match[2]);
-    if (!Number.isSafeInteger(suffix) || suffix < 1) return null;
-    start = Math.max(0, length - suffix);
-    end = length - 1;
-  } else {
-    start = Number(match[1]);
-    end = match[2] ? Number(match[2]) : length - 1;
-    if (!Number.isSafeInteger(start) || !Number.isSafeInteger(end) || start < 0 || start >= length || end < start) return null;
-    end = Math.min(end, length - 1);
-  }
-  return { start, end, partial: true };
-}
 
 function lookup(path) {
   if (path.startsWith(FLASHCARD_PATH) && flashcardIndex.meta.r2UploadComplete === true) {
@@ -80,37 +54,6 @@ export default {
       if (!head) return error("Not Found", 404);
       asset = { packKey: key, offset: 0, length: head.size, type: "application/json", etag: head.httpEtag };
     }
-    if (!asset) return error("Not Found", 404);
-    const headers = new Headers({
-      "Access-Control-Allow-Origin": "*",
-      "Access-Control-Expose-Headers": "Accept-Ranges, Content-Length, Content-Range, ETag",
-      "Cross-Origin-Resource-Policy": "cross-origin",
-      "X-Content-Type-Options": "nosniff",
-      "Cache-Control": CACHE,
-      "Content-Type": asset.type,
-      "Content-Length": String(asset.length),
-      "Accept-Ranges": "bytes",
-      "ETag": asset.etag
-    });
-    const ifNoneMatch = request.headers.get("If-None-Match");
-    if (ifNoneMatch && (ifNoneMatch === "*" || ifNoneMatch.split(",").some(value => value.trim() === asset.etag))) {
-      headers.delete("Content-Length");
-      return new Response(null, { status: 304, headers });
-    }
-    let rangeHeader = request.headers.get("Range");
-    if (rangeHeader && request.headers.get("If-Range") && request.headers.get("If-Range") !== asset.etag) rangeHeader = null;
-    const range = requestedRange(rangeHeader, asset.length);
-    if (!range) return error("Requested Range Not Satisfiable", 416, { "Content-Range": `bytes */${asset.length}`, "Accept-Ranges": "bytes" });
-    const length = range.end - range.start + 1;
-    headers.set("Content-Length", String(length));
-    if (range.partial) headers.set("Content-Range", `bytes ${range.start}-${range.end}/${asset.length}`);
-    if (request.method === "HEAD") {
-      const pack = await env.EDMUND_ASSETS.head(asset.packKey);
-      if (!pack) return error("Not Found", 404);
-      return new Response(null, { status: range.partial ? 206 : 200, headers });
-    }
-    const object = await env.EDMUND_ASSETS.get(asset.packKey, { range: { offset: asset.offset + range.start, length } });
-    if (!object || !("body" in object)) return error("Not Found", 404);
-    return new Response(object.body, { status: range.partial ? 206 : 200, headers });
+    return servePackedAsset(request, env.EDMUND_ASSETS, asset, CACHE);
   }
 };

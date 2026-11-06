@@ -144,6 +144,9 @@ jobs:
             grep -Fq "$GITHUB_SHA" "$path"
           done
 
+      - name: Remove editorial QA reports and measure the upload
+        run: python3 tools/pages-artifact-inventory.py _site
+
       - name: Name this build artifact
         id: artifact
         run: echo "name=github-pages-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_OUTPUT"
@@ -152,4 +155,5 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           name: ${{ steps.artifact.outputs.name }}
+          retention-days: 3
           path: _site

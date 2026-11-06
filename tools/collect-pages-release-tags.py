@@ -96,7 +96,7 @@ def collect_path_scopes(
     # A single unclassified file sends the complete undeployed range through
     # full validation. Known scopes remain visible for route diagnostics.
     shared = any(
-        path.startswith("shared-")
+        (path.startswith("shared-") and path != "shared-system-nav.css")
         or (path == "index.html" and not homepage_cards_only)
         or path in {"pwa-register.js", "release.json", "service-worker.js"}
         for path in changed_paths
@@ -119,10 +119,15 @@ def main() -> int:
     args = parser.parse_args()
 
     paths = args.paths_file.read_text(encoding="utf-8").splitlines()
+    policy = load_policy(args.policy)
     tags, uncovered = collect_path_scopes(
-        paths, load_policy(args.policy),
+        paths, policy,
         homepage_cards_only=bool(args.homepage_diff and card_only_diff(args.homepage_diff.read_text())),
     )
+    for path in paths:
+        owners = [tag for tag, patterns in policy.items()
+                  if any(fnmatch.fnmatchcase(path, pattern) for pattern in patterns)]
+        print(f"{path}: {', '.join(owners) or 'full (unclassified)'}", file=sys.stderr)
     if uncovered:
         print(
             "Pages full-validation fallback; unclassified paths: "

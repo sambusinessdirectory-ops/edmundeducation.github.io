@@ -1,0 +1,31 @@
+name: Rehearse Pages release contracts
+on: pull_request
+permissions:
+  contents: read
+jobs:
+  contracts:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/workflows/
+            /tools/pages-pr-rehearsal.rb
+            /tools/test-pages-publisher.cjs
+      - name: Lint the candidate release workflows
+        run: |
+          archive="$RUNNER_TEMP/actionlint.tar.gz"
+          curl -fsSL --retry 2 https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_linux_amd64.tar.gz -o "$archive"
+          echo "8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8  $archive" | sha256sum -c -
+          tar -xzf "$archive" -C "$RUNNER_TEMP" actionlint
+          # actionlint 1.7.12 predates GitHub's queue key. The Ruby guard checks its exact value and level.
+          "$RUNNER_TEMP/actionlint" -ignore '^unexpected key "queue" for "concurrency" section' -shellcheck= -pyflakes= .github/workflows/pages*.yml .github/workflows/publish-pages-artifact.yml
+      - name: Replay publisher decisions
+        run: node --test tools/test-pages-publisher.cjs
+      - name: Rehearse focused checkout and early publication contracts
+        env:
+          RELEASE_BASE: ${{ github.event.pull_request.base.sha }}
+          RELEASE_TAGS: '[fast-deploy] [writing-release] [downloads-release] [shared-header-release]'
+        run: ruby tools/pages-pr-rehearsal.rb
