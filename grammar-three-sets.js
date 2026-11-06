@@ -4,7 +4,7 @@
   const modules = window.EDMUND_GRAMMAR_THREE_SETS;
   const dashboard = document.querySelector('[data-learning-portal-root] [data-view="dashboard"]');
   const library = dashboard?.querySelector('[data-grammar-library]');
-  if (!dashboard || !library || !Array.isArray(modules) || modules.length !== 3) return;
+  if (!dashboard || !library || !Array.isArray(modules) || !modules.length) return;
 
   const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
@@ -35,10 +35,10 @@
 
   function stateKey(slug) { return `edmund-grammar-three-sets-v1:${slug}:${accountId}`; }
 
-  function readState(slug) {
+  function readState(slug, total) {
     try {
       const saved = JSON.parse(localStorage.getItem(stateKey(slug)) || "{}");
-      return { question: Math.min(150, Math.max(1, Number(saved.question) || 1)), attempts: saved.attempts || {} };
+      return { question: Math.min(total, Math.max(1, Number(saved.question) || 1)), attempts: saved.attempts || {} };
     } catch { return { question: 1, attempts: {} }; }
   }
 
@@ -48,7 +48,8 @@
   }
 
   modules.forEach((module, index) => {
-    if (module.questions?.length !== 150 || module.questions.some((q, offset) => q.number !== offset + 1 || q.steps?.length !== 7)) {
+    const total = module.questions?.length || 0;
+    if (!total || module.questions.some((q, offset) => q.number !== offset + 1 || q.steps?.length !== 7)) {
       console.error(`Grammar module ${module.slug} is incomplete.`);
       return;
     }
@@ -59,13 +60,13 @@
     const practiceButton = document.createElement("button");
     practiceButton.className = "grammar-button grammar-lesson-card__secondary";
     practiceButton.type = "button";
-    practiceButton.textContent = "開始 150 題練習";
+    practiceButton.textContent = `開始 ${total} 題練習`;
     practiceButton.dataset.openNewGrammarPractice = module.slug;
     card.querySelector('.grammar-lesson-card__stats').append(practiceButton);
     const guideButton = document.createElement("button");
     guideButton.className = "grammar-button grammar-button--primary";
     guideButton.type = "button";
-    guideButton.textContent = "開始 150 題練習";
+    guideButton.textContent = `開始 ${total} 題練習`;
     guide.querySelector('.grammar-articles-curation__finish').prepend(guideButton);
 
     const practice = document.createElement("section");
@@ -73,23 +74,23 @@
     practice.dataset.newGrammarPractice = module.slug;
     practice.hidden = true;
     practice.innerHTML = `
-      <div class="grammar-practice__head"><div><button class="grammar-button--ghost" type="button" data-back-guide>← 返回導讀</button><button class="grammar-button--ghost" type="button" data-back-menu>返回練習目錄</button><p class="eyebrow">MODULE ${String(index + 4).padStart(2, "0")} · ${escapeHtml(module.title)}</p><h2>逐題練習</h2></div><div class="grammar-practice__tools"><div class="grammar-reading-mode" role="group" aria-label="解析閱讀模式"><span class="grammar-reading-mode__label">解析模式</span><button type="button" data-mode="step" aria-pressed="true">逐步</button><button type="button" data-mode="scroll" aria-pressed="false">捲動閱讀</button></div><div class="grammar-practice__summary"><strong data-score>0</strong><span>/ 150<br>已核對</span></div></div></div>
-      <div class="grammar-progress" role="progressbar" aria-label="已核對進度" aria-valuemin="0" aria-valuemax="150" aria-valuenow="0"><span data-progress-fill></span></div>
+      <div class="grammar-practice__head"><div><button class="grammar-button--ghost" type="button" data-back-guide>← 返回導讀</button><button class="grammar-button--ghost" type="button" data-back-menu>返回練習目錄</button><p class="eyebrow">MODULE ${String(index + 4).padStart(2, "0")} · ${escapeHtml(module.title)}</p><h2>逐題練習</h2></div><div class="grammar-practice__tools"><div class="grammar-reading-mode" role="group" aria-label="解析閱讀模式"><span class="grammar-reading-mode__label">解析模式</span><button type="button" data-mode="step" aria-pressed="true">逐步</button><button type="button" data-mode="scroll" aria-pressed="false">捲動閱讀</button></div><div class="grammar-practice__summary"><strong data-score>0</strong><span>/ ${total}<br>已核對</span></div></div></div>
+      <div class="grammar-progress" role="progressbar" aria-label="已核對進度" aria-valuemin="0" aria-valuemax="${total}" aria-valuenow="0"><span data-progress-fill></span></div>
       <div class="grammar-navigator"><div class="grammar-navigator__bar"><label><span class="sr-only">題目範圍</span><select class="grammar-range-select" data-range aria-label="選擇題目範圍"></select></label><span class="grammar-navigator__legend">綠色：已核對 · 紅色：再試一次</span></div><div class="grammar-number-grid" data-grid aria-label="選擇題目"></div></div>
-      <article class="grammar-question"><div class="grammar-question__meta"><span class="grammar-question__number" data-number></span><span class="grammar-extra-section" data-section></span></div><aside class="grammar-question__focus"><strong>本題重點</strong><p data-instruction></p></aside><p class="grammar-question__prompt" lang="en" data-prompt></p><p class="grammar-question__translation" lang="zh-Hant" data-translation></p><form class="grammar-answer" data-form novalidate><label>您的答案<input data-short-answer autocomplete="off" autocapitalize="none" spellcheck="false"><textarea data-long-answer rows="3" autocomplete="off" autocapitalize="sentences" spellcheck="true" hidden></textarea></label><p class="grammar-answer__hint" data-hint></p><div class="grammar-answer__actions"><button class="grammar-button grammar-button--primary" type="submit">提交答案</button></div><div class="grammar-feedback" data-feedback hidden aria-live="polite"></div></form><section class="grammar-explanation" data-explanation hidden aria-label="逐步解析"><div class="grammar-explanation__head"><div><p class="eyebrow">STEP-BY-STEP</p><h3>逐步解析</h3></div><p data-model-answer></p></div><p class="grammar-explanation__instruction" data-step-instruction></p><div class="grammar-steps" data-steps></div><div class="grammar-extra-review" data-self-review hidden><p>改寫或解釋可能有多個自然答案。請對照示範，確認你的答案是否保留原意、人物、時間和否定。</p><button type="button" class="grammar-button grammar-button--primary" data-mark-reviewed>我的答案符合要點</button><button type="button" class="grammar-button--ghost" data-retry>再修改答案</button></div></section></article>
+      <article class="grammar-question"><div class="grammar-question__meta"><span class="grammar-question__number" data-number></span><span class="grammar-extra-section" data-section></span></div><aside class="grammar-question__focus"><strong>本題重點</strong><p data-instruction></p></aside><p class="grammar-question__prompt" lang="en" data-prompt></p><p class="grammar-question__translation" lang="zh-Hant" data-translation></p><form class="grammar-answer" data-form novalidate><fieldset class="grammar-mc-options" data-mc-options hidden><legend>選擇最符合題目要求的答案</legend></fieldset><label data-written-answer>您的答案<input data-short-answer autocomplete="off" autocapitalize="none" spellcheck="false"><textarea data-long-answer rows="3" autocomplete="off" autocapitalize="sentences" spellcheck="true" hidden></textarea></label><p class="grammar-answer__hint" data-hint></p><div class="grammar-answer__actions"><button class="grammar-button grammar-button--primary" type="submit">提交答案</button></div><div class="grammar-feedback" data-feedback hidden aria-live="polite"></div></form><section class="grammar-explanation" data-explanation hidden aria-label="逐步解析"><div class="grammar-explanation__head"><div><p class="eyebrow">STEP-BY-STEP</p><h3>逐步解析</h3></div><p data-model-answer></p></div><p class="grammar-explanation__instruction" data-step-instruction></p><div class="grammar-steps" data-steps></div><div class="grammar-extra-review" data-self-review hidden><p>改寫或解釋可能有多個自然答案。請對照示範，確認你的答案是否保留原意、人物、時間和否定。</p><button type="button" class="grammar-button grammar-button--primary" data-mark-reviewed>我的答案符合要點</button><button type="button" class="grammar-button--ghost" data-retry>再修改答案</button></div></section></article>
       <nav class="grammar-nav" aria-label="題目導覽"><button type="button" data-prev>← 上一題</button><button type="button" data-next>下一題 →</button></nav><p class="grammar-save-status" data-save-status aria-live="polite">進度保存在這個瀏覽器的帳戶記錄中。</p>`;
     dashboard.append(practice);
 
     const get = (selector) => practice.querySelector(selector);
-    const state = readState(module.slug);
+    const state = readState(module.slug, total);
     let readingMode = "step";
     let stepCount = 1;
     let lastAnswer = "";
 
-    for (let first = 1; first <= 150; first += 25) {
+    for (let first = 1; first <= total; first += 25) {
       const option = document.createElement("option");
       option.value = String(first);
-      option.textContent = `第 ${first}–${Math.min(first + 24, 150)} 題`;
+      option.textContent = `第 ${first}–${Math.min(first + 24, total)} 題`;
       get('[data-range]').append(option);
     }
 
@@ -97,7 +98,7 @@
       const complete = Object.values(state.attempts).filter((entry) => entry.status === "correct").length;
       get('[data-score]').textContent = String(complete);
       get('.grammar-progress').setAttribute('aria-valuenow', String(complete));
-      get('[data-progress-fill]').style.width = `${complete / 150 * 100}%`;
+      get('[data-progress-fill]').style.width = `${complete / total * 100}%`;
       const copy = card.querySelector('.grammar-lesson-card__copy p:last-child');
       if (copy) copy.textContent = `${module.questions.length} 題練習 · 已核對 ${complete} 題。先讀導讀，再逐題作答和閱讀七步解析。`;
     }
@@ -130,32 +131,38 @@
     function renderQuestion() {
       const q = module.questions[state.question - 1];
       const prior = state.attempts[q.number];
-      get('[data-number]').textContent = `第 ${q.number} / 150 題`;
-      get('[data-section]').textContent = q.number <= 50 ? `分組練習 · ${q.section}` : "混合練習";
-      get('[data-instruction]').textContent = q.mode === "exact"
+      const isMultipleChoice = q.mode === "multiple-choice";
+      get('[data-number]').textContent = `第 ${q.number} / ${total} 題`;
+      get('[data-section]').textContent = q.section;
+      get('[data-instruction]').textContent = isMultipleChoice ? q.instruction : q.mode === "exact"
         ? "只填入空格所需字詞；系統核對形式，再閱讀逐步解析。"
         : "先自行改寫或解釋，再對照示範答案及七步解析；合理的其他寫法也可接受。";
       get('[data-prompt]').textContent = q.prompt;
       get('[data-translation]').textContent = `【${q.translation}】`;
-      get('[data-short-answer]').hidden = q.mode !== "exact";
-      get('[data-long-answer]').hidden = q.mode === "exact";
+      get('[data-mc-options]').hidden = !isMultipleChoice;
+      get('[data-written-answer]').hidden = isMultipleChoice;
+      get('[data-mc-options]').innerHTML = isMultipleChoice
+        ? `<legend>選擇最符合題目要求的答案</legend>${q.options.map((option) => `<label><input type="radio" name="grammar-${escapeHtml(module.slug)}-choice" value="${escapeHtml(option.label)}" ${prior?.answer === option.label ? "checked" : ""}><span><strong>${escapeHtml(option.label)}</strong>${escapeHtml(option.text)}</span></label>`).join("")}`
+        : "<legend>選擇最符合題目要求的答案</legend>";
+      get('[data-short-answer]').hidden = q.mode !== "exact" || isMultipleChoice;
+      get('[data-long-answer]').hidden = q.mode === "exact" || isMultipleChoice;
       get('[data-short-answer]').value = q.mode === "exact" ? prior?.answer || "" : "";
       get('[data-long-answer]').value = q.mode !== "exact" ? prior?.answer || "" : "";
       lastAnswer = prior?.answer || "";
-      get('[data-hint]').textContent = q.mode === "exact"
+      get('[data-hint]').textContent = isMultipleChoice ? "選好一個答案後提交；系統會顯示正確答案及七步解析。" : q.mode === "exact"
         ? "請輸入空格中的字或詞；大小寫與句末標點不影響判斷。"
         : "請寫完整句子或簡短解釋。題目可能有多個自然答案，請在看完示範後自行核對。";
       get('[data-feedback]').hidden = true;
       get('[data-explanation]').hidden = true;
       get('[data-self-review]').hidden = true;
       get('[data-prev]').disabled = q.number === 1;
-      get('[data-next]').disabled = q.number === 150;
+      get('[data-next]').disabled = q.number === total;
       renderGrid(); updateTotals(); setRoute(module.slug, q.number);
     }
 
     function open(number = state.question) {
       hideViews(); library.hidden = true; practice.hidden = false;
-      state.question = Math.min(150, Math.max(1, Number(number) || 1));
+      state.question = Math.min(total, Math.max(1, Number(number) || 1));
       writeState(module.slug, state); renderQuestion();
       practice.scrollIntoView({ behavior: "instant", block: "start" });
     }
@@ -164,24 +171,28 @@
       stepCount = 1;
       get('[data-model-answer]').textContent = `示範答案：${question.answer}`;
       get('[data-explanation]').hidden = false;
-      get('[data-self-review]').hidden = question.mode === "exact";
+      get('[data-self-review]').hidden = question.mode !== "self-review";
       renderSteps();
     }
 
     get('[data-form]').addEventListener("submit", (event) => {
       event.preventDefault();
       const q = module.questions[state.question - 1];
-      const answer = (q.mode === "exact" ? get('[data-short-answer]') : get('[data-long-answer]')).value.trim();
+      const answer = q.mode === "multiple-choice"
+        ? (get('[data-mc-options] input:checked')?.value || "")
+        : (q.mode === "exact" ? get('[data-short-answer]') : get('[data-long-answer]')).value.trim();
       if (!answer) { get('[data-feedback]').hidden = false; get('[data-feedback]').textContent = "請先寫下你的答案。"; return; }
       lastAnswer = answer;
       const accepted = q.answers || [q.answer];
-      const correct = q.mode === "exact" && accepted.some((value) => normalize(answer) === normalize(value));
-      state.attempts[q.number] = { answer, status: correct ? "correct" : q.mode === "exact" ? "wrong" : "review" };
+      const automaticallyMarked = q.mode === "exact" || q.mode === "multiple-choice";
+      const correct = q.mode === "multiple-choice" ? answer === q.correctOption
+        : q.mode === "exact" && accepted.some((value) => normalize(answer) === normalize(value));
+      state.attempts[q.number] = { answer, status: correct ? "correct" : automaticallyMarked ? "wrong" : "review" };
       writeState(module.slug, state);
       get('[data-feedback]').hidden = false;
-      get('[data-feedback]').dataset.state = correct ? "correct" : q.mode === "exact" ? "wrong" : "review";
+      get('[data-feedback]').dataset.state = correct ? "correct" : automaticallyMarked ? "wrong" : "review";
       get('[data-feedback]').textContent = correct ? "答對了！請讀完七步解析。"
-        : q.mode === "exact" ? `請再看形式。示範答案是「${q.answer}」；可以修改後重試。`
+        : automaticallyMarked ? `答案未符合題目。正確答案是「${q.correctOption ? `${q.correctOption}. ` : ""}${q.answer}」；請閱讀七步解析。`
         : "請對照示範答案與七步解析，再決定自己的寫法是否保留原意。";
       showExplanation(q); renderGrid(); updateTotals();
     });
@@ -207,7 +218,7 @@
     }));
     practiceButton.addEventListener("click", () => open(1));
     guideButton.addEventListener("click", () => open(1));
-    editors.push({ slug: module.slug, state, practice, renderQuestion, updateTotals, open });
+    editors.push({ slug: module.slug, total, state, practice, renderQuestion, updateTotals, open });
     updateTotals();
   });
 
@@ -215,7 +226,7 @@
     if (event.detail?.portalId !== "grammar") return;
     accountId = event.detail.user?.id || "guest";
     for (const editor of editors) {
-      const saved = readState(editor.slug);
+      const saved = readState(editor.slug, editor.total);
       editor.state.question = saved.question;
       editor.state.attempts = saved.attempts;
       editor.updateTotals();

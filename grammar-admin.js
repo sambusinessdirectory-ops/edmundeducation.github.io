@@ -1,5 +1,5 @@
 import {grammarAdminConnection,loginError} from './grammar-admin-connection.mjs?v=20261102-indefinite-answers1';
-import {grammarModules, exportSections, exportText, exportHtml} from './grammar-admin-export.mjs?v=20261102-indefinite-answers1';
+import {grammarModules, exportSections, exportText, exportHtml} from './grammar-admin-export.mjs?v=20261106-reported-speech1';
 const root=document.querySelector('[data-learning-portal-root]');
 const context=grammarAdminConnection();
 if(root && context?.rpc) {

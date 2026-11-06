@@ -14,10 +14,13 @@ const guideText = html => text(html)
   }).replace(/[ \t]+\n/g,'\n').replace(/\n{3,}/g,'\n\n').trim();
 function guideTopics(lesson) {
   const html=text(lesson.html);
-  const heading=/<h3>([SMU])(\d{2})｜([^<]+)<\/h3>/g;
-  const hits=[...html.matchAll(heading)];
+  const attributed=/<h3[^>]*data-concept-number="([^"]+)"[^>]*>([^<]+)<\/h3>/g;
+  const legacy=/<h3>([SMU])(\d{2})｜([^<]+)<\/h3>/g;
+  const usesAttributed=attributed.test(html);
+  attributed.lastIndex=0;
+  const hits=[...html.matchAll(usesAttributed?attributed:legacy)];
   const topics=hits.map((hit,index)=>({
-    number:Number(hit[2]), title:guideText(hit[3]),
+    number:usesAttributed?hit[1]:Number(hit[2]), title:guideText(usesAttributed?hit[2]:hit[3]),
     body:guideText(html.slice(hit.index+hit[0].length,index+1<hits.length?hits[index+1].index:html.length))
   }));
   return {topics,appendix:guideText(html.slice(0,hits[0]?.index||html.length))};

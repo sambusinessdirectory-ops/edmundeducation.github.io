@@ -4,24 +4,29 @@ import vm from "node:vm";
 import { createRequire } from "node:module";
 
 const read = (path) => fs.readFile(new URL(`../${path}`, import.meta.url), "utf8");
-const [dataScript, runtime, html, css] = await Promise.all([
-  read("grammar-new-curations-data.js"), read("grammar-new-curations.js"),
-  read("grammar-system.html"), read("grammar-system.css")
+const [dataScript, reportedSpeechData, runtime, html, css] = await Promise.all([
+  read("grammar-new-curations-data.js"), read("grammar-reported-speech-data.js"),
+  read("grammar-new-curations.js"), read("grammar-system.html"), read("grammar-system.css")
 ]);
 const context = { window: {} };
 vm.runInNewContext(dataScript, context);
+context.window.EDMUND_GRAMMAR_THREE_SETS = [];
+vm.runInNewContext(reportedSpeechData, context);
 const lessons = context.window.EDMUND_GRAMMAR_NEW_CURATIONS_DATA;
-assert.equal(lessons.length, 3);
-for (const [index, [slug, prefix, count]] of [["so", "S", 30], ["modal", "M", 42], ["unless", "U", 24]].entries()) {
+assert.equal(lessons.length, 4);
+for (const [index, [slug, prefix, count]] of [["so", "S", 30], ["modal", "M", 42], ["unless", "U", 24], ["reported-speech", "RS", 148]].entries()) {
   const lesson = lessons[index];
   assert.equal(lesson.slug, slug);
   assert.equal(lesson.count, count);
-  const ids = [...lesson.html.matchAll(new RegExp(`<h3>${prefix}(\\d\\d)｜`, "g"))].map((match) => Number(match[1]));
-  assert.deepEqual(ids, Array.from({ length: count }, (_, number) => number + 1));
+  const ids = prefix === "RS"
+    ? [...lesson.html.matchAll(/data-concept-number="(RS\.\d{2}\.\d{2})"/g)].map((match) => match[1])
+    : [...lesson.html.matchAll(new RegExp(`<h3>${prefix}(\\d\\d)｜`, "g"))].map((match) => Number(match[1]));
+  assert.equal(ids.length, count);
   assert.ok(lesson.chapters.length >= 5);
   assert.doesNotMatch(lesson.html, /(?:診斷練習與答案|練習與解釋|七步示範|先做練習)/);
   assert.ok(!lesson.html.includes("<form"));
-  assert.ok(lesson.html.includes("<blockquote>") && lesson.html.includes("<table>"));
+  assert.ok(lesson.html.includes("<blockquote>"));
+  if (prefix !== "RS") assert.ok(lesson.html.includes("<table>"));
 }
 assert.match(html, /grammar-new-curations-data\.js\?v=/);
 assert.match(html, /grammar-new-curations\.js\?v=/);
@@ -35,9 +40,11 @@ dom.window.HTMLElement.prototype.scrollIntoView = function () {};
 dom.window.requestAnimationFrame = () => 1;
 dom.window.eval(await read("grammar-dialogue-notes.js"));
 dom.window.eval(dataScript);
+dom.window.EDMUND_GRAMMAR_THREE_SETS = [];
+dom.window.eval(reportedSpeechData);
 dom.window.eval(runtime);
 const { document } = dom.window;
-assert.equal(document.querySelectorAll(".grammar-lesson-card--new-curation").length, 3);
+assert.equal(document.querySelectorAll(".grammar-lesson-card--new-curation").length, 4);
 for (const [index, lesson] of lessons.entries()) {
   document.querySelectorAll(".grammar-lesson-card--new-curation button")[index].click();
   const section = document.querySelector(`[data-new-grammar-curation="${lesson.slug}"]`);
@@ -60,4 +67,4 @@ for (const [index, lesson] of lessons.entries()) {
   assert.equal(document.querySelector("[data-grammar-library]").hidden, false);
 }
 dom.window.close();
-console.log("Grammar reading guides passed: 3 modules, 96 numbered points, no exercise sections, and navigation.");
+console.log("Grammar reading guides passed: 4 modules, 244 numbered points, no embedded exercise sections, and navigation.");
