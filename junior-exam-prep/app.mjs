@@ -4,7 +4,7 @@ const JAYDEN_ID = 'df2a3ba9-25be-4b0c-823a-304d4c29c2ba';
 import {MODULES} from './modules.mjs?v=20261019-homework1';
 const host = document.createElement('section');
 host.className = 'junior-app junior-advanced-app';
-host.setAttribute('aria-label', '初中考試溫習內容');
+host.setAttribute('aria-label', '考試溫習內容');
 document.querySelector('[data-view="dashboard"]')?.append(host);
 const highlighter = mountJuniorHighlighter(host, '.junior-advanced-passage', 'exam', {
   scopeSelector: '.junior-advanced-passage-group',

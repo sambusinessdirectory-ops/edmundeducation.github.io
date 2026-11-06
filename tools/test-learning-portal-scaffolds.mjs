@@ -34,8 +34,8 @@ const expected = [
   [53, "english-in-shows", "english-in-shows-system.html", ["English in Shows", "影視英文", "學習系統"], false],
   [54, "ted-talk-english", "ted-talk-english-system.html", ["Ted Talk English", "Ted Talk 英文", "學習系統"], false],
   [55, "poem-english", "poem-english-system.html", ["Poem English", "詩句賞識系統"], false],
-  [71, "junior-exam-prep", "junior-exam-prep.html", ["初中考試溫習系統", "Junior Exam Preparation"], false],
-  [72, "junior-quiz-review", "junior-quiz-review.html", ["初中測驗溫習系統", "Junior Quiz Review"], false],
+  [71, "junior-exam-prep", "junior-exam-prep.html", ["考試溫習系統", "Exam Preparation"], false],
+  [72, "junior-quiz-review", "junior-quiz-review.html", ["測驗溫習系統", "Quiz Review"], false],
   [75, "news-discussion", "news-discussion.html", ["News Discussion", "熱議新聞討論"], false]
 ];
 

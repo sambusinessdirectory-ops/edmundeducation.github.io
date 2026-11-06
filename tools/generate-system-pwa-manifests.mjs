@@ -34,13 +34,13 @@ const shortNames = Object.freeze({
   "english-humour-writing": "英文幽默寫作", "english-joke-collection": "英文笑話", "argument-learning": "論證學習",
   "fragmented-reading": "碎片閱讀", "song-appreciation": "英文歌聆聽", "precise-language": "精準措詞",
   "false-friends": "同形異義詞", "english-in-shows": "影視英文", "ted-talk-english": "Ted Talk 英文",
-  "poem-english": "詩句賞識", "junior-exam-prep": "初中考試溫習", "bookmark-directory": "學生書簽總目錄", execution: "執行動力",
+  "poem-english": "詩句賞識", "junior-exam-prep": "考試溫習", "bookmark-directory": "學生書簽總目錄", execution: "執行動力",
   "reading-comprehension": "閱讀理解", "eddie-farm": "Eddie Farm 積分",
   "polysemy-lab": "一詞多義",
   "natural-english": "自然英文",
   "excellent-learning": "英文口音",
   "country-name-spelling": "國家名稱拼寫", "speech-curation": "名人演講精選", "chip-course": "晶片設計課程",
-  "junior-quiz-review": "初中測驗溫習", "news-discussion": "熱議新聞討論", "news-reader": "新聞導讀系統", "ielts-writing-preview": "IELTS 寫作預覽",
+  "junior-quiz-review": "測驗溫習", "news-discussion": "熱議新聞討論", "news-reader": "新聞導讀系統", "ielts-writing-preview": "IELTS 寫作預覽",
   "ielts-chart-teaching": "IELTS 圖表教學", "literary-device": "修辭手法系統", "dse-practical-writing": "DSE 實用文練習",
   "policy-discussion": "政策討論", "dse-argument-bank": "DSE 論點大全"
 });

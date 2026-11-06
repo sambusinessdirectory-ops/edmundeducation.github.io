@@ -114,6 +114,7 @@ for (const essay of essays) {
 const flashcards = read("flashcards.html");
 const writing = read("writing-practice.html");
 const downloads = read("model-essay-downloads.js");
+const submission = read("writing-submission.js");
 const memoryContext = { window: {} };
 vm.createContext(memoryContext);
 vm.runInContext(read("essay-memory-catalog.js"), memoryContext);
@@ -126,6 +127,7 @@ for (const lesson of memoryCatalog) {
   assert.equal(portals.hasWritingPractice(portalKey), true, `${lesson.key}: no writing exercise`);
   assert.equal(memoryKey, lesson.key, `${lesson.key}: wrong memorization route`);
   assert.equal(memoryContext.window.ESSAY_MEMORY_APPROVED[memoryKey], true, `${lesson.key}: not approved`);
+  assert.equal(portals.href("memorization", portalKey), `essay-memorization.html?essay=${encodeURIComponent(memoryKey)}`, `${lesson.key}: wrong memorization href`);
 }
 assert.match(writing, /src="essay-memory-release-manifest\.js\?/);
 assert.match(writing, /const memoryKey = essayMemoryKey\(essayKey\)/);
@@ -135,5 +137,7 @@ assert.match(writing, /openRequestedWritingEssay/);
 assert.match(writing, /writingEssayPortalLinksHtml/);
 assert.match(downloads, /openRequestedEssay/);
 assert.match(downloads, /data-essay-portal-link/);
+assert.match(submission, /重溫 Model Essay Memorization 請按這裡：/);
+assert.match(submission, /essayPortals\.href\("memorization", essayKey\)/);
 
 console.log(`Essay portal checks passed: ${essays.length} physical downloads / ${downloadKeys.size} logical essays, ${availableFlashKeys.size} non-empty Flash Cards decks, ${writingKeys.size} writing exercises, exact deep links enabled.`);

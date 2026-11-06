@@ -44,7 +44,7 @@ assert.match(app, /junior_quiz_submit/);
 assert.match(html, /data-learning-portal="junior-quiz-review"/);
 assert.match(config, /ordinal: 72, id: "junior-quiz-review"/);
 assert.ok([...homepage.matchAll(/<a class="category(?:\s[^\"]*)?" href=/g)].length >= 72);
-assert.match(homepage, /href="junior-quiz-review\.html" aria-label="初中測驗溫習系統"/);
+assert.match(homepage, /href="junior-quiz-review\.html" aria-label="測驗溫習系統"/);
 assert.equal(manifest.start_url, '/junior-quiz-review.html?source=pwa');
 assert.equal((sql.match(/\('the-last-train-2026', \d+, '[0-9a-f]{64}'\)/g) || []).length, 39);
 assert.match(sql, /student\.id='df2a3ba9-25be-4b0c-823a-304d4c29c2ba'/);

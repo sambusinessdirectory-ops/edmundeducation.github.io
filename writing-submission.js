@@ -2616,7 +2616,10 @@ function selectedTopicReferenceRoute(resource = state.selectedTopicResource) {
       : hasFlashcards
         ? `flashcards.html?deck=${encodeURIComponent(flashDeckId)}`
         : "",
-    writingHref
+    writingHref,
+    memorizationHref: essayKey
+      ? essayPortals.href("memorization", essayKey)
+      : ""
   };
 }
 
@@ -2629,6 +2632,7 @@ function topicReferenceLinkRow(label, href, kind) {
   const ariaLabels = {
     flashcards: "前往相關 Flash Card",
     writing: "前往相關 Fill In The Blanks 練習",
+    memorization: "前往相關 Model Essay Memorization 練習",
     "manual-flashcards": "前往管理員提供的 Flash Card",
     "manual-writing": "前往管理員提供的 Writing Practice",
     "manual-model-essay": "前往管理員提供的 Model Essay"
@@ -2701,6 +2705,13 @@ function renderSelectedTopicReferences() {
       "重溫 Fill In The Blanks 請按這裡：",
       route.writingHref,
       "writing"
+    ));
+  }
+  if (route.memorizationHref) {
+    links.append(topicReferenceLinkRow(
+      "重溫 Model Essay Memorization 請按這裡：",
+      route.memorizationHref,
+      "memorization"
     ));
   }
 
