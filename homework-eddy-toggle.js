@@ -2,9 +2,9 @@
   const button = document.querySelector('[data-homework-campfire-toggle]');
   if (!button) return;
   const image = button.querySelector('img');
-  const gif = 'homework-eddy/eddy-campfire.gif?v=20261106-shirtless2';
+  const gif = 'homework-eddy/eddy-campfire.gif?v=20261106-shirtless3';
   const stills = Array.from({ length: 5 }, (_, index) =>
-    `homework-eddy/stills/eddy-${String(index + 1).padStart(2, '0')}.png?v=20261106-shirtless2`
+    `homework-eddy/stills/eddy-${String(index + 1).padStart(2, '0')}.png?v=20261106-shirtless3`
   );
   const key = 'edmund-homework-eddy-playing';
   let playing = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -23,8 +23,8 @@
   function render() {
     button.dataset.playing = String(playing);
     button.setAttribute('aria-pressed', String(playing));
-    button.setAttribute('aria-label', playing ? '暫停 Eddie 營火動畫' : '繼續 Eddie 營火動畫');
-    button.title = playing ? '點擊暫停 Eddie 營火動畫' : '點擊繼續 Eddie 營火動畫';
+    button.setAttribute('aria-label', playing ? '暫停 Eddy 營火動畫' : '繼續 Eddy 營火動畫');
+    button.title = playing ? '點擊暫停 Eddy 營火動畫' : '點擊繼續 Eddy 營火動畫';
     image.src = playing ? gif : chooseStill();
   }
 
