@@ -170,12 +170,16 @@ jobs:
               cat >> .git/info/sparse-checkout <<'PATTERNS'
           /dse-practical-writing-art/
           /assets/dse-practical-writing/
+          /assets/writing-practice/audio/edmund-neural/v5/
+          /essay-memory-lessons/
+          /essay-memory-support/
           /polysemy-lab/
           !/polysemy-lab/audio/
           /synonyms/
           !/synonyms/audio/
           !/synonyms/lesson-audio/
           !/synonyms/source/
+          /writing-audio/
           /writing-audio*.js
           /writing-practice-*-data.js
           /writing-submission-reference-data.mjs
