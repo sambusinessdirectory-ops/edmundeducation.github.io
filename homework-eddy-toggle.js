@@ -2,9 +2,9 @@
   const button = document.querySelector('[data-homework-campfire-toggle]');
   if (!button) return;
   const image = button.querySelector('img');
-  const gif = 'homework-eddy/eddy-campfire.gif?v=20261106-shirtless1';
+  const gif = 'homework-eddy/eddy-campfire.gif?v=20261106-shirtless2';
   const stills = Array.from({ length: 5 }, (_, index) =>
-    `homework-eddy/stills/eddy-${String(index + 1).padStart(2, '0')}.png?v=20261106-shirtless1`
+    `homework-eddy/stills/eddy-${String(index + 1).padStart(2, '0')}.png?v=20261106-shirtless2`
   );
   const key = 'edmund-homework-eddy-playing';
   let playing = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
