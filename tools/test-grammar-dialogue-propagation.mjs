@@ -21,7 +21,7 @@ for(const [slug,count] of Object.entries({tense:61,articles:66,'advanced-article
  const figures=[...view.querySelectorAll('figure')];assert.equal(figures.length,count,slug);
  figures.forEach((f,i)=>{
  assert.ok(f.querySelector('figcaption').textContent.trim().length>15,slug+' note '+(i+1));
- assert.equal(f.querySelector('img').getAttribute('src'),`grammar-eddy-dialogues/unless/eddy-${String(i%33+1).padStart(2,'0')}.webp`);
+ assert.equal(f.querySelector('img').getAttribute('src'),`grammar-eddy-dialogues/unless/eddy-${String(i%33+1).padStart(2,'0')}.webp?v=20261106-live-assets1`);
  });
 }
 for(const guide of w.EDMUND_GRAMMAR_NEW_CURATIONS_DATA.filter(x=>['so','modal'].includes(x.slug))){

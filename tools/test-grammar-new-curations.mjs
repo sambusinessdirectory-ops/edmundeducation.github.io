@@ -55,7 +55,7 @@ for (const [index, lesson] of lessons.entries()) {
   assert.equal(dialogues.length, lesson.count);
   if (lesson.slug === "unless") {
     assert.deepEqual([...dialogues].map((dialogue) => dialogue.dataset.rule), Array.from({ length: 24 }, (_, i) => String(i + 1).padStart(2, "0")));
-    assert.ok([...dialogues].every((dialogue) => dialogue.querySelector("img")?.getAttribute("src") === `grammar-eddy-dialogues/unless/eddy-${dialogue.dataset.rule}.webp`));
+    assert.ok([...dialogues].every((dialogue) => dialogue.querySelector("img")?.getAttribute("src") === `grammar-eddy-dialogues/unless/eddy-${dialogue.dataset.rule}.webp?v=20261106-live-assets1`));
     assert.match(dialogues[20].querySelector("figcaption").textContent, /短答能依賴前一句/);
     assert.equal(dialogues[23].querySelector("figcaption").textContent, "看看例句就清楚了！");
   }
@@ -67,4 +67,6 @@ for (const [index, lesson] of lessons.entries()) {
   assert.equal(document.querySelector("[data-grammar-library]").hidden, false);
 }
 dom.window.close();
+const validationPaths = await read("tools/pages-validation-paths");
+assert.match(validationPaths, /^\/grammar-eddy-dialogues\/$/m, "production checkout must contain Eddy's grammar artwork");
 console.log("Grammar reading guides passed: 4 modules, 244 numbered points, no embedded exercise sections, and navigation.");
