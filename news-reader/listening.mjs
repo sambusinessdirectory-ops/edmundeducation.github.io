@@ -9,8 +9,8 @@ const alternatives = {
 const matches = (value,key) => [key,...(alternatives[normalize(key)]||[])].some(s=>normalize(value)===normalize(s));
 
 export function renderListening(box,items,index,move,replay){
-  const q=items[index], multi=q.id==='L04';
-  if(!drafts.has(q.id))drafts.set(q.id,{values:[],graded:false});
+  const q=items[index], multi=q.multi===true;
+  if(!drafts.has(q.id))drafts.set(q.id,{fields:[],selections:[],graded:false});
   const state=drafts.get(q.id);
   const add=(tag,text,parent=box)=>{const el=document.createElement(tag);el.textContent=text;parent.append(el);return el;};
   const action=(text,fn,parent=box)=>{const b=add('button',text,parent);b.type='button';b.onclick=fn;return b;};
@@ -24,11 +24,11 @@ export function renderListening(box,items,index,move,replay){
   const form=add('form','');form.className='listen-form';
   let fieldCount=0;
   function field(parent){
-    const i=fieldCount++,options=q.id==='L11'?['F','P','R']:q.id==='L12'?['1','2','3','4','5']:q.id==='L13'?['1','2','3','4']:null;
+    const i=fieldCount++,options=Array.isArray(q.fieldOptions?.[i])?q.fieldOptions[i]:null;
     const el=document.createElement(options?'select':'input');
     if(options){el.add(new Option('—',''));for(const opt of options)el.add(new Option(opt,opt));}
-    el.setAttribute('aria-label','答案 '+(i+1));el.required=true;el.disabled=state.graded;el.value=state.values[i]||'';
-    el.oninput=()=>{state.values[i]=el.value;};parent.append(el);
+    el.setAttribute('aria-label','答案 '+(i+1));el.required=true;el.disabled=state.graded;el.value=state.fields[i]||'';
+    el.oninput=()=>{state.fields[i]=el.value;};parent.append(el);
   }
   function inline(parent,text){
     const parts=text.split(/(_{3,}|\[  \])/);
@@ -48,23 +48,24 @@ export function renderListening(box,items,index,move,replay){
   }
   q.choices.forEach((choice,i)=>{
     const letter='ABCDE'[i],label=add('label','',form),el=document.createElement('input');
-    el.type=multi?'checkbox':'radio';el.name=q.id;el.value=letter;el.checked=state.values.includes(letter);el.disabled=state.graded;
-    el.onchange=()=>{state.values=[...form.querySelectorAll('input:checked')].map(node=>node.value);};
+    el.type=multi?'checkbox':'radio';el.name=q.id;el.value=letter;el.checked=state.selections.includes(letter);el.disabled=state.graded;
+    el.onchange=()=>{state.selections=[...form.querySelectorAll('input:checked')].map(node=>node.value);};
     label.append(el,' '+letter+'. '+choice);
   });
   if(!state.graded){
     const submit=add('button','核對答案',form);submit.className='primary';
     const status=add('p','',form);status.setAttribute('role','status');
     form.onsubmit=e=>{e.preventDefault();
-      if(state.values.filter(v=>v?.trim()).length!==q.answers.length){status.textContent=multi?'請選出三項。':'請完成每一項。';return;}
+      const submitted=[...state.fields,...state.selections];
+      if(submitted.filter(v=>v?.trim()).length!==q.answers.length){status.textContent=multi?'請選出 '+q.answers.length+' 項。':'請完成每一項。';return;}
       state.graded=true;renderListening(box,items,index,move,replay);
     };
   }else{
     const result=add('section','',form);result.setAttribute('role','status');
-    const correct=q.answers.filter((key,i)=>matches(state.values[i]||'',key)).length;
+    const submitted=[...state.fields,...state.selections];
+    const correct=q.answers.filter((key,i)=>matches(submitted[i]||'',key)).length;
     add('strong',correct===q.answers.length?'全部答對！':'再聽一次，核對答案。',result);
     add('p','參考答案　'+q.key.join(' → '),result);
-    if(q.id==='L12')add('p','A 至 E 各事件的名次　'+q.answers.join('、'),result);
     add('p','聆聽依據　'+q.evidence,result);
     action('重做本題',()=>{drafts.delete(q.id);renderListening(box,items,index,move,replay);},result);
   }
