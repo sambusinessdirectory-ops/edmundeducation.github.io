@@ -9,8 +9,8 @@ workflows = Dir[".github/workflows/*.{yml,yaml}"].to_h do |path|
   [path, YAML.safe_load(File.read(path))]
 end
 coordinator = workflows.fetch(".github/workflows/pages-release-coordinator.yml")
-unless coordinator["concurrency"] == { "group" => "pages-release-main", "queue" => "max", "cancel-in-progress" => false }
-  abort "Pages releases must queue through publication and snapshot completion"
+unless coordinator["concurrency"] == { "group" => "pages-release-main", "queue" => "single", "cancel-in-progress" => false }
+  abort "Pages releases must keep one active and only the latest pending candidate"
 end
 rehearsal = workflows.fetch(".github/workflows/pages-queue-rehearsal.yml").fetch("concurrency")
 unless rehearsal.reject { |key, _| key == "group" } == coordinator.fetch("concurrency").reject { |key, _| key == "group" } &&

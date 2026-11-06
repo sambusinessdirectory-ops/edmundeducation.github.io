@@ -58,6 +58,9 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("queue: single", rehearsal_header)
         self.assertNotIn("queue: max", rehearsal_header)
         self.assertIn("cancel-in-progress: false", rehearsal_header)
+        environment_guard = (ROOT / "tools" / "check-pages-build-environment.rb").read_text(encoding="utf-8")
+        self.assertIn('"queue" => "single"', environment_guard)
+        self.assertNotIn('"queue" => "max"', environment_guard)
 
     def test_release_report_enforces_end_to_end_targets_and_commit_attribution(self):
         self.assertIn("FOCUSED_TARGET_SECONDS = 10 * 60", REPORT)
