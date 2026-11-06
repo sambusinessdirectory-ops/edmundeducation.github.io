@@ -69,8 +69,22 @@ jobs:
             }
 
             if (current && mainSha !== context.sha) {
-              current = false;
-              core.notice(`Skipping superseded release ${context.sha}; main is ${mainSha}.`);
+              const { data: ancestry } = await github.rest.repos.compareCommitsWithBasehead({
+                ...context.repo,
+                basehead: `${context.sha}...${mainSha}`,
+              });
+              current = ancestry.status === 'ahead';
+              if (current) {
+                // A failed snapshot update can leave the recorded baseline behind production.
+                const response = await fetch(`https://edmundeducation.com/release.json?candidate=${context.sha}&run=${context.runId}`, { cache: 'no-store' });
+                if (!response.ok) throw new Error(`Could not verify production baseline: HTTP ${response.status}`);
+                const live = (await response.json()).release;
+                if (!deployedSha || live !== deployedSha) {
+                  throw new Error('Production and snapshot must agree before publishing an intermediate release.');
+                }
+              } else {
+                core.notice(`Skipping release outside main history: ${context.sha}.`);
+              }
             }
 
             core.setOutput('current', String(current));

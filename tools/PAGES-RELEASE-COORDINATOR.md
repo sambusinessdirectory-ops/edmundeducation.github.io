@@ -3,7 +3,7 @@
 GitHub Pages releases are coordinated by
 `.github/workflows/pages-release-coordinator.yml`.
 
-- Pushes arriving within 15 seconds are batched before a build starts.
+- Pushes queue from routing through live verification and snapshot completion.
 - The router compares `main` with the deployed `pages-snapshot` source SHA and
   selects one standard, Paper 3, or homepage artifact builder.
 - Focused validation tags come from all changed paths since the deployed snapshot.
@@ -14,9 +14,10 @@ GitHub Pages releases are coordinated by
   cards and `shared-system-nav.js` destinations. Every exposed route must map
   to a versioned scope in `tools/pages-release-scopes.json`; the build fails if
   a new system is exposed without focused validation ownership.
-- A newly routed push takes the shared build slot and cancels an older artifact
-  build across all three routes. Manual retries use a separate slot per run.
-  Publication and snapshot updates use separate, non-cancellable locks.
+- The active release finishes when newer pushes arrive. A validated intermediate
+  commit can publish if it advances the deployed snapshot, belongs to main,
+  and the public release agrees with the snapshot. GitHub retains up to 100
+  pending runs. Each release computes its changes from the deployed baseline.
 - After publication, `pages-snapshot` records the deployed artifact and source
   SHA under its own non-cancellable lock. Ordinary content changes are applied
   to that snapshot as a delta, while workflow, Paper 3, and R2-index changes
