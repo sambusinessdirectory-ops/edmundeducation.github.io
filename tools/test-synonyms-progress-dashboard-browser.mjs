@@ -11,7 +11,7 @@ page.on('pageerror',error=>errors.push(error.message));
 
 const student={id:'11111111-1111-4111-8111-111111111111',name:'Progress Student',session_token:'aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa'};
 const answers=Array.from({length:28},(_,index)=>({
-  question_key:`lesson-v2-004-${Math.floor(index/2)+1}-${index%2+1}`,
+  question_key:`lesson-v2-021-${Math.floor(index/2)+1}-${index%2+1}`,
   attempts:1,mastered:true,last_choice:'A',last_correct:true,updated_at:'2026-11-06T01:00:00Z'
 }));
 let timeTotal=90000;
@@ -24,7 +24,8 @@ await page.exposeFunction('__qaRpc',(name,args)=>{
   calls.push({name,args});
   if(name==='flashcard_student_login')return [student];
   if(name==='flashcard_student_session_profile')return [student];
-  if(name==='synonyms_important_list')return answers;
+  if(name==='synonyms_important_list')return [];
+  if(name==='synonyms_progress_overview')return [{module_id:'lesson-v2-021',answered:28,mastered:28}];
   if(name==='synonyms_progress_dashboard')return {activityDays:[{date:'2026-11-06',questions:28}],timeDays:[{date:'2026-11-06',totalMs:timeTotal}]};
   if(name==='synonyms_progress_record_time'){timeTotal+=args.p_duration_ms;return timeTotal;}
   if(name==='synonyms_important_record')return [];
@@ -38,9 +39,10 @@ await page.locator('[name=username]').fill('progress');
 await page.locator('[name=password]').fill('correct');
 await page.locator('[data-login-form] button[type=submit]').click();
 
-const aLotOf=page.locator('[data-module="lesson-v2-004"]');
-await aLotOf.waitFor();
-assert.equal(await aLotOf.locator('.syn-module-progress').innerText(),'已作答 28 / 28 題','home card must use account progress before the module is opened');
+const nervous=page.locator('[data-module="lesson-v2-021"]');
+await nervous.waitFor();
+assert.equal(await nervous.locator('.syn-module-progress').innerText(),'已作答 28 / 28 題','home card must use canonical account totals before the module is opened');
+assert.equal(calls.filter(call=>call.name==='synonyms_progress_overview').length,1,'homepage must request the account-wide module overview');
 assert.equal(await page.locator('.syn-dashboard-card').count(),2);
 assert.match(await page.locator('.syn-dashboard-card').first().innerText(),/28 題/);
 assert.match(await page.locator('.syn-dashboard-card').nth(1).innerText(),/1 分 30 秒/);
@@ -58,4 +60,4 @@ await page.screenshot({path:'/private/tmp/synonyms-progress-dashboard-mobile.png
 await page.locator('.syn-dashboard-panel').screenshot({path:'/private/tmp/synonyms-progress-dashboard-panel-mobile.png'});
 assert.deepEqual(errors,[]);
 await browser.close();
-console.log('PASS: remote A lot of progress renders 28/28 on login, both dashboards render, time records, and mobile layout fits.');
+console.log('PASS: Nervous renders 28/28 from the account overview before module hydration, both dashboards render, time records, and mobile layout fits.');
