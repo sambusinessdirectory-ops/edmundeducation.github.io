@@ -55,7 +55,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 15156, "catalogue includes every released resource plus all 26 DSE Practical Writing links");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 17779, "catalogue includes Advanced Native lessons and every previously released resource");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -82,6 +82,11 @@ assert.equal((byType["common-expression"] || []).length, 172, "all six Common Ex
 assert.equal((byType.listening || []).length, 80, "all 20 IELTS Listening practices and four parts should be indexed");
 assert.equal((byType.polysemy || []).length, polysemyModules.length, "all Polysemy modules should be indexed");
 assert.equal((byType["native-english"] || []).length, 466, "all Native English modules should be indexed");
+assert.equal((byType["advanced-native"] || []).length, 2623, "Advanced Native lessons must be indexed separately");
+assert.equal(normalizeHomeworkHref("advanced-native.html?module=advanced-native-001"), "advanced-native.html?module=advanced-native-001");
+assert.equal(normalizeHomeworkHref("advanced-native.html?module=../private"), null);
+assert.equal(normalizeHomeworkResource({ id: "advanced-native:advanced-native-001", type: "advanced-native", label: "#1 · 走出熟悉的範圍", url: "advanced-native.html?module=advanced-native-001" })?.id, "advanced-native:advanced-native-001");
+assert.equal(normalizeHomeworkResource({ id: "advanced-native:advanced-native-002", type: "advanced-native", label: "wrong", url: "advanced-native.html?module=advanced-native-001" }), null);
 assert.equal((byType.synonym || []).length, synonymCatalog.length + legacySynonymCatalog.length + 2, "all ranked, legacy, and featured Synonym modules should be indexed");
 for (const module of [...synonymCatalog, ...legacySynonymCatalog]) {
   const resource = HOMEWORK_RESOURCE_CATALOG.find((item) => item.id === `synonym:${module.id}`);
@@ -1077,12 +1082,12 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261104-dse-practical-writing2"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261104-dse-practical-writing2/, "Homework link helper cache key is stale");
-assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261104-dse-practical-writing2/, "Homework export cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20261106-week-journal1/, "Schedule application cache key is stale");
-assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261104-dse-practical-writing2/, "Homework Hot Keys application cache key is stale");
-assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261104-dse-practical-writing2/, "Homework Hot Keys helper cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261106-advanced-native-homework1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261106-advanced-native-homework1/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261106-advanced-native-homework1/, "Homework export cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20261106-advanced-native-homework1/, "Schedule application cache key is stale");
+assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261106-advanced-native-homework1/, "Homework Hot Keys application cache key is stale");
+assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261106-advanced-native-homework1/, "Homework Hot Keys helper cache key is stale");
 assert.match(scheduleJs, /homeworkLinkContent\(link, resource, isDownload\)/, "homework links should render a consistent vector icon");
 assert.match(scheduleJs, /M10 2\.5v10/, "download links should include a vector download path");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");

@@ -896,8 +896,11 @@ async function orderedLessonResources({ file, globalName, type, idPrefix, system
 async function moduleLessonResources({ file, type, systemLabel, page, titleFor, detailFor, allowNumberGaps = false }) {
   const moduleUrl = pathToFileURL(path.join(root, file));
   const catalogue = await import(`${moduleUrl.href}?homework-catalogue`);
-  // Advanced Native has its own numbering; retain this picker's Native English scope.
-  const lessons = (Array.isArray(catalogue.modules) ? catalogue.modules : []).filter(lesson => type !== "native-english" || !String(lesson.id).startsWith("advanced-native-"));
+  // The two courses share a source catalogue but need separate homework types.
+  const lessons = (Array.isArray(catalogue.modules) ? catalogue.modules : []).filter(lesson => {
+    const advanced = String(lesson.id).startsWith("advanced-native-");
+    return type === "advanced-native" ? advanced : type !== "native-english" || !advanced;
+  });
   if (!lessons.length) throw new Error(`${systemLabel} module catalogue is empty`);
   return lessons.map((lesson, index) => {
     const ordinal = Number(lesson?.number);
@@ -989,6 +992,15 @@ const resources = [
     allowNumberGaps: true,
     titleFor: (lesson) => lesson.titleZh || lesson.titleEn || lesson.id,
     detailFor: (lesson) => `Native English #${lesson.number} · ${lesson.titleEn || lesson.id}`
+  }),
+  ...await moduleLessonResources({
+    file: "natural-english/catalogue.mjs",
+    type: "advanced-native",
+    systemLabel: "Advanced Native English",
+    page: "advanced-native.html",
+    allowNumberGaps: true,
+    titleFor: (lesson) => lesson.titleZh || lesson.titleEn || lesson.id,
+    detailFor: (lesson) => `Advanced Native English #${lesson.number} · ${lesson.titleEn || lesson.id}`
   }),
   ...await orderedLessonResources({
     file: "idiom-system-data.js",
