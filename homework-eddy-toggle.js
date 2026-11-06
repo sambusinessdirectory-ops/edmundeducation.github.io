@@ -2,7 +2,7 @@
   const button = document.querySelector('[data-homework-campfire-toggle]');
   if (!button) return;
   const image = button.querySelector('img');
-  const gif = 'homework-eddy/eddy-campfire.gif?v=20261106-shirtless3';
+  const gif = 'homework-eddy/eddy-campfire-v2.gif?v=20261106-shirtless4';
   const stills = Array.from({ length: 5 }, (_, index) =>
     `homework-eddy/stills/eddy-${String(index + 1).padStart(2, '0')}.png?v=20261106-shirtless3`
   );
