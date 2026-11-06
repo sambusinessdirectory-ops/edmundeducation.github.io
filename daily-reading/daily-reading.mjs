@@ -1,8 +1,8 @@
 const $ = selector => document.querySelector(selector);
 const $$ = selector => [...document.querySelectorAll(selector)];
-const config = window.EDMUND_SUPABASE || {};
 const sessionKey = 'edmund-daily-reading-session-v1';
 const draftPrefix = 'edmund-daily-reading-parking-meter-v1:';
+let authGeneration = 0;
 
 const passage = [
   'The Transport Department said a software update triggered a citywide malfunction of Hong Kong’s parking meter system on Tuesday.',
@@ -103,23 +103,28 @@ function showView(name){
   if(logged)$('[data-user]').textContent=state.user.name;
 }
 async function rpc(name,args){
+  const config = window.EDMUND_SUPABASE || {};
   if(!config.url||!config.anonKey)throw Error('登入服務暫時未能載入，請重新整理頁面。');
-  const response=await fetch(`${config.url}/rest/v1/rpc/${name}`,{method:'POST',headers:{apikey:config.anonKey,'Content-Type':'application/json'},body:JSON.stringify(args),cache:'no-store'});
+  const controller=new AbortController(),timeout=setTimeout(()=>controller.abort(),15000);
+  let response;
+  try{response=await fetch(`${config.url}/rest/v1/rpc/${name}`,{method:'POST',headers:{apikey:config.anonKey,'Content-Type':'application/json'},body:JSON.stringify(args),cache:'no-store',credentials:'omit',signal:controller.signal});}
+  catch(error){if(error?.name==='AbortError')throw Error('登入服務回應逾時，請再試一次。');throw Error('登入服務暫時未能連接，請檢查網絡後重試。');}
+  finally{clearTimeout(timeout);}
   const data=await response.json().catch(()=>null);
   if(!response.ok)throw Error(data?.message||'登入服務暫時未能連接。');
   return Array.isArray(data)?data[0]:data;
 }
 function remember(row,token){
   state.user={id:String(row.id||''),name:String(row.name||'Student'),role:'student'};state.token=String(token||row.session_token||'');
-  sessionStorage.setItem(sessionKey,JSON.stringify({...state.user,token:state.token}));
-  window.EdmundSystemNav?.rememberStudentSession?.({...state.user,token:state.token});
+  try{sessionStorage.setItem(sessionKey,JSON.stringify({...state.user,token:state.token}));}catch{}
+  try{window.EdmundSystemNav?.rememberStudentSession?.({...state.user,token:state.token});}catch{}
   $('[data-welcome]').textContent=`您好，${state.user.name}。今天的閱讀練習已準備好。`;
 }
-function forget(){state.user=null;state.token='';sessionStorage.removeItem(sessionKey);window.EdmundSystemNav?.forgetStudentSession?.();showView('login');}
+function forget(){authGeneration++;state.user=null;state.token='';try{sessionStorage.removeItem(sessionKey);}catch{}try{window.EdmundSystemNav?.forgetStudentSession?.();}catch{}showView('login');}
 async function restore(){
-  const shared=window.EdmundSystemNav?.getStudentSession?.();let own=null;try{own=JSON.parse(sessionStorage.getItem(sessionKey)||'null');}catch{}
+  const generation=authGeneration;let shared=null,own=null;try{shared=window.EdmundSystemNav?.getStudentSession?.();}catch{}try{own=JSON.parse(sessionStorage.getItem(sessionKey)||'null');}catch{}
   const candidate=shared?.role==='student'?shared:own?.role==='student'?own:null;if(!candidate?.token)return false;
-  const row=await rpc('flashcard_student_session_profile',{p_token:String(candidate.token)});if(!row?.session_token||!row?.name)throw Error('登入時段已失效，請重新登入。');
+  const row=await rpc('flashcard_student_session_profile',{p_token:String(candidate.token)});if(generation!==authGeneration)return false;if(!row?.session_token||!row?.name)throw Error('登入時段已失效，請重新登入。');
   remember(row,row.session_token);showView('library');return true;
 }
 
@@ -196,9 +201,23 @@ function finish(){
 
 $('[data-passage]').replaceChildren(...passage.map((text,index)=>{const p=document.createElement('p');p.className='passage-paragraph';p.dataset.number=String(index+1);p.textContent=text;return p;}));
 renderQuestions();updateProgress();
-$('[data-login-form]').onsubmit=async event=>{event.preventDefault();const form=event.currentTarget,status=$('[data-login-status]'),button=$('[data-login-button]');status.textContent='正在驗證…';button.disabled=true;try{const row=await rpc('flashcard_student_login',{p_name:form.username.value.trim(),p_password:form.password.value});if(!row?.session_token)throw Error('學生帳戶或密碼不正確。');remember(row,row.session_token);form.reset();status.textContent='';showView('library');}catch(error){status.textContent=error.message;}finally{button.disabled=false;}};
+$('[data-login-form]').onsubmit=async event=>{
+  event.preventDefault();
+  const form=event.currentTarget,status=$('[data-login-status]'),button=$('[data-login-button]'),values=new FormData(form);
+  const username=String(values.get('username')||'').trim(),password=String(values.get('password')||'');
+  if(!username||!password){status.textContent='請輸入學生帳戶名稱及密碼。';form.dataset.loginFeedback='error';return;}
+  const generation=++authGeneration,originalLabel=button.textContent;
+  status.textContent='正在驗證學生帳戶…';form.dataset.loginFeedback='pending';form.setAttribute('aria-busy','true');button.disabled=true;button.textContent='正在登入…';
+  try{
+    const row=await rpc('flashcard_student_login',{p_name:username,p_password:password});
+    if(generation!==authGeneration)return;
+    if(!row?.session_token)throw Error('學生帳戶或密碼不正確。');
+    remember(row,row.session_token);form.reset();status.textContent='登入成功，正在開啟文章目錄…';form.dataset.loginFeedback='complete';showView('library');
+  }catch(error){if(generation===authGeneration){status.textContent=error?.message||'登入失敗，請再試一次。';form.dataset.loginFeedback='error';}}
+  finally{if(generation===authGeneration){form.removeAttribute('aria-busy');button.disabled=false;button.textContent=originalLabel;}}
+};
 $('[data-password-toggle]').onclick=event=>{const input=$('[name="password"]'),show=input.type==='password';input.type=show?'text':'password';event.currentTarget.textContent=show?'隱藏':'顯示';event.currentTarget.setAttribute('aria-pressed',String(show));};
 $('[data-open-article]').onclick=()=>{showView('exercise');restoreDraft();window.scrollTo({top:0,behavior:'smooth'});};
 $('[data-back]').onclick=$('[data-library-home]').onclick=()=>{showView('library');window.scrollTo({top:0,behavior:'smooth'});};
 $('[data-logout]').onclick=forget;$('[data-reset]').onclick=resetDraft;$('[data-finish]').onclick=finish;
-restore().catch(error=>{forget();$('[data-login-status]').textContent=error.message;});
+restore().catch(error=>{forget();$('[data-login-status]').textContent=error?.message||'登入時段已失效，請重新登入。';$('[data-login-form]').dataset.loginFeedback='error';});
