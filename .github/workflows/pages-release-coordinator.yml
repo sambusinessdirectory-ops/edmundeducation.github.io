@@ -7,7 +7,10 @@ on:
 
 concurrency:
   group: pages-release-main
-  queue: max
+  # Keep the active release, but collapse all newer pushes into the latest
+  # pending candidate. Its diff is recalculated from the snapshot written by
+  # the active release, so no accepted commit is omitted.
+  queue: single
   cancel-in-progress: false
 
 permissions:

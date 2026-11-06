@@ -3,8 +3,14 @@
 import argparse
 from datetime import datetime
 import json
+from math import ceil
+from statistics import median
 import subprocess
 from urllib.request import Request, urlopen
+
+FOCUSED_TARGET_SECONDS = 10 * 60
+FULL_TARGET_SECONDS = 20 * 60
+QUEUE_TARGET_SECONDS = 5 * 60
 
 def timestamp(value):
     return datetime.fromisoformat(value.replace("Z", "+00:00"))
@@ -35,6 +41,8 @@ for run in runs:
     deployed = next((s for s in publish.get("steps",[]) if s["name"] == "Deploy to GitHub Pages"), {})
     verified = verify.get("completed_at") if verify.get("conclusion") == "success" else None
     snapshot = job("/ snapshot")
+    route = job("route")
+    consolidated = run["conclusion"] == "cancelled" and not route.get("started_at")
     phase_seconds = {}
     for step in steps:
         if step["conclusion"] != "success":
@@ -44,12 +52,14 @@ for run in runs:
             phase_seconds[name] = elapsed(step.get("started_at"), step.get("completed_at"))
     reports.append(dict(run=run["run_number"],sha=run["head_sha"],url=run["html_url"],status=run["status"],
         conclusion=run["conclusion"],builder=build.get("name"),scope=scope,preparation=mode,deploy_step=deployed.get("conclusion"),
-        outcome=("verified" if verified else "published; verification outstanding" if deployed.get("conclusion")=="success"
+        outcome=("verified" if verified else "consolidated into latest pending candidate" if consolidated
+                 else "published; verification outstanding" if deployed.get("conclusion")=="success"
                  else run["conclusion"] or run["status"]),
+        consolidated_pending=consolidated,
         build_phases_s=phase_seconds, created_at=run["created_at"],
         publish_s=elapsed(deployed.get("started_at"),deployed.get("completed_at")),
         snapshot_completed_at=snapshot.get("completed_at") if snapshot.get("conclusion")=="success" else None,
-        queue_s=elapsed(run["created_at"],job("route").get("started_at")),
+        queue_s=elapsed(run["created_at"],route.get("started_at")),
         build_s=elapsed(build.get("started_at"),build.get("completed_at")),
         push_to_verified_s=elapsed(run["created_at"],verified),verified_at=verified))
 result={"runs":reports,"unpublished_build_seconds":sum(r["build_s"] or 0 for r in reports if r["status"]=="completed" and not r["verified_at"] and r["deploy_step"]!="success")}
@@ -57,16 +67,35 @@ groups = {}
 for row in reports:
     if row["push_to_verified_s"] is not None:
         groups.setdefault(row["scope"], []).append(row["push_to_verified_s"])
-from statistics import median
-from math import ceil
 result["verified_push_to_live"] = {
-    scope: {"count":len(times),"median_s":median(times),"p95_s":sorted(times)[ceil(len(times)*0.95)-1]}
+    scope: {
+        "count":len(times),
+        "median_s":median(times),
+        "p95_s":sorted(times)[ceil(len(times)*0.95)-1],
+        "target_s":FOCUSED_TARGET_SECONDS if scope == "focused" else FULL_TARGET_SECONDS,
+        "p95_target_met":sorted(times)[ceil(len(times)*0.95)-1] <= (
+            FOCUSED_TARGET_SECONDS if scope == "focused" else FULL_TARGET_SECONDS
+        ),
+    }
     for scope,times in groups.items()
+}
+queue_times = [r["queue_s"] for r in reports if r["queue_s"] is not None]
+result["queue_wait"] = {
+    "count": len(queue_times),
+    "median_s": median(queue_times) if queue_times else None,
+    "p95_s": sorted(queue_times)[ceil(len(queue_times)*0.95)-1] if queue_times else None,
+    "target_s": QUEUE_TARGET_SECONDS,
+    "p95_target_met": bool(queue_times) and (
+        sorted(queue_times)[ceil(len(queue_times)*0.95)-1] <= QUEUE_TARGET_SECONDS
+    ),
 }
 finished = [r for r in reports if r["status"]=="completed"]
 published = [r for r in finished if r["deploy_step"]=="success" and r["verified_at"]]
 result["completed_run_count"] = len(finished)
-result["cancelled_run_count"] = sum(r["conclusion"]=="cancelled" for r in finished)
+result["consolidated_pending_run_count"] = sum(r["consolidated_pending"] for r in finished)
+result["unexpected_cancelled_run_count"] = sum(
+    r["conclusion"] == "cancelled" and not r["consolidated_pending"] for r in finished
+)
 result["builder_seconds_per_verified_publication"] = (
     sum(r["build_s"] or 0 for r in finished) / len(published) if published else None
 )
@@ -76,10 +105,16 @@ if args.feature:
         live=json.load(stream)["release"]
     relation=api(f"compare/{args.feature}...{live}")["status"]
     result.update(public_sha=live,feature=args.feature,contains_feature=relation in ("identical","ahead"))
-    if args.requested_at and result["contains_feature"]:
+    if result["contains_feature"]:
         for r in reversed(reports):
             if r["verified_at"] and api(f"compare/{args.feature}...{r['sha']}")["status"] in ("identical","ahead"):
-                if timestamp(r["verified_at"])>=timestamp(args.requested_at):
+                result["containing_verified_release"] = {
+                    "run": r["run"],
+                    "sha": r["sha"],
+                    "url": r["url"],
+                    "verified_at": r["verified_at"],
+                }
+                if args.requested_at and timestamp(r["verified_at"])>=timestamp(args.requested_at):
                     result["request_to_first_observed_verified_s"]=elapsed(args.requested_at,r["verified_at"])
-                    break
+                break
 print(json.dumps(result,indent=2))

@@ -15,7 +15,9 @@ permissions:
   contents: read
 concurrency:
   group: pages-rehearsal-${{ inputs.batch }}
-  queue: max
+  # A remains active, B may become pending, and C replaces B. This mirrors the
+  # production one-active/one-latest-pending release contract.
+  queue: single
   cancel-in-progress: false
 jobs:
   build:

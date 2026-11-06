@@ -22,7 +22,8 @@ jobs:
           curl -fsSL --retry 2 https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_linux_amd64.tar.gz -o "$archive"
           echo "8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8  $archive" | sha256sum -c -
           tar -xzf "$archive" -C "$RUNNER_TEMP" actionlint
-          # actionlint 1.7.12 predates GitHub's queue key. The Ruby guard checks its exact value and level.
+          # actionlint 1.7.12 predates GitHub's queue key. The Python regression
+          # gate checks its exact value and workflow-level placement.
           "$RUNNER_TEMP/actionlint" -ignore '^unexpected key "queue" for "concurrency" section' -shellcheck= -pyflakes= .github/workflows/pages*.yml .github/workflows/publish-pages-artifact.yml
       - name: Verify media cutover stops safely
         run: python3 tools/test-pages-media-cutover.py

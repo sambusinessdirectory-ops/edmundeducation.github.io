@@ -3,7 +3,10 @@
 GitHub Pages releases are coordinated by
 `.github/workflows/pages-release-coordinator.yml`.
 
-- Pushes queue from routing through live verification and snapshot completion.
+- Pushes are coordinated from routing through live verification and snapshot
+  completion. One release runs uninterrupted; at most one newer candidate waits.
+  A still newer push replaces that pending candidate, consolidating every commit
+  into the latest `main` descendant instead of building intermediate trees.
 - The router compares `main` with the deployed `pages-snapshot` source SHA and
   selects one standard, Paper 3, or homepage artifact builder.
 - Focused validation tags come from all changed paths since the deployed snapshot.
@@ -16,8 +19,10 @@ GitHub Pages releases are coordinated by
   a new system is exposed without focused validation ownership.
 - The active release finishes when newer pushes arrive. A validated intermediate
   commit can publish if it advances the deployed snapshot, belongs to main,
-  and the public release agrees with the snapshot. GitHub retains up to 100
-  pending runs. Each release computes its changes from the deployed baseline.
+  and the public release agrees with the snapshot. GitHub retains only the latest
+  pending run. When it starts, it computes the remaining changes from the newly
+  deployed snapshot; a canceled pending run is therefore linked by ancestry to
+  the descendant candidate that contains it rather than treated as discarded work.
 - After publication, `pages-snapshot` records the deployed artifact and source
   SHA under its own non-cancellable lock. Ordinary content changes are applied
   to that snapshot as a delta, while workflow, Paper 3, and R2-index changes
@@ -50,7 +55,13 @@ that change the build environment also launch all three browsers on that runner.
 Use one coordinator run as the shared status record. Record feature commit, request time
 and expected public behavior there or in the feature's PR. Follow the structured build,
 deploy and verify steps. An active or skipped job does not prove publication. A later
-candidate may contain the feature; check ancestry and the student's actual route.
+candidate may contain the feature; use `pages-release-report.py --feature FULL_SHA` to
+name that containing release, then check the student's actual route.
+
+The operational targets are verified production within 10 minutes for focused releases
+and 20 minutes for full releases, with ordinary queue wait below 5 minutes. Treat these as
+end-to-end limits, not build-only limits. A release is complete only after the public SHA,
+affected student journey, and snapshot are verified.
 
 Avoid empty restart commits and manual cancellations for ordinary pushes. For a transient
 failure use GitHub's **Re-run failed jobs** on the owning run. The three-day artifact
@@ -69,9 +80,10 @@ baseline is 19m23s build, 21m35s until verified, and 160m14s of unpublished buil
 time across attempts #123–140. The three feature turns overlapped.
 
 For scheduling changes dispatch `pages-queue-rehearsal.yml` three times with the same
-unique batch identifier and labels A, B and C. Submit B during A's build and C during A's
-snapshot phase. Inspect job times and conclusions; only one rehearsal may occupy the group
-at a time. The rehearsal has read-only permissions and its own group.
+unique batch identifier and labels A, B and C. Submit B and then C while A is active.
+A must finish, B must be canceled before its build begins, and C must start only after A
+finishes. This proves active-work preservation and latest-pending consolidation without
+touching the production group. The rehearsal has read-only permissions.
 
 Public media that was already on Pages is mirrored in the edmund-assets R2 bucket.
 `tools/stage-pages-media.py` reads the deployed snapshot, verifies source Git object IDs,
