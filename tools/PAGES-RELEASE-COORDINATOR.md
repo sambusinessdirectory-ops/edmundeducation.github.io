@@ -13,6 +13,10 @@ GitHub Pages releases are coordinated by
   Homepage card markup and numeric deck-counter edits can share the standard
   focused build with other covered systems. Other homepage edits and unknown
   files require full validation.
+- The route summary names the owner of every changed path and lists every commit
+  consolidated into the candidate. Unclassified paths are named and force full
+  validation; release-system files belong to the infrastructure scope instead
+  of silently broadening an otherwise focused release.
 - `tools/pages-system-release-map.json` owns the union of the homepage learning
   cards and `shared-system-nav.js` destinations. Every exposed route must map
   to a versioned scope in `tools/pages-release-scopes.json`; the build fails if
@@ -63,6 +67,12 @@ and 20 minutes for full releases, with ordinary queue wait below 5 minutes. Trea
 end-to-end limits, not build-only limits. A release is complete only after the public SHA,
 affected student journey, and snapshot are verified.
 
+After the public SHA changes, the publisher runs `verify-pages-live-journeys.py`.
+Focused releases fetch the mapped route for every affected dependency scope. Full,
+shared-header and cross-catalogue releases fetch the complete public system map. A
+matching release hash is not student-visible success when an affected document is
+missing, incomplete or unstamped.
+
 Avoid empty restart commits and manual cancellations for ordinary pushes. For a transient
 failure use GitHub's **Re-run failed jobs** on the owning run. The three-day artifact
 retention window allows publication, verification and snapshot failures to be retried
@@ -70,6 +80,10 @@ with the original artifact. If production already shows the candidate, the publi
 skips redeployment and repairs the snapshot. When snapshot and public SHA disagree,
 repair the run owning the public SHA first. Never overwrite the snapshot from an older
 retry. During a known bad release, record the reason and recovery owner before cancelling.
+Each builder retries a failed artifact upload once inside the already validated job,
+using a new immutable artifact name. Dispatch `pages-recovery-rehearsal.yml` with each
+failure stage and use **Re-run failed jobs**; the later attempt must reuse the one stored
+artifact while the successful validation job remains untouched.
 
 Use `python3 tools/pages-release-report.py --feature FULL_SHA --requested-at ISO_TIME`
 with authenticated GitHub CLI access. It reports verified timing and publication evidence
@@ -101,6 +115,13 @@ must first route the indexed media paths and
 original Pages origin for other requests. Verify the exact index and range
 responses on the school domain, including saved song URLs, PDF downloads, and
 cached clients. Keep immutable packs available throughout rollback.
+
+Run `pages-media-cutover.yml` first against the workers.dev rehearsal origin and then
+against `https://edmundeducation.com` with Pages fallback required. The verifier checks
+the exact repository index, representative complete downloads, every routed top-level
+family, byte ranges, content types, cache validation, CORS, saved song/PDF/image links,
+and a non-media request that must still reach Pages. Do not enable `PAGES_R2_CUTOVER`
+until the school-domain run succeeds.
 
 After a disposable artifact rehearsal, enable the variable for a full release.
 Every builder compares present media with the verified blob index before

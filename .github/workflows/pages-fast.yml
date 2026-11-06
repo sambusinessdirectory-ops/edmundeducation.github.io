@@ -157,12 +157,33 @@ jobs:
           python3 tools/pages-artifact-inventory.py _site "${options[@]}"
 
       - name: Name this build artifact
-        id: artifact
+        id: artifact_base
         run: echo "name=github-pages-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_OUTPUT"
 
       - name: Upload GitHub Pages artifact
+        id: upload_primary
+        continue-on-error: true
         uses: actions/upload-pages-artifact@v4
         with:
-          name: ${{ steps.artifact.outputs.name }}
+          name: ${{ steps.artifact_base.outputs.name }}
           retention-days: 3
           path: _site
+
+      - name: Retry only the failed artifact upload
+        id: upload_retry
+        if: steps.upload_primary.outcome == 'failure'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          name: ${{ steps.artifact_base.outputs.name }}-retry
+          retention-days: 3
+          path: _site
+
+      - name: Select the stored artifact
+        id: artifact
+        env:
+          PRIMARY_OUTCOME: ${{ steps.upload_primary.outcome }}
+          BASE_NAME: ${{ steps.artifact_base.outputs.name }}
+        run: |
+          suffix=
+          if [[ "${PRIMARY_OUTCOME}" != success ]]; then suffix=-retry; fi
+          echo "name=${BASE_NAME}${suffix}" >> "${GITHUB_OUTPUT}"

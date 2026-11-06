@@ -1,0 +1,7 @@
+# Representative addresses already shared with students. Keep these exact paths valid.
+song-media/fly-me-to-the-moon/album.mp3
+song-media/shake-it-off/cover.webp
+polysemy-lab/audio/ec63dc1f6b8452443a9bceaf.mp3
+polysemy-lab/manuals/ceiling.pdf
+professional-english/classroom-qr.pdf
+paper3/2023-b2/assets/2023-b2-chef-hat.webp

@@ -10,6 +10,10 @@ on:
         required: false
         type: string
         default: ""
+      ignore_validation_cache:
+        required: false
+        type: boolean
+        default: false
     outputs:
       artifact_name:
         description: Prepared Pages artifact name
@@ -1359,8 +1363,43 @@ jobs:
           node tools/test-dse-writing-part-a.mjs
           node --test tools/test-writing-practice-listening-sticky.mjs
 
-      - name: Validate Schedule System and Mass Edit clipboard
+      - name: Identify schedule, email, and persistence suite inputs
+        id: persistence_inputs
         if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
+        run: |
+          set -euo pipefail
+          key=$( {
+            git ls-tree HEAD -- \
+              .github/workflows/pages.yml \
+              package.json package-lock.json .npmrc \
+              assets/schedule homework-resource-catalog.mjs \
+              parent-communication.html parent-communication.js \
+              schedule-system.html schedule-system.js schedule-worker.js \
+              supabase tools/email-qa \
+              tools/test-email-v2.mjs tools/test-parent-communication-system.mjs \
+              ':(glob)tools/test-schedule-*.mjs' tools/test-writing-submission-email.mjs \
+              workers/schedule-system workers/writing-submission \
+              writing-submission.html writing-submission.js
+            node --version
+            npm --version
+            printf '%s\n' "$RUNNER_OS" "$RUNNER_ARCH" "$ImageVersion"
+          } | sha256sum | cut -d' ' -f1 )
+          echo "key=pages-persistence-v1-$key" >> "$GITHUB_OUTPUT"
+
+      - name: Look up successful identical schedule, email, and persistence contracts
+        id: persistence_cache
+        if: steps.persistence_inputs.outcome == 'success' && !inputs.ignore_validation_cache
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/pages-persistence-passed
+          key: ${{ steps.persistence_inputs.outputs.key }}
+          lookup-only: true
+
+      - name: Validate Schedule System and Mass Edit clipboard
+        if: >-
+          ${{ steps.persistence_inputs.outcome == 'success' && (
+            inputs.ignore_validation_cache || steps.persistence_cache.outputs.cache-hit != 'true'
+          ) }}
         run: |
           node tools/test-schedule-clipboard.mjs
           node tools/test-schedule-motivation.mjs
@@ -1377,6 +1416,16 @@ jobs:
           node tools/test-schedule-worker.mjs
           node tools/test-parent-communication-system.mjs
           node tools/test-schedule-account-admin-parity.mjs
+          echo "${GITHUB_SHA}" > "$RUNNER_TEMP/pages-persistence-passed"
+
+      - name: Record successful identical schedule, email, and persistence contracts
+        if: >-
+          ${{ steps.persistence_inputs.outcome == 'success' && !inputs.ignore_validation_cache &&
+            steps.persistence_cache.outputs.cache-hit != 'true' }}
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ runner.temp }}/pages-persistence-passed
+          key: ${{ steps.persistence_inputs.outputs.key }}
 
       - name: Identify Native English catalogue test inputs
         id: native_inputs
@@ -1393,7 +1442,7 @@ jobs:
 
       - name: Look up a successful identical catalogue test
         id: native_cache
-        if: steps.native_inputs.outcome == 'success'
+        if: steps.native_inputs.outcome == 'success' && !inputs.ignore_validation_cache
         uses: actions/cache/restore@v4
         with:
           path: ${{ runner.temp }}/native-catalogue-passed
@@ -1401,13 +1450,18 @@ jobs:
           lookup-only: true
 
       - name: Verify every Native English catalogue answer
-        if: steps.native_inputs.outcome == 'success' && steps.native_cache.outputs.cache-hit != 'true'
+        if: >-
+          ${{ steps.native_inputs.outcome == 'success' && (
+            inputs.ignore_validation_cache || steps.native_cache.outputs.cache-hit != 'true'
+          ) }}
         run: |
           node tools/test-natural-english-modules.mjs
           echo "${GITHUB_SHA}" > "$RUNNER_TEMP/native-catalogue-passed"
 
       - name: Record the successful catalogue test
-        if: steps.native_inputs.outcome == 'success' && steps.native_cache.outputs.cache-hit != 'true'
+        if: >-
+          ${{ steps.native_inputs.outcome == 'success' && !inputs.ignore_validation_cache &&
+            steps.native_cache.outputs.cache-hit != 'true' }}
         uses: actions/cache/save@v4
         with:
           path: ${{ runner.temp }}/native-catalogue-passed
@@ -1738,12 +1792,33 @@ jobs:
           python3 tools/pages-artifact-inventory.py _site "${options[@]}"
 
       - name: Name this build artifact
-        id: artifact
+        id: artifact_base
         run: echo "name=github-pages-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_OUTPUT"
 
       - name: Upload GitHub Pages artifact
+        id: upload_primary
+        continue-on-error: true
         uses: actions/upload-pages-artifact@v4
         with:
-          name: ${{ steps.artifact.outputs.name }}
+          name: ${{ steps.artifact_base.outputs.name }}
           retention-days: 3
           path: _site
+
+      - name: Retry only the failed artifact upload
+        id: upload_retry
+        if: steps.upload_primary.outcome == 'failure'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          name: ${{ steps.artifact_base.outputs.name }}-retry
+          retention-days: 3
+          path: _site
+
+      - name: Select the stored artifact
+        id: artifact
+        env:
+          PRIMARY_OUTCOME: ${{ steps.upload_primary.outcome }}
+          BASE_NAME: ${{ steps.artifact_base.outputs.name }}
+        run: |
+          suffix=
+          if [[ "${PRIMARY_OUTCOME}" != success ]]; then suffix=-retry; fi
+          echo "name=${BASE_NAME}${suffix}" >> "${GITHUB_OUTPUT}"

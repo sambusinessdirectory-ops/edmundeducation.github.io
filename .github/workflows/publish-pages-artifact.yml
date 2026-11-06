@@ -6,6 +6,10 @@ on:
       artifact_name:
         required: true
         type: string
+      release_tags:
+        required: false
+        type: string
+        default: ""
     outputs:
       current:
         description: Whether this commit still owned the publication slot
@@ -153,6 +157,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: Checkout student journey map
+        uses: actions/checkout@v6
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /tools/pages-system-release-map.json
+            /tools/verify-pages-live-journeys.py
       - name: Verify the coordinated release is live
         shell: bash
         run: |
@@ -168,3 +179,9 @@ jobs:
           done
           echo "Production did not expose coordinated release ${GITHUB_SHA}." >&2
           exit 1
+      - name: Verify affected student journeys
+        env:
+          RELEASE_TAGS: ${{ inputs.release_tags }}
+        run: >-
+          python3 tools/verify-pages-live-journeys.py
+          --release-tags "${RELEASE_TAGS}"

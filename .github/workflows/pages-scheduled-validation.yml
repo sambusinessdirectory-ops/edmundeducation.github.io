@@ -1,0 +1,23 @@
+name: Scheduled complete Pages validation
+
+on:
+  schedule:
+    - cron: '17 19 * * 0'
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+  pages: read
+
+jobs:
+  complete:
+    uses: ./.github/workflows/pages.yml
+    with:
+      base_sha: ${{ github.sha }}
+      release_tags: ""
+      ignore_validation_cache: true
+    permissions:
+      actions: write
+      contents: read
+      pages: read

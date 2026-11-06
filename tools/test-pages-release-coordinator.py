@@ -69,6 +69,10 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn('result["containing_verified_release"]', REPORT)
         self.assertIn('result["consolidated_pending_run_count"]', REPORT)
         self.assertIn('result["unexpected_cancelled_run_count"]', REPORT)
+        self.assertIn('result["cancellation_rate"]', REPORT)
+        self.assertIn('result["runner_minutes"]', REPORT)
+        self.assertIn('artifact_compressed_bytes', REPORT)
+        self.assertIn('push_to_snapshot_s', REPORT)
 
     def test_focused_writing_runs_the_completed_question_regression(self):
         step = BUILDERS[0].split("- name: Validate focused Writing release", 1)[1].split("\n      - name:", 1)[0]
@@ -182,6 +186,9 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("Verify the coordinated release is live", PUBLISHER)
         self.assertIn("needs.publish.outputs.current == 'true'", PUBLISHER)
         self.assertNotIn("verify-live:", COORDINATOR)
+        self.assertIn("release_tags: ${{ needs.route.outputs.release_tags }}", COORDINATOR)
+        self.assertIn("Verify affected student journeys", PUBLISHER)
+        self.assertIn("tools/verify-pages-live-journeys.py", PUBLISHER)
 
     def test_publisher_allows_only_forward_current_main_releases(self):
         self.assertIn("ref: 'pages-snapshot'", PUBLISHER)
@@ -202,6 +209,16 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
                 "uses: ./.github/workflows/publish-pages-artifact.yml",
                 workflow,
             )
+
+    def test_transient_artifact_upload_retries_without_repeating_validation(self):
+        for workflow in BUILDERS:
+            with self.subTest(builder=workflow.splitlines()[0]):
+                self.assertEqual(workflow.count("actions/upload-pages-artifact@v4"), 2)
+                self.assertIn("id: upload_primary", workflow)
+                self.assertIn("continue-on-error: true", workflow)
+                self.assertIn("if: steps.upload_primary.outcome == 'failure'", workflow)
+                self.assertIn("id: artifact\n", workflow)
+                self.assertIn("name=${BASE_NAME}${suffix}", workflow)
 
     def test_router_compares_against_deployed_snapshot(self):
         self.assertIn("refs/heads/pages-snapshot", COORDINATOR)
@@ -227,6 +244,44 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         for tag in SCOPE_POLICY["scopes"]:
             with self.subTest(tag=tag):
                 self.assertIn(tag, standard)
+
+    def test_exact_input_cache_includes_commands_runtime_and_has_scheduled_bypass(self):
+        standard = BUILDERS[0]
+        persistence = standard.split("- name: Identify schedule, email, and persistence suite inputs", 1)[1].split("\n      - name:", 1)[0]
+        for identity in (
+            ".github/workflows/pages.yml", "tools/test-schedule-*.mjs",
+            "package-lock.json", "node --version", "npm --version",
+            "$RUNNER_OS", "$RUNNER_ARCH", "$ImageVersion",
+        ):
+            with self.subTest(identity=identity):
+                self.assertIn(identity, persistence)
+        self.assertIn("inputs.ignore_validation_cache", standard)
+        scheduled = (WORKFLOWS / "pages-scheduled-validation.yml").read_text(encoding="utf-8")
+        self.assertIn("schedule:", scheduled)
+        self.assertIn("ignore_validation_cache: true", scheduled)
+        self.assertIn('release_tags: ""', scheduled)
+
+    def test_release_infrastructure_files_are_classified_instead_of_forcing_full_validation(self):
+        infrastructure = SCOPE_POLICY["scopes"]["[infrastructure-release]"]
+        for path in (
+            ".github/workflows/pages-media-cutover.yml",
+            ".github/workflows/pages-queue-rehearsal.yml",
+            ".github/workflows/pages-recovery-rehearsal.yml",
+            ".github/workflows/pages-release-pr.yml",
+            "tools/pages-artifact-inventory.py",
+            "tools/pages-release-report.py",
+            "tools/prune-verified-pages-media.py",
+            "tools/test-pages-publisher.cjs",
+            "tools/verify-pages-media-route.py",
+            "workers/edmund-public-media/**",
+        ):
+            with self.subTest(path=path):
+                self.assertIn(path, infrastructure)
+
+    def test_router_status_names_dependency_owners_and_consolidated_commits(self):
+        self.assertIn("### Dependency classification", COORDINATOR)
+        self.assertIn("### Consolidated commits", COORDINATOR)
+        self.assertIn("pages-release-scope-report.txt", COORDINATOR)
 
 
 if __name__ == "__main__":

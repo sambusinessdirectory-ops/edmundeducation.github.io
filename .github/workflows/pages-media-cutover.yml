@@ -1,0 +1,45 @@
+name: Verify Pages media cutover
+
+on:
+  workflow_dispatch:
+    inputs:
+      origin:
+        description: Public origin to verify
+        required: true
+        default: https://edmund-public-media.edmundeducation.workers.dev
+        type: string
+      expect_pages_fallback:
+        description: Require unmatched requests to reach GitHub Pages (enable for edmundeducation.com)
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /tools/pages-media-saved-links.txt
+            /tools/test-verify-pages-media-route.py
+            /tools/verify-pages-media-route.py
+            /workers/edmund-public-media/src/media.json
+      - name: Test the media-route verifier
+        run: python3 tools/test-verify-pages-media-route.py
+      - name: Verify exact index, legacy links, ranges, downloads, and headers
+        env:
+          EXPECT_PAGES_FALLBACK: ${{ inputs.expect_pages_fallback }}
+        run: |
+          options=()
+          if [[ "${EXPECT_PAGES_FALLBACK}" == true ]]; then options+=(--expect-pages-fallback); fi
+          python3 tools/verify-pages-media-route.py \
+            workers/edmund-public-media/src/media.json \
+            --origin '${{ inputs.origin }}' \
+            --saved-links tools/pages-media-saved-links.txt \
+            "${options[@]}"
