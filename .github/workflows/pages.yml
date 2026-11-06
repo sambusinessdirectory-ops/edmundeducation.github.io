@@ -352,6 +352,10 @@ jobs:
           test -s tools/prepare-pages-incremental.py
           test -s workers/edmund-site-assets/src/site-pack-index-v1.json
 
+      - name: Validate shared header across portals
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[flashcard-release]') }}
+        run: node tools/test-shared-mobile-header.mjs
+
       - name: Check song exercise quality
         if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[song-release]') }}
         run: |
@@ -626,7 +630,6 @@ jobs:
       - name: Validate focused flashcard release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[flashcard-release]') }}
         run: |
-          node tools/test-shared-mobile-header.mjs
           node tools/test-flashcard-study-interactions.mjs
           node tools/test-flashcard-attempt-sync-isolation.mjs
           node --check flashcards-core-data.js

@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import { sharedNavCss, sharedNavJs } from "./shared-nav-release.mjs";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
@@ -196,8 +197,8 @@ test("all six Common Expression portals carry their identity, shared navigation 
       /common-expression-system\.js\?v=20261028-classroom1/,
       /shared-speaking-practice\.css\?v=20260829-1/,
       /<script defer src=["']shared-speaking-practice\.js\?v=20260829-2["']><\/script>/,
-      /shared-system-nav\.css\?v=20261104-system-catalogue1/,
-      /shared-system-nav\.js\?v=20261104-system-catalogue1/
+      sharedNavCss,
+      sharedNavJs
     ]) assert.match(html, contract, `${portal.file}: missing required portal asset or PWA contract`);
     assert.doesNotMatch(html, /<script[^>]+src=["'][^"']*lamejs/i, `${portal.file}: MP3 encoder must load only after recording is selected`);
 

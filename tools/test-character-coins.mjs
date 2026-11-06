@@ -1,3 +1,4 @@
+import { sharedNavCss } from "./shared-nav-release.mjs";
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
@@ -55,7 +56,7 @@ test('pages request the current shared navigation assets', () => {
       assert.match(html, /shared-system-nav\.js\?v=\d{8}-[^\"\s]+/, name);
     }
     if (html.includes('shared-system-nav.css?v=')) {
-      assert.ok(html.includes('shared-system-nav.css?v=20261104-system-catalogue1'), name);
+      assert.match(html, sharedNavCss, name);
     }
   }
 });

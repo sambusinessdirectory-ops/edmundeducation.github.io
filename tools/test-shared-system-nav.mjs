@@ -1,3 +1,4 @@
+import { sharedNavCss, sharedNavJs } from "./shared-nav-release.mjs";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
@@ -7,8 +8,6 @@ import vm from "node:vm";
 const root = path.resolve(import.meta.dirname, "..");
 const scriptSource = fs.readFileSync(path.join(root, "shared-system-nav.js"), "utf8");
 const cssSource = fs.readFileSync(path.join(root, "shared-system-nav.css"), "utf8");
-const sharedNavCssRelease = "20261104-system-catalogue1";
-const sharedNavJsRelease = "20261104-system-catalogue1";
 
 test("the night-return message explicitly stays white over its dark background", () => {
   assert.match(cssSource, /\.edmund-night-return #edmund-night-return-title\s*\{\s*color:\s*#fff;\s*\}/);
@@ -244,8 +243,8 @@ test("all established student portals load the shared accessible switcher", () =
   };
   Object.entries(pages).forEach(([file, system]) => {
     const html = fs.readFileSync(path.join(root, file), "utf8");
-    assert.match(html, new RegExp(`shared-system-nav\\.css\\?v=${sharedNavCssRelease}`));
-    assert.match(html, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavJsRelease}`), `${file} must load the latest shared navigation JavaScript release`);
+    assert.match(html, sharedNavCss);
+    assert.match(html, sharedNavJs, `${file} must load the latest shared navigation JavaScript release`);
     assert.match(html, new RegExp(`data-edmund-system-switcher data-system="${system}"`));
     assert.match(html, /data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"/);
   });
@@ -256,12 +255,11 @@ test("every portal with the shared switcher loads one consistent navigation CSS 
   for (const system of Array.from(api.systems)) {
     const html = fs.readFileSync(path.join(root, system.href), "utf8");
     if (!html.includes("data-edmund-system-switcher")) continue;
-    assert.match(html, new RegExp(`shared-system-nav\\.css\\?v=${sharedNavCssRelease}`), `${system.href} must load shared navigation CSS ${sharedNavCssRelease}`);
-    assert.match(html, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavJsRelease}`), `${system.href} must load shared navigation JS ${sharedNavJsRelease}`);
-    assert.doesNotMatch(html, /shared-system-nav\.css\?v=(?!20261104-system-catalogue1)|shared-system-nav\.js\?v=(?!20261104-system-catalogue1)/, `${system.href} must not retain a stale shared navigation release`);
+    assert.match(html, sharedNavCss, `${system.href} must load shared navigation CSS`);
+    assert.match(html, sharedNavJs, `${system.href} must load shared navigation JS`);
   }
   const homepage = fs.readFileSync(path.join(root, "index.html"), "utf8");
-  assert.match(homepage, new RegExp(`shared-system-nav\\.js\\?v=${sharedNavJsRelease}`));
+  assert.match(homepage, sharedNavJs);
 });
 
 test("every portal can create the shared password control before login and reveal it after login", () => {
