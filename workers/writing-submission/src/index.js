@@ -3439,7 +3439,20 @@ async function feedbackQuestions(request, env, submissionId, adminMode) {
 
 function normalizeFeedbackExtensions(value) {
   if(value === undefined) return null;
-  if(!value || !hasOnlyKeys(value,new Set(['idiomParts','proverbParts','moduleLinks','draftFeedback']))) throw new HttpError(400,'INVALID_FEEDBACK','Invalid additional feedback');
+  if(!value || !hasOnlyKeys(value,new Set(['idiomParts','proverbParts','moduleLinks','draftFeedback','grading']))) throw new HttpError(400,'INVALID_FEEDBACK','Invalid additional feedback');
+  let grading = null;
+  if (value.grading !== undefined && value.grading !== null) {
+    if (!hasExactKeys(value.grading, ['scheme', 'score'])) throw new HttpError(400,'INVALID_FEEDBACK','Invalid grading details');
+    const scheme = String(value.grading.scheme || '');
+    const score = value.grading.score;
+    const valid = typeof score === 'number' && Number.isFinite(score) && (
+      (scheme === 'dse' && Number.isInteger(score) && score >= 0 && score <= 21)
+      || (scheme === 'ielts' && Number.isInteger(score * 2) && score >= 0 && score <= 9)
+      || (scheme === 'standard' && Number.isInteger(score) && score >= 0 && score <= 100)
+    );
+    if (!valid) throw new HttpError(400,'INVALID_FEEDBACK','The grade does not match the selected grading system');
+    grading = { scheme, score };
+  }
   const moduleLinks = {};
   for(const [kind,path] of Object.entries({phrasal:'phrasal-verb-system.html',idiom:'idiom-system.html',proverb:'proverb-system.html'})) {
     const links=value.moduleLinks?.[kind] || [];
@@ -3450,5 +3463,5 @@ function normalizeFeedbackExtensions(value) {
       return {label:link.label,url:url.pathname.slice(1)+url.search};
     });
   }
-  return {draftFeedback:normalizeBrainstorm(value.draftFeedback),idiomParts:normalizeFeedbackStructuredParts(value.idiomParts||[],'idiomParts'),proverbParts:normalizeFeedbackStructuredParts(value.proverbParts||[],'proverbParts'),moduleLinks};
+  return {draftFeedback:normalizeBrainstorm(value.draftFeedback),idiomParts:normalizeFeedbackStructuredParts(value.idiomParts||[],'idiomParts'),proverbParts:normalizeFeedbackStructuredParts(value.proverbParts||[],'proverbParts'),moduleLinks,grading};
 }

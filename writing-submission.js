@@ -5992,6 +5992,16 @@ function feedbackPrintTranscriptions(feedback, { id = "" } = {}) {
   </section>`;
 }
 
+function feedbackPrintGrading(feedback, { id = "" } = {}) {
+  const grading = normalizeFeedbackGrading(feedback?.grading || feedback?.extensions?.grading);
+  if (!grading) return "";
+  const config = FEEDBACK_GRADING_SCHEMES[grading.scheme];
+  return `<section${id ? ` id="${escapePrintHtml(id)}"` : ""} class="print-feedback-grade" data-grading-scheme="${escapePrintHtml(grading.scheme)}">
+    <div><p>ASSESSMENT RESULT</p><h3>${escapePrintHtml(config.label)}</h3></div>
+    <strong>${escapePrintHtml(feedbackGradingScoreText(grading))}<span> / ${config.max}</span></strong>
+  </section>`;
+}
+
 function feedbackPrintSectionLinks(feedback, articleKey) {
   if (!feedback) return [];
   const anchor = key => `${articleKey}-${key}`;
@@ -5999,6 +6009,7 @@ function feedbackPrintSectionLinks(feedback, articleKey) {
     ["originalSentence", "enhancement", "benefit"].some(field => String(item[field]?.text || "").trim())
   );
   return [
+    ["grading", "評分", Boolean(normalizeFeedbackGrading(feedback.grading || feedback.extensions?.grading))],
     ["overall", "整體評語", Boolean(String(feedback.overallComment || "").trim())],
     ["fragments", "逐句／逐段評語", Boolean(feedback.fragments?.length)],
     ["final", "最後評語", Boolean(String(feedback.finalComment || "").trim())],
@@ -6059,9 +6070,11 @@ function feedbackPrintHtml(feedback, { articleKey = "feedback", pageBreakBefore 
     ? `更新：${escapePrintHtml(formatSubmissionDate(feedback.updatedAt))}`
     : "";
   const overall = String(feedback.overallComment || "").trim();
+  const grading = feedbackPrintGrading(feedback, { id: anchor("grading") });
   return `<section class="print-feedback${pageClass}">
+    ${overall || grading ? `<header class="print-feedback-head"><p>EDMUND SIR FEEDBACK</p><h2>Edmund Sir 寫作評語</h2>${feedbackUpdatedLabel ? `<div>${feedbackUpdatedLabel}</div>` : ""}</header>` : ""}
+    ${grading}
     ${overall ? `<section id="${escapePrintHtml(anchor("overall"))}" class="print-feedback-text print-overall-comment">
-      <header class="print-feedback-head"><p>EDMUND SIR FEEDBACK</p><h2>Edmund Sir 寫作評語</h2>${feedbackUpdatedLabel ? `<div>${feedbackUpdatedLabel}</div>` : ""}</header>
       <h3>整體評語</h3>${feedbackPrintRichHtml(feedback.overallComment, feedback.overallFormatting)}
     </section>` : ""}
     ${fragments ? `<div id="${escapePrintHtml(anchor("fragments"))}" class="print-feedback-pairs">${fragments}</div>` : ""}
@@ -6147,7 +6160,8 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
   .topic,.answer{margin-top:22px}.topic{border-left:5px solid #e87b2c;padding:14px 18px;background:#fff6e8;break-inside:avoid;page-break-inside:avoid}.topic strong,.answer>strong{display:block;margin-bottom:8px;color:#bd571b;font:800 11px system-ui,sans-serif;letter-spacing:.08em}
   .topic p{margin:0;font-size:15px;line-height:1.65;white-space:pre-wrap}.answer>div{font-size:16px;line-height:1.78;overflow-wrap:anywhere}.answer>div>p{margin:0;break-inside:avoid;page-break-inside:avoid;orphans:3;widows:3}.answer>div>p+p{margin-top:1em}
   .print-feedback-contents{margin-top:24px;border:1px solid #d8dceb;border-radius:15px;padding:17px 18px;background:#f7f8ff;break-inside:avoid;page-break-inside:avoid}.print-feedback-contents>p{margin:0;color:#8a5b17;font:850 10px system-ui,sans-serif;letter-spacing:.13em}.print-feedback-contents>h2{margin:4px 0 12px;color:#272757;font-size:19px}.print-feedback-contents>div{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.print-feedback-contents a{min-width:0;border:1px solid #dde1f0;border-radius:10px;padding:8px 10px;display:grid;grid-template-columns:24px minmax(0,1fr);align-items:center;gap:8px;color:#174f83;background:#fff;text-decoration:none;font:750 11px/1.4 system-ui,sans-serif}.print-feedback-contents a>span{width:23px;height:23px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#405b9e;font:800 10px system-ui,sans-serif}
-  .print-feedback,.print-feedback-empty{margin-top:30px}.print-feedback-head{margin:-16px -18px 16px;border-radius:14px 14px 0 0;padding:18px 20px;color:#fff;background:#272757;break-after:avoid;page-break-after:avoid}.print-feedback-head p{margin:0;color:#f6b263;font:800 10px system-ui,sans-serif;letter-spacing:.14em}.print-feedback-head h2{margin:4px 0 6px;font-size:22px}.print-feedback-head div{color:#deddf0;font:12px system-ui,sans-serif}
+  .print-feedback,.print-feedback-empty{margin-top:30px}.print-feedback-head{margin:0 0 18px;border-radius:14px;padding:18px 20px;color:#fff;background:#272757;break-after:avoid;page-break-after:avoid}.print-feedback-head p{margin:0;color:#f6b263;font:800 10px system-ui,sans-serif;letter-spacing:.14em}.print-feedback-head h2{margin:4px 0 6px;font-size:22px}.print-feedback-head div{color:#deddf0;font:12px system-ui,sans-serif}
+  .print-feedback-grade{margin-top:18px;border:1px solid #ded8ec;border-radius:14px;padding:15px 18px;display:flex;align-items:center;justify-content:space-between;gap:18px;background:linear-gradient(135deg,#fff8e8,#f4efff);break-inside:avoid;page-break-inside:avoid}.print-feedback-grade p{margin:0 0 4px;color:#98631d;font:850 9px system-ui,sans-serif;letter-spacing:.12em}.print-feedback-grade h3{margin:0;color:#272757;font:850 17px system-ui,sans-serif}.print-feedback-grade>strong{color:#272757;font:900 28px Georgia,serif}.print-feedback-grade>strong span{color:#6b667a;font:800 13px system-ui,sans-serif}
   .print-feedback-empty{border:1px dashed #b9b7ca;border-radius:14px;padding:18px;color:#66637c;background:#fafafd;break-inside:avoid;page-break-inside:avoid}.print-feedback-empty h2{margin:0 0 7px;font-size:20px}.print-feedback-empty p{margin:0}
   .print-feedback-text,.print-feedback-section,.print-sentence-panel{margin-top:18px}.print-feedback-text{border:1px solid #e4dfef;border-radius:14px;padding:16px 18px;background:#fffdf9;break-inside:avoid;page-break-inside:avoid}.print-overall-comment{break-inside:auto;page-break-inside:auto}.print-feedback-text h3,.print-feedback-section>h3{margin:0 0 10px;color:#272757;font:850 17px system-ui,sans-serif}.print-feedback-text>div{font-size:15px;line-height:1.7;white-space:pre-wrap;overflow-wrap:anywhere}
   .print-feedback-pairs,.print-learning-list,.print-enhancement-list{display:grid;gap:14px;margin-top:18px}.print-feedback-pair{overflow:hidden;border:1px solid #deddea;border-radius:15px;break-inside:avoid;page-break-inside:avoid}.print-feedback-band{margin:0;padding:13px 16px}.print-feedback-band>span,.print-enhancement-band>span{display:block;margin-bottom:6px;font:850 11px system-ui,sans-serif;letter-spacing:.03em}.print-feedback-band.is-original{background:#f5f6fa}.print-feedback-band.is-original>span{color:#52516d}.print-feedback-band.is-comment{border-top:1px solid #e8d3bb;background:#fff6e8}.print-feedback-band.is-comment>span{color:#a95416}.print-feedback-band.is-suggestion{border-top:1px solid #d4e7d6;background:#f1fbf3}.print-feedback-band.is-suggestion>span{color:#21703a}
@@ -6670,6 +6684,34 @@ function normalizeFeedbackEnhancementCopies(value) {
   return output;
 }
 
+const FEEDBACK_GRADING_SCHEMES = Object.freeze({
+  dse: { label: "DSE 評分", shortLabel: "DSE", max: 21, step: 1, placeholder: "例如 16" },
+  ielts: { label: "IELTS Writing Band", shortLabel: "IELTS", max: 9, step: 0.5, placeholder: "例如 6.5" },
+  standard: { label: "一般／標準評分", shortLabel: "Standard", max: 100, step: 1, placeholder: "例如 74" }
+});
+
+function normalizeFeedbackGrading(value) {
+  if (!value || typeof value !== "object") return null;
+  const scheme = String(value.scheme || "");
+  const config = FEEDBACK_GRADING_SCHEMES[scheme];
+  const score = Number(value.score);
+  if (!config || !Number.isFinite(score) || score < 0 || score > config.max) return null;
+  if (scheme === "ielts" ? !Number.isInteger(score * 2) : !Number.isInteger(score)) return null;
+  return { scheme, score };
+}
+
+function inferFeedbackGradingScheme(submission) {
+  const source = `${submission?.topic || ""} ${submission?.topicResource?.label || ""}`;
+  if (/\bIELTS\b/i.test(source)) return "ielts";
+  if (/\b(?:HK)?DSE\b/i.test(source)) return "dse";
+  return "standard";
+}
+
+function feedbackGradingScoreText(grading) {
+  if (!grading) return "";
+  return grading.scheme === "ielts" ? Number(grading.score).toFixed(1) : String(grading.score);
+}
+
 function normalizeTeacherFeedback(value) {
   if (!value || typeof value !== "object") return null;
   const fragments = Array.isArray(value.fragments)
@@ -6719,6 +6761,7 @@ function normalizeTeacherFeedback(value) {
   const sentenceStructureParts = normalizeFeedbackEnhancementParts(
     value.sentenceStructureParts || value.sentence_structure_parts
   );
+  const grading = normalizeFeedbackGrading(value.grading || value.extensions?.grading);
   return {
     id: String(value.id || ""),
     submissionId: String(value.submissionId || value.submission_id || ""),
@@ -6754,6 +6797,7 @@ function normalizeTeacherFeedback(value) {
       value.rhetoricalParts || value.rhetorical_parts
     ),
     extensions: value.extensions || {},
+    grading,
     idiomParts: normalizeFeedbackEnhancementParts(value.extensions?.idiomParts),
     proverbParts: normalizeFeedbackEnhancementParts(value.extensions?.proverbParts),
     phrasalVerbParts: normalizeFeedbackEnhancementParts(
@@ -7199,6 +7243,23 @@ function renderStudentFeedback(feedback, container) {
   panel.classList.toggle("uses-feedback-mascots", feedbackMascotsEnabled());
   head.append(createElement("p", "teacher-feedback-word-brush-help", "🖌 選取評語內一個或多個字詞，再按浮出的畫筆收藏及製作 Flashcard。"));
   panel.append(head);
+  if (feedback.grading) {
+    const config = FEEDBACK_GRADING_SCHEMES[feedback.grading.scheme];
+    const grade = createElement("section", "teacher-feedback-grade-view");
+    grade.dataset.gradingScheme = feedback.grading.scheme;
+    const heading = createElement("div", "teacher-feedback-grade-heading");
+    heading.append(
+      createElement("p", "eyebrow", "ASSESSMENT RESULT"),
+      createElement("h3", "", config.label)
+    );
+    const score = createElement("div", "teacher-feedback-grade-score");
+    score.append(
+      createElement("strong", "", feedbackGradingScoreText(feedback.grading)),
+      createElement("span", "", `/ ${config.max}`)
+    );
+    grade.append(heading, score);
+    panel.append(grade);
+  }
   const overall = feedbackTextSection(
     "整體評語",
     feedback.overallComment,
@@ -7307,6 +7368,60 @@ function feedbackRichField(label, value, formatting, datasetName, { maxLength = 
     maxLength,
     datasetName
   }));
+  return section;
+}
+
+function renderFeedbackGradingEditor(submission, feedback) {
+  const current = feedback?.grading || { scheme: inferFeedbackGradingScheme(submission), score: null };
+  const section = createElement("section", "teacher-feedback-grading");
+  section.dataset.feedbackGrading = "true";
+  const heading = createElement("div", "teacher-feedback-grading-head");
+  heading.append(
+    createElement("p", "eyebrow", "ASSESSMENT RESULT"),
+    createElement("h3", "", "評分 · Grading"),
+    createElement("p", "muted", "分數會獨立儲存，不再需要寫在「整體評語」內。")
+  );
+  const controls = createElement("div", "teacher-feedback-grading-controls");
+  const schemeField = createElement("label", "teacher-feedback-grading-field");
+  schemeField.append(createElement("span", "", "評分制度"));
+  const scheme = document.createElement("select");
+  scheme.dataset.feedbackGradingScheme = "true";
+  for (const [key, config] of Object.entries(FEEDBACK_GRADING_SCHEMES)) {
+    const option = document.createElement("option");
+    option.value = key;
+    option.textContent = `${config.label}（滿分 ${config.max}）`;
+    scheme.append(option);
+  }
+  scheme.value = current.scheme;
+  schemeField.append(scheme);
+  const scoreField = createElement("label", "teacher-feedback-grading-field teacher-feedback-grading-score-field");
+  scoreField.append(createElement("span", "", "分數／Band"));
+  const scoreControl = createElement("div", "teacher-feedback-grading-input");
+  const score = document.createElement("input");
+  score.type = "number";
+  score.dataset.feedbackGradingScore = "true";
+  score.inputMode = "decimal";
+  score.value = current.score === null ? "" : String(current.score);
+  const suffix = createElement("strong", "", "");
+  scoreControl.append(score, suffix);
+  scoreField.append(scoreControl);
+  const sync = () => {
+    const config = FEEDBACK_GRADING_SCHEMES[scheme.value] || FEEDBACK_GRADING_SCHEMES.standard;
+    score.min = "0";
+    score.max = String(config.max);
+    score.step = String(config.step);
+    score.placeholder = config.placeholder;
+    score.setAttribute("aria-label", `${config.label}，滿分 ${config.max}`);
+    suffix.textContent = `/ ${config.max}`;
+    if (score.value !== "") {
+      const value = Number(score.value);
+      if (!Number.isFinite(value) || value < 0 || value > config.max) score.value = "";
+    }
+  };
+  scheme.addEventListener("change", () => { sync(); scheduleAdminFeedbackRecoverySave(); });
+  sync();
+  controls.append(schemeField, scoreField);
+  section.append(heading, controls);
   return section;
 }
 
@@ -8114,6 +8229,7 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
   panel.append(heading);
   const regionId = key => `feedback-${submission.id}-${key}`;
   const jumpItems = [
+    ["grading", "評分"],
     ["overall", "整體評語"],
     ["fragments", "逐句評語"],
     ["final", "最後評語"],
@@ -8143,6 +8259,7 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
     panel.append(node);
     return node;
   };
+  appendRegion(renderFeedbackGradingEditor(submission, feedback), "grading");
   appendRegion(feedbackRichField(
     "整體評語",
     feedback?.overallComment || "",
@@ -8295,7 +8412,12 @@ function readAdminFeedbackEditor(editor, { allowEmpty = false } = {}) {
   };
   const sentenceStructureParts = readEnhancementParts("sentence");
   const rhetoricalParts = readEnhancementParts("rhetorical");
-  const extensions = {draftFeedback:editor.querySelector("[data-draft-feedback]")?.value || "",idiomParts:readEnhancementParts('idiom'),proverbParts:readEnhancementParts('proverb'),moduleLinks:{}};
+  const gradingScheme = editor.querySelector("[data-feedback-grading-scheme]")?.value || "standard";
+  const gradingScoreInput = editor.querySelector("[data-feedback-grading-score]");
+  const gradingScore = gradingScoreInput?.value === "" ? null : Number(gradingScoreInput?.value);
+  const grading = gradingScore === null ? null : normalizeFeedbackGrading({ scheme: gradingScheme, score: gradingScore });
+  if (gradingScore !== null && !grading) throw new Error("請輸入符合所選評分制度的有效分數。");
+  const extensions = {draftFeedback:editor.querySelector("[data-draft-feedback]")?.value || "",idiomParts:readEnhancementParts('idiom'),proverbParts:readEnhancementParts('proverb'),moduleLinks:{},grading};
   for(const kind of ['phrasal','idiom','proverb']) extensions.moduleLinks[kind]=[...editor.querySelectorAll(`[data-module-picker="${kind}"] [data-module-link]`)].map(node=>({label:node.dataset.label,url:node.dataset.moduleLink}));
   const phrasalVerbParts = readEnhancementParts("phrasal");
   const writingCommonExpressionParts = readEnhancementParts("writingExpression");

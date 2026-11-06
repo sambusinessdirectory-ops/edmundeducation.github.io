@@ -6445,12 +6445,22 @@ test('admin inbox and replies use the authenticated admin and preserve question 
 
 test('extended feedback saves atomically and rejects links outside the intended learning system',async t=>{
  const original=globalThis.fetch;t.after(()=>globalThis.fetch=original);let calls=0;
- const extensions={idiomParts:[{originalSentence:{text:'Hello',formatting:[]},enhancement:{text:'Break the ice',formatting:[]},benefit:{text:'Start a conversation',formatting:[]}}],proverbParts:[],moduleLinks:{idiom:[{url:'idiom-system.html?lesson=idiom-01',label:'Break the ice'}]}};
- globalThis.fetch=async(input,init)=>{const call=rpcRequest(input,init);if(call.name==='writing_submission_admin_me')return jsonResponse(adminProfile());if(call.name==='writing_feedback_save_extended'){calls++;assert.equal(call.body.p_payload.p_expected_version,1);assert.equal(call.body.p_extensions.idiomParts[0].enhancement.text,'Break the ice');return jsonResponse([storedFeedback({extensions:call.body.p_extensions})]);}throw new Error(call.name);};
+ const extensions={idiomParts:[{originalSentence:{text:'Hello',formatting:[]},enhancement:{text:'Break the ice',formatting:[]},benefit:{text:'Start a conversation',formatting:[]}}],proverbParts:[],moduleLinks:{idiom:[{url:'idiom-system.html?lesson=idiom-01',label:'Break the ice'}]},grading:{scheme:'ielts',score:6.5}};
+ globalThis.fetch=async(input,init)=>{const call=rpcRequest(input,init);if(call.name==='writing_submission_admin_me')return jsonResponse(adminProfile());if(call.name==='writing_feedback_save_extended'){calls++;assert.equal(call.body.p_payload.p_expected_version,1);assert.equal(call.body.p_extensions.idiomParts[0].enhancement.text,'Break the ice');assert.deepEqual(call.body.p_extensions.grading,{scheme:'ielts',score:6.5});return jsonResponse([storedFeedback({extensions:call.body.p_extensions})]);}throw new Error(call.name);};
  const payload={overallComment:'Feedback',finalComment:'',improvedVersion:'',fragments:[],status:'published',expectedVersion:1,expectedFeedbackId:FEEDBACK_ID,extensions};
  const make=()=>new Request(`https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,{method:'PUT',headers:{Origin:ORIGIN,Authorization:`Bearer ${ADMIN_TOKEN}`,'Content-Type':'application/json'},body:JSON.stringify(payload)});
- const response=await worker.fetch(make(),environment());assert.equal(response.status,200);assert.equal((await response.json()).feedback.extensions.idiomParts.length,1);
+ const response=await worker.fetch(make(),environment());assert.equal(response.status,200);const saved=await response.json();assert.equal(saved.feedback.extensions.idiomParts.length,1);assert.equal(saved.feedback.extensions.grading.score,6.5);
  payload.extensions.moduleLinks.idiom[0].url='https://attacker.example/';assert.equal((await worker.fetch(make(),environment())).status,400);assert.equal(calls,1);
+});
+
+test('feedback grading validates each assessment scale before storage',async t=>{
+ const original=globalThis.fetch;t.after(()=>globalThis.fetch=original);let calls=0;
+ globalThis.fetch=async(input,init)=>{const call=rpcRequest(input,init);if(call.name==='writing_submission_admin_me')return jsonResponse(adminProfile());if(call.name==='writing_feedback_save_extended'){calls++;return jsonResponse([storedFeedback({extensions:call.body.p_extensions})]);}throw new Error(call.name);};
+ const base={overallComment:'Feedback',finalComment:'',improvedVersion:'',fragments:[],status:'draft',expectedVersion:1,expectedFeedbackId:FEEDBACK_ID,extensions:{idiomParts:[],proverbParts:[],moduleLinks:{},draftFeedback:''}};
+ const send=grading=>worker.fetch(new Request(`https://worker.example/v1/admin/submissions/${SUBMISSION_ID}/feedback`,{method:'PUT',headers:{Origin:ORIGIN,Authorization:`Bearer ${ADMIN_TOKEN}`,'Content-Type':'application/json'},body:JSON.stringify({...base,extensions:{...base.extensions,grading}})}),environment());
+ for(const grading of [{scheme:'dse',score:21},{scheme:'ielts',score:9},{scheme:'ielts',score:5.5},{scheme:'standard',score:100}]) assert.equal((await send(grading)).status,200);
+ for(const grading of [{scheme:'dse',score:21.5},{scheme:'ielts',score:5.25},{scheme:'ielts',score:9.5},{scheme:'standard',score:100.5},{scheme:'other',score:80}]) assert.equal((await send(grading)).status,400);
+ assert.equal(calls,4);
 });
 
 test('Paper 3 latest answer lookup is scoped to the signed-in student and validates B1/B2 task numbers',async t=>{
