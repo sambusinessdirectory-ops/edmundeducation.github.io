@@ -2,7 +2,8 @@
   "use strict";
 
   const lessons = window.EDMUND_GRAMMAR_NEW_CURATIONS_DATA;
-  const EDDY_POSE_VERSION = "20261106-live-assets1";
+  const EDDY_MEDIA_ORIGIN = "https://edmund-public-media.edmundeducation.workers.dev";
+  const EDDY_POSE_VERSION = "20261106-live-assets2";
   if (Array.isArray(lessons) && window.EDMUND_INDEFINITE_PRONOUNS?.guide && !lessons.some((lesson) => lesson.slug === 'indefinite-pronouns')) {
     lessons.push(window.EDMUND_INDEFINITE_PRONOUNS.guide);
   }
@@ -49,7 +50,7 @@
     // The Unless guide retains its original 24-pose cycle.
     const poseCount = isIndefinite ? 33 : 24;
     const poses = Array.from({ length: poseCount }, (_, index) =>
-      `grammar-eddy-dialogues/unless/eddy-${String(index + 1).padStart(2, "0")}.webp?v=${EDDY_POSE_VERSION}`);
+      `${EDDY_MEDIA_ORIGIN}/grammar-eddy-dialogues/unless/eddy-${String(index + 1).padStart(2, "0")}.webp?v=${EDDY_POSE_VERSION}`);
     const summaryForUnlistedEnding = {
       "04": "-one 與 -body 大多是風格差異，不是嚴格的書面或口語分界。",
       "44": "elsewhere、someplace 等要按語域和英美用法選擇，不能當作拼錯的同一個字。",

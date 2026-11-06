@@ -28,13 +28,13 @@ const cards = [...guide.querySelectorAll('.grammar-eddy-dialogue')];
 assert.equal(cards.length, 68);
 for (const [index, card] of cards.entries()) {
   const expected = manifest.poses[index % manifest.cycleLength];
-  assert.equal(card.querySelector('img')?.getAttribute('src'), `${expected.asset}?v=20261106-live-assets1`, `card ${index + 1}`);
+  assert.equal(card.querySelector('img')?.getAttribute('src'), `https://edmund-public-media.edmundeducation.workers.dev/${expected.asset}?v=20261106-live-assets2`, `card ${index + 1}`);
   assert.ok(card.querySelector('figcaption')?.textContent.trim(), `card ${index + 1} needs its teaching note`);
 }
-assert.equal(cards[32].querySelector('img').getAttribute('src'), `${manifest.poses[32].asset}?v=20261106-live-assets1`);
-assert.equal(cards[33].querySelector('img').getAttribute('src'), `${manifest.poses[0].asset}?v=20261106-live-assets1`);
-assert.equal(cards[65].querySelector('img').getAttribute('src'), `${manifest.poses[32].asset}?v=20261106-live-assets1`);
-assert.equal(cards[66].querySelector('img').getAttribute('src'), `${manifest.poses[0].asset}?v=20261106-live-assets1`);
+assert.equal(cards[32].querySelector('img').getAttribute('src'), `https://edmund-public-media.edmundeducation.workers.dev/${manifest.poses[32].asset}?v=20261106-live-assets2`);
+assert.equal(cards[33].querySelector('img').getAttribute('src'), `https://edmund-public-media.edmundeducation.workers.dev/${manifest.poses[0].asset}?v=20261106-live-assets2`);
+assert.equal(cards[65].querySelector('img').getAttribute('src'), `https://edmund-public-media.edmundeducation.workers.dev/${manifest.poses[32].asset}?v=20261106-live-assets2`);
+assert.equal(cards[66].querySelector('img').getAttribute('src'), `https://edmund-public-media.edmundeducation.workers.dev/${manifest.poses[0].asset}?v=20261106-live-assets2`);
 const css = read('grammar-system.css');
 assert.match(css, /\.grammar-new-body[^}]*overflow-wrap:\s*normal/);
 assert.match(css, /\.grammar-eddy-dialogue__lesson-copy td[^}]*overflow-wrap:\s*normal/);
