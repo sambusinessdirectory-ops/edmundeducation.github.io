@@ -9,6 +9,9 @@ workflows = Dir[".github/workflows/*.{yml,yaml}"].to_h do |path|
   [path, YAML.safe_load(File.read(path))]
 end
 coordinator = workflows.fetch(".github/workflows/pages-release-coordinator.yml")
+unless coordinator["concurrency"] == { "group" => "pages-release-main", "queue" => "max", "cancel-in-progress" => false }
+  abort "Pages releases must queue through publication and snapshot completion"
+end
 builders = coordinator.fetch("jobs").values.map { |job| job["uses"] }.compact.map { |path| path.delete_prefix("./") }
 builders.delete(".github/workflows/publish-pages-artifact.yml")
 workflows.each do |path, workflow|
@@ -39,12 +42,6 @@ end
 builders.uniq.each do |path|
   workflows.fetch(path).fetch("jobs").each do |name, job|
     abort "#{path}: #{name} must use the supported ubuntu-24.04 runner" unless job["runs-on"] == "ubuntu-24.04"
-    if job.fetch("outputs", {}).key?("artifact_name")
-      group = "${{ github.run_attempt == 1 && 'pages-build-main' || format('pages-build-retry-{0}', github.run_id) }}"
-      unless job["concurrency"] == { "group" => group, "cancel-in-progress" => true }
-        abort "#{path}: #{name} must share the cancellable Pages build slot"
-      end
-    end
     job.fetch("steps").each do |step|
       command = step.fetch("run", "")
       if command.match?(/(?:npm|npx|pnpm|yarn).*\bplaywright\b|\.bin\/playwright\s+install/)

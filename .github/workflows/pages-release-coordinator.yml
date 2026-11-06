@@ -5,6 +5,11 @@ on:
     branches: [main]
   workflow_dispatch:
 
+concurrency:
+  group: pages-release-main
+  queue: max
+  cancel-in-progress: false
+
 permissions:
   actions: read
   contents: read
@@ -13,26 +18,11 @@ jobs:
   route:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    concurrency:
-      group: pages-candidate-main
-      cancel-in-progress: true
     outputs:
       base_sha: ${{ steps.classify.outputs.base_sha }}
       release_tags: ${{ steps.classify.outputs.release_tags }}
       route: ${{ steps.classify.outputs.route }}
     steps:
-      - name: Batch nearby pushes before expensive work
-        run: sleep 15
-
-      - name: Confirm this is still the newest main commit
-        uses: actions/github-script@v8
-        with:
-          script: |
-            const { data } = await github.rest.git.getRef({ ...context.repo, ref: 'heads/main' });
-            if (data.object.sha !== context.sha) {
-              core.setFailed(`Superseded before build: ${context.sha}; main is ${data.object.sha}.`);
-            }
-
       - name: Checkout release router
         uses: actions/checkout@v6
         with:

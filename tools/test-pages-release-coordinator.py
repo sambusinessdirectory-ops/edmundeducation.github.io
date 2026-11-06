@@ -42,19 +42,14 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
             self.assertNotIn("pages: write", top_level_permissions)
             self.assertNotIn("id-token: write", top_level_permissions)
 
-    def test_nearby_pushes_are_batched_before_building(self):
-        self.assertEqual(COORDINATOR.count("group: pages-candidate-main"), 1)
-        self.assertEqual(COORDINATOR.count("cancel-in-progress: true"), 1)
-        self.assertIn("Batch nearby pushes before expensive work", COORDINATOR)
-        self.assertIn("sleep 15", COORDINATOR)
-
-    def test_only_builders_share_the_cancellable_build_slot(self):
-        for workflow in BUILDERS:
-            job = workflow.split("  build:\n", 1)[1]
-            self.assertIn("github.run_attempt == 1 && 'pages-build-main' || format('pages-build-retry-{0}', github.run_id)", job)
-            self.assertIn("      cancel-in-progress: true", job)
-        self.assertNotIn("pages-build-main", PUBLISHER)
-        self.assertNotIn("cancel-in-progress: true", PUBLISHER)
+    def test_release_queue_covers_routing_through_publication_and_snapshot(self):
+        header = COORDINATOR.split("jobs:", 1)[0]
+        self.assertIn("group: pages-release-main", header)
+        self.assertIn("queue: max", header)
+        self.assertIn("cancel-in-progress: false", header)
+        for workflow in [COORDINATOR, *BUILDERS, PUBLISHER]:
+            self.assertNotIn("cancel-in-progress: true", workflow)
+        self.assertNotIn("Superseded before build", COORDINATOR)
 
     def test_focused_writing_runs_the_completed_question_regression(self):
         step = BUILDERS[0].split("- name: Validate focused Writing release", 1)[1].split("\n      - name:", 1)[0]
@@ -174,8 +169,8 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("`${deployedSha}...${context.sha}`", PUBLISHER)
         self.assertIn("forward.status !== 'ahead'", PUBLISHER)
         self.assertIn("mainSha !== context.sha", PUBLISHER)
-        self.assertIn("Skipping superseded release", PUBLISHER)
-        self.assertNotIn("Publishing forward intermediate", PUBLISHER)
+        self.assertIn("`${context.sha}...${mainSha}`", PUBLISHER)
+        self.assertIn("live !== deployedSha", PUBLISHER)
 
     def test_one_selected_artifact_reaches_publisher(self):
         self.assertEqual(COORDINATOR.count("uses: ./.github/workflows/publish-pages-artifact.yml"), 1)
