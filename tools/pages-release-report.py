@@ -34,8 +34,21 @@ for run in runs:
     scope = "full" if any(s["name"]=="Validate atomic email uploads and lost-response recovery" and s["conclusion"]=="success" for s in steps) else "focused" if build.get("conclusion")=="success" else "unknown"
     deployed = next((s for s in publish.get("steps",[]) if s["name"] == "Deploy to GitHub Pages"), {})
     verified = verify.get("completed_at") if verify.get("conclusion") == "success" else None
+    snapshot = job("/ snapshot")
+    phase_seconds = {}
+    for step in steps:
+        if step["conclusion"] != "success":
+            continue
+        name = step["name"]
+        if name.startswith(("Prepare site files", "Point public media", "Upload GitHub Pages", "Remove verified R2")):
+            phase_seconds[name] = elapsed(step.get("started_at"), step.get("completed_at"))
     reports.append(dict(run=run["run_number"],sha=run["head_sha"],url=run["html_url"],status=run["status"],
         conclusion=run["conclusion"],builder=build.get("name"),scope=scope,preparation=mode,deploy_step=deployed.get("conclusion"),
+        outcome=("verified" if verified else "published; verification outstanding" if deployed.get("conclusion")=="success"
+                 else run["conclusion"] or run["status"]),
+        build_phases_s=phase_seconds, created_at=run["created_at"],
+        publish_s=elapsed(deployed.get("started_at"),deployed.get("completed_at")),
+        snapshot_completed_at=snapshot.get("completed_at") if snapshot.get("conclusion")=="success" else None,
         queue_s=elapsed(run["created_at"],job("route").get("started_at")),
         build_s=elapsed(build.get("started_at"),build.get("completed_at")),
         push_to_verified_s=elapsed(run["created_at"],verified),verified_at=verified))
@@ -50,6 +63,13 @@ result["verified_push_to_live"] = {
     scope: {"count":len(times),"median_s":median(times),"p95_s":sorted(times)[ceil(len(times)*0.95)-1]}
     for scope,times in groups.items()
 }
+finished = [r for r in reports if r["status"]=="completed"]
+published = [r for r in finished if r["deploy_step"]=="success" and r["verified_at"]]
+result["completed_run_count"] = len(finished)
+result["cancelled_run_count"] = sum(r["conclusion"]=="cancelled" for r in finished)
+result["builder_seconds_per_verified_publication"] = (
+    sum(r["build_s"] or 0 for r in finished) / len(published) if published else None
+)
 if args.feature:
     request=Request("https://edmundeducation.com/release.json?check="+str(int(datetime.now().timestamp())),headers={"Cache-Control":"no-cache"})
     with urlopen(request,timeout=15) as stream:

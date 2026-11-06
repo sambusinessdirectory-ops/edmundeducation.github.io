@@ -79,3 +79,23 @@ writes content-addressed packs, and reads every pack back before writing the wor
 The edmund-public-media Worker supports legacy paths on its own hostname and byte ranges.
 Keep the original paths on Pages until those same URLs on edmundeducation.com can be
 verified through the new service. The artifact inventory reports the interim size warning.
+
+### Enabling media delivery at the existing public address
+
+The optional repository variable `PAGES_R2_CUTOVER` defaults to off. The
+workers.dev hostname is available for rehearsal. To activate, the school domain
+must first route the indexed media paths and
+`/.well-known/edmund-public-media.json` to the same Worker, preserving the
+original Pages origin for other requests. Verify the exact index and range
+responses on the school domain, including saved song URLs, PDF downloads, and
+cached clients. Keep immutable packs available throughout rollback.
+
+After a disposable artifact rehearsal, enable the variable for a full release.
+Every builder compares present media with the verified blob index before
+removing replicas from its temporary upload directory. A stale index, a failed
+range request, or an artifact over 1,000,000,000 bytes stops publication. When
+changing or withdrawing media, coordinate a new version of the index and its
+routes with the content release. To roll back, disable the variable, rebuild
+the full artifact from source, verify it on the Pages origin, then return
+the media paths to Pages. A focused overlay based on a pruned snapshot is
+insufficient to restore removed files.

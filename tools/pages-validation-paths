@@ -3,3 +3,5 @@
 /tools/pages-validation-paths
 /tools/check-pages-build-environment.rb
 /tools/pages-artifact-inventory.py
+/tools/prune-verified-pages-media.py
+/workers/edmund-public-media/src/media.json
