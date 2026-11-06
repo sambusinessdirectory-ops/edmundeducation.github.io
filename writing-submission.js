@@ -29,8 +29,9 @@ import {
   safeWritingPromptImage,
   vocabularyEntryUsed,
   writingSubmissionNotificationMessage,
+  writingTopicHasCompletedSubmission,
   writingTopicResourceForTransport
-} from "./writing-submission-core.js?v=20261028-materials1";
+} from "./writing-submission-core.js?v=20261106-completed-topics1";
 import {
   classifyRemoteGrammarFailure,
   hasWritingGrammarIssuesForSentence,
@@ -475,6 +476,8 @@ const state = {
   topicPickerPage: 0,
   topicPickerLoadGeneration: 0,
   topicPickerSearchTimer: 0,
+  topicCompletionLoaded: false,
+  topicCompletionPromise: null,
   speakingTopicCatalogByCategory: Object.create(null),
   speakingTopicContexts: {},
   speakingTopicContextSearch: Object.create(null),
@@ -2301,6 +2304,8 @@ function clearSession() {
   state.pendingOccurrences.clear();
   state.reportedFingerprints.clear();
   state.submissions = [];
+  state.topicCompletionLoaded = false;
+  state.topicCompletionPromise = null;
   state.drafts = [];
   state.writingProgress = [];
   state.selectedSubmissionId = "";
@@ -3266,6 +3271,49 @@ function writingTopicResultHaystack(resource) {
   ].join(" "));
 }
 
+function writingTopicPrompt(resource) {
+  return resource?.questionPrompt?.length
+    ? resource.questionPrompt.join("\n\n")
+    : String(resource?.label || "");
+}
+
+function writingTopicIsCompleted(resource) {
+  return state.topicPickerTarget === "student" && writingTopicHasCompletedSubmission(
+    state.submissions,
+    { resourceId: resource?.id, topic: writingTopicPrompt(resource) }
+  );
+}
+
+function speakingTopicIsCompleted(topic) {
+  return state.topicPickerTarget === "student" && writingTopicHasCompletedSubmission(
+    state.submissions,
+    { topic: speakingTopicPrompt(topic, state.speakingTopicContexts) }
+  );
+}
+
+function markCompletedTopicResult(button, completed) {
+  if (!completed) return;
+  button.classList.add("is-completed");
+  const tick = createElement("span", "topic-picker-completed-check", "✓");
+  tick.setAttribute("aria-hidden", "true");
+  button.append(tick, createElement("span", "sr-only", "已完成"));
+}
+
+async function loadTopicCompletionHistory() {
+  if (state.topicPickerTarget !== "student" || state.user?.role !== "student") return state.submissions;
+  if (state.topicCompletionLoaded) return state.submissions;
+  if (!state.topicCompletionPromise) {
+    state.topicCompletionPromise = fetchAllSubmissionPages("/v1/submissions")
+      .then((submissions) => {
+        state.submissions = submissions;
+        state.topicCompletionLoaded = true;
+        return submissions;
+      })
+      .finally(() => { state.topicCompletionPromise = null; });
+  }
+  return state.topicCompletionPromise;
+}
+
 
 function renderWritingTopicResults(query = "") {
   if (!elements.topicPickerResults) return;
@@ -3329,21 +3377,24 @@ function renderWritingTopicResults(query = "") {
     const button = createElement("button", `topic-picker-result${match.type === 'speaking' ? ' topic-picker-speaking-result' : ''}`);
     button.type = "button";
     if (match.type === 'speaking') {
+      const completed = speakingTopicIsCompleted(resource);
       button.dataset.selectSpeakingTopic = resource.id;
       button.append(
         createElement('small', 'topic-picker-speaking-meta', speakingTopicLabel(resource)),
         createElement('strong', 'topic-picker-speaking-question', resource.question),
-        createElement('em', '', '選擇')
+        createElement('em', '', completed ? '已完成 · 再練習' : '選擇')
       );
       if (resource.questionZh) button.append(createElement('span', 'topic-picker-speaking-translation', resource.questionZh));
+      markCompletedTopicResult(button, completed);
       fragment.append(button);
       continue;
     }
+    const completed = writingTopicIsCompleted(resource);
     button.dataset.selectWritingTopic = resource.id;
     button.append(
       createElement("strong", "", resource.label),
       createElement("small", "", resource.detail || "Writing Practice"),
-      createElement("em", "", "選擇")
+      createElement("em", "", completed ? "已完成 · 再練習" : "選擇")
     );
     if (resource.questionPrompt.length || resource.questionImages.length) {
       const preview = createElement("div", "topic-picker-result-preview");
@@ -3362,6 +3413,7 @@ function renderWritingTopicResults(query = "") {
       }
       button.append(preview);
     }
+    markCompletedTopicResult(button, completed);
     fragment.append(button);
   }
   elements.topicPickerResults.replaceChildren(fragment);
@@ -3385,17 +3437,22 @@ async function openWritingTopicPicker({ target = "student" } = {}) {
   if (elements.topicPickerNote) {
     elements.topicPickerNote.textContent = state.topicPickerTarget === "admin"
       ? "搜尋並選擇後，只會把完整題目貼到代交表格；不會載入 Flash Cards、Glossary、範文或其他參考資源。"
-      : "選擇後會把完整題目貼到「寫作題目」。附圖題目亦會在這裡顯示；您仍可自行修改或輸入題目。";
+      : "選擇後會把完整題目貼到「寫作題目」。已提交的題目會以綠色及 ✓ 顯示；附圖題目亦會在這裡顯示。";
   }
   elements.topicPickerResults.replaceChildren(loadingState("正在載入寫作練習題目…"));
   if (typeof elements.topicPicker.showModal === "function") elements.topicPicker.showModal();
   else elements.topicPicker.setAttribute("open", "");
   elements.topicPicker.scrollTop = 0;
   try {
-    const results = await Promise.allSettled([loadWritingTopicCatalog(), loadWritingSpeakingManifest()]);
+    const results = await Promise.allSettled([
+      loadWritingTopicCatalog(),
+      loadWritingSpeakingManifest(),
+      loadTopicCompletionHistory()
+    ]);
     if (generation !== state.topicPickerLoadGeneration) return;
-    if (results.every(result => result.status === 'rejected')) throw results[0].reason;
-    for (const result of results) if (result.status === 'rejected') console.warn('Writing topic source failed', result.reason);
+    if (results.slice(0, 2).every(result => result.status === 'rejected')) throw results[0].reason;
+    for (const result of results.slice(0, 2)) if (result.status === 'rejected') console.warn('Writing topic source failed', result.reason);
+    if (results[2].status === 'rejected') console.warn('Writing topic completion history failed', results[2].reason);
     syncWritingTopicPickerCategory();
     renderWritingTopicResults(elements.topicPickerSearch.value);
     window.setTimeout(() => elements.topicPickerExams[0]?.focus(), 0);
@@ -9244,7 +9301,10 @@ async function deleteAdminFeedback() {
 
 async function loadSubmissions({ selectId = "" } = {}) {
   elements.submissionList.replaceChildren(loadingState("正在載入文章…"));
-  try { state.submissions = await fetchAllSubmissionPages("/v1/submissions"); }
+  try {
+    state.submissions = await fetchAllSubmissionPages("/v1/submissions");
+    state.topicCompletionLoaded = true;
+  }
   catch(error) {
     const message=emptyState("文章暫時未能載入。請按重新整理；已提交的文章不會被刪除。");
     const retry=createElement("button","small-button","重新載入文章 · Retry");retry.type="button";retry.onclick=()=>loadSubmissions({selectId}).catch(handleViewError);message.append(retry);elements.submissionList.replaceChildren(message);throw error;

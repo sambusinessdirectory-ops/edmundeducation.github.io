@@ -17,6 +17,8 @@ import {
   vocabularyEntryUsed,
   writingSubmissionArticlePath,
   writingSubmissionNotificationMessage,
+  writingTopicCompletionText,
+  writingTopicHasCompletedSubmission,
   writingTopicResourceForTransport
 } from "../writing-submission-core.js";
 import { HOMEWORK_RESOURCE_CATALOG } from "../homework-resource-catalog.mjs";
@@ -132,6 +134,37 @@ test("article notifications use strict owner-scoped deep links", () => {
   assert.equal(normalizeWritingSubmissionEntryLink("?exercise=good&student=someone"), null);
   assert.match(workerSource, /writing_submission_get_v3[\s\S]*?p_student_id:\s*student\.id/);
   assert.match(enhancementMigration, /where submission\.student_id = p_student_id[\s\S]*?and submission\.id = p_id[\s\S]*?and submission\.deleted_at is null/i);
+});
+
+test("completed writing questions are matched by canonical resource or exact normalized prompt", () => {
+  const completed = [
+    {
+      topic: "Write about public transport.",
+      topicResource: { id: "fill:dse-writing-2025-part-a" }
+    },
+    {
+      topic: "  Describe a TEAM you worked with!  ",
+      topicResource: null
+    },
+    {
+      topic: "Deleted topic",
+      deletedAt: "2026-11-06T00:00:00Z"
+    }
+  ];
+  assert.equal(writingTopicCompletionText("Describe a TEAM you worked with!"), "describe a team you worked with");
+  assert.equal(writingTopicHasCompletedSubmission(completed, {
+    resourceId: "fill:dse-writing-2025-part-a",
+    topic: "Changed display text"
+  }), true);
+  assert.equal(writingTopicHasCompletedSubmission(completed, {
+    topic: "Describe a team you worked with."
+  }), true);
+  assert.equal(writingTopicHasCompletedSubmission(completed, { topic: "Deleted topic" }), false);
+  assert.equal(writingTopicHasCompletedSubmission(completed, { topic: "A different topic" }), false);
+  assert.match(script, /loadTopicCompletionHistory\(\)/);
+  assert.match(script, /markCompletedTopicResult\(button, completed\)/);
+  assert.match(css, /\.topic-picker-result\.is-completed/);
+  assert.match(css, /\.topic-picker-completed-check/);
 });
 
 test("writing question images survive the public R2 asset migration", () => {
@@ -710,7 +743,7 @@ test("notification clipboard fallback always cleans up and reaches manual copy",
 
 test("registered writing topics expose guarded Open Book references without fuzzy question matching", () => {
   assert.match(html, /data-topic-reference-area/);
-  assert.match(html, /essay-portal-links\.js\?v=20260730-1/);
+  assert.match(html, /essay-portal-links\.js\?v=[^"']+/);
   assert.match(script, /function writingExerciseIdFromTopicResource\(resource\)/);
   assert.match(script, /const exerciseId = writingExerciseIdFromTopicResource\(\{ id \}\)/);
   assert.match(script, /url:\s*`writing-practice\.html\?exercise=\$\{encodeURIComponent\(exerciseId\)\}`/);
@@ -729,7 +762,7 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /essayPortals\.hasFlashcards\(essayKey\)/);
   assert.match(script, /essayPortals\.href\("flashcards", essayKey\)/);
   assert.match(script, /const writingHref = paper3TopicRoute\(canonical.id\) \|\| `writing-practice\.html\?exercise=\$\{encodeURIComponent\(exerciseId\)\}`/);
-  assert.match(script, /writingHref\s*\n\s*}/);
+  assert.match(script, /writingHref,\s*memorizationHref:/);
   assert.doesNotMatch(script, /writingHref:\s*canonical\.url/);
   assert.match(script, /dse\/writing\/part-a\/\$\{dsePartAMatch\[1\]\}/);
   assert.match(script, /government\/hkpf\/writing-composition\/composition-\$\{hkpfCompositionMatch\[1\]\}/);
@@ -754,7 +787,7 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /dataset\.topicReferenceVocabulary/);
   assert.match(script, /dataset\.topicReferenceVocabularyScale/);
   assert.match(script, /dataset\.topicReferenceVocabularyUsageStatus/);
-  assert.match(script, /writing-submission-core\.js\?v=20261028-materials1/);
+  assert.match(script, /writing-submission-core\.js\?v=[^"']+/);
   assert.doesNotMatch(script, /row\.setAttribute\("aria-label", used/);
   assert.match(script, /refreshVocabularyUsage\(content\)/);
   assert.match(script, /refreshVocabularyUsage\(\)/);
