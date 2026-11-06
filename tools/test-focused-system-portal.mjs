@@ -64,6 +64,7 @@ const checks = {
     assert.match(runtime, /pack=entry\.dataset\.lessonPack/);
     assert.match(runtime, /unpack\(pack,mediaKey/);
     assert.match(runtime, /unpack\(audioPack/);
+    assert.match(runtime, /cache:\s*['"]no-store['"]/);
     assert.match(css, /\.portal-header/);
     assert.equal(lesson, true);
     assert.equal(audio, true);
