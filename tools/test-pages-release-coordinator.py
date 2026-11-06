@@ -124,6 +124,19 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
             with self.subTest(path=path):
                 self.assertIn(path, standard)
 
+    def test_native_release_sparse_checkout_contains_every_advanced_gate_input(self):
+        standard = BUILDERS[0]
+        native_checkout = standard.split("*'[native-release]'*)", 1)[1].split(";;&", 1)[0]
+        for path in (
+            "/natural-english/",
+            "/course-materials/advanced-native/",
+            "/tools/advanced-native-bulk/",
+            "/supabase/migrations/20261014222500_advanced_native_progress_compatibility.sql",
+            "/supabase/migrations/20261015112057_advanced_native_lessons_06_10.sql",
+        ):
+            with self.subTest(path=path):
+                self.assertIn(path, native_checkout)
+
     def test_writing_preview_fetches_complete_cross_system_validation_inputs(self):
         steps = BUILDERS[0].split("- name: ")
         for name in ("Reclaim runner disk", "Checkout complete repository"):

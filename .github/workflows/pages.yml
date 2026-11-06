@@ -305,7 +305,13 @@ jobs:
               echo '/irregular-verbs/' >> .git/info/sparse-checkout
               ;;&
             *'[native-release]'*)
-              printf '%s\n' '/natural-english/' '/course-materials/advanced-native/' >> .git/info/sparse-checkout
+              printf '%s\n' \
+                '/natural-english/' \
+                '/course-materials/advanced-native/' \
+                '/tools/advanced-native-bulk/' \
+                '/supabase/migrations/20261014222500_advanced_native_progress_compatibility.sql' \
+                '/supabase/migrations/20261015112057_advanced_native_lessons_06_10.sql' \
+                >> .git/info/sparse-checkout
               ;;&
             *'[junior-release]'*)
               printf '%s\n' '/junior-exam-prep/' '/junior-quiz-review/' >> .git/info/sparse-checkout
