@@ -192,8 +192,17 @@ jobs:
             grep -Fq "${GITHUB_SHA}" "${path}"
           done
 
+      - name: Remove verified R2 replicas only after same-domain cutover
+        if: vars.PAGES_R2_CUTOVER == 'true'
+        run: python3 source/tools/prune-verified-pages-media.py _site source/workers/edmund-public-media/src/media.json
+
       - name: Remove editorial QA reports and measure the upload
-        run: python3 source/tools/pages-artifact-inventory.py _site
+        env:
+          CUTOVER: ${{ vars.PAGES_R2_CUTOVER }}
+        run: |
+          options=()
+          if [[ "$CUTOVER" == true ]]; then options+=(--enforce); fi
+          python3 source/tools/pages-artifact-inventory.py _site "${options[@]}"
 
       - name: Name this build artifact
         id: artifact
