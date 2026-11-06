@@ -761,6 +761,7 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /const canonical = canonicalWritingTopicResource\(resource\)/);
   assert.match(script, /essayPortals\.hasFlashcards\(essayKey\)/);
   assert.match(script, /essayPortals\.href\("flashcards", essayKey\)/);
+  assert.match(script, /essayPortals\.href\("memorization", essayKey\)/);
   assert.match(script, /const writingHref = paper3TopicRoute\(canonical.id\) \|\| `writing-practice\.html\?exercise=\$\{encodeURIComponent\(exerciseId\)\}`/);
   assert.match(script, /writingHref,\s*memorizationHref:/);
   assert.doesNotMatch(script, /writingHref:\s*canonical\.url/);
@@ -770,6 +771,7 @@ test("registered writing topics expose guarded Open Book references without fuzz
   assert.match(script, /flashcards\.html\?deck=\$\{encodeURIComponent\(flashDeckId\)\}/);
   assert.match(script, /重溫 Flash Card 請按這裡：/);
   assert.match(script, /重溫 Fill In The Blanks 請按這裡：/);
+  assert.match(script, /重溫 Model Essay Memorization 請按這裡：/);
   assert.match(script, /展開以 Open Book 參考 Edmund 範文 Model Essay/);
   assert.match(script, /Vocab 生字 Mini Card · Edmund 主題性生字/);
   assert.match(script, /writing-submission-reference-data\.mjs\?v=/);
