@@ -30,7 +30,7 @@ async function rpc(name,args){
   return (await response.json())[0];
 }
 async function unpack(name,key){
-  const r=await fetch('/news-reader/'+name+'.bin');if(!r.ok)throw Error('教材載入失敗，請重新登入再試。');
+  const r=await fetch('/news-reader/'+name+'.bin',{cache:'no-store'});if(!r.ok)throw Error('教材載入失敗，請重新登入再試。');
   const data=new Uint8Array(await r.arrayBuffer());
   return crypto.subtle.decrypt({name:'AES-GCM',iv:data.slice(0,12)},key,data.slice(12));
 }
@@ -118,8 +118,7 @@ video.addEventListener('loadedmetadata',()=>{if(Number.isFinite(video.duration))
 video.addEventListener('error',()=>{if(mode==='video')switchAudio(video.currentTime,false,'本地影片暫時未能載入，已切換到原聲 MP3。');});
 function buildWords(){
   const list=$('wordList');list.replaceChildren();
-  for(const [level,items] of vocabularyGroups(lesson.questions)){
-    const heading=line(list,level+' · '+items.length+' 個詞彙','h3');heading.className='word-level';
+  for(const [,items] of vocabularyGroups(lesson.questions)){
     for(const q of items){const hits=Array.isArray(q.hits)?q.hits:[],b=button('',async()=>{
       const start=hits[0][0];if(mode==='video'){seek(start);await video.play();}
       else await switchAudio(start,true);
