@@ -1,8 +1,8 @@
 {
   "id": "/apps/news-reader",
-  "name": "新聞導讀系統｜EdmundEducation",
-  "short_name": "新聞導讀系統",
-  "description": "新聞導讀系統（News English）EdmundEducation 學習系統。",
+  "name": "日常聆聽系統｜EdmundEducation",
+  "short_name": "日常聆聽系統",
+  "description": "日常聆聽系統（Daily Listening Practice）EdmundEducation 學習系統。",
   "lang": "zh-Hant-HK",
   "dir": "ltr",
   "start_url": "/news-reader.html?source=pwa",

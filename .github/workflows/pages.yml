@@ -944,6 +944,7 @@ jobs:
           node tools/test-dse-analysis-batch.mjs
           node tools/test-ielts-reading-passage1-flashcards.mjs
           node tools/test-ielts-reading-passage2-flashcards.mjs
+          node tools/test-reading-daily.mjs
 
       - name: Validate focused DSE Listening release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[listening-release]') }}
