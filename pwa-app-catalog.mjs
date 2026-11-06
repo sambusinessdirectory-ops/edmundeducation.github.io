@@ -543,11 +543,20 @@ export const EDMUND_PWA_APPS = Object.freeze([
   {
     "id": "news-reader",
     "href": "news-reader.html",
-    "zh": "新聞導讀系統",
-    "en": "News English",
-    "name": "新聞導讀系統｜EdmundEducation",
-    "shortName": "新聞導讀系統",
+    "zh": "日常聆聽系統",
+    "en": "Daily Listening Practice",
+    "name": "日常聆聽系統｜EdmundEducation",
+    "shortName": "日常聆聽系統",
     "manifest": "/pwa-manifests/news-reader.webmanifest"
+  },
+  {
+    "id": "daily-reading",
+    "href": "daily-reading.html",
+    "zh": "日常閱讀理解系統",
+    "en": "Daily Reading Comprehension",
+    "name": "日常閱讀理解系統｜EdmundEducation",
+    "shortName": "日常閱讀理解",
+    "manifest": "/pwa-manifests/daily-reading.webmanifest"
   },
   {
     "id": "ielts-writing-preview",

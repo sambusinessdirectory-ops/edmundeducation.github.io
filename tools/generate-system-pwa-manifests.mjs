@@ -40,7 +40,7 @@ const shortNames = Object.freeze({
   "natural-english": "自然英文",
   "excellent-learning": "英文口音",
   "country-name-spelling": "國家名稱拼寫", "speech-curation": "名人演講精選", "chip-course": "晶片設計課程",
-  "junior-quiz-review": "測驗溫習", "news-discussion": "熱議新聞討論", "news-reader": "新聞導讀系統", "ielts-writing-preview": "IELTS 寫作預覽",
+  "junior-quiz-review": "測驗溫習", "news-discussion": "熱議新聞討論", "news-reader": "日常聆聽系統", "daily-reading": "日常閱讀理解", "ielts-writing-preview": "IELTS 寫作預覽",
   "ielts-chart-teaching": "IELTS 圖表教學", "literary-device": "修辭手法系統", "dse-practical-writing": "DSE 實用文練習",
   "policy-discussion": "政策討論", "dse-argument-bank": "DSE 論點大全"
 });
@@ -59,8 +59,8 @@ const appNames = Object.freeze({
 });
 
 const customIconApps = new Set(Object.keys(appNames));
-const themeColors = Object.freeze({ "natural-english": "#81543d", "polysemy-lab": "#173e48", "parent-communication": "#72598f", execution: "#221d36", "reading-comprehension": "#153f3a", "excellent-learning": "#10362f" });
-const backgroundColors = Object.freeze({ "natural-english": "#fbf6ee", "polysemy-lab": "#f5f5ef", "parent-communication": "#f3edfb", execution: "#f4f0e9", "reading-comprehension": "#f2f6f3", "excellent-learning": "#f4f2e9" });
+const themeColors = Object.freeze({ "natural-english": "#81543d", "polysemy-lab": "#173e48", "parent-communication": "#72598f", execution: "#221d36", "reading-comprehension": "#153f3a", "daily-reading": "#173f3a", "excellent-learning": "#10362f" });
+const backgroundColors = Object.freeze({ "natural-english": "#fbf6ee", "polysemy-lab": "#f5f5ef", "parent-communication": "#f3edfb", execution: "#f4f0e9", "reading-comprehension": "#f2f6f3", "daily-reading": "#eef2ea", "excellent-learning": "#f4f2e9" });
 const defaultIcons = Object.freeze([
   { src: "/assets/icons/icon-192x192.png", sizes: "192x192", type: "image/png", purpose: "any" },
   { src: "/assets/icons/edmundeducation-logo-512.png", sizes: "512x512", type: "image/png", purpose: "any" },

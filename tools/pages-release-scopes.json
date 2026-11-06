@@ -195,6 +195,8 @@
       "tools/test-language-editions.mjs"
     ],
     "[reading-release]": [
+      "daily-reading.*",
+      "daily-reading/**",
       "dse-reading-*",
       "ielts-reading-*",
       "reading-*",
