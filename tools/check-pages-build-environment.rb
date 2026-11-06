@@ -29,7 +29,7 @@ abort "No Pages builders found" if builders.empty?
 
 manifest = "tools/pages-validation-paths"
 paths = File.readlines(manifest, chomp: true)
-%w[/.github/workflows/ /tools/install-pages-browsers.sh /tools/pages-validation-paths /tools/check-pages-build-environment.rb].each do |required|
+%w[/.github/workflows/ /tools/install-pages-browsers.sh /tools/pages-validation-paths /tools/check-pages-build-environment.rb /paper3/reader-batch.zip /paper3/index.html /paper3/2013-b1/index.html].each do |required|
   abort "#{manifest} must include #{required}" unless paths.include?(required)
 end
 paths.each do |pattern|
