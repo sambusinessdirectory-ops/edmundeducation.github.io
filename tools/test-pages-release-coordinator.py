@@ -97,6 +97,18 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("/grammar-eddy-dialogues/", step)
         self.assertIn("/supabase/migrations/20260827103531_eddie_farm_points.sql", step)
 
+    def test_every_artifact_verifies_complete_runtime_dependency_closure(self):
+        standard = BUILDERS[0]
+        hydration = standard.split("- name: Hydrate complete source before full artifact preparation", 1)[1].split("\n      - name:", 1)[0]
+        self.assertIn("git sparse-checkout disable", hydration)
+        self.assertIn("Full artifact preparation cannot use a sparse checkout", hydration)
+        self.assertIn("git ls-tree -rz --name-only", hydration)
+        full = standard.split("- name: Prepare site files\n", 1)[1].split("\n      - name:", 1)[0]
+        self.assertIn("test -f /tmp/pages-complete-source", full)
+        closure = standard.split("- name: Verify complete student runtime dependency closure", 1)[1].split("\n      - name:", 1)[0]
+        self.assertIn("tools/verify-pages-artifact-dependencies.py", closure)
+        self.assertIn("tools/verify-pages-flashcard-runtime.py", closure)
+
     def test_every_build_validates_the_canonical_system_release_map(self):
         standard = BUILDERS[0]
         self.assertIn("Validate complete learning-system release coverage", standard)

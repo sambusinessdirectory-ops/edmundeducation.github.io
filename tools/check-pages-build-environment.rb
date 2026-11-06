@@ -56,6 +56,11 @@ builders.uniq.each do |path|
       if step.fetch("with", {}).key?("sparse-checkout")
         abort "#{path}: source sparse checkouts must include #{manifest}"
       end
+      if command.include?("git sparse-checkout disable")
+        abort "#{path}: full artifact hydration must reject remaining sparse state" unless command.include?("Full artifact preparation cannot use a sparse checkout")
+        abort "#{path}: full artifact hydration must verify every tracked path" unless command.include?('git ls-tree -rz --name-only "${GITHUB_SHA}"')
+        next
+      end
       next unless command.include?("core.sparseCheckout") || command.include?(".git/info/sparse-checkout")
       append = command.lines.index { |line| line.strip == 'git show "${GITHUB_SHA}:tools/pages-validation-paths" >> .git/info/sparse-checkout' }
       checkout = command.lines.index { |line| line.match?(/^\s*git checkout /) }
