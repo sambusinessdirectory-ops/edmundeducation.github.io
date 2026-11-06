@@ -30,7 +30,7 @@ async function rpc(name,args){
   return (await response.json())[0];
 }
 async function unpack(name,key){
-  const r=await fetch('/news-reader/'+name+'.bin');if(!r.ok)throw Error('教材載入失敗，請重新登入再試。');
+  const r=await fetch('/news-reader/'+name+'.bin',{cache:'no-store'});if(!r.ok)throw Error('教材載入失敗，請重新登入再試。');
   const data=new Uint8Array(await r.arrayBuffer());
   return crypto.subtle.decrypt({name:'AES-GCM',iv:data.slice(0,12)},key,data.slice(12));
 }
