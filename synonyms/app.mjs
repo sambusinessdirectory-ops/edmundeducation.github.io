@@ -52,6 +52,7 @@ let audioTicket = 0, activeAudioStatus = null;
 let owner = null, token = null, progress = {answers:{},order:[],cursor:0};
 let view = 'home', choice = null, streak = 0, saveState = 'loading', localAvailable = true;
 const moduleStates = new Map();
+let accountModuleCounts = new Map();
 let dashboardData={activityDays:[],timeDays:[]},dashboardRange='7',studyClockMs=0,lastStudyAction=Date.now(),lastStudyTick=Date.now(),studyTimeSyncing=false;
 let falseSynonyms = importantFalseSynonyms;
 let recorderDispose = null, recordingsEpoch = 0;
@@ -129,6 +130,12 @@ function mergeAllModuleProgress(rows) {
     storeModuleProgress(id,saved);
   }
 }
+function applyModuleOverview(rows) {
+  accountModuleCounts=new Map((rows||[]).map(row=>[
+    row.module_id,
+    {answered:Number(row.answered)||0,mastered:Number(row.mastered)||0}
+  ]));
+}
 const current = () => byId.get(progress.order?.[progress.cursor]) || null;
 const record = id => progress.answers[id] || null;
 const attempted = () => questions.filter(q => (record(q.id)?.attempts || 0) > 0).length;
@@ -195,8 +202,12 @@ async function loadAccount() {
   const expected = owner;
   saveState = 'loading'; updateSaveBadge();
   try {
-    const rows = await window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc('synonyms_important_list',{p_token:token});
+    const [rows,overview] = await Promise.all([
+      window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc('synonyms_important_list',{p_token:token}),
+      window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc('synonyms_progress_overview',{p_token:token}).catch(()=>[])
+    ]);
     if (owner !== expected) return;
+    applyModuleOverview(overview);
     mergeAllModuleProgress(rows);
     mergeServer(rows);
     saveState = pending.size ? 'saving' : 'saved'; updateSaveBadge();
@@ -384,7 +395,8 @@ function shell(content) {
 }
 function moduleCard(id,data) {
   const saved=moduleProgress(id), prefix=id==='important'?'':id==='social-media'?'social-':id+'-';
-  const count=Object.keys(saved.answers||{}).filter(key=>key.startsWith(prefix) && (saved.answers[key]?.attempts||0)>0).length;
+  const localCount=Object.keys(saved.answers||{}).filter(key=>key.startsWith(prefix) && (saved.answers[key]?.attempts||0)>0).length;
+  const count=Math.max(localCount,accountModuleCounts.get(id)?.answered||0);
   const exerciseCount=data.questionCount ?? data.words?.reduce((n,w)=>n+w.exercises.length,0) ?? 0;
   const guideCount=data.guideCount ?? data.words?.length ?? 0;
   const rank=data.rank?'PRIORITY '+String(data.rank).padStart(4,'0')+(data.legacy?' · 原有版本':''):'FEATURED';
@@ -507,7 +519,7 @@ function syncSession() {
   recorderDispose?.();recorderDispose=null;recordingsEpoch++;
   for(const url of recordingUrls.splice(0))URL.revokeObjectURL(url);recordingItems.clear();
   stopVoice();for(const url of cloudAudio.values())URL.revokeObjectURL(url);cloudAudio.clear();
-  owner=next;token=snapshot?.token||null;streak=0;choice=null;pending=new Map();moduleStates.clear();dashboardData={activityDays:[],timeDays:[]};studyClockMs=0;lastStudyAction=Date.now();lastStudyTick=Date.now();moduleId='important';moduleData=importantModule;words=moduleData.words;questions=makeQuestions(moduleId,words);byId=new Map(questions.map(q=>[q.id,q]));total=questions.length;falseSynonyms=importantFalseSynonyms;view='home';
+  owner=next;token=snapshot?.token||null;streak=0;choice=null;pending=new Map();moduleStates.clear();accountModuleCounts=new Map();dashboardData={activityDays:[],timeDays:[]};studyClockMs=0;lastStudyAction=Date.now();lastStudyTick=Date.now();moduleId='important';moduleData=importantModule;words=moduleData.words;questions=makeQuestions(moduleId,words);byId=new Map(questions.map(q=>[q.id,q]));total=questions.length;falseSynonyms=importantFalseSynonyms;view='home';
   if(owner){
     readLocal();saveState='loading';
     if(location.hash || new URLSearchParams(location.search).get('module')){
