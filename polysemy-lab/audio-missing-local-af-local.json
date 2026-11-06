@@ -3762,7 +3762,7 @@
     "sourceSha256": "befe30413d4401fa162179655ccf826f3e2a06bfbe8671de4b439d31135742aa"
   },
   "same-14-1": {
-    "path": "https://edmund-public-media.edmundeducation.workers.dev/polysemy-lab/audio/ec63dc1f6b8452443a9bceaf.mp3",
+    "path": "audio/ec63dc1f6b8452443a9bceaf.mp3",
     "voice": "american-female",
     "index": 28,
     "text": "Same to you.",
