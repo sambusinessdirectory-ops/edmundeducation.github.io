@@ -1,8 +1,19 @@
 (() => {
   'use strict';
-  window.EssayMemoryOpinion3Pilot = {
+  const terminal = {
+    cleanup: null,
+    destroy() {
+      this.cleanup?.();
+      this.cleanup = null;
+      document.querySelector('.pilot-site-toggle')?.remove();
+      document.querySelector('.pilot-tutorial')?.remove();
+      document.body.classList.remove('memory-terminal', 'opinion3-terminal', 'pilot-global-open', 'pilot-library-open', 'pilot-drawer-programs', 'pilot-drawer-dossier');
+      delete document.body.dataset.pilotReaderSize;
+      delete document.body.dataset.pilotStage;
+    },
     init() {
-      if (new URLSearchParams(location.search).get('essay') !== 'opinion:3' || document.body.classList.contains('opinion3-terminal')) return;
+      const lessonKey = new URLSearchParams(location.search).get('essay');
+      if (!lessonKey || document.body.classList.contains('memory-terminal')) return;
       const $ = selector => document.querySelector(selector);
       const shell = $('.shell');
       const mission = $('.mission');
@@ -10,7 +21,20 @@
       const setup = $('.setup-card');
       const catalogue = $('.memory-catalogue');
       if (!shell || !mission || !play || !setup || !catalogue) return;
-      document.body.classList.add('opinion3-terminal');
+      const controller = new AbortController();
+      const observers = [];
+      const watch = (callback, target, options) => {
+        const observer = new MutationObserver(callback);
+        observer.observe(target, options);
+        observers.push(observer);
+        return observer;
+      };
+      const meta = window.ESSAY_MEMORY_CATALOG?.find(item => item.key === lessonKey);
+      const lesson = window.ESSAY_MEMORY_LESSONS?.[lessonKey] || (lessonKey === 'opinion:80' ? window.ESSAY_80_MEMORY_DATA : null);
+      const number = meta?.title?.match(/^Model Essay\s+(\d+)/i)?.[1] || lessonKey.split(':').at(-1) || '—';
+      const taskType = (meta?.taskType || lesson?.taskType || lessonKey.split(':')[0]).replaceAll('-', ' ').toUpperCase();
+      const topic = lesson?.meta?.topic || '';
+      document.body.classList.add('memory-terminal', 'opinion3-terminal');
       const makeArrow = direction => {
         const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
         svg.setAttribute('class', 'pilot-arrow-svg');
@@ -42,7 +66,7 @@
         }
       };
       const syncReaderSize = () => { document.body.dataset.pilotReaderSize = Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--reader-scale')) > 1 ? 'enlarged' : 'standard'; };
-      new MutationObserver(syncReaderSize).observe(document.documentElement, { attributes:true, attributeFilter:['style'] });
+      watch(syncReaderSize, document.documentElement, { attributes:true, attributeFilter:['style'] });
       syncReaderSize();
       document.querySelector('meta[name="theme-color"]')?.setAttribute('content', '#272925');
 
@@ -61,11 +85,11 @@
       const hud = document.createElement('header');
       hud.className = 'pilot-hud';
       hud.innerHTML = `
-        <div class="pilot-hud-title"><span class="pilot-hud-kicker">EDMUND EDUCATION / MEMORY PROGRAM</span><h1>MEMORIZATION <em>TERMINAL</em></h1><p>MODEL ESSAY 03 <span>·</span> IELTS OPINION <span>·</span> 博物館與藝術</p></div>
+        <div class="pilot-hud-title"><span class="pilot-hud-kicker">EDMUND EDUCATION / MEMORY PROGRAM</span><h1>MEMORIZATION <em>TERMINAL</em></h1><p>MODEL ESSAY ${String(number).padStart(2, '0')} <span>·</span> ${taskType}${topic ? ` <span>·</span> ${topic}` : ''}</p></div>
         <div class="pilot-hud-actions"><div class="pilot-hud-meter"><small>PROGRAM / 關卡</small><strong data-pilot-stage>01 / 11</strong></div><div class="pilot-hud-meter"><small>STEPS / 進度</small><strong data-pilot-progress>0 / 0</strong></div><div class="pilot-hud-meter"><small>POINTS / 積分</small><strong data-pilot-points>0</strong></div><button type="button" data-pilot-help aria-label="查看操作說明">?</button></div>`;
       const cockpit = document.createElement('section');
       cockpit.className = 'pilot-cockpit';
-      cockpit.setAttribute('aria-label', 'Model Essay 3 記憶訓練介面');
+      cockpit.setAttribute('aria-label', `Model Essay ${number} 記憶訓練介面`);
       const programs = document.createElement('aside');
       programs.className = 'pilot-programs';
       programs.innerHTML = '<div class="pilot-panel-tab"><span>01 / PROGRAMS</span><strong>TRAINING FILES</strong></div>';
@@ -73,7 +97,7 @@
       workspace.className = 'pilot-workspace';
       const workspaceLabel = document.createElement('div');
       workspaceLabel.className = 'pilot-workspace-label';
-      workspaceLabel.innerHTML = '<span>ACTIVE FILE / 03</span><strong>REMEMBER THE ARGUMENT</strong>';
+      workspaceLabel.innerHTML = `<span>ACTIVE FILE / ${String(number).padStart(2, '0')}</span><strong>REMEMBER THE ARGUMENT</strong>`;
       const dossier = document.createElement('aside');
       dossier.className = 'pilot-dossier';
       dossier.innerHTML = '<div class="pilot-panel-tab"><span>02 / DOSSIER</span><strong>ESSAY EVIDENCE</strong></div>';
@@ -155,7 +179,7 @@
           }
         });
       };
-      new MutationObserver(decorateCabinet).observe(catalogue, {childList:true, subtree:true});
+      watch(decorateCabinet, catalogue, {childList:true, subtree:true});
       decorateCabinet();
       library.addEventListener('toggle', () => document.body.classList.toggle('pilot-library-open', library.open));
       switchEssay.addEventListener('click', () => { library.open = true; library.querySelector('summary').focus(); });
@@ -164,7 +188,7 @@
       const tutorial = document.createElement('dialog');
       tutorial.className = 'pilot-tutorial';
       tutorial.setAttribute('aria-labelledby', 'pilot-tutorial-title');
-      tutorial.innerHTML = '<div class="pilot-tutorial-paper"><span class="pilot-tutorial-kicker">FIELD MANUAL / 03</span><h2 id="pilot-tutorial-title">這份訓練檔怎樣使用？</h2><ol><li><b>左側選關卡。</b>十一項訓練可隨時重溫。</li><li><b>中間完成當前練習。</b>答題、重組與朗讀按原本規則運作。</li><li><b>右側核對題目。</b>字體、語速、錄音和進度工具都在下方。</li></ol><button type="button" data-pilot-close>開始練習 <span aria-hidden="true">→</span></button></div>';
+      tutorial.innerHTML = `<div class="pilot-tutorial-paper"><span class="pilot-tutorial-kicker">FIELD MANUAL / ${String(number).padStart(2, '0')}</span><h2 id="pilot-tutorial-title">這份訓練檔怎樣使用？</h2><ol><li><b>左側選關卡。</b>十一項訓練可隨時重溫。</li><li><b>中間完成當前練習。</b>答題、重組與朗讀按原本規則運作。</li><li><b>右側核對題目。</b>字體、語速、錄音和進度工具都在下方。</li></ol><button type="button" data-pilot-close>開始練習 <span aria-hidden="true">→</span></button></div>`;
       document.body.append(tutorial);
       replaceUIArrows(dossier);
       replaceUIArrows(tutorial);
@@ -180,6 +204,7 @@
       };
       if (!dockQuestion()) {
         const questionObserver = new MutationObserver(() => { if (dockQuestion()) questionObserver.disconnect(); });
+        observers.push(questionObserver);
         questionObserver.observe(document.body, { childList: true });
       }
 
@@ -192,20 +217,23 @@
         document.body.dataset.pilotStage = String(number);
       };
       const scheduleSync = () => requestAnimationFrame(syncHud);
-      new MutationObserver(scheduleSync).observe($('#stage-rail'), { childList: true });
-      new MutationObserver(scheduleSync).observe($('#overall-number'), { childList: true, characterData: true, subtree: true });
-      new MutationObserver(scheduleSync).observe($('#star-count'), { childList: true, characterData: true, subtree: true });
+      watch(scheduleSync, $('#stage-rail'), { childList: true });
+      watch(scheduleSync, $('#overall-number'), { childList: true, characterData: true, subtree: true });
+      watch(scheduleSync, $('#star-count'), { childList: true, characterData: true, subtree: true });
       syncHud();
 
       const card = $('#game-card');
-      const sentences = window.ESSAY_MEMORY_LESSONS?.['opinion:3']?.sentences || [];
-      const meaningCues = [
+      const sentences = lesson?.sentences || [];
+      const opinion3Cues = [
         '博物館塑造文化理解','有人主張只展本地作品','本文反對這項限制','國際館藏有兩項益處',
         '外國作品提高教育價值','缺少比較會令理解狹窄','並列作品可看見文化共通點','國際藝術深化社會理解',
         '作品呈現不同社會經驗','排除外國藝術削弱館藏價值','國際藝術也有益本地創作者','陌生技法促進藝術家進步',
         '外來影響打破創作重複','年輕藝術家帶回新視角','多元展覽吸引更多觀眾','交替展覽也讓觀眾發現本地人才',
         '結論：不應只展本地作品','重申反對立場','國際藝術有益公眾與本地藝術'
       ];
+      const meaningCues = lessonKey === 'opinion:3'
+        ? opinion3Cues
+        : sentences.map(() => '');
       const cueBySentence = new Map(sentences.map((sentence, index) => [sentence.english.trim().toLowerCase(), meaningCues[index]]));
       const reference = document.createElement('details');
       reference.className = 'pilot-phrase-reference';
@@ -335,12 +363,12 @@
           replaceUIArrows(card);
         }
       };
-      new MutationObserver(records => {
+      watch(records => {
         if (records.some(record => record.addedNodes.length || record.removedNodes.length)) { presentRound(); presentSuccess(); fitRound(); }
-      }).observe(card, { childList: true });
+      }, card, { childList: true });
       presentRound();
-      window.addEventListener('resize', fitRound);
-      new MutationObserver(fitRound).observe(document.documentElement, { attributes:true, attributeFilter:['style'] });
+      window.addEventListener('resize', fitRound, {signal:controller.signal});
+      watch(fitRound, document.documentElement, { attributes:true, attributeFilter:['style'] });
       document.fonts?.ready.then(fitRound);
       card.addEventListener('click', event => {
         if (!event.target.closest('[data-pilot-review]')) return;
@@ -376,7 +404,15 @@
         panel.prepend(close);
       }
       $('#stage-rail').addEventListener('click', closeDrawer);
-      document.addEventListener('keydown', event => { if (event.key === 'Escape') closeDrawer(); });
+      document.addEventListener('keydown', event => { if (event.key === 'Escape') closeDrawer(); }, {signal:controller.signal});
+      this.cleanup = () => {
+        controller.abort();
+        observers.forEach(observer => observer.disconnect());
+        cancelAnimationFrame(cabinetFrame);
+        cancelAnimationFrame(fitFrame);
+      };
     }
   };
+  window.EssayMemoryTerminalHUD = terminal;
+  window.EssayMemoryOpinion3Pilot = terminal;
 })();

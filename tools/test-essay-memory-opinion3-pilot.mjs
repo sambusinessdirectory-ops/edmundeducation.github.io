@@ -133,10 +133,23 @@ for(const width of [768,1024]){
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,`${width}px tablet overflow`);
   assert.equal(await page.evaluate(()=>document.scrollingElement.scrollHeight>innerHeight+2),false,`${width}px tablet document scroll`);
 }
-await page.goto(`${base}/essay-memorization.html?essay=opinion%3A4`);
-await page.locator('.play-area').waitFor({state:'visible'});
-assert.equal(await page.locator('body.opinion3-terminal').count(),0);
-assert.equal(await page.locator('.pilot-cockpit').count(),0);
+await page.evaluate(()=>{window.__memoryDocumentMarker={sameDocument:true};});
+await page.locator('.pilot-library').evaluate(node=>{node.open=true;});
+await page.waitForFunction(()=>document.body.classList.contains('pilot-library-open'));
+if(!await page.locator('[data-memory-essay="opinion:4"]').count()){
+  const opinionType=page.locator('[data-memory-pathway-type]').filter({hasText:'Opinion'}).first();
+  if(await opinionType.count())await opinionType.click();
+}
+await page.locator('[data-memory-essay="opinion:4"]').click();
+await page.waitForURL(/essay=opinion%3A4/);
+await page.locator('body.memory-terminal').waitFor();
+await page.locator('.pilot-hud-title').filter({hasText:'MODEL ESSAY 04'}).waitFor();
+assert.equal(await page.evaluate(()=>window.__memoryDocumentMarker?.sameDocument),true,'essay switch reloaded the document');
+assert.equal(await page.locator('.memory-login-view').isHidden(),true);
+assert.equal(await page.locator('.pilot-cockpit').count(),1);
+assert.equal(await page.locator('.pilot-workspace-label').getByText('ACTIVE FILE / 04').count(),1);
+assert.equal(await page.locator('.pilot-programs .stage-node').count(),11);
+assert.equal(await page.locator('[data-memory-student-name]').textContent(),'Learner · 學生');
 assert.deepEqual(errors,[]);
 await browser.close();
-console.log('PASS: Opinion 3 pilot composition, HUD, controls, tutorial, mission interaction, mobile layout and lesson isolation.');
+console.log('PASS: shared terminal HUD, controls, mobile layout and in-place authenticated essay switching.');
