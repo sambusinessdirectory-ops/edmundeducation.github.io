@@ -45,20 +45,32 @@ const checks = {
   },
 
   async "news-reader"() {
-    const [html, runtime, css, lesson, audio] = await Promise.all([
+    const [html, runtime, css, lesson, audio, smokingLesson, smokingAudio, smokingVideo, smokingPoster] = await Promise.all([
       read("news-reader.html"),
       read("news-reader/news.mjs"),
       read("news-reader/news.css"),
       existsWithBytes("news-reader/lesson.bin"),
       existsWithBytes("news-reader/audio.bin"),
+      existsWithBytes("news-reader/smoking-impact.bin"),
+      existsWithBytes("news-reader/smoking-impact-audio.bin"),
+      existsWithBytes("news-reader/smoking-impact.mp4"),
+      existsWithBytes("news-reader/smoking-impact-poster.jpg"),
     ]);
     assert.match(html, /news-reader\/news\.mjs/);
     assert.match(html, /news-reader\/news\.css/);
-    assert.match(runtime, /unpack\('lesson'/);
-    assert.match(runtime, /unpack\('audio'/);
+    assert.match(html, /data-lesson-pack="lesson"/);
+    assert.match(html, /data-lesson-pack="smoking-impact"/);
+    assert.match(runtime, /querySelectorAll\('\[data-lesson-pack\]'/);
+    assert.match(runtime, /pack=entry\.dataset\.lessonPack/);
+    assert.match(runtime, /unpack\(pack,mediaKey/);
+    assert.match(runtime, /unpack\(audioPack/);
     assert.match(css, /\.portal-header/);
     assert.equal(lesson, true);
     assert.equal(audio, true);
+    assert.equal(smokingLesson, true);
+    assert.equal(smokingAudio, true);
+    assert.equal(smokingVideo, true);
+    assert.equal(smokingPoster, true);
   },
 };
 

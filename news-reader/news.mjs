@@ -1,4 +1,4 @@
-import {clearListening,renderListening} from './listening.mjs?v=revised-20261106-1';
+import {clearListening,renderListening} from './listening.mjs?v=smoking-20261106-1';
 const $ = id => document.getElementById(id);
 const audio = $('audio');
 const video = $('video');
@@ -7,7 +7,7 @@ const storageKey = 'edmund-news-reader-student-v1';
 const rates = [.5,.75,1,1.25,1.5,1.75,2,2.25,2.5,2.75,3];
 for (const value of rates) rate.add(new Option(value+'×',value));
 rate.value = '1';
-let lesson, mediaKey, audioUrl, sessionTimer, audioRequest, transitionTimer;
+let lesson, mediaKey, audioUrl, audioPack='audio', sessionTimer, audioRequest, transitionTimer;
 let generation = 0, mode = 'video', frame, lastCue, activeHits = '';
 let clipEnd = null;
 let studentToken = '', modeId = 'L', answers = new Map(), positions = {};
@@ -29,7 +29,7 @@ async function rpc(name,args){
   return (await response.json())[0];
 }
 async function unpack(name,key){
-  const r=await fetch('/news-reader/'+name+'.bin'+(name==='lesson'?'?part=1':''));if(!r.ok)throw Error('教材載入失敗，請重新登入再試。');
+  const r=await fetch('/news-reader/'+name+'.bin');if(!r.ok)throw Error('教材載入失敗，請重新登入再試。');
   const data=new Uint8Array(await r.arrayBuffer());
   return crypto.subtle.decrypt({name:'AES-GCM',iv:data.slice(0,12)},key,data.slice(12));
 }
@@ -37,21 +37,18 @@ async function enter(token,g){
   const row=await rpc('news_reader_student_publication',{p_student_token:token});
   if(!row?.content_key)throw Error('學生登入已過期，請重新登入。');
   const key=await crypto.subtle.importKey('raw',Uint8Array.from(row.content_key.match(/../g),x=>parseInt(x,16)),{name:'AES-GCM'},false,['decrypt']);
-  const data=JSON.parse(new TextDecoder().decode(await unpack('lesson',key)));
   if(g!==generation)return;
-  lesson=data;mediaKey=key;studentToken=token;sessionStorage.setItem(storageKey,token);
+  mediaKey=key;studentToken=token;sessionStorage.setItem(storageKey,token);
   sessionTimer=setTimeout(()=>logout('學生登入已過期。'),Math.min(2147483647,Math.max(0,Date.parse(row.expires_at)-Date.now())));
   $('user').textContent=row.student_name;$('logout').hidden=false;$('password').value='';
-  $('entry').querySelector('strong').textContent=lesson.title;$('entry').querySelector('span').textContent=lesson.zh;
   view('library');
 }
 function stop(){clipEnd=null;audio.pause();video.pause();cancelAnimationFrame(frame);}
 function logout(message=''){
   generation++;stop();clearTimeout(sessionTimer);audio.removeAttribute('src');audio.load();video.currentTime=0;if(audioUrl)URL.revokeObjectURL(audioUrl);
-  audioRequest=null;audioUrl=null;studentToken='';lesson=null;mediaKey=null;answers.clear();clearListening();modeId='L';positions={};
+  audioRequest=null;audioUrl=null;audioPack='audio';studentToken='';lesson=null;mediaKey=null;answers.clear();clearListening();modeId='L';positions={};
   sessionStorage.removeItem(storageKey);$('user').textContent='';$('logout').hidden=true;
   for(const id of ['wordList','question','en','zh','title','translation','modes'])$(id).replaceChildren();
-  $('entry').querySelector('strong').textContent='';$('entry').querySelector('span').textContent='';
   view('gate');$('loginStatus').textContent=message;
 }
 $('logout').onclick=()=>{window.EdmundSystemNav?.forgetStudentSession?.();logout();};
@@ -68,7 +65,7 @@ if(saved){const g=++generation;enter(saved,g).catch(e=>{if(g===generation)logout
 async function loadAudio(){
   if(audioUrl)return;
   if(!audioRequest){const g=generation;
-    audioRequest=unpack('audio',mediaKey).then(bytes=>{if(g!==generation)return;
+    audioRequest=unpack(audioPack,mediaKey).then(bytes=>{if(g!==generation)return;
       audioUrl=URL.createObjectURL(new Blob([bytes],{type:'audio/mpeg'}));audio.src=audioUrl;audio.load();
     }).catch(e=>{if(g===generation)audioRequest=null;throw e;});}
   return audioRequest;
@@ -143,7 +140,22 @@ function practice(){
   for(const [label,delta] of [['上一題',-1],['下一題',1]]){const b=button(label,()=>{positions[modeId]=i+delta;practice();});b.disabled=i+delta<0||i+delta>=qs.length;box.append(b);}
   if(answer!==undefined)box.append(button('重做本題',()=>{answers.delete(q.id);practice();}));
 }
-$('entry').onclick=()=>{if(!studentToken)return;view('lesson');$('title').textContent=lesson.title;$('translation').textContent=lesson.zh;
-  buildWords();practice();activeHits='';lastCue=null;mode='video';tabs();video.currentTime=0;tick();switchVideo(0,false);};
+for(const entry of document.querySelectorAll('[data-lesson-pack]'))entry.onclick=async()=>{
+  if(!studentToken||!mediaKey)return;
+  const g=generation,pack=entry.dataset.lessonPack;
+  $('libraryStatus').textContent='正在開啟教材…';entry.setAttribute('aria-busy','true');
+  try{
+    const data=JSON.parse(new TextDecoder().decode(await unpack(pack,mediaKey)));
+    if(g!==generation)return;
+    stop();if(audioUrl)URL.revokeObjectURL(audioUrl);audioUrl=null;audioRequest=null;audio.removeAttribute('src');audio.load();
+    lesson=data;audioPack=data.media?.audioPack||entry.dataset.audioPack||'audio';answers.clear();clearListening();modeId='L';positions={};
+    const source=$('videoSource');source.src=data.media?.video||entry.dataset.video;video.poster=data.media?.poster||entry.dataset.poster||'';video.load();
+    $('seek').max=String(data.media?.duration||321);$('lessonKicker').textContent=entry.querySelector('small')?.textContent||'NEWS ENGLISH　/　LESSON';
+    view('lesson');$('title').textContent=lesson.title;$('translation').textContent=lesson.zh;
+    buildWords();practice();activeHits='';lastCue=null;mode='video';tabs();video.currentTime=0;tick();switchVideo(0,false);
+    $('libraryStatus').textContent='';
+  }catch(error){if(g===generation)$('libraryStatus').textContent='教材未能開啟。'+error.message;}
+  finally{entry.removeAttribute('aria-busy');}
+};
 $('jumpListening').onclick=()=>{modeId='L';practice();};
 $('back').onclick=()=>{stop();view('library');};

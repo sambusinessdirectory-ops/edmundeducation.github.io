@@ -1,6 +1,6 @@
 const drafts = new Map();
 export function clearListening(){drafts.clear();}
-const normalize = s => s.toLowerCase().trim().replace(/[,$.!?]/g,'').replace(/[-‐‑]/g,' ').replace(/\s+/g,' ');
+const normalize = s => s.toLowerCase().trim().replace(/[,$.!?'’]/g,'').replace(/[-‐‑]/g,' ').replace(/\s+/g,' ');
 const alternatives = {
   'two':['2'], '2':['two'], '1000000':['one million','1 million','a million'],
   'a full body scan':['full body scan'], 'two weeks':['2 weeks'],
