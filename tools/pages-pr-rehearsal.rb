@@ -12,7 +12,7 @@ Dir.mktmpdir do |dir|
     system("bash", "-ec", checkout, exception: true)
     system("bash", "-ec", writing, exception: true)
     # Only after rehearsal, add inputs for the checks used by full releases.
-    system("git", "sparse-checkout", "add", "--no-cone", "/pwa-manifests/", "/workers/shared-answer-comparison.js", "/**/*.html", exception: true)
+    system("git", "sparse-checkout", "add", "/pwa-manifests/", "/workers/shared-answer-comparison.js", "/**/*.html", exception: true)
     system("bash", "tools/pages-early-checks.sh", exception: true)
   end
 end

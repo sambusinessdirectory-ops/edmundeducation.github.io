@@ -12,6 +12,11 @@ coordinator = workflows.fetch(".github/workflows/pages-release-coordinator.yml")
 unless coordinator["concurrency"] == { "group" => "pages-release-main", "queue" => "max", "cancel-in-progress" => false }
   abort "Pages releases must queue through publication and snapshot completion"
 end
+rehearsal = workflows.fetch(".github/workflows/pages-queue-rehearsal.yml").fetch("concurrency")
+unless rehearsal.reject { |key, _| key == "group" } == coordinator.fetch("concurrency").reject { |key, _| key == "group" } &&
+    rehearsal.fetch("group").start_with?("pages-rehearsal-")
+  abort "Isolated rehearsal must exercise the production queue settings in its own group"
+end
 builders = coordinator.fetch("jobs").values.map { |job| job["uses"] }.compact.map { |path| path.delete_prefix("./") }
 builders.delete(".github/workflows/publish-pages-artifact.yml")
 workflows.each do |path, workflow|
