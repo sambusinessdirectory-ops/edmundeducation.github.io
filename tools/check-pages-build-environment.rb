@@ -41,6 +41,7 @@ end
 
 builders.uniq.each do |path|
   workflows.fetch(path).fetch("jobs").each do |name, job|
+    abort "#{path}: build scheduling belongs to the coordinator" if job.key?("concurrency")
     abort "#{path}: #{name} must use the supported ubuntu-24.04 runner" unless job["runs-on"] == "ubuntu-24.04"
     job.fetch("steps").each do |step|
       command = step.fetch("run", "")
