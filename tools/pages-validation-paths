@@ -3,6 +3,10 @@
 /tools/pages-validation-paths
 /tools/check-pages-build-environment.rb
 /tools/pages-artifact-inventory.py
+/tools/verify-pages-artifact-dependencies.py
+/tools/test-verify-pages-artifact-dependencies.py
+/tools/verify-pages-flashcard-runtime.py
+/tools/test-verify-pages-flashcard-runtime.py
 /tools/prune-verified-pages-media.py
 /tools/rewrite-pages-public-media.py
 /tools/test-rewrite-pages-public-media.py

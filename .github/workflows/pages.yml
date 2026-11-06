@@ -1658,6 +1658,35 @@ jobs:
           fetch-depth: 1
           persist-credentials: false
 
+      - name: Hydrate complete source before full artifact preparation
+        if: steps.preparation.outputs.mode == 'full'
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "$(git config --bool core.sparseCheckout || true)" == true ]]; then
+            df -h /
+            sudo rm -rf -- \
+              /usr/local/lib/android/sdk \
+              /usr/share/dotnet \
+              /opt/ghc
+            git sparse-checkout disable
+            git checkout -q --detach "${GITHUB_SHA}"
+          fi
+          if [[ "$(git config --bool core.sparseCheckout || true)" == true ]]; then
+            echo "::error::Full artifact preparation cannot use a sparse checkout"
+            exit 1
+          fi
+          missing=0
+          while IFS= read -r -d '' path; do
+            if [[ ! -e "$path" ]]; then
+              echo "::error::Complete source checkout is missing $path"
+              missing=$((missing + 1))
+              if (( missing >= 25 )); then break; fi
+            fi
+          done < <(git ls-tree -rz --name-only "${GITHUB_SHA}")
+          (( missing == 0 ))
+          touch /tmp/pages-complete-source
+
       - name: Prepare site files incrementally
         if: steps.preparation.outputs.mode == 'incremental'
         shell: bash
@@ -1685,6 +1714,7 @@ jobs:
       - name: Prepare site files
         if: steps.preparation.outputs.mode == 'full'
         run: |
+          test -f /tmp/pages-complete-source
           mkdir _site
           node tools/ielts-reading-analysis-publication-excludes.mjs > /tmp/ielts-reading-analysis-excludes.txt
           rsync -av \
@@ -1807,6 +1837,18 @@ jobs:
             --origin "${PAGES_MEDIA_ORIGIN}" \
             --keep-list tools/pages-media-saved-links.txt
           printf '%s\n' "${PAGES_MEDIA_ORIGIN}" > _site/.r2-public-media-origin
+
+      - name: Verify complete student runtime dependency closure
+        run: |
+          python3 -m unittest \
+            tools/test-verify-pages-artifact-dependencies.py \
+            tools/test-verify-pages-flashcard-runtime.py
+          python3 tools/verify-pages-flashcard-runtime.py _site --source .
+          python3 tools/verify-pages-artifact-dependencies.py \
+            _site \
+            --source . \
+            --system-map tools/pages-system-release-map.json \
+            --git-ref "${GITHUB_SHA}"
 
       - name: Remove editorial QA reports and measure the upload
         env:
