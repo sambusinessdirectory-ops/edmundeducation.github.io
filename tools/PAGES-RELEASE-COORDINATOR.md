@@ -129,3 +129,13 @@ changing or withdrawing media, coordinate a new version of the index and its
 references with the content release. To roll back, disable the variable and rebuild
 the full artifact from source. The snapshot marker prevents a focused overlay from
 being mistaken for a complete rollback.
+
+### Production cutover record
+
+R2-backed packaging was activated on 2026-11-06 after media-cutover run
+`42198068439` verified the `workers.dev` origin and recovery runs
+`42198240071`, `42198464677`, and `42198505717` proved publication,
+live-verification, and snapshot retries with the original immutable artifact.
+The activation release must complete a full build, remain below the 1 GB
+uncompressed limit, and pass the saved-link and student-journey checks before the
+cutover is considered complete.
